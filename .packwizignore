@@ -1,0 +1,52 @@
+# Repository and project documentation are not game overrides.
+.git/
+.gitignore
+.packwizignore
+README.md
+docs/
+scripts/
+tests/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Generated distributions and local test installations.
+dist/
+build/
+exports/
+client/
+server/
+instances/
+run/
+world/
+world_nether/
+world_the_end/
+backups/
+logs/
+crash-reports/
+.cache/
+cache/
+tmp/
+tools/
+*.mrpack
+*.zip
+*.log
+
+# Secrets and local preferences must never enter a distributed pack.
+.env
+.env.*
+*.pem
+*.key
+options.txt
+servers.dat
+servers.dat_old
+.DS_Store
+Thumbs.db
+
+# Local task outputs and metadata.
+reports/
+.archive/
+justfile
+.agents/
+.codex/
+.aws/

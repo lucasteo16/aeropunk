@@ -1,0 +1,14 @@
+{
+  "configVersion": 9,
+  "safeMode": true,
+  "tickCulling": false,
+  "entityWhitelist": [
+    "botania:mana_burst",
+    "drg_flares:drg_flares",
+    "quark:soul_bead",
+    "create:contraption",
+    "create:stationary_contraption",
+    "create:gantry_contraption",
+    "create:carriage_contraption"
+  ]
+}

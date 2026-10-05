@@ -1,0 +1,13 @@
+name = "Aeropunk"
+author = "Lucas"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "98d4710b089451ee6c7db6f738d4c18e4cb93bf162ac297446ac19dc5adf8293"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.255"

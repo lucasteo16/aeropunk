@@ -1,0 +1,62 @@
+# Track pack.toml, index.toml, *.pw.toml, and shared configurations.
+# Keep downloaded binaries and generated distributions out of Git.
+*.jar
+/*.mrpack
+/*.zip
+/dist/
+/build/
+/exports/
+
+# Local installations, runtime output, and world data.
+/.minecraft/
+/instances/
+/client/
+/server/
+/run/
+/world/
+/world_nether/
+/world_the_end/
+/backups/
+/logs/
+/crash-reports/
+*.log
+
+# Test sources remain tracked, but Python test output does not.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local caches and tools.
+/.cache/
+/cache/
+/tmp/
+/tools/
+/packwiz
+/packwiz.exe
+/packwiz-installer-bootstrap.jar
+
+# Credentials and machine-specific settings.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/options.txt
+/optionsof.txt
+/servers.dat
+/servers.dat_old
+/usercache.json
+/usernamecache.json
+
+# Editor and operating system files.
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local task outputs and metadata.
+/reports/
+/.archive/

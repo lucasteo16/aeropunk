@@ -1,0 +1,90 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "23e56c7e1b1c83fec4a9bd9d2d813c472e9baf466084b401d2cf5234ebbe9f96"
+
+[[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "621de259778892a6369517d2a2c79de33f8aaefe7f8b2481c0e23a5488485598"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "b9aaadff5300ec35b0f4b62f9d9f5cd08aedf0e6c9ebd8d746b06dfd8a755577"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "33a525132ca655d6cf6bcd0cc65e5b1a639582345300c7a18523f87a07486740"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "c89099b7f703800ff62927fb4759ba822eb882fc7c74fccc9f95ab81d3db58cf"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "76c4dadeba71448d8b0be3e10d15b9e803d6f1aca812989f3a22604de94c61fe"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "b4bbe1023e3adb39173823599788b7cb04e6ac550aa488dd0aa74cbc10571e79"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "3ed4e47d64f7d2d467c334e206d6ddd9e7ea3307128c253e38080124d299d732"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "15bd26fe60dda0f52bb383284f77d8f41b0033a211e954669ca7181e9a0d9a08"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "ef842fc888ebc2f69b632fffbcde27ea26bea889cd2a77f6ab967a8343f70a8a"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "94568b1e4198e082b65364844481d42eff897621d4842fc4774a3e6a4e2137cd"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.pw.toml"
+hash = "e95ca46330d1a5d031b1e30e624a0e3090702f598df231574a4d1b8a743e7e53"
+metafile = true
+
+[[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "9330edad6137d165593d00ed78373d4f72e887157f4eab7be42c345d90fc8c0c"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "20140ed1edd0a9208a9c6cc4d88b49a92f5800f9ff159c3efcabe2552985ea71"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+hash = "fc0210472f4f21f9d54c97bf126eb20f85639f63f6f5d16da68fe6857ecabcf0"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "5eef19e6ac67ed27b506fa464d2673cb0ea2ed4d389831b62d8b4b815a8bcf5b"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "fd7473a15dd771e7a7f53159840799afffc62dda2abc4ee95d7ee0cbeac569b2"
+metafile = true
+
+[[files]]
+file = "mods/streams-reflowing.pw.toml"
+hash = "2928ef46eccd6e6237de0073ae3182a6435ccabda1a2f923e6e50d7629af3911"
+metafile = true
