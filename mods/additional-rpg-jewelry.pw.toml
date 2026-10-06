@@ -1,0 +1,14 @@
+name = "Additional Jewelry (RPG Series Plus)"
+filename = "additional_rpg_jewelry-neoforge-2.3.1+1.21.1.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/rULzJh3O/versions/FtXm9snY/additional_rpg_jewelry-neoforge-2.3.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "19be8475df1fa5d225a23bb42d44963661b708b3ef489124cc1ae0f488f5b5b903e7e63538410db34ce325241ef52bda56f40f5adf86963665287ac2b17db621"
+
+[update]
+[update.modrinth]
+mod-id = "rULzJh3O"
+version = "FtXm9snY"

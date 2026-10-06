@@ -5,7 +5,6 @@ import hashlib
 import json
 import os
 from pathlib import Path
-import shutil
 import subprocess
 import time
 import tomllib
@@ -19,56 +18,29 @@ def new_run(root, label='smoke'):
     return directory
 
 
-def extract_server_export(archive, runtime, expected_versions, expected_mods=None):
+def build_server_export(root, directory):
+    # Packwiz owns archive generation. The existing Docker installer owns
+    # downloads, server-side selection, override extraction and loader setup.
+    archive = directory / 'server.mrpack'
+    subprocess.run(['packwiz', 'modrinth', 'export', '--output', str(archive)],
+                   cwd=root, check=True, timeout=300)
     with zipfile.ZipFile(archive) as exported:
         if exported.testzip():
-            raise ValueError('Corrupt server archive')
-        manifest = json.loads(exported.read('manifest.json'))
-        if manifest.get('files'):
-            raise ValueError('Unresolved CurseForge references are unsupported until a resolver exists')
-        minecraft = manifest['minecraft']
-        loaders = minecraft['modLoaders']
-        if len(loaders) != 1 or not loaders[0]['id'].startswith('neoforge-'):
-            raise ValueError('Export must specify exactly one NeoForge loader')
-        versions = {'minecraft': minecraft['version'], 'neoforge': loaders[0]['id'].removeprefix('neoforge-')}
-        if versions != expected_versions:
+            raise ValueError('Corrupt exported archive')
+        index = json.loads(exported.read('modrinth.index.json'))
+        versions = index['dependencies']
+        expected = tomllib.loads((root / 'pack.toml').read_text())['versions']
+        if versions != expected:
             raise ValueError(f'Export versions differ from pack.toml: {versions}')
-        entries = []
-        seen = set()
         for item in exported.infolist():
             path = Path(item.filename)
             if (path.is_absolute() or '..' in path.parts or '\\' in item.filename
                     or (item.external_attr >> 16) & 0o170000 == 0o120000):
                 raise ValueError(f'Unsafe archive path: {item.filename}')
-            if not item.filename.startswith('overrides/') or item.is_dir():
-                continue
-            relative = Path(item.filename.removeprefix('overrides/'))
-            if relative in seen or not relative.parts:
-                raise ValueError(f'Unsafe duplicate archive path: {item.filename}')
-            seen.add(relative)
-            entries.append((item, relative))
-        actual_mods = {path.name for _, path in entries if path.parent == Path('mods') and path.suffix == '.jar'}
-        if expected_mods is not None and actual_mods != expected_mods:
-            raise ValueError(f'Export server artifacts differ: expected {sorted(expected_mods)}, got {sorted(actual_mods)}')
-        runtime.mkdir()  # Must be fresh; never reuse a world or follow existing links.
-        for item, relative in entries:
-            target = runtime / relative
-            target.parent.mkdir(parents=True, exist_ok=True)
-            with exported.open(item) as source, target.open('xb') as destination:
-                shutil.copyfileobj(source, destination)
-    return {'versions': versions, 'mod_count': len(list((runtime / 'mods').glob('*.jar')))}
-
-
-def build_server_export(root, directory):
-    from tasks import native_export
-    archive = native_export(root, directory, 'server')
-    versions = tomllib.loads((root / 'pack.toml').read_text())['versions']
-    metadata = [tomllib.loads(path.read_text()) for path in (root / 'mods').glob('*.pw.toml')]
-    expected_mods = {mod['filename'] for mod in metadata if mod.get('side', 'both') != 'client'}
-    result = extract_server_export(archive, directory / 'runtime', versions, expected_mods)
-    result.update(archive=str(archive), archive_sha256=hashlib.sha256(archive.read_bytes()).hexdigest())
-    (directory / 'export.json').write_text(json.dumps(result, indent=2) + '\n')
-    return result
+    (directory / 'runtime').mkdir()  # A fresh installation, never an existing world.
+    return {'versions': versions, 'format': 'modrinth', 'archive': str(archive),
+            'archive_sha256': hashlib.sha256(archive.read_bytes()).hexdigest(),
+            'installer': 'mc-image-helper install-modrinth-modpack'}
 
 
 class PhaseReport:
@@ -110,14 +82,14 @@ def smoke(engine, timeout=600, stop_timeout=60, report=None):
         engine.up()
         startup_phase = False
         while time.monotonic() - started < timeout:
-            state = engine.state()
-            if not state['Running']:
-                raise RuntimeError(f'Server exited before readiness: {state}')
             logs = engine.logs()
             if not startup_phase and ('ModLauncher' in logs or 'Done (' in logs):
                 startup_phase = True
                 if report:
                     report.start('startup')
+            state = engine.state()
+            if not state['Running']:
+                raise RuntimeError(f'Server exited before readiness: {state}')
             if 'Done (' in logs and 'For help, type' in logs:
                 result['ready'] = True
                 break
@@ -162,15 +134,20 @@ def compose_definition(directory, versions):
         'image': SERVER_IMAGE, 'restart': 'no', 'stop_grace_period': '60s',
         'mem_limit': '5g', 'cpus': 4,
         'environment': {
-            'EULA': 'TRUE', 'TYPE': 'NEOFORGE', 'VERSION': versions['minecraft'],
-            'NEOFORGE_VERSION': versions['neoforge'],
+            'EULA': 'TRUE', 'TYPE': 'MODRINTH', 'VERSION': versions['minecraft'],
+            'MODRINTH_MODPACK': '/export/server.mrpack',
+            'MODRINTH_DEFAULT_EXCLUDE_INCLUDES': '',
+            'FETCH_USE_HTTP2': 'false',
             'UID': str(os.getuid()), 'GID': str(os.getgid()),
             'MEMORY': '4G', 'INIT_MEMORY': '1G', 'ENABLE_RCON': 'true',
             'VIEW_DISTANCE': '4', 'SIMULATION_DISTANCE': '4',
             'MAX_PLAYERS': '1', 'LEVEL': 'smoke-world', 'LEVEL_SEED': '637921',
             'ONLINE_MODE': 'true',
         },
-        'volumes': [{'type': 'bind', 'source': str(directory / 'runtime'), 'target': '/data'}],
+        'volumes': [
+            {'type': 'bind', 'source': str(directory / 'runtime'), 'target': '/data'},
+            {'type': 'bind', 'source': str(directory), 'target': '/export', 'read_only': True},
+        ],
     }}}
 
 

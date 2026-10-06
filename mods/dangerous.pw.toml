@@ -1,0 +1,14 @@
+name = "Dangerous - Just A Difficulty Mod"
+filename = "Dangerous NeoForge - 1.21.1 v1.5.2.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/nsri5wVW/versions/ItIXjtt2/Dangerous%20NeoForge%20-%201.21.1%20v1.5.2.jar"
+hash-format = "sha512"
+hash = "fc9c32e82e5a1efda966ad38fc13f4a5602eff76dacb40de6b3e7de8adc8232ffb9bd151d8e91aec52fa79283e2feec0dbc67a5eefb6b838407ec53a86950294"
+
+[update]
+[update.modrinth]
+mod-id = "nsri5wVW"
+version = "ItIXjtt2"

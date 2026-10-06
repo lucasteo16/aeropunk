@@ -1,0 +1,14 @@
+name = "TW‘s  Decorative Food"
+filename = "tw-decorative-food-1.21.1-2.0.1-neoforge.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/656seq5J/versions/WktBUUVN/tw-decorative-food-1.21.1-2.0.1-neoforge.jar"
+hash-format = "sha512"
+hash = "2b9ecad31a9a462fa16028503251b362e38461f21fb47731c3b008ef3aa9293c7f60f78d2cec0d913f4259c6c7c4123f1c5eac5e45d3f8915e1e24a999a8cd86"
+
+[update]
+[update.modrinth]
+mod-id = "656seq5J"
+version = "WktBUUVN"

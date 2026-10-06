@@ -1,10 +1,9 @@
-"""Small export and scoped filesystem maintenance tasks."""
+"""Scoped filesystem maintenance and disposable test reporting."""
 import argparse
 import json
 from pathlib import Path
 import shutil
 import subprocess
-import tempfile
 
 
 def safe_path(root, path):
@@ -74,60 +73,8 @@ def capture(root, directory, result):
     print('Temporary cleanup after: ' + json.dumps(summary([])), flush=True)
 
 
-def native_export(root, directory, side):
-    stage = directory / 'pack'
-    stage.mkdir()
-    for name in ('pack.toml', 'index.toml', '.packwizignore'):
-        if (root / name).exists():
-            shutil.copy2(root / name, stage / name)
-    for name in ('mods', 'config'):
-        if (root / name).exists():
-            shutil.copytree(root / name, stage / name)
-    subprocess.run(['packwiz', 'curseforge', 'export', '--side', side],
-                   cwd=stage, check=True, timeout=180)
-    archives = list(stage.glob('*.zip'))
-    if len(archives) != 1:
-        raise ValueError(f'Expected one native export archive, got {archives}')
-    import zipfile
-    archive = archives[0]
-    with zipfile.ZipFile(archive) as exported:
-        if exported.testzip():
-            raise ValueError('Corrupt export archive')
-        manifest = json.loads(exported.read('manifest.json'))
-        if manifest.get('files'):
-            raise ValueError('Unresolved CurseForge manifest references: export is not fully materialized')
-    return archive
-
-
-def export(root, side):
-    from test_server import extract_server_export
-    import tomllib
-    dist = safe_path(root, root / 'dist')
-    dist.mkdir(exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix='.export-', dir=dist) as tmp:
-        directory = Path(tmp)
-        archive = native_export(root, directory, side)
-        if side == 'server':
-            versions = tomllib.loads((root / 'pack.toml').read_text())['versions']
-            metadata = [tomllib.loads(p.read_text()) for p in (root / 'mods').glob('*.pw.toml')]
-            expected = {m['filename'] for m in metadata if m.get('side', 'both') != 'client'}
-            extract_server_export(archive, directory / 'runtime', versions, expected)
-        destination = safe_path(root, dist / side)
-        destination.mkdir(exist_ok=True)
-        target = safe_path(root, destination / archive.name)
-        archive.replace(target)
-        if side == 'server':
-            legacy = safe_path(root, dist / 'aeropunk-server.zip')
-            legacy.unlink(missing_ok=True)
-        print(f'Validated export: {target} ({target.stat().st_size} bytes)', flush=True)
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('task', choices=['export', 'export-client', 'clean'])
-    args = parser.parse_args()
-    root = Path(__file__).resolve().parents[1]
-    if args.task == 'clean':
-        clean(root)
-    else:
-        export(root, 'client' if args.task == 'export-client' else 'server')
+    parser.add_argument('task', choices=['clean'])
+    parser.parse_args()
+    clean(Path(__file__).resolve().parents[1])

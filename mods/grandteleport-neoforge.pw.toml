@@ -1,0 +1,14 @@
+name = "GrandTeleport NeoForge"
+filename = "GrandTeleport-NeoForge-1.21.1-1.0.0.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/PsllFHj8/versions/SRYiyHAS/GrandTeleport-NeoForge-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "8b8beaca8a3da3a752dfb4694dcb3debce50e03daf1fd4774755f18ffa5fbcff95e0dd15dfac4718311ad74570361a8730c5d2949696620ca2b64f4382edfef7"
+
+[update]
+[update.modrinth]
+mod-id = "PsllFHj8"
+version = "SRYiyHAS"

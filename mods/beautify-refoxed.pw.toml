@@ -1,0 +1,14 @@
+name = "Beautify: ReFoxed"
+filename = "beautify+1.21.1-1.9.0.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/ZQCyyWBM/versions/fkkocn59/beautify%2B1.21.1-1.9.0.jar"
+hash-format = "sha512"
+hash = "b11c0b8cd015d7cf54c9ebdb06bd669dda84fb754d535547036b6971226b7ded9257c281b330fabbe0853ee5bbde013325f748ac98026acf92c06e41dac6ad61"
+
+[update]
+[update.modrinth]
+mod-id = "ZQCyyWBM"
+version = "fkkocn59"

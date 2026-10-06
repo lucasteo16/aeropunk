@@ -59,4 +59,5 @@ Thumbs.db
 
 # Local task outputs and metadata.
 /reports/
-/.archive/
+/.archive/*
+!/.archive/unit-tests/

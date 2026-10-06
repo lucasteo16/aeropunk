@@ -1,0 +1,14 @@
+name = "Short Stacks"
+filename = "shortstacks-1.2.2.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "6db25e56f8d37237721926b98c9244756fbd511d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6974172
+project-id = 580100

@@ -1,0 +1,14 @@
+name = "Interactic Renewed"
+filename = "interactic-0.2.2+1.21.1.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/BM12h14f/versions/W05MzXWJ/interactic-0.2.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "4be5773214cf7c3839c636bd78a3d05b6a08edf510fecb252bbe8c9fee45737c9a0464caea4e66a4305847611ca92c464a0772c9bcf8d73562f86e7beec900db"
+
+[update]
+[update.modrinth]
+mod-id = "BM12h14f"
+version = "W05MzXWJ"
