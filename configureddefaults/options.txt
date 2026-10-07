@@ -95,7 +95,7 @@ key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_key.carry.desc:key.keyboard.c
+key_key.carry.desc:key.keyboard.x
 key_key.tempad.shortcut:key.keyboard.unknown
 key_key.tempad.macro:key.keyboard.unknown
 key_key.tempad.new_location:key.keyboard.unknown
