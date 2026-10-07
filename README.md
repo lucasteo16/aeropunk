@@ -2,7 +2,7 @@
 
 A medieval steampunk engineering and adventure pack built around Create Aeronautics, Streams Reflowing and the RPG Series combat system.
 
-Current definition: pack version 0.2.3, Minecraft 1.21.1 and NeoForge 21.1.255. There are 293 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
+Current definition: pack version 0.2.4, Minecraft 1.21.1 and NeoForge 21.1.255. There are 292 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
 
 ## Requirements
 
@@ -32,11 +32,11 @@ The current compatibility holds are Spell Engine 1.10.7, because newer loot-func
 
 All default outputs live directly in `dist`. There are no client or server output subfolders.
 
-| Command | Default output for version 0.2.3 |
+| Command | Default output for version 0.2.4 |
 | --- | --- |
-| `just export-server` | `dist/aeropunk-0.2.3-server.zip` |
-| `just export-curseforge` | `dist/aeropunk-0.2.3-curseforge.zip` |
-| `just export-modrinth` | `dist/aeropunk-0.2.3-modrinth.mrpack` |
+| `just export-server` | `dist/aeropunk-0.2.4-server.zip` |
+| `just export-curseforge` | `dist/aeropunk-0.2.4-curseforge.zip` |
+| `just export-modrinth` | `dist/aeropunk-0.2.4-modrinth.mrpack` |
 
 The commands read the version from `pack.toml`; it is not duplicated in their definitions. Bumping it changes both the default filenames and the version inside newly exported archives. A bump does not export automatically: run the desired command afterward.
 
@@ -49,6 +49,8 @@ An optional output argument overrides the destination, for example `just export-
 CurseForge exports bundle most selected mod files, but Short Stacks remains a manifest download reference. Modrinth exports reference most files by download address and hash, while bundling Short Stacks. Neither format contains a complete installed Minecraft server. A compatible launcher or server installer sets up the game and loader. Redistribution permissions remain the pack author's responsibility.
 
 Version 0.2.1 replaced the original emblem with the approved simplified flying-castle icon. Version 0.2.2 skips Minecraft's accessibility onboarding, starts narration disabled, and suppresses Deep Seas welcome and update prompts in fresh client installations. Mod selections and gameplay settings are unchanged.
+
+Version 0.2.4 removes Axiom and its unused configuration and keybindings.
 
 ## Player preference defaults
 

@@ -189,10 +189,6 @@ file = "config/attributefix/neoforge/swim_speed.json"
 hash = "6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed"
 
 [[files]]
-file = "config/axiom/axiom.json"
-hash = "8e5028f9ace2e09e7002082a6d1f86bf87059741f1c2a5ed7cbe64c270d8f5a7"
-
-[[files]]
 file = "config/badoptimizations.txt"
 hash = "56f0393026cb58df5584d874992b515e8d553c80805e45f8c4318cd6585a08b5"
 
@@ -1106,7 +1102,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "8680c82537c8d7b80f2bd2f6a029ae9d8023e58a2b59baa6f4f88024d951b0c9"
+hash = "35a261bb52ba894a2f65bbac069f5c84efb628376ede957f72bf41d57747b402"
 
 [[files]]
 file = "icon.png"
@@ -1205,11 +1201,6 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "f0edb6932d0c3f97338cf660763ff43bc5febdf0eb5edeca3a1927c20f14e296"
-metafile = true
-
-[[files]]
-file = "mods/axiom.pw.toml"
-hash = "d96e1e5aa63a1a6023578fc3d8f4de1239da8bd105769c43ed2798082ff0acf3"
 metafile = true
 
 [[files]]
