@@ -1,4 +1,6 @@
 version:3955
+onboardAccessibility:false
+narrator:0
 betterBiomeBlendRadius:14
 ao:true
 biomeBlendRadius:2

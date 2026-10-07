@@ -1,0 +1,4 @@
+# Hide Deep Seas onboarding and update prompts in fresh client installations.
+# Other settings are populated from the selected mod's own defaults.
+[client]
+disableStartupScreens = true

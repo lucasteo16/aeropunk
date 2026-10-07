@@ -2,7 +2,7 @@
 
 A medieval steampunk engineering and adventure pack built around Create Aeronautics, Streams Reflowing and the RPG Series combat system.
 
-Current definition: pack version 0.2.1, Minecraft 1.21.1 and NeoForge 21.1.255. There are 293 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
+Current definition: pack version 0.2.2, Minecraft 1.21.1 and NeoForge 21.1.255. There are 293 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
 
 ## Requirements
 
@@ -32,11 +32,11 @@ The current compatibility holds are Spell Engine 1.10.7, because newer loot-func
 
 All default outputs live directly in `dist`. There are no client or server output subfolders.
 
-| Command | Default output for version 0.2.1 |
+| Command | Default output for version 0.2.2 |
 | --- | --- |
-| `just export-server` | `dist/aeropunk-0.2.1-server.zip` |
-| `just export-curseforge` | `dist/aeropunk-0.2.1-curseforge.zip` |
-| `just export-modrinth` | `dist/aeropunk-0.2.1-modrinth.mrpack` |
+| `just export-server` | `dist/aeropunk-0.2.2-server.zip` |
+| `just export-curseforge` | `dist/aeropunk-0.2.2-curseforge.zip` |
+| `just export-modrinth` | `dist/aeropunk-0.2.2-modrinth.mrpack` |
 
 The commands read the version from `pack.toml`; it is not duplicated in their definitions. Bumping it changes both the default filenames and the version inside newly exported archives. A bump does not export automatically: run the desired command afterward.
 
@@ -48,11 +48,11 @@ An optional output argument overrides the destination, for example `just export-
 
 CurseForge exports bundle most selected mod files, but Short Stacks remains a manifest download reference. Modrinth exports reference most files by download address and hash, while bundling Short Stacks. Neither format contains a complete installed Minecraft server. A compatible launcher or server installer sets up the game and loader. Redistribution permissions remain the pack author's responsibility.
 
-Version 0.2.1 replaces the original emblem with the approved simplified flying-castle icon. Mod selections and player preference defaults are unchanged.
+Version 0.2.1 replaced the original emblem with the approved simplified flying-castle icon. Version 0.2.2 skips Minecraft's accessibility onboarding, starts narration disabled, and suppresses Deep Seas welcome and update prompts in fresh client installations. Mod selections and gameplay settings are unchanged.
 
 ## Player preference defaults
 
-Configured Defaults 21.1.3 is client-only. Its `configureddefaults` folder mirrors the game directory. The pack supplies twenty-five preset files covering video, Distant Horizons, resource-pack order, sound, keybindings and map preferences. Ordinary files are copied only when absent; `options.txt` adds missing keys without replacing existing values. These preferences are not duplicated at their active destinations in the exported pack. Existing configuration files do not receive automatic per-setting migrations.
+Configured Defaults 21.1.3 is client-only. Its `configureddefaults` folder mirrors the game directory. The pack supplies twenty-six preset files covering video, Distant Horizons, resource-pack order, sound, keybindings and map preferences. Ordinary files are copied only when absent; `options.txt` adds missing keys without replacing existing values. These preferences are not duplicated at their active destinations in the exported pack. Existing configuration files do not receive automatic per-setting migrations.
 
 The initial baseline uses eight-chunk render and simulation distances, fast graphics, a sixty-frame limit and vertical synchronization. Shaders and Distant Horizons rendering are disabled, with Photon remembered as the shader selection. Shader refresh uses F12. Keybindings retain the current incomplete arrangement rather than attempting a new conflict-resolution scheme. Personal map data, generated server identity and personal chat mention entries are not imported from the client instance.
 
