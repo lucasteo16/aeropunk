@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Export the server pack and check disposable Docker startup and normal shutdown."""
 import argparse
+import fcntl
 import hashlib
 import json
 import os
 from pathlib import Path
 import subprocess
+import shutil
 import time
 import tomllib
 import uuid
@@ -37,10 +39,61 @@ def build_server_export(root, directory):
             if (path.is_absolute() or '..' in path.parts or '\\' in item.filename
                     or (item.external_attr >> 16) & 0o170000 == 0o120000):
                 raise ValueError(f'Unsafe archive path: {item.filename}')
-    (directory / 'runtime').mkdir()  # A fresh installation, never an existing world.
     return {'versions': versions, 'format': 'modrinth', 'archive': str(archive),
             'archive_sha256': hashlib.sha256(archive.read_bytes()).hexdigest(),
             'installer': 'mc-image-helper install-modrinth-modpack'}
+
+
+TRANSIENT_DIRECTORIES = {'world': 'smoke-world', 'config': 'config',
+                         'defaultconfigs': 'defaultconfigs', 'logs': 'logs',
+                         'crash-reports': 'crash-reports', 'mixin-output': '.mixin.out',
+                         'generated-data-packs': 'dynamic-data-pack-cache',
+                         'global-data-packs': 'moonlight-global-datapacks'}
+
+
+def clean_runtime(root, runtime, diagnostics=None):
+    from tasks import safe_path
+    dumps = sorted(runtime.glob('streamsreflowing-stall-*.txt'))
+    if dumps and diagnostics is not None:
+        (diagnostics / 'startup-diagnostics.log').write_text('\n'.join(safe_path(root, p).read_text() for p in dumps))
+    for path in dumps:
+        safe_path(root, path).unlink()
+    # Installed binaries and native installer metadata remain. Test state does not.
+    for name in ('server.properties', 'eula.txt', 'ops.json', 'whitelist.json',
+                 'banned-players.json', 'banned-ips.json', 'usercache.json',
+                 'usernamecache.json', '.rcon-cli.env', '.rcon-cli.yaml'):
+        safe_path(root, runtime / name).unlink(missing_ok=True)
+    for name in TRANSIENT_DIRECTORIES.values():
+        path = safe_path(root, runtime / name)
+        if path.is_dir():
+            shutil.rmtree(path)
+
+
+def prepare_runtime(root, directory, fresh=False):
+    from tasks import safe_path
+    runtime = safe_path(root, directory / 'runtime' if fresh else root / 'build' / 'server-installation')
+    runtime.mkdir(parents=True, exist_ok=True)
+    clean_runtime(root, runtime)
+    # The native helper skips existing filenames. Remove a mismatching artifact
+    # before handing downloads to it, including same-filename version changes.
+    with zipfile.ZipFile(directory / 'server.mrpack') as archive:
+        index = json.loads(archive.read('modrinth.index.json'))
+    reused = invalidated = 0
+    for item in index['files']:
+        path = safe_path(root, runtime / item['path'])
+        if path.is_file():
+            algorithm = 'sha512' if 'sha512' in item['hashes'] else 'sha1'
+            with path.open('rb') as stream:
+                actual_hash = hashlib.file_digest(stream, algorithm).hexdigest()
+            if actual_hash != item['hashes'][algorithm]:
+                path.unlink()
+                invalidated += 1
+            else:
+                reused += 1
+    for name in TRANSIENT_DIRECTORIES:
+        (directory / name).mkdir()
+    print(f'Installation: {runtime}; verified reusable files: {reused}; invalidated files: {invalidated}', flush=True)
+    return runtime
 
 
 class PhaseReport:
@@ -129,7 +182,8 @@ def smoke(engine, timeout=600, stop_timeout=60, report=None):
 
 
 SERVER_IMAGE = 'itzg/minecraft-server@sha256:63948ade43e562b9400db3bfe7367c04903d509d2c4167ace717a9a426156eb6'
-def compose_definition(directory, versions):
+def compose_definition(directory, versions, runtime=None):
+    runtime = runtime or directory.parent / 'server-installation'
     return {'services': {'server': {
         'image': SERVER_IMAGE, 'restart': 'no', 'stop_grace_period': '60s',
         'mem_limit': '5g', 'cpus': 4,
@@ -145,8 +199,10 @@ def compose_definition(directory, versions):
             'ONLINE_MODE': 'true',
         },
         'volumes': [
-            {'type': 'bind', 'source': str(directory / 'runtime'), 'target': '/data'},
+            {'type': 'bind', 'source': str(runtime), 'target': '/data'},
             {'type': 'bind', 'source': str(directory), 'target': '/export', 'read_only': True},
+            *[{'type': 'bind', 'source': str(directory / source), 'target': '/data/' + target}
+              for source, target in TRANSIENT_DIRECTORIES.items()],
         ],
     }}}
 
@@ -208,6 +264,7 @@ class DockerEngine:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--build-only', action='store_true', help='Export without starting Docker')
+    parser.add_argument('--fresh-install', action='store_true', help='Bypass the reusable installation for a clean-install check')
     parser.add_argument('--timeout', type=float, default=600, help='Readiness deadline in seconds')
     parser.add_argument('--stop-timeout', type=float, default=60, help='Normal shutdown deadline in seconds')
     args = parser.parse_args()
@@ -216,17 +273,38 @@ def main():
     root = Path(__file__).resolve().parents[1]
     from tasks import capture
     directory = new_run(root)
-    result = {'status': 'failed', 'run_directory': str(directory),
-              'image': SERVER_IMAGE, 'scope': 'startup-only'}
+    result: dict = {'status': 'failed', 'run_directory': str(directory),
+                    'image': SERVER_IMAGE, 'scope': 'startup-only'}
     exit_code = 1
+    lock = runtime = None
     report = PhaseReport()
     report.start('preparation')
     try:
+        if not args.build_only and not args.fresh_install:
+            lock = (root / 'build' / '.server-installation.lock').open('a')
+            try:
+                fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError:
+                raise RuntimeError('Another test is using the reusable installation') from None
+            containers = subprocess.run(['docker', 'ps', '--all', '-q'],
+                                        capture_output=True, text=True, check=True, timeout=30).stdout.split()
+            if containers:
+                inspected = json.loads(subprocess.run(['docker', 'inspect', *containers],
+                    capture_output=True, text=True, check=True, timeout=30).stdout)
+                installation = (root / 'build' / 'server-installation').resolve()
+                if any(source.is_relative_to(installation) or installation.is_relative_to(source)
+                       for container in inspected for mount in container.get('Mounts', [])
+                       if mount.get('Source')
+                       for source in [Path(mount['Source']).resolve()]):
+                    raise RuntimeError('A retained container still uses the installation; resolve its cleanup first')
         result['export'] = build_server_export(root, directory)
         if args.build_only:
             result['status'] = 'built'
         else:
-            definition = compose_definition(directory, result['export']['versions'])
+            runtime = prepare_runtime(root, directory, args.fresh_install)
+            result['installation'] = {'directory': str(runtime), 'mode': 'fresh' if args.fresh_install else 'reusable',
+                                      'world': 'fresh'}
+            definition = compose_definition(directory, result['export']['versions'], runtime)
             (directory / 'compose.json').write_text(json.dumps(definition, indent=2) + '\n')
             result['smoke'] = smoke(DockerEngine(directory), timeout=args.timeout,
                                     stop_timeout=args.stop_timeout, report=report)
@@ -237,10 +315,23 @@ def main():
         if report.failure_phase is None:
             report.fail(error)
     finally:
+        cleanup = directory / 'cleanup.json'
+        if runtime is not None and cleanup.exists() and json.loads(cleanup.read_text()) == {'containers': [], 'networks': []}:
+            try:
+                clean_runtime(root, runtime, directory)
+            except Exception as error:
+                report.fail(error)
+                result['status'] = 'failed'
+                result['error'] = f'{type(error).__name__}: {error}'
+                exit_code = 1
         report.finish()
         result['phases'] = report.phases
         result['failure_phase'] = report.failure_phase
-        capture(root, directory, result)
+        try:
+            capture(root, directory, result)
+        finally:
+            if lock is not None:
+                lock.close()
     return exit_code
 
 

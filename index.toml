@@ -670,7 +670,7 @@ hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
 
 [[files]]
 file = "config/lodestone-client.toml"
-hash = "964c94d1f00b084d2b017641d3182a8af4846d602db0a26911ec0fdae72f8c43"
+hash = "e5d0e26af5f2edd03045c9af3232a7d23d8082f5c789b39ef358389fc787dea2"
 
 [[files]]
 file = "config/lootr-client.toml"
@@ -1093,6 +1093,10 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
+file = "icon.png"
+hash = "b93e5151419093eaf6526d06f3f7b3092d79df286c3972d6485089a23db6cb35"
+
+[[files]]
 file = "mods/additional-rpg-jewelry.pw.toml"
 hash = "09b0bd30e5ee94815a2c26e5b06a5e689813ab14bc12d48edc8d7e9374db0bfd"
 metafile = true
@@ -1174,7 +1178,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "2616ba140551a87e059a847792d08b2dc92ef62a7e979b388b5abfaa98da1831"
+hash = "fa54c5b2f8ec17f6491b8f15378208b2807f532b5f07e5b1c8711667396714f8"
 metafile = true
 
 [[files]]
@@ -1424,7 +1428,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-emf-compat-skyhook.pw.toml"
-hash = "7784edb5a8400a1fe46c7900bb05dbd1f92c875f4ce2cf52861c1a3f69921a2c"
+hash = "5447a3101ee9e42ffa01e6e19c8c036553f05413aa6accc681013e2ff54c797c"
 metafile = true
 
 [[files]]
@@ -1645,6 +1649,11 @@ metafile = true
 [[files]]
 file = "mods/elemental-wizards-rpg.pw.toml"
 hash = "f3527a98308a5fca38e9609fac854732daf3087ecbd818baacbea9de9a9248ae"
+metafile = true
+
+[[files]]
+file = "mods/emf-compat-core.pw.toml"
+hash = "eb590ba48320cabda3ed54a3a6c7518dae1a2dfc8d29aaf6699c5f99e2abbf05"
 metafile = true
 
 [[files]]
@@ -2054,7 +2063,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations-emf-compat.pw.toml"
-hash = "9b94cb6502d4a63ed19b2daf7b9fe1874d1e77087c0edd68cf0f07c6004fb151"
+hash = "d54274fad55efad4631708ec64051ab557cf4f3e194f5423d987b27b711386d8"
 metafile = true
 
 [[files]]
@@ -2273,11 +2282,6 @@ hash = "5eef19e6ac67ed27b506fa464d2673cb0ea2ed4d389831b62d8b4b815a8bcf5b"
 metafile = true
 
 [[files]]
-file = "mods/sodium-options-api.pw.toml"
-hash = "af23ac3982bfed8f9f3a1b18f3da28a0b2f5e1fa32eba536be73b19ffc3d4405"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
 hash = "fd7473a15dd771e7a7f53159840799afffc62dda2abc4ee95d7ee0cbeac569b2"
 metafile = true
@@ -2295,6 +2299,11 @@ metafile = true
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "1d7a201d23dc477be56cd5813db532d2f19e6699e5e9808e6cec81561b16cb41"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "76298b8c0ff790b21d23b1eed1c1bf03b9c897dd094b754bc4da710fe7e236c3"
 metafile = true
 
 [[files]]

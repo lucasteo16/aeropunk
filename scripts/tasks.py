@@ -61,8 +61,10 @@ def capture(root, directory, result):
     reports = safe_path(root, root / 'reports')
     reports.mkdir(exist_ok=True)
     (reports / 'server.log').write_text((directory / 'server.log').read_text() if (directory / 'server.log').exists() else '')
+    diagnostics = directory / 'startup-diagnostics.log'
+    (reports / 'startup-diagnostics.log').write_text(diagnostics.read_text() if diagnostics.exists() else '')
     (reports / 'result.json').write_text(json.dumps(result, indent=2) + '\n')
-    print(f'Reports: {reports / "result.json"}, {reports / "server.log"}', flush=True)
+    print(f'Reports: {reports / "result.json"}, {reports / "server.log"}, {reports / "startup-diagnostics.log"}', flush=True)
     if (directory / 'compose.json').exists():
         cleanup = directory / 'cleanup.json'
         if not cleanup.exists() or json.loads(cleanup.read_text()) != {'containers': [], 'networks': []}:
