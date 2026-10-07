@@ -38,6 +38,7 @@ tools/
 *.pem
 *.key
 options.txt
+!configureddefaults/options.txt
 servers.dat
 servers.dat_old
 .DS_Store

@@ -2,7 +2,7 @@
 
 A medieval steampunk engineering and adventure pack built around Create Aeronautics, Streams Reflowing and the RPG Series combat system.
 
-Current definition: pack version 0.1.3, Minecraft 1.21.1 and NeoForge 21.1.255. There are 292 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
+Current definition: pack version 0.2.0, Minecraft 1.21.1 and NeoForge 21.1.255. There are 293 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
 
 ## Requirements
 
@@ -32,11 +32,11 @@ The current compatibility holds are Spell Engine 1.10.7, because newer loot-func
 
 All default outputs live directly in `dist`. There are no client or server output subfolders.
 
-| Command | Default output for version 0.1.3 |
+| Command | Default output for version 0.2.0 |
 | --- | --- |
-| `just export-server` | `dist/aeropunk-0.1.3-server.zip` |
-| `just export-curseforge` | `dist/aeropunk-0.1.3-curseforge.zip` |
-| `just export-modrinth` | `dist/aeropunk-0.1.3-modrinth.mrpack` |
+| `just export-server` | `dist/aeropunk-0.2.0-server.zip` |
+| `just export-curseforge` | `dist/aeropunk-0.2.0-curseforge.zip` |
+| `just export-modrinth` | `dist/aeropunk-0.2.0-modrinth.mrpack` |
 
 The commands read the version from `pack.toml`; it is not duplicated in their definitions. Bumping it changes both the default filenames and the version inside newly exported archives. A bump does not export automatically: run the desired command afterward.
 
@@ -47,6 +47,16 @@ Exporting the same version again replaces only that version's corresponding file
 An optional output argument overrides the destination, for example `just export-modrinth dist/my-release.mrpack`. The recipes invoke packwiz directly, without rewriting archives or creating a second pack definition.
 
 CurseForge exports bundle most selected mod files, but Short Stacks remains a manifest download reference. Modrinth exports reference most files by download address and hash, while bundling Short Stacks. Neither format contains a complete installed Minecraft server. A compatible launcher or server installer sets up the game and loader. Redistribution permissions remain the pack author's responsibility.
+
+## Player preference defaults
+
+Configured Defaults 21.1.3 is client-only. Its `configureddefaults` folder mirrors the game directory. The pack supplies twenty-five preset files covering video, Distant Horizons, resource-pack order, sound, keybindings and map preferences. Ordinary files are copied only when absent; `options.txt` adds missing keys without replacing existing values. These preferences are not duplicated at their active destinations in the exported pack. Existing configuration files do not receive automatic per-setting migrations.
+
+The initial baseline uses eight-chunk render and simulation distances, fast graphics, a sixty-frame limit and vertical synchronization. Shaders and Distant Horizons rendering are disabled, with Photon remembered as the shader selection. Shader refresh uses F12. Keybindings retain the current incomplete arrangement rather than attempting a new conflict-resolution scheme. Personal map data, generated server identity and personal chat mention entries are not imported from the client instance.
+
+The released defaults handler passed isolated checks for fresh-file initialization, preservation of existing graphics, audio and keybindings, and repeated application without resetting those preferences. This does not replace a full Minecraft startup test. Shared server settings and existing compatibility fixes remain authoritative under `config`.
+
+The donor audit retained all 271 eligible configuration paths, including Create settings. None of the three referenced donor archives contains separate hand-authored recipe scripts or recipe data packs. Create Plus bundles generated Supplementaries recipe caches; the running client already regenerates recipes for its installed content. Those caches and recipe-viewer favourites are not authoring inputs and are not copied.
 
 ## Server test
 
@@ -84,6 +94,7 @@ If Docker cleanup cannot be confirmed, temporary files remain for recovery and t
 | `index.toml` | Distribution index maintained by packwiz. |
 | `mods`, `resourcepacks`, `shaderpacks` | Selected artifacts, provider metadata, pins and side declarations. |
 | `config` and `polytone_options.json` | Shared game settings. |
+| `configureddefaults` | Initial client preferences that preserve existing player choices. |
 | `justfile` | Active command entry points. |
 | `scripts` | Active test lifecycle and scoped cleanup code. |
 | `dist` | Versioned release archives, all in one folder. |
@@ -98,8 +109,8 @@ Obsolete export layouts, unversioned duplicates and inactive archived test code 
 
 The selected server mod set passed readiness and normal shutdown checks before spark was added. spark 1.10.124 is included by default on clients and servers; its addition has packaging validation only, pending the next runtime test. Spell Engine 1.10.7 is retained for Witcher 3.1.4 compatibility. Xaero's Maps Multiplayer Plus is pinned to 1.1.0. GrandTeleport 1.0.0 is client-only. Advancement Frames is excluded because its selected release loaded a client-only class on a dedicated server; it was not relabelled as client-only content.
 
-Client crash corrections retain Entity Model Features 3.3.11 and update its Not Enough Animations compatibility addon to 1.2.0, Create compatibility addon to 2.0.0 and shared compatibility core to 2.0.0. AsyncParticles is updated to 21.1.4.5. Exact released class-member checks resolve the animation references against the selected game and libraries; the newer particle mixin removes the offending light-color shadow method. Lodestone's delayed particle buffer is disabled using the particle author's documented compatibility workaround. These are targeted binary and packaging checks, not a verified client launch. Reinforced Shulker Boxes' early rendering initialization and older Sodium settings integrations remain client playtest concerns.
+Client crash corrections retain Entity Model Features 3.3.11 and update its Not Enough Animations compatibility addon to 1.2.0, Create compatibility addon to 2.0.0 and shared compatibility core to 2.0.0. AsyncParticles is updated to 21.1.4.5. Exact released class-member checks resolve the animation references against the selected game and libraries; the newer particle mixin removes the offending light-color shadow method. Lodestone's delayed particle buffer is disabled using the particle author's documented compatibility workaround. Lucas's supplied recordings establish a running client and integrated server for the corrected 0.1.3 installation. They do not establish that every rendering warning is resolved. Reinforced Shulker Boxes' early rendering initialization and older Sodium settings integrations remain client playtest concerns.
 
-The release-number bump and export cleanup do not change mod selections or shared settings. Client launch, shaders, moving-structure interactions, multiplayer behavior and gameplay balance remain separate playtest work. No shader is enabled automatically. Preserve approved donor settings until observed behavior justifies a specific adjustment.
+Version 0.2.0 adds client preference initialization and integrates Lucas's selected settings without upgrading the existing mods. A full client launch of this new release, shaders, moving-structure interactions, multiplayer behavior and gameplay balance remain separate playtest work. No shader is enabled automatically. Preserve approved donor settings until observed behavior justifies a specific adjustment.
 
 The latest saved result documents the definition it tested. Rerun `just test` after server-relevant changes. A release archive is an installation definition, not proof of a running production server.

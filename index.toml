@@ -553,10 +553,6 @@ file = "config/explosiveenhancement.toml"
 hash = "560e23d7928e2f7ad8626733d5b572c8b64356e0c80a3d0a8bb1635f68afae5a"
 
 [[files]]
-file = "config/extremesoundmuffler-client.toml"
-hash = "13dbc96f13757679e9723a28f1e6a287468514249fd876fc2de4745e2d9cb5bb"
-
-[[files]]
 file = "config/fabric/indigo-renderer.properties"
 hash = "6d3a5259f42f0a0aa6cbe4ffcabc48a32e8e0842ec204fa17846877f62ee43b6"
 
@@ -605,10 +601,6 @@ file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
-file = "config/iris.properties"
-hash = "a17de2497deba0e076e8ea3abb503f9bd9d9074488c52e0ebfe748e3c7fd1d36"
-
-[[files]]
 file = "config/ixeris.toml"
 hash = "81eba96be0162e3f0e6e3d6a9b481103bff2041246eeb14c970fdac5c7fa3d88"
 
@@ -631,10 +623,6 @@ hash = "cb52e56c513dcfcb23cab9a3c854c8a5933e6bb7c09ffd8d0fd1879f852964c2"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "c63063171b6b030087de7b9c27bd9cdf58898d5c58a01f25aea3a80ccee7babd"
-
-[[files]]
-file = "config/kerria.json"
-hash = "71135c8d6882fe45dd9f91f9fdf4e6a389cd3be23e7c3d9c493a5ee8c69671cd"
 
 [[files]]
 file = "config/l2_configs/traderefresh-client.toml"
@@ -777,10 +765,6 @@ file = "config/moonlight-common.toml"
 hash = "a6d5e783dc1469e925d4cf62f17a94ee2dff4ff025d9ed9e61b129581019cdf3"
 
 [[files]]
-file = "config/moreculling.toml"
-hash = "cbae23a6b1c07273a79cbfb2f30a52844c30412001cabecac05b8aaa414a97a5"
-
-[[files]]
 file = "config/naturescompass-client.toml"
 hash = "a5d664ed8aeecd77bd09611cba93d5f8e3194da8140666d3e97a0c4973dd0981"
 
@@ -897,24 +881,8 @@ file = "config/smarterfarmers-common.toml"
 hash = "b7b176461c4484b267d5aaab7f1e4b6cae9990b499313dcce84e7f32f109396e"
 
 [[files]]
-file = "config/sodium-extra-options.json"
-hash = "0906f1c5d7607ed5a6b814baa7c0366c6fdf8c4a831d4e6116a46f797c1d9353"
-
-[[files]]
-file = "config/sodium-extra.properties"
-hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
-
-[[files]]
 file = "config/sodium-mixins.properties"
 hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
-
-[[files]]
-file = "config/sodium-options.json"
-hash = "59c6ccc02c029e6e87b6ca65c70d65794ea370b0e3b0b79015530641d2e21995"
-
-[[files]]
-file = "config/sodiumdynamiclights-client.toml"
-hash = "0724b6b139457a0a5d5db0e6d259b35760c075775b712070d28ab8ee76f5d286"
 
 [[files]]
 file = "config/solonion.json"
@@ -935,26 +903,6 @@ hash = "598929bea3df1aec6078fee1e41e83cded42706062853f45945b8f7b4837e15d"
 [[files]]
 file = "config/sophisticatedinventoryinteractions-common.toml"
 hash = "39097720b4d16deef8bd47ae8acc2f6de6aa704038b1a21470db2ce80a924419"
-
-[[files]]
-file = "config/sounds/chat.json"
-hash = "95676e10b355b88492b147dc7bfb483c9eb8d9f97c9de41ab609cdeb7e864fdf"
-
-[[files]]
-file = "config/sounds/event.json"
-hash = "690ecaab33f6d9d5599ffdf340b92980eaa92ea1231edd1b6d9e81553b9a3ee3"
-
-[[files]]
-file = "config/sounds/mod_utils.json"
-hash = "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132"
-
-[[files]]
-file = "config/sounds/ui.json"
-hash = "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56"
-
-[[files]]
-file = "config/sounds/world.json"
-hash = "8e7113693174d8de887b2f00e4e90accd087cb06db15d80080afc9fc0b6eb228"
 
 [[files]]
 file = "config/statuseffectbars-common.toml"
@@ -1025,64 +973,28 @@ file = "config/whitenoise-client.toml"
 hash = "00c6e34f0adbb41db954d296fd7c55dc3412463a38038dc836626433dd7f6d92"
 
 [[files]]
-file = "config/xaero/lib/client.cfg"
-hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
-
-[[files]]
 file = "config/xaero/lib/common.cfg"
 hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
-
-[[files]]
-file = "config/xaero/lib/profiles/default.cfg"
-hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
 
 [[files]]
 file = "config/xaero/lib/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
-file = "config/xaero/minimap/client.cfg"
-hash = "c3a5f6ac41491bec17a6874f5da6cf39de1a71d2e3ea0bc414bb12375b7733bf"
-
-[[files]]
 file = "config/xaero/minimap/common.cfg"
 hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_client.json"
-hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
 
 [[files]]
 file = "config/xaero/minimap/default_radar_categories_server.json"
 hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
-file = "config/xaero/minimap/profiles/default.cfg"
-hash = "d1acdd2c867e423f6b71cd7bcfb6905a68898bfed4c151bcaaafbb4dc992b467"
-
-[[files]]
-file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
-
-[[files]]
-file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "9e1877c0fae35b98a139b86199a1e19e2425179a1bf8415e6bf9d1a5c7827638"
-
-[[files]]
 file = "config/xaero/minimap/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
-file = "config/xaero/world-map/client.cfg"
-hash = "4c9555c686e20d4d68d09910a347740d37d4bf41f65e2b09fc95711a2dbeef1d"
-
-[[files]]
 file = "config/xaero/world-map/common.cfg"
 hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
-
-[[files]]
-file = "config/xaero/world-map/profiles/default.cfg"
-hash = "404c262586bbc048f13a7ba642a2797a5da0c15be44500c9d98380c3f11e008d"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -1091,6 +1003,106 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+
+[[files]]
+file = "configureddefaults/config/DistantHorizons.toml"
+hash = "abf332860ed95502a336c94d440f98cec653154ee5f8de046e42e4658f6b02c2"
+
+[[files]]
+file = "configureddefaults/config/extremesoundmuffler-client.toml"
+hash = "13dbc96f13757679e9723a28f1e6a287468514249fd876fc2de4745e2d9cb5bb"
+
+[[files]]
+file = "configureddefaults/config/iris.properties"
+hash = "7b58916b3d2acdb836397e2b2c5a6bf0ecbac0df3ebd634e6187ab8026cba168"
+
+[[files]]
+file = "configureddefaults/config/kerria.json"
+hash = "71135c8d6882fe45dd9f91f9fdf4e6a389cd3be23e7c3d9c493a5ee8c69671cd"
+
+[[files]]
+file = "configureddefaults/config/moreculling.toml"
+hash = "cbae23a6b1c07273a79cbfb2f30a52844c30412001cabecac05b8aaa414a97a5"
+
+[[files]]
+file = "configureddefaults/config/sodium-extra-options.json"
+hash = "978ba22b9fe2f70bc8e1cb2abdb6994b4cdd35cc9a064a1f8e79ee77823d2c76"
+
+[[files]]
+file = "configureddefaults/config/sodium-extra.properties"
+hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+
+[[files]]
+file = "configureddefaults/config/sodium-options.json"
+hash = "a881cf8361b13fcf1a3f0521eab0915bc9533a2111db7ad1ac34214ba158187b"
+
+[[files]]
+file = "configureddefaults/config/sodiumdynamiclights-client.toml"
+hash = "d5ffa730abd99838e386dba6eaba30f215a119b9a90099e8cb0dbf5449cd8963"
+
+[[files]]
+file = "configureddefaults/config/sounds/chat.json"
+hash = "95676e10b355b88492b147dc7bfb483c9eb8d9f97c9de41ab609cdeb7e864fdf"
+
+[[files]]
+file = "configureddefaults/config/sounds/event.json"
+hash = "690ecaab33f6d9d5599ffdf340b92980eaa92ea1231edd1b6d9e81553b9a3ee3"
+
+[[files]]
+file = "configureddefaults/config/sounds/mod_utils.json"
+hash = "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132"
+
+[[files]]
+file = "configureddefaults/config/sounds/ui.json"
+hash = "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56"
+
+[[files]]
+file = "configureddefaults/config/sounds/world.json"
+hash = "8e7113693174d8de887b2f00e4e90accd087cb06db15d80080afc9fc0b6eb228"
+
+[[files]]
+file = "configureddefaults/config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "configureddefaults/config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/client.cfg"
+hash = "c3a5f6ac41491bec17a6874f5da6cf39de1a71d2e3ea0bc414bb12375b7733bf"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/default_radar_categories_client.json"
+hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/profiles/default.cfg"
+hash = "6a91e3bdc0720533536d1d1059535581242a3f3041f0849a440cd3de43632c08"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
+
+[[files]]
+file = "configureddefaults/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "9e1877c0fae35b98a139b86199a1e19e2425179a1bf8415e6bf9d1a5c7827638"
+
+[[files]]
+file = "configureddefaults/config/xaero/world-map/client.cfg"
+hash = "4c9555c686e20d4d68d09910a347740d37d4bf41f65e2b09fc95711a2dbeef1d"
+
+[[files]]
+file = "configureddefaults/config/xaero/world-map/profiles/default.cfg"
+hash = "404c262586bbc048f13a7ba642a2797a5da0c15be44500c9d98380c3f11e008d"
+
+[[files]]
+file = "configureddefaults/config/xaerohud.txt"
+hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "2fa5ce99e37ada8160e22bc4284d8aadeb0063040cacf6485836a4e8494651dd"
 
 [[files]]
 file = "icon.png"
@@ -1324,6 +1336,11 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "11975785d3b13927c69fd7fbd8d950608a3fbeb9eb976575e4973da6630ead65"
 metafile = true
 
 [[files]]
