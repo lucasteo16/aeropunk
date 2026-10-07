@@ -1,12 +1,12 @@
 name = "Aeropunk"
 author = "Lucas"
-version = "0.2.4"
+version = "0.2.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e4c0bc8740821b4da43a5d4c03303bacef9d5ec02e2c2af4e26a75479201f06b"
+hash = "79503a182b85a81cf0dcca4d53f934abcf9f6267da1c33420d5d4f2967c03cda"
 
 [versions]
 minecraft = "1.21.1"

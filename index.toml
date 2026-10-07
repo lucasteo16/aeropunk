@@ -273,6 +273,10 @@ file = "config/bits_n_bobs-server.toml"
 hash = "fc6b87d500994353673065c6fde9f6dabb0e6b1c61a9db86e2a69d90a57ffb7e"
 
 [[files]]
+file = "config/block_factorys_bosses-server.toml"
+hash = "38d8b232f39cafe536469d6160ad37118df7ad6adc8117a6b6ff15a82024527b"
+
+[[files]]
 file = "config/c2me.toml"
 hash = "b58cb6027d3a9a1a07caa5576e8a3f619db0bc7be4208daeaf0ab79f8ef65cf8"
 
@@ -291,6 +295,10 @@ hash = "acb405899e61a546e4c83ca5ba3e26b6a00f9a78d9383a58a14d5020283449c6"
 [[files]]
 file = "config/collective/entity_names.json"
 hash = "bddeff5a95a00aaed5c3d2a37bc73d81a1a69a31377f251330aca1265be6945a"
+
+[[files]]
+file = "config/combat_roll/server.json5"
+hash = "6c3ec2b2926b78c73dddf0cfedaf483efb7c3fe8a093f557e560ab280a0683f4"
 
 [[files]]
 file = "config/comforts-common.toml"
@@ -1003,6 +1011,14 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 [[files]]
 file = "configureddefaults/config/DistantHorizons.toml"
 hash = "abf332860ed95502a336c94d440f98cec653154ee5f8de046e42e4658f6b02c2"
+
+[[files]]
+file = "configureddefaults/config/block_factorys_bosses-client.toml"
+hash = "7141ee94f52289bcf62d3568411435530dab414fbc75141de9fb4292bd32248b"
+
+[[files]]
+file = "configureddefaults/config/combat_roll/client.json5"
+hash = "5f5c3c0cfdcf590cc0f0b491e0de90e3bb028f0ca4cb7dbe56c5661a9145dd5c"
 
 [[files]]
 file = "configureddefaults/config/create_submarine-common.toml"
