@@ -1030,7 +1030,7 @@ hash = "cbae23a6b1c07273a79cbfb2f30a52844c30412001cabecac05b8aaa414a97a5"
 
 [[files]]
 file = "configureddefaults/config/sodium-extra-options.json"
-hash = "978ba22b9fe2f70bc8e1cb2abdb6994b4cdd35cc9a064a1f8e79ee77823d2c76"
+hash = "4b65bf252eed16a7f408fb9a423858f6d742842b90145499c4a3816eeea4e379"
 
 [[files]]
 file = "configureddefaults/config/sodium-extra.properties"
@@ -1106,7 +1106,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "053add118a92573a5f075c59ba27190af062dd85e54e1cfe34f7936e179bc3e0"
+hash = "8680c82537c8d7b80f2bd2f6a029ae9d8023e58a2b59baa6f4f88024d951b0c9"
 
 [[files]]
 file = "icon.png"

@@ -2,7 +2,7 @@
 
 A medieval steampunk engineering and adventure pack built around Create Aeronautics, Streams Reflowing and the RPG Series combat system.
 
-Current definition: pack version 0.2.2, Minecraft 1.21.1 and NeoForge 21.1.255. There are 293 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
+Current definition: pack version 0.2.3, Minecraft 1.21.1 and NeoForge 21.1.255. There are 293 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
 
 ## Requirements
 
@@ -32,11 +32,11 @@ The current compatibility holds are Spell Engine 1.10.7, because newer loot-func
 
 All default outputs live directly in `dist`. There are no client or server output subfolders.
 
-| Command | Default output for version 0.2.2 |
+| Command | Default output for version 0.2.3 |
 | --- | --- |
-| `just export-server` | `dist/aeropunk-0.2.2-server.zip` |
-| `just export-curseforge` | `dist/aeropunk-0.2.2-curseforge.zip` |
-| `just export-modrinth` | `dist/aeropunk-0.2.2-modrinth.mrpack` |
+| `just export-server` | `dist/aeropunk-0.2.3-server.zip` |
+| `just export-curseforge` | `dist/aeropunk-0.2.3-curseforge.zip` |
+| `just export-modrinth` | `dist/aeropunk-0.2.3-modrinth.mrpack` |
 
 The commands read the version from `pack.toml`; it is not duplicated in their definitions. Bumping it changes both the default filenames and the version inside newly exported archives. A bump does not export automatically: run the desired command afterward.
 
@@ -54,7 +54,7 @@ Version 0.2.1 replaced the original emblem with the approved simplified flying-c
 
 Configured Defaults 21.1.3 is client-only. Its `configureddefaults` folder mirrors the game directory. The pack supplies twenty-six preset files covering video, Distant Horizons, resource-pack order, sound, keybindings and map preferences. Ordinary files are copied only when absent; `options.txt` adds missing keys without replacing existing values. These preferences are not duplicated at their active destinations in the exported pack. Existing configuration files do not receive automatic per-setting migrations.
 
-The initial baseline uses eight-chunk render and simulation distances, fast graphics, a sixty-frame limit and vertical synchronization. Shaders and Distant Horizons rendering are disabled, with Photon remembered as the shader selection. Shader refresh uses F12. Keybindings retain the current incomplete arrangement rather than attempting a new conflict-resolution scheme. Personal map data, generated server identity and personal chat mention entries are not imported from the client instance.
+The initial baseline uses eight-chunk render and simulation distances, fast graphics, a sixty-frame limit with vertical synchronization disabled. Sodium Extra displays the ordinary frame counter without extended statistics. Shaders and Distant Horizons rendering are disabled, with Photon remembered as the shader selection. Shader refresh uses F12. Keybindings retain the current incomplete arrangement rather than attempting a new conflict-resolution scheme. Personal map data, generated server identity and personal chat mention entries are not imported from the client instance.
 
 The released defaults handler passed isolated checks for fresh-file initialization, preservation of existing graphics, audio and keybindings, and repeated application without resetting those preferences. This does not replace a full Minecraft startup test. Shared server settings and existing compatibility fixes remain authoritative under `config`.
 

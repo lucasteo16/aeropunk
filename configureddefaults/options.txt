@@ -4,7 +4,7 @@ narrator:0
 betterBiomeBlendRadius:14
 ao:true
 biomeBlendRadius:2
-enableVsync:true
+enableVsync:false
 entityDistanceScaling:1.0
 entityShadows:true
 fov:0.0
