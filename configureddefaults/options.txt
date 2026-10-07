@@ -70,7 +70,7 @@ key_key.hotbar.9:key.keyboard.9
 key_key.puffish_skills.open:key.keyboard.k
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.f12
-key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.toggleShaders:key.keyboard.period
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.v
@@ -95,7 +95,7 @@ key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_key.carry.desc:key.keyboard.unknown
+key_key.carry.desc:key.keyboard.c
 key_key.tempad.shortcut:key.keyboard.unknown
 key_key.tempad.macro:key.keyboard.unknown
 key_key.tempad.new_location:key.keyboard.unknown
