@@ -1,7 +1,6 @@
 name = "quick pack"
 filename = "quick-pack-neoforge-1.5.1+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/pSISfJ4O/versions/yXZgoajP/quick-pack-neoforge-1.5.1%2B1.21.1.jar"

@@ -1,7 +1,6 @@
 name = "Create: Aeroworks"
 filename = "aeroworks-1.5.0.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/P26k79kP/versions/6kk7ruR3/aeroworks-1.5.0.jar"

@@ -1,7 +1,6 @@
 name = "Combat Roll"
 filename = "combat_roll-neoforge-2.0.6+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/wGKYL7st/versions/FT7t1n1a/combat_roll-neoforge-2.0.6%2B1.21.1.jar"

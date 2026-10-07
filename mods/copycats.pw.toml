@@ -1,7 +1,6 @@
 name = "Create: Copycats+"
 filename = "copycats-3.0.9+mc.1.21.1-neoforge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/UT2M39wf/versions/bPYeUWZx/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar"

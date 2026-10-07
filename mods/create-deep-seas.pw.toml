@@ -1,7 +1,6 @@
 name = "Create Deep Seas"
 filename = "create_submarine-2.2.4.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/mva5q4qZ/versions/UcXaPVeD/create_submarine-2.2.4.jar"

@@ -1,7 +1,6 @@
 name = "Elemental Wizards (RPG Series Plus)"
 filename = "elemental_wizards_rpg-neoforge-3.1.1+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/PeZ4h4i0/versions/lZy9JjDR/elemental_wizards_rpg-neoforge-3.1.1%2B1.21.1.jar"

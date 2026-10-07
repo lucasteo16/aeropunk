@@ -1,7 +1,6 @@
 name = "MaFgLib"
 filename = "mafglib-0.4.3+mc1.21.1.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/SKI34J7B/versions/CgDQ0u0Q/mafglib-0.4.3%2Bmc1.21.1.jar"

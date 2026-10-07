@@ -1,7 +1,6 @@
 name = "L_Ender 's Cataclysm Delight"
 filename = "lendersdelight-1.21.1-1.0.10b.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/a48R8AGk/versions/cl5zVy2S/lendersdelight-1.21.1-1.0.10b.jar"

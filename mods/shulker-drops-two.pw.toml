@@ -1,7 +1,6 @@
 name = "Shulker Drops Two"
 filename = "shulkerdropstwo-1.21.1-3.7.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/UjXIyw47/versions/eFIjYo5d/shulkerdropstwo-1.21.1-3.7.jar"

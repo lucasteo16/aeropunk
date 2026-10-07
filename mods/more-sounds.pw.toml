@@ -1,7 +1,6 @@
 name = "More Sounds"
 filename = "more_sounds-1.21.x-0.3.0-beta.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/8jvcOd6S/versions/s0FVNDXY/more_sounds-1.21.x-0.3.0-beta.jar"

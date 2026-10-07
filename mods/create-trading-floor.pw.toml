@@ -1,7 +1,6 @@
 name = "Create: Trading floor"
 filename = "trading_floor-3.0.16.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/WROfLLvn/versions/K3nIvcWT/trading_floor-3.0.16.jar"

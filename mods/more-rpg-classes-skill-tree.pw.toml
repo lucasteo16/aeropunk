@@ -1,7 +1,6 @@
 name = "More RPG Classes - Skill Tree (RPG Series Plus)"
 filename = "mrpgc_skill_tree-neoforge-1.2.0+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/3OYmNUDq/versions/zW9lGhaT/mrpgc_skill_tree-neoforge-1.2.0%2B1.21.1.jar"

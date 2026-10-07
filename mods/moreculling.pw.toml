@@ -1,7 +1,6 @@
 name = "More Culling"
 filename = "moreculling-neoforge-1.21.1-1.0.8.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/51shyZVL/versions/tFPgktUw/moreculling-neoforge-1.21.1-1.0.8.jar"

@@ -1,7 +1,6 @@
 name = "Create: Vibrant Vaults"
 filename = "create_vibrant_vaults-0.3.2.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/hddN8ksR/versions/t17qYXjn/create_vibrant_vaults-0.3.2.jar"

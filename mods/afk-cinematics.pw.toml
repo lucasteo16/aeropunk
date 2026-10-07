@@ -1,7 +1,6 @@
 name = "AFK Cinematics"
 filename = "afk-cinematics-1.21.1.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/MjVuY1gY/versions/UxoI2zMA/afk-cinematics-1.21.1.jar"

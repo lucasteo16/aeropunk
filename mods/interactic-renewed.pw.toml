@@ -1,7 +1,6 @@
 name = "Interactic Renewed"
 filename = "interactic-0.2.2+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/BM12h14f/versions/W05MzXWJ/interactic-0.2.2%2B1.21.1.jar"

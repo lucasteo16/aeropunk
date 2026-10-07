@@ -1,7 +1,6 @@
 name = "Particular ✨ Reforged"
 filename = "particular-1.21.1-NeoForge-1.5.5.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/pYFUU6cq/versions/gxO1XUMR/particular-1.21.1-NeoForge-1.5.5.jar"

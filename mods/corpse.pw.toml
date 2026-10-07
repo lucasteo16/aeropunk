@@ -1,7 +1,6 @@
 name = "Corpse"
 filename = "corpse-neoforge-1.21.1-1.1.13.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/WrpuIfhw/versions/Zwf8nv8y/corpse-neoforge-1.21.1-1.1.13.jar"

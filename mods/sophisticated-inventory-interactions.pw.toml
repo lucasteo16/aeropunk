@@ -1,7 +1,6 @@
 name = "Sophisticated Inventory Interactions"
 filename = "sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/orgY0JIo/versions/wiUUWZ2E/sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar"

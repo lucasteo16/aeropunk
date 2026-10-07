@@ -1,7 +1,6 @@
 name = "Create Waystones Recipes"
 filename = "create_waystones_recipes-3.0.1.b.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/wQpKGqNJ/versions/KZ8x4j1W/create_waystones_recipes-3.0.1.b.jar"

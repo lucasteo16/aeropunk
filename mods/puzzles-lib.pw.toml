@@ -1,7 +1,6 @@
 name = "Puzzles Lib"
 filename = "puzzleslib-v21.1.62-mc1.21.1+neoforge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/QAGBst4M/versions/1TmfTuyw/puzzleslib-v21.1.62-mc1.21.1%2Bneoforge.jar"

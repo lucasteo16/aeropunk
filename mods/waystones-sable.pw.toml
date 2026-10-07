@@ -1,7 +1,6 @@
 name = "Waystones: Sable (Create Aeronautics Addon)"
 filename = "waystonessable-1.0.7.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/BxhPGfcK/versions/Wot8Pf4C/waystonessable-1.0.7.jar"

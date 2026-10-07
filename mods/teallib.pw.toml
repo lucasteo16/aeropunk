@@ -1,7 +1,6 @@
 name = "Teal Lib"
 filename = "teallib-1.3.teal.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/rLJ1qF79/versions/lZTBRemW/teallib-1.3.teal.jar"

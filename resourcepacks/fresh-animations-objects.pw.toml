@@ -1,7 +1,6 @@
 name = "Fresh Animations: Objects"
 filename = "FA+Objects-v2.1.2.zip"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/23O9JVMV/versions/AIGgXNdl/FA%2BObjects-v2.1.2.zip"

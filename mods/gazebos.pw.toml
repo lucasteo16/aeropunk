@@ -1,7 +1,6 @@
 name = "Gazebos (RPG Series)"
 filename = "gazebo-neoforge-2.2.0+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/XIpMGI6r/versions/ktRCCPX3/gazebo-neoforge-2.2.0%2B1.21.1.jar"

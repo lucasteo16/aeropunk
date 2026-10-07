@@ -1,7 +1,6 @@
 name = "Armor Model API"
 filename = "armor_model_api-neoforge-1.1.0+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/onz2NN2n/versions/QRkmKYGJ/armor_model_api-neoforge-1.1.0%2B1.21.1.jar"

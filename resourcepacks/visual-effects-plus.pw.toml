@@ -1,7 +1,6 @@
 name = "Visual Effects+"
 filename = "Visual Effects+.zip"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/ZyZknBVG/versions/MgC4Oa2v/Visual%20Effects%2B.zip"

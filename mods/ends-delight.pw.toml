@@ -1,7 +1,6 @@
 name = "End's Delight"
 filename = "ends_delight-2.6+neoforge.1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/yHN0njMr/versions/La8SvoPm/ends_delight-2.6%2Bneoforge.1.21.1.jar"

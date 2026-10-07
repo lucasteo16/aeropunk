@@ -1,7 +1,6 @@
 name = "Ritchie's Projectile Library"
 filename = "ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar"

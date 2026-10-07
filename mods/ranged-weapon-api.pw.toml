@@ -1,7 +1,6 @@
 name = "Ranged Weapon API"
 filename = "ranged_weapon_api-neoforge-3.0.0+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/AqaIIO6D/versions/WxNYN3Zh/ranged_weapon_api-neoforge-3.0.0%2B1.21.1.jar"

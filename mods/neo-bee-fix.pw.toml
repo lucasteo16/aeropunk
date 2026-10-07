@@ -1,7 +1,6 @@
 name = "Neo Bee Fix"
 filename = "neobeefix-1.21.1-2.0.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/DzSY371i/versions/MUOGH4UT/neobeefix-1.21.1-2.0.1.jar"

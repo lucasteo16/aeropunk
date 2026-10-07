@@ -1,7 +1,6 @@
 name = "Spice of Life Onion"
 filename = "Spice of Life Onion_NEOFORGE_v1.5.6_mc1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/eHGYGKJz/versions/4YRKCovn/Spice%20of%20Life%20Onion_NEOFORGE_v1.5.6_mc1.21.1.jar"

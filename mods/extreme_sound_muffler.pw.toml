@@ -1,7 +1,6 @@
 name = "Extreme sound muffler"
 filename = "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/5IIKsxiL/versions/m5je0Rop/ExtremeSoundMuffler-3.56_NeoForge-1.21.jar"

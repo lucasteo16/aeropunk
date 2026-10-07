@@ -1,7 +1,6 @@
 name = "Better Combat"
 filename = "bettercombat-neoforge-2.4.0+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar"

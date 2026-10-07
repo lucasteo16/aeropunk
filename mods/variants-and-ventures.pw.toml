@@ -1,7 +1,6 @@
 name = "Variants&Ventures"
 filename = "variantsandventures-neoforge-1.0.28+mc1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/lNDRiXkY/versions/FIBENnpb/variantsandventures-neoforge-1.0.28%2Bmc1.21.1.jar"

@@ -1,7 +1,6 @@
 name = "Create: Prismatic Shine"
 filename = "createprism-1.2.2.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/udEtt0b2/versions/gKqw2akx/createprism-1.2.2.jar"

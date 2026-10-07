@@ -1,7 +1,6 @@
 name = "GrandTeleport NeoForge"
 filename = "GrandTeleport-NeoForge-1.21.1-1.0.0.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/PsllFHj8/versions/SRYiyHAS/GrandTeleport-NeoForge-1.21.1-1.0.0.jar"

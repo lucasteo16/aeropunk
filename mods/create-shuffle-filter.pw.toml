@@ -1,7 +1,6 @@
 name = "Create: Shuffle Filter"
 filename = "create-shufflefilter-2.1.1-neo.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/gv5RRavC/versions/5DJFXpjO/create-shufflefilter-2.1.1-neo.jar"

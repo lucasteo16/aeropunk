@@ -1,7 +1,6 @@
 name = "Create: More Girder"
 filename = "create-more-girder-2.1.2-neo.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/sPg2LVAd/versions/LG0UGk5r/create-more-girder-2.1.2-neo.jar"

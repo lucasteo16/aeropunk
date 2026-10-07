@@ -1,7 +1,6 @@
 name = "Apollib"
 filename = "apollib-1.2.0-neoforge-21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/VDI2Ytax/versions/zMAIdVwq/apollib-1.2.0-neoforge-21.1.jar"

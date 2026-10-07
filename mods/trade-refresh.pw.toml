@@ -1,7 +1,6 @@
 name = "Trade Refresh"
 filename = "traderefresh-3.0.4.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/OlAQOlqx/versions/okw4BAHD/traderefresh-3.0.4.jar"

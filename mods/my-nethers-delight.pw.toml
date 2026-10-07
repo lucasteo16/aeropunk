@@ -1,7 +1,6 @@
 name = "My Nether's Delight"
 filename = "MyNethersDelight-1.21.1-1.10.2.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/O53VhQoZ/versions/qBUSJw5Z/MyNethersDelight-1.21.1-1.10.2.jar"

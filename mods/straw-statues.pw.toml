@@ -1,7 +1,6 @@
 name = "Straw Statues"
 filename = "StrawStatues-v21.1.0-1.21.1-NeoForge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/2fltysAl/versions/C7j9WWVp/StrawStatues-v21.1.0-1.21.1-NeoForge.jar"

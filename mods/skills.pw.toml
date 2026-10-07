@@ -1,7 +1,6 @@
 name = "Pufferfish's Skills"
 filename = "puffish_skills-0.19.1-1.21-neoforge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/uqAz8XFU/puffish_skills-0.19.1-1.21-neoforge.jar"

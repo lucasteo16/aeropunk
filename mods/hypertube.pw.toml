@@ -1,7 +1,6 @@
 name = "Create: Hypertubes"
 filename = "create_hypertube-0.6.0-NEOFORGE.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/ATDdrG1y/versions/qYjOyvgW/create_hypertube-0.6.0-NEOFORGE.jar"

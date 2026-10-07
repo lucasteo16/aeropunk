@@ -1,7 +1,6 @@
 name = "EMF Compat: Create"
 filename = "emf_compat_create_1.21.1_2.0.0.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/J9McOdzy/versions/FYa3pSLC/emf_compat_create_1.21.1_2.0.0.jar"

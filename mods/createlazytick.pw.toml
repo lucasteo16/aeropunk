@@ -1,7 +1,6 @@
 name = "Create: LazyTick"
 filename = "CreateLazyTick-2.4.9-6.0.x-neoforge-1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Z0d7hFh4/versions/Dx5cIwDo/CreateLazyTick-2.4.9-6.0.x-neoforge-1.21.1.jar"

@@ -1,7 +1,6 @@
 name = "EMF Compat: Not Enough Animations"
 filename = "emf_compat_not_enough_animations_1.21.1_1.2.0.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/IGCrWfL7/versions/2PAaJs7w/emf_compat_not_enough_animations_1.21.1_1.2.0.jar"

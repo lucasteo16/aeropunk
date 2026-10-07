@@ -1,7 +1,6 @@
 name = "Bosses'Rise"
 filename = "block_factorys_bosses-2.1.2-neo-1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar"

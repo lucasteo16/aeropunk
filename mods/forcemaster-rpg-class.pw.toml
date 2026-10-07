@@ -1,7 +1,6 @@
 name = "Forcemaster (RPG Series Plus)"
 filename = "forcemaster_rpg-neoforge-3.1.1+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/K3yHebFL/versions/2yMJPJK9/forcemaster_rpg-neoforge-3.1.1%2B1.21.1.jar"

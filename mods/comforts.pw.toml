@@ -1,7 +1,6 @@
 name = "Comforts"
 filename = "comforts-neoforge-9.0.5+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/SaCpeal4/versions/3kpPjcTc/comforts-neoforge-9.0.5%2B1.21.1.jar"

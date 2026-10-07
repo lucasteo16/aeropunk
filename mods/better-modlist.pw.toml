@@ -1,7 +1,6 @@
 name = "Better ModList"
 filename = "better_modlist-1.1.22.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/sbpqhzIG/versions/XlCN7NWa/better_modlist-1.1.22.jar"

@@ -1,7 +1,6 @@
 name = "Create: Tweaked Controllers"
 filename = "create_tweaked_controllers-1.21.1-1.2.7.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/H6bJ8Ju4/versions/csCe2v7f/create_tweaked_controllers-1.21.1-1.2.7.jar"

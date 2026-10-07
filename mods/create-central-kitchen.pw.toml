@@ -1,7 +1,6 @@
 name = "Create: Central Kitchen"
 filename = "create-central-kitchen-2.6.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/btq68HMO/versions/FaEwZ1Pr/create-central-kitchen-2.6.1.jar"

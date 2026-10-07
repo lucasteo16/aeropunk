@@ -1,7 +1,6 @@
 name = "Archers (RPG Series)"
 filename = "archers-neoforge-3.1.3+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/QgooUXAJ/versions/7oSRQwU0/archers-neoforge-3.1.3%2B1.21.1.jar"

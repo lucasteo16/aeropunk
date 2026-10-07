@@ -2,7 +2,7 @@
 
 A medieval steampunk engineering and adventure pack built around Create Aeronautics, Streams Reflowing and the RPG Series combat system.
 
-Current definition: pack version 0.1.2, Minecraft 1.21.1 and NeoForge 21.1.255. There are 292 mod selections, nine resource packs and three shader packs, all pinned to exact artifacts.
+Current definition: pack version 0.1.3, Minecraft 1.21.1 and NeoForge 21.1.255. There are 292 mod selections, nine resource packs and three shader packs, each selecting an exact artifact. Only demonstrated compatibility exceptions are pinned against updates.
 
 ## Requirements
 
@@ -24,17 +24,19 @@ Run commands from the repository directory. `just --list` shows the available co
 | `just update` | Run `packwiz update --all`, respecting pins. |
 | `just clean` | Remove recognized temporary runs and Python bytecode, preserving releases, latest reports and the reusable installation. |
 
-All external selections are pinned. Change versions deliberately through packwiz, inspect compatibility and retest. Prefer the newest mutually compatible combination, not the newest individual release of every mod.
+Ordinary selections are unpinned so `just update` can offer newer releases for the selected Minecraft version and loader. Pin a mod only after a specific incompatibility has been demonstrated, and document the reason. Exact artifact selection still makes exports reproducible without an update hold. Packwiz does not restrict unpinned updates to patches or guarantee cross-mod compatibility; inspect changes and retest before distributing them.
+
+The current compatibility holds are Spell Engine 1.10.7, because newer loot-function changes broke Witcher 3.1.4, and Xaero's Maps Multiplayer Plus 1.1.0, because 1.1.1 contains a malformed bundled Java module descriptor rejected by NeoForge. All other mods, resource packs and shader packs can receive updates. Prefer the newest mutually compatible combination, not the newest individual release of every mod.
 
 ## Versioned exports
 
 All default outputs live directly in `dist`. There are no client or server output subfolders.
 
-| Command | Default output for version 0.1.2 |
+| Command | Default output for version 0.1.3 |
 | --- | --- |
-| `just export-server` | `dist/aeropunk-0.1.2-server.zip` |
-| `just export-curseforge` | `dist/aeropunk-0.1.2-curseforge.zip` |
-| `just export-modrinth` | `dist/aeropunk-0.1.2-modrinth.mrpack` |
+| `just export-server` | `dist/aeropunk-0.1.3-server.zip` |
+| `just export-curseforge` | `dist/aeropunk-0.1.3-curseforge.zip` |
+| `just export-modrinth` | `dist/aeropunk-0.1.3-modrinth.mrpack` |
 
 The commands read the version from `pack.toml`; it is not duplicated in their definitions. Bumping it changes both the default filenames and the version inside newly exported archives. A bump does not export automatically: run the desired command afterward.
 
@@ -94,7 +96,7 @@ Obsolete export layouts, unversioned duplicates and inactive archived test code 
 
 ## Compatibility and remaining checks
 
-The selected server mod set passed readiness and normal shutdown checks before spark was added. spark 1.10.124 is pinned and included by default on clients and servers; its addition has packaging validation only, pending the next runtime test. Spell Engine 1.10.7 is retained for Witcher 3.1.4 compatibility. Xaero's Maps Multiplayer Plus is pinned to 1.1.0. GrandTeleport 1.0.0 is client-only. Advancement Frames is excluded because its selected release loaded a client-only class on a dedicated server; it was not relabelled as client-only content.
+The selected server mod set passed readiness and normal shutdown checks before spark was added. spark 1.10.124 is included by default on clients and servers; its addition has packaging validation only, pending the next runtime test. Spell Engine 1.10.7 is retained for Witcher 3.1.4 compatibility. Xaero's Maps Multiplayer Plus is pinned to 1.1.0. GrandTeleport 1.0.0 is client-only. Advancement Frames is excluded because its selected release loaded a client-only class on a dedicated server; it was not relabelled as client-only content.
 
 Client crash corrections retain Entity Model Features 3.3.11 and update its Not Enough Animations compatibility addon to 1.2.0, Create compatibility addon to 2.0.0 and shared compatibility core to 2.0.0. AsyncParticles is updated to 21.1.4.5. Exact released class-member checks resolve the animation references against the selected game and libraries; the newer particle mixin removes the offending light-color shadow method. Lodestone's delayed particle buffer is disabled using the particle author's documented compatibility workaround. These are targeted binary and packaging checks, not a verified client launch. Reinforced Shulker Boxes' early rendering initialization and older Sodium settings integrations remain client playtest concerns.
 

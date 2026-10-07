@@ -1,7 +1,6 @@
 name = "AsyncParticles"
 filename = "AsyncParticles-21.1.4.5+1.21.1.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/c3onkd5k/versions/8S3JSSbl/AsyncParticles-21.1.4.5%2B1.21.1.jar"

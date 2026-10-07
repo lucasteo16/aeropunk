@@ -1,7 +1,6 @@
 name = "Bundle API"
 filename = "bundle-api-neoforge-1.1.0.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/n8QN6Z1a/versions/w5F5wdko/bundle-api-neoforge-1.1.0.jar"

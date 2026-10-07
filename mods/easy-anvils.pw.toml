@@ -1,7 +1,6 @@
 name = "Easy Anvils"
 filename = "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/OZBR5JT5/versions/fSQSKhdF/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar"

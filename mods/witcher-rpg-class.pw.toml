@@ -1,7 +1,6 @@
 name = "Witcher (RPG Series Plus)"
 filename = "witcher-class-mod-neoforge-3.1.4+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/4eW1c7Gj/versions/QF76fKlN/witcher-class-mod-neoforge-3.1.4%2B1.21.1.jar"

@@ -1,7 +1,6 @@
 name = "Flerovium"
 filename = "flerovium-neoforge-1.21.1-1.0.18-all.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/ROADZx1W/flerovium-neoforge-1.21.1-1.0.18-all.jar"

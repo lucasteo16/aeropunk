@@ -21,7 +21,7 @@ export-modrinth output=("dist/aeropunk-" + PACK_VERSION + "-modrinth.mrpack"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz modrinth export --output {{quote(output)}}
 
-# Update external files, respecting packwiz pins.
+# Update external files, respecting documented compatibility holds.
 update:
     packwiz update --all
 

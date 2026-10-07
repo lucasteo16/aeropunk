@@ -1,7 +1,6 @@
 name = "Create Sable Dynamic Lights"
 filename = "create-dyn-light-2.3.1-sodium-sable.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/eIsyUZG3/versions/sKw2ERw2/create-dyn-light-2.3.1-sodium-sable.jar"

@@ -1,7 +1,6 @@
 name = "Attribute Icons (RPG Series)"
 filename = "RPG_Series_Icons-1.4.0+1.21.1.zip"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/73QpzsIN/versions/it8xKo5G/RPG_Series_Icons-1.4.0%2B1.21.1.zip"

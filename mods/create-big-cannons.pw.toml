@@ -1,7 +1,6 @@
 name = "Create Big Cannons"
 filename = "createbigcannons-5.11.7+mc.1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/GWp4jCJj/versions/bOiDu0LS/createbigcannons-5.11.7%2Bmc.1.21.1.jar"

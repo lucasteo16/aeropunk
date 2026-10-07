@@ -1,7 +1,6 @@
 name = "Additional Jewelry (RPG Series Plus)"
 filename = "additional_rpg_jewelry-neoforge-2.3.1+1.21.1.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/rULzJh3O/versions/FtXm9snY/additional_rpg_jewelry-neoforge-2.3.1%2B1.21.1.jar"

@@ -1,7 +1,6 @@
 name = "Items Displayed [NeoForge]"
 filename = "ItemsDisplayed-NeoForge-2.0.10.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/PuR4vDBo/versions/8ZZWElcA/ItemsDisplayed-NeoForge-2.0.10.jar"

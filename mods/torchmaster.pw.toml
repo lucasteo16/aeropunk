@@ -1,7 +1,6 @@
 name = "TorchMaster"
 filename = "torchmaster-neoforge-1.21.1-21.1.9.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Tl8ESrhX/versions/PhWXajPC/torchmaster-neoforge-1.21.1-21.1.9.jar"

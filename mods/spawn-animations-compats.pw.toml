@@ -1,7 +1,6 @@
 name = "Spawn Animations Compats"
 filename = "spawn-animations-compats-18.0.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/ofDka6PS/versions/AyNBs0vr/spawn-animations-compats-18.0.jar"

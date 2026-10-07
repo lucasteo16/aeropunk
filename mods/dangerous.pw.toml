@@ -1,7 +1,6 @@
 name = "Dangerous - Just A Difficulty Mod"
 filename = "Dangerous NeoForge - 1.21.1 v1.5.2.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/nsri5wVW/versions/ItIXjtt2/Dangerous%20NeoForge%20-%201.21.1%20v1.5.2.jar"

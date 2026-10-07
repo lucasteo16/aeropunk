@@ -1,7 +1,6 @@
 name = "DragonLib"
 filename = "dragonlib-neoforge-1.21.1-beta-3.0.28.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/sbIsGaOV/versions/x376YU9w/dragonlib-neoforge-1.21.1-beta-3.0.28.jar"

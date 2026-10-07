@@ -1,7 +1,6 @@
 name = "Better Biome Reblend"
 filename = "betterbiomeblend-1.5.2.jar"
 side = "client"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Xh8hkQmD/versions/HZlLCOct/betterbiomeblend-1.5.2.jar"

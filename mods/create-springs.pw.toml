@@ -1,7 +1,6 @@
 name = "Create: Springs"
 filename = "createsprings-1.2.1-neoforge.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/wDCqub60/versions/3tMl04vO/createsprings-1.2.1-neoforge.jar"

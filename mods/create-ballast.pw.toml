@@ -1,7 +1,6 @@
 name = "Create: Ballast"
 filename = "ballastmod-0.1.0.jar"
 side = "both"
-pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/5ypXYrfG/versions/uJwkM1Xh/ballastmod-0.1.0.jar"
