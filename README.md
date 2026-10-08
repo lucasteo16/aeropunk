@@ -6,9 +6,11 @@ This branch removes AFK Cinematics and Steppy. Dynamic FPS now uses its released
 
 Added Sound Physics Remastered 1.5.1, Presence Footsteps (NeoForge) 1.12.0 beta 1, Presence Footsteps x Sable 1.0, Cool Rain Reforged 1.0.2, and Sable: Cool Rain 1.0.1. These audio additions are client-only. Presence Footsteps uses the NeoForge fork because the other port's selected artifact declares a malformed Minecraft dependency range. Beta status is retained as a manual-test checkpoint.
 
-The other grouped branches still use revision 1 of the baseline. They have not been rebased or rebuilt, so these new audio additions must not be mistaken for shared settings in the original three-package comparison. Main remains unchanged. Archive verification does not establish sound behavior, performance or gameplay compatibility.
+The revision 2 grouped test set shares this Chunky baseline across all three packages. The Northstar and optimizer branches independently inherit it, never each other's additions. Test Chunky first, optimizers second, and Northstar last. Main remains unchanged. Archive verification does not establish sound behavior, performance or gameplay compatibility. The Northstar rendering override investigation remains on hold.
 
-Use three feature groups, not individual-mod brute force. All are based on stable main with Chunky, Astropunk branding and disabled Distant Horizons update checking. Rendering remains disabled. Main is unchanged; no merge is approved.
+For the intermittent loading crash, distinguish a fresh instance creating its first world, another newly created world in that same instance, and reopening an existing save. Record which case succeeds or fails and retain its matching crash report. A successful retry does not establish that the failure is fixed. This round deliberately retains Chunky, Distant Horizons and Progress Peek without crash-specific changes.
+
+Use three feature groups, not individual-mod brute force. All are based on stable main with Chunky, Astropunk branding and disabled Distant Horizons update checking. The initial rendering preference is disabled, not a restriction on player choices. The unchanged Northstar bridge can override that preference during play. Main is unchanged; no merge is approved.
 
 - grouped/chunky: trusted baseline candidate with Chunky and common fixes.
 - grouped/northstar: baseline plus Northstar, original Aeronautics compatibility, the rendering bridge, Paxi recipe correction and AeroWarptics.
