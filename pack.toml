@@ -1,12 +1,12 @@
 name = "Astropunk Chunky Baseline"
 author = "Lucas"
-version = "0.3.0-grouped.chunky.3"
+version = "0.3.0-grouped.chunky.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e768b854eaa75d4caea4dbdff6f9830e3d4718428f2670a98d81840764cfcbdb"
+hash = "9c7c60ffefe373181ac679fbbb76844d9d9c953695da5ef0cf9c01f0bf405578"
 
 [versions]
 minecraft = "1.21.1"

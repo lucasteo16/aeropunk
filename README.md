@@ -1,6 +1,8 @@
 # Astropunk grouped regression tests
 
-## Chunky baseline revision 2
+## Chunky baseline revision 4
+
+Revision 3 adds Mandala's dark interface resource pack, enabled for fresh clients. Revision 4 adds client-only Hide Experimental Warning 1.3 for Minecraft 1.21.1. It hides the experimental-world confirmation without changing world generation. These two interface additions are currently Chunky-only; the other feature branches retain revision 2 until their next synchronized rebuild. No game was launched for these interface changes.
 
 This branch removes AFK Cinematics and Steppy. Dynamic FPS now uses its released defaults: unfocused rendering at 1 frame per second, invisible rendering at 0, and idle rendering at 10. Idle detection remains the native five-minute, on-battery default. The old active configuration override is removed, so existing player settings are not replaced.
 
