@@ -1,12 +1,12 @@
-name = "Astropunk Control"
+name = "Astropunk chunky"
 author = "Lucas"
-version = "0.3.0-isolation.control.1"
+version = "0.3.0-isolation.chunky.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9b8ec9d51e4f9478bb124e3c982ea02ebca8ee0dbd79c22fb42e1c10aee4cef9"
+hash = "57035539f05969e0cecb2c1abb4ef25ebb06bd5261e95829912f24b461fc82fa"
 
 [versions]
 minecraft = "1.21.1"

@@ -1,3 +1,7 @@
+# Astropunk chunky isolation trial
+
+This branch adds only chunky to the shared stable control. The control disables the Distant Horizons update checker and retains disabled rendering. Use Java 21 and a fresh instance. No merge into main is approved.
+
 # Astropunk isolation control
 
 This diagnostic release is based on stable main 0.2.7. It adds only current branding and disables the Distant Horizons update checker. Rendering remains disabled. No experimental mods are included. Java 21 is the test baseline. Import each trial as a fresh instance. Existing player configuration is not overwritten. Nothing is approved for merging into main.
