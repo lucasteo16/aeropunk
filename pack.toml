@@ -1,6 +1,6 @@
 name = "Astropunk Optimizers Trial"
 author = "Lucas"
-version = "0.3.0-grouped.optimizers.3"
+version = "0.3.0-test.optmizers.1"
 pack-format = "packwiz:1.1.0"
 
 [index]

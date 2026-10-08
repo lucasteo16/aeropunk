@@ -1,6 +1,6 @@
 # Astropunk lean downstream trial
 
-Current group: optimizers. Version: 0.3.0-grouped.optimizers.3.
+Current group: optimizers. Version: 0.3.0-test.optmizers.1. Branch: test/optmizers.
 
 This trial independently inherits lightweight main at 34cb0066095af82eb4f3092366e20edebf40abea. It does not inherit main-heavy or the other experimental group. Shared gameplay, preferences, client visual exclusions and server-only spark follow main. Experimental additions remain at their previous exact selections.
 
