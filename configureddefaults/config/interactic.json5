@@ -5,7 +5,7 @@
   "itemFilterEnabled": true,
   "itemsActAsProjectiles": true,
   "autoPickup": true,
-  "fancyItemRendering": false,
+  "fancyItemRendering": true,
   "renderItemTooltips": true,
   "renderFullTooltip": true,
   "swingArm": true,
