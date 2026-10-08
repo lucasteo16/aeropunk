@@ -1,3 +1,5 @@
+Current package: optimizers.
+
 # Astropunk grouped regression tests
 
 Use three feature groups, not individual-mod brute force. All are based on stable main with Chunky, Astropunk branding and disabled Distant Horizons update checking. Rendering remains disabled. Main is unchanged; no merge is approved.
