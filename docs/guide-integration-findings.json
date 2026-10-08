@@ -1,0 +1,1536 @@
+{
+  "schema_version": 1,
+  "pack": {
+    "name": "Astropunk Chunky Baseline",
+    "version": "0.3.0-grouped.chunky.4",
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.255",
+    "baseline_commit": "4491dfe",
+    "worktree": "/home/tsb/Projects/lucas/aeropunk-guide"
+  },
+  "scope": {
+    "mode": "read-only research with documentation writes",
+    "gameplay_tests_run": false,
+    "runtime_tests_run": false,
+    "pack_changes_made": false,
+    "installs_made": false,
+    "exports_made": false,
+    "commit_made": false,
+    "exhaustive_compatibility_claim": false,
+    "space": "deferred",
+    "northstar_rendering_override": "on hold, not investigated"
+  },
+  "evidence_labels": {
+    "declared support": "Publisher statement or released declaration. Not proof of operation.",
+    "source-supported mechanism": "Implemented released artifact code or packaged data. Decompiled code is static evidence.",
+    "reported problem": "Upstream issue or pull request, not reproduced here.",
+    "locally verified": "Reserved for actual locally exercised behavior. No gameplay integration has this label in this review. Hash matching and archive parsing were locally checked.",
+    "unknown": "Evidence does not establish compatibility, defect applicability or repair in the selected version."
+  },
+  "severity_definition": {
+    "high": "Declared load constraint or substantial recovery, inventory, survival or travel risk requiring attention before instructions are guaranteed. Severity does not mean reproduced.",
+    "medium": "Important mechanics, recipe, power or reward uncertainty that can mislead guidance."
+  },
+  "selected_versions": {
+    "aeroengine.pw.toml": {
+      "name": "AeroEngine",
+      "filename": "AeroEngine-1.3.0.jar",
+      "version_number": "1.3.0",
+      "modrinth_project_id": "CRh10iJF",
+      "modrinth_version_id": "eqi1VZul",
+      "published": "2026-08-18T16:38:28.026816Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/CRh10iJF/versions/eqi1VZul/AeroEngine-1.3.0.jar",
+      "hash_algorithm": "sha512",
+      "hash": "4312cde8482ded0f1a01010660313ac7af53ca3851d3fadb327c240297c7dc39e3f384cf4c8baf0ee88440b170f6b2cfb388a6c7ff6aeb8955d22aab82815833",
+      "artifact_inspected": true
+    },
+    "better-combat.pw.toml": {
+      "name": "Better Combat",
+      "filename": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "version_number": "2.4.0+1.21.1-neoforge",
+      "modrinth_project_id": "5sy6g3kz",
+      "modrinth_version_id": "VhIOvcXP",
+      "published": "2026-07-14T10:59:20.462587Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "db24730a42ae7e2dd546ee031d2f5e0dd6f9896418417a529fa21a44121761ebb29c8b8299db8f20500f7497f7b60a7d793b66c93abf37a8ea0aa3edafd80eb6",
+      "artifact_inspected": true
+    },
+    "bossesrise.pw.toml": {
+      "name": "Bosses'Rise",
+      "filename": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "version_number": "2.1.2",
+      "modrinth_project_id": "q2bV1Tm1",
+      "modrinth_version_id": "lE9PF6Wp",
+      "published": "2026-05-21T14:16:04.523918Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "9a2b58bd7c15c15f089d87bdd1ac5b8cccaeab6a28518b9a10336e811334aba7e42c9cae7733a5fd7125ebce28554b0dea530cb7f86ecb85617203d948590344",
+      "artifact_inspected": true
+    },
+    "combat-roll.pw.toml": {
+      "name": "Combat Roll",
+      "filename": "combat_roll-neoforge-2.0.6+1.21.1.jar",
+      "version_number": "2.0.6+1.21.1-neoforge",
+      "modrinth_project_id": "wGKYL7st",
+      "modrinth_version_id": "FT7t1n1a",
+      "published": "2025-12-17T23:19:11.253603Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/wGKYL7st/versions/FT7t1n1a/combat_roll-neoforge-2.0.6%2B1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "2f75b0865c6f342bc7f0fe8abb6e161befae64dd23ad73bc2ed5b6aa892055ee886d63d061afa9323f3056c5ba39621226b712d2435168c5fb8f856cebd27c16",
+      "artifact_inspected": false
+    },
+    "corpse-x-curios-api-compat.pw.toml": {
+      "name": "Corpse x Curios API Compat",
+      "filename": "corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar",
+      "version_number": "4.0.1",
+      "modrinth_project_id": "pJGcKPh1",
+      "modrinth_version_id": "Ix4uAd2i",
+      "published": "2026-04-07T20:13:34.850322Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/pJGcKPh1/versions/Ix4uAd2i/corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "3a75b28b4bf25d775c399c8b5eff1f186020957332f3698d4e313cd0c0785c8b5814ca7fd7194e8b938e276073bab99e8d22aa2c5c10ca78763945db825059fe",
+      "artifact_inspected": false
+    },
+    "corpse.pw.toml": {
+      "name": "Corpse",
+      "filename": "corpse-neoforge-1.21.1-1.1.13.jar",
+      "version_number": "neoforge-1.21.1-1.1.13",
+      "modrinth_project_id": "WrpuIfhw",
+      "modrinth_version_id": "Zwf8nv8y",
+      "published": "2025-09-21T09:18:20.482823Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/Zwf8nv8y/corpse-neoforge-1.21.1-1.1.13.jar",
+      "hash_algorithm": "sha512",
+      "hash": "473aafd82008c1e041e3b4a5a177507d555c8bc9dd1f121f252f1e81bc0c69c79a91cb64be0df343babcb3d4db76efbaa7aa2adaeaae29337808a368bc290ad0",
+      "artifact_inspected": true
+    },
+    "create-aeronautics.pw.toml": {
+      "name": "Create Aeronautics",
+      "filename": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "version_number": "1.3.2+mc1.21.1",
+      "modrinth_project_id": "oWaK0Q19",
+      "modrinth_version_id": "44pLdPGg",
+      "published": "2026-08-29T18:45:12.190765Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/44pLdPGg/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "hash_algorithm": "sha512",
+      "hash": "dc7e8e1148fa442243889ba29412207137e1bb86206e6c92bc0a589f1374a466e93de22bdbf14f753984d86c29308fbbdc0f14a4b9618b14c0ac1666a36b46f5",
+      "artifact_inspected": true
+    },
+    "create-aeroworks.pw.toml": {
+      "name": "Create: Aeroworks",
+      "filename": "aeroworks-1.5.0.jar",
+      "version_number": "1.5.0+mc1.21.1",
+      "modrinth_project_id": "P26k79kP",
+      "modrinth_version_id": "6kk7ruR3",
+      "published": "2026-08-27T00:05:18.607121Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/P26k79kP/versions/6kk7ruR3/aeroworks-1.5.0.jar",
+      "hash_algorithm": "sha512",
+      "hash": "d79435aaf9c8d8697d1cb5a95b2189ab00ac1387dcbcdc0fbd701a25a22678eba2107e55b8da47bf0089282280ee2b3ff36418d9d7bda744b210d5fa5f4ca697",
+      "artifact_inspected": true
+    },
+    "create-ballast.pw.toml": {
+      "name": "Create: Ballast",
+      "filename": "ballastmod-0.1.0.jar",
+      "version_number": "0.1.0",
+      "modrinth_project_id": "5ypXYrfG",
+      "modrinth_version_id": "uJwkM1Xh",
+      "published": "2026-05-03T06:14:19.892220Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/5ypXYrfG/versions/uJwkM1Xh/ballastmod-0.1.0.jar",
+      "hash_algorithm": "sha512",
+      "hash": "e69d283a520983122310c5576306aaacd4a326b5c38de3ec1fdd859561bd76b8905817f8ff7004e56d5c43e90d304650aaa523c5fe51d7331faf61921ddc2f7d",
+      "artifact_inspected": true
+    },
+    "create-central-kitchen.pw.toml": {
+      "name": "Create: Central Kitchen",
+      "filename": "create-central-kitchen-2.6.1.jar",
+      "version_number": "2.6.1",
+      "modrinth_project_id": "btq68HMO",
+      "modrinth_version_id": "FaEwZ1Pr",
+      "published": "2026-09-17T02:54:20.627242Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/btq68HMO/versions/FaEwZ1Pr/create-central-kitchen-2.6.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "aa94f2092467f546f76b084d20d31bcd97549587e887e0734f10ac0585995870899fe27a9d522dc37e82f5c8ca7f1775843917e40bfab78370c021a27b6fec91",
+      "artifact_inspected": true
+    },
+    "create-deep-seas.pw.toml": {
+      "name": "Create Deep Seas",
+      "filename": "create_submarine-2.2.4.jar",
+      "version_number": "2.2.4",
+      "modrinth_project_id": "mva5q4qZ",
+      "modrinth_version_id": "UcXaPVeD",
+      "published": "2026-06-17T20:02:33.473498Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/mva5q4qZ/versions/UcXaPVeD/create_submarine-2.2.4.jar",
+      "hash_algorithm": "sha512",
+      "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+      "artifact_inspected": true
+    },
+    "create-dragons-plus.pw.toml": {
+      "name": "Create: Dragons Plus",
+      "filename": "CreateDragonsPlus-1.11.9.jar",
+      "version_number": "1.11.9",
+      "modrinth_project_id": "dzb1a5WV",
+      "modrinth_version_id": "b0u9vk8C",
+      "published": "2026-09-17T01:16:15.484691Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar",
+      "hash_algorithm": "sha512",
+      "hash": "43299e49afe7132515aa8ad545b8c9566d90f12cfb39456b3d6e1ebc8e03f05787fbc420e7cc9495df4d6b585d13e7a4c4c7385f82f20aeb829c9491b725af53",
+      "artifact_inspected": true
+    },
+    "create-electro-energetics.pw.toml": {
+      "name": "Create: Electro Energetics",
+      "filename": "electroenergetics-1.21.1-1.1.3.jar",
+      "version_number": "1.21.1-1.1.3",
+      "modrinth_project_id": "qYJdIoAx",
+      "modrinth_version_id": "KWxEmmON",
+      "published": "2026-10-04T14:07:15.153796Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/qYJdIoAx/versions/KWxEmmON/electroenergetics-1.21.1-1.1.3.jar",
+      "hash_algorithm": "sha512",
+      "hash": "080f4ed9cafe27b897cf14236ee92798a1c29fb08c0456208cf4a2bcc4164934a3ef40e202aeb25c9f5ae58f3f1739fcf0ab21f5f3c7e241f602a79f53a1cf00",
+      "artifact_inspected": true
+    },
+    "create-integrated-farming.pw.toml": {
+      "name": "Create: Integrated Farming",
+      "filename": "create-integrated-farming-1.4.2.jar",
+      "version_number": "1.4.2",
+      "modrinth_project_id": "9k1pAsfR",
+      "modrinth_version_id": "90PTskVE",
+      "published": "2026-09-17T01:01:52.959015Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/9k1pAsfR/versions/90PTskVE/create-integrated-farming-1.4.2.jar",
+      "hash_algorithm": "sha512",
+      "hash": "63364fb161fe66e53700170a3495517f8efa533416edd9de0eeb7448e52ad12cad51438be4c8f41406759eaf0350ceb83da7058e085e3b43288b3c0ad9bc17f8",
+      "artifact_inspected": true
+    },
+    "create-liquid-fuel.pw.toml": {
+      "name": "Create: Liquid Fuel",
+      "filename": "createliquidfuel-2.1.1-1.21.1.jar",
+      "version_number": "2.1.1-1.21.1",
+      "modrinth_project_id": "sH9tXU9f",
+      "modrinth_version_id": "7oNrI3y9",
+      "published": "2025-05-12T10:12:35.335737Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/sH9tXU9f/versions/7oNrI3y9/createliquidfuel-2.1.1-1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "01a8995f09105e1c4cfe001a4674c208c3ed0e82a7612ea3891b2482a9fcbe1ccec185125cf40fd5802d153bbed5f1d7a057aefe40ba750476f3000936d3c71e",
+      "artifact_inspected": true
+    },
+    "create-waystones-recipes.pw.toml": {
+      "name": "Create Waystones Recipes",
+      "filename": "create_waystones_recipes-3.0.1.b.jar",
+      "version_number": "3.0.1.b",
+      "modrinth_project_id": "wQpKGqNJ",
+      "modrinth_version_id": "KZ8x4j1W",
+      "published": "2026-08-29T15:39:09.936920Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/wQpKGqNJ/versions/KZ8x4j1W/create_waystones_recipes-3.0.1.b.jar",
+      "hash_algorithm": "sha512",
+      "hash": "514c6991b18138d3f39073c107504c6918cf59ccb0144cc777f127a3aec19f1ba44691d3bcd7ca31d6b3abf29e725e2d055616de1c7ac3b907e0ea5b48f4e84a",
+      "artifact_inspected": false
+    },
+    "create.pw.toml": {
+      "name": "Create",
+      "filename": "create-1.21.1-6.0.10.jar",
+      "version_number": "6.0.10+mc1.21.1",
+      "modrinth_project_id": "LNytGWDc",
+      "modrinth_version_id": "UjX6dr61",
+      "published": "2026-04-21T22:20:03.579201Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "hash_algorithm": "sha512",
+      "hash": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b",
+      "artifact_inspected": true
+    },
+    "easy-shulker-boxes.pw.toml": {
+      "name": "Easy Shulker Boxes",
+      "filename": "EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+      "version_number": "v21.1.3-1.21.1-NeoForge",
+      "modrinth_project_id": "gA5euN8S",
+      "modrinth_version_id": "OBp8ltOS",
+      "published": "2025-06-26T13:43:31.875017Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/gA5euN8S/versions/OBp8ltOS/EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+      "hash_algorithm": "sha512",
+      "hash": "64d88ec77897cc34b6decb8b02520b809d62c3c9156bdb07e818a1406a120313738b18defa6c59e6e5fb6c55343f5132793031d60662672aca3fbf65d5eb7e4a",
+      "artifact_inspected": true
+    },
+    "farmers-delight.pw.toml": {
+      "name": "Farmer's Delight",
+      "filename": "FarmersDelight-1.21.1-1.3.2.jar",
+      "version_number": "1.21.1-1.3.2",
+      "modrinth_project_id": "R2OftAxM",
+      "modrinth_version_id": "GbNuOZ4S",
+      "published": "2026-05-13T16:42:12.357594Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
+      "hash_algorithm": "sha512",
+      "hash": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
+      "artifact_inspected": false
+    },
+    "iris.pw.toml": {
+      "name": "Iris Shaders",
+      "filename": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "version_number": "1.8.14-beta.1+1.21.1-neoforge",
+      "modrinth_project_id": "YL57xq9U",
+      "modrinth_version_id": "KduFYu4t",
+      "published": "2026-06-13T15:57:14.116693Z",
+      "side": "client",
+      "download_url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2feb167923d6d14d1fc7e8ee1a977ec421b19d1951bdca74c4092b9c5",
+      "artifact_inspected": false
+    },
+    "l_enders-cataclysm.pw.toml": {
+      "name": "L_Ender's Cataclysm",
+      "filename": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+      "version_number": "3.33",
+      "modrinth_project_id": "46KJle7n",
+      "modrinth_version_id": "PsPYpoCC",
+      "published": "2026-09-20T13:46:34.684045Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/46KJle7n/versions/PsPYpoCC/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar",
+      "hash_algorithm": "sha512",
+      "hash": "289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947",
+      "artifact_inspected": true
+    },
+    "reeses-sodium-options.pw.toml": {
+      "name": "Reese's Sodium Options",
+      "filename": "reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar",
+      "version_number": "mc1.21.1-2.2.4+neoforge",
+      "modrinth_project_id": "Bh37bMuy",
+      "modrinth_version_id": "XjF2IkL8",
+      "published": "2026-09-16T00:49:19.288855Z",
+      "side": "client",
+      "download_url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/XjF2IkL8/reeses-sodium-options-neoforge-2.2.4%2Bmc1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "a99d41a41ca83376c4fa29ed22a99e98288a7e9a4749fbf6d3724b9804b8e66648e267c6851a53d040069fdc2d889f8205cbb444bee10a35be840d13fc9ed477",
+      "artifact_inspected": false
+    },
+    "reinforced-shulker-boxes.pw.toml": {
+      "name": "Reinforced Shulker Boxes",
+      "filename": "reinforced-shulker-boxes-3.2.1+1.21.1.jar",
+      "version_number": "3.2.1+1.21.1",
+      "modrinth_project_id": "xlOwuSdN",
+      "modrinth_version_id": "PZOyr6QP",
+      "published": "2024-12-31T01:48:47.327374Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/xlOwuSdN/versions/PZOyr6QP/reinforced-shulker-boxes-3.2.1%2B1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "5415c46c8ef7fd47cbeffc212a29edc82741fe8e397136a2751238af24a5110f1c777c81f82b70f2ef5b282b4dde97c12f92a510aaf1ecabcbb6e2c910e54627",
+      "artifact_inspected": true
+    },
+    "sable.pw.toml": {
+      "name": "Sable",
+      "filename": "sable-neoforge-1.21.1-2.0.6.jar",
+      "version_number": "2.0.6+mc1.21.1",
+      "modrinth_project_id": "T9PomCSv",
+      "modrinth_version_id": "fg9dTRz9",
+      "published": "2026-10-03T04:17:59.727160Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/T9PomCSv/versions/fg9dTRz9/sable-neoforge-1.21.1-2.0.6.jar",
+      "hash_algorithm": "sha512",
+      "hash": "76d293ce751a01cb9c095a3659b0a41e03e005480bc9d76dfdc73ec7c2eabf7923740c7b077921d42616673c496cd5143569f2085ddcebe174fd91d81e2a04b8",
+      "artifact_inspected": true
+    },
+    "sablecompat.pw.toml": {
+      "name": "Sable: Physics Compat",
+      "filename": "sablephysicscompat-1.3.0.jar",
+      "version_number": "1.3.0",
+      "modrinth_project_id": "sZbcIrJb",
+      "modrinth_version_id": "Ucq7afTi",
+      "published": "2026-04-24T02:28:38.818854Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/sZbcIrJb/versions/Ucq7afTi/sablephysicscompat-1.3.0.jar",
+      "hash_algorithm": "sha512",
+      "hash": "8da8791d255aeae21ecc201318b2c670e594984fa0ce726bfce8a4f27e8983c50c7152e93cf68a389b7d06711e85bcfef925eea0a00a39dd6718db89326ec494",
+      "artifact_inspected": true
+    },
+    "slice-and-dice.pw.toml": {
+      "name": "Create Slice & Dice",
+      "filename": "sliceanddice-4.3.3-neoforge.jar",
+      "version_number": "4.3.3",
+      "modrinth_project_id": "GmjmRQ0A",
+      "modrinth_version_id": "N67LJgrN",
+      "published": "2026-07-31T12:48:06.777106Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/N67LJgrN/sliceanddice-4.3.3-neoforge.jar",
+      "hash_algorithm": "sha512",
+      "hash": "3bdbd282ae5aa11ef6c186b752497541730b50fb400c4962230bcd7734cfe4e8daa2ee565387450dfe0eb6deaa0fa44bf81f99c788bac09b1a60d8f1991db37f",
+      "artifact_inspected": true
+    },
+    "sodium-dynamic-lights.pw.toml": {
+      "name": "Sodium Dynamic Lights",
+      "filename": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+      "version_number": "neoforge-1.21.1-1.0.10",
+      "modrinth_project_id": "PxQSWIcD",
+      "modrinth_version_id": "XI0WLXdn",
+      "published": "2025-01-02T01:22:43.914842Z",
+      "side": "client",
+      "download_url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a",
+      "artifact_inspected": false
+    },
+    "sodium-extra.pw.toml": {
+      "name": "Sodium Extra",
+      "filename": "sodium-extra-neoforge-0.9.4+mc1.21.1.jar",
+      "version_number": "mc1.21.1-0.9.4+neoforge",
+      "modrinth_project_id": "PtjYWJkn",
+      "modrinth_version_id": "ufpcXU9c",
+      "published": "2026-09-16T02:17:25.326233Z",
+      "side": "client",
+      "download_url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/ufpcXU9c/sodium-extra-neoforge-0.9.4%2Bmc1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "b930a9c6364bdbac42da7175f9fa71360053cd046d2f1e9a99d712e5942299882bfb585e5b661490b791e219b5dd6b9f064fb94f169d7a32a9934c1dc2b85edf",
+      "artifact_inspected": false
+    },
+    "sodium.pw.toml": {
+      "name": "Sodium",
+      "filename": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "version_number": "mc1.21.1-0.8.13-neoforge",
+      "modrinth_project_id": "AANobbMI",
+      "modrinth_version_id": "uMOpc5uV",
+      "published": "2026-08-28T20:55:02.593669Z",
+      "side": "client",
+      "download_url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "4f537696af95411e9daf15795fb5fcbc49913d488a96fa912fa8f1d7db408710995e8a1461190f3cd0f8217bf9e35e9539176592428ed587ca2d7aa84450a390",
+      "artifact_inspected": false
+    },
+    "sophisticated-inventory-interactions.pw.toml": {
+      "name": "Sophisticated Inventory Interactions",
+      "filename": "sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar",
+      "version_number": "1.21.1-0.1.9.160",
+      "modrinth_project_id": "orgY0JIo",
+      "modrinth_version_id": "wiUUWZ2E",
+      "published": "2026-06-25T18:15:28.853144Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/orgY0JIo/versions/wiUUWZ2E/sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar",
+      "hash_algorithm": "sha512",
+      "hash": "b3e0341291eed8b602bca4dc2a9d4a9c90492d8b5083f7a14df126690588071064927411e3cb50f2deb9b1e9be2bdab6ada3ddbece2a5f329b74e31f256b862b",
+      "artifact_inspected": true
+    },
+    "spell-engine.pw.toml": {
+      "name": "Spell Engine",
+      "filename": "spell_engine-neoforge-1.10.7+1.21.1.jar",
+      "version_number": "1.10.7+1.21.1-neoforge",
+      "modrinth_project_id": "XvoWJaA2",
+      "modrinth_version_id": "wKITXgNx",
+      "published": "2026-09-19T07:57:53.178176Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/wKITXgNx/spell_engine-neoforge-1.10.7%2B1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "1ace13122d39024e191a12aadf7398d896ebc0c3c2a4760ddc0bc3d45cdd199ad8c9a84acce87eaff6518d7988da2ea5238cbd4b3152d14651eeae4f5fbda943",
+      "artifact_inspected": true
+    },
+    "tempad.pw.toml": {
+      "name": "Tempad",
+      "filename": "tempad-1.21.1-3.0.4-all.jar",
+      "version_number": "3.0.4",
+      "modrinth_project_id": "gKNwt7xu",
+      "modrinth_version_id": "T26aJH7E",
+      "published": "2025-05-11T00:29:07.518757Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/gKNwt7xu/versions/T26aJH7E/tempad-1.21.1-3.0.4-all.jar",
+      "hash_algorithm": "sha512",
+      "hash": "8f577c902ed0074f7636cda73f61f95a4bab4f4009c6039a3ccfaf5d70fe528ab8b9a88ba1f19548c70caea7f652d8b9fbdfba855b5543c3e660b64bd5b18bef",
+      "artifact_inspected": true
+    },
+    "vanilla-backpacks.pw.toml": {
+      "name": "Backpacks!",
+      "filename": "1.3.5-backpacks_mod-1.21-1.21.1.jar",
+      "version_number": "1.3.5",
+      "modrinth_project_id": "MGcd6kTf",
+      "modrinth_version_id": "uJz7ESID",
+      "published": "2025-10-03T16:15:32.856980Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/MGcd6kTf/versions/uJz7ESID/1.3.5-backpacks_mod-1.21-1.21.1.jar",
+      "hash_algorithm": "sha512",
+      "hash": "62bcf7ac7ddcda27c2dc581593cf9887c567027e061aad724a684f81a523f04e6f6dadfcbcbcfef81d63dfc1267dbea7d4fef6e93d8f5c97049954b2f4382782",
+      "artifact_inspected": true
+    },
+    "waystones-sable.pw.toml": {
+      "name": "Waystones: Sable (Create Aeronautics Addon)",
+      "filename": "waystonessable-1.0.7.jar",
+      "version_number": "1.0.7",
+      "modrinth_project_id": "BxhPGfcK",
+      "modrinth_version_id": "Wot8Pf4C",
+      "published": "2026-08-12T13:48:11.484012Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/BxhPGfcK/versions/Wot8Pf4C/waystonessable-1.0.7.jar",
+      "hash_algorithm": "sha512",
+      "hash": "20b677c77baf5fd33cccf1ac2bf80220d7162d30ca33dc04516285690f8fac9392a4789b57545b5fd20014213a1f55812ad6e2efd3518a2ba77a9a54bc6ab51a",
+      "artifact_inspected": true
+    },
+    "waystones.pw.toml": {
+      "name": "Waystones",
+      "filename": "waystones-neoforge-1.21.1-21.1.46.jar",
+      "version_number": "21.1.46+neoforge-1.21.1",
+      "modrinth_project_id": "LOpKHB2A",
+      "modrinth_version_id": "6Z6MQ6os",
+      "published": "2026-09-25T06:00:14.558396Z",
+      "side": "both",
+      "download_url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/6Z6MQ6os/waystones-neoforge-1.21.1-21.1.46.jar",
+      "hash_algorithm": "sha512",
+      "hash": "ca90b58d884d4bc2b08a870484ae7ede397e71d31eaaf01ff2603ad498d584763e099c2094e57031522385339705d2c011ed4910bf36efae688e64935b49ece9",
+      "artifact_inspected": false
+    }
+  },
+  "artifact_verification": {
+    "count": 25,
+    "method": "Resolved provider hashes through the read-only packwiz cache index, located SHA256-addressed cache files, and computed each packwiz-declared digest before ZIP inspection. No artifact was installed or altered.",
+    "decompiler": "Existing CFR 0.152 using an existing Java runtime. This executed the decompiler only, not Minecraft or mod code.",
+    "metadata_cache": "/home/tsb/Hermes/research/astropunk-guidance/versions.json",
+    "publisher_cache": "/home/tsb/Hermes/research/astropunk-guidance/projects.json"
+  },
+  "findings": [
+    {
+      "id": "GI-01",
+      "title": "Create Ballast declares an incompatible loader ceiling",
+      "severity": "high",
+      "evidence_status": [
+        "source-supported mechanism"
+      ],
+      "affected_versions": {
+        "create-ballast": "0.1.0"
+      },
+      "evidence": [
+        {
+          "source_id": 23,
+          "kind": "released_artifact",
+          "filename": "ballastmod-0.1.0.jar",
+          "hash_algorithm": "sha512",
+          "hash": "e69d283a520983122310c5576306aaacd4a326b5c38de3ec1fdd859561bd76b8905817f8ff7004e56d5c43e90d304650aaa523c5fe51d7331faf61921ddc2f7d",
+          "location": "META-INF/neoforge.mods.toml, dependencies.ballastmod, neoforge.versionRange",
+          "exact_excerpt": "[21.0.0-beta,21.1.227)"
+        },
+        {
+          "kind": "local_pack_metadata",
+          "path": "pack.toml",
+          "key": "versions.neoforge",
+          "value": "21.1.255"
+        }
+      ],
+      "already_mitigated": {
+        "state": "no repository mitigation found",
+        "detail": "No ballastmod dependency override was found in the repository search. A launcher-side override was not inspected."
+      },
+      "proposed_action": "Notify Lucas and request approval before any release replacement, removal or dependency override. Do not silently bypass the declared check.",
+      "gameplay_validation_needed": "An authorized fresh import must establish whether this declaration blocks loading, then exercise the selected counterweight if retained.",
+      "guide_boundary": "Do not present this counterweight as an available working construction step before resolving the declared loader mismatch."
+    },
+    {
+      "id": "GI-02",
+      "title": "Deep Seas ballast and oxygen instructions need released-code corrections",
+      "severity": "medium",
+      "evidence_status": [
+        "declared support",
+        "source-supported mechanism"
+      ],
+      "affected_versions": {
+        "create-deep-seas": "2.2.4"
+      },
+      "evidence": [
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "BallastVentBlockEntity.tickBallastTank",
+          "exact_excerpt": "if (signal == 0) {\n            return;\n        }"
+        },
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "OxygeneDiffuserBlockEntity.tick",
+          "exact_excerpt": "boolean canRun = level.hasNeighborSignal(pos) && be.oxygenTank.getFluidAmount() > 0;"
+        },
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "OxygeneDiffuserBlockEntity.tick, elected owner and gameTick modulo 20",
+          "exact_excerpt": "be.oxygenTank.drain(new FluidStack((Fluid)CreateSubmarine.OXYGEN.get(), 50), IFluidHandler.FluidAction.EXECUTE);"
+        },
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "assets/create_submarine/lang/en_us.json, create_submarine.ponder.oxygen_diffuser.text_2",
+          "exact_excerpt": "It consumes oxygen proportionally to the size of the submarine."
+        },
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "OxygeneDiffuserBlockEntity.oxygenTank fluid validator",
+          "exact_excerpt": "fluid.getFluid().isSame((Fluid)CreateSubmarine.OXYGEN.get())"
+        },
+        {
+          "source_id": 29,
+          "kind": "upstream_report",
+          "exact_excerpt": "lets the Oxygen Diffuser's tank accept any fluid in `c:oxygen` besides Deep Seas' own, so oxygen made by other mods can feed it.",
+          "version_scope": "Open pull request 85 targets main, not the selected released artifact."
+        }
+      ],
+      "already_mitigated": {
+        "state": "not mitigated in guidance",
+        "detail": "The startup preferences screen is suppressed by configureddefaults/config/create_submarine-common.toml. No hull-strength gameplay override was found."
+      },
+      "proposed_action": "Document rotation, nonzero redstone and sea exposure for the vent. Document oxygen, redstone and an assembled Sable sublevel for the diffuser. Do not repeat the size-proportional consumption claim: the inspected active-owner drain is constant in this release. State that the selected diffuser accepts Deep Seas oxygen, not any oxygen-tagged fluid.",
+      "gameplay_validation_needed": "Test vent fill and drain direction, redstone control, sea exposure, diffuser warmup, power loss and two different cabin sizes.",
+      "guide_boundary": "Creative Oxygenator is a creative aid, not the survival oxygen supply. Survival recipes for the Electrolyzer, Oxygen Diffuser, ballast tank, vent and barometer are packaged. Pressure resistance is not average block strength.",
+      "release_metadata_source_ids": [
+        40
+      ]
+    },
+    {
+      "id": "GI-03",
+      "title": "Deep Seas 2.2.4 has a version-matched sealing report",
+      "severity": "high",
+      "evidence_status": [
+        "reported problem",
+        "source-supported mechanism"
+      ],
+      "affected_versions": {
+        "create-deep-seas": "2.2.4",
+        "sable": "2.0.6+mc1.21.1",
+        "create-aeronautics": "1.3.2+mc1.21.1"
+      },
+      "evidence": [
+        {
+          "source_id": 26,
+          "kind": "upstream_report",
+          "exact_excerpt": "Create: Deep Seas version: 2.2.4",
+          "version_scope": "Report uses Sable 2.0.3, Aeronautics 1.3.0, Create 6.0.10 and NeoForge 21.1.233; pack uses Sable 2.0.6 and Aeronautics 1.3.2."
+        },
+        {
+          "source_id": 26,
+          "kind": "upstream_report",
+          "exact_excerpt": "Hermetic (sealed): no",
+          "version_scope": "Closed report, maintainer comment says fix without naming a released fix version."
+        },
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "SubmarinePressureSystem.getWeakestHullDepth",
+          "exact_excerpt": "for (BlockPos bp : comp.hull()) {"
+        }
+      ],
+      "already_mitigated": {
+        "state": "unconfirmed for selected artifact",
+        "detail": "Selected 2.2.4 was published 2026-06-17. Report closed with a fix comment on 2026-09-25. Closure does not establish a fix in the selected artifact."
+      },
+      "proposed_action": "Keep submarine survival guidance conditional until a simple enclosed cabin passes sealing and pressure checks. Seek approval for any version change only after matching a release to the reported fix.",
+      "gameplay_validation_needed": "Test a small vanilla-block sealed cabin with survival diffuser and creative control separately, add a door and Copycat blocks, inspect barometer response, then repeat after save and reload.",
+      "guide_boundary": "The released pressure calculation traverses sealed compartment hull blocks, checks exposure and full collision shapes, and resolves Copycat material data. This is implemented logic, not confirmation that the report is fixed in the pack.",
+      "release_metadata_source_ids": [
+        40
+      ]
+    },
+    {
+      "id": "GI-04",
+      "title": "Deep Seas 2.2.4 rope can retain unintended energy transfer",
+      "severity": "medium",
+      "evidence_status": [
+        "reported problem"
+      ],
+      "affected_versions": {
+        "create-deep-seas": "2.2.4"
+      },
+      "evidence": [
+        {
+          "source_id": 27,
+          "kind": "upstream_report",
+          "exact_excerpt": "Hey there just noticed in the newest version: 2.2.4 that the rope also transfers energy between two rope attachments, wich should only happen if steel cable is used",
+          "version_scope": "Exact Deep Seas version match; other selected endpoint versions not supplied."
+        },
+        {
+          "source_id": 27,
+          "kind": "upstream_report",
+          "exact_excerpt": "after some investigation it happens because if only one side is borken of the rope the other one stays in the steel cable mode",
+          "version_scope": "Reporter follow-up, not locally reproduced."
+        }
+      ],
+      "already_mitigated": {
+        "state": "unconfirmed for selected artifact",
+        "detail": "Maintainer says fix on 2026-09-25, after the selected artifact publication."
+      },
+      "proposed_action": "Do not teach ordinary rope as an intentional electrical cable. Keep rope, steel-cable electrification and converter-based power transfer distinct.",
+      "gameplay_validation_needed": "Compare fresh rope against steel cable, then break and replace one endpoint while watching attached consumer energy.",
+      "guide_boundary": "A report of energy transfer is not evidence that a rope is a supported cable for every electrical system.",
+      "release_metadata_source_ids": [
+        40
+      ]
+    },
+    {
+      "id": "GI-05",
+      "title": "Deep Seas tall-machine placement has a storage duplication report",
+      "severity": "high",
+      "evidence_status": [
+        "reported problem",
+        "unknown"
+      ],
+      "affected_versions": {
+        "create-deep-seas": "2.2.4"
+      },
+      "evidence": [
+        {
+          "source_id": 28,
+          "kind": "upstream_report",
+          "exact_excerpt": "You can do it with storage and dupe contents of it.",
+          "version_scope": "Issue 77 supplies reproduction steps but no explicit mod version; applicability to selected 2.2.4 is unknown."
+        }
+      ],
+      "already_mitigated": {
+        "state": "unconfirmed",
+        "detail": "Maintainer says fix on 2026-09-25 without identifying a released version. Do not claim selected 2.2.4 is affected or repaired solely from issue chronology."
+      },
+      "proposed_action": "Flag the storage-loss and duplication checkpoint to Lucas. Avoid teaching occupied-block placement around the diffuser or electrolyzer as a useful construction technique.",
+      "gameplay_validation_needed": "In an authorized disposable world, use inexpensive marked contents, attempt machine placement under occupied upper space, wrench the neighboring block and count all resulting storage and contents.",
+      "guide_boundary": "Treat this as a reported exploit candidate, not a reproduced pack defect or a reason to remove Deep Seas.",
+      "release_metadata_source_ids": [
+        40
+      ]
+    },
+    {
+      "id": "GI-06",
+      "title": "Submarine electrical supply has a real converter bridge, not automatic cable compatibility",
+      "severity": "medium",
+      "evidence_status": [
+        "declared support",
+        "source-supported mechanism",
+        "unknown"
+      ],
+      "affected_versions": {
+        "create-electro-energetics": "1.21.1-1.1.3",
+        "create-deep-seas": "2.2.4"
+      },
+      "evidence": [
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "ElectrolyzerBlockEntity.energyStorage",
+          "exact_excerpt": "public final EnergyStorage energyStorage = new EnergyStorage(10000, 1000, 1000);"
+        },
+        {
+          "source_id": 1,
+          "kind": "released_artifact",
+          "filename": "create_submarine-2.2.4.jar",
+          "hash_algorithm": "sha512",
+          "hash": "6b87d72f1036489c44cd033170abe10f8b5210ef8265823f29cd51531444e78384863ca321b7cdcc23924940161226327ab774cfd1d91d5e2ea8ba599b0eae31",
+          "location": "ElectrolyzerBlockEntity.tick",
+          "exact_excerpt": "be.energyStorage.extractEnergy(250, false);"
+        },
+        {
+          "source_id": 9,
+          "kind": "released_artifact",
+          "filename": "electroenergetics-1.21.1-1.1.3.jar",
+          "hash_algorithm": "sha512",
+          "hash": "080f4ed9cafe27b897cf14236ee92798a1c29fb08c0456208cf4a2bcc4164934a3ef40e202aeb25c9f5ae58f3f1739fcf0ab21f5f3c7e241f602a79f53a1cf00",
+          "location": "ConverterBlockEntity$ConverterEnergyStorage.class",
+          "exact_excerpt": "ConverterEnergyStorage"
+        },
+        {
+          "source_id": 9,
+          "kind": "released_artifact",
+          "filename": "electroenergetics-1.21.1-1.1.3.jar",
+          "hash_algorithm": "sha512",
+          "hash": "080f4ed9cafe27b897cf14236ee92798a1c29fb08c0456208cf4a2bcc4164934a3ef40e202aeb25c9f5ae58f3f1739fcf0ab21f5f3c7e241f602a79f53a1cf00",
+          "location": "SubLevelAssemblyHelperMixin.moveNodesAndWires",
+          "exact_excerpt": "DevicesSavedData.moveSubLevelDevices(transform, blocks, devicesSD);"
+        },
+        {
+          "source_id": 30,
+          "kind": "upstream_report",
+          "exact_excerpt": "You just need to use the converter block in EE.",
+          "version_scope": "Community reply, not an exact selected-version test."
+        }
+      ],
+      "already_mitigated": {
+        "state": "bridge selected, vehicle operation unverified",
+        "detail": "Electro Energetics includes a Forge Energy converter and assembly migration hooks. No additional electrical mod is justified merely to satisfy the FE consumer."
+      },
+      "proposed_action": "Teach the realistic electrical circuit and converter as distinct from Forge Energy consumers. Do not imply direct wire interchangeability or that every machine works across a moving boundary.",
+      "gameplay_validation_needed": "Power an electrolyzer from a converter on land, assemble the same circuit onto a submarine, move, unload, reload and reconnect. Verify oxygen production and energy storage persistence under load.",
+      "guide_boundary": "Selected Electro Energetics PantographBlockEntity performs Sable pose transformations. This supports a moving-contact mechanism, not blanket electricity compatibility. Issue 238 was corrected by the author as a voltmeter wired in series, and the reporter accepted the correction, so it is not evidence that all vehicle consumers fail.",
+      "release_metadata_source_ids": [
+        40
+      ]
+    },
+    {
+      "id": "GI-07",
+      "title": "Liquid Fuel does not make every vehicle engine accept the same fuel",
+      "severity": "medium",
+      "evidence_status": [
+        "source-supported mechanism",
+        "unknown"
+      ],
+      "affected_versions": {
+        "create-liquid-fuel": "2.1.1-1.21.1",
+        "aeroengine": "1.3.0"
+      },
+      "evidence": [
+        {
+          "source_id": 10,
+          "kind": "released_artifact",
+          "filename": "createliquidfuel-2.1.1-1.21.1.jar",
+          "hash_algorithm": "sha512",
+          "hash": "01a8995f09105e1c4cfe001a4674c208c3ed0e82a7612ea3891b2482a9fcbe1ccec185125cf40fd5802d153bbed5f1d7a057aefe40ba750476f3000936d3c71e",
+          "location": "com/forsteri/createliquidfuel/mixin/MixinBlazeBurnerTileEntity.class",
+          "exact_excerpt": "MixinBlazeBurnerTileEntity"
+        },
+        {
+          "source_id": 21,
+          "kind": "released_artifact",
+          "filename": "AeroEngine-1.3.0.jar",
+          "hash_algorithm": "sha512",
+          "hash": "4312cde8482ded0f1a01010660313ac7af53ca3851d3fadb327c240297c7dc39e3f384cf4c8baf0ee88440b170f6b2cfb388a6c7ff6aeb8955d22aab82815833",
+          "location": "EngineCombustorBlockEntity.getFuelConsumptionRate",
+          "exact_excerpt": "ModFluids.isAviationKerosene(this.storedFluid)"
+        }
+      ],
+      "already_mitigated": {
+        "state": "separate implementations already selected",
+        "detail": "AeroEngine published filename is AeroEngine-1.3.0.jar but its internal mod version is 1.0.2. Preserve both when reporting a defect."
+      },
+      "proposed_action": "Give burner fuel and AeroEngine aviation kerosene separate guide entries. Do not claim that Liquid Fuel supplies kerosene recipes or arbitrary engine interoperability.",
+      "gameplay_validation_needed": "Verify actual kerosene recipe in the selected item browser, combustion and start controls, afterburner consumption, refilling while moving, and fuel persistence after save and reload.",
+      "guide_boundary": "Liquid Fuel targets Blaze Burners. A reference to fuel consumption in an engine is not evidence of accepting all liquid fuels."
+    },
+    {
+      "id": "GI-08",
+      "title": "Kitchen integrations overlap in inputs but retain distinct automation roles",
+      "severity": "medium",
+      "evidence_status": [
+        "declared support",
+        "source-supported mechanism"
+      ],
+      "affected_versions": {
+        "create-central-kitchen": "2.6.1",
+        "slice-and-dice": "4.3.3",
+        "create-integrated-farming": "1.4.2"
+      },
+      "evidence": [
+        {
+          "source_id": 2,
+          "kind": "released_artifact",
+          "filename": "create-central-kitchen-2.6.1.jar",
+          "hash_algorithm": "sha512",
+          "hash": "aa94f2092467f546f76b084d20d31bcd97549587e887e0734f10ac0585995870899fe27a9d522dc37e82f5c8ca7f1775843917e40bfab78370c021a27b6fec91",
+          "location": "CuttingBoardRecipeConverters.canSaw",
+          "exact_excerpt": "return ((CuttingBoardRecipe)holder.value()).getTool().test(CuttingBoardRecipeConverters.sawAsKnife());"
+        },
+        {
+          "source_id": 2,
+          "kind": "released_artifact",
+          "filename": "create-central-kitchen-2.6.1.jar",
+          "hash_algorithm": "sha512",
+          "hash": "aa94f2092467f546f76b084d20d31bcd97549587e887e0734f10ac0585995870899fe27a9d522dc37e82f5c8ca7f1775843917e40bfab78370c021a27b6fec91",
+          "location": "CuttingBoardRecipeConverters.SAWING and DEPLOYING",
+          "exact_excerpt": "builder.output(result.chance(), result.stack());"
+        },
+        {
+          "source_id": 3,
+          "kind": "released_artifact",
+          "filename": "sliceanddice-4.3.3-neoforge.jar",
+          "hash_algorithm": "sha512",
+          "hash": "3bdbd282ae5aa11ef6c186b752497541730b50fb400c4962230bcd7734cfe4e8daa2ee565387450dfe0eb6deaa0fa44bf81f99c788bac09b1a60d8f1991db37f",
+          "location": "FarmersDelightCompat.shouldConvert",
+          "exact_excerpt": "\"_manual_only\""
+        },
+        {
+          "source_id": 4,
+          "kind": "released_artifact",
+          "filename": "create-integrated-farming-1.4.2.jar",
+          "hash_algorithm": "sha512",
+          "hash": "63364fb161fe66e53700170a3495517f8efa533416edd9de0eeb7448e52ad12cad51438be4c8f41406759eaf0350ceb83da7058e085e3b43288b3c0ad9bc17f8",
+          "location": "released integration classes",
+          "exact_excerpt": "SableFishingNetController"
+        }
+      ],
+      "already_mitigated": {
+        "state": "native coverage selected",
+        "detail": "Farmer's Delight 1.3.2, Create 6.0.10 and Dragons Plus 1.11.9 meet Central Kitchen 2.6.1 declared minimums. Repository settings enable sawing, deploying and heated basin cooking."
+      },
+      "proposed_action": "Retain distinct guide paths: Central Kitchen packages and arms into cooking tools plus knife-compatible sawing and tool-specific deploying; Slice & Dice provides slicer cutting and heated basin cooking; Integrated Farming provides harvesting, roosts, nets and moving-world farming hooks. Do not recommend removal as duplicate mods.",
+      "gameplay_validation_needed": "Compare manual and automated rice-panicle cutting including straw, an axe recipe, one pot meal with a bowl, milk or honey conversion, recipe reload and packaged orders. Check recipes contributed by every selected Delight addon before promising coverage.",
+      "guide_boundary": "Conversions depend on recipe types, accepted tools, automation eligibility and settings. No exhaustive food coverage is verified. Legacy Central Kitchen sequenced sandwich, pie and fluid claims must not be copied into 2.6.1 guidance.",
+      "release_metadata_source_ids": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": "GI-09",
+      "title": "Central Kitchen has new filter and feast-serving reports",
+      "severity": "medium",
+      "evidence_status": [
+        "reported problem",
+        "unknown"
+      ],
+      "affected_versions": {
+        "create-central-kitchen": "2.6.1"
+      },
+      "evidence": [
+        {
+          "source_id": 35,
+          "kind": "upstream_report",
+          "exact_excerpt": "Noticed in my game that the saw doesn't check for filters on recipes on the generated cutting board recipes.",
+          "version_scope": "Open pull request 207, no release version supplied."
+        },
+        {
+          "source_id": 36,
+          "kind": "upstream_report",
+          "exact_excerpt": "the mechanical arm does not replace the final portion with a new block when supplied or place the final portion into a storage medium targetted.",
+          "version_scope": "Open issue 206, Minecraft 1.21.1 but no Central Kitchen release specified."
+        }
+      ],
+      "already_mitigated": {
+        "state": "not confirmed mitigated",
+        "detail": "Both were opened 2026-10-07, after the selected 2.6.1 publication. They are concrete new reports, not version-confirmed pack failures."
+      },
+      "proposed_action": "Keep saw filter routing and unattended final-portion replacement out of guaranteed instructions until validated. Match any proposed fix to an approved published artifact, not an open pull request.",
+      "gameplay_validation_needed": "Test two competing cutting outputs with a configured saw filter. Serve an entire feast through an arm, confirm the final serving reaches storage and replacement occurs.",
+      "guide_boundary": "Ponder instructions are helpful but can disagree with reported final-serving behavior.",
+      "release_metadata_source_ids": [
+        41
+      ]
+    },
+    {
+      "id": "GI-10",
+      "title": "Moving farming has shipped hooks, but net collection still needs lifecycle validation",
+      "severity": "medium",
+      "evidence_status": [
+        "declared support",
+        "source-supported mechanism",
+        "reported problem"
+      ],
+      "affected_versions": {
+        "create-integrated-farming": "1.4.2",
+        "create-dragons-plus": "1.11.9",
+        "sable": "2.0.6+mc1.21.1",
+        "create-aeronautics": "1.3.2+mc1.21.1"
+      },
+      "evidence": [
+        {
+          "source_id": 4,
+          "kind": "released_artifact",
+          "filename": "create-integrated-farming-1.4.2.jar",
+          "hash_algorithm": "sha512",
+          "hash": "63364fb161fe66e53700170a3495517f8efa533416edd9de0eeb7448e52ad12cad51438be4c8f41406759eaf0350ceb83da7058e085e3b43288b3c0ad9bc17f8",
+          "location": "released integration classes",
+          "exact_excerpt": "SableSpouting"
+        },
+        {
+          "source_id": 4,
+          "kind": "released_artifact",
+          "filename": "create-integrated-farming-1.4.2.jar",
+          "hash_algorithm": "sha512",
+          "hash": "63364fb161fe66e53700170a3495517f8efa533416edd9de0eeb7448e52ad12cad51438be4c8f41406759eaf0350ceb83da7058e085e3b43288b3c0ad9bc17f8",
+          "location": "released integration classes",
+          "exact_excerpt": "SableVacuumHarvesting"
+        },
+        {
+          "source_id": 4,
+          "kind": "released_artifact",
+          "filename": "create-integrated-farming-1.4.2.jar",
+          "hash_algorithm": "sha512",
+          "hash": "63364fb161fe66e53700170a3495517f8efa533416edd9de0eeb7448e52ad12cad51438be4c8f41406759eaf0350ceb83da7058e085e3b43288b3c0ad9bc17f8",
+          "location": "released integration classes",
+          "exact_excerpt": "SableFishingNetController"
+        },
+        {
+          "source_id": 37,
+          "kind": "upstream_report",
+          "exact_excerpt": "Fishing Nets attached to auger shafts will not send outputs to it.",
+          "version_scope": "Report uses Integrated Farming 1.3.3, Dragons Plus 1.11.7b, Sable 2.0.5 and Aeronautics 1.3.1, all older than selected endpoints."
+        }
+      ],
+      "already_mitigated": {
+        "state": "publisher reports repair, pack not gameplay verified",
+        "detail": "Issue 62 was closed with New release should fix this issue. Selected 1.4.2 changelog also specifically fixes premature rice harvesting and water removal."
+      },
+      "proposed_action": "Use native moving-farm support rather than proposing a missing integration addon. Keep net-to-auger storage transfer conditional until demonstrated.",
+      "gameplay_validation_needed": "Harvest mature and immature submerged rice on a moving structure, confirm water and seed retention, collect a coplanar net panel through an auger, then test full storage, unloaded vessel and reconnect.",
+      "guide_boundary": "Hook presence and an upstream fix statement do not verify the assembled pack or every aquatic creature.",
+      "release_metadata_source_ids": [
+        42
+      ]
+    },
+    {
+      "id": "GI-11",
+      "title": "Waystones tracks moving destinations, but unloaded-ship arrival has an open report",
+      "severity": "high",
+      "evidence_status": [
+        "declared support",
+        "source-supported mechanism",
+        "reported problem"
+      ],
+      "affected_versions": {
+        "waystones-sable": "1.0.7",
+        "sable": "2.0.6+mc1.21.1"
+      },
+      "evidence": [
+        {
+          "source_id": 5,
+          "kind": "released_artifact",
+          "filename": "waystonessable-1.0.7.jar",
+          "hash_algorithm": "sha512",
+          "hash": "20b677c77baf5fd33cccf1ac2bf80220d7162d30ca33dc04516285690f8fac9392a4789b57545b5fd20014213a1f55812ad6e2efd3518a2ba77a9a54bc6ab51a",
+          "location": "SableWaystoneEventHandler.onPrepareTeleport",
+          "exact_excerpt": "SableWaystoneCompat.prepareStoredSubLevelForTeleport(event);"
+        },
+        {
+          "source_id": 5,
+          "kind": "released_artifact",
+          "filename": "waystonessable-1.0.7.jar",
+          "hash_algorithm": "sha512",
+          "hash": "20b677c77baf5fd33cccf1ac2bf80220d7162d30ca33dc04516285690f8fac9392a4789b57545b5fd20014213a1f55812ad6e2efd3518a2ba77a9a54bc6ab51a",
+          "location": "SableWaystoneEventHandler.onTeleportEntityPost",
+          "exact_excerpt": "SableWaystoneCompat.syncTrackingAfterTeleport"
+        },
+        {
+          "source_id": 31,
+          "kind": "upstream_report",
+          "exact_excerpt": "the destination is outside the world bounds",
+          "version_scope": "Issue 13 has multiplayer reports, no complete exact endpoint matrix in the issue body. Snapshot 1.0.8 attempts are not selected."
+        },
+        {
+          "source_id": 32,
+          "kind": "upstream_report",
+          "exact_excerpt": "waystonessable (v1.0.3)",
+          "version_scope": "Older report uses Sable 1.2.2 and Waystones 21.1.34. Maintainer says region-file traversal removed in 1.0.5."
+        },
+        {
+          "source_id": 33,
+          "kind": "upstream_report",
+          "exact_excerpt": "fix on 1.0.7, please let me know if there still is an issue",
+          "version_scope": "Selected 1.0.7 includes the declared Twinbound fix; not locally exercised."
+        }
+      ],
+      "already_mitigated": {
+        "state": "partial declared mitigation",
+        "detail": "Waystones 21.1.46 and bridge 1.0.7 are selected on both sides. Older traversal and Twinbound issues have explicit intervening fix statements; the unloaded-destination report remains open."
+      },
+      "proposed_action": "Distinguish fixed-site and moving-ship Waystones. Warn that returning to an unloaded vessel is not yet verified. Do not install the snapshot, force-load all ships or use destructive player-data repair instructions without approval.",
+      "gameplay_validation_needed": "Test land to loaded moving vessel, vessel to land, ship to ship, unloaded destination, save and reload, assembly and disassembly discovery state, warp plates and ordinary non-operator multiplayer users.",
+      "guide_boundary": "Create Waystones Recipes changes crafting, not moving coordinates. The bridge is meaningful, not a redundant themed recipe addon.",
+      "release_metadata_source_ids": [
+        43
+      ]
+    },
+    {
+      "id": "GI-12",
+      "title": "Tempad 3.0.4 fixed saved locations do not follow a moving vessel",
+      "severity": "high",
+      "evidence_status": [
+        "source-supported mechanism",
+        "reported problem"
+      ],
+      "affected_versions": {
+        "tempad": "3.0.4",
+        "sable": "2.0.6+mc1.21.1"
+      },
+      "evidence": [
+        {
+          "source_id": 6,
+          "kind": "released_artifact",
+          "filename": "tempad-1.21.1-3.0.4-all.jar",
+          "hash_algorithm": "sha512",
+          "hash": "8f577c902ed0074f7636cda73f61f95a4bab4f4009c6039a3ccfaf5d70fe528ab8b9a88ba1f19548c70caea7f652d8b9fbdfba855b5543c3e660b64bd5b18bef",
+          "location": "CreateLocationPacket.type$lambda$4",
+          "exact_excerpt": "defaultLocationHandler.plusAssign(new NamedGlobalVec3(component, vec3, (ResourceKey<Level>)resourceKey, player.getYRot(), message.color));"
+        },
+        {
+          "source_id": 34,
+          "kind": "upstream_report",
+          "exact_excerpt": "Currently, when on a Create Aeronautics contraption the portal drifts away when moving.",
+          "version_scope": "Open feature request 190 explicitly names Tempad 3.0.4, Minecraft 1.21.1 and NeoForge."
+        }
+      ],
+      "already_mitigated": {
+        "state": "no selected moving-portal bridge established",
+        "detail": "Fixed saved location captures player position and dimension. Tempad also has separate marker and player-broadcaster handlers, so not every destination type should be described as fixed."
+      },
+      "proposed_action": "Teach saved locations as stationary endpoints, not a return-to-current-ship function. Prefer a validated Waystones moving destination for that role. Label player broadcast and marker behavior separately.",
+      "gameplay_validation_needed": "Record a location on land and on a ship, move the ship, open and enter portals; separately test broadcaster, marker and workstation behavior while moving and after reload.",
+      "guide_boundary": "Do not describe Tempad as only portable or fuel-powered. Selected release includes workstation and metronome blocks, and chronon generation is a distinct system from Forge Energy."
+    },
+    {
+      "id": "GI-13",
+      "title": "Corpse deck following does not make the saved death location a live recovery target",
+      "severity": "high",
+      "evidence_status": [
+        "source-supported mechanism",
+        "unknown"
+      ],
+      "affected_versions": {
+        "corpse": "neoforge-1.21.1-1.1.13",
+        "sable": "2.0.6+mc1.21.1"
+      },
+      "evidence": [
+        {
+          "source_id": 7,
+          "kind": "released_artifact",
+          "filename": "corpse-neoforge-1.21.1-1.1.13.jar",
+          "hash_algorithm": "sha512",
+          "hash": "473aafd82008c1e041e3b4a5a177507d555c8bc9dd1f121f252f1e81bc0c69c79a91cb64be0df343babcb3d4db76efbaa7aa2adaeaae29337808a368bc290ad0",
+          "location": "Death.fromPlayer",
+          "exact_excerpt": "death.posX = player.getX();"
+        },
+        {
+          "source_id": 7,
+          "kind": "released_artifact",
+          "filename": "corpse-neoforge-1.21.1-1.1.13.jar",
+          "hash_algorithm": "sha512",
+          "hash": "473aafd82008c1e041e3b4a5a177507d555c8bc9dd1f121f252f1e81bc0c69c79a91cb64be0df343babcb3d4db76efbaa7aa2adaeaae29337808a368bc290ad0",
+          "location": "Death.fromPlayer",
+          "exact_excerpt": "death.dimension = player.level().dimension().location().toString();"
+        },
+        {
+          "source_id": 7,
+          "kind": "released_artifact",
+          "filename": "corpse-neoforge-1.21.1-1.1.13.jar",
+          "hash_algorithm": "sha512",
+          "hash": "473aafd82008c1e041e3b4a5a177507d555c8bc9dd1f121f252f1e81bc0c69c79a91cb64be0df343babcb3d4db76efbaa7aa2adaeaae29337808a368bc290ad0",
+          "location": "CorpseEntity.createFromDeath",
+          "exact_excerpt": "corpse.setPos(death.getPosX(), Math.max(death.getPosY(), (double)player.level().getMinBuildHeight()), death.getPosZ());"
+        },
+        {
+          "source_id": 7,
+          "kind": "released_artifact",
+          "filename": "corpse-neoforge-1.21.1-1.1.13.jar",
+          "hash_algorithm": "sha512",
+          "hash": "473aafd82008c1e041e3b4a5a177507d555c8bc9dd1f121f252f1e81bc0c69c79a91cb64be0df343babcb3d4db76efbaa7aa2adaeaae29337808a368bc290ad0",
+          "location": "CorpseEntity.tick",
+          "exact_excerpt": "this.move(MoverType.SELF, this.getDeltaMovement());"
+        },
+        {
+          "source_id": 8,
+          "kind": "released_artifact",
+          "filename": "sable-neoforge-1.21.1-2.0.6.jar",
+          "hash_algorithm": "sha512",
+          "hash": "76d293ce751a01cb9c095a3659b0a41e03e005480bc9d76dfdc73ec7c2eabf7923740c7b077921d42616673c496cd5143569f2085ddcebe174fd91d81e2a04b8",
+          "location": "entity.entities_stick_sublevels.EntityMixin.sable$updateSubLevelPosition",
+          "exact_excerpt": "this.setPos(subLevel.logicalPose().transformPosition(this.sable$plotPosition));"
+        }
+      ],
+      "already_mitigated": {
+        "state": "Curios recovery bridge selected, moving-deck recovery unverified",
+        "detail": "Corpse x Curios API Compat 4.0.1 addresses accessory inventory, not demonstrated live corpse coordinates. Prior Corpse conclusions were static-code findings, not gameplay verification."
+      },
+      "proposed_action": "Keep corpse physical attachment and saved death-history coordinates separate. Do not promise history teleportation or compass guidance returns to the corpse on the current deck. Do not replace Corpse merely because a ragdoll addon exists.",
+      "gameplay_validation_needed": "Die on a moving deck and while seated, move the vessel away, find and open the physical corpse, compare death history and recovery compass, unload and reload, reconnect and recover all Curios and backpack contents.",
+      "guide_boundary": "Generic Sable entity tracking supports a possible movement mechanism. It does not prove the corpse is attached at creation or that its inventory survives every vessel lifecycle."
+    },
+    {
+      "id": "GI-14",
+      "title": "Vehicle storage and portable backpack menus have separate preservation paths",
+      "severity": "high",
+      "evidence_status": [
+        "source-supported mechanism",
+        "declared support",
+        "unknown"
+      ],
+      "affected_versions": {
+        "sable": "2.0.6+mc1.21.1",
+        "vanilla-backpacks": "1.3.5",
+        "easy-shulker-boxes": "v21.1.3-1.21.1-NeoForge",
+        "reinforced-shulker-boxes": "3.2.1+1.21.1",
+        "sophisticated-inventory-interactions": "1.21.1-0.1.9.160"
+      },
+      "evidence": [
+        {
+          "source_id": 8,
+          "kind": "released_artifact",
+          "filename": "sable-neoforge-1.21.1-2.0.6.jar",
+          "hash_algorithm": "sha512",
+          "hash": "76d293ce751a01cb9c095a3659b0a41e03e005480bc9d76dfdc73ec7c2eabf7923740c7b077921d42616673c496cd5143569f2085ddcebe174fd91d81e2a04b8",
+          "location": "released Create capability integration class",
+          "exact_excerpt": "dev/ryanhcode/sable/neoforge/mixin/compatibility/create/inventory_manipulation/CapManipulationBehaviourBaseMixin.class"
+        },
+        {
+          "source_id": 11,
+          "kind": "released_artifact",
+          "filename": "1.3.5-backpacks_mod-1.21-1.21.1.jar",
+          "hash_algorithm": "sha512",
+          "hash": "62bcf7ac7ddcda27c2dc581593cf9887c567027e061aad724a684f81a523f04e6f6dadfcbcbcfef81d63dfc1267dbea7d4fef6e93d8f5c97049954b2f4382782",
+          "location": "data/backpacks/function/bp/control/tp.mcfunction",
+          "exact_excerpt": "tp @n[tag=backpacks.this_backpack_menu] ~ ~1 ~"
+        },
+        {
+          "source_id": 11,
+          "kind": "released_artifact",
+          "filename": "1.3.5-backpacks_mod-1.21-1.21.1.jar",
+          "hash_algorithm": "sha512",
+          "hash": "62bcf7ac7ddcda27c2dc581593cf9887c567027e061aad724a684f81a523f04e6f6dadfcbcbcfef81d63dfc1267dbea7d4fef6e93d8f5c97049954b2f4382782",
+          "location": "data/backpacks/function/bp/container/save/main.mcfunction",
+          "exact_excerpt": "function backpacks:bp/container/save/search_entity with storage backpacks:temp item"
+        },
+        {
+          "source_id": 39,
+          "kind": "upstream_report",
+          "exact_excerpt": "Using the Backpacks while on Creative Mode.",
+          "version_scope": "Publisher compatibility wiki says creative use is unsupported. This is not a Sable-specific failure report."
+        },
+        {
+          "source_id": 17,
+          "kind": "released_artifact",
+          "filename": "EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+          "hash_algorithm": "sha512",
+          "hash": "64d88ec77897cc34b6decb8b02520b809d62c3c9156bdb07e818a1406a120313738b18defa6c59e6e5fb6c55343f5132793031d60662672aca3fbf65d5eb7e4a",
+          "location": "nested artifact",
+          "exact_excerpt": "META-INF/jars/iteminteractions-neoforge-21.1.4.jar"
+        },
+        {
+          "source_id": 25,
+          "kind": "released_artifact",
+          "filename": "sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar",
+          "hash_algorithm": "sha512",
+          "hash": "b3e0341291eed8b602bca4dc2a9d4a9c90492d8b5083f7a14df126690588071064927411e3cb50f2deb9b1e9be2bdab6ada3ddbece2a5f329b74e31f256b862b",
+          "location": "META-INF/neoforge.mods.toml description",
+          "exact_excerpt": "Adds Sophisticated-style search, sorting, and transfer controls to eligible non-Sophisticated container screens."
+        }
+      ],
+      "already_mitigated": {
+        "state": "mechanisms present, no full preservation verification",
+        "detail": "Backpacks 1.3.5 changelog fixes contents sometimes not being saved. This does not certify moving-deck menus. Sophisticated Inventory Interactions is a screen utility, not an installed Sophisticated backpack progression."
+      },
+      "proposed_action": "Keep placed ship inventories, carried backpack menu entities and carried shulker interactions separate. Do not promise all reinforced shulkers or every vehicle inventory support direct item access. Test backpacks in survival, not creative.",
+      "gameplay_validation_needed": "Use counted distinct items in chest, backpack and reinforced shulker. Open each while moving, transfer items, assemble and disassemble, save and reload, reconnect, die, recover, and use two players concurrently. Compare counts before and after every transition.",
+      "guide_boundary": "Backpacks uses command-controlled menu entities and item saving. This is a concrete interaction surface to validate, not evidence of actual item loss in the pack.",
+      "release_metadata_source_ids": [
+        44
+      ]
+    },
+    {
+      "id": "GI-15",
+      "title": "Boss weapons have melee integration, not proven class-reward progression",
+      "severity": "medium",
+      "evidence_status": [
+        "source-supported mechanism",
+        "unknown"
+      ],
+      "affected_versions": {
+        "bossesrise": "2.1.2",
+        "l_enders-cataclysm": "3.33",
+        "better-combat": "2.4.0+1.21.1-neoforge",
+        "spell-engine": "1.10.7+1.21.1-neoforge"
+      },
+      "evidence": [
+        {
+          "source_id": 13,
+          "kind": "released_artifact",
+          "filename": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+          "hash_algorithm": "sha512",
+          "hash": "9a2b58bd7c15c15f089d87bdd1ac5b8cccaeab6a28518b9a10336e811334aba7e42c9cae7733a5fd7125ebce28554b0dea530cb7f86ecb85617203d948590344",
+          "location": "data/block_factorys_bosses/weapon_attributes/knight_sword.json",
+          "exact_excerpt": "\"parent\": \"bettercombat:claymore\""
+        },
+        {
+          "source_id": 14,
+          "kind": "released_artifact",
+          "filename": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+          "hash_algorithm": "sha512",
+          "hash": "289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947",
+          "location": "data/cataclysm/weapon_attributes/coral_spear.json",
+          "exact_excerpt": "\"parent\": \"bettercombat:spear\""
+        },
+        {
+          "source_id": 14,
+          "kind": "released_artifact",
+          "filename": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+          "hash_algorithm": "sha512",
+          "hash": "289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947",
+          "location": "data/cataclysm/curios/slots/hands.json",
+          "exact_excerpt": "\"size\": 2"
+        },
+        {
+          "kind": "local_configuration",
+          "path": "config/block_factorys_bosses-server.toml",
+          "key": "Gameplay Changes.Can players use the Roll ability",
+          "value": false
+        },
+        {
+          "kind": "bounded_artifact_search",
+          "detail": "Searched packaged data JSON in the selected class, class expansion, jewelry, relic, Spell Engine and Spell Power artifacts for literal cataclysm: and block_factorys_bosses: references. No matches found. This does not exclude generic tags, programmatic integration or fallback weapon behavior."
+        }
+      ],
+      "already_mitigated": {
+        "state": "duplicate roll already disabled in repository",
+        "detail": "Combat Roll remains selected. The boss client roll indicator is still enabled independently and is not permission to change it."
+      },
+      "proposed_action": "Describe boss equipment as encounter rewards with some native Better Combat data and Cataclysm Curios slots. Do not claim spell-school bonuses, spell binding or equivalent rewards for every class. Propose a targeted reward mapping only after a concrete missing school, tag or slot is demonstrated.",
+      "gameplay_validation_needed": "Check melee animations and special attacks on representative boss weapons, spell binding and school attributes for caster rewards, archer ammunition and weapon roles, effective accessory slots and non-stacking limits, then assess fights with several class builds.",
+      "guide_boundary": "No evidence establishes a generally out-of-place boss addition or justifies removal. Fighting a boss using class abilities and integrating its loot into class progression are separate claims."
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://cdn.modrinth.com/data/mva5q4qZ/versions/UcXaPVeD/create_submarine-2.2.4.jar",
+      "title": "create_submarine-2.2.4.jar"
+    },
+    {
+      "id": 2,
+      "url": "https://cdn.modrinth.com/data/btq68HMO/versions/FaEwZ1Pr/create-central-kitchen-2.6.1.jar",
+      "title": "create-central-kitchen-2.6.1.jar"
+    },
+    {
+      "id": 3,
+      "url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/N67LJgrN/sliceanddice-4.3.3-neoforge.jar",
+      "title": "sliceanddice-4.3.3-neoforge.jar"
+    },
+    {
+      "id": 4,
+      "url": "https://cdn.modrinth.com/data/9k1pAsfR/versions/90PTskVE/create-integrated-farming-1.4.2.jar",
+      "title": "create-integrated-farming-1.4.2.jar"
+    },
+    {
+      "id": 5,
+      "url": "https://cdn.modrinth.com/data/BxhPGfcK/versions/Wot8Pf4C/waystonessable-1.0.7.jar",
+      "title": "waystonessable-1.0.7.jar"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn.modrinth.com/data/gKNwt7xu/versions/T26aJH7E/tempad-1.21.1-3.0.4-all.jar",
+      "title": "tempad-1.21.1-3.0.4-all.jar"
+    },
+    {
+      "id": 7,
+      "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/Zwf8nv8y/corpse-neoforge-1.21.1-1.1.13.jar",
+      "title": "corpse-neoforge-1.21.1-1.1.13.jar"
+    },
+    {
+      "id": 8,
+      "url": "https://cdn.modrinth.com/data/T9PomCSv/versions/fg9dTRz9/sable-neoforge-1.21.1-2.0.6.jar",
+      "title": "sable-neoforge-1.21.1-2.0.6.jar"
+    },
+    {
+      "id": 9,
+      "url": "https://cdn.modrinth.com/data/qYJdIoAx/versions/KWxEmmON/electroenergetics-1.21.1-1.1.3.jar",
+      "title": "electroenergetics-1.21.1-1.1.3.jar"
+    },
+    {
+      "id": 10,
+      "url": "https://cdn.modrinth.com/data/sH9tXU9f/versions/7oNrI3y9/createliquidfuel-2.1.1-1.21.1.jar",
+      "title": "createliquidfuel-2.1.1-1.21.1.jar"
+    },
+    {
+      "id": 11,
+      "url": "https://cdn.modrinth.com/data/MGcd6kTf/versions/uJz7ESID/1.3.5-backpacks_mod-1.21-1.21.1.jar",
+      "title": "1.3.5-backpacks_mod-1.21-1.21.1.jar"
+    },
+    {
+      "id": 12,
+      "url": "https://cdn.modrinth.com/data/sZbcIrJb/versions/Ucq7afTi/sablephysicscompat-1.3.0.jar",
+      "title": "sablephysicscompat-1.3.0.jar"
+    },
+    {
+      "id": 13,
+      "url": "https://cdn.modrinth.com/data/q2bV1Tm1/versions/lE9PF6Wp/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "title": "block_factorys_bosses-2.1.2-neo-1.21.1.jar"
+    },
+    {
+      "id": 14,
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/PsPYpoCC/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar",
+      "title": "L_Ender's Cataclysm 1.21.1-3.33.jar"
+    },
+    {
+      "id": 15,
+      "url": "https://cdn.modrinth.com/data/5sy6g3kz/versions/VhIOvcXP/bettercombat-neoforge-2.4.0%2B1.21.1.jar",
+      "title": "bettercombat-neoforge-2.4.0+1.21.1.jar"
+    },
+    {
+      "id": 16,
+      "url": "https://cdn.modrinth.com/data/XvoWJaA2/versions/wKITXgNx/spell_engine-neoforge-1.10.7%2B1.21.1.jar",
+      "title": "spell_engine-neoforge-1.10.7+1.21.1.jar"
+    },
+    {
+      "id": 17,
+      "url": "https://cdn.modrinth.com/data/gA5euN8S/versions/OBp8ltOS/EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+      "title": "EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar"
+    },
+    {
+      "id": 18,
+      "url": "https://cdn.modrinth.com/data/xlOwuSdN/versions/PZOyr6QP/reinforced-shulker-boxes-3.2.1%2B1.21.1.jar",
+      "title": "reinforced-shulker-boxes-3.2.1+1.21.1.jar"
+    },
+    {
+      "id": 19,
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "title": "create-1.21.1-6.0.10.jar"
+    },
+    {
+      "id": 20,
+      "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar",
+      "title": "CreateDragonsPlus-1.11.9.jar"
+    },
+    {
+      "id": 21,
+      "url": "https://cdn.modrinth.com/data/CRh10iJF/versions/eqi1VZul/AeroEngine-1.3.0.jar",
+      "title": "AeroEngine-1.3.0.jar"
+    },
+    {
+      "id": 22,
+      "url": "https://cdn.modrinth.com/data/P26k79kP/versions/6kk7ruR3/aeroworks-1.5.0.jar",
+      "title": "aeroworks-1.5.0.jar"
+    },
+    {
+      "id": 23,
+      "url": "https://cdn.modrinth.com/data/5ypXYrfG/versions/uJwkM1Xh/ballastmod-0.1.0.jar",
+      "title": "ballastmod-0.1.0.jar"
+    },
+    {
+      "id": 24,
+      "url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/44pLdPGg/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "title": "create-aeronautics-bundled-1.21.1-1.3.2.jar"
+    },
+    {
+      "id": 25,
+      "url": "https://cdn.modrinth.com/data/orgY0JIo/versions/wiUUWZ2E/sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar",
+      "title": "sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar"
+    },
+    {
+      "id": 26,
+      "url": "https://github.com/MaxCreateMC/Create-Deep-Seas/issues/73",
+      "title": "deep seal"
+    },
+    {
+      "id": 27,
+      "url": "https://github.com/MaxCreateMC/Create-Deep-Seas/issues/74",
+      "title": "deep rope"
+    },
+    {
+      "id": 28,
+      "url": "https://github.com/MaxCreateMC/Create-Deep-Seas/issues/77",
+      "title": "deep dupe"
+    },
+    {
+      "id": 29,
+      "url": "https://github.com/MaxCreateMC/Create-Deep-Seas/pull/85",
+      "title": "deep oxygen"
+    },
+    {
+      "id": 30,
+      "url": "https://github.com/MaxCreateMC/Create-Deep-Seas/issues/81",
+      "title": "deep power"
+    },
+    {
+      "id": 31,
+      "url": "https://github.com/SShakusora/WaystonesSable/issues/13",
+      "title": "waystone unloaded"
+    },
+    {
+      "id": 32,
+      "url": "https://github.com/SShakusora/WaystonesSable/issues/6",
+      "title": "waystone hang"
+    },
+    {
+      "id": 33,
+      "url": "https://github.com/SShakusora/WaystonesSable/issues/11",
+      "title": "waystone twinbound"
+    },
+    {
+      "id": 34,
+      "url": "https://github.com/terrarium-earth/Tempad/issues/190",
+      "title": "tempad sable"
+    },
+    {
+      "id": 35,
+      "url": "https://github.com/DragonsPlusMinecraft/CreateCentralKitchen/pull/207",
+      "title": "kitchen filter"
+    },
+    {
+      "id": 36,
+      "url": "https://github.com/DragonsPlusMinecraft/CreateCentralKitchen/issues/206",
+      "title": "kitchen portion"
+    },
+    {
+      "id": 37,
+      "url": "https://github.com/DragonsPlusMinecraft/CreateIntegratedFarming/issues/62",
+      "title": "farming net"
+    },
+    {
+      "id": 38,
+      "url": "https://github.com/george8188625/Create-Electro-Energetics/issues/238",
+      "title": "electric wiring"
+    },
+    {
+      "id": 39,
+      "url": "https://github.com/Eclipse-Studios/backpacks/wiki/%E2%9A%A0%EF%B8%8F-Compatibility",
+      "title": "backpack creative"
+    },
+    {
+      "id": 40,
+      "url": "https://api.modrinth.com/v2/version/UcXaPVeD",
+      "title": "Selected release metadata for create-deep-seas"
+    },
+    {
+      "id": 41,
+      "url": "https://api.modrinth.com/v2/version/FaEwZ1Pr",
+      "title": "Selected release metadata for create-central-kitchen"
+    },
+    {
+      "id": 42,
+      "url": "https://api.modrinth.com/v2/version/90PTskVE",
+      "title": "Selected release metadata for create-integrated-farming"
+    },
+    {
+      "id": 43,
+      "url": "https://api.modrinth.com/v2/version/Wot8Pf4C",
+      "title": "Selected release metadata for waystones-sable"
+    },
+    {
+      "id": 44,
+      "url": "https://api.modrinth.com/v2/version/uJz7ESID",
+      "title": "Selected release metadata for vanilla-backpacks"
+    }
+  ],
+  "limitations": [
+    "GitHub issue lists were bounded to the first 100 issues and pull requests per named repository, supplemented by exact selected issue bodies and comments. This was not an exhaustive issue sweep.",
+    "The current upstream main branch and closed issue labels were not treated as proof of changes in selected binaries.",
+    "Direct web extraction returned rate-limit errors for two pages. GitHub API retrieval supplied issue bodies and comments instead.",
+    "javap was unavailable. Existing CFR provided selected released-class inspection without installing tools.",
+    "Corpse search found unrelated older-version vehicle reports, not a matching Sable integration failure; these were not promoted into findings.",
+    "Easy Shulker Boxes generic item providers and missing explicit item-name references do not establish support or non-support for Reinforced Shulker Boxes.",
+    "Northstar rendering override and space integration remain deferred."
+  ],
+  "counts": {
+    "findings": 15,
+    "severity": {
+      "high": 7,
+      "medium": 8
+    },
+    "artifact_inspections": 25
+  }
+}
