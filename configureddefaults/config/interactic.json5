@@ -1,0 +1,13 @@
+{
+  "clientOnlyMode": false,
+  "rightClickPickup": true,
+  "itemThrowing": true,
+  "itemFilterEnabled": true,
+  "itemsActAsProjectiles": true,
+  "autoPickup": true,
+  "fancyItemRendering": false,
+  "renderItemTooltips": true,
+  "renderFullTooltip": true,
+  "swingArm": true,
+  "blocksLayFlat": false
+}

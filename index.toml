@@ -549,10 +549,6 @@ file = "config/everycomp-hazardous.toml"
 hash = "4df8e58c69dc5a761a8368f4e695fb78443fbc63107dedda180629caca31a3a0"
 
 [[files]]
-file = "config/explosiveenhancement.toml"
-hash = "560e23d7928e2f7ad8626733d5b572c8b64356e0c80a3d0a8bb1635f68afae5a"
-
-[[files]]
 file = "config/fabric/indigo-renderer.properties"
 hash = "6d3a5259f42f0a0aa6cbe4ffcabc48a32e8e0842ec204fa17846877f62ee43b6"
 
@@ -773,24 +769,12 @@ file = "config/naturescompass-common.toml"
 hash = "e769b3fba5d717bc42a38043aee9b08070af87e22700d07a5f6e69c3efca4a31"
 
 [[files]]
-file = "config/notenoughanimations.json"
-hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
-
-[[files]]
 file = "config/observable.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/ok_zoomer/config.json5"
 hash = "32b13b2ce8cab76c065b5da73e392a0ab4117987e1e1af95899421af25c15d0d"
-
-[[files]]
-file = "config/particle_effects.json5"
-hash = "d8e4194f91f8f374d89cd84d06a68dd4e3bef91a655d18330acc99842157df21"
-
-[[files]]
-file = "config/particular-common.toml"
-hash = "3f57c46138c02b10c5c9a110bf67d2c784b0215597c5182aeeee4da76911b6fa"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -1021,6 +1005,10 @@ file = "configureddefaults/config/extremesoundmuffler-client.toml"
 hash = "13dbc96f13757679e9723a28f1e6a287468514249fd876fc2de4745e2d9cb5bb"
 
 [[files]]
+file = "configureddefaults/config/interactic.json5"
+hash = "f6b49eca2ecab5d9602fffe2acb34eb5d9775ef53114c1f08bb1ade952c78742"
+
+[[files]]
 file = "configureddefaults/config/iris.properties"
 hash = "7b58916b3d2acdb836397e2b2c5a6bf0ecbac0df3ebd634e6187ab8026cba168"
 
@@ -1043,10 +1031,6 @@ hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
 [[files]]
 file = "configureddefaults/config/sodium-options.json"
 hash = "a881cf8361b13fcf1a3f0521eab0915bc9533a2111db7ad1ac34214ba158187b"
-
-[[files]]
-file = "configureddefaults/config/sodiumdynamiclights-client.toml"
-hash = "d5ffa730abd99838e386dba6eaba30f215a119b9a90099e8cb0dbf5449cd8963"
 
 [[files]]
 file = "configureddefaults/config/sounds/chat.json"
@@ -1110,7 +1094,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "2c1d8285f1fc51bc2dab84c099ee1f038fa597a94c88333cf539dd75d1010d6a"
+hash = "dec53fbdd63f6fc75122f5872fb949b42ae764a3d73af0efa17601f30c9246d4"
 
 [[files]]
 file = "icon.png"
@@ -1517,11 +1501,6 @@ hash = "572ec7a57be68aa913863f4fa3be7208ae3dbb846043f3c5890a290976b41f90"
 metafile = true
 
 [[files]]
-file = "mods/create-sable-dynamic-lights.pw.toml"
-hash = "8d14347f63ae6fbce7c11a2e26606170aea4a703e05989e99145e60bb1263b53"
-metafile = true
-
-[[files]]
 file = "mods/create-shuffle-filter.pw.toml"
 hash = "73a0311d3f3e3944faa11208963d713be6bc23d4e4f2d4b05ce350707e6e7e50"
 metafile = true
@@ -1667,11 +1646,6 @@ hash = "9f96f136c61af30a45a3c85588d8906ae8031b58316ae70d16930c01fd211ed6"
 metafile = true
 
 [[files]]
-file = "mods/eating-animations.pw.toml"
-hash = "b1b94eb18c6d2951e2e89df2351ac6e0e9380b12c0e2d5306aa39fa31fdd7dfd"
-metafile = true
-
-[[files]]
 file = "mods/elemental-wizards-rpg.pw.toml"
 hash = "39147247cb57c2cb93db18aa4aa633e425d68dcebf2b711ccb2c9ddfb17ad7df"
 metafile = true
@@ -1742,11 +1716,6 @@ hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
 
 [[files]]
-file = "mods/explosive-enhancement-forge.pw.toml"
-hash = "cdae1e2d313278764771930efa630fc29639032c50cb9d7ab57cb34339296869"
-metafile = true
-
-[[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
 hash = "24ed7d0ffee64455b6aae616d04269b9067256003c6cbbcda6f7bb596c1a765b"
 metafile = true
@@ -1789,11 +1758,6 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "78a50ddf9108d1dda82e7de46a991dcd61a046e4ea2279aa551071ba8f178f86"
-metafile = true
-
-[[files]]
-file = "mods/fwa.pw.toml"
-hash = "3d8367a300c9058a2d97aaea91b42d91ffae892cbffcd774417c4b4c306ca311"
 metafile = true
 
 [[files]]
@@ -2092,16 +2056,6 @@ hash = "748bdcbc7788a77881979189827f1baf3f6ef5fdaeb58b00e51e043c2c0abe39"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations-emf-compat.pw.toml"
-hash = "48e8d6ae84526b5055d62fec178cc7dd62bcbc481b721b70708dada965c3c7d5"
-metafile = true
-
-[[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
-metafile = true
-
-[[files]]
 file = "mods/nullscape.pw.toml"
 hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
 metafile = true
@@ -2124,16 +2078,6 @@ metafile = true
 [[files]]
 file = "mods/paladins-and-priests.pw.toml"
 hash = "a9c1ecdef94c1e535f7c5ea05e9b720778b8fd9bf0211d7d52a69bb4b6044ad1"
-metafile = true
-
-[[files]]
-file = "mods/particle-effects.pw.toml"
-hash = "dac59cb4f38c8fe387400ed821d64e1ab384d45aea587186063e598a1a74669d"
-metafile = true
-
-[[files]]
-file = "mods/particular-reforged.pw.toml"
-hash = "e1829765957db3777232d634f9d38222e669da17f95722f42bb422de141d4d99"
 metafile = true
 
 [[files]]
@@ -2237,11 +2181,6 @@ hash = "9c0d37bfbfdda77af1946da1d80aa48e7dfea9611c43d5c81c70676b1d854af6"
 metafile = true
 
 [[files]]
-file = "mods/ripple.pw.toml"
-hash = "90ee854c63392831c7a6027e0cf339bf2f82775d5bee4b102e3b7d039e39f760"
-metafile = true
-
-[[files]]
 file = "mods/rogues-and-warriors.pw.toml"
 hash = "0ca4e4a6dc001eb5fb81d1817cb8b209e86cb8541a77f6e1de23d92a0e20f45c"
 metafile = true
@@ -2317,11 +2256,6 @@ hash = "2a1c96733de8dbafbb978e396d971b71d3a4d1068e2467b16275b6a91cf265a1"
 metafile = true
 
 [[files]]
-file = "mods/sodium-dynamic-lights.pw.toml"
-hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "6ab228a1fa98348b7444c0715e4db592414d2102e441671ac5e79066596a912c"
 metafile = true
@@ -2353,17 +2287,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
-metafile = true
-
-[[files]]
-file = "mods/spawn-animations-compats.pw.toml"
-hash = "2136f6e6edb0d6df44e9f9630ac722a0af55340b79e209265376b63c3184312d"
-metafile = true
-
-[[files]]
-file = "mods/spawn-animations.pw.toml"
-hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
+hash = "5995decc8738d7ddccec218dfa1ed95db9eca5bb64c98fd2cede8bf9bbc837c2"
 metafile = true
 
 [[files]]
@@ -2429,11 +2353,6 @@ metafile = true
 [[files]]
 file = "mods/teallib.pw.toml"
 hash = "99f89e803723e4684bff03fe6bf7c1dae431e198ed50ef06f624d0d6397568ab"
-metafile = true
-
-[[files]]
-file = "mods/team-capes.pw.toml"
-hash = "31064df587ba62f0a10ac135d1593e04612b4c6356f8f9da580c69577ca5531c"
 metafile = true
 
 [[files]]
@@ -2616,43 +2535,8 @@ hash = "610e5e08a034d7fdda17d17f37853c1abf19f94425e0a831ced52fccb6ccb063"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fa-player-extension.pw.toml"
-hash = "2e1a6866e4366cebe200dcf71ab52923b7653f76dc48741b93411ee3bf77372a"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fancy-crops.pw.toml"
-hash = "b843c282f94af79a4970c91879eff4073932409aa045b722b48054bd4b2fd45d"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-objects.pw.toml"
-hash = "d46d25e5eb08ca03367924784ed88301f53381aa1c581c5510de8deb25f19e0a"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations-quivers.pw.toml"
-hash = "a516f14bbde45f128086050dd497a5747bfc42e4b2dbe4bb8150c9a126a30eb7"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
-metafile = true
-
-[[files]]
 file = "resourcepacks/mandalas-gui-dark-mode.pw.toml"
 hash = "8ed45d3cf487c5ed8736050223b1b4211d79b44587031238afae1844199727cc"
-metafile = true
-
-[[files]]
-file = "resourcepacks/simple-grass-flowers.pw.toml"
-hash = "bc4dcbd6b77adb2180049d63ed4a8981553f06dbf3e32080022ffd87dd1fb09b"
-metafile = true
-
-[[files]]
-file = "resourcepacks/visual-effects-plus.pw.toml"
-hash = "4a44d9b2f63363ada9c4a187a5c63136a642fe74c824efe67bb7c91f49c9463e"
 metafile = true
 
 [[files]]
