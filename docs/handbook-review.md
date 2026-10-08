@@ -1,5 +1,7 @@
 # Handbook review and live editing
 
+Before authoring, follow [the handbook authoring standard](handbook-authoring-standard.md) and the matching template in `handbook-templates`. This standard controls page structure, native components, visual emphasis, translation, navigation and verification.
+
 ## Authoring workflow
 
 Only the dedicated light guide instance is linked. Its handbook resource directory points to the handbook resource pack in this worktree. The previous imported copy is preserved in the project archive. Installed worlds and other instances remain independent.
