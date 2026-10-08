@@ -7,17 +7,17 @@ default:
     @just --list
 
 # Native CurseForge server export.
-export-server output=("dist/aeropunk-" + PACK_VERSION + "-server.zip"):
+export-server output=("dist/astropunk-" + PACK_VERSION + "-server.zip"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz curseforge export --side server --output {{quote(output)}}
 
 # Native CurseForge client pack export.
-export-curseforge output=("dist/aeropunk-" + PACK_VERSION + "-curseforge.zip"):
+export-curseforge output=("dist/astropunk-" + PACK_VERSION + "-curseforge.zip"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz curseforge export --side client --output {{quote(output)}}
 
 # Native Modrinth export with installer-managed side selection.
-export-modrinth output=("dist/aeropunk-" + PACK_VERSION + "-modrinth.mrpack"):
+export-modrinth output=("dist/astropunk-" + PACK_VERSION + "-modrinth.mrpack"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz modrinth export --output {{quote(output)}}
 

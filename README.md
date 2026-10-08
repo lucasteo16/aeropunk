@@ -1,3 +1,9 @@
+# Astropunk isolation control
+
+This diagnostic release is based on stable main 0.2.7. It adds only current branding and disables the Distant Horizons update checker. Rendering remains disabled. No experimental mods are included. Java 21 is the test baseline. Import each trial as a fresh instance. Existing player configuration is not overwritten. Nothing is approved for merging into main.
+
+The following original stable documentation is retained as historical baseline documentation; its release names and export paths describe 0.2.7, not these diagnostic exports.
+
 # Aeropunk
 
 A medieval steampunk engineering and adventure pack built around Create Aeronautics, Streams Reflowing and the RPG Series combat system.

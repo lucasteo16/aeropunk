@@ -1010,7 +1010,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "configureddefaults/config/DistantHorizons.toml"
-hash = "abf332860ed95502a336c94d440f98cec653154ee5f8de046e42e4658f6b02c2"
+hash = "1007c9042852bff06a7fbbf0bf36b954b7d6bb8d689ad335c59058855a017ed7"
 
 [[files]]
 file = "configureddefaults/config/block_factorys_bosses-client.toml"
@@ -1122,7 +1122,7 @@ hash = "b4e3b8c9a4088631ab6a47d4e8ad7bd582313154292ee760d00367902eee52c3"
 
 [[files]]
 file = "icon.png"
-hash = "08e7a331ef0c7aeaa1b2769e7b9be36515825ed168b7dde834d2c527a0f629e2"
+hash = "c93330ce8fdbbf883a3cd7e7df047b524160fa35a9e6c85b5b47b8dcb3cb88f9"
 
 [[files]]
 file = "mods/additional-rpg-jewelry.pw.toml"
