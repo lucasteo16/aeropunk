@@ -1,12 +1,12 @@
 name = "Astropunk Optimizers Trial"
 author = "Lucas"
-version = "0.3.0-grouped.optimizers.1"
+version = "0.3.0-grouped.optimizers.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "55630d6c82a7b047ed891aab87381ec8df45ebc9e79a8a8d678da321bd79164c"
+hash = "ec4401ad2ace28c61d7a37fe0d38ff0da343f429703012d07c45c4edec45dcfa"
 
 [versions]
 minecraft = "1.21.1"
