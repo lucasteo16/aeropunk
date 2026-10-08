@@ -1,21 +1,38 @@
 ---
 navigation:
   title: "实用工具与便利功能"
-  icon: minecraft:bed
+  icon: minecraft:white_bed
 ---
 
 # 实用工具与便利功能
 
-<ItemImage id="minecraft:bed" />
+## 主题目录
 
-寻找按键、交互、睡眠和死亡后恢复方面的日常帮助。
+| 主题 | 状态 |
+| --- | --- |
+| [查找物品、配方与用途](help.search.md) | 参考 |
+| [查看方块与生物信息](help.inspect.md) | WIP |
+| [查找和修改按键](help.controls.md) | 参考 |
+| [查找已有演示与帮助界面](help.reference.md) | WIP |
+| [死亡后取回物品](adventure.recovery.md) | WIP |
+| [睡眠与时间安排](adventure.sleep.md) | WIP |
+| [搬运方块与生物](interactions.carry.md) | 参考 |
 
-- [查找物品、配方与用途（草稿）](help.search.md)
-- [查看方块与生物信息 (WIP)](help.inspect.md)
-- [查找和修改按键 (WIP)](help.controls.md)
-- [查找已有演示与帮助界面 (WIP)](help.reference.md)
-- [死亡后取回物品 (WIP)](adventure.recovery.md)
-- [睡眠与时间安排 (WIP)](adventure.sleep.md)
-- [搬运方块与生物（草稿）](interactions.carry.md)
+## 已安装模组与内容
 
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| [Astropunk Handbook Access](help.controls.md) | 物品栏手册按钮与可配置快捷键。 |
+| [Better Days](adventure.sleep.md) | Gives you control over the passage of time by allowing you to customize the length of the day-night cycle and alters the Minecraft sleep mechanic by accelerating the speed of time. |
+| [Carry On](interactions.carry.md) | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
+| [Comforts](adventure.sleep.md) | Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors! |
+| [Controlling](help.controls.md) | Adds a search bar to the Key-Bindings menu |
+| [Corpse](adventure.recovery.md) | Never lose your items again! |
+| [Corpse x Curios API Compat](adventure.recovery.md) | This little mod allows you to directly equip your Curios items to the respective slots |
+| [EMI](help.search.md) | A featureful and accessible item and recipe viewer |
+| [Jade Addons (Neo/Forge)](help.inspect.md) | Jade 🔍's additional mod supports for Neo/Forge |
+| [Jade 🔍](help.inspect.md) | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |
+| [Polymorph](help.search.md) | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
+| [Reliable Advancements](help.reference.md) | In-game advancement editing and improvements to the advancement screen! |
+| [Reliable EMI (REMI)](help.search.md) | A mod adding many configurable features to EMI! |
+| [ToolTipFix](help.search.md) | Fixes Tooltips from runnning off the screen. |

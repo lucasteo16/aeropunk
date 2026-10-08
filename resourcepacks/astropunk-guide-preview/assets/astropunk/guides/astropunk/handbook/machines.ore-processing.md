@@ -1,39 +1,82 @@
 ---
 navigation:
-  title: "Process ore and workshop materials"
+  title: "Ore processing"
   parent: category-automation.md
+item_ids:
+  - create:millstone
+  - create:crushing_wheel
+  - create:encased_fan
+  - create:crushed_raw_iron
 ---
 
-# Process ore and workshop materials
+# Ore processing
 
-Draft for review. Direct item-browser and Ponder buttons are not implemented.
+<ItemGrid>
+  <ItemIcon id="create:millstone" />
+  <ItemIcon id="create:crushing_wheel" />
+  <ItemIcon id="create:encased_fan" />
+</ItemGrid>
 
-Create has several ways to process materials. Choose a machine by the recipe you need, rather than assuming a larger machine always gives more metal.
+| Machine | Processing |
+| --- | --- |
+| <ItemLink id="create:millstone" /> | Milling |
+| <ItemLink id="create:crushing_wheel" /> | Crushing |
+| <ItemLink id="create:encased_fan" /> | Washing with water |
 
-## Items to look for
+Use Ponder for the machine arrangement and power supply.
 
-<Row>
-  <ItemImage id="create:millstone" />
-  <ItemImage id="create:crushing_wheel" />
-  <ItemImage id="create:encased_fan" />
-</Row>
+## Millstone
 
-Look for the Millstone, Crushing Wheel and Encased Fan. The first two process materials mechanically; a fan can perform further processing with the appropriate setup. Their accepted ingredients and outputs differ, so inspect recipes before building.
+<Recipe id="create:crafting/kinetics/millstone" />
 
-## Follow one ingredient
+## Wheat milling
 
-Try raw iron. In the selected Create release, crushing it produces crushed raw iron, with a chance of an experience nugget. Washing the crushed material produces iron nuggets, with a chance of redstone. Check the recipe outputs and quantities in the item browser when comparing this route with smelting.
+<ItemGrid>
+  <ItemIcon id="minecraft:wheat" />
+  <ItemIcon id="create:millstone" />
+  <ItemIcon id="create:wheat_flour" />
+  <ItemIcon id="minecraft:wheat_seeds" />
+</ItemGrid>
 
-Search `@create`, inspect the machine's tooltip, and follow its Ponder prompt for the actual arrangement and power requirements.
+| Input | Output |
+| --- | --- |
+| One wheat | One wheat flour |
+| Bonus, 25 percent chance | Two more wheat flour |
+| Bonus, 25 percent chance | One wheat seed |
 
-## Move materials afterward
+## Iron crushing
 
-Belts, funnels and filters belong to [material routing](machines.logistics.md). Learn the processing recipe first, then choose how to deliver ingredients and collect outputs.
+<ItemGrid>
+  <ItemIcon id="minecraft:raw_iron" />
+  <ItemIcon id="create:crushing_wheel" />
+  <ItemIcon id="create:crushed_raw_iron" />
+  <ItemIcon id="create:experience_nugget" />
+</ItemGrid>
 
-## Included content
+| Input | Output |
+| --- | --- |
+| One raw iron | One crushed raw iron |
+| Bonus, 75 percent chance | One experience nugget |
 
-- Create
+## Iron washing
 
-[Back to category](category-automation.md)
+<ItemGrid>
+  <ItemIcon id="create:crushed_raw_iron" />
+  <ItemIcon id="create:encased_fan" />
+  <ItemIcon id="minecraft:water_bucket" />
+  <ItemIcon id="minecraft:iron_nugget" />
+  <ItemIcon id="minecraft:redstone" />
+</ItemGrid>
 
-[Back to activities](index.md)
+| Input | Output |
+| --- | --- |
+| One crushed raw iron | Nine iron nuggets |
+| Bonus, 75 percent chance | One redstone |
+
+Water is the fan's processing medium, not a consumed bucket. [Material routing](machines.logistics.md) covers moving ingredients and collecting outputs.
+
+## Related mods
+
+| Mod or content | Publisher description |
+| --- | --- |
+| Create | Aesthetic Technology that empowers the Player |

@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "共享地图信息 (WIP)"
+  title: "共享地图信息"
   parent: category-exploration.md
 ---
 
 # 共享地图信息
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Team Capes（重型版可选内容，当前未安装）
-- Xaero's Maps: Multiplayer+
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-exploration.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Team Capes（重型版，当前未安装） | 当前未安装。 |
+| Xaero's Maps: Multiplayer+ | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |

@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "阅读护甲与状态信息 (WIP)"
+  title: "阅读护甲与状态信息"
   parent: category-combat.md
 ---
 
 # 阅读护甲与状态信息
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Detail Armor Bar Reconstructed
-- Status Effect Bars Reforged
-- Stylish Effects
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-combat.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Detail Armor Bar Reconstructed | More details about armor in the armor bar! |
+| Status Effect Bars Reforged | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
+| Stylish Effects | Status effect display overhaul: Display them in any menu! And way more compact. |

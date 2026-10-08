@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Choose weapons and armor (WIP)"
+  title: "Weapons and armor"
   parent: category-combat.md
 ---
 
-# Choose weapons and armor
+# Weapons and armor
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Armory (RPG Series)
-- Arsenal (RPG Series)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-combat.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Armory (RPG Series) | 👑 Epic armor sets, with unique designs and set bonuses. |
+| Arsenal (RPG Series) | Legendary weapons from the past - not crafted, but conquered. |

@@ -2,38 +2,81 @@
 navigation:
   title: "加工矿石与原料"
   parent: category-automation.md
+item_ids:
+  - create:millstone
+  - create:crushing_wheel
+  - create:encased_fan
+  - create:crushed_raw_iron
 ---
 
 # 加工矿石与原料
 
-草稿，可供评阅。物品浏览器和思索的直接按钮尚未实现。
+<ItemGrid>
+  <ItemIcon id="create:millstone" />
+  <ItemIcon id="create:crushing_wheel" />
+  <ItemIcon id="create:encased_fan" />
+</ItemGrid>
 
-机械动力提供多种原料加工方式。先根据配方选择机器，不要以为机器越大就一定能得到更多金属。
+| 机器 | 加工方式 |
+| --- | --- |
+| <ItemLink id="create:millstone" /> | 磨碎 |
+| <ItemLink id="create:crushing_wheel" /> | 粉碎 |
+| <ItemLink id="create:encased_fan" /> | 配合水进行洗涤 |
 
-## 寻找这些物品
+机器排列和动力供应请看思索演示。
 
-<Row>
-  <ItemImage id="create:millstone" />
-  <ItemImage id="create:crushing_wheel" />
-  <ItemImage id="create:encased_fan" />
-</Row>
+## 磨石
 
-寻找磨石、粉碎轮和鼓风机。前两者通过机械方式加工原料；鼓风机可以在合适的装置中进行进一步加工。它们接受的材料和产物不同，建造之前先查看配方。
+<Recipe id="create:crafting/kinetics/millstone" />
 
-## 顺着一种材料查看
+## 磨碎小麦
 
-先看粗铁。当前机械动力版本中，粉碎粗铁会产出粉碎铁矿石，并有概率获得经验颗粒。洗涤粉碎铁矿石会产出铁粒，并有概率获得红石。与熔炼比较时，请在物品浏览器中查看产物和数量。
+<ItemGrid>
+  <ItemIcon id="minecraft:wheat" />
+  <ItemIcon id="create:millstone" />
+  <ItemIcon id="create:wheat_flour" />
+  <ItemIcon id="minecraft:wheat_seeds" />
+</ItemGrid>
 
-搜索 `@create`，查看机器提示中的思索提示，使用已有演示了解实际排列方式和动力要求。英文检索参考：Millstone, Crushing Wheel, Encased Fan, Raw Iron。
+| 输入 | 产物 |
+| --- | --- |
+| 一个小麦 | 一份小麦粉 |
+| 额外产物，概率百分之二十五 | 两份小麦粉 |
+| 额外产物，概率百分之二十五 | 一份小麦种子 |
 
-## 再安排物品输送
+## 粉碎粗铁
 
-传送带、漏斗和过滤器见[物品输送](machines.logistics.md)。先确定加工配方，再选择如何送入原料和收集产物。
+<ItemGrid>
+  <ItemIcon id="minecraft:raw_iron" />
+  <ItemIcon id="create:crushing_wheel" />
+  <ItemIcon id="create:crushed_raw_iron" />
+  <ItemIcon id="create:experience_nugget" />
+</ItemGrid>
 
-## 涉及的内容
+| 输入 | 产物 |
+| --- | --- |
+| 一个粗铁 | 一个粉碎铁矿石 |
+| 额外产物，概率百分之七十五 | 一个经验颗粒 |
 
-- Create
+## 洗涤铁矿石
 
-[返回分类](category-automation.md)
+<ItemGrid>
+  <ItemIcon id="create:crushed_raw_iron" />
+  <ItemIcon id="create:encased_fan" />
+  <ItemIcon id="minecraft:water_bucket" />
+  <ItemIcon id="minecraft:iron_nugget" />
+  <ItemIcon id="minecraft:redstone" />
+</ItemGrid>
 
-[返回活动指南](index.md)
+| 输入 | 产物 |
+| --- | --- |
+| 一个粉碎铁矿石 | 九个铁粒 |
+| 额外产物，概率百分之七十五 | 一个红石 |
+
+水是鼓风机的加工介质，不会消耗一桶水。原料输送和产物收集见[物品输送](machines.logistics.md)。
+
+## 相关模组
+
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Create | Aesthetic Technology that empowers the Player |

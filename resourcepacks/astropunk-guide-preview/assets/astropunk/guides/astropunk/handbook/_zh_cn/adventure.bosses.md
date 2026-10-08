@@ -1,22 +1,18 @@
 ---
 navigation:
-  title: "选择具有挑战性的遭遇 (WIP)"
+  title: "选择具有挑战性的遭遇"
   parent: category-exploration.md
 ---
 
 # 选择具有挑战性的遭遇
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Bosses'Rise
-- Dangerous - Just A Difficulty Mod
-- Illager Invasion
-- L_Ender's Cataclysm
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-exploration.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Bosses'Rise | 🐉 Bring Souls-like Bosses into your world |
+| Dangerous - Just A Difficulty Mod | Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health. |
+| Illager Invasion | The illagers are back! Be ready to fight new foes. A port of Illager Expansion. |
+| L_Ender's Cataclysm | Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items. |

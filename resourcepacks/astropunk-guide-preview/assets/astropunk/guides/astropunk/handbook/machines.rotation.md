@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Supply rotational power (WIP)"
+  title: "Supply rotational power"
   parent: category-automation.md
 ---
 
 # Supply rotational power
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Connected
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Connected | QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need |

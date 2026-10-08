@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Cook End ingredients (WIP)"
+  title: "Cook End ingredients"
   parent: category-food.md
 ---
 
 # Cook End ingredients
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- End's Delight
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-food.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| End's Delight | End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end! |

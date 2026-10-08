@@ -1,27 +1,23 @@
 ---
 navigation:
-  title: "Adjust weather, particles and transitions (WIP)"
+  title: "Adjust weather, particles and transitions"
   parent: category-visuals.md
 ---
 
 # Adjust weather, particles and transitions
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Better Biome Reblend
-- Continuity
-- Explosive Enhancement: Reforged (optional heavy edition, not installed here)
-- GrandTeleport NeoForge
-- Particle Effects (optional heavy edition, not installed here)
-- Particular ✨ Reforged (optional heavy edition, not installed here)
-- Polytone
-- Ripple (optional heavy edition, not installed here)
-- Traveler's Titles
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-visuals.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Better Biome Reblend | Updated version of Better Biome Blend, a mod that improves Biome Blending |
+| Continuity | A Minecraft mod that allows for efficient connected textures |
+| Explosive Enhancement: Reforged (heavy edition, not installed here) | Not installed here. |
+| GrandTeleport NeoForge | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
+| Particle Effects (heavy edition, not installed here) | Not installed here. |
+| Particular ✨ Reforged (heavy edition, not installed here) | Not installed here. |
+| Polytone | Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs |
+| Ripple (heavy edition, not installed here) | Not installed here. |
+| Traveler's Titles | Epic, RPG-like titles when entering biomes & dimensions! |

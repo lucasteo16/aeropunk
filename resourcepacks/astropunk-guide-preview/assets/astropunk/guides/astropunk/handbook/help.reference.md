@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Find existing demonstrations and information screens (WIP)"
+  title: "Existing demonstrations and information screens"
   parent: category-utilities.md
 ---
 
-# Find existing demonstrations and information screens
+# Existing demonstrations and information screens
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Reliable Advancements
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-utilities.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Reliable Advancements | In-game advancement editing and improvements to the advancement screen! |

@@ -1,40 +1,40 @@
 ---
 navigation:
-  title: "Cook with utensils and staple ingredients"
+  title: "Cooking tools"
   parent: category-food.md
+item_ids:
+  - farmersdelight:cooking_pot
+  - farmersdelight:cutting_board
+  - farmersdelight:skillet
+  - farmersdelight:stove
 ---
 
-# Cook with utensils and staple ingredients
+# Cooking tools
 
-Draft for review. Direct item-browser and Ponder buttons are not implemented.
+<ItemGrid>
+  <ItemIcon id="farmersdelight:cooking_pot" />
+  <ItemIcon id="farmersdelight:cutting_board" />
+  <ItemIcon id="farmersdelight:skillet" />
+  <ItemIcon id="farmersdelight:stove" />
+</ItemGrid>
 
-Farmer's Delight adds cooking tools, not just more food items. Start with the tool that matches the kind of recipe you want to make.
+| Tool | Purpose |
+| --- | --- |
+| <ItemLink id="farmersdelight:cooking_pot" /> | Combined meals |
+| <ItemLink id="farmersdelight:cutting_board" /> | Cutting ingredients |
+| <ItemLink id="farmersdelight:skillet" /> | Frying |
+| <ItemLink id="farmersdelight:stove" /> | Kitchen heat |
 
-## Items to look for
+## Cooking pot
 
-<Row>
-  <ItemImage id="farmersdelight:cooking_pot" />
-  <ItemImage id="farmersdelight:cutting_board" />
-  <ItemImage id="farmersdelight:skillet" />
-  <ItemImage id="farmersdelight:stove" />
-</Row>
+<Recipe id="farmersdelight:cooking_pot" />
 
-Search `@farmersdelight` for the Cooking Pot, Cutting Board, Skillet and Stove. Look at a meal's recipe to identify the required tool; ordinary crafting, cutting and cooking are different operations.
+Look up a meal in the item browser for ingredients, heat and serving containers.
 
-The following is the registered crafting recipe for the Cooking Pot, not an example meal:
+[Nether foods](food.nether.md), [End foods](food.end.md), [underground foods](food.underground.md) and [machine kitchens](food.machine-cooking.md) extend these tools.
 
-<Recipe id="farmersdelight:cooking_pot" fallbackText="Look up Cooking Pot in the item browser to see its crafting recipe." />
+## Related mods
 
-## Choose a meal
-
-Find a dish you want to make, inspect its ingredients, and check its cooking method. A recipe may also need a serving container. Gather those requirements before building a larger kitchen.
-
-For more variety, explore the [Nether](food.nether.md), [End](food.end.md) and [underground](food.underground.md) food pages. Machine kitchens have a separate [automation page](food.machine-cooking.md).
-
-## Included content
-
-- Farmer's Delight
-
-[Back to category](category-food.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Farmer's Delight | A cozy expansion to farming and cooking! |

@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Inspect lighting and manage spawning (WIP)"
+  title: "Inspect lighting and manage spawning"
   parent: category-building.md
 ---
 
 # Inspect lighting and manage spawning
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Lighty
-- TorchMaster
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-building.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Lighty | The Light Overlay Mod with a twist! |
+| TorchMaster | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |

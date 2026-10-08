@@ -1,31 +1,28 @@
 ---
 navigation:
-  title: "Build with material-copying shapes"
+  title: "Copycat shapes"
   parent: category-building.md
 ---
 
-# Build with material-copying shapes
+# Copycat shapes
 
-Draft for review. Direct item-browser and Ponder buttons are not implemented.
+<ItemGrid>
+  <ItemIcon id="minecraft:bricks" />
+  <ItemIcon id="minecraft:oak_planks" />
+</ItemGrid>
 
-Create: Copycats+ adds building shapes that can take the appearance of another material. Look here when a full block is too bulky for the detail you want to build.
+Copycats+ shapes can adopt another material's appearance.
 
-## Choose a shape first
+| Check | Where |
+| --- | --- |
+| Available shapes | Search Copycats+ in the item browser |
+| Ingredients | The selected shape's recipe |
+| Material interaction | Its tooltip and available Ponder scene |
 
-Search the item browser for Copycats+ and compare the available shapes. Inspect the item's recipe and tooltip to find out how it accepts a material. Supported shapes and interactions depend on the specific block; do not assume every material or interaction works identically.
+A copied texture does not establish airtightness or moving-vehicle compatibility. [Water vehicles](vehicles.water.md) and [building materials](building.palette.md) cover related choices.
 
-Create's existing Ponder help can explain supported blocks. When a block has no demonstration, its tooltip and recipe are the first references to check.
+## Related mods
 
-## Appearance is not compatibility
-
-A copied texture does not establish airtightness, collision behavior or moving-vehicle compatibility. Those properties need checks for the actual block, especially when building a submarine. The [water vehicles page](vehicles.water.md) will cover those checks.
-
-For other materials and furniture, return to [Building and decoration](category-building.md).
-
-## Included content
-
-- Create: Copycats+
-
-[Back to category](category-building.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Copycats+ | All the copycats you've ever wanted, combined into a single mod! |

@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Store bulk workshop materials (WIP)"
+  title: "Store bulk workshop materials"
   parent: category-storage.md
 ---
 
 # Store bulk workshop materials
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Vibrant Vaults
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-storage.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Vibrant Vaults | A Create mod addon that adds more item vaults. |

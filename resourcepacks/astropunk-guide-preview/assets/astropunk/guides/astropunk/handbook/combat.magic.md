@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "Compare magic and support roles (WIP)"
+  title: "Compare magic and support roles"
   parent: category-combat.md
 ---
 
 # Compare magic and support roles
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Bard (RPG Series Plus)
-- Elemental Wizards (RPG Series Plus)
-- Paladins & Priests (RPG Series)
-- Runes
-- Witcher (RPG Series Plus)
-- Wizards (RPG Series)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-combat.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Bard (RPG Series Plus) | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
+| Elemental Wizards (RPG Series Plus) | Master the elements to overcome your foes! Spell Engine Add-On |
+| Paladins & Priests (RPG Series) | ✨ Protect and heal your friends as a Paladin or a Priest |
+| Runes | 🪨 Craft runes to serve as ammo for spells |
+| Witcher (RPG Series Plus) | Slay monsters like a Witcher! Spell Engine Add-On |
+| Wizards (RPG Series) | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |

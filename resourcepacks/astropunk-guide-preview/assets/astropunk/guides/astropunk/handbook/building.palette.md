@@ -1,22 +1,18 @@
 ---
 navigation:
-  title: "Choose decorative material palettes (WIP)"
+  title: "Decorative material palettes"
   parent: category-building.md
 ---
 
-# Choose decorative material palettes
+# Decorative material palettes
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Chipped Express
-- Chipped
-- Every Compat (Wood Good)
-- Every Compat (Stone Zone)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-building.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Chipped | Every block deserves a friend. |
+| Chipped Express | Mod addon for Chipped to allow to craft ANY recipe with stonecutter |
+| Every Compat (Stone Zone) | Universal Stone Compat: Create, Twigs, Stoneworks, and more... |
+| Every Compat (Wood Good) | Universal Wood Compat: Quark, Twilight Forest, Twigs, Another Furniture, Farmers Delight, Macaw's,  Valhelsia, Architects Palette, Deco Blocks, Crayfish FM |

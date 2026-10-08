@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "用下界食材烹饪 (WIP)"
+  title: "用下界食材烹饪"
   parent: category-food.md
 ---
 
 # 用下界食材烹饪
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- My Nether's Delight
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-food.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| My Nether's Delight | New Nether addon for Farmer's Delight |

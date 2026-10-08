@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "查看方块与生物信息 (WIP)"
+  title: "查看方块与生物信息"
   parent: category-utilities.md
 ---
 
 # 查看方块与生物信息
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Jade Addons (Neo/Forge)
-- Jade 🔍
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-utilities.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Jade Addons (Neo/Forge) | Jade 🔍's additional mod supports for Neo/Forge |
+| Jade 🔍 | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |

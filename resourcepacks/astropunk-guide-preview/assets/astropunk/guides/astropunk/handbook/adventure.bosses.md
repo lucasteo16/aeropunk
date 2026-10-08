@@ -1,22 +1,18 @@
 ---
 navigation:
-  title: "Choose challenging encounters (WIP)"
+  title: "Challenging encounters"
   parent: category-exploration.md
 ---
 
-# Choose challenging encounters
+# Challenging encounters
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Bosses'Rise
-- Dangerous - Just A Difficulty Mod
-- Illager Invasion
-- L_Ender's Cataclysm
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Bosses'Rise | 🐉 Bring Souls-like Bosses into your world |
+| Dangerous - Just A Difficulty Mod | Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health. |
+| Illager Invasion | The illagers are back! Be ready to fight new foes. A port of Illager Expansion. |
+| L_Ender's Cataclysm | Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items. |

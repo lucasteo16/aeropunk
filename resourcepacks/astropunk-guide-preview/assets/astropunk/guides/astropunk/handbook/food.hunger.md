@@ -1,33 +1,29 @@
 ---
 navigation:
-  title: "Understand hunger, variety and packing"
+  title: "Hunger and food variety"
   parent: category-food.md
 ---
 
-# Understand hunger, variety and packing
+# Hunger and food variety
 
-Draft for review. Direct item-browser and Ponder buttons are not implemented.
+<ItemGrid>
+  <ItemIcon id="minecraft:apple" />
+  <ItemIcon id="minecraft:bread" />
+  <ItemIcon id="minecraft:cooked_beef" />
+</ItemGrid>
 
-Food choice affects both eating and packing for a trip. AppleSkin helps you compare hunger and saturation information instead of judging a meal only by its appearance.
+| Mod | What to inspect |
+| --- | --- |
+| AppleSkin | Food tooltips show hunger and saturation |
+| Short Stacks | Food stack limits vary with filling power |
+| Spice of Life Onion | The Food Book tracks dietary variety |
 
-## Compare foods before leaving
+Compare tooltip values before packing. [Cooking tools](food.utensils.md) introduces the kitchen.
 
-Hover food items and inspect the information AppleSkin provides. Hunger and saturation are different: two foods with similar hunger restoration need not keep you fed for the same length of time.
+## Related mods
 
-Short Stacks changes food stack sizes according to how filling the food is. Check the stack limit you actually see in this pack before planning how much food fits in your inventory.
-
-## Try a varied diet
-
-Spice of Life Onion tracks dietary variety. Look for its Food Book to inspect your food history and the benefits configured for this pack. This draft does not prescribe a reward threshold or a fixed diet.
-
-Start with [cooking tools](food.utensils.md), then choose meals you enjoy making. No food milestone unlocks another handbook page.
-
-## Included content
-
-- AppleSkin
-- Short Stacks
-- Spice of Life Onion
-
-[Back to category](category-food.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| AppleSkin | Food/hunger-related HUD improvements |
+| Short Stacks | Food stack limits vary with filling power. |
+| Spice of Life Onion | A mod designed to encourage dietary variety! |

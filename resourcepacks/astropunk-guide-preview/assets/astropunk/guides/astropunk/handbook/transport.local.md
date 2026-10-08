@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Move around a shared base (WIP)"
+  title: "Move around a shared base"
   parent: category-travel.md
 ---
 
 # Move around a shared base
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Escalated
-- Create: Hypertubes
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Escalated | A mod to add functional, aesthetic, and rotation-powered escalators to Create. |
+| Create: Hypertubes | Travel arround the world with tubes! |

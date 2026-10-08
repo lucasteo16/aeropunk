@@ -1,0 +1,7 @@
+build/
+.gradle/
+.gradle-user-home
+toolchain
+guideme-21.1.19.jar
+syntax-validation/classes/
+build-tmp/

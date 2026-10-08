@@ -1,0 +1,7 @@
+{
+  "key.categories.astropunk_handbook_access": "Astropunk Handbook",
+  "key.astropunk_handbook_access.open": "Open Astropunk Handbook",
+  "astropunk_handbook_access.button": "Handbook",
+  "astropunk_handbook_access.tooltip": "Open the Astropunk handbook",
+  "astropunk_handbook_access.missing_guide": "The Astropunk handbook is unavailable. Enable the Astropunk guide resource pack and reload resources."
+}

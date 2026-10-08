@@ -1,22 +1,16 @@
 ---
 navigation:
-  title: "Compare whole-vehicle dimension transfer (WIP)"
+  title: "Compare whole-vehicle dimension transfer"
   parent: category-travel.md
 ---
 
 # Compare whole-vehicle dimension transfer
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-Planned content, not installed in this preview.
+## Related mods
 
-## Included content
-
-- Create: AeroWarptics (planned, not installed)
-- Create: Northstar-Aeronautics Compatibility (planned, not installed)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: AeroWarptics (not installed) | Not installed here. |
+| Create: Northstar-Aeronautics Compatibility (not installed) | Not installed here. |

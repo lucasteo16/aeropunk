@@ -1,27 +1,23 @@
 ---
 navigation:
-  title: "探索地牢与改造后的结构 (WIP)"
+  title: "探索地牢与改造后的结构"
   parent: category-exploration.md
 ---
 
 # 探索地牢与改造后的结构
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- When Dungeons Arise
-- YUNG's Better Desert Temples
-- YUNG's Better Dungeons
-- YUNG's Better Jungle Temples
-- YUNG's Better Mineshafts
-- YUNG's Better Nether Fortresses
-- YUNG's Better Ocean Monuments
-- YUNG's Better Strongholds
-- YUNG's Better Witch Huts
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-exploration.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| When Dungeons Arise | Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds! |
+| YUNG's Better Desert Temples | A complete redesign of Minecraft's desert temples! |
+| YUNG's Better Dungeons | A complete redesign of Minecraft's dungeons! |
+| YUNG's Better Jungle Temples | A complete redesign of Minecraft's jungle temples! |
+| YUNG's Better Mineshafts | A long-awaited and much-needed abandoned mineshaft overhaul! |
+| YUNG's Better Nether Fortresses | A complete redesign of Minecraft's Nether fortresses! |
+| YUNG's Better Ocean Monuments | A complete redesign of Minecraft's ocean monuments! |
+| YUNG's Better Strongholds | A complete redesign of Minecraft's strongholds! |
+| YUNG's Better Witch Huts | Adds overhauled witch huts to swamps! |

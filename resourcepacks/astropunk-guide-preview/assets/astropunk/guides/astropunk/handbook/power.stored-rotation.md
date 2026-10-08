@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Store rotational force (WIP)"
+  title: "Store rotational force"
   parent: category-automation.md
 ---
 
 # Store rotational force
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Springs
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Springs | Store rotational force using springs! |

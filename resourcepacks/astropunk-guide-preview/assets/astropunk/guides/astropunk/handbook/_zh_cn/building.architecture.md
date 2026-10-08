@@ -1,26 +1,22 @@
 ---
 navigation:
-  title: "建造桥梁、屋顶与围栏 (WIP)"
+  title: "建造桥梁、屋顶与围栏"
   parent: category-building.md
 ---
 
 # 建造桥梁、屋顶与围栏
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Diagonal Fences
-- Macaw's Bridges
-- Macaw's Doors
-- Macaw's Fences and Walls
-- Macaw's Roofs
-- Macaw's Stairs
-- Macaw's Windows
-- Reconnectible Chains
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-building.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Diagonal Fences | Fences connecting diagonally? Wait. That's illegal. |
+| Macaw's Bridges | A simple mod that adds a lot of bridges! |
+| Macaw's Doors | Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...! |
+| Macaw's Fences and Walls | Adds new vanilla styled fences, walls and gates! |
+| Macaw's Roofs | Build roofs with actual roofs instead of stairs! |
+| Macaw's Stairs | Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies! |
+| Macaw's Windows | Adds lots of Windows, Mosaic Glass, Blinds, Shutters, Curtains and more...! |
+| Reconnectible Chains | A multiloader fork of Connectible Chains: Connect your fences/walls with a decorative chain! |

@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "Grow and harvest ingredients (WIP)"
+  title: "Grow and harvest ingredients"
   parent: category-food.md
 ---
 
 # Grow and harvest ingredients
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Integrated Farming
-- Leaves Be Gone
-- RightClickHarvest
-- Smarter Farmers (farmers replant)
-- Universal Bone Meal
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-food.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Integrated Farming | Integrated farming automation for Create |
+| Leaves Be Gone | Quick leaf decay from cutting down trees. Built for fast performance and mod compat! |
+| RightClickHarvest | Allows you to harvest crops with right click |
+| Smarter Farmers (farmers replant) | Allows villagers to replant the correct seed & allows them to use modded ones |
+| Universal Bone Meal | Stop the bonemeal discrimination! Grow all plants, no limitations. |

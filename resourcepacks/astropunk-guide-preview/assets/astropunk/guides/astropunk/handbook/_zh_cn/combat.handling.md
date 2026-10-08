@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "使用武器与闪避 (WIP)"
+  title: "使用武器与闪避"
   parent: category-combat.md
 ---
 
 # 使用武器与闪避
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Better Combat
-- Combat Roll
-- Critical Strike
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-combat.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Better Combat | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
+| Combat Roll | 🧶 Adds combat roll ability, with related attributes and enchantments. |
+| Critical Strike | 🍀 Chance based critical hits for melee and ranged attacks! |

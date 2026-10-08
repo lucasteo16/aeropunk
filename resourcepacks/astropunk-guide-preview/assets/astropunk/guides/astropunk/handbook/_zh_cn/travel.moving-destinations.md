@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "前往移动建筑上的目的地 (WIP)"
+  title: "前往移动建筑上的目的地"
   parent: category-travel.md
 ---
 
 # 前往移动建筑上的目的地
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Waystones: Sable (Create Aeronautics Addon)
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-travel.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Waystones: Sable (Create Aeronautics Addon) | A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels. |

@@ -1,0 +1,1742 @@
+{
+  "mods/additional-rpg-jewelry.pw.toml": {
+    "name": "Additional Jewelry (RPG Series Plus)",
+    "description": "Jewelry Add-On for the More RPG Classes Mods.",
+    "url": "https://modrinth.com/project/rULzJh3O",
+    "source": "Modrinth publisher description"
+  },
+  "mods/advancement-plaques.pw.toml": {
+    "name": "Advancement Plaques",
+    "description": "Replace those boring advancement popups with something flashier.",
+    "url": "https://modrinth.com/project/9NM0dXub",
+    "source": "Modrinth publisher description"
+  },
+  "mods/aeroengine.pw.toml": {
+    "name": "AeroEngine",
+    "description": "AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation.",
+    "url": "https://modrinth.com/project/CRh10iJF",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ai-improvements.pw.toml": {
+    "name": "AI Improvements: Performance Tuning",
+    "description": "Performance improvements for vanilla AI, with  the ability to turn off certain AI behaviors",
+    "url": "https://modrinth.com/project/DSVgwcji",
+    "source": "Modrinth publisher description"
+  },
+  "mods/almanac.pw.toml": {
+    "name": "Almanac",
+    "description": "Almanac is a library used by my mods with mostly loader independent shared code between multiple mods to avoid duplication of code.",
+    "url": "https://modrinth.com/project/Gi02250Z",
+    "source": "Modrinth publisher description"
+  },
+  "mods/amendments.pw.toml": {
+    "name": "Amendments",
+    "description": "Many changes to vanilla blocks",
+    "url": "https://modrinth.com/project/6iTJugQR",
+    "source": "Modrinth publisher description"
+  },
+  "mods/apollib.pw.toml": {
+    "name": "Apollib",
+    "description": "A tiny library for my configuration and registry utilities.",
+    "url": "https://modrinth.com/project/VDI2Ytax",
+    "source": "Modrinth publisher description"
+  },
+  "mods/appleskin.pw.toml": {
+    "name": "AppleSkin",
+    "description": "Food/hunger-related HUD improvements",
+    "url": "https://modrinth.com/project/EsAfCjCV",
+    "source": "Modrinth publisher description"
+  },
+  "mods/archers-expansion.pw.toml": {
+    "name": "Archers Expansion (RPG Series Plus)",
+    "description": "Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On",
+    "url": "https://modrinth.com/project/1BHIIm4m",
+    "source": "Modrinth publisher description"
+  },
+  "mods/archers.pw.toml": {
+    "name": "Archers (RPG Series)",
+    "description": "🏹 Draw, Release, Conquer - Master the art of Archery!",
+    "url": "https://modrinth.com/project/QgooUXAJ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/architectury-api.pw.toml": {
+    "name": "Architectury API",
+    "description": "An intermediary api aimed to ease developing multiplatform mods.",
+    "url": "https://modrinth.com/project/lhGA9TYQ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/armor-model-api.pw.toml": {
+    "name": "Armor Model API",
+    "description": "Renders Bedrock/GeckoLib geo armor models through the vanilla armor pipeline.",
+    "url": "https://modrinth.com/project/onz2NN2n",
+    "source": "Modrinth publisher description"
+  },
+  "mods/armor-poser.pw.toml": {
+    "name": "Armor Poser",
+    "description": "Adds a GUI for armor stands in which you can configure it's pose and other properties",
+    "url": "https://modrinth.com/project/PFwYNrHb",
+    "source": "Modrinth publisher description"
+  },
+  "mods/armory-rpg-series.pw.toml": {
+    "name": "Armory (RPG Series)",
+    "description": "👑 Epic armor sets, with unique designs and set bonuses.",
+    "url": "https://modrinth.com/project/PJvJUdGw",
+    "source": "Modrinth publisher description"
+  },
+  "mods/arsenal-rpg-series.pw.toml": {
+    "name": "Arsenal (RPG Series)",
+    "description": "Legendary weapons from the past - not crafted, but conquered.",
+    "url": "https://modrinth.com/project/LiP9Q3KV",
+    "source": "Modrinth publisher description"
+  },
+  "mods/asyncparticles.pw.toml": {
+    "name": "AsyncParticles",
+    "description": "Async particle tick, GPU accelerated particle rendering.",
+    "url": "https://modrinth.com/project/c3onkd5k",
+    "source": "Modrinth publisher description"
+  },
+  "mods/athena-ctm.pw.toml": {
+    "name": "Athena",
+    "description": "A crossplatform (Forge/Fabric) solution to connected block textures for 1.19.4+",
+    "url": "https://modrinth.com/project/b1ZV3DIJ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/attributefix.pw.toml": {
+    "name": "AttributeFix",
+    "description": "Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods!",
+    "url": "https://modrinth.com/project/lOOpEntO",
+    "source": "Modrinth publisher description"
+  },
+  "mods/badoptimizations.pw.toml": {
+    "name": "BadOptimizations",
+    "description": "Optimization mod that focuses on things other than rendering",
+    "url": "https://modrinth.com/project/g96Z4WVZ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/baguettelib.pw.toml": {
+    "name": "BaguetteLib",
+    "description": "Ever tried to make a mod that needs proper death handling or inventory tracking? Yeah, NeoForge events suck for that.",
+    "url": "https://modrinth.com/project/OfKzpbRU",
+    "source": "Modrinth publisher description"
+  },
+  "mods/balm.pw.toml": {
+    "name": "Balm",
+    "description": "Abstraction Layer for Multi-Loader Mods",
+    "url": "https://modrinth.com/project/MBAkmtvl",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bard-more-rpg-classes.pw.toml": {
+    "name": "Bard (RPG Series Plus)",
+    "description": "Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On",
+    "url": "https://modrinth.com/project/kL7Bjgmw",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bbrb.pw.toml": {
+    "name": "Better Biome Reblend",
+    "description": "Updated version of Better Biome Blend, a mod that improves Biome Blending",
+    "url": "https://modrinth.com/project/Xh8hkQmD",
+    "source": "Modrinth publisher description"
+  },
+  "mods/beautify-refoxed.pw.toml": {
+    "name": "Beautify: ReFoxed",
+    "description": "Adds lots of vanilla-styled ways to spice up your builds.",
+    "url": "https://modrinth.com/project/ZQCyyWBM",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bellsandwhistles.pw.toml": {
+    "name": "Create: Bells & Whistles",
+    "description": "Additions and adornments for the modern Create engineer. Available for both Fabric & Forge!",
+    "url": "https://modrinth.com/project/gJ5afkVv",
+    "source": "Modrinth publisher description"
+  },
+  "mods/berserker-rpg-class.pw.toml": {
+    "name": "Berserker (RPG Series Plus)",
+    "description": "Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On",
+    "url": "https://modrinth.com/project/8hqOZzxM",
+    "source": "Modrinth publisher description"
+  },
+  "mods/better-combat.pw.toml": {
+    "name": "Better Combat",
+    "description": "⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons.",
+    "url": "https://modrinth.com/project/5sy6g3kz",
+    "source": "Modrinth publisher description"
+  },
+  "mods/better-modlist.pw.toml": {
+    "name": "Better ModList",
+    "description": "enhances neoforge modlist by adding options to hide mods, libraries, adding badges to mods to define what it does and more. as well as making it look better.",
+    "url": "https://modrinth.com/project/sbpqhzIG",
+    "source": "Modrinth publisher description"
+  },
+  "mods/betterdays.pw.toml": {
+    "name": "Better Days",
+    "description": "Gives you control over the passage of time by allowing you to customize the length of the day-night cycle and alters the Minecraft sleep mechanic by accelerating the speed of time.",
+    "url": "https://modrinth.com/project/tPLE214j",
+    "source": "Modrinth publisher description"
+  },
+  "mods/betterf3.pw.toml": {
+    "name": "BetterF3",
+    "description": "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
+    "url": "https://modrinth.com/project/8shC1gFX",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bigsignwriter.pw.toml": {
+    "name": "Big Sign Writer",
+    "description": "Easily write large, multi-line characters and symbols on signs!",
+    "url": "https://modrinth.com/project/UCpxwAAu",
+    "source": "Modrinth publisher description"
+  },
+  "mods/blocks-bogies.pw.toml": {
+    "name": "Create: Blocks & Bogies",
+    "description": "Adds larger train bogies with (and without) valve gear, and more",
+    "url": "https://modrinth.com/project/j4ARnQwY",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "name": "Bookshelf",
+    "description": "An open source library for other mods!",
+    "url": "https://modrinth.com/project/uy4Cnpcm",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bossesrise.pw.toml": {
+    "name": "Bosses'Rise",
+    "description": "🐉 Bring Souls-like Bosses into your world",
+    "url": "https://modrinth.com/project/q2bV1Tm1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/bundle-api.pw.toml": {
+    "name": "Bundle API",
+    "description": "Bundle API allows mod authors to easily add bundles that can hold more than 1 stack of items specified by an item tag.",
+    "url": "https://modrinth.com/project/n8QN6Z1a",
+    "source": "Modrinth publisher description"
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "name": "Concurrent Chunk Management Engine (NeoForge)",
+    "description": "A mod designed to improve the chunk performance of Minecraft.",
+    "url": "https://modrinth.com/project/COlSi5iR",
+    "source": "Modrinth publisher description"
+  },
+  "mods/carry-on.pw.toml": {
+    "name": "Carry On",
+    "description": "Carry On allows you to pick up Tile Entities and Mobs and carry them around!",
+    "url": "https://modrinth.com/project/joEfVgkn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/chipped-express.pw.toml": {
+    "name": "Chipped Express",
+    "description": "Mod addon for Chipped to allow to craft ANY recipe with stonecutter",
+    "url": "https://modrinth.com/project/dQIcJONI",
+    "source": "Modrinth publisher description"
+  },
+  "mods/chipped.pw.toml": {
+    "name": "Chipped",
+    "description": "Every block deserves a friend.",
+    "url": "https://modrinth.com/project/BAscRYKm",
+    "source": "Modrinth publisher description"
+  },
+  "mods/chunky.pw.toml": {
+    "name": "Chunky",
+    "description": "Pre-generates chunks, quickly and efficiently",
+    "url": "https://modrinth.com/project/fALzjamp",
+    "source": "Modrinth publisher description"
+  },
+  "mods/cloth-config.pw.toml": {
+    "name": "Cloth Config API",
+    "description": "Configuration Library for Minecraft Mods",
+    "url": "https://modrinth.com/project/9s6osm5g",
+    "source": "Modrinth publisher description"
+  },
+  "mods/clumps.pw.toml": {
+    "name": "Clumps",
+    "description": "Clumps XP orbs together to reduce lag",
+    "url": "https://modrinth.com/project/Wnxd13zP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/collective.pw.toml": {
+    "name": "Collective",
+    "description": "🎓 Collective is a shared library with common code for all of Serilum's mods.",
+    "url": "https://modrinth.com/project/e0M1UDsY",
+    "source": "Modrinth publisher description"
+  },
+  "mods/combat-roll.pw.toml": {
+    "name": "Combat Roll",
+    "description": "🧶 Adds combat roll ability, with related attributes and enchantments.",
+    "url": "https://modrinth.com/project/wGKYL7st",
+    "source": "Modrinth publisher description"
+  },
+  "mods/comforts.pw.toml": {
+    "name": "Comforts",
+    "description": "Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors!",
+    "url": "https://modrinth.com/project/SaCpeal4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/configured-defaults.pw.toml": {
+    "name": "Configured Defaults",
+    "description": "Allows for providing defaults for files absent in .minecraft like configs. A quintessential modpack utility.",
+    "url": "https://modrinth.com/project/SISoSFPP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/connector.pw.toml": {
+    "name": "Sinytra Connector",
+    "description": "Lets you play Fabric mods on NeoForge",
+    "url": "https://modrinth.com/project/u58R1TMW",
+    "source": "Modrinth publisher description"
+  },
+  "mods/continuity.pw.toml": {
+    "name": "Continuity",
+    "description": "A Minecraft mod that allows for efficient connected textures",
+    "url": "https://modrinth.com/project/1IjD5062",
+    "source": "Modrinth publisher description"
+  },
+  "mods/controlling.pw.toml": {
+    "name": "Controlling",
+    "description": "Adds a search bar to the Key-Bindings menu",
+    "url": "https://modrinth.com/project/xv94TkTM",
+    "source": "Modrinth publisher description"
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "name": "Cool Rain Reforged",
+    "description": "Creates ambient sounds for certain blocks during rain",
+    "url": "https://modrinth.com/project/IgftU6Mn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/copycats.pw.toml": {
+    "name": "Create: Copycats+",
+    "description": "All the copycats you've ever wanted, combined into a single mod!",
+    "url": "https://modrinth.com/project/UT2M39wf",
+    "source": "Modrinth publisher description"
+  },
+  "mods/corpse-x-curios-api-compat.pw.toml": {
+    "name": "Corpse x Curios API Compat",
+    "description": "This little mod allows you to directly equip your Curios items to the respective slots",
+    "url": "https://modrinth.com/project/pJGcKPh1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/corpse.pw.toml": {
+    "name": "Corpse",
+    "description": "Never lose your items again!",
+    "url": "https://modrinth.com/project/WrpuIfhw",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-additional-logistics.pw.toml": {
+    "name": "Create: Additional Logistics",
+    "description": "Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors.",
+    "url": "https://modrinth.com/project/CZaz7aje",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-aeronautics-encased-fluid-pipes.pw.toml": {
+    "name": "Create Aeronautics: Encased Fluid Pipes",
+    "description": "Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope",
+    "url": "https://modrinth.com/project/DdAlVT8M",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-aeronautics.pw.toml": {
+    "name": "Create Aeronautics",
+    "description": "Build anything from airships to planes and cars!",
+    "url": "https://modrinth.com/project/oWaK0Q19",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-aeroworks.pw.toml": {
+    "name": "Create: Aeroworks",
+    "description": "A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more!",
+    "url": "https://modrinth.com/project/P26k79kP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-ballast.pw.toml": {
+    "name": "Create: Ballast",
+    "description": "Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds!",
+    "url": "https://modrinth.com/project/5ypXYrfG",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-big-cannons.pw.toml": {
+    "name": "Create Big Cannons",
+    "description": "A Minecraft mod for building large cannons with the Create mod.",
+    "url": "https://modrinth.com/project/GWp4jCJj",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-bits-n-bobs.pw.toml": {
+    "name": "Create: Bits 'n' Bobs",
+    "description": "Decorative and mechanical additions to create!",
+    "url": "https://modrinth.com/project/T8bvmqVZ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-central-kitchen.pw.toml": {
+    "name": "Create: Central Kitchen",
+    "description": "Offering more tools and methods to automate food processing of other mod in Create.",
+    "url": "https://modrinth.com/project/btq68HMO",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-connected.pw.toml": {
+    "name": "Create: Connected",
+    "description": "QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need",
+    "url": "https://modrinth.com/project/Vg5TIO6d",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-deco.pw.toml": {
+    "name": "Create Deco",
+    "description": "Industrial decoration themed around the aesthetics of the Create mod.",
+    "url": "https://modrinth.com/project/sMvUb4Rb",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-deep-seas.pw.toml": {
+    "name": "Create Deep Seas",
+    "description": "Submarine and boat in Create Aeronautics!",
+    "url": "https://modrinth.com/project/mva5q4qZ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-design-n-decor.pw.toml": {
+    "name": "Create: Design n' Decor",
+    "description": "a create addon that adds decor blocks to spice up your factory!",
+    "url": "https://modrinth.com/project/x49wilh8",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-dragons-plus.pw.toml": {
+    "name": "Create: Dragons Plus",
+    "description": "Provide convenient features to players and dev utilities for Create addon developers.",
+    "url": "https://modrinth.com/project/dzb1a5WV",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-electro-energetics.pw.toml": {
+    "name": "Create: Electro Energetics",
+    "description": "A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains.",
+    "url": "https://modrinth.com/project/qYJdIoAx",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "name": "EMF Compat: Create",
+    "description": "Makes Create animations work correctly with animated EMF player models.",
+    "url": "https://modrinth.com/project/J9McOdzy",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-encased.pw.toml": {
+    "name": "Create Encased",
+    "description": "Allow to use all casing on shafts/cogwheels/pipes",
+    "url": "https://modrinth.com/project/hSSqdyU1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-enchantment-industry.pw.toml": {
+    "name": "Create: Enchantment Industry",
+    "description": "Automatic Enchanting, with Create",
+    "url": "https://modrinth.com/project/JWGBpFUP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-framed.pw.toml": {
+    "name": "Create: Framed",
+    "description": "A Create mod addon that adds more Framed Glass variants.",
+    "url": "https://modrinth.com/project/15fFZ3f4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-integrated-farming.pw.toml": {
+    "name": "Create: Integrated Farming",
+    "description": "Integrated farming automation for Create",
+    "url": "https://modrinth.com/project/9k1pAsfR",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-liquid-fuel.pw.toml": {
+    "name": "Create: Liquid Fuel",
+    "description": "Pump in liquid fuel to blaze burners",
+    "url": "https://modrinth.com/project/sH9tXU9f",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-molten-vents.pw.toml": {
+    "name": "Create: Molten Vents",
+    "description": "Adds a renewable source of the orestones found in the Create mod, and by extension, many resources.",
+    "url": "https://modrinth.com/project/uuVy6k1s",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-more-girder.pw.toml": {
+    "name": "Create: More Girder",
+    "description": "Adds  8 unique girder variants to complement the Create mod ecosystem.",
+    "url": "https://modrinth.com/project/sPg2LVAd",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-pattern-schematics.pw.toml": {
+    "name": "Create: Pattern Schematics",
+    "description": "Build with repeating schematics!",
+    "url": "https://modrinth.com/project/cpqKG67r",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-prismatic-shine.pw.toml": {
+    "name": "Create: Prismatic Shine",
+    "description": "A remake version of Create: Crystal Clear, adds glass casings and illumination casings to create",
+    "url": "https://modrinth.com/project/udEtt0b2",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-propulsion-simulated.pw.toml": {
+    "name": "Create Propulsion: Simulated",
+    "description": "Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics",
+    "url": "https://modrinth.com/project/ApkoHNO9",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-radars.pw.toml": {
+    "name": "Create: Radars",
+    "description": "Adding Radars (& more) to Create!",
+    "url": "https://modrinth.com/project/BLu2Yqfq",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-railways-navigator.pw.toml": {
+    "name": "Create Railways Navigator",
+    "description": "A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more.",
+    "url": "https://modrinth.com/project/Dq3STxps",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-shuffle-filter.pw.toml": {
+    "name": "Create: Shuffle Filter",
+    "description": "This mod provides a new \"Shuffle Filter\" item which, when used in Create deployers on contrabtions, enables a randomnes when placing blocks. (Like the shuffle mod for players).",
+    "url": "https://modrinth.com/project/gv5RRavC",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-springs.pw.toml": {
+    "name": "Create: Springs",
+    "description": "Store rotational force using springs!",
+    "url": "https://modrinth.com/project/wDCqub60",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-stam1o-tweaks.pw.toml": {
+    "name": "Create: Stam1o Tweaks",
+    "description": "Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios",
+    "url": "https://modrinth.com/project/46RgF8H2",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-steam-n-rails-1.21.1.pw.toml": {
+    "name": "Steam 'n' Rails Neoforge",
+    "description": "An unofficial port of Create: Steam 'n' Rails to 1.21.1.",
+    "url": "https://modrinth.com/project/L3Jv0QZI",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-stuff-additions.pw.toml": {
+    "name": "Create Stuff 'N Additions",
+    "description": "🧲 Dominate your environment with Create technology",
+    "url": "https://modrinth.com/project/aq9qUUQG",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-trading-floor.pw.toml": {
+    "name": "Create: Trading floor",
+    "description": "Automate trading with villagers using create!",
+    "url": "https://modrinth.com/project/WROfLLvn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-tweaked-controllers.pw.toml": {
+    "name": "Create: Tweaked Controllers",
+    "description": "An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller",
+    "url": "https://modrinth.com/project/H6bJ8Ju4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-vibrant-vaults.pw.toml": {
+    "name": "Create: Vibrant Vaults",
+    "description": "A Create mod addon that adds more item vaults.",
+    "url": "https://modrinth.com/project/hddN8ksR",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-waystones-recipes.pw.toml": {
+    "name": "Create Waystones Recipes",
+    "description": "This mod changes the recipes of Waystones to fit with and use the Create mod.\nIt also balances things a bit more.",
+    "url": "https://modrinth.com/project/wQpKGqNJ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create.pw.toml": {
+    "name": "Create",
+    "description": "Aesthetic Technology that empowers the Player",
+    "url": "https://modrinth.com/project/LNytGWDc",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create_oxidized.pw.toml": {
+    "name": "Create: Oxidized",
+    "description": "QoL addon for Create, which adds oxidizing recipes to all copper blocks",
+    "url": "https://modrinth.com/project/X9kjRZeX",
+    "source": "Modrinth publisher description"
+  },
+  "mods/createbetterfps.pw.toml": {
+    "name": "CreateBetterFps",
+    "description": "Improve your Create FPS when shaderpack is on, up to 50%",
+    "url": "https://modrinth.com/project/lMYIHZNH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/createlazytick.pw.toml": {
+    "name": "Create: LazyTick",
+    "description": "A commitment to optimizing Create lag in large quantities!",
+    "url": "https://modrinth.com/project/Z0d7hFh4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/creativecore.pw.toml": {
+    "name": "CreativeCore",
+    "description": "A core mod",
+    "url": "https://modrinth.com/project/OsZiaDHq",
+    "source": "Modrinth publisher description"
+  },
+  "mods/creeper-overhaul.pw.toml": {
+    "name": "Creeper Overhaul",
+    "description": "A mod which overhauls the vanilla creepers!",
+    "url": "https://modrinth.com/project/MI1LWe93",
+    "source": "Modrinth publisher description"
+  },
+  "mods/critical-strike.pw.toml": {
+    "name": "Critical Strike",
+    "description": "🍀 Chance based critical hits for melee and ranged attacks!",
+    "url": "https://modrinth.com/project/ilvNBzFn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ct-overhaul-village.pw.toml": {
+    "name": "ChoiceTheorem's Overhauled Village",
+    "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+    "url": "https://modrinth.com/project/fgmhI8kH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "name": "Cubes Without Borders",
+    "description": "Allows you to play Minecraft in a borderless fullscreen window.",
+    "url": "https://modrinth.com/project/ETlrkaYF",
+    "source": "Modrinth publisher description"
+  },
+  "mods/cull-leaves.pw.toml": {
+    "name": "Cull Leaves",
+    "description": "Adds culling to leaf blocks, providing a huge performance boost over vanilla.",
+    "url": "https://modrinth.com/project/GNxdLCoP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/curios.pw.toml": {
+    "name": "Curios API",
+    "description": "A flexible and expandable accessory/equipment API for users and developers.",
+    "url": "https://modrinth.com/project/vvuO3ImH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/dangerous.pw.toml": {
+    "name": "Dangerous - Just A Difficulty Mod",
+    "description": "Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health.",
+    "url": "https://modrinth.com/project/nsri5wVW",
+    "source": "Modrinth publisher description"
+  },
+  "mods/decorative-food.pw.toml": {
+    "name": "TW‘s  Decorative Food",
+    "description": "Make the food placeable.Decorate your world!",
+    "url": "https://modrinth.com/project/656seq5J",
+    "source": "Modrinth publisher description"
+  },
+  "mods/detail-armor-bar-reconstructed.pw.toml": {
+    "name": "Detail Armor Bar Reconstructed",
+    "description": "More details about armor in the armor bar!",
+    "url": "https://modrinth.com/project/Si9Uim4y",
+    "source": "Modrinth publisher description"
+  },
+  "mods/diagonal-fences.pw.toml": {
+    "name": "Diagonal Fences",
+    "description": "Fences connecting diagonally? Wait. That's illegal.",
+    "url": "https://modrinth.com/project/IKARgflD",
+    "source": "Modrinth publisher description"
+  },
+  "mods/distanthorizons.pw.toml": {
+    "name": "Distant Horizons",
+    "description": "Massively increase render distance without harming performance.",
+    "url": "https://modrinth.com/project/uCdwusMi",
+    "source": "Modrinth publisher description"
+  },
+  "mods/dragonlib.pw.toml": {
+    "name": "DragonLib",
+    "description": "DragonLib is a small and simple library mod which contains code that is used by most of my mods.",
+    "url": "https://modrinth.com/project/sbIsGaOV",
+    "source": "Modrinth publisher description"
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "name": "Dynamic FPS",
+    "description": "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
+    "url": "https://modrinth.com/project/LQ3K71Q1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/easy-anvils.pw.toml": {
+    "name": "Easy Anvils",
+    "description": "Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties.",
+    "url": "https://modrinth.com/project/OZBR5JT5",
+    "source": "Modrinth publisher description"
+  },
+  "mods/easy-shulker-boxes.pw.toml": {
+    "name": "Easy Shulker Boxes",
+    "description": "Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory.",
+    "url": "https://modrinth.com/project/gA5euN8S",
+    "source": "Modrinth publisher description"
+  },
+  "mods/elemental-wizards-rpg.pw.toml": {
+    "name": "Elemental Wizards (RPG Series Plus)",
+    "description": "Master the elements to overcome your foes! Spell Engine Add-On",
+    "url": "https://modrinth.com/project/PeZ4h4i0",
+    "source": "Modrinth publisher description"
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "name": "EMF Compat: Core",
+    "description": "Shared framework for the EMF Compat family.",
+    "url": "https://modrinth.com/project/hbGct5uU",
+    "source": "Modrinth publisher description"
+  },
+  "mods/emi-enchanting.pw.toml": {
+    "name": "EMI Enchanting",
+    "description": "EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc.",
+    "url": "https://modrinth.com/project/wbWoo11W",
+    "source": "Modrinth publisher description"
+  },
+  "mods/emi-loot.pw.toml": {
+    "name": "EMI Loot",
+    "description": "A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer.",
+    "url": "https://modrinth.com/project/qbbO7Jns",
+    "source": "Modrinth publisher description"
+  },
+  "mods/emi-professions-(emip).pw.toml": {
+    "name": "EMI professions (EMIP)",
+    "description": "An EMI addon that adds profession workstations",
+    "url": "https://modrinth.com/project/LGVihYcz",
+    "source": "Modrinth publisher description"
+  },
+  "mods/emi.pw.toml": {
+    "name": "EMI",
+    "description": "A featureful and accessible item and recipe viewer",
+    "url": "https://modrinth.com/project/fRiHVvU7",
+    "source": "Modrinth publisher description"
+  },
+  "mods/enderman-overhaul.pw.toml": {
+    "name": "Enderman Overhaul",
+    "description": "Enderman Overhaul adds over 20 new enderman variants, each with their own sounds, models, and animations!",
+    "url": "https://modrinth.com/project/Lq6ojcWv",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ends-delight.pw.toml": {
+    "name": "End's Delight",
+    "description": "End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end!",
+    "url": "https://modrinth.com/project/yHN0njMr",
+    "source": "Modrinth publisher description"
+  },
+  "mods/entity-model-features.pw.toml": {
+    "name": "[EMF] Entity Model Features",
+    "description": "EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge.",
+    "url": "https://modrinth.com/project/4I1XuqiY",
+    "source": "Modrinth publisher description"
+  },
+  "mods/entityculling.pw.toml": {
+    "name": "Entity Culling",
+    "description": "Using async path-tracing to hide Block-/Entities that are not visible",
+    "url": "https://modrinth.com/project/NNAgCjsB",
+    "source": "Modrinth publisher description"
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "name": "[ETF] Entity Texture Features",
+    "description": "Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric",
+    "url": "https://modrinth.com/project/BVzZfTc1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/escalated.pw.toml": {
+    "name": "Create: Escalated",
+    "description": "A mod to add functional, aesthetic, and rotation-powered escalators to Create.",
+    "url": "https://modrinth.com/project/LyOBYG8Q",
+    "source": "Modrinth publisher description"
+  },
+  "mods/every-compat.pw.toml": {
+    "name": "Every Compat (Wood Good)",
+    "description": "Universal Wood Compat: Quark, Twilight Forest, Twigs, Another Furniture, Farmers Delight, Macaw's,  Valhelsia, Architects Palette, Deco Blocks, Crayfish FM",
+    "url": "https://modrinth.com/project/eiktJyw1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/explorers-compass.pw.toml": {
+    "name": "Explorer's Compass",
+    "description": "Allows you to locate structures anywhere in the world.",
+    "url": "https://modrinth.com/project/RV1qfVQ8",
+    "source": "Modrinth publisher description"
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "name": "Extreme sound muffler",
+    "description": "Extreme sound muffler is a client side mod that allows you to muffle sounds selectively.",
+    "url": "https://modrinth.com/project/5IIKsxiL",
+    "source": "Modrinth publisher description"
+  },
+  "mods/farmers-delight.pw.toml": {
+    "name": "Farmer's Delight",
+    "description": "A cozy expansion to farming and cooking!",
+    "url": "https://modrinth.com/project/R2OftAxM",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ferrite-core.pw.toml": {
+    "name": "FerriteCore",
+    "description": "Memory usage optimizations",
+    "url": "https://modrinth.com/project/uXXizFIs",
+    "source": "Modrinth publisher description"
+  },
+  "mods/flerovium.pw.toml": {
+    "name": "Flerovium",
+    "description": "Greatly improve your fps with virtually no side-effects on graphics quality",
+    "url": "https://modrinth.com/project/4Rh1Mobu",
+    "source": "Modrinth publisher description"
+  },
+  "mods/forcemaster-rpg-class.pw.toml": {
+    "name": "Forcemaster (RPG Series Plus)",
+    "description": "Grab a Knuckle, master the force and martial art. Spell Engine Add-On",
+    "url": "https://modrinth.com/project/K3yHebFL",
+    "source": "Modrinth publisher description"
+  },
+  "mods/forgematica.pw.toml": {
+    "name": "Forgematica",
+    "description": "Litematica unofficial (Neo)Forge port. A modern client-side schematic mod for Minecraft.",
+    "url": "https://modrinth.com/project/dCKRaeBC",
+    "source": "Modrinth publisher description"
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "name": "Forgified Fabric API",
+    "description": "Fabric API implemented on top of NeoForge",
+    "url": "https://modrinth.com/project/Aqlf1Shp",
+    "source": "Modrinth publisher description"
+  },
+  "mods/freecam.pw.toml": {
+    "name": "Freecam",
+    "description": "A highly customizable freecam mod.",
+    "url": "https://modrinth.com/project/XeEZ3fK2",
+    "source": "Modrinth publisher description"
+  },
+  "mods/friends-and-foes-forge.pw.toml": {
+    "name": "Friends&Foes (Forge/NeoForge)",
+    "description": "Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse",
+    "url": "https://modrinth.com/project/BOCJKD49",
+    "source": "Modrinth publisher description"
+  },
+  "mods/fzzy-config.pw.toml": {
+    "name": "Fzzy Config",
+    "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
+    "url": "https://modrinth.com/project/hYykXjDp",
+    "source": "Modrinth publisher description"
+  },
+  "mods/gazebos.pw.toml": {
+    "name": "Gazebos (RPG Series)",
+    "description": "⛲️ Village structures hosting small spell libraries",
+    "url": "https://modrinth.com/project/XIpMGI6r",
+    "source": "Modrinth publisher description"
+  },
+  "mods/geckolib.pw.toml": {
+    "name": "Geckolib",
+    "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+    "url": "https://modrinth.com/project/8BmcQJ2H",
+    "source": "Modrinth publisher description"
+  },
+  "mods/gml.pw.toml": {
+    "name": "GroovyModLoader (GML)",
+    "description": "NeoForge language provider for Groovy mods.",
+    "url": "https://modrinth.com/project/zg2tT2Vu",
+    "source": "Modrinth publisher description"
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "name": "GrandTeleport NeoForge",
+    "description": "A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V.",
+    "url": "https://modrinth.com/project/PsllFHj8",
+    "source": "Modrinth publisher description"
+  },
+  "mods/handcrafted.pw.toml": {
+    "name": "Handcrafted",
+    "description": "Make your house a home!",
+    "url": "https://modrinth.com/project/pJmCFF0p",
+    "source": "Modrinth publisher description"
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "name": "Hide Experimental Warning",
+    "description": "❌ Hides the Experimental Settings Warning when trying to create or load a modded world.",
+    "url": "https://modrinth.com/project/Rm4OOdHd",
+    "source": "Modrinth publisher description"
+  },
+  "mods/hypertube.pw.toml": {
+    "name": "Create: Hypertubes",
+    "description": "Travel arround the world with tubes!",
+    "url": "https://modrinth.com/project/ATDdrG1y",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ibo.pw.toml": {
+    "name": "Incendium Biomes Only",
+    "description": "Removes structures, items, mobs and bosses from Incendium, leaving only the biomes and terrain.",
+    "url": "https://modrinth.com/project/gmUU3UdW",
+    "source": "Modrinth publisher description"
+  },
+  "mods/iceberg.pw.toml": {
+    "name": "Iceberg",
+    "description": "A modding library that contains new events, helpers, and utilities to make modder's lives easier.",
+    "url": "https://modrinth.com/project/5faXoLqX",
+    "source": "Modrinth publisher description"
+  },
+  "mods/illager-invasion.pw.toml": {
+    "name": "Illager Invasion",
+    "description": "The illagers are back! Be ready to fight new foes. A port of Illager Expansion.",
+    "url": "https://modrinth.com/project/jSV9w0J5",
+    "source": "Modrinth publisher description"
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "name": "ImmediatelyFast",
+    "description": "Speed up immediate mode rendering in Minecraft",
+    "url": "https://modrinth.com/project/5ZwdcRci",
+    "source": "Modrinth publisher description"
+  },
+  "mods/immersive-paintings.pw.toml": {
+    "name": "Immersive Paintings",
+    "description": "Drag and drop, pixelate and hang up beautiful art. On servers too.",
+    "url": "https://modrinth.com/project/6txNkua3",
+    "source": "Modrinth publisher description"
+  },
+  "mods/incendium.pw.toml": {
+    "name": "Incendium Legacy",
+    "description": "A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat.",
+    "url": "https://modrinth.com/project/ZVzW5oNS",
+    "source": "Modrinth publisher description"
+  },
+  "mods/interactic-renewed.pw.toml": {
+    "name": "Interactic Renewed",
+    "description": "A maintained fork of the populair interactic mod.",
+    "url": "https://modrinth.com/project/BM12h14f",
+    "source": "Modrinth publisher description"
+  },
+  "mods/interiors.pw.toml": {
+    "name": "Create: Interiors",
+    "description": "A complement to the Create mod that adds new furniture.",
+    "url": "https://modrinth.com/project/r4Knci2k",
+    "source": "Modrinth publisher description"
+  },
+  "mods/iris.pw.toml": {
+    "name": "Iris Shaders",
+    "description": "A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs",
+    "url": "https://modrinth.com/project/YL57xq9U",
+    "source": "Modrinth publisher description"
+  },
+  "mods/items-displayed-forge.pw.toml": {
+    "name": "Items Displayed [NeoForge]",
+    "description": "A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests!",
+    "url": "https://modrinth.com/project/PuR4vDBo",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ixeris.pw.toml": {
+    "name": "Ixeris",
+    "description": "Buffered raw input and threaded event polling",
+    "url": "https://modrinth.com/project/p8RJPJIC",
+    "source": "Modrinth publisher description"
+  },
+  "mods/jade-addons-forge.pw.toml": {
+    "name": "Jade Addons (Neo/Forge)",
+    "description": "Jade 🔍's additional mod supports for Neo/Forge",
+    "url": "https://modrinth.com/project/xuDOzCLy",
+    "source": "Modrinth publisher description"
+  },
+  "mods/jade.pw.toml": {
+    "name": "Jade 🔍",
+    "description": "Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+)",
+    "url": "https://modrinth.com/project/nvQzSEkH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/jamlib.pw.toml": {
+    "name": "JamLib",
+    "description": "The platform-agnostic, Architectury based library used in all of JamCoreModding's mods",
+    "url": "https://modrinth.com/project/IYY9Siz8",
+    "source": "Modrinth publisher description"
+  },
+  "mods/jewelry.pw.toml": {
+    "name": "Jewelry (RPG Series)",
+    "description": "💍 Find precious gems deep down, and craft them into powerful jewelry!",
+    "url": "https://modrinth.com/project/sNJAIjUm",
+    "source": "Modrinth publisher description"
+  },
+  "mods/kerria-opt.pw.toml": {
+    "name": "Kerria",
+    "description": "Faster texture animation",
+    "url": "https://modrinth.com/project/f0ruQTF7",
+    "source": "Modrinth publisher description"
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "name": "Kotlin for Forge",
+    "description": "Adds a Kotlin language loader and provides some optional utilities.",
+    "url": "https://modrinth.com/project/ordsPcFz",
+    "source": "Modrinth publisher description"
+  },
+  "mods/l_enders-cataclysm-delight.pw.toml": {
+    "name": "L_Ender 's Cataclysm Delight",
+    "description": "Adds 50+ dishes, linking L_Ender's Cataclysm and Farmer's Delight in a Vanilla style.",
+    "url": "https://modrinth.com/project/a48R8AGk",
+    "source": "Modrinth publisher description"
+  },
+  "mods/l_enders-cataclysm.pw.toml": {
+    "name": "L_Ender's Cataclysm",
+    "description": "Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items.",
+    "url": "https://modrinth.com/project/46KJle7n",
+    "source": "Modrinth publisher description"
+  },
+  "mods/leaves-be-gone.pw.toml": {
+    "name": "Leaves Be Gone",
+    "description": "Quick leaf decay from cutting down trees. Built for fast performance and mod compat!",
+    "url": "https://modrinth.com/project/AVq17PqV",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lighty.pw.toml": {
+    "name": "Lighty",
+    "description": "The Light Overlay Mod with a twist!",
+    "url": "https://modrinth.com/project/yjvKidNM",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lionfish-api.pw.toml": {
+    "name": "Lionfish-API",
+    "description": "Very Light Animation Api",
+    "url": "https://modrinth.com/project/FoVacERa",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lithium.pw.toml": {
+    "name": "Lithium",
+    "description": "No-compromises game logic optimization mod, useful for both single-player games and multi-player servers.",
+    "url": "https://modrinth.com/project/gvQqBUqZ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lithostitched.pw.toml": {
+    "name": "Lithostitched",
+    "description": "Library mod with new configurability and compatibility enhancements for worldgen",
+    "url": "https://modrinth.com/project/XaDC71GB",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lmd.pw.toml": {
+    "name": "Let Me Despawn",
+    "description": "Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs.",
+    "url": "https://modrinth.com/project/vE2FN5qn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lodestonelib.pw.toml": {
+    "name": "Lodestone",
+    "description": "A collection of code used throughout projects under the Lodestar team.",
+    "url": "https://modrinth.com/project/bN3xUWdo",
+    "source": "Modrinth publisher description"
+  },
+  "mods/lootr.pw.toml": {
+    "name": "Lootr",
+    "description": "A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique.",
+    "url": "https://modrinth.com/project/EltpO5cN",
+    "source": "Modrinth publisher description"
+  },
+  "mods/macaws-bridges.pw.toml": {
+    "name": "Macaw's Bridges",
+    "description": "A simple mod that adds a lot of bridges!",
+    "url": "https://modrinth.com/project/GURcjz8O",
+    "source": "Modrinth publisher description"
+  },
+  "mods/macaws-doors.pw.toml": {
+    "name": "Macaw's Doors",
+    "description": "Adds vanilla doors with every wood color and new unique doors!\nSuch as western, garage, shoji and more...!",
+    "url": "https://modrinth.com/project/kNxa8z3e",
+    "source": "Modrinth publisher description"
+  },
+  "mods/macaws-fences-and-walls.pw.toml": {
+    "name": "Macaw's Fences and Walls",
+    "description": "Adds new vanilla styled fences, walls and gates!",
+    "url": "https://modrinth.com/project/GmwLse2I",
+    "source": "Modrinth publisher description"
+  },
+  "mods/macaws-roofs.pw.toml": {
+    "name": "Macaw's Roofs",
+    "description": "Build roofs with actual roofs instead of stairs!",
+    "url": "https://modrinth.com/project/B8jaH3P1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/macaws-stairs.pw.toml": {
+    "name": "Macaw's Stairs",
+    "description": "Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies!",
+    "url": "https://modrinth.com/project/iP3wH1ha",
+    "source": "Modrinth publisher description"
+  },
+  "mods/macaws-windows.pw.toml": {
+    "name": "Macaw's Windows",
+    "description": "Adds lots of Windows, Mosaic Glass, Blinds, Shutters, Curtains and more...!",
+    "url": "https://modrinth.com/project/C7I0BCni",
+    "source": "Modrinth publisher description"
+  },
+  "mods/mafglib.pw.toml": {
+    "name": "MaFgLib",
+    "description": "MaLiLib unofficial forge port. Library mod for the (Neo)Forge port of masa's mods.",
+    "url": "https://modrinth.com/project/SKI34J7B",
+    "source": "Modrinth publisher description"
+  },
+  "mods/mech-trowel.pw.toml": {
+    "name": "Mech Trowel",
+    "description": "A Trowel+ that randomizes / shuffle blocks with multiple customizable palettes. Includes building wand functionality. Works with Create /Copycats+ & FramedBlocks",
+    "url": "https://modrinth.com/project/nqFNRALS",
+    "source": "Modrinth publisher description"
+  },
+  "mods/midnightlib.pw.toml": {
+    "name": "MidnightLib",
+    "description": "Common library providing a lightweight configuration system",
+    "url": "https://modrinth.com/project/codAaoxh",
+    "source": "Modrinth publisher description"
+  },
+  "mods/miners-delight.pw.toml": {
+    "name": "Miner's Delight",
+    "description": "Farmer's Delight add-on for miners",
+    "url": "https://modrinth.com/project/qMxbM4BQ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/modelfix.pw.toml": {
+    "name": "Model Gap Fix",
+    "description": "Fixes gaps in Block Models and Item Models",
+    "url": "https://modrinth.com/project/QdG47OkI",
+    "source": "Modrinth publisher description"
+  },
+  "mods/modernfix.pw.toml": {
+    "name": "ModernFix",
+    "description": "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods!",
+    "url": "https://modrinth.com/project/nmDcB62a",
+    "source": "Modrinth publisher description"
+  },
+  "mods/moonlight.pw.toml": {
+    "name": "Moonlight Lib",
+    "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
+    "url": "https://modrinth.com/project/twkfQtEc",
+    "source": "Modrinth publisher description"
+  },
+  "mods/more-relics-rpg.pw.toml": {
+    "name": "More Relics (RPG Series Plus)",
+    "description": "This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics!",
+    "url": "https://modrinth.com/project/IZ3b4kEa",
+    "source": "Modrinth publisher description"
+  },
+  "mods/more-rpg-classes-skill-tree.pw.toml": {
+    "name": "More RPG Classes - Skill Tree (RPG Series Plus)",
+    "description": "RPG Series Skill Tree Add-On for the More RPG Classes!",
+    "url": "https://modrinth.com/project/3OYmNUDq",
+    "source": "Modrinth publisher description"
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "name": "More RPG Library",
+    "description": "Library for the More RPG Classes & More RPG Content Series.",
+    "url": "https://modrinth.com/project/Wkc3lwHo",
+    "source": "Modrinth publisher description"
+  },
+  "mods/more-sounds.pw.toml": {
+    "name": "More Sounds",
+    "description": "A Sounds mod addon that adds custom sounds and modded compatibility",
+    "url": "https://modrinth.com/project/8jvcOd6S",
+    "source": "Modrinth publisher description"
+  },
+  "mods/moreculling.pw.toml": {
+    "name": "More Culling",
+    "description": "A mod that changes how multiple types of culling are handled in order to improve performance",
+    "url": "https://modrinth.com/project/51shyZVL",
+    "source": "Modrinth publisher description"
+  },
+  "mods/mouse-tweaks.pw.toml": {
+    "name": "Mouse Tweaks",
+    "description": "Enhances inventory management by adding various functions to the mouse buttons. ",
+    "url": "https://modrinth.com/project/aC3cM3Vq",
+    "source": "Modrinth publisher description"
+  },
+  "mods/mru.pw.toml": {
+    "name": "MRU",
+    "description": "A library mod used by Cassian and IMB11's mods to function.",
+    "url": "https://modrinth.com/project/SNVQ2c0g",
+    "source": "Modrinth publisher description"
+  },
+  "mods/my-nethers-delight.pw.toml": {
+    "name": "My Nether's Delight",
+    "description": "New Nether addon for Farmer's Delight",
+    "url": "https://modrinth.com/project/O53VhQoZ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/natures-compass.pw.toml": {
+    "name": "Nature's Compass",
+    "description": "Allows you to locate biomes anywhere in the world.",
+    "url": "https://modrinth.com/project/fPetb5Kh",
+    "source": "Modrinth publisher description"
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "name": "Neo Bee Fix",
+    "description": "Fix the Bees!",
+    "url": "https://modrinth.com/project/DzSY371i",
+    "source": "Modrinth publisher description"
+  },
+  "mods/netherportalfix.pw.toml": {
+    "name": "NetherPortalFix",
+    "description": "Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer.",
+    "url": "https://modrinth.com/project/nPZr02ET",
+    "source": "Modrinth publisher description"
+  },
+  "mods/nullscape.pw.toml": {
+    "name": "Nullscape",
+    "description": "Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. Topped with a couple of new biomes to add to the experience, whilst keeping the end desolate.",
+    "url": "https://modrinth.com/project/LPjGiSO4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/observable.pw.toml": {
+    "name": "Observable",
+    "description": "See what's lagging your server.",
+    "url": "https://modrinth.com/project/VYRu7qmG",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "name": "Ok Zoomer - It's Zoom!",
+    "description": "Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours!",
+    "url": "https://modrinth.com/project/aXf2OSFU",
+    "source": "Modrinth publisher description"
+  },
+  "mods/owo-lib.pw.toml": {
+    "name": "oωo (owo-lib)",
+    "description": "A general utility, GUI and config library for modding on Fabric and Quilt",
+    "url": "https://modrinth.com/project/ccKDOlHs",
+    "source": "Modrinth publisher description"
+  },
+  "mods/paladins-and-priests.pw.toml": {
+    "name": "Paladins & Priests (RPG Series)",
+    "description": "✨ Protect and heal your friends as a Paladin or a Priest",
+    "url": "https://modrinth.com/project/FxXkHaLe",
+    "source": "Modrinth publisher description"
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "name": "Presence Footsteps (NeoForge)",
+    "description": "An Overly complicated Sound Mod,and unofficial port of Presence Footsteps (Forge) from Forge to NeoForge",
+    "url": "https://modrinth.com/project/JIEwmDVI",
+    "source": "Modrinth publisher description"
+  },
+  "mods/placebo.pw.toml": {
+    "name": "Placebo",
+    "description": "Placebo is a library used by most of my mods.\nIt does not provide any game-relevant features on its own (save for maybe a couple debug commands).",
+    "url": "https://modrinth.com/project/tCkE8p2N",
+    "source": "Modrinth publisher description"
+  },
+  "mods/playeranimator.pw.toml": {
+    "name": "playerAnimator",
+    "description": "animate the player",
+    "url": "https://modrinth.com/project/gedNE4y2",
+    "source": "Modrinth publisher description"
+  },
+  "mods/polymorph.pw.toml": {
+    "name": "Polymorph",
+    "description": "No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.",
+    "url": "https://modrinth.com/project/tagwiZkJ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/polytone.pw.toml": {
+    "name": "Polytone",
+    "description": "Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs",
+    "url": "https://modrinth.com/project/3qAYkBMB",
+    "source": "Modrinth publisher description"
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "name": "Presence Footsteps x Sable (Aeronautics Compat)",
+    "description": "Presence Footsteps compatability for Sable / Create Aeronautics",
+    "url": "https://modrinth.com/project/ZAhKrMSS",
+    "source": "Modrinth publisher description"
+  },
+  "mods/prickle.pw.toml": {
+    "name": "Prickle",
+    "description": "Prickle is a JSON based configuration file format brought to Minecraft.",
+    "url": "https://modrinth.com/project/aaRl8GiW",
+    "source": "Modrinth publisher description"
+  },
+  "mods/progresspeek.pw.toml": {
+    "name": "Progress Peek",
+    "description": "Display game loading progress on the taskbar",
+    "url": "https://modrinth.com/project/1A2XNzUB",
+    "source": "Modrinth publisher description"
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "name": "Puzzles Lib",
+    "description": "Why is it called Puzzles? That's the puzzle.",
+    "url": "https://modrinth.com/project/QAGBst4M",
+    "source": "Modrinth publisher description"
+  },
+  "mods/quick-pack.pw.toml": {
+    "name": "quick pack",
+    "description": "Optimize datapack / resourcepack zip file loading times",
+    "url": "https://modrinth.com/project/pSISfJ4O",
+    "source": "Modrinth publisher description"
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "name": "Ranged Weapon API",
+    "description": "🏹 Create fully functional bows and crossbows, with ease",
+    "url": "https://modrinth.com/project/AqaIIO6D",
+    "source": "Modrinth publisher description"
+  },
+  "mods/reconnectible-chains.pw.toml": {
+    "name": "Reconnectible Chains",
+    "description": "A multiloader fork of Connectible Chains: Connect your fences/walls with a decorative chain!",
+    "url": "https://modrinth.com/project/5pzBXDS3",
+    "source": "Modrinth publisher description"
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "name": "Reese's Sodium Options",
+    "description": "Alternative Options Menu for Sodium",
+    "url": "https://modrinth.com/project/Bh37bMuy",
+    "source": "Modrinth publisher description"
+  },
+  "mods/reinforced-shulker-boxes.pw.toml": {
+    "name": "Reinforced Shulker Boxes",
+    "description": "Adds reinforced shulker boxes.",
+    "url": "https://modrinth.com/project/xlOwuSdN",
+    "source": "Modrinth publisher description"
+  },
+  "mods/reliable-advancements.pw.toml": {
+    "name": "Reliable Advancements",
+    "description": "In-game advancement editing and improvements to the advancement screen!",
+    "url": "https://modrinth.com/project/xVwaUG1g",
+    "source": "Modrinth publisher description"
+  },
+  "mods/reliable-emi.pw.toml": {
+    "name": "Reliable EMI (REMI)",
+    "description": "A mod adding many configurable features to EMI!",
+    "url": "https://modrinth.com/project/N9WucjHL",
+    "source": "Modrinth publisher description"
+  },
+  "mods/relics-rpg.pw.toml": {
+    "name": "Relics (RPG Series)",
+    "description": "🎖 Unleash your true potential with powerful trinkets! 🔮",
+    "url": "https://modrinth.com/project/BDQucwF0",
+    "source": "Modrinth publisher description"
+  },
+  "mods/resourceful-config.pw.toml": {
+    "name": "Resourceful Config",
+    "description": "Resourceful Config is a mod that allows for developers to make cross-platform configs",
+    "url": "https://modrinth.com/project/M1953qlQ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "name": "Resourceful Lib",
+    "description": "Resourceful Lib",
+    "url": "https://modrinth.com/project/G1hIVOrD",
+    "source": "Modrinth publisher description"
+  },
+  "mods/rightclickharvest.pw.toml": {
+    "name": "RightClickHarvest",
+    "description": "Allows you to harvest crops with right click",
+    "url": "https://modrinth.com/project/Cnejf5xM",
+    "source": "Modrinth publisher description"
+  },
+  "mods/rogues-and-warriors.pw.toml": {
+    "name": "Rogues & Warriors (RPG Series)",
+    "description": "🗡️ Silent Blades, Mighty Blows - Dominate with martial skills!",
+    "url": "https://modrinth.com/project/3MKqoGuP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/rpl.pw.toml": {
+    "name": "Ritchie's Projectile Library",
+    "description": "A Minecraft modding library for better projectiles.",
+    "url": "https://modrinth.com/project/B3pb093D",
+    "source": "Modrinth publisher description"
+  },
+  "mods/runes.pw.toml": {
+    "name": "Runes",
+    "description": "🪨 Craft runes to serve as ammo for spells",
+    "url": "https://modrinth.com/project/lP9Yrr1E",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "name": "Sable: Cool Rain",
+    "description": "Compatibility addon that makes Cool Rain Reforged rain sounds work with Sable structures, Create copycats and other modded blocks.",
+    "url": "https://modrinth.com/project/nUwwB5kx",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sable.pw.toml": {
+    "name": "Sable",
+    "description": "A library mod for interactive moving block structures, or \"sub-levels\"",
+    "url": "https://modrinth.com/project/T9PomCSv",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sable_beyond.pw.toml": {
+    "name": "Sable Beyond",
+    "description": "Sable Beyond expands the Sable mod with additional features, quality-of-life improvements, and compatibility support. It is designed to add ideas that are not part of the main mod while keeping the gameplay experience consistent with Sable.",
+    "url": "https://modrinth.com/project/PrW3B4fH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sablecompat.pw.toml": {
+    "name": "Sable: Physics Compat",
+    "description": "A Compat mod for Sable/Aeronautics providing tags for several modded blocks.",
+    "url": "https://modrinth.com/project/sZbcIrJb",
+    "source": "Modrinth publisher description"
+  },
+  "mods/searchables.pw.toml": {
+    "name": "Searchables",
+    "description": "Searchables is a library mod that adds helper methods that allow for searching and filtering elements based on components, as well as offering built in auto-complete functionality.",
+    "url": "https://modrinth.com/project/fuuu3xnx",
+    "source": "Modrinth publisher description"
+  },
+  "mods/shield-api.pw.toml": {
+    "name": "Shield API",
+    "description": "Creating shields with custom models was never easier!",
+    "url": "https://modrinth.com/project/y9clIFY4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/shulker-drops-two.pw.toml": {
+    "name": "Shulker Drops Two",
+    "description": "🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance.",
+    "url": "https://modrinth.com/project/UjXIyw47",
+    "source": "Modrinth publisher description"
+  },
+  "mods/skill-tree.pw.toml": {
+    "name": "Skill Tree (RPG Series)",
+    "description": "⭐️ Choose your path - Skills that shape your class",
+    "url": "https://modrinth.com/project/PjDhruSC",
+    "source": "Modrinth publisher description"
+  },
+  "mods/skills.pw.toml": {
+    "name": "Pufferfish's Skills",
+    "description": "Adds a fully configurable skill system to the game.",
+    "url": "https://modrinth.com/project/hqQqvaa4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/slice-and-dice.pw.toml": {
+    "name": "Create Slice & Dice",
+    "description": "Making automation for Farmers Delight more sensible",
+    "url": "https://modrinth.com/project/GmjmRQ0A",
+    "source": "Modrinth publisher description"
+  },
+  "mods/smarter-farmers-farmers-replant.pw.toml": {
+    "name": "Smarter Farmers (farmers replant)",
+    "description": "Allows villagers to replant the correct seed & allows them to use modded ones",
+    "url": "https://modrinth.com/project/Bh6ZOMvp",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sodium-extra.pw.toml": {
+    "name": "Sodium Extra",
+    "description": "A Sodium addon that adds features that shouldn't be in Sodium.",
+    "url": "https://modrinth.com/project/PtjYWJkn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sodium.pw.toml": {
+    "name": "Sodium",
+    "description": "A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter.",
+    "url": "https://modrinth.com/project/AANobbMI",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "name": "Sophisticated Core",
+    "description": "Library mod for Sophisticated mods",
+    "url": "https://modrinth.com/project/nmoqTijg",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sophisticated-inventory-interactions.pw.toml": {
+    "name": "Sophisticated Inventory Interactions",
+    "description": "Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting.",
+    "url": "https://modrinth.com/project/orgY0JIo",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "name": "Sound Physics Remastered",
+    "description": "A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.",
+    "url": "https://modrinth.com/project/qyVF9oeo",
+    "source": "Modrinth publisher description"
+  },
+  "mods/sound.pw.toml": {
+    "name": "Sounds",
+    "description": "It's what it says on the tin. A complete upgrade to Minecraft's SFX with over 170 new sound effects for UIs, items, blocks and more.",
+    "url": "https://modrinth.com/project/ZouiUX7t",
+    "source": "Modrinth publisher description"
+  },
+  "mods/spark.pw.toml": {
+    "name": "spark",
+    "description": "spark is a performance profiler for Minecraft clients, servers and proxies.",
+    "url": "https://modrinth.com/project/l6YH9Als",
+    "source": "Modrinth publisher description"
+  },
+  "mods/spawn-mod.pw.toml": {
+    "name": "Spawn",
+    "description": "An overworld wilderness overhaul that adds tons of animals, biomes, ambience and functionality",
+    "url": "https://modrinth.com/project/rex9wwpz",
+    "source": "Modrinth publisher description"
+  },
+  "mods/spell-engine.pw.toml": {
+    "name": "Spell Engine",
+    "description": "🪄 Data driven magic library",
+    "url": "https://modrinth.com/project/XvoWJaA2",
+    "source": "Modrinth publisher description"
+  },
+  "mods/spell-power.pw.toml": {
+    "name": "Spell Power Attributes",
+    "description": "🔮 Spell Power entity attributes with related status effects and enchantments",
+    "url": "https://modrinth.com/project/8ooWzSQP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/spice-of-life-onion.pw.toml": {
+    "name": "Spice of Life Onion",
+    "description": "A mod designed to encourage dietary variety!",
+    "url": "https://modrinth.com/project/eHGYGKJz",
+    "source": "Modrinth publisher description"
+  },
+  "mods/status-effect-bars-reforged.pw.toml": {
+    "name": "Status Effect Bars Reforged",
+    "description": "A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects.",
+    "url": "https://modrinth.com/project/TxIuhIFo",
+    "source": "Modrinth publisher description"
+  },
+  "mods/stone-zone.pw.toml": {
+    "name": "Every Compat (Stone Zone)",
+    "description": "Universal Stone Compat: Create, Twigs, Stoneworks, and more...",
+    "url": "https://modrinth.com/project/uYwn8IP5",
+    "source": "Modrinth publisher description"
+  },
+  "mods/straw-statues.pw.toml": {
+    "name": "Straw Statues",
+    "description": "Bring some life to your builds with player statues of your favorite Minecrafters!",
+    "url": "https://modrinth.com/project/2fltysAl",
+    "source": "Modrinth publisher description"
+  },
+  "mods/streams-reflowing.pw.toml": {
+    "name": "Streams Reflowing",
+    "description": "Adds beautiful flowing streams to your world.",
+    "url": "https://modrinth.com/project/oLS8HdJ1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "name": "Structure Layout Optimizer",
+    "description": "Attempts to optimize the generation of Jigsaw Structures and NBT pieces",
+    "url": "https://modrinth.com/project/ayPU0OHc",
+    "source": "Modrinth publisher description"
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "name": "Structure Pool API",
+    "description": "📚 API to inject structures into structure pools.",
+    "url": "https://modrinth.com/project/LrYZi08Q",
+    "source": "Modrinth publisher description"
+  },
+  "mods/stylish-effects.pw.toml": {
+    "name": "Stylish Effects",
+    "description": "Status effect display overhaul: Display them in any menu! And way more compact.",
+    "url": "https://modrinth.com/project/onDuQF5e",
+    "source": "Modrinth publisher description"
+  },
+  "mods/supplementaries.pw.toml": {
+    "name": "Supplementaries",
+    "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+    "url": "https://modrinth.com/project/fFEIiSDQ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/teallib.pw.toml": {
+    "name": "Teal Lib",
+    "description": "A library mod that's teal... That's the appeal",
+    "url": "https://modrinth.com/project/rLJ1qF79",
+    "source": "Modrinth publisher description"
+  },
+  "mods/tectonic.pw.toml": {
+    "name": "Tectonic",
+    "description": "Terrain shaping brought to new heights, grander and more varied than ever before!",
+    "url": "https://modrinth.com/project/lWDHr9jE",
+    "source": "Modrinth publisher description"
+  },
+  "mods/tempad.pw.toml": {
+    "name": "Tempad",
+    "description": "Create a portal to anywhere from anywhere",
+    "url": "https://modrinth.com/project/gKNwt7xu",
+    "source": "Modrinth publisher description"
+  },
+  "mods/terralith.pw.toml": {
+    "name": "Terralith",
+    "description": "Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain.",
+    "url": "https://modrinth.com/project/8oi3bsk5",
+    "source": "Modrinth publisher description"
+  },
+  "mods/tfmg-community-edition.pw.toml": {
+    "name": "Create: TFMG Community Edition",
+    "description": "Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can.",
+    "url": "https://modrinth.com/project/hC1xYvnS",
+    "source": "Modrinth publisher description"
+  },
+  "mods/toast-control.pw.toml": {
+    "name": "Toast Control",
+    "description": "Manage (or remove) those pesky toast notifications",
+    "url": "https://modrinth.com/project/CnOG2wlS",
+    "source": "Modrinth publisher description"
+  },
+  "mods/tooltipfix.pw.toml": {
+    "name": "ToolTipFix",
+    "description": "Fixes Tooltips from runnning off the screen.",
+    "url": "https://modrinth.com/project/2RKFTmiB",
+    "source": "Modrinth publisher description"
+  },
+  "mods/torchmaster.pw.toml": {
+    "name": "TorchMaster",
+    "description": "Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp",
+    "url": "https://modrinth.com/project/Tl8ESrhX",
+    "source": "Modrinth publisher description"
+  },
+  "mods/trade-refresh.pw.toml": {
+    "name": "Trade Refresh",
+    "description": "in-UI trade refresh key",
+    "url": "https://modrinth.com/project/OlAQOlqx",
+    "source": "Modrinth publisher description"
+  },
+  "mods/trashslot.pw.toml": {
+    "name": "TrashSlot",
+    "description": "Adds a draggable trash slot to all inventory screens. Press T to toggle.",
+    "url": "https://modrinth.com/project/vRYk0bv7",
+    "source": "Modrinth publisher description"
+  },
+  "mods/travelers-titles.pw.toml": {
+    "name": "Traveler's Titles",
+    "description": "Epic, RPG-like titles when entering biomes & dimensions!",
+    "url": "https://modrinth.com/project/JtifUr64",
+    "source": "Modrinth publisher description"
+  },
+  "mods/universal-bone-meal.pw.toml": {
+    "name": "Universal Bone Meal",
+    "description": "Stop the bonemeal discrimination! Grow all plants, no limitations.",
+    "url": "https://modrinth.com/project/66VIiT1y",
+    "source": "Modrinth publisher description"
+  },
+  "mods/vanilla-backpacks.pw.toml": {
+    "name": "Backpacks!",
+    "description": "Dyeable and upgradeable vanilla-friendly backpacks!",
+    "url": "https://modrinth.com/project/MGcd6kTf",
+    "source": "Modrinth publisher description"
+  },
+  "mods/variants-and-ventures.pw.toml": {
+    "name": "Variants&Ventures",
+    "description": "Adds multiple new mob variants seamlessly integrated into your Minecraft world.",
+    "url": "https://modrinth.com/project/lNDRiXkY",
+    "source": "Modrinth publisher description"
+  },
+  "mods/village-taverns.pw.toml": {
+    "name": "Village Taverns (RPG Series)",
+    "description": "🍺 Find cozy taverns in villages, have a drink, and maybe some rest.",
+    "url": "https://modrinth.com/project/bj4a8NjJ",
+    "source": "Modrinth publisher description"
+  },
+  "mods/villager-names-serilum.pw.toml": {
+    "name": "Villager Names",
+    "description": "🧑‍🌾 Gives all villager entities a default or custom name to liven up the world.",
+    "url": "https://modrinth.com/project/gqRXDo8B",
+    "source": "Modrinth publisher description"
+  },
+  "mods/waystones-sable.pw.toml": {
+    "name": "Waystones: Sable (Create Aeronautics Addon)",
+    "description": "A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels.",
+    "url": "https://modrinth.com/project/BxhPGfcK",
+    "source": "Modrinth publisher description"
+  },
+  "mods/waystones.pw.toml": {
+    "name": "Waystones",
+    "description": "Teleport from waystone to waystone or craft magical scrolls to warp.",
+    "url": "https://modrinth.com/project/LOpKHB2A",
+    "source": "Modrinth publisher description"
+  },
+  "mods/when-dungeons-arise.pw.toml": {
+    "name": "When Dungeons Arise",
+    "description": "Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds!",
+    "url": "https://modrinth.com/project/8DfbfASn",
+    "source": "Modrinth publisher description"
+  },
+  "mods/witcher-rpg-class.pw.toml": {
+    "name": "Witcher (RPG Series Plus)",
+    "description": "Slay monsters like a Witcher! Spell Engine Add-On",
+    "url": "https://modrinth.com/project/4eW1c7Gj",
+    "source": "Modrinth publisher description"
+  },
+  "mods/wizards.pw.toml": {
+    "name": "Wizards (RPG Series)",
+    "description": "🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic",
+    "url": "https://modrinth.com/project/NkGaQMDA",
+    "source": "Modrinth publisher description"
+  },
+  "mods/xaeros-maps-multiplayer-plus.pw.toml": {
+    "name": "Xaero's Maps: Multiplayer+",
+    "description": "Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing",
+    "url": "https://modrinth.com/project/stTaMuWa",
+    "source": "Modrinth publisher description"
+  },
+  "mods/xaeros-minimap.pw.toml": {
+    "name": "Xaero's Minimap",
+    "description": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.",
+    "url": "https://modrinth.com/project/1bokaNcj",
+    "source": "Modrinth publisher description"
+  },
+  "mods/xaeros-world-map.pw.toml": {
+    "name": "Xaero's World Map",
+    "description": "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
+    "url": "https://modrinth.com/project/NcUtCpym",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yacl.pw.toml": {
+    "name": "YetAnotherConfigLib (YACL)",
+    "description": "A builder-based configuration library for Minecraft!",
+    "url": "https://modrinth.com/project/1eAoo2KR",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-api.pw.toml": {
+    "name": "YUNG's API",
+    "description": "Library mod for YUNG's mods.",
+    "url": "https://modrinth.com/project/Ua7DFN59",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-desert-temples.pw.toml": {
+    "name": "YUNG's Better Desert Temples",
+    "description": "A complete redesign of Minecraft's desert temples!",
+    "url": "https://modrinth.com/project/XNlO7sBv",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-dungeons.pw.toml": {
+    "name": "YUNG's Better Dungeons",
+    "description": "A complete redesign of Minecraft's dungeons!",
+    "url": "https://modrinth.com/project/o1C1Dkj5",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-jungle-temples.pw.toml": {
+    "name": "YUNG's Better Jungle Temples",
+    "description": "A complete redesign of Minecraft's jungle temples!",
+    "url": "https://modrinth.com/project/z9Ve58Ih",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-mineshafts.pw.toml": {
+    "name": "YUNG's Better Mineshafts",
+    "description": "A long-awaited and much-needed abandoned mineshaft overhaul!",
+    "url": "https://modrinth.com/project/HjmxVlSr",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-nether-fortresses.pw.toml": {
+    "name": "YUNG's Better Nether Fortresses",
+    "description": "A complete redesign of Minecraft's Nether fortresses!",
+    "url": "https://modrinth.com/project/Z2mXHnxP",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-ocean-monuments.pw.toml": {
+    "name": "YUNG's Better Ocean Monuments",
+    "description": "A complete redesign of Minecraft's ocean monuments!",
+    "url": "https://modrinth.com/project/3dT9sgt4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-strongholds.pw.toml": {
+    "name": "YUNG's Better Strongholds",
+    "description": "A complete redesign of Minecraft's strongholds!",
+    "url": "https://modrinth.com/project/kidLKymU",
+    "source": "Modrinth publisher description"
+  },
+  "mods/yungs-better-witch-huts.pw.toml": {
+    "name": "YUNG's Better Witch Huts",
+    "description": "Adds overhauled witch huts to swamps!",
+    "url": "https://modrinth.com/project/t5FRdP87",
+    "source": "Modrinth publisher description"
+  },
+  "mods/guideme.pw.toml": {
+    "name": "GuideME",
+    "description": "A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes!",
+    "url": "https://modrinth.com/project/Ck4E7v7R",
+    "source": "Modrinth publisher description"
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "name": "Attribute Icons (RPG Series)",
+    "description": "Icons embedded in attribute translations",
+    "url": "https://modrinth.com/project/73QpzsIN",
+    "source": "Modrinth publisher description"
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "name": "Motschen's Better Leaves",
+    "description": "Improves the appearance of leaves with high mod compatibility and performance!",
+    "url": "https://modrinth.com/project/uvpymuxq",
+    "source": "Modrinth publisher description"
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "name": "Mandala's GUI - Dark mode",
+    "description": "Mandala GUI is an elegant theme, in the style of Mandala Creations.\nIt is specifically made for people who like Dark mode.\nIt only changes the UI of Minecraft, without changing items or blocks.",
+    "url": "https://modrinth.com/project/h6zxsNVF",
+    "source": "Modrinth publisher description"
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "name": "Complementary Shaders - Reimagined",
+    "description": "Preserving the elements of Minecraft with exceptional quality, detail, and performance.",
+    "url": "https://modrinth.com/project/HVnmMxH1",
+    "source": "Modrinth publisher description"
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "name": "Complementary Shaders - Unbound",
+    "description": "Transforming the visuals of Minecraft with exceptional quality, detail, and performance.",
+    "url": "https://modrinth.com/project/R6NEzAwj",
+    "source": "Modrinth publisher description"
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "name": "Photon Shaders",
+    "description": "A gameplay-focused shader pack with a semi-realistic style",
+    "url": "https://modrinth.com/project/lLqFfGNs",
+    "source": "Modrinth publisher description"
+  }
+}

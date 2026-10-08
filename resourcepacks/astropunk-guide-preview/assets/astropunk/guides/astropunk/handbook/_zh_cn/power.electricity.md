@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "发电、配电与用电 (WIP)"
+  title: "发电、配电与用电"
   parent: category-automation.md
 ---
 
 # 发电、配电与用电
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Create: Electro Energetics
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-automation.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Create: Electro Energetics | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |

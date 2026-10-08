@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "Use jewelry, relics and accessory slots (WIP)"
+  title: "Jewelry, relics and accessory slots"
   parent: category-combat.md
 ---
 
-# Use jewelry, relics and accessory slots
+# Jewelry, relics and accessory slots
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Additional Jewelry (RPG Series Plus)
-- Curios API
-- Jewelry (RPG Series)
-- More Relics (RPG Series Plus)
-- Relics (RPG Series)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-combat.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Additional Jewelry (RPG Series Plus) | Jewelry Add-On for the More RPG Classes Mods. |
+| Curios API | A flexible and expandable accessory/equipment API for users and developers. |
+| Jewelry (RPG Series) | 💍 Find precious gems deep down, and craft them into powerful jewelry! |
+| More Relics (RPG Series Plus) | This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics! |
+| Relics (RPG Series) | 🎖 Unleash your true potential with powerful trinkets! 🔮 |

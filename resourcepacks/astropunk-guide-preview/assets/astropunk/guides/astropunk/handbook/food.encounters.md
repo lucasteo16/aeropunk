@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Cook encounter ingredients (WIP)"
+  title: "Cook encounter ingredients"
   parent: category-food.md
 ---
 
 # Cook encounter ingredients
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- L_Ender 's Cataclysm Delight
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-food.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| L_Ender 's Cataclysm Delight | Adds 50+ dishes, linking L_Ender's Cataclysm and Farmer's Delight in a Vanilla style. |

@@ -1,22 +1,18 @@
 ---
 navigation:
-  title: "整理、转移与丢弃物品 (WIP)"
+  title: "整理、转移与丢弃物品"
   parent: category-storage.md
 ---
 
 # 整理、转移与丢弃物品
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Interactic Renewed
-- Mouse Tweaks
-- Sophisticated Inventory Interactions
-- TrashSlot
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-storage.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Interactic Renewed | A maintained fork of the populair interactic mod. |
+| Mouse Tweaks | Enhances inventory management by adding various functions to the mouse buttons.  |
+| Sophisticated Inventory Interactions | Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting. |
+| TrashSlot | Adds a draggable trash slot to all inventory screens. Press T to toggle. |

@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Explore settlements and spell libraries (WIP)"
+  title: "Settlements and spell libraries"
   parent: category-exploration.md
 ---
 
-# Explore settlements and spell libraries
+# Settlements and spell libraries
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- ChoiceTheorem's Overhauled Village
-- Gazebos (RPG Series)
-- Village Taverns (RPG Series)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| ChoiceTheorem's Overhauled Village | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
+| Gazebos (RPG Series) | ⛲️ Village structures hosting small spell libraries |
+| Village Taverns (RPG Series) | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |

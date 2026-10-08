@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Read armor and status information (WIP)"
+  title: "Armor and status information"
   parent: category-combat.md
 ---
 
-# Read armor and status information
+# Armor and status information
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Detail Armor Bar Reconstructed
-- Status Effect Bars Reforged
-- Stylish Effects
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-combat.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Detail Armor Bar Reconstructed | More details about armor in the armor bar! |
+| Status Effect Bars Reforged | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
+| Stylish Effects | Status effect display overhaul: Display them in any menu! And way more compact. |

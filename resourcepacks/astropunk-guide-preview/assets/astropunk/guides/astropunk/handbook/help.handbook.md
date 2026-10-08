@@ -1,19 +1,17 @@
 ---
 navigation:
-  title: "Use the activity handbook (WIP)"
+  title: "Astropunk handbook"
   parent: category-technical.md
 ---
 
-# Use the activity handbook
+# Astropunk handbook
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Browse the area catalogs for installed mods and their features. Gameplay pages explain specific mechanics. Hover item slots for their names and tooltips.
 
-## Included content
+[Home](index.md) · [Controls](help.controls.md) · [Items and recipes](help.search.md)
 
-- GuideME
+## Related mods
 
-These names provide coverage, not completed instructions.
-
-[Back to category](category-technical.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| GuideME | A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes! |

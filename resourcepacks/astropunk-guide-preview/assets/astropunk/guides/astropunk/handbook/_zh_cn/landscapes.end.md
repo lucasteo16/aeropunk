@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "探索末地地形 (WIP)"
+  title: "探索末地地形"
   parent: category-exploration.md
 ---
 
 # 探索末地地形
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Nullscape
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-exploration.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Nullscape | Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. Topped with a couple of new biomes to add to the experience, whilst keeping the end desolate. |

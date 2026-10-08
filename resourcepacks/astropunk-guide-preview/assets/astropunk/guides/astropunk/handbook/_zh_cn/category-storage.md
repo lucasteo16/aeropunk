@@ -6,13 +6,26 @@ navigation:
 
 # 仓储与物流
 
-<ItemImage id="minecraft:chest" />
+## 主题目录
 
-先选择储存方式，再决定物品如何到达目的地。
+| 主题 | 状态 |
+| --- | --- |
+| [携带便携储存装备](storage.portable.md) | 参考 |
+| [储存工厂的大批原料](storage.bulk.md) | WIP |
+| [整理、转移与丢弃物品](storage.handling.md) | WIP |
+| [输送、筛选与分配物品](machines.logistics.md) | WIP |
 
-- [携带便携储存装备（草稿）](storage.portable.md)
-- [储存工厂的大批原料 (WIP)](storage.bulk.md)
-- [整理、转移与丢弃物品 (WIP)](storage.handling.md)
-- [输送、筛选与分配物品 (WIP)](machines.logistics.md)
+## 已安装模组与内容
 
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| [Backpacks!](storage.portable.md) | Dyeable and upgradeable vanilla-friendly backpacks! |
+| [Create: Additional Logistics](machines.logistics.md) | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |
+| [Create: Vibrant Vaults](storage.bulk.md) | A Create mod addon that adds more item vaults. |
+| [Easy Shulker Boxes](storage.portable.md) | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
+| [Interactic Renewed](storage.handling.md) | A maintained fork of the populair interactic mod. |
+| [Mouse Tweaks](storage.handling.md) | Enhances inventory management by adding various functions to the mouse buttons.  |
+| [Reinforced Shulker Boxes](storage.portable.md) | Adds reinforced shulker boxes. |
+| [Shulker Drops Two](storage.portable.md) | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
+| [Sophisticated Inventory Interactions](storage.handling.md) | Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting. |
+| [TrashSlot](storage.handling.md) | Adds a draggable trash slot to all inventory screens. Press T to toggle. |

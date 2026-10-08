@@ -1,27 +1,23 @@
 ---
 navigation:
-  title: "装饰工厂与车站 (WIP)"
+  title: "装饰工厂与车站"
   parent: category-building.md
 ---
 
 # 装饰工厂与车站
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Create: Bells & Whistles
-- Create: Bits 'n' Bobs
-- Create Deco
-- Create: Design n' Decor
-- Create Encased
-- Create: Framed
-- Create: More Girder
-- Create: Prismatic Shine
-- Create: Oxidized
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-building.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Create Deco | Industrial decoration themed around the aesthetics of the Create mod. |
+| Create Encased | Allow to use all casing on shafts/cogwheels/pipes |
+| Create: Bells & Whistles | Additions and adornments for the modern Create engineer. Available for both Fabric & Forge! |
+| Create: Bits 'n' Bobs | Decorative and mechanical additions to create! |
+| Create: Design n' Decor | a create addon that adds decor blocks to spice up your factory! |
+| Create: Framed | A Create mod addon that adds more Framed Glass variants. |
+| Create: More Girder | Adds  8 unique girder variants to complement the Create mod ecosystem. |
+| Create: Oxidized | QoL addon for Create, which adds oxidizing recipes to all copper blocks |
+| Create: Prismatic Shine | A remake version of Create: Crystal Clear, adds glass casings and illumination casings to create |

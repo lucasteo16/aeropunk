@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Inspect blocks and creatures (WIP)"
+  title: "Inspect blocks and creatures"
   parent: category-utilities.md
 ---
 
 # Inspect blocks and creatures
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Jade Addons (Neo/Forge)
-- Jade 🔍
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-utilities.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Jade Addons (Neo/Forge) | Jade 🔍's additional mod supports for Neo/Forge |
+| Jade 🔍 | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |

@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Share and inspect adventure loot (WIP)"
+  title: "Share and inspect adventure loot"
   parent: category-exploration.md
 ---
 
 # Share and inspect adventure loot
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- EMI Loot
-- Lootr
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| EMI Loot | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
+| Lootr | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |

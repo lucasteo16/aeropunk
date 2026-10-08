@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Handle weapons and dodge (WIP)"
+  title: "Handle weapons and dodge"
   parent: category-combat.md
 ---
 
 # Handle weapons and dodge
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Better Combat
-- Combat Roll
-- Critical Strike
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-combat.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Better Combat | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
+| Combat Roll | 🧶 Adds combat roll ability, with related attributes and enchantments. |
+| Critical Strike | 🍀 Chance based critical hits for melee and ranged attacks! |

@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "睡眠与时间安排 (WIP)"
+  title: "睡眠与时间安排"
   parent: category-utilities.md
 ---
 
 # 睡眠与时间安排
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Better Days
-- Comforts
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-utilities.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Better Days | Gives you control over the passage of time by allowing you to customize the length of the day-night cycle and alters the Minecraft sleep mechanic by accelerating the speed of time. |
+| Comforts | Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors! |

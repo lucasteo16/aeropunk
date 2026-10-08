@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Enchant, repair and inspect equipment (WIP)"
+  title: "Enchant, repair and inspect equipment"
   parent: category-automation.md
 ---
 
 # Enchant, repair and inspect equipment
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Enchantment Industry
-- Easy Anvils
-- EMI Enchanting
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Enchantment Industry | Automatic Enchanting, with Create |
+| Easy Anvils | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |
+| EMI Enchanting | EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc. |

@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "调整模型与动画 (WIP)"
+  title: "调整模型与动画"
   parent: category-visuals.md
 ---
 
 # 调整模型与动画
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Eating Animations（重型版可选内容，当前未安装）
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
-- Fancy World Animations [FWA]（重型版可选内容，当前未安装）
-- Not Enough Animations（重型版可选内容，当前未安装）
-- Spawn Animations（重型版可选内容，当前未安装）
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-visuals.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| [EMF] Entity Model Features | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
+| [ETF] Entity Texture Features | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
+| Eating Animations（重型版，当前未安装） | 当前未安装。 |
+| Fancy World Animations [FWA]（重型版，当前未安装） | 当前未安装。 |
+| Not Enough Animations（重型版，当前未安装） | 当前未安装。 |
+| Spawn Animations（重型版，当前未安装） | 当前未安装。 |

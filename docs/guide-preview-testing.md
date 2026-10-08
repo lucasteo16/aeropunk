@@ -1,27 +1,34 @@
-# Handbook draft testing
+# Handbook testing
 
-Version: `0.3.0-guide.light.1`. Based on light main at `34cb006`.
+Version: `0.3.0-guide.light.2`. Based on light main at `34cb006`, maintained on `test/guide`.
 
-This draft lives in the separate `test/guide` worktree. Stable main, the Chunky branch and existing launcher instances are unchanged.
+## Existing authoring instance
 
-## Open the draft
+The dedicated light guide instance already has the compiled access helper installed. Its handbook resource directory links to the authoritative worktree. Other instances and worlds are untouched.
 
-Import `dist/astropunk-0.3.0-guide.light.1-modrinth.mrpack` as a fresh instance and enter a disposable world. Lucas reported that `/guidemec astropunk:handbook open` opens the handbook in his installed preview. This order differs from the released documentation; his reported working command is retained here rather than silently dismissed.
+Restart this instance once to load the helper. Open the inventory and use Handbook, or press F9. Configure Open Astropunk Handbook in Options, Controls and Key Binds. The existing contextual GuideME binding remains separate.
 
-If the guide is absent, confirm that `astropunk-guide-preview` is enabled under Resource Packs.
+After that initial launch, native watched-source mode should refresh page changes automatically. Until then, F3 and T reloads linked resources without closing the game. Compiled helper changes still require a restart. Do not reimport the pack to review ordinary writing changes.
 
-## Review the writing
+## Fresh package
 
-The homepage links directly to eleven drafted articles: finding items, ore processing, cooking tools, hunger and food variety, portable storage, teleportation, copycat building shapes, Carry On, visual settings, character skills and finding biomes or structures.
+The native export is `dist/astropunk-0.3.0-guide.light.2-modrinth.mrpack`. Fresh imports receive the same helper and handbook pages, but automatic source watching is limited to symbolic authoring resources. Ordinary distributed directories do not enable authoring mode.
 
-Every category and planned article has an ordinary navigation link. Unwritten articles show WIP. Their content lists include the selected mods, resource packs and shader packs, but these lists do not imply completed instructions. Deferred additions are explicitly marked as not installed.
+The fallback command confirmed by Lucas is `/guidemec astropunk:handbook open`. If the handbook is missing, check that its resource pack is enabled.
 
-The guide points players toward items, recipes and existing help. It does not duplicate Ponder construction lessons. The earlier illustrative machine scene and processing-renderer probes were replaced by a discovery-focused ore article. Cooking tools includes one ordinary registered crafting recipe for the Cooking Pot.
+## Runtime checks
 
-Both English and Simplified Chinese versions are included. Review page titles, paragraphs, item icons, links and the cooking-pot recipe in both languages.
+- Open from survival and creative inventory. Confirm the button does not overlap other controls or the recipe browser.
+- Open with F9 in the world and inventory. Rebind it and confirm the replacement works. Confirm text-entry screens remain unaffected.
+- Return from the handbook and check the preceding interface remains usable.
+- Change a page while reading it after the initial restart. Confirm the native watcher refreshes its content.
+- Check the Astropunk catalog, mod tables, item tooltips, controls labels and recipes in English and Simplified Chinese.
+- Check ore-processing icons and outputs against the actual item browser. The Millstone crafting recipe uses the native renderer; milling, crushing and washing comparisons use verified recipe data because this release has no Create processing renderer.
 
-## Scope
+## Verified and remaining
 
-No custom item-browser actions, direct Ponder buttons, spatial homepage or new integration code are included. A dedicated live-development instance has not been configured or modified by this content update.
+The helper rebuilt from retained source with nine passing tests. Artifact inspection confirmed client distribution, exact released public opening methods, the F9 default, both locales and absence of a bundled engine or competing guide registration. The installed helper matches the built and packaged bytes.
 
-Package integrity, locale parity, link targets, full inventory coverage and unchanged baseline mod definitions are automated checks. This new draft has not been rendered in Minecraft by the agent.
+The released Markdown parser accepted all 198 handbook pages and rejected its malformed-tag negative control. Source checks cover locale parity, links, complete installed-content coverage, unchanged baseline mod metadata and player-facing wording. Native archive checks compare resource bytes and the bundled helper.
+
+No game was launched or closed for these checks. Rendered button placement, shortcut behavior, multiplayer and native live refreshing remain runtime-untested. Chinese navigation and authored articles are translated; exhaustive publisher-description tables still contain English source summaries.

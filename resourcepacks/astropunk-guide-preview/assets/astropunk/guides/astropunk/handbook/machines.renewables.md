@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Produce renewable workshop resources (WIP)"
+  title: "Produce renewable workshop resources"
   parent: category-automation.md
 ---
 
 # Produce renewable workshop resources
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Molten Vents
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Molten Vents | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |

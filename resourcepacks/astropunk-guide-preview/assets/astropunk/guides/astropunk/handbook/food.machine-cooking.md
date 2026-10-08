@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Prepare meals with machines (WIP)"
+  title: "Prepare meals with machines"
   parent: category-automation.md
 ---
 
 # Prepare meals with machines
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Central Kitchen
-- Create Slice & Dice
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create Slice & Dice | Making automation for Farmers Delight more sensible |
+| Create: Central Kitchen | Offering more tools and methods to automate food processing of other mod in Create. |

@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Explore the selected Nether terrain (WIP)"
+  title: "The selected Nether terrain"
   parent: category-exploration.md
 ---
 
-# Explore the selected Nether terrain
+# The selected Nether terrain
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Incendium Biomes Only
-- Incendium Legacy
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Incendium Biomes Only | Removes structures, items, mobs and bosses from Incendium, leaving only the biomes and terrain. |
+| Incendium Legacy | A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat. |

@@ -1,36 +1,32 @@
 ---
 navigation:
-  title: "Find items, recipes and uses"
+  title: "Items and recipes"
   parent: category-utilities.md
 ---
 
-# Find items, recipes and uses
+# Items and recipes
 
-Draft for review. Direct item-browser and Ponder buttons are not implemented.
+## Recipes and uses
 
-Start with what you want to make or use. The item browser shows both recipes that produce an item and recipes that consume it.
+| Goal | Action |
+| --- | --- |
+| Obtain an item | Hover it in your inventory and press R |
+| Find what an ingredient makes | Hover it and press U |
+| Browse one mod | Type @create or @farmersdelight in the item search |
 
-## Find a smaller set of items
+Recipe and use keys belong to the item browser, not this handbook. Change them in its settings.
 
-Search `@create` for Create or `@farmersdelight` for Farmer's Delight. These mod queries are useful when a broad word produces too many results. Names can change with the game language, so do not assume an English item name will always work in Chinese.
+## Existing help
 
-## Recipes and uses answer different questions
+Create machines show a Ponder prompt in their tooltips. Hold the displayed key for the demonstration. [Controls](help.controls.md) explains how to change bindings.
 
-Recipes help when you want to obtain an item. Uses help when you already have an ingredient and want to know what it can become. Follow the browser's displayed controls; your bindings may differ from someone else's.
+Polymorph lets you choose between conflicting crafting results.
 
-If a craft has several valid outputs, Polymorph provides a way to choose the intended result. Check the output before taking it.
+## Related mods
 
-## Existing demonstrations
-
-For a Create machine, inspect its tooltip for the Ponder prompt. Use that demonstration for assembly and operation. This handbook tells you which machine to investigate, rather than repeating the demonstration.
-
-## Included content
-
-- EMI
-- Polymorph
-- Reliable EMI (REMI)
-- ToolTipFix
-
-[Back to category](category-utilities.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| EMI | A featureful and accessible item and recipe viewer |
+| Polymorph | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
+| Reliable EMI (REMI) | A mod adding many configurable features to EMI! |
+| ToolTipFix | Fixes Tooltips from runnning off the screen. |

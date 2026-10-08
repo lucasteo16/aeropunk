@@ -1,7 +1,8 @@
 ---
-{}
+navigation:
+  title: "Ore processing"
 ---
 
-# Process ores
+# Ore processing
 
-[Open the ore-processing draft](machines.ore-processing.md)
+[Ore processing](machines.ore-processing.md)

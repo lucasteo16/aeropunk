@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Explore End landscapes (WIP)"
+  title: "End landscapes"
   parent: category-exploration.md
 ---
 
-# Explore End landscapes
+# End landscapes
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Nullscape
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Nullscape | Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. Topped with a couple of new biomes to add to the experience, whilst keeping the end desolate. |

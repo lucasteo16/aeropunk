@@ -1,22 +1,18 @@
 ---
 navigation:
-  title: "选择装饰材料 (WIP)"
+  title: "选择装饰材料"
   parent: category-building.md
 ---
 
 # 选择装饰材料
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Chipped Express
-- Chipped
-- Every Compat (Wood Good)
-- Every Compat (Stone Zone)
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-building.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Chipped | Every block deserves a friend. |
+| Chipped Express | Mod addon for Chipped to allow to craft ANY recipe with stonecutter |
+| Every Compat (Stone Zone) | Universal Stone Compat: Create, Twigs, Stoneworks, and more... |
+| Every Compat (Wood Good) | Universal Wood Compat: Quark, Twilight Forest, Twigs, Another Furniture, Farmers Delight, Macaw's,  Valhelsia, Architects Palette, Deco Blocks, Crayfish FM |

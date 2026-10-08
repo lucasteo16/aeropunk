@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Compare industrial materials and fuel systems (WIP)"
+  title: "Compare industrial materials and fuel systems"
   parent: category-automation.md
 ---
 
 # Compare industrial materials and fuel systems
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: TFMG Community Edition
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: TFMG Community Edition | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |

@@ -6,31 +6,27 @@ navigation:
 
 # 查找物品、配方与用途
 
-草稿，可供评阅。物品浏览器和思索的直接按钮尚未实现。
+## 配方与用途
 
-先从你想制作或使用的物品开始。物品浏览器既能查看产出这个物品的配方，也能查看消耗它的配方。
+| 目标 | 操作 |
+| --- | --- |
+| 获取物品 | 在物品栏中指向物品，按 R |
+| 查看材料用途 | 在物品栏中指向物品，按 U |
+| 按模组筛选 | 在物品搜索栏输入 @create 或 @farmersdelight |
 
-## 缩小搜索范围
+配方与用途按键属于物品浏览器，不是本手册。在浏览器设置中修改。
 
-搜索 `@create` 查看机械动力，搜索 `@farmersdelight` 查看农夫乐事。当一个词返回太多结果时，模组查询很有用。物品名称会随游戏语言改变，因此不要假定英文名称在中文界面中一定能搜到。
+## 已有帮助
 
-## 配方和用途回答不同的问题
+机械动力机器的提示中有思索入口。按住提示中的按键观看演示。[操作与按键](help.controls.md)介绍如何修改按键。
 
-想获得某个物品时查看配方。已经有一种材料，想知道能做什么时查看用途。按照浏览器显示的操作提示使用，你的按键可能与别人不同。
+Polymorph 用于选择存在冲突的合成结果。
 
-当一次合成存在多个有效产物时，Polymorph 可以帮助选择目标产物。取出物品之前先确认结果。
+## 相关模组
 
-## 已有演示
-
-查看机械动力机器的提示，寻找思索提示。组装和操作请使用已有演示。本指南帮助你决定该找哪台机器，不重复演示内容。
-
-## 涉及的内容
-
-- EMI
-- Polymorph
-- Reliable EMI (REMI)
-- ToolTipFix
-
-[返回分类](category-utilities.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| EMI | A featureful and accessible item and recipe viewer |
+| Polymorph | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
+| Reliable EMI (REMI) | A mod adding many configurable features to EMI! |
+| ToolTipFix | Fixes Tooltips from runnning off the screen. |

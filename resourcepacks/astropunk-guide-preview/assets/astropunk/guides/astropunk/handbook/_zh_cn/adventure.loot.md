@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "分享与查看探险战利品 (WIP)"
+  title: "分享与查看探险战利品"
   parent: category-exploration.md
 ---
 
 # 分享与查看探险战利品
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- EMI Loot
-- Lootr
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-exploration.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| EMI Loot | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
+| Lootr | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |

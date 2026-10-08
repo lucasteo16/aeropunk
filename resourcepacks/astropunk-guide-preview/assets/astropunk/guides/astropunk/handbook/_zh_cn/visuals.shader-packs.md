@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "比较光影风格 (WIP)"
+  title: "比较光影风格"
   parent: category-visuals.md
 ---
 
 # 比较光影风格
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Complementary Shaders - Reimagined
-- Complementary Shaders - Unbound
-- Photon Shaders
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-visuals.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Complementary Shaders - Reimagined | Preserving the elements of Minecraft with exceptional quality, detail, and performance. |
+| Complementary Shaders - Unbound | Transforming the visuals of Minecraft with exceptional quality, detail, and performance. |
+| Photon Shaders | A gameplay-focused shader pack with a semi-realistic style |

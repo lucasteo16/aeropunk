@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Reach a destination aboard a moving build (WIP)"
+  title: "Reach a destination aboard a moving build"
   parent: category-travel.md
 ---
 
 # Reach a destination aboard a moving build
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Waystones: Sable (Create Aeronautics Addon)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Waystones: Sable (Create Aeronautics Addon) | A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels. |

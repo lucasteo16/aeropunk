@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Travel as a train passenger (WIP)"
+  title: "Travel as a train passenger"
   parent: category-travel.md
 ---
 
 # Travel as a train passenger
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create Railways Navigator
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create Railways Navigator | A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more. |

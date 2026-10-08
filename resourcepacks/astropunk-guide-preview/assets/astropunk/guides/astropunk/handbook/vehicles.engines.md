@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Choose engines and propulsion (WIP)"
+  title: "Engines and propulsion"
   parent: category-travel.md
 ---
 
-# Choose engines and propulsion
+# Engines and propulsion
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- AeroEngine
-- Create Propulsion: Simulated
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| AeroEngine | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
+| Create Propulsion: Simulated | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |

@@ -1,27 +1,23 @@
 ---
 navigation:
-  title: "调整天气、粒子与过渡效果 (WIP)"
+  title: "调整天气、粒子与过渡效果"
   parent: category-visuals.md
 ---
 
 # 调整天气、粒子与过渡效果
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Better Biome Reblend
-- Continuity
-- Explosive Enhancement: Reforged（重型版可选内容，当前未安装）
-- GrandTeleport NeoForge
-- Particle Effects（重型版可选内容，当前未安装）
-- Particular ✨ Reforged（重型版可选内容，当前未安装）
-- Polytone
-- Ripple（重型版可选内容，当前未安装）
-- Traveler's Titles
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-visuals.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Better Biome Reblend | Updated version of Better Biome Blend, a mod that improves Biome Blending |
+| Continuity | A Minecraft mod that allows for efficient connected textures |
+| Explosive Enhancement: Reforged（重型版，当前未安装） | 当前未安装。 |
+| GrandTeleport NeoForge | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
+| Particle Effects（重型版，当前未安装） | 当前未安装。 |
+| Particular ✨ Reforged（重型版，当前未安装） | 当前未安装。 |
+| Polytone | Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs |
+| Ripple（重型版，当前未安装） | 当前未安装。 |
+| Traveler's Titles | Epic, RPG-like titles when entering biomes & dimensions! |

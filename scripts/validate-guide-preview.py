@@ -1,5 +1,11 @@
 """Validate guide source and native Modrinth export, without launching Minecraft."""
+import argparse
+import sys
 from pathlib import Path
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--source-only', action='store_true')
+args = parser.parse_args()
 import hashlib
 import json
 import re
@@ -37,6 +43,11 @@ for p in pages.rglob("*.md"):
     for parent in re.findall(r'^  parent: (.+)$', text, re.MULTILINE):
         assert (p.parent / parent).is_file(), (p, parent)
     assert "\u2014" not in text and "\u2013" not in text, p
+    assert 'minecraft:bed' not in text, p
+    assert '<ItemImage' not in text, p
+    for phrase in ('Draft for review', 'Drafts to review', 'first preview', 'This draft', 'Back to activities', '草稿，可供评阅'):
+        assert phrase not in text, (p, phrase)
+    assert '`@' not in text, p
     for target in re.findall(r"\]\(([^)]+\.md)\)", text):
         assert (p.parent / target).is_file(), (p, target)
         links += 1
@@ -54,9 +65,16 @@ for language in ('', '_zh_cn'):
     assert {f'category-{c}.md' for c in ('automation', 'storage', 'food', 'building', 'travel', 'combat', 'exploration', 'utilities', 'visuals', 'technical')} <= visited
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options
+if args.source_only:
+    assert '# Astropunk\n' in (pages / 'index.md').read_text()
+    assert 'item_ids:' in (pages / 'machines.ore-processing.md').read_text()
+    print(json.dumps({'mode': 'source-only', 'pages': len(list(pages.rglob('*.md'))), 'article_count': handbook['article_count'], 'written_articles': handbook['draft_articles'], 'installed_content_count': handbook['installed_content_count'], 'links': links, 'client_runtime_tested': False}, indent=2))
+    sys.exit(0)
 export = root / "dist" / f"astropunk-{pack['version']}-modrinth.mrpack"
 with zipfile.ZipFile(export) as archive:
     assert archive.testzip() is None
+    helper = root / "mods/astropunk-handbook-access-1.0.0.jar"
+    assert archive.read("overrides/mods/" + helper.name) == helper.read_bytes()
     names = set(archive.namelist())
     manifest = json.loads(archive.read("modrinth.index.json"))
     assert manifest["versionId"] == pack["version"]

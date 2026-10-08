@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "Adjust models and animations (WIP)"
+  title: "Adjust models and animations"
   parent: category-visuals.md
 ---
 
 # Adjust models and animations
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Eating Animations (optional heavy edition, not installed here)
-- [EMF] Entity Model Features
-- [ETF] Entity Texture Features
-- Fancy World Animations [FWA] (optional heavy edition, not installed here)
-- Not Enough Animations (optional heavy edition, not installed here)
-- Spawn Animations (optional heavy edition, not installed here)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-visuals.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| [EMF] Entity Model Features | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
+| [ETF] Entity Texture Features | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
+| Eating Animations (heavy edition, not installed here) | Not installed here. |
+| Fancy World Animations [FWA] (heavy edition, not installed here) | Not installed here. |
+| Not Enough Animations (heavy edition, not installed here) | Not installed here. |
+| Spawn Animations (heavy edition, not installed here) | Not installed here. |

@@ -1,40 +1,36 @@
 ---
 navigation:
-  title: "了解当前性能优化系统 (WIP)"
+  title: "了解当前性能优化系统"
   parent: category-technical.md
 ---
 
 # 了解当前性能优化系统
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- AI Improvements: Performance Tuning
-- AsyncParticles
-- BadOptimizations
-- Concurrent Chunk Management Engine (NeoForge)
-- Clumps
-- CreateBetterFps
-- Create: LazyTick
-- Cull Leaves
-- Dynamic FPS
-- Entity Culling
-- FerriteCore
-- Flerovium
-- ImmediatelyFast
-- Ixeris
-- Kerria
-- Lithium
-- Let Me Despawn
-- ModernFix
-- More Culling
-- quick pack
-- Sodium
-- Structure Layout Optimizer
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-technical.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| AI Improvements: Performance Tuning | Performance improvements for vanilla AI, with  the ability to turn off certain AI behaviors |
+| AsyncParticles | Async particle tick, GPU accelerated particle rendering. |
+| BadOptimizations | Optimization mod that focuses on things other than rendering |
+| Clumps | Clumps XP orbs together to reduce lag |
+| Concurrent Chunk Management Engine (NeoForge) | A mod designed to improve the chunk performance of Minecraft. |
+| Create: LazyTick | A commitment to optimizing Create lag in large quantities! |
+| CreateBetterFps | Improve your Create FPS when shaderpack is on, up to 50% |
+| Cull Leaves | Adds culling to leaf blocks, providing a huge performance boost over vanilla. |
+| Dynamic FPS | Reduce resource usage while Minecraft is in the background, idle, or on battery. |
+| Entity Culling | Using async path-tracing to hide Block-/Entities that are not visible |
+| FerriteCore | Memory usage optimizations |
+| Flerovium | Greatly improve your fps with virtually no side-effects on graphics quality |
+| ImmediatelyFast | Speed up immediate mode rendering in Minecraft |
+| Ixeris | Buffered raw input and threaded event polling |
+| Kerria | Faster texture animation |
+| Let Me Despawn | Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs. |
+| Lithium | No-compromises game logic optimization mod, useful for both single-player games and multi-player servers. |
+| ModernFix | All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods! |
+| More Culling | A mod that changes how multiple types of culling are handled in order to improve performance |
+| quick pack | Optimize datapack / resourcepack zip file loading times |
+| Sodium | A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter. |
+| Structure Layout Optimizer | Attempts to optimize the generation of Jigsaw Structures and NBT pieces |

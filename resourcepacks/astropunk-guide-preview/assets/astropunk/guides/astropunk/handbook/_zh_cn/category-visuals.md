@@ -6,17 +6,73 @@ navigation:
 
 # 视觉与音效
 
-<ItemImage id="minecraft:painting" />
+## 主题目录
 
-根据你的电脑和喜好选择画面与声音效果。
+| 主题 | 状态 |
+| --- | --- |
+| [调整视角与窗口](visuals.camera.md) | WIP |
+| [调整模型与动画](visuals.models.md) | WIP |
+| [调整天气、粒子与过渡效果](visuals.weather.md) | WIP |
+| [选择光影、动态光源与远景](visuals.lighting.md) | 参考 |
+| [选择资源包外观](visuals.resource-packs.md) | WIP |
+| [比较光影风格](visuals.shader-packs.md) | WIP |
+| [调整声音与环境声学](sounds.ambience.md) | WIP |
+| [调整通知与信息界面](visuals.interface.md) | WIP |
 
-- [调整视角与窗口 (WIP)](visuals.camera.md)
-- [调整模型与动画 (WIP)](visuals.models.md)
-- [调整天气、粒子与过渡效果 (WIP)](visuals.weather.md)
-- [选择光影、动态光源与远景（草稿）](visuals.lighting.md)
-- [选择资源包外观 (WIP)](visuals.resource-packs.md)
-- [比较光影风格 (WIP)](visuals.shader-packs.md)
-- [调整声音与环境声学 (WIP)](sounds.ambience.md)
-- [调整通知与信息界面 (WIP)](visuals.interface.md)
+## 已安装模组与内容
 
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| [[EMF] Entity Model Features](visuals.models.md) | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
+| [[ETF] Entity Texture Features](visuals.models.md) | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
+| [Advancement Plaques](visuals.interface.md) | Replace those boring advancement popups with something flashier. |
+| [Attribute Icons (RPG Series)](visuals.resource-packs.md) | Icons embedded in attribute translations |
+| [Better Biome Reblend](visuals.weather.md) | Updated version of Better Biome Blend, a mod that improves Biome Blending |
+| [Better ModList](visuals.interface.md) | enhances neoforge modlist by adding options to hide mods, libraries, adding badges to mods to define what it does and more. as well as making it look better. |
+| [BetterF3](visuals.interface.md) | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. |
+| [Complementary Shaders - Reimagined](visuals.shader-packs.md) | Preserving the elements of Minecraft with exceptional quality, detail, and performance. |
+| [Complementary Shaders - Unbound](visuals.shader-packs.md) | Transforming the visuals of Minecraft with exceptional quality, detail, and performance. |
+| [Continuity](visuals.weather.md) | A Minecraft mod that allows for efficient connected textures |
+| [Cool Rain Reforged](sounds.ambience.md) | Creates ambient sounds for certain blocks during rain |
+| [Cubes Without Borders](visuals.camera.md) | Allows you to play Minecraft in a borderless fullscreen window. |
+| [Distant Horizons](visuals.lighting.md) | Massively increase render distance without harming performance. |
+| [Extreme sound muffler](sounds.ambience.md) | Extreme sound muffler is a client side mod that allows you to muffle sounds selectively. |
+| [Freecam](visuals.camera.md) | A highly customizable freecam mod. |
+| [GrandTeleport NeoForge](visuals.weather.md) | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
+| [Hide Experimental Warning](visuals.interface.md) | ❌ Hides the Experimental Settings Warning when trying to create or load a modded world. |
+| [Iris Shaders](visuals.lighting.md) | A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs |
+| [Mandala's GUI - Dark mode](visuals.resource-packs.md) | Mandala GUI is an elegant theme, in the style of Mandala Creations. It is specifically made for people who like Dark mode. It only changes the UI of Minecraft, without changing items or blocks. |
+| [More Sounds](sounds.ambience.md) | A Sounds mod addon that adds custom sounds and modded compatibility |
+| [Motschen's Better Leaves](visuals.resource-packs.md) | Improves the appearance of leaves with high mod compatibility and performance! |
+| [Ok Zoomer - It's Zoom!](visuals.camera.md) | Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours! |
+| [Photon Shaders](visuals.shader-packs.md) | A gameplay-focused shader pack with a semi-realistic style |
+| [Polytone](visuals.weather.md) | Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs |
+| [Presence Footsteps (NeoForge)](sounds.ambience.md) | An Overly complicated Sound Mod,and unofficial port of Presence Footsteps (Forge) from Forge to NeoForge |
+| [Progress Peek](visuals.interface.md) | Display game loading progress on the taskbar |
+| [Reese's Sodium Options](visuals.lighting.md) | Alternative Options Menu for Sodium |
+| [Sodium Extra](visuals.lighting.md) | A Sodium addon that adds features that shouldn't be in Sodium. |
+| [Sound Physics Remastered](sounds.ambience.md) | A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks. |
+| [Sounds](sounds.ambience.md) | It's what it says on the tin. A complete upgrade to Minecraft's SFX with over 170 new sound effects for UIs, items, blocks and more. |
+| [Toast Control](visuals.interface.md) | Manage (or remove) those pesky toast notifications |
+| [Traveler's Titles](visuals.weather.md) | Epic, RPG-like titles when entering biomes & dimensions! |
+
+## 其他版本与未安装内容
+
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| [(Bee's) Fancy Crops](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+| [Eating Animations](visuals.models.md)（重型版，当前未安装） | 当前未安装。 |
+| [Explosive Enhancement: Reforged](visuals.weather.md)（重型版，当前未安装） | 当前未安装。 |
+| [Fancy World Animations [FWA]](visuals.models.md)（重型版，当前未安装） | 当前未安装。 |
+| [Fresh Animations](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+| [Fresh Animations: Objects](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+| [Fresh Animations: Player Extension](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+| [Fresh Animations: Quivers](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+| [Not Enough Animations](visuals.models.md)（重型版，当前未安装） | 当前未安装。 |
+| [Particle Effects](visuals.weather.md)（重型版，当前未安装） | 当前未安装。 |
+| [Particular ✨ Reforged](visuals.weather.md)（重型版，当前未安装） | 当前未安装。 |
+| [Ripple](visuals.weather.md)（重型版，当前未安装） | 当前未安装。 |
+| [Simple Grass Flowers](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+| [Sodium Dynamic Lights](visuals.lighting.md)（重型版，当前未安装） | 当前未安装。 |
+| [Spawn Animations](visuals.models.md)（重型版，当前未安装） | 当前未安装。 |
+| [Visual Effects+](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |

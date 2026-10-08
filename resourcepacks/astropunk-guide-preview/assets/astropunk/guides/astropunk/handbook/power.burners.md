@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Supply liquid burner fuel (WIP)"
+  title: "Supply liquid burner fuel"
   parent: category-automation.md
 ---
 
 # Supply liquid burner fuel
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Liquid Fuel
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Liquid Fuel | Pump in liquid fuel to blaze burners |

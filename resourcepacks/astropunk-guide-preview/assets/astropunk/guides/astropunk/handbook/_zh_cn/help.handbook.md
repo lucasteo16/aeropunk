@@ -1,19 +1,17 @@
 ---
 navigation:
-  title: "使用活动指南 (WIP)"
+  title: "Astropunk 手册"
   parent: category-technical.md
 ---
 
-# 使用活动指南
+# Astropunk 手册
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+按领域目录查看已安装模组与功能。玩法页面解释具体机制。指向物品格可以查看名称和提示。
 
-## 涉及的内容
+[首页](index.md) · [操作与按键](help.controls.md) · [物品与配方](help.search.md)
 
-- GuideME
+## 相关模组
 
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-technical.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| GuideME | A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes! |

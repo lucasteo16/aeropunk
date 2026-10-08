@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "Understand administrator and diagnostic tools (WIP)"
+  title: "Administrator and diagnostic tools"
   parent: category-technical.md
 ---
 
-# Understand administrator and diagnostic tools
+# Administrator and diagnostic tools
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Chunky
-- Configured Defaults
-- Neo Bee Fix
-- Observable
-- spark
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-technical.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Chunky | Pre-generates chunks, quickly and efficiently |
+| Configured Defaults | Allows for providing defaults for files absent in .minecraft like configs. A quintessential modpack utility. |
+| Neo Bee Fix | Fix the Bees! |
+| Observable | See what's lagging your server. |
+| spark | spark is a performance profiler for Minecraft clients, servers and proxies. |

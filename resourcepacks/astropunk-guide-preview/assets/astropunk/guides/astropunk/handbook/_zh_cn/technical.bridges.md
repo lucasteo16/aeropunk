@@ -1,27 +1,23 @@
 ---
 navigation:
-  title: "查询移动建筑与视觉兼容组件 (WIP)"
+  title: "查询移动建筑与视觉兼容组件"
   parent: category-technical.md
 ---
 
 # 查询移动建筑与视觉兼容组件
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- EMF Compat: Create
-- Create Sable Dynamic Lights（重型版可选内容，当前未安装）
-- EMF Compat: Core
-- EMF Compat: Not Enough Animations（重型版可选内容，当前未安装）
-- Presence Footsteps x Sable (Aeronautics Compat)
-- Sable: Cool Rain
-- Sable Beyond
-- Sable: Physics Compat
-- Spawn Animations Compats（重型版可选内容，当前未安装）
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-technical.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Create Sable Dynamic Lights（重型版，当前未安装） | 当前未安装。 |
+| EMF Compat: Core | Shared framework for the EMF Compat family. |
+| EMF Compat: Create | Makes Create animations work correctly with animated EMF player models. |
+| EMF Compat: Not Enough Animations（重型版，当前未安装） | 当前未安装。 |
+| Presence Footsteps x Sable (Aeronautics Compat) | Presence Footsteps compatability for Sable / Create Aeronautics |
+| Sable Beyond | Sable Beyond expands the Sable mod with additional features, quality-of-life improvements, and compatibility support. It is designed to add ideas that are not part of the main mod while keeping the gameplay experience consistent with Sable. |
+| Sable: Cool Rain | Compatibility addon that makes Cool Rain Reforged rain sounds work with Sable structures, Create copycats and other modded blocks. |
+| Sable: Physics Compat | A Compat mod for Sable/Aeronautics providing tags for several modded blocks. |
+| Spawn Animations Compats（重型版，当前未安装） | 当前未安装。 |

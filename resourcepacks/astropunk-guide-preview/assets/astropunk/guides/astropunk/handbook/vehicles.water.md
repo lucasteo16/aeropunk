@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Operate boats and submarines (WIP)"
+  title: "Operate boats and submarines"
   parent: category-travel.md
 ---
 
 # Operate boats and submarines
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create Deep Seas
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create Deep Seas | Submarine and boat in Create Aeronautics! |

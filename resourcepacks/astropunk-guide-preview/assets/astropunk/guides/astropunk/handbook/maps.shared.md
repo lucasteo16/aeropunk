@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Share map information (WIP)"
+  title: "Share map information"
   parent: category-exploration.md
 ---
 
 # Share map information
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Team Capes (optional heavy edition, not installed here)
-- Xaero's Maps: Multiplayer+
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Team Capes (heavy edition, not installed here) | Not installed here. |
+| Xaero's Maps: Multiplayer+ | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |

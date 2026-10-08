@@ -6,26 +6,23 @@ navigation:
 
 # 使用模仿材料的建筑形状
 
-草稿，可供评阅。物品浏览器和思索的直接按钮尚未实现。
+<ItemGrid>
+  <ItemIcon id="minecraft:bricks" />
+  <ItemIcon id="minecraft:oak_planks" />
+</ItemGrid>
 
-Create: Copycats+ 增加可以采用其他材料外观的建筑形状。当完整方块太厚、无法表现想要的细节时，可以从这里寻找合适的形状。
+Copycats+ 的形状可以采用其他材料的外观。
 
-## 先选形状
+| 查看内容 | 位置 |
+| --- | --- |
+| 可用形状 | 在物品浏览器中搜索 Copycats+ |
+| 原料 | 所选形状的配方 |
+| 材料交互 | 物品提示与已有思索演示 |
 
-在物品浏览器中查找 Copycats+，比较可用形状。查看配方和提示，了解该方块如何接受材料。支持的形状与交互取决于具体方块，不要假定所有材料与操作都相同。
+复制纹理不代表气密性或移动载具兼容性。相关内容见[水下载具](vehicles.water.md)和[建筑材料](building.palette.md)。
 
-已有的思索演示可以解释受支持的方块。没有演示时，先查看物品提示与配方。
+## 相关模组
 
-## 外观不代表兼容性
-
-复制了纹理，不代表具备相同的气密性、碰撞行为或移动载具兼容性。尤其建造潜艇时，需要检查实际方块。这些检查会写入[水上与水下载具](vehicles.water.md)页面。
-
-其他材料与家具见[建筑与装饰](category-building.md)。
-
-## 涉及的内容
-
-- Create: Copycats+
-
-[返回分类](category-building.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Create: Copycats+ | All the copycats you've ever wanted, combined into a single mod! |

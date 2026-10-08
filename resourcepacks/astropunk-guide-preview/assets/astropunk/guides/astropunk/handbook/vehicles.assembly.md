@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Assemble and operate moving vehicles (WIP)"
+  title: "Assemble and operate moving vehicles"
   parent: category-travel.md
 ---
 
 # Assemble and operate moving vehicles
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create Aeronautics
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create Aeronautics | Build anything from airships to planes and cars! |

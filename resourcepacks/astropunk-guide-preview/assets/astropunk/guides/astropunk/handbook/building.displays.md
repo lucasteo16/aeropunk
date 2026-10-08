@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "Make displays, paintings, signs and statues (WIP)"
+  title: "Make displays, paintings, signs and statues"
   parent: category-building.md
 ---
 
 # Make displays, paintings, signs and statues
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Armor Poser
-- Big Sign Writer
-- Immersive Paintings
-- Items Displayed [NeoForge]
-- Straw Statues
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-building.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Armor Poser | Adds a GUI for armor stands in which you can configure it's pose and other properties |
+| Big Sign Writer | Easily write large, multi-line characters and symbols on signs! |
+| Immersive Paintings | Drag and drop, pixelate and hang up beautiful art. On servers too. |
+| Items Displayed [NeoForge] | A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests! |
+| Straw Statues | Bring some life to your builds with player statues of your favorite Minecrafters! |

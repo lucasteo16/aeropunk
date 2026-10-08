@@ -6,26 +6,25 @@ navigation:
 
 # 通过技能培养角色
 
-草稿，可供评阅。物品浏览器和思索的直接按钮尚未实现。
+<ItemGrid>
+  <ItemIcon id="minecraft:iron_sword" />
+  <ItemIcon id="minecraft:bow" />
+  <ItemIcon id="minecraft:enchanted_book" />
+</ItemGrid>
 
-技能选择可以帮助形成角色风格。本整合包包含几个相关技能系统，不要假定它们共用技能点，或使用相同的解锁规则。
+| 系统 | 查看内容 |
+| --- | --- |
+| Skill Tree 与职业扩展 | 节点、装备风格和技能点消耗 |
+| Pufferfish's Skills | 独立技能界面 |
 
-## 找到技能界面
+当前 Pufferfish's Skills 按键：<KeyBind id="key.puffish_skills.open" />。
 
-打开按键设置，搜索技能相关操作。花费技能点之前，先查看打开的界面、节点说明和显示的要求。本草稿不指定配点，也不保证所有选择都能退款。
+花费技能点前查看节点要求。这些系统不一定共用点数或退款规则。另见[战斗风格](combat.martial.md)、[法术风格](combat.magic.md)和[操作与按键](help.controls.md)。
 
-Skill Tree 与所选角色扩展关联的职业和装备选择见[战斗风格](combat.martial.md)和[法术风格](combat.magic.md)。本整合包也选择了 Pufferfish's Skills。具体配置的技能树及重叠仍需要单独检查。
+## 相关模组
 
-## 根据你想玩的内容选择
-
-先决定喜欢的活动或武器风格，再寻找对应装备和技能。无论角色等级如何，所有指南页面都能阅读；实际玩法要求仍由游戏决定。
-
-## 涉及的内容
-
-- More RPG Classes - Skill Tree (RPG Series Plus)
-- Skill Tree (RPG Series)
-- Pufferfish's Skills
-
-[返回分类](category-combat.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| More RPG Classes - Skill Tree (RPG Series Plus) | RPG Series Skill Tree Add-On for the More RPG Classes! |
+| Pufferfish's Skills | Adds a fully configurable skill system to the game. |
+| Skill Tree (RPG Series) | ⭐️ Choose your path - Skills that shape your class |

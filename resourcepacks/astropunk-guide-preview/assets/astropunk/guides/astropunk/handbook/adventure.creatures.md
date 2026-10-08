@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "Recognize wilderness creatures (WIP)"
+  title: "Recognize wilderness creatures"
   parent: category-exploration.md
 ---
 
 # Recognize wilderness creatures
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Creeper Overhaul
-- Enderman Overhaul
-- Friends&Foes (Forge/NeoForge)
-- Spawn
-- Variants&Ventures
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Creeper Overhaul | A mod which overhauls the vanilla creepers! |
+| Enderman Overhaul | Enderman Overhaul adds over 20 new enderman variants, each with their own sounds, models, and animations! |
+| Friends&Foes (Forge/NeoForge) | Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse |
+| Spawn | An overworld wilderness overhaul that adds tons of animals, biomes, ambience and functionality |
+| Variants&Ventures | Adds multiple new mob variants seamlessly integrated into your Minecraft world. |

@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "选择法术与支援风格 (WIP)"
+  title: "选择法术与支援风格"
   parent: category-combat.md
 ---
 
 # 选择法术与支援风格
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Bard (RPG Series Plus)
-- Elemental Wizards (RPG Series Plus)
-- Paladins & Priests (RPG Series)
-- Runes
-- Witcher (RPG Series Plus)
-- Wizards (RPG Series)
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-combat.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Bard (RPG Series Plus) | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
+| Elemental Wizards (RPG Series Plus) | Master the elements to overcome your foes! Spell Engine Add-On |
+| Paladins & Priests (RPG Series) | ✨ Protect and heal your friends as a Paladin or a Priest |
+| Runes | 🪨 Craft runes to serve as ammo for spells |
+| Witcher (RPG Series Plus) | Slay monsters like a Witcher! Spell Engine Add-On |
+| Wizards (RPG Series) | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |

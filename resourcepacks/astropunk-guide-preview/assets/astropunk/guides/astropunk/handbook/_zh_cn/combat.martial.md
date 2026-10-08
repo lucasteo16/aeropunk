@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "选择近战与远程战斗风格 (WIP)"
+  title: "选择近战与远程战斗风格"
   parent: category-combat.md
 ---
 
 # 选择近战与远程战斗风格
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Archers Expansion (RPG Series Plus)
-- Archers (RPG Series)
-- Berserker (RPG Series Plus)
-- Forcemaster (RPG Series Plus)
-- Rogues & Warriors (RPG Series)
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-combat.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Archers (RPG Series) | 🏹 Draw, Release, Conquer - Master the art of Archery! |
+| Archers Expansion (RPG Series Plus) | Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On |
+| Berserker (RPG Series Plus) | Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On |
+| Forcemaster (RPG Series Plus) | Grab a Knuckle, master the force and martial art. Spell Engine Add-On |
+| Rogues & Warriors (RPG Series) | 🗡️ Silent Blades, Mighty Blows - Dominate with martial skills! |

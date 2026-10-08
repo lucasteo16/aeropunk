@@ -1,0 +1,10 @@
+[guides]
+ignoreTranslatedGuides = false
+hideMissingRecipeErrors = false
+
+[gui]
+adaptiveScaling = true
+fullWidthLayout = false
+
+[debug]
+showDebugGuiOverlays = false

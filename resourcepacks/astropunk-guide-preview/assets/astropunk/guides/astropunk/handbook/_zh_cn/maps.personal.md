@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "阅读地图与标记目的地 (WIP)"
+  title: "阅读地图与标记目的地"
   parent: category-exploration.md
 ---
 
 # 阅读地图与标记目的地
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Xaero's Minimap
-- Xaero's World Map
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-exploration.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Xaero's Minimap | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked. |
+| Xaero's World Map | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |

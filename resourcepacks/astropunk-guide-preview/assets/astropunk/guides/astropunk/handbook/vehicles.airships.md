@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Build and balance an airship (WIP)"
+  title: "Build and balance an airship"
   parent: category-travel.md
 ---
 
 # Build and balance an airship
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create Aeronautics: Encased Fluid Pipes
-- Create: Ballast
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create Aeronautics: Encased Fluid Pipes | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
+| Create: Ballast | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |

@@ -1,27 +1,23 @@
 ---
 navigation:
-  title: "Explore dungeons and redesigned structures (WIP)"
+  title: "Dungeons and redesigned structures"
   parent: category-exploration.md
 ---
 
-# Explore dungeons and redesigned structures
+# Dungeons and redesigned structures
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- When Dungeons Arise
-- YUNG's Better Desert Temples
-- YUNG's Better Dungeons
-- YUNG's Better Jungle Temples
-- YUNG's Better Mineshafts
-- YUNG's Better Nether Fortresses
-- YUNG's Better Ocean Monuments
-- YUNG's Better Strongholds
-- YUNG's Better Witch Huts
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| When Dungeons Arise | Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds! |
+| YUNG's Better Desert Temples | A complete redesign of Minecraft's desert temples! |
+| YUNG's Better Dungeons | A complete redesign of Minecraft's dungeons! |
+| YUNG's Better Jungle Temples | A complete redesign of Minecraft's jungle temples! |
+| YUNG's Better Mineshafts | A long-awaited and much-needed abandoned mineshaft overhaul! |
+| YUNG's Better Nether Fortresses | A complete redesign of Minecraft's Nether fortresses! |
+| YUNG's Better Ocean Monuments | A complete redesign of Minecraft's ocean monuments! |
+| YUNG's Better Strongholds | A complete redesign of Minecraft's strongholds! |
+| YUNG's Better Witch Huts | Adds overhauled witch huts to swamps! |

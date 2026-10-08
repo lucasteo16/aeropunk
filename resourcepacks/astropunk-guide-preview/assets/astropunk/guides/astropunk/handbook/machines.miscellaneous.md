@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Compare additional workshop tools (WIP)"
+  title: "Compare additional workshop tools"
   parent: category-automation.md
 ---
 
 # Compare additional workshop tools
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Dragons Plus
-- Create: Stam1o Tweaks
-- Create Stuff 'N Additions
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create Stuff 'N Additions | 🧲 Dominate your environment with Create technology |
+| Create: Dragons Plus | Provide convenient features to players and dev utilities for Create addon developers. |
+| Create: Stam1o Tweaks | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |

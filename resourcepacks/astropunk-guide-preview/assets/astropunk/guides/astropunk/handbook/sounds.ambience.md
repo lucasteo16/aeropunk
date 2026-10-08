@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "Adjust sounds and acoustic effects (WIP)"
+  title: "Adjust sounds and acoustic effects"
   parent: category-visuals.md
 ---
 
 # Adjust sounds and acoustic effects
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Cool Rain Reforged
-- Extreme sound muffler
-- More Sounds
-- Presence Footsteps (NeoForge)
-- Sound Physics Remastered
-- Sounds
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-visuals.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Cool Rain Reforged | Creates ambient sounds for certain blocks during rain |
+| Extreme sound muffler | Extreme sound muffler is a client side mod that allows you to muffle sounds selectively. |
+| More Sounds | A Sounds mod addon that adds custom sounds and modded compatibility |
+| Presence Footsteps (NeoForge) | An Overly complicated Sound Mod,and unofficial port of Presence Footsteps (Forge) from Forge to NeoForge |
+| Sound Physics Remastered | A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks. |
+| Sounds | It's what it says on the tin. A complete upgrade to Minecraft's SFX with over 170 new sound effects for UIs, items, blocks and more. |

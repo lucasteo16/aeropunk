@@ -6,24 +6,19 @@ navigation:
 
 # 搬运方块与生物
 
-草稿，可供评阅。物品浏览器和思索的直接按钮尚未实现。
+<ItemGrid>
+  <ItemIcon id="minecraft:chest" />
+  <ItemIcon id="minecraft:furnace" />
+</ItemGrid>
 
-Carry On 可以搬起受支持的已放置方块和生物。调整基地布局时，不必把每次移动都变成拆除和重建。
+Carry On 用于搬运受支持的已放置方块和生物。
 
-## 找到交互方式
+当前搬运按键：<KeyBind id="key.carry.desc" />。修改方式见[操作与按键](help.controls.md)。
 
-打开按键设置，查找 Carry On。使用你当前实例显示的按键，不要假定与其他玩家相同。移动贵重目标之前，先在简单且受支持的目标上试用。
+搬运贵重机器前，先在普通目标上试用。携带物品栏内容见[便携储存](storage.portable.md)。
 
-兼容性与限制取决于目标。本草稿不保证所有容器、机器或生物都能搬起，也不保证在所有移动载具上都安全。
+## 相关模组
 
-## 搬运不是储存
-
-这个交互用于移动目标，不能替代[背包或便携容器](storage.portable.md)。如果你想携带更多物品栏中的物品，应选择储存装备。
-
-## 涉及的内容
-
-- Carry On
-
-[返回分类](category-utilities.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Carry On | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |

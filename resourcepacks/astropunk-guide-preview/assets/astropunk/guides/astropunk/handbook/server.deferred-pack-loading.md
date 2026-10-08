@@ -1,21 +1,15 @@
 ---
 navigation:
-  title: "Understand deferred pack loading (WIP)"
+  title: "Deferred pack loading"
   parent: category-technical.md
 ---
 
-# Understand deferred pack loading
+# Deferred pack loading
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-Planned content, not installed in this preview.
+## Related mods
 
-## Included content
-
-- Paxi (planned, not installed)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-technical.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Paxi (not installed) | Not installed here. |

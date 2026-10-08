@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "布置住宅与公共空间 (WIP)"
+  title: "布置住宅与公共空间"
   parent: category-building.md
 ---
 
 # 布置住宅与公共空间
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Amendments
-- Beautify: ReFoxed
-- TW‘s  Decorative Food
-- Handcrafted
-- Create: Interiors
-- Supplementaries
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-building.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Amendments | Many changes to vanilla blocks |
+| Beautify: ReFoxed | Adds lots of vanilla-styled ways to spice up your builds. |
+| Create: Interiors | A complement to the Create mod that adds new furniture. |
+| Handcrafted | Make your house a home! |
+| Supplementaries | Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation |
+| TW‘s  Decorative Food | Make the food placeable.Decorate your world! |

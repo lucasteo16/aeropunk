@@ -1,21 +1,15 @@
 ---
 navigation:
-  title: "Look up the deferred space rendering bridge (WIP)"
+  title: "The deferred space rendering bridge"
   parent: category-technical.md
 ---
 
-# Look up the deferred space rendering bridge
+# The deferred space rendering bridge
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-Planned content, not installed in this preview.
+## Related mods
 
-## Included content
-
-- Northstar Sable Iris Horizons Bridge (planned, not installed)
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-technical.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Northstar Sable Iris Horizons Bridge (not installed) | Not installed here. |

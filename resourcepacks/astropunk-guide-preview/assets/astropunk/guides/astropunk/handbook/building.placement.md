@@ -1,22 +1,18 @@
 ---
 navigation:
-  title: "Place palettes and schematic patterns (WIP)"
+  title: "Place palettes and schematic patterns"
   parent: category-building.md
 ---
 
 # Place palettes and schematic patterns
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Pattern Schematics
-- Create: Shuffle Filter
-- Forgematica
-- Mech Trowel
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-building.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Pattern Schematics | Build with repeating schematics! |
+| Create: Shuffle Filter | This mod provides a new "Shuffle Filter" item which, when used in Create deployers on contrabtions, enables a randomnes when placing blocks. (Like the shuffle mod for players). |
+| Forgematica | Litematica unofficial (Neo)Forge port. A modern client-side schematic mod for Minecraft. |
+| Mech Trowel | A Trowel+ that randomizes / shuffle blocks with multiple customizable palettes. Includes building wand functionality. Works with Create /Copycats+ & FramedBlocks |

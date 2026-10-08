@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Generate, distribute and consume electricity (WIP)"
+  title: "Generate, distribute and consume electricity"
   parent: category-automation.md
 ---
 
 # Generate, distribute and consume electricity
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Electro Energetics
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-automation.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Electro Energetics | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |

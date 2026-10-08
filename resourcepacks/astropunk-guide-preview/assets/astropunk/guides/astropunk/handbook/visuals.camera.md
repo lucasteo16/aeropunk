@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Adjust camera and window comfort (WIP)"
+  title: "Adjust camera and window comfort"
   parent: category-visuals.md
 ---
 
 # Adjust camera and window comfort
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Cubes Without Borders
-- Freecam
-- Ok Zoomer - It's Zoom!
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-visuals.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Cubes Without Borders | Allows you to play Minecraft in a borderless fullscreen window. |
+| Freecam | A highly customizable freecam mod. |
+| Ok Zoomer - It's Zoom! | Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours! |

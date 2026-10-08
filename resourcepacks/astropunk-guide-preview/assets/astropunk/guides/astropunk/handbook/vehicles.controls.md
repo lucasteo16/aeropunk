@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Control and stabilize a vehicle (WIP)"
+  title: "Control and stabilize a vehicle"
   parent: category-travel.md
 ---
 
 # Control and stabilize a vehicle
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Create: Aeroworks
-- Create: Tweaked Controllers
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-travel.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Create: Aeroworks | A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more! |
+| Create: Tweaked Controllers | An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller |

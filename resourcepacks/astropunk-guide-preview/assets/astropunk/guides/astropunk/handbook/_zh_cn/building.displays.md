@@ -1,23 +1,19 @@
 ---
 navigation:
-  title: "制作展示、画作、标牌与雕像 (WIP)"
+  title: "制作展示、画作、标牌与雕像"
   parent: category-building.md
 ---
 
 # 制作展示、画作、标牌与雕像
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Armor Poser
-- Big Sign Writer
-- Immersive Paintings
-- Items Displayed [NeoForge]
-- Straw Statues
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-building.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Armor Poser | Adds a GUI for armor stands in which you can configure it's pose and other properties |
+| Big Sign Writer | Easily write large, multi-line characters and symbols on signs! |
+| Immersive Paintings | Drag and drop, pixelate and hang up beautiful art. On servers too. |
+| Items Displayed [NeoForge] | A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests! |
+| Straw Statues | Bring some life to your builds with player statues of your favorite Minecrafters! |

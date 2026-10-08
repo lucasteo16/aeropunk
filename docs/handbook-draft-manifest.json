@@ -1,8 +1,8 @@
 {
-  "draft_articles": 11,
-  "article_count": 86,
+  "draft_articles": 14,
+  "article_count": 87,
   "category_count": 10,
-  "installed_content_count": 291,
+  "installed_content_count": 292,
   "heavy_content_count": 20,
   "baseline_commit": "34cb006",
   "deferred_content_count": 8,
@@ -35,10 +35,11 @@
       "topic": "help.controls",
       "category": "Player utilities and quality of life",
       "filename": "help.controls.md",
-      "drafted": false,
+      "drafted": true,
       "deferred": false,
       "metadata_paths": [
-        "mods/controlling.pw.toml"
+        "mods/controlling.pw.toml",
+        "mods/astropunk-handbook-access-1.0.0.jar"
       ]
     },
     {
@@ -1093,11 +1094,19 @@
       "topic": "help.handbook",
       "category": "Technical reference",
       "filename": "help.handbook.md",
-      "drafted": false,
+      "drafted": true,
       "deferred": false,
       "metadata_paths": [
         "mods/guideme.pw.toml"
       ]
+    },
+    {
+      "topic": "world.dimensions",
+      "category": "Exploration and adventure",
+      "filename": "world.dimensions.md",
+      "drafted": true,
+      "deferred": false,
+      "metadata_paths": []
     }
   ],
   "content": [
@@ -5241,6 +5250,13 @@
       "availability": "baseline",
       "category": "Technical reference",
       "topic": "help.handbook"
+    },
+    {
+      "metadata_path": "mods/astropunk-handbook-access-1.0.0.jar",
+      "name": "Astropunk Handbook Access",
+      "availability": "baseline",
+      "category": "Player utilities and quality of life",
+      "topic": "help.controls"
     }
   ]
 }

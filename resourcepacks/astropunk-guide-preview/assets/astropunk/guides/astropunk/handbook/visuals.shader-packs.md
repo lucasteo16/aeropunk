@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Compare shader styles (WIP)"
+  title: "Compare shader styles"
   parent: category-visuals.md
 ---
 
 # Compare shader styles
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Complementary Shaders - Reimagined
-- Complementary Shaders - Unbound
-- Photon Shaders
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-visuals.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Complementary Shaders - Reimagined | Preserving the elements of Minecraft with exceptional quality, detail, and performance. |
+| Complementary Shaders - Unbound | Transforming the visuals of Minecraft with exceptional quality, detail, and performance. |
+| Photon Shaders | A gameplay-focused shader pack with a semi-realistic style |

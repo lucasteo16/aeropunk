@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "调整视角与窗口 (WIP)"
+  title: "调整视角与窗口"
   parent: category-visuals.md
 ---
 
 # 调整视角与窗口
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Cubes Without Borders
-- Freecam
-- Ok Zoomer - It's Zoom!
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-visuals.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Cubes Without Borders | Allows you to play Minecraft in a borderless fullscreen window. |
+| Freecam | A highly customizable freecam mod. |
+| Ok Zoomer - It's Zoom! | Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours! |

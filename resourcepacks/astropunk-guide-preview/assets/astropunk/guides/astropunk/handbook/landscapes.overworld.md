@@ -1,21 +1,17 @@
 ---
 navigation:
-  title: "Explore Overworld landscapes and rivers (WIP)"
+  title: "Overworld landscapes and rivers"
   parent: category-exploration.md
 ---
 
-# Explore Overworld landscapes and rivers
+# Overworld landscapes and rivers
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Streams Reflowing
-- Tectonic
-- Terralith
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-exploration.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Streams Reflowing | Adds beautiful flowing streams to your world. |
+| Tectonic | Terrain shaping brought to new heights, grander and more varied than ever before! |
+| Terralith | Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain. |

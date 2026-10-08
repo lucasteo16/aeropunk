@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "Recover after death (WIP)"
+  title: "Recover after death"
   parent: category-utilities.md
 ---
 
 # Recover after death
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- Corpse x Curios API Compat
-- Corpse
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-utilities.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| Corpse | Never lose your items again! |
+| Corpse x Curios API Compat | This little mod allows you to directly equip your Curios items to the respective slots |

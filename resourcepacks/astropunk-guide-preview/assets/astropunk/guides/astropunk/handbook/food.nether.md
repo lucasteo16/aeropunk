@@ -1,19 +1,15 @@
 ---
 navigation:
-  title: "Cook Nether ingredients (WIP)"
+  title: "Cook Nether ingredients"
   parent: category-food.md
 ---
 
 # Cook Nether ingredients
 
-Work in progress (WIP). This page reserves the topic; its instructions have not been written or verified.
+Work in progress (WIP).
 
-## Included content
+## Related mods
 
-- My Nether's Delight
-
-These names provide coverage, not completed instructions.
-
-[Back to category](category-food.md)
-
-[Back to activities](index.md)
+| Mod or content | Publisher description |
+| --- | --- |
+| My Nether's Delight | New Nether addon for Farmer's Delight |

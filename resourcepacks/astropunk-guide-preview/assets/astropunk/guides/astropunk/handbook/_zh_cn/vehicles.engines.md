@@ -1,20 +1,16 @@
 ---
 navigation:
-  title: "选择引擎与推进装置 (WIP)"
+  title: "选择引擎与推进装置"
   parent: category-travel.md
 ---
 
 # 选择引擎与推进装置
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- AeroEngine
-- Create Propulsion: Simulated
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-travel.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| AeroEngine | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
+| Create Propulsion: Simulated | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |

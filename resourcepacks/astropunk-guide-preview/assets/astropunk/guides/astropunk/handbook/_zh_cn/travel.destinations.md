@@ -6,27 +6,25 @@ navigation:
 
 # 使用固定与便携传送点
 
-草稿，可供评阅。物品浏览器和思索的直接按钮尚未实现。
+<ItemGrid>
+  <ItemIcon id="minecraft:ender_pearl" />
+  <ItemIcon id="minecraft:obsidian" />
+</ItemGrid>
 
-Waystones 与 Tempad 提供不同的传送方式。Waystones 连接已激活的目的地；Tempad 提供便携传送门。NetherPortalFix 处理多人游戏中下界传送门的返回目的地问题，不是另一个目的地网络。
+| 模组 | 出行系统 |
+| --- | --- |
+| Waystones | 已激活目的地网络 |
+| Tempad | 便携传送门 |
+| NetherPortalFix | 多人游戏下界传送门返回匹配 |
+| Create Waystones Recipes | 使用机械动力材料合成传送石 |
 
-## 查找相关物品
+目的地和费用以各自界面为准。固定坐标不会自动跟随移动船只，另见[移动目的地](travel.moving-destinations.md)。
 
-寻找 Waystone 和可用的卷轴，再查看 Tempad 的物品与帮助。激活方式、目的地和费用以当前界面为准，不要假定不同传送系统使用同一套规则。
+## 相关模组
 
-Create Waystones Recipes 会让 Waystones 合成使用机械动力材料。请查看本整合包里的配方，不要照搬其他整合包的配方。
-
-## 固定坐标与移动载具
-
-保存一个位置，不代表它会自动跟随移动船只。载具相关兼容另见[移动目的地](travel.moving-destinations.md)。这部分行为仍需验证，普通保存坐标不能保证安全到达船上。
-
-## 涉及的内容
-
-- Create Waystones Recipes
-- NetherPortalFix
-- Tempad
-- Waystones
-
-[返回分类](category-travel.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Create Waystones Recipes | This mod changes the recipes of Waystones to fit with and use the Create mod. It also balances things a bit more. |
+| NetherPortalFix | Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer. |
+| Tempad | Create a portal to anywhere from anywhere |
+| Waystones | Teleport from waystone to waystone or craft magical scrolls to warp. |

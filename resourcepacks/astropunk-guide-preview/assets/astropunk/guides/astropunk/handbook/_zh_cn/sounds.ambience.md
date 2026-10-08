@@ -1,24 +1,20 @@
 ---
 navigation:
-  title: "调整声音与环境声学 (WIP)"
+  title: "调整声音与环境声学"
   parent: category-visuals.md
 ---
 
 # 调整声音与环境声学
 
-编写中（WIP）。本页预留给这个主题，玩法说明尚未编写或验证。
+编写中（WIP）。
 
-## 涉及的内容
+## 相关模组
 
-- Cool Rain Reforged
-- Extreme sound muffler
-- More Sounds
-- Presence Footsteps (NeoForge)
-- Sound Physics Remastered
-- Sounds
-
-这些名称用于完整收录，不代表玩法说明已经完成。
-
-[返回分类](category-visuals.md)
-
-[返回活动指南](index.md)
+| 模组或内容 | 官方简介 |
+| --- | --- |
+| Cool Rain Reforged | Creates ambient sounds for certain blocks during rain |
+| Extreme sound muffler | Extreme sound muffler is a client side mod that allows you to muffle sounds selectively. |
+| More Sounds | A Sounds mod addon that adds custom sounds and modded compatibility |
+| Presence Footsteps (NeoForge) | An Overly complicated Sound Mod,and unofficial port of Presence Footsteps (Forge) from Forge to NeoForge |
+| Sound Physics Remastered | A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks. |
+| Sounds | It's what it says on the tin. A complete upgrade to Minecraft's SFX with over 170 new sound effects for UIs, items, blocks and more. |
