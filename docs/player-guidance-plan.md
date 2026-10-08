@@ -2,7 +2,7 @@
 
 ## Recommendation
 
-Create a discovery handbook organized around what a player wants to do. Start with a Markdown handbook that can be read on a phone or desktop. Use the existing EMI item browser, Create Ponder, mod documentation and existing information screens rather than adding a quest system or a new handbook dependency now.
+Create a discovery handbook organized around what a player wants to do, with every activity visible from the start. The updated [category and presentation proposal](player-guidance-presentation.md) recommends evaluating GuideME for a larger scrolling in-game interface, with access that does not require carrying a book. No presentation dependency has been installed. Reuse the existing EMI item browser, Create Ponder, mod documentation and existing information screens. This complete inventory remains the source coverage reference, not the player-facing menu. Split its technical reference into performance, server utilities, and libraries and compatibility; place visual and audio features with appearance settings.
 
 The handbook should answer four questions quickly: what this mod adds, why a player might care, what to inspect first, and where to learn more. Give substantial gameplay systems short introductions. Put everyday controls in convenience tips, terrain and encounters in discovery pages, and libraries and optimizers in a technical appendix. Players should not have to study every library to understand the pack.
 
