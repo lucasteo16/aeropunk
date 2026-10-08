@@ -1110,7 +1110,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "b4e3b8c9a4088631ab6a47d4e8ad7bd582313154292ee760d00367902eee52c3"
+hash = "2c1d8285f1fc51bc2dab84c099ee1f038fa597a94c88333cf539dd75d1010d6a"
 
 [[files]]
 file = "icon.png"
@@ -2633,6 +2633,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mandalas-gui-dark-mode.pw.toml"
+hash = "8ed45d3cf487c5ed8736050223b1b4211d79b44587031238afae1844199727cc"
 metafile = true
 
 [[files]]
