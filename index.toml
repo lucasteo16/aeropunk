@@ -1110,7 +1110,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "2c1d8285f1fc51bc2dab84c099ee1f038fa597a94c88333cf539dd75d1010d6a"
+hash = "7e47f380467991d007e4d50940d351aa78e52774e12b9d20a771ee12e8b2cf82"
 
 [[files]]
 file = "icon.png"
@@ -1819,6 +1819,11 @@ metafile = true
 [[files]]
 file = "mods/grandteleport-neoforge.pw.toml"
 hash = "47b49699187d4c0db3fb7a7697e7864afd6f8542ca8f91cc585f47daac2953b1"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "bc3920a3fb291a8bc8df9717233e54dd1c909b65528afbe1b617373c7b4b38c0"
 metafile = true
 
 [[files]]
@@ -2604,6 +2609,30 @@ metafile = true
 [[files]]
 file = "polytone_options.json"
 hash = "0978d2f26b6ab52b2fa2b952682c77f6685c621d6ef172c2750f0e025dc76ee5"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guideme_guides/handbook.json"
+hash = "ba097479e0c5ca2f6912825ec30c1a8fcbf331f6c25bbe5ee753f3477dc25806"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/index.md"
+hash = "4b1319c13498c36bf5088a60cd2e783b4b4a1188ad771c3f1f9ceb96f9b06ca2"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/ore-processing.md"
+hash = "55a26ca961592ea3e25d8ef5cdf0f00ba16d743f2bb4fa6e4125249b7ae28640"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/index.md"
+hash = "3ac23bbb6f84c15b661b75eeaa19a9b6e0f271f5bba503f3ab990e51ca625d04"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/ore-processing.md"
+hash = "f050d3b6be65db08d3d6de4cbfa8a78506a0a864cb26c61b60ef7afba7c7f460"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/pack.mcmeta"
+hash = "6443885fa9b4901789a31eabf79e6b01a2a99e5e2724477298be73c603ee2e4e"
 
 [[files]]
 file = "resourcepacks/attribute-icons-rpg-series.pw.toml"
