@@ -3,17 +3,34 @@ navigation:
   title: "建造与平衡飞行船"
   position: 0
   parent: reference.vehicles.md
+  icon: minecraft:minecart
 ---
 
 # 建造与平衡飞行船
 
-## 概览
+## 升力与气囊
 
-编写中（WIP）。
+<ItemGrid>
+  <ItemIcon id="aeronautics:white_envelope" />
+  <ItemIcon id="aeronautics:adjustable_burner" />
+  <ItemIcon id="aeronautics:white_envelope_encased_shaft" />
+  <ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" />
+  <ItemIcon id="ballastmod:ballast_stones" />
+</ItemGrid>
 
-## 相关模组
+热气囊与热气燃烧器构成浮力系列。热气囊、气囊机壳传动杆和附加的气囊机壳流体管道均有十六种染料颜色。压舱石每增加一层都会增加质量，最多八层。
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| Create Aeronautics: Encased Fluid Pipes | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
-| Create: Ballast | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |
+***
+
+## 螺旋桨与帆
+
+<ItemGrid>
+  <ItemIcon id="aeronautics:propeller_bearing" />
+  <ItemIcon id="aeronautics:gyroscopic_propeller_bearing" />
+  <ItemIcon id="aeronautics:wooden_propeller" />
+  <ItemIcon id="aeronautics:andesite_propeller" />
+  <ItemIcon id="aeronautics:smart_propeller" />
+  <ItemIcon id="simulated:white_symmetric_sail" />
+</ItemGrid>
+
+木制、安山岩与智能螺旋桨配有专用轴承。对称帆为另一套空气动力组件。入门时先组装支持的船体，再使用气囊、燃烧器与螺旋桨思索演示安排升力和推力。装饰体积本身不会提供升力。

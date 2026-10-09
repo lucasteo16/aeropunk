@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "The deferred space rendering bridge"
+  title: "Space compatibility"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# The deferred space rendering bridge
+# Space compatibility
 
 ## Overview
 

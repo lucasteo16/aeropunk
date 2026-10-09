@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Visuals and sound"
+  title: "Visuals & sound"
   position: 8
   parent: mod-catalogs.md
   icon: minecraft:painting
 ---
 
-# Visuals and sound
+# Visuals & sound
 
 ## Visual and Sound Mods
 
@@ -72,11 +72,11 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Adjust camera and window comfort](visuals.camera.md) | WIP |
-| [Adjust models and animations](visuals.models.md) | WIP |
-| [Adjust weather, particles and transitions](visuals.weather.md) | WIP |
-| [Lighting and distant terrain](visuals.lighting.md) | Reference |
-| [Resource-pack appearance](visuals.resource-packs.md) | WIP |
-| [Compare shader styles](visuals.shader-packs.md) | WIP |
-| [Adjust sounds and acoustic effects](sounds.ambience.md) | WIP |
-| [Adjust notifications and information displays](visuals.interface.md) | WIP |
+| [Camera](visuals.camera.md) | WIP |
+| [Models & animations](visuals.models.md) | WIP |
+| [Weather & particles](visuals.weather.md) | WIP |
+| [Lighting & distance](visuals.lighting.md) | Reference |
+| [Resource packs](visuals.resource-packs.md) | WIP |
+| [Shaders](visuals.shader-packs.md) | WIP |
+| [Sound](sounds.ambience.md) | WIP |
+| [Interface](visuals.interface.md) | WIP |

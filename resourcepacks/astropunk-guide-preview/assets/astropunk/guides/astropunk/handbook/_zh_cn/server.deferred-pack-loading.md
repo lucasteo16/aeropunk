@@ -3,6 +3,7 @@ navigation:
   title: "了解暂缓加入的内容加载工具"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
 # 了解暂缓加入的内容加载工具

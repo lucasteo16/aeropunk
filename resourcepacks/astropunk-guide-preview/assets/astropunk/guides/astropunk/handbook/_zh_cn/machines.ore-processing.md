@@ -3,6 +3,7 @@ navigation:
   title: "加工矿石与原料"
   position: 0
   parent: reference.machines-storage.md
+  icon: create:crushing_wheel
 item_ids:
   - create:millstone
   - create:crushing_wheel
@@ -12,7 +13,7 @@ item_ids:
 
 # 加工矿石与原料
 
-## 概览
+## 矿物加工机器
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />
@@ -28,9 +29,13 @@ item_ids:
 
 机器排列和动力供应请看思索演示。
 
+***
+
 ## 磨石
 
 <Recipe id="create:crafting/kinetics/millstone" />
+
+***
 
 ## 磨碎小麦
 
@@ -47,6 +52,8 @@ item_ids:
 | 额外产物，概率百分之二十五 | 两份小麦粉 |
 | 额外产物，概率百分之二十五 | 一份小麦种子 |
 
+***
+
 ## 粉碎粗铁
 
 <ItemGrid>
@@ -60,6 +67,8 @@ item_ids:
 | --- | --- |
 | 一个粗铁 | 一个粉碎铁矿石 |
 | 额外产物，概率百分之七十五 | 一个经验颗粒 |
+
+***
 
 ## 洗涤铁矿石
 
@@ -77,9 +86,3 @@ item_ids:
 | 额外产物，概率百分之七十五 | 一个红石 |
 
 水是鼓风机的加工介质，不会消耗一桶水。原料输送和产物收集见[物品输送](machines.logistics.md)。
-
-## 相关模组
-
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| Create | Aesthetic Technology that empowers the Player |

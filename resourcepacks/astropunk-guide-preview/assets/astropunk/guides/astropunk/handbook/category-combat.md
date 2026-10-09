@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Combat and character"
+  title: "Combat & skills"
   position: 5
   parent: mod-catalogs.md
   icon: minecraft:iron_sword
 ---
 
-# Combat and character
+# Combat & skills
 
 ## Combat and Character Mods
 
@@ -46,12 +46,12 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Handle weapons and dodge](combat.handling.md) | WIP |
-| [Compare martial combat roles](combat.martial.md) | WIP |
-| [Compare magic and support roles](combat.magic.md) | WIP |
+| [Weapons & dodging](combat.handling.md) | Reference |
+| [Martial classes](combat.martial.md) | Reference |
+| [Magic classes](combat.magic.md) | Reference |
 | [Character skills](combat.skills.md) | Reference |
-| [Weapons and armor](equipment.weapons-armor.md) | WIP |
-| [Jewelry, relics and accessory slots](equipment.accessories.md) | WIP |
-| [Armor and status information](equipment.display.md) | WIP |
+| [Weapons & armor](equipment.weapons-armor.md) | Reference |
+| [Accessories](equipment.accessories.md) | Reference |
+| [Armor & status](equipment.display.md) | Reference |
 | [Equipment](reference.equipment.md) | Reference |
-| [Spells and skills](reference.skills.md) | Reference |
+| [Spells & skills](reference.skills.md) | Reference |

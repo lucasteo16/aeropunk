@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Sleep and plan the day"
+  title: "Sleep"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
-# Sleep and plan the day
+# Sleep
 
 ## Overview
 

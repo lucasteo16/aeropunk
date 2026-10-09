@@ -3,29 +3,26 @@ navigation:
   title: "寻找生物群系与结构"
   position: 0
   parent: maps.personal.md
+  icon: minecraft:map
 ---
 
 # 寻找生物群系与结构
 
-## 概览
+## 指南针
 
-<ItemGrid>
-  <ItemIcon id="minecraft:compass" />
-  <ItemIcon id="minecraft:map" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="naturescompass:naturescompass" /><ItemIcon id="explorerscompass:explorerscompass" /></ItemGrid>
 
-| 模组 | 寻找目标 |
+| 工具 | 查找内容 |
 | --- | --- |
-| Nature's Compass | 生物群系 |
-| Explorer's Compass | 结构 |
+| Nature's Compass | 生物群系，包括支持的模组生物群系 |
+| Explorer's Compass | 结构，包括支持的模组结构 |
 
-查看指南针配方和目标列表。搜索结果取决于世界。
+指南针搜索当前维度。一次搜索失败不代表整个世界没有该内容。
 
-用[个人地图](maps.personal.md)记录目的地。地点目录见[地形](world.dimensions.md)、[聚落](adventure.settlements.md)和[结构](adventure.structures.md)。
+***
 
-## 相关模组
+## 入门
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| Explorer's Compass | Allows you to locate structures anywhere in the world. |
-| Nature's Compass | Allows you to locate biomes anywhere in the world. |
+在[物品配方](help.search.md)中查找并制作指南针，使用它选择目标。根据方向与距离前进，到达后保存路标。
+
+搜索范围与服务器限制会影响结果。先查看[维度](world.dimensions.md)，确定目标所在维度。

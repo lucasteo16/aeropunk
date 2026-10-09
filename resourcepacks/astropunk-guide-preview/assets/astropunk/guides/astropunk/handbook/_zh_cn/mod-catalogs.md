@@ -2,6 +2,7 @@
 navigation:
   title: "模组目录"
   position: 1
+  icon: minecraft:bookshelf
 ---
 
 # 模组目录

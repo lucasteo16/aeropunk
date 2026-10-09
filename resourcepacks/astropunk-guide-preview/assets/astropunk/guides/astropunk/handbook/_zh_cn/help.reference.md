@@ -3,6 +3,7 @@ navigation:
   title: "查找已有演示与帮助界面"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
 # 查找已有演示与帮助界面

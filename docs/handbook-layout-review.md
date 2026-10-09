@@ -35,3 +35,17 @@ A fresh native packwiz export contains the 210 exact resource files, including 1
 The running instance has both official source properties set. Its log records watching the repository source directory. Removed source pages generated the released watcher's fallback lookup errors; deletion is still queued, but packaged fallback pages can remain in the resource cache. The installed handbook snapshot has therefore also been reconciled. Lucas should perform one resource reload with F3 and T to clear old fallback navigation, then reopen the handbook. Ordinary subsequent page edits still use the native watcher.
 
 Actual layout, tooltip behavior and refreshed navigation remain subject to Lucas's review. Do not infer rendered quality from parser success. The opening shortcut failure is being investigated separately; use the confirmed guide command until the corrected helper has been installed and tested after a user-controlled restart.
+
+## Full Quick reference authoring pass
+
+All thirteen reference categories and their linked topics now have authored bodies in English and Simplified Chinese. There are 67 reference topics including six directories. The whole handbook still has 84 content articles, with 64 authored and 20 unwritten outside the reference tree. This counts authored content, not exhaustive coverage of every possible runtime registry entry.
+
+Sidebar labels are short and every entry has a native icon. Paired English labels use ampersands where useful. Controls uses one thematic break between major sections. Finished reference articles no longer repeat publisher-description footers; provider identity and installation status are verified in Mod catalogs instead.
+
+Dimensions has clean Incendium and Nullscape terrain screenshots, short subject captions, and named biome lists from the selected definitions. The selected Deep Seas release packages Abyss data but its condition returns false in production, so it is not represented as an accessible dimension. Item recipe illustrates both the recipe screen and recipe tree.
+
+The integrated encounter catalogs include seven explicitly identified publisher boss captures. Unidentified and inaccessible images are not replaced with generic arena pictures. Source URLs, hashes, publisher captions, project licenses and unresolved reuse permissions remain in visual provenance and encounter evidence.
+
+Native items, material and equipment families, book-assigned spells, foods, vehicle components, machines and storage are identified through selected released resources. Parent verification checked 285 selected artifact hashes, 332 nested archives, 1260 distinct native item identifiers and 26 recipe identifiers against models, translations and recipe definitions. This is static verification, not a loaded registry or gameplay test.
+
+All 206 pages passed the selected parser. Navigation, reviewed layout and full-reference visual checks passed. Rendering, loaded recipe availability, some spawn and summoning conditions, and cross-mod behavior still require separate verification. The detailed gap records are in docs/quick-reference-work. Gallery project licenses do not automatically establish screenshot redistribution permissions; no public release clearance is claimed.

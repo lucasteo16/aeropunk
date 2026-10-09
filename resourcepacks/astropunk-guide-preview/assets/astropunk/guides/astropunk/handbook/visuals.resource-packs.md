@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Resource-pack appearance"
+  title: "Resource packs"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Resource-pack appearance
+# Resource packs
 
 ## Overview
 

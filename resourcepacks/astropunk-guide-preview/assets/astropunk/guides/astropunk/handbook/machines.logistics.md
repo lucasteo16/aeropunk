@@ -1,18 +1,61 @@
 ---
 navigation:
-  title: "Move, filter and distribute materials"
+  title: "Item routing"
   position: 0
   parent: reference.machines-storage.md
+  icon: create:crushing_wheel
 ---
 
-# Move, filter and distribute materials
+# Item routing
 
-## Overview
+## Items & fluids
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="create:belt_connector" />
+  <ItemIcon id="create:andesite_funnel" />
+  <ItemIcon id="create:brass_funnel" />
+  <ItemIcon id="create:brass_tunnel" />
+  <ItemIcon id="create:chute" />
+  <ItemIcon id="create_connected:brass_chute" />
+  <ItemIcon id="create:mechanical_arm" />
+  <ItemIcon id="create:fluid_pipe" />
+  <ItemIcon id="create:mechanical_pump" />
+  <ItemIcon id="create:smart_fluid_pipe" />
+</ItemGrid>
 
-## Related mods
-
-| Mod or content | Publisher description |
+| Items & families | Use |
 | --- | --- |
-| Create: Additional Logistics | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |
+| <ItemLink id="create:belt_connector" />, <ItemLink id="create:andesite_funnel" />, <ItemLink id="create:brass_funnel" />, <ItemLink id="create:brass_tunnel" /> | Create belts, funnels and tunnels route items; brass components add filtering. |
+| <ItemLink id="create:chute" />, <ItemLink id="create_connected:brass_chute" />, <ItemLink id="create:mechanical_arm" /> | Chutes and mechanical arms connect processing stations. |
+| <ItemLink id="create:fluid_pipe" />, <ItemLink id="create:mechanical_pump" />, <ItemLink id="create:smart_fluid_pipe" /> | Pipes, pumps and filtered fluid routing. |
+
+***
+
+## Packages & requests
+
+<ItemGrid>
+  <ItemIcon id="create:packager" />
+  <ItemIcon id="create:stock_link" />
+  <ItemIcon id="create:redstone_requester" />
+  <ItemIcon id="create:package_frogport" />
+  <ItemIcon id="create:chain_conveyor" />
+  <ItemIcon id="createadditionallogistics:package_accelerator" />
+  <ItemIcon id="createadditionallogistics:package_editor" />
+  <ItemIcon id="createadditionallogistics:cash_register" />
+  <ItemIcon id="createadditionallogistics:lazy_shaft" />
+  <ItemIcon id="createadditionallogistics:lazy_cogwheel" />
+  <ItemIcon id="createadditionallogistics:flexible_shaft" />
+</ItemGrid>
+
+| Items & families | Use |
+| --- | --- |
+| <ItemLink id="create:packager" />, <ItemLink id="create:stock_link" />, <ItemLink id="create:redstone_requester" /> | Create packaging, stock networks and redstone requests. |
+| <ItemLink id="create:package_frogport" />, <ItemLink id="create:chain_conveyor" /> | Package transfer through frogports and chain conveyors. |
+| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | Create: Additional Logistics supplies Package Accelerator, Package Editor and Cash Register. |
+| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | Lazy shafts and cogwheels, plus flexible shafts with colored and encased variants. |
+
+***
+
+## Getting started
+
+Connect one input container and one output container to a belt or chute before adding a stock network. Ponder covers the Create components. Additional Logistics also includes a Sales Ledger and Train Network Monitor Peripheral; the peripheral is a computer integration, not a standalone stock screen.

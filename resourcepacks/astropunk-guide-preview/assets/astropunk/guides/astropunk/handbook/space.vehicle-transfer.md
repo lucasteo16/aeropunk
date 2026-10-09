@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Compare whole-vehicle dimension transfer"
+  title: "Space transport"
   position: 0
   parent: category-travel.md
+  icon: minecraft:minecart
 ---
 
-# Compare whole-vehicle dimension transfer
+# Space transport
 
 ## Overview
 

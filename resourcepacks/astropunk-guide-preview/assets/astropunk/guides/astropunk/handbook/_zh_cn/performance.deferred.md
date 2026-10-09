@@ -3,6 +3,7 @@ navigation:
   title: "了解暂缓加入的优化模组"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
 # 了解暂缓加入的优化模组

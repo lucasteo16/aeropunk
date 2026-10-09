@@ -3,31 +3,49 @@ navigation:
   title: "Character skills"
   position: 0
   parent: reference.skills.md
+  icon: minecraft:enchanted_book
 ---
 
 # Character skills
 
-## Overview
+## Skill interface
 
 <ItemGrid>
-  <ItemIcon id="minecraft:iron_sword" />
-  <ItemIcon id="minecraft:bow" />
-  <ItemIcon id="minecraft:enchanted_book" />
+  <ItemIcon id="skill_tree_rpgs:orb_of_oblivion" />
+  <ItemIcon id="wizards:wand_arcane" />
+  <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
 
-| System | Inspect |
-| --- | --- |
-| Skill Tree and role expansions | Nodes, equipment roles and point costs |
-| Pufferfish's Skills | Its separate skill interface |
+Open the tree with <KeyBind id="key.puffish_skills.open" />. Pufferfish’s Skills is the interface and progression engine; Skill Tree and More RPG Classes Skill Tree supply its class and weapon branches, not a second unrelated skill screen.
 
-Your Pufferfish's Skills key: <KeyBind id="key.puffish_skills.open" />.
+***
 
-Read node requirements before spending points. These systems do not necessarily share points or refund rules. See [martial roles](combat.martial.md), [magic roles](combat.magic.md) and [Controls](help.controls.md).
+## Base classes
 
-## Related mods
+Path of Arcane, Path of the Archer, Path of Fire, Path of Frost, Path of the Paladin, Path of the Light, Path of the Rogue, Path of the Warrior
 
-| Mod or content | Publisher description |
-| --- | --- |
-| More RPG Classes - Skill Tree (RPG Series Plus) | RPG Series Skill Tree Add-On for the More RPG Classes! |
-| Pufferfish's Skills | Adds a fully configurable skill system to the game. |
-| Skill Tree (RPG Series) | ⭐️ Choose your path - Skills that shape your class |
+***
+
+## Weapon paths
+
+Arcane Staff Specialisation, Axe Specialisation, Bow Specialisation, Claymore Specialisation, Crossbow Specialisation, Dagger Specialisation, Double Axe Specialisation, Fire Staff Specialisation, Frost Staff Specialisation, Glaive Specialisation, Hammer Specialisation, Holy Staff Specialisation, Mace Specialisation, Sickle Specialisation, Spear Specialisation, Sword Specialisation
+
+***
+
+## Extra classes
+
+Path of Air, Path of the Bard, Path of the Berserker, Path of the Deadeye, Path of Earth, Path of the Witcher, Path of the Forcemaster, Path of the Witcher, Path of the Tundra Hunter, Path of the War Archer, Path of Water
+
+***
+
+## Extra weapon paths
+
+Improved Water Whip, Berserker Axe Specialisation, Harp Crossbow Specialisation, Knuckle Specialisation, Improved Lute Songs, Improved Lyre Songs, Rapier Specialisation, Improved Stone Spear, Improved Air Cutter, Witcher Sword Specialisation
+
+***
+
+## Getting started
+
+Read the root, linked node requirements and point budget before choosing a path. Class Skills and Weapon Skills are distinct categories in the supplied tree. The Orb of Oblivion is the reset item; inspect its current recipe and tooltip before committing a reset. Spell improvements are upgrades to named abilities, not independent new class spells.
+
+[Martial abilities](combat.martial.md) and [magic abilities](combat.magic.md).

@@ -3,17 +3,34 @@ navigation:
   title: "分享与查看探险战利品"
   position: 0
   parent: adventure.structures.md
+  icon: minecraft:stone_bricks
 ---
 
 # 分享与查看探险战利品
 
-## 概览
+## 战利品容器
 
-编写中（WIP）。
+![Mineshaft lootr chest!](images/encounters-lootr-catalog.png)
 
-## 相关模组
+作者发布的游戏截图，Mineshaft lootr chest!。
 
-| 模组或内容 | 官方简介 |
+| 容器 | 作用 |
 | --- | --- |
-| EMI Loot | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
-| Lootr | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |
+| Lootr 箱子、陷阱箱、木桶、潜影盒与矿车 | 转换后的战利品表容器为每位玩家提供独立物品栏。 |
+| 金色与蓝色外观 | 金色代表你尚未开启，蓝色代表你已开启。客户端设置可隐藏这种外观。 |
+| 普通储物容器 | 没有战利品表的容器不会自动变成个人战利品。 |
+
+***
+
+## 掉落查询
+
+| 模组 | 内容 | 读取方式 |
+| --- | --- | --- |
+| EMI Loot | 箱子战利品表、方块掉落与生物掉落 | 分别查看概率、平均堆叠数量与条件。 |
+| Lootr | 每位玩家的容器访问 | 不替换原有战利品表，也不保证必定获得某个物品。 |
+
+***
+
+## 开始探索
+
+开启 Lootr 容器领取属于你的战利品。用物品浏览器的掉落显示查看来源与条件。刷新与衰减取决于服务器设置，重复开启不保证产生新物品。

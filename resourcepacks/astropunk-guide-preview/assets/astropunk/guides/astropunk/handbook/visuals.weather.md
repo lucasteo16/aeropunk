@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Adjust weather, particles and transitions"
+  title: "Weather & particles"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Adjust weather, particles and transitions
+# Weather & particles
 
 ## Overview
 

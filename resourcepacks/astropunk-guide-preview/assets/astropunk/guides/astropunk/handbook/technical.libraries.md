@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Supporting libraries and frameworks"
+  title: "Libraries"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Supporting libraries and frameworks
+# Libraries
 
 ## Overview
 

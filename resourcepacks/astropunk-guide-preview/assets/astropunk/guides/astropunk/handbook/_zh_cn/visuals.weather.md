@@ -3,6 +3,7 @@ navigation:
   title: "调整天气、粒子与过渡效果"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
 # 调整天气、粒子与过渡效果

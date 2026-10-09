@@ -1,20 +1,34 @@
 ---
 navigation:
-  title: "Handle weapons and dodge"
+  title: "Weapons & dodging"
   position: 0
   parent: reference.skills.md
+  icon: minecraft:enchanted_book
 ---
 
-# Handle weapons and dodge
+# Weapons & dodging
 
-## Overview
+## Weapons & attacks
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="minecraft:iron_sword" />
+  <ItemIcon id="rogues:iron_dagger" />
+  <ItemIcon id="paladins:iron_claymore" />
+  <ItemIcon id="archers:composite_longbow" />
+</ItemGrid>
 
-## Related mods
+Better Combat supplies weapon attack animations and combinations. Different weapon families have different attack patterns and reach; a dagger and a two-handed weapon are not interchangeable just because both deal physical damage.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Better Combat | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
-| Combat Roll | 🧶 Adds combat roll ability, with related attributes and enchantments. |
-| Critical Strike | 🍀 Chance based critical hits for melee and ranged attacks! |
+***
+
+## Rolls & critical hits
+
+Combat Roll adds a dodge roll. Critical Strike adds critical-hit handling. Rebind attacks, rolling and spell actions in the appropriate controls menu if they conflict. A movement animation alone does not establish invulnerability or a guaranteed critical strike.
+
+***
+
+## Getting started
+
+Try the attack pattern and dodge with an inexpensive weapon before entering a boss arena. Then compare the weapon’s attributes, spell access and available skill branches.
+
+[Controls](help.controls.md), [martial abilities](combat.martial.md) and [skills](combat.skills.md).

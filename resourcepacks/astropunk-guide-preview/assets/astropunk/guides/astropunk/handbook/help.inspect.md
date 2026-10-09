@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Inspect blocks and creatures"
+  title: "Block & mob info"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
-# Inspect blocks and creatures
+# Block & mob info
 
 ## Overview
 

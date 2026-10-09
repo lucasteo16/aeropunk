@@ -3,6 +3,7 @@ navigation:
   title: "Astropunk 手册"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
 # Astropunk 手册

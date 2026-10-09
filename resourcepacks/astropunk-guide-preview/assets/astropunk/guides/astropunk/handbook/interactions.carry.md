@@ -3,6 +3,7 @@ navigation:
   title: "Carry On"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
 # Carry On

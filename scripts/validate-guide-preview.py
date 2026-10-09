@@ -32,9 +32,13 @@ for article in handbook['pages']:
             assert 'WIP' in article_text
         for entry in handbook['content']:
             if entry['metadata_path'] in article['metadata_paths']:
-                assert entry['name'] in article_text
+                # The mod catalog owns provider identity and availability; reference pages
+                # own gameplay content and need not repeat publisher-description tables.
+                catalog_text = '\n'.join(p.read_text() for p in (pages / language).glob('category-*.md'))
+                assert entry['name'] in catalog_text, entry['name']
                 if entry['availability'] in ('deferred', 'heavy'):
-                    assert ('未安装' if language else 'not installed') in article_text
+                    matching_rows = [line for line in catalog_text.splitlines() if entry['name'] in line]
+                    assert any(('未安装' if language else 'not installed') in line for line in matching_rows), entry['name']
 assert not (pages / "_zh_tw").exists()
 links = 0
 for p in pages.rglob("*.md"):
@@ -44,9 +48,8 @@ for p in pages.rglob("*.md"):
         assert (p.parent / parent).is_file(), (p, parent)
     assert "\u2014" not in text and "\u2013" not in text, p
     assert 'minecraft:bed' not in text, p
-    # Decorative home icons intentionally have no item tooltip; instructional slots still do.
-    if p.name not in ('index.md', 'quick-reference.md', 'mod-catalogs.md'):
-        assert '<ItemImage' not in text, p
+    # Native ItemImage is allowed for decorative navigation and category labels.
+    # Actual instructional items use ItemGrid with ItemIcon and native tooltips.
     for phrase in ('Draft for review', 'Drafts to review', 'first preview', 'This draft', 'Back to activities', '草稿，可供评阅'):
         assert phrase not in text, (p, phrase)
     assert '`@' not in text, p

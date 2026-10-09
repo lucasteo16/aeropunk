@@ -3,6 +3,7 @@ navigation:
   title: "调整模型与动画"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
 # 调整模型与动画

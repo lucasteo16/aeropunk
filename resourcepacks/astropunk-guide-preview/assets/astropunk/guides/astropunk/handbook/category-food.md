@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Food and farming"
+  title: "Food & farming"
   position: 2
   parent: mod-catalogs.md
   icon: minecraft:wheat
 ---
 
-# Food and farming
+# Food & farming
 
 ## Food and Farming Mods
 
@@ -32,12 +32,12 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Hunger and food variety](food.hunger.md) | Reference |
+| [Hunger & variety](food.hunger.md) | Reference |
 | [Cooking tools](food.utensils.md) | Reference |
-| [Cook Nether ingredients](food.nether.md) | WIP |
-| [Cook End ingredients](food.end.md) | WIP |
-| [Cook underground supplies](food.underground.md) | WIP |
-| [Cook encounter ingredients](food.encounters.md) | WIP |
-| [Grow and harvest ingredients](food.growing.md) | WIP |
-| [Fishing and aquatic ingredients](food.fishing.md) | WIP |
-| [Food and farming](reference.food.md) | Reference |
+| [Nether food](food.nether.md) | Reference |
+| [End food](food.end.md) | Reference |
+| [Underground food](food.underground.md) | Reference |
+| [Encounter food](food.encounters.md) | Reference |
+| [Farming](food.growing.md) | Reference |
+| [Fishing](food.fishing.md) | Reference |
+| [Food & farming](reference.food.md) | Reference |

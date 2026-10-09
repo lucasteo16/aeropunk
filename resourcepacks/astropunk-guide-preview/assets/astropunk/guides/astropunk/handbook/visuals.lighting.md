@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Lighting and distant terrain"
+  title: "Lighting & distance"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Lighting and distant terrain
+# Lighting & distance
 
 ## Overview
 

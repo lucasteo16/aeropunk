@@ -1,32 +1,65 @@
 ---
 navigation:
-  title: Controls and key bindings
+  title: "Controls"
+  position: 0
   parent: quick-reference.md
+  icon: minecraft:lever
 ---
 
-# Controls and key bindings
+# Controls
 
-## Handbook access
+## Movement
 
-Click Handbook in your inventory. The default shortcut is F9.
+| Action | Your key |
+| --- | --- |
+| Inventory | <KeyBind id="key.inventory" /> |
+| Jump | <KeyBind id="key.jump" /> |
+| Sneak | <KeyBind id="key.sneak" /> |
+| Sprint | <KeyBind id="key.sprint" /> |
 
-| Action | Current key |
+***
+
+## Maps & tools
+
+| Action | Your key |
+| --- | --- |
+| World map | <KeyBind id="gui.xaero_open_map" /> |
+| Waypoints | <KeyBind id="gui.xaero_waypoints_key" /> |
+| Skills | <KeyBind id="key.puffish_skills.open" /> |
+| Carry On | <KeyBind id="key.carry.desc" /> |
+
+***
+
+## Handbook
+
+| Access | Your key |
 | --- | --- |
 | Open handbook | <KeyBind id="key.astropunk_handbook_access.open" /> |
-| Inventory | <KeyBind id="key.inventory" /> |
+| Item guide | <KeyBind id="key.guideme.guide" /> |
 
-## Change a binding
+The inventory also has a Handbook button. The item guide needs a hovered item linked to a handbook page.
 
-1. Open Options, Controls and Key Binds.
-2. Search for the action or mod.
-3. Select the binding and press the replacement key. Check conflicts.
+If the shortcut does not open the handbook, use /guidemec astropunk:handbook open.
 
-## Item browser defaults
+***
 
-| Action while hovering an inventory item | Default |
+## Recipes & help
+
+| While hovering an item | Default |
 | --- | --- |
 | Recipes | R |
 | Uses | U |
 
-Change these in the item browser settings.
+Change these in the item browser settings. Create's Ponder tooltip displays its own key. See [Item recipe](help.search.md) for illustrated examples.
 
+***
+
+## Rebind
+
+Open Options, Controls, then Key Binds. Search the action with Controlling, select its binding and press the new key. Check conflicts before returning to play.
+
+***
+
+## Readability
+
+Increase the interface scale in Video Settings for larger text. This also enlarges other interfaces.

@@ -1,20 +1,27 @@
 ---
 navigation:
-  title: "Armor and status information"
+  title: "Armor & status"
   position: 0
   parent: reference.equipment.md
+  icon: minecraft:iron_chestplate
 ---
 
-# Armor and status information
+# Armor & status
 
-## Overview
+## Armor & effects
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="minecraft:iron_chestplate" />
+  <ItemIcon id="minecraft:diamond_chestplate" />
+  <ItemIcon id="minecraft:potion" />
+</ItemGrid>
 
-## Related mods
+Detail Armor Bar Reconstructed makes armor information easier to read. Status Effect Bars Reforged shows effect durations. Stylish Effects changes the status-effect presentation. These displays do not add another equipment slot or another set of combat bonuses.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Detail Armor Bar Reconstructed | More details about armor in the armor bar! |
-| Status Effect Bars Reforged | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
-| Stylish Effects | Status effect display overhaul: Display them in any menu! And way more compact. |
+***
+
+## Reading a loadout
+
+Use equipment tooltips for attributes and requirements, the armor display for protection information and the effect display for active durations. A potion effect and an item’s permanent attribute are not the same thing. Adjust display settings if two overlays obscure each other.
+
+[Equipment](equipment.weapons-armor.md), [accessories](equipment.accessories.md) and [skills](combat.skills.md).

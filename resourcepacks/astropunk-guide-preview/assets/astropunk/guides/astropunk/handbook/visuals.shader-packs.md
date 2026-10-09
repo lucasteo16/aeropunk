@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Compare shader styles"
+  title: "Shaders"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Compare shader styles
+# Shaders
 
 ## Overview
 

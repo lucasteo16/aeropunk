@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Review deferred optimizer additions"
+  title: "Deferred optimizers"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Review deferred optimizer additions
+# Deferred optimizers
 
 ## Overview
 

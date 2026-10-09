@@ -1,0 +1,18 @@
+{
+  "reference_topics": 67,
+  "reference_categories": 13,
+  "missing_authored_reference_topics": [],
+  "merged_fragment_topics": 61,
+  "selected_artifact_hashes_verified": 285,
+  "nested_archives_inspected": 332,
+  "native_identifiers_checked": 1260,
+  "recipe_identifiers_checked": 26,
+  "boss_images_visually_reviewed": 7,
+  "runtime_rendering_verified": false,
+  "remaining_gaps": [
+    "Encounter conditions that remain unresolved in source evidence",
+    "Loaded recipe availability and optional component enablement",
+    "Screenshot redistribution rights not independently established",
+    "Client rendering and cross-mod gameplay behavior"
+  ]
+}

@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Vehicles and travel"
+  title: "Vehicles"
   position: 4
   parent: mod-catalogs.md
   icon: minecraft:minecart
 ---
 
-# Vehicles and travel
+# Vehicles
 
 ## Vehicle and Travel Mods
 
@@ -47,18 +47,18 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Assemble and operate moving vehicles](vehicles.assembly.md) | WIP |
-| [Build and balance an airship](vehicles.airships.md) | WIP |
-| [Engines and propulsion](vehicles.engines.md) | WIP |
-| [Control and stabilize a vehicle](vehicles.controls.md) | WIP |
-| [Radar information](vehicles.radar.md) | WIP |
-| [Assemble and operate mounted weapons](vehicles.weapons.md) | WIP |
-| [Operate boats and submarines](vehicles.water.md) | WIP |
-| [Travel as a train passenger](transport.passenger.md) | WIP |
-| [Build trains, tracks and stations](transport.railway-builder.md) | WIP |
-| [Move around a shared base](transport.local.md) | WIP |
+| [Vehicle assembly](vehicles.assembly.md) | Reference |
+| [Airships](vehicles.airships.md) | Reference |
+| [Engines](vehicles.engines.md) | Reference |
+| [Vehicle controls](vehicles.controls.md) | Reference |
+| [Radar](vehicles.radar.md) | Reference |
+| [Mounted weapons](vehicles.weapons.md) | Reference |
+| [Boats & submarines](vehicles.water.md) | Reference |
+| [Train travel](transport.passenger.md) | Reference |
+| [Railways](transport.railway-builder.md) | Reference |
+| [Local transport](transport.local.md) | Reference |
 | [Teleportation](travel.destinations.md) | Reference |
-| [Reach a destination aboard a moving build](travel.moving-destinations.md) | WIP |
-| [Compare future space destinations](space.destinations.md) | WIP |
-| [Compare whole-vehicle dimension transfer](space.vehicle-transfer.md) | WIP |
-| [Vehicles and travel](reference.vehicles.md) | Reference |
+| [Moving destinations](travel.moving-destinations.md) | Reference |
+| [Space (not installed)](space.destinations.md) | WIP |
+| [Space transport](space.vehicle-transfer.md) | WIP |
+| [Vehicles](reference.vehicles.md) | Reference |

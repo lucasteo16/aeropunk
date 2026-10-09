@@ -1,21 +1,37 @@
 ---
 navigation:
-  title: "Place palettes and schematic patterns"
+  title: "Placement tools"
   position: 0
   parent: reference.building.md
+  icon: minecraft:bricks
 ---
 
-# Place palettes and schematic patterns
+# Placement tools
 
-## Overview
+## Random palettes
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="mechtrowel:mech_trowel" />
+  <ItemIcon id="createshufflefilter:shuffle_filter" />
+  <ItemIcon id="createshufflefilter:weighted_shuffle_filter" />
+</ItemGrid>
 
-## Related mods
+Mech Trowel supplies a placement tool, with reach, capacity and variant conversion upgrade templates. Shuffle Filter and Weighted Shuffle Filter supply random and weighted palette selection. Their settings choose the palette; available materials still matter.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Create: Pattern Schematics | Build with repeating schematics! |
-| Create: Shuffle Filter | This mod provides a new "Shuffle Filter" item which, when used in Create deployers on contrabtions, enables a randomnes when placing blocks. (Like the shuffle mod for players). |
-| Forgematica | Litematica unofficial (Neo)Forge port. A modern client-side schematic mod for Minecraft. |
-| Mech Trowel | A Trowel+ that randomizes / shuffle blocks with multiple customizable palettes. Includes building wand functionality. Works with Create /Copycats+ & FramedBlocks |
+***
+
+## Schematics
+
+<ItemGrid>
+  <ItemIcon id="create_pattern_schematics:empty_pattern_schematic" />
+  <ItemIcon id="create_pattern_schematics:pattern_schematic_and_quill" />
+  <ItemIcon id="create_pattern_schematics:pattern_schematic" />
+</ItemGrid>
+
+Pattern Schematics supplies empty patterns, captured patterns and the quill capture item. Forgematica supplies a client schematic overlay and material planning. A displayed schematic does not place a finished vehicle or bypass survival ingredients.
+
+***
+
+## Crafting
+
+<Recipe id="create_pattern_schematics:pattern_schematic" />

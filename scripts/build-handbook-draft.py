@@ -50,6 +50,12 @@ category_by_name = {c[1]: c for c in categories}
 
 reference_sections = [('help.controls', 'Controls', '操作与按键', 'minecraft:lever', 'Bindings and interface settings', '按键绑定与界面设置'), ('help.search', 'Item recipe', '物品配方', 'minecraft:crafting_table', 'Ingredients, uses and recipe conflicts', '原料、用途与配方冲突'), ('adventure.bosses', 'Bosses', '首领', 'minecraft:dragon_head', 'Encounters, locations and access', '遭遇、位置与进入条件'), ('adventure.creatures', 'Creatures', '生物', 'minecraft:egg', 'Species, variants and habitats', '种类、变种与栖息地'), ('adventure.structures', 'Structures and dungeons', '结构与地牢', 'minecraft:stone_bricks', 'Locations, families and variants', '位置、类型与变体'), ('world.dimensions', 'Dimensions', '维度', 'minecraft:grass_block', 'Overworld, Nether and End', '主世界、下界与末地'), ('reference.equipment', 'Equipment', '装备', 'minecraft:iron_chestplate', 'Weapons, armor and accessories', '武器、护甲与饰品'), ('reference.skills', 'Spells and skills', '法术与技能', 'minecraft:enchanted_book', 'Combat styles, spells and skill systems', '战斗风格、法术与技能系统'), ('reference.food', 'Food and farming', '食物与农业', 'minecraft:apple', 'Ingredients, dishes and crops', '食材、料理与作物'), ('reference.building', 'Building', '建筑', 'minecraft:bricks', 'Materials, shapes and furniture', '材料、形状与家具'), ('reference.vehicles', 'Vehicles and travel', '载具与旅行', 'minecraft:minecart', 'Components, transport and destinations', '组件、交通与目的地'), ('reference.machines-storage', 'Machines and storage', '机器与储存', 'create:crushing_wheel', 'Machines, power, resources and containers', '机器、动力、资源与容器'), ('maps.personal', 'Maps', '地图', 'minecraft:map', 'World maps, waypoints and finders', '世界地图、路标与查找工具')]
 reference_hubs = {'reference.equipment': ('Combat and character', ['equipment.weapons-armor', 'equipment.accessories', 'equipment.display']), 'reference.skills': ('Combat and character', ['combat.handling', 'combat.martial', 'combat.magic', 'combat.skills']), 'reference.food': ('Food and farming', ['food.hunger', 'food.utensils', 'food.nether', 'food.end', 'food.underground', 'food.encounters', 'food.machine-cooking', 'food.growing', 'food.fishing']), 'reference.building': ('Building and decoration', ['building.palette', 'building.factory', 'building.copycats', 'building.architecture', 'building.furniture', 'building.displays', 'building.placement', 'building.safety']), 'reference.vehicles': ('Vehicles and travel', ['vehicles.assembly', 'vehicles.airships', 'vehicles.engines', 'vehicles.controls', 'vehicles.radar', 'vehicles.weapons', 'vehicles.water', 'transport.passenger', 'transport.railway-builder', 'transport.local', 'travel.destinations', 'travel.moving-destinations']), 'reference.machines-storage': ('Automation and industry', ['storage.portable', 'storage.bulk', 'storage.handling', 'machines.ore-processing', 'machines.rotation', 'machines.logistics', 'machines.renewables', 'machines.enchanting', 'machines.trading', 'machines.miscellaneous', 'power.electricity', 'power.industry', 'power.burners', 'power.stored-rotation'])}
+
+short_reference_titles = {'adventure.structures': 'Structures', 'reference.skills': 'Spells & skills', 'reference.food': 'Food & farming', 'reference.vehicles': 'Vehicles', 'reference.machines-storage': 'Machines & storage', 'help.controls': 'Controls'}
+reference_sections = [(topic, short_reference_titles.get(topic, english), chinese, icon, role, zh_role) for topic, english, chinese, icon, role, zh_role in reference_sections]
+reference_icons = {topic: icon for topic, _, _, icon, *_ in reference_sections}
+short_category_titles = {'automation': 'Automation', 'storage': 'Storage & logistics', 'food': 'Food & farming', 'building': 'Building', 'travel': 'Vehicles', 'combat': 'Combat & skills', 'exploration': 'Exploration', 'utilities': 'Utilities', 'visuals': 'Visuals & sound', 'technical': 'Technical'}
+
 reference_parents = {topic: 'quick-reference.md' for topic, *_ in reference_sections}
 for hub, (_, topics) in reference_hubs.items():
     for topic in topics:
@@ -158,13 +164,15 @@ for topic, english, chinese_title, *_ in reference_sections:
     zh_titles[topic] = chinese_title
 titles = {p['page_id']: p['title'] for p in page_defs}
 titles.update({topic: english for topic, english, *_ in reference_sections})
-titles.update({'help.search':'Item recipe', 'help.controls':'Controls and key bindings', 'machines.ore-processing':'Ore processing', 'food.utensils':'Cooking tools', 'food.hunger':'Hunger and food variety', 'storage.portable':'Portable storage', 'travel.destinations':'Teleportation', 'building.copycats':'Copycat shapes', 'interactions.carry':'Carry On', 'visuals.lighting':'Lighting and distant terrain', 'combat.skills':'Character skills', 'maps.find':'Biome and structure finders', 'machines.rotation':'Rotational power', 'machines.renewables':'Renewable resources', 'machines.enchanting':'Automated enchanting', 'machines.trading':'Automated trading', 'machines.miscellaneous':'Workshop tools', 'power.electricity':'Electricity', 'power.industry':'Industrial materials and fuels', 'power.burners':'Liquid burner fuels', 'power.stored-rotation':'Rotational storage', 'food.machine-cooking':'Machine cooking'})
+titles.update({'help.search':'Item recipe', 'help.controls':'Controls', 'machines.ore-processing':'Ore processing', 'food.utensils':'Cooking tools', 'food.hunger':'Hunger and food variety', 'storage.portable':'Portable storage', 'travel.destinations':'Teleportation', 'building.copycats':'Copycat shapes', 'interactions.carry':'Carry On', 'visuals.lighting':'Lighting and distant terrain', 'combat.skills':'Character skills', 'maps.find':'Biome and structure finders', 'machines.rotation':'Rotational power', 'machines.renewables':'Renewable resources', 'machines.enchanting':'Automated enchanting', 'machines.trading':'Automated trading', 'machines.miscellaneous':'Workshop tools', 'power.electricity':'Electricity', 'power.industry':'Industrial materials and fuels', 'power.burners':'Liquid burner fuels', 'power.stored-rotation':'Rotational storage', 'food.machine-cooking':'Machine cooking'})
 for topic, title in titles.items():
     for verb in ('Find ', 'Explore ', 'Choose ', 'Use ', 'Understand ', 'Read ', 'Look up ', 'Learn about '):
         if title.startswith(verb):
             title = title[len(verb):]
             break
     titles[topic] = title[:1].upper() + title[1:]
+
+titles.update({'help.inspect': 'Block & mob info', 'help.reference': 'Existing help', 'help.handbook': 'Handbook', 'food.hunger': 'Hunger & variety', 'food.utensils': 'Cooking tools', 'food.nether': 'Nether food', 'food.end': 'End food', 'food.underground': 'Underground food', 'food.encounters': 'Encounter food', 'food.machine-cooking': 'Machine cooking', 'food.growing': 'Farming', 'food.fishing': 'Fishing', 'storage.portable': 'Portable storage', 'storage.bulk': 'Bulk storage', 'storage.handling': 'Inventory tools', 'machines.ore-processing': 'Ore processing', 'machines.rotation': 'Rotational power', 'machines.logistics': 'Item routing', 'machines.renewables': 'Renewable resources', 'machines.enchanting': 'Enchanting', 'machines.trading': 'Trading', 'machines.miscellaneous': 'Workshop tools', 'power.electricity': 'Electricity', 'power.industry': 'Materials & fuels', 'power.burners': 'Liquid fuels', 'power.stored-rotation': 'Stored rotation', 'vehicles.assembly': 'Vehicle assembly', 'vehicles.airships': 'Airships', 'vehicles.engines': 'Engines', 'vehicles.controls': 'Vehicle controls', 'vehicles.radar': 'Radar', 'vehicles.weapons': 'Mounted weapons', 'vehicles.water': 'Boats & submarines', 'transport.passenger': 'Train travel', 'transport.railway-builder': 'Railways', 'transport.local': 'Local transport', 'travel.destinations': 'Teleportation', 'travel.moving-destinations': 'Moving destinations', 'maps.shared': 'Shared maps', 'maps.find': 'Location finders', 'adventure.loot': 'Loot', 'adventure.recovery': 'Death & recovery', 'adventure.sleep': 'Sleep', 'adventure.settlements': 'Settlements', 'combat.handling': 'Weapons & dodging', 'combat.martial': 'Martial classes', 'combat.magic': 'Magic classes', 'combat.skills': 'Character skills', 'equipment.weapons-armor': 'Weapons & armor', 'equipment.accessories': 'Accessories', 'equipment.display': 'Armor & status', 'building.palette': 'Materials', 'building.factory': 'Factory decor', 'building.copycats': 'Copycat shapes', 'building.architecture': 'Architecture', 'building.furniture': 'Furniture', 'building.displays': 'Displays', 'building.placement': 'Placement tools', 'building.safety': 'Lighting & safety', 'interactions.carry': 'Carry On', 'visuals.camera': 'Camera', 'visuals.models': 'Models & animations', 'visuals.weather': 'Weather & particles', 'visuals.lighting': 'Lighting & distance', 'visuals.resource-packs': 'Resource packs', 'visuals.shader-packs': 'Shaders', 'sounds.ambience': 'Sound', 'visuals.interface': 'Interface', 'space.destinations': 'Space (not installed)', 'space.vehicle-transfer': 'Space transport', 'performance.baseline': 'Performance', 'performance.deferred': 'Deferred optimizers', 'server.tools': 'Server tools', 'server.deferred-pack-loading': 'Deferred loading', 'technical.bridges': 'Compatibility', 'technical.space-bridge': 'Space compatibility', 'technical.libraries': 'Libraries'})
 
 zh_titles['help.search'] = '物品配方'
 
@@ -238,17 +246,17 @@ for page in page_defs:
     for chinese in (False, True):
         title = zh_titles[topic] if chinese else titles[topic]
         body = written[topic]['zh_cn' if chinese else 'en_us'] if topic in written else '编写中（WIP）。' if chinese else 'Work in progress (WIP).'
-        if topic in reference_hubs:
+        if topic in reference_hubs and topic not in written:
             body = '## ' + ('内容目录' if chinese else 'Contents') + '\n\n'
             body += '| 主题 | 状态 |\n| --- | --- |\n' if chinese else '| Topic | Status |\n| --- | --- |\n'
             for child in reference_hubs[topic][1]:
                 label = zh_titles[child] if chinese else titles[child]
                 state = ('参考' if chinese else 'Reference') if child in written else 'WIP'
                 body += '| [' + label + '](' + child + '.md) | ' + state + ' |\n'
-        if members and topic != 'world.dimensions':
+        if members and topic != 'world.dimensions' and topic not in reference_parents:
             body += '\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(members, chinese)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
-        write_page(topic+'.md', title, body, chinese, reference_parents.get(topic, 'category-'+cat[0]+'.md'), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
+        write_page(topic+'.md', title, body, chinese, reference_parents.get(topic, 'category-'+cat[0]+'.md'), icon=reference_icons.get(topic, reference_icons.get(reference_parents.get(topic, '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
     assigned_paths += [e['metadata_path'] for e in members]
 
 for cat in categories:
@@ -256,7 +264,7 @@ for cat in categories:
     installed = [e for e in entries if e['category'] == cat[1] and e['availability'] == 'baseline']
     optional = [e for e in entries if e['category'] == cat[1] and e['availability'] != 'baseline']
     for chinese in (False, True):
-        title = cat[2] if chinese else cat[1]
+        title = cat[2] if chinese else short_category_titles[cat[0]]
         body = '## ' + ('主题目录' if chinese else 'Contents') + '\n\n'
         body += '| 主题 | 状态 |\n| --- | --- |\n' if chinese else '| Topic | Status |\n| --- | --- |\n'
         for article in articles:
@@ -280,7 +288,7 @@ for chinese in (False, True):
     brief_zh = {'automation':'机器、动力与加工', 'storage':'容器与物品输送', 'food':'食材、厨房与作物', 'building':'材料、形状与家具', 'travel':'船只、列车与传送', 'combat':'装备、技能与法术', 'exploration':'维度、地形与遭遇', 'utilities':'按键与日常交互', 'visuals':'外观、光影与声音', 'technical':'支持库、性能与管理'}
     for cat in categories:
         slot = '<ItemImage id="' + cat[3] + '" />'
-        body += '| ' + slot + ' [' + (cat[2] if chinese else cat[1]) + '](category-' + cat[0] + '.md) | ' + (brief_zh if chinese else brief_en)[cat[0]] + ' |\n'
+        body += '| ' + slot + ' [' + (cat[2] if chinese else short_category_titles[cat[0]]) + '](category-' + cat[0] + '.md) | ' + (brief_zh if chinese else brief_en)[cat[0]] + ' |\n'
     catalogs_body = body
     body = '## ' + ('快速参考' if chinese else 'Quick reference') + '\n\n'
     body += '| 参考 | 内容 |\n| --- | --- |\n' if chinese else '| Reference | Contents |\n| --- | --- |\n'
@@ -288,8 +296,8 @@ for chinese in (False, True):
     for topic, english, chinese_name, icon, english_role, chinese_role in reference:
         slot = '<ItemImage id="' + icon + '" />'
         body += '| ' + slot + ' [' + (chinese_name if chinese else english) + '](' + topic + '.md) | ' + (chinese_role if chinese else english_role) + ' |\n'
-    write_page('quick-reference.md', '快速参考' if chinese else 'Quick reference', body, chinese, position=0)
-    write_page('mod-catalogs.md', '模组目录' if chinese else 'Mod catalogs', catalogs_body, chinese, position=1)
+    write_page('quick-reference.md', '快速参考' if chinese else 'Quick reference', body, chinese, icon='minecraft:book', position=0)
+    write_page('mod-catalogs.md', '模组目录' if chinese else 'Mod catalogs', catalogs_body, chinese, icon='minecraft:bookshelf', position=1)
     body += '\n***\n\n' + catalogs_body
     write_page('index.md', 'Astropunk', body, chinese, position=-100)
 

@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Selected optimization systems"
+  title: "Performance"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Selected optimization systems
+# Performance
 
 ## Overview
 

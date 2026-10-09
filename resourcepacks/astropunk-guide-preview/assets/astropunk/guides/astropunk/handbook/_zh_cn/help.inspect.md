@@ -3,6 +3,7 @@ navigation:
   title: "查看方块与生物信息"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
 # 查看方块与生物信息

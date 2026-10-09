@@ -1,5 +1,5 @@
 {
-  "draft_articles": 14,
+  "draft_articles": 64,
   "article_count": 84,
   "category_count": 10,
   "navigation_page_count": 2,
@@ -91,7 +91,7 @@
       "topic": "food.nether",
       "category": "Food and farming",
       "filename": "food.nether.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -102,7 +102,7 @@
       "topic": "food.end",
       "category": "Food and farming",
       "filename": "food.end.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -113,7 +113,7 @@
       "topic": "food.underground",
       "category": "Food and farming",
       "filename": "food.underground.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -124,7 +124,7 @@
       "topic": "food.encounters",
       "category": "Food and farming",
       "filename": "food.encounters.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -135,7 +135,7 @@
       "topic": "food.machine-cooking",
       "category": "Automation and industry",
       "filename": "food.machine-cooking.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -147,7 +147,7 @@
       "topic": "food.growing",
       "category": "Food and farming",
       "filename": "food.growing.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -162,7 +162,7 @@
       "topic": "food.fishing",
       "category": "Food and farming",
       "filename": "food.fishing.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
@@ -185,7 +185,7 @@
       "topic": "storage.bulk",
       "category": "Storage and logistics",
       "filename": "storage.bulk.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -196,7 +196,7 @@
       "topic": "storage.handling",
       "category": "Storage and logistics",
       "filename": "storage.handling.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -221,7 +221,7 @@
       "topic": "machines.rotation",
       "category": "Automation and industry",
       "filename": "machines.rotation.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -232,7 +232,7 @@
       "topic": "machines.logistics",
       "category": "Storage and logistics",
       "filename": "machines.logistics.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -243,7 +243,7 @@
       "topic": "machines.renewables",
       "category": "Automation and industry",
       "filename": "machines.renewables.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -254,7 +254,7 @@
       "topic": "machines.enchanting",
       "category": "Automation and industry",
       "filename": "machines.enchanting.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -266,7 +266,7 @@
       "topic": "machines.trading",
       "category": "Automation and industry",
       "filename": "machines.trading.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -277,7 +277,7 @@
       "topic": "machines.miscellaneous",
       "category": "Player utilities and quality of life",
       "filename": "machines.miscellaneous.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -289,7 +289,7 @@
       "topic": "power.electricity",
       "category": "Automation and industry",
       "filename": "power.electricity.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -300,7 +300,7 @@
       "topic": "power.industry",
       "category": "Automation and industry",
       "filename": "power.industry.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -311,7 +311,7 @@
       "topic": "power.burners",
       "category": "Automation and industry",
       "filename": "power.burners.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -322,7 +322,7 @@
       "topic": "power.stored-rotation",
       "category": "Automation and industry",
       "filename": "power.stored-rotation.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -333,7 +333,7 @@
       "topic": "vehicles.assembly",
       "category": "Vehicles and travel",
       "filename": "vehicles.assembly.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -344,7 +344,7 @@
       "topic": "vehicles.airships",
       "category": "Vehicles and travel",
       "filename": "vehicles.airships.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -356,7 +356,7 @@
       "topic": "vehicles.engines",
       "category": "Vehicles and travel",
       "filename": "vehicles.engines.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -368,7 +368,7 @@
       "topic": "vehicles.controls",
       "category": "Vehicles and travel",
       "filename": "vehicles.controls.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -380,7 +380,7 @@
       "topic": "vehicles.radar",
       "category": "Vehicles and travel",
       "filename": "vehicles.radar.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -391,7 +391,7 @@
       "topic": "vehicles.weapons",
       "category": "Vehicles and travel",
       "filename": "vehicles.weapons.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -402,7 +402,7 @@
       "topic": "vehicles.water",
       "category": "Vehicles and travel",
       "filename": "vehicles.water.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -413,7 +413,7 @@
       "topic": "transport.passenger",
       "category": "Vehicles and travel",
       "filename": "transport.passenger.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -424,7 +424,7 @@
       "topic": "transport.railway-builder",
       "category": "Vehicles and travel",
       "filename": "transport.railway-builder.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -436,7 +436,7 @@
       "topic": "transport.local",
       "category": "Vehicles and travel",
       "filename": "transport.local.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -462,7 +462,7 @@
       "topic": "travel.moving-destinations",
       "category": "Vehicles and travel",
       "filename": "travel.moving-destinations.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -473,7 +473,7 @@
       "topic": "maps.personal",
       "category": "Exploration and adventure",
       "filename": "maps.personal.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -485,7 +485,7 @@
       "topic": "maps.shared",
       "category": "Exploration and adventure",
       "filename": "maps.shared.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -509,7 +509,7 @@
       "topic": "adventure.loot",
       "category": "Exploration and adventure",
       "filename": "adventure.loot.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -545,7 +545,7 @@
       "topic": "adventure.settlements",
       "category": "Exploration and adventure",
       "filename": "adventure.settlements.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -558,7 +558,7 @@
       "topic": "adventure.structures",
       "category": "Exploration and adventure",
       "filename": "adventure.structures.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -577,7 +577,7 @@
       "topic": "adventure.creatures",
       "category": "Exploration and adventure",
       "filename": "adventure.creatures.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -592,7 +592,7 @@
       "topic": "adventure.bosses",
       "category": "Exploration and adventure",
       "filename": "adventure.bosses.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -606,7 +606,7 @@
       "topic": "combat.handling",
       "category": "Combat and character",
       "filename": "combat.handling.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -619,7 +619,7 @@
       "topic": "combat.martial",
       "category": "Combat and character",
       "filename": "combat.martial.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -634,7 +634,7 @@
       "topic": "combat.magic",
       "category": "Combat and character",
       "filename": "combat.magic.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -663,7 +663,7 @@
       "topic": "equipment.weapons-armor",
       "category": "Combat and character",
       "filename": "equipment.weapons-armor.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -675,7 +675,7 @@
       "topic": "equipment.accessories",
       "category": "Combat and character",
       "filename": "equipment.accessories.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -690,7 +690,7 @@
       "topic": "equipment.display",
       "category": "Combat and character",
       "filename": "equipment.display.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -703,7 +703,7 @@
       "topic": "building.palette",
       "category": "Building and decoration",
       "filename": "building.palette.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -717,7 +717,7 @@
       "topic": "building.factory",
       "category": "Building and decoration",
       "filename": "building.factory.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -747,7 +747,7 @@
       "topic": "building.architecture",
       "category": "Building and decoration",
       "filename": "building.architecture.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -765,7 +765,7 @@
       "topic": "building.furniture",
       "category": "Building and decoration",
       "filename": "building.furniture.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -781,7 +781,7 @@
       "topic": "building.displays",
       "category": "Building and decoration",
       "filename": "building.displays.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -796,7 +796,7 @@
       "topic": "building.placement",
       "category": "Building and decoration",
       "filename": "building.placement.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
@@ -810,7 +810,7 @@
       "topic": "building.safety",
       "category": "Building and decoration",
       "filename": "building.safety.md",
-      "drafted": false,
+      "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [

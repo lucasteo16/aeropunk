@@ -3,30 +3,51 @@ navigation:
   title: "携带便携储存装备"
   position: 0
   parent: reference.machines-storage.md
+  icon: create:crushing_wheel
 ---
 
 # 携带便携储存装备
 
-## 概览
+## 潜影盒
 
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />
-  <ItemIcon id="minecraft:chest" />
+  <ItemIcon id="reinfshulker:copper_shulker_box" />
+  <ItemIcon id="reinfshulker:iron_shulker_box" />
+  <ItemIcon id="reinfshulker:gold_shulker_box" />
+  <ItemIcon id="reinfshulker:diamond_shulker_box" />
+  <ItemIcon id="reinfshulker:netherite_shulker_box" />
 </ItemGrid>
 
-| 模组 | 储存功能 |
+| 物品与系列 | 用途 |
 | --- | --- |
-| Backpacks! | 可染色与升级的背包 |
-| Reinforced Shulker Boxes | 强化便携容器 |
-| Easy Shulker Boxes | 潜影盒内容交互 |
+| <ItemLink id="minecraft:shulker_box" /> | 原版便携容器，破坏后保留内容。 |
+| <ItemLink id="reinfshulker:copper_shulker_box" />, <ItemLink id="reinfshulker:iron_shulker_box" /> | Reinforced Shulker Boxes 的铜与铁系列。 |
+| <ItemLink id="reinfshulker:gold_shulker_box" />, <ItemLink id="reinfshulker:diamond_shulker_box" />, <ItemLink id="reinfshulker:netherite_shulker_box" /> | 金、钻石与下界合金系列，各有染色变体。 |
 
-查看各容器的配方、容量和提示。工厂库存见[大批原料储存](storage.bulk.md)。
+***
 
-## 相关模组
+## 取用与升级
 
-| 模组或内容 | 官方简介 |
+<ItemGrid>
+  <ItemIcon id="minecraft:leather" />
+  <ItemIcon id="minecraft:chest" />
+  <ItemIcon id="minecraft:ender_chest" />
+  <ItemIcon id="minecraft:shulker_shell" />
+</ItemGrid>
+
+| 物品与系列 | 用途 |
 | --- | --- |
-| Backpacks! | Dyeable and upgradeable vanilla-friendly backpacks! |
-| Easy Shulker Boxes | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
-| Reinforced Shulker Boxes | Adds reinforced shulker boxes. |
-| Shulker Drops Two | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
+| <ItemLink id="minecraft:leather" />, <ItemLink id="minecraft:chest" /> | Backpacks! 的小型、普通、大型和巨大背包分别有三个、九个、十八个和四十个槽位，另有染色与主题外观。 |
+| <ItemLink id="minecraft:ender_chest" /> | Backpacks! 还提供末影背包。 |
+| <ItemLink id="minecraft:shulker_shell" /> | Shulker Drops Two 默认将壳的掉落数量设为两个，但仍有掉落概率，除非修改设置；Easy Shulker Boxes 为支持的容器提供背包内取用。 |
+
+***
+
+## 初次使用
+
+用八张皮革围住箱子制作小型背包。在锻造台用箱子和铁锭进行首次升级，后续使用钻石，再使用下界合金升级模板与下界合金锭。工厂容器见[大宗储存](storage.bulk.md)。
+
+<Recipe id="backpacks:crafting_table/small" />
+
+<Recipe id="backpacks:crafting_table/ender" />

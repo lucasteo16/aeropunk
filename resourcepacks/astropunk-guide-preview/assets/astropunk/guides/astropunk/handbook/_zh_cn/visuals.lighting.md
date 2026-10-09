@@ -3,6 +3,7 @@ navigation:
   title: "选择光影、动态光源与远景"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
 # 选择光影、动态光源与远景

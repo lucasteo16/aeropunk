@@ -3,19 +3,30 @@ navigation:
   title: "Building"
   position: 9
   parent: quick-reference.md
+  icon: minecraft:bricks
 ---
 
 # Building
 
-## Contents
+## Materials & shapes
 
-| Topic | Status |
-| --- | --- |
-| [Decorative material palettes](building.palette.md) | WIP |
-| [Decorate workshops and stations](building.factory.md) | WIP |
-| [Copycat shapes](building.copycats.md) | Reference |
-| [Build bridges, roofs and boundaries](building.architecture.md) | WIP |
-| [Furnish homes and shared spaces](building.furniture.md) | WIP |
-| [Make displays, paintings, signs and statues](building.displays.md) | WIP |
-| [Place palettes and schematic patterns](building.placement.md) | WIP |
-| [Inspect lighting and manage spawning](building.safety.md) | WIP |
+<ItemGrid>
+  <ItemIcon id="chipped:mason_table" />
+  <ItemIcon id="copycats:copycat_slope" />
+  <ItemIcon id="mcwroofs:oak_roof" />
+</ItemGrid>
+
+[Materials](building.palette.md) groups Chipped wood, stone, glass, wool, plants, minerals and lighting by their seven workstations. [Factory finishes](building.factory.md) covers colored bricks, catwalks, girders, metal plating, casings and glazing. [Copycat shapes](building.copycats.md) catalogs blocks, layers, slopes, openings, redstone parts and machine shapes. [Architecture](building.architecture.md) covers bridges, roofs, stairs, doors, windows, fences and chains.
+
+***
+
+## Rooms & tools
+
+<ItemGrid>
+  <ItemIcon id="handcrafted:oak_chair" />
+  <ItemIcon id="immersive_paintings:painting" />
+  <ItemIcon id="mechtrowel:mech_trowel" />
+  <ItemIcon id="torchmaster:megatorch" />
+</ItemGrid>
+
+[Furniture](building.furniture.md) includes seating, tables, storage furniture, beds, plants, lamps and crockery. [Displays](building.displays.md) covers paintings, signs, posed armor stands, straw statues and item displays. [Placement](building.placement.md) covers random palettes, weighted filters and schematics. [Lighting & spawning](building.safety.md) separates illumination from spawn suppression.

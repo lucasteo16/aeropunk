@@ -3,6 +3,7 @@ navigation:
   title: "了解管理员与诊断工具"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
 # 了解管理员与诊断工具

@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Technical reference"
+  title: "Technical"
   position: 9
   parent: mod-catalogs.md
   icon: minecraft:redstone
 ---
 
-# Technical reference
+# Technical
 
 ## Technical Components
 
@@ -117,11 +117,11 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Selected optimization systems](performance.baseline.md) | WIP |
-| [Review deferred optimizer additions](performance.deferred.md) | WIP |
-| [Administrator and diagnostic tools](server.tools.md) | WIP |
-| [Deferred pack loading](server.deferred-pack-loading.md) | WIP |
-| [Moving-build and visual bridges](technical.bridges.md) | WIP |
-| [The deferred space rendering bridge](technical.space-bridge.md) | WIP |
-| [Supporting libraries and frameworks](technical.libraries.md) | WIP |
-| [Astropunk handbook](help.handbook.md) | Reference |
+| [Performance](performance.baseline.md) | WIP |
+| [Deferred optimizers](performance.deferred.md) | WIP |
+| [Server tools](server.tools.md) | WIP |
+| [Deferred loading](server.deferred-pack-loading.md) | WIP |
+| [Compatibility](technical.bridges.md) | WIP |
+| [Space compatibility](technical.space-bridge.md) | WIP |
+| [Libraries](technical.libraries.md) | WIP |
+| [Handbook](help.handbook.md) | Reference |

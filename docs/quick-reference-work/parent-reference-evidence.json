@@ -1,0 +1,15 @@
+{
+  "interface_images": "EMI publisher gallery supplies recipe-screen and recipe-tree images; clean Stardust website images replace logo banners",
+  "maps_sources": [
+    "https://api.modrinth.com/v2/project/stTaMuWa",
+    "https://api.modrinth.com/v2/project/NcUtCpym"
+  ],
+  "map_scope": "World Map explored-terrain synchronization is distinct from waypoint and player sharing; provider explicitly lists waypoint synchronization as planned",
+  "compass_item_models": [
+    "assets/naturescompass/models/item/naturescompass.json",
+    "assets/explorerscompass/models/item/explorerscompass.json"
+  ],
+  "controls": "Retains existing registered current KeyBind identifiers shown in user screenshot; defaults kept separate; no options edited",
+  "dimension_evidence_file": "dimensions-released-evidence.json",
+  "visual_evidence_file": "parent-visuals.json"
+}

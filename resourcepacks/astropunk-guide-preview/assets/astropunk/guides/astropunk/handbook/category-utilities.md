@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Player utilities and quality of life"
+  title: "Utilities"
   position: 7
   parent: mod-catalogs.md
   icon: minecraft:white_bed
 ---
 
-# Player utilities and quality of life
+# Utilities
 
 ## Player Utility Mods
 
@@ -41,10 +41,10 @@ navigation:
 | Topic | Status |
 | --- | --- |
 | [Item recipe](help.search.md) | Reference |
-| [Inspect blocks and creatures](help.inspect.md) | WIP |
-| [Controls and key bindings](help.controls.md) | Reference |
-| [Existing demonstrations and information screens](help.reference.md) | WIP |
-| [Workshop tools](machines.miscellaneous.md) | WIP |
-| [Recover after death](adventure.recovery.md) | WIP |
-| [Sleep and plan the day](adventure.sleep.md) | WIP |
+| [Block & mob info](help.inspect.md) | WIP |
+| [Controls](help.controls.md) | Reference |
+| [Existing help](help.reference.md) | WIP |
+| [Workshop tools](machines.miscellaneous.md) | Reference |
+| [Death & recovery](adventure.recovery.md) | WIP |
+| [Sleep](adventure.sleep.md) | WIP |
 | [Carry On](interactions.carry.md) | Reference |

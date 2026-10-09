@@ -1,22 +1,41 @@
 ---
 navigation:
-  title: "Make displays, paintings, signs and statues"
+  title: "Displays"
   position: 0
   parent: reference.building.md
+  icon: minecraft:bricks
 ---
 
-# Make displays, paintings, signs and statues
+# Displays
 
-## Overview
+## Paintings & lettering
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="immersive_paintings:painting" />
+  <ItemIcon id="immersive_paintings:glow_painting" />
+  <ItemIcon id="immersive_paintings:graffiti" />
+  <ItemIcon id="immersive_paintings:glow_graffiti" />
+  <ItemIcon id="minecraft:oak_sign" />
+</ItemGrid>
 
-## Related mods
+Immersive Paintings supplies paintings, graffiti and glowing forms. Big Sign Writer expands sign lettering. Use their editing interfaces for image and lettering options.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Armor Poser | Adds a GUI for armor stands in which you can configure it's pose and other properties |
-| Big Sign Writer | Easily write large, multi-line characters and symbols on signs! |
-| Immersive Paintings | Drag and drop, pixelate and hang up beautiful art. On servers too. |
-| Items Displayed [NeoForge] | A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests! |
-| Straw Statues | Bring some life to your builds with player statues of your favorite Minecrafters! |
+***
+
+## Poses & objects
+
+<ItemGrid>
+  <ItemIcon id="minecraft:armor_stand" />
+  <ItemIcon id="strawstatues:straw_statue" />
+  <ItemIcon id="items_displayed:black_jewelry_pillow" />
+  <ItemIcon id="items_displayed:blue_jewelry_pillow" />
+  <ItemIcon id="items_displayed:brown_jewelry_pillow" />
+</ItemGrid>
+
+Armor Poser edits armor stand limbs, position, rotation and presets. Sneak and right-click an armor stand to open its enabled posing interface. Straw Statues adds a separate Straw Statue. Items Displayed supplies display pillows in sixteen colors and presentations for supported items; display models are not additional collectible items.
+
+***
+
+## Crafting
+
+<Recipe id="immersive_paintings:graffiti" />

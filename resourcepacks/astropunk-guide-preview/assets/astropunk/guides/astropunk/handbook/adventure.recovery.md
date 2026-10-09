@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Recover after death"
+  title: "Death & recovery"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
-# Recover after death
+# Death & recovery
 
 ## Overview
 

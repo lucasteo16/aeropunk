@@ -3,6 +3,7 @@ navigation:
   title: "选择资源包外观"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
 # 选择资源包外观

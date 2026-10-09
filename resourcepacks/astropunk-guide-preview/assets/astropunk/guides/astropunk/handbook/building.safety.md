@@ -1,19 +1,32 @@
 ---
 navigation:
-  title: "Inspect lighting and manage spawning"
+  title: "Lighting & safety"
   position: 0
   parent: reference.building.md
+  icon: minecraft:bricks
 ---
 
-# Inspect lighting and manage spawning
+# Lighting & safety
 
-## Overview
+## Light & spawning
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="torchmaster:megatorch" />
+  <ItemIcon id="torchmaster:dreadlamp" />
+  <ItemIcon id="torchmaster:feral_flare_lantern" />
+  <ItemIcon id="torchmaster:frozen_pearl" />
+</ItemGrid>
 
-## Related mods
+Mega Torch suppresses natural hostile spawning. Dread Lamp suppresses natural passive spawning. Feral Flare Lantern places invisible lights; Frozen Pearl clears residual lantern lights. Suppression radius and spawner behavior depend on server settings, so a torch is not a guarantee against every encounter.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Lighty | The Light Overlay Mod with a twist! |
-| TorchMaster | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |
+***
+
+## Light overlay
+
+Lighty displays block light and sky light, with number, carpet and cross modes. Open <KeyBind id="key.lighty.enable" /> or toggle <KeyBind id="key.lighty.toggle" />. Its farmland overlay checks growth lighting; it does not alter light or prevent spawning.
+
+***
+
+## Crafting
+
+<Recipe id="torchmaster:frozen_pearl" />

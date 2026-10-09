@@ -1,0 +1,146 @@
+{
+  "parent-incendium-terrain.png": {
+    "resource": "images/parent-incendium-terrain.png",
+    "metadata_path": "mods/incendium.pw.toml",
+    "source_url": "https://images.squarespace-cdn.com/content/v1/6240c1f3e10b50416d969a84/de1048d3-5b1b-42ea-a2ef-d535fbe79ebb/2022-06-10_13.53.39.png",
+    "project_url": "https://modrinth.com/project/ZVzW5oNS",
+    "project_id": "ZVzW5oNS",
+    "kind": "publisher image",
+    "caption": "Nether terrain",
+    "license": {
+      "id": "LicenseRef-Stardust-Labs-License",
+      "name": "",
+      "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+    },
+    "original_sha256": "7133286443d4569c96cec0f7e225f44c9c197ebda15e3ad90ab80aa2e8165de7",
+    "resized_sha256": "de6c307a63f3ffa32a10d12c101953ac7495d2ef784ae8dd4fa9d69d5e26ea50",
+    "original_size": [
+      2500,
+      1406
+    ],
+    "image_size": [
+      1600,
+      900
+    ]
+  },
+  "parent-nullscape-terrain.png": {
+    "resource": "images/parent-nullscape-terrain.png",
+    "metadata_path": "mods/nullscape.pw.toml",
+    "source_url": "https://images.squarespace-cdn.com/content/v1/6240c1f3e10b50416d969a84/6ccc9911-ce65-4633-978a-b184010ae4f0/2022-06-08_14.28.00.png",
+    "project_url": "https://modrinth.com/project/LPjGiSO4",
+    "project_id": "LPjGiSO4",
+    "kind": "publisher image",
+    "caption": "End terrain",
+    "license": {
+      "id": "LicenseRef-Stardust-Labs-License",
+      "name": "",
+      "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+    },
+    "original_sha256": "e3ff019bdaee422ef807947978d18d7dc37a68453e61add9581a7866cff290eb",
+    "resized_sha256": "ed5fe2c3adc84864441c5898ea38d382d797270bd5cb5ddc8b0cb49b75fe2051",
+    "original_size": [
+      2500,
+      1406
+    ],
+    "image_size": [
+      1600,
+      900
+    ]
+  },
+  "parent-emi-recipes.png": {
+    "resource": "images/parent-emi-recipes.png",
+    "metadata_path": "mods/emi.pw.toml",
+    "source_url": "https://cdn.modrinth.com/data/fRiHVvU7/images/0d3b5b33d0016b21834ce6f3602169f7c48de13f.png",
+    "project_url": "https://modrinth.com/project/fRiHVvU7",
+    "project_id": "fRiHVvU7",
+    "kind": "publisher image",
+    "caption": "Recipe screen",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "aac569aea1411cf55becd49f2b185cf4d7fccc7e8599606195f3c623c78c53c5",
+    "resized_sha256": "cdbf39a4e76efc88afd660504620f9a91dff18df111acc0037ec523d054ddbab",
+    "original_size": [
+      2560,
+      1440
+    ],
+    "image_size": [
+      1600,
+      900
+    ]
+  },
+  "parent-emi-tree.png": {
+    "resource": "images/parent-emi-tree.png",
+    "metadata_path": "mods/emi.pw.toml",
+    "source_url": "https://cdn.modrinth.com/data/fRiHVvU7/images/f3c8b452eae6dde028c37e3a3e3792459468d865.png",
+    "project_url": "https://modrinth.com/project/fRiHVvU7",
+    "project_id": "fRiHVvU7",
+    "kind": "publisher image",
+    "caption": "Recipe tree",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "c9be34819f15403259cb644fce250cd4e3073ff31bf22d0fd9cc5b3382d17e84",
+    "resized_sha256": "a44878f3b7556cfaa673f8b5ebb82469207ac6cd3f60771cfec961bc027a07b2",
+    "original_size": [
+      2300,
+      1280
+    ],
+    "image_size": [
+      1600,
+      890
+    ]
+  },
+  "parent-deep-seas-submarine.png": {
+    "resource": "images/parent-deep-seas-submarine.png",
+    "metadata_path": "mods/create-deep-seas.pw.toml",
+    "source_url": "https://cdn.modrinth.com/data/mva5q4qZ/images/6194fb94ce872b945b9263ceb05e1297a66574d4.png",
+    "project_url": "https://modrinth.com/project/mva5q4qZ",
+    "project_id": "mva5q4qZ",
+    "kind": "publisher image",
+    "caption": "Copper submarine",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "27d03f19527a0d318d1c030e6c42cd23a9c905dd2a93feb4102ac26bd869874b",
+    "resized_sha256": "81cf2fd93e4c6b97c05c2582a83ef5ea2cfd0f7e895da60e3652fd59640c2532",
+    "original_size": [
+      1920,
+      1009
+    ],
+    "image_size": [
+      1600,
+      841
+    ]
+  },
+  "parent-world-map.png": {
+    "resource": "images/parent-world-map.png",
+    "metadata_path": "mods/xaeros-world-map.pw.toml",
+    "source_url": "https://chocolateminecraft.com/images/worldmapbanner.png",
+    "project_url": "https://modrinth.com/project/NcUtCpym",
+    "project_id": "NcUtCpym",
+    "kind": "publisher image",
+    "caption": "World map",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "626862e651c30ce978458df1cd0c8897912a5292794be15cf11f3ffb1642eacd",
+    "resized_sha256": "c8d1eaaaf741f124e830342921dc351332e646e6521e74072ac49f2182f49ee6",
+    "original_size": [
+      1152,
+      768
+    ],
+    "image_size": [
+      1152,
+      768
+    ]
+  }
+}

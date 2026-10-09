@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Deferred pack loading"
+  title: "Deferred loading"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Deferred pack loading
+# Deferred loading
 
 ## Overview
 

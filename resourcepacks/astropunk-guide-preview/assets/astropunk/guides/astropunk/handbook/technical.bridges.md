@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Moving-build and visual bridges"
+  title: "Compatibility"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Moving-build and visual bridges
+# Compatibility
 
 ## Overview
 

@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Storage and logistics"
+  title: "Storage & logistics"
   position: 1
   parent: mod-catalogs.md
   icon: minecraft:chest
 ---
 
-# Storage and logistics
+# Storage & logistics
 
 ## Storage Mods
 
@@ -30,6 +30,6 @@ navigation:
 | Topic | Status |
 | --- | --- |
 | [Portable storage](storage.portable.md) | Reference |
-| [Store bulk workshop materials](storage.bulk.md) | WIP |
-| [Sort, transfer and discard items](storage.handling.md) | WIP |
-| [Move, filter and distribute materials](machines.logistics.md) | WIP |
+| [Bulk storage](storage.bulk.md) | Reference |
+| [Inventory tools](storage.handling.md) | Reference |
+| [Item routing](machines.logistics.md) | Reference |

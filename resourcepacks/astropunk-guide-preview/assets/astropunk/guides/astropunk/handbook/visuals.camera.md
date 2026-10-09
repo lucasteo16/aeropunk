@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Adjust camera and window comfort"
+  title: "Camera"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Adjust camera and window comfort
+# Camera
 
 ## Overview
 

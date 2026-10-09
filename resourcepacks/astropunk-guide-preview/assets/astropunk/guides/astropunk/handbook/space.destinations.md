@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Compare future space destinations"
+  title: "Space (not installed)"
   position: 0
   parent: category-travel.md
+  icon: minecraft:minecart
 ---
 
-# Compare future space destinations
+# Space (not installed)
 
 ## Overview
 

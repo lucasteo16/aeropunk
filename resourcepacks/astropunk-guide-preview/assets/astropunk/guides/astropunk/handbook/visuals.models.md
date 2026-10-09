@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Adjust models and animations"
+  title: "Models & animations"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Adjust models and animations
+# Models & animations
 
 ## Overview
 

@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Adjust notifications and information displays"
+  title: "Interface"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Adjust notifications and information displays
+# Interface
 
 ## Overview
 

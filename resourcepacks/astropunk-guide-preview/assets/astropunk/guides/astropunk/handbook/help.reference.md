@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Existing demonstrations and information screens"
+  title: "Existing help"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
-# Existing demonstrations and information screens
+# Existing help
 
 ## Overview
 

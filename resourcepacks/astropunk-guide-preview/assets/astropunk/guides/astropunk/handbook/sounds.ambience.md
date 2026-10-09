@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Adjust sounds and acoustic effects"
+  title: "Sound"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
-# Adjust sounds and acoustic effects
+# Sound
 
 ## Overview
 

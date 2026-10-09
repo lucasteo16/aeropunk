@@ -1,19 +1,25 @@
 ---
 navigation:
-  title: "Share map information"
+  title: "Shared maps"
   position: 0
   parent: maps.personal.md
+  icon: minecraft:map
 ---
 
-# Share map information
+# Shared maps
 
-## Overview
+## Shared terrain
 
-Work in progress (WIP).
+![Shared map terrain](images/parent-world-map.png)
 
-## Related mods
+Xaero's Maps: Multiplayer+ synchronizes explored world-map terrain between players when the addon is installed on the server and participating clients.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Team Capes (heavy edition, not installed here) | Not installed here. |
-| Xaero's Maps: Multiplayer+ | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |
+Terrain sharing, waypoint sharing and player tracking are separate features. Do not assume another player's waypoints are copied with their terrain.
+
+***
+
+## Getting started
+
+Open [Maps](maps.personal.md) after joining the server. Let synchronization update the explored areas before treating an empty region as unexplored.
+
+Cave synchronization can disable World Map's cave-layer selector. This does not mean the Minimap's cave display is also disabled.

@@ -3,6 +3,7 @@ navigation:
   title: "调整通知与信息界面"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
 # 调整通知与信息界面

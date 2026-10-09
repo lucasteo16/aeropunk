@@ -2,6 +2,7 @@
 navigation:
   title: "快速参考"
   position: 0
+  icon: minecraft:book
 ---
 
 # 快速参考

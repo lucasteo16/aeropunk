@@ -3,17 +3,31 @@ navigation:
   title: "地图"
   position: 12
   parent: quick-reference.md
+  icon: minecraft:map
 ---
 
 # 地图
 
-## 概览
+## 世界地图
 
-编写中（WIP）。
+![世界地图](images/parent-world-map.png)
 
-## 相关模组
+Xaero's World Map 记录已探索地形。按 <KeyBind id="gui.xaero_open_map" /> 打开，用鼠标滚轮缩放。
 
-| 模组或内容 | 官方简介 |
+***
+
+## 路标
+
+用 <KeyBind id="gui.xaero_waypoints_key" /> 管理路标。标记基地、传送门或有用地点，方便返回。
+
+地图传送取决于服务器权限；创建路标不会获得生存模式传送能力。
+
+***
+
+## 查找与共享
+
+| 需求 | 参考 |
 | --- | --- |
-| Xaero's Minimap | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked. |
-| Xaero's World Map | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
+| 生物群系或结构 | [地点查找](maps.find.md) |
+| 共享已探索地形 | [共享地图](maps.shared.md) |
+| 维度入口 | [维度](world.dimensions.md) |

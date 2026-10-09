@@ -3,33 +3,37 @@ navigation:
   title: "Item recipe"
   position: 1
   parent: quick-reference.md
+  icon: minecraft:crafting_table
 ---
 
 # Item recipe
 
-## Recipes and uses
+## Recipes & uses
 
-| Goal | Action |
+![Recipe interface](images/parent-emi-recipes.png)
+
+Ingredients and results appear in the center; searchable items sit on the right.
+
+| Find | Action |
 | --- | --- |
-| Obtain an item | Hover it in your inventory and press R |
-| Find what an ingredient makes | Hover it and press U |
-| Browse one mod | Type @create or @farmersdelight in the item search |
+| How to make an item | Hover it and press R |
+| What an ingredient makes | Hover it and press U |
+| One mod's items | Search @create or @farmersdelight |
 
-Recipe and use keys belong to the item browser, not this handbook. Change them in its settings.
+These are defaults. Change them in the item browser settings.
 
-## Existing help
+***
 
-Create machines show a Ponder prompt in their tooltips. Hold the displayed key for the demonstration. [Controls](help.controls.md) explains how to change bindings.
+## Recipe tree
 
-Polymorph lets you choose between conflicting crafting results.
+![Recipe tree](images/parent-emi-tree.png)
 
-## Related mods
+Use the recipe tree to see intermediate crafts and base ingredients. It plans a craft, rather than replacing the machines or workstations that perform it.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| EMI | A featureful and accessible item and recipe viewer |
-| EMI Enchanting | EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc. |
-| EMI professions (EMIP) | An EMI addon that adds profession workstations |
-| Polymorph | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
-| Reliable EMI (REMI) | A mod adding many configurable features to EMI! |
-| ToolTipFix | Fixes Tooltips from runnning off the screen. |
+***
+
+## Getting started
+
+Open your inventory, search for the item, then inspect its recipe. Follow unfamiliar ingredients back through their recipes.
+
+For Create assembly, hold the Ponder key shown in the item's tooltip. Polymorph selects between conflicting crafting results.

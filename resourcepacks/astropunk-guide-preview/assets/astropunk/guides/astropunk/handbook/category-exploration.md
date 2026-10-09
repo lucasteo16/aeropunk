@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Exploration and adventure"
+  title: "Exploration"
   position: 6
   parent: mod-catalogs.md
   icon: minecraft:compass
 ---
 
-# Exploration and adventure
+# Exploration
 
 ## Exploration Mods
 
@@ -59,12 +59,12 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Maps](maps.personal.md) | WIP |
-| [Share map information](maps.shared.md) | WIP |
-| [Biome and structure finders](maps.find.md) | Reference |
-| [Share and inspect adventure loot](adventure.loot.md) | WIP |
-| [Settlements and spell libraries](adventure.settlements.md) | WIP |
-| [Structures and dungeons](adventure.structures.md) | WIP |
-| [Creatures](adventure.creatures.md) | WIP |
-| [Bosses](adventure.bosses.md) | WIP |
+| [Maps](maps.personal.md) | Reference |
+| [Shared maps](maps.shared.md) | Reference |
+| [Location finders](maps.find.md) | Reference |
+| [Loot](adventure.loot.md) | Reference |
+| [Settlements](adventure.settlements.md) | Reference |
+| [Structures](adventure.structures.md) | Reference |
+| [Creatures](adventure.creatures.md) | Reference |
+| [Bosses](adventure.bosses.md) | Reference |
 | [Dimensions](world.dimensions.md) | Reference |

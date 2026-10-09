@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Administrator and diagnostic tools"
+  title: "Server tools"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Administrator and diagnostic tools
+# Server tools
 
 ## Overview
 

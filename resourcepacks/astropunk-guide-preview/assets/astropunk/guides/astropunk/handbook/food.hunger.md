@@ -1,13 +1,14 @@
 ---
 navigation:
-  title: "Hunger and food variety"
+  title: "Hunger & variety"
   position: 0
   parent: reference.food.md
+  icon: minecraft:apple
 ---
 
-# Hunger and food variety
+# Hunger & variety
 
-## Overview
+## Hunger & saturation
 
 <ItemGrid>
   <ItemIcon id="minecraft:apple" />
@@ -15,18 +16,25 @@ navigation:
   <ItemIcon id="minecraft:cooked_beef" />
 </ItemGrid>
 
-| Mod | What to inspect |
-| --- | --- |
-| AppleSkin | Food tooltips show hunger and saturation |
-| Short Stacks | Food stack limits vary with filling power |
-| Spice of Life Onion | The Food Book tracks dietary variety |
+AppleSkin shows hunger and saturation in food tooltips. Hunger refills the visible bar; saturation delays its next loss. Compare both before packing.
 
-Compare tooltip values before packing. [Cooking tools](food.utensils.md) introduces the kitchen.
+***
 
-## Related mods
+## Variety & containers
 
-| Mod or content | Publisher description |
-| --- | --- |
-| AppleSkin | Food/hunger-related HUD improvements |
-| Short Stacks | Food stack limits vary with filling power. |
-| Spice of Life Onion | A mod designed to encourage dietary variety! |
+<ItemGrid>
+  <ItemIcon id="solonion:food_book" />
+  <ItemIcon id="solonion:lunchbag" />
+  <ItemIcon id="solonion:lunchbox" />
+  <ItemIcon id="solonion:golden_lunchbox" />
+</ItemGrid>
+
+The Food Book records your diet and current variety rewards. Eating the same food refreshes that food in the history; it does not create a second distinct food. Keep a mix of meals rather than treating lifetime discoveries as a permanent reward.
+
+***
+
+## Expedition food
+
+Short Stacks changes food stack limits. Read the actual tooltip and stack limit rather than assuming every meal stacks like bread. Food effects, filling power and dietary variety are different properties.
+
+[Kitchen meals](food.utensils.md), [crops](food.growing.md) and [fish](food.fishing.md).

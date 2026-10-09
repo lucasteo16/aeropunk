@@ -1,18 +1,40 @@
 ---
 navigation:
-  title: "Travel as a train passenger"
+  title: "Train travel"
   position: 0
   parent: reference.vehicles.md
+  icon: minecraft:minecart
 ---
 
-# Travel as a train passenger
+# Train travel
 
-## Overview
+## Routes & stops
 
-Work in progress (WIP).
+<ItemGrid>
+  <ItemIcon id="createrailwaysnavigator:navigator" />
+  <ItemIcon id="createrailwaysnavigator:train_station_clock" />
+</ItemGrid>
 
-## Related mods
+Create Railways Navigator searches existing train connections between stations and shows stopovers and live journey information. Getting started: craft a Navigator, choose departure and destination stations, then inspect the proposed train and transfer stops. It finds services; it does not build a railway or teleport passengers.
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Create Railways Navigator | A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more. |
+***
+
+## Passenger displays
+
+<ItemGrid>
+  <ItemIcon id="createrailwaysnavigator:advanced_display" />
+  <ItemIcon id="createrailwaysnavigator:advanced_display_block" />
+  <ItemIcon id="createrailwaysnavigator:advanced_display_half_panel" />
+  <ItemIcon id="createrailwaysnavigator:advanced_display_panel" />
+  <ItemIcon id="createrailwaysnavigator:advanced_display_slab" />
+  <ItemIcon id="createrailwaysnavigator:advanced_display_sloped" />
+  <ItemIcon id="createrailwaysnavigator:advanced_display_small" />
+</ItemGrid>
+
+Display families include board, block, panel, half panel, slab, sloped and small forms. Configure them with a wrench for train destination, passenger information, platform, departure board or static text. Platform displays belong at stations rather than on trains. See [railway building](transport.railway-builder.md).
+
+***
+
+## Crafting
+
+<Recipe id="createrailwaysnavigator:advanced_display" />

@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Building and decoration"
+  title: "Building"
   position: 3
   parent: mod-catalogs.md
   icon: minecraft:bricks
 ---
 
-# Building and decoration
+# Building
 
 ## Building Mods
 
@@ -58,12 +58,12 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Decorative material palettes](building.palette.md) | WIP |
-| [Decorate workshops and stations](building.factory.md) | WIP |
+| [Materials](building.palette.md) | Reference |
+| [Factory decor](building.factory.md) | Reference |
 | [Copycat shapes](building.copycats.md) | Reference |
-| [Build bridges, roofs and boundaries](building.architecture.md) | WIP |
-| [Furnish homes and shared spaces](building.furniture.md) | WIP |
-| [Make displays, paintings, signs and statues](building.displays.md) | WIP |
-| [Place palettes and schematic patterns](building.placement.md) | WIP |
-| [Inspect lighting and manage spawning](building.safety.md) | WIP |
+| [Architecture](building.architecture.md) | Reference |
+| [Furniture](building.furniture.md) | Reference |
+| [Displays](building.displays.md) | Reference |
+| [Placement tools](building.placement.md) | Reference |
+| [Lighting & safety](building.safety.md) | Reference |
 | [Building](reference.building.md) | Reference |

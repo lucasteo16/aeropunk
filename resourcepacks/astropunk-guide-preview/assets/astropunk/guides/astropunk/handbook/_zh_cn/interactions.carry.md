@@ -3,6 +3,7 @@ navigation:
   title: "搬运方块与生物"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
 # 搬运方块与生物

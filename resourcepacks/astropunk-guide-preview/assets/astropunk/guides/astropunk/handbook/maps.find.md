@@ -1,31 +1,28 @@
 ---
 navigation:
-  title: "Biome and structure finders"
+  title: "Location finders"
   position: 0
   parent: maps.personal.md
+  icon: minecraft:map
 ---
 
-# Biome and structure finders
+# Location finders
 
-## Overview
+## Compasses
 
-<ItemGrid>
-  <ItemIcon id="minecraft:compass" />
-  <ItemIcon id="minecraft:map" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="naturescompass:naturescompass" /><ItemIcon id="explorerscompass:explorerscompass" /></ItemGrid>
 
-| Mod | Finds |
+| Tool | Finds |
 | --- | --- |
-| Nature's Compass | Biomes |
-| Explorer's Compass | Structures |
+| Nature's Compass | Biomes, including supported modded biomes |
+| Explorer's Compass | Structures, including supported modded structures |
 
-Inspect the compass recipe and its destination list. Search results depend on the world.
+A compass searches the current dimension. A failed search does not prove a feature is absent from the whole world.
 
-Record a destination with [personal maps](maps.personal.md). Browse [landscapes](world.dimensions.md), [settlements](adventure.settlements.md) and [structures](adventure.structures.md) for places to visit.
+***
 
-## Related mods
+## Getting started
 
-| Mod or content | Publisher description |
-| --- | --- |
-| Explorer's Compass | Allows you to locate structures anywhere in the world. |
-| Nature's Compass | Allows you to locate biomes anywhere in the world. |
+Find the compass in [Item recipe](help.search.md), craft it, then use it to choose a destination. Follow its bearing and distance; save a waypoint once you arrive.
+
+Search limits and server restrictions can affect results. Use [Dimensions](world.dimensions.md) to choose the destination dimension first.

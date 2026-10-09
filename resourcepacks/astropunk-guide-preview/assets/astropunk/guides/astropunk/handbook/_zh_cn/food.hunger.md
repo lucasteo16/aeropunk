@@ -3,11 +3,12 @@ navigation:
   title: "饥饿、饮食多样性与食物携带"
   position: 0
   parent: reference.food.md
+  icon: minecraft:apple
 ---
 
 # 饥饿、饮食多样性与食物携带
 
-## 概览
+## 饥饿值与饱和度
 
 <ItemGrid>
   <ItemIcon id="minecraft:apple" />
@@ -15,18 +16,25 @@ navigation:
   <ItemIcon id="minecraft:cooked_beef" />
 </ItemGrid>
 
-| 模组 | 查看内容 |
-| --- | --- |
-| AppleSkin | 食物提示中的饥饿值与饱和度 |
-| Short Stacks | 随饱腹能力变化的堆叠上限 |
-| Spice of Life Onion | 食物手册中的饮食多样性记录 |
+AppleSkin 在食物提示中显示饥饿值和饱和度。饥饿值补充可见的饥饿条，饱和度延缓下一次消耗。出发前同时比较两者。
 
-出发前比较食物提示。厨房工具见[烹饪工具](food.utensils.md)。
+***
 
-## 相关模组
+## 饮食多样性与容器
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| AppleSkin | Food/hunger-related HUD improvements |
-| Short Stacks | 食物堆叠上限随饱腹能力变化。 |
-| Spice of Life Onion | A mod designed to encourage dietary variety! |
+<ItemGrid>
+  <ItemIcon id="solonion:food_book" />
+  <ItemIcon id="solonion:lunchbag" />
+  <ItemIcon id="solonion:lunchbox" />
+  <ItemIcon id="solonion:golden_lunchbox" />
+</ItemGrid>
+
+食物手册记录当前饮食和多样性奖励。重复吃同一种食物会刷新它在历史中的记录，不会增加一种新食物。搭配不同料理，不要把曾经吃过的品种当作永久奖励。
+
+***
+
+## 远行口粮
+
+Short Stacks 会调整食物堆叠上限。查看实际提示和堆叠上限，不要假定所有料理都像面包一样堆叠。食物效果、饱腹能力和饮食多样性是不同属性。
+
+另见[厨房料理](food.utensils.md)、[作物](food.growing.md)和[鱼类](food.fishing.md)。

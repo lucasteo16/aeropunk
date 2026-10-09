@@ -1,0 +1,47 @@
+{
+  "furniture": {
+    "resource": "images/building-travel-furniture.png",
+    "source_url": "https://cdn.modrinth.com/data/pJmCFF0p/images/e0e54f71028553fbbec0d50543766d7b91c36c75.png",
+    "project_url": "https://modrinth.com/project/pJmCFF0p",
+    "project_id": "pJmCFF0p",
+    "publisher": "Handcrafted",
+    "kind": "publisher screenshot",
+    "license": {
+      "id": "LicenseRef-Terrarium-Licence",
+      "name": "",
+      "url": "https://github.com/terrarium-earth/Handcrafted/blob/1.19.2/LICENSE"
+    },
+    "original_sha256": "3b900f2a286177fcd1c7b2d7f34ebef90550ca4c2acd6d37e12f755c81a3e772",
+    "resized_sha256": "eeb5147a03c4de4b7fbb8bf1baff600038e52519b2c7ac52fbd850bb103a7c1b",
+    "dimensions": [
+      1280,
+      662
+    ],
+    "caption": "Publisher screenshot, not this instance",
+    "rights_status": "Project license recorded. Separate gallery redistribution permission not established.",
+    "gallery_title": "Cherry Bedroom",
+    "gallery_credit": "moony"
+  },
+  "submarine": {
+    "resource": "images/building-travel-submarine.png",
+    "source_url": "https://cdn.modrinth.com/data/mva5q4qZ/images/6194fb94ce872b945b9263ceb05e1297a66574d4.png",
+    "project_url": "https://modrinth.com/project/mva5q4qZ",
+    "project_id": "mva5q4qZ",
+    "publisher": "Create Deep Seas",
+    "kind": "publisher screenshot",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "27d03f19527a0d318d1c030e6c42cd23a9c905dd2a93feb4102ac26bd869874b",
+    "resized_sha256": "9e5d5789ea98279e1d514c596add37e05e9a67d136545b914601fac33d212230",
+    "dimensions": [
+      1280,
+      673
+    ],
+    "caption": "Publisher screenshot, not this instance",
+    "rights_status": "Project license recorded. Separate gallery redistribution permission not established.",
+    "gallery_title": "Copper submarine"
+  }
+}

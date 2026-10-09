@@ -3,6 +3,7 @@ navigation:
   title: "死亡后取回物品"
   position: 0
   parent: category-utilities.md
+  icon: minecraft:white_bed
 ---
 
 # 死亡后取回物品

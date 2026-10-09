@@ -1,0 +1,2958 @@
+{
+  "selected_archive_hashes_verified": 285,
+  "nested_archives": [
+    {
+      "parent": "apollib.pw.toml",
+      "nested_path": "META-INF/jarjar/json5-java-3.0.0.jar",
+      "sha256": "2e0f73784e6bc4c755e52d485f628d110d397f079d58b118658b903be9aa0533"
+    },
+    {
+      "parent": "arsenal-rpg-series.pw.toml",
+      "nested_path": "META-INF/jars/shield-api-2.1.0-neoforge.jar",
+      "sha256": "0cd98f8badb8e56faa9eee3a70d9a95b70e0b22f6b7ee674cad1b566cd7476b6"
+    },
+    {
+      "parent": "asyncparticles.pw.toml",
+      "nested_path": "META-INF/jars/fabric-mixinsquared-fabric-0.3.7-beta.3.jar",
+      "sha256": "863d7537b4bda41c34bc750f928789f7c99a6e46ed8060c57a354765274d9d0c"
+    },
+    {
+      "parent": "asyncparticles.pw.toml",
+      "nested_path": "META-INF/jars/neoforge-mixinsquared-neoforge-0.3.7-beta.3.jar",
+      "sha256": "bfd83baae62c778790a1da946b269a9647575dc5a461c1e536a5e88997f43a01"
+    },
+    {
+      "parent": "asyncparticles.pw.toml!META-INF/jars/neoforge-mixinsquared-neoforge-0.3.7-beta.3.jar",
+      "nested_path": "META-INF/jars/MixinSquared-0.3.7-beta.3.jar",
+      "sha256": "eae4bd0dc60417ff9c3b927cafe94a8ebfce3a81c91921c65996887cf815feac"
+    },
+    {
+      "parent": "badoptimizations.pw.toml",
+      "nested_path": "META-INF/jars/fabric-mixinextras-fabric-0.2.2.jar",
+      "sha256": "1c9c71b21ecfb0bb312b16821f7d9e869519d2dbf3c66102be4155817da395af"
+    },
+    {
+      "parent": "balm.pw.toml",
+      "nested_path": "META-INF/jarjar/kuma-api-neoforge-21.0.8+1.21.jar",
+      "sha256": "cf04355de63f96a84a10309d1c985200eb54b7bc614c7c3b556b39209e829f40"
+    },
+    {
+      "parent": "better-combat.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "1a2b15d937d4df12038d660eaea9508d3f4765be9593e0762c809fcfd5df3c5b"
+    },
+    {
+      "parent": "better-modlist.pw.toml",
+      "nested_path": "META-INF/jarjar/TextPlaceholderAPI-neoforge-e1a427d5b9.jar",
+      "sha256": "506bd3a758ebd510d2cf722a75e8def3e6186b74127b271abc57f2be96802814"
+    },
+    {
+      "parent": "betterdays.pw.toml",
+      "nested_path": "META-INF/jarjar/whitenoise-1.21.1-neoforge-2.2.0.jar",
+      "sha256": "6fcfb0642b2d28e82a41e373c6ed49cb983bdeddd642a9c7b87f92f1ce467a07"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/asyncutil-0.1.0.jar",
+      "sha256": "b406a1a2db74679ad9e85af141afb7c5f12deab04bdbf8d97dd1c252f60c7f0e"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-base-mc1.21.1-0.4.0-alpha.0.122-all.jar",
+      "sha256": "19c19f6153f3dd05a4b58aec225a08289f34fdd5827805c9d9476e74f084515f"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-client-uncapvd-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "b9c30b94970fc052cd782867013de1b48278804865df7612fcd146bd92034c47"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-fixes-chunkio-threading-issues-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "8a6275c62dc3c6a00188923758b37e67499d05810b799707cfe1b475e9746031"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-fixes-general-threading-issues-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "7b86896829687768696fd3c8df4d6f09dfb3a267311ba57f95fce12508e65e4b"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-fixes-worldgen-threading-issues-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "68d5651e096e26eb2118ccec728f19f14b22701364b319e977a788445e76252e"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-fixes-worldgen-vanilla-bugs-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "d197f3b336df7af0053ed89a29b153a1070f7a230a2a6326500db734b5382cc7"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-notickvd-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "f33fba4825dca4698de66f1bbfe536c074f1347af327da22145c2a72bd3214b7"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-allocs-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "4a2fc0572f7994bf995cf28cda0ef99f2f251f5243c79ec1609e51d6709a8acc"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-chunkio-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "665760d606c38504a981e13c53ce2c0172d0258afb28ac07d949534ff8530ac6"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-dfc-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "1582c54322bf92be28c6753762f0a14c890d361dd8b67bf3a190f3d07e00f0d6"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-math-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "15b9dacef175983167b46b8722a207895929658f16bc02887afed88b1dc2b940"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-natives-math-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "02292c42cde18f2616fbd6fa5271d1b448d2be4d235a7169d083670cb451e52b"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-scheduling-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "80676e9ff771593bb59464ecf574b6d116b949630aac83806873ebf8384bbc8b"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-worldgen-general-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "d1b0c2b49dd1bbf708c30a84ec6955dbcc4bf92cfd2985a6f35f5ad235602fce"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-opts-worldgen-vanilla-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "c47d28181617a58958ec52e0ce742d6f794d67e0a638699e960cb55715aac7b5"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-rewrites-chunk-system-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "c790a8749a4621cc07a05c5f29c2f3b00fae1abe74f671f30954b602db1070bb"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-rewrites-chunkio-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "a41f651349eb37b34a2cddeb6cfa315456e463ceabec18b248311c517f2889a3"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-server-utils-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "b5c1d16385be14100c1ad31a1c465ec85211e810201646baf30ead7cb0697c2e"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/c2me-neoforge-threading-lighting-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "sha256": "bc96151fb1e34291ea74ed5bb2c08833f3abcb189622bf3eb103f309221924e0"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/caffeine-3.2.1.jar",
+      "sha256": "4827972ab1d3e26f32676a877e9ffb609b6a06ef0aabe4ddd4949f0f9152ad1e"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/exp4j-0.4.8.jar",
+      "sha256": "860445514d71f52220d92d2db87a8b9c3c469ec392a29932b240b5bb2f9b6b27"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/jctools-core-4.0.5.jar",
+      "sha256": "45dfc04c5bbfa0e96bf5f107a978497df82738fa627711b4ca8570c747ccfe1d"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/mixinsquared-neoforge-0.3.7-beta.1.jar",
+      "sha256": "0aa986da37c6bdc0ba489b1a0a116e428836c38343409ca08fa5f75c243ba102"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml!META-INF/jars/mixinsquared-neoforge-0.3.7-beta.1.jar",
+      "nested_path": "META-INF/jars/MixinSquared-0.3.7-beta.1.jar",
+      "sha256": "f0d8b5cc8e2c07b20b50eb6469d3d7229ef81875f2df3923cfb848772cbb5c2f"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/reactive-streams-1.0.4.jar",
+      "sha256": "98e59188cb1bf8e3dacdfde257a715e931d79394fa37174fa3f8ce0467e38412"
+    },
+    {
+      "parent": "c2me-neoforge.pw.toml",
+      "nested_path": "META-INF/jars/rxjava-3.1.12.jar",
+      "sha256": "c0b69220be7ccd2b626baf88cfe2f85d4e87fdca555d97f2de154bac8e1f37c3"
+    },
+    {
+      "parent": "comforts.pw.toml",
+      "nested_path": "META-INF/jarjar/spectrelib-neoforge-0.17.2+1.21.jar",
+      "sha256": "5be2f580af278c5707679ceb079aee46d13ffbe6c2f5138c86598a8e90ca3969"
+    },
+    {
+      "parent": "connector.pw.toml",
+      "nested_path": "META-INF/jarjar/org.sinytra.connector-2.0.0-beta.17+1.21.1-mod.jar",
+      "sha256": "faa7b2953421237b1029d865a52e403101237aca68eca0bd8651c5dfbe0440b8"
+    },
+    {
+      "parent": "connector.pw.toml",
+      "nested_path": "META-INF/jarjar/runtime-1.0.0+1.21.1.jar",
+      "sha256": "36de91a417138f01a1801b7e2ae59bb1052c8ddb23b1352d3fe952b3d33a5e06"
+    },
+    {
+      "parent": "create-aeronautics.pw.toml",
+      "nested_path": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+      "sha256": "97fbf1e27f38674145b8521b140613dc8258bea7efca456dc2686e22bd683933"
+    },
+    {
+      "parent": "create-aeronautics.pw.toml",
+      "nested_path": "META-INF/jarjar/dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.2.jar",
+      "sha256": "8513726bc5a8383e11f4691f4dbe62d7d03bfc5f2835ec1ca1fbeffefe743f77"
+    },
+    {
+      "parent": "create-aeronautics.pw.toml",
+      "nested_path": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar",
+      "sha256": "fdf9d250996a084b52fced3a5b0089e879a5cac05dc7bcf295ac1f4ebe5e2bff"
+    },
+    {
+      "parent": "create-connected.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed"
+    },
+    {
+      "parent": "create-deep-seas.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.5.0.jar",
+      "sha256": "435d69e61fdebfbc0c3bf2c9a7bffe861e017d0ed1dc94bad7f858847f1f8114"
+    },
+    {
+      "parent": "create-dragons-plus.pw.toml",
+      "nested_path": "META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar",
+      "sha256": "0ae7b346d87879e81f276e6a590a6af1e723193e6eb3e94c1f71f7ab5b54d59f"
+    },
+    {
+      "parent": "create-electro-energetics.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed"
+    },
+    {
+      "parent": "create-enchantment-industry.pw.toml",
+      "nested_path": "META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar",
+      "sha256": "0ae7b346d87879e81f276e6a590a6af1e723193e6eb3e94c1f71f7ab5b54d59f"
+    },
+    {
+      "parent": "create-radars.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.5.0.jar",
+      "sha256": "435d69e61fdebfbc0c3bf2c9a7bffe861e017d0ed1dc94bad7f858847f1f8114"
+    },
+    {
+      "parent": "create.pw.toml",
+      "nested_path": "META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6.jar",
+      "sha256": "31dda15c205eb596d3b3449ef03f6af7363a6cd35b3da4bfe916b304f9e5337e"
+    },
+    {
+      "parent": "create.pw.toml",
+      "nested_path": "META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+      "sha256": "0cf4611ad853042b689ac386184c5bbe02950efcffddb49e5f604e82baddb0dc"
+    },
+    {
+      "parent": "create.pw.toml",
+      "nested_path": "META-INF/jarjar/Registrate-MC1.21-1.3.0+67.jar",
+      "sha256": "510f4041c41739f1d8ea8850ab8364d3e3a5fada8529beed5d9f479e2523db52"
+    },
+    {
+      "parent": "creeper-overhaul.pw.toml",
+      "nested_path": "META-INF/jars/resourceful-cosmetics-4j-1.0.3.jar",
+      "sha256": "ed67d9ccb8be7deb4771e08dd95be234bf63363b320531c4ed4d7531f8429b9e"
+    },
+    {
+      "parent": "critical-strike.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "190fabf44465ca6c5d099bd8399f66c69016e42a8111105eda68b0e62e1f3e8e"
+    },
+    {
+      "parent": "cull-leaves.pw.toml",
+      "nested_path": "META-INF/jars/midnightlib-1.9.2+1.21.1-neoforge.jar",
+      "sha256": "641082fa532056806532925a5df3c050a7e9893b96226c8579622b9ac5bfbb4b"
+    },
+    {
+      "parent": "diagonal-fences.pw.toml",
+      "nested_path": "META-INF/jars/diagonalblocks-neoforge-21.1.1.jar",
+      "sha256": "28be91f35f1bb5c24f8c2204893462ebb145b19108fae2a082aca1fb564e7c26"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "sha256": "b791de6f6dce9c58d4ea2af6c713bbcc6dc64d0a5995a8bad6f225ee58cf17d2"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-api-base-0.116.11.jar",
+      "sha256": "b3ac58e17c770a75f10b18147c45a39c9a49d9989097ec57e1ec63bab66720db"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-api-lookup-api-v1-0.116.11.jar",
+      "sha256": "7e0142a59cfee53342463361450823f3b2db38850f87a0c032046ab6b6b51534"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-biome-api-v1-0.116.11.jar",
+      "sha256": "fcf03554719d8744fce2900f9f5aaf6c8fde81edeb34fd7ed77d3e0f1d3a0ff4"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-block-api-v1-0.116.11.jar",
+      "sha256": "75090038d6f40067979dfdbbe38142c2661fc9ce15712c02c2c8196a839586f1"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-block-view-api-v2-0.116.11.jar",
+      "sha256": "43bc54d1bfe1c30874d2040c6c32d304b84f6ad179420e066d619092e2b9ba24"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-blockrenderlayer-v1-0.116.11.jar",
+      "sha256": "6dcde2c60a22f38e97d45196888ce27b6ce5dabd52a0e667e0d9619f1f292adf"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-client-tags-api-v1-0.116.11.jar",
+      "sha256": "d2c784017db20b68fa2270922672b0e8412e07db0eedafa3a77b83f6072e9d79"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-command-api-v1-0.116.11.jar",
+      "sha256": "48b7c0cd6e2b5f7c14fa3200a4a1812d07f6b2edaee65b9ecdca674eb75d2069"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-command-api-v2-0.116.11.jar",
+      "sha256": "340f67e5f5846726532ecc8bdd0d803324f182bef19a53267b500adda16bfb9e"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-commands-v0-0.116.11.jar",
+      "sha256": "b49251ff7c0cc0b4ef2d6de8b937dea6556e90168fc086340d355e4dcef4c8d0"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-content-registries-v0-0.116.11.jar",
+      "sha256": "6baf586a2ff2dc40d0035198dcf2ed82e0365f841c6f1f4a3e8647cdb9d0d4e5"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-convention-tags-v1-0.116.11.jar",
+      "sha256": "7f1d95ef4b77a0edf11ad36b4e1e49b004b78ba5c1ab96b24ebbfe4a67815593"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-convention-tags-v2-0.116.11.jar",
+      "sha256": "22a27b3273aafa09f4110b26626ae0e4454f79ba83c6ac3e9dc7a2d249a94c20"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-crash-report-info-v1-0.116.11.jar",
+      "sha256": "d481997202a55454e044c3f3ef29e3e13fd7658de324c241b1e570525ca7bbfc"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-data-attachment-api-v1-0.116.11.jar",
+      "sha256": "1a347b8fd04ddd5a6376e623ff6f695d15eb20bf8d5330be9137c0b3b74f4b7f"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-data-generation-api-v1-0.116.11.jar",
+      "sha256": "a8fb1d39053c16dd62549af47b2a04ee6419194f6a0d38c17f4d6b988d357bf4"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-dimensions-v1-0.116.11.jar",
+      "sha256": "d793526d8efab4cf489ae4f0fb9b85659fd8e2b6f8032adfbf6a84a7cb62a899"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-entity-events-v1-0.116.11.jar",
+      "sha256": "2740204b5ef564ef156ad63e51b9870199e4ccb7b240780386212fe28d01b51d"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-events-interaction-v0-0.116.11.jar",
+      "sha256": "4ee8e40f73c888df38ece68b191ecafa1c675cca26de7d75904a3e3a41dcbcd7"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-game-rule-api-v1-0.116.11.jar",
+      "sha256": "eacab916c1dc857755404ab508df2bb0fa98cb261145c127211fcdf42c80156b"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-item-api-v1-0.116.11.jar",
+      "sha256": "82d87ca78df4d2e474805849333cb0c1c865263a1d42672e5410e7baae4281cd"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-item-group-api-v1-0.116.11.jar",
+      "sha256": "849c6a6c4978c0d720ff3760045b1f77b5962aa10dec8f6a2b56bda20c37fcf8"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-key-binding-api-v1-0.116.11.jar",
+      "sha256": "2fe4e0f3c4be8e8a7018db0a31d2b714b551dee0b1dfa65e6f7e20d0ea9a7ffe"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-keybindings-v0-0.116.11.jar",
+      "sha256": "132aab3fa86c9bb6a551442985813f254603873a4ca923c981ea8e256df52087"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-lifecycle-events-v1-0.116.11.jar",
+      "sha256": "a185efeec7195abcd66caf4ffa6e4d937bc6027fe63365c07062e5d2b3332720"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-loot-api-v2-0.116.11.jar",
+      "sha256": "30b75f02f7ffbbc2710c3ec2fecfec9f457687c6b64902a6eacac0b8a2b6dfe7"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-loot-api-v3-0.116.11.jar",
+      "sha256": "10679600e6b1550237d2b9575011cdcf4c5e2b6f8fdadd978d43c69ed0a0e2ef"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-message-api-v1-0.116.11.jar",
+      "sha256": "550e602c692f0663c37adcba35901341d3f3cd615c1413b4a1e3ecf2e4ea183d"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-model-loading-api-v1-0.116.11.jar",
+      "sha256": "7a51f2f635d0c2e0898d61291340fdc0510187d3cf1dd81e40d97bf0f8c8cc1b"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-networking-api-v1-0.116.11.jar",
+      "sha256": "4e8b439896ae5d777bfcce81600cfd8e95cdf72c5d1bf6dd1893c7ce8ed1e557"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-object-builder-api-v1-0.116.11.jar",
+      "sha256": "7fa2c2704b1c3188b3c9b50a62c0616122b8c24dae8c4079a32abd5fc7ed442b"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-particles-v1-0.116.11.jar",
+      "sha256": "b82ce3fb533f8895d523c1973447c1d21b5bb9149dcda7efad1460f6ecda93d7"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-recipe-api-v1-0.116.11.jar",
+      "sha256": "2b23abc770676a56d19f58d6e4be0fdb0bce8326014e70e966aabbdb410fd26f"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-registry-sync-v0-0.116.11.jar",
+      "sha256": "e21c543659a80266eac19380f406c007cc227e0752e6c25aca8ef0045ac11d2d"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-renderer-api-v1-0.116.11.jar",
+      "sha256": "22a0ae5eec7d59f2f797acb36e6c6c2179ac479fc7a29d70c55bd7a9010972e0"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-renderer-indigo-0.116.11.jar",
+      "sha256": "5e6d76593a216119953a5e77fff3c9d15f9cb867ae68dd7e554243111c9d1129"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-renderer-registries-v1-0.116.11.jar",
+      "sha256": "5f3c57df3f31cdbaab2807480f0b67b6062a83f596638474d94d243b23638fe6"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-rendering-data-attachment-v1-0.116.11.jar",
+      "sha256": "d4fa312de5a70cb00135f3c1f7c41d14fa31a2f4b994335670ffa19bd3b735be"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-rendering-fluids-v1-0.116.11.jar",
+      "sha256": "e30f77f76197dede037da5525bbc34c97279471e9d25d98e63d44f8b341e6726"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-rendering-v0-0.116.11.jar",
+      "sha256": "36cb89b1730cf1d0c130ba8552ab8c5c77ad573ce8f50298b8b6b244c8ae56b5"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-rendering-v1-0.116.11.jar",
+      "sha256": "01ace2e3cad248960c26037a6ae38b01913e2712d8c34b5d16941730c73078af"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-resource-conditions-api-v1-0.116.11.jar",
+      "sha256": "7313c298f1a568349b84ae1e759d458f4d32eb00a2e7d6e0253cd684ec9e8174"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-resource-loader-v0-0.116.11.jar",
+      "sha256": "6b57ab1f49bda38f4c717915e2ef3355879b8a5c940ba5b41410b3031ccb6d93"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-screen-api-v1-0.116.11.jar",
+      "sha256": "471ba4d92be271be572b60007bbce99f0e908e51290804b1e2eeb239b3ea4e66"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-screen-handler-api-v1-0.116.11.jar",
+      "sha256": "e721903c6a222d64c30cca9dc79164feba9b79b114ff4615b801f0b91fc921f4"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-sound-api-v1-0.116.11.jar",
+      "sha256": "720a8ba83d9fcdea14bbd545a96ed2c5882839e14b4dc8b34dc38651fe98e21b"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-transfer-api-v1-0.116.11.jar",
+      "sha256": "9492601587a23726d001b2e2701f21c4594baa80b2d863d10e665c2cec52b01c"
+    },
+    {
+      "parent": "distanthorizons.pw.toml!META-INF/jars/fabric-api-0.116.11+1.21.1.jar",
+      "nested_path": "META-INF/jars/fabric-transitive-access-wideners-v1-0.116.11.jar",
+      "sha256": "30d0be5cb2951be646f1ef58009ed12a0a1b994e596b6bfb15054f8aa17a3b19"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-base-0.4.42+6573ed8c19.jar",
+      "sha256": "6921082d59e5df6a7fb03f4bf57b0bc543fede848d236eb1d2fb85e7a0091505"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-lookup-api-v1-1.6.72+7b3d111d19.jar",
+      "sha256": "ede176f61e1f1a91e714aefdaea5a01bdc0b27d714d1a354b7217eda8f448104"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-biome-api-v1-13.0.31+d527f9fd19.jar",
+      "sha256": "4d5063ea4eb6979bc039a120336d250f83deefb523f83f2749e0bec023e1204d"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-block-api-v1-1.1.0+0bc3503219.jar",
+      "sha256": "4a06094427817447ecb9217fe279b52220156eca342f08ac42f99e376c281135"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-block-view-api-v2-1.0.11+ebb2264e19.jar",
+      "sha256": "2ee2a5c399cc9c892da0052f129920f6e67afb7c074b6a8e17716cc7c18e8f25"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-blockrenderlayer-v1-1.1.52+0af3f5a719.jar",
+      "sha256": "e2fd77dd943c5aaca27c3951217700408a334752a15db4c02303bcf6ef2b3125"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-client-tags-api-v1-1.1.15+6573ed8c19.jar",
+      "sha256": "584734d2f22657436be21692997e1114d409fc349794a76b0bae82849f5820d5"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-command-api-v1-1.2.49+f71b366f19.jar",
+      "sha256": "ef3a4120c5aad609514f9fcd96806a1a7008759dc90923a1cba36c0263a1fb7c"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-command-api-v2-2.2.28+6ced4dd919.jar",
+      "sha256": "94f5b8d729b719ba26c642196067acf1ed7205541d6dda87f136c5d3f1d599d5"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-commands-v0-0.2.66+df3654b319.jar",
+      "sha256": "84c0d2a4d72bd94695096a20617f17b14dfebadfeff4eb7fb3f6af23aad569ab"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-content-registries-v0-8.0.19+b559734419.jar",
+      "sha256": "3248abe80f1c23b123d10a4e03938f29b2785003f488292bdd97443520a9d8a3"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-convention-tags-v1-2.1.7+7f945d5b19.jar",
+      "sha256": "c89967c041d22e86d9fbbd7091254c0579d7db463507a8bde3755069f23a8e3c"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-convention-tags-v2-2.12.0+c3656daa19.jar",
+      "sha256": "2044e8869255389b96ed43b7115822bb064f3c7e05a97e48044cb01f1d1e9b03"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-crash-report-info-v1-0.2.29+0af3f5a719.jar",
+      "sha256": "78be7ea181e8ab89d5b573b1fb12f05e19c8a3ecfc5847d1ef65514c9fff5e40"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-data-attachment-api-v1-1.4.6+5b36e0f719.jar",
+      "sha256": "1a347b8fd04ddd5a6376e623ff6f695d15eb20bf8d5330be9137c0b3b74f4b7f"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-data-generation-api-v1-20.2.37+60a6976219.jar",
+      "sha256": "a8fb1d39053c16dd62549af47b2a04ee6419194f6a0d38c17f4d6b988d357bf4"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-dimensions-v1-4.0.1+65213ef819.jar",
+      "sha256": "c8e6fc73dba277a9b9ecb4302bb0751dfc833e44c40472d6f9bd2e75d498ab08"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-entity-events-v1-1.8.0+2b27e0a419.jar",
+      "sha256": "b45f75511bcf82b989481f1026fdcb7e10b53327e9b50152ad389a932e04049f"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-events-interaction-v0-0.7.13+ba9dae0619.jar",
+      "sha256": "4ee8e40f73c888df38ece68b191ecafa1c675cca26de7d75904a3e3a41dcbcd7"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-game-rule-api-v1-1.0.53+6ced4dd919.jar",
+      "sha256": "97c25a9c120f163781104aafee942b1519821bcd55d5d15a87268812de9936d4"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-item-api-v1-11.2.0+3b3cb2e819.jar",
+      "sha256": "14aa081c96fa3f652a86fd5822b20b9c2d7dacd71629a3d08f13d9de799fee98"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-item-group-api-v1-4.1.7+def88e3a19.jar",
+      "sha256": "3ce1ce75d92b9e781ac4a8a847828243f797a31b6fd7652e320fbdb48692524b"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-key-binding-api-v1-1.0.47+0af3f5a719.jar",
+      "sha256": "cfd629588c119ac94c135cc1dc1d84acdfe4972800d81b08758b39cc5eee81ee"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-keybindings-v0-0.2.45+df3654b319.jar",
+      "sha256": "084e3e874cb68c4ac5b7779c975e750279677fe28e9195363b96258dca18c536"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-lifecycle-events-v1-2.6.0+0865547519.jar",
+      "sha256": "ddf50877c45fbeb30374b6d63232bcb553de14a962495aef377303f9fa096d58"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-loot-api-v2-3.0.15+3f89f5a519.jar",
+      "sha256": "ce65bca42f73cf5fb3510ae25024add8155cd3fa03e5191b559ca0a2a7fbcdcf"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-loot-api-v3-1.0.3+3f89f5a519.jar",
+      "sha256": "7b61b96243de6a769e5be5b389e7bc3461516caa7ab988aa4df3f75052e93320"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-message-api-v1-6.0.14+8aaf3aca19.jar",
+      "sha256": "81632da522c3969ba3012110804b391d630f2688e0d8b5617a84fc23779c8ac8"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-model-loading-api-v1-2.1.0+b4d813fc19.jar",
+      "sha256": "09b71b2ada73859b725b81ed2437673f3db9203dca35cc5726f5ea245c7982d9"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-networking-api-v1-4.3.0+c7469b2119.jar",
+      "sha256": "4e8b439896ae5d777bfcce81600cfd8e95cdf72c5d1bf6dd1893c7ce8ed1e557"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-object-builder-api-v1-15.2.1+40875a9319.jar",
+      "sha256": "b8722772cda908a62eca6374cac751bebe09387c6a6ef7ae7b30c58c1e125ca3"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-particles-v1-4.0.2+6573ed8c19.jar",
+      "sha256": "356e648e2d420d47de8b723f7e5cf56d6b556ae57e59b7af8c13a16d2652512e"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-recipe-api-v1-5.0.15+2475392c19.jar",
+      "sha256": "2b23abc770676a56d19f58d6e4be0fdb0bce8326014e70e966aabbdb410fd26f"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-registry-sync-v0-5.3.1+e3eddc2119.jar",
+      "sha256": "e21c543659a80266eac19380f406c007cc227e0752e6c25aca8ef0045ac11d2d"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-renderer-api-v1-3.4.1+b4d813fc19.jar",
+      "sha256": "9079df81b45ab2016ca052056b47dd44574146da45557bf73683356386259814"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-renderer-indigo-1.7.1+c705a49c19.jar",
+      "sha256": "4bd4e35d4c6c5c9a9c5139021cbbf4ad5efecf758841ad59526a84ce6d2eeebf"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-renderer-registries-v1-3.2.69+df3654b319.jar",
+      "sha256": "13ee24e98a45f190ae6aea8dcb2fc18aeee1610454a50368c0e3024d0049f25b"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar",
+      "sha256": "22ab339272a5bdf21c43f108dd8b10a0f4536ed016863490d5996b2394aafac5"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-fluids-v1-3.1.6+1daea21519.jar",
+      "sha256": "bda6b36b477c4de60c7535e9f8944ce5788e2c22724efa773adca6a033b60106"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-v0-1.1.72+df3654b319.jar",
+      "sha256": "c68eea10ea5f9c5313e8776c5d51efd0909a8424bb59b72dd5c8ad036eaea659"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-v1-5.1.0+ab4c25a019.jar",
+      "sha256": "0df95c4bf3e16503b7157e50e7a24451d6c32cb3eb2cf5c16bcf2d3871ead049"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-resource-conditions-api-v1-4.3.0+8dc279b119.jar",
+      "sha256": "2d07c42e416d7916b34418d0f741d37534d4f0fbc680ed178f165c24440be303"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-resource-loader-v0-1.3.1+5b5275af19.jar",
+      "sha256": "8b87d1d8070d9735923e27f53b9c1fa93767927869b17259ee9e5d880b053005"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-screen-api-v1-2.0.25+8b68f1c719.jar",
+      "sha256": "059b805b37a708574f8e4ba0d244e6c2e6d6187a8066c9bde4cb4b73fc99efab"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-screen-handler-api-v1-1.3.90+b559734419.jar",
+      "sha256": "e721903c6a222d64c30cca9dc79164feba9b79b114ff4615b801f0b91fc921f4"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-sound-api-v1-1.0.23+6573ed8c19.jar",
+      "sha256": "e1b397b3ff11fcf1653ac1bb08c900d8d1360939d486fc9f4d1a569cfd1f4cef"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-transfer-api-v1-5.4.4+7b3d111d19.jar",
+      "sha256": "9e13cae5816c1e3175c9737f6a5c876965a709ddbb759bd9e4747af55fb7e070"
+    },
+    {
+      "parent": "distanthorizons.pw.toml",
+      "nested_path": "META-INF/jars/fabric-transitive-access-wideners-v1-6.2.0+45b9699719.jar",
+      "sha256": "2bc386860849d0814ff42e1435b17211e9578e749d9d41e3b81f604f26f6be08"
+    },
+    {
+      "parent": "dragonlib.pw.toml",
+      "nested_path": "META-INF/jars/architectury-neoforge-13.0.6.jar",
+      "sha256": "794dd4d626cbed82d2a1ffc2f19ac98e551255d452c260380aebb93b5394e0b7"
+    },
+    {
+      "parent": "dragonlib.pw.toml",
+      "nested_path": "META-INF/jars/forgeconfigapiport-neoforge-21.1.1.jar",
+      "sha256": "85671f1bb41547d7cb420e019855f2bf23c4706852fb1ffd5e7f40c7b9144523"
+    },
+    {
+      "parent": "dynamic-fps.pw.toml",
+      "nested_path": "META-INF/jars/battery-2.0.0.jar",
+      "sha256": "f5698816d065cdb414d308ac0d38f6f441ff6182b6698eac9d1c0b44a74f56e6"
+    },
+    {
+      "parent": "easy-shulker-boxes.pw.toml",
+      "nested_path": "META-INF/jars/iteminteractions-neoforge-21.1.4.jar",
+      "sha256": "9b88c3d67b72698e457bcbbc723dde1f91ab80b8f4a3bf93a7f1d98bb47a4870"
+    },
+    {
+      "parent": "entityculling.pw.toml",
+      "nested_path": "META-INF/jars/TRansition-1.0.25-1.21.1-neoforge-SNAPSHOT.jar",
+      "sha256": "c87bc7e6cfd2eee58d472fbf436a228eb3d037565dd4c6c6de0c143a6d662647"
+    },
+    {
+      "parent": "entityculling.pw.toml",
+      "nested_path": "META-INF/jars/TRender-1.0.17-1.21.1-neoforge-SNAPSHOT.jar",
+      "sha256": "506484fad73db4bb06a6d51df117062cbf6bace2aca60eee227c10f17b030492"
+    },
+    {
+      "parent": "flerovium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "bdf464c6df587b4aa87df2cbe326acbbb307727d3e27dbaf58d592c429e6eac3"
+    },
+    {
+      "parent": "flerovium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+      "sha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48"
+    },
+    {
+      "parent": "flerovium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-renderer-api-v1-3.4.0+acb05a3919.jar",
+      "sha256": "0a504d27ddf494df91bcf59a3bdc584ef0fd41753323c86bb6e242e4b7958a27"
+    },
+    {
+      "parent": "flerovium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+      "sha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "46aba64803ef838ca9352e393da553904077abe77e4f5b6d9fc3cc51b760fdc3"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-lookup-api-v1-1.6.72+6244b11119.jar",
+      "sha256": "73ae4e3b95a1f148b4b005cc8140e09ba6f60d3ec4e7dd4b24488b84b6878e8d"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-biome-api-v1-13.0.31+1e62d33c19.jar",
+      "sha256": "67d57e33fa85a3cfdb49bdfb504d9bb74c6068a7d49a6064d91ec39c9fd56662"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-block-api-v1-1.1.0+b0c22bb819.jar",
+      "sha256": "64fa98ad4c4306dc887fb4c36b11e9f5e5467bed30aa01ad18c2c7db2620c93a"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-block-view-api-v2-1.0.11+e9036fd419.jar",
+      "sha256": "1d67ea7355c20d609fcd487ff46ab849958c37aab7e4d4947ec8699f57fbd808"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-blockrenderlayer-v1-1.1.52+c290471319.jar",
+      "sha256": "41de70111fb8184b250c5b1baa81be24b65570a4df6257dcf5a83fc2151ee6f4"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-client-tags-api-v1-1.2.0+5adff2d719.jar",
+      "sha256": "2e4e7195fa5643258cc6108e7c5498c31725bd728e994dcd617867df35e77f67"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-command-api-v2-2.2.28+36d727be19.jar",
+      "sha256": "f3623326e2b1b16011166620f5283c092e932d1f7165cf509bac93837b28f038"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-content-registries-v0-8.0.19+5e0d320019.jar",
+      "sha256": "931e56955b516dfa053aa4e926321cbcd46537cb40df3e5cf61e73999f558047"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-convention-tags-v1-2.1.7+7f945d5b19.jar",
+      "sha256": "01e48e3149188893f1c05e18d09b71cdda61380c5b5356456bc7b9595647d5cc"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-convention-tags-v2-2.12.0+75d3639619.jar",
+      "sha256": "1e8727648f4536c806f71e430bf24657cdb531fd1e78a08d3040005d76377e0b"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-data-attachment-api-v1-1.4.7+26d408aa19.jar",
+      "sha256": "3d957b8df09e8823c06b4c86a1aeb5839e24c6bf045f15df1416e88f7f1ae41a"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-data-generation-api-v1-20.3.0+3e2bcb4b19.jar",
+      "sha256": "b4579fd9013260e39bddd3d18069115abbe789991946d56c671575bef9ad3651"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-entity-events-v1-1.8.0+e46a02ca19.jar",
+      "sha256": "45b1a259165d6f2cca82ea137eca5ac4a95b791bc81f0b172be557d226fcde9c"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-events-interaction-v0-0.7.14+057f5afd19.jar",
+      "sha256": "28a60f81d94c97393f08cb565fb04fa9f8a25d0413dc76e2a28ff88f83f15d6d"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-game-rule-api-v1-1.0.53+36d727be19.jar",
+      "sha256": "f70c51449a02d83ca2489174112374f3ef45b33286b61e6110d99e7bbfa99891"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-gametest-api-v1-2.0.5+29f188ce19.jar",
+      "sha256": "9a20d5a07a91153b1dc7ec4e9bbdeba4da154ace4da670deacd1457a04cadac0"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-item-api-v1-11.3.0+b24c12f719.jar",
+      "sha256": "7ac9511186133b222d8ab19d45c0ceb8452500d4a7f7ada1195c1f98b4ae304e"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-item-group-api-v1-4.1.7+e324903319.jar",
+      "sha256": "ffebace22f8cdc52f17769e0acfa986511e27fde92393057ea9d8a6e34d14d64"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar",
+      "sha256": "1e315db5f83f6a45e470e38220c497c9d4a4c132c119c57f59c3e8702eba2ddd"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-lifecycle-events-v1-2.6.0+e40d8add19.jar",
+      "sha256": "1807688aa7255349d2608afbed8135f356dd160aea156355685038edb21cf87c"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-loot-api-v2-3.0.15+a3ee712d19.jar",
+      "sha256": "7de9a6c228c5dfaa6192d7f2b63d73e3f010017693e68572b4348be16188da4c"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-loot-api-v3-1.0.3+333dfad919.jar",
+      "sha256": "b72eaa528d7e2bac1544cd78fd4a7fa95783cbba026353abca3967f6e4649618"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-message-api-v1-6.0.14+6a754fce19.jar",
+      "sha256": "bc1f314e6f7195e6e6810d093413c50fc52f04a97708888c1529f117b40f6268"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-model-loading-api-v1-2.1.0+6e8f52c719.jar",
+      "sha256": "5514fe551aa308a8f790a6e5821aefdd3b1bbe38ac058b23642e8f8e3cf7f65b"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-networking-api-v1-4.3.1+7e3d421f19.jar",
+      "sha256": "bc3f3748127bbda6321ba47f0ca55ce1b847635f24ea6d4cd4a43372d26e45d1"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-object-builder-api-v1-15.2.1+cc242efd19.jar",
+      "sha256": "60ef316a8dc6099a679093b54201df70c6fd24580b42dc0aa8540308877d79c7"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-particles-v1-4.0.2+824f924c19.jar",
+      "sha256": "8194fe38914d456818516ec0e4b0b0f193db95664001a814e8b7929380a80954"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-recipe-api-v1-5.0.16+59440bcc19.jar",
+      "sha256": "fc34174976f9718359bdc92e5cc92913fb900d8cfc4ffe3a8dff3fddb52591ae"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-registry-sync-v0-5.3.2+f9aace1619.jar",
+      "sha256": "52f8a92b27d452651712366ddc35d3e0e6226c8adbd7882c6122a0cb68a52f6c"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar",
+      "sha256": "23a782d646f136a7ee0ddbabf14057d8f36c61efddceeb228180a403116bb9fb"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-renderer-indigo-1.7.1+9125b6dc19.jar",
+      "sha256": "3962b9e5b6018f6aba5e6bf95dc89273e71bb4c220a9087e8354a472c882cf27"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-renderer-registries-v1-3.2.69+df3654b319.jar",
+      "sha256": "a1a651001fe33dcda3e63a5c0cf118ba4ad30e6aeddbf67de8b4f0a485e156a1"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar",
+      "sha256": "2ccff3cc82d8072ca18331df3eee641b63c732936570a9d65b6989c5c73cfc89"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-fluids-v1-3.1.6+ddc51b4719.jar",
+      "sha256": "4a34b0f424f6f5da77a29f7797f1c1ee0042572076e0673e27be3b1e7377be3a"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-rendering-v1-5.1.0+1a09bd5a19.jar",
+      "sha256": "7fd01138fc5a9b9fef6df16539d376105e5b4afd01f4219f48d89f5e69f5c022"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar",
+      "sha256": "2abd74e84abfb14f74ef8d5907bc49393124c907b8b60f507812e988330505d3"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-resource-loader-v0-1.3.1+4ea8954419.jar",
+      "sha256": "1234200b4ea4d2a582162d1a997f76d752daa3f62cc57c0e65f970547c6721ab"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-screen-api-v1-2.0.26+9991ca2f19.jar",
+      "sha256": "0c2025418440bc51b826d1886209dcf819445642b9384da17f76049bce870894"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-screen-handler-api-v1-1.3.91+8dbc56dd19.jar",
+      "sha256": "b636d6c2af50c5bf543996c3ddf4970299555679885a843701a88265d0f574d2"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-sound-api-v1-1.0.23+10b84f8419.jar",
+      "sha256": "39ccd04db6efac261aca90674ce7ff2b750ebdd290453a773a6367689c584f5e"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-tag-api-v1-1.3.0+3e2bcb4b19.jar",
+      "sha256": "19ee52570d2e8019ca85d34e15c301a7c81f67c5f2492ddaf67db6d20a478431"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-transfer-api-v1-5.4.4+6244b11119.jar",
+      "sha256": "f82684e7ce6535fbcd980515f0abf9fd3cd488afeb742d083ecefd0aafcf1936"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar",
+      "sha256": "241b065b546600457d7d48a5a4942593ad79a4cea5ed02398a24fbf9834b2854"
+    },
+    {
+      "parent": "forgified-fabric-api.pw.toml",
+      "nested_path": "META-INF/jars/forgified-fabric-loader-2.5.68+0.18.4+1.21.1-full.jar",
+      "sha256": "5fb4c0963dba3627b99eedc5e5fa64e28dc44825823122f6e54083424210b60b"
+    },
+    {
+      "parent": "freecam.pw.toml",
+      "nested_path": "META-INF/jars/cloth-config-neoforge-15.0.128-neoforge.jar",
+      "sha256": "3b33c939a13a37f3ff07bfb3a43b239b59468abc7ab557aede80fd9e7b1a8b35"
+    },
+    {
+      "parent": "fzzy-config.pw.toml",
+      "nested_path": "META-INF/jars/jankson-1.2.3.jar",
+      "sha256": "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad"
+    },
+    {
+      "parent": "fzzy-config.pw.toml",
+      "nested_path": "META-INF/jars/tomlkt-jvm-0.3.7.jar",
+      "sha256": "c996b2dee0bf7be1d9d962e944d13510331092cf5687fddcc0523aba4eadfe4f"
+    },
+    {
+      "parent": "gazebos.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "d1a16caa707248281199825871a85e610760eee8d272cffbee466440d48d7778"
+    },
+    {
+      "parent": "gml.pw.toml",
+      "nested_path": "META-INF/jarjar/cgl-1.21-neoforge-0.5.1.jar",
+      "sha256": "b044351abf7220f6a5611662d0d0072ad1a9ad589ceaad610f5dc947fa13023c"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/cgl-1.21-neoforge-0.5.1.jar",
+      "nested_path": "META-INF/jars/jankson-1.2.3.jar",
+      "sha256": "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad"
+    },
+    {
+      "parent": "gml.pw.toml",
+      "nested_path": "META-INF/jarjar/gml-core-7.0.3.jar",
+      "sha256": "1571b57b1c79da9a64de9bf9ffc49dd4d8ff939b35a708864eca9810e4ab9a64"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar",
+      "nested_path": "META-INF/jarjar/groovybundler-2.1.7.jar",
+      "sha256": "c1d5062bd64acc0ff44f4eadaefe3854afc4883cf50883c444653bb886b4d3dd"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-4.0.24.jar",
+      "sha256": "6188460cce2bfb9d0c155fd54f7ff084951bfe03f86d8587f8b7b154a311de21"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/opensesame-core-0.5.13.jar",
+      "sha256": "8172f1a7a08ed6bff944e12414df1d0418ece1c0764c874b4a5c657254bf700a"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/opensesame-groovy-0.5.13.jar",
+      "sha256": "4bd850d8d617e4ce17275237f4c2a24575997a8a12d3387314dafd8ac4f26081"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-datetime-4.0.24.jar",
+      "sha256": "7f5729a1f1f6cfc2f162a7d7198efc4c4c39ad382ebc6b4f46918450befa2b4c"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-macro-4.0.24.jar",
+      "sha256": "9c50838ad7c0bd809af6bb5bdd7af7f80ca0e4474baeb6df257f0b36d917fe2a"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-xml-4.0.24.jar",
+      "sha256": "b7eb40602f4679379f1f44d0dfb61a6c68c94e0adff0a6761a91733b27aed114"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-ginq-4.0.24.jar",
+      "sha256": "e0e87d71b9aac5f240f9fbc6f2b558faa1793d8b0d47adf74dc36bdaa9a1afac"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/opensesame-compile-0.5.13.jar",
+      "sha256": "c9f1e899517baa0d092d36d8ce72506662568c01dc920b8134016e219dab5e45"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-typecheckers-4.0.24.jar",
+      "sha256": "5ec6027eeade7bd3f1bdbdbe25d4fc12427ff744f43108d804896d06cdc34c0f"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/jackson-dataformat-toml-2.18.1.jar",
+      "sha256": "14fa42b514563a3181a6e8a14ea087466fd8fe1de3bc88095fad17eca522578b"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/jackson-core-2.18.1.jar",
+      "sha256": "b6bab3d6ce2307ae540a90559a862b71f4d32f4ad97cca8281d6cb4499f761cc"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-toml-4.0.24.jar",
+      "sha256": "b719063a106419640b232fd29fea25954dd29dc96caaf8757f107de981b4e76a"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/jackson-annotations-2.18.1.jar",
+      "sha256": "239b2d02cb0bc3d776e084d904e6756b9ab9f05b04418c27202346de2bc5ec27"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-templates-4.0.24.jar",
+      "sha256": "aa6d10b27b2e23cef041683fc81ada550e4ce95d63b8c7263787c9408a50dae2"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-macro-library-4.0.24.jar",
+      "sha256": "a263e6a762f0cbdc457d964709cf2750a3e5a9bb3f9f9985b0cb3feab8592c28"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/jackson-databind-2.18.1.jar",
+      "sha256": "71b6818f101a12333d141930b6bf2187a40cadb44b8d6834f4a31e8ff12878d8"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-contracts-4.0.24.jar",
+      "sha256": "77618d291d3a313b9cefe2d7da1fd326afce3f80ab39220caec92a5d7d362ed8"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-nio-4.0.24.jar",
+      "sha256": "856c5e160d5da735d759efd2f984e750e62db0dee4969c92a4a43fb67a35aa33"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-dateutil-4.0.24.jar",
+      "sha256": "b56eaf869151d9d998dc1d7abb1f8427e50604c866414752edf2b78117c62da0"
+    },
+    {
+      "parent": "gml.pw.toml!META-INF/jarjar/gml-core-7.0.3.jar!META-INF/jarjar/groovybundler-2.1.7.jar",
+      "nested_path": "META-INF/jarjar/groovy-json-4.0.24.jar",
+      "sha256": "6148dd5aefc8e14e45f8f799251da784895b7199966c1a028980c30e08c21cab"
+    },
+    {
+      "parent": "illager-invasion.pw.toml",
+      "nested_path": "META-INF/jars/extensibleenums-neoforge-21.1.1.jar",
+      "sha256": "35720e0569288b37fe59dfd3781691019d24ce1fab48623980b9d7a9b5af2e1c"
+    },
+    {
+      "parent": "immediatelyfast.pw.toml",
+      "nested_path": "META-INF/jars/Reflect-1.6.2.jar",
+      "sha256": "6351c4f4b717cb12fd0c2db8663fd82d831ad2bb9a426767021107c8f67b446f"
+    },
+    {
+      "parent": "immersive-paintings.pw.toml",
+      "nested_path": "META-INF/jarjar/common-image-3.12.0.jar",
+      "sha256": "62a3821c724fadfda346c1e2d83b0c506a0c4074be269a52bf4e3192c7dd92bc"
+    },
+    {
+      "parent": "immersive-paintings.pw.toml",
+      "nested_path": "META-INF/jarjar/imageio-core-3.12.0.jar",
+      "sha256": "34c6f91bf3b217ed0115bce8283238fbd0264562aa682b4226a3960d0ede9815"
+    },
+    {
+      "parent": "immersive-paintings.pw.toml",
+      "nested_path": "META-INF/jarjar/imageio-webp-3.12.0.jar",
+      "sha256": "43dc447ccfe34c5c5c6f5d31190270e1f9bf65f60375d697ae2a8ff433468526"
+    },
+    {
+      "parent": "immersive-paintings.pw.toml",
+      "nested_path": "META-INF/jarjar/common-lang-3.12.0.jar",
+      "sha256": "5c65e504b5b64d80683e0fa70a1dd154dd83d4de7da37f21e950f5a9c03bc66d"
+    },
+    {
+      "parent": "iris.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "bdf464c6df587b4aa87df2cbe326acbbb307727d3e27dbaf58d592c429e6eac3"
+    },
+    {
+      "parent": "iris.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+      "sha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48"
+    },
+    {
+      "parent": "iris.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-renderer-api-v1-3.4.0+acb05a3919.jar",
+      "sha256": "0a504d27ddf494df91bcf59a3bdc584ef0fd41753323c86bb6e242e4b7958a27"
+    },
+    {
+      "parent": "iris.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+      "sha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1"
+    },
+    {
+      "parent": "iris.pw.toml",
+      "nested_path": "META-INF/jarjar/glsl-transformer-3.0.0-pre3.jar",
+      "sha256": "0d55650fb8e58dad25b714d447a1ed5a713a6b6120a06610ce216c9b26e852d7"
+    },
+    {
+      "parent": "iris.pw.toml",
+      "nested_path": "META-INF/jarjar/jcpp-1.4.14.jar",
+      "sha256": "e47d785bff4d116bf5223b96aabd57a03498a91bd259b4919ded6c511b47cc8c"
+    },
+    {
+      "parent": "ixeris.pw.toml",
+      "nested_path": "META-INF/jarjar/Ixeris-4.5.2+1.21.1-neoforge-mod.jar",
+      "sha256": "4487404a770cece6d1c2e738b682475eb0fb2dd7552f58b93cf3cf5f4df26d41"
+    },
+    {
+      "parent": "jamlib.pw.toml",
+      "nested_path": "META-INF/jars/jankson-1.2.3.jar",
+      "sha256": "da5295cfdf1f18422d81dcd6bc860a5007bb429ae8181a64d2915ada410dcb0d"
+    },
+    {
+      "parent": "jewelry.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "77d7a2f20d0c2da4fe7e10fdcaaef1e099430731b407bc5a34433d87d693d4f7"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/thedarkcolour.kfflib-5.12.0.jar",
+      "sha256": "e058f300c76da004d5f24a828fce5920194073026de3f3fc04b9f6fd1ed62efc"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlin-stdlib-jdk7-2.4.0.jar",
+      "sha256": "5072265564b6b0296f9c7b21fee65edee760c5697436f5ae7427033fa58fc034"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlin-stdlib-2.4.0.jar",
+      "sha256": "ccb14ff83fabcb11458b798dbc9824748ccdffeec79c9aba789e6ed1cda86b1c"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/thedarkcolour.kfflang-5.12.0.jar",
+      "sha256": "e1a549efa9cbb8faf35b7ca1ddf933bc136fe7d0483068c5131d9809aed48c6e"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlinx-serialization-core-jvm-1.11.0.jar",
+      "sha256": "f4a801c647d4351327cd9e1ac4113e2be9ea37a64ab0abae269c25a52e28f35d"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlinx-coroutines-core-jvm-1.11.0.jar",
+      "sha256": "d1d75aa01dffbb4d1c520e67e4c4e7f5f6174718e7cb4632412503f2f0e604fa"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlinx-coroutines-jdk8-1.11.0.jar",
+      "sha256": "1238f179da55360725ec49b887225317f31ae89bd29b652cbe139ff59f5d45cb"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlinx-serialization-json-jvm-1.11.0.jar",
+      "sha256": "563a25b4eb5c9128ae9c2479f3d1a5c44dcd176112b91cf03682e906eba5c935"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlin-reflect-2.4.0.jar",
+      "sha256": "f0d8e8908624eb4478bb131e9f887366680d2e239741195e548fa5c906963b90"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/kotlin-stdlib-jdk8-2.4.0.jar",
+      "sha256": "d96b4e297136b8a4b2b88c1adcdc64d92e90d52a417e4315cdcf964adede8aa2"
+    },
+    {
+      "parent": "kotlin-for-forge.pw.toml",
+      "nested_path": "META-INF/jarjar/thedarkcolour.kffmod-5.12.0.jar",
+      "sha256": "ba2cdb2b4c34d2aff3e16b188198e902d3cd3c70fb612ea557fa9492c4c559ce"
+    },
+    {
+      "parent": "lithostitched.pw.toml",
+      "nested_path": "META-INF/jarjar/apollib-1.2.0-neoforge-21.1.jar",
+      "sha256": "d8ca42902cc4fe7c6c39917bdc2a9ec86c32c5bee3e3c3a551513f601968498b"
+    },
+    {
+      "parent": "lithostitched.pw.toml!META-INF/jarjar/apollib-1.2.0-neoforge-21.1.jar",
+      "nested_path": "META-INF/jarjar/json5-java-3.0.0.jar",
+      "sha256": "2e0f73784e6bc4c755e52d485f628d110d397f079d58b118658b903be9aa0533"
+    },
+    {
+      "parent": "mafglib.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "9448caa1c0e99cd6e854522e3535138f0ede3a3b3cc5eb439bbfd65926bf3ea2"
+    },
+    {
+      "parent": "mafglib.pw.toml",
+      "nested_path": "META-INF/jars/fabric-networking-api-v1-4.3.0+6db6dff919.jar",
+      "sha256": "f1c322e36d0395de1e75f2643217f463c60c32ef52b2fa95fb1da0e658ec24b9"
+    },
+    {
+      "parent": "moonlight.pw.toml",
+      "nested_path": "META-INF/jarjar/codecui-neoforge-1.21.1-1.4.7.jar",
+      "sha256": "b7799b7a2769127d23f34e73b28e4b4d62263c125507c7c35562ccd836f54427"
+    },
+    {
+      "parent": "moreculling.pw.toml",
+      "nested_path": "META-INF/jarjar/conditional-mixin-neoforge-0.6.3.jar",
+      "sha256": "a990b68c40161596fd9cebb98a715b11882aa55be9391ff543dfbf1ede594560"
+    },
+    {
+      "parent": "moreculling.pw.toml",
+      "nested_path": "META-INF/jarjar/mixinsquared-neoforge-0.2.0.jar",
+      "sha256": "a7f45922b0027fcbd8c1a60704febb455c5406054d20429454ce20680ef5d4d9"
+    },
+    {
+      "parent": "moreculling.pw.toml!META-INF/jarjar/mixinsquared-neoforge-0.2.0.jar",
+      "nested_path": "META-INF/jars/MixinSquared-0.2.0.jar",
+      "sha256": "853a3008cc1839163e8b713be6b6ff6a582ba0e9720db2b4ca0e2c00e26619b8"
+    },
+    {
+      "parent": "mru.pw.toml",
+      "nested_path": "META-INF/jarjar/commonmark-0.21.0.jar",
+      "sha256": "81084a7035046fe306f0dbf16ef57a68d08ee5c97004ea867e62b5db46e98afb"
+    },
+    {
+      "parent": "ok-zoomer.pw.toml",
+      "nested_path": "META-INF/jarjar/api_neoforge-0.8.1.jar",
+      "sha256": "6489f4bfb7b3022362248b5347d8cf24b6c64c44a4917d08f94492fe02290842"
+    },
+    {
+      "parent": "ok-zoomer.pw.toml",
+      "nested_path": "META-INF/jarjar/impl-0.8.1.jar",
+      "sha256": "4ab10b70215628d6653b59daf408a5f83dfbde7294052a258eb8f90297c30fac"
+    },
+    {
+      "parent": "owo-lib.pw.toml",
+      "nested_path": "META-INF/jars/endec-0.1.8.1.jar",
+      "sha256": "c3142729057c51f0afbafd783f5b5f998aceeda5d5b893ef361f57870fda4a9d"
+    },
+    {
+      "parent": "owo-lib.pw.toml",
+      "nested_path": "META-INF/jars/fabric-api-base-0.4.42+d1308dedd1.jar",
+      "sha256": "9ce8be10b2385fcc856f7b63bec13c7b098fe668f20256f1f65d5564b196ab22"
+    },
+    {
+      "parent": "owo-lib.pw.toml",
+      "nested_path": "META-INF/jars/gson-0.1.5.1.jar",
+      "sha256": "4ab7baca096d4a68c90ad67c5acb2f73d3f041f4b97d492fc6b1862874e04f18"
+    },
+    {
+      "parent": "owo-lib.pw.toml",
+      "nested_path": "META-INF/jars/jankson-0.1.5.1.jar",
+      "sha256": "1a23afed2aecbe4bfa52524ce445b1c4c1f6eeecca93a551da40939b6d194eb4"
+    },
+    {
+      "parent": "owo-lib.pw.toml",
+      "nested_path": "META-INF/jars/jankson-1.2.2.jar",
+      "sha256": "acf861c82f8fad7dede6a782a3e50297f8834c18de611381c408fcc247e84d7a"
+    },
+    {
+      "parent": "owo-lib.pw.toml",
+      "nested_path": "META-INF/jars/netty-0.1.4.1.jar",
+      "sha256": "eca7b6cb235dafeddac4a0c129f62ea8de5f638a8c014b3d7fdef44d48b14873"
+    },
+    {
+      "parent": "paladins-and-priests.pw.toml",
+      "nested_path": "META-INF/jars/shield-api-2.1.0-neoforge.jar",
+      "sha256": "e8ec4e9469183a8932d1dd0212ef4fb473584143887552be38a4c9ba597ac9c2"
+    },
+    {
+      "parent": "polytone.pw.toml",
+      "nested_path": "META-INF/jarjar/codecui-neoforge-1.21.1-1.4.5.jar",
+      "sha256": "f8b6e14bc6673a3fc36bf256d20541536332764f633e57e471a4bedacb854468"
+    },
+    {
+      "parent": "polytone.pw.toml",
+      "nested_path": "META-INF/jarjar/exp4j-0.4.8.jar",
+      "sha256": "271f7824ee8a3468257bc0613afdabb67597af8389317643fa806b983b7ecb27"
+    },
+    {
+      "parent": "polytone.pw.toml",
+      "nested_path": "META-INF/jarjar/nexp-1.2.1.jar",
+      "sha256": "a366ce14c1ec8bec5fd699420c4a51b052850f45ea8dcf681ad4a0679c21eaa3"
+    },
+    {
+      "parent": "progresspeek.pw.toml",
+      "nested_path": "META-INF/jarjar/progresspeek-1.1.0+1.21.1-neoforge-mod.jar",
+      "sha256": "ed69f29fcc54f57b56e900fd5b7fcafad48b4b57e89a9a2820af5497bced44fe"
+    },
+    {
+      "parent": "reinforced-shulker-boxes.pw.toml",
+      "nested_path": "META-INF/jars/reinforced-core-4.0.2+1.21.1.jar",
+      "sha256": "2c1d3add050fda1f85cc530f4fb717ac6bbb5f9ed4b54744f762a5b0f2d2d834"
+    },
+    {
+      "parent": "reinforced-shulker-boxes.pw.toml!META-INF/jars/reinforced-core-4.0.2+1.21.1.jar",
+      "nested_path": "META-INF/jars/cloth-config-fabric-15.0.130-fabric.jar",
+      "sha256": "79d5a72d6fba3b3799ab69b87b4652d1a59eaffe555522cc2922552a965cb540"
+    },
+    {
+      "parent": "reinforced-shulker-boxes.pw.toml!META-INF/jars/reinforced-core-4.0.2+1.21.1.jar!META-INF/jars/cloth-config-fabric-15.0.130-fabric.jar",
+      "nested_path": "META-INF/jars/basic-math-0.6.1.jar",
+      "sha256": "2527eb04394e7a13fa5b8884baa9319f60b07ad6229d759f9451563cd113c059"
+    },
+    {
+      "parent": "reliable-advancements.pw.toml",
+      "nested_path": "META-INF/jarjar/codecui-neoforge-1.21.1-1.4.7.jar",
+      "sha256": "b7799b7a2769127d23f34e73b28e4b4d62263c125507c7c35562ccd836f54427"
+    },
+    {
+      "parent": "resourceful-lib.pw.toml",
+      "nested_path": "META-INF/jars/bytecodecs-1.1.2.jar",
+      "sha256": "3f418220feab93d791c9fdd63a6c6d999f7b2164edad359dee35f08a9ad175cc"
+    },
+    {
+      "parent": "resourceful-lib.pw.toml",
+      "nested_path": "META-INF/jars/yabn-1.0.3.jar",
+      "sha256": "bdc5a03a9b577c48bc6d7c06118b2418afd2c537081511c24b3259c561c8355a"
+    },
+    {
+      "parent": "runes.pw.toml",
+      "nested_path": "META-INF/jars/bundle-api-1.1.0-neoforge.jar",
+      "sha256": "0d32c929383ed6ae057eeab119666c293e6315b1a398e19bd486f780322491d8"
+    },
+    {
+      "parent": "sable.pw.toml",
+      "nested_path": "META-INF/jarjar/dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.6.jar",
+      "sha256": "0f0ec5f9a0cdbff937fb36542eb568988f27e6eb7f848cb4df35ad202ced53a7"
+    },
+    {
+      "parent": "sable.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed"
+    },
+    {
+      "parent": "sable.pw.toml",
+      "nested_path": "META-INF/jarjar/veil-neoforge-1.21.1-4.3.2.jar",
+      "sha256": "774b83887d882dc47cd4d29d140cef0c8677747a6fe7799649f490926a4e0265"
+    },
+    {
+      "parent": "sable.pw.toml!META-INF/jarjar/veil-neoforge-1.21.1-4.3.2.jar",
+      "nested_path": "META-INF/jarjar/glsl-processor-0.2.3.jar",
+      "sha256": "f01a11101ce5b4a5230916707b13d89acf6abef6ee3ef6e92f2d788246b3507a"
+    },
+    {
+      "parent": "sable.pw.toml!META-INF/jarjar/veil-neoforge-1.21.1-4.3.2.jar",
+      "nested_path": "META-INF/jarjar/molang-compiler-3.1.1.19.jar",
+      "sha256": "08567ae5964242a7cffa93697cd63de60078d8dd375fb89ce426a390a7634100"
+    },
+    {
+      "parent": "sable_beyond.pw.toml",
+      "nested_path": "META-INF/jars/cloth-config-neoforge-15.0.140-neoforge.jar",
+      "sha256": "e6318ff4907b06860480257a1519cfd279151180bf2516e6930a8bbad030c45c"
+    },
+    {
+      "parent": "slice-and-dice.pw.toml",
+      "nested_path": "META-INF/jarjar/atmosphere-1.21.1-neoforge-1.0.17.jar",
+      "sha256": "95c127dbad2f35d454f5992f8fe2837f3be48220d8c29640499e7d99abaafdcf"
+    },
+    {
+      "parent": "slice-and-dice.pw.toml!META-INF/jarjar/atmosphere-1.21.1-neoforge-1.0.17.jar",
+      "nested_path": "META-INF/jarjar/ponder-neoforge-1.0.87+mc1.21.1.jar",
+      "sha256": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef"
+    },
+    {
+      "parent": "slice-and-dice.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed"
+    },
+    {
+      "parent": "sodium-extra.pw.toml",
+      "nested_path": "META-INF/jars/greenlight-api-0.1.0+mc1.21.10.jar",
+      "sha256": "ec48d3dad3e9200cee6fd5555f79d5cad35b390b589ef2bdb2acf0b0cc55959f"
+    },
+    {
+      "parent": "sodium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+      "sha256": "729aef08d1df36c2f04fbf52ee4d92a7d29e33047865a8a8cf5546ebeac687e0"
+    },
+    {
+      "parent": "sodium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+      "sha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48"
+    },
+    {
+      "parent": "sodium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar",
+      "sha256": "aba3e2dc8d670eae242a75c5ae961acbb542792ac587ca3a3b4b177bcbb9cda7"
+    },
+    {
+      "parent": "sodium.pw.toml",
+      "nested_path": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+      "sha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1"
+    },
+    {
+      "parent": "sodium.pw.toml",
+      "nested_path": "META-INF/jarjar/net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod.jar",
+      "sha256": "d71acbffafd3d177add7624710114d8570cdd70d5553a2b5c8ab371852c59ce3"
+    },
+    {
+      "parent": "sound.pw.toml",
+      "nested_path": "META-INF/jarjar/mixinextras-neoforge-0.5.0.jar",
+      "sha256": "9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507"
+    },
+    {
+      "parent": "spell-engine.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "53a42347972bce130c1f8d386067986dbdb49bda87b243743002c49e4fa2eeb6"
+    },
+    {
+      "parent": "spell-power.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "3bae23d9f7aa45cc06ad3677809006718907fbbfc5ba65cef5e3ebc4d54277e8"
+    },
+    {
+      "parent": "straw-statues.pw.toml",
+      "nested_path": "META-INF/jars/statuemenus-neoforge-21.1.0.jar",
+      "sha256": "1a0f31b5a2aad1945d4435bc73939c7d399b3655be4392b0feecbdcf46115658"
+    },
+    {
+      "parent": "supplementaries.pw.toml",
+      "nested_path": "META-INF/jarjar/mixinsquared-forge-0.3.7-beta.3.jar",
+      "sha256": "5638fc5caab00215f2bd5622694b60f6d865f27903fcca7180a67b62cabb4513"
+    },
+    {
+      "parent": "supplementaries.pw.toml!META-INF/jarjar/mixinsquared-forge-0.3.7-beta.3.jar",
+      "nested_path": "META-INF/jars/MixinSquared-0.3.7-beta.3.jar",
+      "sha256": "eae4bd0dc60417ff9c3b927cafe94a8ebfce3a81c91921c65996887cf815feac"
+    },
+    {
+      "parent": "supplementaries.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed"
+    },
+    {
+      "parent": "tectonic.pw.toml",
+      "nested_path": "META-INF/jarjar/apollib-1.1.6-neoforge-21.1.jar",
+      "sha256": "04c80501091e16952e9a83c152b4ea5ebe6a26c3a3268f7e8706a8caa32959a0"
+    },
+    {
+      "parent": "tectonic.pw.toml!META-INF/jarjar/apollib-1.1.6-neoforge-21.1.jar",
+      "nested_path": "META-INF/jarjar/json5-java-3.0.0.jar",
+      "sha256": "2e0f73784e6bc4c755e52d485f628d110d397f079d58b118658b903be9aa0533"
+    },
+    {
+      "parent": "tempad.pw.toml",
+      "nested_path": "META-INF/jarjar/resourcefullibkt-neoforge-1.21-2.0.2.jar",
+      "sha256": "17e930fd88c4187e9e5113fca115e44178fef0e147fec85f52ccfc36f7e43a2a"
+    },
+    {
+      "parent": "tempad.pw.toml",
+      "nested_path": "META-INF/jarjar/common-storage-lib-data-neoforge-1.21.1-0.0.7.jar",
+      "sha256": "de60fb9ad025b591b386b403a4b449d4ea4545ca2a1e2997edd11b58f38c0901"
+    },
+    {
+      "parent": "tempad.pw.toml",
+      "nested_path": "META-INF/jarjar/olympus-neoforge-1.21-1.0.18.jar",
+      "sha256": "f5dd6624616184b177b451e3a3c01db6970f0cdd91450db25c22613f8e250654"
+    },
+    {
+      "parent": "tfmg-community-edition.pw.toml",
+      "nested_path": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+      "sha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed"
+    },
+    {
+      "parent": "trade-refresh.pw.toml",
+      "nested_path": "META-INF/jarjar/l2serial-3.0.7.jar",
+      "sha256": "3964b24cede0c7c3c45225a52c9b41b76e748f261ddfb0c878d1fb016eaaad89"
+    },
+    {
+      "parent": "village-taverns.pw.toml",
+      "nested_path": "META-INF/jars/tiny-config-3.1.0-neoforge.jar",
+      "sha256": "5073903bd2512174633fdd55f9532c4967b13921c801e1ceb2f862b1e388152f"
+    },
+    {
+      "parent": "xaeros-maps-multiplayer-plus.pw.toml",
+      "nested_path": "META-INF/jarjar/zstd-jni-1.5.7-9.jar",
+      "sha256": "087d02f39a46ab79b18f883ac7c3a3d6c2df1fd3bf7eaafeade699e0743d0dbe"
+    },
+    {
+      "parent": "xaeros-minimap.pw.toml",
+      "nested_path": "META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.3.jar",
+      "sha256": "010dc4c2ff154aa8ba04c779600658b77ac0003eee3a98ac9453f6e7acd28898"
+    },
+    {
+      "parent": "xaeros-world-map.pw.toml",
+      "nested_path": "META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.3.jar",
+      "sha256": "010dc4c2ff154aa8ba04c779600658b77ac0003eee3a98ac9453f6e7acd28898"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/common-image-3.12.0.jar",
+      "sha256": "62a3821c724fadfda346c1e2d83b0c506a0c4074be269a52bf4e3192c7dd92bc"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/common-io-3.12.0.jar",
+      "sha256": "bfacfeb02acac47dbfd1fab0002eaeca65547d04249498b654320c9e0fdf6647"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/common-lang-3.12.0.jar",
+      "sha256": "5c65e504b5b64d80683e0fa70a1dd154dd83d4de7da37f21e950f5a9c03bc66d"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/gson-0.2.1.jar",
+      "sha256": "4ef02cf5a6e54cf32ced063002a7a243b6086e2886905274faf2f0a80babf2c9"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/imageio-core-3.12.0.jar",
+      "sha256": "34c6f91bf3b217ed0115bce8283238fbd0264562aa682b4226a3960d0ede9815"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/imageio-metadata-3.12.0.jar",
+      "sha256": "797d026b67d07e6d5eb00a1ab53a55acaab6f80a71c5ee325572093eb90c0caa"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/imageio-webp-3.12.0.jar",
+      "sha256": "43dc447ccfe34c5c5c6f5d31190270e1f9bf65f60375d697ae2a8ff433468526"
+    },
+    {
+      "parent": "yacl.pw.toml",
+      "nested_path": "META-INF/jarjar/json-0.2.1.jar",
+      "sha256": "5a9c7d005c7c4b07474b8e07e25f33116a923f7db19c92673f1ac47461f8a57d"
+    }
+  ],
+  "native_item_identifiers": [
+    "additional_rpg_jewelry:aquamarine_necklace",
+    "additional_rpg_jewelry:aquamarine_ring",
+    "additional_rpg_jewelry:cactea_ring",
+    "additional_rpg_jewelry:dark_steel_jade_necklace",
+    "additional_rpg_jewelry:dark_steel_jade_ring",
+    "additional_rpg_jewelry:dripstone_necklace",
+    "additional_rpg_jewelry:malachite_necklace",
+    "additional_rpg_jewelry:malachite_ring",
+    "additional_rpg_jewelry:meteorite_silver_sapphire_necklace",
+    "additional_rpg_jewelry:meteorite_silver_sapphire_ring",
+    "additional_rpg_jewelry:netherite_aquamarine_necklace",
+    "additional_rpg_jewelry:netherite_aquamarine_ring",
+    "additional_rpg_jewelry:netherite_malachite_necklace",
+    "additional_rpg_jewelry:netherite_malachite_ring",
+    "additional_rpg_jewelry:netherite_rage_necklace",
+    "additional_rpg_jewelry:netherite_rage_ring",
+    "additional_rpg_jewelry:rage_necklace",
+    "additional_rpg_jewelry:rage_ring",
+    "additional_rpg_jewelry:silver_sapphire_necklace",
+    "additional_rpg_jewelry:silver_sapphire_ring",
+    "additional_rpg_jewelry:spell_vampire_necklace",
+    "additional_rpg_jewelry:spell_vampire_ring",
+    "additional_rpg_jewelry:steel_jade_necklace",
+    "additional_rpg_jewelry:steel_jade_ring",
+    "additional_rpg_jewelry:unique_earth_necklace",
+    "additional_rpg_jewelry:unique_earth_ring",
+    "additional_rpg_jewelry:unique_forest_necklace",
+    "additional_rpg_jewelry:unique_forest_ring",
+    "additional_rpg_jewelry:unique_ocean_necklace",
+    "additional_rpg_jewelry:unique_ocean_ring",
+    "additional_rpg_jewelry:unique_rage_necklace",
+    "additional_rpg_jewelry:unique_rage_ring",
+    "additional_rpg_jewelry:unique_sky_necklace",
+    "additional_rpg_jewelry:unique_sky_ring",
+    "additional_rpg_jewelry:unique_witcher_necklace",
+    "additional_rpg_jewelry:unique_witcher_ring",
+    "additional_rpg_jewelry:vampire_necklace",
+    "additional_rpg_jewelry:vampire_ring",
+    "aeroencasedpipe:white_envelope_encased_pipe",
+    "aeroengineering:air_to_air_missile",
+    "aeroengineering:airborne_radar",
+    "aeroengineering:aviation_alloy_ingot",
+    "aeroengineering:aviation_alloy_sheet",
+    "aeroengineering:aviation_blade",
+    "aeroengineering:aviation_kerosene_bucket",
+    "aeroengineering:compressor_component",
+    "aeroengineering:engine_combustor",
+    "aeroengineering:engine_compressor",
+    "aeroengineering:engine_exhaust_cone",
+    "aeroengineering:engine_fan",
+    "aeroengineering:engine_monitor_helmet",
+    "aeroengineering:engine_turbine",
+    "aeroengineering:folding_landing_gear_bearing",
+    "aeroengineering:hud_display",
+    "aeroengineering:missile_assembly_station",
+    "aeroengineering:turbine_component",
+    "aeronautics:adjustable_burner",
+    "aeronautics:andesite_propeller",
+    "aeronautics:gyroscopic_propeller_bearing",
+    "aeronautics:mounted_potato_cannon",
+    "aeronautics:propeller_bearing",
+    "aeronautics:smart_propeller",
+    "aeronautics:white_envelope",
+    "aeronautics:white_envelope_encased_shaft",
+    "aeronautics:wooden_propeller",
+    "aeroworks:control_desk",
+    "aeroworks:gyroscope",
+    "aeroworks:joystick_module",
+    "aeroworks:mechanical_servo",
+    "aeroworks:stepper_servo",
+    "aeroworks:throttle_quadrant_module",
+    "aeroworks:wheel_module",
+    "archers:archer_armor_chest",
+    "archers:composite_longbow",
+    "archers:heavy_crossbow",
+    "archers:iron_spear",
+    "archers:netherite_heavy_crossbow",
+    "archers:netherite_ranger_armor_chest",
+    "archers:netherite_rapid_crossbow",
+    "archers:ranger_armor_chest",
+    "archers:rapid_crossbow",
+    "archers:ruby_heavy_crossbow",
+    "archers:ruby_rapid_crossbow",
+    "archers_expansion:bounty_hunter_chest",
+    "archers_expansion:deadeye_chest",
+    "archers_expansion:netherite_deadeye_chest",
+    "archers_expansion:netherite_tundra_hunter_chest",
+    "archers_expansion:netherite_war_archer_chest",
+    "archers_expansion:polar_stalker_chest",
+    "archers_expansion:sentinel_archer_chest",
+    "archers_expansion:tundra_hunter_chest",
+    "archers_expansion:war_archer_chest",
+    "armory_rpgs:absolution_robe_chest",
+    "armory_rpgs:astral_robe_chest",
+    "armory_rpgs:avatar_robe_chest",
+    "armory_rpgs:deathmantle_armor_chest",
+    "armory_rpgs:destroyer_armor_chest",
+    "armory_rpgs:glacier_robe_chest",
+    "armory_rpgs:justicar_armor_chest",
+    "armory_rpgs:lightbringer_armor_chest",
+    "armory_rpgs:onslaught_armor_chest",
+    "armory_rpgs:riftstalker_armor_chest",
+    "armory_rpgs:rimeweave_robe_chest",
+    "armory_rpgs:scarlet_robe_chest",
+    "armory_rpgs:slayer_armor_chest",
+    "armory_rpgs:smouldering_robe_chest",
+    "armory_rpgs:strider_armor_chest",
+    "armory_rpgs:tempest_robe_chest",
+    "arsenal:unique_claymore_1",
+    "arsenal:unique_claymore_2",
+    "arsenal:unique_claymore_sw",
+    "arsenal:unique_dagger_1",
+    "arsenal:unique_dagger_2",
+    "arsenal:unique_dagger_sw",
+    "arsenal:unique_double_axe_1",
+    "arsenal:unique_double_axe_2",
+    "arsenal:unique_double_axe_sw",
+    "arsenal:unique_glaive_1",
+    "arsenal:unique_glaive_2",
+    "arsenal:unique_glaive_sw",
+    "arsenal:unique_hammer_1",
+    "arsenal:unique_hammer_2",
+    "arsenal:unique_hammer_sw",
+    "arsenal:unique_heavy_crossbow_1",
+    "arsenal:unique_heavy_crossbow_2",
+    "arsenal:unique_heavy_crossbow_sw",
+    "arsenal:unique_longbow_1",
+    "arsenal:unique_longbow_2",
+    "arsenal:unique_longbow_sw",
+    "arsenal:unique_longsword_sw",
+    "arsenal:unique_mace_1",
+    "arsenal:unique_mace_2",
+    "arsenal:unique_mace_sw",
+    "arsenal:unique_shield_1",
+    "arsenal:unique_shield_2",
+    "arsenal:unique_shield_sw",
+    "arsenal:unique_sickle_1",
+    "arsenal:unique_sickle_2",
+    "arsenal:unique_sickle_sw",
+    "arsenal:unique_spear_1",
+    "arsenal:unique_spear_2",
+    "arsenal:unique_spear_sw",
+    "arsenal:unique_staff_damage_1",
+    "arsenal:unique_staff_damage_2",
+    "arsenal:unique_staff_damage_3",
+    "arsenal:unique_staff_damage_4",
+    "arsenal:unique_staff_damage_5",
+    "arsenal:unique_staff_damage_6",
+    "arsenal:unique_staff_damage_sw",
+    "arsenal:unique_staff_heal_1",
+    "arsenal:unique_staff_heal_2",
+    "arsenal:unique_staff_heal_sw",
+    "ballastmod:ballast_stones",
+    "bards_rpg:diamond_lyre",
+    "bards_rpg:entertainer_garb_chest",
+    "bards_rpg:iron_rapier",
+    "bards_rpg:netherite_troubadour_garb_chest",
+    "bards_rpg:storyteller_garb_chest",
+    "bards_rpg:troubadour_garb_chest",
+    "bards_rpg:unique_harp_crossbow_0",
+    "bards_rpg:unique_harp_crossbow_1",
+    "bards_rpg:unique_lute_0",
+    "bards_rpg:unique_lute_1",
+    "bards_rpg:unique_lyre_0",
+    "bards_rpg:unique_lyre_1",
+    "bards_rpg:unique_rapier_0",
+    "bards_rpg:unique_rapier_1",
+    "bards_rpg:wooden_lute",
+    "beautify:bookstack",
+    "beautify:botanist_workbench",
+    "beautify:hanging_pot",
+    "beautify:lamp_bamboo",
+    "beautify:lamp_candelabra",
+    "beautify:oak_trellis",
+    "bellsandwhistles:brass_bogie_steps",
+    "bellsandwhistles:brass_grab_rails",
+    "bellsandwhistles:brass_pilot",
+    "bellsandwhistles:headlight",
+    "bellsandwhistles:metro_window",
+    "berserker_rpg:iron_berserker_axe",
+    "berserker_rpg:netherite_northling_chest",
+    "berserker_rpg:northling_chest",
+    "berserker_rpg:unique_berserker_axe_1",
+    "berserker_rpg:unique_berserker_axe_2",
+    "berserker_rpg:unique_sword_1",
+    "berserker_rpg:warlord_chest",
+    "berserker_rpg:wildling_chest",
+    "bits_n_bobs:headlamp",
+    "bits_n_bobs:red_chair",
+    "bits_n_bobs:tuff_tiles",
+    "cataclysm:bulwark_of_the_flame",
+    "cataclysm:cursium_boots",
+    "cataclysm:cursium_chestplate",
+    "cataclysm:cursium_helmet",
+    "cataclysm:cursium_leggings",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_maelstrom",
+    "cataclysm:ignitium_boots",
+    "cataclysm:ignitium_chestplate",
+    "cataclysm:ignitium_helmet",
+    "cataclysm:ignitium_leggings",
+    "cataclysm:infernal_forge",
+    "cataclysm:the_annihilator",
+    "cataclysm:the_immolator",
+    "cataclysm:the_incinerator",
+    "cataclysm:void_forge",
+    "chipped:alchemy_bench",
+    "chipped:ancient_gold_block",
+    "chipped:angry_mossy_stone_bricks",
+    "chipped:angry_raw_gold_block",
+    "chipped:arched_black_stained_glass_pillar",
+    "chipped:arched_blue_stained_glass_pillar",
+    "chipped:barbed_iron_bars",
+    "chipped:barky_white_wool",
+    "chipped:basket_woven_oak_planks",
+    "chipped:blobby_moss_block",
+    "chipped:blocky_white_wool",
+    "chipped:blue_moss_block",
+    "chipped:bolted_iron_bars",
+    "chipped:bordered_mossy_stone_bricks",
+    "chipped:botanist_workbench",
+    "chipped:boxed_oak_planks",
+    "chipped:carpenters_table",
+    "chipped:glassblower",
+    "chipped:loom_table",
+    "chipped:mason_table",
+    "chipped:tinkering_table",
+    "copycats:copycat_beam",
+    "copycats:copycat_block",
+    "copycats:copycat_board",
+    "copycats:copycat_box",
+    "copycats:copycat_byte",
+    "copycats:copycat_byte_panel",
+    "copycats:copycat_catwalk",
+    "copycats:copycat_cogwheel",
+    "copycats:copycat_corner_slice",
+    "copycats:copycat_door",
+    "copycats:copycat_fence",
+    "copycats:copycat_fence_gate",
+    "copycats:copycat_flat_pane",
+    "copycats:copycat_fluid_pipe",
+    "copycats:copycat_folding_door",
+    "copycats:copycat_ghost_block",
+    "copycats:copycat_half_layer",
+    "copycats:copycat_half_panel",
+    "copycats:copycat_heavy_weighted_pressure_plate",
+    "copycats:copycat_iron_door",
+    "copycats:copycat_iron_trapdoor",
+    "copycats:copycat_ladder",
+    "copycats:copycat_large_cogwheel",
+    "copycats:copycat_layer",
+    "copycats:copycat_light_weighted_pressure_plate",
+    "copycats:copycat_pane",
+    "copycats:copycat_shaft",
+    "copycats:copycat_slab",
+    "copycats:copycat_slice",
+    "copycats:copycat_sliding_door",
+    "copycats:copycat_slope",
+    "copycats:copycat_slope_layer",
+    "copycats:copycat_stacked_half_layer",
+    "copycats:copycat_stairs",
+    "copycats:copycat_stone_button",
+    "copycats:copycat_stone_pressure_plate",
+    "copycats:copycat_trapdoor",
+    "copycats:copycat_vertical_half_layer",
+    "copycats:copycat_vertical_slice",
+    "copycats:copycat_vertical_slope",
+    "copycats:copycat_vertical_stairs",
+    "copycats:copycat_vertical_step",
+    "copycats:copycat_wall",
+    "copycats:copycat_wooden_button",
+    "copycats:copycat_wooden_pressure_plate",
+    "create:andesite_funnel",
+    "create:belt_connector",
+    "create:blaze_burner",
+    "create:brass_funnel",
+    "create:brass_tunnel",
+    "create:chain_conveyor",
+    "create:chute",
+    "create:cogwheel",
+    "create:controls",
+    "create:crushed_raw_iron",
+    "create:crushing_wheel",
+    "create:encased_fan",
+    "create:experience_nugget",
+    "create:fluid_pipe",
+    "create:fluid_tank",
+    "create:gearbox",
+    "create:item_vault",
+    "create:large_water_wheel",
+    "create:mechanical_arm",
+    "create:mechanical_pump",
+    "create:millstone",
+    "create:package_frogport",
+    "create:packager",
+    "create:railway_casing",
+    "create:redstone_requester",
+    "create:schedule",
+    "create:shaft",
+    "create:smart_fluid_pipe",
+    "create:steam_engine",
+    "create:stock_link",
+    "create:track",
+    "create:track_station",
+    "create:water_wheel",
+    "create:wheat_flour",
+    "create:windmill_bearing",
+    "create_connected:brake",
+    "create_connected:brass_chute",
+    "create_connected:brass_gearbox",
+    "create_connected:centrifugal_clutch",
+    "create_connected:crank_wheel",
+    "create_connected:cross_connector",
+    "create_connected:encased_chain_cogwheel",
+    "create_connected:fluid_vessel",
+    "create_connected:freewheel_clutch",
+    "create_connected:inventory_access_port",
+    "create_connected:inventory_bridge",
+    "create_connected:inverted_clutch",
+    "create_connected:inverted_gearshift",
+    "create_connected:item_silo",
+    "create_connected:kinetic_battery",
+    "create_connected:kinetic_bridge",
+    "create_connected:overstress_clutch",
+    "create_connected:parallel_gearbox",
+    "create_connected:shear_pin",
+    "create_connected:six_way_gearbox",
+    "create_enchantment_industry:affix_augmentor",
+    "create_enchantment_industry:blaze_composer",
+    "create_enchantment_industry:blaze_enchanter",
+    "create_enchantment_industry:blaze_forger",
+    "create_enchantment_industry:brass_bookshelf",
+    "create_enchantment_industry:enchanting_template",
+    "create_enchantment_industry:experience_hatch",
+    "create_enchantment_industry:experience_lantern",
+    "create_enchantment_industry:gem_cutter",
+    "create_enchantment_industry:grindstone_drain",
+    "create_enchantment_industry:infuser",
+    "create_enchantment_industry:mechanical_grindstone",
+    "create_enchantment_industry:printer",
+    "create_hypertube:hypertube",
+    "create_hypertube:hypertube_accelerator",
+    "create_hypertube:hypertube_entrance",
+    "create_hypertube:hypertube_junction",
+    "create_hypertube:tube_scanner_attachment",
+    "create_pattern_schematics:empty_pattern_schematic",
+    "create_pattern_schematics:pattern_schematic",
+    "create_pattern_schematics:pattern_schematic_and_quill",
+    "create_radar:auto_pitch_controller",
+    "create_radar:auto_yaw_controller",
+    "create_radar:binoculars",
+    "create_radar:data_link",
+    "create_radar:fire_controller",
+    "create_radar:guided_fuze",
+    "create_radar:ident_filter_item",
+    "create_radar:identification_transponder",
+    "create_radar:monitor",
+    "create_radar:network_filterer",
+    "create_radar:plane_radar",
+    "create_radar:radar_bearing",
+    "create_radar:radar_dish_block",
+    "create_radar:radar_filter_item",
+    "create_radar:radar_plate_block",
+    "create_radar:radar_receiver_block",
+    "create_radar:radar_safe_zone_designator",
+    "create_radar:radar_warning_receiver",
+    "create_radar:target_filter_item",
+    "create_sa:block_picker",
+    "create_sa:brass_drone_item",
+    "create_sa:copper_magnet",
+    "create_sa:drone_controller",
+    "create_sa:heat_engine",
+    "create_sa:hydraulic_engine",
+    "create_sa:large_filling_tank",
+    "create_sa:medium_filling_tank",
+    "create_sa:portable_drill",
+    "create_sa:small_filling_tank",
+    "create_sa:steam_engine",
+    "create_submarine:ballast_tank",
+    "create_submarine:ballast_vent",
+    "create_submarine:barometer",
+    "create_submarine:copper_pressurizer",
+    "create_submarine:electrolyzer",
+    "create_submarine:floater",
+    "create_submarine:industrial_alarm",
+    "create_submarine:iron_pressurizer",
+    "create_submarine:oxygene_diffuser",
+    "create_submarine:phycological_membrane",
+    "create_submarine:pulley",
+    "create_submarine:steel_cable",
+    "create_submarine:submarine_propeller",
+    "create_submarine:underwater_mine",
+    "create_submarine:water_thruster",
+    "create_tweaked_controllers:tweaked_linked_controller",
+    "create_vibrant_vaults:basic_shipping_container",
+    "create_vibrant_vaults:shipping_container",
+    "create_vibrant_vaults:vertical_basic_shipping_container",
+    "create_vibrant_vaults:vertical_item_vault",
+    "create_vibrant_vaults:vertical_shipping_container",
+    "createadditionallogistics:cash_register",
+    "createadditionallogistics:flexible_shaft",
+    "createadditionallogistics:lazy_cogwheel",
+    "createadditionallogistics:lazy_shaft",
+    "createadditionallogistics:package_accelerator",
+    "createadditionallogistics:package_editor",
+    "createbigcannons:ap_shell",
+    "createbigcannons:ap_shot",
+    "createbigcannons:autocannon_ammo_container",
+    "createbigcannons:bag_of_grapeshot",
+    "createbigcannons:big_cartridge",
+    "createbigcannons:bronze_autocannon_barrel",
+    "createbigcannons:cannon_mount",
+    "createbigcannons:steel_cannon_barrel",
+    "createbigcannons:steel_sliding_breech",
+    "createcasing:copper_chain_conveyor",
+    "createcasing:industrial_iron_depot",
+    "createcasing:railway_clutch",
+    "createcasing:spruce_shaft",
+    "createdeco:iron_catwalk",
+    "createdeco:pearl_bricks",
+    "createdeco:red_placard",
+    "createdeco:scarlet_bricks",
+    "createframed:cardboard_window",
+    "createframed:tinted_framed_glass",
+    "createframed:tinted_tiled_glass",
+    "createframed:zinc_window",
+    "createmoregirder:andesite_beam",
+    "createmoregirder:brass_truss",
+    "createmoregirder:copper_beam",
+    "createmoregirder:copycat_bracket",
+    "createprism:andesite_glass_casing",
+    "createprism:brass_clear_glass_casing",
+    "createprism:copper_illumination_casing",
+    "createpropulsion:ion_thruster",
+    "createpropulsion:liquid_vector_thruster",
+    "createpropulsion:platinum_ingot",
+    "createpropulsion:solid_fuel_thruster",
+    "createpropulsion:stirling_engine",
+    "createpropulsion:thruster",
+    "createpropulsion:turpentine_bucket",
+    "createpropulsion:vector_thruster",
+    "createrailwaysnavigator:advanced_display",
+    "createrailwaysnavigator:advanced_display_block",
+    "createrailwaysnavigator:advanced_display_half_panel",
+    "createrailwaysnavigator:advanced_display_panel",
+    "createrailwaysnavigator:advanced_display_slab",
+    "createrailwaysnavigator:advanced_display_sloped",
+    "createrailwaysnavigator:advanced_display_small",
+    "createrailwaysnavigator:navigator",
+    "createrailwaysnavigator:train_station_clock",
+    "createshufflefilter:shuffle_filter",
+    "createshufflefilter:weighted_shuffle_filter",
+    "createsprings:friction_welder",
+    "createsprings:kinetic_interface",
+    "createsprings:large_spring_coil",
+    "createsprings:portative_steam_engine",
+    "createsprings:punchcard",
+    "createsprings:spring",
+    "createsprings:spring_alloy",
+    "createsprings:spring_base",
+    "createsprings:spring_catapult",
+    "createsprings:spring_drill",
+    "createsprings:spring_fan",
+    "createsprings:spring_launcher",
+    "createsprings:spring_saw",
+    "createsprings:spring_shove",
+    "createsprings:unfinished_spring",
+    "dndecor:container",
+    "dndecor:diagonal_girder",
+    "dndecor:gold_boiler",
+    "dndecor:gold_catwalk",
+    "electroenergetics:accumulator",
+    "electroenergetics:alternator_brushes",
+    "electroenergetics:alternator_rotor",
+    "electroenergetics:ammeter",
+    "electroenergetics:blue_electric_motor",
+    "electroenergetics:bulb",
+    "electroenergetics:capacitor",
+    "electroenergetics:catenary_holder",
+    "electroenergetics:clamp_meter",
+    "electroenergetics:connector",
+    "electroenergetics:copper_wire_spool",
+    "electroenergetics:electric_pump",
+    "electroenergetics:emergency_stop_button",
+    "electroenergetics:fuse",
+    "electroenergetics:fuse_holder",
+    "electroenergetics:high_voltage_capacitor",
+    "electroenergetics:insulated_wire",
+    "electroenergetics:pantograph",
+    "electroenergetics:rail_contact_shoe",
+    "electroenergetics:stator",
+    "electroenergetics:transformer",
+    "electroenergetics:transformer_core",
+    "electroenergetics:voltage_regulator",
+    "electroenergetics:voltmeter",
+    "elemental_wizards_rpg:dripstone_chest",
+    "elemental_wizards_rpg:elemental_chest",
+    "elemental_wizards_rpg:hurricane_robe_chest",
+    "elemental_wizards_rpg:kelp_chest",
+    "elemental_wizards_rpg:mountain_robe_chest",
+    "elemental_wizards_rpg:netherite_dripstone_chest",
+    "elemental_wizards_rpg:netherite_kelp_chest",
+    "elemental_wizards_rpg:netherite_wind_chest",
+    "elemental_wizards_rpg:ocean_robe_chest",
+    "elemental_wizards_rpg:staff_aqua",
+    "elemental_wizards_rpg:unique_staff_1",
+    "elemental_wizards_rpg:wand_aqua",
+    "elemental_wizards_rpg:wand_terra",
+    "elemental_wizards_rpg:wand_wind",
+    "elemental_wizards_rpg:wind_chest",
+    "ends_delight:assorted_salad",
+    "ends_delight:bubble_tea",
+    "ends_delight:chorus_cookie",
+    "ends_delight:chorus_flower_pie",
+    "ends_delight:chorus_flower_tea",
+    "ends_delight:chorus_fruit_grain",
+    "ends_delight:chorus_fruit_milk_tea",
+    "ends_delight:chorus_fruit_pie_slice",
+    "ends_delight:chorus_fruit_popsicle",
+    "ends_delight:chorus_fruit_wine",
+    "ends_delight:chorus_sauce",
+    "ends_delight:dragon_breath_and_chorus_soup",
+    "ends_delight:dragon_breath_soda",
+    "ends_delight:dragon_leg",
+    "ends_delight:dragon_leg_with_sauce",
+    "ends_delight:dragon_meat_stew",
+    "ends_delight:dragon_tooth",
+    "ends_delight:dried_chorus_flower",
+    "ends_delight:dried_endermite_meat",
+    "ends_delight:end_barbecue_stick",
+    "ends_delight:end_mixed_salad",
+    "ends_delight:ender_bamboo_rice",
+    "ends_delight:ender_congee",
+    "ends_delight:ender_noodle",
+    "ends_delight:ender_pearl_grain",
+    "ends_delight:ender_sausage",
+    "ends_delight:enderman_gristle",
+    "ends_delight:enderman_gristle_stew",
+    "ends_delight:fried_dragon_egg",
+    "ends_delight:grilled_shulker",
+    "ends_delight:half_dragon_egg_shell",
+    "ends_delight:liquid_dragon_egg",
+    "ends_delight:non_hatchable_dragon_egg",
+    "ends_delight:raw_dragon_meat",
+    "ends_delight:raw_dragon_meat_cuts",
+    "ends_delight:raw_ender_mite_meat",
+    "ends_delight:raw_ender_sausage",
+    "ends_delight:roasted_dragon_meat",
+    "ends_delight:roasted_dragon_meat_cuts",
+    "ends_delight:roasted_dragon_steak",
+    "ends_delight:roasted_shulker_meat",
+    "ends_delight:roasted_shulker_meat_slice",
+    "ends_delight:shulker_meat",
+    "ends_delight:shulker_meat_slice",
+    "ends_delight:shulker_omelette",
+    "ends_delight:shulker_omelette_mixture",
+    "ends_delight:shulker_soup",
+    "ends_delight:smoked_dragon_leg",
+    "ends_delight:steamed_dragon_egg",
+    "ends_delight:stir_fried_shulker_meat",
+    "ends_delight:stuffed_rice_cake",
+    "escalated:metal_walkway_steps",
+    "escalated:wooden_walkway_steps",
+    "explorerscompass:explorerscompass",
+    "farmersdelight:apple_cider",
+    "farmersdelight:apple_pie_slice",
+    "farmersdelight:bacon_and_eggs",
+    "farmersdelight:bacon_sandwich",
+    "farmersdelight:baked_cod_stew",
+    "farmersdelight:beef_stew",
+    "farmersdelight:bone_broth",
+    "farmersdelight:cabbage",
+    "farmersdelight:cabbage_rolls",
+    "farmersdelight:chicken_sandwich",
+    "farmersdelight:chicken_soup",
+    "farmersdelight:chocolate_pie_slice",
+    "farmersdelight:cod_roll",
+    "farmersdelight:cooked_rice",
+    "farmersdelight:cooking_pot",
+    "farmersdelight:cutting_board",
+    "farmersdelight:dumplings",
+    "farmersdelight:egg_sandwich",
+    "farmersdelight:fish_stew",
+    "farmersdelight:flint_knife",
+    "farmersdelight:fried_rice",
+    "farmersdelight:fruit_salad",
+    "farmersdelight:gleaming_salad",
+    "farmersdelight:glow_berry_custard",
+    "farmersdelight:grilled_salmon",
+    "farmersdelight:hamburger",
+    "farmersdelight:honey_cookie",
+    "farmersdelight:honey_glazed_ham",
+    "farmersdelight:hot_cocoa",
+    "farmersdelight:kelp_roll",
+    "farmersdelight:melon_juice",
+    "farmersdelight:melon_popsicle",
+    "farmersdelight:mushroom_rice",
+    "farmersdelight:mutton_wrap",
+    "farmersdelight:noodle_soup",
+    "farmersdelight:onion",
+    "farmersdelight:onion_soup",
+    "farmersdelight:organic_compost",
+    "farmersdelight:pasta_with_meatballs",
+    "farmersdelight:pasta_with_mutton_chop",
+    "farmersdelight:pumpkin_pie_slice",
+    "farmersdelight:pumpkin_soup",
+    "farmersdelight:ratatouille",
+    "farmersdelight:rice",
+    "farmersdelight:rich_soil",
+    "farmersdelight:roast_chicken",
+    "farmersdelight:roasted_mutton_chops",
+    "farmersdelight:salmon_roll",
+    "farmersdelight:shepherds_pie",
+    "farmersdelight:skillet",
+    "farmersdelight:squid_ink_pasta",
+    "farmersdelight:steak_and_potatoes",
+    "farmersdelight:stove",
+    "farmersdelight:stuffed_pumpkin",
+    "farmersdelight:sweet_berry_cheesecake_slice",
+    "farmersdelight:sweet_berry_cookie",
+    "farmersdelight:tomato",
+    "farmersdelight:vegetable_noodles",
+    "farmersdelight:vegetable_soup",
+    "forcemaster_rpg:aken_chest",
+    "forcemaster_rpg:billporon_chest",
+    "forcemaster_rpg:iron_knuckle",
+    "forcemaster_rpg:oriene_chest",
+    "forcemaster_rpg:phasleb_chest",
+    "forcemaster_rpg:unique_knuckle_0",
+    "forcemaster_rpg:unique_knuckle_1",
+    "handcrafted:oak_chair",
+    "handcrafted:oak_couch",
+    "handcrafted:oak_cupboard",
+    "handcrafted:oak_fancy_bed",
+    "handcrafted:oak_table",
+    "immersive_paintings:glow_graffiti",
+    "immersive_paintings:glow_painting",
+    "immersive_paintings:graffiti",
+    "immersive_paintings:painting",
+    "interactic:item_filter",
+    "interiors:kelp_seat",
+    "interiors:white_chair",
+    "interiors:white_cushion",
+    "interiors:white_floor_chair",
+    "items_displayed:black_jewelry_pillow",
+    "items_displayed:blue_jewelry_pillow",
+    "items_displayed:brown_jewelry_pillow",
+    "jewelry:citrine_necklace",
+    "jewelry:citrine_ring",
+    "jewelry:copper_ring",
+    "jewelry:diamond_necklace",
+    "jewelry:diamond_ring",
+    "jewelry:emerald_necklace",
+    "jewelry:gold_ring",
+    "jewelry:iron_ring",
+    "jewelry:jade_necklace",
+    "jewelry:jade_ring",
+    "jewelry:jewelers_kit",
+    "jewelry:netherite_citrine_necklace",
+    "jewelry:netherite_citrine_ring",
+    "jewelry:netherite_jade_necklace",
+    "jewelry:netherite_jade_ring",
+    "jewelry:netherite_ruby_necklace",
+    "jewelry:netherite_ruby_ring",
+    "jewelry:netherite_sapphire_necklace",
+    "jewelry:netherite_sapphire_ring",
+    "jewelry:netherite_tanzanite_necklace",
+    "jewelry:netherite_tanzanite_ring",
+    "jewelry:netherite_topaz_necklace",
+    "jewelry:netherite_topaz_ring",
+    "jewelry:ruby_necklace",
+    "jewelry:ruby_ring",
+    "jewelry:sapphire_necklace",
+    "jewelry:sapphire_ring",
+    "jewelry:tanzanite_necklace",
+    "jewelry:tanzanite_ring",
+    "jewelry:topaz_necklace",
+    "jewelry:topaz_ring",
+    "jewelry:unique_arcane_necklace",
+    "jewelry:unique_arcane_ring",
+    "jewelry:unique_archer_necklace",
+    "jewelry:unique_archer_ring",
+    "jewelry:unique_attack_necklace",
+    "jewelry:unique_attack_ring",
+    "jewelry:unique_crit_necklace",
+    "jewelry:unique_crit_ring",
+    "jewelry:unique_dex_necklace",
+    "jewelry:unique_dex_ring",
+    "jewelry:unique_fire_necklace",
+    "jewelry:unique_fire_ring",
+    "jewelry:unique_frost_necklace",
+    "jewelry:unique_frost_ring",
+    "jewelry:unique_healing_necklace",
+    "jewelry:unique_healing_ring",
+    "jewelry:unique_spell_necklace",
+    "jewelry:unique_spell_ring",
+    "jewelry:unique_tank_necklace",
+    "jewelry:unique_tank_ring",
+    "lendersdelight:amethyst_crab_meat_slice",
+    "lendersdelight:amethyst_crab_meat_stick",
+    "lendersdelight:amethyst_crab_sandwich",
+    "lendersdelight:berserker",
+    "lendersdelight:berserker_stick",
+    "lendersdelight:cindaria_hat",
+    "lendersdelight:cooked_amethyst_crab_meat",
+    "lendersdelight:cooked_amethyst_crab_meat_slice",
+    "lendersdelight:cooked_berserker",
+    "lendersdelight:cooked_coral_golem_meat",
+    "lendersdelight:cooked_crab_legs",
+    "lendersdelight:cooked_ender_golem_meat",
+    "lendersdelight:cooked_koboleton_meat",
+    "lendersdelight:cooked_leviathan",
+    "lendersdelight:cooked_lionfish",
+    "lendersdelight:cooked_netherite_monstrosity_meat",
+    "lendersdelight:coral_and_void",
+    "lendersdelight:coral_chunk_red_slice",
+    "lendersdelight:coral_chunk_sandwich",
+    "lendersdelight:coral_golem_meat",
+    "lendersdelight:crab_legs",
+    "lendersdelight:crystallized_coral_pie_slice",
+    "lendersdelight:crystallized_coral_potato",
+    "lendersdelight:crystallized_coral_roll",
+    "lendersdelight:deepling_meat",
+    "lendersdelight:ender_blood",
+    "lendersdelight:ender_blood_glazed_maledictus_heart",
+    "lendersdelight:ender_golem_meat",
+    "lendersdelight:ender_guardian_crystal",
+    "lendersdelight:fried_abyssal_egg",
+    "lendersdelight:glazed_remnant_skull",
+    "lendersdelight:grilled_lionfish",
+    "lendersdelight:ham_of_berserker",
+    "lendersdelight:hippocamtus",
+    "lendersdelight:honey_glazed_horn",
+    "lendersdelight:ignis",
+    "lendersdelight:improved_dog_food",
+    "lendersdelight:koboleton_meat",
+    "lendersdelight:koboleton_pumpkin",
+    "lendersdelight:leviathan",
+    "lendersdelight:leviathan_and_abyssal_egg",
+    "lendersdelight:lionfish_roll",
+    "lendersdelight:lionfish_slice",
+    "lendersdelight:maledictus_heart",
+    "lendersdelight:maledictus_heart_slice",
+    "lendersdelight:maledictus_heart_stew",
+    "lendersdelight:netherite_monstrosity_meat",
+    "lendersdelight:pasta_with_witherite",
+    "lendersdelight:raw_brute_deepling_meat",
+    "lendersdelight:raw_deepling_meat",
+    "lendersdelight:raw_warlock_deepling_meat",
+    "lendersdelight:red_coral_stew",
+    "lendersdelight:scylla_snake",
+    "lendersdelight:scylla_snake_glazed_cindaria_hat",
+    "lendersdelight:sea_meat_salad",
+    "lendersdelight:symbiocto_tentacle",
+    "lendersdelight:urchinkin",
+    "lendersdelight:urchinkin_pumpkin",
+    "lendersdelight:void_custard",
+    "lendersdelight:void_popsicle",
+    "lendersdelight:watcher_heart",
+    "mcwbridges:oak_bridge_pier",
+    "mcwbridges:oak_log_bridge_middle",
+    "mcwbridges:oak_rail_bridge",
+    "mcwbridges:stone_brick_bridge",
+    "mcwdoors:oak_barn_door",
+    "mcwdoors:oak_japanese_door",
+    "mcwdoors:oak_modern_door",
+    "mcwfences:bastion_metal_fence",
+    "mcwfences:oak_hedge",
+    "mcwfences:oak_picket_fence",
+    "mcwfences:oak_stockade_fence",
+    "mcwroofs:oak_attic_roof",
+    "mcwroofs:oak_roof",
+    "mcwroofs:oak_steep_roof",
+    "mcwroofs:oak_top_roof",
+    "mcwstairs:oak_balcony",
+    "mcwstairs:oak_bulk_stairs",
+    "mcwstairs:oak_compact_stairs",
+    "mcwstairs:oak_loft_stairs",
+    "mcwstairs:oak_railing",
+    "mcwstairs:oak_skyline_stairs",
+    "mcwwindows:black_curtain",
+    "mcwwindows:oak_pane_window",
+    "mcwwindows:oak_shutter",
+    "mcwwindows:oak_window",
+    "mechtrowel:mech_trowel",
+    "minecraft:anvil",
+    "minecraft:apple",
+    "minecraft:armor_stand",
+    "minecraft:beetroot",
+    "minecraft:blue_dye",
+    "minecraft:bread",
+    "minecraft:bricks",
+    "minecraft:brown_mushroom_block",
+    "minecraft:carrot",
+    "minecraft:chain",
+    "minecraft:chest",
+    "minecraft:cod",
+    "minecraft:compass",
+    "minecraft:cooked_beef",
+    "minecraft:crafting_table",
+    "minecraft:diamond_chestplate",
+    "minecraft:dragon_head",
+    "minecraft:egg",
+    "minecraft:emerald",
+    "minecraft:enchanted_book",
+    "minecraft:ender_chest",
+    "minecraft:feather",
+    "minecraft:furnace",
+    "minecraft:grass_block",
+    "minecraft:hopper",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_nugget",
+    "minecraft:iron_sword",
+    "minecraft:lantern",
+    "minecraft:lava_bucket",
+    "minecraft:leather",
+    "minecraft:lectern",
+    "minecraft:lever",
+    "minecraft:map",
+    "minecraft:minecart",
+    "minecraft:name_tag",
+    "minecraft:oak_sign",
+    "minecraft:obsidian",
+    "minecraft:painting",
+    "minecraft:phantom_membrane",
+    "minecraft:potato",
+    "minecraft:potion",
+    "minecraft:prismarine_shard",
+    "minecraft:pufferfish",
+    "minecraft:raw_iron",
+    "minecraft:red_mushroom_block",
+    "minecraft:redstone",
+    "minecraft:salmon",
+    "minecraft:shulker_box",
+    "minecraft:shulker_shell",
+    "minecraft:spyglass",
+    "minecraft:stone_bricks",
+    "minecraft:tropical_fish",
+    "minecraft:water_bucket",
+    "minecraft:wheat",
+    "minecraft:wheat_seeds",
+    "minecraft:white_bed",
+    "minersdelight:arthropod",
+    "minersdelight:baked_cave_carrot",
+    "minersdelight:baked_cod_stew_cup",
+    "minersdelight:baked_spider_leg",
+    "minersdelight:baked_squid",
+    "minersdelight:baked_tentacles",
+    "minersdelight:bat_cookie",
+    "minersdelight:bat_rolls",
+    "minersdelight:bat_soup",
+    "minersdelight:bat_soup_cup",
+    "minersdelight:bat_wing",
+    "minersdelight:beef_stew_cup",
+    "minersdelight:beetroot_soup_cup",
+    "minersdelight:bone_broth_cup",
+    "minersdelight:bowl_of_stuffed_squid",
+    "minersdelight:cave_carrot",
+    "minersdelight:cave_hamburger",
+    "minersdelight:cave_soup",
+    "minersdelight:cave_soup_cup",
+    "minersdelight:chicken_soup_cup",
+    "minersdelight:cooked_arthropod",
+    "minersdelight:copper_carrot",
+    "minersdelight:copper_cup",
+    "minersdelight:copper_pot",
+    "minersdelight:crunchy_bar",
+    "minersdelight:egg_soup_cup",
+    "minersdelight:fish_stew_cup",
+    "minersdelight:glow_ink_pasta",
+    "minersdelight:glow_squid",
+    "minersdelight:golden_nutritional_bar",
+    "minersdelight:improvised_barbecue_stick",
+    "minersdelight:insect_sandwich",
+    "minersdelight:insect_stew",
+    "minersdelight:insect_stew_cup",
+    "minersdelight:insect_wrap",
+    "minersdelight:milk_cup",
+    "minersdelight:mushroom_stew_cup",
+    "minersdelight:noodle_soup_cup",
+    "minersdelight:nutritional_bar",
+    "minersdelight:onion_soup_cup",
+    "minersdelight:pasta_with_veggieballs",
+    "minersdelight:plate_of_fake_meatloaf",
+    "minersdelight:plate_of_glazed_arachnid_limbs",
+    "minersdelight:powder_snow_cup",
+    "minersdelight:pumpkin_soup_cup",
+    "minersdelight:rabbit_stew_cup",
+    "minersdelight:rock_soup_cup",
+    "minersdelight:seasoned_arthropods",
+    "minersdelight:silverfish_eggs",
+    "minersdelight:smoked_bat_wing",
+    "minersdelight:spicy_hoglin_stew_cup",
+    "minersdelight:spicy_noodle_soup_cup",
+    "minersdelight:spider_leg",
+    "minersdelight:squid",
+    "minersdelight:squid_sandwich",
+    "minersdelight:strider_stew_cup",
+    "minersdelight:takoyaki",
+    "minersdelight:tentacles",
+    "minersdelight:tentacles_on_a_stick",
+    "minersdelight:vegan_hamburger",
+    "minersdelight:vegan_patty",
+    "minersdelight:vegan_steak_and_potatoes",
+    "minersdelight:vegan_wrap",
+    "minersdelight:vegetable_soup_cup",
+    "minersdelight:water_cup",
+    "minersdelight:weird_caviar",
+    "minersdelight:wild_cave_carrots",
+    "molten_vents:active_molten_asurine",
+    "molten_vents:active_molten_crimsite",
+    "molten_vents:active_molten_ochrum",
+    "molten_vents:active_molten_scorchia",
+    "molten_vents:active_molten_scoria",
+    "molten_vents:active_molten_veridium",
+    "molten_vents:dormant_molten_asurine",
+    "more_relics:greater_frozen_heart",
+    "more_relics:greater_kircheis_shard",
+    "more_relics:greater_liandrys_torment",
+    "more_relics:greater_madreds_bloodrazor",
+    "more_relics:greater_proc_rage",
+    "more_relics:greater_sunfire_cape",
+    "more_relics:jewel_figurine_aquamarine",
+    "more_relics:jewel_figurine_chain",
+    "more_relics:jewel_figurine_malachite",
+    "more_relics:lesser_proc_air_water",
+    "more_relics:lesser_proc_earth_nature",
+    "more_relics:lesser_use_rage",
+    "more_relics:medium_proc_lifesteal",
+    "more_relics:medium_proc_rage",
+    "more_relics:medium_use_air_power",
+    "more_relics:medium_use_earth_power",
+    "more_relics:medium_use_nature_power",
+    "more_relics:medium_use_water_power",
+    "more_relics:superior_guardian_angel",
+    "more_relics:superior_mejais_soulstealer",
+    "more_relics:superior_mikaels_blessing",
+    "more_relics:superior_shurelyas_battlesong",
+    "more_relics:superior_zhonyas_hourglass",
+    "mynethersdelight:bacon-wrapped_sausage_on_a_stick",
+    "mynethersdelight:bleeding_tartar",
+    "mynethersdelight:blue_tenderloin_steak",
+    "mynethersdelight:boiled_egg",
+    "mynethersdelight:breakfast_sampler",
+    "mynethersdelight:bullet_pepper",
+    "mynethersdelight:burnt_roll",
+    "mynethersdelight:chilidog",
+    "mynethersdelight:cooked_loin",
+    "mynethersdelight:crimson_stroganoff",
+    "mynethersdelight:deviled_egg",
+    "mynethersdelight:dried_ghast_with_milk",
+    "mynethersdelight:egg_soup",
+    "mynethersdelight:enchanted_golden_egg",
+    "mynethersdelight:fried_hoglin_chop",
+    "mynethersdelight:fries_ghasta",
+    "mynethersdelight:ghasmati",
+    "mynethersdelight:ghast_dough",
+    "mynethersdelight:ghast_salad",
+    "mynethersdelight:ghast_sourdough",
+    "mynethersdelight:ghasta",
+    "mynethersdelight:giant_takoyaki",
+    "mynethersdelight:golden_egg",
+    "mynethersdelight:hoglin_hide",
+    "mynethersdelight:hoglin_loin",
+    "mynethersdelight:hoglin_sausage",
+    "mynethersdelight:hot_cream",
+    "mynethersdelight:hot_cream_cone",
+    "mynethersdelight:hot_wings",
+    "mynethersdelight:hot_wings_bucket",
+    "mynethersdelight:hotdog",
+    "mynethersdelight:hotdog_with_mixed_salad",
+    "mynethersdelight:hotdog_with_nether_salad",
+    "mynethersdelight:magma_cake_slice",
+    "mynethersdelight:minced_strider",
+    "mynethersdelight:nether_burger",
+    "mynethersdelight:pepper_powder",
+    "mynethersdelight:plate_of_cold_striderloaf",
+    "mynethersdelight:plate_of_ghasta_with_cream",
+    "mynethersdelight:plate_of_striderloaf",
+    "mynethersdelight:plate_of_stuffed_hoglin",
+    "mynethersdelight:plate_of_stuffed_hoglin_ham",
+    "mynethersdelight:plate_of_stuffed_hoglin_snout",
+    "mynethersdelight:raw_stuffed_hoglin",
+    "mynethersdelight:red_loin_on_a_stick",
+    "mynethersdelight:roast_ear",
+    "mynethersdelight:roasted_sausage",
+    "mynethersdelight:rock_soup",
+    "mynethersdelight:sausage_and_potatoes",
+    "mynethersdelight:scotch_eggs",
+    "mynethersdelight:sizzling_pudding",
+    "mynethersdelight:slices_of_bread",
+    "mynethersdelight:spicy_cotton",
+    "mynethersdelight:spicy_curry",
+    "mynethersdelight:spicy_hoglin_stew",
+    "mynethersdelight:spicy_noodle_soup",
+    "mynethersdelight:spicy_skewer",
+    "mynethersdelight:strider_egg",
+    "mynethersdelight:strider_rock",
+    "mynethersdelight:strider_slice",
+    "mynethersdelight:strider_stew",
+    "mynethersdelight:strider_with_grilled_fungus",
+    "mynethersdelight:stuffed_pepper",
+    "mynethersdelight:tear_popsicle",
+    "mynethersdelight:toasts",
+    "mynethersdelight:twisted_ghasta",
+    "naturescompass:naturescompass",
+    "offroad:borehead_bearing",
+    "offroad:large_tire",
+    "offroad:monstrous_tire",
+    "offroad:small_tire",
+    "offroad:tire",
+    "offroad:wheel_mount",
+    "paladins:crusader_armor_chest",
+    "paladins:diamond_holy_wand",
+    "paladins:holy_staff",
+    "paladins:holy_wand",
+    "paladins:iron_claymore",
+    "paladins:iron_great_hammer",
+    "paladins:iron_kite_shield",
+    "paladins:iron_mace",
+    "paladins:netherite_crusader_armor_chest",
+    "paladins:netherite_holy_wand",
+    "paladins:netherite_prior_robe_chest",
+    "paladins:paladin_armor_chest",
+    "paladins:priest_robe_chest",
+    "paladins:prior_robe_chest",
+    "reinfshulker:copper_shulker_box",
+    "reinfshulker:diamond_shulker_box",
+    "reinfshulker:gold_shulker_box",
+    "reinfshulker:iron_shulker_box",
+    "reinfshulker:netherite_shulker_box",
+    "relics_rpgs:greater_healing_taken",
+    "relics_rpgs:greater_perk_defense_block",
+    "relics_rpgs:greater_perk_evasion_attack",
+    "relics_rpgs:greater_perk_heal_cleanse",
+    "relics_rpgs:greater_perk_heal_danger",
+    "relics_rpgs:greater_perk_melee_stun",
+    "relics_rpgs:greater_perk_ranged_levitate",
+    "relics_rpgs:greater_perk_roll_damage",
+    "relics_rpgs:greater_perk_shield_reset",
+    "relics_rpgs:greater_perk_spell_stun",
+    "relics_rpgs:greater_proc_defense_danger",
+    "relics_rpgs:greater_proc_physical_trance",
+    "relics_rpgs:greater_proc_spell_trance",
+    "relics_rpgs:jewel_figurine_citrine",
+    "relics_rpgs:jewel_figurine_jade",
+    "relics_rpgs:jewel_figurine_ruby",
+    "relics_rpgs:jewel_figurine_sapphire",
+    "relics_rpgs:jewel_figurine_tanzanite",
+    "relics_rpgs:jewel_figurine_topaz",
+    "relics_rpgs:lesser_evasion",
+    "relics_rpgs:lesser_melee_crit_chance",
+    "relics_rpgs:lesser_melee_crit_damage",
+    "relics_rpgs:lesser_proc_arcane_fire",
+    "relics_rpgs:lesser_proc_crit_damage",
+    "relics_rpgs:lesser_proc_frost_healing",
+    "relics_rpgs:lesser_proc_spell_crit",
+    "relics_rpgs:lesser_roll",
+    "relics_rpgs:lesser_use_damage",
+    "relics_rpgs:lesser_use_dex",
+    "relics_rpgs:lesser_use_health",
+    "relics_rpgs:lesser_use_ranged",
+    "relics_rpgs:lesser_use_spell_haste",
+    "relics_rpgs:lesser_use_spell_power",
+    "relics_rpgs:medium_proc_arcane_power",
+    "relics_rpgs:medium_proc_attack_damage",
+    "relics_rpgs:medium_proc_attack_speed",
+    "relics_rpgs:medium_proc_defense",
+    "relics_rpgs:medium_proc_evasion",
+    "relics_rpgs:medium_proc_fire_power",
+    "relics_rpgs:medium_proc_frost_power",
+    "relics_rpgs:medium_proc_healing_power",
+    "relics_rpgs:medium_proc_ranged_damage",
+    "relics_rpgs:medium_proc_spell_haste",
+    "relics_rpgs:medium_proc_spell_power",
+    "relics_rpgs:superior_use_area_attack_damage",
+    "relics_rpgs:superior_use_area_defense_health",
+    "relics_rpgs:superior_use_zone_healing_taken",
+    "relics_rpgs:superior_use_zone_spell_power",
+    "rogues:assassin_armor_chest",
+    "rogues:berserker_armor_chest",
+    "rogues:iron_dagger",
+    "rogues:iron_double_axe",
+    "rogues:iron_glaive",
+    "rogues:iron_sickle",
+    "rogues:netherite_assassin_armor_chest",
+    "rogues:netherite_berserker_armor_chest",
+    "rogues:rogue_armor_chest",
+    "rogues:warrior_armor_chest",
+    "runes:arcane_stone",
+    "runes:crafting_altar",
+    "runes:fire_stone",
+    "runes:frost_stone",
+    "runes:healing_stone",
+    "runes:large_rune_pouch",
+    "runes:lightning_stone",
+    "runes:medium_rune_pouch",
+    "runes:small_rune_pouch",
+    "runes:soul_stone",
+    "simulated:altitude_sensor",
+    "simulated:contraption_diagram",
+    "simulated:directional_linked_receiver",
+    "simulated:docking_connector",
+    "simulated:gimbal_sensor",
+    "simulated:honey_glue",
+    "simulated:laser_sensor",
+    "simulated:modulating_linked_receiver",
+    "simulated:navigation_table",
+    "simulated:optical_sensor",
+    "simulated:physics_assembler",
+    "simulated:rope_connector",
+    "simulated:rope_coupling",
+    "simulated:rope_winch",
+    "simulated:spring",
+    "simulated:steering_wheel",
+    "simulated:swivel_bearing",
+    "simulated:throttle_lever",
+    "simulated:velocity_sensor",
+    "simulated:white_symmetric_sail",
+    "skill_tree_rpgs:orb_of_oblivion",
+    "sliceanddice:fertilizer_bucket",
+    "sliceanddice:slicer",
+    "sliceanddice:sprinkler",
+    "solonion:food_book",
+    "solonion:golden_lunchbox",
+    "solonion:lunchbag",
+    "solonion:lunchbox",
+    "spawn:bluefish",
+    "spawn:bluefish_bucket",
+    "spawn:bluefish_roll",
+    "spawn:canned_herring",
+    "spawn:casting_net",
+    "spawn:clam",
+    "spawn:clam_chowder",
+    "spawn:coastal_crab_claw",
+    "spawn:cooked_bluefish",
+    "spawn:cooked_clam",
+    "spawn:cooked_herring",
+    "spawn:cooked_tuna_chunk",
+    "spawn:crab_boil",
+    "spawn:herring",
+    "spawn:herring_bucket",
+    "spawn:herring_roll",
+    "spawn:steamed_clams",
+    "spawn:tuna_chunk",
+    "spawn:tuna_roll",
+    "spawn:tuna_sandwich",
+    "spawn:tuna_slice",
+    "strawstatues:straw_statue",
+    "supplementaries:awning",
+    "supplementaries:blackboard",
+    "supplementaries:clock_block",
+    "supplementaries:jar",
+    "supplementaries:pedestal",
+    "tempad:card_wallet",
+    "tempad:chronometer",
+    "tempad:chronon_battery",
+    "tempad:chronon_cell",
+    "tempad:chronon_generator",
+    "tempad:location_broadcaster",
+    "tempad:location_card",
+    "tempad:tempad",
+    "tempad:timedoor_marker",
+    "tempad:timedoor_projector",
+    "tempad:workstation",
+    "tfmg:blast_furnace_hatch",
+    "tfmg:blast_furnace_output",
+    "tfmg:blast_stove",
+    "tfmg:casting_basin",
+    "tfmg:coal_coke",
+    "tfmg:coke_oven",
+    "tfmg:compressor",
+    "tfmg:copper_cable_hub",
+    "tfmg:electric_motor",
+    "tfmg:electricians_wrench",
+    "tfmg:freezer",
+    "tfmg:generator",
+    "tfmg:heavy_electric_motor",
+    "tfmg:industrial_mixer",
+    "tfmg:industrial_pipe",
+    "tfmg:large_engine",
+    "tfmg:pumpjack_base",
+    "tfmg:radial_engine",
+    "tfmg:regular_engine",
+    "tfmg:simple_large_engine",
+    "tfmg:steel_chemical_vat",
+    "tfmg:steel_distillation_controller",
+    "tfmg:steel_distillation_output",
+    "tfmg:steel_fluid_tank",
+    "tfmg:steel_pipe",
+    "tfmg:surface_scanner",
+    "tfmg:transformer",
+    "tfmg:turbine_engine",
+    "tfmg:voltmeter",
+    "tfmg:winding_machine",
+    "torchmaster:dreadlamp",
+    "torchmaster:feral_flare_lantern",
+    "torchmaster:frozen_pearl",
+    "torchmaster:megatorch",
+    "trading_floor:trading_depot",
+    "waystones:attuned_shard",
+    "waystones:blackstone_waystone",
+    "waystones:blank_scroll",
+    "waystones:deepslate_waystone",
+    "waystones:dormant_shard",
+    "waystones:end_stone_waystone",
+    "waystones:mossy_waystone",
+    "waystones:mud_bricks_waystone",
+    "waystones:orange_sharestone",
+    "waystones:prismarine_waystone",
+    "waystones:purpur_waystone",
+    "waystones:red_nether_bricks_waystone",
+    "waystones:sandy_waystone",
+    "waystones:warp_plate",
+    "waystones:warp_stone",
+    "waystones:waystone",
+    "waystones:white_portstone",
+    "witcher_rpg:dark_iron_witcher_sword",
+    "witcher_rpg:dark_steel_witcher_sword",
+    "witcher_rpg:enhanced_feline_chest",
+    "witcher_rpg:enhanced_griffin_chest",
+    "witcher_rpg:enhanced_ursine_chest",
+    "witcher_rpg:enhanced_wolven_chest",
+    "witcher_rpg:feline_chest",
+    "witcher_rpg:grandmaster_feline_chest",
+    "witcher_rpg:grandmaster_griffin_chest",
+    "witcher_rpg:grandmaster_ursine_chest",
+    "witcher_rpg:grandmaster_wolven_chest",
+    "witcher_rpg:griffin_chest",
+    "witcher_rpg:iron_witcher_sword",
+    "witcher_rpg:mastercrafted_feline_chest",
+    "witcher_rpg:mastercrafted_griffin_chest",
+    "witcher_rpg:mastercrafted_ursine_chest",
+    "witcher_rpg:mastercrafted_wolven_chest",
+    "witcher_rpg:meteorite_silver_witcher_sword",
+    "witcher_rpg:silver_witcher_sword",
+    "witcher_rpg:steel_witcher_sword",
+    "witcher_rpg:superior_feline_chest",
+    "witcher_rpg:superior_griffin_chest",
+    "witcher_rpg:superior_ursine_chest",
+    "witcher_rpg:superior_wolven_chest",
+    "witcher_rpg:ursine_chest",
+    "witcher_rpg:witcher_chest",
+    "witcher_rpg:wolf_school_medallion",
+    "witcher_rpg:wolven_chest",
+    "wizards:arcane_robe_chest",
+    "wizards:fire_robe_chest",
+    "wizards:frost_robe_chest",
+    "wizards:netherite_arcane_robe_chest",
+    "wizards:netherite_fire_robe_chest",
+    "wizards:netherite_frost_robe_chest",
+    "wizards:staff_arcane",
+    "wizards:staff_fire",
+    "wizards:staff_wizard",
+    "wizards:wand_arcane",
+    "wizards:wand_fire",
+    "wizards:wand_frost",
+    "wizards:wand_novice",
+    "wizards:wizard_robe_chest"
+  ],
+  "native_recipe_identifiers": [
+    "aeroengineering:compressor_component",
+    "aeroworks:throttle_quadrant_module",
+    "backpacks:crafting_table/ender",
+    "backpacks:crafting_table/small",
+    "beautify:bookstack",
+    "bellsandwhistles:bogie_steps/brass_bogie_steps",
+    "copycats:crafting/copycat_block_from_slabs",
+    "create:crafting/kinetics/millstone",
+    "create_enchantment_industry:crafting/mechanical_grindstone",
+    "create_pattern_schematics:pattern_schematic",
+    "create_radar:crafting/auto_pitch_controller",
+    "create_submarine:ballast_tank",
+    "createbigcannons:ap_shot",
+    "createrailwaysnavigator:advanced_display",
+    "escalated:metal_walkway_steps",
+    "farmersdelight:cooking_pot",
+    "immersive_paintings:graffiti",
+    "mcwbridges:oak_bridge_pier",
+    "minecraft:workbench/alchemy_bench",
+    "offroad:borehead_bearing",
+    "sliceanddice:slicer",
+    "stam1ocreatetweaks:blasting/blue_dye",
+    "tfmg:crafting/materials/coke_oven",
+    "torchmaster:frozen_pearl",
+    "trading_floor:trading_depot",
+    "waystones:orange_sharestone_recolor"
+  ],
+  "unresolved_static_identifiers": [],
+  "unresolved_recipe_definitions": [],
+  "scope": "Static selected and bundled assets, labels and recipe definitions. Not a loaded registry or rendered recipe-manager test."
+}

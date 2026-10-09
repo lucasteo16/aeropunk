@@ -1,11 +1,12 @@
 ---
 navigation:
-  title: "Astropunk handbook"
+  title: "Handbook"
   position: 0
   parent: category-technical.md
+  icon: minecraft:redstone
 ---
 
-# Astropunk handbook
+# Handbook
 
 ## Overview
 

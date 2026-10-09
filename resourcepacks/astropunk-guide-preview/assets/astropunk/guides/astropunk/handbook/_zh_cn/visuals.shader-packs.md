@@ -3,6 +3,7 @@ navigation:
   title: "比较光影风格"
   position: 0
   parent: category-visuals.md
+  icon: minecraft:painting
 ---
 
 # 比较光影风格

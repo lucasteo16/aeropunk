@@ -3,6 +3,7 @@ navigation:
   title: "Ore processing"
   position: 0
   parent: reference.machines-storage.md
+  icon: create:crushing_wheel
 item_ids:
   - create:millstone
   - create:crushing_wheel
@@ -12,7 +13,7 @@ item_ids:
 
 # Ore processing
 
-## Overview
+## Processing machines
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />
@@ -28,9 +29,13 @@ item_ids:
 
 Use Ponder for the machine arrangement and power supply.
 
+***
+
 ## Millstone
 
 <Recipe id="create:crafting/kinetics/millstone" />
+
+***
 
 ## Wheat milling
 
@@ -47,6 +52,8 @@ Use Ponder for the machine arrangement and power supply.
 | Bonus, 25 percent chance | Two more wheat flour |
 | Bonus, 25 percent chance | One wheat seed |
 
+***
+
 ## Iron crushing
 
 <ItemGrid>
@@ -60,6 +67,8 @@ Use Ponder for the machine arrangement and power supply.
 | --- | --- |
 | One raw iron | One crushed raw iron |
 | Bonus, 75 percent chance | One experience nugget |
+
+***
 
 ## Iron washing
 
@@ -77,9 +86,3 @@ Use Ponder for the machine arrangement and power supply.
 | Bonus, 75 percent chance | One redstone |
 
 Water is the fan's processing medium, not a consumed bucket. [Material routing](machines.logistics.md) covers moving ingredients and collecting outputs.
-
-## Related mods
-
-| Mod or content | Publisher description |
-| --- | --- |
-| Create | Aesthetic Technology that empowers the Player |

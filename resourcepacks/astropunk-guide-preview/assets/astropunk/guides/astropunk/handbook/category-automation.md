@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Automation and industry"
+  title: "Automation"
   position: 0
   parent: mod-catalogs.md
   icon: create:crushing_wheel
 ---
 
-# Automation and industry
+# Automation
 
 ## Automation Mods
 
@@ -46,14 +46,14 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
-| [Machine cooking](food.machine-cooking.md) | WIP |
+| [Machine cooking](food.machine-cooking.md) | Reference |
 | [Ore processing](machines.ore-processing.md) | Reference |
-| [Rotational power](machines.rotation.md) | WIP |
-| [Renewable resources](machines.renewables.md) | WIP |
-| [Automated enchanting](machines.enchanting.md) | WIP |
-| [Automated trading](machines.trading.md) | WIP |
-| [Electricity](power.electricity.md) | WIP |
-| [Industrial materials and fuels](power.industry.md) | WIP |
-| [Liquid burner fuels](power.burners.md) | WIP |
-| [Rotational storage](power.stored-rotation.md) | WIP |
-| [Machines and storage](reference.machines-storage.md) | Reference |
+| [Rotational power](machines.rotation.md) | Reference |
+| [Renewable resources](machines.renewables.md) | Reference |
+| [Enchanting](machines.enchanting.md) | Reference |
+| [Trading](machines.trading.md) | Reference |
+| [Electricity](power.electricity.md) | Reference |
+| [Materials & fuels](power.industry.md) | Reference |
+| [Liquid fuels](power.burners.md) | Reference |
+| [Stored rotation](power.stored-rotation.md) | Reference |
+| [Machines & storage](reference.machines-storage.md) | Reference |

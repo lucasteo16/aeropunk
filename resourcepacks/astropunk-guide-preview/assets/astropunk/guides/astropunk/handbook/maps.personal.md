@@ -3,17 +3,31 @@ navigation:
   title: "Maps"
   position: 12
   parent: quick-reference.md
+  icon: minecraft:map
 ---
 
 # Maps
 
-## Overview
+## World map
 
-Work in progress (WIP).
+![World map](images/parent-world-map.png)
 
-## Related mods
+Xaero's World Map records explored terrain. Open it with <KeyBind id="gui.xaero_open_map" /> and zoom with the mouse wheel.
 
-| Mod or content | Publisher description |
+***
+
+## Waypoints
+
+Use <KeyBind id="gui.xaero_waypoints_key" /> to manage waypoints. Mark a base, portal or useful location so you can return to it.
+
+Map teleportation depends on server permissions; placing a waypoint does not grant survival teleportation.
+
+***
+
+## Find & share
+
+| Need | Reference |
 | --- | --- |
-| Xaero's Minimap | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked. |
-| Xaero's World Map | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
+| A biome or structure | [Location finders](maps.find.md) |
+| Shared explored terrain | [Shared maps](maps.shared.md) |
+| Dimension access | [Dimensions](world.dimensions.md) |
