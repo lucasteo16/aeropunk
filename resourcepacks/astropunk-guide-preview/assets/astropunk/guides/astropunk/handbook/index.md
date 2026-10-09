@@ -7,12 +7,12 @@ navigation:
 
 # Astropunk
 
-![Aeronautics airship above the landscape](images/home-aeronautics-ship.png)
+![Steampunk Airship by Merun173](images/home-merun173-airship.png)
 
-Raise your sails above the clouds. Astropunk turns the workshop you build today into the vessel that carries you beyond tomorrow's horizon.
+Build an airship, choose your combat class and take on a world that grows more dangerous as you play. Astropunk is a survival sandbox where your workshop, your home and your adventures all have room to grow.
 
-Ruined strongholds and sprawling dungeons give your ambition something to collide with. Choose a combat class, pair weapons with spells and trinkets, and shape your strengths through skills. Boss encounters put those choices to the test, while hostile mobs grow tougher as the world ages.
+Explore dungeons and fight bosses with weapons, spells and trinkets that suit your build. Develop your skills, then return home to tend crops, cook, decorate or automate the work with Create machinery. Build a quiet farm or a busy factory, sail the seas or take to the sky.
 
-There is a life worth building between expeditions. Tend your fields, cook for the journey and turn a shelter into a home. Let machinery carry the work while you furnish a cottage, raise a factory or build a harbor. The sky offers an escape when the ground grows hostile, and the seas are waiting to be sailed.
+There is no quest chain telling you what to do next. The sidebar gives you quick entry points into each topic. Choose what interests you and make it your own.
 
-There is no quest-based progression to dictate your path. The sidebar provides quick entry points into each topic, not a checklist to complete. Your curiosity and imagination set the course.
+- [Image credits](help.credits.md)

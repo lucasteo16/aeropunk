@@ -3,7 +3,7 @@ navigation:
   title: "Radar"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:sculk_sensor
 ---
 
 # Radar

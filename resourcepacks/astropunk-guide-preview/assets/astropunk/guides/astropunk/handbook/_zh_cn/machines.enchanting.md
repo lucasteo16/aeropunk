@@ -3,7 +3,7 @@ navigation:
   title: "附魔、修理与查看装备"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:enchanting_table
 ---
 
 # 附魔、修理与查看装备

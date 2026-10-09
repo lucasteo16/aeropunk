@@ -3,7 +3,7 @@ navigation:
   title: "使用随机放置与蓝图工具"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: mechtrowel:mech_trowel
 ---
 
 # 使用随机放置与蓝图工具

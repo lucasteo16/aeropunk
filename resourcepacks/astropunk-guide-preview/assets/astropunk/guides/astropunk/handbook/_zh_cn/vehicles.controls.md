@@ -3,7 +3,7 @@ navigation:
   title: "控制与稳定载具"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:controls
 ---
 
 # 控制与稳定载具

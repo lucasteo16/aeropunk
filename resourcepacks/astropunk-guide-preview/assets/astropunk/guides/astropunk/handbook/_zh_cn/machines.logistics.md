@@ -3,7 +3,7 @@ navigation:
   title: "输送、筛选与分配物品"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:brass_funnel
 ---
 
 # 输送、筛选与分配物品

@@ -3,7 +3,7 @@ navigation:
   title: "Liquid fuels"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:lava_bucket
 ---
 
 # Liquid fuels

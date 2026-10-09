@@ -3,7 +3,7 @@ navigation:
   title: "布置住宅与公共空间"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: handcrafted:oak_chair
 ---
 
 # 布置住宅与公共空间

@@ -3,7 +3,7 @@ navigation:
   title: "Shared maps"
   position: 0
   parent: maps.personal.md
-  icon: minecraft:map
+  icon: minecraft:cartography_table
 ---
 
 # Shared maps

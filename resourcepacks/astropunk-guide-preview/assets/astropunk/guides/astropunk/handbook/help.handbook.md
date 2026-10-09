@@ -3,7 +3,7 @@ navigation:
   title: "Handbook"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:writable_book
 ---
 
 # Handbook

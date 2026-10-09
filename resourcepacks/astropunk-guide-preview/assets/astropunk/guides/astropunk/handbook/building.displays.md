@@ -3,7 +3,7 @@ navigation:
   title: "Displays"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: minecraft:item_frame
 ---
 
 # Displays

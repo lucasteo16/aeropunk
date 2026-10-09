@@ -47,7 +47,7 @@ navigation:
   <ItemIcon id="lendersdelight:urchinkin_pumpkin" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:stick" />
@@ -70,41 +70,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:pumpkin" />
 </ItemGrid>
 
-Cataclysm ingredients connect cooking to creature encounters. Gather the named raw ingredient before preparing portions or cooked seafood. A sandwich recipe identifies its inputs, not a guaranteed drop from every sea creature.
-
-- <ItemLink id="lendersdelight:amethyst_crab_meat_stick" /> Combine in a heated cooking pot using 2 <ItemLink id="lendersdelight:cooked_amethyst_crab_meat_slice" />. Yield 1. Serve in <ItemLink id="minecraft:stick" />.
-- <ItemLink id="lendersdelight:amethyst_crab_sandwich" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="lendersdelight:cooked_amethyst_crab_meat" /> plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato. Yield 1.
-- <ItemLink id="lendersdelight:cooked_amethyst_crab_meat" /> Cook in a furnace using 1 <ItemLink id="cataclysm:amethyst_crab_meat" />. Yield 1.
-- <ItemLink id="lendersdelight:cooked_coral_golem_meat" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:coral_golem_meat" />. Yield 1.
-- <ItemLink id="lendersdelight:cooked_lionfish" /> Cook in a furnace using 1 <ItemLink id="cataclysm:lionfish" />. Yield 1.
-- <ItemLink id="lendersdelight:coral_and_void" /> Combine in a heated cooking pot using 1 <ItemLink id="cataclysm:coral_chunk" /> plus 1 <ItemLink id="farmersdelight:rice" /> plus 1 <ItemLink id="lendersdelight:void_custard" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:coral_chunk_sandwich" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="cataclysm:coral_chunk" /> plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato. Yield 1.
-- <ItemLink id="lendersdelight:coral_golem_meat" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_coral_golem_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:crystallized_coral_potato" /> Combine in a heated cooking pot using 1 <ItemLink id="cataclysm:crystallized_coral_fragments" /> plus 1 <ItemLink id="farmersdelight:rice" />. Yield 1. Serve in <ItemLink id="minecraft:potato" />.
-- <ItemLink id="lendersdelight:crystallized_coral_roll" /> Combine in the crafting grid using 1 <ItemLink id="cataclysm:crystallized_coral_fragments" /> plus 1 <ItemLink id="minecraft:dried_kelp" />. Yield 1.
-- <ItemLink id="lendersdelight:amethyst_crab_meat_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="cataclysm:amethyst_crab_meat" />. Yield 2.
-- <ItemLink id="lendersdelight:cooked_amethyst_crab_meat_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="lendersdelight:cooked_amethyst_crab_meat" />. Yield 2.
-- <ItemLink id="lendersdelight:coral_chunk_red_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="cataclysm:coral_chunk" />. Yield 2.
-- <ItemLink id="lendersdelight:deepling_meat" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:raw_deepling_meat" />. Yield 1.
-- <ItemLink id="lendersdelight:grilled_lionfish" /> Combine in a heated cooking pot using 1 <ItemLink id="cataclysm:lionfish" /> or another accepted lionfish plus 2 <ItemLink id="minecraft:sweet_berries" /> plus 1 <ItemLink id="farmersdelight:cabbage" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:lionfish_roll" /> Combine in the crafting grid using 2 <ItemLink id="lendersdelight:lionfish_slice" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 2.
-- <ItemLink id="lendersdelight:lionfish_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="cataclysm:lionfish" />. Yield 2.
-- <ItemLink id="lendersdelight:raw_deepling_meat" /> Keep this as an input for <ItemLink id="lendersdelight:deepling_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:raw_brute_deepling_meat" /> Keep this as an input for <ItemLink id="lendersdelight:deepling_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:raw_warlock_deepling_meat" /> Keep this as an input for <ItemLink id="lendersdelight:deepling_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:red_coral_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="cataclysm:coral_chunk" /> plus 1 <ItemLink id="farmersdelight:tomato_sauce" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:crystallized_coral_pie_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="lendersdelight:crystallized_coral_pie" />. Yield 4.
-- <ItemLink id="lendersdelight:cindaria_hat" /> Keep this as an input for <ItemLink id="lendersdelight:scylla_snake_glazed_cindaria_hat" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="lendersdelight:cooked_crab_legs" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:crab_legs" />. Yield 1.
-- <ItemLink id="lendersdelight:crab_legs" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_crab_legs" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:hippocamtus" /> Keep this as an input for <ItemLink id="lendersdelight:sea_meat_salad" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="lendersdelight:scylla_snake" /> Keep this as an input for <ItemLink id="lendersdelight:scylla_snake_glazed_cindaria_hat" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="lendersdelight:scylla_snake_glazed_cindaria_hat" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:cindaria_hat" /> plus 1 <ItemLink id="lendersdelight:scylla_snake" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:sea_meat_salad" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:cooked_crab_legs" /> plus 1 <ItemLink id="lendersdelight:hippocamtus" /> plus 1 <ItemLink id="lendersdelight:symbiocto_tentacle" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:symbiocto_tentacle" /> Keep this as an input for <ItemLink id="lendersdelight:sea_meat_salad" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="lendersdelight:urchinkin" /> Keep this as an input for <ItemLink id="lendersdelight:urchinkin_pumpkin" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="lendersdelight:urchinkin_pumpkin" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:urchinkin" />. Yield 1. Serve in <ItemLink id="minecraft:pumpkin" />.
-
+L_Ender 's Cataclysm Delight connects Cataclysm encounters to seafood. Gather the named raw ingredient before choosing a cooked serving or prepared portion. Crab and coral ingredients support sandwiches, rolls and stews. A dish recipe does not establish a guaranteed drop from every sea creature.
 ***
 
 ## Boss dishes
@@ -140,7 +106,7 @@ Cataclysm ingredients connect cooking to creature encounters. Gather the named r
   <ItemIcon id="lendersdelight:ender_guardian_crystal" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:stick" />
@@ -163,37 +129,7 @@ Recipe inputs and serving containers
   <ItemIcon id="farmersdelight:rice" />
 </ItemGrid>
 
-These dishes consume specialized encounter ingredients. Plan the creature or boss access first, then choose the cutting or cooking branch. Ingredient acquisition is not interchangeable with crafting the finished dish.
-
-- <ItemLink id="lendersdelight:berserker" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_berserker" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:berserker_stick" /> Combine in a heated cooking pot using 2 <ItemLink id="lendersdelight:cooked_berserker" />. Yield 1. Serve in <ItemLink id="minecraft:stick" />.
-- <ItemLink id="lendersdelight:koboleton_meat" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_koboleton_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:cooked_berserker" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:berserker" />. Yield 1.
-- <ItemLink id="lendersdelight:cooked_koboleton_meat" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:koboleton_meat" />. Yield 1.
-- <ItemLink id="lendersdelight:cooked_ender_golem_meat" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:ender_golem_meat" />. Yield 1.
-- <ItemLink id="lendersdelight:cooked_leviathan" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:leviathan" />. Yield 1.
-- <ItemLink id="lendersdelight:cooked_netherite_monstrosity_meat" /> Cook in a furnace using 1 <ItemLink id="lendersdelight:netherite_monstrosity_meat" />. Yield 1.
-- <ItemLink id="lendersdelight:maledictus_heart_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="lendersdelight:maledictus_heart" />. Yield 2.
-- <ItemLink id="lendersdelight:ender_blood" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:ender_golem_meat" />. Yield 1. Serve in <ItemLink id="minecraft:glass_bottle" />.
-- <ItemLink id="lendersdelight:ender_blood_glazed_maledictus_heart" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:maledictus_heart" /> plus 1 <ItemLink id="lendersdelight:ender_blood" /> plus 3 <ItemLink id="minecraft:sweet_berries" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:fried_abyssal_egg" /> Cook in a furnace using 1 <ItemLink id="cataclysm:abyssal_egg" />. Yield 1.
-- <ItemLink id="lendersdelight:glazed_remnant_skull" /> Combine in a heated cooking pot using 1 <ItemLink id="cataclysm:remnant_skull" /> plus 3 <ItemLink id="minecraft:sweet_berries" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:ham_of_berserker" /> Combine in a heated cooking pot using 2 <ItemLink id="lendersdelight:cooked_berserker" /> plus 1 <ItemLink id="minecraft:coal" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:ignis" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="lendersdelight:koboleton_pumpkin" /> Combine in a heated cooking pot using 2 <ItemLink id="lendersdelight:cooked_koboleton_meat" />. Yield 1. Serve in <ItemLink id="minecraft:pumpkin" />.
-- <ItemLink id="lendersdelight:leviathan" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_leviathan" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:leviathan_and_abyssal_egg" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:cooked_leviathan" /> plus 2 <ItemLink id="lendersdelight:fried_abyssal_egg" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:maledictus_heart" /> Keep this as an input for <ItemLink id="lendersdelight:ender_blood_glazed_maledictus_heart" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="lendersdelight:maledictus_heart_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:maledictus_heart" /> plus 1 <ItemLink id="farmersdelight:tomato_sauce" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:netherite_monstrosity_meat" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_netherite_monstrosity_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:pasta_with_witherite" /> Combine in a heated cooking pot using 1 <ItemLink id="cataclysm:witherite_ingot" /> plus 1 <ItemLink id="minecraft:cyan_dye" /> plus 1 <ItemLink id="farmersdelight:raw_pasta" /> plus 1 <ItemLink id="farmersdelight:tomato_sauce" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="lendersdelight:void_custard" /> Combine in a heated cooking pot using 2 <ItemLink id="cataclysm:void_jaw" /> plus 1 <ItemLink id="minecraft:sugar" />. Yield 1. Serve in <ItemLink id="minecraft:glass_bottle" />.
-- <ItemLink id="lendersdelight:void_popsicle" /> Combine in a heated cooking pot using 2 <ItemLink id="cataclysm:void_jaw" /> plus 1 <ItemLink id="minecraft:ice" /> plus 1 <ItemLink id="minecraft:sugar" />. Yield 1. Serve in <ItemLink id="minecraft:glass_bottle" />.
-- <ItemLink id="lendersdelight:watcher_heart" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="lendersdelight:ender_golem_meat" /> Keep this as an input for <ItemLink id="lendersdelight:cooked_ender_golem_meat" />. Its recipe uses cook in a furnace.
-- <ItemLink id="lendersdelight:honey_glazed_horn" /> Combine in the crafting grid using 4 <ItemLink id="minecraft:sweet_berries" /> plus 1 <ItemLink id="minecraft:honey_bottle" /> plus 1 <ItemLink id="cataclysm:monstrous_horn" /> plus 2 <ItemLink id="farmersdelight:rice" /> plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="lendersdelight:ender_guardian_crystal" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-
+Boss dishes consume specialized encounter ingredients. Check the creature or boss access requirements before planning production. A raw drop, a prepared portion and a finished dish are different stages. The grids identify the available branches without implying that their ingredients share a source or drop rule.
 ***
 
 ## Other dishes
@@ -202,7 +138,7 @@ These dishes consume specialized encounter ingredients. Plan the creature or bos
   <ItemIcon id="lendersdelight:improved_dog_food" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="lendersdelight:cooked_koboleton_meat" />
@@ -210,10 +146,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:bowl" />
 </ItemGrid>
 
-Pet food belongs to feeding animals rather than planning the player’s dietary variety.
-
-- <ItemLink id="lendersdelight:improved_dog_food" /> Combine in a heated cooking pot using 1 <ItemLink id="lendersdelight:cooked_koboleton_meat" /> plus 1 <ItemLink id="cataclysm:koboleton_bone" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-
+Improved Dog Food belongs to feeding animals, not the player’s dietary variety. Keep pet provisions separate from expedition meals.
 ***
 
 ## Related topics

@@ -3,7 +3,7 @@ navigation:
   title: "Deferred optimizers"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:repeater
 ---
 
 # Deferred optimizers

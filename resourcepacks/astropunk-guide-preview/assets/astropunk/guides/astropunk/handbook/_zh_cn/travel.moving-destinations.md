@@ -3,7 +3,7 @@ navigation:
   title: "前往移动建筑上的目的地"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:lodestone
 ---
 
 # 前往移动建筑上的目的地

@@ -3,7 +3,7 @@ navigation:
   title: "Compatibility"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:chain
 ---
 
 # Compatibility

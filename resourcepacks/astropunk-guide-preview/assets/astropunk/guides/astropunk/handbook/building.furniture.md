@@ -3,7 +3,7 @@ navigation:
   title: "Furniture"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: handcrafted:oak_chair
 ---
 
 # Furniture

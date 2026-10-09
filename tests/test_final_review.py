@@ -12,7 +12,7 @@ class FinalReview(unittest.TestCase):
     def test_pack_intro_is_not_another_reference_directory(self):
         for locale in ('', '_zh_cn'):
             home = (PAGES / locale / 'index.md').read_text()
-            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), set())
+            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'help.credits.md'})
             self.assertNotIn('| Reference | Contents |', home)
             self.assertFalse((PAGES / locale / 'quick-reference.md').exists())
 

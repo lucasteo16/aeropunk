@@ -3,7 +3,7 @@ navigation:
   title: "Teleportation"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:ender_pearl
 ---
 
 # Teleportation

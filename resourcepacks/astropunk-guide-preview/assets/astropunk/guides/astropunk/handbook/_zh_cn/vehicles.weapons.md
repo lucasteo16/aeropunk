@@ -3,7 +3,7 @@ navigation:
   title: "安装和操作载具武器"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:dispenser
 ---
 
 # 安装和操作载具武器

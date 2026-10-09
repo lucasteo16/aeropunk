@@ -3,7 +3,7 @@ navigation:
   title: "探索聚落与法术图书馆"
   position: 0
   parent: adventure.structures.md
-  icon: minecraft:stone_bricks
+  icon: minecraft:bell
 ---
 
 # 探索聚落与法术图书馆

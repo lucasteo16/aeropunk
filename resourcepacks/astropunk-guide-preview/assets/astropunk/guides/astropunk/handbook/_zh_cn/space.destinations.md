@@ -3,7 +3,7 @@ navigation:
   title: "了解规划中的太空目的地"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:end_stone
 ---
 
 # 了解规划中的太空目的地

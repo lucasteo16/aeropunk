@@ -3,7 +3,7 @@ navigation:
   title: "Bulk storage"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:item_vault
 ---
 
 # Bulk storage

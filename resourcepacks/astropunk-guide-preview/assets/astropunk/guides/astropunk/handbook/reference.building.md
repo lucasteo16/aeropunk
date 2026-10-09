@@ -2,7 +2,7 @@
 navigation:
   title: "Building"
   position: 8
-  icon: minecraft:bricks
+  icon: create:schematicannon
 ---
 
 # Building

@@ -81,7 +81,7 @@ for language in ('', '_zh_cn'):
     assert not {'quick-reference.md', 'mod-catalogs.md', 'sounds.ambience.md', 'audio.sound.md'} & expected
     assert not list(locale_root.glob('category-*.md'))
     home_links = set(re.findall(r'\]\(([^)]+\.md)\)', page_texts['index.md']))
-    assert home_links == set(), language
+    assert home_links == {'help.credits.md'}, language
     assert not (resource / 'assets/astropunk/guideme_guides/handbook.json').exists()
     # Reachability starts from every native sidebar root, not a duplicate home directory.
     visited = set()
@@ -109,7 +109,7 @@ for language in ('', '_zh_cn'):
             assert current not in seen, article['filename']
             seen.add(current)
             depth += 1
-        assert current in section_roots, article['filename']
+        assert current in section_roots | {'index.md'}, article['filename']
         assert depth <= 1, article['filename']
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options

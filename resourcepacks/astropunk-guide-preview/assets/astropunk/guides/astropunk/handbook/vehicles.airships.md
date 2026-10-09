@@ -3,7 +3,7 @@ navigation:
   title: "Airships"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:elytra
 ---
 
 # Airships

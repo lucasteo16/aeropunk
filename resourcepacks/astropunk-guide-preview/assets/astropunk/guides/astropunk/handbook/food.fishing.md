@@ -17,13 +17,7 @@ navigation:
   <ItemIcon id="minecraft:pufferfish" />
 </ItemGrid>
 
-A fishing rod supplies vanilla catches. Cod and salmon have cooked forms and cutting uses. Tropical fish and pufferfish should not be treated as equivalent cooked fillets.
-
-- <ItemLink id="minecraft:cod" /> Catch with a fishing rod or harvest a cod fish. Cook it whole or use a cutting-board recipe for portions.
-- <ItemLink id="minecraft:salmon" /> Catch with a fishing rod or harvest a salmon fish. Whole fish and cut portions are distinct recipe inputs.
-- <ItemLink id="minecraft:tropical_fish" /> A vanilla catch with separate ingredient uses. It has no ordinary cooked-fish counterpart.
-- <ItemLink id="minecraft:pufferfish" /> A vanilla catch that is unsafe as ordinary food. Check its specific recipe uses rather than packing it as cooked fish.
-
+A rod supplies vanilla catches. <ItemLink id="minecraft:cod" /> and <ItemLink id="minecraft:salmon" /> can also be harvested from fish, cooked whole or prepared as portions. <ItemLink id="minecraft:tropical_fish" /> has no ordinary cooked counterpart. <ItemLink id="minecraft:pufferfish" /> is unsafe as ordinary food. Check its specific ingredient uses.
 ***
 
 ## Spawn fish meals
@@ -45,7 +39,7 @@ A fishing rod supplies vanilla catches. Cod and salmon have cooked forms and cut
   <ItemIcon id="spawn:bluefish_roll" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:dried_kelp" />
@@ -57,21 +51,7 @@ Recipe inputs and serving containers
   <ItemIcon id="spawn:bluefish_slice" />
 </ItemGrid>
 
-Spawn adds aquatic creatures as ingredient sources. Tuna portions support rolls and sandwiches. Herring and Bluefish have their own cooked and rolled forms. Bucket capture and creature harvesting are different from ordinary fishing-rod loot.
-
-- <ItemLink id="spawn:tuna_chunk" /> Keep this as an input for <ItemLink id="spawn:cooked_tuna_chunk" />. Its recipe uses cook in a furnace.
-- <ItemLink id="spawn:cooked_tuna_chunk" /> Cook in a furnace using 1 <ItemLink id="spawn:tuna_chunk" />. Yield 1.
-- <ItemLink id="spawn:tuna_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="spawn:tuna_chunk" />. Yield 2.
-- <ItemLink id="spawn:tuna_roll" /> Combine in the crafting grid using 1 <ItemLink id="spawn:tuna_slice" /> plus 1 <ItemLink id="minecraft:dried_kelp" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 3.
-- <ItemLink id="spawn:tuna_sandwich" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> plus 1 <ItemLink id="spawn:cooked_tuna_chunk" /> plus 2 <ItemLink id="farmersdelight:cabbage" /> or another accepted cabbage. Yield 1.
-- <ItemLink id="spawn:herring" /> Keep this as an input for <ItemLink id="spawn:cooked_herring" />. Its recipe uses cook in a furnace.
-- <ItemLink id="spawn:cooked_herring" /> Cook in a furnace using 1 <ItemLink id="spawn:herring" />. Yield 1.
-- <ItemLink id="spawn:herring_roll" /> Combine in the crafting grid using 3 <ItemLink id="spawn:herring_slice" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 2.
-- <ItemLink id="spawn:canned_herring" /> Arrange in the crafting grid using 9 <ItemLink id="spawn:cooked_herring_slice" />. Yield 1.
-- <ItemLink id="spawn:bluefish" /> Keep this as an input for <ItemLink id="spawn:bluefish_roll" />. Its recipe uses combine in the crafting grid.
-- <ItemLink id="spawn:cooked_bluefish" /> Cook in a furnace using 1 <ItemLink id="spawn:bluefish" />. Yield 1.
-- <ItemLink id="spawn:bluefish_roll" /> Combine in the crafting grid using 2 <ItemLink id="spawn:bluefish_slice" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 2.
-
+Spawn adds aquatic creatures as ingredient sources. Tuna portions support rolls and sandwiches. Herring and Bluefish have their own cooked and rolled forms. Bucket capture and creature harvesting differ from rod loot, so a listed meal does not mean its raw ingredient can be fished with a rod.
 ***
 
 ## Shellfish & capture
@@ -88,7 +68,7 @@ Spawn adds aquatic creatures as ingredient sources. Tuna portions support rolls 
   <ItemIcon id="spawn:bluefish_bucket" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:bread" />
@@ -102,18 +82,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:string" />
 </ItemGrid>
 
-Clams supply a shellfish branch and Coastal Crab Claws supply crab dishes. With Farmer’s Delight selected, Clam Chowder uses cooked clam, potato and milk in a heated cooking pot, with a bowl for serving. The fallback crafting recipe without Farmer’s Delight is not the selected route.
-
-- <ItemLink id="spawn:clam" /> Keep this as an input for <ItemLink id="spawn:cooked_clam" />. Its recipe uses cook in a furnace.
-- <ItemLink id="spawn:cooked_clam" /> Cook in a furnace using 1 <ItemLink id="spawn:clam" />. Yield 1.
-- <ItemLink id="spawn:steamed_clams" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 2 <ItemLink id="spawn:cooked_clam" /> plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted cabbage plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="spawn:clam_chowder" /> Combine in a heated cooking pot using 1 <ItemLink id="spawn:cooked_clam" /> plus 1 <ItemLink id="minecraft:potato" /> plus 1 <ItemLink id="farmersdelight:milk_bottle" />. Yield 1. Serve in <ItemLink id="minecraft:bowl" />.
-- <ItemLink id="spawn:coastal_crab_claw" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="spawn:crab_boil" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="spawn:casting_net" /> Arrange in the crafting grid using 1 <ItemLink id="spawn:shell_fragments" /> plus 6 <ItemLink id="minecraft:string" />. Yield 1.
-- <ItemLink id="spawn:herring_bucket" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="spawn:bluefish_bucket" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-
+Clams supply shellfish meals and Coastal Crab Claws supply crab dishes. With Farmer’s Delight installed, <ItemLink id="spawn:clam_chowder" /> uses the heated-pot route and a serving bowl. The fallback crafting recipe without Farmer’s Delight is not the selected route. Nets and fish buckets are capture equipment rather than meals.
 ***
 
 ## Related topics

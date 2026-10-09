@@ -3,7 +3,7 @@ navigation:
   title: "在基地内移动"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:powered_rail
 ---
 
 # 在基地内移动

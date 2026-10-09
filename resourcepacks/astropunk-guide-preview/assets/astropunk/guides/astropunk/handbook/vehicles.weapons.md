@@ -3,7 +3,7 @@ navigation:
   title: "Mounted weapons"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:dispenser
 ---
 
 # Mounted weapons

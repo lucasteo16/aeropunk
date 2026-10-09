@@ -3,7 +3,7 @@ navigation:
   title: "制作展示、画作、标牌与雕像"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: minecraft:item_frame
 ---
 
 # 制作展示、画作、标牌与雕像

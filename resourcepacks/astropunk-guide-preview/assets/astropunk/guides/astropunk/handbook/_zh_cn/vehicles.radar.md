@@ -3,7 +3,7 @@ navigation:
   title: "读取雷达信息"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:sculk_sensor
 ---
 
 # 读取雷达信息

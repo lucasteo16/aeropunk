@@ -3,7 +3,7 @@ navigation:
   title: "Materials & fuels"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:iron_ingot
 ---
 
 # Materials & fuels

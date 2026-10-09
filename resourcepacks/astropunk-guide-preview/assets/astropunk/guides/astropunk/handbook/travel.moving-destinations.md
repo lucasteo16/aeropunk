@@ -3,7 +3,7 @@ navigation:
   title: "Moving destinations"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:lodestone
 ---
 
 # Moving destinations

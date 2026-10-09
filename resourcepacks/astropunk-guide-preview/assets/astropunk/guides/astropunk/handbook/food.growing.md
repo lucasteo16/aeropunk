@@ -33,12 +33,12 @@ navigation:
   <ItemIcon id="farmersdelight:straw" />
 </ItemGrid>
 
-<ItemLink id="minecraft:wheat" /> supplies bread and dough. <ItemLink id="minecraft:carrot" /> and <ItemLink id="minecraft:potato" /> support soups and plated meals. <ItemLink id="minecraft:beetroot" /> has its own soup branch, while <ItemLink id="minecraft:pumpkin" /> and <ItemLink id="minecraft:melon_slice" /> supply additional meal and dessert ingredients.
+<ItemLink id="minecraft:wheat" /> supplies bread and dough. <ItemLink id="minecraft:carrot" /> and <ItemLink id="minecraft:potato" /> support meals. <ItemLink id="minecraft:beetroot" /> supplies soup. <ItemLink id="minecraft:pumpkin" /> and <ItemLink id="minecraft:melon_slice" /> supply meals and desserts.
 
-- <ItemLink id="farmersdelight:cabbage_seeds" /> comes from breaking <ItemLink id="farmersdelight:wild_cabbages" /> without shears. Grow <ItemLink id="farmersdelight:cabbage" /> for leaves and vegetable fillings.
-- <ItemLink id="farmersdelight:tomato_seeds" /> comes from breaking <ItemLink id="farmersdelight:wild_tomatoes" /> without shears or crafting a tomato into seed. Keep <ItemLink id="farmersdelight:tomato" /> for sauces and combined meals.
-- Break <ItemLink id="farmersdelight:wild_onions" /> without shears for <ItemLink id="farmersdelight:onion" />. Onion is both a crop ingredient and an input to soups and rice dishes.
-- <ItemLink id="farmersdelight:wild_rice" /> supplies <ItemLink id="farmersdelight:rice" />. One <ItemLink id="farmersdelight:rice_panicle" /> crafts into one rice. Cutting the same panicle with a knife also produces one <ItemLink id="farmersdelight:straw" />. Processing therefore changes the useful byproducts, not only the food name.
+- <ItemLink id="farmersdelight:cabbage_seeds" /> comes from breaking <ItemLink id="farmersdelight:wild_cabbages" /> without shears. Grow <ItemLink id="farmersdelight:cabbage" /> for fillings.
+- <ItemLink id="farmersdelight:tomato_seeds" /> comes from breaking <ItemLink id="farmersdelight:wild_tomatoes" /> without shears or crafting a tomato into seed. Use <ItemLink id="farmersdelight:tomato" /> for sauces.
+- Break <ItemLink id="farmersdelight:wild_onions" /> without shears for <ItemLink id="farmersdelight:onion" />. Use it in soups and rice dishes.
+- <ItemLink id="farmersdelight:wild_rice" /> supplies <ItemLink id="farmersdelight:rice" />. One <ItemLink id="farmersdelight:rice_panicle" /> crafts into one rice. Cutting the same panicle with a knife also produces one <ItemLink id="farmersdelight:straw" />. Cutting therefore adds a useful byproduct.
 
 ***
 
@@ -53,9 +53,9 @@ navigation:
   <ItemIcon id="mynethersdelight:bullet_pepper" />
 </ItemGrid>
 
-<ItemLink id="farmersdelight:organic_compost" /> and <ItemLink id="farmersdelight:rich_soil" /> form the garden soil branch. Rice and tomato vines have different planting arrangements from ordinary farmland crops, so leave room for their growth instead of copying one field design everywhere.
+<ItemLink id="farmersdelight:organic_compost" /> and <ItemLink id="farmersdelight:rich_soil" /> form the garden soil branch. Rice and tomato vines need different planting arrangements from ordinary farmland crops.
 
-<ItemLink id="minersdelight:cave_carrot" /> supplies underground recipes. <ItemLink id="mynethersdelight:bullet_pepper" /> supplies Nether spice recipes. These regional crops belong to different ingredient sources, not extra names for the same seed.
+<ItemLink id="minersdelight:cave_carrot" /> supplies underground recipes. <ItemLink id="mynethersdelight:bullet_pepper" /> supplies Nether spice recipes. They have separate regional sources.
 
 - [Underground crops](food.underground.md)
 - [Nether ingredients](food.nether.md)
@@ -66,7 +66,7 @@ navigation:
 
 <EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
 
-RightClickHarvest adds harvesting interactions. Smarter Farmers expands farmer replanting. Universal Bone Meal broadens bone-meal use. Leaves Be Gone clears decaying leaves after tree harvesting rather than growing food. Create: Integrated Farming supplies farm integration with Create. Choose a crop and verify its supported harvesting route before building an automated field.
+RightClickHarvest adds harvesting interactions. Smarter Farmers expands farmer replanting. Universal Bone Meal broadens bone-meal use. Leaves Be Gone clears decaying leaves after tree harvesting rather than growing food. Create: Integrated Farming supplies farm integration with Create. Check the crop’s supported harvesting route before automating.
 
 - [Cooking tools](food.utensils.md)
 - [Machine kitchens](food.machine-cooking.md)

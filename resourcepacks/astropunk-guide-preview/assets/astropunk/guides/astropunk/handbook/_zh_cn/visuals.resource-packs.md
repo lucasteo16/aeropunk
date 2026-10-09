@@ -3,7 +3,7 @@ navigation:
   title: "选择资源包外观"
   position: 0
   parent: reference.appearance.md
-  icon: minecraft:painting
+  icon: minecraft:loom
 ---
 
 # 选择资源包外观

@@ -44,7 +44,7 @@ navigation:
   <ItemIcon id="mynethersdelight:strider_with_grilled_fungus" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooked_bacon" />
@@ -70,38 +70,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:warped_roots" />
 </ItemGrid>
 
-Hunt hoglins for loin and striders for slices in the Nether. Cutting prepares portions, while cooking makes sausages, stews or finished plates. These ingredients require Nether access rather than an Overworld crop field.
-
-- <ItemLink id="minersdelight:spicy_hoglin_stew_cup" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="minersdelight:strider_stew_cup" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:bacon-wrapped_sausage_on_a_stick" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:roasted_sausage" /> plus 1 <ItemLink id="farmersdelight:cooked_bacon" /> plus 1 <ItemLink id="minecraft:stick" />. Yield 1.
-- <ItemLink id="mynethersdelight:blue_tenderloin_steak" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:cooked_loin" /> plus 1 <ItemLink id="minecraft:warped_fungus" /> plus 1 <ItemLink id="minecraft:warped_fungus" /> or an accepted substitute plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="mynethersdelight:chilidog" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="mynethersdelight:minced_strider" /> or an accepted substitute plus 1 <ItemLink id="minecraft:nether_wart" />. Yield 1. Serve in <ItemLink id="mynethersdelight:hotdog" />.
-- <ItemLink id="mynethersdelight:cooked_loin" /> Cook in a furnace using 1 <ItemLink id="mynethersdelight:hoglin_loin" />. Yield 1.
-- <ItemLink id="mynethersdelight:fried_hoglin_chop" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:hoglin_loin" /> plus 1 <ItemLink id="minecraft:wheat" /> plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="mynethersdelight:bullet_pepper" />. Yield 1.
-- <ItemLink id="mynethersdelight:hoglin_hide" /> Obtain from hoglin while holding a Farmer’s Delight knife. Keep this as an input for <ItemLink id="mynethersdelight:hoglin_trophy" />. Its recipe uses arrange in the crafting grid.
-- <ItemLink id="mynethersdelight:hoglin_loin" /> Hoglin drops replace ordinary raw pork with this loin. Cook it or use its cutting recipes before assembling sausage dishes.
-- <ItemLink id="mynethersdelight:hoglin_sausage" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:hoglin_loin" />. Yield 2.
-- <ItemLink id="mynethersdelight:hotdog" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:roasted_sausage" /> plus 1 <ItemLink id="minecraft:bread" /> or another accepted bread. Yield 1.
-- <ItemLink id="mynethersdelight:hotdog_with_mixed_salad" /> Combine in the crafting grid using 1 <ItemLink id="farmersdelight:mixed_salad" /> plus 2 <ItemLink id="mynethersdelight:hotdog" />. Yield 2.
-- <ItemLink id="mynethersdelight:hotdog_with_nether_salad" /> Combine in the crafting grid using 1 <ItemLink id="farmersdelight:nether_salad" /> plus 2 <ItemLink id="mynethersdelight:hotdog" />. Yield 2.
-- <ItemLink id="mynethersdelight:minced_strider" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:strider_slice" />. Yield 2.
-- <ItemLink id="mynethersdelight:plate_of_cold_striderloaf" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:plate_of_striderloaf" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:plate_of_stuffed_hoglin" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:plate_of_stuffed_hoglin_ham" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:plate_of_stuffed_hoglin_snout" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:raw_stuffed_hoglin" /> Arrange in the crafting grid using 4 <ItemLink id="farmersdelight:ham" /> plus 1 <ItemLink id="mynethersdelight:warped_fungus_colony" /> plus 2 <ItemLink id="mynethersdelight:hoglin_loin" /> plus 1 <ItemLink id="mynethersdelight:hoglin_hide" /> plus 1 <ItemLink id="mynethersdelight:crimson_fungus_colony" />. Yield 1.
-- <ItemLink id="mynethersdelight:red_loin_on_a_stick" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:cooked_loin" /> plus 1 <ItemLink id="minecraft:crimson_fungus" /> plus 1 <ItemLink id="minecraft:crimson_fungus" /> or an accepted substitute plus 1 <ItemLink id="minecraft:stick" />. Yield 1.
-- <ItemLink id="mynethersdelight:roasted_sausage" /> Cook in a furnace using 1 <ItemLink id="mynethersdelight:hoglin_sausage" />. Yield 1.
-- <ItemLink id="mynethersdelight:sausage_and_potatoes" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:potato" /> or another accepted potato plus 2 <ItemLink id="mynethersdelight:hoglin_sausage" />. Yield 1.
-- <ItemLink id="mynethersdelight:spicy_hoglin_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:hoglin_loin" /> or an accepted substitute plus 1 <ItemLink id="minecraft:potato" /> or another accepted potato plus 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or an accepted substitute. Yield 1.
-- <ItemLink id="mynethersdelight:strider_egg" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:strider_rock" />. Yield 1.
-- <ItemLink id="mynethersdelight:strider_rock" /> Obtain from strider while holding a Farmer’s Delight knife. Keep this as an input for <ItemLink id="mynethersdelight:rock_soup" />. Its recipe uses combine in a heated cooking pot.
-- <ItemLink id="mynethersdelight:strider_slice" /> Striders in the Nether supply slices. These are meat ingredients for further processing, not a farm crop.
-- <ItemLink id="mynethersdelight:strider_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:strider_slice" /> or another accepted raw strider plus 1 <ItemLink id="minecraft:warped_fungus" /> or an accepted substitute plus 1 <ItemLink id="minecraft:warped_fungus" /> or an accepted substitute plus 1 <ItemLink id="minecraft:warped_roots" /> or an accepted substitute. Yield 1.
-- <ItemLink id="mynethersdelight:strider_with_grilled_fungus" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:strider_slice" /> plus 1 <ItemLink id="minecraft:crimson_fungus" /> plus 1 <ItemLink id="minecraft:warped_fungus" /> plus 1 <ItemLink id="minecraft:warped_fungus" /> or an accepted substitute. Yield 1.
-
+My Nether's Delight connects Nether hunting to sausages, stews and plated meals. Hunt hoglins for loin and striders for slices. These sources require Nether access rather than an Overworld crop field.
 ***
 
 ## Pepper & fungus
@@ -119,7 +88,7 @@ Hunt hoglins for loin and striders for slices in the Nether. Cutting prepares po
   <ItemIcon id="mynethersdelight:stuffed_pepper" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="mynethersdelight:bullet_pepper_crate" />
@@ -144,19 +113,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:cooked_porkchop" />
 </ItemGrid>
 
-Bullet Pepper belongs to the Nether growing branch. Cutting one pepper gives one Pepper Powder with a 25 percent chance of one extra. Powder and the intact pepper have different recipe uses.
-
-- <ItemLink id="mynethersdelight:bullet_pepper" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:bullet_pepper_crate" />. Yield 9.
-- <ItemLink id="minersdelight:spicy_noodle_soup_cup" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:crimson_stroganoff" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:minced_strider" /> plus 2 <ItemLink id="minecraft:crimson_fungus" /> plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="farmersdelight:raw_pasta" /> or another accepted pasta. Yield 1.
-- <ItemLink id="mynethersdelight:nether_burger" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="mynethersdelight:cooked_loin" /> plus 1 <ItemLink id="minecraft:twisting_vines" /> plus 1 <ItemLink id="minecraft:crimson_fungus" /> plus 1 <ItemLink id="minecraft:warped_fungus" /> or an accepted substitute. Yield 1.
-- <ItemLink id="mynethersdelight:pepper_powder" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:bullet_pepper" />. Yield 1.
-- <ItemLink id="mynethersdelight:spicy_cotton" /> Combine in the crafting grid using 2 <ItemLink id="mynethersdelight:ghasta" /> plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="minecraft:blaze_rod" />. Yield 1.
-- <ItemLink id="mynethersdelight:spicy_curry" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:chicken" /> or another accepted raw meat plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="farmersdelight:rice" /> or another accepted rice plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted vegetable except <ItemLink id="minecraft:melon_slice" /> plus 1 <ItemLink id="minecraft:pumpkin" /> or an accepted substitute. Yield 1.
-- <ItemLink id="mynethersdelight:spicy_noodle_soup" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:ghasta" /> or another accepted rice pasta plus 1 <ItemLink id="farmersdelight:fried_egg" /> or another accepted cooked egg plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="mynethersdelight:hoglin_loin" /> or another accepted raw hoglin. Yield 1.
-- <ItemLink id="mynethersdelight:spicy_skewer" /> Combine in the crafting grid using 2 <ItemLink id="mynethersdelight:bullet_pepper" /> plus 1 <ItemLink id="mynethersdelight:strider_slice" /> or another accepted raw strider plus 1 <ItemLink id="minecraft:blaze_rod" />. Yield 1.
-- <ItemLink id="mynethersdelight:stuffed_pepper" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:bullet_pepper" /> plus 1 <ItemLink id="minecraft:cooked_porkchop" /> or another accepted cooked pork plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk. Yield 1.
-
+Bullet Pepper supplies the Nether spice branch alongside fungus ingredients. Cutting one pepper gives one Pepper Powder with a 25 percent chance of one extra. Intact pepper and powder have different recipe uses.
 ***
 
 ## Ghast & sweets
@@ -178,7 +135,7 @@ Bullet Pepper belongs to the Nether growing branch. Cutting one pepper gives one
   <ItemIcon id="mynethersdelight:twisted_ghasta" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:milk_bottle" />
@@ -202,23 +159,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:warped_fungus" />
 </ItemGrid>
 
-Ghast hunting supplies Ghasta. Cutting one Ghasta gives one Ghasmati with a 5 percent chance of one extra. Combine two Ghasmati with two accepted eggs for two Ghast Dough. Ghasmati also combines with milk and a bowl for Dried Ghast with Milk. This is an ingredient chain, not a list of interchangeable sweets.
-
-- <ItemLink id="mynethersdelight:dried_ghast_with_milk" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:ghasmati" /> plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="mynethersdelight:fries_ghasta" /> Combine in a heated cooking pot using 2 <ItemLink id="mynethersdelight:ghasta" />. Yield 1. Serve in <ItemLink id="minecraft:paper" />.
-- <ItemLink id="mynethersdelight:ghasmati" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:ghasta" />. Yield 1.
-- <ItemLink id="mynethersdelight:ghast_dough" /> Combine in the crafting grid using 2 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 2 <ItemLink id="mynethersdelight:ghasmati" />. Yield 2.
-- <ItemLink id="mynethersdelight:ghast_salad" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:ghasta" /> or another accepted raw ghast plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted vegetable except <ItemLink id="minecraft:melon_slice" /> plus 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="mynethersdelight:ghast_sourdough" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:ghast_dough" /> plus 3 <ItemLink id="farmersdelight:wheat_dough" /> or another accepted dough. Yield 1.
-- <ItemLink id="mynethersdelight:ghasta" /> Ghasts in the Nether supply this ingredient. The base added-drop chance is 50 percent without Looting. Cut it into Ghasmati for dough or a milk dish.
-- <ItemLink id="mynethersdelight:hot_cream" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or an accepted substitute plus 2 <ItemLink id="minecraft:magma_cream" /> plus 1 <ItemLink id="minecraft:lava_bucket" />. Yield 1. Serve in <ItemLink id="minecraft:bucket" />.
-- <ItemLink id="mynethersdelight:hot_cream_cone" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:hot_cream" /> plus 3 <ItemLink id="mynethersdelight:powder_cannon" />. Yield 3.
-- <ItemLink id="mynethersdelight:magma_cake_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:magma_cake_block" />. Yield 7.
-- <ItemLink id="mynethersdelight:plate_of_ghasta_with_cream" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:sizzling_pudding" /> Combine in the crafting grid using 1 <ItemLink id="mynethersdelight:ghasmati" /> plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="minecraft:blaze_powder" /> or an accepted substitute plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="mynethersdelight:tear_popsicle" /> Arrange in the crafting grid using 5 <ItemLink id="minecraft:ice" /> plus 1 <ItemLink id="minecraft:ghast_tear" /> plus 1 <ItemLink id="minecraft:stick" />. Yield 1.
-- <ItemLink id="mynethersdelight:twisted_ghasta" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:ghasta" /> plus 2 <ItemLink id="minecraft:warped_fungus" /> or an accepted substitute. Yield 1.
-
+Ghast hunting supplies Ghasta. Cutting one gives one Ghasmati with a 5 percent chance of one extra. Ghasmati supports dough and milk dishes. These are processing branches, not interchangeable ingredients.
 ***
 
 ## Eggs & pantry
@@ -244,7 +185,7 @@ Ghast hunting supplies Ghasta. Cutting one Ghasta gives one Ghasmati with a 5 pe
   <ItemIcon id="mynethersdelight:toasts" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="mynethersdelight:minced_strider" />
@@ -269,27 +210,7 @@ Recipe inputs and serving containers
   <ItemIcon id="mynethersdelight:bread_loaf" />
 </ItemGrid>
 
-Egg dishes use the egg type accepted by their recipe. Bread portions and toast are preparation ingredients as well as food, while cup soups belong to the Copper Cup serving branch.
-
-- <ItemLink id="minersdelight:egg_soup_cup" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="minersdelight:rock_soup_cup" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:bleeding_tartar" /> Combine in the crafting grid using 2 <ItemLink id="mynethersdelight:minced_strider" /> plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="mynethersdelight:boiled_egg" /> Combine in a heated cooking pot using 4 <ItemLink id="mynethersdelight:strider_egg" /> or another accepted boiled egg candidate. Yield 4.
-- <ItemLink id="mynethersdelight:breakfast_sampler" /> Combine in the crafting grid using 2 <ItemLink id="mynethersdelight:roasted_sausage" /> plus 1 <ItemLink id="minecraft:honey_bottle" /> or an accepted substitute plus 2 <ItemLink id="farmersdelight:fried_egg" /> or another accepted cooked egg plus 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="mynethersdelight:burnt_roll" /> Combine in a heated cooking pot using 2 <ItemLink id="minecraft:magma_cream" /> plus 1 <ItemLink id="minecraft:chicken" /> or another accepted raw meat. Yield 2.
-- <ItemLink id="mynethersdelight:deviled_egg" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:boiled_egg" /> or another accepted boiled egg plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="mynethersdelight:hoglin_sausage" /> or an accepted substitute. Yield 2.
-- <ItemLink id="mynethersdelight:egg_soup" /> Combine in a heated cooking pot using 1 <ItemLink id="mynethersdelight:boiled_egg" /> or another accepted boiled egg plus 2 <ItemLink id="farmersdelight:fried_egg" /> or another accepted cooked egg plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="mynethersdelight:enchanted_golden_egg" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:giant_takoyaki" /> Combine in a heated cooking pot using 2 <ItemLink id="mynethersdelight:ghasta" /> or another accepted giant tentacles plus 1 <ItemLink id="farmersdelight:wheat_dough" /> or another accepted dough plus 1 <ItemLink id="farmersdelight:onion" />. Yield 1.
-- <ItemLink id="mynethersdelight:golden_egg" /> Arrange in the crafting grid using 8 <ItemLink id="minecraft:gold_ingot" /> plus 1 <ItemLink id="mynethersdelight:boiled_egg" /> or another accepted boiled egg. Yield 1.
-- <ItemLink id="mynethersdelight:hot_wings" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:chicken" /> or another accepted raw chicken plus 1 <ItemLink id="mynethersdelight:bullet_pepper" /> or another accepted hot spice plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="mynethersdelight:hot_wings_bucket" /> Combine in the crafting grid using 3 <ItemLink id="mynethersdelight:hot_wings" /> plus 1 <ItemLink id="minecraft:bucket" />. Yield 1.
-- <ItemLink id="mynethersdelight:roast_ear" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="mynethersdelight:rock_soup" /> Combine in a heated cooking pot using 2 <ItemLink id="minecraft:magma_cream" /> plus 2 <ItemLink id="mynethersdelight:strider_rock" /> or an accepted substitute. Yield 1.
-- <ItemLink id="mynethersdelight:scotch_eggs" /> Combine in a heated cooking pot using 2 <ItemLink id="mynethersdelight:boiled_egg" /> or another accepted boiled egg plus 1 <ItemLink id="farmersdelight:minced_beef" /> or an accepted substitute plus 1 <ItemLink id="minecraft:bread" /> or another accepted bread. Yield 1.
-- <ItemLink id="mynethersdelight:slices_of_bread" /> Cut on the cutting board with a knife using 1 <ItemLink id="mynethersdelight:bread_loaf" />. Yield 5.
-- <ItemLink id="mynethersdelight:toasts" /> Cook in a furnace using 1 <ItemLink id="mynethersdelight:slices_of_bread" />. Yield 1.
-
+Egg dishes depend on the egg type accepted by the recipe. Bread portions and toast are food and preparation ingredients. Cup soups use the Copper Cup serving branch, so distinguish a finished soup from its container.
 ***
 
 ## Related topics

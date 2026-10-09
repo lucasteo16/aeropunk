@@ -1,6 +1,6 @@
 {
-  "draft_articles": 86,
-  "article_count": 86,
+  "draft_articles": 87,
+  "article_count": 87,
   "category_count": 0,
   "navigation_page_count": 0,
   "root_page_count": 17,
@@ -1165,6 +1165,15 @@
       "topic": "combat.abilities",
       "category": "Combat and character",
       "filename": "combat.abilities.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "help.credits",
+      "category": "Technical reference",
+      "filename": "help.credits.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,

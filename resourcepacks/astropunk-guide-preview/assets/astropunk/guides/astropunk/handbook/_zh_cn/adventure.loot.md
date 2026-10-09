@@ -3,7 +3,7 @@ navigation:
   title: "分享与查看探险战利品"
   position: 0
   parent: adventure.structures.md
-  icon: minecraft:stone_bricks
+  icon: minecraft:gold_ingot
 ---
 
 # 分享与查看探险战利品

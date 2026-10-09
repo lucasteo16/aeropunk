@@ -96,7 +96,28 @@ reference_hubs.update({
 })
 reference_hubs['reference.vehicles'][1].extend(['space.destinations', 'space.vehicle-transfer'])
 reference_icons.update({topic: icon for topic, _, _, icon, *_ in reference_sections})
-reference_icons.update({
+# Explicit whole-tree icons: never inherit a parent's icon for a topic.
+# Selected binary registration evidence and topic rationale are recorded in
+# docs/final-review/navigation-icon-audit.json. Deferred topics use vanilla
+# metaphors, not identifiers from mods that are absent from this pack.
+reference_icons = {
+    'index': 'minecraft:compass',
+    'help.controls': 'minecraft:lever',
+    'help.search': 'minecraft:crafting_table',
+    'adventure.bosses': 'minecraft:dragon_head',
+    'adventure.creatures': 'minecraft:egg',
+    'adventure.structures': 'minecraft:stone_bricks',
+    'world.dimensions': 'minecraft:grass_block',
+    'reference.skills': 'minecraft:iron_sword',
+    'reference.food': 'minecraft:bread',
+    'reference.building': 'create:schematicannon',
+    'reference.vehicles': 'minecraft:minecart',
+    'reference.machines-storage': 'create:crushing_wheel',
+    'maps.personal': 'minecraft:map',
+    'reference.utilities': 'minecraft:chest',
+    'reference.appearance': 'minecraft:painting',
+    'reference.audio': 'minecraft:note_block',
+    'reference.technical': 'minecraft:redstone',
     'reference.equipment': 'minecraft:iron_chestplate',
     'combat.abilities': 'minecraft:enchanted_book',
     'equipment.accessories': 'minecraft:emerald',
@@ -106,10 +127,6 @@ reference_icons.update({
     'combat.martial': 'minecraft:bow',
     'equipment.weapons-armor': 'minecraft:trident',
     'combat.handling': 'minecraft:feather',
-})
-# Distinct food-topic icons, reused by navigation and topic entry points.
-reference_icons.update({
-    'reference.food': 'minecraft:bread',
     'food.hunger': 'minecraft:apple',
     'food.utensils': 'farmersdelight:cooking_pot',
     'food.nether': 'minecraft:crimson_fungus',
@@ -119,7 +136,68 @@ reference_icons.update({
     'food.machine-cooking': 'minecraft:smoker',
     'food.growing': 'minecraft:wheat',
     'food.fishing': 'minecraft:cod',
-})
+    'building.palette': 'chipped:mason_table',
+    'building.factory': 'create:industrial_iron_block',
+    'building.copycats': 'copycats:copycat_block',
+    'building.architecture': 'minecraft:oak_stairs',
+    'building.furniture': 'handcrafted:oak_chair',
+    'building.displays': 'minecraft:item_frame',
+    'building.placement': 'mechtrowel:mech_trowel',
+    'building.safety': 'minecraft:torch',
+    'storage.portable': 'minecraft:shulker_box',
+    'storage.bulk': 'create:item_vault',
+    'storage.handling': 'minecraft:bundle',
+    'machines.ore-processing': 'create:millstone',
+    'machines.rotation': 'create:cogwheel',
+    'machines.logistics': 'create:brass_funnel',
+    'machines.renewables': 'create:mechanical_drill',
+    'machines.enchanting': 'minecraft:enchanting_table',
+    'machines.trading': 'minecraft:emerald_block',
+    'machines.miscellaneous': 'create:wrench',
+    'power.electricity': 'minecraft:lightning_rod',
+    'power.industry': 'minecraft:iron_ingot',
+    'power.burners': 'minecraft:lava_bucket',
+    'power.stored-rotation': 'create:flywheel',
+    'vehicles.assembly': 'create:mechanical_bearing',
+    'vehicles.airships': 'minecraft:elytra',
+    'vehicles.engines': 'create:steam_engine',
+    'vehicles.controls': 'create:controls',
+    'vehicles.radar': 'minecraft:sculk_sensor',
+    'vehicles.weapons': 'minecraft:dispenser',
+    'vehicles.water': 'minecraft:oak_boat',
+    'transport.passenger': 'minecraft:rail',
+    'transport.railway-builder': 'create:track',
+    'transport.local': 'minecraft:powered_rail',
+    'travel.destinations': 'minecraft:ender_pearl',
+    'travel.moving-destinations': 'minecraft:lodestone',
+    'space.destinations': 'minecraft:end_stone',
+    'space.vehicle-transfer': 'minecraft:end_portal_frame',
+    'maps.shared': 'minecraft:cartography_table',
+    'maps.find': 'minecraft:spyglass',
+    'adventure.settlements': 'minecraft:bell',
+    'adventure.loot': 'minecraft:gold_ingot',
+    'help.inspect': 'minecraft:debug_stick',
+    'help.reference': 'minecraft:book',
+    'interactions.carry': 'minecraft:barrel',
+    'adventure.recovery': 'minecraft:recovery_compass',
+    'adventure.sleep': 'minecraft:white_bed',
+    'visuals.camera': 'minecraft:ender_eye',
+    'visuals.models': 'minecraft:armor_stand',
+    'visuals.weather': 'minecraft:snowball',
+    'visuals.lighting': 'minecraft:lantern',
+    'visuals.resource-packs': 'minecraft:loom',
+    'visuals.shader-packs': 'minecraft:prismarine_crystals',
+    'visuals.interface': 'minecraft:oak_sign',
+    'help.handbook': 'minecraft:writable_book',
+    'help.credits': 'minecraft:written_book',
+    'performance.baseline': 'minecraft:clock',
+    'performance.deferred': 'minecraft:repeater',
+    'server.tools': 'minecraft:command_block',
+    'server.deferred-pack-loading': 'minecraft:hopper',
+    'technical.bridges': 'minecraft:chain',
+    'technical.space-bridge': 'minecraft:end_rod',
+    'technical.libraries': 'minecraft:bookshelf',
+}
 reference_parents: dict[str, str | None] = {topic: None for topic, *_ in reference_sections}
 for hub, (_, topics) in reference_hubs.items():
     for topic in topics:
@@ -128,6 +206,7 @@ for topic in ('maps.shared', 'maps.find'):
     reference_parents[topic] = 'maps.personal.md'
 for topic in ('adventure.settlements', 'adventure.loot'):
     reference_parents[topic] = 'adventure.structures.md'
+reference_parents['help.credits'] = 'index.md'
 
 
 raw_zh_titles = '''help.search|查找物品、配方与用途
@@ -225,6 +304,8 @@ visual_sources = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_te
 zh_titles['world.dimensions'] = '维度目录'
 page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') and p['page_id'] not in {'sounds.ambience', 'audio.sound'} ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
 page_defs += [dict(page_id='reference.equipment', title='Equipment', player_questions=[]), dict(page_id='combat.abilities', title='Spells & abilities', player_questions=[])]
+page_defs += [dict(page_id='help.credits', title='Credits', player_questions=[])]
+zh_titles['help.credits'] = '鸣谢'
 zh_titles.update({'reference.equipment': '装备', 'combat.abilities': '法术与招式'})
 page_defs += [dict(page_id=topic, title=english, player_questions=[]) for topic, english, *_ in reference_sections if topic in reference_hubs or topic == 'reference.audio']
 for topic, english, chinese_title, *_ in reference_sections:

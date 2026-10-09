@@ -3,7 +3,7 @@ navigation:
   title: "Railways"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:track
 ---
 
 # Railways

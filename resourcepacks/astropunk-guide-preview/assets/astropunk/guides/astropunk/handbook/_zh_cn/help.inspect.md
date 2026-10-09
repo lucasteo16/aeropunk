@@ -3,7 +3,7 @@ navigation:
   title: "查看方块与生物信息"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:debug_stick
 ---
 
 # 查看方块与生物信息

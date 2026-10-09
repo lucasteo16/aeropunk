@@ -3,7 +3,7 @@ navigation:
   title: "选择引擎与推进装置"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:steam_engine
 ---
 
 # 选择引擎与推进装置

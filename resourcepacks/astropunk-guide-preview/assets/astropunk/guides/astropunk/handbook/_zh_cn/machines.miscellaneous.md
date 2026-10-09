@@ -3,7 +3,7 @@ navigation:
   title: "寻找其他工厂工具"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:wrench
 ---
 
 # 寻找其他工厂工具

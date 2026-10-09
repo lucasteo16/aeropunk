@@ -3,7 +3,7 @@ navigation:
   title: "了解整台载具的跨维度移动"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:end_portal_frame
 ---
 
 # 了解整台载具的跨维度移动

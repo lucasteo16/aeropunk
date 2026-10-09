@@ -45,7 +45,7 @@ assert 'guideme/Guide.getStartPage:' in client
 assert 'guideme/GuidesCommon.openGuide:' not in client
 assert 'guideme/Guides.getById:' in client
 assert 'astropunk' in client and 'handbook' in client
-assert re.search(r'sipush\s+298', client), 'The compiled default must be GLFW F9'
+assert re.search(r'bipush\s+46', client), 'The compiled default must be GLFW period'
 assert 'com/mojang/blaze3d/platform/InputConstants.UNKNOWN' not in client
 configure_position = client.index('LiveEditing.configure:')
 listeners_position = client.index('IEventBus.addListener:')
@@ -53,7 +53,7 @@ assert configure_position < listeners_position
 
 reports = [ET.parse(path).getroot() for path in (root / 'build/test-results/test').glob('TEST-*.xml')]
 total = sum(int(report.attrib['tests']) for report in reports)
-assert total == 10, total
+assert total == 15, total
 assert any(case.attrib.get('name') == 'compactViewportKeepsAnInventoryEntry()'
            for report in reports for case in report.findall('testcase')), 'Compact inventory regression did not run'
 assert sum(int(report.attrib['failures']) + int(report.attrib['errors']) for report in reports) == 0
@@ -61,5 +61,5 @@ print(f'Archive verified: {jar}')
 print(f'Archive size: {jar.stat().st_size} bytes')
 print(f'Archive SHA256: {hashlib.sha256(jar.read_bytes()).hexdigest()}')
 print(f'JUnit: {total} tests, zero failures, zero errors')
-print('Verified client distribution annotation, local public GuideME calls, F9 default, locale parity, dependency metadata and public native query-guide registration and absence of bundled engine, reflection or packet registration.')
+print('Verified client distribution annotation, local public GuideME calls, period default, locale parity, dependency metadata and public native query-guide registration and absence of bundled engine, reflection or packet registration.')
 print('\nExact released public signatures:\n' + released)

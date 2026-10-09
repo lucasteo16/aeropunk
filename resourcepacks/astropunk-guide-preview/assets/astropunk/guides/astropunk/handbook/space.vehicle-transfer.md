@@ -3,7 +3,7 @@ navigation:
   title: "Space transport"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:end_portal_frame
 ---
 
 # Space transport

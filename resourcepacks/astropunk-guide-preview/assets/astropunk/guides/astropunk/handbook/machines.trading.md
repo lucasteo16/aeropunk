@@ -3,7 +3,7 @@ navigation:
   title: "Trading"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:emerald_block
 ---
 
 # Trading

@@ -2,7 +2,7 @@
 navigation:
   title: "实用工具"
   position: 12
-  icon: minecraft:lever
+  icon: minecraft:chest
 ---
 
 # 实用工具

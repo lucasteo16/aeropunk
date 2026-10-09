@@ -3,7 +3,7 @@ navigation:
   title: "Inventory tools"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:bundle
 ---
 
 # Inventory tools

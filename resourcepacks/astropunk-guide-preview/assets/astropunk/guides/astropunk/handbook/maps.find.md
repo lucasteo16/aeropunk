@@ -3,7 +3,7 @@ navigation:
   title: "Location finders"
   position: 0
   parent: maps.personal.md
-  icon: minecraft:map
+  icon: minecraft:spyglass
 ---
 
 # Location finders

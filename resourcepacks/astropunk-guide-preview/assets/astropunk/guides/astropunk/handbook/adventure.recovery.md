@@ -3,7 +3,7 @@ navigation:
   title: "Death & recovery"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:recovery_compass
 ---
 
 # Death & recovery

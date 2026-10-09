@@ -3,7 +3,7 @@ navigation:
   title: "发电、配电与用电"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:lightning_rod
 ---
 
 # 发电、配电与用电

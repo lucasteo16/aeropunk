@@ -3,7 +3,7 @@ navigation:
   title: "Libraries"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:bookshelf
 ---
 
 # Libraries

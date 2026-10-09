@@ -3,7 +3,7 @@ navigation:
   title: "Carry On"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:barrel
 ---
 
 # Carry On

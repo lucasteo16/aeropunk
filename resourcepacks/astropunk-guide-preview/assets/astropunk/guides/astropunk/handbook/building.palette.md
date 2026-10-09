@@ -3,7 +3,7 @@ navigation:
   title: "Materials"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: chipped:mason_table
 ---
 
 # Materials

@@ -3,7 +3,7 @@ navigation:
   title: "Train travel"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:rail
 ---
 
 # Train travel

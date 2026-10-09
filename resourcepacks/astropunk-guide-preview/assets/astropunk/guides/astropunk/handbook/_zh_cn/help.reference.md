@@ -3,7 +3,7 @@ navigation:
   title: "查找已有演示与帮助界面"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:book
 ---
 
 # 查找已有演示与帮助界面

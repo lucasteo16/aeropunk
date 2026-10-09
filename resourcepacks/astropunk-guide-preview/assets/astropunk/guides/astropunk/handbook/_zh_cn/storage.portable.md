@@ -3,7 +3,7 @@ navigation:
   title: "携带便携储存装备"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:shulker_box
 ---
 
 # 携带便携储存装备

@@ -3,7 +3,7 @@ navigation:
   title: "Existing help"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:book
 ---
 
 # Existing help

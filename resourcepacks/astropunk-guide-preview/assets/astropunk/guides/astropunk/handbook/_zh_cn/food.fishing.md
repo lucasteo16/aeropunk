@@ -17,13 +17,7 @@ navigation:
   <ItemIcon id="minecraft:pufferfish" />
 </ItemGrid>
 
-钓鱼竿可获得原版渔获。鳕鱼与鲑鱼有熟食和切割用途。热带鱼与河豚不能当作同等的熟鱼片。
-
-- <ItemLink id="minecraft:cod" /> 用钓鱼竿钓取或收获鳕鱼。可整条烹制，也可按砧板配方切成小份。
-- <ItemLink id="minecraft:salmon" /> 用钓鱼竿钓取或收获鲑鱼。整鱼与切好的小份是不同配方原料。
-- <ItemLink id="minecraft:tropical_fish" /> 原版渔获，有独立的食材用途，并没有普通熟鱼的对应版本。
-- <ItemLink id="minecraft:pufferfish" /> 原版渔获，不适合作为普通安全口粮。应查看专门用途，不要当熟鱼打包。
-
+钓鱼竿可获得原版渔获。<ItemLink id="minecraft:cod" /> 与 <ItemLink id="minecraft:salmon" /> 也可通过猎取鱼类获得，既能整条烹制，也能加工成小份。<ItemLink id="minecraft:tropical_fish" /> 没有普通熟鱼版本。<ItemLink id="minecraft:pufferfish" /> 不适合作为普通口粮，应查看具体食材用途。
 ***
 
 ## Spawn 鱼类料理
@@ -45,7 +39,7 @@ navigation:
   <ItemIcon id="spawn:bluefish_roll" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="minecraft:dried_kelp" />
@@ -57,21 +51,7 @@ navigation:
   <ItemIcon id="spawn:bluefish_slice" />
 </ItemGrid>
 
-Spawn 加入作为食材来源的水生生物。金枪鱼小份可用于卷物与三明治，鲱鱼和蓝鱼则各有熟食与卷物。水桶捕捉和生物收获与普通钓鱼竿渔获不同。
-
-- <ItemLink id="spawn:tuna_chunk" /> 可留作 <ItemLink id="spawn:cooked_tuna_chunk" /> 的原料。加工方式为用熔炉烹制。
-- <ItemLink id="spawn:cooked_tuna_chunk" /> 用熔炉烹制，原料为 1 <ItemLink id="spawn:tuna_chunk" />。产出 1 份。
-- <ItemLink id="spawn:tuna_slice" /> 用刀在砧板上切割，原料为 1 <ItemLink id="spawn:tuna_chunk" />。产出 2 份。
-- <ItemLink id="spawn:tuna_roll" /> 在合成栏中组合，原料为 1 <ItemLink id="spawn:tuna_slice" /> 加 1 <ItemLink id="minecraft:dried_kelp" /> 加 1 <ItemLink id="farmersdelight:cooked_rice" />。产出 3 份。
-- <ItemLink id="spawn:tuna_sandwich" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" /> 加 1 <ItemLink id="spawn:cooked_tuna_chunk" /> 加 2 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="spawn:herring" /> 可留作 <ItemLink id="spawn:cooked_herring" /> 的原料。加工方式为用熔炉烹制。
-- <ItemLink id="spawn:cooked_herring" /> 用熔炉烹制，原料为 1 <ItemLink id="spawn:herring" />。产出 1 份。
-- <ItemLink id="spawn:herring_roll" /> 在合成栏中组合，原料为 3 <ItemLink id="spawn:herring_slice" /> 加 1 <ItemLink id="farmersdelight:cooked_rice" />。产出 2 份。
-- <ItemLink id="spawn:canned_herring" /> 按配方在合成栏中摆放，原料为 9 <ItemLink id="spawn:cooked_herring_slice" />。产出 1 份。
-- <ItemLink id="spawn:bluefish" /> 可留作 <ItemLink id="spawn:bluefish_roll" /> 的原料。加工方式为在合成栏中组合。
-- <ItemLink id="spawn:cooked_bluefish" /> 用熔炉烹制，原料为 1 <ItemLink id="spawn:bluefish" />。产出 1 份。
-- <ItemLink id="spawn:bluefish_roll" /> 在合成栏中组合，原料为 2 <ItemLink id="spawn:bluefish_slice" /> 加 1 <ItemLink id="farmersdelight:cooked_rice" />。产出 2 份。
-
+Spawn 加入作为食材来源的水生生物。金枪鱼小份可制作卷物和三明治，鲱鱼和蓝鱼各有熟食与卷物。水桶捕捉、生物收获和钓鱼竿渔获不同。菜单中有一道料理，不代表其原料可用钓鱼竿获得。
 ***
 
 ## 贝类与捕捉
@@ -88,7 +68,7 @@ Spawn 加入作为食材来源的水生生物。金枪鱼小份可用于卷物�
   <ItemIcon id="spawn:bluefish_bucket" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="minecraft:bread" />
@@ -102,18 +82,7 @@ Spawn 加入作为食材来源的水生生物。金枪鱼小份可用于卷物�
   <ItemIcon id="minecraft:string" />
 </ItemGrid>
 
-蛤蜊提供贝类料理分支，滨海蟹钳则用于蟹料理。已选择 Farmer’s Delight 时，蛤蜊浓汤需把熟蛤蜊、马铃薯与奶放入受热的烹饪锅，再用碗盛装。没有 Farmer’s Delight 时的备用合成配方不是当前路线。
-
-- <ItemLink id="spawn:clam" /> 可留作 <ItemLink id="spawn:cooked_clam" /> 的原料。加工方式为用熔炉烹制。
-- <ItemLink id="spawn:cooked_clam" /> 用熔炉烹制，原料为 1 <ItemLink id="spawn:clam" />。产出 1 份。
-- <ItemLink id="spawn:steamed_clams" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 2 <ItemLink id="spawn:cooked_clam" /> 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="spawn:clam_chowder" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="spawn:cooked_clam" /> 加 1 <ItemLink id="minecraft:potato" /> 加 1 <ItemLink id="farmersdelight:milk_bottle" />。产出 1 份。 用 <ItemLink id="minecraft:bowl" /> 盛装。
-- <ItemLink id="spawn:coastal_crab_claw" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="spawn:crab_boil" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="spawn:casting_net" /> 按配方在合成栏中摆放，原料为 1 <ItemLink id="spawn:shell_fragments" /> 加 6 <ItemLink id="minecraft:string" />。产出 1 份。
-- <ItemLink id="spawn:herring_bucket" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="spawn:bluefish_bucket" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-
+蛤蜊提供贝类料理，滨海蟹钳用于蟹料理。安装 Farmer’s Delight 时，<ItemLink id="spawn:clam_chowder" /> 使用受热烹饪锅，并用碗盛装。未安装 Farmer’s Delight 时的备用合成配方不是当前路线。渔网与鱼桶是捕捉用品，并非料理。
 ***
 
 ## 相关主题

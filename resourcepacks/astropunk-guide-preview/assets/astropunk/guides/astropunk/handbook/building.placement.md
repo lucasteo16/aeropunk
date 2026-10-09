@@ -3,7 +3,7 @@ navigation:
   title: "Placement tools"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: mechtrowel:mech_trowel
 ---
 
 # Placement tools

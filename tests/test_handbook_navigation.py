@@ -35,7 +35,7 @@ class NavigationSkeleton(unittest.TestCase):
                     current = base / name
                     self.assertTrue(current.is_file())
                     depth += 1
-                self.assertIn(current.name, {topic + '.md' for topic in SECTIONS}, path.name)
+                self.assertIn(current.name, {topic + '.md' for topic in SECTIONS} | {'index.md'}, path.name)
                 self.assertLessEqual(depth, 1, path.name)
 
     def test_home_and_sidebar_reference_directory_match(self):
@@ -43,7 +43,7 @@ class NavigationSkeleton(unittest.TestCase):
             base = PAGES / locale
             home = (base / 'index.md').read_text()
             refs = {topic + '.md' for topic in SECTIONS}
-            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), set())
+            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'help.credits.md'})
             self.assertNotIn('| Reference | Contents |', home)
             self.assertEqual(len(refs), 16)
             self.assertNotIn('reference.equipment.md', refs)

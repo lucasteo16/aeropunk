@@ -3,7 +3,7 @@ navigation:
   title: "建造桥梁、屋顶与围栏"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: minecraft:oak_stairs
 ---
 
 # 建造桥梁、屋顶与围栏

@@ -3,7 +3,7 @@ navigation:
   title: "Settlements"
   position: 0
   parent: adventure.structures.md
-  icon: minecraft:stone_bricks
+  icon: minecraft:bell
 ---
 
 # Settlements

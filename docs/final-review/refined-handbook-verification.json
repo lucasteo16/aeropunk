@@ -1,0 +1,28 @@
+{
+  "pages": 192,
+  "articles": 87,
+  "roots": 17,
+  "source_tests": 50,
+  "helper_java_tests": 15,
+  "query_tests": 8,
+  "wiring_tests": 6,
+  "endpoint_tests": 3,
+  "syntax_failures": 0,
+  "native_structural_error_pages": 0,
+  "resource_files_compared": 538,
+  "unique_navigation_icons_per_locale": {
+    "en_us": 96,
+    "_zh_cn": 96
+  },
+  "modded_icons_per_locale": 19,
+  "food_topics_shortened": 10,
+  "helper_sha256": "cc1360ccb80566c39e2770cf0fdd5b99aaaf3c501f83f71891000784cc1c41b2",
+  "export": "/home/tsb/.hermes/cache/scratch/astropunk-handbook-refined.mrpack",
+  "canonical_export": "/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.3.0-guide.light.2-modrinth.mrpack",
+  "export_sha256": "e2bde876a3d418ad8b813fe43926ce05cf1ec8946921528ecb99262ca72a6aa7",
+  "live_installation": false,
+  "client_rendering_verified": false,
+  "global_key_conflict": "Period still assigned to Iris shader toggle, unrelated binding preserved",
+  "image_credits": "Merun173, Steampunk Airship, user-provided screenshot",
+  "screenshot_reuse_permission_verified": false
+}

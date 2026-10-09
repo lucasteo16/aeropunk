@@ -3,7 +3,7 @@ navigation:
   title: "Electricity"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:lightning_rod
 ---
 
 # Electricity

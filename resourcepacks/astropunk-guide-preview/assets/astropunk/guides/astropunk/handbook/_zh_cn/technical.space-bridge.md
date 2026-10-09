@@ -3,7 +3,7 @@ navigation:
   title: "查询暂缓加入的太空渲染组件"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:end_rod
 ---
 
 # 查询暂缓加入的太空渲染组件

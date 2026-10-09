@@ -16,7 +16,7 @@ navigation:
   <ItemIcon id="minecraft:cooked_beef" />
 </ItemGrid>
 
-AppleSkin shows both hunger restoration and saturation in food tooltips. Hunger fills the visible bar. Saturation is the reserve spent before that bar falls. Compare <ItemLink id="minecraft:bread" /> with <ItemLink id="minecraft:cooked_beef" /> instead of judging a meal by its name. Use <ItemLink id="minecraft:apple" /> as a fruit comparison too. Status effects are separate from both values.
+AppleSkin shows both hunger restoration and saturation in food tooltips. Hunger fills the visible bar. Saturation is the reserve spent before that bar falls. Compare <ItemLink id="minecraft:bread" />, <ItemLink id="minecraft:cooked_beef" /> and <ItemLink id="minecraft:apple" /> by their tooltip values. Status effects are separate from both values.
 
 ***
 
@@ -33,7 +33,7 @@ AppleSkin shows both hunger restoration and saturation in food tooltips. Hunger 
 
 The pack tracks the last 16 counted meals with dietary decay enabled. Each distinct food contributes its strongest remaining entry. Eating the same food refreshes its own contribution but does not add another distinct food. Other foods become older and eventually leave the history, so rewards depend on the current diet rather than lifetime discoveries.
 
-Use the inventory diet button or <ItemLink id="solonion:food_book" /> to inspect variety and rewards. The selected release enables the inventory button by default, so checking your diet does not require carrying the book. Its shipped detriment list is empty. Repetition can lower variety and remove rewards, but it is not a rule that repeatedly eaten food restores less hunger.
+Use the inventory diet button or <ItemLink id="solonion:food_book" /> to inspect variety and rewards. The inventory button is enabled by default, so carrying the book is optional. Its shipped detriment list is empty. Repetition can lower variety and remove rewards, but it is not a rule that repeatedly eaten food restores less hunger.
 
 ***
 
@@ -45,7 +45,7 @@ Use the inventory diet button or <ItemLink id="solonion:food_book" /> to inspect
   <ItemIcon id="solonion:golden_lunchbox" />
 </ItemGrid>
 
-Use <ItemLink id="solonion:lunchbag" /> or <ItemLink id="solonion:lunchbox" /> for food storage. <ItemLink id="solonion:golden_lunchbox" /> is another container, not another edible dish. Short Stacks changes food stack limits, so inspect the actual limit before filling your bag. Carry different finished meals to maintain diet variety, and compare their filling power separately.
+Use <ItemLink id="solonion:lunchbag" /> or <ItemLink id="solonion:lunchbox" /> for food storage. <ItemLink id="solonion:golden_lunchbox" /> is another container, not another edible dish. Short Stacks changes food stack limits, so inspect the actual limit before filling your bag. Pack different meals for variety, then compare their filling power separately.
 
 - [Kitchen meals](food.utensils.md)
 - [Crop ingredients](food.growing.md)

@@ -45,13 +45,14 @@ class AccessWiringTest(unittest.TestCase):
     def test_constructor_connects_each_typed_event_to_correct_bus(self):
         constructor = method(self.code, 'dev.astropunk.handbook.HandbookAccess')
         # Key mappings and query-guide setup use the injected mod bus.
-        # The three screen and tick listeners use NeoForge.EVENT_BUS.
-        self.assertEqual(constructor.count('IEventBus.addListener:'), 5)
+        # The four screen and tick listeners use NeoForge.EVENT_BUS.
+        self.assertEqual(constructor.count('IEventBus.addListener:'), 6)
         self.assertIn('FMLClientSetupEvent', constructor)
-        self.assertEqual(constructor.count('NeoForge.EVENT_BUS:'), 3)
+        self.assertEqual(constructor.count('NeoForge.EVENT_BUS:'), 4)
         for name, event in [
             ('registerKeys', 'RegisterKeyMappingsEvent'),
             ('addInventoryButton', 'ScreenEvent$Init$Post'),
+            ('onInventoryRender', 'ScreenEvent$Render$Pre'),
             ('onClientTick', 'ClientTickEvent$Post'),
             ('onInventoryKey', 'ScreenEvent$KeyPressed$Post'),
         ]:
@@ -63,13 +64,37 @@ class AccessWiringTest(unittest.TestCase):
         inventory = method(self.code, 'addInventoryButton')
         self.assertIn('inventory/InventoryScreen', inventory)
         self.assertIn('inventory/CreativeModeInventoryScreen', inventory)
-        self.assertIn('ButtonPlacement.findInventory:', inventory)
+        placement = method(self.code, 'updateInventoryButton')
+        self.assertIn('ButtonPlacement.findGuide:', placement)
+        self.assertIn('EmiSearchPlacement.collect:', placement)
+        self.assertLess(placement.index('ModList.isLoaded:'), placement.index('EmiSearchPlacement.collect:'))
+        self.assertIn('updateInventoryButton:', method(self.code, 'onInventoryRender'))
+        self.assertNotIn('ButtonPlacement.findInventory:', self.code)
+        self.assertNotIn('dev/emi/emi/screen/EmiScreenManager', self.code)
         classpath = (ROOT / 'build/access-probe-classpath.txt').read_text()
         screen = bytecode(classpath, 'net.minecraft.client.gui.screens.Screen')
         callback = method(screen, 'addEventWidget')
         self.assertIn('Field renderables:', callback)
         self.assertIn('Field children:', callback)
         self.assertIn('Field narratables:', callback)
+
+    def test_selected_emi_search_bounds_are_read_not_recreated(self):
+        released = bytecode(ROOT / 'emi-1.1.24.jar', 'dev.emi.emi.screen.EmiScreenManager')
+        self.assertIn('public static dev.emi.emi.screen.widget.EmiSearchWidget search;', released)
+        layout = method(released, 'addWidgets')
+        self.assertIn('EmiSearchWidget.x:I', layout)
+        self.assertIn('EmiSearchWidget.y:I', layout)
+        self.assertIn('EmiSearchWidget.setWidth:', layout)
+        self.assertIn('EmiSearchWidget.setVisible:', layout)
+        adapter = bytecode(HELPER, 'dev.astropunk.handbook.EmiSearchPlacement')
+        self.assertIn('EmiScreenManager.search:', adapter)
+        for name in ('getX', 'getY', 'getWidth', 'getHeight'):
+            self.assertIn('AbstractWidget.' + name + ':', adapter)
+        self.assertNotIn('EmiSearchWidget."<init>"', adapter)
+        self.assertNotIn('EmiScreenManager.addWidgets:', adapter)
+        self.assertNotIn('java/lang/reflect', adapter)
+        api = bytecode(ROOT / 'emi-1.1.24.jar', 'dev.emi.emi.api.EmiApi')
+        self.assertNotIn('getSearchBounds(', api)
 
     def test_shortcut_world_and_inventory_dispatch_are_present(self):
         tick = method(self.code, 'onClientTick')
@@ -110,7 +135,7 @@ def negative_control():
     env = dict(os.environ, ACCESS_HELPER_JAR=str(jar))
     result = subprocess.run([sys.executable, __file__, 'AccessWiringTest.test_constructor_connects_each_typed_event_to_correct_bus'], env=env, text=True, capture_output=True)
     print(result.stdout + result.stderr)
-    assert result.returncode != 0 and '4 != 5' in result.stderr, 'Expected disconnected-listener assertion to fail'
+    assert result.returncode != 0 and '5 != 6' in result.stderr, 'Expected disconnected-listener assertion to fail'
     print('Negative control rejected disconnected inventory listener.')
 
 

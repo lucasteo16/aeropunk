@@ -3,7 +3,7 @@ navigation:
   title: "Workshop tools"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:wrench
 ---
 
 # Workshop tools

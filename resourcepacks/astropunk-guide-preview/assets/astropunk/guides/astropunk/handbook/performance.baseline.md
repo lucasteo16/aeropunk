@@ -3,7 +3,7 @@ navigation:
   title: "Performance"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:clock
 ---
 
 # Performance

@@ -19,30 +19,24 @@ Farmer’s Delight covers everyday cooking from prepared portions to shared feas
 
 ## Regional ingredients
 
-<EmiSearch query="@ends_delight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
-
-- <ItemImage id="mynethersdelight:bullet_pepper" /> [Nether foods](food.nether.md) connects Nether hunting and pepper ingredients to sausages, stews and ghast dough.
-- <ItemImage id="ends_delight:chorus_fruit_grain" /> [End foods](food.end.md) distinguishes gathered chorus ingredients from knife-hunted shulker meat and dragon encounters.
-- <ItemImage id="minersdelight:cave_carrot" /> [Underground foods](food.underground.md) covers cave crops, hunted ingredients, squid dishes, plant meals and copper serving containers.
-- <ItemImage id="lendersdelight:amethyst_crab_sandwich" /> [Encounter foods](food.encounters.md) covers Cataclysm creature ingredients and specialized boss dishes.
+- <ItemImage id="minecraft:crimson_fungus" /> [Nether foods](food.nether.md) connects Nether hunting and pepper ingredients to sausages, stews and ghast dough.
+- <ItemImage id="minecraft:chorus_fruit" /> [End foods](food.end.md) distinguishes gathered chorus ingredients from knife-hunted shulker meat and dragon encounters.
+- <ItemImage id="minecraft:brown_mushroom" /> [Underground foods](food.underground.md) covers cave crops, hunted ingredients, squid dishes, plant meals and copper serving containers.
+- <ItemImage id="minecraft:rotten_flesh" /> [Encounter foods](food.encounters.md) covers Cataclysm creature ingredients and specialized boss dishes.
 
 ***
 
 ## Growing & seafood
 
-<EmiSearch query="@spawn" />
-
-- <ItemImage id="farmersdelight:cabbage" /> [Crop ingredients](food.growing.md) explains wild crop sources, seeds, rice processing and harvesting helpers.
-- <ItemImage id="spawn:tuna_roll" /> [Fish & shellfish](food.fishing.md) separates ordinary rod catches from aquatic creatures, prepared portions and shellfish meals.
+- <ItemImage id="minecraft:wheat" /> [Crop ingredients](food.growing.md) explains wild crop sources, seeds, rice processing and harvesting helpers.
+- <ItemImage id="minecraft:cod" /> [Fish & shellfish](food.fishing.md) separates ordinary rod catches from aquatic creatures, prepared portions and shellfish meals.
 
 ***
 
 ## Diet & production
 
-<EmiSearch query="@sliceanddice" /> <EmiSearch query="@solonion" />
-
-- <ItemImage id="solonion:food_book" /> [Hunger & variety](food.hunger.md) explains hunger, saturation, the rolling diet and expedition food storage.
-- <ItemImage id="sliceanddice:slicer" /> [Machine kitchens](food.machine-cooking.md) separates slicing, drink fluids and crop production from finished meal recipes.
+- <ItemImage id="minecraft:apple" /> [Hunger & variety](food.hunger.md) explains hunger, saturation, the rolling diet and expedition food storage.
+- <ItemImage id="minecraft:smoker" /> [Machine kitchens](food.machine-cooking.md) separates slicing, drink fluids and crop production from finished meal recipes.
 
 ***
 

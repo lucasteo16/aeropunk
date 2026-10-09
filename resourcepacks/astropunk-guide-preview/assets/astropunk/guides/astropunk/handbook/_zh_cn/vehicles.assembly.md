@@ -3,7 +3,7 @@ navigation:
   title: "组装和操作移动载具"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:mechanical_bearing
 ---
 
 # 组装和操作移动载具

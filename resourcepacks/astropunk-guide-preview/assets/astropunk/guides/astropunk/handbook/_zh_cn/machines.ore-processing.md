@@ -3,7 +3,7 @@ navigation:
   title: "加工矿石与原料"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:millstone
 item_ids:
   - create:millstone
   - create:crushing_wheel

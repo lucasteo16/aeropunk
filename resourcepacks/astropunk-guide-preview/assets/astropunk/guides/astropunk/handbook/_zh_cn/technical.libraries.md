@@ -3,7 +3,7 @@ navigation:
   title: "查询支持库与框架"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:bookshelf
 ---
 
 # 查询支持库与框架

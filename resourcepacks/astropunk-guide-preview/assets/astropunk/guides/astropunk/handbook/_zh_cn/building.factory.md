@@ -3,7 +3,7 @@ navigation:
   title: "装饰工厂与车站"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: create:industrial_iron_block
 ---
 
 # 装饰工厂与车站

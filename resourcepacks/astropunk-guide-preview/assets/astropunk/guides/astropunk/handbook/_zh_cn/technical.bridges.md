@@ -3,7 +3,7 @@ navigation:
   title: "查询移动建筑与视觉兼容组件"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:chain
 ---
 
 # 查询移动建筑与视觉兼容组件

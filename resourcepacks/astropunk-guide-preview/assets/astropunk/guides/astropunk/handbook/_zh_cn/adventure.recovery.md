@@ -3,7 +3,7 @@ navigation:
   title: "死亡后取回物品"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:recovery_compass
 ---
 
 # 死亡后取回物品

@@ -18,13 +18,13 @@ navigation:
   <ItemIcon id="farmersdelight:flint_knife" />
 </ItemGrid>
 
-<ItemLink id="sliceanddice:slicer" /> 自动执行切割，并不会把所有食材直接做成完整料理。<ItemLink id="farmersdelight:flint_knife" /> 是手工切割工具。先决定切割产物，再供应所需原料与工具。组装方式可查看原生 Ponder 帮助。手工 <ItemLink id="farmersdelight:cutting_board" /> 配方说明了整块食材与分切小份为何是不同原料。
+<ItemLink id="sliceanddice:slicer" /> 自动执行切割，并不会把所有食材直接做成完整料理。选定所需原料与 <ItemLink id="farmersdelight:flint_knife" />，再查看原生 Ponder 组装帮助。<ItemLink id="farmersdelight:cutting_board" /> 配方可区分整块食材与加工小份。
 
 ### 切片机合成
 
 <Recipe id="sliceanddice:slicer" />
 
-先制作 <ItemLink id="sliceanddice:slicer" />，再连接原料运输并装入所需切割工具。
+先制作机器并装入切割工具，再连接原料运输。
 
 ***
 

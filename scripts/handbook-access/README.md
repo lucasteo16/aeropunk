@@ -4,9 +4,9 @@ Client-only helper for Minecraft 1.21.1, NeoForge 21.1.255 and GuideME 21.1.19. 
 
 ## Controls
 
-- Adds an ordinary, narrated Handbook button to survival and creative inventory screens, without removing or replacing existing controls.
-- Finds an available position outside the inventory panel and visible existing widgets. If the entire screen has no free button area, leaves existing controls intact and relies on the shortcut.
-- Adds Open Astropunk Handbook to Minecraft Controls, under Astropunk Handbook. The default is F9, so GuideME's existing contextual G control is untouched.
+- Adds one ordinary, narrated Guide button (指南 in Simplified Chinese) to native survival and creative inventory screens, including query-return subclasses.
+- Reads the actual selected EMI search widget bounds through isolated optional compatibility because EmiApi has no geometry endpoint. Places Guide four logical units to its left, vertically centered, and updates before each screen render and each client tick. Reserves inventory, creative tabs, existing widgets and visible EMI panels and controls. If adjacency cannot fit, uses a bounded bottom-first fallback. If no position fits, hides the button and retains the shortcut. Hidden or absent EMI search uses the same fallback. No search widget is recreated and EMI settings are not changed.
+- Adds Open Astropunk Handbook to Minecraft Controls, under Astropunk Handbook. The default is the period key. The action identifier and user remapping remain unchanged. GuideME's contextual binding is managed separately by pack defaults.
 - The assigned keyboard shortcut works in the world and for otherwise unhandled keys in inventory. It does not intercept chat, text entry or other screens.
 - Opens the local player's `astropunk:handbook` through the public `GuideMEClient.openGuideAtPreviousPage(Guide, ResourceLocation)` method in the exact released `guideme.internal` implementation. This matches `/guidemec astropunk:handbook open`, including previous-page history and the guide's native start page, without common proxy dispatch. It is a version-pinned internal implementation, not a promised stable external interface. Missing handbook resources produce a localized client message. No helper items, server commands, permission checks or custom network packets are involved.
 - Supplies English and Simplified Chinese interface labels.
@@ -46,9 +46,9 @@ In released `DocumentScreen.calculateEffectiveScale`, scale one becomes two and 
 
 The official NeoForge 1.21.1 ModDevGradle template supplies the genuine Gradle wrapper. Build uses ModDevGradle 2.0.148, Gradle 9.2.1 and a locally downloaded Java 21 toolchain. Dependencies and Gradle caches are isolated under this project.
 
-Run `bash build.sh` from this directory. It performs a clean build, runs nine JUnit tests and three released-bytecode regression tests, and verifies the actual jar with `verify_artifact.py`.
+Run `bash build.sh` from this directory. It performs a clean build, runs fifteen JUnit tests, eight query integration tests, three endpoint tests, six access wiring tests and a disconnected-listener negative control, and verifies the actual jar with `verify_artifact.py`.
 
-Tests cover missing-guide feedback, successful opening dispatch, absent-player safety, collision-free button placement, no-space fallback, symbolic-preview activation, ordinary exports, explicit source overrides and broken links. Red test evidence is retained in the `red-*.log` files. Archive verification checks the client-only annotation, dependency metadata, exact released public method descriptors, locale parity, F9 default, no packaged engine or guide definitions, and no reflection or packet registration.
+Tests cover missing-guide feedback, successful opening dispatch, absent-player safety, collision-free button placement, no-space fallback, symbolic-preview activation, ordinary exports, explicit source overrides and broken links. Red test evidence is retained in the `red-*.log` files. Archive verification checks the client-only annotation, dependency metadata, exact released public method descriptors, locale parity, period default, no packaged engine or guide definitions, and no reflection or packet registration.
 
 `build-output.log` and `verification-output.log` record the successful build and archive inspection. `final-build.log` records the last clean build and archive verification together.
 

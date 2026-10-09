@@ -3,7 +3,7 @@ navigation:
   title: "Space (not installed)"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:end_stone
 ---
 
 # Space (not installed)

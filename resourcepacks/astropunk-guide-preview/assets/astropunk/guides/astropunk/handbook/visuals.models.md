@@ -3,7 +3,7 @@ navigation:
   title: "Models & animations"
   position: 0
   parent: reference.appearance.md
-  icon: minecraft:painting
+  icon: minecraft:armor_stand
 ---
 
 # Models & animations

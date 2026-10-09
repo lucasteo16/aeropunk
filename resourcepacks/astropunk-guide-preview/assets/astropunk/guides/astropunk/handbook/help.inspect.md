@@ -3,7 +3,7 @@ navigation:
   title: "Block & mob info"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:debug_stick
 ---
 
 # Block & mob info

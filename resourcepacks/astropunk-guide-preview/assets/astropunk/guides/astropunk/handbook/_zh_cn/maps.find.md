@@ -3,7 +3,7 @@ navigation:
   title: "寻找生物群系与结构"
   position: 0
   parent: maps.personal.md
-  icon: minecraft:map
+  icon: minecraft:spyglass
 ---
 
 # 寻找生物群系与结构

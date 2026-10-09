@@ -2,7 +2,7 @@
 navigation:
   title: "Utilities"
   position: 12
-  icon: minecraft:lever
+  icon: minecraft:chest
 ---
 
 # Utilities

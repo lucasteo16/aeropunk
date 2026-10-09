@@ -3,7 +3,7 @@ navigation:
   title: "Camera"
   position: 0
   parent: reference.appearance.md
-  icon: minecraft:painting
+  icon: minecraft:ender_eye
 ---
 
 # Camera

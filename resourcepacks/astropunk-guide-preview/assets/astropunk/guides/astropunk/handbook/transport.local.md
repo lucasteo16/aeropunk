@@ -3,7 +3,7 @@ navigation:
   title: "Local transport"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:powered_rail
 ---
 
 # Local transport

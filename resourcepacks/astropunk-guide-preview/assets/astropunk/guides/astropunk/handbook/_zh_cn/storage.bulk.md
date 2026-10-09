@@ -3,7 +3,7 @@ navigation:
   title: "储存工厂的大批原料"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:item_vault
 ---
 
 # 储存工厂的大批原料

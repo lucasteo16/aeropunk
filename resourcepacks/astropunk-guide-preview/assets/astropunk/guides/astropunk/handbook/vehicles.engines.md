@@ -3,7 +3,7 @@ navigation:
   title: "Engines"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:steam_engine
 ---
 
 # Engines

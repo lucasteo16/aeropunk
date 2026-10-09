@@ -23,7 +23,7 @@ class ReviewedLayout(unittest.TestCase):
             self.assertEqual(text.count('<ItemImage '), 0)
             self.assertNotIn('<ItemGrid>', text)
             self.assertNotIn('| Reference | Contents |', text)
-            self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', text), [])
+            self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', text), ['help.credits.md'])
             self.assertNotIn('Mod catalogs' if not language else '模组目录', text)
             self.assertNotIn('category-', text)
             self.assertNotIn(' · ', text)

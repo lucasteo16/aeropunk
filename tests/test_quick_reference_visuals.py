@@ -70,7 +70,11 @@ class ReferenceVisuals(unittest.TestCase):
                 if not locale:
                     for heading in re.findall(r'^#{2,3} (.+)$', body, re.M):
                         self.assertLessEqual(len(heading), 24, (filename, heading))
-                self.assertTrue(any(token in body for token in ('<ItemGrid', '<ItemImage', '<Recipe', '![', '| ', 'WIP')), filename)
+                if page['topic'] == 'help.credits':
+                    self.assertIn('Merun173', body)
+                    self.assertIn('https://createmod.com/author/merun173', body)
+                else:
+                    self.assertTrue(any(token in body for token in ('<ItemGrid', '<ItemImage', '<Recipe', '![', '| ', 'WIP')), filename)
 
     def test_review_removes_movement_and_corrects_access_claims(self):
         for locale in ('', '_zh_cn'):

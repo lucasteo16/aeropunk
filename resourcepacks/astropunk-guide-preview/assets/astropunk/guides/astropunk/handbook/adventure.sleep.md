@@ -3,7 +3,7 @@ navigation:
   title: "Sleep"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:white_bed
 ---
 
 # Sleep

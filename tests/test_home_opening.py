@@ -13,7 +13,7 @@ class HomeOpening(unittest.TestCase):
             page = (PAGES / locale / 'index.md').read_text()
             body = page.split('\n# Astropunk\n', 1)[1].strip()
             self.assertTrue(body.startswith('!['))
-            self.assertIn('](images/home-aeronautics-ship.png)', body.splitlines()[0])
+            self.assertIn('](images/home-merun173-airship.png)', body.splitlines()[0])
             self.assertIsNone(re.search(r'(?m)^#{2,6} ', body))
             self.assertEqual(len(re.findall(r'!\[[^\]]*\]\(', body)), 1)
             self.assertNotIn('<ItemImage ', body)
@@ -22,6 +22,9 @@ class HomeOpening(unittest.TestCase):
             self.assertNotIn('](help.controls.md)', body)
             self.assertNotIn('## Related mods', body)
             self.assertLessEqual(len(body.split('\n\n')), 6)
+        credits = (PAGES / 'help.credits.md').read_text()
+        self.assertIn('Merun173', credits)
+        self.assertIn('https://createmod.com/author/merun173', credits)
         english = (PAGES / 'index.md').read_text()
         self.assertLessEqual(len(english.split()), 230)
 

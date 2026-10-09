@@ -3,7 +3,7 @@ navigation:
   title: "Enchanting"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:enchanting_table
 ---
 
 # Enchanting

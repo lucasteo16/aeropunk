@@ -3,7 +3,7 @@ navigation:
   title: "Interface"
   position: 0
   parent: reference.appearance.md
-  icon: minecraft:painting
+  icon: minecraft:oak_sign
 ---
 
 # Interface

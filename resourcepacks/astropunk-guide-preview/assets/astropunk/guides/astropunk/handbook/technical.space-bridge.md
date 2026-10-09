@@ -3,7 +3,7 @@ navigation:
   title: "Space compatibility"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:end_rod
 ---
 
 # Space compatibility

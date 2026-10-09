@@ -3,7 +3,7 @@ navigation:
   title: "了解当前性能优化系统"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:clock
 ---
 
 # 了解当前性能优化系统

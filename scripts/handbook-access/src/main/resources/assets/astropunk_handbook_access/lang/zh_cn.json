@@ -1,7 +1,7 @@
 {
   "key.categories.astropunk_handbook_access": "Astropunk 手册",
   "key.astropunk_handbook_access.open": "打开 Astropunk 手册",
-  "astropunk_handbook_access.button": "手册",
+  "astropunk_handbook_access.button": "指南",
   "astropunk_handbook_access.tooltip": "打开 Astropunk 手册",
   "astropunk_handbook_access.missing_guide": "Astropunk 手册暂不可用。请启用 Astropunk 指南资源包并重新加载资源。"
 }

@@ -3,7 +3,7 @@ navigation:
   title: "Architecture"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: minecraft:oak_stairs
 ---
 
 # Architecture

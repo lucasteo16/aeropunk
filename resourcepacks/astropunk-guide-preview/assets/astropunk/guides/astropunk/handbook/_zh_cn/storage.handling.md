@@ -3,7 +3,7 @@ navigation:
   title: "整理、转移与丢弃物品"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:bundle
 ---
 
 # 整理、转移与丢弃物品

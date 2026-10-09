@@ -3,7 +3,7 @@ navigation:
   title: "Vehicle controls"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:controls
 ---
 
 # Vehicle controls

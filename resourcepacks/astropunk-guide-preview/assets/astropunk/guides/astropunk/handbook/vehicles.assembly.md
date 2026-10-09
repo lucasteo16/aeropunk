@@ -3,7 +3,7 @@ navigation:
   title: "Vehicle assembly"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: create:mechanical_bearing
 ---
 
 # Vehicle assembly

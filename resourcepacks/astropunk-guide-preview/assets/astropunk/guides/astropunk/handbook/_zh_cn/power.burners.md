@@ -3,7 +3,7 @@ navigation:
   title: "提供液体燃烧燃料"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:lava_bucket
 ---
 
 # 提供液体燃烧燃料

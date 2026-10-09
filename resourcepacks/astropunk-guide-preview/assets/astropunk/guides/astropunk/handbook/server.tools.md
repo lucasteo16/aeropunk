@@ -3,7 +3,7 @@ navigation:
   title: "Server tools"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:command_block
 ---
 
 # Server tools

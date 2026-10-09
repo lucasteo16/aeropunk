@@ -3,7 +3,7 @@ navigation:
   title: "选择装饰材料"
   position: 0
   parent: reference.building.md
-  icon: minecraft:bricks
+  icon: chipped:mason_table
 ---
 
 # 选择装饰材料

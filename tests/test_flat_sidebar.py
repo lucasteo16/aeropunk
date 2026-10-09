@@ -23,7 +23,7 @@ class FlatSidebar(unittest.TestCase):
             for path in base.glob('*.md'):
                 self.assertNotIn('quick-reference.md', path.read_text())
             home = (base / 'index.md').read_text()
-            self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', home), [])
+            self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', home), ['help.credits.md'])
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         self.assertEqual(manifest['navigation_page_count'], 0)
         self.assertEqual(manifest['root_page_count'], 17)

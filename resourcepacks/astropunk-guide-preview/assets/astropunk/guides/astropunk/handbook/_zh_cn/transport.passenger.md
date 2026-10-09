@@ -3,7 +3,7 @@ navigation:
   title: "乘坐列车出行"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:rail
 ---
 
 # 乘坐列车出行

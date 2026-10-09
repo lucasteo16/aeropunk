@@ -3,7 +3,7 @@ navigation:
   title: "睡眠与时间安排"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:white_bed
 ---
 
 # 睡眠与时间安排

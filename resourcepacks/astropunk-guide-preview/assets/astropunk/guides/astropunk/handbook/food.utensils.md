@@ -29,7 +29,7 @@ item_ids:
   <ItemIcon id="farmersdelight:flint_knife" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:brick" />
@@ -43,14 +43,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:flint" />
 </ItemGrid>
 
-Start with a cutting board and knife for portions. A heated cooking pot combines ingredients into meals. The skillet cooks individual ingredients and the stove supplies heat. Recipe inputs below are ingredients, not decorative category icons.
-
-- <ItemLink id="farmersdelight:cooking_pot" /> Arrange in the crafting grid using 2 <ItemLink id="minecraft:brick" /> plus 1 <ItemLink id="minecraft:wooden_shovel" /> plus 5 <ItemLink id="minecraft:iron_ingot" /> or another accepted iron plus 1 <ItemLink id="minecraft:water_bucket" /> or another accepted water. Yield 1.
-- <ItemLink id="farmersdelight:cutting_board" /> Arrange in the crafting grid using 2 <ItemLink id="minecraft:stick" /> plus 4 <ItemLink id="minecraft:oak_planks" /> or another accepted planks. Yield 1.
-- <ItemLink id="farmersdelight:skillet" /> Arrange in the crafting grid using 4 <ItemLink id="minecraft:iron_ingot" /> or another accepted iron plus 1 <ItemLink id="minecraft:brick" />. Yield 1.
-- <ItemLink id="farmersdelight:stove" /> Arrange in the crafting grid using 3 <ItemLink id="minecraft:iron_ingot" /> or another accepted iron plus 4 <ItemLink id="minecraft:bricks" /> plus 1 <ItemLink id="minecraft:campfire" />. Yield 1.
-- <ItemLink id="farmersdelight:flint_knife" /> Arrange in the crafting grid using 1 <ItemLink id="minecraft:flint" /> plus 1 <ItemLink id="minecraft:stick" />. Yield 1.
-
+Use a <ItemLink id="farmersdelight:flint_knife" /> on a <ItemLink id="farmersdelight:cutting_board" /> to prepare portions. Put food on a lit <ItemLink id="farmersdelight:stove" /> for direct cooking, or heat a <ItemLink id="farmersdelight:cooking_pot" /> for combined meals. A <ItemLink id="farmersdelight:skillet" /> cooks individual ingredients. Native recipes show ingredients, quantities, accepted substitutes and serving containers. Keep containers separate from food inputs. The water bucket in the tool materials grid represents a crafting ingredient, not water required for every meal.
 ***
 
 ## Sandwiches & rolls
@@ -68,7 +61,7 @@ Start with a cutting board and knife for portions. A heated cooking pot combines
   <ItemIcon id="farmersdelight:kelp_roll" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:bread" />
@@ -89,19 +82,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:dried_kelp" />
 </ItemGrid>
 
-Use bread for sandwiches and prepared portions for fillings. Rolls use their own wrapping and rice recipes. An egg sandwich uses two cooked eggs rather than two raw eggs.
-
-- <ItemLink id="farmersdelight:egg_sandwich" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 2 <ItemLink id="farmersdelight:fried_egg" /> or another accepted cooked egg. Yield 1.
-- <ItemLink id="farmersdelight:chicken_sandwich" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="minecraft:cooked_chicken" /> or another accepted cooked chicken plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot. Yield 1.
-- <ItemLink id="farmersdelight:hamburger" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="farmersdelight:beef_patty" /> plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="farmersdelight:bacon_sandwich" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="farmersdelight:cooked_bacon" /> or another accepted cooked bacon plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato. Yield 1.
-- <ItemLink id="farmersdelight:mutton_wrap" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="minecraft:cooked_mutton" /> or another accepted cooked mutton plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="farmersdelight:dumplings" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:wheat_dough" /> or another accepted dough plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted cabbage plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion plus 1 <ItemLink id="minecraft:chicken" /> or another accepted raw chicken or an accepted substitute. Yield 2.
-- <ItemLink id="farmersdelight:cabbage_rolls" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted cabbage plus 1 <ItemLink id="minecraft:chicken" /> or another accepted raw meat or an accepted substitute. Yield 1.
-- <ItemLink id="farmersdelight:salmon_roll" /> Combine in the crafting grid using 2 <ItemLink id="farmersdelight:salmon_slice" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 2.
-- <ItemLink id="farmersdelight:cod_roll" /> Combine in the crafting grid using 2 <ItemLink id="farmersdelight:cod_slice" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 2.
-- <ItemLink id="farmersdelight:kelp_roll" /> Arrange in the crafting grid using 2 <ItemLink id="farmersdelight:cooked_rice" /> plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted vegetable plus 3 <ItemLink id="minecraft:dried_kelp" />. Yield 1.
-
+Bread and prepared fillings support sandwiches. Rice and wrapping ingredients open the roll branch. Egg sandwiches require cooked eggs rather than raw eggs.
 ***
 
 ## Soups & rice
@@ -121,7 +102,7 @@ Use bread for sandwiches and prepared portions for fillings. Rolls use their own
   <ItemIcon id="farmersdelight:mushroom_rice" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="minecraft:beef" />
@@ -149,21 +130,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:red_mushroom" />
 </ItemGrid>
 
-A cooking pot turns crop harvests and meat portions into combined meals. Keep the serving container separate from the food inputs. Rice dishes provide another use for the rice harvest instead of simply repeating bread.
-
-- <ItemLink id="farmersdelight:beef_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:beef" /> or another accepted raw beef plus 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="minecraft:potato" /> or another accepted potato. Yield 1.
-- <ItemLink id="farmersdelight:chicken_soup" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:chicken" /> or another accepted raw chicken plus 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted vegetable except <ItemLink id="minecraft:melon_slice" />. Yield 1.
-- <ItemLink id="farmersdelight:vegetable_soup" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="minecraft:potato" /> or another accepted potato plus 1 <ItemLink id="minecraft:beetroot" /> or another accepted beetroot plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green. Yield 1.
-- <ItemLink id="farmersdelight:fish_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:cod" /> or another accepted safe raw fish plus 1 <ItemLink id="farmersdelight:tomato_sauce" /> plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="farmersdelight:pumpkin_soup" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:pumpkin_slice" /> plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="minecraft:porkchop" /> or another accepted raw pork plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk. Yield 1.
-- <ItemLink id="farmersdelight:baked_cod_stew" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:cod" /> or another accepted raw cod plus 1 <ItemLink id="minecraft:potato" /> or another accepted potato plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato. Yield 1.
-- <ItemLink id="farmersdelight:noodle_soup" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:raw_pasta" /> or another accepted pasta plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="minecraft:dried_kelp" /> plus 1 <ItemLink id="minecraft:porkchop" /> or another accepted raw pork. Yield 1.
-- <ItemLink id="farmersdelight:onion_soup" /> Combine in a heated cooking pot using 2 <ItemLink id="farmersdelight:onion" /> or another accepted onion plus 1 <ItemLink id="minecraft:bread" /> or another accepted bread plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk. Yield 1.
-- <ItemLink id="farmersdelight:bone_broth" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:bone" /> or another accepted bones plus 1 <ItemLink id="minecraft:glow_berries" /> or an accepted substitute. Yield 1.
-- <ItemLink id="farmersdelight:cooked_rice" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:rice" /> or another accepted rice. Yield 1.
-- <ItemLink id="farmersdelight:fried_rice" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:rice" /> or another accepted rice plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="farmersdelight:mushroom_rice" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:brown_mushroom" /> plus 1 <ItemLink id="minecraft:red_mushroom" /> plus 1 <ItemLink id="farmersdelight:rice" /> or another accepted rice plus 1 <ItemLink id="minecraft:carrot" /> or an accepted substitute. Yield 1.
-
+Crop harvests, meat and fish support soups and stews. Rice supplies both simple servings and mixed dishes.
 ***
 
 ## Plates & feasts
@@ -185,7 +152,7 @@ A cooking pot turns crop harvests and meat portions into combined meals. Keep th
   <ItemIcon id="farmersdelight:gleaming_salad" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooked_bacon" />
@@ -212,23 +179,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:sweet_berries" />
 </ItemGrid>
 
-Plated meals combine prepared ingredients. Placeable feasts and their individual servings are different items, so choose the serving recipe before packing for travel.
-
-- <ItemLink id="farmersdelight:bacon_and_eggs" /> Combine in the crafting grid using 2 <ItemLink id="farmersdelight:cooked_bacon" /> or another accepted cooked bacon plus 1 <ItemLink id="minecraft:bowl" /> plus 2 <ItemLink id="farmersdelight:fried_egg" /> or another accepted cooked egg. Yield 1.
-- <ItemLink id="farmersdelight:pasta_with_meatballs" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:minced_beef" /> plus 1 <ItemLink id="farmersdelight:raw_pasta" /> or another accepted pasta plus 1 <ItemLink id="farmersdelight:tomato_sauce" />. Yield 1.
-- <ItemLink id="farmersdelight:pasta_with_mutton_chop" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:mutton" /> or another accepted raw mutton plus 1 <ItemLink id="farmersdelight:raw_pasta" /> or another accepted pasta plus 1 <ItemLink id="farmersdelight:tomato_sauce" />. Yield 1.
-- <ItemLink id="farmersdelight:roasted_mutton_chops" /> Combine in the crafting grid using 1 <ItemLink id="farmersdelight:cooked_mutton_chops" /> plus 1 <ItemLink id="minecraft:beetroot" /> or another accepted beetroot plus 1 <ItemLink id="minecraft:bowl" /> plus 1 <ItemLink id="farmersdelight:cooked_rice" /> plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato. Yield 1.
-- <ItemLink id="farmersdelight:steak_and_potatoes" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:baked_potato" /> plus 1 <ItemLink id="minecraft:cooked_beef" /> plus 1 <ItemLink id="minecraft:bowl" /> plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion plus 1 <ItemLink id="farmersdelight:cooked_rice" />. Yield 1.
-- <ItemLink id="farmersdelight:vegetable_noodles" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:carrot" /> or another accepted carrot plus 1 <ItemLink id="minecraft:brown_mushroom" /> or another accepted mushrooms plus 1 <ItemLink id="farmersdelight:raw_pasta" /> or another accepted pasta plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted leafy green plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted vegetable except <ItemLink id="minecraft:melon_slice" />. Yield 1.
-- <ItemLink id="farmersdelight:ratatouille" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion plus 1 <ItemLink id="minecraft:beetroot" /> or another accepted beetroot plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted vegetable except <ItemLink id="minecraft:melon_slice" />. Yield 1.
-- <ItemLink id="farmersdelight:squid_ink_pasta" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:cod" /> or another accepted safe raw fish plus 1 <ItemLink id="farmersdelight:raw_pasta" /> or another accepted pasta plus 1 <ItemLink id="farmersdelight:tomato" /> or another accepted tomato plus 1 <ItemLink id="minecraft:ink_sac" />. Yield 1.
-- <ItemLink id="farmersdelight:grilled_salmon" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:cooked_salmon" /> or another accepted cooked salmon plus 1 <ItemLink id="minecraft:sweet_berries" /> plus 1 <ItemLink id="minecraft:bowl" /> plus 1 <ItemLink id="farmersdelight:cabbage" /> or another accepted cabbage plus 1 <ItemLink id="farmersdelight:onion" /> or another accepted onion. Yield 1.
-- <ItemLink id="farmersdelight:roast_chicken" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="farmersdelight:stuffed_pumpkin" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="farmersdelight:honey_glazed_ham" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="farmersdelight:shepherds_pie" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-- <ItemLink id="farmersdelight:gleaming_salad" /> This entry is a serving, container or specialized ingredient rather than a complete meal recipe. Inspect its serving action or tooltip before planning production.
-
+Prepared meat, pasta and vegetables support plated meals. Placeable feasts and individual servings are different items. Choose the serving form before packing for travel.
 ***
 
 ## Desserts & drinks
@@ -248,7 +199,7 @@ Plated meals combine prepared ingredients. Placeable feasts and their individual
   <ItemIcon id="farmersdelight:melon_juice" />
 </ItemGrid>
 
-Recipe inputs and serving containers
+Materials & containers
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:apple_pie" />
@@ -272,21 +223,7 @@ Recipe inputs and serving containers
   <ItemIcon id="minecraft:glass_bottle" />
 </ItemGrid>
 
-Whole pies are cut into slices. Drinks and desserts use different containers and preparation paths, so do not assume every sweet goes in the cooking pot.
-
-- <ItemLink id="farmersdelight:apple_pie_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="farmersdelight:apple_pie" />. Yield 4.
-- <ItemLink id="farmersdelight:sweet_berry_cheesecake_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="farmersdelight:sweet_berry_cheesecake" />. Yield 4.
-- <ItemLink id="farmersdelight:chocolate_pie_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="farmersdelight:chocolate_pie" />. Yield 4.
-- <ItemLink id="farmersdelight:pumpkin_pie_slice" /> Cut on the cutting board with a knife using 1 <ItemLink id="minecraft:pumpkin_pie" />. Yield 4.
-- <ItemLink id="farmersdelight:fruit_salad" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:apple" /> plus 2 <ItemLink id="minecraft:melon_slice" /> plus 2 <ItemLink id="minecraft:sweet_berries" /> or another accepted berry plus 1 <ItemLink id="farmersdelight:pumpkin_slice" /> plus 1 <ItemLink id="minecraft:bowl" />. Yield 1.
-- <ItemLink id="farmersdelight:sweet_berry_cookie" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:sweet_berries" /> plus 2 <ItemLink id="minecraft:wheat" /> or another accepted wheat. Yield 8.
-- <ItemLink id="farmersdelight:honey_cookie" /> Combine in the crafting grid using 1 <ItemLink id="minecraft:honey_bottle" /> plus 2 <ItemLink id="minecraft:wheat" /> or another accepted wheat. Yield 8.
-- <ItemLink id="farmersdelight:melon_popsicle" /> Arrange in the crafting grid using 4 <ItemLink id="minecraft:melon_slice" /> plus 2 <ItemLink id="minecraft:ice" /> plus 1 <ItemLink id="minecraft:stick" />. Yield 1.
-- <ItemLink id="farmersdelight:glow_berry_custard" /> Combine in a heated cooking pot using 1 <ItemLink id="minecraft:glow_berries" /> plus 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="minecraft:egg" /> or another accepted eggs plus 1 <ItemLink id="minecraft:sugar" />. Yield 1.
-- <ItemLink id="farmersdelight:hot_cocoa" /> Combine in a heated cooking pot using 1 <ItemLink id="farmersdelight:milk_bottle" /> or another accepted milk plus 1 <ItemLink id="minecraft:sugar" /> plus 2 <ItemLink id="minecraft:cocoa_beans" />. Yield 1.
-- <ItemLink id="farmersdelight:apple_cider" /> Combine in a heated cooking pot using 2 <ItemLink id="minecraft:apple" /> plus 1 <ItemLink id="minecraft:sugar" />. Yield 1.
-- <ItemLink id="farmersdelight:melon_juice" /> Combine in the crafting grid using 4 <ItemLink id="minecraft:melon_slice" /> plus 1 <ItemLink id="minecraft:sugar" /> plus 1 <ItemLink id="minecraft:glass_bottle" />. Yield 1.
-
+Fruit, honey and cocoa support desserts and drinks. Whole pies can be cut into slices. Preparation paths and containers vary, so a sweet dish does not necessarily use the pot.
 ***
 
 ## Related topics

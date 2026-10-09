@@ -3,7 +3,7 @@ navigation:
   title: "Item routing"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:brass_funnel
 ---
 
 # Item routing

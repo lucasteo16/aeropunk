@@ -3,7 +3,7 @@ navigation:
   title: "使用固定与便携传送点"
   position: 0
   parent: reference.vehicles.md
-  icon: minecraft:minecart
+  icon: minecraft:ender_pearl
 ---
 
 # 使用固定与便携传送点

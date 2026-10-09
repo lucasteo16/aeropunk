@@ -18,13 +18,13 @@ navigation:
   <ItemIcon id="farmersdelight:flint_knife" />
 </ItemGrid>
 
-The <ItemLink id="sliceanddice:slicer" /> automates cutting rather than turning every ingredient directly into a finished meal. A <ItemLink id="farmersdelight:flint_knife" /> is a manual cutting tool. Choose the cutting output first, then supply the required ingredient and tool. Use its native Ponder help for assembly. Manual <ItemLink id="farmersdelight:cutting_board" /> recipes show why a whole ingredient and its portions are different inputs.
+The <ItemLink id="sliceanddice:slicer" /> automates cutting rather than turning every ingredient directly into a finished meal. Choose the required ingredient and <ItemLink id="farmersdelight:flint_knife" />, then use native Ponder for assembly. <ItemLink id="farmersdelight:cutting_board" /> recipes distinguish whole ingredients from portions.
 
 ### Slicer craft
 
 <Recipe id="sliceanddice:slicer" />
 
-Craft <ItemLink id="sliceanddice:slicer" /> before connecting ingredient delivery and the required cutting tool.
+Connect ingredient delivery after crafting the machine and supplying its cutting tool.
 
 ***
 

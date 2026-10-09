@@ -3,7 +3,7 @@ navigation:
   title: "Rotational power"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:cogwheel
 ---
 
 # Rotational power

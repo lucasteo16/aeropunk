@@ -3,7 +3,7 @@ navigation:
   title: "搬运方块与生物"
   position: 0
   parent: reference.utilities.md
-  icon: minecraft:lever
+  icon: minecraft:barrel
 ---
 
 # 搬运方块与生物

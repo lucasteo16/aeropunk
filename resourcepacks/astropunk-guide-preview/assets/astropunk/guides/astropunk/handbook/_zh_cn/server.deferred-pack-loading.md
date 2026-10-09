@@ -3,7 +3,7 @@ navigation:
   title: "了解暂缓加入的内容加载工具"
   position: 0
   parent: reference.technical.md
-  icon: minecraft:redstone
+  icon: minecraft:hopper
 ---
 
 # 了解暂缓加入的内容加载工具

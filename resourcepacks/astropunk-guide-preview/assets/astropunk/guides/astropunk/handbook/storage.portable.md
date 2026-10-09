@@ -3,7 +3,7 @@ navigation:
   title: "Portable storage"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:shulker_box
 ---
 
 # Portable storage

@@ -3,7 +3,7 @@ navigation:
   title: "工业材料与燃料系统"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:iron_ingot
 ---
 
 # 工业材料与燃料系统

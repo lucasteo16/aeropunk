@@ -3,7 +3,7 @@ navigation:
   title: "为机器提供旋转动力"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:cogwheel
 ---
 
 # 为机器提供旋转动力

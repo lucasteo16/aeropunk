@@ -1,0 +1,21 @@
+{
+  "source": "/home/tsb/Downloads/2026-04-26_233826.webp",
+  "source_sha256": "9059e0b5a441282750a890cddb8144b32732d80ea51dfa361fbb88b19975589a",
+  "source_dimensions": [
+    2560,
+    1441
+  ],
+  "derived": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/home-merun173-airship.png",
+  "derived_dimensions": [
+    1600,
+    900
+  ],
+  "derived_sha256": "58490936af26c910f73ca7eb64b1fc2022984f83c41b899351bb9d94b0d4e897",
+  "conversion": "WebP to PNG, proportional resize, no crop or generated pixels",
+  "credit": "Steampunk Airship build by Merun173",
+  "credit_source": "https://createmod.com/author/merun173",
+  "attribution_basis": "User supplied image and identified build author, publisher author page lists Steampunk Airship",
+  "image_capture_author": "Not independently established",
+  "screenshot_reuse_permission_verified": false,
+  "gameplay_warning": "Build showcase image, not proof of Astropunk vessel functionality"
+}

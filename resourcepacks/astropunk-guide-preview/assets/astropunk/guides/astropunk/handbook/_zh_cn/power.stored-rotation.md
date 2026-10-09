@@ -3,7 +3,7 @@ navigation:
   title: "储存旋转动力"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:flywheel
 ---
 
 # 储存旋转动力

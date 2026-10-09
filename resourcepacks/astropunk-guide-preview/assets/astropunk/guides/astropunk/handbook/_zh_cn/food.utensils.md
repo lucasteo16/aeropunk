@@ -29,7 +29,7 @@ item_ids:
   <ItemIcon id="farmersdelight:flint_knife" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="minecraft:brick" />
@@ -43,14 +43,7 @@ item_ids:
   <ItemIcon id="minecraft:flint" />
 </ItemGrid>
 
-先用砧板和刀分切食材。受热的烹饪锅把多种食材做成料理，煎锅用于烹制单种食材，炉灶提供热量。下方配方列出实际原料，并非装饰图标。
-
-- <ItemLink id="farmersdelight:cooking_pot" /> 按配方在合成栏中摆放，原料为 2 <ItemLink id="minecraft:brick" /> 加 1 <ItemLink id="minecraft:wooden_shovel" /> 加 5 <ItemLink id="minecraft:iron_ingot" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:water_bucket" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:cutting_board" /> 按配方在合成栏中摆放，原料为 2 <ItemLink id="minecraft:stick" /> 加 4 <ItemLink id="minecraft:oak_planks" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:skillet" /> 按配方在合成栏中摆放，原料为 4 <ItemLink id="minecraft:iron_ingot" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:brick" />。产出 1 份。
-- <ItemLink id="farmersdelight:stove" /> 按配方在合成栏中摆放，原料为 3 <ItemLink id="minecraft:iron_ingot" />或该配方允许的同类食材 加 4 <ItemLink id="minecraft:bricks" /> 加 1 <ItemLink id="minecraft:campfire" />。产出 1 份。
-- <ItemLink id="farmersdelight:flint_knife" /> 按配方在合成栏中摆放，原料为 1 <ItemLink id="minecraft:flint" /> 加 1 <ItemLink id="minecraft:stick" />。产出 1 份。
-
+用 <ItemLink id="farmersdelight:flint_knife" /> 在 <ItemLink id="farmersdelight:cutting_board" /> 上分切食材。把食物放在点燃的 <ItemLink id="farmersdelight:stove" /> 上直接烹制，或加热 <ItemLink id="farmersdelight:cooking_pot" /> 制作组合料理。<ItemLink id="farmersdelight:skillet" /> 用于烹制单种食材。原生配方显示原料、数量、可用替代品与盛装容器。容器应与食材分开准备。工具材料栏中的水桶是合成材料，不表示每道料理都需要加水。
 ***
 
 ## 三明治与卷物
@@ -68,7 +61,7 @@ item_ids:
   <ItemIcon id="farmersdelight:kelp_roll" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="minecraft:bread" />
@@ -89,19 +82,7 @@ item_ids:
   <ItemIcon id="minecraft:dried_kelp" />
 </ItemGrid>
 
-三明治以面包搭配加工好的馅料。卷物有各自的包裹食材与稻米配方。鸡蛋三明治需要两个熟鸡蛋，而不是两个生鸡蛋。
-
-- <ItemLink id="farmersdelight:egg_sandwich" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 2 <ItemLink id="farmersdelight:fried_egg" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:chicken_sandwich" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:cooked_chicken" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:carrot" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:hamburger" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:beef_patty" /> 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:bacon_sandwich" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cooked_bacon" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:mutton_wrap" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:cooked_mutton" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:dumplings" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:wheat_dough" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:chicken" />或该配方允许的同类食材或配方允许的替代食材。产出 2 份。
-- <ItemLink id="farmersdelight:cabbage_rolls" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:chicken" />或该配方允许的同类食材或配方允许的替代食材。产出 1 份。
-- <ItemLink id="farmersdelight:salmon_roll" /> 在合成栏中组合，原料为 2 <ItemLink id="farmersdelight:salmon_slice" /> 加 1 <ItemLink id="farmersdelight:cooked_rice" />。产出 2 份。
-- <ItemLink id="farmersdelight:cod_roll" /> 在合成栏中组合，原料为 2 <ItemLink id="farmersdelight:cod_slice" /> 加 1 <ItemLink id="farmersdelight:cooked_rice" />。产出 2 份。
-- <ItemLink id="farmersdelight:kelp_roll" /> 按配方在合成栏中摆放，原料为 2 <ItemLink id="farmersdelight:cooked_rice" /> 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材 加 3 <ItemLink id="minecraft:dried_kelp" />。产出 1 份。
-
+面包与加工好的馅料可制作三明治，稻米与包裹食材可制作卷物。鸡蛋三明治需要熟鸡蛋，不能直接换成生鸡蛋。
 ***
 
 ## 汤品与米饭
@@ -121,7 +102,7 @@ item_ids:
   <ItemIcon id="farmersdelight:mushroom_rice" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="minecraft:beef" />
@@ -149,21 +130,7 @@ item_ids:
   <ItemIcon id="minecraft:red_mushroom" />
 </ItemGrid>
 
-烹饪锅把收获的作物和肉块做成组合料理。盛装容器与食物原料要分开准备。稻米料理让稻米收获有新的用途，不必一直吃面包。
-
-- <ItemLink id="farmersdelight:beef_stew" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:beef" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:carrot" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:potato" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:chicken_soup" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:chicken" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:carrot" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材，但不接受 <ItemLink id="minecraft:melon_slice" />。产出 1 份。
-- <ItemLink id="farmersdelight:vegetable_soup" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:carrot" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:potato" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:beetroot" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:fish_stew" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:cod" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato_sauce" /> 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:pumpkin_soup" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:pumpkin_slice" /> 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:porkchop" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:milk_bottle" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:baked_cod_stew" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:cod" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:potato" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:egg" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:noodle_soup" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:raw_pasta" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:egg" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:dried_kelp" /> 加 1 <ItemLink id="minecraft:porkchop" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:onion_soup" /> 在受热的烹饪锅中烹煮，原料为 2 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:bread" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:milk_bottle" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:bone_broth" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:bone" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:glow_berries" />或配方允许的替代食材。产出 1 份。
-- <ItemLink id="farmersdelight:cooked_rice" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:rice" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:fried_rice" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:rice" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:egg" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:carrot" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:mushroom_rice" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:brown_mushroom" /> 加 1 <ItemLink id="minecraft:red_mushroom" /> 加 1 <ItemLink id="farmersdelight:rice" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:carrot" />或配方允许的替代食材。产出 1 份。
-
+作物、肉类与鱼类可制作汤和炖菜，稻米既能做成单份米饭，也能搭配其他食材制作料理。
 ***
 
 ## 盘餐与盛宴
@@ -185,7 +152,7 @@ item_ids:
   <ItemIcon id="farmersdelight:gleaming_salad" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooked_bacon" />
@@ -212,23 +179,7 @@ item_ids:
   <ItemIcon id="minecraft:sweet_berries" />
 </ItemGrid>
 
-盘餐会组合已经加工的食材。可摆放的盛宴与分出的单份料理是不同物品，远行前应先查看分餐配方。
-
-- <ItemLink id="farmersdelight:bacon_and_eggs" /> 在合成栏中组合，原料为 2 <ItemLink id="farmersdelight:cooked_bacon" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:bowl" /> 加 2 <ItemLink id="farmersdelight:fried_egg" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:pasta_with_meatballs" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:minced_beef" /> 加 1 <ItemLink id="farmersdelight:raw_pasta" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato_sauce" />。产出 1 份。
-- <ItemLink id="farmersdelight:pasta_with_mutton_chop" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:mutton" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:raw_pasta" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato_sauce" />。产出 1 份。
-- <ItemLink id="farmersdelight:roasted_mutton_chops" /> 在合成栏中组合，原料为 1 <ItemLink id="farmersdelight:cooked_mutton_chops" /> 加 1 <ItemLink id="minecraft:beetroot" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:bowl" /> 加 1 <ItemLink id="farmersdelight:cooked_rice" /> 加 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:steak_and_potatoes" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:baked_potato" /> 加 1 <ItemLink id="minecraft:cooked_beef" /> 加 1 <ItemLink id="minecraft:bowl" /> 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cooked_rice" />。产出 1 份。
-- <ItemLink id="farmersdelight:vegetable_noodles" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:carrot" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:brown_mushroom" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:raw_pasta" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材，但不接受 <ItemLink id="minecraft:melon_slice" />。产出 1 份。
-- <ItemLink id="farmersdelight:ratatouille" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:beetroot" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材，但不接受 <ItemLink id="minecraft:melon_slice" />。产出 1 份。
-- <ItemLink id="farmersdelight:squid_ink_pasta" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:cod" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:raw_pasta" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:tomato" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:ink_sac" />。产出 1 份。
-- <ItemLink id="farmersdelight:grilled_salmon" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:cooked_salmon" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:sweet_berries" /> 加 1 <ItemLink id="minecraft:bowl" /> 加 1 <ItemLink id="farmersdelight:cabbage" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:onion" />或该配方允许的同类食材。产出 1 份。
-- <ItemLink id="farmersdelight:roast_chicken" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="farmersdelight:stuffed_pumpkin" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="farmersdelight:honey_glazed_ham" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="farmersdelight:shepherds_pie" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-- <ItemLink id="farmersdelight:gleaming_salad" /> 这个条目是分餐、容器或专门食材，并非完整料理配方。安排生产前先查看分餐方式或提示。
-
+加工好的肉类、意面与蔬菜可组成盘餐。可摆放的盛宴与分出的单份料理是不同物品，远行前先决定携带哪种形式。
 ***
 
 ## 甜点与饮品
@@ -248,7 +199,7 @@ item_ids:
   <ItemIcon id="farmersdelight:melon_juice" />
 </ItemGrid>
 
-配方原料与盛装容器
+材料与容器
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:apple_pie" />
@@ -272,21 +223,7 @@ item_ids:
   <ItemIcon id="minecraft:glass_bottle" />
 </ItemGrid>
 
-整只派可以切成小块。饮品和甜点所需的容器与加工方式不同，不要把所有甜食都当作锅中料理。
-
-- <ItemLink id="farmersdelight:apple_pie_slice" /> 用刀在砧板上切割，原料为 1 <ItemLink id="farmersdelight:apple_pie" />。产出 4 份。
-- <ItemLink id="farmersdelight:sweet_berry_cheesecake_slice" /> 用刀在砧板上切割，原料为 1 <ItemLink id="farmersdelight:sweet_berry_cheesecake" />。产出 4 份。
-- <ItemLink id="farmersdelight:chocolate_pie_slice" /> 用刀在砧板上切割，原料为 1 <ItemLink id="farmersdelight:chocolate_pie" />。产出 4 份。
-- <ItemLink id="farmersdelight:pumpkin_pie_slice" /> 用刀在砧板上切割，原料为 1 <ItemLink id="minecraft:pumpkin_pie" />。产出 4 份。
-- <ItemLink id="farmersdelight:fruit_salad" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:apple" /> 加 2 <ItemLink id="minecraft:melon_slice" /> 加 2 <ItemLink id="minecraft:sweet_berries" />或该配方允许的同类食材 加 1 <ItemLink id="farmersdelight:pumpkin_slice" /> 加 1 <ItemLink id="minecraft:bowl" />。产出 1 份。
-- <ItemLink id="farmersdelight:sweet_berry_cookie" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:sweet_berries" /> 加 2 <ItemLink id="minecraft:wheat" />或该配方允许的同类食材。产出 8 份。
-- <ItemLink id="farmersdelight:honey_cookie" /> 在合成栏中组合，原料为 1 <ItemLink id="minecraft:honey_bottle" /> 加 2 <ItemLink id="minecraft:wheat" />或该配方允许的同类食材。产出 8 份。
-- <ItemLink id="farmersdelight:melon_popsicle" /> 按配方在合成栏中摆放，原料为 4 <ItemLink id="minecraft:melon_slice" /> 加 2 <ItemLink id="minecraft:ice" /> 加 1 <ItemLink id="minecraft:stick" />。产出 1 份。
-- <ItemLink id="farmersdelight:glow_berry_custard" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="minecraft:glow_berries" /> 加 1 <ItemLink id="farmersdelight:milk_bottle" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:egg" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:sugar" />。产出 1 份。
-- <ItemLink id="farmersdelight:hot_cocoa" /> 在受热的烹饪锅中烹煮，原料为 1 <ItemLink id="farmersdelight:milk_bottle" />或该配方允许的同类食材 加 1 <ItemLink id="minecraft:sugar" /> 加 2 <ItemLink id="minecraft:cocoa_beans" />。产出 1 份。
-- <ItemLink id="farmersdelight:apple_cider" /> 在受热的烹饪锅中烹煮，原料为 2 <ItemLink id="minecraft:apple" /> 加 1 <ItemLink id="minecraft:sugar" />。产出 1 份。
-- <ItemLink id="farmersdelight:melon_juice" /> 在合成栏中组合，原料为 4 <ItemLink id="minecraft:melon_slice" /> 加 1 <ItemLink id="minecraft:sugar" /> 加 1 <ItemLink id="minecraft:glass_bottle" />。产出 1 份。
-
+水果、蜂蜜与可可可制作甜点和饮品。整只派可以切成小块。加工方式与容器各不相同，甜食不一定使用烹饪锅。
 ***
 
 ## 相关主题

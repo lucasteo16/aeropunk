@@ -3,7 +3,7 @@ navigation:
   title: "调整通知与信息界面"
   position: 0
   parent: reference.appearance.md
-  icon: minecraft:painting
+  icon: minecraft:oak_sign
 ---
 
 # 调整通知与信息界面

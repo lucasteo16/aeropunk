@@ -3,7 +3,7 @@ navigation:
   title: "手动交易与自动交易"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: minecraft:emerald_block
 ---
 
 # 手动交易与自动交易

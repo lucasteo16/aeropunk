@@ -3,7 +3,7 @@ navigation:
   title: "Stored rotation"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:flywheel
 ---
 
 # Stored rotation

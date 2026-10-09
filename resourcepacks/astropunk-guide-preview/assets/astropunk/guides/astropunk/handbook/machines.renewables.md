@@ -3,7 +3,7 @@ navigation:
   title: "Renewable resources"
   position: 0
   parent: reference.machines-storage.md
-  icon: create:crushing_wheel
+  icon: create:mechanical_drill
 ---
 
 # Renewable resources

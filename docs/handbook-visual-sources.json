@@ -1,13 +1,12 @@
 {
   "handbook:home-airship": {
-    "resource": "images/home-aeronautics-ship.png",
-    "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/b0f37794880f9da33cb27db1f8782ef40a6611df.png",
-    "project_url": "https://modrinth.com/mod/create-aeronautics",
-    "kind": "official promotional airship screenshot",
-    "original_sha256": "c5a8dd00e7d934c2cf2c017874d18bd8bed1937222e80ed30f52107a3fd2a847",
-    "derived_sha256": "fcddcd12cbf6ba8bc554c24f91d0a0aac0f81896a3a897ce19df2589da2943e6",
-    "rights": "Screenshot reuse permission not verified, do not infer permission from code license",
-    "evidence": "docs/final-review/home-ship-image-evidence.json"
+    "resource": "images/home-merun173-airship.png",
+    "source_url": "https://createmod.com/author/merun173",
+    "kind": "user-supplied screenshot of Steampunk Airship build by Merun173",
+    "original_sha256": "9059e0b5a441282750a890cddb8144b32732d80ea51dfa361fbb88b19975589a",
+    "derived_sha256": "58490936af26c910f73ca7eb64b1fc2022984f83c41b899351bb9d94b0d4e897",
+    "rights": "User supplied image and identified build author, screenshot reuse permission not independently verified",
+    "evidence": "docs/final-review/home-merun173-image-evidence.json"
   },
   "mods/create-central-kitchen.pw.toml": {
     "resource": "images/create-central-kitchen-icon.png",
