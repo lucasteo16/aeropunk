@@ -3,7 +3,7 @@ navigation:
   title: "通过技能培养角色"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:experience_bottle
 ---
 
 # 通过技能培养角色

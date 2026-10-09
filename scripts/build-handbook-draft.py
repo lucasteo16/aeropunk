@@ -96,7 +96,30 @@ reference_hubs.update({
 })
 reference_hubs['reference.vehicles'][1].extend(['space.destinations', 'space.vehicle-transfer'])
 reference_icons.update({topic: icon for topic, _, _, icon, *_ in reference_sections})
-reference_icons.update({'reference.equipment': 'minecraft:iron_chestplate', 'combat.abilities': 'minecraft:enchanted_book'})
+reference_icons.update({
+    'reference.equipment': 'minecraft:iron_chestplate',
+    'combat.abilities': 'minecraft:enchanted_book',
+    'equipment.accessories': 'minecraft:emerald',
+    'equipment.display': 'minecraft:potion',
+    'combat.skills': 'minecraft:experience_bottle',
+    'combat.magic': 'minecraft:blaze_rod',
+    'combat.martial': 'minecraft:bow',
+    'equipment.weapons-armor': 'minecraft:trident',
+    'combat.handling': 'minecraft:feather',
+})
+# Distinct food-topic icons, reused by navigation and topic entry points.
+reference_icons.update({
+    'reference.food': 'minecraft:bread',
+    'food.hunger': 'minecraft:apple',
+    'food.utensils': 'farmersdelight:cooking_pot',
+    'food.nether': 'minecraft:crimson_fungus',
+    'food.end': 'minecraft:chorus_fruit',
+    'food.underground': 'minecraft:brown_mushroom',
+    'food.encounters': 'minecraft:rotten_flesh',
+    'food.machine-cooking': 'minecraft:smoker',
+    'food.growing': 'minecraft:wheat',
+    'food.fishing': 'minecraft:cod',
+})
 reference_parents: dict[str, str | None] = {topic: None for topic, *_ in reference_sections}
 for hub, (_, topics) in reference_hubs.items():
     for topic in topics:

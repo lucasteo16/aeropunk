@@ -3,7 +3,7 @@ navigation:
   title: "用特殊遭遇获得的食材烹饪"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:rotten_flesh
 ---
 
 # 用特殊遭遇获得的食材烹饪

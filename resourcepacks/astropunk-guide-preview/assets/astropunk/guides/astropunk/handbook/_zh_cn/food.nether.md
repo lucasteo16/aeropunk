@@ -3,7 +3,7 @@ navigation:
   title: "用下界食材烹饪"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:crimson_fungus
 ---
 
 # 用下界食材烹饪

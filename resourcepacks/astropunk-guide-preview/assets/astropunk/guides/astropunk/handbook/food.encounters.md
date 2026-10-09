@@ -3,7 +3,7 @@ navigation:
   title: "Encounter food"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:rotten_flesh
 ---
 
 # Encounter food

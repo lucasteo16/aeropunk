@@ -2,7 +2,7 @@
 navigation:
   title: "食物与农业"
   position: 7
-  icon: minecraft:apple
+  icon: minecraft:bread
 ---
 
 # 食物与农业

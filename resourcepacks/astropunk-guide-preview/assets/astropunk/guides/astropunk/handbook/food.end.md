@@ -3,7 +3,7 @@ navigation:
   title: "End food"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:chorus_fruit
 ---
 
 # End food

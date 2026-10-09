@@ -3,7 +3,7 @@ navigation:
   title: "使用武器与闪避"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:feather
 ---
 
 # 使用武器与闪避

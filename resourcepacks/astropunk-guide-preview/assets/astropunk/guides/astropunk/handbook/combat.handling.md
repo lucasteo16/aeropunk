@@ -3,7 +3,7 @@ navigation:
   title: "Weapons & dodging"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:feather
 ---
 
 # Weapons & dodging

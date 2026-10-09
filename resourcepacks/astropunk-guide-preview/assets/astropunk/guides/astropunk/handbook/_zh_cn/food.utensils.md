@@ -3,7 +3,7 @@ navigation:
   title: "用烹饪工具准备食物"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: farmersdelight:cooking_pot
 item_ids:
   - farmersdelight:cooking_pot
   - farmersdelight:cutting_board

@@ -3,7 +3,7 @@ navigation:
   title: "Armor & status"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:potion
 ---
 
 # Armor & status

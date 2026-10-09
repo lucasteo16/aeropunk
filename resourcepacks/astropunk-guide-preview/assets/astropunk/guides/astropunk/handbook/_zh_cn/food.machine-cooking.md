@@ -3,7 +3,7 @@ navigation:
   title: "用机器制作食物"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:smoker
 ---
 
 # 用机器制作食物

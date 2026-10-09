@@ -3,7 +3,7 @@ navigation:
   title: "选择近战与远程战斗风格"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:bow
 ---
 
 # 选择近战与远程战斗风格

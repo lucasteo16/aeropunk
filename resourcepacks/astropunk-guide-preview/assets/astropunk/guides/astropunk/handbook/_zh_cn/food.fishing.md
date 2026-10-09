@@ -3,7 +3,7 @@ navigation:
   title: "钓鱼与水产食材"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:cod
 ---
 
 # 钓鱼与水产食材

@@ -2603,47 +2603,47 @@ hash = "cf774291c5611ea93e0d9ca828935f6bace690d8dc61ca08539a2d5217179e04"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.handling.md"
-hash = "f6be318bde3e3a701ad143c8a542bb800bb5cedd2c46a887a273f2e53f6d01b2"
+hash = "4d55b239d11b6893e6d40668b7003ad8c57aacd54317e5fed72042ede65e71ef"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.magic.md"
-hash = "3c0b1acd8762bf7b0db20d860be5d3d27aa26668751316cbcff14ea5720b6fcc"
+hash = "b9b93b4d4ef9727e06721f999c01b507aa36766814f571938698454410ccf84a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.martial.md"
-hash = "1f44abda452a1aa8010b1b70939d7bd588e73747ccc596344d9fdc0226002eab"
+hash = "6a7323118b79c6402470fb4e501b86ef80e5a6473a291fff18766d8a9754b77e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.skills.md"
-hash = "35c65e45b31b72d51e228d13a2b3985ea3cbca502e7a87a53fc6a708794fb5b7"
+hash = "87edee6f7a9b1efc7f3b85a2344308fa039a17115834dd8bc26c99cdace7e5d9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/equipment.accessories.md"
-hash = "a7bc52965c3cbfd6814955e18a0cb922b5e849bc0bb342dd22df62e5be46d6fb"
+hash = "6bb00351117531f8343fe903c1ef5ea25903572b4b10ebb898f467e4069a5f78"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/equipment.display.md"
-hash = "e2991891e757121cc73a4c7956e6bb586d686fb6c9067bdd9057f38655c8bc89"
+hash = "e4d8b130a0b9573e3d62631ffbd1ae6e0a5d818c8bb115cd38ea419f5b097460"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/equipment.weapons-armor.md"
-hash = "8d5eed3ad4854faf58a70951851545b831f711737c85e70a9ede0aadfdc60fea"
+hash = "80e2d7831efea90e9e9e992c5d15fad865ac240855c9bb7e7d5f427b5a5eb98c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.encounters.md"
-hash = "1283e84626299cd4d7700741a0fc5de5c9ad5bdf318ebaea2acebaefcba8fc8e"
+hash = "e3d4c422cf48e5e39982a5fe914a8ea8ea1a40a1c82470c7b6736ab27d34c31f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.end.md"
-hash = "fe0058d5b5ad52ac5ec008c8a55f4eadbb8580a54edebf30435872d3867eb0f1"
+hash = "052f26d9290f4408842ef431de9cf7fb601dc633bcc2b210e13cfbedbfcb0a8a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.fishing.md"
-hash = "8d3a60480d4df6d6ab064c5cbe423cd5d424f50f6a8f9ff0d7280debb098dc64"
+hash = "73976fdafd8177c631c43666667d55dea697bf743d6f3a3492061ebd877d87d6"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.growing.md"
-hash = "16a46435014ca1c619fc25e2c37d6a1e9e9440da246b14f6645ebd99b983ba14"
+hash = "6e3d82881f39791bc970c458cc2ebdabc71e671164810d6ad3faeb3dc96032b2"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.hunger.md"
@@ -2651,19 +2651,19 @@ hash = "a648968a898cae8205cd987c28724a798c61a1109197652e47331bbe9d22d326"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.machine-cooking.md"
-hash = "2aa64a1c6a1ff23411639bcc9c5d5e944e3e4ee2d674d5131b87e1bb793d88b6"
+hash = "25bc0e1159788c99e468c7a8bd708f1ab45146f9720d8a8c9d1186c222224cd4"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.nether.md"
-hash = "4cf0607ee2976d98d9e72e303ad010ef578d0761572c2b38d741596839d3ff88"
+hash = "4f8de1fc3faafa6923071cce70dd39413ec4b434f9135f3bf73b39d29f8e8f01"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.underground.md"
-hash = "8345a62dc28693cc864e8b5fef538c393bdad6e2475beb98cc1b6f9c4ff9c86d"
+hash = "04fd068aab7264e9f6d60b61dcb280ec41b865d57e8adbf2f81e0a50b61a66bb"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.utensils.md"
-hash = "0696826c3a0540b7a0d4911816b43dac2b8e6df2aa20f73ba3e934186b1e2853"
+hash = "18f35e77eb8ce70db9ef1768cd5a902d34c10ab344d4559c0c0f1a3a1ecfcd38"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.controls.md"
@@ -2775,7 +2775,7 @@ hash = "789555a7e6ba8a2d4504b74019c33e0733cac4ef42765f08377adb8ac26aee14"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.food.md"
-hash = "eba0ce81e59fe1863a524f53f29051b91ae56a1878f9e9172e64111d5728f704"
+hash = "6b42068c49f07a7c93078ad77e2c21cd13a35e0278f7e795860ee733584c2952"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.machines-storage.md"
@@ -2983,47 +2983,47 @@ hash = "e6b5a152c1fcc5a8193d08419f2a3377735d9dbf7fcbf70d78da975679353ade"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.handling.md"
-hash = "07923d4f16794537bf986d2368d54c89bfeb1e2b2d33299b3c89b33576b93c0a"
+hash = "26af055396ba84f1c2a015f06b928a08f9462ab348444df770652353521478b4"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.magic.md"
-hash = "a7731fcbb5daf28c522cdcb6e56b11fa49f61107b9bf1da636cd407fff4a7fe5"
+hash = "bfe23cdd852a93e2e7c11e8463e1a353a114d11d562c7099a5c97d3ee5e4d451"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.martial.md"
-hash = "3d244bbab209ffcb75502e55ab653e7952f6ce17d0499e6d2c805414030416f7"
+hash = "58854af98a3989615752eda2bd4e29fa4bf5bbc3bd19ecd44443974422eae7d3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.skills.md"
-hash = "1f7687c993e2e4edd4237ff0aa6e37d0dafbaadc28d5dbd2a185cd8161668bd2"
+hash = "6f55bd1cbabab6e8b60558bee590b497e4d07fbad5a069a9f58edfac1092c49d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/equipment.accessories.md"
-hash = "09213ee913f4f7b1bf05c74cfd4a848307be8397124205d3ebca154c26c34aeb"
+hash = "5f148af6cc938d2e09a2187a9a9bf63f9fd0b94ae3f356293237b1f31c06afc0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/equipment.display.md"
-hash = "26033121cb8c16dd479e36b44c100e67a9d852c8b1efba1347639c9192496255"
+hash = "a01ef6075e01cad0f613b9713d34cc49883fb9fa457ce86792200fe6494b77e0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/equipment.weapons-armor.md"
-hash = "a2e986d94ba08765a740098c82faeadc6ed036beea9a66985916543dcb08808a"
+hash = "3d60b883f142bca4fd9b578003789dd31ba141966cd8ce2c683f0089922389e0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.encounters.md"
-hash = "039691c62b485f8777c41332d43737afa5308f8b07870ee345309b272f3e7ade"
+hash = "80ab88c642f12f49e3ba931153c6e2609f14e39a7848c8332fb6d52fb758a6fe"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.end.md"
-hash = "e2fbbce500d5542ed50ba5076375745ddbb56a3eeb2aecbf320ac707760e100f"
+hash = "487c5ebdeaa309cf77c5b11a3577d58e443c08fc126df226f527abab594d4240"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.fishing.md"
-hash = "e74c7a28569d7d08fc80dd05ca3d44a5c3f17041cefc0bf875c072f249cfe2ce"
+hash = "98311754baf4a3503d838c5ff08aa9a67f952d0a1a8054ff8d0719c8658a1687"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.growing.md"
-hash = "a275256aa4f2c97825c52a408b67476f7e40e48c7d1454e67e1fce2a7d39bd26"
+hash = "7b0989d6d5f0b81bd469bb04c4a362ed10b2c8292e966bdbeea5ad1ebe44d458"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.hunger.md"
@@ -3031,19 +3031,19 @@ hash = "4b8a134264c25f9e6dd7bd0d8103a9269f28ff000f36bde7d12b61e4d4be37f7"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.machine-cooking.md"
-hash = "95d4252c646ad2af9088f5af6893494cb13338772d401794b95cc57d0791b1a6"
+hash = "6a0b0075fdd962030ce795412f51d799580defb33366bb9d4db429cb647e574e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.nether.md"
-hash = "537fd7b5d1d9e611e48849c7ac39ec58beb136d9479004cf0a103042959bc385"
+hash = "947b6bf554fbf1d1678cf3cb2eca867c2452dea7fee949195d89d7625ddea279"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.underground.md"
-hash = "bcdcab8400742cc1e8b4514f9f114fffd1e4b2aa701a9e8a2468a015031eee12"
+hash = "59c60fdafe54e543435e2e031ecece316d153ad09fceeda3a94e2255996e05b3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.utensils.md"
-hash = "4261b6023aff80f9ff4a9b3e45a0d593d4459c2067606dd5c06817731c9f8a8f"
+hash = "9ff0059f951f2b136f16b1eb9e4c370010ebea1ff0266607d1833d4200d30f0e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.controls.md"
@@ -4531,7 +4531,7 @@ hash = "941ba923075fb4652f66d5752bc6b84a473caaecf94245615752f038b253e87f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.food.md"
-hash = "45e1e79897cf6585512bb63dea5cff6ac9b77b6d533499ea7e4545ee962a4964"
+hash = "6a0c8da36a74341049ef9b6c820882cdfaf81b0a46ae030bd6ae86cab5591c3c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.machines-storage.md"

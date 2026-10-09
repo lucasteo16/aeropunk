@@ -3,7 +3,7 @@ navigation:
   title: "使用饰品、遗物与饰品栏"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:emerald
 ---
 
 # 使用饰品、遗物与饰品栏

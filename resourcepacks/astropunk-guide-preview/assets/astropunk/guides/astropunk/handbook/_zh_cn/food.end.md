@@ -3,7 +3,7 @@ navigation:
   title: "用末地食材烹饪"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:chorus_fruit
 ---
 
 # 用末地食材烹饪

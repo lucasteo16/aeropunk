@@ -3,7 +3,7 @@ navigation:
   title: "阅读护甲与状态信息"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:potion
 ---
 
 # 阅读护甲与状态信息

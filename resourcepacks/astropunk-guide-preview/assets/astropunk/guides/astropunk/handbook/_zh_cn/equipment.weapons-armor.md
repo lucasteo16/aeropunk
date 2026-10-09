@@ -3,7 +3,7 @@ navigation:
   title: "选择武器与护甲"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:trident
 ---
 
 # 选择武器与护甲

@@ -3,7 +3,7 @@ navigation:
   title: "种植与收获食材"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:wheat
 ---
 
 # 种植与收获食材

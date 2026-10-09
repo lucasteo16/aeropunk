@@ -3,7 +3,7 @@ navigation:
   title: "Accessories"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:emerald
 ---
 
 # Accessories

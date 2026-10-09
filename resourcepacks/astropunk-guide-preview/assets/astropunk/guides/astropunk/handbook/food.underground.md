@@ -3,7 +3,7 @@ navigation:
   title: "Underground food"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:brown_mushroom
 ---
 
 # Underground food

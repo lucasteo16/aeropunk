@@ -3,7 +3,7 @@ navigation:
   title: "Farming"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:wheat
 ---
 
 # Farming

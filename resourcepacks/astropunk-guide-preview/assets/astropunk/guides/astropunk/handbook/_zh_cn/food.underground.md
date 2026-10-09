@@ -3,7 +3,7 @@ navigation:
   title: "用地下食材烹饪"
   position: 0
   parent: reference.food.md
-  icon: minecraft:apple
+  icon: minecraft:brown_mushroom
 ---
 
 # 用地下食材烹饪

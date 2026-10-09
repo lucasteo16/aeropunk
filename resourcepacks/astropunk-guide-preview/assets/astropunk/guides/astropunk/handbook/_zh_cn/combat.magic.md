@@ -3,7 +3,7 @@ navigation:
   title: "选择法术与支援风格"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:iron_sword
+  icon: minecraft:blaze_rod
 item_ids:
   - spell_engine:spell_binding
   - spell_engine:spell_book
