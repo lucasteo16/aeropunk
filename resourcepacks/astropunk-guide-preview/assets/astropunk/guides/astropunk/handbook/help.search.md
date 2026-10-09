@@ -9,8 +9,6 @@ navigation:
 
 ## Recipes & uses
 
-<EmiSearch query="@create" /> <EmiSearch query="@emi" />
-
 ![Recipe interface](images/parent-emi-recipes.png)
 
 Ingredients and results appear in the center, searchable items sit on the right.

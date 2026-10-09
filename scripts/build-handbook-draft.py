@@ -343,7 +343,9 @@ for page in page_defs:
         # A directory summarizes providers from its descendant topic pages.
         # This does not create a second inventory assignment or duplicate articles.
         related = [e for e in entries if e['topic'] == topic or reference_parents[e['topic']] == topic + '.md']
-        body = decorate_queries(body, chinese)
+        # Search lessons already explain example queries, they are not mod catalog sections.
+        if topic not in {'help.controls', 'help.search'}:
+            body = decorate_queries(body, chinese)
         if related:
             body += '\n\n***\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(related, chinese, linked=True)
         # The toolbar already provides history navigation. Avoid duplicate footer links.

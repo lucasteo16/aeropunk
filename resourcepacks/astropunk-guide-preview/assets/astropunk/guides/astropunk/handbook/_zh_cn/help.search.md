@@ -9,8 +9,6 @@ navigation:
 
 ## 配方与用途
 
-<EmiSearch query="@create" /> <EmiSearch query="@emi" />
-
 ![配方界面](images/parent-emi-recipes.png)
 
 中央显示原料与产物，右侧是可搜索的物品列表。

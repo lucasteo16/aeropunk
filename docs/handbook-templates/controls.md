@@ -20,8 +20,6 @@ navigation:
 
 ## Handbook
 
-<EmiSearch query="@guideme" />
-
 | Access | Your key |
 | --- | --- |
 | Open handbook | <KeyBind id="key.astropunk_handbook_access.open" /> |
@@ -35,14 +33,12 @@ Open chat and enter <Color color="#F28CBD">/guidemec astropunk:handbook open</Co
 
 ## Recipes & help
 
-<EmiSearch query="@create" />
-
 | While hovering an item | Default |
 | --- | --- |
 | Recipes | R |
 | Uses | U |
 
-Change these in the item browser settings. Create's Ponder tooltip displays its own key.
+Type the following example query in the EMI search bar to search for Create mod items: <Color color="#F28CBD">@create</Color>.
 
 - [Browse recipe](help.search.md)
 

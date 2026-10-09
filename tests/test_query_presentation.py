@@ -8,6 +8,21 @@ PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/as
 
 
 class QueryPresentation(unittest.TestCase):
+    def test_query_lessons_explain_examples_without_mod_heading_filters(self):
+        for locale, instruction, removed in (
+            ('', 'Type the following example query in the EMI search bar to search for Create mod items:', 'Change these in the item browser settings.'),
+            ('_zh_cn', '在 EMI 搜索栏中输入以下示例查询，即可搜索 Create 模组的物品：', '在物品浏览器设置中修改这些按键。'),
+        ):
+            controls = (PAGES / locale / 'help.controls.md').read_text()
+            search = (PAGES / locale / 'help.search.md').read_text()
+            self.assertIn(instruction + ' <Color color="#F28CBD">@create</Color>', controls)
+            self.assertNotIn(removed, controls)
+            for text in (controls, search):
+                instructional_body = text.split('## 相关模组' if locale else '## Related mods')[0]
+                self.assertIsNone(re.search(r'(?m)^<EmiSearch ', instructional_body))
+            self.assertIn('<EmiSearch query="@create" />', search)
+            self.assertIn('<EmiSearch query="@farmersdelight" />', search)
+
     def test_templates_do_not_restore_removed_query_labels_or_wrapper(self):
         for path in sorted((ROOT / 'docs/handbook-templates').glob('*.md')):
             text = path.read_text()

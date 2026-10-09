@@ -20,8 +20,6 @@ navigation:
 
 ## 手册
 
-<EmiSearch query="@guideme" />
-
 | 入口 | 当前按键 |
 | --- | --- |
 | 打开手册 | <KeyBind id="key.astropunk_handbook_access.open" /> |
@@ -40,7 +38,7 @@ navigation:
 | 查看配方 | R |
 | 查看用途 | U |
 
-在物品浏览器设置中修改这些按键。机械动力的思索提示会显示自身按键。
+在 EMI 搜索栏中输入以下示例查询，即可搜索 Create 模组的物品： <Color color="#F28CBD">@create</Color>。
 
 - [浏览配方](help.search.md)
 
