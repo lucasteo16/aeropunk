@@ -10,6 +10,8 @@ navigation:
 
 ## Lift & envelopes
 
+- Browse items: <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
+
 <ItemGrid>
   <ItemIcon id="aeronautics:white_envelope" />
   <ItemIcon id="aeronautics:adjustable_burner" />
@@ -73,7 +75,7 @@ Wooden, Andesite and Smart Propellers have dedicated bearings. Symmetric sails p
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Baseline, installed | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
-| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | Baseline, installed | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | Baseline, installed | <EmiSearch query="@aeroencasedpipe" /> |
+| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | Adds layered ballast blocks for adjusting vehicle mass and balance. | Baseline, installed | <EmiSearch query="@ballastmod" /> |

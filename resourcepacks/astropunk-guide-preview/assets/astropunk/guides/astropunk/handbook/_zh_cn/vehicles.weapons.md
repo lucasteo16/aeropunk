@@ -10,6 +10,8 @@ navigation:
 
 ## 火炮
 
+- 浏览物品: <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="createbigcannons:cannon_mount" />
   <ItemIcon id="createbigcannons:steel_cannon_barrel" />
@@ -31,6 +33,8 @@ Create Big Cannons 提供大型炮管、炮膛、炮尾与炮闩，以及自动�
 ***
 
 ## 弹药与发射器
+
+- 浏览物品: <EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="createbigcannons:ap_shell" />
@@ -69,6 +73,6 @@ Create Big Cannons 提供大型炮管、炮膛、炮尾与炮闩，以及自动�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | 已安装基准版 | A Minecraft mod for building large cannons with the Create mod. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | 为机械动力增加可组装的大炮与弹药。 | 已安装基准版 | <EmiSearch query="@createbigcannons" /> |

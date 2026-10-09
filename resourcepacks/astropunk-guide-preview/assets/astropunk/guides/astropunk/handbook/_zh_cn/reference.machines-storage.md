@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "机器与储存"
-  position: 11
+  position: 10
   parent: quick-reference.md
   icon: create:crushing_wheel
 ---
@@ -9,6 +9,8 @@ navigation:
 # 机器与储存
 
 ## 容器与整理
+
+- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@interactic" />
 
 | 目录 | 内容 |
 | --- | --- |
@@ -19,6 +21,8 @@ navigation:
 ***
 
 ## 机器与材料
+
+- 浏览物品: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
 
 | 目录 | 内容 |
 | --- | --- |
@@ -34,6 +38,8 @@ navigation:
 
 ## 电力与工业
 
+- 浏览物品: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+
 | 目录 | 内容 |
 | --- | --- |
 | <ItemImage id="electroenergetics:accumulator" /> [电力](power.electricity.md) | 交流发电机、接线、仪表、保护与铁路供电。 |
@@ -43,29 +49,67 @@ navigation:
 
 ***
 
+## 机器系统
+
+### 机器与加工
+
+- 浏览物品: <EmiSearch query="@create_connected" />
+
+| 模组 | 功能 |
+| --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 机器、旋转动力与原料加工 |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | 机械动力机器的扩展组件 |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 可再生的机械动力矿石岩与资源 |
+
+***
+
+### 动力与工业材料
+
+| 模组 | 功能 |
+| --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 发电、输电与用电设备 |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 工业材料与燃料系统 |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | 烈焰人燃烧室的液体燃料 |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 旋转能量储存 |
+
+***
+
+### 生产自动化
+
+- 浏览物品: <EmiSearch query="@sliceanddice" />
+
+| 模组 | 功能 |
+| --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 自动附魔 |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 自动村民交易 |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | 机械动力食物加工整合 |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | 农夫乐事加工自动化 |
+
+***
+
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 已安装基准版 | Dyeable and upgradeable vanilla-friendly backpacks! |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 已安装基准版 | Aesthetic Technology that empowers the Player |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 已安装基准版 | 🧲 Dominate your environment with Create technology |
-| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | 已安装基准版 | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |
-| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | 已安装基准版 | QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need |
-| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 已安装基准版 | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |
-| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 已安装基准版 | Automatic Enchanting, with Create |
-| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | 已安装基准版 | Pump in liquid fuel to blaze burners |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 已安装基准版 | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 已安装基准版 | Store rotational force using springs! |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 已安装基准版 | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |
-| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 已安装基准版 | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |
-| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 已安装基准版 | Automate trading with villagers using create! |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 已安装基准版 | A Create mod addon that adds more item vaults. |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | 已安装基准版 | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |
-| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 已安装基准版 | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
-| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | 已安装基准版 | A maintained fork of the populair interactic mod. |
-| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | 已安装基准版 | Enhances inventory management by adding various functions to the mouse buttons.  |
-| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 已安装基准版 | Adds reinforced shulker boxes. |
-| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 已安装基准版 | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
-| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | 已安装基准版 | Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting. |
-| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | 已安装基准版 | Adds a draggable trash slot to all inventory screens. Press T to toggle. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | 已安装基准版 | <EmiSearch query="背包" /> |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 增加用于加工、运输与自动建造的旋转动力机器。 | 已安装基准版 | <EmiSearch query="@create" /> |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | 已安装基准版 | <EmiSearch query="@create_sa" /> |
+| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | 扩展机械动力包裹处理，增加商店收银设备并改进工厂库存控制。 | 已安装基准版 | <EmiSearch query="@createadditionallogistics" /> |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | 为机械动力增加传动部件与更灵活的存储布置方式。 | 已安装基准版 | <EmiSearch query="@create_connected" /> |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 增加发电、输配电与电动机器，包括电力列车。 | 已安装基准版 | <EmiSearch query="@electroenergetics" /> |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 用机械动力机器自动处理经验与附魔。 | 已安装基准版 | <EmiSearch query="@create_enchantment_industry" /> |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | 让机械动力烈焰人燃烧室使用泵入的液体燃料。 | 已安装基准版 | 无独立物品查询 |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 通过熔融喷口提供可再生的机械动力含矿石材。 | 已安装基准版 | <EmiSearch query="@molten_vents" /> |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 将旋转动力存入弹簧，供之后释放使用。 | 已安装基准版 | <EmiSearch query="@createsprings" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 已安装基准版 | 无独立物品查询 |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 以社区维护版本为机械动力扩展重工业与石油加工。 | 已安装基准版 | <EmiSearch query="@tfmg" /> |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 通过机械动力机器自动进行村民交易。 | 已安装基准版 | <EmiSearch query="@trading_floor" /> |
+| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | 已安装基准版 | <EmiSearch query="@create_vibrant_vaults" /> |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | 改进铁砧物品存放与费用，移除不断累积的维修惩罚。 | 已安装基准版 | 无独立物品查询 |
+| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 已安装基准版 | 无独立物品查询 |
+| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | 改进玩家与世界中掉落物品的交互方式。 | 已安装基准版 | <EmiSearch query="@interactic" /> |
+| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | 增加鼠标拖动与滚轮快捷操作，便于移动物品栏中的物品堆。 | 已安装基准版 | 无独立物品查询 |
+| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | 已安装基准版 | <EmiSearch query="@reinfshulker" /> |
+| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 已安装基准版 | 无独立物品查询 |
+| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | 为受支持的物品栏界面增加整理、搜索与转移操作。 | 已安装基准版 | 无独立物品查询 |
+| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | 在物品栏增加垃圾格，用于丢弃不需要的物品。 | 已安装基准版 | 无独立物品查询 |

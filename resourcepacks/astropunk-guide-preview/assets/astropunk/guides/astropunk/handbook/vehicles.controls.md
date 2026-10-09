@@ -10,6 +10,8 @@ navigation:
 
 ## Cockpit controls
 
+- Browse items: <EmiSearch query="@aeroworks" />
+
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
   <ItemIcon id="aeroworks:joystick_module" />
@@ -33,6 +35,8 @@ Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and bu
 ***
 
 ## Signals & sensors
+
+- Browse items: <EmiSearch query="@create_tweaked_controllers" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="simulated:steering_wheel" />
@@ -59,6 +63,8 @@ Steering and throttle controls provide manual input. Sensors report altitude, ve
 ***
 
 ## Receivers & cockpit
+
+- Browse items: <EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="simulated:directional_linked_receiver" />
@@ -109,7 +115,7 @@ Linked receivers and optical or laser sensors extend control wiring. Aero Engine
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | Baseline, installed | A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more! |
-| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | Baseline, installed | An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | Adds flight controls such as gyroscopes and joysticks for Aeronautics vehicles. | Baseline, installed | <EmiSearch query="@aeroworks" /> |
+| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | Adds advanced handheld controls for Create contraptions. | Baseline, installed | <EmiSearch query="@create_tweaked_controllers" /> |

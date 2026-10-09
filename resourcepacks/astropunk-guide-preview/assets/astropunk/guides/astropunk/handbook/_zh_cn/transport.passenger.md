@@ -10,6 +10,8 @@ navigation:
 
 ## 线路与站点
 
+- 浏览物品: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />
   <ItemIcon id="createrailwaysnavigator:train_station_clock" />
@@ -73,6 +75,6 @@ Create Railways Navigator 查询车站之间已有的列车连接，显示中途
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | 已安装基准版 | A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | 增加列车路线搜索、乘客信息显示与时刻表功能。 | 已安装基准版 | <EmiSearch query="@createrailwaysnavigator" /> |

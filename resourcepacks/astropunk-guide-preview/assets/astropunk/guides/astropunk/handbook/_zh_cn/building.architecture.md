@@ -10,6 +10,8 @@ navigation:
 
 ## 桥梁
 
+- 浏览物品: <EmiSearch query="@mcwbridges" />
+
 <ItemGrid>
   <ItemIcon id="mcwbridges:oak_log_bridge_middle" />
   <ItemIcon id="mcwbridges:oak_rail_bridge" />
@@ -30,6 +32,8 @@ Macaw's Bridges 提供木材与石材系列的桥面、阶梯和支撑件。通�
 
 ## 屋顶
 
+- 浏览物品: <EmiSearch query="@mcwroofs" />
+
 <ItemGrid>
   <ItemIcon id="mcwroofs:oak_roof" />
   <ItemIcon id="mcwroofs:oak_top_roof" />
@@ -49,6 +53,8 @@ Macaw's Roofs 用独立部件组成屋面底部、屋脊与阁楼，并提供较
 ***
 
 ## 楼梯与阳台
+
+- 浏览物品: <EmiSearch query="@mcwstairs" />
 
 <ItemGrid>
   <ItemIcon id="mcwstairs:oak_bulk_stairs" />
@@ -74,6 +80,8 @@ Macaw's Stairs 提供多种楼梯轮廓，以及平台、阳台与配套栏杆�
 
 ## 门
 
+- 浏览物品: <EmiSearch query="@mcwdoors" />
+
 <ItemGrid>
   <ItemIcon id="mcwdoors:oak_barn_door" />
   <ItemIcon id="mcwdoors:oak_japanese_door" />
@@ -91,6 +99,8 @@ Macaw's Doors 提供不同外观的建筑入口。下列门仅展示部分样式
 ***
 
 ## 窗
+
+- 浏览物品: <EmiSearch query="@mcwwindows" />
 
 <ItemGrid>
   <ItemIcon id="mcwwindows:oak_window" />
@@ -111,6 +121,8 @@ Macaw's Windows 将窗体形状与百叶窗、窗帘组合。通过各自配方�
 ***
 
 ## 围栏与墙
+
+- 浏览物品: <EmiSearch query="@mcwfences" />
 
 <ItemGrid>
   <ItemIcon id="mcwfences:oak_picket_fence" />
@@ -155,13 +167,13 @@ Reconnectible Chains 使用原版锁链构成连接的悬挂跨度。建筑组�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | 已安装基准版 | Fences connecting diagonally? Wait. That's illegal. |
-| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | 已安装基准版 | A simple mod that adds a lot of bridges! |
-| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | 已安装基准版 | Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...! |
-| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | 已安装基准版 | Adds new vanilla styled fences, walls and gates! |
-| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | 已安装基准版 | Build roofs with actual roofs instead of stairs! |
-| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | 已安装基准版 | Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies! |
-| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | 已安装基准版 | Adds lots of Windows, Mosaic Glass, Blinds, Shutters, Curtains and more...! |
-| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | 已安装基准版 | A multiloader fork of Connectible Chains: Connect your fences/walls with a decorative chain! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | 让栅栏斜向连接，便于搭建更灵活的围栏。 | 已安装基准版 | 无独立物品查询 |
+| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | 增加桥梁建筑部件，用于跨越空隙与水面。 | 已安装基准版 | <EmiSearch query="@mcwbridges" /> |
+| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | 增加门的样式，并扩展可用木材变体。 | 已安装基准版 | <EmiSearch query="@mcwdoors" /> |
+| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | 增加用于建筑围界的装饰栅栏、墙与门。 | 已安装基准版 | <EmiSearch query="@mcwfences" /> |
+| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | 增加专用屋顶方块，无需只用楼梯搭屋顶。 | 已安装基准版 | <EmiSearch query="@mcwroofs" /> |
+| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | 增加建筑楼梯及配套扶手与阳台部件。 | 已安装基准版 | <EmiSearch query="@mcwstairs" /> |
+| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | 增加窗户样式与配套百叶窗、遮帘及窗帘。 | 已安装基准版 | <EmiSearch query="@mcwwindows" /> |
+| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | 用装饰性悬挂铁链连接栅栏与墙。 | 已安装基准版 | 无独立物品查询 |

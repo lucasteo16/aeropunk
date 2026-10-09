@@ -10,6 +10,8 @@ navigation:
 
 ## 熔融喷口
 
+- 浏览物品: <EmiSearch query="@molten_vents" />
+
 <ItemGrid>
   <ItemIcon id="molten_vents:dormant_molten_asurine" />
   <ItemIcon id="molten_vents:active_molten_asurine" />
@@ -39,6 +41,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 已安装基准版 | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 通过熔融喷口提供可再生的机械动力含矿石材。 | 已安装基准版 | <EmiSearch query="@molten_vents" /> |

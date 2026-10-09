@@ -22,6 +22,8 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 
 ## 滚动饮食记录
 
+- 浏览物品: <EmiSearch query="@solonion" />
+
 <ItemGrid>
   <ItemIcon id="solonion:food_book" />
   <ItemIcon id="solonion:lunchbag" />
@@ -53,8 +55,8 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 已安装基准版 | Food/hunger-related HUD improvements |
-| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 已安装基准版 | 食物堆叠上限随饱腹能力变化。 |
-| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 已安装基准版 | A mod designed to encourage dietary variety! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 在物品提示与饥饿条中显示食物恢复量及饱和度。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 调整食物堆叠上限，改变每格物品栏可携带的食物数量。 | 已安装基准版 | 无独立物品查询 |
+| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 根据近期饮食的滚动记录奖励食物多样性。 | 已安装基准版 | <EmiSearch query="@solonion" /> |

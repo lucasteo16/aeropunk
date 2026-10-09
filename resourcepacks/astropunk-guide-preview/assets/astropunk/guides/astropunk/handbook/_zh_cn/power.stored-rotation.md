@@ -10,6 +10,8 @@ navigation:
 
 ## 旋转动力储备
 
+- 浏览物品: <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_connected:kinetic_battery" />
   <ItemIcon id="createsprings:spring" />
@@ -63,6 +65,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 已安装基准版 | Store rotational force using springs! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 将旋转动力存入弹簧，供之后释放使用。 | 已安装基准版 | <EmiSearch query="@createsprings" /> |

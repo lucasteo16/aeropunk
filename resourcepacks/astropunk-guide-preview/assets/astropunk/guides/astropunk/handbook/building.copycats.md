@@ -10,6 +10,8 @@ navigation:
 
 ## Structure
 
+- Browse items: <EmiSearch query="@copycats" />
+
 <ItemGrid>
   <ItemIcon id="copycats:copycat_block" />
   <ItemIcon id="copycats:copycat_slab" />
@@ -163,6 +165,6 @@ Craft the desired shape, then apply a supported block material. Use its Ponder e
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | Baseline, installed | All the copycats you've ever wanted, combined into a single mod! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | Adds Create copycat building shapes that imitate other blocks' materials. | Baseline, installed | <EmiSearch query="@copycats" /> |

@@ -10,6 +10,8 @@ navigation:
 
 ## Cave crops & bars
 
+- Browse items: <EmiSearch query="@minersdelight" />
+
 <ItemGrid>
   <ItemIcon id="minersdelight:wild_cave_carrots" />
   <ItemIcon id="minersdelight:baked_cave_carrot" />
@@ -56,6 +58,8 @@ Wild Cave Carrots provide the underground crop branch. Baking makes a prepared c
 ***
 
 ## Underground ingredients
+
+- Browse items: <EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:arthropod" />
@@ -113,6 +117,8 @@ Knife hunting supplies arthropods and bat wings. Infested-block mining supplies 
 ***
 
 ## Squid & plant meals
+
+- Browse items: <EmiSearch query="@spawn" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:baked_squid" />
@@ -278,6 +284,6 @@ The Copper Pot and Copper Cup form the copper serving branch. They are equipment
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Baseline, installed | Farmer's Delight add-on for miners |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | Baseline, installed | <EmiSearch query="@minersdelight" /> |

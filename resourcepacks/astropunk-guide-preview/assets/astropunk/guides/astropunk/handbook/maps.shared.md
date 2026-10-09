@@ -31,7 +31,7 @@ Cave synchronization can disable World Map's cave-layer selector. This does not 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | Heavy edition, not installed here | Not installed here. |
-| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Baseline, installed | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | Shows capes colored to match players' vanilla teams. | Heavy edition, not installed here | Not installed here |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Adds multiplayer map features, including world-map synchronization, to Xaero's maps. | Baseline, installed | No separate item search |

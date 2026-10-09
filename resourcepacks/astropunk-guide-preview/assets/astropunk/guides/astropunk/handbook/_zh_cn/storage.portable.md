@@ -10,6 +10,8 @@ navigation:
 
 ## 潜影盒
 
+- 浏览物品: <EmiSearch query="@reinfshulker" />
+
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />
   <ItemIcon id="reinfshulker:copper_shulker_box" />
@@ -28,6 +30,8 @@ navigation:
 ***
 
 ## 取用与升级
+
+- 浏览物品: <EmiSearch query="背包" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:leather" />
@@ -77,9 +81,9 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 已安装基准版 | Dyeable and upgradeable vanilla-friendly backpacks! |
-| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 已安装基准版 | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
-| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 已安装基准版 | Adds reinforced shulker boxes. |
-| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 已安装基准版 | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | 已安装基准版 | <EmiSearch query="背包" /> |
+| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 已安装基准版 | 无独立物品查询 |
+| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | 已安装基准版 | <EmiSearch query="@reinfshulker" /> |
+| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 已安装基准版 | 无独立物品查询 |

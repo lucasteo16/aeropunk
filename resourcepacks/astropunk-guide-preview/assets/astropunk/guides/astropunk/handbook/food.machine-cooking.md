@@ -10,6 +10,8 @@ navigation:
 
 ## Slicing
 
+- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+
 <ItemGrid>
   <ItemIcon id="sliceanddice:slicer" />
   <ItemIcon id="farmersdelight:cutting_board" />
@@ -27,6 +29,8 @@ Craft <ItemLink id="sliceanddice:slicer" /> before connecting ingredient deliver
 ***
 
 ## Drinks & farm fluids
+
+- Browse items: <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:hot_cocoa" />
@@ -51,7 +55,7 @@ Create: Central Kitchen supplies cooking integration rather than another food me
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | Baseline, installed | Making automation for Farmers Delight more sensible |
-| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | Baseline, installed | Offering more tools and methods to automate food processing of other mod in Create. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | Adds Create machinery for automated Farmer's Delight food preparation. | Baseline, installed | <EmiSearch query="@sliceanddice" /> |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | Connects other cooking mods to Create machines for automated food processing. | Baseline, installed | No separate item search |

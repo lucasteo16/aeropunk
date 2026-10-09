@@ -18,6 +18,8 @@ Deep Seas 铜制潜艇。
 
 ## 浮力与推进
 
+- 浏览物品: <EmiSearch query="@create_submarine" />
+
 <ItemGrid>
   <ItemIcon id="create_submarine:floater" />
   <ItemIcon id="create_submarine:ballast_tank" />
@@ -107,6 +109,6 @@ Deep Seas 铜制潜艇。
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | 已安装基准版 | Submarine and boat in Create Aeronautics! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | 为 Aeronautics 船只与潜艇增加水上及水下航行部件。 | 已安装基准版 | <EmiSearch query="@create_submarine" /> |

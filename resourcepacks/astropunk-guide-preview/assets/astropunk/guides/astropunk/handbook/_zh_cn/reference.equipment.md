@@ -1,14 +1,16 @@
 ---
 navigation:
   title: "装备"
-  position: 6
-  parent: quick-reference.md
+  position: 0
+  parent: reference.skills.md
   icon: minecraft:iron_chestplate
 ---
 
 # 装备
 
 ## 构筑装备
+
+- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
@@ -47,22 +49,3 @@ navigation:
 <ItemLink id="jewelry:copper_ring" />
 
 <Recipe id="jewelry:copper_ring" />
-
-
-
-***
-
-## 相关模组
-
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 已安装基准版 | Jewelry Add-On for the More RPG Classes Mods. |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 已安装基准版 | 👑 Epic armor sets, with unique designs and set bonuses. |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 已安装基准版 | Legendary weapons from the past - not crafted, but conquered. |
-| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 已安装基准版 | A flexible and expandable accessory/equipment API for users and developers. |
-| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 已安装基准版 | More details about armor in the armor bar! |
-| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 已安装基准版 | 💍 Find precious gems deep down, and craft them into powerful jewelry! |
-| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 已安装基准版 | This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics! |
-| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 已安装基准版 | 🎖 Unleash your true potential with powerful trinkets! 🔮 |
-| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 已安装基准版 | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
-| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 已安装基准版 | Status effect display overhaul: Display them in any menu! And way more compact. |

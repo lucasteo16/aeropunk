@@ -15,6 +15,7 @@ neoForge {
 }
 dependencies {
     compileOnly files('guideme-21.1.19.jar')
+    compileOnly files('emi-1.1.24.jar')
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "实用工具"
-  position: 13
+  position: 12
   parent: quick-reference.md
   icon: minecraft:lever
 ---
@@ -23,14 +23,14 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | 已安装基准版 | Gives you control over the passage of time by allowing you to customize the length of the day-night cycle and alters the Minecraft sleep mechanic by accelerating the speed of time. |
-| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | 已安装基准版 | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
-| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | 已安装基准版 | Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors! |
-| ![Corpse](images/catalog-WrpuIfhw.png) [Corpse](adventure.recovery.md) | 已安装基准版 | Never lose your items again! |
-| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) [Corpse x Curios API Compat](adventure.recovery.md) | 已安装基准版 | This little mod allows you to directly equip your Curios items to the respective slots |
-| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 已安装基准版 | Jade 🔍's additional mod supports for Neo/Forge |
-| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | 已安装基准版 | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |
-| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | 已安装基准版 | In-game advancement editing and improvements to the advancement screen! |
-| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | 已安装基准版 | 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | 自定义昼夜长度，并在玩家睡眠时加快时间流逝。 | 已安装基准版 | 无独立物品查询 |
+| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | 允许玩家抱起并搬运受支持的容器与生物。 | 已安装基准版 | 无独立物品查询 |
+| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | 增加睡袋与吊床，让玩家休息而不改变重生点。 | 已安装基准版 | <EmiSearch query="@comforts" /> |
+| ![Corpse](images/catalog-WrpuIfhw.png) [Corpse](adventure.recovery.md) | 将死亡玩家的物品保存在可取回的尸体中。 | 已安装基准版 | 无独立物品查询 |
+| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) [Corpse x Curios API Compat](adventure.recovery.md) | 让尸体中取回的饰品直接回到对应的 Curios 装备栏。 | 已安装基准版 | 无独立物品查询 |
+| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 为 Jade 观察提示增加其他模组的专属信息支持。 | 已安装基准版 | 无独立物品查询 |
+| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | 显示当前观察的方块或生物的信息。 | 已安装基准版 | 无独立物品查询 |
+| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | 改进进度浏览，并支持在游戏内编辑进度。 | 已安装基准版 | 无独立物品查询 |
+| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | 为村民赋予默认或自定义名字。 | 已安装基准版 | 无独立物品查询 |

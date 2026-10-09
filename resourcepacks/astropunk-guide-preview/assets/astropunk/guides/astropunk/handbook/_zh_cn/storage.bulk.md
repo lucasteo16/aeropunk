@@ -10,6 +10,8 @@ navigation:
 
 ## 仓库与集装箱
 
+- 浏览物品: <EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:item_vault" />
   <ItemIcon id="create_vibrant_vaults:basic_shipping_container" />
@@ -28,6 +30,8 @@ navigation:
 ***
 
 ## 筒仓与接口
+
+- 浏览物品: <EmiSearch query="@create_connected" />
 
 <ItemGrid>
   <ItemIcon id="create_connected:item_silo" />
@@ -60,6 +64,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 已安装基准版 | A Create mod addon that adds more item vaults. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | 已安装基准版 | <EmiSearch query="@create_vibrant_vaults" /> |

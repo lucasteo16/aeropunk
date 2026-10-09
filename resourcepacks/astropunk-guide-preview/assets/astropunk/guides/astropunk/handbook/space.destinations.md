@@ -10,6 +10,8 @@ navigation:
 
 ## Not installed
 
+- Browse items: <EmiSearch query="@create" />
+
 Northstar space content is deferred. There are no installed Northstar destinations in this edition. Use Dimensions for the installed destination catalogue.
 
 | Component | Function |
@@ -27,6 +29,6 @@ Northstar space content is deferred. There are no installed Northstar destinatio
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) | Deferred, not installed | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) | Adds space destinations and Create-based equipment for exploring them. | Deferred, not installed | Not installed here |

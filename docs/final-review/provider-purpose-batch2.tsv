@@ -1,0 +1,63 @@
+mods/creeper-overhaul.pw.toml|Adds biome-specific creeper variants with distinct appearances and behavior.|增加随生物群系变化、外观与行为各异的苦力怕变体。
+mods/critical-strike.pw.toml|Adds chance-based critical hits to melee and ranged attacks.|为近战与远程攻击增加概率触发的暴击。
+mods/ct-overhaul-village.pw.toml|Redesigns villages and pillager outposts to fit different biomes.|重新设计村庄与掠夺者前哨站，使其适合不同生物群系。
+mods/curios.pw.toml|Provides expandable equipment slots for wearable accessories.|提供可扩展的饰品装备栏。
+mods/dangerous.pw.toml|Adds configurable difficulty balancing for powerful modded player builds.|提供可调整的难度平衡机制，适应强力的模组玩家装备与能力。
+mods/decorative-food.pw.toml|Lets food items be placed in the world as decorations.|让食物物品可摆放在世界中作为装饰。
+mods/detail-armor-bar-reconstructed.pw.toml|Shows additional armor information in the armor status bar.|在盔甲状态条中显示更多护甲信息。
+mods/diagonal-fences.pw.toml|Lets fences connect diagonally for more flexible boundaries.|让栅栏斜向连接，便于搭建更灵活的围栏。
+mods/easy-anvils.pw.toml|Improves anvil item storage and costs while removing escalating repair penalties.|改进铁砧物品存放与费用，移除不断累积的维修惩罚。
+mods/easy-shulker-boxes.pw.toml|Lets players browse and move shulker box contents directly from the inventory.|让玩家直接在物品栏中查看与存取潜影盒内容。
+mods/elemental-wizards-rpg.pw.toml|Adds elemental spellcasting classes and combat abilities to Spell Engine.|为 Spell Engine 增加元素施法职业与战斗能力。
+mods/emi-enchanting.pw.toml|Shows enchantment applicability and exclusions in EMI.|在 EMI 中显示附魔适用物品与互斥关系。
+mods/emi-loot.pw.toml|Shows chest, block and creature loot sources in EMI.|在 EMI 中显示箱子、方块与生物的战利品来源。
+mods/emi-professions-(emip).pw.toml|Shows villager profession workstations in EMI.|在 EMI 中显示村民职业对应的工作站。
+mods/emi.pw.toml|Provides searchable items, recipes, uses and crafting trees.|提供物品搜索、配方查询、用途查询与合成树。
+mods/enderman-overhaul.pw.toml|Adds enderman variants with distinctive models, sounds and animations.|增加具有独特模型、声音与动画的末影人变体。
+mods/ends-delight.pw.toml|Adds End-themed ingredients and dishes to Farmer's Delight.|为 Farmer's Delight 增加末地主题的食材与菜肴。
+mods/escalated.pw.toml|Adds rotation-powered escalators for Create buildings.|为机械动力建筑增加旋转动力驱动的自动扶梯。
+mods/every-compat.pw.toml|Creates supported building and furniture variants using other mods' wood types.|用其他模组的木材种类补齐受支持的建筑与家具变体。
+mods/farmers-delight.pw.toml|Adds crops, cooking utensils and meal preparation with cutting boards and cooking pots.|增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。
+mods/forcemaster-rpg-class.pw.toml|Adds a martial combat class using knuckles and force-based abilities.|增加使用拳套与力场能力的武术战斗职业。
+mods/forgematica.pw.toml|Displays building schematics to guide block placement and construction.|显示建筑蓝图，辅助方块摆放与施工。
+mods/friends-and-foes-forge.pw.toml|Adds expanded versions of creatures omitted from Minecraft mob votes.|加入生物投票中落选或未实现的生物，并扩展其功能。
+mods/gazebos.pw.toml|Adds village gazebos containing small spell libraries.|增加藏有小型法术图书馆的村庄凉亭。
+mods/handcrafted.pw.toml|Adds detailed furniture and household decorations.|增加细致的家具与家居装饰。
+mods/hypertube.pw.toml|Adds tube transport for moving players around Create builds.|增加管道交通，让玩家在机械动力建筑之间穿行。
+mods/ibo.pw.toml|Keeps Incendium terrain and biomes while removing its structures, creatures and items.|保留 Incendium 地形与生物群系，移除其建筑、生物与物品内容。
+mods/illager-invasion.pw.toml|Adds new illager enemies and related encounters.|增加新的灾厄村民敌人与相关遭遇内容。
+mods/immersive-paintings.pw.toml|Imports images as placeable paintings, including on multiplayer servers.|将图片导入为可摆放的画作，也支持多人服务器。
+mods/incendium.pw.toml|Overhauls Nether biomes and adds structures, enemies and unique equipment.|重塑下界生物群系，并增加建筑、敌人与独特装备。
+mods/interactic-renewed.pw.toml|Improves interaction with dropped items in the world.|改进玩家与世界中掉落物品的交互方式。
+mods/interiors.pw.toml|Adds Create-styled furniture for train interiors and other builds.|增加适合列车内饰与其他建筑的机械动力风格家具。
+mods/items-displayed-forge.pw.toml|Lets players place inventory items in the world for display.|让玩家将物品栏中的物品摆放在世界中展示。
+mods/jade-addons-forge.pw.toml|Adds mod-specific information support to Jade's inspection overlay.|为 Jade 观察提示增加其他模组的专属信息支持。
+mods/jade.pw.toml|Shows information about the block or creature being looked at.|显示当前观察的方块或生物的信息。
+mods/jewelry.pw.toml|Adds mineable gems and craftable jewelry that improves combat attributes.|增加可开采宝石与可制作首饰，用于提升战斗属性。
+mods/l_enders-cataclysm-delight.pw.toml|Turns Cataclysm ingredients into Farmer's Delight-style dishes.|将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。
+mods/l_enders-cataclysm.pw.toml|Adds dangerous dungeons, challenging bosses and powerful equipment rewards.|增加危险地下城、高难度首领与强力装备奖励。
+mods/leaves-be-gone.pw.toml|Makes unsupported leaves decay quickly after trees are cut.|让树木被砍后失去支撑的树叶快速凋落。
+mods/lighty.pw.toml|Overlays light levels to help find dark areas and spawnable surfaces.|叠加显示光照等级，帮助寻找暗处与可生成生物的地面。
+mods/lootr.pw.toml|Gives each player separate loot in supported world-generated containers.|让每位玩家在受支持的世界生成容器中获得独立战利品。
+mods/macaws-bridges.pw.toml|Adds bridge building pieces for paths across gaps and water.|增加桥梁建筑部件，用于跨越空隙与水面。
+mods/macaws-doors.pw.toml|Adds door designs and expands available wood variants.|增加门的样式，并扩展可用木材变体。
+mods/macaws-fences-and-walls.pw.toml|Adds decorative fences, walls and gates for building boundaries.|增加用于建筑围界的装饰栅栏、墙与门。
+mods/macaws-roofs.pw.toml|Adds dedicated roof blocks instead of relying on stair-shaped roofs.|增加专用屋顶方块，无需只用楼梯搭屋顶。
+mods/macaws-stairs.pw.toml|Adds building stairs and matching handrails and balcony pieces.|增加建筑楼梯及配套扶手与阳台部件。
+mods/macaws-windows.pw.toml|Adds window designs and matching shutters, blinds and curtains.|增加窗户样式与配套百叶窗、遮帘及窗帘。
+mods/mech-trowel.pw.toml|Places randomized blocks from custom palettes and supports building-wand placement.|从自定义材料组随机放置方块，并支持建筑魔杖式摆放。
+mods/miners-delight.pw.toml|Adds mining-themed food and cooking tools to Farmer's Delight.|为 Farmer's Delight 增加采矿主题的食物与烹饪工具。
+mods/more-relics-rpg.pw.toml|Adds Relics accessories for the additional More RPG Classes professions.|为 More RPG Classes 的扩展职业增加 Relics 饰品。
+mods/more-rpg-classes-skill-tree.pw.toml|Adds class skill-tree support for the additional More RPG Classes professions.|为 More RPG Classes 的扩展职业增加职业技能树支持。
+mods/mouse-tweaks.pw.toml|Adds mouse-drag and scrolling shortcuts for moving inventory stacks.|增加鼠标拖动与滚轮快捷操作，便于移动物品栏中的物品堆。
+mods/my-nethers-delight.pw.toml|Adds Nether crops, ingredients and cooking recipes to Farmer's Delight.|为 Farmer's Delight 增加下界作物、食材与烹饪配方。
+mods/netherportalfix.pw.toml|Corrects return destinations when players travel through Nether portals.|修正玩家往返下界传送门时的返回目的地。
+mods/nullscape.pw.toml|Reshapes the End with alien terrain and additional biomes.|以异域地形与新增生物群系重塑末地。
+mods/paladins-and-priests.pw.toml|Adds paladin and priest classes focused on protection and healing.|增加专注防护与治疗的圣骑士及牧师职业。
+mods/polymorph.pw.toml|Lets players choose the output when crafting recipes conflict.|合成配方冲突时允许玩家选择产物。
+mods/reconnectible-chains.pw.toml|Connects fences and walls with decorative hanging chains.|用装饰性悬挂铁链连接栅栏与墙。
+mods/reinforced-shulker-boxes.pw.toml|Adds upgraded shulker boxes with larger storage capacity.|增加存储容量更大的升级潜影盒。
+mods/reliable-advancements.pw.toml|Improves advancement browsing and supports editing advancements in game.|改进进度浏览，并支持在游戏内编辑进度。
+mods/reliable-emi.pw.toml|Adds configurable usability features to EMI's item and recipe browser.|为 EMI 物品与配方浏览器增加可调整的便利功能。
+mods/relics-rpg.pw.toml|Adds combat-enhancing trinkets for RPG Series character builds.|为 RPG Series 角色搭配增加强化战斗能力的饰品。
+mods/rightclickharvest.pw.toml|Harvests mature crops with a right click instead of breaking and replanting manually.|右键即可收获成熟作物，无需手动破坏再补种。

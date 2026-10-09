@@ -15,7 +15,7 @@ class NavigationSkeleton(unittest.TestCase):
             self.assertTrue((base / 'quick-reference.md').is_file())
             self.assertFalse((base / 'mod-catalogs.md').exists())
             self.assertEqual(list(base.glob('category-*.md')), [])
-            for filename in ('adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.equipment.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'):
+            for filename in ('adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'):
                 self.assertIn('  parent: quick-reference.md\n', (base / filename).read_text())
 
     def test_sidebar_is_acyclic_and_no_more_than_two_category_levels(self):
@@ -43,8 +43,12 @@ class NavigationSkeleton(unittest.TestCase):
             home = (base / 'index.md').read_text()
             directory = (base / 'quick-reference.md').read_text()
             refs = set(re.findall(r'\]\(([^)]+\.md)\)', directory))
-            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), refs)
-            self.assertGreaterEqual(len(refs), 17)
+            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'quick-reference.md'})
+            self.assertNotIn('| Reference | Contents |', home)
+            self.assertEqual(len(refs), 16)
+            self.assertNotIn('reference.equipment.md', refs)
+            for child in ('reference.equipment.md', 'combat.abilities.md'):
+                self.assertIn('  parent: reference.skills.md\n', (base / child).read_text())
             for filename in refs:
                 self.assertIn('  parent: quick-reference.md\n', (base / filename).read_text())
 

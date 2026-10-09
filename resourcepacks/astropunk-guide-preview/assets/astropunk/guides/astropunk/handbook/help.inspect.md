@@ -38,8 +38,8 @@ Villager Names gives villagers recognizable names. A name identifies the village
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | Baseline, installed | Jade 🔍's additional mod supports for Neo/Forge |
-| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | Baseline, installed | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |
-| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | Baseline, installed | 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | Adds mod-specific information support to Jade's inspection overlay. | Baseline, installed | No separate item search |
+| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | Shows information about the block or creature being looked at. | Baseline, installed | No separate item search |
+| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | Gives villagers default or custom names. | Baseline, installed | No separate item search |

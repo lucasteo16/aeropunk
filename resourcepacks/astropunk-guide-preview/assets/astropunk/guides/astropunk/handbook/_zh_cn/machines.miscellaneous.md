@@ -10,6 +10,8 @@ navigation:
 
 ## 便携组件
 
+- 浏览物品: <EmiSearch query="@create_sa" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_sa:steam_engine" />
   <ItemIcon id="create_sa:hydraulic_engine" />
@@ -79,7 +81,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 已安装基准版 | 🧲 Dominate your environment with Create technology |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 已安装基准版 | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | 已安装基准版 | <EmiSearch query="@create_sa" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 已安装基准版 | 无独立物品查询 |

@@ -10,6 +10,8 @@ navigation:
 
 ## Molten vents
 
+- Browse items: <EmiSearch query="@molten_vents" />
+
 <ItemGrid>
   <ItemIcon id="molten_vents:dormant_molten_asurine" />
   <ItemIcon id="molten_vents:active_molten_asurine" />
@@ -39,6 +41,6 @@ Locate a vent and expose its dormant core. Activate that core with an explosion,
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Baseline, installed | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Provides renewable Create ore-bearing stones through molten vents. | Baseline, installed | <EmiSearch query="@molten_vents" /> |

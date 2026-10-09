@@ -19,7 +19,8 @@ class ReferenceVisuals(unittest.TestCase):
                     assert match is not None, p.name
                     title = json.loads(match.group(1))
                     self.assertLessEqual(len(title), 24, p.name)
-        self.assertIn('Spells & skills', (PAGES / 'reference.skills.md').read_text())
+        self.assertIn('# Combat\n', (PAGES / 'reference.skills.md').read_text())
+        self.assertIn('# Spells & abilities\n', (PAGES / 'combat.abilities.md').read_text())
         self.assertIn('Machines & storage', (PAGES / 'reference.machines-storage.md').read_text())
 
     def test_controls_separates_every_major_section(self):
@@ -60,7 +61,8 @@ class ReferenceVisuals(unittest.TestCase):
             for locale in ('', '_zh_cn'):
                 body = (PAGES / locale / filename).read_text()
                 if page['topic'] in authored:
-                    self.assertIn(authored[page['topic']]['zh_cn' if locale else 'en_us'].strip(), body, filename)
+                    source_body = re.sub(r'\n\n- (?:Browse items|浏览物品): <EmiSearch[^\n]+\n\n', '\n\n', body)
+                    self.assertIn(authored[page['topic']]['zh_cn' if locale else 'en_us'].strip(), source_body, filename)
                     self.assertNotIn('Work in progress', body, filename)
                     self.assertNotIn('WIP', body, filename)
                 elif page['page_type'] == 'article':
@@ -106,7 +108,7 @@ class ReferenceVisuals(unittest.TestCase):
             controls = (PAGES / locale / 'help.controls.md').read_text()
             recipe = (PAGES / locale / 'help.search.md').read_text()
             self.assertIn('<Color color="#F28CBD">/guidemec astropunk:handbook open</Color>', controls)
-            self.assertIn('<Color color="#F28CBD">@create</Color>', recipe)
+            self.assertIn('<EmiSearch query="@create" />', recipe)
             equipment = (PAGES / locale / 'equipment.weapons-armor.md').read_text()
             for unavailable in ('ruby_rapid_crossbow', 'ruby_heavy_crossbow', 'ruby_spear'):
                 self.assertNotIn('archers:' + unavailable, equipment)

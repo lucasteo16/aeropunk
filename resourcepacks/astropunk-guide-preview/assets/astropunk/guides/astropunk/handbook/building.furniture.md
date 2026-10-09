@@ -10,6 +10,8 @@ navigation:
 
 ## Rooms
 
+- Browse items: <EmiSearch query="@handcrafted" />
+
 ![Handcrafted furniture](images/building-travel-furniture.png)
 
 Handcrafted cherry bedroom, moony.
@@ -40,6 +42,8 @@ Handcrafted supplies coordinated seating, surfaces, storage-shaped furniture and
 
 ## Seating & textiles
 
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@interiors" />
+
 <ItemGrid>
   <ItemIcon id="interiors:white_chair" />
   <ItemIcon id="interiors:white_floor_chair" />
@@ -59,6 +63,8 @@ Create Interiors supplies chairs, floor chairs and cushions in sixteen dye color
 ***
 
 ## Plants & lamps
+
+- Browse items: <EmiSearch query="@beautify" />
 
 <ItemGrid>
   <ItemIcon id="beautify:hanging_pot" />
@@ -83,6 +89,8 @@ Beautify supplies plant displays, wall furnishings and decorative lamps. Choose 
 ***
 
 ## Small furnishings
+
+- Browse items: <EmiSearch query="@amendments" /> <EmiSearch query="@supplementaries" />
 
 <ItemGrid>
   <ItemIcon id="supplementaries:awning" />
@@ -117,11 +125,11 @@ Supplementaries supplies awnings, jars, pedestals, blackboards and small furnish
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Amendments](images/catalog-6iTJugQR.png) [Amendments](building.furniture.md) | Baseline, installed | Many changes to vanilla blocks |
-| ![Beautify: ReFoxed](images/catalog-ZQCyyWBM.png) [Beautify: ReFoxed](building.furniture.md) | Baseline, installed | Adds lots of vanilla-styled ways to spice up your builds. |
-| ![Create: Interiors](images/catalog-r4Knci2k.png) [Create: Interiors](building.furniture.md) | Baseline, installed | A complement to the Create mod that adds new furniture. |
-| ![Handcrafted](images/catalog-pJmCFF0p.png) [Handcrafted](building.furniture.md) | Baseline, installed | Make your house a home! |
-| ![Supplementaries](images/catalog-fFEIiSDQ.png) [Supplementaries](building.furniture.md) | Baseline, installed | Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation |
-| ![TW‘s  Decorative Food](images/catalog-656seq5J.png) [TW‘s  Decorative Food](building.furniture.md) | Baseline, installed | Make the food placeable.Decorate your world! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Amendments](images/catalog-6iTJugQR.png) [Amendments](building.furniture.md) | Expands existing blocks with features such as potion-mixing cauldrons and wall-mounted lanterns. | Baseline, installed | <EmiSearch query="@amendments" /> |
+| ![Beautify: ReFoxed](images/catalog-ZQCyyWBM.png) [Beautify: ReFoxed](building.furniture.md) | Adds vanilla-styled decorative furnishings for homes and gardens. | Baseline, installed | <EmiSearch query="@beautify" /> |
+| ![Create: Interiors](images/catalog-r4Knci2k.png) [Create: Interiors](building.furniture.md) | Adds Create-styled furniture for train interiors and other builds. | Baseline, installed | <EmiSearch query="@interiors" /> |
+| ![Handcrafted](images/catalog-pJmCFF0p.png) [Handcrafted](building.furniture.md) | Adds detailed furniture and household decorations. | Baseline, installed | <EmiSearch query="@handcrafted" /> |
+| ![Supplementaries](images/catalog-fFEIiSDQ.png) [Supplementaries](building.furniture.md) | Adds practical decorations and utility blocks for building, storage and automation. | Baseline, installed | <EmiSearch query="@supplementaries" /> |
+| ![TW‘s  Decorative Food](images/catalog-656seq5J.png) [TW‘s  Decorative Food](building.furniture.md) | Lets food items be placed in the world as decorations. | Baseline, installed | No separate item search |

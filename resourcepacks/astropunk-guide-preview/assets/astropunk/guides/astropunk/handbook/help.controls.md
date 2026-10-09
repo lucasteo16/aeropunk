@@ -21,18 +21,22 @@ navigation:
 
 ## Handbook
 
+- Browse items: <EmiSearch query="@guideme" />
+
 | Access | Your key |
 | --- | --- |
 | Open handbook | <KeyBind id="key.astropunk_handbook_access.open" /> |
 | Item guide | <KeyBind id="key.guideme.guide" /> |
 
-The item guide is contextual. It needs a hovered item associated with a guide page, it is not a whole-handbook shortcut. The custom handbook shortcut and inventory button are currently unavailable in the reviewed instance.
+The item guide is contextual. It needs a hovered item associated with a guide page, it is not a whole-handbook shortcut.
 
 Open chat and enter <Color color="#F28CBD">/guidemec astropunk:handbook open</Color> to use the command entry point.
 
 ***
 
 ## Recipes & help
+
+- Browse items: <EmiSearch query="@create" />
 
 | While hovering an item | Default |
 | --- | --- |
@@ -60,8 +64,8 @@ Increase the interface scale in Video Settings for larger text. This also enlarg
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | Baseline, installed | Inventory handbook button and configurable opening shortcut. |
-| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | Baseline, installed | Adds a search bar to the Key-Bindings menu |
-| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | Baseline, installed | in-UI trade refresh key |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | Adds handbook access and clickable item searches. | Baseline, installed | No separate item search |
+| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | Adds searching and conflict filtering to the keybinding screen. | Baseline, installed | No separate item search |
+| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | Adds a shortcut for refreshing eligible villager trades from the trading interface. | Baseline, installed | No separate item search |

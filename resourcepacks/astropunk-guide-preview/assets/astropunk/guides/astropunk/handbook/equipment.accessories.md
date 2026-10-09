@@ -2,13 +2,15 @@
 navigation:
   title: "Accessories"
   position: 0
-  parent: reference.equipment.md
-  icon: minecraft:iron_chestplate
+  parent: reference.skills.md
+  icon: minecraft:iron_sword
 ---
 
 # Accessories
 
 ## Equipping accessories
+
+- Browse items: <EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
 
 <ItemGrid>
   <ItemIcon id="jewelry:jewelers_kit" />
@@ -184,6 +186,8 @@ Rings and necklaces supply build attributes. Gem and netherite variants and name
 Rings and necklaces supply build attributes. Gem and netherite variants and named uniques are all shown. Witcher-specific additional jewelry is supported because Witcher is loaded.
 
 ### Rings
+
+- Browse items: <EmiSearch query="@additional_rpg_jewelry" />
 
 <ItemGrid>
   <ItemIcon id="additional_rpg_jewelry:aquamarine_ring" />
@@ -435,6 +439,8 @@ Relic families distinguish passive bonuses, effects that trigger on events and e
 
 ### Lesser relics
 
+- Browse items: <EmiSearch query="@more_relics" />
+
 <ItemGrid>
   <ItemIcon id="more_relics:lesser_proc_air_water" />
   <ItemIcon id="more_relics:lesser_proc_earth_nature" />
@@ -524,6 +530,8 @@ Relic families distinguish passive bonuses, effects that trigger on events and e
 
 ## Cataclysm accessories
 
+- Browse items: <EmiSearch query="@cataclysm" />
+
 These custom equipment items use their own effects and slot rules. Check the full tooltip before replacing jewelry or a relic.
 
 <ItemGrid>
@@ -574,10 +582,10 @@ Compare the attribute used by your ability, its trigger condition and the slot i
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Baseline, installed | Jewelry Add-On for the More RPG Classes Mods. |
-| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | Baseline, installed | A flexible and expandable accessory/equipment API for users and developers. |
-| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | Baseline, installed | 💍 Find precious gems deep down, and craft them into powerful jewelry! |
-| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Baseline, installed | This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics! |
-| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | Baseline, installed | 🎖 Unleash your true potential with powerful trinkets! 🔮 |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Adds jewelry for the additional More RPG Classes professions. | Baseline, installed | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | Provides expandable equipment slots for wearable accessories. | Baseline, installed | No separate item search |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | Adds mineable gems and craftable jewelry that improves combat attributes. | Baseline, installed | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Adds Relics accessories for the additional More RPG Classes professions. | Baseline, installed | <EmiSearch query="@more_relics" /> |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | Adds combat-enhancing trinkets for RPG Series character builds. | Baseline, installed | <EmiSearch query="@relics_rpgs" /> |

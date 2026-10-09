@@ -35,8 +35,8 @@ The packaged initial Iris settings have shaders disabled and Photon selected. An
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Complementary Shaders - Reimagined](images/catalog-HVnmMxH1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | Baseline, installed | Preserving the elements of Minecraft with exceptional quality, detail, and performance. |
-| ![Complementary Shaders - Unbound](images/catalog-R6NEzAwj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | Baseline, installed | Transforming the visuals of Minecraft with exceptional quality, detail, and performance. |
-| ![Photon Shaders](images/catalog-lLqFfGNs.png) [Photon Shaders](visuals.shader-packs.md) | Baseline, installed | A gameplay-focused shader pack with a semi-realistic style |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Complementary Shaders - Reimagined](images/catalog-HVnmMxH1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | A shader style that preserves Minecraft's visual character. | Baseline, installed | No separate item search |
+| ![Complementary Shaders - Unbound](images/catalog-R6NEzAwj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | A shader style with a more transformed appearance. | Baseline, installed | No separate item search |
+| ![Photon Shaders](images/catalog-lLqFfGNs.png) [Photon Shaders](visuals.shader-packs.md) | A gameplay-focused, semi-realistic shader style. | Baseline, installed | No separate item search |

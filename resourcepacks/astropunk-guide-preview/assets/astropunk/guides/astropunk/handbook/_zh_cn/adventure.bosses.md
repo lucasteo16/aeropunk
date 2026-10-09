@@ -20,6 +20,8 @@ item_ids:
 
 ## 炼狱飞龙
 
+- 浏览物品: <EmiSearch query="@block_factorys_bosses" />
+
 ![炼狱飞龙](images/encounters-bossesrise-infernal-dragon.png)
 
 阿什洛德，炼狱飞龙。来自 Bosses'Rise。橙色的有翼飞龙，拖着长尾。
@@ -44,7 +46,7 @@ item_ids:
 
 ## 巨型沙虫
 
-![巨型沙虫](images/nav-visual-block-factorys-bosses-sandworm.png)
+![巨型沙虫](images/final-boss-review-sandworm.png)
 
 斯洛克，巨型沙虫。来自 Bosses'Rise。会钻入沙地下方的分节巨虫。
 
@@ -68,6 +70,8 @@ item_ids:
 
 ## 海怪
 
+![海怪](images/final-boss-review-kraken.png)
+
 奈拉基斯，海怪。来自 Bosses'Rise。拥有多条触手的海怪。
 
 在主世界深海寻找 Kraken Ship，包括冷水与温水深海。
@@ -77,6 +81,8 @@ item_ids:
 ***
 
 ## 焰魔
+
+- 浏览物品: <EmiSearch query="@cataclysm" />
 
 ![焰魔](images/encounters-l_enders-cataclysm-ignis.png)
 
@@ -202,6 +208,10 @@ item_ids:
 
 ## 祈灵师
 
+- 浏览物品: <EmiSearch query="@illagerinvasion" />
+
+![祈灵师](images/final-boss-review-invoker.png)
+
 来自 Illager Invasion 的灾厄村民施法首领，在村庄袭击中出现，波次与难度取决于服务器设置。
 
 ***
@@ -216,11 +226,15 @@ item_ids:
 
 ## 末影龙
 
+![末影龙](images/final-boss-review-ender-dragon.png)
+
 Minecraft 的黑色有翼巨龙，位于末地中央岛屿。通过激活的末地传送门前往。
 
 ***
 
 ## 凋灵
+
+![凋灵](images/final-boss-review-wither.png)
 
 <ItemGrid>
 <ItemIcon id="minecraft:soul_sand" />
@@ -247,9 +261,9 @@ Dangerous 调整现有敌人的生命值与装备，不增加独立的首领种�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | 已安装基准版 | 🐉 Bring Souls-like Bosses into your world |
-| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | 已安装基准版 | Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health. |
-| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | 已安装基准版 | The illagers are back! Be ready to fight new foes. A port of Illager Expansion. |
-| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | 已安装基准版 | Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | 增加高难度首领与专属遭遇建筑。 | 已安装基准版 | <EmiSearch query="@block_factorys_bosses" /> |
+| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | 提供可调整的难度平衡机制，适应强力的模组玩家装备与能力。 | 已安装基准版 | 无独立物品查询 |
+| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | 增加新的灾厄村民敌人与相关遭遇内容。 | 已安装基准版 | <EmiSearch query="@illagerinvasion" /> |
+| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | 增加危险地下城、高难度首领与强力装备奖励。 | 已安装基准版 | <EmiSearch query="@cataclysm" /> |

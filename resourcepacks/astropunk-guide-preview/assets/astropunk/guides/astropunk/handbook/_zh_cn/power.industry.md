@@ -10,6 +10,8 @@ navigation:
 
 ## 冶金与化工
 
+- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@tfmg" />
+
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />
   <ItemIcon id="tfmg:coal_coke" />
@@ -93,6 +95,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 已安装基准版 | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 以社区维护版本为机械动力扩展重工业与石油加工。 | 已安装基准版 | <EmiSearch query="@tfmg" /> |

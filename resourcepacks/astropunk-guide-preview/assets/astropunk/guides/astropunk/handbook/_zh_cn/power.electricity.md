@@ -10,6 +10,8 @@ navigation:
 
 ## 发电与储能
 
+- 浏览物品: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="electroenergetics:alternator_rotor" />
   <ItemIcon id="electroenergetics:stator" />
@@ -81,6 +83,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 已安装基准版 | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 增加发电、输配电与电动机器，包括电力列车。 | 已安装基准版 | <EmiSearch query="@electroenergetics" /> |

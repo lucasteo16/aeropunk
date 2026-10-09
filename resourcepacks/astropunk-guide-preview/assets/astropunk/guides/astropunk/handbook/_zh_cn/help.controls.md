@@ -21,12 +21,14 @@ navigation:
 
 ## 手册
 
+- 浏览物品: <EmiSearch query="@guideme" />
+
 | 入口 | 当前按键 |
 | --- | --- |
 | 打开手册 | <KeyBind id="key.astropunk_handbook_access.open" /> |
 | 物品指南 | <KeyBind id="key.guideme.guide" /> |
 
-物品指南是悬停物品的上下文帮助，并不是整本手册的快捷键。当前实例中的自定义手册快捷键和物品栏按钮尚未正常工作。
+物品指南是悬停物品的上下文帮助，并不是整本手册的快捷键。
 
 若快捷键无法打开手册，可输入 <Color color="#F28CBD">/guidemec astropunk:handbook open</Color>。
 
@@ -60,8 +62,8 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | 已安装基准版 | 物品栏手册按钮与可配置快捷键。 |
-| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | 已安装基准版 | Adds a search bar to the Key-Bindings menu |
-| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | 已安装基准版 | in-UI trade refresh key |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | 提供手册入口与可点击的物品查询。 | 已安装基准版 | 无独立物品查询 |
+| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | 为按键绑定界面增加搜索与冲突筛选。 | 已安装基准版 | 无独立物品查询 |
+| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | 在交易界面增加刷新符合条件的村民交易的快捷操作。 | 已安装基准版 | 无独立物品查询 |

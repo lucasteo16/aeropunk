@@ -10,6 +10,8 @@ navigation:
 
 ## 洞穴作物与营养棒
 
+- 浏览物品: <EmiSearch query="@minersdelight" />
+
 <ItemGrid>
   <ItemIcon id="minersdelight:wild_cave_carrots" />
   <ItemIcon id="minersdelight:baked_cave_carrot" />
@@ -56,6 +58,8 @@ navigation:
 ***
 
 ## 地下食材
+
+- 浏览物品: <EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:arthropod" />
@@ -113,6 +117,8 @@ navigation:
 ***
 
 ## 鱿鱼与素食
+
+- 浏览物品: <EmiSearch query="@spawn" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:baked_squid" />
@@ -278,6 +284,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | 已安装基准版 | Farmer's Delight add-on for miners |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | 为 Farmer's Delight 增加采矿主题的食物与烹饪工具。 | 已安装基准版 | <EmiSearch query="@minersdelight" /> |

@@ -33,7 +33,9 @@ with zipfile.ZipFile(jar) as archive:
     for name in names:
         if name.endswith('.class'):
             contents = archive.read(name)
-            for banned in (b'PacketDistributor', b'RegisterPayloadHandlersEvent', b'DeferredRegister', b'java/lang/reflect', b'GuideBuilder', b'sendCommand'):
+            if b'GuideBuilder' in contents:
+                assert name == 'dev/astropunk/handbook/HandbookQueryGuide.class', name
+            for banned in (b'PacketDistributor', b'RegisterPayloadHandlersEvent', b'DeferredRegister', b'java/lang/reflect', b'sendCommand'):
                 assert banned not in contents, (name, banned)
 
 client = javap(jar, '-p', '-c', '-v', 'dev.astropunk.handbook.HandbookAccess')
@@ -59,5 +61,5 @@ print(f'Archive verified: {jar}')
 print(f'Archive size: {jar.stat().st_size} bytes')
 print(f'Archive SHA256: {hashlib.sha256(jar.read_bytes()).hexdigest()}')
 print(f'JUnit: {total} tests, zero failures, zero errors')
-print('Verified client distribution annotation, local public GuideME calls, F9 default, locale parity, dependency metadata and absence of bundled engine, guide registration, reflection or packet registration.')
+print('Verified client distribution annotation, local public GuideME calls, F9 default, locale parity, dependency metadata and public native query-guide registration and absence of bundled engine, reflection or packet registration.')
 print('\nExact released public signatures:\n' + released)

@@ -10,6 +10,8 @@ navigation:
 
 ## 螃蟹与海洋生物
 
+- 浏览物品: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@cataclysm" />
+
 <ItemGrid>
   <ItemIcon id="lendersdelight:amethyst_crab_meat_stick" />
   <ItemIcon id="lendersdelight:amethyst_crab_sandwich" />
@@ -224,6 +226,6 @@ Cataclysm 食材把烹饪与生物遭遇联系起来。先取得指定的生食�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 已安装基准版 | Adds 50+ dishes, linking L_Ender's Cataclysm and Farmer's Delight in a Vanilla style. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。 | 已安装基准版 | <EmiSearch query="@lendersdelight" /> |

@@ -2,13 +2,15 @@
 navigation:
   title: "使用饰品、遗物与饰品栏"
   position: 0
-  parent: reference.equipment.md
-  icon: minecraft:iron_chestplate
+  parent: reference.skills.md
+  icon: minecraft:iron_sword
 ---
 
 # 使用饰品、遗物与饰品栏
 
 ## 装备饰品
+
+- 浏览物品: <EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
 
 <ItemGrid>
   <ItemIcon id="jewelry:jewelers_kit" />
@@ -184,6 +186,8 @@ navigation:
 戒指与项链提供构筑属性。这里展示全部宝石、下界合金与独特变体。猎魔人已加载，因此也包含对应的扩展珠宝。
 
 ### 戒指
+
+- 浏览物品: <EmiSearch query="@additional_rpg_jewelry" />
 
 <ItemGrid>
   <ItemIcon id="additional_rpg_jewelry:aquamarine_ring" />
@@ -435,6 +439,8 @@ navigation:
 
 ### 低阶遗物
 
+- 浏览物品: <EmiSearch query="@more_relics" />
+
 <ItemGrid>
   <ItemIcon id="more_relics:lesser_proc_air_water" />
   <ItemIcon id="more_relics:lesser_proc_earth_nature" />
@@ -524,6 +530,8 @@ navigation:
 
 ## Cataclysm 饰品
 
+- 浏览物品: <EmiSearch query="@cataclysm" />
+
 这些特殊装备有各自效果与槽位规则。替换珠宝或遗物之前，先查看完整提示。
 
 <ItemGrid>
@@ -574,10 +582,10 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 已安装基准版 | Jewelry Add-On for the More RPG Classes Mods. |
-| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 已安装基准版 | A flexible and expandable accessory/equipment API for users and developers. |
-| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 已安装基准版 | 💍 Find precious gems deep down, and craft them into powerful jewelry! |
-| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 已安装基准版 | This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics! |
-| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 已安装基准版 | 🎖 Unleash your true potential with powerful trinkets! 🔮 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加首饰。 | 已安装基准版 | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 提供可扩展的饰品装备栏。 | 已安装基准版 | 无独立物品查询 |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 增加可开采宝石与可制作首饰，用于提升战斗属性。 | 已安装基准版 | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加 Relics 饰品。 | 已安装基准版 | <EmiSearch query="@more_relics" /> |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 为 RPG Series 角色搭配增加强化战斗能力的饰品。 | 已安装基准版 | <EmiSearch query="@relics_rpgs" /> |

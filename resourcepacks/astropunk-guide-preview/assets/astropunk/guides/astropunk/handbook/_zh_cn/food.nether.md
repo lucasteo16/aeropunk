@@ -10,6 +10,8 @@ navigation:
 
 ## 疣猪兽与炽足兽
 
+- 浏览物品: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+
 <ItemGrid>
   <ItemIcon id="minersdelight:spicy_hoglin_stew_cup" />
   <ItemIcon id="minersdelight:strider_stew_cup" />
@@ -300,6 +302,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 已安装基准版 | New Nether addon for Farmer's Delight |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | 已安装基准版 | <EmiSearch query="@mynethersdelight" /> |

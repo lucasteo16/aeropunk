@@ -2,8 +2,8 @@
 navigation:
   title: "选择武器与护甲"
   position: 0
-  parent: reference.equipment.md
-  icon: minecraft:iron_chestplate
+  parent: reference.skills.md
+  icon: minecraft:iron_sword
 ---
 
 # 选择武器与护甲
@@ -15,6 +15,8 @@ navigation:
 - [法术与技能](reference.skills.md) 查看所有支持的职业与首次绑定步骤。
 
 ### 弓箭手
+
+- 浏览物品: <EmiSearch query="@archers" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -40,6 +42,8 @@ navigation:
 
 ### 盗贼
 
+- 浏览物品: <EmiSearch query="@rogues" />
+
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
@@ -64,6 +68,8 @@ navigation:
 
 ### 狂战士
 
+- 浏览物品: <EmiSearch query="@berserker_rpg" />
+
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
@@ -76,6 +82,8 @@ navigation:
 
 ### 气功师
 
+- 浏览物品: <EmiSearch query="@forcemaster_rpg" />
+
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>
@@ -87,6 +95,8 @@ navigation:
 以拳套施展奥术打击。
 
 ### 奥术法师
+
+- 浏览物品: <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -124,6 +134,8 @@ navigation:
 
 ### 水系法师
 
+- 浏览物品: <EmiSearch query="@elemental_wizards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>
@@ -160,6 +172,8 @@ navigation:
 
 ### 圣骑士
 
+- 浏览物品: <EmiSearch query="@paladins" />
+
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>
@@ -184,6 +198,8 @@ navigation:
 
 ### 吟游诗人
 
+- 浏览物品: <EmiSearch query="@bards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
@@ -195,6 +211,8 @@ navigation:
 乐器攻击与辅助乐曲。
 
 ### 猎魔人剑术
+
+- 浏览物品: <EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -253,14 +271,34 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="archers:archer_armor_chest" /> | <ItemGrid>   <ItemIcon id="archers:archer_armor_head" />   <ItemIcon id="archers:archer_armor_chest" />   <ItemIcon id="archers:archer_armor_legs" />   <ItemIcon id="archers:archer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="archers:ranger_armor_chest" /> | <ItemGrid>   <ItemIcon id="archers:ranger_armor_head" />   <ItemIcon id="archers:ranger_armor_chest" />   <ItemIcon id="archers:ranger_armor_legs" />   <ItemIcon id="archers:ranger_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="archers:netherite_ranger_armor_chest" /> | <ItemGrid>   <ItemIcon id="archers:netherite_ranger_armor_head" />   <ItemIcon id="archers:netherite_ranger_armor_chest" />   <ItemIcon id="archers:netherite_ranger_armor_legs" />   <ItemIcon id="archers:netherite_ranger_armor_feet" /> </ItemGrid>  |
+<ItemLink id="archers:archer_armor_chest" />
 
+<ItemGrid>
+  <ItemIcon id="archers:archer_armor_head" />
+  <ItemIcon id="archers:archer_armor_chest" />
+  <ItemIcon id="archers:archer_armor_legs" />
+  <ItemIcon id="archers:archer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="archers:ranger_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers:ranger_armor_head" />
+  <ItemIcon id="archers:ranger_armor_chest" />
+  <ItemIcon id="archers:ranger_armor_legs" />
+  <ItemIcon id="archers:ranger_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="archers:netherite_ranger_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers:netherite_ranger_armor_head" />
+  <ItemIcon id="archers:netherite_ranger_armor_chest" />
+  <ItemIcon id="archers:netherite_ranger_armor_legs" />
+  <ItemIcon id="archers:netherite_ranger_armor_feet" />
+</ItemGrid>
 
 ***
 
@@ -270,20 +308,90 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+- 浏览物品: <EmiSearch query="@archers_expansion" />
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="archers_expansion:tundra_hunter_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:tundra_hunter_head" />   <ItemIcon id="archers_expansion:tundra_hunter_chest" />   <ItemIcon id="archers_expansion:tundra_hunter_legs" />   <ItemIcon id="archers_expansion:tundra_hunter_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:war_archer_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:war_archer_head" />   <ItemIcon id="archers_expansion:war_archer_chest" />   <ItemIcon id="archers_expansion:war_archer_legs" />   <ItemIcon id="archers_expansion:war_archer_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:deadeye_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:deadeye_head" />   <ItemIcon id="archers_expansion:deadeye_chest" />   <ItemIcon id="archers_expansion:deadeye_legs" />   <ItemIcon id="archers_expansion:deadeye_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:netherite_tundra_hunter_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:netherite_tundra_hunter_head" />   <ItemIcon id="archers_expansion:netherite_tundra_hunter_chest" />   <ItemIcon id="archers_expansion:netherite_tundra_hunter_legs" />   <ItemIcon id="archers_expansion:netherite_tundra_hunter_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:netherite_war_archer_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:netherite_war_archer_head" />   <ItemIcon id="archers_expansion:netherite_war_archer_chest" />   <ItemIcon id="archers_expansion:netherite_war_archer_legs" />   <ItemIcon id="archers_expansion:netherite_war_archer_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:netherite_deadeye_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:netherite_deadeye_head" />   <ItemIcon id="archers_expansion:netherite_deadeye_chest" />   <ItemIcon id="archers_expansion:netherite_deadeye_legs" />   <ItemIcon id="archers_expansion:netherite_deadeye_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:bounty_hunter_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:bounty_hunter_head" />   <ItemIcon id="archers_expansion:bounty_hunter_chest" />   <ItemIcon id="archers_expansion:bounty_hunter_legs" />   <ItemIcon id="archers_expansion:bounty_hunter_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:polar_stalker_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:polar_stalker_head" />   <ItemIcon id="archers_expansion:polar_stalker_chest" />   <ItemIcon id="archers_expansion:polar_stalker_legs" />   <ItemIcon id="archers_expansion:polar_stalker_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:sentinel_archer_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:sentinel_archer_head" />   <ItemIcon id="archers_expansion:sentinel_archer_chest" />   <ItemIcon id="archers_expansion:sentinel_archer_legs" />   <ItemIcon id="archers_expansion:sentinel_archer_feet" /> </ItemGrid>  |
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
+<ItemLink id="archers_expansion:tundra_hunter_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:tundra_hunter_head" />
+  <ItemIcon id="archers_expansion:tundra_hunter_chest" />
+  <ItemIcon id="archers_expansion:tundra_hunter_legs" />
+  <ItemIcon id="archers_expansion:tundra_hunter_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:war_archer_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:war_archer_head" />
+  <ItemIcon id="archers_expansion:war_archer_chest" />
+  <ItemIcon id="archers_expansion:war_archer_legs" />
+  <ItemIcon id="archers_expansion:war_archer_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:deadeye_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:deadeye_head" />
+  <ItemIcon id="archers_expansion:deadeye_chest" />
+  <ItemIcon id="archers_expansion:deadeye_legs" />
+  <ItemIcon id="archers_expansion:deadeye_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:netherite_tundra_hunter_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_head" />
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_chest" />
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_legs" />
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:netherite_war_archer_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:netherite_war_archer_head" />
+  <ItemIcon id="archers_expansion:netherite_war_archer_chest" />
+  <ItemIcon id="archers_expansion:netherite_war_archer_legs" />
+  <ItemIcon id="archers_expansion:netherite_war_archer_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:netherite_deadeye_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:netherite_deadeye_head" />
+  <ItemIcon id="archers_expansion:netherite_deadeye_chest" />
+  <ItemIcon id="archers_expansion:netherite_deadeye_legs" />
+  <ItemIcon id="archers_expansion:netherite_deadeye_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:bounty_hunter_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:bounty_hunter_head" />
+  <ItemIcon id="archers_expansion:bounty_hunter_chest" />
+  <ItemIcon id="archers_expansion:bounty_hunter_legs" />
+  <ItemIcon id="archers_expansion:bounty_hunter_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:polar_stalker_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:polar_stalker_head" />
+  <ItemIcon id="archers_expansion:polar_stalker_chest" />
+  <ItemIcon id="archers_expansion:polar_stalker_legs" />
+  <ItemIcon id="archers_expansion:polar_stalker_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:sentinel_archer_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:sentinel_archer_head" />
+  <ItemIcon id="archers_expansion:sentinel_archer_chest" />
+  <ItemIcon id="archers_expansion:sentinel_archer_legs" />
+  <ItemIcon id="archers_expansion:sentinel_archer_feet" />
+</ItemGrid>
 
 ***
 
@@ -337,17 +445,61 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="rogues:rogue_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:rogue_armor_head" />   <ItemIcon id="rogues:rogue_armor_chest" />   <ItemIcon id="rogues:rogue_armor_legs" />   <ItemIcon id="rogues:rogue_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:assassin_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:assassin_armor_head" />   <ItemIcon id="rogues:assassin_armor_chest" />   <ItemIcon id="rogues:assassin_armor_legs" />   <ItemIcon id="rogues:assassin_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:netherite_assassin_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:netherite_assassin_armor_head" />   <ItemIcon id="rogues:netherite_assassin_armor_chest" />   <ItemIcon id="rogues:netherite_assassin_armor_legs" />   <ItemIcon id="rogues:netherite_assassin_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:warrior_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:warrior_armor_head" />   <ItemIcon id="rogues:warrior_armor_chest" />   <ItemIcon id="rogues:warrior_armor_legs" />   <ItemIcon id="rogues:warrior_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:berserker_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:berserker_armor_head" />   <ItemIcon id="rogues:berserker_armor_chest" />   <ItemIcon id="rogues:berserker_armor_legs" />   <ItemIcon id="rogues:berserker_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:netherite_berserker_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:netherite_berserker_armor_head" />   <ItemIcon id="rogues:netherite_berserker_armor_chest" />   <ItemIcon id="rogues:netherite_berserker_armor_legs" />   <ItemIcon id="rogues:netherite_berserker_armor_feet" /> </ItemGrid>  |
+<ItemLink id="rogues:rogue_armor_chest" />
 
+<ItemGrid>
+  <ItemIcon id="rogues:rogue_armor_head" />
+  <ItemIcon id="rogues:rogue_armor_chest" />
+  <ItemIcon id="rogues:rogue_armor_legs" />
+  <ItemIcon id="rogues:rogue_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:assassin_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:assassin_armor_head" />
+  <ItemIcon id="rogues:assassin_armor_chest" />
+  <ItemIcon id="rogues:assassin_armor_legs" />
+  <ItemIcon id="rogues:assassin_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:netherite_assassin_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:netherite_assassin_armor_head" />
+  <ItemIcon id="rogues:netherite_assassin_armor_chest" />
+  <ItemIcon id="rogues:netherite_assassin_armor_legs" />
+  <ItemIcon id="rogues:netherite_assassin_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:warrior_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:warrior_armor_head" />
+  <ItemIcon id="rogues:warrior_armor_chest" />
+  <ItemIcon id="rogues:warrior_armor_legs" />
+  <ItemIcon id="rogues:warrior_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:berserker_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:berserker_armor_head" />
+  <ItemIcon id="rogues:berserker_armor_chest" />
+  <ItemIcon id="rogues:berserker_armor_legs" />
+  <ItemIcon id="rogues:berserker_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:netherite_berserker_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:netherite_berserker_armor_head" />
+  <ItemIcon id="rogues:netherite_berserker_armor_chest" />
+  <ItemIcon id="rogues:netherite_berserker_armor_legs" />
+  <ItemIcon id="rogues:netherite_berserker_armor_feet" />
+</ItemGrid>
 
 ***
 
@@ -383,15 +535,43 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="berserker_rpg:wildling_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:wildling_head" />   <ItemIcon id="berserker_rpg:wildling_chest" />   <ItemIcon id="berserker_rpg:wildling_legs" />   <ItemIcon id="berserker_rpg:wildling_feet" /> </ItemGrid>  |
-| <ItemLink id="berserker_rpg:northling_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:northling_head" />   <ItemIcon id="berserker_rpg:northling_chest" />   <ItemIcon id="berserker_rpg:northling_legs" />   <ItemIcon id="berserker_rpg:northling_feet" /> </ItemGrid>  |
-| <ItemLink id="berserker_rpg:netherite_northling_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:netherite_northling_head" />   <ItemIcon id="berserker_rpg:netherite_northling_chest" />   <ItemIcon id="berserker_rpg:netherite_northling_legs" />   <ItemIcon id="berserker_rpg:netherite_northling_feet" /> </ItemGrid>  |
-| <ItemLink id="berserker_rpg:warlord_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:warlord_head" />   <ItemIcon id="berserker_rpg:warlord_chest" />   <ItemIcon id="berserker_rpg:warlord_legs" />   <ItemIcon id="berserker_rpg:warlord_feet" /> </ItemGrid>  |
+<ItemLink id="berserker_rpg:wildling_chest" />
 
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:wildling_head" />
+  <ItemIcon id="berserker_rpg:wildling_chest" />
+  <ItemIcon id="berserker_rpg:wildling_legs" />
+  <ItemIcon id="berserker_rpg:wildling_feet" />
+</ItemGrid>
+
+<ItemLink id="berserker_rpg:northling_chest" />
+
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:northling_head" />
+  <ItemIcon id="berserker_rpg:northling_chest" />
+  <ItemIcon id="berserker_rpg:northling_legs" />
+  <ItemIcon id="berserker_rpg:northling_feet" />
+</ItemGrid>
+
+<ItemLink id="berserker_rpg:netherite_northling_chest" />
+
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:netherite_northling_head" />
+  <ItemIcon id="berserker_rpg:netherite_northling_chest" />
+  <ItemIcon id="berserker_rpg:netherite_northling_legs" />
+  <ItemIcon id="berserker_rpg:netherite_northling_feet" />
+</ItemGrid>
+
+<ItemLink id="berserker_rpg:warlord_chest" />
+
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:warlord_head" />
+  <ItemIcon id="berserker_rpg:warlord_chest" />
+  <ItemIcon id="berserker_rpg:warlord_legs" />
+  <ItemIcon id="berserker_rpg:warlord_feet" />
+</ItemGrid>
 
 ***
 
@@ -425,15 +605,43 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="forcemaster_rpg:oriene_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:oriene_head" />   <ItemIcon id="forcemaster_rpg:oriene_chest" />   <ItemIcon id="forcemaster_rpg:oriene_legs" />   <ItemIcon id="forcemaster_rpg:oriene_feet" /> </ItemGrid>  |
-| <ItemLink id="forcemaster_rpg:phasleb_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:phasleb_head" />   <ItemIcon id="forcemaster_rpg:phasleb_chest" />   <ItemIcon id="forcemaster_rpg:phasleb_legs" />   <ItemIcon id="forcemaster_rpg:phasleb_feet" /> </ItemGrid>  |
-| <ItemLink id="forcemaster_rpg:aken_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:aken_head" />   <ItemIcon id="forcemaster_rpg:aken_chest" />   <ItemIcon id="forcemaster_rpg:aken_legs" />   <ItemIcon id="forcemaster_rpg:aken_feet" /> </ItemGrid>  |
-| <ItemLink id="forcemaster_rpg:billporon_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:billporon_head" />   <ItemIcon id="forcemaster_rpg:billporon_chest" />   <ItemIcon id="forcemaster_rpg:billporon_legs" />   <ItemIcon id="forcemaster_rpg:billporon_feet" /> </ItemGrid>  |
+<ItemLink id="forcemaster_rpg:oriene_chest" />
 
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:oriene_head" />
+  <ItemIcon id="forcemaster_rpg:oriene_chest" />
+  <ItemIcon id="forcemaster_rpg:oriene_legs" />
+  <ItemIcon id="forcemaster_rpg:oriene_feet" />
+</ItemGrid>
+
+<ItemLink id="forcemaster_rpg:phasleb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:phasleb_head" />
+  <ItemIcon id="forcemaster_rpg:phasleb_chest" />
+  <ItemIcon id="forcemaster_rpg:phasleb_legs" />
+  <ItemIcon id="forcemaster_rpg:phasleb_feet" />
+</ItemGrid>
+
+<ItemLink id="forcemaster_rpg:aken_chest" />
+
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:aken_head" />
+  <ItemIcon id="forcemaster_rpg:aken_chest" />
+  <ItemIcon id="forcemaster_rpg:aken_legs" />
+  <ItemIcon id="forcemaster_rpg:aken_feet" />
+</ItemGrid>
+
+<ItemLink id="forcemaster_rpg:billporon_chest" />
+
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:billporon_head" />
+  <ItemIcon id="forcemaster_rpg:billporon_chest" />
+  <ItemIcon id="forcemaster_rpg:billporon_legs" />
+  <ItemIcon id="forcemaster_rpg:billporon_feet" />
+</ItemGrid>
 
 ***
 
@@ -479,18 +687,70 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="wizards:wizard_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:wizard_robe_head" />   <ItemIcon id="wizards:wizard_robe_chest" />   <ItemIcon id="wizards:wizard_robe_legs" />   <ItemIcon id="wizards:wizard_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:arcane_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:arcane_robe_head" />   <ItemIcon id="wizards:arcane_robe_chest" />   <ItemIcon id="wizards:arcane_robe_legs" />   <ItemIcon id="wizards:arcane_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:fire_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:fire_robe_head" />   <ItemIcon id="wizards:fire_robe_chest" />   <ItemIcon id="wizards:fire_robe_legs" />   <ItemIcon id="wizards:fire_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:frost_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:frost_robe_head" />   <ItemIcon id="wizards:frost_robe_chest" />   <ItemIcon id="wizards:frost_robe_legs" />   <ItemIcon id="wizards:frost_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:netherite_arcane_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:netherite_arcane_robe_head" />   <ItemIcon id="wizards:netherite_arcane_robe_chest" />   <ItemIcon id="wizards:netherite_arcane_robe_legs" />   <ItemIcon id="wizards:netherite_arcane_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:netherite_fire_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:netherite_fire_robe_head" />   <ItemIcon id="wizards:netherite_fire_robe_chest" />   <ItemIcon id="wizards:netherite_fire_robe_legs" />   <ItemIcon id="wizards:netherite_fire_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:netherite_frost_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:netherite_frost_robe_head" />   <ItemIcon id="wizards:netherite_frost_robe_chest" />   <ItemIcon id="wizards:netherite_frost_robe_legs" />   <ItemIcon id="wizards:netherite_frost_robe_feet" /> </ItemGrid>  |
+<ItemLink id="wizards:wizard_robe_chest" />
 
+<ItemGrid>
+  <ItemIcon id="wizards:wizard_robe_head" />
+  <ItemIcon id="wizards:wizard_robe_chest" />
+  <ItemIcon id="wizards:wizard_robe_legs" />
+  <ItemIcon id="wizards:wizard_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:arcane_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:arcane_robe_head" />
+  <ItemIcon id="wizards:arcane_robe_chest" />
+  <ItemIcon id="wizards:arcane_robe_legs" />
+  <ItemIcon id="wizards:arcane_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:fire_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:fire_robe_head" />
+  <ItemIcon id="wizards:fire_robe_chest" />
+  <ItemIcon id="wizards:fire_robe_legs" />
+  <ItemIcon id="wizards:fire_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:frost_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:frost_robe_head" />
+  <ItemIcon id="wizards:frost_robe_chest" />
+  <ItemIcon id="wizards:frost_robe_legs" />
+  <ItemIcon id="wizards:frost_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:netherite_arcane_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:netherite_arcane_robe_head" />
+  <ItemIcon id="wizards:netherite_arcane_robe_chest" />
+  <ItemIcon id="wizards:netherite_arcane_robe_legs" />
+  <ItemIcon id="wizards:netherite_arcane_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:netherite_fire_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:netherite_fire_robe_head" />
+  <ItemIcon id="wizards:netherite_fire_robe_chest" />
+  <ItemIcon id="wizards:netherite_fire_robe_legs" />
+  <ItemIcon id="wizards:netherite_fire_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:netherite_frost_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:netherite_frost_robe_head" />
+  <ItemIcon id="wizards:netherite_frost_robe_chest" />
+  <ItemIcon id="wizards:netherite_frost_robe_legs" />
+  <ItemIcon id="wizards:netherite_frost_robe_feet" />
+</ItemGrid>
 
 ***
 
@@ -542,21 +802,97 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="elemental_wizards_rpg:elemental_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:elemental_head" />   <ItemIcon id="elemental_wizards_rpg:elemental_chest" />   <ItemIcon id="elemental_wizards_rpg:elemental_legs" />   <ItemIcon id="elemental_wizards_rpg:elemental_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:kelp_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:kelp_head" />   <ItemIcon id="elemental_wizards_rpg:kelp_chest" />   <ItemIcon id="elemental_wizards_rpg:kelp_legs" />   <ItemIcon id="elemental_wizards_rpg:kelp_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:dripstone_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:dripstone_head" />   <ItemIcon id="elemental_wizards_rpg:dripstone_chest" />   <ItemIcon id="elemental_wizards_rpg:dripstone_legs" />   <ItemIcon id="elemental_wizards_rpg:dripstone_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:wind_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:wind_head" />   <ItemIcon id="elemental_wizards_rpg:wind_chest" />   <ItemIcon id="elemental_wizards_rpg:wind_legs" />   <ItemIcon id="elemental_wizards_rpg:wind_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:netherite_kelp_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_head" />   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_chest" />   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_legs" />   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:netherite_dripstone_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_head" />   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_chest" />   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_legs" />   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:netherite_wind_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:netherite_wind_head" />   <ItemIcon id="elemental_wizards_rpg:netherite_wind_chest" />   <ItemIcon id="elemental_wizards_rpg:netherite_wind_legs" />   <ItemIcon id="elemental_wizards_rpg:netherite_wind_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:hurricane_robe_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_head" />   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_chest" />   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_legs" />   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:mountain_robe_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:mountain_robe_head" />   <ItemIcon id="elemental_wizards_rpg:mountain_robe_chest" />   <ItemIcon id="elemental_wizards_rpg:mountain_robe_legs" />   <ItemIcon id="elemental_wizards_rpg:mountain_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:ocean_robe_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:ocean_robe_head" />   <ItemIcon id="elemental_wizards_rpg:ocean_robe_chest" />   <ItemIcon id="elemental_wizards_rpg:ocean_robe_legs" />   <ItemIcon id="elemental_wizards_rpg:ocean_robe_feet" /> </ItemGrid>  |
+<ItemLink id="elemental_wizards_rpg:elemental_chest" />
 
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:elemental_head" />
+  <ItemIcon id="elemental_wizards_rpg:elemental_chest" />
+  <ItemIcon id="elemental_wizards_rpg:elemental_legs" />
+  <ItemIcon id="elemental_wizards_rpg:elemental_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:kelp_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:kelp_head" />
+  <ItemIcon id="elemental_wizards_rpg:kelp_chest" />
+  <ItemIcon id="elemental_wizards_rpg:kelp_legs" />
+  <ItemIcon id="elemental_wizards_rpg:kelp_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:dripstone_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:dripstone_head" />
+  <ItemIcon id="elemental_wizards_rpg:dripstone_chest" />
+  <ItemIcon id="elemental_wizards_rpg:dripstone_legs" />
+  <ItemIcon id="elemental_wizards_rpg:dripstone_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wind_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:wind_head" />
+  <ItemIcon id="elemental_wizards_rpg:wind_chest" />
+  <ItemIcon id="elemental_wizards_rpg:wind_legs" />
+  <ItemIcon id="elemental_wizards_rpg:wind_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:netherite_kelp_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_head" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_chest" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_legs" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:netherite_dripstone_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_head" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_chest" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_legs" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:netherite_wind_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_head" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_chest" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_legs" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:hurricane_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_head" />
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_chest" />
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_legs" />
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:mountain_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_head" />
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_chest" />
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_legs" />
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:ocean_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_head" />
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_chest" />
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_legs" />
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_feet" />
+</ItemGrid>
 
 ***
 
@@ -626,17 +962,61 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="paladins:paladin_armor_chest" /> | <ItemGrid>   <ItemIcon id="paladins:paladin_armor_head" />   <ItemIcon id="paladins:paladin_armor_chest" />   <ItemIcon id="paladins:paladin_armor_legs" />   <ItemIcon id="paladins:paladin_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:crusader_armor_chest" /> | <ItemGrid>   <ItemIcon id="paladins:crusader_armor_head" />   <ItemIcon id="paladins:crusader_armor_chest" />   <ItemIcon id="paladins:crusader_armor_legs" />   <ItemIcon id="paladins:crusader_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:netherite_crusader_armor_chest" /> | <ItemGrid>   <ItemIcon id="paladins:netherite_crusader_armor_head" />   <ItemIcon id="paladins:netherite_crusader_armor_chest" />   <ItemIcon id="paladins:netherite_crusader_armor_legs" />   <ItemIcon id="paladins:netherite_crusader_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:priest_robe_chest" /> | <ItemGrid>   <ItemIcon id="paladins:priest_robe_head" />   <ItemIcon id="paladins:priest_robe_chest" />   <ItemIcon id="paladins:priest_robe_legs" />   <ItemIcon id="paladins:priest_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:prior_robe_chest" /> | <ItemGrid>   <ItemIcon id="paladins:prior_robe_head" />   <ItemIcon id="paladins:prior_robe_chest" />   <ItemIcon id="paladins:prior_robe_legs" />   <ItemIcon id="paladins:prior_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:netherite_prior_robe_chest" /> | <ItemGrid>   <ItemIcon id="paladins:netherite_prior_robe_head" />   <ItemIcon id="paladins:netherite_prior_robe_chest" />   <ItemIcon id="paladins:netherite_prior_robe_legs" />   <ItemIcon id="paladins:netherite_prior_robe_feet" /> </ItemGrid>  |
+<ItemLink id="paladins:paladin_armor_chest" />
 
+<ItemGrid>
+  <ItemIcon id="paladins:paladin_armor_head" />
+  <ItemIcon id="paladins:paladin_armor_chest" />
+  <ItemIcon id="paladins:paladin_armor_legs" />
+  <ItemIcon id="paladins:paladin_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:crusader_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:crusader_armor_head" />
+  <ItemIcon id="paladins:crusader_armor_chest" />
+  <ItemIcon id="paladins:crusader_armor_legs" />
+  <ItemIcon id="paladins:crusader_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:netherite_crusader_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:netherite_crusader_armor_head" />
+  <ItemIcon id="paladins:netherite_crusader_armor_chest" />
+  <ItemIcon id="paladins:netherite_crusader_armor_legs" />
+  <ItemIcon id="paladins:netherite_crusader_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:priest_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:priest_robe_head" />
+  <ItemIcon id="paladins:priest_robe_chest" />
+  <ItemIcon id="paladins:priest_robe_legs" />
+  <ItemIcon id="paladins:priest_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:prior_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:prior_robe_head" />
+  <ItemIcon id="paladins:prior_robe_chest" />
+  <ItemIcon id="paladins:prior_robe_legs" />
+  <ItemIcon id="paladins:prior_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:netherite_prior_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:netherite_prior_robe_head" />
+  <ItemIcon id="paladins:netherite_prior_robe_chest" />
+  <ItemIcon id="paladins:netherite_prior_robe_legs" />
+  <ItemIcon id="paladins:netherite_prior_robe_feet" />
+</ItemGrid>
 
 ***
 
@@ -696,15 +1076,43 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="bards_rpg:entertainer_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:entertainer_garb_head" />   <ItemIcon id="bards_rpg:entertainer_garb_chest" />   <ItemIcon id="bards_rpg:entertainer_garb_legs" />   <ItemIcon id="bards_rpg:entertainer_garb_feet" /> </ItemGrid>  |
-| <ItemLink id="bards_rpg:troubadour_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:troubadour_garb_head" />   <ItemIcon id="bards_rpg:troubadour_garb_chest" />   <ItemIcon id="bards_rpg:troubadour_garb_legs" />   <ItemIcon id="bards_rpg:troubadour_garb_feet" /> </ItemGrid>  |
-| <ItemLink id="bards_rpg:netherite_troubadour_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:netherite_troubadour_garb_head" />   <ItemIcon id="bards_rpg:netherite_troubadour_garb_chest" />   <ItemIcon id="bards_rpg:netherite_troubadour_garb_legs" />   <ItemIcon id="bards_rpg:netherite_troubadour_garb_feet" /> </ItemGrid>  |
-| <ItemLink id="bards_rpg:storyteller_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:storyteller_garb_head" />   <ItemIcon id="bards_rpg:storyteller_garb_chest" />   <ItemIcon id="bards_rpg:storyteller_garb_legs" />   <ItemIcon id="bards_rpg:storyteller_garb_feet" /> </ItemGrid>  |
+<ItemLink id="bards_rpg:entertainer_garb_chest" />
 
+<ItemGrid>
+  <ItemIcon id="bards_rpg:entertainer_garb_head" />
+  <ItemIcon id="bards_rpg:entertainer_garb_chest" />
+  <ItemIcon id="bards_rpg:entertainer_garb_legs" />
+  <ItemIcon id="bards_rpg:entertainer_garb_feet" />
+</ItemGrid>
+
+<ItemLink id="bards_rpg:troubadour_garb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="bards_rpg:troubadour_garb_head" />
+  <ItemIcon id="bards_rpg:troubadour_garb_chest" />
+  <ItemIcon id="bards_rpg:troubadour_garb_legs" />
+  <ItemIcon id="bards_rpg:troubadour_garb_feet" />
+</ItemGrid>
+
+<ItemLink id="bards_rpg:netherite_troubadour_garb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_head" />
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_chest" />
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_legs" />
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_feet" />
+</ItemGrid>
+
+<ItemLink id="bards_rpg:storyteller_garb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="bards_rpg:storyteller_garb_head" />
+  <ItemIcon id="bards_rpg:storyteller_garb_chest" />
+  <ItemIcon id="bards_rpg:storyteller_garb_legs" />
+  <ItemIcon id="bards_rpg:storyteller_garb_feet" />
+</ItemGrid>
 
 ***
 
@@ -754,32 +1162,196 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="witcher_rpg:witcher_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:witcher_head" />   <ItemIcon id="witcher_rpg:witcher_chest" />   <ItemIcon id="witcher_rpg:witcher_legs" />   <ItemIcon id="witcher_rpg:witcher_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:feline_head" />   <ItemIcon id="witcher_rpg:feline_chest" />   <ItemIcon id="witcher_rpg:feline_legs" />   <ItemIcon id="witcher_rpg:feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_feline_head" />   <ItemIcon id="witcher_rpg:enhanced_feline_chest" />   <ItemIcon id="witcher_rpg:enhanced_feline_legs" />   <ItemIcon id="witcher_rpg:enhanced_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_feline_head" />   <ItemIcon id="witcher_rpg:superior_feline_chest" />   <ItemIcon id="witcher_rpg:superior_feline_legs" />   <ItemIcon id="witcher_rpg:superior_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_feline_head" />   <ItemIcon id="witcher_rpg:mastercrafted_feline_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_feline_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_feline_head" />   <ItemIcon id="witcher_rpg:grandmaster_feline_chest" />   <ItemIcon id="witcher_rpg:grandmaster_feline_legs" />   <ItemIcon id="witcher_rpg:grandmaster_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:griffin_head" />   <ItemIcon id="witcher_rpg:griffin_chest" />   <ItemIcon id="witcher_rpg:griffin_legs" />   <ItemIcon id="witcher_rpg:griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_griffin_head" />   <ItemIcon id="witcher_rpg:enhanced_griffin_chest" />   <ItemIcon id="witcher_rpg:enhanced_griffin_legs" />   <ItemIcon id="witcher_rpg:enhanced_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_griffin_head" />   <ItemIcon id="witcher_rpg:superior_griffin_chest" />   <ItemIcon id="witcher_rpg:superior_griffin_legs" />   <ItemIcon id="witcher_rpg:superior_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_griffin_head" />   <ItemIcon id="witcher_rpg:mastercrafted_griffin_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_griffin_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_griffin_head" />   <ItemIcon id="witcher_rpg:grandmaster_griffin_chest" />   <ItemIcon id="witcher_rpg:grandmaster_griffin_legs" />   <ItemIcon id="witcher_rpg:grandmaster_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:wolven_head" />   <ItemIcon id="witcher_rpg:wolven_chest" />   <ItemIcon id="witcher_rpg:wolven_legs" />   <ItemIcon id="witcher_rpg:wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_wolven_head" />   <ItemIcon id="witcher_rpg:enhanced_wolven_chest" />   <ItemIcon id="witcher_rpg:enhanced_wolven_legs" />   <ItemIcon id="witcher_rpg:enhanced_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_wolven_head" />   <ItemIcon id="witcher_rpg:superior_wolven_chest" />   <ItemIcon id="witcher_rpg:superior_wolven_legs" />   <ItemIcon id="witcher_rpg:superior_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_wolven_head" />   <ItemIcon id="witcher_rpg:mastercrafted_wolven_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_wolven_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_wolven_head" />   <ItemIcon id="witcher_rpg:grandmaster_wolven_chest" />   <ItemIcon id="witcher_rpg:grandmaster_wolven_legs" />   <ItemIcon id="witcher_rpg:grandmaster_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:ursine_head" />   <ItemIcon id="witcher_rpg:ursine_chest" />   <ItemIcon id="witcher_rpg:ursine_legs" />   <ItemIcon id="witcher_rpg:ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_ursine_head" />   <ItemIcon id="witcher_rpg:enhanced_ursine_chest" />   <ItemIcon id="witcher_rpg:enhanced_ursine_legs" />   <ItemIcon id="witcher_rpg:enhanced_ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_ursine_head" />   <ItemIcon id="witcher_rpg:superior_ursine_chest" />   <ItemIcon id="witcher_rpg:superior_ursine_legs" />   <ItemIcon id="witcher_rpg:superior_ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_ursine_head" />   <ItemIcon id="witcher_rpg:mastercrafted_ursine_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_ursine_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_ursine_head" />   <ItemIcon id="witcher_rpg:grandmaster_ursine_chest" />   <ItemIcon id="witcher_rpg:grandmaster_ursine_legs" />   <ItemIcon id="witcher_rpg:grandmaster_ursine_feet" /> </ItemGrid>  |
+<ItemLink id="witcher_rpg:witcher_chest" />
 
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:witcher_head" />
+  <ItemIcon id="witcher_rpg:witcher_chest" />
+  <ItemIcon id="witcher_rpg:witcher_legs" />
+  <ItemIcon id="witcher_rpg:witcher_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:feline_head" />
+  <ItemIcon id="witcher_rpg:feline_chest" />
+  <ItemIcon id="witcher_rpg:feline_legs" />
+  <ItemIcon id="witcher_rpg:feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_feline_head" />
+  <ItemIcon id="witcher_rpg:enhanced_feline_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_feline_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_feline_head" />
+  <ItemIcon id="witcher_rpg:superior_feline_chest" />
+  <ItemIcon id="witcher_rpg:superior_feline_legs" />
+  <ItemIcon id="witcher_rpg:superior_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_feline_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_feline_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_feline_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:griffin_head" />
+  <ItemIcon id="witcher_rpg:griffin_chest" />
+  <ItemIcon id="witcher_rpg:griffin_legs" />
+  <ItemIcon id="witcher_rpg:griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_griffin_head" />
+  <ItemIcon id="witcher_rpg:enhanced_griffin_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_griffin_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_griffin_head" />
+  <ItemIcon id="witcher_rpg:superior_griffin_chest" />
+  <ItemIcon id="witcher_rpg:superior_griffin_legs" />
+  <ItemIcon id="witcher_rpg:superior_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:wolven_head" />
+  <ItemIcon id="witcher_rpg:wolven_chest" />
+  <ItemIcon id="witcher_rpg:wolven_legs" />
+  <ItemIcon id="witcher_rpg:wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_wolven_head" />
+  <ItemIcon id="witcher_rpg:enhanced_wolven_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_wolven_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_wolven_head" />
+  <ItemIcon id="witcher_rpg:superior_wolven_chest" />
+  <ItemIcon id="witcher_rpg:superior_wolven_legs" />
+  <ItemIcon id="witcher_rpg:superior_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:ursine_head" />
+  <ItemIcon id="witcher_rpg:ursine_chest" />
+  <ItemIcon id="witcher_rpg:ursine_legs" />
+  <ItemIcon id="witcher_rpg:ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_ursine_head" />
+  <ItemIcon id="witcher_rpg:enhanced_ursine_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_ursine_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_ursine_head" />
+  <ItemIcon id="witcher_rpg:superior_ursine_chest" />
+  <ItemIcon id="witcher_rpg:superior_ursine_legs" />
+  <ItemIcon id="witcher_rpg:superior_ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_feet" />
+</ItemGrid>
 
 ***
 
@@ -789,27 +1361,153 @@ navigation:
 
 ### 护甲套装
 
-每行展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
+- 浏览物品: <EmiSearch query="@armory_rpgs" />
 
-| 套装 | 部件 |
-| --- | --- |
-| <ItemLink id="armory_rpgs:astral_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:astral_robe_head" />   <ItemIcon id="armory_rpgs:astral_robe_chest" />   <ItemIcon id="armory_rpgs:astral_robe_legs" />   <ItemIcon id="armory_rpgs:astral_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:scarlet_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:scarlet_robe_head" />   <ItemIcon id="armory_rpgs:scarlet_robe_chest" />   <ItemIcon id="armory_rpgs:scarlet_robe_legs" />   <ItemIcon id="armory_rpgs:scarlet_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:glacier_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:glacier_robe_head" />   <ItemIcon id="armory_rpgs:glacier_robe_chest" />   <ItemIcon id="armory_rpgs:glacier_robe_legs" />   <ItemIcon id="armory_rpgs:glacier_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:avatar_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:avatar_robe_head" />   <ItemIcon id="armory_rpgs:avatar_robe_chest" />   <ItemIcon id="armory_rpgs:avatar_robe_legs" />   <ItemIcon id="armory_rpgs:avatar_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:justicar_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:justicar_armor_head" />   <ItemIcon id="armory_rpgs:justicar_armor_chest" />   <ItemIcon id="armory_rpgs:justicar_armor_legs" />   <ItemIcon id="armory_rpgs:justicar_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:destroyer_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:destroyer_armor_head" />   <ItemIcon id="armory_rpgs:destroyer_armor_chest" />   <ItemIcon id="armory_rpgs:destroyer_armor_legs" />   <ItemIcon id="armory_rpgs:destroyer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:deathmantle_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:deathmantle_armor_head" />   <ItemIcon id="armory_rpgs:deathmantle_armor_chest" />   <ItemIcon id="armory_rpgs:deathmantle_armor_legs" />   <ItemIcon id="armory_rpgs:deathmantle_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:strider_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:strider_armor_head" />   <ItemIcon id="armory_rpgs:strider_armor_chest" />   <ItemIcon id="armory_rpgs:strider_armor_legs" />   <ItemIcon id="armory_rpgs:strider_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:tempest_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:tempest_robe_head" />   <ItemIcon id="armory_rpgs:tempest_robe_chest" />   <ItemIcon id="armory_rpgs:tempest_robe_legs" />   <ItemIcon id="armory_rpgs:tempest_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:smouldering_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:smouldering_robe_head" />   <ItemIcon id="armory_rpgs:smouldering_robe_chest" />   <ItemIcon id="armory_rpgs:smouldering_robe_legs" />   <ItemIcon id="armory_rpgs:smouldering_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:rimeweave_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:rimeweave_robe_head" />   <ItemIcon id="armory_rpgs:rimeweave_robe_chest" />   <ItemIcon id="armory_rpgs:rimeweave_robe_legs" />   <ItemIcon id="armory_rpgs:rimeweave_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:absolution_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:absolution_robe_head" />   <ItemIcon id="armory_rpgs:absolution_robe_chest" />   <ItemIcon id="armory_rpgs:absolution_robe_legs" />   <ItemIcon id="armory_rpgs:absolution_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:lightbringer_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:lightbringer_armor_head" />   <ItemIcon id="armory_rpgs:lightbringer_armor_chest" />   <ItemIcon id="armory_rpgs:lightbringer_armor_legs" />   <ItemIcon id="armory_rpgs:lightbringer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:onslaught_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:onslaught_armor_head" />   <ItemIcon id="armory_rpgs:onslaught_armor_chest" />   <ItemIcon id="armory_rpgs:onslaught_armor_legs" />   <ItemIcon id="armory_rpgs:onslaught_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:slayer_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:slayer_armor_head" />   <ItemIcon id="armory_rpgs:slayer_armor_chest" />   <ItemIcon id="armory_rpgs:slayer_armor_legs" />   <ItemIcon id="armory_rpgs:slayer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:riftstalker_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:riftstalker_armor_head" />   <ItemIcon id="armory_rpgs:riftstalker_armor_chest" />   <ItemIcon id="armory_rpgs:riftstalker_armor_legs" />   <ItemIcon id="armory_rpgs:riftstalker_armor_feet" /> </ItemGrid>  |
+每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
+<ItemLink id="armory_rpgs:astral_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:astral_robe_head" />
+  <ItemIcon id="armory_rpgs:astral_robe_chest" />
+  <ItemIcon id="armory_rpgs:astral_robe_legs" />
+  <ItemIcon id="armory_rpgs:astral_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:scarlet_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:scarlet_robe_head" />
+  <ItemIcon id="armory_rpgs:scarlet_robe_chest" />
+  <ItemIcon id="armory_rpgs:scarlet_robe_legs" />
+  <ItemIcon id="armory_rpgs:scarlet_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:glacier_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:glacier_robe_head" />
+  <ItemIcon id="armory_rpgs:glacier_robe_chest" />
+  <ItemIcon id="armory_rpgs:glacier_robe_legs" />
+  <ItemIcon id="armory_rpgs:glacier_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:avatar_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:avatar_robe_head" />
+  <ItemIcon id="armory_rpgs:avatar_robe_chest" />
+  <ItemIcon id="armory_rpgs:avatar_robe_legs" />
+  <ItemIcon id="armory_rpgs:avatar_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:justicar_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:justicar_armor_head" />
+  <ItemIcon id="armory_rpgs:justicar_armor_chest" />
+  <ItemIcon id="armory_rpgs:justicar_armor_legs" />
+  <ItemIcon id="armory_rpgs:justicar_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:destroyer_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:destroyer_armor_head" />
+  <ItemIcon id="armory_rpgs:destroyer_armor_chest" />
+  <ItemIcon id="armory_rpgs:destroyer_armor_legs" />
+  <ItemIcon id="armory_rpgs:destroyer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:deathmantle_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:deathmantle_armor_head" />
+  <ItemIcon id="armory_rpgs:deathmantle_armor_chest" />
+  <ItemIcon id="armory_rpgs:deathmantle_armor_legs" />
+  <ItemIcon id="armory_rpgs:deathmantle_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:strider_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:strider_armor_head" />
+  <ItemIcon id="armory_rpgs:strider_armor_chest" />
+  <ItemIcon id="armory_rpgs:strider_armor_legs" />
+  <ItemIcon id="armory_rpgs:strider_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:tempest_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:tempest_robe_head" />
+  <ItemIcon id="armory_rpgs:tempest_robe_chest" />
+  <ItemIcon id="armory_rpgs:tempest_robe_legs" />
+  <ItemIcon id="armory_rpgs:tempest_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:smouldering_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:smouldering_robe_head" />
+  <ItemIcon id="armory_rpgs:smouldering_robe_chest" />
+  <ItemIcon id="armory_rpgs:smouldering_robe_legs" />
+  <ItemIcon id="armory_rpgs:smouldering_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:rimeweave_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:rimeweave_robe_head" />
+  <ItemIcon id="armory_rpgs:rimeweave_robe_chest" />
+  <ItemIcon id="armory_rpgs:rimeweave_robe_legs" />
+  <ItemIcon id="armory_rpgs:rimeweave_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:absolution_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:absolution_robe_head" />
+  <ItemIcon id="armory_rpgs:absolution_robe_chest" />
+  <ItemIcon id="armory_rpgs:absolution_robe_legs" />
+  <ItemIcon id="armory_rpgs:absolution_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:lightbringer_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:lightbringer_armor_head" />
+  <ItemIcon id="armory_rpgs:lightbringer_armor_chest" />
+  <ItemIcon id="armory_rpgs:lightbringer_armor_legs" />
+  <ItemIcon id="armory_rpgs:lightbringer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:onslaught_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:onslaught_armor_head" />
+  <ItemIcon id="armory_rpgs:onslaught_armor_chest" />
+  <ItemIcon id="armory_rpgs:onslaught_armor_legs" />
+  <ItemIcon id="armory_rpgs:onslaught_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:slayer_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:slayer_armor_head" />
+  <ItemIcon id="armory_rpgs:slayer_armor_chest" />
+  <ItemIcon id="armory_rpgs:slayer_armor_legs" />
+  <ItemIcon id="armory_rpgs:slayer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:riftstalker_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:riftstalker_armor_head" />
+  <ItemIcon id="armory_rpgs:riftstalker_armor_chest" />
+  <ItemIcon id="armory_rpgs:riftstalker_armor_legs" />
+  <ItemIcon id="armory_rpgs:riftstalker_armor_feet" />
+</ItemGrid>
 
 ***
 
@@ -818,6 +1516,8 @@ navigation:
 独特装备覆盖近战、远程、盾牌与施法法器。除了材料等级，还要比较各自效果及触发条件。
 
 ### 武器
+
+- 浏览物品: <EmiSearch query="@arsenal" />
 
 <ItemGrid>
   <ItemIcon id="arsenal:unique_claymore_1" />
@@ -917,6 +1617,8 @@ navigation:
 ***
 
 ## Cataclysm 装备
+
+- 浏览物品: <EmiSearch query="@cataclysm" />
 
 独特近战武器、盾牌、远程武器、战斗工具与护甲有各自效果，并不会自动成为职业法术法器。本目录收录战斗装备，不包含召唤工具与制作材料。
 
@@ -1038,7 +1740,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 已安装基准版 | 👑 Epic armor sets, with unique designs and set bonuses. |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 已安装基准版 | Legendary weapons from the past - not crafted, but conquered. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 增加面向不同职业的盔甲套装与套装加成。 | 已安装基准版 | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 增加通过战斗遭遇而非合成获取的传奇武器。 | 已安装基准版 | <EmiSearch query="@arsenal" /> |

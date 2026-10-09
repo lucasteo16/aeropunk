@@ -10,6 +10,8 @@ navigation:
 
 ## Sources & transmission
 
+- Browse items: <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:water_wheel" />
   <ItemIcon id="create:large_water_wheel" />
@@ -85,6 +87,6 @@ Begin with a Water Wheel, shaft and one machine. Use each component's Ponder ent
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Baseline, installed | QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Adds Create transmission components and flexible storage arrangements. | Baseline, installed | <EmiSearch query="@create_connected" /> |

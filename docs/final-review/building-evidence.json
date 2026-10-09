@@ -1,0 +1,387 @@
+{
+  "metadata_path": "mods/mech-trowel.pw.toml",
+  "artifact_url": "https://cdn.modrinth.com/data/nqFNRALS/versions/nCXGFcYp/mechtrowel-1.3.2.1.jar",
+  "sha512": "7e7dcccde6e4c37483ad6a9958635833503f7fdb647e4e8369484d7e416ec08b02ae1a597fcd6386bdb9bc7b4109900e42b8077617116111827fec617e5a37f2",
+  "registration_class": "com/asger/mechtrowel/registry/ModRegistry.class",
+  "constructor_class": "com/asger/mechtrowel/MechTrowel.class",
+  "registered_items": [
+    "mechtrowel:mech_trowel",
+    "mechtrowel:wand_template",
+    "mechtrowel:wand_capacity_template",
+    "mechtrowel:variant_conversion_template",
+    "mechtrowel:reach_upgrade_template"
+  ],
+  "functional_evidence": "Released language tooltips, item registration, mode dispatch and shipped defaults, not models alone",
+  "recipes": {
+    "data/mechtrowel/recipe/ae2_smithing.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "ae2UpgradeEnabled"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "ae2"
+        }
+      ],
+      "type": "minecraft:smithing_transform",
+      "template": {
+        "item": "ae2:wireless_receiver"
+      },
+      "base": {
+        "item": "mechtrowel:mech_trowel"
+      },
+      "addition": {
+        "item": "mechtrowel:ae2_template"
+      },
+      "result": {
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/ae2_template.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "ae2UpgradeEnabled"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "ae2"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " C ",
+        "SPS",
+        " S "
+      ],
+      "key": {
+        "C": {
+          "item": "ae2:calculation_processor"
+        },
+        "P": {
+          "item": "ae2:wireless_receiver"
+        },
+        "S": {
+          "item": "ae2:sky_dust"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:ae2_template"
+      }
+    },
+    "data/mechtrowel/recipe/capacity_smithing.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "wandCapacityUpgradeEnabled"
+        }
+      ],
+      "type": "minecraft:smithing_transform",
+      "template": {
+        "item": "minecraft:ender_pearl"
+      },
+      "base": {
+        "item": "mechtrowel:mech_trowel"
+      },
+      "addition": {
+        "item": "mechtrowel:wand_capacity_template"
+      },
+      "result": {
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/mech_trowel.json": {
+      "type": "minecraft:crafting_shaped",
+      "category": "equipment",
+      "pattern": [
+        "  I",
+        " B ",
+        "S  "
+      ],
+      "key": {
+        "B": {
+          "item": "minecraft:iron_block"
+        },
+        "I": {
+          "item": "minecraft:iron_ingot"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/reach_upgrade_smithing.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "reachUpgradeEnabled"
+        }
+      ],
+      "type": "minecraft:smithing_transform",
+      "template": {
+        "item": "minecraft:ender_pearl"
+      },
+      "base": {
+        "item": "mechtrowel:mech_trowel"
+      },
+      "addition": {
+        "item": "mechtrowel:reach_upgrade_template"
+      },
+      "result": {
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/reach_upgrade_template.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "reachUpgradeEnabled"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " S ",
+        " NS",
+        "P  "
+      ],
+      "key": {
+        "P": {
+          "item": "minecraft:piston"
+        },
+        "N": {
+          "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "S": {
+          "item": "minecraft:sticky_piston"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:reach_upgrade_template"
+      }
+    },
+    "data/mechtrowel/recipe/rs_smithing.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "rsUpgradeEnabled"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "refinedstorage"
+        }
+      ],
+      "type": "minecraft:smithing_transform",
+      "template": {
+        "item": "refinedstorage:wireless_transmitter"
+      },
+      "base": {
+        "item": "mechtrowel:mech_trowel"
+      },
+      "addition": {
+        "item": "mechtrowel:rs_template"
+      },
+      "result": {
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/rs_template.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "rsUpgradeEnabled"
+        },
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "refinedstorage"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " P ",
+        "QWQ",
+        " Q "
+      ],
+      "key": {
+        "P": {
+          "item": "refinedstorage:processor_binding"
+        },
+        "W": {
+          "item": "refinedstorage:wireless_transmitter"
+        },
+        "Q": {
+          "item": "refinedstorage:quartz_enriched_iron"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:rs_template"
+      }
+    },
+    "data/mechtrowel/recipe/variant_conversion_template.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "chippedConversionUpgradeEnabled"
+        },
+        {
+          "type": "neoforge:or",
+          "values": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "chipped"
+            },
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "rechiseled"
+            }
+          ]
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " C ",
+        "SES",
+        " C "
+      ],
+      "key": {
+        "E": {
+          "item": "minecraft:ender_pearl"
+        },
+        "C": {
+          "item": "minecraft:crafting_table"
+        },
+        "S": {
+          "item": "minecraft:stonecutter"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:variant_conversion_template"
+      }
+    },
+    "data/mechtrowel/recipe/variant_smithing.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "chippedConversionUpgradeEnabled"
+        },
+        {
+          "type": "neoforge:or",
+          "values": [
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "chipped"
+            },
+            {
+              "type": "neoforge:mod_loaded",
+              "modid": "rechiseled"
+            }
+          ]
+        }
+      ],
+      "type": "minecraft:smithing_transform",
+      "template": {
+        "item": "minecraft:ender_pearl"
+      },
+      "base": {
+        "item": "mechtrowel:mech_trowel"
+      },
+      "addition": {
+        "item": "mechtrowel:variant_conversion_template"
+      },
+      "result": {
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/wand_capacity_template.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "wandCapacityUpgradeEnabled"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " C ",
+        "CNC",
+        " C "
+      ],
+      "key": {
+        "C": {
+          "item": "minecraft:chest"
+        },
+        "N": {
+          "item": "minecraft:netherite_ingot"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:wand_capacity_template"
+      }
+    },
+    "data/mechtrowel/recipe/wand_smithing.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "wandUpgradeEnabled"
+        }
+      ],
+      "type": "minecraft:smithing_transform",
+      "template": {
+        "item": "minecraft:ender_pearl"
+      },
+      "base": {
+        "item": "mechtrowel:mech_trowel"
+      },
+      "addition": {
+        "item": "mechtrowel:wand_template"
+      },
+      "result": {
+        "id": "mechtrowel:mech_trowel"
+      }
+    },
+    "data/mechtrowel/recipe/wand_template.json": {
+      "neoforge:conditions": [
+        {
+          "type": "mechtrowel:config",
+          "config": "wandUpgradeEnabled"
+        }
+      ],
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " P ",
+        " EP",
+        "S  "
+      ],
+      "key": {
+        "E": {
+          "item": "minecraft:ender_pearl"
+        },
+        "P": {
+          "item": "minecraft:piston"
+        },
+        "S": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "count": 1,
+        "id": "mechtrowel:wand_template"
+      }
+    }
+  },
+  "runtime_verified": false
+}

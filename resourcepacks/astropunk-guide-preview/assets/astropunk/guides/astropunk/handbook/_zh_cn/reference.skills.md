@@ -1,18 +1,20 @@
 ---
 navigation:
-  title: "法术与技能"
-  position: 7
+  title: "战斗"
+  position: 6
   parent: quick-reference.md
-  icon: minecraft:enchanted_book
+  icon: minecraft:iron_sword
 ---
 
-# 法术与技能
+# 战斗
 
 ## 可玩的职业
 
 通过装备、职业书与技能树选择构筑，并没有永久锁定职业的选择界面。技能根节点仍可能互斥，更换装备不会返还已分配点数。
 
 ### 武技职业
+
+- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@rogues" />
 
 | 职业 | 用途 | 入门武器或法器 |
 | --- | --- | --- |
@@ -26,6 +28,8 @@ navigation:
 | 气功师 | 以拳套施展奥术打击。 | <ItemGrid><ItemIcon id="forcemaster_rpg:iron_knuckle" /></ItemGrid> <ItemLink id="forcemaster_rpg:iron_knuckle" /> |
 
 ### 魔法与辅助职业
+
+- 浏览物品: <EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" /> <EmiSearch query="@wizards" />
 
 | 职业 | 用途 | 入门武器或法器 |
 | --- | --- | --- |
@@ -43,90 +47,76 @@ navigation:
 
 三个弓箭手扩展路线可先使用弓，再搭配专属护甲。猎魔人剑术与法印是同一职业的两条书籍路线，并非两个锁定的角色选择。
 
+
 ***
 
-## 第一组招式
+## 装备与能力
 
-<ItemGrid>
-  <ItemIcon id="spell_engine:spell_binding" />
-  <ItemIcon id="minecraft:book" />
-  <ItemIcon id="minecraft:lapis_lazuli" />
-  <ItemIcon id="minecraft:bookshelf" />
-  <ItemIcon id="spell_engine:spell_book" />
-</ItemGrid>
+让武器或法器、护甲加成和饰品属性与能力所用的属性相配。火焰法术强度不会增强冰霜法术。普通经验等级用于法术绑定，职业和武器技能点则用于发展各自的技能树。
+
+- <ItemImage id="minecraft:iron_chestplate" /> [装备](reference.equipment.md) 武器、护甲、饰品与起步制作。
+- <ItemImage id="minecraft:enchanted_book" /> [法术与能力](combat.abilities.md) 职业书准备、绑定消耗与施法要求。
+
+***
+
+## 起步步骤
+
+- 浏览物品: <EmiSearch query="@spell_engine" />
+
+<ItemGrid><ItemIcon id="spell_engine:spell_binding" /></ItemGrid>
 
 <ItemLink id="spell_engine:spell_binding" />
 
 <Recipe id="spell_engine:spell_binding_table" />
 
-1. 按职业表制作入门武器或法器。武器自带招式与职业法术书不同。
-2. 将普通书放入法术绑定台，选择对应职业书，并支付界面显示的经验等级。猎魔人有独立的剑术书与法印书。
-3. 将职业书放回绑定台，并放入青金石。选择招式，满足界面显示的等级要求、等级消耗、青金石消耗与书架能量。能量不足时，在附近放置有效书架。
-4. 将书装备到法术书槽，并手持兼容武器或法器。查看法术快捷栏，以 <KeyBind id="keybindings.spell_engine.spell_hotbar_1" /> 使用第一个招式。准备所需箭矢或符文。
-5. 按 <KeyBind id="key.puffish_skills.open" /> 打开技能树，将所得点数用于相连节点。分配前查看互斥根节点。职业点数与武器点数不同于绑定使用的普通经验等级。
-
-职业书是 <ItemLink id="spell_engine:spell_book" /> 的配置变体，不是独立的合成物品。尚未学习书中法术时，武器也可能已提供自带招式。
+1. 从上方选择玩法，制作对应的起步武器或法器。武器自带能力与职业书能力不同。
+2. 制作法术绑定台，用普通书选择对应职业书，再根据界面显示的经验与青金石要求绑定能力。
+3. 将职业书放入法术书栏，手持兼容装备。查看能力提示，确认弹药、符文或其他施法要求。
+4. 按 <KeyBind id="key.puffish_skills.open" /> 发展相连节点。投入点数前查看互斥根节点，更换装备不会返还点数。
 
 ***
 
-## 入门配方
+## 详细参考
 
-新手魔杖是低成本火系起点，不能代替奥术或冰霜法器。侍僧魔杖以木棍与线开始治疗路线。
-
-<ItemGrid>
-  <ItemIcon id="wizards:wand_novice" />
-</ItemGrid>
-
-<ItemLink id="wizards:wand_novice" />
-
-<Recipe id="wizards:wand_novice" />
-
-<ItemGrid>
-  <ItemIcon id="paladins:acolyte_wand" />
-</ItemGrid>
-
-<ItemLink id="paladins:acolyte_wand" />
-
-<Recipe id="paladins:acolyte_wand" />
-
-***
-
-## 装备与招式
-
-每个招式使用自己的学派或战斗属性。火系法术搭配火焰强度，治疗搭配治疗强度。强力火系魔杖不会增加冰霜强度。同一职业的近战与远程招式也可能使用不同属性。护甲提供防护，但其学派加成决定它能强化哪些招式。
-
-选择饰品或技能节点前先阅读招式提示。怒气与猎魔人法印强度是各自独立的构筑属性。遗物触发效果不是可以任意释放的额外职业法术。
-
-## 相关页面
-
-- [武技](combat.martial.md) 完整远程与近战招式表。
-- [魔法与辅助](combat.magic.md) 完整法术表与施法要求。
-- [技能成长](combat.skills.md) 职业路线、武器点数与重置。
-- [战斗操作](combat.handling.md) 攻击、施法与翻滚。
-- [武器与护甲](equipment.weapons-armor.md) 入门配方与装备类型。
-- [饰品](equipment.accessories.md) 珠宝、遗物与适用槽位。
+- [武器与护甲](equipment.weapons-armor.md)
+- [饰品](equipment.accessories.md)
+- [护甲与状态](equipment.display.md)
+- [武器与闪避](combat.handling.md)
+- [近战与弓弩](combat.martial.md)
+- [法术与支援](combat.magic.md)
+- [技能发展](combat.skills.md)
 
 
 ***
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | 已安装基准版 | 🏹 Draw, Release, Conquer - Master the art of Archery! |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 已安装基准版 | Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | 已安装基准版 | Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On |
-| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 已安装基准版 | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 已安装基准版 | 🧶 Adds combat roll ability, with related attributes and enchantments. |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 已安装基准版 | 🍀 Chance based critical hits for melee and ranged attacks! |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Master the elements to overcome your foes! Spell Engine Add-On |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 已安装基准版 | Grab a Knuckle, master the force and martial art. Spell Engine Add-On |
-| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 已安装基准版 | RPG Series Skill Tree Add-On for the More RPG Classes! |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 已安装基准版 | ✨ Protect and heal your friends as a Paladin or a Priest |
-| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 已安装基准版 | Adds a fully configurable skill system to the game. |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 已安装基准版 | 🗡️ Silent Blades, Mighty Blows - Dominate with martial skills! |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 已安装基准版 | 🪨 Craft runes to serve as ammo for spells |
-| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 已安装基准版 | ⭐️ Choose your path - Skills that shape your class |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Slay monsters like a Witcher! Spell Engine Add-On |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 已安装基准版 | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加首饰。 | 已安装基准版 | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | 增加围绕弓箭与远程能力设计的弓箭手职业。 | 已安装基准版 | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。 | 已安装基准版 | <EmiSearch query="@archers_expansion" /> |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 增加面向不同职业的盔甲套装与套装加成。 | 已安装基准版 | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 增加通过战斗遭遇而非合成获取的传奇武器。 | 已安装基准版 | <EmiSearch query="@arsenal" /> |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 增加以歌曲与歌谣支援队友的吟游诗人职业。 | 已安装基准版 | <EmiSearch query="@bards_rpg" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | 增加持斧狂战士，利用狂怒在低生命值时提高伤害。 | 已安装基准版 | <EmiSearch query="@berserker_rpg" /> |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 通过武器攻击动画与更流畅的攻击机制改进近战。 | 已安装基准版 | 无独立物品查询 |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 增加闪避翻滚及相关属性与附魔。 | 已安装基准版 | 无独立物品查询 |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 为近战与远程攻击增加概率触发的暴击。 | 已安装基准版 | 无独立物品查询 |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 提供可扩展的饰品装备栏。 | 已安装基准版 | 无独立物品查询 |
+| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 在盔甲状态条中显示更多护甲信息。 | 已安装基准版 | 无独立物品查询 |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 为 Wizards 增加大地、水与风元素施法分支职业。 | 已安装基准版 | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 增加使用拳套的武术职业，以奥术力量强化攻击。 | 已安装基准版 | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 增加可开采宝石与可制作首饰，用于提升战斗属性。 | 已安装基准版 | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加 Relics 饰品。 | 已安装基准版 | <EmiSearch query="@more_relics" /> |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 为 More RPG Classes 的扩展职业增加职业技能树支持。 | 已安装基准版 | 无独立物品查询 |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 增加专注防护与治疗的圣骑士及牧师职业。 | 已安装基准版 | <EmiSearch query="@paladins" /> |
+| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 提供可自定义的技能系统与技能树界面。 | 已安装基准版 | 无独立物品查询 |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 为 RPG Series 角色搭配增加强化战斗能力的饰品。 | 已安装基准版 | <EmiSearch query="@relics_rpgs" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 增加拥有不同近战能力的游荡者与战士职业。 | 已安装基准版 | <EmiSearch query="@rogues" /> |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 增加可制作的符文，作为施法消耗的弹药。 | 已安装基准版 | <EmiSearch query="@runes" /> |
+| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 为 RPG Series 角色增加职业技能树。 | 已安装基准版 | <EmiSearch query="@skill_tree_rpgs" /> |
+| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 以可自定义进度条显示状态效果剩余时间。 | 已安装基准版 | 无独立物品查询 |
+| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 将状态效果显示整理成紧凑且可调整的界面布局。 | 已安装基准版 | 无独立物品查询 |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 增加以猎杀怪物为主题的猎魔人职业与战斗能力。 | 已安装基准版 | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 增加使用奥术、火焰与冰霜法术的巫师战斗体系。 | 已安装基准版 | <EmiSearch query="@wizards" /> |

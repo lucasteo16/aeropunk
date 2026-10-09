@@ -57,18 +57,18 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 已安装基准版 | Icons embedded in attribute translations |
-| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | 已安装基准版 | Updated version of Better Biome Blend, a mod that improves Biome Blending |
-| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | 已安装基准版 | A Minecraft mod that allows for efficient connected textures |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 已安装基准版 | Mandala GUI is an elegant theme, in the style of Mandala Creations. It is specifically made for people who like Dark mode. It only changes the UI of Minecraft, without changing items or blocks. |
-| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 已安装基准版 | Improves the appearance of leaves with high mod compatibility and performance! |
-| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | 已安装基准版 | Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs |
-| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) | 改变作物外观。 | 重型版，当前未安装 | 当前未安装 |
+| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 为属性翻译增加图标。 | 已安装基准版 | 无独立物品查询 |
+| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | 改善生物群系颜色之间的混合。 | 已安装基准版 | 无独立物品查询 |
+| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | 支持资源包的方块连接纹理。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) | 增加动态实体模型。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) | 为非生物实体增加动画。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) | 增加 Fresh Animations 风格的玩家动画。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) | 为骷髅增加箭袋外观。 | 重型版，当前未安装 | 当前未安装 |
+| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 改变界面外观，不替换物品或方块纹理。 | 已安装基准版 | 无独立物品查询 |
+| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 改变树叶方块外观。 | 已安装基准版 | 无独立物品查询 |
+| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | 支持资源包颜色、颜色映射与方块声音自定义。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) | 为草地及相关地表增加小型外观装饰。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) | 增加随生物群系变化的雾、粒子与天气外观。 | 重型版，当前未安装 | 当前未安装 |

@@ -3,12 +3,14 @@ navigation:
   title: "Weapons & dodging"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:enchanted_book
+  icon: minecraft:iron_sword
 ---
 
 # Weapons & dodging
 
 ## Attacks & weapon types
+
+- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
@@ -25,6 +27,8 @@ Use <KeyBind id="key.attack" /> for attacks and <KeyBind id="key.use" /> for ite
 
 ## Rolls & spells
 
+- Browse items: <EmiSearch query="@spell_engine" />
+
 Roll with <KeyBind id="keybinds.combat_roll.roll" />. Combat Roll supplies the dodge action. Critical Strike supplies melee critical attributes. Neither a weapon animation nor a roll by itself promises invulnerability.
 
 Spell actions use the Spell Engine hotbar. Assign its controls in Key Binds if an action is unbound. The recipe browser uses separate settings, so a shared key can need attention in both interfaces.
@@ -38,8 +42,8 @@ Spell actions use the Spell Engine hotbar. Assign its controls in Key Binds if a
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Baseline, installed | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Baseline, installed | 🧶 Adds combat roll ability, with related attributes and enchantments. |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Baseline, installed | 🍀 Chance based critical hits for melee and ranged attacks! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Reworks melee attacks with weapon animations and a more fluid combat system. | Baseline, installed | No separate item search |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Adds a dodge roll with related attributes and enchantments. | Baseline, installed | No separate item search |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Adds chance-based critical hits to melee and ranged attacks. | Baseline, installed | No separate item search |

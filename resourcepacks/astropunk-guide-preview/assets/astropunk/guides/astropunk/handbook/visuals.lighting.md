@@ -21,6 +21,8 @@ Iris loads shader packs. Distant Horizons displays simplified distant terrain. T
 
 ## Other edition lighting
 
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@spawn" />
+
 Sodium Dynamic Lights and its Create and Sable bridge are not installed in this edition. A dynamic light is a visual effect, not a guarantee of server-side spawn prevention.
 
 | Component | Function |
@@ -41,9 +43,9 @@ Sodium Dynamic Lights and its Create and Sable bridge are not installed in this 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) | Heavy edition, not installed here | Not installed here. |
-| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | Baseline, installed | Massively increase render distance without harming performance. |
-| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | Baseline, installed | A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs |
-| <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) | Heavy edition, not installed here | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) | Adds dynamic light support for lights on Create and Sable moving structures. | Heavy edition, not installed here | Not installed here |
+| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | Baseline, installed | No separate item search |
+| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) | Provides dynamic lighting with Sodium settings integration. | Heavy edition, not installed here | Not installed here |

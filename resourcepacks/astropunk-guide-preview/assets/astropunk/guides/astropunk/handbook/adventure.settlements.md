@@ -60,6 +60,8 @@ Compatibility templates also cover badlands, bamboo, birch, cherry, dark forest,
 
 ## Taverns
 
+- Browse items: <EmiSearch query="@village_taverns" />
+
 ![Village Taverns (RPG Series)](images/encounters-village-taverns-catalog.png)
 
 Village Taverns (RPG Series).
@@ -77,6 +79,8 @@ Bartender is a villager profession, not a separate creature species.
 ***
 
 ## Village buildings
+
+- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 | Mod | Profession and building | Template styles |
 | --- | --- | --- |
@@ -100,8 +104,8 @@ These buildings extend village house pools, rather than creating standalone dung
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Baseline, installed | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Baseline, installed | ⛲️ Village structures hosting small spell libraries |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Baseline, installed | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | Baseline, installed | No separate item search |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | Baseline, installed | No separate item search |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | Baseline, installed | <EmiSearch query="@village_taverns" /> |

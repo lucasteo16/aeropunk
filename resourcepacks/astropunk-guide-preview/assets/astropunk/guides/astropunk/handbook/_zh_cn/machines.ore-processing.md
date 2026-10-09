@@ -15,6 +15,8 @@ item_ids:
 
 ## 矿物加工机器
 
+- 浏览物品: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:millstone" />
   <ItemIcon id="create:crushing_wheel" />
@@ -116,6 +118,6 @@ item_ids:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 已安装基准版 | Aesthetic Technology that empowers the Player |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 增加用于加工、运输与自动建造的旋转动力机器。 | 已安装基准版 | <EmiSearch query="@create" /> |

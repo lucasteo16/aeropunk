@@ -10,6 +10,8 @@ navigation:
 
 ## Burners & fluid supply
 
+- Browse items: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:blaze_burner" />
   <ItemIcon id="create:fluid_tank" />
@@ -45,6 +47,6 @@ Start with a captured Blaze Burner and inspect the lava supply route. Do not ass
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Baseline, installed | Pump in liquid fuel to blaze burners |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Lets Create blaze burners consume pumped liquid fuel. | Baseline, installed | No separate item search |

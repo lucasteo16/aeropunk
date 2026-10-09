@@ -44,9 +44,10 @@ class AccessWiringTest(unittest.TestCase):
 
     def test_constructor_connects_each_typed_event_to_correct_bus(self):
         constructor = method(self.code, 'dev.astropunk.handbook.HandbookAccess')
-        # First mapping listener uses the injected mod bus. Remaining listeners
-        # each fetch NeoForge.EVENT_BUS before adding their typed consumer.
-        self.assertEqual(constructor.count('IEventBus.addListener:'), 4)
+        # Key mappings and query-guide setup use the injected mod bus.
+        # The three screen and tick listeners use NeoForge.EVENT_BUS.
+        self.assertEqual(constructor.count('IEventBus.addListener:'), 5)
+        self.assertIn('FMLClientSetupEvent', constructor)
         self.assertEqual(constructor.count('NeoForge.EVENT_BUS:'), 3)
         for name, event in [
             ('registerKeys', 'RegisterKeyMappingsEvent'),

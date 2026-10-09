@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Transport"
-  position: 10
+  position: 9
   parent: quick-reference.md
   icon: minecraft:minecart
 ---
@@ -9,6 +9,8 @@ navigation:
 # Transport
 
 ## Physical vehicles
+
+- Browse items: <EmiSearch query="@create_submarine" />
 
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />
@@ -26,6 +28,8 @@ navigation:
 
 ## Controls & equipment
 
+- Browse items: <EmiSearch query="@aeroworks" /> <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create_radar" />
+
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
   <ItemIcon id="create_radar:radar_dish_block" />
@@ -39,6 +43,8 @@ navigation:
 ***
 
 ## Routes & destinations
+
+- Browse items: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" /> <EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
 
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />
@@ -58,28 +64,28 @@ navigation:
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Baseline, installed | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
-| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | Baseline, installed | Build anything from airships to planes and cars! |
-| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Baseline, installed | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
-| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | Baseline, installed | A Minecraft mod for building large cannons with the Create mod. |
-| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | Baseline, installed | Submarine and boat in Create Aeronautics! |
-| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Baseline, installed | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |
-| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | Baseline, installed | A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more. |
-| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Baseline, installed | This mod changes the recipes of Waystones to fit with and use the Create mod. It also balances things a bit more. |
-| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) | Deferred, not installed | Not installed here. |
-| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | Baseline, installed | A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more! |
-| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | Baseline, installed | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |
-| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Baseline, installed | Adds larger train bogies with (and without) valve gear, and more |
-| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Baseline, installed | A mod to add functional, aesthetic, and rotation-powered escalators to Create. |
-| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Baseline, installed | Travel arround the world with tubes! |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) | Deferred, not installed | Not installed here. |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) | Deferred, not installed | Not installed here. |
-| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | Baseline, installed | Adding Radars (& more) to Create! |
-| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | Baseline, installed | An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller |
-| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Baseline, installed | Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer. |
-| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Baseline, installed | An unofficial port of Create: Steam 'n' Rails to 1.21.1. |
-| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Baseline, installed | Create a portal to anywhere from anywhere |
-| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Baseline, installed | Teleport from waystone to waystone or craft magical scrolls to warp. |
-| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | Baseline, installed | A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | Baseline, installed | <EmiSearch query="@aeroengineering" /> |
+| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | Turns block-built vehicles into controllable physical moving structures. | Baseline, installed | No separate item search |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | Baseline, installed | <EmiSearch query="@aeroencasedpipe" /> |
+| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | Adds buildable large cannons and their ammunition to Create. | Baseline, installed | <EmiSearch query="@createbigcannons" /> |
+| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | Baseline, installed | <EmiSearch query="@create_submarine" /> |
+| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | Baseline, installed | <EmiSearch query="@createpropulsion" /> |
+| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | Adds train route search, passenger information displays and schedule features. | Baseline, installed | <EmiSearch query="@createrailwaysnavigator" /> |
+| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) | Adds relocation tools for physical Aeronautics vehicles. | Deferred, not installed | Not installed here |
+| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | Adds flight controls such as gyroscopes and joysticks for Aeronautics vehicles. | Baseline, installed | <EmiSearch query="@aeroworks" /> |
+| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | Adds layered ballast blocks for adjusting vehicle mass and balance. | Baseline, installed | <EmiSearch query="@ballastmod" /> |
+| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Adds larger Create train bogies, including visible valve gear variants. | Baseline, installed | No separate item search |
+| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Adds rotation-powered escalators for Create buildings. | Baseline, installed | <EmiSearch query="@escalated" /> |
+| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Adds tube transport for moving players around Create builds. | Baseline, installed | <EmiSearch query="@create_hypertube" /> |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) | Adds space destinations and Create-based equipment for exploring them. | Deferred, not installed | Not installed here |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) | Connects Northstar space travel to Aeronautics physical vehicle transfers. | Deferred, not installed | Not installed here |
+| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | Adds radar equipment to detect and track targets in Create builds. | Baseline, installed | <EmiSearch query="@create_radar" /> |
+| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | Adds advanced handheld controls for Create contraptions. | Baseline, installed | <EmiSearch query="@create_tweaked_controllers" /> |
+| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | Baseline, installed | No separate item search |
+| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Expands Create railways with additional track and train components. | Baseline, installed | <EmiSearch query="@railways" /> |
+| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | Baseline, installed | <EmiSearch query="@tempad" /> |
+| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | Baseline, installed | <EmiSearch query="@waystones" /> |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | Fixes Waystones teleportation and destination handling on Sable moving structures. | Baseline, installed | No separate item search |

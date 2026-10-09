@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "地图"
-  position: 12
+  position: 11
   parent: quick-reference.md
   icon: minecraft:map
 ---
@@ -35,11 +35,11 @@ Xaero's World Map 记录已探索地形。按 <KeyBind id="gui.xaero_open_map" /
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | 已安装基准版 | Allows you to locate structures anywhere in the world. |
-| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | 已安装基准版 | Allows you to locate biomes anywhere in the world. |
-| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 已安装基准版 | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |
-| ![Xaero's Minimap](images/catalog-1bokaNcj.png) [Xaero's Minimap](maps.personal.md) | 已安装基准版 | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked. |
-| ![Xaero's World Map](images/catalog-NcUtCpym.png) [Xaero's World Map](maps.personal.md) | 已安装基准版 | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | 定位结构，包括受支持的模组结构。 | 已安装基准版 | <EmiSearch query="@explorerscompass" /> |
+| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | 定位生物群系，包括受支持的模组生物群系。 | 已安装基准版 | <EmiSearch query="@naturescompass" /> |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | 显示与玩家原版队伍颜色一致的披风。 | 重型版，当前未安装 | 当前未安装 |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 为 Xaero 地图增加多人功能，包括世界地图同步。 | 已安装基准版 | 无独立物品查询 |
+| ![Xaero's Minimap](images/catalog-1bokaNcj.png) [Xaero's Minimap](maps.personal.md) | 用小地图显示附近地形与实体，并支持保存路标。 | 已安装基准版 | 无独立物品查询 |
+| ![Xaero's World Map](images/catalog-NcUtCpym.png) [Xaero's World Map](maps.personal.md) | 用全屏世界地图显示已探索地形。 | 已安装基准版 | 无独立物品查询 |

@@ -10,6 +10,8 @@ navigation:
 
 ## Loot containers
 
+- Browse items: <EmiSearch query="@lootr" />
+
 ![Lootr chest](images/encounters-lootr-catalog.png)
 
 Lootr chest in a mineshaft.
@@ -23,6 +25,8 @@ Lootr chest in a mineshaft.
 ***
 
 ## Drop lookup
+
+- Browse items: <EmiSearch query="@emi" />
 
 | Mod | Coverage | Reading the display |
 | --- | --- | --- |
@@ -44,7 +48,7 @@ Open a Lootr container for your own loot. Use the item browser’s loot displays
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Baseline, installed | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Baseline, installed | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | Baseline, installed | No separate item search |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | Baseline, installed | <EmiSearch query="@lootr" /> |

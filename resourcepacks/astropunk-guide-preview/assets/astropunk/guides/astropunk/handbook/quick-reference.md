@@ -17,8 +17,7 @@ navigation:
 | <ItemImage id="minecraft:egg" /> [Creatures](adventure.creatures.md) | Species, variants and habitats |
 | <ItemImage id="minecraft:stone_bricks" /> [Structures](adventure.structures.md) | Locations, families and variants |
 | <ItemImage id="minecraft:grass_block" /> [Dimensions](world.dimensions.md) | Overworld, Nether and End |
-| <ItemImage id="minecraft:iron_chestplate" /> [Equipment](reference.equipment.md) | Weapons, armor and accessories |
-| <ItemImage id="minecraft:enchanted_book" /> [Spells & skills](reference.skills.md) | Combat styles, spells and skill systems |
+| <ItemImage id="minecraft:iron_sword" /> [Combat](reference.skills.md) | Equipment, classes, spells and character skills |
 | <ItemImage id="minecraft:apple" /> [Food & farming](reference.food.md) | Ingredients, dishes and crops |
 | <ItemImage id="minecraft:bricks" /> [Building](reference.building.md) | Materials, shapes and furniture |
 | <ItemImage id="minecraft:minecart" /> [Transport](reference.vehicles.md) | Components, transport and destinations |

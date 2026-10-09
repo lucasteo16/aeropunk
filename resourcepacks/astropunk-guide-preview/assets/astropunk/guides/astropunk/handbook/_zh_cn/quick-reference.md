@@ -17,8 +17,7 @@ navigation:
 | <ItemImage id="minecraft:egg" /> [生物](adventure.creatures.md) | 种类、变种与栖息地 |
 | <ItemImage id="minecraft:stone_bricks" /> [结构与地牢](adventure.structures.md) | 位置、类型与变体 |
 | <ItemImage id="minecraft:grass_block" /> [维度](world.dimensions.md) | 主世界、下界与末地 |
-| <ItemImage id="minecraft:iron_chestplate" /> [装备](reference.equipment.md) | 武器、护甲与饰品 |
-| <ItemImage id="minecraft:enchanted_book" /> [法术与技能](reference.skills.md) | 战斗风格、法术与技能系统 |
+| <ItemImage id="minecraft:iron_sword" /> [战斗](reference.skills.md) | 装备、职业、法术与角色技能 |
 | <ItemImage id="minecraft:apple" /> [食物与农业](reference.food.md) | 食材、料理与作物 |
 | <ItemImage id="minecraft:bricks" /> [建筑](reference.building.md) | 材料、形状与家具 |
 | <ItemImage id="minecraft:minecart" /> [交通](reference.vehicles.md) | 组件、交通与目的地 |

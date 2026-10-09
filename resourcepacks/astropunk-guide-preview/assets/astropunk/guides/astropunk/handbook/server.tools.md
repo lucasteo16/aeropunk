@@ -48,9 +48,9 @@ Configured Defaults provides initial files when they are missing. Existing playe
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Chunky](images/catalog-fALzjamp.png) [Chunky](server.tools.md) | Baseline, installed | Pre-generates chunks, quickly and efficiently |
-| ![Configured Defaults](images/catalog-SISoSFPP.png) [Configured Defaults](server.tools.md) | Baseline, installed | Allows for providing defaults for files absent in .minecraft like configs. A quintessential modpack utility. |
-| ![Observable](images/catalog-VYRu7qmG.png) [Observable](server.tools.md) | Baseline, installed | See what's lagging your server. |
-| ![spark](images/catalog-l6YH9Als.png) [spark](server.tools.md) | Baseline, installed | spark is a performance profiler for Minecraft clients, servers and proxies. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Chunky](images/catalog-fALzjamp.png) [Chunky](server.tools.md) | Generates terrain ahead of exploration. | Baseline, installed | No separate item search |
+| ![Configured Defaults](images/catalog-SISoSFPP.png) [Configured Defaults](server.tools.md) | Supplies packaged defaults for missing files. | Baseline, installed | No separate item search |
+| ![Observable](images/catalog-VYRu7qmG.png) [Observable](server.tools.md) | Identifies expensive server processing. | Baseline, installed | No separate item search |
+| ![spark](images/catalog-l6YH9Als.png) [spark](server.tools.md) | Profiles client and server performance. | Baseline, installed | No separate item search |

@@ -10,6 +10,8 @@ navigation:
 
 ## Portable components
 
+- Browse items: <EmiSearch query="@create_sa" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_sa:steam_engine" />
   <ItemIcon id="create_sa:hydraulic_engine" />
@@ -79,7 +81,7 @@ Inspect the Portable Drill recipe before making its engine and tank components. 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Baseline, installed | 🧲 Dominate your environment with Create technology |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Baseline, installed | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Adds Create-themed powered equipment and wearable tools. | Baseline, installed | <EmiSearch query="@create_sa" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Adjusts Create recipes and lets diving boots counter levitation. | Baseline, installed | No separate item search |

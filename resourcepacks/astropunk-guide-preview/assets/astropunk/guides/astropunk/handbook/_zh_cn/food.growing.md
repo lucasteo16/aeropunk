@@ -10,6 +10,8 @@ navigation:
 
 ## 作物食材
 
+- 浏览物品: <EmiSearch query="@farmersdelight" />
+
 <ItemGrid>
   <ItemIcon id="minecraft:wheat" />
   <ItemIcon id="minecraft:carrot" />
@@ -42,6 +44,8 @@ navigation:
 
 ## 土壤与地区作物
 
+- 浏览物品: <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+
 <ItemGrid>
   <ItemIcon id="farmersdelight:organic_compost" />
   <ItemIcon id="farmersdelight:rich_soil" />
@@ -60,6 +64,8 @@ navigation:
 
 ## 收获辅助
 
+- 浏览物品: <EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
+
 RightClickHarvest 加入收获交互。Smarter Farmers 扩展农民补种。Universal Bone Meal 扩展骨粉用途。Leaves Be Gone 在伐木后清理衰败树叶，并非种植食物。Create: Integrated Farming 提供与 Create 的农业整合。先选定作物并确认支持的收获方式，再搭建自动农田。
 
 - [烹饪工具](food.utensils.md)
@@ -69,10 +75,10 @@ RightClickHarvest 加入收获交互。Smarter Farmers 扩展农民补种。Univ
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | 已安装基准版 | Integrated farming automation for Create |
-| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | 已安装基准版 | Quick leaf decay from cutting down trees. Built for fast performance and mod compat! |
-| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | 已安装基准版 | Allows you to harvest crops with right click |
-| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 已安装基准版 | Allows villagers to replant the correct seed & allows them to use modded ones |
-| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | 已安装基准版 | Stop the bonemeal discrimination! Grow all plants, no limitations. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | 为机械动力增加自动收割、渔网与家禽产物自动收集。 | 已安装基准版 | <EmiSearch query="@create_integrated_farming" /> |
+| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | 让树木被砍后失去支撑的树叶快速凋落。 | 已安装基准版 | 无独立物品查询 |
+| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | 右键即可收获成熟作物，无需手动破坏再补种。 | 已安装基准版 | 无独立物品查询 |
+| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 让农民村民正确补种作物，也支持部分模组种子。 | 已安装基准版 | 无独立物品查询 |
+| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | 让骨粉可用于原本不接受骨粉的植物。 | 已安装基准版 | 无独立物品查询 |

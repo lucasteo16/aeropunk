@@ -20,6 +20,8 @@ item_ids:
 
 ## Infernal Dragon
 
+- Browse items: <EmiSearch query="@block_factorys_bosses" />
+
 ![Infernal Dragon](images/encounters-bossesrise-infernal-dragon.png)
 
 Ashlord, The Infernal Dragon. Bosses'Rise. An orange winged dragon with a long tail.
@@ -44,7 +46,7 @@ Reach the arena inside the hideout.
 
 ## Sandworm
 
-![Sandworm](images/nav-visual-block-factorys-bosses-sandworm.png)
+![Sandworm](images/final-boss-review-sandworm.png)
 
 Sirok, The Sandworm. Bosses'Rise. A segmented worm that moves beneath the sand.
 
@@ -68,6 +70,8 @@ Reach the arena.
 
 ## Kraken
 
+![Kraken](images/final-boss-review-kraken.png)
+
 Nerakyss, The Kraken. Bosses'Rise. A tentacled sea monster.
 
 Find Kraken Ship in deep Overworld oceans, including cold and lukewarm waters.
@@ -77,6 +81,8 @@ Explore the ship. Its pirate encounter spawner controls the encounter.
 ***
 
 ## Ignis
+
+- Browse items: <EmiSearch query="@cataclysm" />
 
 ![Ignis](images/encounters-l_enders-cataclysm-ignis.png)
 
@@ -202,6 +208,10 @@ Interact with the inactive Scylla to begin the encounter. No specific offering i
 
 ## Invoker
 
+- Browse items: <EmiSearch query="@illagerinvasion" />
+
+![Invoker](images/final-boss-review-invoker.png)
+
 Illager Invasion. A spellcasting illager boss. Find it during village raids. The wave and difficulty depend on server settings.
 
 ***
@@ -216,11 +226,15 @@ Friends&Foes. A blaze-like creature surrounded by broad golden shields. Find it 
 
 ## Ender Dragon
 
+![Ender Dragon](images/final-boss-review-ender-dragon.png)
+
 Minecraft. A black winged dragon on the central End island. Reach it through an activated End portal.
 
 ***
 
 ## Wither
+
+![Wither](images/final-boss-review-wither.png)
 
 <ItemGrid>
 <ItemIcon id="minecraft:soul_sand" />
@@ -247,9 +261,9 @@ Dangerous changes existing enemy health and equipment. It does not add a separat
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | Baseline, installed | 🐉 Bring Souls-like Bosses into your world |
-| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | Baseline, installed | Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health. |
-| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | Baseline, installed | The illagers are back! Be ready to fight new foes. A port of Illager Expansion. |
-| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | Baseline, installed | Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | Adds challenging bosses with dedicated encounter structures. | Baseline, installed | <EmiSearch query="@block_factorys_bosses" /> |
+| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | Adds configurable difficulty balancing for powerful modded player builds. | Baseline, installed | No separate item search |
+| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | Adds new illager enemies and related encounters. | Baseline, installed | <EmiSearch query="@illagerinvasion" /> |
+| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | Adds dangerous dungeons, challenging bosses and powerful equipment rewards. | Baseline, installed | <EmiSearch query="@cataclysm" /> |

@@ -10,6 +10,8 @@ navigation:
 
 ## Waystone network
 
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@waystones" />
+
 <ItemGrid>
   <ItemIcon id="waystones:blackstone_waystone" />
   <ItemIcon id="waystones:deepslate_waystone" />
@@ -68,6 +70,8 @@ Sharestones connect to others of the same color. Portstones provide departure ac
 
 ## Tempad & portals
 
+- Browse items: <EmiSearch query="@tempad" />
+
 <ItemGrid>
   <ItemIcon id="tempad:tempad" />
   <ItemIcon id="tempad:location_card" />
@@ -125,9 +129,9 @@ Tempad separates time-power equipment from equipment for managing saved location
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Baseline, installed | This mod changes the recipes of Waystones to fit with and use the Create mod. It also balances things a bit more. |
-| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Baseline, installed | Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer. |
-| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Baseline, installed | Create a portal to anywhere from anywhere |
-| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Baseline, installed | Teleport from waystone to waystone or craft magical scrolls to warp. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | Baseline, installed | No separate item search |
+| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | Baseline, installed | No separate item search |
+| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | Baseline, installed | <EmiSearch query="@tempad" /> |
+| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | Baseline, installed | <EmiSearch query="@waystones" /> |

@@ -15,6 +15,8 @@ item_ids:
 
 ## 厨房工具
 
+- 浏览物品: <EmiSearch query="@farmersdelight" />
+
 ![营火上的烹饪锅](images/nav-visual-farmers-delight-pot-campfire.png)
 
 ![烹饪锅界面](images/nav-visual-farmers-delight-pot-interface.png)
@@ -297,6 +299,6 @@ item_ids:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 已安装基准版 | A cozy expansion to farming and cooking! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | 已安装基准版 | <EmiSearch query="@farmersdelight" /> |

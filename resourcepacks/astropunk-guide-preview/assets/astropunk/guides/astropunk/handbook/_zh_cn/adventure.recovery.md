@@ -34,7 +34,7 @@ Corpse 的 Curios 联动可在转移物品时，把支持的饰品放回对应�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Corpse](images/catalog-WrpuIfhw.png) [Corpse](adventure.recovery.md) | 已安装基准版 | Never lose your items again! |
-| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) [Corpse x Curios API Compat](adventure.recovery.md) | 已安装基准版 | This little mod allows you to directly equip your Curios items to the respective slots |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Corpse](images/catalog-WrpuIfhw.png) [Corpse](adventure.recovery.md) | 将死亡玩家的物品保存在可取回的尸体中。 | 已安装基准版 | 无独立物品查询 |
+| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) [Corpse x Curios API Compat](adventure.recovery.md) | 让尸体中取回的饰品直接回到对应的 Curios 装备栏。 | 已安装基准版 | 无独立物品查询 |

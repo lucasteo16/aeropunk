@@ -10,6 +10,8 @@ navigation:
 
 ## Hypertubes
 
+- Browse items: <EmiSearch query="@create_hypertube" />
+
 <ItemGrid>
   <ItemIcon id="create_hypertube:hypertube" />
   <ItemIcon id="create_hypertube:hypertube_entrance" />
@@ -31,6 +33,8 @@ Connect two tube blocks by right-clicking one while holding another, then place 
 ***
 
 ## Walkways
+
+- Browse items: <EmiSearch query="@escalated" />
 
 <ItemGrid>
   <ItemIcon id="escalated:metal_walkway_steps" />
@@ -59,7 +63,7 @@ Escalated supplies metal and wooden moving walkway steps for local transport. Us
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Baseline, installed | A mod to add functional, aesthetic, and rotation-powered escalators to Create. |
-| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Baseline, installed | Travel arround the world with tubes! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Adds rotation-powered escalators for Create buildings. | Baseline, installed | <EmiSearch query="@escalated" /> |
+| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Adds tube transport for moving players around Create builds. | Baseline, installed | <EmiSearch query="@create_hypertube" /> |

@@ -10,6 +10,8 @@ navigation:
 
 ## 列车配件
 
+- 浏览物品: <EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="bellsandwhistles:brass_pilot" />
   <ItemIcon id="bellsandwhistles:brass_grab_rails" />
@@ -32,6 +34,8 @@ Create: Bells & Whistles 提供列车外部配件与车体面板。通过物品�
 
 ## 瓷砖与配件
 
+- 浏览物品: <EmiSearch query="@bits_n_bobs" />
+
 <ItemGrid>
   <ItemIcon id="bits_n_bobs:tuff_tiles" />
   <ItemIcon id="bits_n_bobs:headlamp" />
@@ -49,6 +53,8 @@ Create: Bits 'n' Bobs 将石材瓷砖系列与座椅、照明组合。下列物�
 ***
 
 ## 砖材与走道
+
+- 浏览物品: <EmiSearch query="@createdeco" />
 
 <ItemGrid>
   <ItemIcon id="createdeco:iron_catwalk" />
@@ -70,6 +76,8 @@ Create Deco 将彩色砖纹与对应台阶、楼梯、墙组合。金属走道�
 
 ## 工业配色
 
+- 浏览物品: <EmiSearch query="@dndecor" />
+
 <ItemGrid>
   <ItemIcon id="dndecor:gold_catwalk" />
   <ItemIcon id="dndecor:gold_boiler" />
@@ -89,6 +97,8 @@ Create: Design n' Decor 提供工业覆面与大型机械装饰形状。应查�
 ***
 
 ## 机壳机械
+
+- 浏览物品: <EmiSearch query="@createcasing" />
 
 <ItemGrid>
   <ItemIcon id="createcasing:railway_clutch" />
@@ -110,6 +120,8 @@ Create Encased 提供木质传动件与不同材质的包覆机械。各部件�
 
 ## 框架与玻璃
 
+- 浏览物品: <EmiSearch query="@createframed" />
+
 <ItemGrid>
   <ItemIcon id="createframed:tinted_framed_glass" />
   <ItemIcon id="createframed:tinted_tiled_glass" />
@@ -130,6 +142,8 @@ Create: Framed 提供框架玻璃与拼接玻璃用于建筑开口。染色变�
 
 ## 梁与桁架
 
+- 浏览物品: <EmiSearch query="@createmoregirder" />
+
 <ItemGrid>
   <ItemIcon id="createmoregirder:andesite_beam" />
   <ItemIcon id="createmoregirder:brass_truss" />
@@ -149,6 +163,8 @@ Create: More Girder 提供梁、桁架与配套连接件。铜材有氧化与涂
 ***
 
 ## 玻璃机壳
+
+- 浏览物品: <EmiSearch query="@createprism" />
 
 <ItemGrid>
   <ItemIcon id="createprism:andesite_glass_casing" />
@@ -183,14 +199,14 @@ Create Oxidized 提供注水配方，制作斑驳、锈蚀与氧化铜材，包�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | 已安装基准版 | Industrial decoration themed around the aesthetics of the Create mod. |
-| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | 已安装基准版 | Allow to use all casing on shafts/cogwheels/pipes |
-| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | 已安装基准版 | Additions and adornments for the modern Create engineer. Available for both Fabric & Forge! |
-| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | 已安装基准版 | Decorative and mechanical additions to create! |
-| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | 已安装基准版 | a create addon that adds decor blocks to spice up your factory! |
-| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | 已安装基准版 | A Create mod addon that adds more Framed Glass variants. |
-| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | 已安装基准版 | Adds  8 unique girder variants to complement the Create mod ecosystem. |
-| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | 已安装基准版 | QoL addon for Create, which adds oxidizing recipes to all copper blocks |
-| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | 已安装基准版 | A remake version of Create: Crystal Clear, adds glass casings and illumination casings to create |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | 为工厂与基础设施增加机械动力风格的工业装饰。 | 已安装基准版 | <EmiSearch query="@createdeco" /> |
+| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | 扩展机械动力轴、齿轮与管道可用的机壳种类。 | 已安装基准版 | <EmiSearch query="@createcasing" /> |
+| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | 为机械动力列车与铁路建筑增加装饰细节。 | 已安装基准版 | <EmiSearch query="@bellsandwhistles" /> |
+| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | 为机械动力增加齿轮链传动与可自定义的工业装饰。 | 已安装基准版 | <EmiSearch query="@bits_n_bobs" /> |
+| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | 增加与机械动力机器风格相配的工厂装饰方块。 | 已安装基准版 | <EmiSearch query="@dndecor" /> |
+| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | 增加用于机械动力风格建筑的框架玻璃变体。 | 已安装基准版 | <EmiSearch query="@createframed" /> |
+| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | 为机械动力建筑增加结构梁变体。 | 已安装基准版 | <EmiSearch query="@createmoregirder" /> |
+| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | 增加通过机械动力加工氧化铜方块的配方。 | 已安装基准版 | 无独立物品查询 |
+| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | 为机械动力机器增加玻璃机壳与发光机壳。 | 已安装基准版 | <EmiSearch query="@createprism" /> |

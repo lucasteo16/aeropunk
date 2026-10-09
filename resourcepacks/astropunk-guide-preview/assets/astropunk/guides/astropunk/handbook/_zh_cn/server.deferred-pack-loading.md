@@ -21,6 +21,6 @@ Paxi 已暂缓加入，其自动内容包加载功能未在此安装。
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) | 暂缓，未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) | 自动加载数据包与资源包。 | 暂缓，未安装 | 当前未安装 |

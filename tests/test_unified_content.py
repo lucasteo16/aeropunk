@@ -8,8 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
 
 class UnifiedContent(unittest.TestCase):
-    def test_class_choices_and_first_steps_are_on_the_landing(self):
+    def test_class_choices_and_first_steps_are_in_combat_abilities(self):
         for locale in ('', '_zh_cn'):
+            landing = (PAGES / locale / 'reference.skills.md').read_text()
+            self.assertIn('](combat.abilities.md)', landing)
             text = (PAGES / locale / 'reference.skills.md').read_text()
             rows = [line for line in text.splitlines() if line.startswith('| ') and '<ItemIcon ' in line]
             self.assertEqual(len(rows), 19)
@@ -28,7 +30,7 @@ class UnifiedContent(unittest.TestCase):
     def test_clean_visual_coverage_and_cooking_interface(self):
         for locale in ('', '_zh_cn'):
             bosses = (PAGES / locale / 'adventure.bosses.md').read_text().split('## Related mods')[0].split('## 相关模组')[0]
-            self.assertEqual(len(re.findall(r'!\[[^\]]*\]\(images/[^)]+\)', bosses)), 13)
+            self.assertEqual(len(re.findall(r'!\[[^\]]*\]\(images/[^)]+\)', bosses)), 17)
             utensils = (PAGES / locale / 'food.utensils.md').read_text()
             self.assertIn('images/nav-visual-farmers-delight-pot-interface.png', utensils)
             self.assertIn('images/nav-visual-farmers-delight-pot-campfire.png', utensils)

@@ -10,6 +10,8 @@ navigation:
 
 ## 照明与生成
 
+- 浏览物品: <EmiSearch query="@torchmaster" />
+
 <ItemGrid>
   <ItemIcon id="torchmaster:megatorch" />
   <ItemIcon id="torchmaster:dreadlamp" />
@@ -53,7 +55,7 @@ Lighty 显示方块光照与天空光照，支持数字、地毯与叉形模式�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | 已安装基准版 | The Light Overlay Mod with a twist! |
-| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | 已安装基准版 | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | 叠加显示光照等级，帮助寻找暗处与可生成生物的地面。 | 已安装基准版 | 无独立物品查询 |
+| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | 增加用于控制区域内敌对或其他生物生成的方块。 | 已安装基准版 | <EmiSearch query="@torchmaster" /> |

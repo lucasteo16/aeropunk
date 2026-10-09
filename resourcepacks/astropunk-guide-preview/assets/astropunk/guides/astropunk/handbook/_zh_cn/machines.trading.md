@@ -10,6 +10,8 @@ navigation:
 
 ## 交易置物台
 
+- 浏览物品: <EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="trading_floor:trading_depot" />
   <ItemIcon id="minecraft:lectern" />
@@ -41,6 +43,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 已安装基准版 | Automate trading with villagers using create! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 通过机械动力机器自动进行村民交易。 | 已安装基准版 | <EmiSearch query="@trading_floor" /> |

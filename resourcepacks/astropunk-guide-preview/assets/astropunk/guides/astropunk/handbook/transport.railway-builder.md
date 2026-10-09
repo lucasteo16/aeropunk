@@ -10,6 +10,8 @@ navigation:
 
 ## Tracks & stations
 
+- Browse items: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:track" />
   <ItemIcon id="create:railway_casing" />
@@ -53,7 +55,7 @@ Blocks & Bogies adds a Bogie Customisation interface, not a separate set of bogi
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Baseline, installed | Adds larger train bogies with (and without) valve gear, and more |
-| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Baseline, installed | An unofficial port of Create: Steam 'n' Rails to 1.21.1. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Adds larger Create train bogies, including visible valve gear variants. | Baseline, installed | No separate item search |
+| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Expands Create railways with additional track and train components. | Baseline, installed | <EmiSearch query="@railways" /> |

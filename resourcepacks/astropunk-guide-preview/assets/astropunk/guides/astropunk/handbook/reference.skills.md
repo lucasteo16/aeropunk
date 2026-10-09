@@ -1,18 +1,20 @@
 ---
 navigation:
-  title: "Spells & skills"
-  position: 7
+  title: "Combat"
+  position: 6
   parent: quick-reference.md
-  icon: minecraft:enchanted_book
+  icon: minecraft:iron_sword
 ---
 
-# Spells & skills
+# Combat
 
 ## Playable classes
 
 Choose a build through equipment, a class book and skill-tree choices. There is no permanent class-selection screen. Skill roots can still be incompatible, and changing equipment does not refund spent points.
 
 ### Martial classes
+
+- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@rogues" />
 
 | Class | Purpose | First weapon or focus |
 | --- | --- | --- |
@@ -26,6 +28,8 @@ Choose a build through equipment, a class book and skill-tree choices. There is 
 | Forcemaster | Arcane strikes with knuckles. | <ItemGrid><ItemIcon id="forcemaster_rpg:iron_knuckle" /></ItemGrid> <ItemLink id="forcemaster_rpg:iron_knuckle" /> |
 
 ### Magic & support
+
+- Browse items: <EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" /> <EmiSearch query="@wizards" />
 
 | Class | Purpose | First weapon or focus |
 | --- | --- | --- |
@@ -43,90 +47,76 @@ Choose a build through equipment, a class book and skill-tree choices. There is 
 
 The three archer expansion paths can begin with the bow before adding their specialist armor. Witcher fencing and signs are two book paths for the same class, not two locked character selections.
 
+
 ***
 
-## First abilities
+## Equipment & abilities
 
-<ItemGrid>
-  <ItemIcon id="spell_engine:spell_binding" />
-  <ItemIcon id="minecraft:book" />
-  <ItemIcon id="minecraft:lapis_lazuli" />
-  <ItemIcon id="minecraft:bookshelf" />
-  <ItemIcon id="spell_engine:spell_book" />
-</ItemGrid>
+Match your weapon or focus, armor bonuses and accessories to the attributes used by your abilities. A Fire-power bonus does not strengthen a Frost spell. Ordinary experience levels pay for spell binding, class and weapon skill points develop their own trees.
+
+- <ItemImage id="minecraft:iron_chestplate" /> [Equipment](reference.equipment.md) Weapons, armor, accessories and first crafts.
+- <ItemImage id="minecraft:enchanted_book" /> [Spells & abilities](combat.abilities.md) Book preparation, binding costs and casting requirements.
+
+***
+
+## First steps
+
+- Browse items: <EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
+
+<ItemGrid><ItemIcon id="spell_engine:spell_binding" /></ItemGrid>
 
 <ItemLink id="spell_engine:spell_binding" />
 
 <Recipe id="spell_engine:spell_binding_table" />
 
-1. Craft a starter weapon or focus from a class row. Its built-in ability is separate from a class book.
-2. Put a normal book in the Spell Binding Table. Select the matching class book and pay the displayed experience levels. Witcher offers separate Fencing and Signs books.
-3. Put the class book back in the table with lapis lazuli. Select an ability and meet its displayed level requirement, level cost, lapis cost and bookshelf power. Add valid nearby bookshelves when an offer lacks power.
-4. Equip the book in its spell-book slot and hold a compatible weapon or focus. Check the spell hotbar and use <KeyBind id="keybindings.spell_engine.spell_hotbar_1" /> for its first action. Keep required ammunition or runes available.
-5. Open <KeyBind id="key.puffish_skills.open" /> to spend earned points on connected nodes. Read incompatible roots before spending. Class and weapon points are separate from the ordinary experience levels used for binding.
-
-The class books are configured versions of <ItemLink id="spell_engine:spell_book" />, not separate craftable item types. A weapon can grant an ability before you learn any book spells.
+1. Choose a role above and craft its starter weapon or focus. A built-in weapon ability is separate from a class book.
+2. Make a Spell Binding Table, use a normal book to choose the matching class book, then bind abilities with the displayed experience and lapis requirements.
+3. Equip the book in its spell-book slot and hold compatible equipment. Read the spell tooltip for ammunition, runes or other casting requirements.
+4. Open <KeyBind id="key.puffish_skills.open" /> to develop connected nodes. Read incompatible roots before spending, changing equipment does not refund points.
 
 ***
 
-## Starter recipes
+## Detailed references
 
-The Novice Wand is a low-cost Fire starting point, not an Arcane or Frost substitute. The Acolyte Wand starts healing with sticks and string.
-
-<ItemGrid>
-  <ItemIcon id="wizards:wand_novice" />
-</ItemGrid>
-
-<ItemLink id="wizards:wand_novice" />
-
-<Recipe id="wizards:wand_novice" />
-
-<ItemGrid>
-  <ItemIcon id="paladins:acolyte_wand" />
-</ItemGrid>
-
-<ItemLink id="paladins:acolyte_wand" />
-
-<Recipe id="paladins:acolyte_wand" />
-
-***
-
-## Gear & abilities
-
-A spell uses its own school or combat attribute. Match Fire power to Fire spells and healing power to healing. A strong Fire wand does not raise Frost power. Melee and ranged techniques may use different attributes even within one class. Armor protects you, but its school bonuses determine which abilities it strengthens.
-
-Read the ability tooltip before choosing accessories or skill nodes. Rage and Witcher sign intensity are their own build attributes. A relic trigger is not an extra freely castable class spell.
-
-## Related pages
-
-- [Martial abilities](combat.martial.md) Full ranged and melee ability lists.
-- [Magic & support](combat.magic.md) Full spell lists and casting requirements.
-- [Skill development](combat.skills.md) Class paths, weapon points and resets.
-- [Combat controls](combat.handling.md) Attacks, spell actions and rolling.
-- [Weapons & armor](equipment.weapons-armor.md) Starter recipes and equipment families.
-- [Accessories](equipment.accessories.md) Jewelry, relics and their slots.
+- [Weapons & armor](equipment.weapons-armor.md)
+- [Accessories](equipment.accessories.md)
+- [Armor & status](equipment.display.md)
+- [Weapons & dodging](combat.handling.md)
+- [Martial classes](combat.martial.md)
+- [Magic classes](combat.magic.md)
+- [Character skills](combat.skills.md)
 
 
 ***
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Baseline, installed | 🏹 Draw, Release, Conquer - Master the art of Archery! |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Baseline, installed | Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Baseline, installed | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Baseline, installed | Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On |
-| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Baseline, installed | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Baseline, installed | 🧶 Adds combat roll ability, with related attributes and enchantments. |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Baseline, installed | 🍀 Chance based critical hits for melee and ranged attacks! |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Baseline, installed | Master the elements to overcome your foes! Spell Engine Add-On |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Baseline, installed | Grab a Knuckle, master the force and martial art. Spell Engine Add-On |
-| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Baseline, installed | RPG Series Skill Tree Add-On for the More RPG Classes! |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Baseline, installed | ✨ Protect and heal your friends as a Paladin or a Priest |
-| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Baseline, installed | Adds a fully configurable skill system to the game. |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Baseline, installed | 🗡️ Silent Blades, Mighty Blows - Dominate with martial skills! |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | Baseline, installed | 🪨 Craft runes to serve as ammo for spells |
-| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | Baseline, installed | ⭐️ Choose your path - Skills that shape your class |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Baseline, installed | Slay monsters like a Witcher! Spell Engine Add-On |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | Baseline, installed | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Adds jewelry for the additional More RPG Classes professions. | Baseline, installed | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Adds an archer combat class built around bows and ranged abilities. | Baseline, installed | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Adds archer subclasses with cold, status-inflicting and explosive arrow abilities. | Baseline, installed | <EmiSearch query="@archers_expansion" /> |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Adds class-oriented armor sets with set bonuses. | Baseline, installed | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Adds legendary weapons obtained through encounters rather than crafting. | Baseline, installed | <EmiSearch query="@arsenal" /> |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Adds a bard class that supports allies through songs and ballads. | Baseline, installed | <EmiSearch query="@bards_rpg" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Adds an axe-wielding berserker whose rage increases damage at low health. | Baseline, installed | <EmiSearch query="@berserker_rpg" /> |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Reworks melee attacks with weapon animations and a more fluid combat system. | Baseline, installed | No separate item search |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Adds a dodge roll with related attributes and enchantments. | Baseline, installed | No separate item search |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Adds chance-based critical hits to melee and ranged attacks. | Baseline, installed | No separate item search |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | Provides expandable equipment slots for wearable accessories. | Baseline, installed | No separate item search |
+| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Shows additional armor information in the armor status bar. | Baseline, installed | No separate item search |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Expands Wizards with earth, water and wind spellcasting subclasses. | Baseline, installed | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Adds a knuckle-wielding martial class that strengthens attacks with arcane force. | Baseline, installed | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | Adds mineable gems and craftable jewelry that improves combat attributes. | Baseline, installed | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Adds Relics accessories for the additional More RPG Classes professions. | Baseline, installed | <EmiSearch query="@more_relics" /> |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Adds class skill-tree support for the additional More RPG Classes professions. | Baseline, installed | No separate item search |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Adds paladin and priest classes focused on protection and healing. | Baseline, installed | <EmiSearch query="@paladins" /> |
+| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Provides a configurable skill system and skill-tree interface. | Baseline, installed | No separate item search |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | Adds combat-enhancing trinkets for RPG Series character builds. | Baseline, installed | <EmiSearch query="@relics_rpgs" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Adds rogue and warrior classes with distinct melee combat abilities. | Baseline, installed | <EmiSearch query="@rogues" /> |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | Adds craftable runes consumed as ammunition for spells. | Baseline, installed | <EmiSearch query="@runes" /> |
+| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | Adds class-oriented skill trees for RPG Series characters. | Baseline, installed | <EmiSearch query="@skill_tree_rpgs" /> |
+| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | Shows remaining status-effect duration with customizable bars. | Baseline, installed | No separate item search |
+| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | Reorganizes status-effect displays into compact, configurable interface layouts. | Baseline, installed | No separate item search |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Adds a monster-hunting witcher class and associated combat abilities. | Baseline, installed | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | Adds wizard combat using arcane, fire and frost spells. | Baseline, installed | <EmiSearch query="@wizards" /> |

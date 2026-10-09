@@ -48,9 +48,9 @@ Configured Defaults 在文件缺失时提供初始文件。已有玩家设置与
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Chunky](images/catalog-fALzjamp.png) [Chunky](server.tools.md) | 已安装基准版 | Pre-generates chunks, quickly and efficiently |
-| ![Configured Defaults](images/catalog-SISoSFPP.png) [Configured Defaults](server.tools.md) | 已安装基准版 | Allows for providing defaults for files absent in .minecraft like configs. A quintessential modpack utility. |
-| ![Observable](images/catalog-VYRu7qmG.png) [Observable](server.tools.md) | 已安装基准版 | See what's lagging your server. |
-| ![spark](images/catalog-l6YH9Als.png) [spark](server.tools.md) | 已安装基准版 | spark is a performance profiler for Minecraft clients, servers and proxies. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Chunky](images/catalog-fALzjamp.png) [Chunky](server.tools.md) | 在探索前预先生成地形。 | 已安装基准版 | 无独立物品查询 |
+| ![Configured Defaults](images/catalog-SISoSFPP.png) [Configured Defaults](server.tools.md) | 为缺失文件提供整合包默认设置。 | 已安装基准版 | 无独立物品查询 |
+| ![Observable](images/catalog-VYRu7qmG.png) [Observable](server.tools.md) | 用于定位服务器耗时处理。 | 已安装基准版 | 无独立物品查询 |
+| ![spark](images/catalog-l6YH9Als.png) [spark](server.tools.md) | 分析客户端与服务器性能。 | 已安装基准版 | 无独立物品查询 |

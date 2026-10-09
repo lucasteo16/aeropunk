@@ -10,17 +10,18 @@ navigation:
 
 ## 使用手册
 
-按领域目录查看已安装模组与功能。玩法页面解释具体机制。指向物品格可以查看名称和提示。
+快速参考按功能组织已安装内容。主题页面说明有哪些内容、如何起步，以及相关工具如何配合。对应模组和物品查询列在主题下方。将鼠标放在原生物品栏位与名称上可查看提示，点击粉色查询可浏览物品。
 
-- [Astropunk](index.md)
-- [操作与按键](help.controls.md)
-- [浏览配方](help.search.md)
+- [Astropunk](index.md) 整合包的主要内容。
+- [快速参考](quick-reference.md) 玩法与支持主题。
+- [控制](help.controls.md) 按键与入口。
+- [浏览配方](help.search.md) 材料与用途。
 
 
 ***
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | 已安装基准版 | A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | 以排版文本、物品展示与交互场景呈现游戏内指南页面。 | 已安装基准版 | <EmiSearch query="@guideme" /> |

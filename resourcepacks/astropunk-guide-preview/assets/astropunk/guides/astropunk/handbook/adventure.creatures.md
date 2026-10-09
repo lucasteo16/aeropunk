@@ -10,6 +10,8 @@ navigation:
 
 ## Creeper Overhaul
 
+- Browse items: <EmiSearch query="@creeperoverhaul" /> <EmiSearch query="@spawn" />
+
 ![Spruce Creeper](images/encounters-creeper-overhaul-spruce-creeper.png)
 
 Spruce Creeper
@@ -38,6 +40,8 @@ The image shows one species. The other entries have their own appearance.
 ***
 
 ## Enderman Overhaul
+
+- Browse items: <EmiSearch query="@endermanoverhaul" />
 
 ![Flower Fields Enderman](images/encounters-enderman-overhaul-flower-fields-enderman.png)
 
@@ -97,6 +101,8 @@ Waving Crab
 
 ## Variants&Ventures
 
+- Browse items: <EmiSearch query="@variantsandventures" />
+
 ![Gelid (Frozen Zombie)](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
 
 Gelid (Frozen Zombie)
@@ -150,6 +156,8 @@ Snail
 
 ## Bosses'Rise
 
+- Browse items: <EmiSearch query="@block_factorys_bosses" />
+
 These enemies guard boss structures.
 
 | Creature | Encounter |
@@ -170,6 +178,8 @@ These enemies guard boss structures.
 ***
 
 ## L_Ender's Cataclysm
+
+- Browse items: <EmiSearch query="@cataclysm" />
 
 Find these creatures around the corresponding ruins and boss structures. Some companion encounters remain unconfirmed.
 
@@ -213,6 +223,8 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 ## Illager Invasion
 
+- Browse items: <EmiSearch query="@illagerinvasion" />
+
 | Creature | Encounter |
 | --- | --- |
 | Alchemist | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
@@ -243,6 +255,8 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 ## Other encounters
 
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@supplementaries" />
+
 | Mod | Creatures & access |
 | --- | --- |
 | Supplementaries | Red Merchant and Plunderer have shipped entity definitions. Their encounter conditions are not confirmed. |
@@ -260,10 +274,10 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | Baseline, installed | A mod which overhauls the vanilla creepers! |
-| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | Baseline, installed | Enderman Overhaul adds over 20 new enderman variants, each with their own sounds, models, and animations! |
-| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | Baseline, installed | Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse |
-| ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | Baseline, installed | An overworld wilderness overhaul that adds tons of animals, biomes, ambience and functionality |
-| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | Baseline, installed | Adds multiple new mob variants seamlessly integrated into your Minecraft world. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | Adds biome-specific creeper variants with distinct appearances and behavior. | Baseline, installed | <EmiSearch query="@creeperoverhaul" /> |
+| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | Adds enderman variants with distinctive models, sounds and animations. | Baseline, installed | <EmiSearch query="@endermanoverhaul" /> |
+| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | Adds expanded versions of creatures omitted from Minecraft mob votes. | Baseline, installed | <EmiSearch query="@friendsandfoes" /> |
+| ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | Expands Overworld wilderness with animals, biomes and ambient life. | Baseline, installed | <EmiSearch query="@spawn" /> |
+| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | Adds new variants of familiar creatures to world encounters. | Baseline, installed | <EmiSearch query="@variantsandventures" /> |

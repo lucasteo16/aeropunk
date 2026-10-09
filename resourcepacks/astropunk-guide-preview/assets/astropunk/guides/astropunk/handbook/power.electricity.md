@@ -10,6 +10,8 @@ navigation:
 
 ## Generation & storage
 
+- Browse items: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="electroenergetics:alternator_rotor" />
   <ItemIcon id="electroenergetics:stator" />
@@ -81,6 +83,6 @@ Begin with the alternator and Connecting Wires Ponder entries, then add a meter 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Baseline, installed | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Adds electricity generation, transmission and powered machinery, including electric trains. | Baseline, installed | <EmiSearch query="@electroenergetics" /> |

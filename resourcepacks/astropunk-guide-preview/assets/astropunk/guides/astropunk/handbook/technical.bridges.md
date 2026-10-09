@@ -49,9 +49,9 @@ Sound and animation bridges are listed with the feature they change. Shared fram
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | Baseline, installed | Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods! |
-| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | Baseline, installed | Fix the Bees! |
-| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | Baseline, installed | Sable Beyond expands the Sable mod with additional features, quality-of-life improvements, and compatibility support. It is designed to add ideas that are not part of the main mod while keeping the gameplay experience consistent with Sable. |
-| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | Baseline, installed | A Compat mod for Sable/Aeronautics providing tags for several modded blocks. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | Removes built-in attribute limits that can restrict modded values. | Baseline, installed | No separate item search |
+| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | Repairs vanilla bee behavior. | Baseline, installed | No separate item search |
+| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | Extends Sable with Create machine interactions and configurable mass and fluid physics. | Baseline, installed | No separate item search |
+| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | Adds physics property tags to supported modded blocks. | Baseline, installed | No separate item search |

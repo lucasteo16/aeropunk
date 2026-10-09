@@ -10,6 +10,8 @@ navigation:
 
 ## 组装
 
+- 浏览物品: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />
   <ItemIcon id="simulated:honey_glue" />
@@ -106,6 +108,6 @@ Simulated 提供移动结构的机械连接件与工具。Create Propulsion 增�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | 已安装基准版 | Build anything from airships to planes and cars! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | 将方块搭建的载具变成可操控的物理移动结构。 | 已安装基准版 | 无独立物品查询 |

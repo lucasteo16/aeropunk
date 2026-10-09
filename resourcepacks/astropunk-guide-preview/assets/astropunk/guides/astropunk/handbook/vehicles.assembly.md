@@ -10,6 +10,8 @@ navigation:
 
 ## Assembly
 
+- Browse items: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />
   <ItemIcon id="simulated:honey_glue" />
@@ -106,6 +108,6 @@ Simulated supplies mechanical connections and tools for moving builds. Create Pr
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | Baseline, installed | Build anything from airships to planes and cars! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | Turns block-built vehicles into controllable physical moving structures. | Baseline, installed | No separate item search |

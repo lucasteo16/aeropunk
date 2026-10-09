@@ -10,6 +10,8 @@ navigation:
 
 ## 动力源与传动
 
+- 浏览物品: <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:water_wheel" />
   <ItemIcon id="create:large_water_wheel" />
@@ -85,6 +87,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | 已安装基准版 | QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | 为机械动力增加传动部件与更灵活的存储布置方式。 | 已安装基准版 | <EmiSearch query="@create_connected" /> |

@@ -10,6 +10,8 @@ navigation:
 
 ## Teleport transition
 
+- Browse items: <EmiSearch query="@create" />
+
 GrandTeleport changes the camera transition during teleportation. It does not create a survival travel destination or grant teleport permission.
 
 | Component | Function |
@@ -41,10 +43,10 @@ These explosion, status-particle and ambient visual additions are not installed 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | Heavy edition, not installed here | Not installed here. |
-| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | Baseline, installed | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
-| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | Heavy edition, not installed here | Not installed here. |
-| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | Heavy edition, not installed here | Not installed here. |
-| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | Heavy edition, not installed here | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | Changes explosion animation effects. | Heavy edition, not installed here | Not installed here |
+| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | Adds a cinematic camera transition during teleportation. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | Gives vanilla status effects distinct textured particles. | Heavy edition, not installed here | Not installed here |
+| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | Adds ambient visual effects. | Heavy edition, not installed here | Not installed here |
+| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | Makes particles respond to entities. | Heavy edition, not installed here | Not installed here |

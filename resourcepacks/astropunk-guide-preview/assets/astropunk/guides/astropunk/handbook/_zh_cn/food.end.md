@@ -10,6 +10,8 @@ navigation:
 
 ## 紫颂料理
 
+- 浏览物品: <EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+
 <ItemGrid>
   <ItemIcon id="ends_delight:chorus_fruit_grain" />
   <ItemIcon id="ends_delight:chorus_fruit_milk_tea" />
@@ -238,6 +240,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 已安装基准版 | End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | 已安装基准版 | <EmiSearch query="@ends_delight" /> |

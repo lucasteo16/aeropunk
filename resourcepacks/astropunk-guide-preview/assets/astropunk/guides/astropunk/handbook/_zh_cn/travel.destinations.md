@@ -10,6 +10,8 @@ navigation:
 
 ## 传送石网络
 
+- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@waystones" />
+
 <ItemGrid>
   <ItemIcon id="waystones:blackstone_waystone" />
   <ItemIcon id="waystones:deepslate_waystone" />
@@ -68,6 +70,8 @@ Waystones 提供不同材质的目的地方块。先激活传送石，再从目�
 
 ## Tempad 与传送门
 
+- 浏览物品: <EmiSearch query="@tempad" />
+
 <ItemGrid>
   <ItemIcon id="tempad:tempad" />
   <ItemIcon id="tempad:location_card" />
@@ -125,9 +129,9 @@ Tempad 将时间动力设备与保存位置的管理设备分开。通过位置�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | 已安装基准版 | This mod changes the recipes of Waystones to fit with and use the Create mod. It also balances things a bit more. |
-| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | 已安装基准版 | Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer. |
-| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | 已安装基准版 | Create a portal to anywhere from anywhere |
-| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | 已安装基准版 | Teleport from waystone to waystone or craft magical scrolls to warp. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | 修改 Waystones 配方，改用机械动力材料与制作方式。 | 已安装基准版 | 无独立物品查询 |
+| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | 修正玩家往返下界传送门时的返回目的地。 | 已安装基准版 | 无独立物品查询 |
+| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | 用便携及固定设备开启通往已保存地点的传送门。 | 已安装基准版 | <EmiSearch query="@tempad" /> |
+| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | 增加需激活的目的地石碑与便携传送物品，支持地点间旅行。 | 已安装基准版 | <EmiSearch query="@waystones" /> |

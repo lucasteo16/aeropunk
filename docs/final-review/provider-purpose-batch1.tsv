@@ -1,0 +1,64 @@
+mods/additional-rpg-jewelry.pw.toml|Adds jewelry for the additional More RPG Classes professions.|为 More RPG Classes 的扩展职业增加首饰。
+mods/aeroengine.pw.toml|Adds modular aircraft engines and flight control instruments to Create.|为机械动力增加模块化航空发动机与飞行控制仪表。
+mods/amendments.pw.toml|Expands existing blocks with features such as potion-mixing cauldrons and wall-mounted lanterns.|扩展已有方块功能，例如炼药锅混合药水与灯笼壁挂。
+mods/appleskin.pw.toml|Shows food hunger restoration and saturation in tooltips and the hunger display.|在物品提示与饥饿条中显示食物恢复量及饱和度。
+mods/archers-expansion.pw.toml|Expands Archers with additional ranged combat equipment and abilities.|为 Archers 增加远程战斗装备与能力。
+mods/archers.pw.toml|Adds an archer combat class built around bows and ranged abilities.|增加围绕弓箭与远程能力设计的弓箭手职业。
+mods/armor-poser.pw.toml|Provides an interface for adjusting armor stand poses and properties.|提供调整盔甲架姿势与属性的界面。
+mods/armory-rpg-series.pw.toml|Adds class-oriented armor sets with set bonuses.|增加面向不同职业的盔甲套装与套装加成。
+mods/arsenal-rpg-series.pw.toml|Adds legendary weapons obtained through encounters rather than crafting.|增加通过战斗遭遇而非合成获取的传奇武器。
+mods/bard-more-rpg-classes.pw.toml|Adds a bard class that supports allies through songs and ballads.|增加以歌曲与歌谣支援队友的吟游诗人职业。
+mods/beautify-refoxed.pw.toml|Adds vanilla-styled decorative furnishings for homes and gardens.|增加贴近原版风格的家居与庭院装饰。
+mods/bellsandwhistles.pw.toml|Adds decorative details for Create trains and railway builds.|为机械动力列车与铁路建筑增加装饰细节。
+mods/berserker-rpg-class.pw.toml|Adds a berserker class centered on aggressive melee combat.|增加以猛烈近战为核心的狂战士职业。
+mods/better-combat.pw.toml|Reworks melee attacks with weapon animations and a more fluid combat system.|通过武器攻击动画与更流畅的攻击机制改进近战。
+mods/betterdays.pw.toml|Customizes day and night duration and advances time while players sleep.|自定义昼夜长度，并在玩家睡眠时加快时间流逝。
+mods/bigsignwriter.pw.toml|Writes large characters and symbols across multiple lines of signs.|在告示牌多行之间绘制大号文字与符号。
+mods/blocks-bogies.pw.toml|Adds larger Create train bogies, including visible valve gear variants.|增加更大的机械动力列车转向架，含带可见阀动机构的款式。
+mods/bossesrise.pw.toml|Adds challenging bosses with dedicated encounter structures.|增加高难度首领与专属遭遇建筑。
+mods/carry-on.pw.toml|Lets players pick up and carry supported containers and creatures.|允许玩家抱起并搬运受支持的容器与生物。
+mods/chipped-express.pw.toml|Makes Chipped decorative block recipes available through the stonecutter.|让 Chipped 的装饰方块配方可在切石机中使用。
+mods/chipped.pw.toml|Adds decorative block variants crafted at material-specific workbenches.|增加装饰方块变体，并通过各类材料专用工作台制作。
+mods/combat-roll.pw.toml|Adds a dodge roll with related attributes and enchantments.|增加闪避翻滚及相关属性与附魔。
+mods/comforts.pw.toml|Adds sleeping bags and hammocks for resting without changing the respawn point.|增加睡袋与吊床，让玩家休息而不改变重生点。
+mods/controlling.pw.toml|Adds searching and conflict filtering to the keybinding screen.|为按键绑定界面增加搜索与冲突筛选。
+mods/copycats.pw.toml|Adds Create copycat building shapes that imitate other blocks' materials.|增加可模仿其他方块材质的机械动力伪装建筑形状。
+mods/corpse-x-curios-api-compat.pw.toml|Lets recovered corpse accessories return directly to their Curios equipment slots.|让尸体中取回的饰品直接回到对应的 Curios 装备栏。
+mods/corpse.pw.toml|Stores a dead player's inventory in a recoverable corpse.|将死亡玩家的物品保存在可取回的尸体中。
+mods/create-additional-logistics.pw.toml|Adds logistics blocks and behavior improvements to Create item transport.|为机械动力物品运输增加物流方块与行为改进。
+mods/create-aeronautics-encased-fluid-pipes.pw.toml|Lets Aeronautics hot air envelopes encase Create fluid pipes.|允许用 Aeronautics 热气囊包覆机械动力流体管道。
+mods/create-aeronautics.pw.toml|Turns block-built vehicles into controllable physical moving structures.|将方块搭建的载具变成可操控的物理移动结构。
+mods/create-aeroworks.pw.toml|Adds flight controls such as gyroscopes and joysticks for Aeronautics vehicles.|为 Aeronautics 载具增加陀螺仪与操纵杆等飞行控制部件。
+mods/create-ballast.pw.toml|Adds layered ballast blocks for adjusting vehicle mass and balance.|增加可叠层压载方块，用于调整载具质量与平衡。
+mods/create-big-cannons.pw.toml|Adds buildable large cannons and their ammunition to Create.|为机械动力增加可组装的大炮与弹药。
+mods/create-bits-n-bobs.pw.toml|Adds decorative blocks and mechanical components to Create builds.|为机械动力建筑增加装饰方块与机械部件。
+mods/create-central-kitchen.pw.toml|Connects other cooking mods to Create machines for automated food processing.|将其他烹饪模组接入机械动力机器，实现食物自动加工。
+mods/create-connected.pw.toml|Adds convenience components for Create power transmission and machine construction.|为机械动力传动与机器搭建增加便利部件。
+mods/create-deco.pw.toml|Adds Create-styled industrial decoration for factories and infrastructure.|为工厂与基础设施增加机械动力风格的工业装饰。
+mods/create-deep-seas.pw.toml|Adds marine vehicle components for Aeronautics boats and submarines.|为 Aeronautics 船只与潜艇增加水上及水下航行部件。
+mods/create-design-n-decor.pw.toml|Adds factory decoration blocks styled to match Create machinery.|增加与机械动力机器风格相配的工厂装饰方块。
+mods/create-dragons-plus.pw.toml|Adds bulk fan processing and fluid tank access tools, plus shared Create addon utilities.|增加风扇批量加工与储液罐存取工具，并提供机械动力附加模组共享工具。
+mods/create-electro-energetics.pw.toml|Adds electricity generation, transmission and powered machinery, including electric trains.|增加发电、输配电与电动机器，包括电力列车。
+mods/create-encased.pw.toml|Expands casing choices for Create shafts, cogwheels and pipes.|扩展机械动力轴、齿轮与管道可用的机壳种类。
+mods/create-enchantment-industry.pw.toml|Automates experience handling and enchanting with Create machinery.|用机械动力机器自动处理经验与附魔。
+mods/create-framed.pw.toml|Adds more framed glass variants for Create-style construction.|增加用于机械动力风格建筑的框架玻璃变体。
+mods/create-integrated-farming.pw.toml|Adds automatic crop harvesting, fishing nets and poultry production to Create.|为机械动力增加自动收割、渔网与家禽产物自动收集。
+mods/create-liquid-fuel.pw.toml|Lets Create blaze burners consume pumped liquid fuel.|让机械动力烈焰人燃烧室使用泵入的液体燃料。
+mods/create-molten-vents.pw.toml|Provides renewable Create ore-bearing stones through molten vents.|通过熔融喷口提供可再生的机械动力含矿石材。
+mods/create-more-girder.pw.toml|Adds structural girder variants for Create builds.|为机械动力建筑增加结构梁变体。
+mods/create-pattern-schematics.pw.toml|Repeats schematic patterns when building with Create schematics.|让机械动力蓝图建造重复铺设指定图案。
+mods/create-prismatic-shine.pw.toml|Adds glass and illuminated casings for Create machinery.|为机械动力机器增加玻璃机壳与发光机壳。
+mods/create-propulsion-simulated.pw.toml|Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles.|增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。
+mods/create-radars.pw.toml|Adds radar equipment to detect and track targets in Create builds.|为机械动力建筑增加探测与追踪目标的雷达设备。
+mods/create-railways-navigator.pw.toml|Adds train route search, passenger information displays and schedule features.|增加列车路线搜索、乘客信息显示与时刻表功能。
+mods/create-shuffle-filter.pw.toml|Lets Create deployers place randomized blocks from a selected palette.|让机械动力机械手从指定材料组中随机选块放置。
+mods/create-springs.pw.toml|Stores rotational energy in springs for later use.|将旋转动力存入弹簧，供之后释放使用。
+mods/create-stam1o-tweaks.pw.toml|Adjusts Create recipes and lets diving boots counter levitation.|调整机械动力配方，并让潜水靴抵消漂浮效果。
+mods/create-steam-n-rails-1.21.1.pw.toml|Expands Create railways with additional track and train components.|为机械动力铁路增加轨道与列车部件。
+mods/create-stuff-additions.pw.toml|Adds Create-themed powered equipment and wearable tools.|增加机械动力主题的动力装备与可穿戴工具。
+mods/create-trading-floor.pw.toml|Automates villager trading through Create machinery.|通过机械动力机器自动进行村民交易。
+mods/create-tweaked-controllers.pw.toml|Adds advanced handheld controls for Create contraptions.|为机械动力运动结构增加高级手持控制器。
+mods/create-vibrant-vaults.pw.toml|Adds more color and material variants of Create item vaults.|增加机械动力物品仓库的颜色与材料变体。
+mods/create-waystones-recipes.pw.toml|Reworks Waystones recipes to use Create materials and crafting.|修改 Waystones 配方，改用机械动力材料与制作方式。
+mods/create.pw.toml|Adds rotational machines for processing, transport and automated construction.|增加用于加工、运输与自动建造的旋转动力机器。
+mods/create_oxidized.pw.toml|Adds Create processing recipes for oxidizing copper blocks.|增加通过机械动力加工氧化铜方块的配方。

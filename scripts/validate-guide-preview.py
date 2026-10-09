@@ -17,8 +17,8 @@ root = Path(__file__).resolve().parents[1]
 pack = tomllib.loads((root / "pack.toml").read_text())
 resource = root / "resourcepacks/astropunk-guide-preview"
 json.loads((resource / "pack.mcmeta").read_text())
-definition = json.loads((resource / "assets/astropunk/guideme_guides/handbook.json").read_text())
-assert definition["default_language"] == "en_us"
+assert not (resource / "assets/astropunk/guideme_guides/handbook.json").exists(), "Native helper registration must not be overridden by a resource guide"
+assert (root / "mods/astropunk-handbook-access-1.0.0.jar").exists()
 pages = resource / "assets/astropunk/guides/astropunk/handbook"
 expected = {p.name for p in pages.glob("*.md")}
 assert {p.name for p in (pages / "_zh_cn").glob("*.md")} == expected
@@ -87,7 +87,12 @@ for language in ('', '_zh_cn'):
     assert not list(locale_root.glob('category-*.md'))
     home_links = set(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / 'index.md').read_text()))
     reference_links = set(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / 'quick-reference.md').read_text()))
-    assert home_links == reference_links, language
+    assert home_links == {'quick-reference.md'}, language
+    assert len(reference_links) == 16, language
+    assert 'reference.equipment.md' not in reference_links
+    assert not (resource / 'assets/astropunk/guideme_guides/handbook.json').exists(), 'Native query guide registration must not be overridden'
+    for filename in ('reference.equipment.md', 'combat.abilities.md'):
+        assert '  parent: reference.skills.md\n' in (locale_root / filename).read_text()
     for article in handbook['pages']:
         current = article['filename']
         seen = {current}

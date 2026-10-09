@@ -10,6 +10,8 @@ navigation:
 
 ## 轨道与车站
 
+- 浏览物品: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:track" />
   <ItemIcon id="create:railway_casing" />
@@ -53,7 +55,7 @@ Blocks & Bogies 提供转向架自定义界面，而非一套独立转向架物�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | 已安装基准版 | Adds larger train bogies with (and without) valve gear, and more |
-| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | 已安装基准版 | An unofficial port of Create: Steam 'n' Rails to 1.21.1. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | 增加更大的机械动力列车转向架，含带可见阀动机构的款式。 | 已安装基准版 | 无独立物品查询 |
+| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | 为机械动力铁路增加轨道与列车部件。 | 已安装基准版 | <EmiSearch query="@railways" /> |

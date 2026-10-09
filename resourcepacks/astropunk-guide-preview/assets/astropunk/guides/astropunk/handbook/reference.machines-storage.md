@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Machines & storage"
-  position: 11
+  position: 10
   parent: quick-reference.md
   icon: create:crushing_wheel
 ---
@@ -9,6 +9,8 @@ navigation:
 # Machines & storage
 
 ## Containers & handling
+
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@interactic" />
 
 | Reference | Contents |
 | --- | --- |
@@ -19,6 +21,8 @@ navigation:
 ***
 
 ## Machines & materials
+
+- Browse items: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
 
 | Reference | Contents |
 | --- | --- |
@@ -34,6 +38,8 @@ navigation:
 
 ## Power & industry
 
+- Browse items: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+
 | Reference | Contents |
 | --- | --- |
 | <ItemImage id="electroenergetics:accumulator" /> [Electricity](power.electricity.md) | Alternators, wiring, meters, protection and railway supply. |
@@ -43,29 +49,67 @@ navigation:
 
 ***
 
+## Machine systems
+
+### Machines and processing
+
+- Browse items: <EmiSearch query="@create_connected" />
+
+| Mod | Purpose |
+| --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Additional components for Create machinery |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Renewable Create ore stones and resources |
+
+***
+
+### Power & materials
+
+| Mod | Purpose |
+| --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Electric generation, transmission and consumers |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Industrial materials and fuel systems |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Liquid fuel for blaze burners |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Rotational energy storage |
+
+***
+
+### Production automation
+
+- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+
+| Mod | Purpose |
+| --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Automated enchanting |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | Automated villager trading |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | Food-processing integration for Create |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | Automated Farmer's Delight processing |
+
+***
+
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | Baseline, installed | Dyeable and upgradeable vanilla-friendly backpacks! |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Baseline, installed | Aesthetic Technology that empowers the Player |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Baseline, installed | 🧲 Dominate your environment with Create technology |
-| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Baseline, installed | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |
-| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Baseline, installed | QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need |
-| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Baseline, installed | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |
-| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Baseline, installed | Automatic Enchanting, with Create |
-| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Baseline, installed | Pump in liquid fuel to blaze burners |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Baseline, installed | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Baseline, installed | Store rotational force using springs! |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Baseline, installed | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |
-| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Baseline, installed | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |
-| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | Baseline, installed | Automate trading with villagers using create! |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | Baseline, installed | A Create mod addon that adds more item vaults. |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Baseline, installed | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |
-| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | Baseline, installed | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
-| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | Baseline, installed | A maintained fork of the populair interactic mod. |
-| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | Baseline, installed | Enhances inventory management by adding various functions to the mouse buttons.  |
-| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | Baseline, installed | Adds reinforced shulker boxes. |
-| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | Baseline, installed | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
-| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | Baseline, installed | Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting. |
-| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | Baseline, installed | Adds a draggable trash slot to all inventory screens. Press T to toggle. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | Adds dyeable, upgradeable backpacks for portable storage. | Baseline, installed | <EmiSearch query="backpack" /> |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Adds rotational machines for processing, transport and automated construction. | Baseline, installed | <EmiSearch query="@create" /> |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Adds Create-themed powered equipment and wearable tools. | Baseline, installed | <EmiSearch query="@create_sa" /> |
+| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Expands Create package handling with shop registers and improved factory stock controls. | Baseline, installed | <EmiSearch query="@createadditionallogistics" /> |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Adds Create transmission components and flexible storage arrangements. | Baseline, installed | <EmiSearch query="@create_connected" /> |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Adds electricity generation, transmission and powered machinery, including electric trains. | Baseline, installed | <EmiSearch query="@electroenergetics" /> |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Automates experience handling and enchanting with Create machinery. | Baseline, installed | <EmiSearch query="@create_enchantment_industry" /> |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Lets Create blaze burners consume pumped liquid fuel. | Baseline, installed | No separate item search |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Provides renewable Create ore-bearing stones through molten vents. | Baseline, installed | <EmiSearch query="@molten_vents" /> |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Stores rotational energy in springs for later use. | Baseline, installed | <EmiSearch query="@createsprings" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Adjusts Create recipes and lets diving boots counter levitation. | Baseline, installed | No separate item search |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Expands Create with heavy industry and oil processing in a community-maintained fork. | Baseline, installed | <EmiSearch query="@tfmg" /> |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | Automates villager trading through Create machinery. | Baseline, installed | <EmiSearch query="@trading_floor" /> |
+| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | Adds more color and material variants of Create item vaults. | Baseline, installed | <EmiSearch query="@create_vibrant_vaults" /> |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Improves anvil item storage and costs while removing escalating repair penalties. | Baseline, installed | No separate item search |
+| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | Lets players browse and move shulker box contents directly from the inventory. | Baseline, installed | No separate item search |
+| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | Improves interaction with dropped items in the world. | Baseline, installed | <EmiSearch query="@interactic" /> |
+| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | Adds mouse-drag and scrolling shortcuts for moving inventory stacks. | Baseline, installed | No separate item search |
+| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | Adds upgraded shulker boxes with larger storage capacity. | Baseline, installed | <EmiSearch query="@reinfshulker" /> |
+| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | Changes shulker shell drop counts and chances, including two-shell drops. | Baseline, installed | No separate item search |
+| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | Adds sorting, searching and transfer controls to supported inventory screens. | Baseline, installed | No separate item search |
+| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | Adds an inventory trash slot for discarding unwanted items. | Baseline, installed | No separate item search |

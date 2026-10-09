@@ -38,8 +38,8 @@ Villager Names 为村民添加便于辨认的名字。名字仅用于辨认村�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 已安装基准版 | Jade 🔍's additional mod supports for Neo/Forge |
-| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | 已安装基准版 | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |
-| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | 已安装基准版 | 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 为 Jade 观察提示增加其他模组的专属信息支持。 | 已安装基准版 | 无独立物品查询 |
+| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | 显示当前观察的方块或生物的信息。 | 已安装基准版 | 无独立物品查询 |
+| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | 为村民赋予默认或自定义名字。 | 已安装基准版 | 无独立物品查询 |

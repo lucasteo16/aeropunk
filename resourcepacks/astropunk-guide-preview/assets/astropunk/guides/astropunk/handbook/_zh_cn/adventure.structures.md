@@ -63,6 +63,8 @@ Mechanical Nest
 
 ## Bosses'Rise
 
+- 浏览物品: <EmiSearch query="@block_factorys_bosses" />
+
 ![模组项目图标，并非建筑截图。](images/revision-encounters-bossesrise-provider-art.png)
 
 模组项目图标，并非建筑截图。
@@ -82,6 +84,8 @@ Mechanical Nest
 ***
 
 ## L_Ender's Cataclysm
+
+- 浏览物品: <EmiSearch query="@cataclysm" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-l_enders-cataclysm-provider-art.png)
 
@@ -112,6 +116,8 @@ Mechanical Nest
 ***
 
 ## Illager Invasion
+
+- 浏览物品: <EmiSearch query="@illagerinvasion" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-illager-invasion-provider-art.png)
 
@@ -279,6 +285,8 @@ Citadel 内的野火
 
 ## Spawn
 
+- 浏览物品: <EmiSearch query="@spawn" />
+
 ![深水珊瑚礁、巨蚌与梭鱼。这是栖息地画面，并非岛屿建筑。](images/encounters-spawn-mod-deep-coral-reef-giant-clams-and-barracuda.png)
 
 深水珊瑚礁、巨蚌与梭鱼。这是栖息地画面，并非岛屿建筑。
@@ -354,6 +362,8 @@ Citadel 内的野火
 
 ## 猎魔人建筑
 
+- 浏览物品: <EmiSearch query="@witcher_rpg" />
+
 ![模组项目图标，并非建筑截图。](images/revision-encounters-witcher-rpg-class-provider-art.png)
 
 模组项目图标，并非建筑截图。
@@ -374,6 +384,8 @@ Citadel 内的野火
 ***
 
 ## Supplementaries
+
+- 浏览物品: <EmiSearch query="@supplementaries" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-supplementaries-provider-art.png)
 
@@ -400,19 +412,19 @@ Incendium Biomes Only 移除了 Incendium 的建筑、特殊生物、首领与�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 已安装基准版 | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 已安装基准版 | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 已安装基准版 | ⛲️ Village structures hosting small spell libraries |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 已安装基准版 | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 已安装基准版 | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |
-| ![When Dungeons Arise](images/catalog-8DfbfASn.png) [When Dungeons Arise](adventure.structures.md) | 已安装基准版 | Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds! |
-| ![YUNG's Better Desert Temples](images/catalog-XNlO7sBv.png) [YUNG's Better Desert Temples](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's desert temples! |
-| ![YUNG's Better Dungeons](images/catalog-o1C1Dkj5.png) [YUNG's Better Dungeons](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's dungeons! |
-| ![YUNG's Better Jungle Temples](images/catalog-z9Ve58Ih.png) [YUNG's Better Jungle Temples](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's jungle temples! |
-| ![YUNG's Better Mineshafts](images/catalog-HjmxVlSr.png) [YUNG's Better Mineshafts](adventure.structures.md) | 已安装基准版 | A long-awaited and much-needed abandoned mineshaft overhaul! |
-| ![YUNG's Better Nether Fortresses](images/catalog-Z2mXHnxP.png) [YUNG's Better Nether Fortresses](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's Nether fortresses! |
-| ![YUNG's Better Ocean Monuments](images/catalog-3dT9sgt4.png) [YUNG's Better Ocean Monuments](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's ocean monuments! |
-| ![YUNG's Better Strongholds](images/catalog-kidLKymU.png) [YUNG's Better Strongholds](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's strongholds! |
-| ![YUNG's Better Witch Huts](images/catalog-t5FRdP87.png) [YUNG's Better Witch Huts](adventure.structures.md) | 已安装基准版 | Adds overhauled witch huts to swamps! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 重新设计村庄与掠夺者前哨站，使其适合不同生物群系。 | 已安装基准版 | 无独立物品查询 |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 已安装基准版 | 无独立物品查询 |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 增加藏有小型法术图书馆的村庄凉亭。 | 已安装基准版 | 无独立物品查询 |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | 已安装基准版 | <EmiSearch query="@lootr" /> |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 增加村庄酒馆，让旅人找到饮品与休息处。 | 已安装基准版 | <EmiSearch query="@village_taverns" /> |
+| ![When Dungeons Arise](images/catalog-8DfbfASn.png) [When Dungeons Arise](adventure.structures.md) | 增加大型敌对地下城与探索建筑。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Desert Temples](images/catalog-XNlO7sBv.png) [YUNG's Better Desert Temples](adventure.structures.md) | 以更多房间与探索布局重建沙漠神殿。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Dungeons](images/catalog-o1C1Dkj5.png) [YUNG's Better Dungeons](adventure.structures.md) | 将原版小型地牢替换为更大的地下城布局。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Jungle Temples](images/catalog-z9Ve58Ih.png) [YUNG's Better Jungle Temples](adventure.structures.md) | 将丛林神庙重新设计为更丰富的探索建筑。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Mineshafts](images/catalog-HjmxVlSr.png) [YUNG's Better Mineshafts](adventure.structures.md) | 以更丰富的地下布局重塑废弃矿井。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Nether Fortresses](images/catalog-Z2mXHnxP.png) [YUNG's Better Nether Fortresses](adventure.structures.md) | 以更丰富的堡垒布局重新设计下界要塞。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Ocean Monuments](images/catalog-3dT9sgt4.png) [YUNG's Better Ocean Monuments](adventure.structures.md) | 以更丰富的水下内部结构重新设计海底神殿。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Strongholds](images/catalog-kidLKymU.png) [YUNG's Better Strongholds](adventure.structures.md) | 以更大且更多样的房间布局重建要塞。 | 已安装基准版 | 无独立物品查询 |
+| ![YUNG's Better Witch Huts](images/catalog-t5FRdP87.png) [YUNG's Better Witch Huts](adventure.structures.md) | 用重新设计的建筑替换沼泽女巫小屋。 | 已安装基准版 | 无独立物品查询 |

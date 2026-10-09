@@ -2,8 +2,8 @@
 navigation:
   title: "Armor & status"
   position: 0
-  parent: reference.equipment.md
-  icon: minecraft:iron_chestplate
+  parent: reference.skills.md
+  icon: minecraft:iron_sword
 ---
 
 # Armor & status
@@ -33,8 +33,8 @@ Read equipment tooltips for permanent attributes while the item is equipped. Rea
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Baseline, installed | More details about armor in the armor bar! |
-| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | Baseline, installed | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
-| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | Baseline, installed | Status effect display overhaul: Display them in any menu! And way more compact. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Shows additional armor information in the armor status bar. | Baseline, installed | No separate item search |
+| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | Shows remaining status-effect duration with customizable bars. | Baseline, installed | No separate item search |
+| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | Reorganizes status-effect displays into compact, configurable interface layouts. | Baseline, installed | No separate item search |

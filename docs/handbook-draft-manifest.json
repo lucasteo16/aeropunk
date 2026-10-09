@@ -1,10 +1,10 @@
 {
-  "draft_articles": 84,
-  "article_count": 84,
+  "draft_articles": 86,
+  "article_count": 86,
   "category_count": 0,
   "navigation_page_count": 1,
-  "reference_section_count": 17,
-  "reference_directory_count": 10,
+  "reference_section_count": 16,
+  "reference_directory_count": 9,
   "installed_content_count": 292,
   "heavy_content_count": 20,
   "baseline_commit": "34cb006",
@@ -1174,7 +1174,16 @@
       "category": "Combat and character",
       "filename": "reference.equipment.md",
       "drafted": true,
-      "page_type": "directory",
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "combat.abilities",
+      "category": "Combat and character",
+      "filename": "combat.abilities.md",
+      "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },

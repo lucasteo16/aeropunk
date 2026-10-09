@@ -18,6 +18,8 @@ Deep Seas copper submarine.
 
 ## Buoyancy & thrust
 
+- Browse items: <EmiSearch query="@create_submarine" />
+
 <ItemGrid>
   <ItemIcon id="create_submarine:floater" />
   <ItemIcon id="create_submarine:ballast_tank" />
@@ -107,6 +109,6 @@ These devices are marked unfinished by their tooltips, not working survival syst
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | Baseline, installed | Submarine and boat in Create Aeronautics! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | Baseline, installed | <EmiSearch query="@create_submarine" /> |

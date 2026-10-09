@@ -3,12 +3,14 @@ navigation:
   title: "Martial classes"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:enchanted_book
+  icon: minecraft:iron_sword
 ---
 
 # Martial classes
 
 ## Using martial abilities
+
+- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@create" /> <EmiSearch query="@rogues" /> <EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -166,6 +168,8 @@ Melee techniques combine throws, charging and defensive self effects.
 
 ## Berserker
 
+- Browse items: <EmiSearch query="@berserker_rpg" />
+
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
@@ -188,6 +192,8 @@ Rage-based techniques mix melee damage and self effects.
 ***
 
 ## Forcemaster
+
+- Browse items: <EmiSearch query="@forcemaster_rpg" />
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
@@ -222,10 +228,10 @@ Arcane close-combat techniques mix melee strikes and ranged effects.
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Baseline, installed | 🏹 Draw, Release, Conquer - Master the art of Archery! |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Baseline, installed | Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Baseline, installed | Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Baseline, installed | Grab a Knuckle, master the force and martial art. Spell Engine Add-On |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Baseline, installed | 🗡️ Silent Blades, Mighty Blows - Dominate with martial skills! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Adds an archer combat class built around bows and ranged abilities. | Baseline, installed | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Adds archer subclasses with cold, status-inflicting and explosive arrow abilities. | Baseline, installed | <EmiSearch query="@archers_expansion" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Adds an axe-wielding berserker whose rage increases damage at low health. | Baseline, installed | <EmiSearch query="@berserker_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Adds a knuckle-wielding martial class that strengthens attacks with arcane force. | Baseline, installed | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Adds rogue and warrior classes with distinct melee combat abilities. | Baseline, installed | <EmiSearch query="@rogues" /> |

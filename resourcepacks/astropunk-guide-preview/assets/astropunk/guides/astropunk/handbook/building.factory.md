@@ -10,6 +10,8 @@ navigation:
 
 ## Train fittings
 
+- Browse items: <EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="bellsandwhistles:brass_pilot" />
   <ItemIcon id="bellsandwhistles:brass_grab_rails" />
@@ -32,6 +34,8 @@ Create: Bells & Whistles adds exterior train fittings and body panels. Choose th
 
 ## Tiles & fittings
 
+- Browse items: <EmiSearch query="@bits_n_bobs" />
+
 <ItemGrid>
   <ItemIcon id="bits_n_bobs:tuff_tiles" />
   <ItemIcon id="bits_n_bobs:headlamp" />
@@ -49,6 +53,8 @@ Create: Bits 'n' Bobs combines stone tile families with seating and lighting. Th
 ***
 
 ## Bricks & catwalks
+
+- Browse items: <EmiSearch query="@createdeco" />
 
 <ItemGrid>
   <ItemIcon id="createdeco:iron_catwalk" />
@@ -70,6 +76,8 @@ Create Deco combines colored brick patterns with matching slabs, stairs and wall
 
 ## Industrial palette
 
+- Browse items: <EmiSearch query="@dndecor" />
+
 <ItemGrid>
   <ItemIcon id="dndecor:gold_catwalk" />
   <ItemIcon id="dndecor:gold_boiler" />
@@ -89,6 +97,8 @@ Create: Design n' Decor supplies industrial cladding and large decorative machin
 ***
 
 ## Encased machinery
+
+- Browse items: <EmiSearch query="@createcasing" />
 
 <ItemGrid>
   <ItemIcon id="createcasing:railway_clutch" />
@@ -110,6 +120,8 @@ Create Encased adds wood transmission parts and material-specific encased machin
 
 ## Frames & glass
 
+- Browse items: <EmiSearch query="@createframed" />
+
 <ItemGrid>
   <ItemIcon id="createframed:tinted_framed_glass" />
   <ItemIcon id="createframed:tinted_tiled_glass" />
@@ -130,6 +142,8 @@ Create: Framed supplies framed and tiled glazing for openings. Stained variants 
 
 ## Beams & trusses
 
+- Browse items: <EmiSearch query="@createmoregirder" />
+
 <ItemGrid>
   <ItemIcon id="createmoregirder:andesite_beam" />
   <ItemIcon id="createmoregirder:brass_truss" />
@@ -149,6 +163,8 @@ Create: More Girder supplies structural beam and truss forms with matching conne
 ***
 
 ## Glass casings
+
+- Browse items: <EmiSearch query="@createprism" />
 
 <ItemGrid>
   <ItemIcon id="createprism:andesite_glass_casing" />
@@ -183,14 +199,14 @@ Create Oxidized supplies water filling recipes for exposed, weathered and oxidiz
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | Baseline, installed | Industrial decoration themed around the aesthetics of the Create mod. |
-| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | Baseline, installed | Allow to use all casing on shafts/cogwheels/pipes |
-| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | Baseline, installed | Additions and adornments for the modern Create engineer. Available for both Fabric & Forge! |
-| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | Baseline, installed | Decorative and mechanical additions to create! |
-| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | Baseline, installed | a create addon that adds decor blocks to spice up your factory! |
-| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | Baseline, installed | A Create mod addon that adds more Framed Glass variants. |
-| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | Baseline, installed | Adds  8 unique girder variants to complement the Create mod ecosystem. |
-| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | Baseline, installed | QoL addon for Create, which adds oxidizing recipes to all copper blocks |
-| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | Baseline, installed | A remake version of Create: Crystal Clear, adds glass casings and illumination casings to create |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | Adds Create-styled industrial decoration for factories and infrastructure. | Baseline, installed | <EmiSearch query="@createdeco" /> |
+| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | Expands casing choices for Create shafts, cogwheels and pipes. | Baseline, installed | <EmiSearch query="@createcasing" /> |
+| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | Adds decorative details for Create trains and railway builds. | Baseline, installed | <EmiSearch query="@bellsandwhistles" /> |
+| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | Adds cogwheel chain drives and customizable industrial decoration to Create. | Baseline, installed | <EmiSearch query="@bits_n_bobs" /> |
+| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | Adds factory decoration blocks styled to match Create machinery. | Baseline, installed | <EmiSearch query="@dndecor" /> |
+| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | Adds more framed glass variants for Create-style construction. | Baseline, installed | <EmiSearch query="@createframed" /> |
+| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | Adds structural girder variants for Create builds. | Baseline, installed | <EmiSearch query="@createmoregirder" /> |
+| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | Adds Create processing recipes for oxidizing copper blocks. | Baseline, installed | No separate item search |
+| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | Adds glass and illuminated casings for Create machinery. | Baseline, installed | <EmiSearch query="@createprism" /> |

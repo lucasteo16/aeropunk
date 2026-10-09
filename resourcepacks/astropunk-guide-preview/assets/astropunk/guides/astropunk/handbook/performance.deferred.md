@@ -23,8 +23,8 @@ These optimizer candidates are deferred and do not run in this edition.
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | Deferred, not installed | Not installed here. |
-| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | Deferred, not installed | Not installed here. |
-| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | Deferred, not installed | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | Asynchronous log processing. | Deferred, not installed | Not installed here |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | Reduces repeated enumeration-array allocations. | Deferred, not installed | Not installed here |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | Deferred, not installed | Not installed here |

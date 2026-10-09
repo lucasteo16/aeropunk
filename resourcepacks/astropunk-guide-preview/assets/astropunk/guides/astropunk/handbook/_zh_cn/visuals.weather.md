@@ -41,10 +41,10 @@ GrandTeleport 改变传送时的镜头过渡，不会创建生存旅行目的地
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 已安装基准版 | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
-| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | 改变爆炸动画效果。 | 重型版，当前未安装 | 当前未安装 |
+| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 为传送增加电影式镜头过渡。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | 为原版状态效果提供不同纹理的粒子。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | 增加环境视觉效果。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | 让粒子对实体作出反应。 | 重型版，当前未安装 | 当前未安装 |

@@ -10,6 +10,8 @@ navigation:
 
 ## 驾驶舱控制
 
+- 浏览物品: <EmiSearch query="@aeroworks" />
+
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
   <ItemIcon id="aeroworks:joystick_module" />
@@ -33,6 +35,8 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 ***
 
 ## 信号与传感器
+
+- 浏览物品: <EmiSearch query="@create_tweaked_controllers" />
 
 <ItemGrid>
   <ItemIcon id="simulated:steering_wheel" />
@@ -59,6 +63,8 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 ***
 
 ## 接收器与驾驶舱设备
+
+- 浏览物品: <EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="simulated:directional_linked_receiver" />
@@ -90,6 +96,8 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 ## 相关物品
 
+- 浏览物品: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:wrench" />
   <ItemIcon id="create:redstone_link" />
@@ -109,7 +117,7 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | 已安装基准版 | A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more! |
-| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | 已安装基准版 | An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | 为 Aeronautics 载具增加陀螺仪与操纵杆等飞行控制部件。 | 已安装基准版 | <EmiSearch query="@aeroworks" /> |
+| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | 为机械动力运动结构增加高级手持控制器。 | 已安装基准版 | <EmiSearch query="@create_tweaked_controllers" /> |

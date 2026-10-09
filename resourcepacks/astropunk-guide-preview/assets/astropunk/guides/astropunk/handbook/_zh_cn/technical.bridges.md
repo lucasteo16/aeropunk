@@ -49,9 +49,9 @@ AttributeFix 修复属性限制，Neo Bee Fix 修复蜜蜂行为。这些属于�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | 已安装基准版 | Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods! |
-| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | 已安装基准版 | Fix the Bees! |
-| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | 已安装基准版 | Sable Beyond expands the Sable mod with additional features, quality-of-life improvements, and compatibility support. It is designed to add ideas that are not part of the main mod while keeping the gameplay experience consistent with Sable. |
-| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | 已安装基准版 | A Compat mod for Sable/Aeronautics providing tags for several modded blocks. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | 移除可能限制模组数值的内置属性上限。 | 已安装基准版 | 无独立物品查询 |
+| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | 修复原版蜜蜂行为。 | 已安装基准版 | 无独立物品查询 |
+| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | 为 Sable 扩展机械动力机器交互及可调整的质量与流体物理机制。 | 已安装基准版 | 无独立物品查询 |
+| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | 为受支持的模组方块补充物理属性标签。 | 已安装基准版 | 无独立物品查询 |

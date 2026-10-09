@@ -1,0 +1,1714 @@
+{
+  "mods/additional-rpg-jewelry.pw.toml": {
+    "en_us": [
+      "@additional_rpg_jewelry"
+    ],
+    "zh_cn": [
+      "@additional_rpg_jewelry"
+    ]
+  },
+  "mods/advancement-plaques.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/aeroengine.pw.toml": {
+    "en_us": [
+      "@aeroengineering"
+    ],
+    "zh_cn": [
+      "@aeroengineering"
+    ]
+  },
+  "mods/ai-improvements.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/almanac.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/amendments.pw.toml": {
+    "en_us": [
+      "@amendments"
+    ],
+    "zh_cn": [
+      "@amendments"
+    ]
+  },
+  "mods/apollib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/appleskin.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/archers-expansion.pw.toml": {
+    "en_us": [
+      "@archers_expansion"
+    ],
+    "zh_cn": [
+      "@archers_expansion"
+    ]
+  },
+  "mods/archers.pw.toml": {
+    "en_us": [
+      "@archers"
+    ],
+    "zh_cn": [
+      "@archers"
+    ]
+  },
+  "mods/architectury-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/armor-model-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/armor-poser.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/armory-rpg-series.pw.toml": {
+    "en_us": [
+      "@armory_rpgs"
+    ],
+    "zh_cn": [
+      "@armory_rpgs"
+    ]
+  },
+  "mods/arsenal-rpg-series.pw.toml": {
+    "en_us": [
+      "@arsenal"
+    ],
+    "zh_cn": [
+      "@arsenal"
+    ]
+  },
+  "mods/asynclogger.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/asyncparticles.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/athena-ctm.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/attributefix.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/badoptimizations.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/baguettelib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/balm.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/bard-more-rpg-classes.pw.toml": {
+    "en_us": [
+      "@bards_rpg"
+    ],
+    "zh_cn": [
+      "@bards_rpg"
+    ]
+  },
+  "mods/bbrb.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/beautify-refoxed.pw.toml": {
+    "en_us": [
+      "@beautify"
+    ],
+    "zh_cn": [
+      "@beautify"
+    ]
+  },
+  "mods/bellsandwhistles.pw.toml": {
+    "en_us": [
+      "@bellsandwhistles"
+    ],
+    "zh_cn": [
+      "@bellsandwhistles"
+    ]
+  },
+  "mods/berserker-rpg-class.pw.toml": {
+    "en_us": [
+      "@berserker_rpg"
+    ],
+    "zh_cn": [
+      "@berserker_rpg"
+    ]
+  },
+  "mods/better-combat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/better-modlist.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/betterdays.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/betterf3.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/bigsignwriter.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/blocks-bogies.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/bossesrise.pw.toml": {
+    "en_us": [
+      "@block_factorys_bosses"
+    ],
+    "zh_cn": [
+      "@block_factorys_bosses"
+    ]
+  },
+  "mods/bundle-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/carry-on.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/chipped-express.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/chipped.pw.toml": {
+    "en_us": [
+      "@chipped"
+    ],
+    "zh_cn": [
+      "@chipped"
+    ]
+  },
+  "mods/chunky.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/cloth-config.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/clumps.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/collective.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/combat-roll.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/comforts.pw.toml": {
+    "en_us": [
+      "@comforts"
+    ],
+    "zh_cn": [
+      "@comforts"
+    ]
+  },
+  "mods/configured-defaults.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/connector.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/continuity.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/controlling.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/copycats.pw.toml": {
+    "en_us": [
+      "@copycats"
+    ],
+    "zh_cn": [
+      "@copycats"
+    ]
+  },
+  "mods/corpse-x-curios-api-compat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/corpse.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-additional-logistics.pw.toml": {
+    "en_us": [
+      "@createadditionallogistics"
+    ],
+    "zh_cn": [
+      "@createadditionallogistics"
+    ]
+  },
+  "mods/create-aeronautics-encased-fluid-pipes.pw.toml": {
+    "en_us": [
+      "@aeroencasedpipe"
+    ],
+    "zh_cn": [
+      "@aeroencasedpipe"
+    ]
+  },
+  "mods/create-aeronautics.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-aerowarptics.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-aeroworks.pw.toml": {
+    "en_us": [
+      "@aeroworks"
+    ],
+    "zh_cn": [
+      "@aeroworks"
+    ]
+  },
+  "mods/create-ballast.pw.toml": {
+    "en_us": [
+      "@ballastmod"
+    ],
+    "zh_cn": [
+      "@ballastmod"
+    ]
+  },
+  "mods/create-big-cannons.pw.toml": {
+    "en_us": [
+      "@createbigcannons"
+    ],
+    "zh_cn": [
+      "@createbigcannons"
+    ]
+  },
+  "mods/create-bits-n-bobs.pw.toml": {
+    "en_us": [
+      "@bits_n_bobs"
+    ],
+    "zh_cn": [
+      "@bits_n_bobs"
+    ]
+  },
+  "mods/create-central-kitchen.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-connected.pw.toml": {
+    "en_us": [
+      "@create_connected"
+    ],
+    "zh_cn": [
+      "@create_connected"
+    ]
+  },
+  "mods/create-deco.pw.toml": {
+    "en_us": [
+      "@createdeco"
+    ],
+    "zh_cn": [
+      "@createdeco"
+    ]
+  },
+  "mods/create-deep-seas.pw.toml": {
+    "en_us": [
+      "@create_submarine"
+    ],
+    "zh_cn": [
+      "@create_submarine"
+    ]
+  },
+  "mods/create-design-n-decor.pw.toml": {
+    "en_us": [
+      "@dndecor"
+    ],
+    "zh_cn": [
+      "@dndecor"
+    ]
+  },
+  "mods/create-dragons-plus.pw.toml": {
+    "en_us": [
+      "@create_dragons_plus"
+    ],
+    "zh_cn": [
+      "@create_dragons_plus"
+    ]
+  },
+  "mods/create-electro-energetics.pw.toml": {
+    "en_us": [
+      "@electroenergetics"
+    ],
+    "zh_cn": [
+      "@electroenergetics"
+    ]
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-encased.pw.toml": {
+    "en_us": [
+      "@createcasing"
+    ],
+    "zh_cn": [
+      "@createcasing"
+    ]
+  },
+  "mods/create-enchantment-industry.pw.toml": {
+    "en_us": [
+      "@create_enchantment_industry"
+    ],
+    "zh_cn": [
+      "@create_enchantment_industry"
+    ]
+  },
+  "mods/create-framed.pw.toml": {
+    "en_us": [
+      "@createframed"
+    ],
+    "zh_cn": [
+      "@createframed"
+    ]
+  },
+  "mods/create-integrated-farming.pw.toml": {
+    "en_us": [
+      "@create_integrated_farming"
+    ],
+    "zh_cn": [
+      "@create_integrated_farming"
+    ]
+  },
+  "mods/create-liquid-fuel.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-molten-vents.pw.toml": {
+    "en_us": [
+      "@molten_vents"
+    ],
+    "zh_cn": [
+      "@molten_vents"
+    ]
+  },
+  "mods/create-more-girder.pw.toml": {
+    "en_us": [
+      "@createmoregirder"
+    ],
+    "zh_cn": [
+      "@createmoregirder"
+    ]
+  },
+  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-pattern-schematics.pw.toml": {
+    "en_us": [
+      "@create_pattern_schematics"
+    ],
+    "zh_cn": [
+      "@create_pattern_schematics"
+    ]
+  },
+  "mods/create-prismatic-shine.pw.toml": {
+    "en_us": [
+      "@createprism"
+    ],
+    "zh_cn": [
+      "@createprism"
+    ]
+  },
+  "mods/create-propulsion-simulated.pw.toml": {
+    "en_us": [
+      "@createpropulsion"
+    ],
+    "zh_cn": [
+      "@createpropulsion"
+    ]
+  },
+  "mods/create-radars.pw.toml": {
+    "en_us": [
+      "@create_radar"
+    ],
+    "zh_cn": [
+      "@create_radar"
+    ]
+  },
+  "mods/create-railways-navigator.pw.toml": {
+    "en_us": [
+      "@createrailwaysnavigator"
+    ],
+    "zh_cn": [
+      "@createrailwaysnavigator"
+    ]
+  },
+  "mods/create-sable-dynamic-lights.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-shuffle-filter.pw.toml": {
+    "en_us": [
+      "@createshufflefilter"
+    ],
+    "zh_cn": [
+      "@createshufflefilter"
+    ]
+  },
+  "mods/create-springs.pw.toml": {
+    "en_us": [
+      "@createsprings"
+    ],
+    "zh_cn": [
+      "@createsprings"
+    ]
+  },
+  "mods/create-stam1o-tweaks.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-steam-n-rails-1.21.1.pw.toml": {
+    "en_us": [
+      "@railways"
+    ],
+    "zh_cn": [
+      "@railways"
+    ]
+  },
+  "mods/create-stuff-additions.pw.toml": {
+    "en_us": [
+      "@create_sa"
+    ],
+    "zh_cn": [
+      "@create_sa"
+    ]
+  },
+  "mods/create-trading-floor.pw.toml": {
+    "en_us": [
+      "@trading_floor"
+    ],
+    "zh_cn": [
+      "@trading_floor"
+    ]
+  },
+  "mods/create-tweaked-controllers.pw.toml": {
+    "en_us": [
+      "@create_tweaked_controllers"
+    ],
+    "zh_cn": [
+      "@create_tweaked_controllers"
+    ]
+  },
+  "mods/create-vibrant-vaults.pw.toml": {
+    "en_us": [
+      "@create_vibrant_vaults"
+    ],
+    "zh_cn": [
+      "@create_vibrant_vaults"
+    ]
+  },
+  "mods/create-waystones-recipes.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create.pw.toml": {
+    "en_us": [
+      "@create"
+    ],
+    "zh_cn": [
+      "@create"
+    ]
+  },
+  "mods/create_oxidized.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/createbetterfps.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/createlazytick.pw.toml": {
+    "en_us": [
+      "@createlazytick"
+    ],
+    "zh_cn": [
+      "@createlazytick"
+    ]
+  },
+  "mods/creativecore.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/creeper-overhaul.pw.toml": {
+    "en_us": [
+      "@creeperoverhaul"
+    ],
+    "zh_cn": [
+      "@creeperoverhaul"
+    ]
+  },
+  "mods/critical-strike.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/ct-overhaul-village.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/cull-leaves.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/curios.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/dangerous.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/decorative-food.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/detail-armor-bar-reconstructed.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/diagonal-fences.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/distanthorizons.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/dragonlib.pw.toml": {
+    "en_us": [
+      "@dragonlib"
+    ],
+    "zh_cn": [
+      "@dragonlib"
+    ]
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/easy-anvils.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/easy-shulker-boxes.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/eating-animations.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/elemental-wizards-rpg.pw.toml": {
+    "en_us": [
+      "@elemental_wizards_rpg"
+    ],
+    "zh_cn": [
+      "@elemental_wizards_rpg"
+    ]
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/emi-enchanting.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/emi-loot.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/emi-professions-(emip).pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/emi.pw.toml": {
+    "en_us": [
+      "@emi"
+    ],
+    "zh_cn": [
+      "@emi"
+    ]
+  },
+  "mods/enderman-overhaul.pw.toml": {
+    "en_us": [
+      "@endermanoverhaul"
+    ],
+    "zh_cn": [
+      "@endermanoverhaul"
+    ]
+  },
+  "mods/ends-delight.pw.toml": {
+    "en_us": [
+      "@ends_delight"
+    ],
+    "zh_cn": [
+      "@ends_delight"
+    ]
+  },
+  "mods/entity-model-features.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/entityculling.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/escalated.pw.toml": {
+    "en_us": [
+      "@escalated"
+    ],
+    "zh_cn": [
+      "@escalated"
+    ]
+  },
+  "mods/every-compat.pw.toml": {
+    "en_us": [
+      "@everycomp"
+    ],
+    "zh_cn": [
+      "@everycomp"
+    ]
+  },
+  "mods/explorers-compass.pw.toml": {
+    "en_us": [
+      "@explorerscompass"
+    ],
+    "zh_cn": [
+      "@explorerscompass"
+    ]
+  },
+  "mods/explosive-enhancement-forge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/farmers-delight.pw.toml": {
+    "en_us": [
+      "@farmersdelight"
+    ],
+    "zh_cn": [
+      "@farmersdelight"
+    ]
+  },
+  "mods/ferrite-core.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/flerovium.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/forcemaster-rpg-class.pw.toml": {
+    "en_us": [
+      "@forcemaster_rpg"
+    ],
+    "zh_cn": [
+      "@forcemaster_rpg"
+    ]
+  },
+  "mods/forgematica.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/freecam.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/friends-and-foes-forge.pw.toml": {
+    "en_us": [
+      "@friendsandfoes"
+    ],
+    "zh_cn": [
+      "@friendsandfoes"
+    ]
+  },
+  "mods/fwa.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/fzzy-config.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/gazebos.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/geckolib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/gml.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/handcrafted.pw.toml": {
+    "en_us": [
+      "@handcrafted"
+    ],
+    "zh_cn": [
+      "@handcrafted"
+    ]
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/hypertube.pw.toml": {
+    "en_us": [
+      "@create_hypertube"
+    ],
+    "zh_cn": [
+      "@create_hypertube"
+    ]
+  },
+  "mods/ibo.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/iceberg.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/illager-invasion.pw.toml": {
+    "en_us": [
+      "@illagerinvasion"
+    ],
+    "zh_cn": [
+      "@illagerinvasion"
+    ]
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/immersive-paintings.pw.toml": {
+    "en_us": [
+      "@immersive_paintings"
+    ],
+    "zh_cn": [
+      "@immersive_paintings"
+    ]
+  },
+  "mods/incendium.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/interactic-renewed.pw.toml": {
+    "en_us": [
+      "@interactic"
+    ],
+    "zh_cn": [
+      "@interactic"
+    ]
+  },
+  "mods/interiors.pw.toml": {
+    "en_us": [
+      "@interiors"
+    ],
+    "zh_cn": [
+      "@interiors"
+    ]
+  },
+  "mods/iris.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/items-displayed-forge.pw.toml": {
+    "en_us": [
+      "@items_displayed"
+    ],
+    "zh_cn": [
+      "@items_displayed"
+    ]
+  },
+  "mods/ixeris.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/jade-addons-forge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/jade.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/jamlib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/jasione.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/jewelry.pw.toml": {
+    "en_us": [
+      "@jewelry"
+    ],
+    "zh_cn": [
+      "@jewelry"
+    ]
+  },
+  "mods/kerria-opt.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/l_enders-cataclysm-delight.pw.toml": {
+    "en_us": [
+      "@lendersdelight"
+    ],
+    "zh_cn": [
+      "@lendersdelight"
+    ]
+  },
+  "mods/l_enders-cataclysm.pw.toml": {
+    "en_us": [
+      "@cataclysm"
+    ],
+    "zh_cn": [
+      "@cataclysm"
+    ]
+  },
+  "mods/leaves-be-gone.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lighty.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lionfish-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lithium.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lithostitched.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lmd.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lodestonelib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/lootr.pw.toml": {
+    "en_us": [
+      "@lootr"
+    ],
+    "zh_cn": [
+      "@lootr"
+    ]
+  },
+  "mods/macaws-bridges.pw.toml": {
+    "en_us": [
+      "@mcwbridges"
+    ],
+    "zh_cn": [
+      "@mcwbridges"
+    ]
+  },
+  "mods/macaws-doors.pw.toml": {
+    "en_us": [
+      "@mcwdoors"
+    ],
+    "zh_cn": [
+      "@mcwdoors"
+    ]
+  },
+  "mods/macaws-fences-and-walls.pw.toml": {
+    "en_us": [
+      "@mcwfences"
+    ],
+    "zh_cn": [
+      "@mcwfences"
+    ]
+  },
+  "mods/macaws-roofs.pw.toml": {
+    "en_us": [
+      "@mcwroofs"
+    ],
+    "zh_cn": [
+      "@mcwroofs"
+    ]
+  },
+  "mods/macaws-stairs.pw.toml": {
+    "en_us": [
+      "@mcwstairs"
+    ],
+    "zh_cn": [
+      "@mcwstairs"
+    ]
+  },
+  "mods/macaws-windows.pw.toml": {
+    "en_us": [
+      "@mcwwindows"
+    ],
+    "zh_cn": [
+      "@mcwwindows"
+    ]
+  },
+  "mods/mafglib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/mech-trowel.pw.toml": {
+    "en_us": [
+      "@mechtrowel"
+    ],
+    "zh_cn": [
+      "@mechtrowel"
+    ]
+  },
+  "mods/midnightlib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/miners-delight.pw.toml": {
+    "en_us": [
+      "@minersdelight"
+    ],
+    "zh_cn": [
+      "@minersdelight"
+    ]
+  },
+  "mods/modelfix.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/modernfix.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/moonlight.pw.toml": {
+    "en_us": [
+      "@moonlight"
+    ],
+    "zh_cn": [
+      "@moonlight"
+    ]
+  },
+  "mods/more-relics-rpg.pw.toml": {
+    "en_us": [
+      "@more_relics"
+    ],
+    "zh_cn": [
+      "@more_relics"
+    ]
+  },
+  "mods/more-rpg-classes-skill-tree.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "en_us": [
+      "@more_rpg_classes"
+    ],
+    "zh_cn": [
+      "@more_rpg_classes"
+    ]
+  },
+  "mods/more-sounds.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/moreculling.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/mouse-tweaks.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/mru.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/my-nethers-delight.pw.toml": {
+    "en_us": [
+      "@mynethersdelight"
+    ],
+    "zh_cn": [
+      "@mynethersdelight"
+    ]
+  },
+  "mods/natures-compass.pw.toml": {
+    "en_us": [
+      "@naturescompass"
+    ],
+    "zh_cn": [
+      "@naturescompass"
+    ]
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/netherportalfix.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/northstar-redux.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/not-enough-animations-emf-compat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/not-enough-animations.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/nullscape.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/observable.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/owo-lib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/paladins-and-priests.pw.toml": {
+    "en_us": [
+      "@paladins"
+    ],
+    "zh_cn": [
+      "@paladins"
+    ]
+  },
+  "mods/particle-effects.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/particular-reforged.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/paxi.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/placebo.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/playeranimator.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/polymorph.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/polytone.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/prickle.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/progresspeek.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/quick-pack.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/reconnectible-chains.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/reinforced-shulker-boxes.pw.toml": {
+    "en_us": [
+      "@reinfshulker"
+    ],
+    "zh_cn": [
+      "@reinfshulker"
+    ]
+  },
+  "mods/reliable-advancements.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/reliable-emi.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/relics-rpg.pw.toml": {
+    "en_us": [
+      "@relics_rpgs"
+    ],
+    "zh_cn": [
+      "@relics_rpgs"
+    ]
+  },
+  "mods/resourceful-config.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/rightclickharvest.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/ripple.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/rogues-and-warriors.pw.toml": {
+    "en_us": [
+      "@rogues"
+    ],
+    "zh_cn": [
+      "@rogues"
+    ]
+  },
+  "mods/rpl.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/runes.pw.toml": {
+    "en_us": [
+      "@runes"
+    ],
+    "zh_cn": [
+      "@runes"
+    ]
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sable.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sable_beyond.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sablecompat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/searchables.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/servercore.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/shield-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/short-stacks.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/shulker-drops-two.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/skill-tree.pw.toml": {
+    "en_us": [
+      "@skill_tree_rpgs"
+    ],
+    "zh_cn": [
+      "@skill_tree_rpgs"
+    ]
+  },
+  "mods/skills.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/slice-and-dice.pw.toml": {
+    "en_us": [
+      "@sliceanddice"
+    ],
+    "zh_cn": [
+      "@sliceanddice"
+    ]
+  },
+  "mods/smarter-farmers-farmers-replant.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sodium-dynamic-lights.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sodium-extra.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sodium.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "en_us": [
+      "@sophisticatedcore"
+    ],
+    "zh_cn": [
+      "@sophisticatedcore"
+    ]
+  },
+  "mods/sophisticated-inventory-interactions.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sound.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/spark.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/spawn-animations-compats.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/spawn-animations.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/spawn-mod.pw.toml": {
+    "en_us": [
+      "@spawn"
+    ],
+    "zh_cn": [
+      "@spawn"
+    ]
+  },
+  "mods/spell-engine.pw.toml": {
+    "en_us": [
+      "@spell_engine"
+    ],
+    "zh_cn": [
+      "@spell_engine"
+    ]
+  },
+  "mods/spell-power.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/spice-of-life-onion.pw.toml": {
+    "en_us": [
+      "@solonion"
+    ],
+    "zh_cn": [
+      "@solonion"
+    ]
+  },
+  "mods/status-effect-bars-reforged.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/stone-zone.pw.toml": {
+    "en_us": [
+      "@stonezone"
+    ],
+    "zh_cn": [
+      "@stonezone"
+    ]
+  },
+  "mods/straw-statues.pw.toml": {
+    "en_us": [
+      "@strawstatues"
+    ],
+    "zh_cn": [
+      "@strawstatues"
+    ]
+  },
+  "mods/streams-reflowing.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/stylish-effects.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/supplementaries.pw.toml": {
+    "en_us": [
+      "@supplementaries"
+    ],
+    "zh_cn": [
+      "@supplementaries"
+    ]
+  },
+  "mods/teallib.pw.toml": {
+    "en_us": [
+      "@teallib"
+    ],
+    "zh_cn": [
+      "@teallib"
+    ]
+  },
+  "mods/team-capes.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/tectonic.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/tempad.pw.toml": {
+    "en_us": [
+      "@tempad"
+    ],
+    "zh_cn": [
+      "@tempad"
+    ]
+  },
+  "mods/terralith.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/tfmg-community-edition.pw.toml": {
+    "en_us": [
+      "@tfmg"
+    ],
+    "zh_cn": [
+      "@tfmg"
+    ]
+  },
+  "mods/toast-control.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/tooltipfix.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/torchmaster.pw.toml": {
+    "en_us": [
+      "@torchmaster"
+    ],
+    "zh_cn": [
+      "@torchmaster"
+    ]
+  },
+  "mods/trade-refresh.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/trashslot.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/travelers-titles.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/universal-bone-meal.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/vanilla-backpacks.pw.toml": {
+    "en_us": [
+      "backpack"
+    ],
+    "zh_cn": [
+      "背包"
+    ]
+  },
+  "mods/variants-and-ventures.pw.toml": {
+    "en_us": [
+      "@variantsandventures"
+    ],
+    "zh_cn": [
+      "@variantsandventures"
+    ]
+  },
+  "mods/village-taverns.pw.toml": {
+    "en_us": [
+      "@village_taverns"
+    ],
+    "zh_cn": [
+      "@village_taverns"
+    ]
+  },
+  "mods/villager-names-serilum.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/waystones-sable.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/waystones.pw.toml": {
+    "en_us": [
+      "@waystones"
+    ],
+    "zh_cn": [
+      "@waystones"
+    ]
+  },
+  "mods/when-dungeons-arise.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/witcher-rpg-class.pw.toml": {
+    "en_us": [
+      "@witcher_rpg"
+    ],
+    "zh_cn": [
+      "@witcher_rpg"
+    ]
+  },
+  "mods/wizards.pw.toml": {
+    "en_us": [
+      "@wizards"
+    ],
+    "zh_cn": [
+      "@wizards"
+    ]
+  },
+  "mods/xaeros-maps-multiplayer-plus.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/xaeros-minimap.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/xaeros-world-map.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yacl.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-desert-temples.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-dungeons.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-jungle-temples.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-mineshafts.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-nether-fortresses.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-ocean-monuments.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-strongholds.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/yungs-better-witch-huts.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/fa-player-extension.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/fancy-crops.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/fresh-animations-objects.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/fresh-animations-quivers.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/fresh-animations.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/simple-grass-flowers.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "resourcepacks/visual-effects-plus.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/guideme.pw.toml": {
+    "en_us": [
+      "@guideme"
+    ],
+    "zh_cn": [
+      "@guideme"
+    ]
+  },
+  "mods/astropunk-handbook-access-1.0.0.jar": {
+    "en_us": [],
+    "zh_cn": []
+  }
+}

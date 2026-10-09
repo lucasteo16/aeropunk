@@ -10,6 +10,8 @@ navigation:
 
 ## Crab & sea creatures
 
+- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@cataclysm" />
+
 <ItemGrid>
   <ItemIcon id="lendersdelight:amethyst_crab_meat_stick" />
   <ItemIcon id="lendersdelight:amethyst_crab_sandwich" />
@@ -224,6 +226,6 @@ Pet food belongs to feeding animals rather than planning the player’s dietary 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Baseline, installed | Adds 50+ dishes, linking L_Ender's Cataclysm and Farmer's Delight in a Vanilla style. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | Baseline, installed | <EmiSearch query="@lendersdelight" /> |

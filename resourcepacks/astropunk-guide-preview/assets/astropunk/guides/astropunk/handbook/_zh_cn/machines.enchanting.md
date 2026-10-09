@@ -10,6 +10,8 @@ navigation:
 
 ## 经验与附魔
 
+- 浏览物品: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_enchantment_industry:mechanical_grindstone" />
   <ItemIcon id="create_enchantment_industry:grindstone_drain" />
@@ -74,7 +76,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 已安装基准版 | Automatic Enchanting, with Create |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | 已安装基准版 | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 用机械动力机器自动处理经验与附魔。 | 已安装基准版 | <EmiSearch query="@create_enchantment_industry" /> |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | 改进铁砧物品存放与费用，移除不断累积的维修惩罚。 | 已安装基准版 | 无独立物品查询 |

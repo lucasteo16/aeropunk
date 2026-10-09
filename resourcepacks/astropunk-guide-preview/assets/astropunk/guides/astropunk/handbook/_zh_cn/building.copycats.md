@@ -10,6 +10,8 @@ navigation:
 
 ## 结构
 
+- 浏览物品: <EmiSearch query="@copycats" />
+
 <ItemGrid>
   <ItemIcon id="copycats:copycat_block" />
   <ItemIcon id="copycats:copycat_slab" />
@@ -163,6 +165,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | 已安装基准版 | All the copycats you've ever wanted, combined into a single mod! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | 增加可模仿其他方块材质的机械动力伪装建筑形状。 | 已安装基准版 | <EmiSearch query="@copycats" /> |

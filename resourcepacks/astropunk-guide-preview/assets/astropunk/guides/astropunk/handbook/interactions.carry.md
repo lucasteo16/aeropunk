@@ -29,6 +29,6 @@ Test the interaction on an ordinary target before moving a valuable machine.
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | Baseline, installed | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | Lets players pick up and carry supported containers and creatures. | Baseline, installed | No separate item search |

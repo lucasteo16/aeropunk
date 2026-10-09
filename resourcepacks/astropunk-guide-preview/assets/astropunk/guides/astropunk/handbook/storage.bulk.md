@@ -10,6 +10,8 @@ navigation:
 
 ## Vaults & containers
 
+- Browse items: <EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:item_vault" />
   <ItemIcon id="create_vibrant_vaults:basic_shipping_container" />
@@ -28,6 +30,8 @@ navigation:
 ***
 
 ## Silos & access
+
+- Browse items: <EmiSearch query="@create_connected" />
 
 <ItemGrid>
   <ItemIcon id="create_connected:item_silo" />
@@ -60,6 +64,6 @@ Start with an Item Vault and its Ponder entry. Add an Inventory Access Port when
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | Baseline, installed | A Create mod addon that adds more item vaults. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | Adds more color and material variants of Create item vaults. | Baseline, installed | <EmiSearch query="@create_vibrant_vaults" /> |

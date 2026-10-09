@@ -28,6 +28,8 @@ A fishing rod supplies vanilla catches. Cod and salmon have cooked forms and cut
 
 ## Spawn fish meals
 
+- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@spawn" />
+
 <ItemGrid>
   <ItemIcon id="spawn:tuna_chunk" />
   <ItemIcon id="spawn:cooked_tuna_chunk" />

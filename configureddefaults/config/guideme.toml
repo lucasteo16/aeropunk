@@ -4,7 +4,7 @@ hideMissingRecipeErrors = false
 
 [gui]
 adaptiveScaling = true
-fullWidthLayout = false
+fullWidthLayout = true
 
 [debug]
 showDebugGuiOverlays = false

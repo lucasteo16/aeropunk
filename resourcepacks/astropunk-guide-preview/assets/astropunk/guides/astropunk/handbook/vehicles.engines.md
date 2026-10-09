@@ -10,6 +10,8 @@ navigation:
 
 ## Aviation engines
 
+- Browse items: <EmiSearch query="@aeroengineering" />
+
 <ItemGrid>
   <ItemIcon id="aeroengineering:engine_fan" />
   <ItemIcon id="aeroengineering:engine_compressor" />
@@ -33,6 +35,8 @@ Aero Engineering supplies several turbine-engine families. The basic core uses F
 ***
 
 ## Propulsion components
+
+- Browse items: <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createpropulsion:thruster" />
@@ -97,7 +101,7 @@ Aviation materials supply the engine core parts. Create Propulsion has a separat
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Baseline, installed | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
-| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Baseline, installed | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | Baseline, installed | <EmiSearch query="@aeroengineering" /> |
+| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | Baseline, installed | <EmiSearch query="@createpropulsion" /> |

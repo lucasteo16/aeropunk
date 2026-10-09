@@ -3,7 +3,7 @@ navigation:
   title: "Magic classes"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:enchanted_book
+  icon: minecraft:iron_sword
 item_ids:
   - spell_engine:spell_binding
   - spell_engine:spell_book
@@ -13,6 +13,8 @@ item_ids:
 # Magic classes
 
 ## Spell binding
+
+- Browse items: <EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
@@ -38,6 +40,8 @@ Books carry learned abilities. A skill-tree point improves a build but is not a 
 
 ## Casting requirements
 
+- Browse items: <EmiSearch query="@runes" />
+
 Read each spell tooltip for school, target, casting time, resource cost and cooldown. Keep any required runes or ammunition available. A spell assigned to a book can still be unavailable with an incompatible weapon.
 
 Set spell-hotbar controls in Key Binds. The current first action is <KeyBind id="keybindings.spell_engine.spell_hotbar_1" />. The casting bar shows when a cast is still in progress.
@@ -46,6 +50,8 @@ Set spell-hotbar controls in Key Binds. The current first action is <KeyBind id=
 ***
 
 ## Arcane
+
+- Browse items: <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -116,6 +122,8 @@ Frost magic combines area attacks, protection and projectiles.
 
 ## Aqua
 
+- Browse items: <EmiSearch query="@elemental_wizards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>
@@ -185,6 +193,8 @@ Air magic combines aimed attacks, persistent areas and self effects.
 
 ## Paladin
 
+- Browse items: <EmiSearch query="@paladins" />
+
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>
@@ -231,6 +241,8 @@ Healing-school magic offers beams, healing areas and protection.
 
 ## Bard
 
+- Browse items: <EmiSearch query="@bards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
@@ -253,6 +265,8 @@ Instrument-based abilities combine arcane attacks and support effects.
 ***
 
 ## Fencing
+
+- Browse items: <EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -379,11 +393,11 @@ The Iron Mace starts Paladin melee but has no healing-power bonus. For a healing
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Baseline, installed | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Baseline, installed | Master the elements to overcome your foes! Spell Engine Add-On |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Baseline, installed | ✨ Protect and heal your friends as a Paladin or a Priest |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | Baseline, installed | 🪨 Craft runes to serve as ammo for spells |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Baseline, installed | Slay monsters like a Witcher! Spell Engine Add-On |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | Baseline, installed | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Adds a bard class that supports allies through songs and ballads. | Baseline, installed | <EmiSearch query="@bards_rpg" /> |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Expands Wizards with earth, water and wind spellcasting subclasses. | Baseline, installed | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Adds paladin and priest classes focused on protection and healing. | Baseline, installed | <EmiSearch query="@paladins" /> |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | Adds craftable runes consumed as ammunition for spells. | Baseline, installed | <EmiSearch query="@runes" /> |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Adds a monster-hunting witcher class and associated combat abilities. | Baseline, installed | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | Adds wizard combat using arcane, fire and frost spells. | Baseline, installed | <EmiSearch query="@wizards" /> |

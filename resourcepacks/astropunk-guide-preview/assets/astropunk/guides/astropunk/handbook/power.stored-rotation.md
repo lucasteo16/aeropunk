@@ -10,6 +10,8 @@ navigation:
 
 ## Kinetic reserves
 
+- Browse items: <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_connected:kinetic_battery" />
   <ItemIcon id="createsprings:spring" />
@@ -63,6 +65,6 @@ Choose a Kinetic Battery for a compact reserve, or a Spring for signal-strength-
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Baseline, installed | Store rotational force using springs! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Stores rotational energy in springs for later use. | Baseline, installed | <EmiSearch query="@createsprings" /> |

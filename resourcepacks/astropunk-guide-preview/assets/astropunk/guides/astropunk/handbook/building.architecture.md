@@ -10,6 +10,8 @@ navigation:
 
 ## Bridges
 
+- Browse items: <EmiSearch query="@mcwbridges" />
+
 <ItemGrid>
   <ItemIcon id="mcwbridges:oak_log_bridge_middle" />
   <ItemIcon id="mcwbridges:oak_rail_bridge" />
@@ -30,6 +32,8 @@ Macaw's Bridges supplies spans, stairs and supports in wood and stone families. 
 
 ## Roofs
 
+- Browse items: <EmiSearch query="@mcwroofs" />
+
 <ItemGrid>
   <ItemIcon id="mcwroofs:oak_roof" />
   <ItemIcon id="mcwroofs:oak_top_roof" />
@@ -49,6 +53,8 @@ Macaw's Roofs uses separate pieces for the base, ridge and attic, including stee
 ***
 
 ## Stairs & balconies
+
+- Browse items: <EmiSearch query="@mcwstairs" />
 
 <ItemGrid>
   <ItemIcon id="mcwstairs:oak_bulk_stairs" />
@@ -74,6 +80,8 @@ Macaw's Stairs provides different stair profiles with platforms, balconies and m
 
 ## Doors
 
+- Browse items: <EmiSearch query="@mcwdoors" />
+
 <ItemGrid>
   <ItemIcon id="mcwdoors:oak_barn_door" />
   <ItemIcon id="mcwdoors:oak_japanese_door" />
@@ -91,6 +99,8 @@ Macaw's Doors changes the visual style of building entrances. The shown doors ar
 ***
 
 ## Windows
+
+- Browse items: <EmiSearch query="@mcwwindows" />
 
 <ItemGrid>
   <ItemIcon id="mcwwindows:oak_window" />
@@ -111,6 +121,8 @@ Macaw's Windows combines window shapes with shutters and curtains. Choose the op
 ***
 
 ## Fences & walls
+
+- Browse items: <EmiSearch query="@mcwfences" />
 
 <ItemGrid>
   <ItemIcon id="mcwfences:oak_picket_fence" />
@@ -155,13 +167,13 @@ Reconnectible Chains uses vanilla chains for connected hanging spans. Choose you
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | Baseline, installed | Fences connecting diagonally? Wait. That's illegal. |
-| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | Baseline, installed | A simple mod that adds a lot of bridges! |
-| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | Baseline, installed | Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...! |
-| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | Baseline, installed | Adds new vanilla styled fences, walls and gates! |
-| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | Baseline, installed | Build roofs with actual roofs instead of stairs! |
-| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | Baseline, installed | Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies! |
-| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | Baseline, installed | Adds lots of Windows, Mosaic Glass, Blinds, Shutters, Curtains and more...! |
-| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | Baseline, installed | A multiloader fork of Connectible Chains: Connect your fences/walls with a decorative chain! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | Lets fences connect diagonally for more flexible boundaries. | Baseline, installed | No separate item search |
+| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | Adds bridge building pieces for paths across gaps and water. | Baseline, installed | <EmiSearch query="@mcwbridges" /> |
+| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | Adds door designs and expands available wood variants. | Baseline, installed | <EmiSearch query="@mcwdoors" /> |
+| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | Adds decorative fences, walls and gates for building boundaries. | Baseline, installed | <EmiSearch query="@mcwfences" /> |
+| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | Adds dedicated roof blocks instead of relying on stair-shaped roofs. | Baseline, installed | <EmiSearch query="@mcwroofs" /> |
+| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | Adds building stairs and matching handrails and balcony pieces. | Baseline, installed | <EmiSearch query="@mcwstairs" /> |
+| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | Adds window designs and matching shutters, blinds and curtains. | Baseline, installed | <EmiSearch query="@mcwwindows" /> |
+| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | Connects fences and walls with decorative hanging chains. | Baseline, installed | No separate item search |

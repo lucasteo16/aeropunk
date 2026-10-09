@@ -1,0 +1,872 @@
+{
+  "mods/advancement-plaques.pw.toml": {
+    "en_us": "Replaces advancement notifications with plaques.",
+    "zh_cn": "将进度通知替换为牌匾样式。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/ai-improvements.pw.toml": {
+    "en_us": "Vanilla creature behavior optimization.",
+    "zh_cn": "优化原版生物行为处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/almanac.pw.toml": {
+    "en_us": "Shared loader-independent code.",
+    "zh_cn": "共享跨加载器代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/apollib.pw.toml": {
+    "en_us": "Shared configuration and registry utilities.",
+    "zh_cn": "共享设置与注册工具。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/architectury-api.pw.toml": {
+    "en_us": "Shared cross-loader development interfaces.",
+    "zh_cn": "共享跨加载器开发接口。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/armor-model-api.pw.toml": {
+    "en_us": "Renders custom armor geometry through the vanilla armor pipeline.",
+    "zh_cn": "通过原版盔甲流程渲染自定义盔甲几何模型。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/asynclogger.pw.toml": {
+    "en_us": "Asynchronous log processing.",
+    "zh_cn": "异步日志处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.deferred"
+  },
+  "mods/asyncparticles.pw.toml": {
+    "en_us": "Particle processing and rendering optimization.",
+    "zh_cn": "优化粒子运算与渲染。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/athena-ctm.pw.toml": {
+    "en_us": "Connected-texture framework.",
+    "zh_cn": "连接纹理框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/attributefix.pw.toml": {
+    "en_us": "Removes arbitrary attribute limits for mod compatibility.",
+    "zh_cn": "移除任意属性上限，支持模组兼容。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.bridges"
+  },
+  "mods/badoptimizations.pw.toml": {
+    "en_us": "Optimizations outside the main terrain renderer.",
+    "zh_cn": "优化主地形渲染器以外的处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/baguettelib.pw.toml": {
+    "en_us": "Death-handling and inventory-tracking support.",
+    "zh_cn": "死亡处理与物品栏追踪支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/balm.pw.toml": {
+    "en_us": "Cross-loader abstraction library.",
+    "zh_cn": "跨加载器抽象库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/bbrb.pw.toml": {
+    "en_us": "Improves blending between biome colors.",
+    "zh_cn": "改善生物群系颜色之间的混合。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "mods/better-modlist.pw.toml": {
+    "en_us": "Changes the mod list display and filtering.",
+    "zh_cn": "调整模组列表显示与筛选。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/betterf3.pw.toml": {
+    "en_us": "Reorganizes the debug information display.",
+    "zh_cn": "重新组织调试信息显示。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "en_us": "Shared code library.",
+    "zh_cn": "共享代码库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/bundle-api.pw.toml": {
+    "en_us": "Item-tag-based bundle support.",
+    "zh_cn": "基于物品标签的收纳袋支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "en_us": "Chunk management and generation optimization.",
+    "zh_cn": "优化区块管理与生成。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/chunky.pw.toml": {
+    "en_us": "Generates terrain ahead of exploration.",
+    "zh_cn": "在探索前预先生成地形。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "server.tools"
+  },
+  "mods/cloth-config.pw.toml": {
+    "en_us": "Configuration screen library.",
+    "zh_cn": "设置界面库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/clumps.pw.toml": {
+    "en_us": "Combines experience orbs to reduce separate orb processing.",
+    "zh_cn": "合并经验球，减少独立经验球的处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/collective.pw.toml": {
+    "en_us": "Shared code for Serilum's mods.",
+    "zh_cn": "Serilum 模组的共享代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/configured-defaults.pw.toml": {
+    "en_us": "Supplies packaged defaults for missing files.",
+    "zh_cn": "为缺失文件提供整合包默认设置。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "server.tools"
+  },
+  "mods/connector.pw.toml": {
+    "en_us": "Compatibility layer for selected Fabric mods on NeoForge.",
+    "zh_cn": "让部分选定的 Fabric 模组在 NeoForge 上运行的兼容层。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/continuity.pw.toml": {
+    "en_us": "Supports connected block textures from resource packs.",
+    "zh_cn": "支持资源包的方块连接纹理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "en_us": "Adds rain sounds for particular block surfaces.",
+    "zh_cn": "为特定方块表面增加雨声。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/create-aerowarptics.pw.toml": {
+    "en_us": "A physics-vehicle relocation addon.",
+    "zh_cn": "物理载具转移附加模组。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "space.vehicle-transfer"
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "en_us": "Connects Create player animations to custom animated models.",
+    "zh_cn": "使机械动力玩家动画适配自定义动态模型。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
+    "en_us": "A bridge between Northstar destinations and physical vehicles.",
+    "zh_cn": "连接 Northstar 目的地与物理载具。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "space.vehicle-transfer"
+  },
+  "mods/create-sable-dynamic-lights.pw.toml": {
+    "en_us": "Extends dynamic lighting to Create and Sable structures.",
+    "zh_cn": "将动态光源扩展到机械动力与 Sable 结构。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.lighting"
+  },
+  "mods/createbetterfps.pw.toml": {
+    "en_us": "Create rendering optimization for shader use.",
+    "zh_cn": "优化使用光影时的机械动力渲染。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/createlazytick.pw.toml": {
+    "en_us": "Create machine tick optimization.",
+    "zh_cn": "优化机械动力机器的刻处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/creativecore.pw.toml": {
+    "en_us": "Shared core utilities.",
+    "zh_cn": "共享核心工具。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "en_us": "Provides borderless fullscreen windows.",
+    "zh_cn": "提供无边框全屏窗口。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.camera"
+  },
+  "mods/cull-leaves.pw.toml": {
+    "en_us": "Skips selected hidden leaf geometry.",
+    "zh_cn": "跳过部分不可见的树叶几何面。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/distanthorizons.pw.toml": {
+    "en_us": "Displays simplified terrain beyond ordinary render distance.",
+    "zh_cn": "在普通渲染距离之外显示简化地形。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.lighting"
+  },
+  "mods/dragonlib.pw.toml": {
+    "en_us": "Shared code for dependent mods.",
+    "zh_cn": "依赖模组使用的共享代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "en_us": "Reduces resource use in the background or while idle.",
+    "zh_cn": "降低后台或空闲时的资源使用。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/eating-animations.pw.toml": {
+    "en_us": "Animates eating.",
+    "zh_cn": "增加进食动画。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "en_us": "Shared framework for EMF compatibility modules.",
+    "zh_cn": "EMF 兼容组件共享框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/entity-model-features.pw.toml": {
+    "en_us": "Loads custom entity models from compatible resource packs.",
+    "zh_cn": "加载兼容资源包中的自定义实体模型。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/entityculling.pw.toml": {
+    "en_us": "Avoids rendering hidden entities and block entities.",
+    "zh_cn": "避免渲染被遮挡的实体与方块实体。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "en_us": "Supports random, custom and emissive entity textures.",
+    "zh_cn": "支持随机、自定义与发光实体纹理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/explorers-compass.pw.toml": {
+    "en_us": "Structures, including supported modded structures",
+    "zh_cn": "结构，包括支持的模组结构",
+    "source": "navigation-integration/recipes-content.json",
+    "topic": "maps.find"
+  },
+  "mods/explosive-enhancement-forge.pw.toml": {
+    "en_us": "Changes explosion animation effects.",
+    "zh_cn": "改变爆炸动画效果。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.weather"
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "en_us": "Lets the client selectively quiet unwanted sounds.",
+    "zh_cn": "允许客户端选择性降低不想听到的声音。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/ferrite-core.pw.toml": {
+    "en_us": "Reduces memory use.",
+    "zh_cn": "减少内存占用。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/flerovium.pw.toml": {
+    "en_us": "Optimizes item, particle and entity rendering.",
+    "zh_cn": "优化物品、粒子与实体渲染。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "en_us": "Fabric interfaces implemented on NeoForge.",
+    "zh_cn": "在 NeoForge 上实现的 Fabric 接口。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/freecam.pw.toml": {
+    "en_us": "Provides a detached viewing camera.",
+    "zh_cn": "提供独立观察镜头。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.camera"
+  },
+  "mods/fwa.pw.toml": {
+    "en_us": "Animates interactive blocks such as doors and levers.",
+    "zh_cn": "为门、拉杆等可交互方块增加动画。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/fzzy-config.pw.toml": {
+    "en_us": "Configuration, validation and synchronization support.",
+    "zh_cn": "设置、校验与同步支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/geckolib.pw.toml": {
+    "en_us": "Animation library for entities, blocks, items and armor.",
+    "zh_cn": "实体、方块、物品与盔甲动画库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/gml.pw.toml": {
+    "en_us": "Groovy language provider.",
+    "zh_cn": "Groovy 语言支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "en_us": "Adds a cinematic camera transition during teleportation.",
+    "zh_cn": "为传送增加电影式镜头过渡。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.weather"
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "en_us": "Hides the experimental-world warning.",
+    "zh_cn": "隐藏实验性世界警告。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/iceberg.pw.toml": {
+    "en_us": "Shared events and utilities.",
+    "zh_cn": "共享事件与工具。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "en_us": "Optimizes immediate-mode rendering.",
+    "zh_cn": "优化即时模式渲染。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/iris.pw.toml": {
+    "en_us": "Loads shader packs.",
+    "zh_cn": "加载光影包。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.lighting"
+  },
+  "mods/ixeris.pw.toml": {
+    "en_us": "Buffered raw input and threaded event polling.",
+    "zh_cn": "提供缓冲原始输入与独立线程事件轮询。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/jamlib.pw.toml": {
+    "en_us": "Cross-platform shared code.",
+    "zh_cn": "跨平台共享代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/jasione.pw.toml": {
+    "en_us": "Reduces repeated enumeration-array allocations.",
+    "zh_cn": "减少重复的枚举数组分配。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.deferred"
+  },
+  "mods/kerria-opt.pw.toml": {
+    "en_us": "Accelerates animated texture processing.",
+    "zh_cn": "加速动态纹理处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "en_us": "Kotlin language provider and utilities.",
+    "zh_cn": "Kotlin 语言支持与工具。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/lionfish-api.pw.toml": {
+    "en_us": "Animation framework.",
+    "zh_cn": "动画框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/lithium.pw.toml": {
+    "en_us": "Optimizes game logic in single-player and servers.",
+    "zh_cn": "优化单人游戏与服务器的游戏逻辑。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/lithostitched.pw.toml": {
+    "en_us": "World-generation configuration and compatibility support.",
+    "zh_cn": "世界生成设置与兼容支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/lmd.pw.toml": {
+    "en_us": "Adjusts creature despawn rules to reduce unintended persistent creatures.",
+    "zh_cn": "调整生物消失规则，减少意外永久保留的生物。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/lodestonelib.pw.toml": {
+    "en_us": "Shared rendering and feature code for dependent mods.",
+    "zh_cn": "依赖模组使用的共享渲染与功能代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/mafglib.pw.toml": {
+    "en_us": "Shared code for Forge ports of masa's mods.",
+    "zh_cn": "masa 模组 Forge 移植版使用的共享代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/midnightlib.pw.toml": {
+    "en_us": "Lightweight configuration system.",
+    "zh_cn": "轻量设置系统。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/modelfix.pw.toml": {
+    "en_us": "Repairs gaps in block and item models.",
+    "zh_cn": "修复方块与物品模型的缝隙。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/modernfix.pw.toml": {
+    "en_us": "Performance, memory and bug-fix changes.",
+    "zh_cn": "提供性能、内存与错误修复改进。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/moonlight.pw.toml": {
+    "en_us": "Shared registration and dynamic content utilities.",
+    "zh_cn": "共享注册与动态内容工具。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "en_us": "Shared framework for the More RPG series.",
+    "zh_cn": "More RPG 系列共享框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/more-sounds.pw.toml": {
+    "en_us": "Adds sound content and mod compatibility to Sounds.",
+    "zh_cn": "为 Sounds 增加声音内容与模组兼容。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/moreculling.pw.toml": {
+    "en_us": "Skips selected hidden rendering faces.",
+    "zh_cn": "跳过部分不可见的渲染面。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/mru.pw.toml": {
+    "en_us": "Shared framework for dependent mods.",
+    "zh_cn": "依赖模组使用的共享框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/natures-compass.pw.toml": {
+    "en_us": "Biomes, including supported modded biomes",
+    "zh_cn": "生物群系，包括支持的模组生物群系",
+    "source": "navigation-integration/recipes-content.json",
+    "topic": "maps.find"
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "en_us": "Repairs vanilla bee behavior.",
+    "zh_cn": "修复原版蜜蜂行为。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.bridges"
+  },
+  "mods/northstar-redux.pw.toml": {
+    "en_us": "Space exploration and destination content.",
+    "zh_cn": "太空探索与目的地内容。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "space.destinations"
+  },
+  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
+    "en_us": "A bridge for Northstar skies, distant terrain and moving structures.",
+    "zh_cn": "连接 Northstar 天空、远景与移动结构。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.space-bridge"
+  },
+  "mods/not-enough-animations-emf-compat.pw.toml": {
+    "en_us": "Connects Not Enough Animations to custom animated player models.",
+    "zh_cn": "使 Not Enough Animations 适配自定义动态玩家模型。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/not-enough-animations.pw.toml": {
+    "en_us": "Shows more player actions in third-person.",
+    "zh_cn": "在第三人称显示更多玩家动作。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/observable.pw.toml": {
+    "en_us": "Identifies expensive server processing.",
+    "zh_cn": "用于定位服务器耗时处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "server.tools"
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "en_us": "Provides adjustable camera zoom.",
+    "zh_cn": "提供可调整的镜头缩放。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.camera"
+  },
+  "mods/owo-lib.pw.toml": {
+    "en_us": "General utilities, interfaces and configuration support.",
+    "zh_cn": "通用工具、界面与设置支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/particle-effects.pw.toml": {
+    "en_us": "Gives vanilla status effects distinct textured particles.",
+    "zh_cn": "为原版状态效果提供不同纹理的粒子。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.weather"
+  },
+  "mods/particular-reforged.pw.toml": {
+    "en_us": "Adds ambient visual effects.",
+    "zh_cn": "增加环境视觉效果。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.weather"
+  },
+  "mods/paxi.pw.toml": {
+    "en_us": "Automatic data-pack and resource-pack loading.",
+    "zh_cn": "自动加载数据包与资源包。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "server.deferred-pack-loading"
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "en_us": "Adds surface-sensitive footstep sounds.",
+    "zh_cn": "增加随踩踏表面变化的脚步声。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/placebo.pw.toml": {
+    "en_us": "Shared foundation, not standalone gameplay content.",
+    "zh_cn": "共享基础，不是独立玩法内容。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/playeranimator.pw.toml": {
+    "en_us": "Player animation library.",
+    "zh_cn": "玩家动画库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/polytone.pw.toml": {
+    "en_us": "Supports resource-pack colors, colormaps and block sound customization.",
+    "zh_cn": "支持资源包颜色、颜色映射与方块声音自定义。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "en_us": "Extends Presence Footsteps to Sable moving structures.",
+    "zh_cn": "让 Presence Footsteps 适配 Sable 移动结构。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/prickle.pw.toml": {
+    "en_us": "Configuration file support.",
+    "zh_cn": "设置文件支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/progresspeek.pw.toml": {
+    "en_us": "Shows loading progress on the desktop taskbar.",
+    "zh_cn": "在桌面任务栏显示加载进度。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "en_us": "Shared systems for Fuzss mods.",
+    "zh_cn": "Fuzss 模组使用的共享系统。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/quick-pack.pw.toml": {
+    "en_us": "Accelerates compressed data-pack and resource-pack loading.",
+    "zh_cn": "加速压缩数据包与资源包加载。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "en_us": "Bow and crossbow development support.",
+    "zh_cn": "弓与弩开发支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "en_us": "Reorganizes Sodium video options.",
+    "zh_cn": "重新组织 Sodium 视频选项。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/resourceful-config.pw.toml": {
+    "en_us": "Cross-platform configuration support.",
+    "zh_cn": "跨平台设置支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "en_us": "Shared code library.",
+    "zh_cn": "共享代码库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/ripple.pw.toml": {
+    "en_us": "Makes particles respond to entities.",
+    "zh_cn": "让粒子对实体作出反应。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.weather"
+  },
+  "mods/rpl.pw.toml": {
+    "en_us": "Projectile development support.",
+    "zh_cn": "弹射物开发支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "en_us": "Extends rain sounds to Sable moving structures and supported copycat materials.",
+    "zh_cn": "将雨声扩展到 Sable 移动结构与受支持的伪装材质。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/sable.pw.toml": {
+    "en_us": "Framework for interactive moving block structures.",
+    "zh_cn": "可交互移动方块结构框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/sable_beyond.pw.toml": {
+    "en_us": "Extends moving-structure behavior and compatibility.",
+    "zh_cn": "扩展移动结构行为与兼容支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.bridges"
+  },
+  "mods/sablecompat.pw.toml": {
+    "en_us": "Adds physics property tags to supported modded blocks.",
+    "zh_cn": "为受支持的模组方块补充物理属性标签。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.bridges"
+  },
+  "mods/searchables.pw.toml": {
+    "en_us": "Search, filtering and completion support for interfaces.",
+    "zh_cn": "界面搜索、筛选与补全支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/servercore.pw.toml": {
+    "en_us": "Server optimization.",
+    "zh_cn": "服务器优化。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.deferred"
+  },
+  "mods/shield-api.pw.toml": {
+    "en_us": "Custom shield model support.",
+    "zh_cn": "自定义盾牌模型支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/sodium-dynamic-lights.pw.toml": {
+    "en_us": "Provides dynamic lighting with Sodium settings integration.",
+    "zh_cn": "提供动态光源与 Sodium 设置整合。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.lighting"
+  },
+  "mods/sodium-extra.pw.toml": {
+    "en_us": "Adds appearance, particle, animation and display controls.",
+    "zh_cn": "增加外观、粒子、动画与信息显示控制。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/sodium.pw.toml": {
+    "en_us": "Replaces the terrain rendering engine.",
+    "zh_cn": "替换地形渲染引擎。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "en_us": "Shared code for Sophisticated mods.",
+    "zh_cn": "Sophisticated 模组共享代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "en_us": "Adds sound attenuation, reverberation and absorption through blocks.",
+    "zh_cn": "增加声音衰减、混响与方块吸音。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/sound.pw.toml": {
+    "en_us": "Adds sounds for interfaces, items, blocks and other interactions.",
+    "zh_cn": "为界面、物品、方块及其他交互增加音效。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "sounds.ambience"
+  },
+  "mods/spark.pw.toml": {
+    "en_us": "Profiles client and server performance.",
+    "zh_cn": "分析客户端与服务器性能。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "server.tools"
+  },
+  "mods/spawn-animations-compats.pw.toml": {
+    "en_us": "Adds compatibility data for Spawn Animations.",
+    "zh_cn": "为 Spawn Animations 补充兼容数据。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/spawn-animations.pw.toml": {
+    "en_us": "Animates hostile creature spawning.",
+    "zh_cn": "为敌对生物生成增加动画。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.models"
+  },
+  "mods/spell-engine.pw.toml": {
+    "en_us": "Data-driven spell framework.",
+    "zh_cn": "数据驱动法术框架。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/spell-power.pw.toml": {
+    "en_us": "Spell-related attributes, effects and enchantment support.",
+    "zh_cn": "法术相关属性、效果与附魔支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "en_us": "Optimizes jigsaw structure layout processing.",
+    "zh_cn": "优化拼图结构布局处理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "performance.baseline"
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "en_us": "Structure pool injection support.",
+    "zh_cn": "结构池扩展支持。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/supplementaries.pw.toml": {
+    "en_us": "Red Merchant and Plunderer have shipped entity definitions. Their encounter conditions are not confirmed.",
+    "zh_cn": "红商人与掠夺者已有发布的生物定义，具体出现条件尚未确认。",
+    "source": "review-revision/encounters-content.json",
+    "topic": "adventure.creatures"
+  },
+  "mods/teallib.pw.toml": {
+    "en_us": "Shared code library.",
+    "zh_cn": "共享代码库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/toast-control.pw.toml": {
+    "en_us": "Controls toast notifications.",
+    "zh_cn": "控制弹出通知。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/travelers-titles.pw.toml": {
+    "en_us": "Shows biome and dimension entry titles.",
+    "zh_cn": "显示进入生物群系与维度的标题。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.interface"
+  },
+  "mods/yacl.pw.toml": {
+    "en_us": "Configuration screen construction library.",
+    "zh_cn": "设置界面构建库。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "mods/yungs-api.pw.toml": {
+    "en_us": "Shared code for YUNG's mods.",
+    "zh_cn": "YUNG 模组共享代码。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "technical.libraries"
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "en_us": "Adds icons to attribute translations.",
+    "zh_cn": "为属性翻译增加图标。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "en_us": "Changes the appearance of leaf blocks.",
+    "zh_cn": "改变树叶方块外观。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fa-player-extension.pw.toml": {
+    "en_us": "Adds Fresh Animations style player animation.",
+    "zh_cn": "增加 Fresh Animations 风格的玩家动画。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fancy-crops.pw.toml": {
+    "en_us": "Changes crop appearance.",
+    "zh_cn": "改变作物外观。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fresh-animations-objects.pw.toml": {
+    "en_us": "Animates non-creature entities.",
+    "zh_cn": "为非生物实体增加动画。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fresh-animations-quivers.pw.toml": {
+    "en_us": "Adds skeleton quiver visuals.",
+    "zh_cn": "为骷髅增加箭袋外观。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fresh-animations.pw.toml": {
+    "en_us": "Adds animated entity models.",
+    "zh_cn": "增加动态实体模型。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "en_us": "Changes interface appearance without replacing item or block textures.",
+    "zh_cn": "改变界面外观，不替换物品或方块纹理。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/simple-grass-flowers.pw.toml": {
+    "en_us": "Adds small surface decorations to grass and related ground textures.",
+    "zh_cn": "为草地及相关地表增加小型外观装饰。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/visual-effects-plus.pw.toml": {
+    "en_us": "Adds biome-based fog, particles and weather appearance.",
+    "zh_cn": "增加随生物群系变化的雾、粒子与天气外观。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.resource-packs"
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "en_us": "A shader style that preserves Minecraft's visual character.",
+    "zh_cn": "保留 Minecraft 原有视觉风格的光影。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.shader-packs"
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "en_us": "A shader style with a more transformed appearance.",
+    "zh_cn": "更明显改变画面风格的光影。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.shader-packs"
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "en_us": "A gameplay-focused, semi-realistic shader style.",
+    "zh_cn": "注重游戏体验的半写实光影风格。",
+    "source": "navigation-integration/technical-content.json",
+    "topic": "visuals.shader-packs"
+  }
+}

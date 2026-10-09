@@ -10,6 +10,8 @@ navigation:
 
 ## Hoglin & strider
 
+- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+
 <ItemGrid>
   <ItemIcon id="minersdelight:spicy_hoglin_stew_cup" />
   <ItemIcon id="minersdelight:strider_stew_cup" />
@@ -300,6 +302,6 @@ Egg dishes use the egg type accepted by their recipe. Bread portions and toast a
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Baseline, installed | New Nether addon for Farmer's Delight |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | Baseline, installed | <EmiSearch query="@mynethersdelight" /> |

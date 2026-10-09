@@ -21,6 +21,6 @@ Paxi is deferred. Its automatic pack-loading function is not installed here.
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) | Deferred, not installed | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) | Automatic data-pack and resource-pack loading. | Deferred, not installed | Not installed here |

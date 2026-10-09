@@ -60,6 +60,8 @@ ChoiceTheorem's Overhauled Village
 
 ## 酒馆
 
+- 浏览物品: <EmiSearch query="@village_taverns" />
+
 ![Village Taverns (RPG Series)](images/encounters-village-taverns-catalog.png)
 
 作者发布的游戏截图，Village Taverns (RPG Series)。
@@ -77,6 +79,8 @@ ChoiceTheorem's Overhauled Village
 ***
 
 ## 村庄建筑
+
+- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 | 模组 | 职业与建筑 | 模板风格 |
 | --- | --- | --- |
@@ -102,8 +106,8 @@ ChoiceTheorem's Overhauled Village
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 已安装基准版 | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 已安装基准版 | ⛲️ Village structures hosting small spell libraries |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 已安装基准版 | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 重新设计村庄与掠夺者前哨站，使其适合不同生物群系。 | 已安装基准版 | 无独立物品查询 |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 增加藏有小型法术图书馆的村庄凉亭。 | 已安装基准版 | 无独立物品查询 |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 增加村庄酒馆，让旅人找到饮品与休息处。 | 已安装基准版 | <EmiSearch query="@village_taverns" /> |

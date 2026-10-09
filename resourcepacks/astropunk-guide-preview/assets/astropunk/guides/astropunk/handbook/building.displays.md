@@ -10,6 +10,8 @@ navigation:
 
 ## Paintings & lettering
 
+- Browse items: <EmiSearch query="@immersive_paintings" />
+
 <ItemGrid>
   <ItemIcon id="immersive_paintings:painting" />
   <ItemIcon id="immersive_paintings:glow_painting" />
@@ -31,6 +33,8 @@ Immersive Paintings supplies paintings, graffiti and glowing forms. Big Sign Wri
 ***
 
 ## Poses & objects
+
+- Browse items: <EmiSearch query="@items_displayed" /> <EmiSearch query="@strawstatues" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:armor_stand" />
@@ -65,10 +69,10 @@ Armor Poser edits armor stand limbs, position, rotation and presets. Sneak and r
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | Baseline, installed | Adds a GUI for armor stands in which you can configure it's pose and other properties |
-| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | Baseline, installed | Easily write large, multi-line characters and symbols on signs! |
-| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | Baseline, installed | Drag and drop, pixelate and hang up beautiful art. On servers too. |
-| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | Baseline, installed | A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests! |
-| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | Baseline, installed | Bring some life to your builds with player statues of your favorite Minecrafters! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | Provides an interface for adjusting armor stand poses and properties. | Baseline, installed | No separate item search |
+| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | Writes large characters and symbols across multiple lines of signs. | Baseline, installed | No separate item search |
+| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | Imports images as placeable paintings, including on multiplayer servers. | Baseline, installed | <EmiSearch query="@immersive_paintings" /> |
+| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | Lets players place inventory items in the world for display. | Baseline, installed | <EmiSearch query="@items_displayed" /> |
+| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | Adds poseable player-look statues for decorating builds. | Baseline, installed | <EmiSearch query="@strawstatues" /> |

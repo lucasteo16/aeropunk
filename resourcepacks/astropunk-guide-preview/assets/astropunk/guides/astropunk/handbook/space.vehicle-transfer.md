@@ -10,6 +10,8 @@ navigation:
 
 ## Not installed
 
+- Browse items: <EmiSearch query="@create" />
+
 These space vehicle-transfer addons are deferred. Do not assume they supply an installed survival crafting path or working whole-vehicle transfer in this edition.
 
 | Component | Function |
@@ -28,7 +30,7 @@ These space vehicle-transfer addons are deferred. Do not assume they supply an i
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) | Deferred, not installed | Not installed here. |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) | Deferred, not installed | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) | Adds relocation tools for physical Aeronautics vehicles. | Deferred, not installed | Not installed here |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) | Connects Northstar space travel to Aeronautics physical vehicle transfers. | Deferred, not installed | Not installed here |

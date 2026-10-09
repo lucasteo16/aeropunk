@@ -10,6 +10,8 @@ navigation:
 
 ## Routes & stops
 
+- Browse items: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />
   <ItemIcon id="createrailwaysnavigator:train_station_clock" />
@@ -73,6 +75,6 @@ Passenger displays use different block shapes for the available space. Configure
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | Baseline, installed | A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | Adds train route search, passenger information displays and schedule features. | Baseline, installed | <EmiSearch query="@createrailwaysnavigator" /> |

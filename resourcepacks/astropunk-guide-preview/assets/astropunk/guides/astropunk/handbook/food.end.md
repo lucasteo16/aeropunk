@@ -10,6 +10,8 @@ navigation:
 
 ## Chorus dishes
 
+- Browse items: <EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+
 <ItemGrid>
   <ItemIcon id="ends_delight:chorus_fruit_grain" />
   <ItemIcon id="ends_delight:chorus_fruit_milk_tea" />
@@ -238,6 +240,6 @@ These prepared meals combine End ingredients with pantry items. Follow the liste
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Baseline, installed | End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | Baseline, installed | <EmiSearch query="@ends_delight" /> |

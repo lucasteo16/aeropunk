@@ -37,6 +37,8 @@ public final class HandbookAccess {
         shortcut = new KeyMapping("key.astropunk_handbook_access.open", KeyConflictContext.UNIVERSAL,
                 InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_F9, "key.categories.astropunk_handbook_access");
         modBus.addListener(this::registerKeys);
+        modBus.addListener(net.neoforged.fml.event.lifecycle.FMLClientSetupEvent.class,
+                event -> event.enqueueWork(HandbookQueryGuide::register));
         NeoForge.EVENT_BUS.addListener(this::addInventoryButton);
         NeoForge.EVENT_BUS.addListener(this::onClientTick);
         NeoForge.EVENT_BUS.addListener(this::onInventoryKey);

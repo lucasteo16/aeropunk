@@ -23,8 +23,8 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | 暂缓，未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | 暂缓，未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | 暂缓，未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | 异步日志处理。 | 暂缓，未安装 | 当前未安装 |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | 减少重复的枚举数组分配。 | 暂缓，未安装 | 当前未安装 |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | 优化服务器区块刻处理与生物生成，并提供可调整的负载控制。 | 暂缓，未安装 | 当前未安装 |

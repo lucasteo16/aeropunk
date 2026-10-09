@@ -9,6 +9,8 @@ navigation:
 
 ## Start with rotation
 
+- Browse items: <EmiSearch query="@create" />
+
 A Water Wheel supplies rotational power. Connect machines with shafts, match their speed requirements and watch the stress load. Use Ponder for animated assembly instructions.
 
 <ItemGrid>

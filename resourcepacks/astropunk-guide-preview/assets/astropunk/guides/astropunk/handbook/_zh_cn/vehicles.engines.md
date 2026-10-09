@@ -10,6 +10,8 @@ navigation:
 
 ## 航空引擎
 
+- 浏览物品: <EmiSearch query="@aeroengineering" />
+
 <ItemGrid>
   <ItemIcon id="aeroengineering:engine_fan" />
   <ItemIcon id="aeroengineering:engine_compressor" />
@@ -33,6 +35,8 @@ Aero Engineering 提供多种涡轮引擎系列。基本核心按风扇、压缩
 ***
 
 ## 推进组件
+
+- 浏览物品: <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createpropulsion:thruster" />
@@ -97,7 +101,7 @@ Create Propulsion 提供燃料或动力要求不同的推进器，另有独立�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | 已安装基准版 | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
-| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 已安装基准版 | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | 为机械动力增加模块化航空发动机与飞行控制仪表。 | 已安装基准版 | <EmiSearch query="@aeroengineering" /> |
+| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。 | 已安装基准版 | <EmiSearch query="@createpropulsion" /> |

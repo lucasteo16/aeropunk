@@ -2,28 +2,25 @@
 navigation:
   title: "Astropunk"
   position: -100
+  icon: minecraft:compass
 ---
 
 # Astropunk
 
-## Quick reference
+## A world of your own
 
-| Reference | Contents |
-| --- | --- |
-| <ItemImage id="minecraft:lever" /> [Controls](help.controls.md) | Bindings and interface settings |
-| <ItemImage id="minecraft:crafting_table" /> [Browse recipe](help.search.md) | Ingredients, uses and recipe conflicts |
-| <ItemImage id="minecraft:dragon_head" /> [Bosses](adventure.bosses.md) | Encounters, locations and access |
-| <ItemImage id="minecraft:egg" /> [Creatures](adventure.creatures.md) | Species, variants and habitats |
-| <ItemImage id="minecraft:stone_bricks" /> [Structures](adventure.structures.md) | Locations, families and variants |
-| <ItemImage id="minecraft:grass_block" /> [Dimensions](world.dimensions.md) | Overworld, Nether and End |
-| <ItemImage id="minecraft:iron_chestplate" /> [Equipment](reference.equipment.md) | Weapons, armor and accessories |
-| <ItemImage id="minecraft:enchanted_book" /> [Spells & skills](reference.skills.md) | Combat styles, spells and skill systems |
-| <ItemImage id="minecraft:apple" /> [Food & farming](reference.food.md) | Ingredients, dishes and crops |
-| <ItemImage id="minecraft:bricks" /> [Building](reference.building.md) | Materials, shapes and furniture |
-| <ItemImage id="minecraft:minecart" /> [Transport](reference.vehicles.md) | Components, transport and destinations |
-| <ItemImage id="create:crushing_wheel" /> [Machines & storage](reference.machines-storage.md) | Machines, power, resources and containers |
-| <ItemImage id="minecraft:map" /> [Maps](maps.personal.md) | World maps, waypoints and finders |
-| <ItemImage id="minecraft:lever" /> [Utilities](reference.utilities.md) | Inspection, interactions, sleep and recovery |
-| <ItemImage id="minecraft:painting" /> [Appearance](reference.appearance.md) | Camera, models, lighting and resource packs |
-| <ItemImage id="minecraft:note_block" /> [Audio](reference.audio.md) | Ambience, footsteps and weather sounds |
-| <ItemImage id="minecraft:redstone" /> [Technical](reference.technical.md) | Libraries, performance and administration |
+Astropunk combines mechanical automation, expressive building, exploration and flexible combat builds in one survival world.
+
+Build a workshop around Create machinery, shape a home with decorative materials and furniture, or construct transport that connects your settlements. Travel through reshaped Overworld, Nether and End landscapes to find villages, dungeons, unusual creatures and boss encounters.
+
+Combat builds come from weapons, armor, accessories, class books and skill-tree choices. Choose the systems that suit your project rather than following a required quest chain. The handbook has no completion rewards or reading locks. Individual crafts, abilities and destinations still have their own gameplay requirements.
+
+***
+
+## Your next project
+
+Start small: prepare food and storage for an expedition, make a useful machine, try a building palette, or assemble the first equipment for a combat style. Recipe browsing and Create's Ponder help connect an idea to its actual ingredients and arrangement.
+
+Use Quick reference when you need a specific topic. Installed content and uninstalled edition options are marked separately there.
+
+- <ItemImage id="minecraft:book" /> [Quick reference](quick-reference.md)

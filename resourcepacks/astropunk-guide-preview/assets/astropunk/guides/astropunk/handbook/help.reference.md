@@ -32,6 +32,6 @@ The mod also provides advancement editing features. Editing support and permissi
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | Baseline, installed | In-game advancement editing and improvements to the advancement screen! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | Improves advancement browsing and supports editing advancements in game. | Baseline, installed | No separate item search |

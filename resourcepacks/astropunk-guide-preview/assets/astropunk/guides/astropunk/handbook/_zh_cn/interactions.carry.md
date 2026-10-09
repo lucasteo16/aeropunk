@@ -29,6 +29,6 @@ Carry On 用于搬运受支持的已放置方块和生物。
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | 已安装基准版 | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | 允许玩家抱起并搬运受支持的容器与生物。 | 已安装基准版 | 无独立物品查询 |

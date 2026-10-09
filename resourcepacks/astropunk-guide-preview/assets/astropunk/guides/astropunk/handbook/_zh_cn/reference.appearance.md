@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "外观"
-  position: 14
+  position: 13
   parent: quick-reference.md
   icon: minecraft:painting
 ---
@@ -25,52 +25,52 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | 已安装基准版 | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
-| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | 已安装基准版 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
-| ![Advancement Plaques](images/catalog-9NM0dXub.png) [Advancement Plaques](visuals.interface.md) | 已安装基准版 | Replace those boring advancement popups with something flashier. |
-| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 已安装基准版 | Icons embedded in attribute translations |
-| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | 已安装基准版 | Updated version of Better Biome Blend, a mod that improves Biome Blending |
-| ![Better ModList](images/catalog-sbpqhzIG.png) [Better ModList](visuals.interface.md) | 已安装基准版 | enhances neoforge modlist by adding options to hide mods, libraries, adding badges to mods to define what it does and more. as well as making it look better. |
-| ![BetterF3](images/catalog-8shC1gFX.png) [BetterF3](visuals.interface.md) | 已安装基准版 | BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD. |
-| ![Complementary Shaders - Reimagined](images/catalog-HVnmMxH1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | 已安装基准版 | Preserving the elements of Minecraft with exceptional quality, detail, and performance. |
-| ![Complementary Shaders - Unbound](images/catalog-R6NEzAwj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | 已安装基准版 | Transforming the visuals of Minecraft with exceptional quality, detail, and performance. |
-| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | 已安装基准版 | A Minecraft mod that allows for efficient connected textures |
-| <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | 已安装基准版 | Allows you to play Minecraft in a borderless fullscreen window. |
-| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | 已安装基准版 | Massively increase render distance without harming performance. |
-| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | 已安装基准版 | Makes Create animations work correctly with animated EMF player models. |
-| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | 已安装基准版 | A highly customizable freecam mod. |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 已安装基准版 | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
-| ![Hide Experimental Warning](images/catalog-Rm4OOdHd.png) [Hide Experimental Warning](visuals.interface.md) | 已安装基准版 | ❌ Hides the Experimental Settings Warning when trying to create or load a modded world. |
-| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | 已安装基准版 | A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs |
-| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 已安装基准版 | Mandala GUI is an elegant theme, in the style of Mandala Creations. It is specifically made for people who like Dark mode. It only changes the UI of Minecraft, without changing items or blocks. |
-| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | 已安装基准版 | Fixes gaps in Block Models and Item Models |
-| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 已安装基准版 | Improves the appearance of leaves with high mod compatibility and performance! |
-| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | 已安装基准版 | Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours! |
-| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Photon Shaders](images/catalog-lLqFfGNs.png) [Photon Shaders](visuals.shader-packs.md) | 已安装基准版 | A gameplay-focused shader pack with a semi-realistic style |
-| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | 已安装基准版 | Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs |
-| ![Progress Peek](images/catalog-1A2XNzUB.png) [Progress Peek](visuals.interface.md) | 已安装基准版 | Display game loading progress on the taskbar |
-| ![Reese's Sodium Options](images/catalog-Bh37bMuy.png) [Reese's Sodium Options](visuals.interface.md) | 已安装基准版 | Alternative Options Menu for Sodium |
-| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Sodium Extra](images/catalog-PtjYWJkn.png) [Sodium Extra](visuals.interface.md) | 已安装基准版 | A Sodium addon that adds features that shouldn't be in Sodium. |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Toast Control](images/catalog-CnOG2wlS.png) [Toast Control](visuals.interface.md) | 已安装基准版 | Manage (or remove) those pesky toast notifications |
-| ![Traveler's Titles](images/catalog-JtifUr64.png) [Traveler's Titles](visuals.interface.md) | 已安装基准版 | Epic, RPG-like titles when entering biomes & dimensions! |
-| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) | 重型版，当前未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) | 改变作物外观。 | 重型版，当前未安装 | 当前未安装 |
+| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | 加载兼容资源包中的自定义实体模型。 | 已安装基准版 | 无独立物品查询 |
+| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | 支持随机、自定义与发光实体纹理。 | 已安装基准版 | 无独立物品查询 |
+| ![Advancement Plaques](images/catalog-9NM0dXub.png) [Advancement Plaques](visuals.interface.md) | 将进度通知替换为牌匾样式。 | 已安装基准版 | 无独立物品查询 |
+| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 为属性翻译增加图标。 | 已安装基准版 | 无独立物品查询 |
+| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | 改善生物群系颜色之间的混合。 | 已安装基准版 | 无独立物品查询 |
+| ![Better ModList](images/catalog-sbpqhzIG.png) [Better ModList](visuals.interface.md) | 调整模组列表显示与筛选。 | 已安装基准版 | 无独立物品查询 |
+| ![BetterF3](images/catalog-8shC1gFX.png) [BetterF3](visuals.interface.md) | 重新组织调试信息显示。 | 已安装基准版 | 无独立物品查询 |
+| ![Complementary Shaders - Reimagined](images/catalog-HVnmMxH1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | 保留 Minecraft 原有视觉风格的光影。 | 已安装基准版 | 无独立物品查询 |
+| ![Complementary Shaders - Unbound](images/catalog-R6NEzAwj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | 更明显改变画面风格的光影。 | 已安装基准版 | 无独立物品查询 |
+| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | 支持资源包的方块连接纹理。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) | 为机械动力与 Sable 移动结构上的光源增加动态光照支持。 | 重型版，当前未安装 | 当前未安装 |
+| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | 提供无边框全屏窗口。 | 已安装基准版 | 无独立物品查询 |
+| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | 在普通渲染距离之外显示简化地形。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | 增加进食动画。 | 重型版，当前未安装 | 当前未安装 |
+| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | 使机械动力玩家动画适配自定义动态模型。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | 让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | 改变爆炸动画效果。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | 为门、拉杆等可交互方块增加动画。 | 重型版，当前未安装 | 当前未安装 |
+| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | 提供独立观察镜头。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) | 增加动态实体模型。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) | 为非生物实体增加动画。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) | 增加 Fresh Animations 风格的玩家动画。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) | 为骷髅增加箭袋外观。 | 重型版，当前未安装 | 当前未安装 |
+| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 为传送增加电影式镜头过渡。 | 已安装基准版 | 无独立物品查询 |
+| ![Hide Experimental Warning](images/catalog-Rm4OOdHd.png) [Hide Experimental Warning](visuals.interface.md) | 隐藏实验性世界警告。 | 已安装基准版 | 无独立物品查询 |
+| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | 加载光影包。 | 已安装基准版 | 无独立物品查询 |
+| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 改变界面外观，不替换物品或方块纹理。 | 已安装基准版 | 无独立物品查询 |
+| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | 修复方块与物品模型的缝隙。 | 已安装基准版 | 无独立物品查询 |
+| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 改变树叶方块外观。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | 在第三人称显示更多玩家动作。 | 重型版，当前未安装 | 当前未安装 |
+| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | 提供可调整的镜头缩放。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | 为原版状态效果提供不同纹理的粒子。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | 增加环境视觉效果。 | 重型版，当前未安装 | 当前未安装 |
+| ![Photon Shaders](images/catalog-lLqFfGNs.png) [Photon Shaders](visuals.shader-packs.md) | 注重游戏体验的半写实光影风格。 | 已安装基准版 | 无独立物品查询 |
+| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | 支持资源包颜色、颜色映射与方块声音自定义。 | 已安装基准版 | 无独立物品查询 |
+| ![Progress Peek](images/catalog-1A2XNzUB.png) [Progress Peek](visuals.interface.md) | 在桌面任务栏显示加载进度。 | 已安装基准版 | 无独立物品查询 |
+| ![Reese's Sodium Options](images/catalog-Bh37bMuy.png) [Reese's Sodium Options](visuals.interface.md) | 重新组织 Sodium 视频选项。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | 让粒子对实体作出反应。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) | 为草地及相关地表增加小型外观装饰。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) | 提供动态光源与 Sodium 设置整合。 | 重型版，当前未安装 | 当前未安装 |
+| ![Sodium Extra](images/catalog-PtjYWJkn.png) [Sodium Extra](visuals.interface.md) | 增加外观、粒子、动画与信息显示控制。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | 为敌对生物生成增加动画。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | 让 Spawn Animations 的生成动画适配受支持的模组生物。 | 重型版，当前未安装 | 当前未安装 |
+| ![Toast Control](images/catalog-CnOG2wlS.png) [Toast Control](visuals.interface.md) | 控制弹出通知。 | 已安装基准版 | 无独立物品查询 |
+| ![Traveler's Titles](images/catalog-JtifUr64.png) [Traveler's Titles](visuals.interface.md) | 显示进入生物群系与维度的标题。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) | 增加随生物群系变化的雾、粒子与天气外观。 | 重型版，当前未安装 | 当前未安装 |

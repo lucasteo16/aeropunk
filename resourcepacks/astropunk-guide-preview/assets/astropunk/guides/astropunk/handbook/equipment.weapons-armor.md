@@ -2,8 +2,8 @@
 navigation:
   title: "Weapons & armor"
   position: 0
-  parent: reference.equipment.md
-  icon: minecraft:iron_chestplate
+  parent: reference.skills.md
+  icon: minecraft:iron_sword
 ---
 
 # Weapons & armor
@@ -15,6 +15,8 @@ Choose the role you want to try and craft its weapon or focus. These recipes are
 - [Spells & skills](reference.skills.md) Every supported class and the first binding steps.
 
 ### Archer
+
+- Browse items: <EmiSearch query="@archers" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -40,6 +42,8 @@ Rapid ranged attacks and disabling shots.
 
 ### Rogue
 
+- Browse items: <EmiSearch query="@rogues" />
+
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
@@ -64,6 +68,8 @@ Charges and defensive melee techniques.
 
 ### Berserker
 
+- Browse items: <EmiSearch query="@berserker_rpg" />
+
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
@@ -76,6 +82,8 @@ Rage effects and heavy melee strikes.
 
 ### Forcemaster
 
+- Browse items: <EmiSearch query="@forcemaster_rpg" />
+
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>
@@ -87,6 +95,8 @@ Rage effects and heavy melee strikes.
 Arcane strikes with knuckles.
 
 ### Arcane Wizard
+
+- Browse items: <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -124,6 +134,8 @@ Frost attacks and protective effects.
 
 ### Aqua Wizard
 
+- Browse items: <EmiSearch query="@elemental_wizards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>
@@ -160,6 +172,8 @@ Air attacks and tornado areas.
 
 ### Paladin
 
+- Browse items: <EmiSearch query="@paladins" />
+
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>
@@ -184,6 +198,8 @@ Healing beams and group protection.
 
 ### Bard
 
+- Browse items: <EmiSearch query="@bards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
@@ -195,6 +211,8 @@ Healing beams and group protection.
 Instrument attacks and support songs.
 
 ### Witcher fencing
+
+- Browse items: <EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -253,14 +271,34 @@ Bows and crossbows trade drawing speed against projectile damage. Spears provide
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="archers:archer_armor_chest" /> | <ItemGrid>   <ItemIcon id="archers:archer_armor_head" />   <ItemIcon id="archers:archer_armor_chest" />   <ItemIcon id="archers:archer_armor_legs" />   <ItemIcon id="archers:archer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="archers:ranger_armor_chest" /> | <ItemGrid>   <ItemIcon id="archers:ranger_armor_head" />   <ItemIcon id="archers:ranger_armor_chest" />   <ItemIcon id="archers:ranger_armor_legs" />   <ItemIcon id="archers:ranger_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="archers:netherite_ranger_armor_chest" /> | <ItemGrid>   <ItemIcon id="archers:netherite_ranger_armor_head" />   <ItemIcon id="archers:netherite_ranger_armor_chest" />   <ItemIcon id="archers:netherite_ranger_armor_legs" />   <ItemIcon id="archers:netherite_ranger_armor_feet" /> </ItemGrid>  |
+<ItemLink id="archers:archer_armor_chest" />
 
+<ItemGrid>
+  <ItemIcon id="archers:archer_armor_head" />
+  <ItemIcon id="archers:archer_armor_chest" />
+  <ItemIcon id="archers:archer_armor_legs" />
+  <ItemIcon id="archers:archer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="archers:ranger_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers:ranger_armor_head" />
+  <ItemIcon id="archers:ranger_armor_chest" />
+  <ItemIcon id="archers:ranger_armor_legs" />
+  <ItemIcon id="archers:ranger_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="archers:netherite_ranger_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers:netherite_ranger_armor_head" />
+  <ItemIcon id="archers:netherite_ranger_armor_chest" />
+  <ItemIcon id="archers:netherite_ranger_armor_legs" />
+  <ItemIcon id="archers:netherite_ranger_armor_feet" />
+</ItemGrid>
 
 ***
 
@@ -270,20 +308,90 @@ Deadeye, Tundra Hunter and War Archer equipment supports physical, frost and fir
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+- Browse items: <EmiSearch query="@archers_expansion" />
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="archers_expansion:tundra_hunter_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:tundra_hunter_head" />   <ItemIcon id="archers_expansion:tundra_hunter_chest" />   <ItemIcon id="archers_expansion:tundra_hunter_legs" />   <ItemIcon id="archers_expansion:tundra_hunter_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:war_archer_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:war_archer_head" />   <ItemIcon id="archers_expansion:war_archer_chest" />   <ItemIcon id="archers_expansion:war_archer_legs" />   <ItemIcon id="archers_expansion:war_archer_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:deadeye_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:deadeye_head" />   <ItemIcon id="archers_expansion:deadeye_chest" />   <ItemIcon id="archers_expansion:deadeye_legs" />   <ItemIcon id="archers_expansion:deadeye_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:netherite_tundra_hunter_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:netherite_tundra_hunter_head" />   <ItemIcon id="archers_expansion:netherite_tundra_hunter_chest" />   <ItemIcon id="archers_expansion:netherite_tundra_hunter_legs" />   <ItemIcon id="archers_expansion:netherite_tundra_hunter_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:netherite_war_archer_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:netherite_war_archer_head" />   <ItemIcon id="archers_expansion:netherite_war_archer_chest" />   <ItemIcon id="archers_expansion:netherite_war_archer_legs" />   <ItemIcon id="archers_expansion:netherite_war_archer_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:netherite_deadeye_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:netherite_deadeye_head" />   <ItemIcon id="archers_expansion:netherite_deadeye_chest" />   <ItemIcon id="archers_expansion:netherite_deadeye_legs" />   <ItemIcon id="archers_expansion:netherite_deadeye_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:bounty_hunter_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:bounty_hunter_head" />   <ItemIcon id="archers_expansion:bounty_hunter_chest" />   <ItemIcon id="archers_expansion:bounty_hunter_legs" />   <ItemIcon id="archers_expansion:bounty_hunter_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:polar_stalker_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:polar_stalker_head" />   <ItemIcon id="archers_expansion:polar_stalker_chest" />   <ItemIcon id="archers_expansion:polar_stalker_legs" />   <ItemIcon id="archers_expansion:polar_stalker_feet" /> </ItemGrid>  |
-| <ItemLink id="archers_expansion:sentinel_archer_chest" /> | <ItemGrid>   <ItemIcon id="archers_expansion:sentinel_archer_head" />   <ItemIcon id="archers_expansion:sentinel_archer_chest" />   <ItemIcon id="archers_expansion:sentinel_archer_legs" />   <ItemIcon id="archers_expansion:sentinel_archer_feet" /> </ItemGrid>  |
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
+<ItemLink id="archers_expansion:tundra_hunter_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:tundra_hunter_head" />
+  <ItemIcon id="archers_expansion:tundra_hunter_chest" />
+  <ItemIcon id="archers_expansion:tundra_hunter_legs" />
+  <ItemIcon id="archers_expansion:tundra_hunter_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:war_archer_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:war_archer_head" />
+  <ItemIcon id="archers_expansion:war_archer_chest" />
+  <ItemIcon id="archers_expansion:war_archer_legs" />
+  <ItemIcon id="archers_expansion:war_archer_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:deadeye_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:deadeye_head" />
+  <ItemIcon id="archers_expansion:deadeye_chest" />
+  <ItemIcon id="archers_expansion:deadeye_legs" />
+  <ItemIcon id="archers_expansion:deadeye_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:netherite_tundra_hunter_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_head" />
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_chest" />
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_legs" />
+  <ItemIcon id="archers_expansion:netherite_tundra_hunter_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:netherite_war_archer_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:netherite_war_archer_head" />
+  <ItemIcon id="archers_expansion:netherite_war_archer_chest" />
+  <ItemIcon id="archers_expansion:netherite_war_archer_legs" />
+  <ItemIcon id="archers_expansion:netherite_war_archer_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:netherite_deadeye_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:netherite_deadeye_head" />
+  <ItemIcon id="archers_expansion:netherite_deadeye_chest" />
+  <ItemIcon id="archers_expansion:netherite_deadeye_legs" />
+  <ItemIcon id="archers_expansion:netherite_deadeye_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:bounty_hunter_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:bounty_hunter_head" />
+  <ItemIcon id="archers_expansion:bounty_hunter_chest" />
+  <ItemIcon id="archers_expansion:bounty_hunter_legs" />
+  <ItemIcon id="archers_expansion:bounty_hunter_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:polar_stalker_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:polar_stalker_head" />
+  <ItemIcon id="archers_expansion:polar_stalker_chest" />
+  <ItemIcon id="archers_expansion:polar_stalker_legs" />
+  <ItemIcon id="archers_expansion:polar_stalker_feet" />
+</ItemGrid>
+
+<ItemLink id="archers_expansion:sentinel_archer_chest" />
+
+<ItemGrid>
+  <ItemIcon id="archers_expansion:sentinel_archer_head" />
+  <ItemIcon id="archers_expansion:sentinel_archer_chest" />
+  <ItemIcon id="archers_expansion:sentinel_archer_legs" />
+  <ItemIcon id="archers_expansion:sentinel_archer_feet" />
+</ItemGrid>
 
 ***
 
@@ -337,17 +445,61 @@ Daggers and sickles support rogue weapons. Double axes and glaives support warri
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="rogues:rogue_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:rogue_armor_head" />   <ItemIcon id="rogues:rogue_armor_chest" />   <ItemIcon id="rogues:rogue_armor_legs" />   <ItemIcon id="rogues:rogue_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:assassin_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:assassin_armor_head" />   <ItemIcon id="rogues:assassin_armor_chest" />   <ItemIcon id="rogues:assassin_armor_legs" />   <ItemIcon id="rogues:assassin_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:netherite_assassin_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:netherite_assassin_armor_head" />   <ItemIcon id="rogues:netherite_assassin_armor_chest" />   <ItemIcon id="rogues:netherite_assassin_armor_legs" />   <ItemIcon id="rogues:netherite_assassin_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:warrior_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:warrior_armor_head" />   <ItemIcon id="rogues:warrior_armor_chest" />   <ItemIcon id="rogues:warrior_armor_legs" />   <ItemIcon id="rogues:warrior_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:berserker_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:berserker_armor_head" />   <ItemIcon id="rogues:berserker_armor_chest" />   <ItemIcon id="rogues:berserker_armor_legs" />   <ItemIcon id="rogues:berserker_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="rogues:netherite_berserker_armor_chest" /> | <ItemGrid>   <ItemIcon id="rogues:netherite_berserker_armor_head" />   <ItemIcon id="rogues:netherite_berserker_armor_chest" />   <ItemIcon id="rogues:netherite_berserker_armor_legs" />   <ItemIcon id="rogues:netherite_berserker_armor_feet" /> </ItemGrid>  |
+<ItemLink id="rogues:rogue_armor_chest" />
 
+<ItemGrid>
+  <ItemIcon id="rogues:rogue_armor_head" />
+  <ItemIcon id="rogues:rogue_armor_chest" />
+  <ItemIcon id="rogues:rogue_armor_legs" />
+  <ItemIcon id="rogues:rogue_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:assassin_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:assassin_armor_head" />
+  <ItemIcon id="rogues:assassin_armor_chest" />
+  <ItemIcon id="rogues:assassin_armor_legs" />
+  <ItemIcon id="rogues:assassin_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:netherite_assassin_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:netherite_assassin_armor_head" />
+  <ItemIcon id="rogues:netherite_assassin_armor_chest" />
+  <ItemIcon id="rogues:netherite_assassin_armor_legs" />
+  <ItemIcon id="rogues:netherite_assassin_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:warrior_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:warrior_armor_head" />
+  <ItemIcon id="rogues:warrior_armor_chest" />
+  <ItemIcon id="rogues:warrior_armor_legs" />
+  <ItemIcon id="rogues:warrior_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:berserker_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:berserker_armor_head" />
+  <ItemIcon id="rogues:berserker_armor_chest" />
+  <ItemIcon id="rogues:berserker_armor_legs" />
+  <ItemIcon id="rogues:berserker_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="rogues:netherite_berserker_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="rogues:netherite_berserker_armor_head" />
+  <ItemIcon id="rogues:netherite_berserker_armor_chest" />
+  <ItemIcon id="rogues:netherite_berserker_armor_legs" />
+  <ItemIcon id="rogues:netherite_berserker_armor_feet" />
+</ItemGrid>
 
 ***
 
@@ -383,15 +535,43 @@ Berserker axes pair melee attacks with rage-based abilities. Armor and named wea
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="berserker_rpg:wildling_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:wildling_head" />   <ItemIcon id="berserker_rpg:wildling_chest" />   <ItemIcon id="berserker_rpg:wildling_legs" />   <ItemIcon id="berserker_rpg:wildling_feet" /> </ItemGrid>  |
-| <ItemLink id="berserker_rpg:northling_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:northling_head" />   <ItemIcon id="berserker_rpg:northling_chest" />   <ItemIcon id="berserker_rpg:northling_legs" />   <ItemIcon id="berserker_rpg:northling_feet" /> </ItemGrid>  |
-| <ItemLink id="berserker_rpg:netherite_northling_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:netherite_northling_head" />   <ItemIcon id="berserker_rpg:netherite_northling_chest" />   <ItemIcon id="berserker_rpg:netherite_northling_legs" />   <ItemIcon id="berserker_rpg:netherite_northling_feet" /> </ItemGrid>  |
-| <ItemLink id="berserker_rpg:warlord_chest" /> | <ItemGrid>   <ItemIcon id="berserker_rpg:warlord_head" />   <ItemIcon id="berserker_rpg:warlord_chest" />   <ItemIcon id="berserker_rpg:warlord_legs" />   <ItemIcon id="berserker_rpg:warlord_feet" /> </ItemGrid>  |
+<ItemLink id="berserker_rpg:wildling_chest" />
 
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:wildling_head" />
+  <ItemIcon id="berserker_rpg:wildling_chest" />
+  <ItemIcon id="berserker_rpg:wildling_legs" />
+  <ItemIcon id="berserker_rpg:wildling_feet" />
+</ItemGrid>
+
+<ItemLink id="berserker_rpg:northling_chest" />
+
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:northling_head" />
+  <ItemIcon id="berserker_rpg:northling_chest" />
+  <ItemIcon id="berserker_rpg:northling_legs" />
+  <ItemIcon id="berserker_rpg:northling_feet" />
+</ItemGrid>
+
+<ItemLink id="berserker_rpg:netherite_northling_chest" />
+
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:netherite_northling_head" />
+  <ItemIcon id="berserker_rpg:netherite_northling_chest" />
+  <ItemIcon id="berserker_rpg:netherite_northling_legs" />
+  <ItemIcon id="berserker_rpg:netherite_northling_feet" />
+</ItemGrid>
+
+<ItemLink id="berserker_rpg:warlord_chest" />
+
+<ItemGrid>
+  <ItemIcon id="berserker_rpg:warlord_head" />
+  <ItemIcon id="berserker_rpg:warlord_chest" />
+  <ItemIcon id="berserker_rpg:warlord_legs" />
+  <ItemIcon id="berserker_rpg:warlord_feet" />
+</ItemGrid>
 
 ***
 
@@ -425,15 +605,43 @@ Knuckles provide close combat with arcane class abilities. Compare the complete 
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="forcemaster_rpg:oriene_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:oriene_head" />   <ItemIcon id="forcemaster_rpg:oriene_chest" />   <ItemIcon id="forcemaster_rpg:oriene_legs" />   <ItemIcon id="forcemaster_rpg:oriene_feet" /> </ItemGrid>  |
-| <ItemLink id="forcemaster_rpg:phasleb_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:phasleb_head" />   <ItemIcon id="forcemaster_rpg:phasleb_chest" />   <ItemIcon id="forcemaster_rpg:phasleb_legs" />   <ItemIcon id="forcemaster_rpg:phasleb_feet" /> </ItemGrid>  |
-| <ItemLink id="forcemaster_rpg:aken_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:aken_head" />   <ItemIcon id="forcemaster_rpg:aken_chest" />   <ItemIcon id="forcemaster_rpg:aken_legs" />   <ItemIcon id="forcemaster_rpg:aken_feet" /> </ItemGrid>  |
-| <ItemLink id="forcemaster_rpg:billporon_chest" /> | <ItemGrid>   <ItemIcon id="forcemaster_rpg:billporon_head" />   <ItemIcon id="forcemaster_rpg:billporon_chest" />   <ItemIcon id="forcemaster_rpg:billporon_legs" />   <ItemIcon id="forcemaster_rpg:billporon_feet" /> </ItemGrid>  |
+<ItemLink id="forcemaster_rpg:oriene_chest" />
 
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:oriene_head" />
+  <ItemIcon id="forcemaster_rpg:oriene_chest" />
+  <ItemIcon id="forcemaster_rpg:oriene_legs" />
+  <ItemIcon id="forcemaster_rpg:oriene_feet" />
+</ItemGrid>
+
+<ItemLink id="forcemaster_rpg:phasleb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:phasleb_head" />
+  <ItemIcon id="forcemaster_rpg:phasleb_chest" />
+  <ItemIcon id="forcemaster_rpg:phasleb_legs" />
+  <ItemIcon id="forcemaster_rpg:phasleb_feet" />
+</ItemGrid>
+
+<ItemLink id="forcemaster_rpg:aken_chest" />
+
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:aken_head" />
+  <ItemIcon id="forcemaster_rpg:aken_chest" />
+  <ItemIcon id="forcemaster_rpg:aken_legs" />
+  <ItemIcon id="forcemaster_rpg:aken_feet" />
+</ItemGrid>
+
+<ItemLink id="forcemaster_rpg:billporon_chest" />
+
+<ItemGrid>
+  <ItemIcon id="forcemaster_rpg:billporon_head" />
+  <ItemIcon id="forcemaster_rpg:billporon_chest" />
+  <ItemIcon id="forcemaster_rpg:billporon_legs" />
+  <ItemIcon id="forcemaster_rpg:billporon_feet" />
+</ItemGrid>
 
 ***
 
@@ -479,18 +687,70 @@ Wands and staves provide arcane, fire and frost casting. Novice and general wiza
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="wizards:wizard_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:wizard_robe_head" />   <ItemIcon id="wizards:wizard_robe_chest" />   <ItemIcon id="wizards:wizard_robe_legs" />   <ItemIcon id="wizards:wizard_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:arcane_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:arcane_robe_head" />   <ItemIcon id="wizards:arcane_robe_chest" />   <ItemIcon id="wizards:arcane_robe_legs" />   <ItemIcon id="wizards:arcane_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:fire_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:fire_robe_head" />   <ItemIcon id="wizards:fire_robe_chest" />   <ItemIcon id="wizards:fire_robe_legs" />   <ItemIcon id="wizards:fire_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:frost_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:frost_robe_head" />   <ItemIcon id="wizards:frost_robe_chest" />   <ItemIcon id="wizards:frost_robe_legs" />   <ItemIcon id="wizards:frost_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:netherite_arcane_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:netherite_arcane_robe_head" />   <ItemIcon id="wizards:netherite_arcane_robe_chest" />   <ItemIcon id="wizards:netherite_arcane_robe_legs" />   <ItemIcon id="wizards:netherite_arcane_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:netherite_fire_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:netherite_fire_robe_head" />   <ItemIcon id="wizards:netherite_fire_robe_chest" />   <ItemIcon id="wizards:netherite_fire_robe_legs" />   <ItemIcon id="wizards:netherite_fire_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="wizards:netherite_frost_robe_chest" /> | <ItemGrid>   <ItemIcon id="wizards:netherite_frost_robe_head" />   <ItemIcon id="wizards:netherite_frost_robe_chest" />   <ItemIcon id="wizards:netherite_frost_robe_legs" />   <ItemIcon id="wizards:netherite_frost_robe_feet" /> </ItemGrid>  |
+<ItemLink id="wizards:wizard_robe_chest" />
 
+<ItemGrid>
+  <ItemIcon id="wizards:wizard_robe_head" />
+  <ItemIcon id="wizards:wizard_robe_chest" />
+  <ItemIcon id="wizards:wizard_robe_legs" />
+  <ItemIcon id="wizards:wizard_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:arcane_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:arcane_robe_head" />
+  <ItemIcon id="wizards:arcane_robe_chest" />
+  <ItemIcon id="wizards:arcane_robe_legs" />
+  <ItemIcon id="wizards:arcane_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:fire_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:fire_robe_head" />
+  <ItemIcon id="wizards:fire_robe_chest" />
+  <ItemIcon id="wizards:fire_robe_legs" />
+  <ItemIcon id="wizards:fire_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:frost_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:frost_robe_head" />
+  <ItemIcon id="wizards:frost_robe_chest" />
+  <ItemIcon id="wizards:frost_robe_legs" />
+  <ItemIcon id="wizards:frost_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:netherite_arcane_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:netherite_arcane_robe_head" />
+  <ItemIcon id="wizards:netherite_arcane_robe_chest" />
+  <ItemIcon id="wizards:netherite_arcane_robe_legs" />
+  <ItemIcon id="wizards:netherite_arcane_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:netherite_fire_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:netherite_fire_robe_head" />
+  <ItemIcon id="wizards:netherite_fire_robe_chest" />
+  <ItemIcon id="wizards:netherite_fire_robe_legs" />
+  <ItemIcon id="wizards:netherite_fire_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="wizards:netherite_frost_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="wizards:netherite_frost_robe_head" />
+  <ItemIcon id="wizards:netherite_frost_robe_chest" />
+  <ItemIcon id="wizards:netherite_frost_robe_legs" />
+  <ItemIcon id="wizards:netherite_frost_robe_feet" />
+</ItemGrid>
 
 ***
 
@@ -542,21 +802,97 @@ Water, earth and air focuses support different spell schools. Match kelp, dripst
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="elemental_wizards_rpg:elemental_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:elemental_head" />   <ItemIcon id="elemental_wizards_rpg:elemental_chest" />   <ItemIcon id="elemental_wizards_rpg:elemental_legs" />   <ItemIcon id="elemental_wizards_rpg:elemental_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:kelp_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:kelp_head" />   <ItemIcon id="elemental_wizards_rpg:kelp_chest" />   <ItemIcon id="elemental_wizards_rpg:kelp_legs" />   <ItemIcon id="elemental_wizards_rpg:kelp_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:dripstone_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:dripstone_head" />   <ItemIcon id="elemental_wizards_rpg:dripstone_chest" />   <ItemIcon id="elemental_wizards_rpg:dripstone_legs" />   <ItemIcon id="elemental_wizards_rpg:dripstone_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:wind_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:wind_head" />   <ItemIcon id="elemental_wizards_rpg:wind_chest" />   <ItemIcon id="elemental_wizards_rpg:wind_legs" />   <ItemIcon id="elemental_wizards_rpg:wind_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:netherite_kelp_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_head" />   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_chest" />   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_legs" />   <ItemIcon id="elemental_wizards_rpg:netherite_kelp_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:netherite_dripstone_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_head" />   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_chest" />   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_legs" />   <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:netherite_wind_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:netherite_wind_head" />   <ItemIcon id="elemental_wizards_rpg:netherite_wind_chest" />   <ItemIcon id="elemental_wizards_rpg:netherite_wind_legs" />   <ItemIcon id="elemental_wizards_rpg:netherite_wind_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:hurricane_robe_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_head" />   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_chest" />   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_legs" />   <ItemIcon id="elemental_wizards_rpg:hurricane_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:mountain_robe_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:mountain_robe_head" />   <ItemIcon id="elemental_wizards_rpg:mountain_robe_chest" />   <ItemIcon id="elemental_wizards_rpg:mountain_robe_legs" />   <ItemIcon id="elemental_wizards_rpg:mountain_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="elemental_wizards_rpg:ocean_robe_chest" /> | <ItemGrid>   <ItemIcon id="elemental_wizards_rpg:ocean_robe_head" />   <ItemIcon id="elemental_wizards_rpg:ocean_robe_chest" />   <ItemIcon id="elemental_wizards_rpg:ocean_robe_legs" />   <ItemIcon id="elemental_wizards_rpg:ocean_robe_feet" /> </ItemGrid>  |
+<ItemLink id="elemental_wizards_rpg:elemental_chest" />
 
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:elemental_head" />
+  <ItemIcon id="elemental_wizards_rpg:elemental_chest" />
+  <ItemIcon id="elemental_wizards_rpg:elemental_legs" />
+  <ItemIcon id="elemental_wizards_rpg:elemental_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:kelp_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:kelp_head" />
+  <ItemIcon id="elemental_wizards_rpg:kelp_chest" />
+  <ItemIcon id="elemental_wizards_rpg:kelp_legs" />
+  <ItemIcon id="elemental_wizards_rpg:kelp_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:dripstone_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:dripstone_head" />
+  <ItemIcon id="elemental_wizards_rpg:dripstone_chest" />
+  <ItemIcon id="elemental_wizards_rpg:dripstone_legs" />
+  <ItemIcon id="elemental_wizards_rpg:dripstone_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wind_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:wind_head" />
+  <ItemIcon id="elemental_wizards_rpg:wind_chest" />
+  <ItemIcon id="elemental_wizards_rpg:wind_legs" />
+  <ItemIcon id="elemental_wizards_rpg:wind_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:netherite_kelp_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_head" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_chest" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_legs" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_kelp_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:netherite_dripstone_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_head" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_chest" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_legs" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_dripstone_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:netherite_wind_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_head" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_chest" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_legs" />
+  <ItemIcon id="elemental_wizards_rpg:netherite_wind_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:hurricane_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_head" />
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_chest" />
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_legs" />
+  <ItemIcon id="elemental_wizards_rpg:hurricane_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:mountain_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_head" />
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_chest" />
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_legs" />
+  <ItemIcon id="elemental_wizards_rpg:mountain_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:ocean_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_head" />
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_chest" />
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_legs" />
+  <ItemIcon id="elemental_wizards_rpg:ocean_robe_feet" />
+</ItemGrid>
 
 ***
 
@@ -626,17 +962,61 @@ Maces, hammers, claymores and shields support close combat. Holy wands and stave
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="paladins:paladin_armor_chest" /> | <ItemGrid>   <ItemIcon id="paladins:paladin_armor_head" />   <ItemIcon id="paladins:paladin_armor_chest" />   <ItemIcon id="paladins:paladin_armor_legs" />   <ItemIcon id="paladins:paladin_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:crusader_armor_chest" /> | <ItemGrid>   <ItemIcon id="paladins:crusader_armor_head" />   <ItemIcon id="paladins:crusader_armor_chest" />   <ItemIcon id="paladins:crusader_armor_legs" />   <ItemIcon id="paladins:crusader_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:netherite_crusader_armor_chest" /> | <ItemGrid>   <ItemIcon id="paladins:netherite_crusader_armor_head" />   <ItemIcon id="paladins:netherite_crusader_armor_chest" />   <ItemIcon id="paladins:netherite_crusader_armor_legs" />   <ItemIcon id="paladins:netherite_crusader_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:priest_robe_chest" /> | <ItemGrid>   <ItemIcon id="paladins:priest_robe_head" />   <ItemIcon id="paladins:priest_robe_chest" />   <ItemIcon id="paladins:priest_robe_legs" />   <ItemIcon id="paladins:priest_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:prior_robe_chest" /> | <ItemGrid>   <ItemIcon id="paladins:prior_robe_head" />   <ItemIcon id="paladins:prior_robe_chest" />   <ItemIcon id="paladins:prior_robe_legs" />   <ItemIcon id="paladins:prior_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="paladins:netherite_prior_robe_chest" /> | <ItemGrid>   <ItemIcon id="paladins:netherite_prior_robe_head" />   <ItemIcon id="paladins:netherite_prior_robe_chest" />   <ItemIcon id="paladins:netherite_prior_robe_legs" />   <ItemIcon id="paladins:netherite_prior_robe_feet" /> </ItemGrid>  |
+<ItemLink id="paladins:paladin_armor_chest" />
 
+<ItemGrid>
+  <ItemIcon id="paladins:paladin_armor_head" />
+  <ItemIcon id="paladins:paladin_armor_chest" />
+  <ItemIcon id="paladins:paladin_armor_legs" />
+  <ItemIcon id="paladins:paladin_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:crusader_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:crusader_armor_head" />
+  <ItemIcon id="paladins:crusader_armor_chest" />
+  <ItemIcon id="paladins:crusader_armor_legs" />
+  <ItemIcon id="paladins:crusader_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:netherite_crusader_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:netherite_crusader_armor_head" />
+  <ItemIcon id="paladins:netherite_crusader_armor_chest" />
+  <ItemIcon id="paladins:netherite_crusader_armor_legs" />
+  <ItemIcon id="paladins:netherite_crusader_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:priest_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:priest_robe_head" />
+  <ItemIcon id="paladins:priest_robe_chest" />
+  <ItemIcon id="paladins:priest_robe_legs" />
+  <ItemIcon id="paladins:priest_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:prior_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:prior_robe_head" />
+  <ItemIcon id="paladins:prior_robe_chest" />
+  <ItemIcon id="paladins:prior_robe_legs" />
+  <ItemIcon id="paladins:prior_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="paladins:netherite_prior_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="paladins:netherite_prior_robe_head" />
+  <ItemIcon id="paladins:netherite_prior_robe_chest" />
+  <ItemIcon id="paladins:netherite_prior_robe_legs" />
+  <ItemIcon id="paladins:netherite_prior_robe_feet" />
+</ItemGrid>
 
 ***
 
@@ -696,15 +1076,43 @@ Lutes and lyres provide instrument spells. Harp crossbows and rapiers add ranged
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="bards_rpg:entertainer_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:entertainer_garb_head" />   <ItemIcon id="bards_rpg:entertainer_garb_chest" />   <ItemIcon id="bards_rpg:entertainer_garb_legs" />   <ItemIcon id="bards_rpg:entertainer_garb_feet" /> </ItemGrid>  |
-| <ItemLink id="bards_rpg:troubadour_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:troubadour_garb_head" />   <ItemIcon id="bards_rpg:troubadour_garb_chest" />   <ItemIcon id="bards_rpg:troubadour_garb_legs" />   <ItemIcon id="bards_rpg:troubadour_garb_feet" /> </ItemGrid>  |
-| <ItemLink id="bards_rpg:netherite_troubadour_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:netherite_troubadour_garb_head" />   <ItemIcon id="bards_rpg:netherite_troubadour_garb_chest" />   <ItemIcon id="bards_rpg:netherite_troubadour_garb_legs" />   <ItemIcon id="bards_rpg:netherite_troubadour_garb_feet" /> </ItemGrid>  |
-| <ItemLink id="bards_rpg:storyteller_garb_chest" /> | <ItemGrid>   <ItemIcon id="bards_rpg:storyteller_garb_head" />   <ItemIcon id="bards_rpg:storyteller_garb_chest" />   <ItemIcon id="bards_rpg:storyteller_garb_legs" />   <ItemIcon id="bards_rpg:storyteller_garb_feet" /> </ItemGrid>  |
+<ItemLink id="bards_rpg:entertainer_garb_chest" />
 
+<ItemGrid>
+  <ItemIcon id="bards_rpg:entertainer_garb_head" />
+  <ItemIcon id="bards_rpg:entertainer_garb_chest" />
+  <ItemIcon id="bards_rpg:entertainer_garb_legs" />
+  <ItemIcon id="bards_rpg:entertainer_garb_feet" />
+</ItemGrid>
+
+<ItemLink id="bards_rpg:troubadour_garb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="bards_rpg:troubadour_garb_head" />
+  <ItemIcon id="bards_rpg:troubadour_garb_chest" />
+  <ItemIcon id="bards_rpg:troubadour_garb_legs" />
+  <ItemIcon id="bards_rpg:troubadour_garb_feet" />
+</ItemGrid>
+
+<ItemLink id="bards_rpg:netherite_troubadour_garb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_head" />
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_chest" />
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_legs" />
+  <ItemIcon id="bards_rpg:netherite_troubadour_garb_feet" />
+</ItemGrid>
+
+<ItemLink id="bards_rpg:storyteller_garb_chest" />
+
+<ItemGrid>
+  <ItemIcon id="bards_rpg:storyteller_garb_head" />
+  <ItemIcon id="bards_rpg:storyteller_garb_chest" />
+  <ItemIcon id="bards_rpg:storyteller_garb_legs" />
+  <ItemIcon id="bards_rpg:storyteller_garb_feet" />
+</ItemGrid>
 
 ***
 
@@ -754,32 +1162,196 @@ Witcher swords support fencing. School armor supports different attributes, with
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="witcher_rpg:witcher_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:witcher_head" />   <ItemIcon id="witcher_rpg:witcher_chest" />   <ItemIcon id="witcher_rpg:witcher_legs" />   <ItemIcon id="witcher_rpg:witcher_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:feline_head" />   <ItemIcon id="witcher_rpg:feline_chest" />   <ItemIcon id="witcher_rpg:feline_legs" />   <ItemIcon id="witcher_rpg:feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_feline_head" />   <ItemIcon id="witcher_rpg:enhanced_feline_chest" />   <ItemIcon id="witcher_rpg:enhanced_feline_legs" />   <ItemIcon id="witcher_rpg:enhanced_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_feline_head" />   <ItemIcon id="witcher_rpg:superior_feline_chest" />   <ItemIcon id="witcher_rpg:superior_feline_legs" />   <ItemIcon id="witcher_rpg:superior_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_feline_head" />   <ItemIcon id="witcher_rpg:mastercrafted_feline_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_feline_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_feline_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_feline_head" />   <ItemIcon id="witcher_rpg:grandmaster_feline_chest" />   <ItemIcon id="witcher_rpg:grandmaster_feline_legs" />   <ItemIcon id="witcher_rpg:grandmaster_feline_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:griffin_head" />   <ItemIcon id="witcher_rpg:griffin_chest" />   <ItemIcon id="witcher_rpg:griffin_legs" />   <ItemIcon id="witcher_rpg:griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_griffin_head" />   <ItemIcon id="witcher_rpg:enhanced_griffin_chest" />   <ItemIcon id="witcher_rpg:enhanced_griffin_legs" />   <ItemIcon id="witcher_rpg:enhanced_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_griffin_head" />   <ItemIcon id="witcher_rpg:superior_griffin_chest" />   <ItemIcon id="witcher_rpg:superior_griffin_legs" />   <ItemIcon id="witcher_rpg:superior_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_griffin_head" />   <ItemIcon id="witcher_rpg:mastercrafted_griffin_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_griffin_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_griffin_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_griffin_head" />   <ItemIcon id="witcher_rpg:grandmaster_griffin_chest" />   <ItemIcon id="witcher_rpg:grandmaster_griffin_legs" />   <ItemIcon id="witcher_rpg:grandmaster_griffin_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:wolven_head" />   <ItemIcon id="witcher_rpg:wolven_chest" />   <ItemIcon id="witcher_rpg:wolven_legs" />   <ItemIcon id="witcher_rpg:wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_wolven_head" />   <ItemIcon id="witcher_rpg:enhanced_wolven_chest" />   <ItemIcon id="witcher_rpg:enhanced_wolven_legs" />   <ItemIcon id="witcher_rpg:enhanced_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_wolven_head" />   <ItemIcon id="witcher_rpg:superior_wolven_chest" />   <ItemIcon id="witcher_rpg:superior_wolven_legs" />   <ItemIcon id="witcher_rpg:superior_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_wolven_head" />   <ItemIcon id="witcher_rpg:mastercrafted_wolven_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_wolven_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_wolven_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_wolven_head" />   <ItemIcon id="witcher_rpg:grandmaster_wolven_chest" />   <ItemIcon id="witcher_rpg:grandmaster_wolven_legs" />   <ItemIcon id="witcher_rpg:grandmaster_wolven_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:ursine_head" />   <ItemIcon id="witcher_rpg:ursine_chest" />   <ItemIcon id="witcher_rpg:ursine_legs" />   <ItemIcon id="witcher_rpg:ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:enhanced_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:enhanced_ursine_head" />   <ItemIcon id="witcher_rpg:enhanced_ursine_chest" />   <ItemIcon id="witcher_rpg:enhanced_ursine_legs" />   <ItemIcon id="witcher_rpg:enhanced_ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:superior_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:superior_ursine_head" />   <ItemIcon id="witcher_rpg:superior_ursine_chest" />   <ItemIcon id="witcher_rpg:superior_ursine_legs" />   <ItemIcon id="witcher_rpg:superior_ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:mastercrafted_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:mastercrafted_ursine_head" />   <ItemIcon id="witcher_rpg:mastercrafted_ursine_chest" />   <ItemIcon id="witcher_rpg:mastercrafted_ursine_legs" />   <ItemIcon id="witcher_rpg:mastercrafted_ursine_feet" /> </ItemGrid>  |
-| <ItemLink id="witcher_rpg:grandmaster_ursine_chest" /> | <ItemGrid>   <ItemIcon id="witcher_rpg:grandmaster_ursine_head" />   <ItemIcon id="witcher_rpg:grandmaster_ursine_chest" />   <ItemIcon id="witcher_rpg:grandmaster_ursine_legs" />   <ItemIcon id="witcher_rpg:grandmaster_ursine_feet" /> </ItemGrid>  |
+<ItemLink id="witcher_rpg:witcher_chest" />
 
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:witcher_head" />
+  <ItemIcon id="witcher_rpg:witcher_chest" />
+  <ItemIcon id="witcher_rpg:witcher_legs" />
+  <ItemIcon id="witcher_rpg:witcher_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:feline_head" />
+  <ItemIcon id="witcher_rpg:feline_chest" />
+  <ItemIcon id="witcher_rpg:feline_legs" />
+  <ItemIcon id="witcher_rpg:feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_feline_head" />
+  <ItemIcon id="witcher_rpg:enhanced_feline_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_feline_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_feline_head" />
+  <ItemIcon id="witcher_rpg:superior_feline_chest" />
+  <ItemIcon id="witcher_rpg:superior_feline_legs" />
+  <ItemIcon id="witcher_rpg:superior_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_feline_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_feline_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_feline_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_feline_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_feline_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:griffin_head" />
+  <ItemIcon id="witcher_rpg:griffin_chest" />
+  <ItemIcon id="witcher_rpg:griffin_legs" />
+  <ItemIcon id="witcher_rpg:griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_griffin_head" />
+  <ItemIcon id="witcher_rpg:enhanced_griffin_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_griffin_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_griffin_head" />
+  <ItemIcon id="witcher_rpg:superior_griffin_chest" />
+  <ItemIcon id="witcher_rpg:superior_griffin_legs" />
+  <ItemIcon id="witcher_rpg:superior_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_griffin_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_griffin_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:wolven_head" />
+  <ItemIcon id="witcher_rpg:wolven_chest" />
+  <ItemIcon id="witcher_rpg:wolven_legs" />
+  <ItemIcon id="witcher_rpg:wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_wolven_head" />
+  <ItemIcon id="witcher_rpg:enhanced_wolven_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_wolven_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_wolven_head" />
+  <ItemIcon id="witcher_rpg:superior_wolven_chest" />
+  <ItemIcon id="witcher_rpg:superior_wolven_legs" />
+  <ItemIcon id="witcher_rpg:superior_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_wolven_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_wolven_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:ursine_head" />
+  <ItemIcon id="witcher_rpg:ursine_chest" />
+  <ItemIcon id="witcher_rpg:ursine_legs" />
+  <ItemIcon id="witcher_rpg:ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:enhanced_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:enhanced_ursine_head" />
+  <ItemIcon id="witcher_rpg:enhanced_ursine_chest" />
+  <ItemIcon id="witcher_rpg:enhanced_ursine_legs" />
+  <ItemIcon id="witcher_rpg:enhanced_ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:superior_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:superior_ursine_head" />
+  <ItemIcon id="witcher_rpg:superior_ursine_chest" />
+  <ItemIcon id="witcher_rpg:superior_ursine_legs" />
+  <ItemIcon id="witcher_rpg:superior_ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:mastercrafted_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_head" />
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_chest" />
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_legs" />
+  <ItemIcon id="witcher_rpg:mastercrafted_ursine_feet" />
+</ItemGrid>
+
+<ItemLink id="witcher_rpg:grandmaster_ursine_chest" />
+
+<ItemGrid>
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_head" />
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_chest" />
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_legs" />
+  <ItemIcon id="witcher_rpg:grandmaster_ursine_feet" />
+</ItemGrid>
 
 ***
 
@@ -789,27 +1361,153 @@ Named armor sets add build-specific attributes and set effects. Read the set req
 
 ### Armor sets
 
-Each row shows every piece of one supported set, ordered head, chest, legs and feet.
+- Browse items: <EmiSearch query="@armory_rpgs" />
 
-| Set | Pieces |
-| --- | --- |
-| <ItemLink id="armory_rpgs:astral_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:astral_robe_head" />   <ItemIcon id="armory_rpgs:astral_robe_chest" />   <ItemIcon id="armory_rpgs:astral_robe_legs" />   <ItemIcon id="armory_rpgs:astral_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:scarlet_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:scarlet_robe_head" />   <ItemIcon id="armory_rpgs:scarlet_robe_chest" />   <ItemIcon id="armory_rpgs:scarlet_robe_legs" />   <ItemIcon id="armory_rpgs:scarlet_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:glacier_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:glacier_robe_head" />   <ItemIcon id="armory_rpgs:glacier_robe_chest" />   <ItemIcon id="armory_rpgs:glacier_robe_legs" />   <ItemIcon id="armory_rpgs:glacier_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:avatar_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:avatar_robe_head" />   <ItemIcon id="armory_rpgs:avatar_robe_chest" />   <ItemIcon id="armory_rpgs:avatar_robe_legs" />   <ItemIcon id="armory_rpgs:avatar_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:justicar_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:justicar_armor_head" />   <ItemIcon id="armory_rpgs:justicar_armor_chest" />   <ItemIcon id="armory_rpgs:justicar_armor_legs" />   <ItemIcon id="armory_rpgs:justicar_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:destroyer_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:destroyer_armor_head" />   <ItemIcon id="armory_rpgs:destroyer_armor_chest" />   <ItemIcon id="armory_rpgs:destroyer_armor_legs" />   <ItemIcon id="armory_rpgs:destroyer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:deathmantle_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:deathmantle_armor_head" />   <ItemIcon id="armory_rpgs:deathmantle_armor_chest" />   <ItemIcon id="armory_rpgs:deathmantle_armor_legs" />   <ItemIcon id="armory_rpgs:deathmantle_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:strider_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:strider_armor_head" />   <ItemIcon id="armory_rpgs:strider_armor_chest" />   <ItemIcon id="armory_rpgs:strider_armor_legs" />   <ItemIcon id="armory_rpgs:strider_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:tempest_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:tempest_robe_head" />   <ItemIcon id="armory_rpgs:tempest_robe_chest" />   <ItemIcon id="armory_rpgs:tempest_robe_legs" />   <ItemIcon id="armory_rpgs:tempest_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:smouldering_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:smouldering_robe_head" />   <ItemIcon id="armory_rpgs:smouldering_robe_chest" />   <ItemIcon id="armory_rpgs:smouldering_robe_legs" />   <ItemIcon id="armory_rpgs:smouldering_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:rimeweave_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:rimeweave_robe_head" />   <ItemIcon id="armory_rpgs:rimeweave_robe_chest" />   <ItemIcon id="armory_rpgs:rimeweave_robe_legs" />   <ItemIcon id="armory_rpgs:rimeweave_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:absolution_robe_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:absolution_robe_head" />   <ItemIcon id="armory_rpgs:absolution_robe_chest" />   <ItemIcon id="armory_rpgs:absolution_robe_legs" />   <ItemIcon id="armory_rpgs:absolution_robe_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:lightbringer_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:lightbringer_armor_head" />   <ItemIcon id="armory_rpgs:lightbringer_armor_chest" />   <ItemIcon id="armory_rpgs:lightbringer_armor_legs" />   <ItemIcon id="armory_rpgs:lightbringer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:onslaught_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:onslaught_armor_head" />   <ItemIcon id="armory_rpgs:onslaught_armor_chest" />   <ItemIcon id="armory_rpgs:onslaught_armor_legs" />   <ItemIcon id="armory_rpgs:onslaught_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:slayer_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:slayer_armor_head" />   <ItemIcon id="armory_rpgs:slayer_armor_chest" />   <ItemIcon id="armory_rpgs:slayer_armor_legs" />   <ItemIcon id="armory_rpgs:slayer_armor_feet" /> </ItemGrid>  |
-| <ItemLink id="armory_rpgs:riftstalker_armor_chest" /> | <ItemGrid>   <ItemIcon id="armory_rpgs:riftstalker_armor_head" />   <ItemIcon id="armory_rpgs:riftstalker_armor_chest" />   <ItemIcon id="armory_rpgs:riftstalker_armor_legs" />   <ItemIcon id="armory_rpgs:riftstalker_armor_feet" /> </ItemGrid>  |
+Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
+<ItemLink id="armory_rpgs:astral_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:astral_robe_head" />
+  <ItemIcon id="armory_rpgs:astral_robe_chest" />
+  <ItemIcon id="armory_rpgs:astral_robe_legs" />
+  <ItemIcon id="armory_rpgs:astral_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:scarlet_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:scarlet_robe_head" />
+  <ItemIcon id="armory_rpgs:scarlet_robe_chest" />
+  <ItemIcon id="armory_rpgs:scarlet_robe_legs" />
+  <ItemIcon id="armory_rpgs:scarlet_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:glacier_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:glacier_robe_head" />
+  <ItemIcon id="armory_rpgs:glacier_robe_chest" />
+  <ItemIcon id="armory_rpgs:glacier_robe_legs" />
+  <ItemIcon id="armory_rpgs:glacier_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:avatar_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:avatar_robe_head" />
+  <ItemIcon id="armory_rpgs:avatar_robe_chest" />
+  <ItemIcon id="armory_rpgs:avatar_robe_legs" />
+  <ItemIcon id="armory_rpgs:avatar_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:justicar_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:justicar_armor_head" />
+  <ItemIcon id="armory_rpgs:justicar_armor_chest" />
+  <ItemIcon id="armory_rpgs:justicar_armor_legs" />
+  <ItemIcon id="armory_rpgs:justicar_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:destroyer_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:destroyer_armor_head" />
+  <ItemIcon id="armory_rpgs:destroyer_armor_chest" />
+  <ItemIcon id="armory_rpgs:destroyer_armor_legs" />
+  <ItemIcon id="armory_rpgs:destroyer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:deathmantle_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:deathmantle_armor_head" />
+  <ItemIcon id="armory_rpgs:deathmantle_armor_chest" />
+  <ItemIcon id="armory_rpgs:deathmantle_armor_legs" />
+  <ItemIcon id="armory_rpgs:deathmantle_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:strider_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:strider_armor_head" />
+  <ItemIcon id="armory_rpgs:strider_armor_chest" />
+  <ItemIcon id="armory_rpgs:strider_armor_legs" />
+  <ItemIcon id="armory_rpgs:strider_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:tempest_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:tempest_robe_head" />
+  <ItemIcon id="armory_rpgs:tempest_robe_chest" />
+  <ItemIcon id="armory_rpgs:tempest_robe_legs" />
+  <ItemIcon id="armory_rpgs:tempest_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:smouldering_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:smouldering_robe_head" />
+  <ItemIcon id="armory_rpgs:smouldering_robe_chest" />
+  <ItemIcon id="armory_rpgs:smouldering_robe_legs" />
+  <ItemIcon id="armory_rpgs:smouldering_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:rimeweave_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:rimeweave_robe_head" />
+  <ItemIcon id="armory_rpgs:rimeweave_robe_chest" />
+  <ItemIcon id="armory_rpgs:rimeweave_robe_legs" />
+  <ItemIcon id="armory_rpgs:rimeweave_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:absolution_robe_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:absolution_robe_head" />
+  <ItemIcon id="armory_rpgs:absolution_robe_chest" />
+  <ItemIcon id="armory_rpgs:absolution_robe_legs" />
+  <ItemIcon id="armory_rpgs:absolution_robe_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:lightbringer_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:lightbringer_armor_head" />
+  <ItemIcon id="armory_rpgs:lightbringer_armor_chest" />
+  <ItemIcon id="armory_rpgs:lightbringer_armor_legs" />
+  <ItemIcon id="armory_rpgs:lightbringer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:onslaught_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:onslaught_armor_head" />
+  <ItemIcon id="armory_rpgs:onslaught_armor_chest" />
+  <ItemIcon id="armory_rpgs:onslaught_armor_legs" />
+  <ItemIcon id="armory_rpgs:onslaught_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:slayer_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:slayer_armor_head" />
+  <ItemIcon id="armory_rpgs:slayer_armor_chest" />
+  <ItemIcon id="armory_rpgs:slayer_armor_legs" />
+  <ItemIcon id="armory_rpgs:slayer_armor_feet" />
+</ItemGrid>
+
+<ItemLink id="armory_rpgs:riftstalker_armor_chest" />
+
+<ItemGrid>
+  <ItemIcon id="armory_rpgs:riftstalker_armor_head" />
+  <ItemIcon id="armory_rpgs:riftstalker_armor_chest" />
+  <ItemIcon id="armory_rpgs:riftstalker_armor_legs" />
+  <ItemIcon id="armory_rpgs:riftstalker_armor_feet" />
+</ItemGrid>
 
 ***
 
@@ -818,6 +1516,8 @@ Each row shows every piece of one supported set, ordered head, chest, legs and f
 Named weapons span melee, ranged, shields and spell focuses. Compare each weapon effect and its conditions, not only the material tier.
 
 ### Weapons
+
+- Browse items: <EmiSearch query="@arsenal" />
 
 <ItemGrid>
   <ItemIcon id="arsenal:unique_claymore_1" />
@@ -917,6 +1617,8 @@ Named weapons span melee, ranged, shields and spell focuses. Compare each weapon
 ***
 
 ## Cataclysm equipment
+
+- Browse items: <EmiSearch query="@cataclysm" />
 
 Named melee weapons, shields, ranged weapons, weapon-tools and armor have their own effects. They are not automatically class spell focuses. This catalog covers combat equipment, not summoning tools or crafting materials.
 
@@ -1038,7 +1740,7 @@ Better Nether ruby weapons, Better End crystal and aeternium weapons, and Aether
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Baseline, installed | 👑 Epic armor sets, with unique designs and set bonuses. |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Baseline, installed | Legendary weapons from the past - not crafted, but conquered. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Adds class-oriented armor sets with set bonuses. | Baseline, installed | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Adds legendary weapons obtained through encounters rather than crafting. | Baseline, installed | <EmiSearch query="@arsenal" /> |

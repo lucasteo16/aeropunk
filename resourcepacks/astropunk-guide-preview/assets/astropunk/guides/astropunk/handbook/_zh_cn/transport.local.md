@@ -10,6 +10,8 @@ navigation:
 
 ## 高速管道
 
+- 浏览物品: <EmiSearch query="@create_hypertube" />
+
 <ItemGrid>
   <ItemIcon id="create_hypertube:hypertube" />
   <ItemIcon id="create_hypertube:hypertube_entrance" />
@@ -31,6 +33,8 @@ navigation:
 ***
 
 ## 步道
+
+- 浏览物品: <EmiSearch query="@escalated" />
 
 <ItemGrid>
   <ItemIcon id="escalated:metal_walkway_steps" />
@@ -59,7 +63,7 @@ Escalated 提供金属与木制移动步道踏步，用于短距离交通。建�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | 已安装基准版 | A mod to add functional, aesthetic, and rotation-powered escalators to Create. |
-| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | 已安装基准版 | Travel arround the world with tubes! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | 为机械动力建筑增加旋转动力驱动的自动扶梯。 | 已安装基准版 | <EmiSearch query="@escalated" /> |
+| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | 增加管道交通，让玩家在机械动力建筑之间穿行。 | 已安装基准版 | <EmiSearch query="@create_hypertube" /> |

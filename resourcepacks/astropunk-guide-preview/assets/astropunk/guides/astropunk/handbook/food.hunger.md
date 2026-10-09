@@ -22,6 +22,8 @@ AppleSkin shows both hunger restoration and saturation in food tooltips. Hunger 
 
 ## Rolling diet
 
+- Browse items: <EmiSearch query="@solonion" />
+
 <ItemGrid>
   <ItemIcon id="solonion:food_book" />
   <ItemIcon id="solonion:lunchbag" />
@@ -53,8 +55,8 @@ Use <ItemLink id="solonion:lunchbag" /> or <ItemLink id="solonion:lunchbox" /> f
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | Baseline, installed | Food/hunger-related HUD improvements |
-| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | Baseline, installed | Food stack limits vary with filling power. |
-| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | Baseline, installed | A mod designed to encourage dietary variety! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | Shows food hunger restoration and saturation in tooltips and the hunger display. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | Changes food stack limits to alter how much food fits in each inventory slot. | Baseline, installed | No separate item search |
+| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | Rewards dietary variety using a rolling history of recently eaten foods. | Baseline, installed | <EmiSearch query="@solonion" /> |

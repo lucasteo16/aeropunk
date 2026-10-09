@@ -10,6 +10,8 @@ navigation:
 
 ## Cannons
 
+- Browse items: <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="createbigcannons:cannon_mount" />
   <ItemIcon id="createbigcannons:steel_cannon_barrel" />
@@ -31,6 +33,8 @@ Create Big Cannons supplies large cannon barrels, chambers, ends and breeches, p
 ***
 
 ## Ammunition & launchers
+
+- Browse items: <EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="createbigcannons:ap_shell" />
@@ -69,6 +73,6 @@ Shells, solid shot, grapeshot, cartridges, autocannon rounds and fuzes are separ
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | Baseline, installed | A Minecraft mod for building large cannons with the Create mod. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | Adds buildable large cannons and their ammunition to Create. | Baseline, installed | <EmiSearch query="@createbigcannons" /> |

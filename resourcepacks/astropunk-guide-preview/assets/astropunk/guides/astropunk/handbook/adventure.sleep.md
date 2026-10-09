@@ -10,6 +10,8 @@ navigation:
 
 ## Rest while travelling
 
+- Browse items: <EmiSearch query="@comforts" />
+
 Sleeping bags provide portable night-time rest without changing your home respawn point. The pack enables their recipes. This white example uses three white wool blocks, other colors use their matching wool.
 
 <ItemGrid>
@@ -40,7 +42,7 @@ Better Days controls day and night duration and can accelerate time while player
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | Baseline, installed | Gives you control over the passage of time by allowing you to customize the length of the day-night cycle and alters the Minecraft sleep mechanic by accelerating the speed of time. |
-| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | Baseline, installed | Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | Customizes day and night duration and advances time while players sleep. | Baseline, installed | No separate item search |
+| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | Adds sleeping bags and hammocks for resting without changing the respawn point. | Baseline, installed | <EmiSearch query="@comforts" /> |

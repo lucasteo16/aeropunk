@@ -10,6 +10,8 @@ navigation:
 
 ## Moving waystones
 
+- Browse items: <EmiSearch query="@waystones" />
+
 <ItemGrid>
   <ItemIcon id="waystones:waystone" />
   <ItemIcon id="waystones:warp_plate" />
@@ -27,6 +29,8 @@ Waystones Sable bridges Waystones destinations on Sable moving structures. It ad
 ***
 
 ## Destination scope
+
+- Browse items: <EmiSearch query="@tempad" />
 
 A moving waystone destination is different from a Tempad coordinate or a map waypoint. Keep the destination structure loaded and inspect the Waystones list before relying on it for return travel. This bridge does not transfer the entire vehicle between dimensions. See Vehicle assembly, Teleportation and Dimensions.
 
@@ -49,6 +53,6 @@ A moving waystone destination is different from a Tempad coordinate or a map way
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | Baseline, installed | A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | Fixes Waystones teleportation and destination handling on Sable moving structures. | Baseline, installed | No separate item search |

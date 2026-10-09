@@ -3,7 +3,7 @@ navigation:
   title: "选择法术与支援风格"
   position: 0
   parent: reference.skills.md
-  icon: minecraft:enchanted_book
+  icon: minecraft:iron_sword
 item_ids:
   - spell_engine:spell_binding
   - spell_engine:spell_book
@@ -13,6 +13,8 @@ item_ids:
 # 选择法术与支援风格
 
 ## 法术绑定
+
+- 浏览物品: <EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
@@ -46,6 +48,8 @@ item_ids:
 ***
 
 ## 奥术
+
+- 浏览物品: <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -116,6 +120,8 @@ item_ids:
 
 ## 水
 
+- 浏览物品: <EmiSearch query="@elemental_wizards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>
@@ -185,6 +191,8 @@ item_ids:
 
 ## 圣骑士
 
+- 浏览物品: <EmiSearch query="@paladins" />
+
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>
@@ -231,6 +239,8 @@ item_ids:
 
 ## 吟游诗人
 
+- 浏览物品: <EmiSearch query="@bards_rpg" />
+
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
@@ -253,6 +263,8 @@ item_ids:
 ***
 
 ## 猎魔人剑术
+
+- 浏览物品: <EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -319,6 +331,8 @@ item_ids:
 
 ## 符文与符文袋
 
+- 浏览物品: <EmiSearch query="@runes" />
+
 <ItemGrid>
   <ItemIcon id="runes:crafting_altar" />
   <ItemIcon id="runes:small_rune_pouch" />
@@ -379,11 +393,11 @@ item_ids:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Master the elements to overcome your foes! Spell Engine Add-On |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 已安装基准版 | ✨ Protect and heal your friends as a Paladin or a Priest |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 已安装基准版 | 🪨 Craft runes to serve as ammo for spells |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Slay monsters like a Witcher! Spell Engine Add-On |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 已安装基准版 | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 增加以歌曲与歌谣支援队友的吟游诗人职业。 | 已安装基准版 | <EmiSearch query="@bards_rpg" /> |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 为 Wizards 增加大地、水与风元素施法分支职业。 | 已安装基准版 | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 增加专注防护与治疗的圣骑士及牧师职业。 | 已安装基准版 | <EmiSearch query="@paladins" /> |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 增加可制作的符文，作为施法消耗的弹药。 | 已安装基准版 | <EmiSearch query="@runes" /> |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 增加以猎杀怪物为主题的猎魔人职业与战斗能力。 | 已安装基准版 | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 增加使用奥术、火焰与冰霜法术的巫师战斗体系。 | 已安装基准版 | <EmiSearch query="@wizards" /> |

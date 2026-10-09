@@ -28,6 +28,8 @@ navigation:
 
 ## Spawn 鱼类料理
 
+- 浏览物品: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@spawn" />
+
 <ItemGrid>
   <ItemIcon id="spawn:tuna_chunk" />
   <ItemIcon id="spawn:cooked_tuna_chunk" />

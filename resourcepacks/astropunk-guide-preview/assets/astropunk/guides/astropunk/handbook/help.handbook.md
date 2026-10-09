@@ -10,17 +10,18 @@ navigation:
 
 ## Using the handbook
 
-Browse the area catalogs for installed mods and their features. Gameplay pages explain specific mechanics. Hover item slots for their names and tooltips.
+Quick reference groups the installed content by function. Topic pages explain what exists, how to begin and how related tools fit together. Relevant mods and item queries appear below each topic. Hover native item slots and names for tooltips, click pink queries to browse items.
 
-- [Astropunk](index.md)
-- [Controls](help.controls.md)
-- [Browse recipe](help.search.md)
+- [Astropunk](index.md) What the pack offers.
+- [Quick reference](quick-reference.md) Gameplay and support topics.
+- [Controls](help.controls.md) Bindings and access.
+- [Browse recipe](help.search.md) Ingredients and uses.
 
 
 ***
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | Baseline, installed | A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | Renders in-game guide pages with formatted text, item displays and interactive scenes. | Baseline, installed | <EmiSearch query="@guideme" /> |

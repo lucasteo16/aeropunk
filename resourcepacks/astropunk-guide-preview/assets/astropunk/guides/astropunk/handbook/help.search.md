@@ -10,6 +10,8 @@ navigation:
 
 ## Recipes & uses
 
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@emi" />
+
 ![Recipe interface](images/parent-emi-recipes.png)
 
 Ingredients and results appear in the center, searchable items sit on the right.
@@ -18,10 +20,12 @@ Ingredients and results appear in the center, searchable items sit on the right.
 | --- | --- |
 | How to make an item | Hover it and press R |
 | What an ingredient makes | Hover it and press U |
-| One mod's items | Search <Color color="#F28CBD">@create</Color> or <Color color="#F28CBD">@farmersdelight</Color> |
+| One mod's items | Search <EmiSearch query="@create" /> or <EmiSearch query="@farmersdelight" /> |
 
 These are defaults. Change them in the item browser settings.
 
+
+Click a pink item-search query to open the item browser with that text entered. Closing its inventory screen returns to the handbook. Searches match mod names and namespaces by substring, so @create also includes matching addons. If the browser overlay is hidden, use its own settings to show it.
 ***
 
 ## Recipe tree
@@ -43,11 +47,11 @@ For Create assembly, hold the Ponder key shown in the item's tooltip. Polymorph 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![EMI](images/catalog-fRiHVvU7.png) [EMI](help.search.md) | Baseline, installed | A featureful and accessible item and recipe viewer |
-| ![EMI Enchanting](images/catalog-wbWoo11W.png) [EMI Enchanting](help.search.md) | Baseline, installed | EMI Plugin that gives basic enchantment information, valid items, exlcusions, etc. |
-| ![EMI professions (EMIP)](images/catalog-LGVihYcz.png) [EMI professions (EMIP)](help.search.md) | Baseline, installed | An EMI addon that adds profession workstations |
-| ![Polymorph](images/catalog-tagwiZkJ.png) [Polymorph](help.search.md) | Baseline, installed | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
-| ![Reliable EMI (REMI)](images/catalog-N9WucjHL.png) [Reliable EMI (REMI)](help.search.md) | Baseline, installed | A mod adding many configurable features to EMI! |
-| ![ToolTipFix](images/catalog-2RKFTmiB.png) [ToolTipFix](help.search.md) | Baseline, installed | Fixes Tooltips from runnning off the screen. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![EMI](images/catalog-fRiHVvU7.png) [EMI](help.search.md) | Provides searchable items, recipes, uses and crafting trees. | Baseline, installed | <EmiSearch query="@emi" /> |
+| ![EMI Enchanting](images/catalog-wbWoo11W.png) [EMI Enchanting](help.search.md) | Shows enchantment applicability and exclusions in EMI. | Baseline, installed | No separate item search |
+| ![EMI professions (EMIP)](images/catalog-LGVihYcz.png) [EMI professions (EMIP)](help.search.md) | Shows villager profession workstations in EMI. | Baseline, installed | No separate item search |
+| ![Polymorph](images/catalog-tagwiZkJ.png) [Polymorph](help.search.md) | Lets players choose the output when crafting recipes conflict. | Baseline, installed | No separate item search |
+| ![Reliable EMI (REMI)](images/catalog-N9WucjHL.png) [Reliable EMI (REMI)](help.search.md) | Adds configurable usability features to EMI's item and recipe browser. | Baseline, installed | No separate item search |
+| ![ToolTipFix](images/catalog-2RKFTmiB.png) [ToolTipFix](help.search.md) | Keeps long item tooltips from running beyond the screen. | Baseline, installed | No separate item search |

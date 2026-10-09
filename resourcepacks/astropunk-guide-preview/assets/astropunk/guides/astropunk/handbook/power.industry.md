@@ -10,6 +10,8 @@ navigation:
 
 ## Metals & chemicals
 
+- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@tfmg" />
+
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />
   <ItemIcon id="tfmg:coal_coke" />
@@ -93,6 +95,6 @@ Start by checking the Coke Oven recipe and its coal-processing Ponder entry. The
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Baseline, installed | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Expands Create with heavy industry and oil processing in a community-maintained fork. | Baseline, installed | <EmiSearch query="@tfmg" /> |

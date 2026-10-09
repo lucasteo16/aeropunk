@@ -63,6 +63,8 @@ Explore large dungeons and smaller landmarks. Aviary belongs to the End, while t
 
 ## Bosses'Rise
 
+- Browse items: <EmiSearch query="@block_factorys_bosses" />
+
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-bossesrise-provider-art.png)
 
 Provider project artwork, not a structure screenshot.
@@ -82,6 +84,8 @@ Each boss has a dedicated encounter structure.
 ***
 
 ## L_Ender's Cataclysm
+
+- Browse items: <EmiSearch query="@cataclysm" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-l_enders-cataclysm-provider-art.png)
 
@@ -112,6 +116,8 @@ Boss arenas sit alongside smaller ruins and creature nests.
 ***
 
 ## Illager Invasion
+
+- Browse items: <EmiSearch query="@illagerinvasion" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-illager-invasion-provider-art.png)
 
@@ -279,6 +285,8 @@ Huts have large, small and duplex layouts. Witch Circle is a separate structure.
 
 ## Spawn
 
+- Browse items: <EmiSearch query="@spawn" />
+
 ![Deep coral reef, giant clams and barracuda. Habitat image, not an island structure.](images/encounters-spawn-mod-deep-coral-reef-giant-clams-and-barracuda.png)
 
 Deep coral reef, giant clams and barracuda. Habitat image, not an island structure.
@@ -354,6 +362,8 @@ Both landmarks belong to the End Shadowlands biome.
 
 ## Witcher
 
+- Browse items: <EmiSearch query="@witcher_rpg" />
+
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-witcher-rpg-class-provider-art.png)
 
 Provider project artwork, not a structure screenshot.
@@ -374,6 +384,8 @@ From Witcher (RPG Series Plus).
 ***
 
 ## Supplementaries
+
+- Browse items: <EmiSearch query="@supplementaries" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-supplementaries-provider-art.png)
 
@@ -400,19 +412,19 @@ Incendium Biomes Only removes Incendium structures, special mobs, bosses and loo
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Baseline, installed | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Baseline, installed | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Baseline, installed | ⛲️ Village structures hosting small spell libraries |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Baseline, installed | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Baseline, installed | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |
-| ![When Dungeons Arise](images/catalog-8DfbfASn.png) [When Dungeons Arise](adventure.structures.md) | Baseline, installed | Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds! |
-| ![YUNG's Better Desert Temples](images/catalog-XNlO7sBv.png) [YUNG's Better Desert Temples](adventure.structures.md) | Baseline, installed | A complete redesign of Minecraft's desert temples! |
-| ![YUNG's Better Dungeons](images/catalog-o1C1Dkj5.png) [YUNG's Better Dungeons](adventure.structures.md) | Baseline, installed | A complete redesign of Minecraft's dungeons! |
-| ![YUNG's Better Jungle Temples](images/catalog-z9Ve58Ih.png) [YUNG's Better Jungle Temples](adventure.structures.md) | Baseline, installed | A complete redesign of Minecraft's jungle temples! |
-| ![YUNG's Better Mineshafts](images/catalog-HjmxVlSr.png) [YUNG's Better Mineshafts](adventure.structures.md) | Baseline, installed | A long-awaited and much-needed abandoned mineshaft overhaul! |
-| ![YUNG's Better Nether Fortresses](images/catalog-Z2mXHnxP.png) [YUNG's Better Nether Fortresses](adventure.structures.md) | Baseline, installed | A complete redesign of Minecraft's Nether fortresses! |
-| ![YUNG's Better Ocean Monuments](images/catalog-3dT9sgt4.png) [YUNG's Better Ocean Monuments](adventure.structures.md) | Baseline, installed | A complete redesign of Minecraft's ocean monuments! |
-| ![YUNG's Better Strongholds](images/catalog-kidLKymU.png) [YUNG's Better Strongholds](adventure.structures.md) | Baseline, installed | A complete redesign of Minecraft's strongholds! |
-| ![YUNG's Better Witch Huts](images/catalog-t5FRdP87.png) [YUNG's Better Witch Huts](adventure.structures.md) | Baseline, installed | Adds overhauled witch huts to swamps! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | Baseline, installed | No separate item search |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | Baseline, installed | No separate item search |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | Baseline, installed | No separate item search |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | Baseline, installed | <EmiSearch query="@lootr" /> |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | Baseline, installed | <EmiSearch query="@village_taverns" /> |
+| ![When Dungeons Arise](images/catalog-8DfbfASn.png) [When Dungeons Arise](adventure.structures.md) | Adds large hostile dungeons and exploration structures. | Baseline, installed | No separate item search |
+| ![YUNG's Better Desert Temples](images/catalog-XNlO7sBv.png) [YUNG's Better Desert Temples](adventure.structures.md) | Rebuilds desert temples with expanded rooms and exploration layouts. | Baseline, installed | No separate item search |
+| ![YUNG's Better Dungeons](images/catalog-o1C1Dkj5.png) [YUNG's Better Dungeons](adventure.structures.md) | Replaces small vanilla dungeons with larger dungeon layouts. | Baseline, installed | No separate item search |
+| ![YUNG's Better Jungle Temples](images/catalog-z9Ve58Ih.png) [YUNG's Better Jungle Temples](adventure.structures.md) | Redesigns jungle temples into more elaborate exploration structures. | Baseline, installed | No separate item search |
+| ![YUNG's Better Mineshafts](images/catalog-HjmxVlSr.png) [YUNG's Better Mineshafts](adventure.structures.md) | Overhauls abandoned mineshafts with expanded underground layouts. | Baseline, installed | No separate item search |
+| ![YUNG's Better Nether Fortresses](images/catalog-Z2mXHnxP.png) [YUNG's Better Nether Fortresses](adventure.structures.md) | Redesigns Nether fortresses with expanded fortress layouts. | Baseline, installed | No separate item search |
+| ![YUNG's Better Ocean Monuments](images/catalog-3dT9sgt4.png) [YUNG's Better Ocean Monuments](adventure.structures.md) | Redesigns ocean monuments with more elaborate underwater interiors. | Baseline, installed | No separate item search |
+| ![YUNG's Better Strongholds](images/catalog-kidLKymU.png) [YUNG's Better Strongholds](adventure.structures.md) | Rebuilds strongholds with larger and more varied room layouts. | Baseline, installed | No separate item search |
+| ![YUNG's Better Witch Huts](images/catalog-t5FRdP87.png) [YUNG's Better Witch Huts](adventure.structures.md) | Replaces swamp witch huts with redesigned hut structures. | Baseline, installed | No separate item search |

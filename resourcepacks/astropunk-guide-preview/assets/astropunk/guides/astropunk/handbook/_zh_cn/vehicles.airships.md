@@ -10,6 +10,8 @@ navigation:
 
 ## 升力与气囊
 
+- 浏览物品: <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
+
 <ItemGrid>
   <ItemIcon id="aeronautics:white_envelope" />
   <ItemIcon id="aeronautics:adjustable_burner" />
@@ -73,7 +75,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 已安装基准版 | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
-| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | 已安装基准版 | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 允许用 Aeronautics 热气囊包覆机械动力流体管道。 | 已安装基准版 | <EmiSearch query="@aeroencasedpipe" /> |
+| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | 增加可叠层压载方块，用于调整载具质量与平衡。 | 已安装基准版 | <EmiSearch query="@ballastmod" /> |

@@ -15,6 +15,8 @@ item_ids:
 
 ## Processing machines
 
+- Browse items: <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:millstone" />
   <ItemIcon id="create:crushing_wheel" />
@@ -116,6 +118,6 @@ Water is the fan's processing medium, not a consumed bucket. Material routing co
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Baseline, installed | Aesthetic Technology that empowers the Player |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Adds rotational machines for processing, transport and automated construction. | Baseline, installed | <EmiSearch query="@create" /> |

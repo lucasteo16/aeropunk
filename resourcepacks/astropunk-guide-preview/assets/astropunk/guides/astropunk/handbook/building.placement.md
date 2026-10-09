@@ -8,7 +8,75 @@ navigation:
 
 # Placement tools
 
-## Random palettes
+## Mechanical Trowel
+
+- Browse items: <EmiSearch query="@mechtrowel" />
+
+<ItemGrid>
+  <ItemIcon id="mechtrowel:mech_trowel" />
+  <ItemIcon id="mechtrowel:wand_template" />
+  <ItemIcon id="mechtrowel:wand_capacity_template" />
+  <ItemIcon id="mechtrowel:variant_conversion_template" />
+  <ItemIcon id="mechtrowel:reach_upgrade_template" />
+</ItemGrid>
+
+The <ItemLink id="mechtrowel:mech_trowel" /> is a functional building tool, not another decorative block. Quick mode randomly places blocks from your hotbar. Named palettes let you control a repeated material mix, and gradient mode transitions between palette sections. Placement consumes available building materials.
+
+### Acquisition
+
+<Recipe id="mechtrowel:mech_trowel" />
+
+Craft one trowel with one <ItemLink id="minecraft:iron_ingot" />, one <ItemLink id="minecraft:iron_block" /> and one <ItemLink id="minecraft:stick" /> arranged along the diagonal shown in the recipe.
+
+### Palette controls
+
+- Browse items: <EmiSearch query="@create" />
+
+| Action | Your key |
+| --- | --- |
+| Palette manager | <KeyBind id="key.mechtrowel.open_palette" /> |
+| Building mode | <KeyBind id="key.mechtrowel.toggle_build_mode" /> |
+| Radial menu | <KeyBind id="key.mechtrowel.open_radial_menu" /> |
+| Replacement mode | <KeyBind id="key.mechtrowel.toggle_replace" /> |
+
+Prepare a hotbar mix for quick placement, or open the palette manager to create and select a named palette. Preview the target before using a bulk operation. Replacement changes existing blocks, so test it on a small disposable section first.
+
+***
+
+## Trowel upgrades
+
+- Browse items: <EmiSearch query="@chipped" />
+
+| Upgrade item | Function |
+| --- | --- |
+| <ItemLink id="mechtrowel:wand_template" /> | Unlocks wand mode, which extends blocks using the current palette. |
+| <ItemLink id="mechtrowel:wand_capacity_template" /> | Raises the wand operation's block limit. |
+| <ItemLink id="mechtrowel:variant_conversion_template" /> | Converts available base blocks to supported Chipped or Rechiseled variants. Chipped is installed here. |
+| <ItemLink id="mechtrowel:reach_upgrade_template" /> | Extends placement reach. |
+
+Upgrade recipes are controlled by server settings. The shipped default requires the wand upgrade for wand mode. Integration templates for Applied Energistics 2 and Refined Storage are not useful storage paths in this pack because those providers are not installed.
+
+### Wand template
+
+<Recipe id="mechtrowel:wand_template" />
+
+Use the smithing table with an ender pearl in the template slot, your trowel as the base and <ItemLink id="mechtrowel:wand_template" /> as the addition. The recipe returns the upgraded trowel.
+
+### Other upgrades
+
+<Recipe id="mechtrowel:wand_capacity_template" />
+
+<Recipe id="mechtrowel:variant_conversion_template" />
+
+<Recipe id="mechtrowel:reach_upgrade_template" />
+
+These upgrades use the same smithing slot arrangement with their matching upgrade item. Check the recipe browser for whether a server enables each recipe.
+
+***
+
+## Shuffle filters
+
+- Browse items: <EmiSearch query="@createshufflefilter" />
 
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
@@ -22,11 +90,13 @@ navigation:
 | <ItemLink id="createshufflefilter:shuffle_filter" /> |
 | <ItemLink id="createshufflefilter:weighted_shuffle_filter" /> |
 
-Mech Trowel supplies a placement tool, with reach, capacity and variant conversion upgrade templates. Shuffle Filter and Weighted Shuffle Filter supply random and weighted palette selection. Their settings choose the palette. Available materials still matter.
+Shuffle Filter and Weighted Shuffle Filter supply random and weighted palette selection. Their settings choose the palette. Available materials still matter.
 
 ***
 
 ## Schematics
+
+- Browse items: <EmiSearch query="@create_pattern_schematics" />
 
 <ItemGrid>
   <ItemIcon id="create_pattern_schematics:empty_pattern_schematic" />
@@ -57,9 +127,9 @@ Pattern Schematics supplies empty patterns, captured patterns and the quill capt
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | Baseline, installed | Build with repeating schematics! |
-| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | Baseline, installed | This mod provides a new "Shuffle Filter" item which, when used in Create deployers on contrabtions, enables a randomnes when placing blocks. (Like the shuffle mod for players). |
-| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | Baseline, installed | Litematica unofficial (Neo)Forge port. A modern client-side schematic mod for Minecraft. |
-| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | Baseline, installed | A Trowel+ that randomizes / shuffle blocks with multiple customizable palettes. Includes building wand functionality. Works with Create /Copycats+ & FramedBlocks |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | Repeats schematic patterns when building with Create schematics. | Baseline, installed | <EmiSearch query="@create_pattern_schematics" /> |
+| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | Lets Create deployers place randomized blocks from a selected palette. | Baseline, installed | <EmiSearch query="@createshufflefilter" /> |
+| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | Displays building schematics to guide block placement and construction. | Baseline, installed | No separate item search |
+| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | Places randomized blocks from custom palettes and supports building-wand placement. | Baseline, installed | <EmiSearch query="@mechtrowel" /> |

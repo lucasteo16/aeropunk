@@ -22,6 +22,8 @@ Entity Model Features 与 Entity Texture Features 提供自定义模型与纹理
 
 ## 动画兼容
 
+- 浏览物品: <EmiSearch query="@create" />
+
 EMF Compat: Create 使机械动力动画适配动态玩家模型，其共享框架列在支持库页面。
 
 | 内容 | 作用 |
@@ -31,6 +33,8 @@ EMF Compat: Create 使机械动力动画适配动态玩家模型，其共享框�
 ***
 
 ## 其他版本内容
+
+- 浏览物品: <EmiSearch query="@spawn" />
 
 以下动画扩展未安装在此版本中。未安装不代表已安装功能尚未完成。
 
@@ -55,15 +59,15 @@ EMF Compat: Create 使机械动力动画适配动态玩家模型，其共享框�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | 已安装基准版 | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
-| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | 已安装基准版 | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
-| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | 已安装基准版 | Makes Create animations work correctly with animated EMF player models. |
-| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | 已安装基准版 | Fixes gaps in Block Models and Item Models |
-| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | 重型版，当前未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | 加载兼容资源包中的自定义实体模型。 | 已安装基准版 | 无独立物品查询 |
+| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | 支持随机、自定义与发光实体纹理。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | 增加进食动画。 | 重型版，当前未安装 | 当前未安装 |
+| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | 使机械动力玩家动画适配自定义动态模型。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | 让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | 为门、拉杆等可交互方块增加动画。 | 重型版，当前未安装 | 当前未安装 |
+| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | 修复方块与物品模型的缝隙。 | 已安装基准版 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | 在第三人称显示更多玩家动作。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | 为敌对生物生成增加动画。 | 重型版，当前未安装 | 当前未安装 |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | 让 Spawn Animations 的生成动画适配受支持的模组生物。 | 重型版，当前未安装 | 当前未安装 |

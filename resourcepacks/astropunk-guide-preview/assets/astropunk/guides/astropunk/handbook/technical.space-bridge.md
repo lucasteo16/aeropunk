@@ -21,6 +21,6 @@ The Northstar rendering and moving-structure bridge is deferred. It does not pro
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Northstar Sable Iris Horizons Bridge](technical.space-bridge.md) | Deferred, not installed | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Northstar Sable Iris Horizons Bridge](technical.space-bridge.md) | Bridges Northstar sky rendering with shaders, distant terrain and Sable structures. | Deferred, not installed | Not installed here |

@@ -1,0 +1,107 @@
+{
+  "scope": "Structural native markup repair only. Shared authored content, generator, generated pages, helper production classes, game profiles and installed artifacts were not changed.",
+  "baseline_commit": "c69044d",
+  "authored_content_sha256": "436aa604d07ce159757f4cf536af369b03fbad047226665cdaa67c2d1ba7ebbe",
+  "selected_release": {
+    "engine": "GuideME",
+    "version": "21.1.19",
+    "minecraft": "1.21.1",
+    "jar": "scripts/handbook-access/guideme-21.1.19.jar",
+    "jar_sha256": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a",
+    "source_commit": "52334ccacf15d763ffe318281d38dca8ec7aaeb8",
+    "source_evidence_directory": "build/handbook-access/evidence/GuideME-52334ccacf15d763ffe318281d38dca8ec7aaeb8"
+  },
+  "root_cause": {
+    "parser": "PageCompiler.parse uses the released shaded MdAst parser with MDX, frontmatter, GFM tables and strikethrough. All 192 original manifest pages parse successfully.",
+    "semantic_failure": "Inline MDX grids preserve spaces between tags as MdAstText children. ItemGridCompiler accepts only immediate ItemIcon element children and emits Unsupported child-element in ItemGrid for every text child, including whitespace. Block multiline grids do not create those whitespace children.",
+    "armor_per_row": "Four ItemIcon children plus five whitespace text children. All four slots still compile, accompanied by five native error spans.",
+    "skills_per_row": "One ItemIcon child plus two whitespace text children. The icon and following sibling ItemLink still compile, accompanied by two native error spans.",
+    "screenshot_reproduction": "The native compiler reproduced Unsupported child-element in ItemGrid text (260:60) for archers:archer_armor_chest in the original generated English page, matching the player screenshot.",
+    "not_the_cause": "The closing tag and neighboring ItemLink are not swallowed in this reproduction. PageCompiler.createErrorFlowContent echoes the entire offending source line. That diagnostic excerpt contains the table pipes and sibling tags, but the compiled tree retains every icon and every item tooltip label.",
+    "sources": [
+      "guideme/compiler/PageCompiler.java lines 140 through 172, 349 through 376, 423 through 430 and 493 through 524",
+      "guideme/compiler/tags/ItemGridCompiler.java lines 18 through 34",
+      "guideme/compiler/tags/BlockTagCompiler.java lines 20 through 39"
+    ]
+  },
+  "native_baseline": {
+    "authored_topics": 91,
+    "authored_locale_bodies": 182,
+    "manifest_pages": 192,
+    "failing_pages": 4,
+    "native_error_spans": 1080,
+    "failures": [
+      {"topic": "equipment.weapons-armor", "locale": "en_us", "bad_grids": 90, "errors": 450},
+      {"topic": "equipment.weapons-armor", "locale": "zh_cn", "bad_grids": 90, "errors": 450},
+      {"topic": "combat.skills", "locale": "en_us", "bad_grids": 45, "errors": 90},
+      {"topic": "combat.skills", "locale": "zh_cn", "bad_grids": 45, "errors": 90}
+    ],
+    "log": "build/handbook-access/markup-probe/red-book/compiler.log",
+    "authored_only_log": "build/handbook-access/markup-probe/red-authored/compiler.log"
+  },
+  "repairs": [
+    {
+      "topic": "equipment.weapons-armor",
+      "both_locales": true,
+      "change": "Replace armor tables with compact labeled block groups. Each original chest ItemLink remains immediately before its multiline ItemGrid. Every set retains head, chest, legs and feet in the original order. Change row wording to group wording.",
+      "armor_groups_per_locale": 90,
+      "armor_pieces_per_locale": 360
+    },
+    {
+      "topic": "combat.skills",
+      "both_locales": true,
+      "change": "Remove whitespace inside the 45 single-icon inline grids. Keep the useful path comparison tables and adjacent native ItemLink labels. The released compiler confirms compact table grids are valid.",
+      "table_grids_per_locale": 45
+    }
+  ],
+  "unchanged_valid_patterns": [
+    "Multiline block ItemGrid elements throughout all other authored pages",
+    "Already compact ItemGrid elements in reference.skills tables",
+    "Every native item, recipe and key identifier, reference order, provider family, destination link and existing heading"
+  ],
+  "native_repaired_manifest": {
+    "pages": 192,
+    "failing_pages": 0,
+    "compiled_item_grids": 814,
+    "compiled_item_slots": 4404,
+    "compiled_item_tooltip_labels": 4420,
+    "tag_counts": {"Color": 6, "ItemGrid": 814, "ItemIcon": 4404, "ItemImage": 182, "ItemLink": 4420, "KeyBind": 50, "Recipe": 182},
+    "log": "build/handbook-access/markup-probe/green-book/compiler.log",
+    "authored_only_log": "build/handbook-access/markup-probe/green-authored/compiler.log"
+  },
+  "extra_page_audit": {
+    "pages_present_on_disk": 194,
+    "manifest_pages": 192,
+    "stale_pages_outside_manifest": ["quick-reference.md", "_zh_cn/quick-reference.md"],
+    "full_disk_audit_pages": 194,
+    "full_disk_audit_failing_pages": 0,
+    "log": "build/handbook-access/markup-probe/green-with-orphans/compiler.log",
+    "action": "Reported only. Generated-page cleanup belongs to the navigation owner. No generated files were removed or changed."
+  },
+  "regression_controls": [
+    "Native multiline block grid compiles into two slots without errors",
+    "Native compact table grid compiles with its following ItemLink tooltip label intact",
+    "Native spaced table grid emits exactly two whitespace-child errors while retaining its slot and sibling ItemLink",
+    "Text, whitespace, nested ItemLink and Markdown emphasis inside ItemGrid are rejected by native semantic compilation",
+    "Missing ItemIcon id is rejected by native compilation",
+    "Invalid Color shorthand is rejected by native compilation",
+    "Unclosed grid is rejected by the native parser",
+    "Frozen original armor and skill rows emit seven semantic errors, so the regression remains meaningful after the parent merges the fragment",
+    "Every repaired native reference remains byte-identical and in the same sequence in both languages"
+  ],
+  "commands": {
+    "reproduce_baseline": "python scripts/handbook-access/verify_markup.py --label red-book",
+    "emit_fragment": "python scripts/handbook-access/repair_markup_fragment.py",
+    "compile_repaired_manifest": "python scripts/handbook-access/verify_markup.py --fragment docs/final-review/markup-content.json --label green-book",
+    "compile_all_authored_bodies": "python scripts/handbook-access/verify_markup.py --authored-only --fragment docs/final-review/markup-content.json --label green-authored",
+    "regression_suite": "python -m unittest discover -s scripts/handbook-access -p test_markup_semantics.py -v"
+  },
+  "verification_boundaries": {
+    "actual_native_code": "The selected published jar's PageCompiler, ItemGridCompiler, ItemLinkCompiler, ItemImageTagCompiler and ColorTagCompiler run and create actual layout nodes. Tests inspect native error-colored spans, slot counts and item-tooltip labels. This is not a parser-only or reimplemented-grid checker.",
+    "registry_boundary": "The headless process bootstraps a real mapped vanilla Minecraft 1.21.1 registry. Mod item identifiers are validated and then normalized to minecraft:stone only in the parsed tree, preserving all source positions, whitespace and tag structure. No player-facing identifier is changed. This does not validate the selected modpack's live item registrations, names, components or item associations.",
+    "client_boundaries": "Recipe and KeyBind are counted but use explicit boundary compilers. Their actual recipe manager, renderer selection, registered actions and current key assignments require a game client and are not validated here. The 182 Recipe elements and 50 KeyBind elements are not claimed as semantic passes.",
+    "assets": "The probe uses an empty item index and no image asset loader. It does not validate image loading, textures, associated item-page destinations or missing-asset presentation.",
+    "runtime": "No game or launcher was started. Screen rendering, narrow-width readability, actual hover appearance and native live refreshing remain unverified.",
+    "initial_headless_obstacle": "Bootstrapping the patched NeoForge artifact without its loader failed at FeatureFlagLoader because LoadingModList was absent. The probe instead puts the cached mapped vanilla artifact first, retaining NeoForge only for loader-specific types. This is an isolated test-process classpath change, not an installed artifact or production change."
+  }
+}

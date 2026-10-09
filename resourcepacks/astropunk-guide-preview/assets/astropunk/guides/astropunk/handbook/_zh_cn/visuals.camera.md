@@ -29,8 +29,8 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | 已安装基准版 | Allows you to play Minecraft in a borderless fullscreen window. |
-| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | 已安装基准版 | A highly customizable freecam mod. |
-| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | 已安装基准版 | Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | 提供无边框全屏窗口。 | 已安装基准版 | 无独立物品查询 |
+| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | 提供独立观察镜头。 | 已安装基准版 | 无独立物品查询 |
+| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | 提供可调整的镜头缩放。 | 已安装基准版 | 无独立物品查询 |

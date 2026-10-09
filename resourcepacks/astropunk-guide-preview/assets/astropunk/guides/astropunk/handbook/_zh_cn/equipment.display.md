@@ -2,8 +2,8 @@
 navigation:
   title: "阅读护甲与状态信息"
   position: 0
-  parent: reference.equipment.md
-  icon: minecraft:iron_chestplate
+  parent: reference.skills.md
+  icon: minecraft:iron_sword
 ---
 
 # 阅读护甲与状态信息
@@ -33,8 +33,8 @@ Detail Armor Bar Reconstructed 让护甲防护更易读。Status Effect Bars Ref
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 已安装基准版 | More details about armor in the armor bar! |
-| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 已安装基准版 | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
-| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 已安装基准版 | Status effect display overhaul: Display them in any menu! And way more compact. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 在盔甲状态条中显示更多护甲信息。 | 已安装基准版 | 无独立物品查询 |
+| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 以可自定义进度条显示状态效果剩余时间。 | 已安装基准版 | 无独立物品查询 |
+| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 将状态效果显示整理成紧凑且可调整的界面布局。 | 已安装基准版 | 无独立物品查询 |

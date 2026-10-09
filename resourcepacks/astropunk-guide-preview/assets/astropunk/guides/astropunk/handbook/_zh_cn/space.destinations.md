@@ -10,6 +10,8 @@ navigation:
 
 ## 未安装
 
+- 浏览物品: <EmiSearch query="@create" />
+
 Northstar 太空内容已暂缓加入。此版本没有已安装 Northstar 目的地。已安装目的地见维度目录。
 
 | 内容 | 作用 |
@@ -27,6 +29,6 @@ Northstar 太空内容已暂缓加入。此版本没有已安装 Northstar 目�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) | 暂缓，未安装 | 当前未安装。 |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) | 增加太空目的地与用于探索的机械动力设备。 | 暂缓，未安装 | 当前未安装 |

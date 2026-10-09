@@ -10,6 +10,8 @@ navigation:
 
 ## 移动传送石
 
+- 浏览物品: <EmiSearch query="@waystones" />
+
 <ItemGrid>
   <ItemIcon id="waystones:waystone" />
   <ItemIcon id="waystones:warp_plate" />
@@ -27,6 +29,8 @@ Waystones Sable 为 Sable 移动建筑上的 Waystones 目的地提供兼容。�
 ***
 
 ## 目的地范围
+
+- 浏览物品: <EmiSearch query="@tempad" />
 
 移动传送石目的地不同于 Tempad 坐标或地图路标。返回前应保持目的地建筑已加载，并检查 Waystones 列表。该兼容组件不会把整台载具搬到另一维度。相关内容见载具组装、传送与维度。
 
@@ -49,6 +53,6 @@ Waystones Sable 为 Sable 移动建筑上的 Waystones 目的地提供兼容。�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | 已安装基准版 | A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | 修复 Sable 移动结构上的 Waystones 传送与目的地处理。 | 已安装基准版 | 无独立物品查询 |

@@ -10,6 +10,8 @@ navigation:
 
 ## 旅途中休息
 
+- 浏览物品: <EmiSearch query="@comforts" />
+
 睡袋便于夜间在外休息，不会改变家中的重生点。整合包启用了睡袋配方。这里的白色睡袋使用三块白色羊毛，其他颜色使用对应颜色的羊毛。
 
 <ItemGrid>
@@ -40,7 +42,7 @@ Better Days 控制昼夜时长，也可以在玩家睡眠时加速时间。具�
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | 已安装基准版 | Gives you control over the passage of time by allowing you to customize the length of the day-night cycle and alters the Minecraft sleep mechanic by accelerating the speed of time. |
-| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | 已安装基准版 | Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns. Comes in 16 different colors! |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | 自定义昼夜长度，并在玩家睡眠时加快时间流逝。 | 已安装基准版 | 无独立物品查询 |
+| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | 增加睡袋与吊床，让玩家休息而不改变重生点。 | 已安装基准版 | <EmiSearch query="@comforts" /> |

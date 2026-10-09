@@ -10,6 +10,8 @@ navigation:
 
 ## Light & spawning
 
+- Browse items: <EmiSearch query="@torchmaster" />
+
 <ItemGrid>
   <ItemIcon id="torchmaster:megatorch" />
   <ItemIcon id="torchmaster:dreadlamp" />
@@ -27,6 +29,8 @@ navigation:
 Mega Torch suppresses natural hostile spawning. Dread Lamp suppresses natural passive spawning. Feral Flare Lantern places invisible lights. Frozen Pearl clears residual lantern lights. Suppression radius and spawner behavior depend on server settings, so a torch is not a guarantee against every encounter.
 
 ### Spawn suppression
+
+- Browse items: <EmiSearch query="@spawn" />
 
 <Recipe id="torchmaster:megatorch" />
 
@@ -53,7 +57,7 @@ Lighty displays block light and sky light, with number, carpet and cross modes. 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | Baseline, installed | The Light Overlay Mod with a twist! |
-| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | Baseline, installed | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | Overlays light levels to help find dark areas and spawnable surfaces. | Baseline, installed | No separate item search |
+| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | Adds blocks that control hostile or other creature spawning in an area. | Baseline, installed | <EmiSearch query="@torchmaster" /> |

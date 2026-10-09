@@ -10,6 +10,8 @@ navigation:
 
 ## 战利品容器
 
+- 浏览物品: <EmiSearch query="@lootr" />
+
 ![Mineshaft lootr chest!](images/encounters-lootr-catalog.png)
 
 作者发布的游戏截图，Mineshaft lootr chest!。
@@ -23,6 +25,8 @@ navigation:
 ***
 
 ## 掉落查询
+
+- 浏览物品: <EmiSearch query="@emi" />
 
 | 模组 | 内容 | 读取方式 |
 | --- | --- | --- |
@@ -44,7 +48,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 已安装基准版 | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 已安装基准版 | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 已安装基准版 | 无独立物品查询 |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | 已安装基准版 | <EmiSearch query="@lootr" /> |

@@ -10,6 +10,8 @@ navigation:
 
 ## Creeper Overhaul
 
+- 浏览物品: <EmiSearch query="@creeperoverhaul" />
+
 ![云杉苦力怕](images/encounters-creeper-overhaul-spruce-creeper.png)
 
 云杉苦力怕
@@ -38,6 +40,8 @@ navigation:
 ***
 
 ## Enderman Overhaul
+
+- 浏览物品: <EmiSearch query="@endermanoverhaul" />
 
 ![花卉末影人](images/encounters-enderman-overhaul-flower-fields-enderman.png)
 
@@ -97,6 +101,8 @@ navigation:
 
 ## Variants&Ventures
 
+- 浏览物品: <EmiSearch query="@variantsandventures" />
+
 ![冰冻僵尸](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
 
 冰冻僵尸
@@ -111,6 +117,8 @@ navigation:
 ***
 
 ## Spawn
+
+- 浏览物品: <EmiSearch query="@spawn" />
 
 ![蜗牛](images/encounters-spawn-mod-snail.png)
 
@@ -150,6 +158,8 @@ navigation:
 
 ## Bosses'Rise
 
+- 浏览物品: <EmiSearch query="@block_factorys_bosses" />
+
 这些敌人守卫首领建筑。
 
 | 生物 | 遭遇地点与特点 |
@@ -170,6 +180,8 @@ navigation:
 ***
 
 ## L_Ender's Cataclysm
+
+- 浏览物品: <EmiSearch query="@cataclysm" />
 
 在对应遗迹与首领建筑附近寻找这些生物。部分伙伴的获取方式尚未确认。
 
@@ -213,6 +225,8 @@ navigation:
 
 ## Illager Invasion
 
+- 浏览物品: <EmiSearch query="@illagerinvasion" />
+
 | 生物 | 遭遇地点与特点 |
 | --- | --- |
 | 炼金术士 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
@@ -243,6 +257,8 @@ navigation:
 
 ## 其他遭遇
 
+- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@supplementaries" />
+
 | 模组 | 生物与获取方式 |
 | --- | --- |
 | Supplementaries | 红商人与掠夺者已有发布的生物定义，具体出现条件尚未确认。 |
@@ -260,10 +276,10 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 状态 | 英文官方简介 |
-| --- | --- | --- |
-| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | 已安装基准版 | A mod which overhauls the vanilla creepers! |
-| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | 已安装基准版 | Enderman Overhaul adds over 20 new enderman variants, each with their own sounds, models, and animations! |
-| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | 已安装基准版 | Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse |
-| ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | 已安装基准版 | An overworld wilderness overhaul that adds tons of animals, biomes, ambience and functionality |
-| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | 已安装基准版 | Adds multiple new mob variants seamlessly integrated into your Minecraft world. |
+| 模组或内容 | 用途 | 状态 | 物品查询 |
+| --- | --- | --- | --- |
+| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | 增加随生物群系变化、外观与行为各异的苦力怕变体。 | 已安装基准版 | <EmiSearch query="@creeperoverhaul" /> |
+| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | 增加具有独特模型、声音与动画的末影人变体。 | 已安装基准版 | <EmiSearch query="@endermanoverhaul" /> |
+| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | 加入生物投票中落选或未实现的生物，并扩展其功能。 | 已安装基准版 | <EmiSearch query="@friendsandfoes" /> |
+| ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | 通过动物、生物群系与环境生态扩展主世界荒野。 | 已安装基准版 | <EmiSearch query="@spawn" /> |
+| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | 为世界遭遇增加常见生物的新变体。 | 已安装基准版 | <EmiSearch query="@variantsandventures" /> |

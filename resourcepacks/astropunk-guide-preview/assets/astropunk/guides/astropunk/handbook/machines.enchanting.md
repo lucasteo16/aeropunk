@@ -10,6 +10,8 @@ navigation:
 
 ## Experience & enchanting
 
+- Browse items: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_enchantment_industry:mechanical_grindstone" />
   <ItemIcon id="create_enchantment_industry:grindstone_drain" />
@@ -74,7 +76,7 @@ Make a Mechanical Grindstone first. Its Ponder entry shows the Item Drain conver
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Baseline, installed | Automatic Enchanting, with Create |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Baseline, installed | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Automates experience handling and enchanting with Create machinery. | Baseline, installed | <EmiSearch query="@create_enchantment_industry" /> |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Improves anvil item storage and costs while removing escalating repair penalties. | Baseline, installed | No separate item search |

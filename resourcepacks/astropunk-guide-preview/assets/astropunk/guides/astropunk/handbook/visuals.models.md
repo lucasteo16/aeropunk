@@ -22,6 +22,8 @@ Entity Model Features and Entity Texture Features provide custom model and textu
 
 ## Animation bridges
 
+- Browse items: <EmiSearch query="@create" />
+
 EMF Compat: Create adapts Create animations for animated player models. Its shared framework is listed under Libraries.
 
 | Component | Function |
@@ -31,6 +33,8 @@ EMF Compat: Create adapts Create animations for animated player models. Its shar
 ***
 
 ## Other edition content
+
+- Browse items: <EmiSearch query="@spawn" />
 
 The following animation additions are not installed in this edition. Their absence is not an unfinished installed feature.
 
@@ -55,15 +59,15 @@ The following animation additions are not installed in this edition. Their absen
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | Baseline, installed | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
-| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Baseline, installed | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
-| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | Heavy edition, not installed here | Not installed here. |
-| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | Baseline, installed | Makes Create animations work correctly with animated EMF player models. |
-| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | Heavy edition, not installed here | Not installed here. |
-| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | Heavy edition, not installed here | Not installed here. |
-| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | Baseline, installed | Fixes gaps in Block Models and Item Models |
-| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | Heavy edition, not installed here | Not installed here. |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | Heavy edition, not installed here | Not installed here. |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | Heavy edition, not installed here | Not installed here. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | Loads custom entity models from compatible resource packs. | Baseline, installed | No separate item search |
+| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Supports random, custom and emissive entity textures. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | Animates eating. | Heavy edition, not installed here | Not installed here |
+| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | Connects Create player animations to custom animated models. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | Adapts Not Enough Animations player actions to custom Entity Model Features models. | Heavy edition, not installed here | Not installed here |
+| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | Animates interactive blocks such as doors and levers. | Heavy edition, not installed here | Not installed here |
+| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | Repairs gaps in block and item models. | Baseline, installed | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | Shows more player actions in third-person. | Heavy edition, not installed here | Not installed here |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | Animates hostile creature spawning. | Heavy edition, not installed here | Not installed here |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | Extends Spawn Animations compatibility to supported modded creatures. | Heavy edition, not installed here | Not installed here |

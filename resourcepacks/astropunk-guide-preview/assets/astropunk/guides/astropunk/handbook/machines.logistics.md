@@ -10,6 +10,8 @@ navigation:
 
 ## Items & fluids
 
+- Browse items: <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:belt_connector" />
   <ItemIcon id="create:andesite_funnel" />
@@ -32,6 +34,8 @@ navigation:
 ***
 
 ## Packages & requests
+
+- Browse items: <EmiSearch query="@createadditionallogistics" />
 
 <ItemGrid>
   <ItemIcon id="create:packager" />
@@ -87,6 +91,6 @@ Connect one input container and one output container to a belt or chute before a
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Baseline, installed | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Expands Create package handling with shop registers and improved factory stock controls. | Baseline, installed | <EmiSearch query="@createadditionallogistics" /> |

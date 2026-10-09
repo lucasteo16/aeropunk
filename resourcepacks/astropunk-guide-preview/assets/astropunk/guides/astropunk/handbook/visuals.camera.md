@@ -29,8 +29,8 @@ Zoom, detached viewing and borderless fullscreen solve different viewing needs. 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | Baseline, installed | Allows you to play Minecraft in a borderless fullscreen window. |
-| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | Baseline, installed | A highly customizable freecam mod. |
-| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | Baseline, installed | Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | Provides borderless fullscreen windows. | Baseline, installed | No separate item search |
+| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | Provides a detached viewing camera. | Baseline, installed | No separate item search |
+| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | Provides adjustable camera zoom. | Baseline, installed | No separate item search |

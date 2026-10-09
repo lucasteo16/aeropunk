@@ -10,6 +10,8 @@ navigation:
 
 ## Detection & display
 
+- Browse items: <EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create_radar:radar_bearing" />
   <ItemIcon id="create_radar:radar_dish_block" />
@@ -33,6 +35,8 @@ Create Radars separates detection components from receivers and displays. Choose
 ***
 
 ## Targets & fire control
+
+- Browse items: <EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="create_radar:identification_transponder" />
@@ -97,6 +101,6 @@ Detection, targeting and identification use separate filters. Observation tools 
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | Baseline, installed | Adding Radars (& more) to Create! |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | Adds radar equipment to detect and track targets in Create builds. | Baseline, installed | <EmiSearch query="@create_radar" /> |

@@ -10,6 +10,8 @@ navigation:
 
 ## Wood & joinery
 
+- Browse items: <EmiSearch query="@chipped" />
+
 <ItemGrid>
   <ItemIcon id="chipped:carpenters_table" />
   <ItemIcon id="chipped:basket_woven_oak_planks" />
@@ -144,9 +146,9 @@ Craft the matching Chipped workstation, insert its base material and choose a te
 
 ## Related mods
 
-| Mod or content | Status | Publisher description |
-| --- | --- | --- |
-| ![Chipped](images/catalog-BAscRYKm.png) [Chipped](building.palette.md) | Baseline, installed | Every block deserves a friend. |
-| ![Chipped Express](images/catalog-dQIcJONI.png) [Chipped Express](building.palette.md) | Baseline, installed | Mod addon for Chipped to allow to craft ANY recipe with stonecutter |
-| ![Every Compat (Stone Zone)](images/catalog-uYwn8IP5.png) [Every Compat (Stone Zone)](building.palette.md) | Baseline, installed | Universal Stone Compat: Create, Twigs, Stoneworks, and more... |
-| ![Every Compat (Wood Good)](images/catalog-eiktJyw1.png) [Every Compat (Wood Good)](building.palette.md) | Baseline, installed | Universal Wood Compat: Quark, Twilight Forest, Twigs, Another Furniture, Farmers Delight, Macaw's,  Valhelsia, Architects Palette, Deco Blocks, Crayfish FM |
+| Mod or content | Purpose | Status | Item search |
+| --- | --- | --- | --- |
+| ![Chipped](images/catalog-BAscRYKm.png) [Chipped](building.palette.md) | Adds decorative block variants crafted at material-specific workbenches. | Baseline, installed | <EmiSearch query="@chipped" /> |
+| ![Chipped Express](images/catalog-dQIcJONI.png) [Chipped Express](building.palette.md) | Makes Chipped decorative block recipes available through the stonecutter. | Baseline, installed | No separate item search |
+| ![Every Compat (Stone Zone)](images/catalog-uYwn8IP5.png) [Every Compat (Stone Zone)](building.palette.md) | Creates supported decorative block variants from other mods' stone types. | Baseline, installed | <EmiSearch query="@stonezone" /> |
+| ![Every Compat (Wood Good)](images/catalog-eiktJyw1.png) [Every Compat (Wood Good)](building.palette.md) | Creates supported building and furniture variants using other mods' wood types. | Baseline, installed | <EmiSearch query="@everycomp" /> |
