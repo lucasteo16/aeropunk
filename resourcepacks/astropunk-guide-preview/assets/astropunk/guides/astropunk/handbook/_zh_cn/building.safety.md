@@ -26,6 +26,12 @@ navigation:
 
 Mega Torch 抑制自然生成的敌对生物，Dread Lamp 抑制自然生成的被动生物。Feral Flare Lantern 放置隐形光源，Frozen Pearl 清理残留光源。作用半径及刷怪笼行为取决于服务器设置，不能保证阻止所有遭遇。
 
+### 生成抑制
+
+<Recipe id="torchmaster:megatorch" />
+
+制作 <ItemLink id="torchmaster:megatorch" />，用于抑制自然生成的敌对生物，而非仅提供普通照明。
+
 ***
 
 ## 光照显示
@@ -40,4 +46,14 @@ Lighty 显示方块光照与天空光照，支持数字、地毯与叉形模式�
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | 已安装基准版 | The Light Overlay Mod with a twist! |
+| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | 已安装基准版 | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |

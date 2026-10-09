@@ -1,25 +1,35 @@
 ---
 navigation:
-  title: Automation and industry
-  parent: mod-catalogs.md
+  title: Machines & storage
+  parent: quick-reference.md
   icon: create:crushing_wheel
 ---
 
-# Automation and industry
+# Machines & storage
 
-## Automation Mods
+## Start with rotation
 
-### Machines and processing
+A Water Wheel supplies rotational power. Connect machines with shafts, match their speed requirements and watch the stress load. Use Ponder for animated assembly instructions.
 
-| Mod | Purpose |
-| --- | --- |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing |
+<ItemGrid>
+  <ItemIcon id="create:water_wheel" />
+</ItemGrid>
+
+<ItemLink id="create:water_wheel" />
+
+<Recipe id="create:crafting/kinetics/water_wheel" />
 
 ***
 
-## Mechanics
+## Related topics
 
-| Topic | Status |
-| --- | --- |
-| [Ore processing](machines.ore-processing.md) | Reference |
-| [Rotational power](machines.rotation.md) | WIP |
+- [Rotational power](machines.rotation.md)
+- [Ore processing](machines.ore-processing.md)
+
+***
+
+## Related mods
+
+| Mod | Purpose | Availability |
+| --- | --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing | Baseline, installed |

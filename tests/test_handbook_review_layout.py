@@ -14,19 +14,19 @@ def body(path):
 
 
 class ReviewedLayout(unittest.TestCase):
-    def test_home_has_two_named_sections_and_visual_reference_rows(self):
+    def test_home_has_one_topic_section_and_visual_reference_rows(self):
         for language in ('', '_zh_cn'):
             text = (PAGES / language / 'index.md').read_text()
             content = text.split('\n# Astropunk\n', 1)[1].strip()
             self.assertTrue(content.startswith('## '))
-            self.assertIn('Item recipe' if not language else '物品配方', text)
-            self.assertEqual(len(re.findall(r'^## ', content, re.M)), 2)
+            self.assertIn('Browse recipe' if not language else '浏览配方', text)
+            self.assertEqual(len(re.findall(r'^## ', content, re.M)), 1)
             self.assertGreaterEqual(text.count('<ItemImage '), 6)
             self.assertNotIn('<ItemGrid>', text)
             reference = 'Quick reference' if not language else '快速参考'
-            catalog = 'Mod catalogs' if not language else '模组目录'
-            self.assertLess(text.index('## ' + reference), text.index('## ' + catalog))
-            self.assertIn('\n***\n', text)
+            self.assertIn('## ' + reference, text)
+            self.assertNotIn('Mod catalogs' if not language else '模组目录', text)
+            self.assertNotIn('category-', text)
             self.assertNotIn(' · ', text)
 
     def test_dimensions_is_one_real_catalog(self):
@@ -39,11 +39,9 @@ class ReviewedLayout(unittest.TestCase):
                 self.assertIn('## ' + title, text)
 
     def test_automation_is_role_based_not_intent_based(self):
-        text = (PAGES / 'category-automation.md').read_text()
-        self.assertIn('## Automation Mods', text)
-        self.assertLess(text.index('## Automation Mods'), text.index('## Mechanics'))
-        for name in ('Villager Names', 'EMI Enchanting', 'EMI professions', 'Easy Anvils', 'Trade Refresh'):
-            self.assertNotIn(name, text)
+        self.assertFalse((PAGES / 'category-automation.md').exists())
+        # Mechanics may mention utility providers without taking their inventory home.
+        # Provider footer homes, rather than duplicate category trees, carry identity.
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         for entry in manifest['content']:
             if entry['name'] in ('Villager Names', 'EMI Enchanting', 'Easy Anvils', 'Trade Refresh') or entry['name'].startswith('EMI professions'):
@@ -56,7 +54,7 @@ class ReviewedLayout(unittest.TestCase):
 
     def test_images_are_local_real_assets(self):
         count = 0
-        for name in ('world.dimensions.md', 'category-automation.md'):
+        for name in ('world.dimensions.md', 'machines.rotation.md'):
             text = (PAGES / name).read_text()
             for target in re.findall(r'!\[[^\]]*\]\((images/[^)]+)\)', text):
                 image = PAGES / target

@@ -142,10 +142,26 @@ Macaw's Fences and Walls 提供木质、树篱、金属与石材围栏系列及�
 
 Reconnectible Chains 使用原版锁链构成连接的悬挂跨度。建筑组件的材料见物品配方。
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
 
 ***
 
 ## 制作
 
 <Recipe id="mcwbridges:oak_bridge_pier" />
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | 已安装基准版 | Fences connecting diagonally? Wait. That's illegal. |
+| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | 已安装基准版 | A simple mod that adds a lot of bridges! |
+| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | 已安装基准版 | Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...! |
+| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | 已安装基准版 | Adds new vanilla styled fences, walls and gates! |
+| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | 已安装基准版 | Build roofs with actual roofs instead of stairs! |
+| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | 已安装基准版 | Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies! |
+| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | 已安装基准版 | Adds lots of Windows, Mosaic Glass, Blinds, Shutters, Curtains and more...! |
+| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | 已安装基准版 | A multiloader fork of Connectible Chains: Connect your fences/walls with a decorative chain! |

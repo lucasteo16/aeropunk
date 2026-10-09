@@ -43,3 +43,12 @@ Waystones Sable 为 Sable 移动建筑上的 Waystones 目的地提供兼容。�
 | 图示物品 |
 | --- |
 | <ItemLink id="waystones:waystone" /> |
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.moving-destinations.md) | 已安装基准版 | A compatibility mod that allows Waystones to work properly within Sable's SubLevel system. Fixes teleportation, validation, distance calculation, and client synchronization for waystones placed inside or targeting SubLevels. |

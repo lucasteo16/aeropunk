@@ -64,3 +64,15 @@ RightClickHarvest adds harvesting interactions. Smarter Farmers expands farmer r
 
 - [Cooking tools](food.utensils.md)
 - [Machine kitchens](food.machine-cooking.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | Baseline, installed | Integrated farming automation for Create |
+| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | Baseline, installed | Quick leaf decay from cutting down trees. Built for fast performance and mod compat! |
+| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | Baseline, installed | Allows you to harvest crops with right click |
+| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | Baseline, installed | Allows villagers to replant the correct seed & allows them to use modded ones |
+| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | Baseline, installed | Stop the bonemeal discrimination! Grow all plants, no limitations. |

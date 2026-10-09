@@ -48,3 +48,13 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 - [厨房料理](food.utensils.md)
 - [作物食材](food.growing.md)
 - [鱼类料理](food.fishing.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 已安装基准版 | Food/hunger-related HUD improvements |
+| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 已安装基准版 | 食物堆叠上限随饱腹能力变化。 |
+| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 已安装基准版 | A mod designed to encourage dietary variety! |

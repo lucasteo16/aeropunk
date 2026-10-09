@@ -27,8 +27,7 @@ class ReferenceVisuals(unittest.TestCase):
             text = (PAGES / locale / 'help.controls.md').read_text()
             headings = len(re.findall(r'^## ', text, re.M))
             self.assertEqual(text.count('\n***\n'), headings - 1)
-            self.assertNotIn('Related mods', text)
-            self.assertNotIn('相关模组', text)
+            self.assertIn('## 相关模组' if locale else '## Related mods', text)
             self.assertIn('key.astropunk_handbook_access.open', text)
 
     def test_dimensions_uses_real_screenshots_and_accurate_abyss_status(self):
@@ -48,32 +47,28 @@ class ReferenceVisuals(unittest.TestCase):
             text = (PAGES / locale / 'help.search.md').read_text()
             self.assertIn('parent-emi-recipes.png', text)
             self.assertIn('parent-emi-tree.png', text)
-            self.assertNotIn('Publisher description', text)
+            heading = '## 相关模组' if locale else '## Related mods'
+            self.assertIn(heading, text)
+            self.assertLess(text.index('parent-emi-tree.png'), text.index(heading))
 
-    def test_entire_reference_tree_has_authored_content(self):
+    def test_reference_tree_preserves_authored_content_and_honest_gaps(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         authored = json.loads((ROOT / 'docs/handbook-content.json').read_text())
-        by_filename = {p['filename']: p for p in manifest['pages']}
-        for filename, page in by_filename.items():
-            text = (PAGES / filename).read_text()
-            current = text
-            belongs = False
-            while parent := re.search(r'^  parent: (.+)$', current, re.M):
-                name = parent.group(1)
-                if name == 'quick-reference.md':
-                    belongs = True
-                    break
-                current = (PAGES / name).read_text()
-            if belongs:
-                self.assertIn(page['topic'], authored)
-                for locale in ('', '_zh_cn'):
-                    body = (PAGES / locale / filename).read_text()
-                    self.assertNotIn('Work in progress', body)
-                    self.assertNotIn('WIP', body)
-                    if not locale:
-                        for heading in re.findall(r'^#{2,3} (.+)$', body, re.M):
-                            self.assertLessEqual(len(heading), 24, (filename, heading))
-                    self.assertTrue(any(token in body for token in ('<ItemGrid', '<ItemImage', '<Recipe', '![', '| ')), filename)
+        for page in manifest['pages']:
+            filename = page['filename']
+            self.assertEqual(page['drafted'], page['topic'] in authored or page['page_type'] == 'directory', filename)
+            for locale in ('', '_zh_cn'):
+                body = (PAGES / locale / filename).read_text()
+                if page['topic'] in authored:
+                    self.assertIn(authored[page['topic']]['zh_cn' if locale else 'en_us'].strip(), body, filename)
+                    self.assertNotIn('Work in progress', body, filename)
+                    self.assertNotIn('WIP', body, filename)
+                elif page['page_type'] == 'article':
+                    self.assertIn('WIP', body, filename)
+                if not locale:
+                    for heading in re.findall(r'^#{2,3} (.+)$', body, re.M):
+                        self.assertLessEqual(len(heading), 24, (filename, heading))
+                self.assertTrue(any(token in body for token in ('<ItemGrid', '<ItemImage', '<Recipe', '![', '| ', 'WIP')), filename)
 
     def test_review_removes_movement_and_corrects_access_claims(self):
         for locale in ('', '_zh_cn'):
@@ -83,14 +78,20 @@ class ReferenceVisuals(unittest.TestCase):
             self.assertNotIn('The inventory also has a Handbook button.', text)
             self.assertNotIn('物品栏也有手册按钮。', text)
 
-    def test_catalog_entries_all_have_visuals(self):
+    def test_provider_footers_all_have_visuals(self):
         for locale in ('', '_zh_cn'):
-            for page in (PAGES / locale).glob('category-*.md'):
+            count = 0
+            for page in (PAGES / locale).glob('*.md'):
+                heading = '## 相关模组' if locale else '## Related mods'
                 text = page.read_text()
-                for row in text.splitlines():
-                    if row.startswith('| ') and ('Publisher description' in text or '官方简介' in text):
-                        if re.search(r'\]\([a-z][a-z0-9.-]+\.md\)', row) and not row.endswith('| Reference |') and not row.endswith('| 参考 |') and not row.endswith('| WIP |'):
-                            self.assertTrue('![' in row or '<ItemImage ' in row, (page.name, row))
+                if heading not in text:
+                    continue
+                for row in text.rsplit(heading, 1)[1].splitlines():
+                    if row.startswith('| ') and re.search(r'\]\([a-z][a-z0-9.-]+\.md\)', row):
+                        count += 1
+                        self.assertTrue('![' in row or '<ItemImage ' in row, (page.name, row))
+            manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
+            self.assertGreaterEqual(count, len(manifest['content']))
 
     def test_review_navigation_and_punctuation(self):
         authored = json.loads((ROOT / 'docs/handbook-content.json').read_text())
@@ -104,8 +105,8 @@ class ReferenceVisuals(unittest.TestCase):
         for locale in ('', '_zh_cn'):
             controls = (PAGES / locale / 'help.controls.md').read_text()
             recipe = (PAGES / locale / 'help.search.md').read_text()
-            self.assertIn('<Color id="gold">/guidemec astropunk:handbook open</Color>', controls)
-            self.assertIn('<Color id="gold">@create</Color>', recipe)
+            self.assertIn('<Color color="#F28CBD">/guidemec astropunk:handbook open</Color>', controls)
+            self.assertIn('<Color color="#F28CBD">@create</Color>', recipe)
             equipment = (PAGES / locale / 'equipment.weapons-armor.md').read_text()
             for unavailable in ('ruby_rapid_crossbow', 'ruby_heavy_crossbow', 'ruby_spear'):
                 self.assertNotIn('archers:' + unavailable, equipment)

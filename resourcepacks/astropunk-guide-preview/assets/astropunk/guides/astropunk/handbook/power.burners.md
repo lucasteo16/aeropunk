@@ -28,8 +28,23 @@ navigation:
 
 ## Getting started
 
+### Empty burner
+
+<Recipe id="create:crafting/kinetics/empty_blaze_burner" />
+
+Craft <ItemLink id="create:empty_blaze_burner" /> first. It is not a captured <ItemLink id="create:blaze_burner" /> yet. Capture a blaze using the empty burner before supplying fuel.
+
 Start with a captured Blaze Burner and inspect the lava supply route. Do not assume diesel, gasoline or every oil is accepted: the selected Liquid Fuel artifact defines lava plus named compatibility fluids from other mods. Confirm the actual fluid in the item browser before plumbing a fuel line. Burner arrangement and heat states are covered by Create Ponder.
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Baseline, installed | Pump in liquid fuel to blaze burners |

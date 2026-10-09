@@ -2,20 +2,29 @@
 navigation:
   title: "Deferred optimizers"
   position: 0
-  parent: category-technical.md
+  parent: reference.technical.md
   icon: minecraft:redstone
 ---
 
 # Deferred optimizers
 
-## Overview
+## Not installed
 
-Work in progress (WIP).
+These optimizer candidates are deferred and do not run in this edition.
+
+| Component | Function |
+| --- | --- |
+| Async Logger (not installed) | Asynchronous log processing. |
+| Jasione (not installed) | Reduces repeated enumeration-array allocations. |
+| ServerCore (not installed) | Server optimization. |
+
+
+***
 
 ## Related mods
 
-| Mod or content | Publisher description |
-| --- | --- |
-| <ItemImage id="minecraft:redstone" /> Async Logger (not installed) | Not installed here. |
-| <ItemImage id="minecraft:redstone" /> Jasione (not installed) | Not installed here. |
-| <ItemImage id="minecraft:redstone" /> ServerCore (not installed) | Not installed here. |
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | Deferred, not installed | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | Deferred, not installed | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | Deferred, not installed | Not installed here. |

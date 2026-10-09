@@ -233,3 +233,11 @@ navigation:
 - [食物与饥饿](food.hunger.md)
 - [作物食材](food.growing.md)
 - [烹饪工具](food.utensils.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 已安装基准版 | End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end! |

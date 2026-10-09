@@ -75,3 +75,12 @@ navigation:
 先查看交流发电机与连接导线的思索演示，再先装仪表后接电动机。此系统需要考虑电压与电流，带电导线不是通用电力管线。除非目标连接明确受支持，否则应与工业机器的电路分开。
 
 - [工业机器](power.industry.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 已安装基准版 | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |

@@ -52,4 +52,14 @@ Escalated supplies metal and wooden moving walkway steps for local transport. Us
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Baseline, installed | A mod to add functional, aesthetic, and rotation-powered escalators to Create. |
+| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Baseline, installed | Travel arround the world with tubes! |

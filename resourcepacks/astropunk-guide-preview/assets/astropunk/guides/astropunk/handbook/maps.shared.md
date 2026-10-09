@@ -25,3 +25,13 @@ Open Maps after joining the server. Let synchronization update the explored area
 - [Personal maps](maps.personal.md)
 
 Cave synchronization can disable World Map's cave-layer selector. This does not mean the Minimap's cave display is also disabled.
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | Heavy edition, not installed here | Not installed here. |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Baseline, installed | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |

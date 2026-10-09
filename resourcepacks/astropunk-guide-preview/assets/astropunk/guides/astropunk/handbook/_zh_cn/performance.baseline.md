@@ -2,39 +2,101 @@
 navigation:
   title: "了解当前性能优化系统"
   position: 0
-  parent: category-technical.md
+  parent: reference.technical.md
   icon: minecraft:redstone
 ---
 
 # 了解当前性能优化系统
 
-## 概览
+## 渲染
 
-编写中（WIP）。
+这些组件减少客户端不同部分的渲染工作，并不是额外视觉效果。
+
+| 内容 | 作用 |
+| --- | --- |
+| Sodium | 替换地形渲染引擎。 |
+| ImmediatelyFast | 优化即时模式渲染。 |
+| Entity Culling | 避免渲染被遮挡的实体与方块实体。 |
+| More Culling | 跳过部分不可见的渲染面。 |
+| Cull Leaves | 跳过部分不可见的树叶几何面。 |
+| Flerovium | 优化物品、粒子与实体渲染。 |
+| AsyncParticles | 优化粒子运算与渲染。 |
+| Kerria | 加速动态纹理处理。 |
+| CreateBetterFps | 优化使用光影时的机械动力渲染。 |
+
+***
+
+## 模拟与地形
+
+这些组件针对游戏逻辑、生物处理、机械动力机器或地形准备。
+
+| 内容 | 作用 |
+| --- | --- |
+| Lithium | 优化单人游戏与服务器的游戏逻辑。 |
+| AI Improvements: Performance Tuning | 优化原版生物行为处理。 |
+| Clumps | 合并经验球，减少独立经验球的处理。 |
+| Let Me Despawn | 调整生物消失规则，减少意外永久保留的生物。 |
+| Create: LazyTick | 优化机械动力机器的刻处理。 |
+| Concurrent Chunk Management Engine (NeoForge) | 优化区块管理与生成。 |
+| Structure Layout Optimizer | 优化拼图结构布局处理。 |
+
+***
+
+## 内存与加载
+
+内存、加载与通用修复处理的开销不同于地形渲染。
+
+| 内容 | 作用 |
+| --- | --- |
+| FerriteCore | 减少内存占用。 |
+| ModernFix | 提供性能、内存与错误修复改进。 |
+| quick pack | 加速压缩数据包与资源包加载。 |
+| BadOptimizations | 优化主地形渲染器以外的处理。 |
+
+***
+
+## 输入与空闲
+
+输入处理与后台资源使用不同于活动世界模拟。已安装不代表已经测得你的电脑能提升多少帧率。
+
+| 内容 | 作用 |
+| --- | --- |
+| Ixeris | 提供缓冲原始输入与独立线程事件轮询。 |
+| Dynamic FPS | 降低后台或空闲时的资源使用。 |
+
+***
+
+## 相关页面
+
+- [诊断工具](server.tools.md)
+- [光照与远景](visuals.lighting.md)
+
+
+***
 
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| ![AI Improvements: Performance Tuning](images/catalog-DSVgwcji.png) AI Improvements: Performance Tuning | Performance improvements for vanilla AI, with  the ability to turn off certain AI behaviors |
-| ![AsyncParticles](images/catalog-c3onkd5k.png) AsyncParticles | Async particle tick, GPU accelerated particle rendering. |
-| <ItemImage id="minecraft:redstone" /> BadOptimizations | Optimization mod that focuses on things other than rendering |
-| ![Clumps](images/catalog-Wnxd13zP.png) Clumps | Clumps XP orbs together to reduce lag |
-| ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-COlSi5iR.png) Concurrent Chunk Management Engine (NeoForge) | A mod designed to improve the chunk performance of Minecraft. |
-| ![Create: LazyTick](images/catalog-Z0d7hFh4.png) Create: LazyTick | A commitment to optimizing Create lag in large quantities! |
-| ![CreateBetterFps](images/catalog-lMYIHZNH.png) CreateBetterFps | Improve your Create FPS when shaderpack is on, up to 50% |
-| ![Cull Leaves](images/catalog-GNxdLCoP.png) Cull Leaves | Adds culling to leaf blocks, providing a huge performance boost over vanilla. |
-| ![Dynamic FPS](images/catalog-LQ3K71Q1.png) Dynamic FPS | Reduce resource usage while Minecraft is in the background, idle, or on battery. |
-| ![Entity Culling](images/catalog-NNAgCjsB.png) Entity Culling | Using async path-tracing to hide Block-/Entities that are not visible |
-| ![FerriteCore](images/catalog-uXXizFIs.png) FerriteCore | Memory usage optimizations |
-| ![Flerovium](images/catalog-4Rh1Mobu.png) Flerovium | Greatly improve your fps with virtually no side-effects on graphics quality |
-| ![ImmediatelyFast](images/catalog-5ZwdcRci.png) ImmediatelyFast | Speed up immediate mode rendering in Minecraft |
-| ![Ixeris](images/catalog-p8RJPJIC.png) Ixeris | Buffered raw input and threaded event polling |
-| ![Kerria](images/catalog-f0ruQTF7.png) Kerria | Faster texture animation |
-| ![Let Me Despawn](images/catalog-vE2FN5qn.png) Let Me Despawn | Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs. |
-| ![Lithium](images/catalog-gvQqBUqZ.png) Lithium | No-compromises game logic optimization mod, useful for both single-player games and multi-player servers. |
-| ![ModernFix](images/catalog-nmDcB62a.png) ModernFix | All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods! |
-| ![More Culling](images/catalog-51shyZVL.png) More Culling | A mod that changes how multiple types of culling are handled in order to improve performance |
-| ![quick pack](images/catalog-pSISfJ4O.png) quick pack | Optimize datapack / resourcepack zip file loading times |
-| ![Sodium](images/catalog-AANobbMI.png) Sodium | A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter. |
-| ![Structure Layout Optimizer](images/catalog-ayPU0OHc.png) Structure Layout Optimizer | Attempts to optimize the generation of Jigsaw Structures and NBT pieces |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![AI Improvements: Performance Tuning](images/catalog-DSVgwcji.png) [AI Improvements: Performance Tuning](performance.baseline.md) | 已安装基准版 | Performance improvements for vanilla AI, with  the ability to turn off certain AI behaviors |
+| ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | 已安装基准版 | Async particle tick, GPU accelerated particle rendering. |
+| <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | 已安装基准版 | Optimization mod that focuses on things other than rendering |
+| ![Clumps](images/catalog-Wnxd13zP.png) [Clumps](performance.baseline.md) | 已安装基准版 | Clumps XP orbs together to reduce lag |
+| ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-COlSi5iR.png) [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | 已安装基准版 | A mod designed to improve the chunk performance of Minecraft. |
+| ![Create: LazyTick](images/catalog-Z0d7hFh4.png) [Create: LazyTick](performance.baseline.md) | 已安装基准版 | A commitment to optimizing Create lag in large quantities! |
+| ![CreateBetterFps](images/catalog-lMYIHZNH.png) [CreateBetterFps](performance.baseline.md) | 已安装基准版 | Improve your Create FPS when shaderpack is on, up to 50% |
+| ![Cull Leaves](images/catalog-GNxdLCoP.png) [Cull Leaves](performance.baseline.md) | 已安装基准版 | Adds culling to leaf blocks, providing a huge performance boost over vanilla. |
+| ![Dynamic FPS](images/catalog-LQ3K71Q1.png) [Dynamic FPS](performance.baseline.md) | 已安装基准版 | Reduce resource usage while Minecraft is in the background, idle, or on battery. |
+| ![Entity Culling](images/catalog-NNAgCjsB.png) [Entity Culling](performance.baseline.md) | 已安装基准版 | Using async path-tracing to hide Block-/Entities that are not visible |
+| ![FerriteCore](images/catalog-uXXizFIs.png) [FerriteCore](performance.baseline.md) | 已安装基准版 | Memory usage optimizations |
+| ![Flerovium](images/catalog-4Rh1Mobu.png) [Flerovium](performance.baseline.md) | 已安装基准版 | Greatly improve your fps with virtually no side-effects on graphics quality |
+| ![ImmediatelyFast](images/catalog-5ZwdcRci.png) [ImmediatelyFast](performance.baseline.md) | 已安装基准版 | Speed up immediate mode rendering in Minecraft |
+| ![Ixeris](images/catalog-p8RJPJIC.png) [Ixeris](performance.baseline.md) | 已安装基准版 | Buffered raw input and threaded event polling |
+| ![Kerria](images/catalog-f0ruQTF7.png) [Kerria](performance.baseline.md) | 已安装基准版 | Faster texture animation |
+| ![Let Me Despawn](images/catalog-vE2FN5qn.png) [Let Me Despawn](performance.baseline.md) | 已安装基准版 | Improves performance by tweaking mob despawn rules. Say bye to pesky unintentional persistent mobs. |
+| ![Lithium](images/catalog-gvQqBUqZ.png) [Lithium](performance.baseline.md) | 已安装基准版 | No-compromises game logic optimization mod, useful for both single-player games and multi-player servers. |
+| ![ModernFix](images/catalog-nmDcB62a.png) [ModernFix](performance.baseline.md) | 已安装基准版 | All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods! |
+| ![More Culling](images/catalog-51shyZVL.png) [More Culling](performance.baseline.md) | 已安装基准版 | A mod that changes how multiple types of culling are handled in order to improve performance |
+| ![quick pack](images/catalog-pSISfJ4O.png) [quick pack](performance.baseline.md) | 已安装基准版 | Optimize datapack / resourcepack zip file loading times |
+| ![Sodium](images/catalog-AANobbMI.png) [Sodium](performance.baseline.md) | 已安装基准版 | A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter. |
+| ![Structure Layout Optimizer](images/catalog-ayPU0OHc.png) [Structure Layout Optimizer](performance.baseline.md) | 已安装基准版 | Attempts to optimize the generation of Jigsaw Structures and NBT pieces |

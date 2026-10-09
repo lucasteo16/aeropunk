@@ -1,4 +1,4 @@
-"""Check the shared reference and mod navigation skeleton without rendering."""
+"""Source regressions for one unified, shallow handbook topic tree."""
 from pathlib import Path
 import json
 import re
@@ -12,17 +12,18 @@ class NavigationSkeleton(unittest.TestCase):
     def test_reference_sections_have_one_primary_parent(self):
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
-            for filename in ('quick-reference.md', 'mod-catalogs.md'):
-                self.assertTrue((base / filename).is_file())
-            for filename in ('adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.equipment.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md'):
+            self.assertTrue((base / 'quick-reference.md').is_file())
+            self.assertFalse((base / 'mod-catalogs.md').exists())
+            self.assertEqual(list(base.glob('category-*.md')), [])
+            for filename in ('adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.equipment.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'):
                 self.assertIn('  parent: quick-reference.md\n', (base / filename).read_text())
-            for path in base.glob('category-*.md'):
-                self.assertIn('  parent: mod-catalogs.md\n', path.read_text())
 
     def test_sidebar_is_acyclic_and_no_more_than_two_category_levels(self):
+        manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
-            for path in base.glob('*.md'):
+            for page in manifest['pages']:
+                path = base / page['filename']
                 seen = {path.name}
                 current = path
                 depth = 0
@@ -33,20 +34,77 @@ class NavigationSkeleton(unittest.TestCase):
                     current = base / name
                     self.assertTrue(current.is_file())
                     depth += 1
+                self.assertEqual(current.name, 'quick-reference.md', path.name)
                 self.assertLessEqual(depth, 2, path.name)
 
     def test_home_and_sidebar_reference_directory_match(self):
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
-            home = (base / 'index.md').read_text().split('\n***\n', 1)[0]
+            home = (base / 'index.md').read_text()
             directory = (base / 'quick-reference.md').read_text()
             refs = set(re.findall(r'\]\(([^)]+\.md)\)', directory))
             self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), refs)
-            self.assertGreaterEqual(len(refs), 12)
+            self.assertGreaterEqual(len(refs), 17)
+            for filename in refs:
+                self.assertIn('  parent: quick-reference.md\n', (base / filename).read_text())
+
+    def test_provider_inventory_has_one_primary_home_and_honest_footer_rows(self):
+        manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
+        checklist = json.loads((ROOT / 'docs/guide-authoring-checklist.json').read_text())
+        paths = [e['metadata_path'] for e in manifest['content']]
+        self.assertEqual(len(paths), len(set(paths)))
+        self.assertEqual(set(paths), {e['metadata_path'] for e in checklist['entries']} | {'mods/guideme.pw.toml', 'mods/astropunk-handbook-access-1.0.0.jar'})
+        homes = [path for page in manifest['pages'] for path in page['metadata_paths']]
+        self.assertCountEqual(paths, homes)
+        for locale in ('', '_zh_cn'):
+            heading = '## 相关模组' if locale else '## Related mods'
+            for entry in manifest['content']:
+                text = (PAGES / locale / (entry['topic'] + '.md')).read_text()
+                self.assertIn(heading, text, entry['metadata_path'])
+                footer = text.rsplit(heading, 1)[1]
+                self.assertNotRegex(footer, r'^## ', entry['topic'])
+                rows = [line for line in footer.splitlines() if '[' + entry['name'].replace('|', ',') + '](' + entry['topic'] + '.md)' in line]
+                self.assertEqual(len(rows), 1, entry['metadata_path'])
+                row = rows[0]
+                self.assertTrue('![' in row or '<ItemImage ' in row, row)
+                label = {'baseline': '已安装基准版' if locale else 'Baseline, installed', 'heavy': '重型版，当前未安装' if locale else 'Heavy edition, not installed here', 'deferred': '暂缓，未安装' if locale else 'Deferred, not installed'}[entry['availability']]
+                self.assertIn(label, row, entry['metadata_path'])
+                visuals = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_text())
+                visual = visuals.get(entry['metadata_path'])
+                if visual and visual.get('kind') in ('publisher icon', 'bundled publisher icon'):
+                    self.assertIn(visual['resource'], row)
+
+    def test_hubs_end_with_related_providers_linked_to_detailed_topics(self):
+        for locale in ('', '_zh_cn'):
+            text = (PAGES / locale / 'reference.machines-storage.md').read_text()
+            heading = '## 相关模组' if locale else '## Related mods'
+            self.assertIn(heading, text)
+            footer = text.rsplit(heading, 1)[1]
+            self.assertIn('Create', footer)
+            self.assertIn('](machines.rotation.md)', footer)
+            self.assertIn('](storage.portable.md)', footer)
+
+    def test_display_renames_keep_topic_identifiers(self):
+        for locale in ('', '_zh_cn'):
+            for name, title in (('help.search.md', '浏览配方' if locale else 'Browse recipe'), ('reference.vehicles.md', '交通' if locale else 'Transport')):
+                text = (PAGES / locale / name).read_text()
+                self.assertIn('# ' + title + '\n', text)
+                self.assertIn('[' + title + '](' + name + ')', (PAGES / locale / 'quick-reference.md').read_text())
+
+    def test_audio_compatibility_providers_have_audio_homes(self):
+        manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
+        by_path = {e['metadata_path']: e for e in manifest['content']}
+        for path in ('mods/cool-rain-reforged.pw.toml', 'mods/pf-neoforge.pw.toml', 'mods/sable-cool-rain.pw.toml', 'mods/presence-footsteps-x-sable.pw.toml'):
+            self.assertEqual(by_path[path]['topic'], 'sounds.ambience')
+            self.assertEqual(by_path[path]['category'], 'Visuals and sound')
+        for locale in ('', '_zh_cn'):
+            self.assertIn('  parent: reference.audio.md\n', (PAGES / locale / 'sounds.ambience.md').read_text())
 
     def test_schema_counts_match_generated_files(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
-        self.assertEqual(len(list(PAGES.glob('*.md'))), manifest['article_count'] + manifest['category_count'] + manifest['navigation_page_count'] + manifest['reference_directory_count'] + 1)
+        self.assertEqual(manifest['category_count'], 0)
+        self.assertEqual(manifest['navigation_page_count'], 1)
+        self.assertEqual(len(list(PAGES.glob('*.md'))), manifest['article_count'] + manifest['reference_directory_count'] + manifest['navigation_page_count'] + 1)
 
 
 if __name__ == '__main__':

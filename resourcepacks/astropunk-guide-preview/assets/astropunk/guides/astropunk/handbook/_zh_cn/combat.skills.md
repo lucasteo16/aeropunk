@@ -95,3 +95,15 @@ navigation:
 - [武技](combat.martial.md) 查看远程射击、近战与职业招式。
 - [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
 - [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
+
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 已安装基准版 | RPG Series Skill Tree Add-On for the More RPG Classes! |
+| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 已安装基准版 | Adds a fully configurable skill system to the game. |
+| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 已安装基准版 | ⭐️ Choose your path - Skills that shape your class |

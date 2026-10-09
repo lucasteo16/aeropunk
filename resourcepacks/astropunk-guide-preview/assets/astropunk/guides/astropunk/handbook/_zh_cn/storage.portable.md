@@ -71,3 +71,15 @@ navigation:
 | <ItemLink id="minecraft:netherite_upgrade_smithing_template" /> |
 | <ItemLink id="minecraft:netherite_ingot" /> |
 | <ItemLink id="minecraft:smithing_table" /> |
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 已安装基准版 | Dyeable and upgradeable vanilla-friendly backpacks! |
+| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 已安装基准版 | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
+| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 已安装基准版 | Adds reinforced shulker boxes. |
+| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 已安装基准版 | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |

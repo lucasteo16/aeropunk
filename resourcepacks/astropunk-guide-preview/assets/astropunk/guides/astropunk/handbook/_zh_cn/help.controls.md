@@ -28,7 +28,7 @@ navigation:
 
 物品指南是悬停物品的上下文帮助，并不是整本手册的快捷键。当前实例中的自定义手册快捷键和物品栏按钮尚未正常工作。
 
-若快捷键无法打开手册，可输入 <Color id="gold">/guidemec astropunk:handbook open</Color>。
+若快捷键无法打开手册，可输入 <Color color="#F28CBD">/guidemec astropunk:handbook open</Color>。
 
 ***
 
@@ -41,7 +41,7 @@ navigation:
 
 在物品浏览器设置中修改这些按键。机械动力的思索提示会显示自身按键。
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
 
 ***
 
@@ -54,3 +54,14 @@ navigation:
 ## 阅读设置
 
 在视频设置中调大界面缩放可放大文字，也会放大其他界面。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | 已安装基准版 | 物品栏手册按钮与可配置快捷键。 |
+| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | 已安装基准版 | Adds a search bar to the Key-Bindings menu |
+| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | 已安装基准版 | in-UI trade refresh key |

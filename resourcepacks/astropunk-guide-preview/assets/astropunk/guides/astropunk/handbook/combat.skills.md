@@ -95,3 +95,15 @@ Read the Orb of Oblivion tooltip before resetting. Improved-spell nodes modify n
 - [Martial abilities](combat.martial.md) Ranged shots, close combat and class techniques.
 - [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
 - [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
+
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Baseline, installed | RPG Series Skill Tree Add-On for the More RPG Classes! |
+| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Baseline, installed | Adds a fully configurable skill system to the game. |
+| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | Baseline, installed | ⭐️ Choose your path - Skills that shape your class |

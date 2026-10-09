@@ -50,4 +50,16 @@ Pattern Schematics supplies empty patterns, captured patterns and the quill capt
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | Baseline, installed | Build with repeating schematics! |
+| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | Baseline, installed | This mod provides a new "Shuffle Filter" item which, when used in Create deployers on contrabtions, enables a randomnes when placing blocks. (Like the shuffle mod for players). |
+| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | Baseline, installed | Litematica unofficial (Neo)Forge port. A modern client-side schematic mod for Minecraft. |
+| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | Baseline, installed | A Trowel+ that randomizes / shuffle blocks with multiple customizable palettes. Includes building wand functionality. Works with Create /Copycats+ & FramedBlocks |

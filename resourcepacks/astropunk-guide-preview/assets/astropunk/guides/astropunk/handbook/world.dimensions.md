@@ -124,3 +124,16 @@ Terrain changes appear in newly generated areas, existing terrain is not rebuilt
 Space content is not installed in this light edition.
 
 - [Space](space.destinations.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | Baseline, installed | Removes structures, items, mobs and bosses from Incendium, leaving only the biomes and terrain. |
+| ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | Baseline, installed | A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat. |
+| ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | Baseline, installed | Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. Topped with a couple of new biomes to add to the experience, whilst keeping the end desolate. |
+| ![Streams Reflowing](images/streams-reflowing-icon.png) [Streams Reflowing](world.dimensions.md) | Baseline, installed | Adds beautiful flowing streams to your world. |
+| ![Tectonic](images/tectonic-icon.png) [Tectonic](world.dimensions.md) | Baseline, installed | Terrain shaping brought to new heights, grander and more varied than ever before! |
+| ![Terralith](images/terralith-icon.png) [Terralith](world.dimensions.md) | Baseline, installed | Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain. |

@@ -233,3 +233,11 @@ These prepared meals combine End ingredients with pantry items. Follow the liste
 - [Food & hunger](food.hunger.md)
 - [Crop ingredients](food.growing.md)
 - [Cooking tools](food.utensils.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Baseline, installed | End's Delight is an addon mod for Farmer's Delight based around adding culinary content to the end! |

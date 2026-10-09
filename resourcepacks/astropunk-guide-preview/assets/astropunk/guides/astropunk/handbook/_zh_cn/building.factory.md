@@ -177,3 +177,20 @@ Create Oxidized 提供注水配方，制作斑驳、锈蚀与氧化铜材，包�
 ## 制作
 
 <Recipe id="bellsandwhistles:bogie_steps/brass_bogie_steps" />
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | 已安装基准版 | Industrial decoration themed around the aesthetics of the Create mod. |
+| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | 已安装基准版 | Allow to use all casing on shafts/cogwheels/pipes |
+| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | 已安装基准版 | Additions and adornments for the modern Create engineer. Available for both Fabric & Forge! |
+| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | 已安装基准版 | Decorative and mechanical additions to create! |
+| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | 已安装基准版 | a create addon that adds decor blocks to spice up your factory! |
+| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | 已安装基准版 | A Create mod addon that adds more Framed Glass variants. |
+| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | 已安装基准版 | Adds  8 unique girder variants to complement the Create mod ecosystem. |
+| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | 已安装基准版 | QoL addon for Create, which adds oxidizing recipes to all copper blocks |
+| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | 已安装基准版 | A remake version of Create: Crystal Clear, adds glass casings and illumination casings to create |

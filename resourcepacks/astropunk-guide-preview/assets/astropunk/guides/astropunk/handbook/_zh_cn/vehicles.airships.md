@@ -28,6 +28,18 @@ navigation:
 
 热气囊与热气燃烧器构成浮力系列。热气囊、气囊机壳传动杆和附加的气囊机壳流体管道均有十六种染料颜色。压舱石每增加一层都会增加质量，最多八层。
 
+### 基础气囊
+
+<Recipe id="aeronautics:white_envelope" />
+
+两个白色羊毛与两根木棍可制作四个 <ItemLink id="aeronautics:white_envelope" />。
+
+### 热气燃烧器
+
+<Recipe id="aeronautics:adjustable_burner" />
+
+为热气囊系统制作 <ItemLink id="aeronautics:adjustable_burner" />。实际布局请查看气囊与燃烧器的思索演示。
+
 ***
 
 ## 螺旋桨与帆
@@ -54,4 +66,14 @@ navigation:
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 已安装基准版 | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
+| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | 已安装基准版 | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |

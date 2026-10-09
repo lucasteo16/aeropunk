@@ -25,3 +25,13 @@ navigation:
 - [个人地图](maps.personal.md)
 
 洞穴同步可能关闭世界地图的洞穴层选择器，不代表小地图的洞穴显示也被关闭。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | 重型版，当前未安装 | 当前未安装。 |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 已安装基准版 | Adds multiplayer features to Xaero's Minimap and World Map, such as world map syncing |

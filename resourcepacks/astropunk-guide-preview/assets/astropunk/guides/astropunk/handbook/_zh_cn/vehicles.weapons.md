@@ -62,4 +62,13 @@ Create Big Cannons 提供大型炮管、炮膛、炮尾与炮闩，以及自动�
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | 已安装基准版 | A Minecraft mod for building large cannons with the Create mod. |

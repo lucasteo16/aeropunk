@@ -33,3 +33,12 @@ navigation:
 寻找喷口并露出休眠核心。发布者说明的入门方法是用爆炸激活核心，再供给熔岩生成对应石材。激活前清空周围区域。该版本包含陆地与水下分布定义，但不保证基地附近有喷口。加工方法见矿物加工。
 
 - [矿物加工](machines.ore-processing.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 已安装基准版 | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |

@@ -6,7 +6,7 @@ This is the authoring contract for every handbook update. It belongs to reposito
 
 The handbook prioritizes a content index: answer what exists in the installed game before describing what players can do with it. A mod roster alone is not a complete content index. Catalog actual bosses, creatures, structures, dungeon variants, equipment, spells, foods, building families, vehicles and destination types. Mechanics and crafting tutorials are secondary. Reuse existing recipe tools and Ponder rather than duplicating their instruction. Do not organize the entire book around player intentions.
 
-The home is Astropunk. Quick reference comes first for important cross-cutting information such as Controls, Item recipe, Dimensions, Maps, Character skills, and Food and hunger. Mod catalogs follows for installed feature areas. Use matching icon-and-label table rows for both sections, rather than an arbitrary strip of three links above the catalogs. The left navigation mirrors this structure with Quick reference and Mod catalogs as ordered roots. Reference topics have one primary parent; mod catalogs cross-link those same pages rather than duplicating them. Use no more than two category levels before an article. Give each topic one primary home and use cross-links for related areas. Include supporting libraries in the same consistent reference structure, without presenting them as gameplay features.
+The home is Astropunk. Use one gameplay topic tree, not competing Quick reference and Mod catalogs indexes. Each topic explains available content and how to start, then lists its relevant mods in a lower section with icons, purpose and installation status. Provider rosters support gameplay guidance rather than supply information missing from it. Keep any needed utilities, appearance, audio and technical groupings in the same tree. Use no more than two category levels before an article, give each article one primary home, and cross-link related uses without creating duplicate provider navigation.
 
 The handbook is freely accessible. Do not add quests, completion rewards, progression locks or compulsory reading sequences. Actual mod gameplay requirements still apply and must be described accurately.
 
@@ -14,8 +14,8 @@ The handbook is freely accessible. Do not add quests, completion rewards, progre
 
 | Type | Required structure |
 | --- | --- |
-| Home | Astropunk title, Quick reference section first, separator, then Mod catalogs; matched two-column navigation tables with decorative inline icons |
-| Area catalog | Title, area-specific mod heading such as Automation Mods, functional subgroups with icon, linked name and concise purpose, then Mechanics links; uninstalled content separated when relevant |
+| Home | Astropunk title and one matching gameplay topic directory with decorative inline icons |
+| Area catalog | Title, available activities and starting guidance, visible topic links, then relevant mods with icons and installation status |
 | Reference catalog | Title, second-level sections for actual entries such as Overworld, Nether and End; put short mod summaries and visuals in the catalog itself; link out only to substantial mechanics |
 | Getting started | Inside its reference topic when short; name the first prerequisite, item, workstation or interface, then point to native recipes, Ponder or existing help; no exhaustive walkthrough |
 | Controls article | Access instructions, current bindings, clearly labeled defaults, rebinding and conflict instructions |
@@ -38,15 +38,15 @@ Reuse Create Ponder for supported assembly and operation. Identify the relevant 
 
 ## Shared topic structure
 
-Use one topic tree and two complementary page types: Reference and Getting started. The reference page is the landing page and inventories what exists, variants, locations and access. Put a short Getting started section beneath that same topic when useful. It should establish the first meaningful entry into the mod, not teach every machine or recipe. A substantial introduction may become a linked companion article beneath the same topic, never a separate tutorial tree. Do not create an empty Getting started section or a mandatory pair of pages for every topic.
+Use one topic tree and two complementary page types: Reference and Getting started. The reference page is the landing page and inventories what exists, variants, locations and access. Put a short Getting started section beneath that same topic when useful. It should establish the first meaningful entry into the mod, not teach every machine or recipe. Show playable class choices and their roles directly on Spells & skills, with starting equipment, suitable native crafting recipes, spell binding and equipment relationships. Do not bury class choices or first steps in provider rosters. A substantial introduction may become a linked companion article beneath the same topic, never a separate tutorial tree. Do not create an empty Getting started section or a mandatory pair of pages for every topic.
 
-Top-level reference entries are Controls, Item recipe, Bosses, Creatures, Structures and dungeons, Dimensions, Equipment, Spells and skills, Food and farming, Building, Vehicles and travel, Machines and storage, and Maps. Six grouped directories organize existing topic pages. A directory lists real destinations and honest completion markers, not duplicated article prose.
+Top-level reference entries are Controls, Browse recipe, Bosses, Creatures, Structures and dungeons, Dimensions, Equipment, Spells and skills, Food and farming, Building, Transport, Machines and storage, and Maps. Six grouped directories organize existing topic pages. A directory lists real destinations and honest completion markers, not duplicated article prose.
 
 ## Catalog completeness
 
 Boss and creature entries need a name, introducing mod, dimension, encounter or spawn location, and any access or summoning requirement. Structures and dungeons need the actual structure family and variant list, source mod, dimension and relevant biome or placement restrictions. Separate structure definitions, templates and assembled dungeon variants: their file counts are not interchangeable. Record exact selected-version evidence before claiming a complete total. Do not infer personal defeat progress from handbook presence or introduce quests.
 
-Catalog items by useful families and variant names, not just by mod slogans. Use authentic publisher galleries where they help identify a place or feature, with clear captions and provenance. A screenshot does not establish that every feature shown ships in the selected release. Keep snapshots and illustrated catalogs legible instead of creating a wall of adjacent tables.
+Catalog items by useful families and variant names, not just by mod slogans. Search official galleries and main-description images first. If no suitable image exists there, make a targeted online search, including relevant third-party wiki pages. Use only identifiable, clean images without watermarks, blocking text or poor fidelity, and preserve source and rights provenance. Third-party prose is not evidence of mechanics in the selected release. A screenshot does not establish that every feature shown ships in the selected release. Keep snapshots and illustrated catalogs legible instead of creating a wall of adjacent tables.
 
 ## Spacing
 
@@ -66,7 +66,7 @@ Maintain English and Simplified Chinese only. Use identical filenames, links, se
 
 Do not create one-line redirect pages or duplicate top-level navigation entries. Ore processing has one primary page under Machines and storage in Quick reference, cross-linked from Automation and industry. Consolidate short landscape and river summaries under the appropriate dimension section instead of requiring another page click. A separate page must offer substantial information beyond the catalog row.
 
-Classify inventory entries by their actual function, not merely by their relationship to a mechanic. Recipe-browser addons, villager naming, trade-screen shortcuts and manual anvil conveniences belong with player utilities. A mechanics page may cross-reference them without turning them into Automation Mods. Supporting libraries belong under Technical reference.
+Classify inventory entries by their actual function, not merely by their relationship to a mechanic. Recipe-browser addons, villager naming, trade-screen shortcuts and manual anvil conveniences belong with player utilities. A mechanics page may cross-reference them without turning them into Automation Mods. Supporting libraries belong under Technical reference. Classify ambient rain and footsteps as audio, not technical support, and verify every technical entry by actual function.
 
 Every catalog title and detailed entry that promises a destination must have a real handbook link. Link mod entries to their primary topic. Put topic entry points in standalone bullet lists or clear navigation tables above or below the explanation, never hide multiple destination links inside paragraphs. Use the toolbar for history navigation, do not stack Back to category and Back to activities links.
 
@@ -76,7 +76,7 @@ Do not use English or Chinese semicolons in player prose. Preserve them only ins
 
 Item associations belong in item_ids frontmatter and must have one unambiguous primary article. Native ItemLink follows those associations to handbook pages. It does not open the external recipe browser. Native ItemGrid provides tooltips, not automatic external actions. Do not describe an icon as clickable unless its action has been verified.
 
-Use native Color with symbolic gold around literal commands and search queries the player must type. Keep the typed tokens unchanged and do not imply the styled text executes an action.
+Use native Color with the six-digit pink color #F28CBD around literal commands and search queries the player must type. Keep the typed tokens unchanged and do not imply the styled text executes an action.
 
 Use exact registered KeyBind identifiers for current controls. Label default keys separately from current assignments. The item browser has its own settings; do not imply all its controls are configured in Minecraft's Key Binds screen. Check the selected instance before assigning a new shortcut, and do not overwrite unrelated controls.
 

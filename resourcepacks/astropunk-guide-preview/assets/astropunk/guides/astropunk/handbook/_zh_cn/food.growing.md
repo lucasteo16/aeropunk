@@ -64,3 +64,15 @@ RightClickHarvest 加入收获交互。Smarter Farmers 扩展农民补种。Univ
 
 - [烹饪工具](food.utensils.md)
 - [机器厨房](food.machine-cooking.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | 已安装基准版 | Integrated farming automation for Create |
+| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | 已安装基准版 | Quick leaf decay from cutting down trees. Built for fast performance and mod compat! |
+| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | 已安装基准版 | Allows you to harvest crops with right click |
+| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 已安装基准版 | Allows villagers to replant the correct seed & allows them to use modded ones |
+| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | 已安装基准版 | Stop the bonemeal discrimination! Grow all plants, no limitations. |

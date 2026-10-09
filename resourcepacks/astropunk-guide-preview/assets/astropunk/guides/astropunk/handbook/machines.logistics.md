@@ -58,6 +58,12 @@ navigation:
 
 ## Getting started
 
+### First item connection
+
+<Recipe id="create:crafting/logistics/andesite_funnel" />
+
+Craft <ItemLink id="create:andesite_funnel" /> to connect a container to item transport. Use Ponder for placement.
+
 Connect one input container and one output container to a belt or chute before adding a stock network. Ponder covers the Create components. Additional Logistics also includes a Sales Ledger and Train Network Monitor Peripheral. The peripheral is a computer integration, not a standalone stock screen.
 
 ## Related items
@@ -74,4 +80,13 @@ Connect one input container and one output container to a belt or chute before a
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Baseline, installed | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |

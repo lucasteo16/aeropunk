@@ -18,6 +18,12 @@ navigation:
 
 <ItemLink id="sliceanddice:slicer" /> 自动执行切割，并不会把所有食材直接做成完整料理。<ItemLink id="farmersdelight:flint_knife" /> 是手工切割工具。先决定切割产物，再供应所需原料与工具。组装方式可查看原生 Ponder 帮助。手工 <ItemLink id="farmersdelight:cutting_board" /> 配方说明了整块食材与分切小份为何是不同原料。
 
+### 切片机合成
+
+<Recipe id="sliceanddice:slicer" />
+
+先制作 <ItemLink id="sliceanddice:slicer" />，再连接原料运输并装入所需切割工具。
+
 ***
 
 ## 饮品与农业流体
@@ -40,3 +46,12 @@ Create: Central Kitchen 提供烹饪整合，并非另一套食物菜单。连�
 - [烹饪工具](food.utensils.md)
 - [作物生产](food.growing.md)
 - [机器与仓储](reference.machines-storage.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | 已安装基准版 | Making automation for Farmers Delight more sensible |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | 已安装基准版 | Offering more tools and methods to automate food processing of other mod in Create. |

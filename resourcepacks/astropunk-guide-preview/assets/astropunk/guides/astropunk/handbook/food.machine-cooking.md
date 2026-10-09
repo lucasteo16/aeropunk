@@ -18,6 +18,12 @@ navigation:
 
 The <ItemLink id="sliceanddice:slicer" /> automates cutting rather than turning every ingredient directly into a finished meal. A <ItemLink id="farmersdelight:flint_knife" /> is a manual cutting tool. Choose the cutting output first, then supply the required ingredient and tool. Use its native Ponder help for assembly. Manual <ItemLink id="farmersdelight:cutting_board" /> recipes show why a whole ingredient and its portions are different inputs.
 
+### Slicer craft
+
+<Recipe id="sliceanddice:slicer" />
+
+Craft <ItemLink id="sliceanddice:slicer" /> before connecting ingredient delivery and the required cutting tool.
+
 ***
 
 ## Drinks & farm fluids
@@ -40,3 +46,12 @@ Create: Central Kitchen supplies cooking integration rather than another food me
 - [Cooking tools](food.utensils.md)
 - [Crop production](food.growing.md)
 - [Machines & storage](reference.machines-storage.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | Baseline, installed | Making automation for Farmers Delight more sensible |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | Baseline, installed | Offering more tools and methods to automate food processing of other mod in Create. |

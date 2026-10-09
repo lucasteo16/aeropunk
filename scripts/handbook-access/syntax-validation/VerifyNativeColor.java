@@ -23,7 +23,7 @@ public final class VerifyNativeColor {
         public void appendError(PageCompiler compiler, String text, UnistNode node) { errors.add(text); }
     }
     static Sink compile(String attributes) {
-        String source = "Type <Color " + attributes + ">/guidemec open astropunk:handbook @create</Color> now.";
+        String source = "Type <Color " + attributes + ">/guidemec astropunk:handbook open @create</Color> now.";
         var id = ResourceLocation.fromNamespaceAndPath("astropunk", "probe.md");
         var parsed = PageCompiler.parse("probe", "en_us", id, source);
         var paragraph = (MdAstParagraph) parsed.getAstRoot().children().getFirst();
@@ -45,10 +45,11 @@ public final class VerifyNativeColor {
         var color = (ConstantColor) span.getStyle().color();
         check(color.lightModeColor() == expected, attributes + " had unexpected packed color");
         check(span.getStyle().italic() == null, "Color must not introduce italics");
-        check(span.getChildren().size() == 1 && ((guideme.document.flow.LytFlowText) span.getChildren().getFirst()).getText().equals("/guidemec open astropunk:handbook @create"), "Typed command and query text changed");
+        check(span.getChildren().size() == 1 && ((guideme.document.flow.LytFlowText) span.getChildren().getFirst()).getText().equals("/guidemec astropunk:handbook open @create"), "Typed command and query text changed");
         System.out.println("PASS " + attributes);
     }
     public static void main(String[] args) {
+        valid("color=\"#F28CBD\"", 0xffF28CBD);
         valid("color=\"#123456\"", 0xff123456);
         valid("color=\"#80123456\"", 0x80123456);
         valid("color=\"transparent\"", 0);

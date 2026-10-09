@@ -96,3 +96,14 @@ ChoiceTheorem's Overhauled Village
 
 - [建筑与地牢](adventure.structures.md)
 - [战利品](adventure.loot.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 已安装基准版 | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 已安装基准版 | ⛲️ Village structures hosting small spell libraries |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 已安装基准版 | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |

@@ -101,3 +101,12 @@ Steel Cables and paired facing Pulleys support cable-guided moving structures. I
 | <ItemLink id="create_submarine:decompression_chamber" /> |
 
 These devices are marked unfinished by their tooltips, not working survival systems.
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | Baseline, installed | Submarine and boat in Create Aeronautics! |

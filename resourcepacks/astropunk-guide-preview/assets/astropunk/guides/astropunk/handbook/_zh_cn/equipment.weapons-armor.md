@@ -8,11 +8,13 @@ navigation:
 
 # 选择武器与护甲
 
-## 第一把武器
+## 入门武器
 
-先选玩法，再查看原生配方。这些是可制作的入门选择，不是强制的升级顺序。制作武器不会自动绑定职业法术书招式。
+选择想尝试的职业，制作对应武器或法器。这些配方是入门选项，不是强制成长等级。法术书与技能点需要另行选择。
 
-### 弓术
+- [法术与技能](reference.skills.md) 查看所有支持的职业与首次绑定步骤。
+
+### 弓箭手
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -22,7 +24,21 @@ navigation:
 
 <Recipe id="archers:composite_longbow" />
 
-### 游侠近战
+蓄力射击与范围箭雨。
+
+### 神射手
+
+<ItemGrid>
+  <ItemIcon id="archers:rapid_crossbow" />
+</ItemGrid>
+
+<ItemLink id="archers:rapid_crossbow" />
+
+<Recipe id="archers:rapid_crossbow" />
+
+快速远程攻击与限制敌人的射击。
+
+### 盗贼
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
@@ -32,7 +48,9 @@ navigation:
 
 <Recipe id="rogues:iron_dagger" />
 
-### 战士近战
+近战攻击配合陷阱与机动。
+
+### 战士
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_double_axe" />
@@ -42,7 +60,9 @@ navigation:
 
 <Recipe id="rogues:iron_double_axe" />
 
-### 怒气近战
+冲锋与防御型近战招式。
+
+### 狂战士
 
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
@@ -52,7 +72,9 @@ navigation:
 
 <Recipe id="berserker_rpg:iron_berserker_axe" />
 
-### 奥术拳套
+怒气效果与强力近战打击。
+
+### 气功师
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
@@ -62,7 +84,21 @@ navigation:
 
 <Recipe id="forcemaster_rpg:iron_knuckle" />
 
-### 巫师施法
+以拳套施展奥术打击。
+
+### 奥术法师
+
+<ItemGrid>
+  <ItemIcon id="wizards:wand_arcane" />
+</ItemGrid>
+
+<ItemLink id="wizards:wand_arcane" />
+
+<Recipe id="wizards:wand_arcane" />
+
+奥术弹射物与光束。
+
+### 火焰法师
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_novice" />
@@ -72,7 +108,21 @@ navigation:
 
 <Recipe id="wizards:wand_novice" />
 
-### 水系施法
+火焰攻击与持续燃烧区域。
+
+### 冰霜法师
+
+<ItemGrid>
+  <ItemIcon id="wizards:wand_frost" />
+</ItemGrid>
+
+<ItemLink id="wizards:wand_frost" />
+
+<Recipe id="wizards:wand_frost" />
+
+冰霜攻击与防护效果。
+
+### 水系法师
 
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
@@ -82,17 +132,57 @@ navigation:
 
 <Recipe id="elemental_wizards_rpg:wand_kelp" />
 
-### 治疗
+水系伤害与治疗区域。
+
+### 地系法师
 
 <ItemGrid>
-  <ItemIcon id="paladins:holy_wand" />
+  <ItemIcon id="elemental_wizards_rpg:wand_clay" />
 </ItemGrid>
 
-<ItemLink id="paladins:holy_wand" />
+<ItemLink id="elemental_wizards_rpg:wand_clay" />
 
-<Recipe id="paladins:holy_wand" />
+<Recipe id="elemental_wizards_rpg:wand_clay" />
 
-### 乐器施法
+地系攻击与地面防护。
+
+### 风系法师
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:wand_feather" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_feather" />
+
+<Recipe id="elemental_wizards_rpg:wand_feather" />
+
+风系攻击与龙卷风区域。
+
+### 圣骑士
+
+<ItemGrid>
+  <ItemIcon id="paladins:iron_mace" />
+</ItemGrid>
+
+<ItemLink id="paladins:iron_mace" />
+
+<Recipe id="paladins:iron_mace" />
+
+近战打击配合治疗与防护。
+
+### 牧师
+
+<ItemGrid>
+  <ItemIcon id="paladins:acolyte_wand" />
+</ItemGrid>
+
+<ItemLink id="paladins:acolyte_wand" />
+
+<Recipe id="paladins:acolyte_wand" />
+
+治疗光束与群体防护。
+
+### 吟游诗人
 
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
@@ -101,6 +191,8 @@ navigation:
 <ItemLink id="bards_rpg:wooden_lute" />
 
 <Recipe id="bards_rpg:wooden_lute" />
+
+乐器攻击与辅助乐曲。
 
 ### 猎魔人剑术
 
@@ -111,6 +203,10 @@ navigation:
 <ItemLink id="witcher_rpg:iron_witcher_sword" />
 
 <Recipe id="witcher_rpg:iron_witcher_sword" />
+
+剑击与战斗招式。
+
+弓箭手扩展路线共用远程入门装备，再搭配专属护甲。新手魔杖提供火焰强度。奥术路线使用奥术魔杖，冰霜路线使用冰霜魔杖。侍僧魔杖是神圣魔杖之前更便宜的治疗起点。
 
 
 ***
@@ -936,3 +1032,13 @@ navigation:
 - [武技](combat.martial.md) 查看远程射击、近战与职业招式。
 - [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
 - [饰品](equipment.accessories.md) 将珠宝与遗物装入适用的饰品槽。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 已安装基准版 | 👑 Epic armor sets, with unique designs and set bonuses. |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 已安装基准版 | Legendary weapons from the past - not crafted, but conquered. |

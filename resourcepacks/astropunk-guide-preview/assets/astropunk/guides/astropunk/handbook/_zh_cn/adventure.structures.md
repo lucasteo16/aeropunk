@@ -18,46 +18,46 @@ Mechanical Nest
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Abandoned Temple | 位于主世界的符合条件的针叶林、丘陵、山地类生物群系。 |
-| Aviary | 位于末地的末地高地、末地中地生物群系。 |
-| Bandit Towers | 位于主世界的符合条件的Bryce Canyon（Terralith）、Painted Mountains（Terralith）生物群系。 |
-| Bandit Village | 位于主世界的符合条件的Bryce Canyon（Terralith）、Painted Mountains（Terralith）生物群系。 |
-| Bathhouse | 位于主世界的符合条件的平原、草甸、黑森林生物群系。 |
-| Ceryneian Hind | 位于主世界的符合条件的沙漠类生物群系。 |
-| Coliseum | 位于主世界的平原、草甸、向日葵平原生物群系。 |
-| Fishing Hut | 位于主世界的Gravel Beach（Terralith）生物群系。 |
-| Foundry | 位于主世界的符合条件的丛林、森林、针叶林类生物群系。 |
-| Giant Mushroom | 位于主世界的草甸、平原、向日葵平原生物群系。 |
-| Greenwood Pub | 位于主世界的符合条件的森林类生物群系。 |
-| Heavenly Challenger | 位于主世界的符合条件的丛林、森林类生物群系。 |
-| Heavenly Conqueror | 位于主世界的符合条件的丛林、森林类生物群系。 |
-| Heavenly Rider | 位于主世界的符合条件的丛林、森林类生物群系。 |
-| Illager Campsite | 位于主世界的符合条件的丘陵类生物群系。 |
-| Illager Corsair | 位于主世界的符合条件的海洋类生物群系。 |
-| Illager Fort | 位于主世界的符合条件的针叶林类生物群系。 |
-| Illager Galley | 位于主世界的符合条件的海洋类生物群系。 |
-| Illager Windmill | 位于主世界的平原、草甸、向日葵平原生物群系。 |
-| Infested Temple | 位于主世界的符合条件的针叶林、丘陵类生物群系。 |
-| Jungle Tree House | 位于主世界的符合条件的Amethyst Canyon（Terralith）、Amethyst Rainforest（Terralith）生物群系。 |
-| Keep Kayra | 位于主世界的符合条件的沼泽类生物群系。 |
-| Kisegi Sanctuary | 位于主世界的符合条件的丘陵类生物群系。 |
-| Lighthouse | 位于主世界的符合条件的平原类生物群系。 |
-| Mechanical Nest | 位于主世界的符合条件的森林类生物群系。 |
-| Merchant Campsite | 位于主世界的平原、草甸、向日葵平原生物群系。 |
-| Mining Complex | 位于主世界的符合条件的丛林、森林、针叶林类生物群系。 |
+| Abandoned Temple | 主世界：针叶林、丘陵、山地类生物群系。 |
+| Aviary | 末地：末地高地、末地中地生物群系。 |
+| Bandit Towers | 主世界：Bryce Canyon（Terralith）、Painted Mountains（Terralith）生物群系。 |
+| Bandit Village | 主世界：Bryce Canyon（Terralith）、Painted Mountains（Terralith）生物群系。 |
+| Bathhouse | 主世界：平原、草甸、黑森林生物群系。 |
+| Ceryneian Hind | 主世界：沙漠类生物群系。 |
+| Coliseum | 主世界：平原、草甸、向日葵平原生物群系。 |
+| Fishing Hut | 主世界：Gravel Beach（Terralith）生物群系。 |
+| Foundry | 主世界：丛林、森林、针叶林类生物群系。 |
+| Giant Mushroom | 主世界：草甸、平原、向日葵平原生物群系。 |
+| Greenwood Pub | 主世界：森林类生物群系。 |
+| Heavenly Challenger | 主世界：丛林、森林类生物群系。 |
+| Heavenly Conqueror | 主世界：丛林、森林类生物群系。 |
+| Heavenly Rider | 主世界：丛林、森林类生物群系。 |
+| Illager Campsite | 主世界：丘陵类生物群系。 |
+| Illager Corsair | 主世界：海洋类生物群系。 |
+| Illager Fort | 主世界：针叶林类生物群系。 |
+| Illager Galley | 主世界：海洋类生物群系。 |
+| Illager Windmill | 主世界：平原、草甸、向日葵平原生物群系。 |
+| Infested Temple | 主世界：针叶林、丘陵类生物群系。 |
+| Jungle Tree House | 主世界：Amethyst Canyon（Terralith）、Amethyst Rainforest（Terralith）生物群系。 |
+| Keep Kayra | 主世界：沼泽类生物群系。 |
+| Kisegi Sanctuary | 主世界：丘陵类生物群系。 |
+| Lighthouse | 主世界：平原类生物群系。 |
+| Mechanical Nest | 主世界：森林类生物群系。 |
+| Merchant Campsite | 主世界：平原、草甸、向日葵平原生物群系。 |
+| Mining Complex | 主世界：丛林、森林、针叶林类生物群系。 |
 | Mining System | 没有自然生成的生物群系。 |
-| Monastery | 位于主世界的符合条件的针叶林、丘陵、山地类生物群系。 |
-| Mushroom House | 位于主世界的符合条件的森林类生物群系。 |
-| Mushroom Mines | 位于主世界的符合条件的森林类生物群系。 |
-| Mushroom Village | 位于主世界的符合条件的森林类生物群系。 |
-| Plague Asylum | 位于主世界的符合条件的森林类生物群系。 |
-| Scorched Mines | 位于主世界的符合条件的沙漠类生物群系。 |
-| Shiraz Palace | 位于主世界的符合条件的沙漠类生物群系。 |
-| Small Blimp | 位于主世界的符合条件的丛林、森林、针叶林类生物群系。 |
-| Thornborn Towers | 位于主世界的符合条件的森林类生物群系。 |
-| Typhon | 位于主世界的符合条件的海洋类生物群系。 |
-| Undead Pirate Ship | 位于主世界的符合条件的海洋类生物群系。 |
-| Wishing Well | 位于主世界的平原、草甸、向日葵平原生物群系。 |
+| Monastery | 主世界：针叶林、丘陵、山地类生物群系。 |
+| Mushroom House | 主世界：森林类生物群系。 |
+| Mushroom Mines | 主世界：森林类生物群系。 |
+| Mushroom Village | 主世界：森林类生物群系。 |
+| Plague Asylum | 主世界：森林类生物群系。 |
+| Scorched Mines | 主世界：沙漠类生物群系。 |
+| Shiraz Palace | 主世界：沙漠类生物群系。 |
+| Small Blimp | 主世界：丛林、森林、针叶林类生物群系。 |
+| Thornborn Towers | 主世界：森林类生物群系。 |
+| Typhon | 主世界：海洋类生物群系。 |
+| Undead Pirate Ship | 主世界：海洋类生物群系。 |
+| Wishing Well | 主世界：平原、草甸、向日葵平原生物群系。 |
 
 ***
 
@@ -71,11 +71,11 @@ Mechanical Nest
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Sandworm Nest | 位于主世界的沙漠生物群系。 |
-| Dragon Tower | 位于主世界的符合条件的竹林、丛林、红树林沼泽生物群系。 |
-| Underworld Arena | 位于下界的下界荒地、灵魂沙峡谷生物群系。 |
-| Yeti Hideout | 位于主世界的积雪平原生物群系。 |
-| Kraken Ship | 位于主世界的冷水深海、温水深海、深海生物群系。 |
+| Sandworm Nest | 主世界：沙漠生物群系。 |
+| Dragon Tower | 主世界：竹林、丛林、红树林沼泽生物群系。 |
+| Underworld Arena | 下界：下界荒地、灵魂沙峡谷生物群系。 |
+| Yeti Hideout | 主世界：积雪平原生物群系。 |
+| Kraken Ship | 主世界：冷水深海、温水深海、深海生物群系。 |
 
 - [首领战斗](adventure.bosses.md)
 
@@ -91,21 +91,21 @@ Mechanical Nest
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Abandoned Spire | 位于主世界的积雪平原生物群系。 |
-| Abandoned Temple | 位于主世界的积雪平原生物群系。 |
-| Abandoned Village | 位于主世界的积雪平原生物群系。 |
-| Acropolis | 位于主世界的暖水海洋生物群系。 |
-| Amethyst Nest | 位于主世界的繁茂洞穴生物群系。 |
-| Ancient Factory | 位于主世界的符合条件的Andesite Caves（Terralith）、Deep Caves（Terralith）生物群系。 |
-| Burning Arena | 位于下界的下界荒地生物群系。 |
-| Cursed Pyramid | 位于主世界的沙漠生物群系。 |
-| Desert Occupied Village | 位于主世界的沙漠生物群系。 |
-| Desert Site | 位于主世界的沙漠生物群系。 |
-| Desert Temple | 位于主世界的沙漠生物群系。 |
-| Frosted Prison | 位于主世界的积雪平原生物群系。 |
-| Ruined Citadel | 位于末地的末地高地、末地中地生物群系。 |
-| Soul Black Smith | 位于下界的符合条件的绯红森林、下界荒地、灵魂沙峡谷生物群系。 |
-| Sunken City | 位于主世界的符合条件的冷水深海、冻洋深海、温水深海生物群系。 |
+| Abandoned Spire | 主世界：积雪平原生物群系。 |
+| Abandoned Temple | 主世界：积雪平原生物群系。 |
+| Abandoned Village | 主世界：积雪平原生物群系。 |
+| Acropolis | 主世界：暖水海洋生物群系。 |
+| Amethyst Nest | 主世界：繁茂洞穴生物群系。 |
+| Ancient Factory | 主世界：Andesite Caves（Terralith）、Deep Caves（Terralith）生物群系。 |
+| Burning Arena | 下界：下界荒地生物群系。 |
+| Cursed Pyramid | 主世界：沙漠生物群系。 |
+| Desert Occupied Village | 主世界：沙漠生物群系。 |
+| Desert Site | 主世界：沙漠生物群系。 |
+| Desert Temple | 主世界：沙漠生物群系。 |
+| Frosted Prison | 主世界：积雪平原生物群系。 |
+| Ruined Citadel | 末地：末地高地、末地中地生物群系。 |
+| Soul Black Smith | 下界：绯红森林、下界荒地、灵魂沙峡谷生物群系。 |
+| Sunken City | 主世界：冷水深海、冻洋深海、温水深海生物群系。 |
 
 - [首领战斗](adventure.bosses.md)
 
@@ -119,11 +119,11 @@ Mechanical Nest
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Firecaller Hut | 位于主世界的符合条件的Bryce Canyon（Terralith）、Painted Mountains（Terralith）生物群系。 |
-| Illager Fort | 位于主世界的符合条件的积雪平原生物群系。 |
-| Illusioner Tower | 位于主世界的符合条件的黑森林、原始松木针叶林、原始云杉针叶林生物群系。 |
-| Labyrinth | 位于主世界的符合条件的Alpine Grove（Terralith）、Amethyst Canyon（Terralith）生物群系。 |
-| Sorcerer Hut | 位于主世界的黑森林生物群系。 |
+| Firecaller Hut | 主世界：Bryce Canyon（Terralith）、Painted Mountains（Terralith）生物群系。 |
+| Illager Fort | 主世界：积雪平原生物群系。 |
+| Illusioner Tower | 主世界：黑森林、原始松木针叶林、原始云杉针叶林生物群系。 |
+| Labyrinth | 主世界：Alpine Grove（Terralith）、Amethyst Canyon（Terralith）生物群系。 |
+| Sorcerer Hut | 主世界：黑森林生物群系。 |
 
 ***
 
@@ -135,10 +135,10 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Citadel | 位于下界的符合条件的下界类生物群系。 |
-| Iceologer Cabin | 位于主世界的符合条件的积雪、积雪Plains类生物群系。 |
-| Illusioner Shack | 位于主世界的符合条件的针叶林类生物群系。 |
-| Illusioner Training Grounds | 位于主世界的符合条件的针叶林类生物群系。 |
+| Citadel | 下界：下界类生物群系。 |
+| Iceologer Cabin | 主世界：积雪、积雪Plains类生物群系。 |
+| Illusioner Shack | 主世界：针叶林类生物群系。 |
+| Illusioner Training Grounds | 主世界：针叶林类生物群系。 |
 
 - [首领战斗](adventure.bosses.md)
 
@@ -156,11 +156,11 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Catacombs | 位于主世界的符合条件的冰雪、恶地、沙漠类生物群系。 |
-| Small Dungeon | 位于主世界的符合条件的冰雪、恶地、沙漠类生物群系。 |
+| Catacombs | 主世界：冰雪、恶地、沙漠类生物群系。 |
+| Small Dungeon | 主世界：冰雪、恶地、沙漠类生物群系。 |
 | Small Nether Dungeon | 当前设置禁用此建筑。 |
-| Spider Caves | 位于主世界的符合条件的冰雪、恶地、沙漠类生物群系。 |
-| Fortress of the Undead | 位于主世界的符合条件的冰雪、恶地、沙漠类生物群系。 |
+| Spider Caves | 主世界：冰雪、恶地、沙漠类生物群系。 |
+| Fortress of the Undead | 主世界：冰雪、恶地、沙漠类生物群系。 |
 
 ***
 
@@ -174,19 +174,19 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Mineshaft Acacia | 位于主世界的符合条件的热带草原类生物群系。 |
-| Mineshaft Desert | 位于主世界的符合条件的沙漠类生物群系。 |
-| Mineshaft Dripstone | 位于主世界的溶洞生物群系。 |
-| Mineshaft Ice | 位于主世界的符合条件的冰雪类生物群系。 |
-| Mineshaft Jungle | 位于主世界的符合条件的丛林类生物群系。 |
-| Mineshaft Lush | 位于主世界的繁茂洞穴生物群系。 |
-| Mineshaft Mesa | 位于主世界的符合条件的恶地、恶地类生物群系。 |
-| Mineshaft Mushroom | 位于主世界的符合条件的蘑菇类生物群系。 |
-| Mineshaft Oak | 位于主世界的符合条件的平原类生物群系。 |
-| Mineshaft Overgrown | 位于主世界的符合条件的森林类生物群系。 |
-| Mineshaft Red Desert | 位于主世界的符合条件的恶地类生物群系。 |
-| Mineshaft Spruce | 位于主世界的符合条件的Dead Forest (biomesoplenty)、Jade Cliffs (biomesoplenty)生物群系。 |
-| Mineshaft Spruce Snowy | 位于主世界的符合条件的尖峭山峰、积雪平原、积雪山坡生物群系。 |
+| Mineshaft Acacia | 主世界：热带草原类生物群系。 |
+| Mineshaft Desert | 主世界：沙漠类生物群系。 |
+| Mineshaft Dripstone | 主世界：溶洞生物群系。 |
+| Mineshaft Ice | 主世界：冰雪类生物群系。 |
+| Mineshaft Jungle | 主世界：丛林类生物群系。 |
+| Mineshaft Lush | 主世界：繁茂洞穴生物群系。 |
+| Mineshaft Mesa | 主世界：恶地、恶地类生物群系。 |
+| Mineshaft Mushroom | 主世界：蘑菇类生物群系。 |
+| Mineshaft Oak | 主世界：平原类生物群系。 |
+| Mineshaft Overgrown | 主世界：森林类生物群系。 |
+| Mineshaft Red Desert | 主世界：恶地类生物群系。 |
+| Mineshaft Spruce | 主世界：Dead Forest (biomesoplenty)、Jade Cliffs (biomesoplenty)生物群系。 |
+| Mineshaft Spruce Snowy | 主世界：尖峭山峰、积雪平原、积雪山坡生物群系。 |
 
 ***
 
@@ -200,7 +200,7 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Desert Temple | 位于主世界的符合条件的沙漠类生物群系。 |
+| Desert Temple | 主世界：沙漠类生物群系。 |
 
 ***
 
@@ -214,7 +214,7 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Jungle Temple | 位于主世界的符合条件的Amethyst Canyon（Terralith）、Amethyst Rainforest（Terralith）生物群系。 |
+| Jungle Temple | 主世界：Amethyst Canyon（Terralith）、Amethyst Rainforest（Terralith）生物群系。 |
 
 ***
 
@@ -228,7 +228,7 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Fortress | 位于下界的符合条件的下界类生物群系。 |
+| Fortress | 下界：下界类生物群系。 |
 
 ***
 
@@ -242,7 +242,7 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Ocean Monument | 位于主世界的符合条件的深海类生物群系。 |
+| Ocean Monument | 主世界：深海类生物群系。 |
 
 ***
 
@@ -256,7 +256,7 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Stronghold | 位于主世界的符合条件的冰雪、沙漠、森林类生物群系。 |
+| Stronghold | 主世界：冰雪、沙漠、森林类生物群系。 |
 
 ***
 
@@ -270,8 +270,8 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Witch Circle | 位于主世界的符合条件的沼泽类生物群系。 |
-| Witch Hut | 位于主世界的符合条件的沼泽类生物群系。 |
+| Witch Circle | 主世界：沼泽类生物群系。 |
+| Witch Hut | 主世界：沼泽类生物群系。 |
 
 小屋有大型、小型与复式布局。Witch Circle 是独立建筑。
 
@@ -285,14 +285,14 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Ant Mount | 位于主世界的Ant Gardens（Spawn）生物群系。 |
-| Cold Island | 位于主世界的冷水深海生物群系。 |
-| Dodo Island | 位于主世界的符合条件的冷水深海、温水深海、深海生物群系。 |
-| Octopolis | 位于主世界的符合条件的深海、温水海洋、海洋生物群系。 |
-| Sandy Island | 位于主世界的温水深海生物群系。 |
-| Tide Pool | 位于主世界的冷水深海生物群系。 |
-| Tropical Island | 位于主世界的符合条件的暖水海洋生物群系。 |
-| Volcanic Island | 位于主世界的符合条件的暖水海洋生物群系。 |
+| Ant Mount | 主世界：Ant Gardens（Spawn）生物群系。 |
+| Cold Island | 主世界：冷水深海生物群系。 |
+| Dodo Island | 主世界：冷水深海、温水深海、深海生物群系。 |
+| Octopolis | 主世界：深海、温水海洋、海洋生物群系。 |
+| Sandy Island | 主世界：温水深海生物群系。 |
+| Tide Pool | 主世界：冷水深海生物群系。 |
+| Tropical Island | 主世界：暖水海洋生物群系。 |
+| Volcanic Island | 主世界：暖水海洋生物群系。 |
 
 ***
 
@@ -306,34 +306,34 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Desert Outpost | 位于主世界的符合条件的沙漠生物群系。 |
-| Fortified Desert Village | 位于主世界的符合条件的沙漠生物群系。 |
-| Fortified Village | 位于主世界的符合条件的草甸、平原、向日葵平原生物群系。 |
-| Glacial Hut | 位于主世界的Glacial Chasm（Terralith）生物群系。 |
-| Igloo | 位于主世界的Snowy Cherry Grove（Terralith）生物群系。 |
-| Mage Complex | 位于主世界的符合条件的Amethyst Rainforest（Terralith）、Lavender Forest（Terralith）生物群系。 |
-| Mage Tower | 位于主世界的符合条件的Amethyst Canyon（Terralith）、Lavender Valley（Terralith）生物群系。 |
-| Mage Tower Autumn | 位于主世界的Skylands Autumn（Terralith）生物群系。 |
-| Mage Tower Spring | 位于主世界的Skylands Spring（Terralith）生物群系。 |
-| Mage Tower Summer | 位于主世界的Skylands Summer（Terralith）生物群系。 |
-| Mage Tower Winter | 位于主世界的Skylands Winter（Terralith）生物群系。 |
-| Rubble Desert | 位于主世界的符合条件的沙漠生物群系。 |
-| Rubble Forest | 位于主世界的符合条件的Birch Forest、黑森林、Flower Forest生物群系。 |
-| Rubble Jungle | 位于主世界的符合条件的竹林、丛林、Sparse Jungle生物群系。 |
-| Rubble Mesa | 位于主世界的符合条件的恶地、Eroded Badlands、Wooded Badlands生物群系。 |
-| Rubble Mountain | 位于主世界的符合条件的冰封山峰、尖峭山峰、Stony Peaks生物群系。 |
-| Rubble Taiga | 位于主世界的符合条件的Grove、原始松木针叶林、原始云杉针叶林生物群系。 |
-| Spire | 位于主世界的冻河生物群系。 |
-| Frosted Dungeon | 位于主世界的Frostfire Caves（Terralith）生物群系。 |
-| Giant Bee Hive | 位于主世界的符合条件的繁茂洞穴生物群系。 |
-| Mining Outpost | 位于主世界的Deep Caves（Terralith）生物群系。 |
-| Oak Cabin | 位于主世界的繁茂洞穴生物群系。 |
-| Old Refinery | 位于主世界的符合条件的Deep Caves（Terralith）、Fungal Caves（Terralith）生物群系。 |
-| Sunken Tower | 位于主世界的符合条件的繁茂洞穴生物群系。 |
+| Desert Outpost | 主世界：沙漠生物群系。 |
+| Fortified Desert Village | 主世界：沙漠生物群系。 |
+| Fortified Village | 主世界：草甸、平原、向日葵平原生物群系。 |
+| Glacial Hut | 主世界：Glacial Chasm（Terralith）生物群系。 |
+| Igloo | 主世界：Snowy Cherry Grove（Terralith）生物群系。 |
+| Mage Complex | 主世界：Amethyst Rainforest（Terralith）、Lavender Forest（Terralith）生物群系。 |
+| Mage Tower | 主世界：Amethyst Canyon（Terralith）、Lavender Valley（Terralith）生物群系。 |
+| Mage Tower Autumn | 主世界：Skylands Autumn（Terralith）生物群系。 |
+| Mage Tower Spring | 主世界：Skylands Spring（Terralith）生物群系。 |
+| Mage Tower Summer | 主世界：Skylands Summer（Terralith）生物群系。 |
+| Mage Tower Winter | 主世界：Skylands Winter（Terralith）生物群系。 |
+| Rubble Desert | 主世界：沙漠生物群系。 |
+| Rubble Forest | 主世界：Birch Forest、黑森林、Flower Forest生物群系。 |
+| Rubble Jungle | 主世界：竹林、丛林、Sparse Jungle生物群系。 |
+| Rubble Mesa | 主世界：恶地、Eroded Badlands、Wooded Badlands生物群系。 |
+| Rubble Mountain | 主世界：冰封山峰、尖峭山峰、Stony Peaks生物群系。 |
+| Rubble Taiga | 主世界：Grove、原始松木针叶林、原始云杉针叶林生物群系。 |
+| Spire | 主世界：冻河生物群系。 |
+| Frosted Dungeon | 主世界：Frostfire Caves（Terralith）生物群系。 |
+| Giant Bee Hive | 主世界：繁茂洞穴生物群系。 |
+| Mining Outpost | 主世界：Deep Caves（Terralith）生物群系。 |
+| Oak Cabin | 主世界：繁茂洞穴生物群系。 |
+| Old Refinery | 主世界：Deep Caves（Terralith）、Fungal Caves（Terralith）生物群系。 |
+| Sunken Tower | 主世界：繁茂洞穴生物群系。 |
 | Witch Hut | 没有自然生成的生物群系。 |
-| Underground Cabin | 位于主世界的繁茂洞穴生物群系。 |
-| Valley Lodge | 位于主世界的Shield Clearing（Terralith）、Valley Clearing（Terralith）生物群系。 |
-| Witch Hut | 位于主世界的符合条件的沼泽生物群系。 |
+| Underground Cabin | 主世界：繁茂洞穴生物群系。 |
+| Valley Lodge | 主世界：Shield Clearing（Terralith）、Valley Clearing（Terralith）生物群系。 |
+| Witch Hut | 主世界：沼泽生物群系。 |
 
 ***
 
@@ -347,8 +347,8 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Dragon Skeleton | 位于末地的Shadowlands（Nullscape）生物群系。 |
-| Rift | 位于末地的Shadowlands（Nullscape）生物群系。 |
+| Dragon Skeleton | 末地：Shadowlands（Nullscape）生物群系。 |
+| Rift | 末地：Shadowlands（Nullscape）生物群系。 |
 
 ***
 
@@ -362,14 +362,14 @@ Citadel 内的野火
 
 | 建筑 | 寻找地点 |
 | --- | --- |
-| Dark Oak Ruins | 位于主世界的黑森林生物群系。 |
-| Feline Witcher Hideout | 位于主世界的符合条件的洞穴类生物群系。 |
-| Griffin Witcher Hideout | 位于主世界的符合条件的洞穴类生物群系。 |
-| Oak Ruins | 位于主世界的森林、平原生物群系。 |
-| Ursine Witcher Hideout | 位于主世界的符合条件的洞穴类生物群系。 |
-| Witcher Grave Cave | 位于主世界的符合条件的洞穴类生物群系。 |
-| Witcher Grave Dark Oak | 位于主世界的黑森林生物群系。 |
-| Wolven Witcher Hideout | 位于主世界的符合条件的洞穴类生物群系。 |
+| Dark Oak Ruins | 主世界：黑森林生物群系。 |
+| Feline Witcher Hideout | 主世界：洞穴类生物群系。 |
+| Griffin Witcher Hideout | 主世界：洞穴类生物群系。 |
+| Oak Ruins | 主世界：森林、平原生物群系。 |
+| Ursine Witcher Hideout | 主世界：洞穴类生物群系。 |
+| Witcher Grave Cave | 主世界：洞穴类生物群系。 |
+| Witcher Grave Dark Oak | 主世界：黑森林生物群系。 |
+| Wolven Witcher Hideout | 主世界：洞穴类生物群系。 |
 
 ***
 
@@ -395,3 +395,24 @@ Citadel 内的野火
 ## 未启用的建筑
 
 Incendium Biomes Only 移除了 Incendium 的建筑、特殊生物、首领与战利品。地形仍保留，但这些建筑不属于本整合包的探索地点。
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 已安装基准版 | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 已安装基准版 | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 已安装基准版 | ⛲️ Village structures hosting small spell libraries |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 已安装基准版 | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 已安装基准版 | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |
+| ![When Dungeons Arise](images/catalog-8DfbfASn.png) [When Dungeons Arise](adventure.structures.md) | 已安装基准版 | Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds! |
+| ![YUNG's Better Desert Temples](images/catalog-XNlO7sBv.png) [YUNG's Better Desert Temples](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's desert temples! |
+| ![YUNG's Better Dungeons](images/catalog-o1C1Dkj5.png) [YUNG's Better Dungeons](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's dungeons! |
+| ![YUNG's Better Jungle Temples](images/catalog-z9Ve58Ih.png) [YUNG's Better Jungle Temples](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's jungle temples! |
+| ![YUNG's Better Mineshafts](images/catalog-HjmxVlSr.png) [YUNG's Better Mineshafts](adventure.structures.md) | 已安装基准版 | A long-awaited and much-needed abandoned mineshaft overhaul! |
+| ![YUNG's Better Nether Fortresses](images/catalog-Z2mXHnxP.png) [YUNG's Better Nether Fortresses](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's Nether fortresses! |
+| ![YUNG's Better Ocean Monuments](images/catalog-3dT9sgt4.png) [YUNG's Better Ocean Monuments](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's ocean monuments! |
+| ![YUNG's Better Strongholds](images/catalog-kidLKymU.png) [YUNG's Better Strongholds](adventure.structures.md) | 已安装基准版 | A complete redesign of Minecraft's strongholds! |
+| ![YUNG's Better Witch Huts](images/catalog-t5FRdP87.png) [YUNG's Better Witch Huts](adventure.structures.md) | 已安装基准版 | Adds overhauled witch huts to swamps! |

@@ -110,4 +110,18 @@ Supplementaries supplies awnings, jars, pedestals, blackboards and small furnish
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Amendments](images/catalog-6iTJugQR.png) [Amendments](building.furniture.md) | Baseline, installed | Many changes to vanilla blocks |
+| ![Beautify: ReFoxed](images/catalog-ZQCyyWBM.png) [Beautify: ReFoxed](building.furniture.md) | Baseline, installed | Adds lots of vanilla-styled ways to spice up your builds. |
+| ![Create: Interiors](images/catalog-r4Knci2k.png) [Create: Interiors](building.furniture.md) | Baseline, installed | A complement to the Create mod that adds new furniture. |
+| ![Handcrafted](images/catalog-pJmCFF0p.png) [Handcrafted](building.furniture.md) | Baseline, installed | Make your house a home! |
+| ![Supplementaries](images/catalog-fFEIiSDQ.png) [Supplementaries](building.furniture.md) | Baseline, installed | Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation |
+| ![TW‘s  Decorative Food](images/catalog-656seq5J.png) [TW‘s  Decorative Food](building.furniture.md) | Baseline, installed | Make the food placeable.Decorate your world! |

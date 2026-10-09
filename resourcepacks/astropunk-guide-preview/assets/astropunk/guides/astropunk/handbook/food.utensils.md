@@ -15,6 +15,10 @@ item_ids:
 
 ## Kitchen tools
 
+![Cooking pot over a campfire](images/nav-visual-farmers-delight-pot-campfire.png)
+
+![Cooking pot interface](images/nav-visual-farmers-delight-pot-interface.png)
+
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooking_pot" />
   <ItemIcon id="farmersdelight:cutting_board" />
@@ -288,3 +292,11 @@ Whole pies are cut into slices. Drinks and desserts use different containers and
 - [Food & hunger](food.hunger.md)
 - [Crop ingredients](food.growing.md)
 - [Machine kitchens](food.machine-cooking.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | Baseline, installed | A cozy expansion to farming and cooking! |

@@ -2,26 +2,49 @@
 navigation:
   title: "调整天气、粒子与过渡效果"
   position: 0
-  parent: category-visuals.md
+  parent: reference.appearance.md
   icon: minecraft:painting
 ---
 
 # 调整天气、粒子与过渡效果
 
-## 概览
+## 传送过渡
 
-编写中（WIP）。
+GrandTeleport 改变传送时的镜头过渡，不会创建生存旅行目的地，也不会授予传送权限。
+
+| 内容 | 作用 |
+| --- | --- |
+| GrandTeleport NeoForge | 为传送增加电影式镜头过渡。 |
+
+***
+
+## 其他版本效果
+
+这些爆炸、状态粒子与环境视觉扩展未在此安装。粒子优化组件与视觉效果生成组件分开列出。
+
+| 内容 | 作用 |
+| --- | --- |
+| Explosive Enhancement: Reforged（未安装） | 改变爆炸动画效果。 |
+| Particle Effects（未安装） | 为原版状态效果提供不同纹理的粒子。 |
+| Particular ✨ Reforged（未安装） | 增加环境视觉效果。 |
+| Ripple（未安装） | 让粒子对实体作出反应。 |
+
+***
+
+## 相关页面
+
+- [性能优化](performance.baseline.md)
+- [传送](travel.destinations.md)
+
+
+***
 
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) Better Biome Reblend | Updated version of Better Biome Blend, a mod that improves Biome Blending |
-| ![Continuity](images/catalog-1IjD5062.png) Continuity | A Minecraft mod that allows for efficient connected textures |
-| <ItemImage id="minecraft:painting" /> Explosive Enhancement: Reforged（重型版，当前未安装） | 当前未安装。 |
-| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) GrandTeleport NeoForge | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
-| <ItemImage id="minecraft:painting" /> Particle Effects（重型版，当前未安装） | 当前未安装。 |
-| <ItemImage id="minecraft:painting" /> Particular ✨ Reforged（重型版，当前未安装） | 当前未安装。 |
-| ![Polytone](images/catalog-3qAYkBMB.png) Polytone | Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs |
-| <ItemImage id="minecraft:painting" /> Ripple（重型版，当前未安装） | 当前未安装。 |
-| ![Traveler's Titles](images/catalog-JtifUr64.png) Traveler's Titles | Epic, RPG-like titles when entering biomes & dimensions! |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
+| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 已安装基准版 | A Minecraft NeoForge mod that adds a seamless, high-speed 3D cinematic zoom-out teleportation animation inspired by GTA V. |
+| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
+| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |
+| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | 重型版，当前未安装 | 当前未安装。 |

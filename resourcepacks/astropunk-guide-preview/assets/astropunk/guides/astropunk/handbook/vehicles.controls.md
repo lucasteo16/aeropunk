@@ -102,4 +102,14 @@ Linked receivers and optical or laser sensors extend control wiring. Aero Engine
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | Baseline, installed | A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more! |
+| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | Baseline, installed | An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller |

@@ -18,22 +18,22 @@ The image shows one species. The other entries have their own appearance.
 
 | Creature | Encounter |
 | --- | --- |
-| Badlands Creeper | Look in eligible Overworld badlands biomes. |
-| Bamboo Creeper | Look in eligible Overworld jungle biomes. |
-| Beach Creeper | Look in eligible Overworld beach biomes. |
-| Birch Creeper | Look in eligible Overworld birch forest biomes. |
+| Badlands Creeper | Overworld: badlands biomes. |
+| Bamboo Creeper | Overworld: jungle biomes. |
+| Beach Creeper | Overworld: beach biomes. |
+| Birch Creeper | Overworld: birch forest biomes. |
 | Cave Creeper | Spawns in eligible Overworld biomes used by the mod’s creeper spawn rules. |
-| Dark Oak Creeper | Look in eligible Overworld dark forest biomes. |
-| Desert Creeper | Look in eligible Overworld desert biomes. |
-| Dripstone Creeper | Look in eligible Overworld cave biomes. |
-| Hills Creeper | Look in eligible Overworld hill biomes. |
-| Jungle Creeper | Look in eligible Overworld jungle biomes. |
-| Mushroom Creeper | Look in eligible Overworld mushroom biomes. |
-| Ocean Creeper | Look in eligible Overworld ocean biomes. |
-| Savannah Creeper | Look in eligible Overworld savanna biomes. |
-| Snowy Creeper | Look in eligible Overworld snowy biomes. |
-| Spruce Creeper | Look in eligible Overworld taiga biomes. |
-| Swamp Creeper | Look in eligible Overworld swamp biomes. |
+| Dark Oak Creeper | Overworld: dark forest biomes. |
+| Desert Creeper | Overworld: desert biomes. |
+| Dripstone Creeper | Overworld: cave biomes. |
+| Hills Creeper | Overworld: hill biomes. |
+| Jungle Creeper | Overworld: jungle biomes. |
+| Mushroom Creeper | Overworld: mushroom biomes. |
+| Ocean Creeper | Overworld: ocean biomes. |
+| Savannah Creeper | Overworld: savanna biomes. |
+| Snowy Creeper | Overworld: snowy biomes. |
+| Spruce Creeper | Overworld: taiga biomes. |
+| Swamp Creeper | Overworld: swamp biomes. |
 
 ***
 
@@ -48,26 +48,26 @@ The image shows one species. The other entries have their own appearance.
 | Creature | Encounter |
 | --- | --- |
 | Axolotl Pet Enderman | Summoned with an Ancient Pearl rather than found as wild animals. |
-| Badlands Enderman | Look in eligible Overworld badlands biomes. |
+| Badlands Enderman | Overworld: badlands biomes. |
 | Cave Enderman | Uses broad Overworld spawn tags. Its name does not limit it to caves. |
-| Coral Enderman | Look in eligible Overworld Warm Ocean biomes. |
-| Crimson Forest Enderman | Look in eligible Nether crimson forest biomes. |
-| Dark Oak Enderman | Look in eligible Overworld dark forest biomes. |
-| Desert Enderman | Look in eligible Overworld desert biomes. |
-| End Enderman | Look in eligible End biomes. |
-| End Islands Enderman | Look on the outer End islands in eligible biomes. |
-| Flower Fields Enderman | Look in eligible Overworld flower forest biomes. |
+| Coral Enderman | Overworld: Warm Ocean biomes. |
+| Crimson Forest Enderman | Nether: crimson forest biomes. |
+| Dark Oak Enderman | Overworld: dark forest biomes. |
+| Desert Enderman | Overworld: desert biomes. |
+| End Enderman | End: biomes. |
+| End Islands Enderman | End: outer islands. |
+| Flower Fields Enderman | Overworld: flower forest biomes. |
 | Hammerhead Pet Enderman | Summoned with an Ancient Pearl rather than found as wild animals. |
-| Ice Spikes Enderman | Look in eligible Overworld ice spikes biomes. |
-| Mushroom Fields Enderman | Look in eligible Overworld mushroom fields biomes. |
-| Nether Wastes Enderman | Look in the Nether Wastes. |
+| Ice Spikes Enderman | Overworld: ice spikes biomes. |
+| Mushroom Fields Enderman | Overworld: mushroom fields biomes. |
+| Nether Wastes Enderman | Nether: Nether Wastes. |
 | Pet Enderman | Summoned with an Ancient Pearl rather than found as wild animals. |
-| Savanna Enderman | Look in eligible Overworld savanna biomes. |
-| Snowy Enderman | Look in eligible Overworld snowy biomes. |
-| Soulsand Valley Enderman | Look in eligible Nether soul sand valley biomes. |
-| Swamp Enderman | Look in eligible Overworld swamp biomes. |
-| Warped Forest Enderman | Look in eligible Nether warped forest biomes. |
-| Windswept Hills Enderman | Look in eligible Overworld windswept hills biomes. |
+| Savanna Enderman | Overworld: savanna biomes. |
+| Snowy Enderman | Overworld: snowy biomes. |
+| Soulsand Valley Enderman | Nether: soul sand valley biomes. |
+| Swamp Enderman | Overworld: swamp biomes. |
+| Warped Forest Enderman | Nether: warped forest biomes. |
+| Windswept Hills Enderman | Overworld: windswept hills biomes. |
 | Scarab | Registered secondary creature. Encounter conditions not confirmed. |
 | Spirit | Registered secondary creature. Encounter conditions not confirmed. |
 
@@ -118,32 +118,32 @@ Snail
 
 | Creature | Encounter |
 | --- | --- |
-| Angler Fish | Deep water fish that attracts prey with a lure. Look in deep cold and frozen Overworld oceans. It fits in a bucket. |
+| Angler Fish | Deep water fish that attracts prey with a lure. Overworld: deep cold and frozen oceans. It fits in a bucket. |
 | Tuna | A breedable fish found in cold and deep Overworld oceans. Adults do not fit in a bucket. |
-| Seahorse | Look around warm Overworld reefs and Seagrass Meadow. Its appearance varies with the habitat. |
+| Seahorse | Overworld: warm reefs and Seagrass Meadow. Its appearance varies with the habitat. |
 | Snail | A forest snail that produces mucus when wet. |
-| Hamster | Look in open Overworld grasslands. Tame it with sunflower seeds. |
-| Ant | Look around anthills. Ants hatched from pupae follow their owner. Natural spawn conditions are not confirmed. |
-| Clam | Look along Overworld beaches and oceans. Collect it by hand or with a Casting Net. |
-| Sea Cow | Look in Seagrass Meadow in the Overworld. Milk it with a bucket. |
-| Flukeshroom | Look on Overworld Mushroom Fields. Collect its soup with a bowl. |
+| Hamster | Overworld: open grasslands. Tame it with sunflower seeds. |
+| Ant | Anthills. Ants hatched from pupae follow their owner. Natural spawn conditions are not confirmed. |
+| Clam | Overworld: beaches and oceans. Collect it by hand or with a Casting Net. |
+| Sea Cow | Overworld: Seagrass Meadow. Milk it with a bucket. |
+| Flukeshroom | Overworld: Mushroom Fields. Collect its soup with a bowl. |
 | Octopus | A rare Overworld ocean creature. Catch it with a Casting Net. |
 | Herring | A schooling fish found in Overworld oceans. |
 | Pilot Fish | Swims around larger creatures. Its natural location is not confirmed. |
-| Blenny | Look in tide pools. It is easily startled. Natural spawn conditions are not confirmed. |
-| Bluefish | Look in cold Overworld oceans. It can enter a frenzy when nearby creatures are hurt. |
-| Sunfish | Look in cold and lukewarm Overworld oceans. Adults do not fit in a bucket. |
+| Blenny | Tide pools. It is easily startled. Natural spawn conditions are not confirmed. |
+| Bluefish | Overworld: cold oceans. It can enter a frenzy when nearby creatures are hurt. |
+| Sunfish | Overworld: cold and lukewarm oceans. Adults do not fit in a bucket. |
 | Stickbug | A mimic creature. Its encounter conditions are not confirmed. |
-| Barracuda | Look in deep warm and lukewarm Overworld oceans. Catch it with a Casting Net. |
-| Coastal Crab | Look along Overworld coasts. It shoots bubbles and fits in a bucket. |
+| Barracuda | Overworld: deep warm and lukewarm oceans. Catch it with a Casting Net. |
+| Coastal Crab | Overworld: coasts. It shoots bubbles and fits in a bucket. |
 | Spider Crab | A hostile crab in cold Overworld oceans. It climbs walls and shoots frozen bubbles. |
 | Stranded | Attacks hostile creatures that bump into it. Waxing changes its state. Its natural location is not confirmed. |
-| Barbed | Look in warmer Overworld oceans. It only attacks players who are in water. |
-| Iguana | Look on Tropical Islands. It uses sunlight to cook items. Natural spawn conditions are not confirmed. |
-| Marine Iguana | Look around sea stacks. Help a young iguana shed to gain its trust. Natural spawn conditions are not confirmed. |
-| Seal | Look on Cold Islands and in frozen Overworld oceans. Offer live fish for a ride. |
-| Booby | Look on Sandy Islands. It performs mating dances. Natural spawn conditions are not confirmed. |
-| Dodo | Look on Dodo Islands. It is defenseless and shoots harmless seeds at hostile creatures. Natural spawn conditions are not confirmed. |
+| Barbed | Overworld: warmer oceans. It only attacks players who are in water. |
+| Iguana | Tropical Islands. It uses sunlight to cook items. Natural spawn conditions are not confirmed. |
+| Marine Iguana | Sea stacks. Help a young iguana shed to gain its trust. Natural spawn conditions are not confirmed. |
+| Seal | Overworld: Cold Islands and frozen oceans. Offer live fish for a ride. |
+| Booby | Sandy Islands. It performs mating dances. Natural spawn conditions are not confirmed. |
+| Dodo | Dodo Islands. It is defenseless and shoots harmless seeds at hostile creatures. Natural spawn conditions are not confirmed. |
 | Firekeeper | A hostile creature made from molten rock and sunstone. Its natural location is not confirmed. |
 
 ***
@@ -255,3 +255,15 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 - [Bosses & summoning](adventure.bosses.md)
 - [Creature habitats & structures](adventure.structures.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | Baseline, installed | A mod which overhauls the vanilla creepers! |
+| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | Baseline, installed | Enderman Overhaul adds over 20 new enderman variants, each with their own sounds, models, and animations! |
+| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | Baseline, installed | Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse |
+| ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | Baseline, installed | An overworld wilderness overhaul that adds tons of animals, biomes, ambience and functionality |
+| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | Baseline, installed | Adds multiple new mob variants seamlessly integrated into your Minecraft world. |

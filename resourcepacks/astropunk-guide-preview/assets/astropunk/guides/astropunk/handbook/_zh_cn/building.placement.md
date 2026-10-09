@@ -50,4 +50,16 @@ Pattern Schematics 提供空白样式、已记录样式和样式蓝图与笔。F
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | 已安装基准版 | Build with repeating schematics! |
+| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | 已安装基准版 | This mod provides a new "Shuffle Filter" item which, when used in Create deployers on contrabtions, enables a randomnes when placing blocks. (Like the shuffle mod for players). |
+| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | 已安装基准版 | Litematica unofficial (Neo)Forge port. A modern client-side schematic mod for Minecraft. |
+| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | 已安装基准版 | A Trowel+ that randomizes / shuffle blocks with multiple customizable palettes. Includes building wand functionality. Works with Create /Copycats+ & FramedBlocks |

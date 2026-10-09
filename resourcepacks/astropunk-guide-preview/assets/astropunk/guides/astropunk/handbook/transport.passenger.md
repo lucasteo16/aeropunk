@@ -67,3 +67,12 @@ Passenger displays use different block shapes for the available space. Configure
 | Shown items |
 | --- |
 | <ItemLink id="create:wrench" /> |
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | Baseline, installed | A Minecraft Create Mod addon that adds several new features related to train navigation, such as improved display boards, a navigator for searching routes, new schedule entries, and more. |

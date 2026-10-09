@@ -32,6 +32,10 @@ navigation:
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
 
+<ItemLink id="archers:composite_longbow" />
+
+<Recipe id="archers:composite_longbow" />
+
 弓术招式包含蓄势射击、投射物、范围攻击与伙伴效果。
 
 | 能力 | 形式 |
@@ -48,8 +52,12 @@ navigation:
 ## 神射手
 
 <ItemGrid>
-  <ItemIcon id="archers_expansion:deadeye_chest" />
+  <ItemIcon id="archers:rapid_crossbow" />
 </ItemGrid>
+
+<ItemLink id="archers:rapid_crossbow" />
+
+<Recipe id="archers:rapid_crossbow" />
 
 物理远程招式结合快射、控制与职业专属攻击。
 
@@ -67,8 +75,12 @@ navigation:
 ## 冻原猎手
 
 <ItemGrid>
-  <ItemIcon id="archers_expansion:tundra_hunter_chest" />
+  <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
+
+<ItemLink id="archers:composite_longbow" />
+
+<Recipe id="archers:composite_longbow" />
 
 冰霜远程招式结合冰冻射击与持续区域。
 
@@ -86,8 +98,12 @@ navigation:
 ## 战弓手
 
 <ItemGrid>
-  <ItemIcon id="archers_expansion:war_archer_chest" />
+  <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
+
+<ItemLink id="archers:composite_longbow" />
+
+<Recipe id="archers:composite_longbow" />
 
 火焰远程招式结合箭矢攻击与燃烧区域。
 
@@ -108,6 +124,10 @@ navigation:
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
 
+<ItemLink id="rogues:iron_dagger" />
+
+<Recipe id="rogues:iron_dagger" />
+
 近战招式结合蓄势效果、陷阱与机动能力。
 
 | 能力 | 形式 |
@@ -126,6 +146,10 @@ navigation:
 <ItemGrid>
   <ItemIcon id="rogues:iron_double_axe" />
 </ItemGrid>
+
+<ItemLink id="rogues:iron_double_axe" />
+
+<Recipe id="rogues:iron_double_axe" />
 
 近战招式结合投掷、冲锋与自身防御效果。
 
@@ -146,6 +170,10 @@ navigation:
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
 
+<ItemLink id="berserker_rpg:iron_berserker_axe" />
+
+<Recipe id="berserker_rpg:iron_berserker_axe" />
+
 怒气招式结合近战伤害与自身效果。
 
 | 能力 | 形式 |
@@ -165,6 +193,10 @@ navigation:
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>
 
+<ItemLink id="forcemaster_rpg:iron_knuckle" />
+
+<Recipe id="forcemaster_rpg:iron_knuckle" />
+
 奥术近战招式结合贴身打击与远程效果。
 
 | 能力 | 形式 |
@@ -183,3 +215,17 @@ navigation:
 - [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
 - [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
 - [战斗操作](combat.handling.md) 了解攻击模式、施法操作与翻滚。
+
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | 已安装基准版 | 🏹 Draw, Release, Conquer - Master the art of Archery! |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 已安装基准版 | Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | 已安装基准版 | Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On |
+| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 已安装基准版 | Grab a Knuckle, master the force and martial art. Spell Engine Add-On |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 已安装基准版 | 🗡️ Silent Blades, Mighty Blows - Dominate with martial skills! |

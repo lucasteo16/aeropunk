@@ -26,6 +26,12 @@ navigation:
 
 Create Aeronautics bundles Simulated for physical moving builds and Offroad for wheels. Join the intended blocks with Super Glue or Honey Glue, then hold right-click on the Physics Assembler and pull its lever. Another Physics Assembler can disassemble the build. Use the Physics Assembler Ponder for assembly, block mass and splitting.
 
+### Assembly control
+
+<Recipe id="simulated:physics_assembler" />
+
+Craft <ItemLink id="simulated:physics_assembler" /> before assembling a physical moving build. The lever is part of this recipe.
+
 ***
 
 ## Ground vehicles
@@ -94,3 +100,12 @@ Simulated supplies mechanical connections and tools for moving builds. Create Pr
 | Shown items |
 | --- |
 | <ItemLink id="create:super_glue" /> |
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | Baseline, installed | Build anything from airships to planes and cars! |

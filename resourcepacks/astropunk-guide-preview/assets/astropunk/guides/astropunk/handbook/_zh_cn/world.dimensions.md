@@ -124,3 +124,16 @@ Deep Seas 铜制潜艇。
 当前轻量版未安装太空内容。
 
 - [太空](space.destinations.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | 已安装基准版 | Removes structures, items, mobs and bosses from Incendium, leaving only the biomes and terrain. |
+| ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | 已安装基准版 | A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat. |
+| ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | 已安装基准版 | Transforms the boring Vanilla end into an alien dimension with the most surreal terrain imaginable. Topped with a couple of new biomes to add to the experience, whilst keeping the end desolate. |
+| ![Streams Reflowing](images/streams-reflowing-icon.png) [Streams Reflowing](world.dimensions.md) | 已安装基准版 | Adds beautiful flowing streams to your world. |
+| ![Tectonic](images/tectonic-icon.png) [Tectonic](world.dimensions.md) | 已安装基准版 | Terrain shaping brought to new heights, grander and more varied than ever before! |
+| ![Terralith](images/terralith-icon.png) [Terralith](world.dimensions.md) | 已安装基准版 | Explore almost 100 new biomes consisting of both realism and light fantasy, using just Vanilla blocks. Complete with several immersive structures to compliment the overhauled terrain. |

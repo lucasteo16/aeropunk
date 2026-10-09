@@ -10,7 +10,7 @@ navigation:
 
 <ItemGrid><ItemIcon id="create:millstone" /></ItemGrid>
 
-Look up the millstone in Item recipe for its ingredients.
+Look up the millstone in Browse recipe for its ingredients.
 
 ## First interaction
 
@@ -18,4 +18,5 @@ Open the millstone's Ponder demonstration for its arrangement and rotational inp
 
 ## Reference
 
-[Rotational power](machines.rotation.md) lists the relevant components. [Ore processing](machines.ore-processing.md) compares processing machines.
+- [Rotational power](machines.rotation.md) Relevant components.
+- [Ore processing](machines.ore-processing.md) Processing machines.

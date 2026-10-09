@@ -71,3 +71,15 @@ Craft a Small Backpack with eight leather around a chest. Its first upgrade uses
 | <ItemLink id="minecraft:netherite_upgrade_smithing_template" /> |
 | <ItemLink id="minecraft:netherite_ingot" /> |
 | <ItemLink id="minecraft:smithing_table" /> |
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | Baseline, installed | Dyeable and upgradeable vanilla-friendly backpacks! |
+| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | Baseline, installed | Supercharge shulker boxes with browsing, inserting and extracting contents directly from your inventory. |
+| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | Baseline, installed | Adds reinforced shulker boxes. |
+| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | Baseline, installed | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |

@@ -44,6 +44,8 @@ Reach the arena inside the hideout.
 
 ## Sandworm
 
+![Sandworm](images/nav-visual-block-factorys-bosses-sandworm.png)
+
 Sirok, The Sandworm. Bosses'Rise. A segmented worm that moves beneath the sand.
 
 Find Sandworm Nest in an Overworld desert.
@@ -93,6 +95,8 @@ Place one <ItemLink id="cataclysm:burning_ashes" /> in <ItemLink id="cataclysm:a
 
 ## Netherite Monstrosity
 
+![Netherite Monstrosity](images/nav-visual-cataclysm-netherite-monstrosity.png)
+
 L_Ender's Cataclysm. A horned giant with enormous articulated hands.
 
 Find Soul Black Smith in the Nether Wastes, Soul Sand Valley or either Nether forest.
@@ -135,6 +139,8 @@ Use one <ItemLink id="minecraft:nether_star" /> on the dormant Harbinger. It is 
 
 ## The Leviathan
 
+![The Leviathan](images/nav-visual-cataclysm-the-leviathan.png)
+
 L_Ender's Cataclysm. An aquatic creature with four mouth sections and a tongue.
 
 Find Sunken City beneath deep Overworld oceans.
@@ -150,6 +156,8 @@ Place one <ItemLink id="cataclysm:abyssal_sacrifice" /> in <ItemLink id="catacly
 
 ## Ancient Remnant
 
+![Ancient Remnant](images/nav-visual-cataclysm-ancient-remnant.png)
+
 L_Ender's Cataclysm. A large creature with a long segmented tail.
 
 Find Cursed Pyramid in an Overworld desert.
@@ -163,6 +171,8 @@ Use one <ItemLink id="cataclysm:necklace_of_the_desert" /> on the dormant Remnan
 ***
 
 ## Maledictus
+
+![Maledictus](images/nav-visual-cataclysm-maledictus.png)
 
 L_Ender's Cataclysm. A horned, winged warrior equipped with maces, a bow and a halberd.
 
@@ -179,6 +189,8 @@ Defeat Aptrgangr for <ItemLink id="cataclysm:strange_key" />. Use it on <ItemLin
 ***
 
 ## Scylla
+
+![Scylla](images/nav-visual-cataclysm-scylla.png)
 
 L_Ender's Cataclysm. A humanoid warrior with sea snakes and a chained anchor.
 
@@ -230,3 +242,14 @@ Dangerous changes existing enemy health and equipment. It does not add a separat
 
 - [Ordinary creatures](adventure.creatures.md)
 - [Boss arenas & dungeons](adventure.structures.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | Baseline, installed | 🐉 Bring Souls-like Bosses into your world |
+| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | Baseline, installed | Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health. |
+| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | Baseline, installed | The illagers are back! Be ready to fight new foes. A port of Illager Expansion. |
+| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | Baseline, installed | Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items. |

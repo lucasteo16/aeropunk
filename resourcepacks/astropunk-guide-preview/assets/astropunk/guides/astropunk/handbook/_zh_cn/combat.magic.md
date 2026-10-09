@@ -51,6 +51,10 @@ item_ids:
   <ItemIcon id="wizards:wand_arcane" />
 </ItemGrid>
 
+<ItemLink id="wizards:wand_arcane" />
+
+<Recipe id="wizards:wand_arcane" />
+
 奥术魔法包含投射物、光束、范围攻击与自身效果。
 
 | 能力 | 形式 |
@@ -67,8 +71,12 @@ item_ids:
 ## 火焰
 
 <ItemGrid>
-  <ItemIcon id="wizards:wand_fire" />
+  <ItemIcon id="wizards:wand_novice" />
 </ItemGrid>
+
+<ItemLink id="wizards:wand_novice" />
+
+<Recipe id="wizards:wand_novice" />
 
 火焰魔法包含近距离范围、投射物与落下攻击。
 
@@ -89,6 +97,10 @@ item_ids:
   <ItemIcon id="wizards:wand_frost" />
 </ItemGrid>
 
+<ItemLink id="wizards:wand_frost" />
+
+<Recipe id="wizards:wand_frost" />
+
 冰霜魔法结合范围攻击、防护与投射物。
 
 | 能力 | 形式 |
@@ -105,8 +117,12 @@ item_ids:
 ## 水
 
 <ItemGrid>
-  <ItemIcon id="elemental_wizards_rpg:wand_aqua" />
+  <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_kelp" />
+
+<Recipe id="elemental_wizards_rpg:wand_kelp" />
 
 水系魔法结合伤害法术与辅助区域。
 
@@ -124,8 +140,12 @@ item_ids:
 ## 土
 
 <ItemGrid>
-  <ItemIcon id="elemental_wizards_rpg:wand_terra" />
+  <ItemIcon id="elemental_wizards_rpg:wand_clay" />
 </ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_clay" />
+
+<Recipe id="elemental_wizards_rpg:wand_clay" />
 
 地系魔法结合防护、指定目标攻击与地面效果。
 
@@ -143,8 +163,12 @@ item_ids:
 ## 风
 
 <ItemGrid>
-  <ItemIcon id="elemental_wizards_rpg:wand_wind" />
+  <ItemIcon id="elemental_wizards_rpg:wand_feather" />
 </ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_feather" />
+
+<Recipe id="elemental_wizards_rpg:wand_feather" />
 
 风系魔法结合指定目标攻击、持续区域与自身效果。
 
@@ -165,6 +189,10 @@ item_ids:
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>
 
+<ItemLink id="paladins:iron_mace" />
+
+<Recipe id="paladins:iron_mace" />
+
 治疗学派与近战招式将辅助和贴身战斗结合。
 
 | 能力 | 形式 |
@@ -181,8 +209,12 @@ item_ids:
 ## 牧师
 
 <ItemGrid>
-  <ItemIcon id="paladins:holy_wand" />
+  <ItemIcon id="paladins:acolyte_wand" />
 </ItemGrid>
+
+<ItemLink id="paladins:acolyte_wand" />
+
+<Recipe id="paladins:acolyte_wand" />
 
 治疗学派提供光束、治疗区域与防护。
 
@@ -203,6 +235,10 @@ item_ids:
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
 
+<ItemLink id="bards_rpg:wooden_lute" />
+
+<Recipe id="bards_rpg:wooden_lute" />
+
 乐器招式结合奥术攻击与辅助效果。
 
 | 能力 | 形式 |
@@ -219,8 +255,12 @@ item_ids:
 ## 猎魔人剑术
 
 <ItemGrid>
-  <ItemIcon id="witcher_rpg:steel_witcher_sword" />
+  <ItemIcon id="witcher_rpg:iron_witcher_sword" />
 </ItemGrid>
+
+<ItemLink id="witcher_rpg:iron_witcher_sword" />
+
+<Recipe id="witcher_rpg:iron_witcher_sword" />
 
 猎魔人剑术提供近战攻击与自身效果。
 
@@ -238,8 +278,12 @@ item_ids:
 ## 猎魔人法印
 
 <ItemGrid>
-  <ItemIcon id="witcher_rpg:wolf_school_medallion" />
+  <ItemIcon id="witcher_rpg:iron_witcher_sword" />
 </ItemGrid>
+
+<ItemLink id="witcher_rpg:iron_witcher_sword" />
+
+<Recipe id="witcher_rpg:iron_witcher_sword" />
 
 猎魔人法印有各自学派，提供控制或防护效果。
 
@@ -313,3 +357,33 @@ item_ids:
 - [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
 - [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
 - [战斗操作](combat.handling.md) 了解攻击模式、施法操作与翻滚。
+
+
+***
+
+## 治疗法器
+
+铁钉头锤适合圣骑士近战起步，但没有治疗强度加成。以治疗为主时先制作侍僧魔杖，比较治疗强度，而不是攻击伤害。
+
+<ItemGrid>
+  <ItemIcon id="paladins:acolyte_wand" />
+</ItemGrid>
+
+<ItemLink id="paladins:acolyte_wand" />
+
+<Recipe id="paladins:acolyte_wand" />
+
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Master the elements to overcome your foes! Spell Engine Add-On |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 已安装基准版 | ✨ Protect and heal your friends as a Paladin or a Priest |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 已安装基准版 | 🪨 Craft runes to serve as ammo for spells |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 已安装基准版 | Slay monsters like a Witcher! Spell Engine Add-On |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 已安装基准版 | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |

@@ -37,4 +37,14 @@ Open a Lootr container for your own loot. Use the item browser’s loot displays
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Baseline, installed | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Baseline, installed | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |

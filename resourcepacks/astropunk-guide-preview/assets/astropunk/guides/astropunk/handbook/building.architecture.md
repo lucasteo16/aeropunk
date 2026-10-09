@@ -140,12 +140,28 @@ Macaw's Fences and Walls provides wood, hedge, metal and masonry boundary famili
 | --- |
 | <ItemLink id="minecraft:chain" /> |
 
-Reconnectible Chains uses vanilla chains for connected hanging spans. Choose your structural pieces through Item recipe.
+Reconnectible Chains uses vanilla chains for connected hanging spans. Choose your structural pieces through Browse recipe.
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
 
 ***
 
 ## Crafting
 
 <Recipe id="mcwbridges:oak_bridge_pier" />
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | Baseline, installed | Fences connecting diagonally? Wait. That's illegal. |
+| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | Baseline, installed | A simple mod that adds a lot of bridges! |
+| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | Baseline, installed | Adds vanilla doors with every wood color and new unique doors! Such as western, garage, shoji and more...! |
+| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | Baseline, installed | Adds new vanilla styled fences, walls and gates! |
+| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | Baseline, installed | Build roofs with actual roofs instead of stairs! |
+| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | Baseline, installed | Adds new Vanilla styled Stairs, Handrails for Stairs and Balconies! |
+| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | Baseline, installed | Adds lots of Windows, Mosaic Glass, Blinds, Shutters, Curtains and more...! |
+| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | Baseline, installed | A multiloader fork of Connectible Chains: Connect your fences/walls with a decorative chain! |

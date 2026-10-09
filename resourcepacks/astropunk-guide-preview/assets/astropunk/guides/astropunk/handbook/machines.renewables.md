@@ -33,3 +33,12 @@ navigation:
 Locate a vent and expose its dormant core. Activate that core with an explosion, then supply lava to produce its matching stone. Keep the activation area clear. The released definitions include land and aquatic placements. They do not guarantee a vent near your base. Processing is in Ore processing.
 
 - [Ore processing](machines.ore-processing.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Baseline, installed | Adds a renewable source of the orestones found in the Create mod, and by extension, many resources. |

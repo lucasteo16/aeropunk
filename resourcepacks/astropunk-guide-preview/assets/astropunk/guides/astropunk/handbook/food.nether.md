@@ -295,3 +295,11 @@ Egg dishes use the egg type accepted by their recipe. Bread portions and toast a
 - [Food & hunger](food.hunger.md)
 - [Crop ingredients](food.growing.md)
 - [Cooking tools](food.utensils.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Baseline, installed | New Nether addon for Farmer's Delight |

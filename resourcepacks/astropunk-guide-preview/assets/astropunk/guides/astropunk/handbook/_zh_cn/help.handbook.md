@@ -2,7 +2,7 @@
 navigation:
   title: "Astropunk 手册"
   position: 0
-  parent: category-technical.md
+  parent: reference.technical.md
   icon: minecraft:redstone
 ---
 
@@ -14,11 +14,13 @@ navigation:
 
 - [Astropunk](index.md)
 - [操作与按键](help.controls.md)
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
 
+
+***
 
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| <ItemImage id="minecraft:redstone" /> GuideME | A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes! |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | 已安装基准版 | A guidebook toolkit for mods and modpack makers alike with comfortable markdown formatting, and live 3d scenes! |

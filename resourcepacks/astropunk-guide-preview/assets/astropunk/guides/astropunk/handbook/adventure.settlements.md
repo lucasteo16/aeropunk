@@ -94,3 +94,14 @@ These buildings extend village house pools, rather than creating standalone dung
 
 - [Structures and dungeons](adventure.structures.md)
 - [Loot](adventure.loot.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Baseline, installed | Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world. |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Baseline, installed | ⛲️ Village structures hosting small spell libraries |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Baseline, installed | 🍺 Find cozy taverns in villages, have a drink, and maybe some rest. |

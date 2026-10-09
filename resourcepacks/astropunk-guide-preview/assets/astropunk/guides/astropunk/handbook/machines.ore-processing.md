@@ -110,3 +110,12 @@ Use Ponder for the machine arrangement and power supply.
 Water is the fan's processing medium, not a consumed bucket. Material routing covers moving ingredients and collecting outputs.
 
 - [Material routing](machines.logistics.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Baseline, installed | Aesthetic Technology that empowers the Player |

@@ -58,4 +58,17 @@ Armor Poser 编辑盔甲架的肢体、位置、旋转与预设姿态。潜行�
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | 已安装基准版 | Adds a GUI for armor stands in which you can configure it's pose and other properties |
+| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | 已安装基准版 | Easily write large, multi-line characters and symbols on signs! |
+| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | 已安装基准版 | Drag and drop, pixelate and hang up beautiful art. On servers too. |
+| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | 已安装基准版 | A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests! |
+| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | 已安装基准版 | Bring some life to your builds with player statues of your favorite Minecrafters! |

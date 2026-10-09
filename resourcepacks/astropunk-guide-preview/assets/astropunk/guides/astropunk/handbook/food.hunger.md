@@ -48,3 +48,13 @@ Use <ItemLink id="solonion:lunchbag" /> or <ItemLink id="solonion:lunchbox" /> f
 - [Kitchen meals](food.utensils.md)
 - [Crop ingredients](food.growing.md)
 - [Fish meals](food.fishing.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | Baseline, installed | Food/hunger-related HUD improvements |
+| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | Baseline, installed | Food stack limits vary with filling power. |
+| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | Baseline, installed | A mod designed to encourage dietary variety! |

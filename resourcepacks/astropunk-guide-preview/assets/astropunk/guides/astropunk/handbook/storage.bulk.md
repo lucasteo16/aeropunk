@@ -45,6 +45,21 @@ navigation:
 
 ## Getting started
 
+### Workshop vault
+
+<Recipe id="create:crafting/kinetics/item_vault" />
+
+Craft <ItemLink id="create:item_vault" />, then use its Ponder entry to connect the storage blocks.
+
 Start with an Item Vault and its Ponder entry. Add an Inventory Access Port when a funnel or stock link cannot reach the container. Color does not establish a different capacity. Package routing is in Material routing.
 
 - [Material routing](machines.logistics.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | Baseline, installed | A Create mod addon that adds more item vaults. |

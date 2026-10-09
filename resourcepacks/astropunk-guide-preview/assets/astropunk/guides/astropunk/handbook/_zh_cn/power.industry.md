@@ -86,4 +86,13 @@ navigation:
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 已安装基准版 | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |

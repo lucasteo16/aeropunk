@@ -51,6 +51,10 @@ Set spell-hotbar controls in Key Binds. The current first action is <KeyBind id=
   <ItemIcon id="wizards:wand_arcane" />
 </ItemGrid>
 
+<ItemLink id="wizards:wand_arcane" />
+
+<Recipe id="wizards:wand_arcane" />
+
 Arcane magic offers projectiles, beams, area attacks and self effects.
 
 | Ability | Form |
@@ -67,8 +71,12 @@ Arcane magic offers projectiles, beams, area attacks and self effects.
 ## Fire
 
 <ItemGrid>
-  <ItemIcon id="wizards:wand_fire" />
+  <ItemIcon id="wizards:wand_novice" />
 </ItemGrid>
+
+<ItemLink id="wizards:wand_novice" />
+
+<Recipe id="wizards:wand_novice" />
 
 Fire magic offers close areas, projectiles and falling attacks.
 
@@ -89,6 +97,10 @@ Fire magic offers close areas, projectiles and falling attacks.
   <ItemIcon id="wizards:wand_frost" />
 </ItemGrid>
 
+<ItemLink id="wizards:wand_frost" />
+
+<Recipe id="wizards:wand_frost" />
+
 Frost magic combines area attacks, protection and projectiles.
 
 | Ability | Form |
@@ -105,8 +117,12 @@ Frost magic combines area attacks, protection and projectiles.
 ## Aqua
 
 <ItemGrid>
-  <ItemIcon id="elemental_wizards_rpg:wand_aqua" />
+  <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_kelp" />
+
+<Recipe id="elemental_wizards_rpg:wand_kelp" />
 
 Water magic combines damaging spells and support areas.
 
@@ -124,8 +140,12 @@ Water magic combines damaging spells and support areas.
 ## Terra
 
 <ItemGrid>
-  <ItemIcon id="elemental_wizards_rpg:wand_terra" />
+  <ItemIcon id="elemental_wizards_rpg:wand_clay" />
 </ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_clay" />
+
+<Recipe id="elemental_wizards_rpg:wand_clay" />
 
 Earth magic combines protection, aimed attacks and ground effects.
 
@@ -143,8 +163,12 @@ Earth magic combines protection, aimed attacks and ground effects.
 ## Wind
 
 <ItemGrid>
-  <ItemIcon id="elemental_wizards_rpg:wand_wind" />
+  <ItemIcon id="elemental_wizards_rpg:wand_feather" />
 </ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_feather" />
+
+<Recipe id="elemental_wizards_rpg:wand_feather" />
 
 Air magic combines aimed attacks, persistent areas and self effects.
 
@@ -165,6 +189,10 @@ Air magic combines aimed attacks, persistent areas and self effects.
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>
 
+<ItemLink id="paladins:iron_mace" />
+
+<Recipe id="paladins:iron_mace" />
+
 Healing-school and melee techniques combine support with close combat.
 
 | Ability | Form |
@@ -181,8 +209,12 @@ Healing-school and melee techniques combine support with close combat.
 ## Priest
 
 <ItemGrid>
-  <ItemIcon id="paladins:holy_wand" />
+  <ItemIcon id="paladins:acolyte_wand" />
 </ItemGrid>
+
+<ItemLink id="paladins:acolyte_wand" />
+
+<Recipe id="paladins:acolyte_wand" />
 
 Healing-school magic offers beams, healing areas and protection.
 
@@ -203,6 +235,10 @@ Healing-school magic offers beams, healing areas and protection.
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
 
+<ItemLink id="bards_rpg:wooden_lute" />
+
+<Recipe id="bards_rpg:wooden_lute" />
+
 Instrument-based abilities combine arcane attacks and support effects.
 
 | Ability | Form |
@@ -219,8 +255,12 @@ Instrument-based abilities combine arcane attacks and support effects.
 ## Fencing
 
 <ItemGrid>
-  <ItemIcon id="witcher_rpg:steel_witcher_sword" />
+  <ItemIcon id="witcher_rpg:iron_witcher_sword" />
 </ItemGrid>
+
+<ItemLink id="witcher_rpg:iron_witcher_sword" />
+
+<Recipe id="witcher_rpg:iron_witcher_sword" />
 
 Witcher melee techniques supply attacks and self effects.
 
@@ -238,8 +278,12 @@ Witcher melee techniques supply attacks and self effects.
 ## Signs
 
 <ItemGrid>
-  <ItemIcon id="witcher_rpg:wolf_school_medallion" />
+  <ItemIcon id="witcher_rpg:iron_witcher_sword" />
 </ItemGrid>
+
+<ItemLink id="witcher_rpg:iron_witcher_sword" />
+
+<Recipe id="witcher_rpg:iron_witcher_sword" />
 
 Witcher signs have their own ability schools and control or protection effects.
 
@@ -313,3 +357,33 @@ Runes are consumed only where the spell requires them. The equipped pouch suppli
 - [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
 - [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
 - [Combat controls](combat.handling.md) Learn attack patterns, spell controls and rolling.
+
+
+***
+
+## Healing focus
+
+The Iron Mace starts Paladin melee but has no healing-power bonus. For a healing-focused build, start with the Acolyte Wand and compare healing power rather than attack damage.
+
+<ItemGrid>
+  <ItemIcon id="paladins:acolyte_wand" />
+</ItemGrid>
+
+<ItemLink id="paladins:acolyte_wand" />
+
+<Recipe id="paladins:acolyte_wand" />
+
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Baseline, installed | Motivate and strengthen the party with awesome song's and ballads! Spell Engine Add-On |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Baseline, installed | Master the elements to overcome your foes! Spell Engine Add-On |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Baseline, installed | ✨ Protect and heal your friends as a Paladin or a Priest |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | Baseline, installed | 🪨 Craft runes to serve as ammo for spells |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Baseline, installed | Slay monsters like a Witcher! Spell Engine Add-On |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | Baseline, installed | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |

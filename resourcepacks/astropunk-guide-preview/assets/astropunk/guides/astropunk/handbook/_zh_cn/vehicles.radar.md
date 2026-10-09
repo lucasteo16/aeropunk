@@ -90,4 +90,13 @@ Create Radars 将探测组件、接收器与显示器分开。先选择雷达系
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | 已安装基准版 | Adding Radars (& more) to Create! |

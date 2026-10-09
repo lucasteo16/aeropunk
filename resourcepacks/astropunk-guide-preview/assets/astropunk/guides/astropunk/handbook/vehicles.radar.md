@@ -90,4 +90,13 @@ Detection, targeting and identification use separate filters. Observation tools 
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | Baseline, installed | Adding Radars (& more) to Create! |

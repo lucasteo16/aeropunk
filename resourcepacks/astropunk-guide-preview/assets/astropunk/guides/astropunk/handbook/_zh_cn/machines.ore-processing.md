@@ -110,3 +110,12 @@ item_ids:
 水是鼓风机的加工介质，不会消耗一桶水。原料输送和产物收集见物品输送。
 
 - [物品输送](machines.logistics.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 已安装基准版 | Aesthetic Technology that empowers the Player |

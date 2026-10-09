@@ -101,3 +101,12 @@ Deep Seas 铜制潜艇。
 | <ItemLink id="create_submarine:decompression_chamber" /> |
 
 这些设备的物品提示标明尚未完成，不能作为可用的生存系统。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | 已安装基准版 | Submarine and boat in Create Aeronautics! |

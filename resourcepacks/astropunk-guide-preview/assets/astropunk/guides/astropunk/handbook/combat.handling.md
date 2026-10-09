@@ -32,3 +32,14 @@ Spell actions use the Spell Engine hotbar. Assign its controls in Key Binds if a
 - [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
 - [All controls](help.controls.md)
 - [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Baseline, installed | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Baseline, installed | 🧶 Adds combat roll ability, with related attributes and enchantments. |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Baseline, installed | 🍀 Chance based critical hits for melee and ranged attacks! |

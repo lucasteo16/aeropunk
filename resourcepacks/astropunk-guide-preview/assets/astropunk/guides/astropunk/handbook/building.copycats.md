@@ -157,3 +157,12 @@ Craft the desired shape, then apply a supported block material. Use its Ponder e
 ## Crafting
 
 <Recipe id="copycats:crafting/copycat_block_from_slabs" />
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | Baseline, installed | All the copycats you've ever wanted, combined into a single mod! |

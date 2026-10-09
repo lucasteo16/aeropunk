@@ -75,3 +75,12 @@ navigation:
 Begin with the alternator and Connecting Wires Ponder entries, then add a meter before a motor. Voltage and current matter here. An energized wire is not a generic power cable. Keep this circuit distinct from Industrial machinery unless the intended connection is supported.
 
 - [Industrial machinery](power.industry.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Baseline, installed | A realistic(-ish) electricity Create addon that focuses on the generation, transmission, distribution and utilization of electric energy. Also electric trains. |

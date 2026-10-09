@@ -67,4 +67,14 @@ Make a Mechanical Grindstone first. Its Ponder entry shows the Item Drain conver
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Baseline, installed | Automatic Enchanting, with Create |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Baseline, installed | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |

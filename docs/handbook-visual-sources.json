@@ -7065,5 +7065,259 @@
     "subject": "Provider project artwork, not a structure screenshot",
     "reviewed": true,
     "used": true
+  },
+  "navigation-images/nav-visual-cataclysm-the-leviathan.png": {
+    "resource": "images/nav-visual-cataclysm-the-leviathan.png",
+    "entity_identifier": "cataclysm:the_leviathan",
+    "project_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "page_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "source_url": "https://www.minecraft-guides.com/wp-content/uploads/2024/08/Leviathan.png",
+    "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2024/08/Leviathan.png",
+    "publisher": "Minecraft Guides Wiki",
+    "author": "Individual screenshot author not identified",
+    "license": {
+      "id": "unknown",
+      "name": "Image reuse rights not independently established"
+    },
+    "license_scope": "Public availability is not permission. Local preparation only, no public upload.",
+    "original_sha256": "96972562235994f7372001533a28e84add6e78aa955f4bbd7b5944ed15df629c",
+    "resized_sha256": "5f5ce106f89421b6ea30e2a92b9ef24bfb8124f266af668bfd69c8637ac26f00",
+    "original_dimensions": [
+      840,
+      473
+    ],
+    "resized_dimensions": [
+      840,
+      473
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Named wiki figure or subject page, plus downloaded image inspection",
+    "image_kind": "Authentic game screenshot",
+    "selected_release_match": "Appearance illustration only. Current webpage is not selected-release gameplay evidence.",
+    "inspection": "No visible watermark or blocking text. Subject present and identifiable. No watermark removed.",
+    "transform": "Aspect-preserving downscale only, no crop, retouch or generated content."
+  },
+  "navigation-images/nav-visual-cataclysm-ancient-remnant.png": {
+    "resource": "images/nav-visual-cataclysm-ancient-remnant.png",
+    "entity_identifier": "cataclysm:ancient_remnant",
+    "project_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "page_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "source_url": "https://www.minecraft-guides.com/wp-content/uploads/2024/08/BOSS_AncientRemnant-1024x576.png",
+    "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2024/08/BOSS_AncientRemnant-1024x576.png",
+    "publisher": "Minecraft Guides Wiki",
+    "author": "Individual screenshot author not identified",
+    "license": {
+      "id": "unknown",
+      "name": "Image reuse rights not independently established"
+    },
+    "license_scope": "Public availability is not permission. Local preparation only, no public upload.",
+    "original_sha256": "5e968a8ab32c1e67582adecb1b8d2be72fc3d2f7fa04d5e50fff5c7d9625f030",
+    "resized_sha256": "add45108377fb14cf33f921bbf3e505e4c114f1c991cda7b6eaaa4501732770d",
+    "original_dimensions": [
+      1024,
+      576
+    ],
+    "resized_dimensions": [
+      960,
+      540
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Named wiki figure or subject page, plus downloaded image inspection",
+    "image_kind": "Authentic game screenshot",
+    "selected_release_match": "Appearance illustration only. Current webpage is not selected-release gameplay evidence.",
+    "inspection": "No visible watermark or blocking text. Subject present and identifiable. No watermark removed.",
+    "transform": "Aspect-preserving downscale only, no crop, retouch or generated content."
+  },
+  "navigation-images/nav-visual-cataclysm-maledictus.png": {
+    "resource": "images/nav-visual-cataclysm-maledictus.png",
+    "entity_identifier": "cataclysm:maledictus",
+    "project_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "page_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "source_url": "https://www.minecraft-guides.com/wp-content/uploads/2025/07/FEATURED_Maledictus-1024x576.png",
+    "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2025/07/FEATURED_Maledictus-1024x576.png",
+    "publisher": "Minecraft Guides Wiki",
+    "author": "Individual screenshot author not identified",
+    "license": {
+      "id": "unknown",
+      "name": "Image reuse rights not independently established"
+    },
+    "license_scope": "Public availability is not permission. Local preparation only, no public upload.",
+    "original_sha256": "cc9ef9be55c5530a96e197389331ba397619a7cf50a931a9bd62b969d3189ab9",
+    "resized_sha256": "7352a0b7d6dbb22616e8e77b78a0430437c130a5be659d0c594f37333ee58b8b",
+    "original_dimensions": [
+      1024,
+      576
+    ],
+    "resized_dimensions": [
+      960,
+      540
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Named wiki figure or subject page, plus downloaded image inspection",
+    "image_kind": "Authentic game screenshot",
+    "selected_release_match": "Appearance illustration only. Current webpage is not selected-release gameplay evidence.",
+    "inspection": "No visible watermark or blocking text. Subject present and identifiable. No watermark removed.",
+    "transform": "Aspect-preserving downscale only, no crop, retouch or generated content."
+  },
+  "navigation-images/nav-visual-cataclysm-netherite-monstrosity.png": {
+    "resource": "images/nav-visual-cataclysm-netherite-monstrosity.png",
+    "entity_identifier": "cataclysm:netherite_monstrosity",
+    "project_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "page_url": "https://www.minecraft-guides.com/wiki/cataclysm/",
+    "source_url": "https://www.minecraft-guides.com/wp-content/uploads/2024/08/SoulForge_NetheriteMonstrosity.png",
+    "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2024/08/SoulForge_NetheriteMonstrosity.png",
+    "publisher": "Minecraft Guides Wiki",
+    "author": "Individual screenshot author not identified",
+    "license": {
+      "id": "unknown",
+      "name": "Image reuse rights not independently established"
+    },
+    "license_scope": "Public availability is not permission. Local preparation only, no public upload.",
+    "original_sha256": "81173476d21c7f7fc4571e6cc2092275a3bb9bda71c263cebcec22beb499ee2e",
+    "resized_sha256": "23dec7dfcdf16152d04eb9b0850d545ad70b2afa37b25968ed92c90b3e53ce41",
+    "original_dimensions": [
+      720,
+      405
+    ],
+    "resized_dimensions": [
+      720,
+      405
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Named wiki figure or subject page, plus downloaded image inspection",
+    "image_kind": "Authentic game screenshot",
+    "selected_release_match": "Appearance illustration only. Current webpage is not selected-release gameplay evidence.",
+    "inspection": "No visible watermark or blocking text. Subject present and identifiable. No watermark removed.",
+    "transform": "Aspect-preserving downscale only, no crop, retouch or generated content."
+  },
+  "navigation-images/nav-visual-cataclysm-scylla.png": {
+    "resource": "images/nav-visual-cataclysm-scylla.png",
+    "entity_identifier": "cataclysm:scylla",
+    "project_url": "https://www.minecraft-guides.com/wiki/cataclysm/acropolis/scylla/",
+    "page_url": "https://www.minecraft-guides.com/wiki/cataclysm/acropolis/scylla/",
+    "source_url": "https://www.minecraft-guides.com/wp-content/uploads/2025/07/FEATURED_Scylla.png",
+    "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2025/07/FEATURED_Scylla.png",
+    "publisher": "Minecraft Guides Wiki",
+    "author": "Individual screenshot author not identified",
+    "license": {
+      "id": "unknown",
+      "name": "Image reuse rights not independently established"
+    },
+    "license_scope": "Public availability is not permission. Local preparation only, no public upload.",
+    "original_sha256": "f5e586026dfda655a4b7ea0cc6f4a2d1f359bc7cac0c95ded7c258341d906600",
+    "resized_sha256": "a40eef15ff5f5e24dae8922181a2928f95d5f236ade6f4af7394dbc65c97dd0a",
+    "original_dimensions": [
+      1200,
+      675
+    ],
+    "resized_dimensions": [
+      960,
+      540
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Named wiki figure or subject page, plus downloaded image inspection",
+    "image_kind": "Authentic game screenshot",
+    "selected_release_match": "Appearance illustration only. Current webpage is not selected-release gameplay evidence.",
+    "inspection": "No visible watermark or blocking text. Subject present and identifiable. No watermark removed.",
+    "transform": "Aspect-preserving downscale only, no crop, retouch or generated content."
+  },
+  "navigation-images/nav-visual-block-factorys-bosses-sandworm.png": {
+    "resource": "images/nav-visual-block-factorys-bosses-sandworm.png",
+    "entity_identifier": "block_factorys_bosses:sandworm",
+    "project_url": "https://www.curseforge.com/minecraft/mc-mods/bossesrise",
+    "page_url": "https://www.curseforge.com/minecraft/mc-mods/bossesrise",
+    "source_url": "https://media.forgecdn.net/attachments/1345/245/bf_image_4-png.png",
+    "image_url": "https://media.forgecdn.net/attachments/1345/245/bf_image_4-png.png",
+    "publisher": "Block Factory Studio",
+    "author": "Block Factory Studio",
+    "license": {
+      "id": "unknown",
+      "name": "Image reuse rights not independently established"
+    },
+    "license_scope": "Public availability is not permission. Local preparation only, no public upload.",
+    "original_sha256": "7432ef24469bf748181101e683eb59bc4544a30ff2f4fb68c616c906b26c16c0",
+    "resized_sha256": "076123cf99ebf605152e4562b2d472f1dde9d2a5b4676ea2e4a33979a1a5e8de",
+    "original_dimensions": [
+      1634,
+      577
+    ],
+    "resized_dimensions": [
+      960,
+      339
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Official publisher description embed. The montage shows the sandworm itself and matching gameplay views, not a shared boss banner.",
+    "image_kind": "Authentic publisher model and gameplay montage",
+    "selected_release_match": "Appearance illustration only. Current webpage is not selected-release gameplay evidence.",
+    "inspection": "No visible watermark or blocking text. Subject present and identifiable. No watermark removed.",
+    "transform": "Aspect-preserving downscale only, no crop, retouch or generated content."
+  },
+  "navigation-images/nav-visual-farmers-delight-pot-campfire.png": {
+    "resource": "images/nav-visual-farmers-delight-pot-campfire.png",
+    "page_url": "https://github.com/vectorwing/FarmersDelight/wiki/Getting-Started",
+    "project_url": "https://modrinth.com/mod/farmers-delight",
+    "source_url": "https://i.imgur.com/i0kj8RZ.png",
+    "image_url": "https://i.imgur.com/i0kj8RZ.png",
+    "retrieval_url": "https://camo.githubusercontent.com/2bc5929a3c0203f1008186a540aaa9e3d4b1b6a30c5b2b5e959c0a8ed6fe03c2/68747470733a2f2f692e696d6775722e636f6d2f69306b6a38525a2e706e67",
+    "publisher": "vectorwing, Farmer’s Delight official wiki",
+    "author": "vectorwing, individual screenshot credit not specified",
+    "license": {
+      "id": "unknown",
+      "name": "Wiki screenshot reuse rights not independently established"
+    },
+    "license_scope": "Do not infer screenshot permission from the mod software license. Local preparation only, no public upload.",
+    "original_sha256": "ee3a1aae1ae0f6e6f142c7d4ff06b5c5f37c535138102e2e89f990c427a0995f",
+    "resized_sha256": "d917df8e237b0bd0bb91165ff2446638ba46d0ba58efed0822c564a29fec2c7e",
+    "original_dimensions": [
+      459,
+      362
+    ],
+    "resized_dimensions": [
+      918,
+      724
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Official wiki labels this image as Cooking Pot Interface or Camping Out. GitHub canonical image URL recorded alongside its first-party image proxy retrieval URL.",
+    "selected_release_match": "Historical publisher interface illustration, not proof of the selected 1.3.2 recipe or interface layout. No shown recipe quantities copied.",
+    "inspection": "Clean authentic game image. No visible watermark or blocking marketing text. Interface labels are native game text.",
+    "transform": "Two-times nearest-neighbor enlargement for GuideME quarter-scale display, no synthesized detail."
+  },
+  "navigation-images/nav-visual-farmers-delight-pot-interface.png": {
+    "resource": "images/nav-visual-farmers-delight-pot-interface.png",
+    "page_url": "https://github.com/vectorwing/FarmersDelight/wiki/Getting-Started",
+    "project_url": "https://modrinth.com/mod/farmers-delight",
+    "source_url": "https://i.imgur.com/sttwEKi.png",
+    "image_url": "https://i.imgur.com/sttwEKi.png",
+    "retrieval_url": "https://camo.githubusercontent.com/7a6d54af3c477d665821b1e53205a9f6963ae09c9e42754c423431e2da277c20/68747470733a2f2f692e696d6775722e636f6d2f73747477454b692e706e67",
+    "publisher": "vectorwing, Farmer’s Delight official wiki",
+    "author": "vectorwing, individual screenshot credit not specified",
+    "license": {
+      "id": "unknown",
+      "name": "Wiki screenshot reuse rights not independently established"
+    },
+    "license_scope": "Do not infer screenshot permission from the mod software license. Local preparation only, no public upload.",
+    "original_sha256": "524e5ef5cb6f3e5db720b739a2e1b9d4694b12272aff41a7d0e7339377494225",
+    "resized_sha256": "4922a7f73a518c4d954bbc2ab160ad5822973bf7a47f33f2d6995eba390f6046",
+    "original_dimensions": [
+      547,
+      516
+    ],
+    "resized_dimensions": [
+      1094,
+      1032
+    ],
+    "reviewed": true,
+    "used": true,
+    "identity_evidence": "Official wiki labels this image as Cooking Pot Interface or Camping Out. GitHub canonical image URL recorded alongside its first-party image proxy retrieval URL.",
+    "selected_release_match": "Historical publisher interface illustration, not proof of the selected 1.3.2 recipe or interface layout. No shown recipe quantities copied.",
+    "inspection": "Clean authentic game image. No visible watermark or blocking marketing text. Interface labels are native game text.",
+    "transform": "Two-times nearest-neighbor enlargement for GuideME quarter-scale display, no synthesized detail."
   }
 }

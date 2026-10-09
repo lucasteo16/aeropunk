@@ -131,10 +131,22 @@ navigation:
 
 制作对应的 Chipped 工作台，放入基础材料后选择纹理。Chipped Express 增加 Chipped 变体与基础材料之间的切石转换。Every Compat 与 Stone Zone 为已安装的木材和石材模组提供兼容系列，实际变体取决于对应模组。具体转换见物品配方。
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
 
 ***
 
 ## 制作
 
 <Recipe id="minecraft:workbench/alchemy_bench" />
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Chipped](images/catalog-BAscRYKm.png) [Chipped](building.palette.md) | 已安装基准版 | Every block deserves a friend. |
+| ![Chipped Express](images/catalog-dQIcJONI.png) [Chipped Express](building.palette.md) | 已安装基准版 | Mod addon for Chipped to allow to craft ANY recipe with stonecutter |
+| ![Every Compat (Stone Zone)](images/catalog-uYwn8IP5.png) [Every Compat (Stone Zone)](building.palette.md) | 已安装基准版 | Universal Stone Compat: Create, Twigs, Stoneworks, and more... |
+| ![Every Compat (Wood Good)](images/catalog-eiktJyw1.png) [Every Compat (Wood Good)](building.palette.md) | 已安装基准版 | Universal Wood Compat: Quark, Twilight Forest, Twigs, Another Furniture, Farmers Delight, Macaw's,  Valhelsia, Architects Palette, Deco Blocks, Crayfish FM |

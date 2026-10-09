@@ -15,6 +15,10 @@ item_ids:
 
 ## 厨房工具
 
+![营火上的烹饪锅](images/nav-visual-farmers-delight-pot-campfire.png)
+
+![烹饪锅界面](images/nav-visual-farmers-delight-pot-interface.png)
+
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooking_pot" />
   <ItemIcon id="farmersdelight:cutting_board" />
@@ -288,3 +292,11 @@ item_ids:
 - [食物与饥饿](food.hunger.md)
 - [作物食材](food.growing.md)
 - [机器厨房](food.machine-cooking.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 已安装基准版 | A cozy expansion to farming and cooking! |

@@ -28,6 +28,18 @@ navigation:
 
 Create supplies track, Railway Casing, Train Stations, Train Controls and schedules. Steam 'n' Rails extends track families, gauges, switches, signals and conductor equipment. Use Train Station Ponder for train assembly and the chosen track recipe for its gauge and material.
 
+### Train station
+
+<Recipe id="create:crafting/kinetics/track_station" />
+
+One Railway Casing and one compass make two <ItemLink id="create:track_station" />. Use Train Station Ponder for assembly.
+
+### Train controls
+
+<Recipe id="create:crafting/kinetics/controls" />
+
+Craft <ItemLink id="create:controls" /> for the train control position. The Precision Mechanism is a separate intermediate craft.
+
 ***
 
 ## Bogie styles
@@ -35,3 +47,13 @@ Create supplies track, Railway Casing, Train Stations, Train Controls and schedu
 Blocks & Bogies adds a Bogie Customisation interface, not a separate set of bogie items. Choose the driver or truck role, then the axle count, size and length offered by the menu. Valve-gear styles are additional interface choices. The menu can switch to Steam 'n' Rails. Not every axle, size and style combination is interchangeable. Train fittings covers decorative bodywork.
 
 - [Train fittings](building.factory.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Baseline, installed | Adds larger train bogies with (and without) valve gear, and more |
+| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Baseline, installed | An unofficial port of Create: Steam 'n' Rails to 1.21.1. |

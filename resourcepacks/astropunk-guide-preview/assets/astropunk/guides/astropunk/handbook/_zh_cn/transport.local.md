@@ -52,4 +52,14 @@ Escalated 提供金属与木制移动步道踏步，用于短距离交通。建�
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | 已安装基准版 | A mod to add functional, aesthetic, and rotation-powered escalators to Create. |
+| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | 已安装基准版 | Travel arround the world with tubes! |

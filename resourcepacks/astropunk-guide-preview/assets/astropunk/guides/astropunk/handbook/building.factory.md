@@ -177,3 +177,20 @@ Create Oxidized supplies water filling recipes for exposed, weathered and oxidiz
 ## Crafting
 
 <Recipe id="bellsandwhistles:bogie_steps/brass_bogie_steps" />
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | Baseline, installed | Industrial decoration themed around the aesthetics of the Create mod. |
+| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | Baseline, installed | Allow to use all casing on shafts/cogwheels/pipes |
+| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | Baseline, installed | Additions and adornments for the modern Create engineer. Available for both Fabric & Forge! |
+| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | Baseline, installed | Decorative and mechanical additions to create! |
+| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | Baseline, installed | a create addon that adds decor blocks to spice up your factory! |
+| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | Baseline, installed | A Create mod addon that adds more Framed Glass variants. |
+| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | Baseline, installed | Adds  8 unique girder variants to complement the Create mod ecosystem. |
+| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | Baseline, installed | QoL addon for Create, which adds oxidizing recipes to all copper blocks |
+| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | Baseline, installed | A remake version of Create: Crystal Clear, adds glass casings and illumination casings to create |

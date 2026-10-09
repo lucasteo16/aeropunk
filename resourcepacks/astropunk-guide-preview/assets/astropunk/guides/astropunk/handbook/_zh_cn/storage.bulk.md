@@ -45,6 +45,21 @@ navigation:
 
 ## 初次使用
 
+### 工厂储物库
+
+<Recipe id="create:crafting/kinetics/item_vault" />
+
+制作 <ItemLink id="create:item_vault" />，再查看思索演示，连接储物方块。
+
 先制作物品仓库并查看思索演示。漏斗或库存连接器无法接触容器时，可使用容器访问端口。颜色不代表不同容量。包裹输送见物品输送。
 
 - [物品输送](machines.logistics.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 已安装基准版 | A Create mod addon that adds more item vaults. |

@@ -219,3 +219,11 @@ Pet food belongs to feeding animals rather than planning the player’s dietary 
 - [Food & hunger](food.hunger.md)
 - [Crop ingredients](food.growing.md)
 - [Cooking tools](food.utensils.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Baseline, installed | Adds 50+ dishes, linking L_Ender's Cataclysm and Farmer's Delight in a Vanilla style. |

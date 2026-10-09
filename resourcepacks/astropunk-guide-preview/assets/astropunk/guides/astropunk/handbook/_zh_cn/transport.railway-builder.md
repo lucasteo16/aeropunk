@@ -28,6 +28,18 @@ navigation:
 
 机械动力提供轨道、铁路机壳、列车站、列车控制器与时刻表。Steam 'n' Rails 扩展轨道系列、轨距、道岔、信号与列车员设备。列车组装见列车站思索演示，轨距与材质以所选轨道配方为准。
 
+### 列车站
+
+<Recipe id="create:crafting/kinetics/track_station" />
+
+一个列车机壳与一个指南针可制作两个 <ItemLink id="create:track_station" />。列车组装请看车站的思索演示。
+
+### 列车控制器
+
+<Recipe id="create:crafting/kinetics/controls" />
+
+制作 <ItemLink id="create:controls" />，用于列车操控位置。精密构件需要另行制作。
+
 ***
 
 ## 转向架样式
@@ -35,3 +47,13 @@ navigation:
 Blocks & Bogies 提供转向架自定义界面，而非一套独立转向架物品。先选择驱动或承载类型，再选菜单提供的轴数、尺寸与长度。气门传动样式也是界面选项。菜单可切换到 Steam 'n' Rails。轴数、尺寸与样式并非所有组合都能互换。车体装饰见列车配件。
 
 - [列车配件](building.factory.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | 已安装基准版 | Adds larger train bogies with (and without) valve gear, and more |
+| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | 已安装基准版 | An unofficial port of Create: Steam 'n' Rails to 1.21.1. |

@@ -73,3 +73,13 @@ navigation:
 | <ItemLink id="create:steam_engine" /> |
 | <ItemLink id="minecraft:brown_mushroom" /> |
 | <ItemLink id="minecraft:red_mushroom" /> |
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 已安装基准版 | 🧲 Dominate your environment with Create technology |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 已安装基准版 | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |

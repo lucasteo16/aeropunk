@@ -27,3 +27,14 @@ Detail Armor Bar Reconstructed 让护甲防护更易读。Status Effect Bars Ref
 - [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
 - [饰品](equipment.accessories.md) 将珠宝与遗物装入适用的饰品槽。
 - [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 已安装基准版 | More details about armor in the armor bar! |
+| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 已安装基准版 | A client-side mod that adds small customizable bars to the status effects overlay and in the inventory to show the remaining duration of effects. |
+| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 已安装基准版 | Status effect display overhaul: Display them in any menu! And way more compact. |

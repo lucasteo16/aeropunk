@@ -2,26 +2,56 @@
 navigation:
   title: "查询移动建筑与视觉兼容组件"
   position: 0
-  parent: category-technical.md
+  parent: reference.technical.md
   icon: minecraft:redstone
 ---
 
 # 查询移动建筑与视觉兼容组件
 
-## 概览
+## 移动结构
 
-编写中（WIP）。
+Sable: Physics Compat 补充方块物理属性，Sable Beyond 扩展移动结构行为。两者都不是可制作载具目录。兼容支持不代表移动建筑上的每种方块交互都能正常运作。
+
+| 内容 | 作用 |
+| --- | --- |
+| Sable: Physics Compat | 为受支持的模组方块补充物理属性标签。 |
+| Sable Beyond | 扩展移动结构行为与兼容支持。 |
+
+***
+
+## 自动修复
+
+AttributeFix 修复属性限制，Neo Bee Fix 修复蜜蜂行为。这些属于后台修复，不是管理员工具或制作系统。
+
+| 内容 | 作用 |
+| --- | --- |
+| AttributeFix | 移除任意属性上限，支持模组兼容。 |
+| Neo Bee Fix | 修复原版蜜蜂行为。 |
+
+***
+
+## 功能兼容
+
+声音与动画兼容组件列在它们实际改变的功能页面，共享框架保留在支持库页面。
+
+***
+
+## 相关页面
+
+- [声音](sounds.ambience.md)
+- [模型与动画](visuals.models.md)
+- [光照与远景](visuals.lighting.md)
+- [支持库](technical.libraries.md)
+- [载具组装](vehicles.assembly.md)
+
+
+***
 
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| <ItemImage id="minecraft:redstone" /> Create Sable Dynamic Lights（重型版，当前未安装） | 当前未安装。 |
-| ![EMF Compat: Core](images/catalog-hbGct5uU.png) EMF Compat: Core | Shared framework for the EMF Compat family. |
-| ![EMF Compat: Create](images/catalog-J9McOdzy.png) EMF Compat: Create | Makes Create animations work correctly with animated EMF player models. |
-| <ItemImage id="minecraft:redstone" /> EMF Compat: Not Enough Animations（重型版，当前未安装） | 当前未安装。 |
-| ![Presence Footsteps x Sable (Aeronautics Compat)](images/catalog-ZAhKrMSS.png) Presence Footsteps x Sable (Aeronautics Compat) | Presence Footsteps compatability for Sable / Create Aeronautics |
-| ![Sable Beyond](images/catalog-PrW3B4fH.png) Sable Beyond | Sable Beyond expands the Sable mod with additional features, quality-of-life improvements, and compatibility support. It is designed to add ideas that are not part of the main mod while keeping the gameplay experience consistent with Sable. |
-| ![Sable: Cool Rain](images/catalog-nUwwB5kx.png) Sable: Cool Rain | Compatibility addon that makes Cool Rain Reforged rain sounds work with Sable structures, Create copycats and other modded blocks. |
-| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) Sable: Physics Compat | A Compat mod for Sable/Aeronautics providing tags for several modded blocks. |
-| <ItemImage id="minecraft:redstone" /> Spawn Animations Compats（重型版，当前未安装） | 当前未安装。 |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | 已安装基准版 | Removes arbitrary limits on Minecraft's attribute system. Fixes MANY mods! |
+| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | 已安装基准版 | Fix the Bees! |
+| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | 已安装基准版 | Sable Beyond expands the Sable mod with additional features, quality-of-life improvements, and compatibility support. It is designed to add ideas that are not part of the main mod while keeping the gameplay experience consistent with Sable. |
+| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | 已安装基准版 | A Compat mod for Sable/Aeronautics providing tags for several modded blocks. |

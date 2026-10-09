@@ -73,3 +73,13 @@ Inspect the Portable Drill recipe before making its engine and tank components. 
 | <ItemLink id="create:steam_engine" /> |
 | <ItemLink id="minecraft:brown_mushroom" /> |
 | <ItemLink id="minecraft:red_mushroom" /> |
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Baseline, installed | 🧲 Dominate your environment with Create technology |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Baseline, installed | Tweaks to Create and Minecraft for Stam1o, Developed and Published by - LieOn Studios |

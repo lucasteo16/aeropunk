@@ -86,4 +86,13 @@ Start by checking the Coke Oven recipe and its coal-processing Ponder entry. The
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Baseline, installed | Create: TFMG Community Edition is a fork of Create: TFMG by DrMangoTea that aims to fix as many bugs as we can. |

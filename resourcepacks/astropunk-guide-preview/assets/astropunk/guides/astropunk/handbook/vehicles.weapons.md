@@ -62,4 +62,13 @@ Shells, solid shot, grapeshot, cartridges, autocannon rounds and fuzes are separ
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | Baseline, installed | A Minecraft mod for building large cannons with the Create mod. |

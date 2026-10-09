@@ -28,6 +28,18 @@ navigation:
 
 Hot Air Envelopes and Hot Air Burners form the buoyancy family. Envelopes, envelope encased shafts and addon envelope encased fluid pipes come in sixteen dye colors. Ballast Stones gain mass with each added layer, up to eight layers.
 
+### First envelope
+
+<Recipe id="aeronautics:white_envelope" />
+
+Two white wool and two sticks make four <ItemLink id="aeronautics:white_envelope" />.
+
+### Hot air burner
+
+<Recipe id="aeronautics:adjustable_burner" />
+
+Craft <ItemLink id="aeronautics:adjustable_burner" /> for the hot-air envelope system. Use the envelope and burner Ponder entries for the working arrangement.
+
 ***
 
 ## Propellers & sails
@@ -54,4 +66,14 @@ Wooden, Andesite and Smart Propellers have dedicated bearings. Symmetric sails p
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Baseline, installed | Encase Create Fluid Pipes with the Create Aeronautics Hot Air Envelope |
+| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | Baseline, installed | Adds a new layerable block that has more mass with each added layer. Useful for balancing your aeronautics builds! |

@@ -2,20 +2,44 @@
 navigation:
   title: "查看方块与生物信息"
   position: 0
-  parent: category-utilities.md
-  icon: minecraft:white_bed
+  parent: reference.utilities.md
+  icon: minecraft:lever
 ---
 
 # 查看方块与生物信息
 
-## 概览
+## 查看目标
 
-编写中（WIP）。
+Jade 显示视线所指方块或生物的信息。打开机器界面前，可以先用它确认机器类型。显示的详情取决于目标和对应联动，信息浮窗不是完整配方目录。
+
+| 操作 | 当前按键 |
+| --- | --- |
+| 显示信息浮窗 | <KeyBind id="key.jade.show_overlay" /> |
+| 打开设置 | <KeyBind id="key.jade.config" /> |
+| 显示详情 | <KeyBind id="key.jade.show_details" /> |
+
+如果浮窗遮挡其他界面元素，可以在 Jade 设置中调整位置或大小。Jade Addons 为支持的模组补充信息，不是另一套独立查看系统。
+
+***
+
+## 村民名字
+
+Villager Names 为村民添加便于辨认的名字。名字仅用于辨认村民，不代表交易等级，也不保证特定交易。职业和交易内容仍需分别查看。
+
+***
+
+## 相关主题
+
+- [浏览配方](help.search.md) 材料与用途。
+- [交易](machines.trading.md) 交易设备与自动化。
+
+
+***
 
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) Jade Addons (Neo/Forge) | Jade 🔍's additional mod supports for Neo/Forge |
-| ![Jade 🔍](images/catalog-nvQzSEkH.png) Jade 🔍 | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |
-| ![Villager Names](images/catalog-gqRXDo8B.png) Villager Names | 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world. |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 已安装基准版 | Jade 🔍's additional mod supports for Neo/Forge |
+| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | 已安装基准版 | Shows information about what you are looking at. (Hwyla/Waila fork for Minecraft 1.16+) |
+| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | 已安装基准版 | 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world. |

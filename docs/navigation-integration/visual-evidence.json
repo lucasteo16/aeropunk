@@ -1,0 +1,408 @@
+{
+  "scope": [
+    "adventure.bosses",
+    "food.utensils"
+  ],
+  "branch": "test/guide",
+  "base_commit": "8e2499a",
+  "source_standard": "docs/handbook-authoring-standard.md",
+  "gameplay_evidence": [
+    "docs/quick-reference-work/encounters-evidence.json",
+    "docs/review-revision/food-evidence.json"
+  ],
+  "boundary": "Only appearance images and short subject captions added. No third-party mechanics, drops, recipes or summoning requirements imported. Existing selected-release prose and native item models preserved byte-for-byte after stripping additions.",
+  "integration": "Prefer the explicit insertions below when merging concurrently rewritten recipes-content.json. The full visual-content.json snapshots these two topics only and must not restore stale recipe prose over another workstream. Apply each food insertion after its kitchen heading in listed order, which yields interface first then campfire.",
+  "baseline_topic_sha256": {
+    "adventure.bosses": {
+      "en_us": "210bedc76cd6b66f317a6f8fd28456ebe4e2426635366a90ff34a8af9a91e100",
+      "zh_cn": "5bfef31ec91564de8eaae0aa205ba944ffd7bc6bf3eb4525a04bd6742511941d"
+    },
+    "food.utensils": {
+      "en_us": "115113e3d4497b3ff6297e3df5ceae05a7ba67eeeb8c2572e63571268991a820",
+      "zh_cn": "4f23a6dd42bd7c18734732089ab919e40e9549852815eb7ab58d30c96abf10c9"
+    }
+  },
+  "insertions": [
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "after": "## The Leviathan\n\n",
+      "insert": "![The Leviathan](images/nav-visual-cataclysm-the-leviathan.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "after": "## 利维坦\n\n",
+      "insert": "![利维坦](images/nav-visual-cataclysm-the-leviathan.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "after": "## Ancient Remnant\n\n",
+      "insert": "![Ancient Remnant](images/nav-visual-cataclysm-ancient-remnant.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "after": "## 远古遗魂\n\n",
+      "insert": "![远古遗魂](images/nav-visual-cataclysm-ancient-remnant.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "after": "## Maledictus\n\n",
+      "insert": "![Maledictus](images/nav-visual-cataclysm-maledictus.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "after": "## 咒翼灵骸\n\n",
+      "insert": "![咒翼灵骸](images/nav-visual-cataclysm-maledictus.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "after": "## Netherite Monstrosity\n\n",
+      "insert": "![Netherite Monstrosity](images/nav-visual-cataclysm-netherite-monstrosity.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "after": "## 下界合金巨兽\n\n",
+      "insert": "![下界合金巨兽](images/nav-visual-cataclysm-netherite-monstrosity.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "after": "## Scylla\n\n",
+      "insert": "![Scylla](images/nav-visual-cataclysm-scylla.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "after": "## 斯库拉\n\n",
+      "insert": "![斯库拉](images/nav-visual-cataclysm-scylla.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "after": "## Sandworm\n\n",
+      "insert": "![Sandworm](images/nav-visual-block-factorys-bosses-sandworm.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "after": "## 巨型沙虫\n\n",
+      "insert": "![巨型沙虫](images/nav-visual-block-factorys-bosses-sandworm.png)\n\n"
+    },
+    {
+      "topic": "food.utensils",
+      "locale": "en_us",
+      "after": "## Kitchen tools\n\n",
+      "insert": "![Cooking pot over a campfire](images/nav-visual-farmers-delight-pot-campfire.png)\n\n"
+    },
+    {
+      "topic": "food.utensils",
+      "locale": "zh_cn",
+      "after": "## 厨房工具\n\n",
+      "insert": "![营火上的烹饪锅](images/nav-visual-farmers-delight-pot-campfire.png)\n\n"
+    },
+    {
+      "topic": "food.utensils",
+      "locale": "en_us",
+      "after": "## Kitchen tools\n\n",
+      "insert": "![Cooking pot interface](images/nav-visual-farmers-delight-pot-interface.png)\n\n"
+    },
+    {
+      "topic": "food.utensils",
+      "locale": "zh_cn",
+      "after": "## 厨房工具\n\n",
+      "insert": "![烹饪锅界面](images/nav-visual-farmers-delight-pot-interface.png)\n\n"
+    }
+  ],
+  "accepted_images": 8,
+  "boss_count": 17,
+  "illustrated_boss_count": 13,
+  "illustrated_bosses": [
+    "Infernal Dragon",
+    "Yeti",
+    "Sandworm",
+    "Underworld Knight",
+    "Ignis",
+    "Netherite Monstrosity",
+    "Ender Guardian",
+    "The Harbinger",
+    "The Leviathan",
+    "Ancient Remnant",
+    "Maledictus",
+    "Scylla",
+    "Wildfire"
+  ],
+  "omissions": [
+    {
+      "identifier": "illagerinvasion:invoker",
+      "reason": "Official description and gallery downloaded and inspected, plus web searches. All retrieved publisher images were marketing panels or an obstructed fight rather than a clean identifying portrait. Newer third-party issue image shows added armor, not appropriate source appearance. No substitute used.",
+      "searched_pages": [
+        "https://www.curseforge.com/minecraft/mc-mods/illager-invasion",
+        "https://modrinth.com/mod/illager-invasion",
+        "https://github.com/Fuzss/modresources/tree/main/pages/data/illagerinvasion",
+        "https://www.9minecraft.net/illager-invasion-mod/"
+      ]
+    },
+    {
+      "identifier": "block_factorys_bosses:kraken",
+      "reason": "Official gallery and description lack a clean individual Kraken image. Web search found MC百科 and Minecraft Guides images, all downloaded candidates carry visible watermarks. Rejected without removing watermarks.",
+      "searched_pages": [
+        "https://modrinth.com/mod/bossesrise",
+        "https://www.curseforge.com/minecraft/mc-mods/bossesrise",
+        "https://www.mcmod.cn/item/948622.html",
+        "https://www.minecraft-guides.com/mod/bossesrise/"
+      ]
+    },
+    {
+      "identifier": "minecraft:ender_dragon",
+      "reason": "Search identified official vanilla article. Direct fetch stalled and browser exposed no usable image URLs. No generic wallpaper or unrelated custom-map artwork used.",
+      "searched_pages": [
+        "https://www.minecraft.net/en-us/article/ender-dragon",
+        "https://minecraft.wiki/w/Ender_Dragon"
+      ]
+    },
+    {
+      "identifier": "minecraft:wither",
+      "reason": "Search identified official vanilla article. Browser exposed no usable image URLs. No unverified clipart substitute used.",
+      "searched_pages": [
+        "https://www.minecraft.net/en-us/article/meet-wither",
+        "https://minecraft.wiki/w/Wither"
+      ]
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "candidate": "illager1",
+      "original_sha256": "0a72017082cd3a8bffc0555e39f872bfbf1e05ae4bce8e90ef11dd912e8285d7",
+      "original_dimensions": [
+        1708,
+        960
+      ],
+      "decision": "rejected",
+      "reason": "Marketing text blocks gameplay image.",
+      "image_url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/1.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "illager2",
+      "original_sha256": "cc4afbc953551e602caa3778239d016481b6d4db9aa089a84702604da272d6dc",
+      "original_dimensions": [
+        1708,
+        960
+      ],
+      "decision": "rejected",
+      "reason": "Marketing text and generic fort scene, not Invoker.",
+      "image_url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/2.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "illager3",
+      "original_sha256": "762ee673b280e3ccecdf58ce376bf58158f77a7dc7396657d99118bf4ef4c4b0",
+      "original_dimensions": [
+        1708,
+        960
+      ],
+      "decision": "rejected",
+      "reason": "Marketing text and Illusioner, not Invoker.",
+      "image_url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/3.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "illager4",
+      "original_sha256": "4e13130463532b298bbb96d8c1e2f04f29dabd0d249527a7b5c91bb8770b1dec",
+      "original_dimensions": [
+        1708,
+        960
+      ],
+      "decision": "rejected",
+      "reason": "Marketing text and Firecaller scene, not Invoker.",
+      "image_url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/4.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "illager5",
+      "original_sha256": "74ff8b46ab4f9e33294fcc23851df921ffe47b34a4882afa7fc5403248395573",
+      "original_dimensions": [
+        1708,
+        960
+      ],
+      "decision": "rejected",
+      "reason": "Marketing text and foreground obstruct the Invoker appearance.",
+      "image_url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/5.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "old-illager5",
+      "original_sha256": "74ff8b46ab4f9e33294fcc23851df921ffe47b34a4882afa7fc5403248395573",
+      "original_dimensions": [
+        1708,
+        960
+      ],
+      "decision": "rejected",
+      "reason": "Historical official image still has blocking marketing text and foreground obstruction.",
+      "image_url": "https://raw.githubusercontent.com/Fuzss/modresources/3e56184a09bc8c15da44d773b524b7f3033592c0/pages/data/illagerinvasion/media/5.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "illager-gallery",
+      "original_sha256": "3cf4bc4c4bcd9ae69fa831c5a302b44bd21cf3c6b40d617bd6decb5fad4adc0a",
+      "original_dimensions": [
+        1708,
+        480
+      ],
+      "decision": "rejected",
+      "reason": "Marketing title banner, not an individual Invoker image.",
+      "image_url": "https://cdn.modrinth.com/data/jSV9w0J5/images/94f1d8fac334d28fc9667c16c8fd03471d8adfaa.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://modrinth.com/mod/illager-invasion",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "887505-0",
+      "original_sha256": "d9308a3746fc7b59a7e1eb4abd26d503d3664b6d02d8dc5c1e558bae7514d1ff",
+      "original_dimensions": [
+        938,
+        938
+      ],
+      "decision": "rejected",
+      "reason": "Visible MC百科 watermark.",
+      "image_url": "https://i.mcmod.cn/editor/upload/20251108/1762605999_921155_Vtyw.webp",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.mcmod.cn/item/887505.html",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "887505-1",
+      "original_sha256": "6531906a1c550a8353b982d64a5c00f3664fb80c8f43f89fbc1f4d38ae3d96be",
+      "original_dimensions": [
+        1024,
+        766
+      ],
+      "decision": "rejected",
+      "reason": "Visible MC百科 watermark.",
+      "image_url": "https://i.mcmod.cn/editor/upload/20251108/1762606047_921155_wBlV.webp",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.mcmod.cn/item/887505.html",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "887505-2",
+      "original_sha256": "5091773d7f211e638a58b187a18a4463b9b2bea158186661dc7a52da1dd824ed",
+      "original_dimensions": [
+        2880,
+        1620
+      ],
+      "decision": "rejected",
+      "reason": "Visible MC百科 watermark and boss bars, not a clean appearance image.",
+      "image_url": "https://i.mcmod.cn/editor/upload/20251108/1762606097_921155_iDGg.webp",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.mcmod.cn/item/887505.html",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "948622-0",
+      "original_sha256": "c34933a6216d25d696c51e6b86e288426fc5a8645cd835293f8516402beeabef",
+      "original_dimensions": [
+        1061,
+        615
+      ],
+      "decision": "rejected",
+      "reason": "Visible MC百科 watermark.",
+      "image_url": "https://i.mcmod.cn/editor/upload/20260613/1781362642_921155_Scwa.webp",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.mcmod.cn/item/948622.html",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "948622-1",
+      "original_sha256": "35408966adb9325d5d38d7e32fa3d4d09757838e1c089cd665d3ec11e7718a95",
+      "original_dimensions": [
+        1366,
+        857
+      ],
+      "decision": "rejected",
+      "reason": "Visible MC百科 watermark and ship scene, no individual boss body.",
+      "image_url": "https://i.mcmod.cn/editor/upload/20260607/1780807502_921155_UrDS.webp",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.mcmod.cn/item/948622.html",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "948622-2",
+      "original_sha256": "71bd511e6ac71e627e48effd664c4683fc88ba0281d640ab076361d4da82b1a5",
+      "original_dimensions": [
+        1258,
+        859
+      ],
+      "decision": "rejected",
+      "reason": "Visible MC百科 watermark.",
+      "image_url": "https://i.mcmod.cn/editor/upload/20260607/1780807697_921155_SHCi.webp",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.mcmod.cn/item/948622.html",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "kraken",
+      "original_sha256": "03d374e02846209f814e251c7fa6556c4120a5eb02eb37162f1dca01c70e833f",
+      "original_dimensions": [
+        1024,
+        576
+      ],
+      "decision": "rejected",
+      "reason": "Visible minecraft-guides.com watermark and corner frame.",
+      "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2025/09/BossesRise_Krakken-final-stage-1024x576.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.minecraft-guides.com/mod/bossesrise/",
+      "reuse_rights": "unknown"
+    },
+    {
+      "candidate": "sandworm",
+      "original_sha256": "79897cbe10ba27d96faac81261ef097a64b7793e6c85525347b6c742a80f0d0d",
+      "original_dimensions": [
+        1024,
+        576
+      ],
+      "decision": "rejected",
+      "reason": "Visible minecraft-guides.com watermark and corner frame.",
+      "image_url": "https://www.minecraft-guides.com/wp-content/uploads/2025/09/Sandworm-1024x576.png",
+      "downloaded_image_inspected": true,
+      "page_url": "https://www.minecraft-guides.com/mod/bossesrise/",
+      "reuse_rights": "unknown"
+    }
+  ],
+  "retrieval_issues": [
+    "CurseForge direct browser challenge blocked image enumeration. Modrinth API and publisher embeds used instead.",
+    "Minecraft Guides raw HTML returned forbidden; normal browser supplied image URLs. Image downloads succeeded.",
+    "Direct Imgur and canonical download endpoints returned rate limiting. Official GitHub wiki image proxy returned original artwork with its canonical Imgur source URL preserved.",
+    "One vanilla publisher HTML fetch timed out. No data fabricated."
+  ],
+  "verification": {
+    "json_valid": true,
+    "unique_image_hashes": true,
+    "image_decode": true,
+    "referenced_files_exist": true,
+    "locale_image_parity": true,
+    "nonvisual_content_unchanged": true,
+    "native_parser": "Not run: generator, helper and shared edits excluded from this task. Existing ordinary Markdown image syntax reused.",
+    "runtime": "Not run: no game launch or computer use authorized."
+  },
+  "distribution": "No public upload. All accepted image reuse rights remain unknown."
+}

@@ -28,8 +28,23 @@ navigation:
 
 ## 初次使用
 
+### 空燃烧室
+
+<Recipe id="create:crafting/kinetics/empty_blaze_burner" />
+
+先制作 <ItemLink id="create:empty_blaze_burner" />。此时还不是装有烈焰人的 <ItemLink id="create:blaze_burner" />，需要用空燃烧室捕获烈焰人，再供应燃料。
+
 从捕获烈焰人的燃烧室开始，并检查熔岩供给线路。不要假定柴油、汽油或所有油类都能使用。所选 Liquid Fuel 文件仅定义熔岩及来自其他模组的特定联动流体。接燃料管线前，请在物品浏览器确认实际流体。燃烧室布局与加热状态请看 Create 思索演示。
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | 已安装基准版 | Pump in liquid fuel to blaze burners |

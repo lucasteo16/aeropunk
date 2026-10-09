@@ -273,3 +273,11 @@ navigation:
 - [食物与饥饿](food.hunger.md)
 - [作物食材](food.growing.md)
 - [烹饪工具](food.utensils.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | 已安装基准版 | Farmer's Delight add-on for miners |

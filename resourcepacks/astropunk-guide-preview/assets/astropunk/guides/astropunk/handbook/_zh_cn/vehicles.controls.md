@@ -102,4 +102,14 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | 已安装基准版 | A collection of addons for Create Aeronautics with blocks such as the gyroscope, joystick, and more! |
+| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | 已安装基准版 | An addon for the Create Minecraft mod that adds a way of controlling contraptions using an advanced controller |

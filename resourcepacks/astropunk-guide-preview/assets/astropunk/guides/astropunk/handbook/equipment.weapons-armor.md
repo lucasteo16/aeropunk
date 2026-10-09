@@ -10,9 +10,11 @@ navigation:
 
 ## First weapon
 
-Choose a role, then inspect its native recipe. These are crafting entry points, not mandatory progression tiers. Making a weapon does not automatically bind class-book abilities.
+Choose the role you want to try and craft its weapon or focus. These recipes are starting options, not compulsory progression tiers. A book and skill points are separate choices.
 
-### Archery
+- [Spells & skills](reference.skills.md) Every supported class and the first binding steps.
+
+### Archer
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -22,7 +24,21 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="archers:composite_longbow" />
 
-### Rogue melee
+Prepared shots and area arrows.
+
+### Deadeye
+
+<ItemGrid>
+  <ItemIcon id="archers:rapid_crossbow" />
+</ItemGrid>
+
+<ItemLink id="archers:rapid_crossbow" />
+
+<Recipe id="archers:rapid_crossbow" />
+
+Rapid ranged attacks and disabling shots.
+
+### Rogue
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
@@ -32,7 +48,9 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="rogues:iron_dagger" />
 
-### Warrior melee
+Close attacks with traps and mobility.
+
+### Warrior
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_double_axe" />
@@ -42,7 +60,9 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="rogues:iron_double_axe" />
 
-### Rage melee
+Charges and defensive melee techniques.
+
+### Berserker
 
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
@@ -52,7 +72,9 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="berserker_rpg:iron_berserker_axe" />
 
-### Arcane knuckles
+Rage effects and heavy melee strikes.
+
+### Forcemaster
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
@@ -62,7 +84,21 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="forcemaster_rpg:iron_knuckle" />
 
-### Wizard casting
+Arcane strikes with knuckles.
+
+### Arcane Wizard
+
+<ItemGrid>
+  <ItemIcon id="wizards:wand_arcane" />
+</ItemGrid>
+
+<ItemLink id="wizards:wand_arcane" />
+
+<Recipe id="wizards:wand_arcane" />
+
+Arcane projectiles and beams.
+
+### Fire Wizard
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_novice" />
@@ -72,7 +108,21 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="wizards:wand_novice" />
 
-### Water casting
+Fire attacks and persistent burning areas.
+
+### Frost Wizard
+
+<ItemGrid>
+  <ItemIcon id="wizards:wand_frost" />
+</ItemGrid>
+
+<ItemLink id="wizards:wand_frost" />
+
+<Recipe id="wizards:wand_frost" />
+
+Frost attacks and protective effects.
+
+### Aqua Wizard
 
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
@@ -82,17 +132,57 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 
 <Recipe id="elemental_wizards_rpg:wand_kelp" />
 
-### Healing
+Water damage and healing areas.
+
+### Terra Wizard
 
 <ItemGrid>
-  <ItemIcon id="paladins:holy_wand" />
+  <ItemIcon id="elemental_wizards_rpg:wand_clay" />
 </ItemGrid>
 
-<ItemLink id="paladins:holy_wand" />
+<ItemLink id="elemental_wizards_rpg:wand_clay" />
 
-<Recipe id="paladins:holy_wand" />
+<Recipe id="elemental_wizards_rpg:wand_clay" />
 
-### Instrument casting
+Earth attacks and protective ground effects.
+
+### Wind Wizard
+
+<ItemGrid>
+  <ItemIcon id="elemental_wizards_rpg:wand_feather" />
+</ItemGrid>
+
+<ItemLink id="elemental_wizards_rpg:wand_feather" />
+
+<Recipe id="elemental_wizards_rpg:wand_feather" />
+
+Air attacks and tornado areas.
+
+### Paladin
+
+<ItemGrid>
+  <ItemIcon id="paladins:iron_mace" />
+</ItemGrid>
+
+<ItemLink id="paladins:iron_mace" />
+
+<Recipe id="paladins:iron_mace" />
+
+Melee strikes with healing and protection.
+
+### Priest
+
+<ItemGrid>
+  <ItemIcon id="paladins:acolyte_wand" />
+</ItemGrid>
+
+<ItemLink id="paladins:acolyte_wand" />
+
+<Recipe id="paladins:acolyte_wand" />
+
+Healing beams and group protection.
+
+### Bard
 
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
@@ -101,6 +191,8 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 <ItemLink id="bards_rpg:wooden_lute" />
 
 <Recipe id="bards_rpg:wooden_lute" />
+
+Instrument attacks and support songs.
 
 ### Witcher fencing
 
@@ -111,6 +203,10 @@ Choose a role, then inspect its native recipe. These are crafting entry points, 
 <ItemLink id="witcher_rpg:iron_witcher_sword" />
 
 <Recipe id="witcher_rpg:iron_witcher_sword" />
+
+Sword attacks and combat techniques.
+
+Archer expansion paths share ranged starter equipment, then add specialist armor. The Novice Wand supplies Fire power. Use the Arcane Wand for Arcane and the Frost Wand for Frost. The Acolyte Wand is the cheaper healing entry before the Holy Wand.
 
 
 ***
@@ -936,3 +1032,13 @@ Better Nether ruby weapons, Better End crystal and aeternium weapons, and Aether
 - [Martial abilities](combat.martial.md) Ranged shots, close combat and class techniques.
 - [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
 - [Accessories](equipment.accessories.md) Equip jewelry and relics in their supported slots.
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Baseline, installed | 👑 Epic armor sets, with unique designs and set bonuses. |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Baseline, installed | Legendary weapons from the past - not crafted, but conquered. |

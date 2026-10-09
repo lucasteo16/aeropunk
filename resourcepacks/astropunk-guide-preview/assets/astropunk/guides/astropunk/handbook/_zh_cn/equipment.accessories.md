@@ -25,6 +25,29 @@ navigation:
 
 ***
 
+## 入门珠宝
+
+铜戒指是早期防护饰品，铁戒指是另一种可合成的防护选项。将戒指放入允许的戒指槽，再按招式所用属性比较提示。戒指不会解锁职业法术。
+
+<ItemGrid>
+  <ItemIcon id="jewelry:copper_ring" />
+</ItemGrid>
+
+<ItemLink id="jewelry:copper_ring" />
+
+<Recipe id="jewelry:copper_ring" />
+
+<ItemGrid>
+  <ItemIcon id="jewelry:iron_ring" />
+</ItemGrid>
+
+<ItemLink id="jewelry:iron_ring" />
+
+<Recipe id="jewelry:iron_ring" />
+
+
+***
+
 ## 珠宝
 
 戒指与项链提供构筑属性。这里展示全部宝石、下界合金与独特变体。猎魔人已加载，因此也包含对应的扩展珠宝。
@@ -545,3 +568,16 @@ navigation:
 - [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
 - [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
 - [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 已安装基准版 | Jewelry Add-On for the More RPG Classes Mods. |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 已安装基准版 | A flexible and expandable accessory/equipment API for users and developers. |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 已安装基准版 | 💍 Find precious gems deep down, and craft them into powerful jewelry! |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 已安装基准版 | This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics! |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 已安装基准版 | 🎖 Unleash your true potential with powerful trinkets! 🔮 |

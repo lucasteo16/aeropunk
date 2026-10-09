@@ -219,3 +219,11 @@ Cataclysm 食材把烹饪与生物遭遇联系起来。先取得指定的生食�
 - [食物与饥饿](food.hunger.md)
 - [作物食材](food.growing.md)
 - [烹饪工具](food.utensils.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 已安装基准版 | Adds 50+ dishes, linking L_Ender's Cataclysm and Farmer's Delight in a Vanilla style. |

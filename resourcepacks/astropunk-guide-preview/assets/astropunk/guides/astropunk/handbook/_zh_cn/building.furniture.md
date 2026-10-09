@@ -110,4 +110,18 @@ Supplementaries 提供遮阳篷、罐子、基座、黑板与小型摆设。Amen
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Amendments](images/catalog-6iTJugQR.png) [Amendments](building.furniture.md) | 已安装基准版 | Many changes to vanilla blocks |
+| ![Beautify: ReFoxed](images/catalog-ZQCyyWBM.png) [Beautify: ReFoxed](building.furniture.md) | 已安装基准版 | Adds lots of vanilla-styled ways to spice up your builds. |
+| ![Create: Interiors](images/catalog-r4Knci2k.png) [Create: Interiors](building.furniture.md) | 已安装基准版 | A complement to the Create mod that adds new furniture. |
+| ![Handcrafted](images/catalog-pJmCFF0p.png) [Handcrafted](building.furniture.md) | 已安装基准版 | Make your house a home! |
+| ![Supplementaries](images/catalog-fFEIiSDQ.png) [Supplementaries](building.furniture.md) | 已安装基准版 | Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation |
+| ![TW‘s  Decorative Food](images/catalog-656seq5J.png) [TW‘s  Decorative Food](building.furniture.md) | 已安装基准版 | Make the food placeable.Decorate your world! |

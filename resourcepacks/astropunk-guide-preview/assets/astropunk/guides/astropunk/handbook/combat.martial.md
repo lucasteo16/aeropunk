@@ -32,6 +32,10 @@ The lists below cover every active ability assigned to the supported martial cla
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
 
+<ItemLink id="archers:composite_longbow" />
+
+<Recipe id="archers:composite_longbow" />
+
 Archery abilities combine prepared shots, projectiles, area attacks and a companion effect.
 
 | Ability | Form |
@@ -48,8 +52,12 @@ Archery abilities combine prepared shots, projectiles, area attacks and a compan
 ## Deadeye
 
 <ItemGrid>
-  <ItemIcon id="archers_expansion:deadeye_chest" />
+  <ItemIcon id="archers:rapid_crossbow" />
 </ItemGrid>
+
+<ItemLink id="archers:rapid_crossbow" />
+
+<Recipe id="archers:rapid_crossbow" />
 
 Physical ranged techniques combine rapid shots, control and class-specific attacks.
 
@@ -67,8 +75,12 @@ Physical ranged techniques combine rapid shots, control and class-specific attac
 ## Tundra Hunter
 
 <ItemGrid>
-  <ItemIcon id="archers_expansion:tundra_hunter_chest" />
+  <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
+
+<ItemLink id="archers:composite_longbow" />
+
+<Recipe id="archers:composite_longbow" />
 
 Frost ranged techniques combine freezing shots and persistent areas.
 
@@ -86,8 +98,12 @@ Frost ranged techniques combine freezing shots and persistent areas.
 ## War Archer
 
 <ItemGrid>
-  <ItemIcon id="archers_expansion:war_archer_chest" />
+  <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
+
+<ItemLink id="archers:composite_longbow" />
+
+<Recipe id="archers:composite_longbow" />
 
 Fire ranged techniques combine arrow attacks and burning areas.
 
@@ -108,6 +124,10 @@ Fire ranged techniques combine arrow attacks and burning areas.
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
 
+<ItemLink id="rogues:iron_dagger" />
+
+<Recipe id="rogues:iron_dagger" />
+
 Close-combat techniques combine prepared melee effects, traps and mobility.
 
 | Ability | Form |
@@ -126,6 +146,10 @@ Close-combat techniques combine prepared melee effects, traps and mobility.
 <ItemGrid>
   <ItemIcon id="rogues:iron_double_axe" />
 </ItemGrid>
+
+<ItemLink id="rogues:iron_double_axe" />
+
+<Recipe id="rogues:iron_double_axe" />
 
 Melee techniques combine throws, charging and defensive self effects.
 
@@ -146,6 +170,10 @@ Melee techniques combine throws, charging and defensive self effects.
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
 
+<ItemLink id="berserker_rpg:iron_berserker_axe" />
+
+<Recipe id="berserker_rpg:iron_berserker_axe" />
+
 Rage-based techniques mix melee damage and self effects.
 
 | Ability | Form |
@@ -165,6 +193,10 @@ Rage-based techniques mix melee damage and self effects.
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>
 
+<ItemLink id="forcemaster_rpg:iron_knuckle" />
+
+<Recipe id="forcemaster_rpg:iron_knuckle" />
+
 Arcane close-combat techniques mix melee strikes and ranged effects.
 
 | Ability | Form |
@@ -183,3 +215,17 @@ Arcane close-combat techniques mix melee strikes and ranged effects.
 - [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
 - [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
 - [Combat controls](combat.handling.md) Learn attack patterns, spell controls and rolling.
+
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Baseline, installed | 🏹 Draw, Release, Conquer - Master the art of Archery! |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Baseline, installed | Extends the Archers-Mod (RPG Series)  with new content. Spell Engine Add-On |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Baseline, installed | Enter a wild, relentless battle trance as a Berserker! Spell Engine Add-On |
+| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Baseline, installed | Grab a Knuckle, master the force and martial art. Spell Engine Add-On |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Baseline, installed | 🗡️ Silent Blades, Mighty Blows - Dominate with martial skills! |

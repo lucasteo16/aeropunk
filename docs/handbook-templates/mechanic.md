@@ -24,7 +24,7 @@ item_ids:
 
 Use the item's Ponder demonstration for assembly and rotation.
 
-[Material routing](machines.logistics.md) covers ingredient delivery and output collection.
+- [Material routing](machines.logistics.md) Ingredient delivery and output collection.
 
 ## Related mods
 

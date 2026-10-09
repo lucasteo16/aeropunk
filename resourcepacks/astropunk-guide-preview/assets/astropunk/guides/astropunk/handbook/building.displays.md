@@ -58,4 +58,17 @@ Armor Poser edits armor stand limbs, position, rotation and presets. Sneak and r
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | Baseline, installed | Adds a GUI for armor stands in which you can configure it's pose and other properties |
+| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | Baseline, installed | Easily write large, multi-line characters and symbols on signs! |
+| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | Baseline, installed | Drag and drop, pixelate and hang up beautiful art. On servers too. |
+| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | Baseline, installed | A mod for builders and adventurers who would like to have their items placed in the world, not lying around in chests! |
+| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | Baseline, installed | Bring some life to your builds with player statues of your favorite Minecrafters! |

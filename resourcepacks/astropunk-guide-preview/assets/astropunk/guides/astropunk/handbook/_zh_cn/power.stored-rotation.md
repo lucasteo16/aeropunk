@@ -56,4 +56,13 @@ navigation:
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 已安装基准版 | Store rotational force using springs! |

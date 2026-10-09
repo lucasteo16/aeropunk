@@ -25,6 +25,29 @@ Open the Curios accessory interface and place each item in its accepted slot. Je
 
 ***
 
+## Starter jewelry
+
+A copper ring is an early protection accessory. An iron ring is another craftable protection option. Equip either in an allowed ring slot, then compare its tooltip with the attributes your abilities use. A ring does not unlock class spells.
+
+<ItemGrid>
+  <ItemIcon id="jewelry:copper_ring" />
+</ItemGrid>
+
+<ItemLink id="jewelry:copper_ring" />
+
+<Recipe id="jewelry:copper_ring" />
+
+<ItemGrid>
+  <ItemIcon id="jewelry:iron_ring" />
+</ItemGrid>
+
+<ItemLink id="jewelry:iron_ring" />
+
+<Recipe id="jewelry:iron_ring" />
+
+
+***
+
 ## Jewelry
 
 Rings and necklaces supply build attributes. Gem and netherite variants and named uniques are all shown. Witcher-specific additional jewelry is supported because Witcher is loaded.
@@ -545,3 +568,16 @@ Compare the attribute used by your ability, its trigger condition and the slot i
 - [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
 - [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
 - [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Baseline, installed | Jewelry Add-On for the More RPG Classes Mods. |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | Baseline, installed | A flexible and expandable accessory/equipment API for users and developers. |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | Baseline, installed | 💍 Find precious gems deep down, and craft them into powerful jewelry! |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Baseline, installed | This is a Relics (RPG-Series) Add-On, adding relics for the More RPG Classes and powerful relics! |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | Baseline, installed | 🎖 Unleash your true potential with powerful trinkets! 🔮 |

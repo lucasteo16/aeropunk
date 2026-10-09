@@ -44,6 +44,8 @@ item_ids:
 
 ## 巨型沙虫
 
+![巨型沙虫](images/nav-visual-block-factorys-bosses-sandworm.png)
+
 斯洛克，巨型沙虫。来自 Bosses'Rise。会钻入沙地下方的分节巨虫。
 
 在主世界沙漠寻找 Sandworm Nest。
@@ -93,6 +95,8 @@ item_ids:
 
 ## 下界合金巨兽
 
+![下界合金巨兽](images/nav-visual-cataclysm-netherite-monstrosity.png)
+
 来自 L_Ender's Cataclysm。头部有角的巨兽，拥有巨大的关节式双手。
 
 在下界荒地、灵魂沙峡谷或两类下界森林寻找 Soul Black Smith。
@@ -135,6 +139,8 @@ item_ids:
 
 ## 利维坦
 
+![利维坦](images/nav-visual-cataclysm-the-leviathan.png)
+
 来自 L_Ender's Cataclysm。拥有四瓣口部与长舌的水生巨兽。
 
 在主世界深海下方寻找 Sunken City。
@@ -150,6 +156,8 @@ item_ids:
 
 ## 远古遗魂
 
+![远古遗魂](images/nav-visual-cataclysm-ancient-remnant.png)
+
 来自 L_Ender's Cataclysm。拥有长分节尾部的大型生物。
 
 在主世界沙漠寻找 Cursed Pyramid。
@@ -163,6 +171,8 @@ item_ids:
 ***
 
 ## 咒翼灵骸
+
+![咒翼灵骸](images/nav-visual-cataclysm-maledictus.png)
 
 来自 L_Ender's Cataclysm。拥有双翼与角的战士，使用双锤、弓与长戟。
 
@@ -179,6 +189,8 @@ item_ids:
 ***
 
 ## 斯库拉
+
+![斯库拉](images/nav-visual-cataclysm-scylla.png)
 
 来自 L_Ender's Cataclysm。身边缠绕海蛇、手持锁链船锚的战士。
 
@@ -230,3 +242,14 @@ Dangerous 调整现有敌人的生命值与装备，不增加独立的首领种�
 
 - [普通生物](adventure.creatures.md)
 - [首领场地与地牢](adventure.structures.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | 已安装基准版 | 🐉 Bring Souls-like Bosses into your world |
+| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | 已安装基准版 | Dangerous is a balancing mod designed to enhance the challenge of Minecraft, especially when combined with other mods that grant players powerful abilities or additional health. |
+| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | 已安装基准版 | The illagers are back! Be ready to fight new foes. A port of Illager Expansion. |
+| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | 已安装基准版 | Cataclysm is a mod that adds difficult dungeons, challenging boss-fights and powerful items. |

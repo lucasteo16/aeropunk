@@ -295,3 +295,11 @@ navigation:
 - [食物与饥饿](food.hunger.md)
 - [作物食材](food.growing.md)
 - [烹饪工具](food.utensils.md)
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 已安装基准版 | New Nether addon for Farmer's Delight |

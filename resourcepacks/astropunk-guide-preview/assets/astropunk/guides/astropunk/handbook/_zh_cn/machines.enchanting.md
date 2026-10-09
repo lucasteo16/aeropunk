@@ -67,4 +67,14 @@ navigation:
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 已安装基准版 | Automatic Enchanting, with Create |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | 已安装基准版 | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |

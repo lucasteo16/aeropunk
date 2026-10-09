@@ -28,8 +28,17 @@ for entry in entries:
         entry.update(category='Player utilities and quality of life', topic='help.controls')
     if path in {'mods/easy-anvils.pw.toml', 'mods/create-stuff-additions.pw.toml', 'mods/create-stam1o-tweaks.pw.toml'}:
         entry['category'] = 'Player utilities and quality of life'
+    # Exact verified audio providers and their Sable compatibility addons.
+    if path in {'mods/cool-rain-reforged.pw.toml', 'mods/pf-neoforge.pw.toml', 'mods/sable-cool-rain.pw.toml', 'mods/presence-footsteps-x-sable.pw.toml'}:
+        entry.update(category='Visuals and sound', topic='sounds.ambience')
     if path == 'mods/create-dragons-plus.pw.toml':
         entry.update(category='Technical reference', topic='technical.libraries')
+placement_overrides = json.loads((ROOT / 'docs/handbook-placement-overrides.json').read_text())
+assert set(placement_overrides) <= {entry['metadata_path'] for entry in entries}
+for entry in entries:
+    if placement := placement_overrides.get(entry['metadata_path']):
+        # Classification changes do not override availability reconciled above.
+        entry.update(category=placement['category'], topic=placement['topic'])
 by_topic = defaultdict(list)
 for entry in entries:
     by_topic[entry['topic']].append(entry)
@@ -48,14 +57,29 @@ categories = [
 ]
 category_by_name = {c[1]: c for c in categories}
 
-reference_sections = [('help.controls', 'Controls', '操作与按键', 'minecraft:lever', 'Bindings and interface settings', '按键绑定与界面设置'), ('help.search', 'Item recipe', '物品配方', 'minecraft:crafting_table', 'Ingredients, uses and recipe conflicts', '原料、用途与配方冲突'), ('adventure.bosses', 'Bosses', '首领', 'minecraft:dragon_head', 'Encounters, locations and access', '遭遇、位置与进入条件'), ('adventure.creatures', 'Creatures', '生物', 'minecraft:egg', 'Species, variants and habitats', '种类、变种与栖息地'), ('adventure.structures', 'Structures and dungeons', '结构与地牢', 'minecraft:stone_bricks', 'Locations, families and variants', '位置、类型与变体'), ('world.dimensions', 'Dimensions', '维度', 'minecraft:grass_block', 'Overworld, Nether and End', '主世界、下界与末地'), ('reference.equipment', 'Equipment', '装备', 'minecraft:iron_chestplate', 'Weapons, armor and accessories', '武器、护甲与饰品'), ('reference.skills', 'Spells and skills', '法术与技能', 'minecraft:enchanted_book', 'Combat styles, spells and skill systems', '战斗风格、法术与技能系统'), ('reference.food', 'Food and farming', '食物与农业', 'minecraft:apple', 'Ingredients, dishes and crops', '食材、料理与作物'), ('reference.building', 'Building', '建筑', 'minecraft:bricks', 'Materials, shapes and furniture', '材料、形状与家具'), ('reference.vehicles', 'Vehicles and travel', '载具与旅行', 'minecraft:minecart', 'Components, transport and destinations', '组件、交通与目的地'), ('reference.machines-storage', 'Machines and storage', '机器与储存', 'create:crushing_wheel', 'Machines, power, resources and containers', '机器、动力、资源与容器'), ('maps.personal', 'Maps', '地图', 'minecraft:map', 'World maps, waypoints and finders', '世界地图、路标与查找工具')]
+reference_sections = [('help.controls', 'Controls', '操作与按键', 'minecraft:lever', 'Bindings and interface settings', '按键绑定与界面设置'), ('help.search', 'Browse recipe', '浏览配方', 'minecraft:crafting_table', 'Ingredients, uses and recipe conflicts', '原料、用途与配方冲突'), ('adventure.bosses', 'Bosses', '首领', 'minecraft:dragon_head', 'Encounters, locations and access', '遭遇、位置与进入条件'), ('adventure.creatures', 'Creatures', '生物', 'minecraft:egg', 'Species, variants and habitats', '种类、变种与栖息地'), ('adventure.structures', 'Structures and dungeons', '结构与地牢', 'minecraft:stone_bricks', 'Locations, families and variants', '位置、类型与变体'), ('world.dimensions', 'Dimensions', '维度', 'minecraft:grass_block', 'Overworld, Nether and End', '主世界、下界与末地'), ('reference.equipment', 'Equipment', '装备', 'minecraft:iron_chestplate', 'Weapons, armor and accessories', '武器、护甲与饰品'), ('reference.skills', 'Spells and skills', '法术与技能', 'minecraft:enchanted_book', 'Combat styles, spells and skill systems', '战斗风格、法术与技能系统'), ('reference.food', 'Food and farming', '食物与农业', 'minecraft:apple', 'Ingredients, dishes and crops', '食材、料理与作物'), ('reference.building', 'Building', '建筑', 'minecraft:bricks', 'Materials, shapes and furniture', '材料、形状与家具'), ('reference.vehicles', 'Vehicles and travel', '载具与旅行', 'minecraft:minecart', 'Components, transport and destinations', '组件、交通与目的地'), ('reference.machines-storage', 'Machines and storage', '机器与储存', 'create:crushing_wheel', 'Machines, power, resources and containers', '机器、动力、资源与容器'), ('maps.personal', 'Maps', '地图', 'minecraft:map', 'World maps, waypoints and finders', '世界地图、路标与查找工具')]
 reference_hubs = {'reference.equipment': ('Combat and character', ['equipment.weapons-armor', 'equipment.accessories', 'equipment.display']), 'reference.skills': ('Combat and character', ['combat.handling', 'combat.martial', 'combat.magic', 'combat.skills']), 'reference.food': ('Food and farming', ['food.hunger', 'food.utensils', 'food.nether', 'food.end', 'food.underground', 'food.encounters', 'food.machine-cooking', 'food.growing', 'food.fishing']), 'reference.building': ('Building and decoration', ['building.palette', 'building.factory', 'building.copycats', 'building.architecture', 'building.furniture', 'building.displays', 'building.placement', 'building.safety']), 'reference.vehicles': ('Vehicles and travel', ['vehicles.assembly', 'vehicles.airships', 'vehicles.engines', 'vehicles.controls', 'vehicles.radar', 'vehicles.weapons', 'vehicles.water', 'transport.passenger', 'transport.railway-builder', 'transport.local', 'travel.destinations', 'travel.moving-destinations']), 'reference.machines-storage': ('Automation and industry', ['storage.portable', 'storage.bulk', 'storage.handling', 'machines.ore-processing', 'machines.rotation', 'machines.logistics', 'machines.renewables', 'machines.enchanting', 'machines.trading', 'machines.miscellaneous', 'power.electricity', 'power.industry', 'power.burners', 'power.stored-rotation'])}
 
-short_reference_titles = {'adventure.structures': 'Structures', 'reference.skills': 'Spells & skills', 'reference.food': 'Food & farming', 'reference.vehicles': 'Vehicles', 'reference.machines-storage': 'Machines & storage', 'help.controls': 'Controls'}
-reference_sections = [(topic, short_reference_titles.get(topic, english), chinese, icon, role, zh_role) for topic, english, chinese, icon, role, zh_role in reference_sections]
+short_reference_titles = {'adventure.structures': 'Structures', 'reference.skills': 'Spells & skills', 'reference.food': 'Food & farming', 'reference.vehicles': 'Transport', 'reference.machines-storage': 'Machines & storage', 'help.controls': 'Controls'}
+reference_sections = [(topic, short_reference_titles.get(topic, english), '交通' if topic == 'reference.vehicles' else chinese, icon, role, zh_role) for topic, english, chinese, icon, role, zh_role in reference_sections]
 reference_icons = {topic: icon for topic, _, _, icon, *_ in reference_sections}
 short_category_titles = {'automation': 'Automation', 'storage': 'Storage & logistics', 'food': 'Food & farming', 'building': 'Building', 'travel': 'Vehicles', 'combat': 'Combat & skills', 'exploration': 'Exploration', 'utilities': 'Utilities', 'visuals': 'Visuals & sound', 'technical': 'Technical'}
 
+# Supplemental topics live in the same tree, not in competing mod catalogs.
+reference_sections += [
+    ('reference.utilities', 'Utilities', '实用工具', 'minecraft:lever', 'Inspection, interactions, sleep and recovery', '信息查看、交互、睡眠与恢复'),
+    ('reference.appearance', 'Appearance', '外观', 'minecraft:painting', 'Camera, models, lighting and resource packs', '视角、模型、光照与资源包'),
+    ('reference.audio', 'Audio', '音效', 'minecraft:note_block', 'Ambience, footsteps and weather sounds', '环境声、脚步声与天气音效'),
+    ('reference.technical', 'Technical', '技术', 'minecraft:redstone', 'Libraries, performance and administration', '支持库、性能与管理'),
+]
+reference_hubs.update({
+    'reference.utilities': ('Player utilities and quality of life', ['help.inspect', 'help.reference', 'interactions.carry', 'adventure.recovery', 'adventure.sleep']),
+    'reference.appearance': ('Visuals and sound', ['visuals.camera', 'visuals.models', 'visuals.weather', 'visuals.lighting', 'visuals.resource-packs', 'visuals.shader-packs', 'visuals.interface']),
+    'reference.audio': ('Visuals and sound', ['sounds.ambience']),
+    'reference.technical': ('Technical reference', ['help.handbook', 'performance.baseline', 'performance.deferred', 'server.tools', 'server.deferred-pack-loading', 'technical.bridges', 'technical.space-bridge', 'technical.libraries']),
+})
+reference_hubs['reference.vehicles'][1].extend(['space.destinations', 'space.vehicle-transfer'])
+reference_icons.update({topic: icon for topic, _, _, icon, *_ in reference_sections})
 reference_parents = {topic: 'quick-reference.md' for topic, *_ in reference_sections}
 for hub, (_, topics) in reference_hubs.items():
     for topic in topics:
@@ -165,7 +189,7 @@ for topic, english, chinese_title, *_ in reference_sections:
     zh_titles[topic] = chinese_title
 titles = {p['page_id']: p['title'] for p in page_defs}
 titles.update({topic: english for topic, english, *_ in reference_sections})
-titles.update({'help.search':'Item recipe', 'help.controls':'Controls', 'machines.ore-processing':'Ore processing', 'food.utensils':'Cooking tools', 'food.hunger':'Hunger and food variety', 'storage.portable':'Portable storage', 'travel.destinations':'Teleportation', 'building.copycats':'Copycat shapes', 'interactions.carry':'Carry On', 'visuals.lighting':'Lighting and distant terrain', 'combat.skills':'Character skills', 'maps.find':'Biome and structure finders', 'machines.rotation':'Rotational power', 'machines.renewables':'Renewable resources', 'machines.enchanting':'Automated enchanting', 'machines.trading':'Automated trading', 'machines.miscellaneous':'Workshop tools', 'power.electricity':'Electricity', 'power.industry':'Industrial materials and fuels', 'power.burners':'Liquid burner fuels', 'power.stored-rotation':'Rotational storage', 'food.machine-cooking':'Machine cooking'})
+titles.update({'help.search':'Browse recipe', 'help.controls':'Controls', 'machines.ore-processing':'Ore processing', 'food.utensils':'Cooking tools', 'food.hunger':'Hunger and food variety', 'storage.portable':'Portable storage', 'travel.destinations':'Teleportation', 'building.copycats':'Copycat shapes', 'interactions.carry':'Carry On', 'visuals.lighting':'Lighting and distant terrain', 'combat.skills':'Character skills', 'maps.find':'Biome and structure finders', 'machines.rotation':'Rotational power', 'machines.renewables':'Renewable resources', 'machines.enchanting':'Automated enchanting', 'machines.trading':'Automated trading', 'machines.miscellaneous':'Workshop tools', 'power.electricity':'Electricity', 'power.industry':'Industrial materials and fuels', 'power.burners':'Liquid burner fuels', 'power.stored-rotation':'Rotational storage', 'food.machine-cooking':'Machine cooking'})
 for topic, title in titles.items():
     for verb in ('Find ', 'Explore ', 'Choose ', 'Use ', 'Understand ', 'Read ', 'Look up ', 'Learn about '):
         if title.startswith(verb):
@@ -175,7 +199,7 @@ for topic, title in titles.items():
 
 titles.update({'help.inspect': 'Block & mob info', 'help.reference': 'Existing help', 'help.handbook': 'Handbook', 'food.hunger': 'Hunger & variety', 'food.utensils': 'Cooking tools', 'food.nether': 'Nether food', 'food.end': 'End food', 'food.underground': 'Underground food', 'food.encounters': 'Encounter food', 'food.machine-cooking': 'Machine cooking', 'food.growing': 'Farming', 'food.fishing': 'Fishing', 'storage.portable': 'Portable storage', 'storage.bulk': 'Bulk storage', 'storage.handling': 'Inventory tools', 'machines.ore-processing': 'Ore processing', 'machines.rotation': 'Rotational power', 'machines.logistics': 'Item routing', 'machines.renewables': 'Renewable resources', 'machines.enchanting': 'Enchanting', 'machines.trading': 'Trading', 'machines.miscellaneous': 'Workshop tools', 'power.electricity': 'Electricity', 'power.industry': 'Materials & fuels', 'power.burners': 'Liquid fuels', 'power.stored-rotation': 'Stored rotation', 'vehicles.assembly': 'Vehicle assembly', 'vehicles.airships': 'Airships', 'vehicles.engines': 'Engines', 'vehicles.controls': 'Vehicle controls', 'vehicles.radar': 'Radar', 'vehicles.weapons': 'Mounted weapons', 'vehicles.water': 'Boats & submarines', 'transport.passenger': 'Train travel', 'transport.railway-builder': 'Railways', 'transport.local': 'Local transport', 'travel.destinations': 'Teleportation', 'travel.moving-destinations': 'Moving destinations', 'maps.shared': 'Shared maps', 'maps.find': 'Location finders', 'adventure.loot': 'Loot', 'adventure.recovery': 'Death & recovery', 'adventure.sleep': 'Sleep', 'adventure.settlements': 'Settlements', 'combat.handling': 'Weapons & dodging', 'combat.martial': 'Martial classes', 'combat.magic': 'Magic classes', 'combat.skills': 'Character skills', 'equipment.weapons-armor': 'Weapons & armor', 'equipment.accessories': 'Accessories', 'equipment.display': 'Armor & status', 'building.palette': 'Materials', 'building.factory': 'Factory decor', 'building.copycats': 'Copycat shapes', 'building.architecture': 'Architecture', 'building.furniture': 'Furniture', 'building.displays': 'Displays', 'building.placement': 'Placement tools', 'building.safety': 'Lighting & safety', 'interactions.carry': 'Carry On', 'visuals.camera': 'Camera', 'visuals.models': 'Models & animations', 'visuals.weather': 'Weather & particles', 'visuals.lighting': 'Lighting & distance', 'visuals.resource-packs': 'Resource packs', 'visuals.shader-packs': 'Shaders', 'sounds.ambience': 'Sound', 'visuals.interface': 'Interface', 'space.destinations': 'Space (not installed)', 'space.vehicle-transfer': 'Space transport', 'performance.baseline': 'Performance', 'performance.deferred': 'Deferred optimizers', 'server.tools': 'Server tools', 'server.deferred-pack-loading': 'Deferred loading', 'technical.bridges': 'Compatibility', 'technical.space-bridge': 'Space compatibility', 'technical.libraries': 'Libraries'})
 
-zh_titles['help.search'] = '物品配方'
+zh_titles['help.search'] = '浏览配方'
 
 def clean(value):
     return value.replace('|', ',').replace('\n', ' ').replace('—', ', ').replace('–', ' to ').replace(';', ',').replace('；', '，')
@@ -191,17 +215,17 @@ def description(entry, chinese):
     return '当前未安装。' if chinese else 'Not installed here.'
 
 def roster(members, chinese, linked=False):
-    header = '| 模组或内容 | 官方简介 |' if chinese else '| Mod or content | Publisher description |'
-    rows = [header, '| --- | --- |']
+    header = '| 模组或内容 | 状态 | 英文官方简介 |' if chinese else '| Mod or content | Status | Publisher description |'
+    rows = [header, '| --- | --- | --- |']
     for entry in sorted(members, key=lambda e: e['name'].lower()):
         name = clean(entry['name'])
         if linked:
             name = '[' + name + '](' + entry['topic'] + '.md)'
-        label = ''
-        if entry['availability'] == 'heavy':
-            label = '（重型版，当前未安装）' if chinese else ' (heavy edition, not installed here)'
-        elif entry['availability'] == 'deferred':
-            label = '（未安装）' if chinese else ' (not installed)'
+        label = {
+            'baseline': '已安装基准版' if chinese else 'Baseline, installed',
+            'heavy': '重型版，当前未安装' if chinese else 'Heavy edition, not installed here',
+            'deferred': '暂缓，未安装' if chinese else 'Deferred, not installed',
+        }[entry['availability']]
         visual = visual_sources.get(entry['metadata_path'])
         if visual and visual.get('kind') in {'publisher icon', 'bundled publisher icon'}:
             name = '![' + clean(entry['name']) + '](' + visual['resource'] + ') ' + name
@@ -210,7 +234,7 @@ def roster(members, chinese, linked=False):
             # never passed off as a logo supplied by that publisher.
             icon = category_by_name[entry['category']][3]
             name = '<ItemImage id="' + icon + '" /> ' + name
-        rows.append('| ' + name + label + ' | ' + description(entry, chinese) + ' |')
+        rows.append('| ' + name + ' | ' + label + ' | ' + description(entry, chinese) + ' |')
     return '\n'.join(rows)
 
 def write_page(filename, title, body, chinese, parent=None, icon=None, associations=None, position=0):
@@ -264,52 +288,35 @@ for page in page_defs:
                 label = zh_titles[child] if chinese else titles[child]
                 state = ('参考' if chinese else 'Reference') if child in written else 'WIP'
                 body += '| [' + label + '](' + child + '.md) | ' + state + ' |\n'
-        if members and topic != 'world.dimensions' and topic not in reference_parents:
-            body += '\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(members, chinese)
+        # A directory summarizes providers from its descendant topic pages.
+        # This does not create a second inventory assignment or duplicate articles.
+        related = [e for e in entries if e['topic'] == topic or reference_parents[e['topic']] == topic + '.md']
+        if related:
+            body += '\n\n***\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(related, chinese, linked=True)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
-        write_page(topic+'.md', title, body, chinese, reference_parents.get(topic, 'category-'+cat[0]+'.md'), icon=reference_icons.get(topic, reference_icons.get(reference_parents.get(topic, '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
+        write_page(topic+'.md', title, body, chinese, reference_parents[topic], icon=reference_icons.get(topic, reference_icons.get(reference_parents.get(topic, '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
     assigned_paths += [e['metadata_path'] for e in members]
 
-for cat in categories:
-    articles = [s for s in status if s['category'] == cat[1]]
-    installed = [e for e in entries if e['category'] == cat[1] and e['availability'] == 'baseline']
-    optional = [e for e in entries if e['category'] == cat[1] and e['availability'] != 'baseline']
-    for chinese in (False, True):
-        title = cat[2] if chinese else short_category_titles[cat[0]]
-        body = '## ' + ('主题目录' if chinese else 'Contents') + '\n\n'
-        body += '| 主题 | 状态 |\n| --- | --- |\n' if chinese else '| Topic | Status |\n| --- | --- |\n'
-        for article in articles:
-            label = zh_titles[article['topic']] if chinese else titles[article['topic']]
-            state = ('参考' if chinese else 'Reference') if article['drafted'] else 'WIP'
-            body += '| [' + label + '](' + article['filename'] + ') | ' + state + ' |\n'
-        body += '\n## ' + ({'automation':'自动化模组','storage':'仓储模组','food':'食物与农业模组','building':'建筑模组','travel':'载具与旅行模组','combat':'战斗与角色模组','exploration':'探索模组','utilities':'实用工具模组','visuals':'视觉与音效模组','technical':'技术组件'}[cat[0]] if chinese else {'automation':'Automation Mods','storage':'Storage Mods','food':'Food and Farming Mods','building':'Building Mods','travel':'Vehicle and Travel Mods','combat':'Combat and Character Mods','exploration':'Exploration Mods','utilities':'Player Utility Mods','visuals':'Visual and Sound Mods','technical':'Technical Components'}[cat[0]]) + '\n\n' + roster(installed, chinese, linked=True)
-        if optional:
-            body += '\n\n## ' + ('其他版本与未安装内容' if chinese else 'Other editions and uninstalled content') + '\n\n' + roster(optional, chinese, linked=True)
-        if cat[0] == 'automation':
-            body = written['category-automation']['zh_cn' if chinese else 'en_us'] + '\n\n***\n\n' + body.split('\n## ', 1)[0].replace('## 主题目录', '## 机制指南').replace('## Contents', '## Mechanics')
-        else:
-            contents, mod_tables = body.split('\n## ', 1)
-            body = '## ' + mod_tables + '\n\n***\n\n' + contents.replace('## Contents', '## Topics').replace('## 主题目录', '## 主题')
-        write_page('category-'+cat[0]+'.md', title, body, chinese, parent='mod-catalogs.md', icon=cat[3], position=categories.index(cat))
-
+# Retire generated navigation reversibly, outside the authoring repository.
+# Repeated builds do not create further archives unless obsolete files reappear.
+archive_root = ROOT.parent / '.archive' / ROOT.name / 'unified-navigation'
 for chinese in (False, True):
-    body = '## ' + ('模组目录' if chinese else 'Mod catalogs') + '\n\n'
-    body += '| 领域 | 内容 |\n| --- | --- |\n' if chinese else '| Area | Contents |\n| --- | --- |\n'
-    brief_en = {'automation':'Machines, power and processing', 'storage':'Containers and material routing', 'food':'Ingredients, kitchens and crops', 'building':'Materials, shapes and furniture', 'travel':'Ships, trains and teleportation', 'combat':'Equipment, skills and spells', 'exploration':'Dimensions, landscapes and encounters', 'utilities':'Controls and everyday interactions', 'visuals':'Appearance, shaders and audio', 'technical':'Libraries, performance and administration'}
-    brief_zh = {'automation':'机器、动力与加工', 'storage':'容器与物品输送', 'food':'食材、厨房与作物', 'building':'材料、形状与家具', 'travel':'船只、列车与传送', 'combat':'装备、技能与法术', 'exploration':'维度、地形与遭遇', 'utilities':'按键与日常交互', 'visuals':'外观、光影与声音', 'technical':'支持库、性能与管理'}
-    for cat in categories:
-        slot = '<ItemImage id="' + cat[3] + '" />'
-        body += '| ' + slot + ' [' + (cat[2] if chinese else short_category_titles[cat[0]]) + '](category-' + cat[0] + '.md) | ' + (brief_zh if chinese else brief_en)[cat[0]] + ' |\n'
-    catalogs_body = body
+    locale = '_zh_cn' if chinese else ''
+    base = PAGES / locale
+    obsolete = sorted(base.glob('category-*.md')) + [base / 'mod-catalogs.md']
+    for old in obsolete:
+        if old.is_file():
+            import hashlib
+            digest = hashlib.sha256(old.read_bytes()).hexdigest()[:12]
+            destination = archive_root / locale / (old.stem + '-' + digest + '.md')
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            old.replace(destination)
     body = '## ' + ('快速参考' if chinese else 'Quick reference') + '\n\n'
     body += '| 参考 | 内容 |\n| --- | --- |\n' if chinese else '| Reference | Contents |\n| --- | --- |\n'
-    reference = reference_sections
-    for topic, english, chinese_name, icon, english_role, chinese_role in reference:
+    for topic, english, chinese_name, icon, english_role, chinese_role in reference_sections:
         slot = '<ItemImage id="' + icon + '" />'
         body += '| ' + slot + ' [' + (chinese_name if chinese else english) + '](' + topic + '.md) | ' + (chinese_role if chinese else english_role) + ' |\n'
     write_page('quick-reference.md', '快速参考' if chinese else 'Quick reference', body, chinese, icon='minecraft:book', position=0)
-    write_page('mod-catalogs.md', '模组目录' if chinese else 'Mod catalogs', catalogs_body, chinese, icon='minecraft:bookshelf', position=1)
-    body += '\n***\n\n' + catalogs_body
     write_page('index.md', 'Astropunk', body, chinese, position=-100)
 
 actual = {p.relative_to(ROOT).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks') for p in (ROOT / folder).glob('*.pw.toml')} | {'mods/astropunk-handbook-access-1.0.0.jar'}
@@ -317,6 +324,6 @@ assert len(assigned_paths) == len(set(assigned_paths)), 'Duplicate primary cover
 covered = {e['metadata_path'] for e in entries if e['availability'] == 'baseline'}
 assert actual == covered, {'missing': sorted(actual - covered), 'unexpected': sorted(covered - actual)}
 assert set(assigned_paths) == {e['metadata_path'] for e in entries}
-manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': len(categories), 'navigation_page_count': 2, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '34cb006', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
+manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 1, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '34cb006', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
 (ROOT / 'docs/handbook-draft-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ('pages','content')}, indent=2))

@@ -58,6 +58,12 @@ navigation:
 
 ## 初次使用
 
+### 基础物品连接
+
+<Recipe id="create:crafting/logistics/andesite_funnel" />
+
+制作 <ItemLink id="create:andesite_funnel" />，连接容器与物品运输线路。放置方式请看思索演示。
+
 先用传送带或溜槽连接一个输入容器和一个输出容器，再添加库存网络。Create 组件的布局请看思索演示。Additional Logistics 还包含销售账簿与列车网络监视器外设。后者是计算机接口，不是独立库存界面。
 
 ## 相关物品
@@ -74,4 +80,13 @@ navigation:
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | 已安装基准版 | Adds a few new logistics-oriented blocks to Create, and tweaks a few behaviors. |

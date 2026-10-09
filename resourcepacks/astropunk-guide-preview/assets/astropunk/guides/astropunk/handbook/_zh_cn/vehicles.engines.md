@@ -90,4 +90,14 @@ Create Propulsion 提供燃料或动力要求不同的推进器，另有独立�
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | 已安装基准版 | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
+| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 已安装基准版 | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |

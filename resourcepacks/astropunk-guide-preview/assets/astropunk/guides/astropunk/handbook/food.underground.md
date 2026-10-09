@@ -273,3 +273,11 @@ The Copper Pot and Copper Cup form the copper serving branch. They are equipment
 - [Food & hunger](food.hunger.md)
 - [Crop ingredients](food.growing.md)
 - [Cooking tools](food.utensils.md)
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Baseline, installed | Farmer's Delight add-on for miners |

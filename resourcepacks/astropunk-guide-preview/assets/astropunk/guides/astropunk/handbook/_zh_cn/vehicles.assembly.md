@@ -26,6 +26,12 @@ navigation:
 
 Create Aeronautics 包含负责物理移动建筑的 Simulated，以及负责车轮的 Offroad。使用强力胶或蜂蜜胶连接目标方块，再按住右键操作物理装配器并拉动拉杆。另一台物理装配器也能拆解建筑。组装、方块质量与分裂规则见物理装配器思索演示。
 
+### 组装控制
+
+<Recipe id="simulated:physics_assembler" />
+
+组装物理移动结构前，先制作 <ItemLink id="simulated:physics_assembler" />。拉杆是该配方的原料之一。
+
 ***
 
 ## 地面载具
@@ -94,3 +100,12 @@ Simulated 提供移动结构的机械连接件与工具。Create Propulsion 增�
 | 图示物品 |
 | --- |
 | <ItemLink id="create:super_glue" /> |
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | 已安装基准版 | Build anything from airships to planes and cars! |

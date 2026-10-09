@@ -28,10 +28,32 @@ navigation:
 
 ## 入门
 
+### 生物群系查找
+
+<Recipe id="naturescompass:natures_compass" />
+
+制作 <ItemLink id="naturescompass:naturescompass" />，用于查找生物群系。
+
+### 结构查找
+
+<Recipe id="explorerscompass:explorers_compass" />
+
+制作 <ItemLink id="explorerscompass:explorerscompass" />，用于查找结构。
+
 在物品配方中查找并制作指南针，使用它选择目标。根据方向与距离前进，到达后保存路标。
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
 
 搜索范围与服务器限制会影响结果。先查看维度，确定目标所在维度。
 
 - [维度](world.dimensions.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | 已安装基准版 | Allows you to locate structures anywhere in the world. |
+| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | 已安装基准版 | Allows you to locate biomes anywhere in the world. |

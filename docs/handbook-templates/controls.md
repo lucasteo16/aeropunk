@@ -28,7 +28,7 @@ navigation:
 
 The item guide is contextual. It needs a hovered item associated with a guide page, it is not a whole-handbook shortcut. The custom handbook shortcut and inventory button are currently unavailable in the reviewed instance.
 
-Open chat and enter <Color id="gold">/guidemec astropunk:handbook open</Color> to use the command entry point.
+Open chat and enter <Color color="#F28CBD">/guidemec astropunk:handbook open</Color> to use the command entry point.
 
 ***
 
@@ -41,7 +41,7 @@ Open chat and enter <Color id="gold">/guidemec astropunk:handbook open</Color> t
 
 Change these in the item browser settings. Create's Ponder tooltip displays its own key.
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
 
 ***
 

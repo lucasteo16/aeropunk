@@ -24,6 +24,10 @@ expected = {p.name for p in pages.glob("*.md")}
 assert {p.name for p in (pages / "_zh_cn").glob("*.md")} == expected
 handbook = json.loads((root / 'docs/handbook-draft-manifest.json').read_text())
 assert len(expected) == handbook['article_count'] + handbook['category_count'] + handbook['navigation_page_count'] + handbook['reference_directory_count'] + 1
+paths = [e['metadata_path'] for e in handbook['content']]
+assert len(paths) == len(set(paths)), 'Duplicate provider inventory'
+homes = [path for article in handbook['pages'] for path in article['metadata_paths']]
+assert sorted(homes) == sorted(paths), 'Missing or duplicate primary provider home'
 for article in handbook['pages']:
     assert article['filename'] in expected
     for language in ('', '_zh_cn'):
@@ -32,13 +36,22 @@ for article in handbook['pages']:
             assert 'WIP' in article_text
         for entry in handbook['content']:
             if entry['metadata_path'] in article['metadata_paths']:
-                # The mod catalog owns provider identity and availability; reference pages
-                # own gameplay content and need not repeat publisher-description tables.
-                catalog_text = '\n'.join(p.read_text() for p in (pages / language).glob('category-*.md'))
-                assert entry['name'] in catalog_text, entry['name']
-                if entry['availability'] in ('deferred', 'heavy'):
-                    matching_rows = [line for line in catalog_text.splitlines() if entry['name'] in line]
-                    assert any(('未安装' if language else 'not installed') in line for line in matching_rows), entry['name']
+                heading = '## 相关模组' if language else '## Related mods'
+                assert heading in article_text, entry['metadata_path']
+                footer = article_text.rsplit(heading, 1)[1]
+                assert not re.search(r'^## ', footer, re.M), article['filename']
+                label = entry['name'].replace('|', ',').replace('\n', ' ').replace('—', ', ').replace('–', ' to ').replace(';', ',').replace('；', '，')
+                identity = '[' + label + '](' + entry['topic'] + '.md)'
+                matching_rows = [line for line in footer.splitlines() if identity in line]
+                assert len(matching_rows) == 1, entry['metadata_path']
+                row = matching_rows[0]
+                assert '![' in row or '<ItemImage ' in row, entry['metadata_path']
+                availability = {
+                    'baseline': '已安装基准版' if language else 'Baseline, installed',
+                    'heavy': '重型版，当前未安装' if language else 'Heavy edition, not installed here',
+                    'deferred': '暂缓，未安装' if language else 'Deferred, not installed',
+                }[entry['availability']]
+                assert availability in row, entry['metadata_path']
 assert not (pages / "_zh_tw").exists()
 links = 0
 for p in pages.rglob("*.md"):
@@ -69,8 +82,24 @@ for language in ('', '_zh_cn'):
         pending.extend(re.findall(r'\]\(([^)]+\.md)\)', page_text))
         pending.extend(re.findall(r'^  parent: (.+)$', page_text, re.MULTILINE))
     assert {a['filename'] for a in handbook['pages']} <= visited, language
-    assert {'quick-reference.md', 'mod-catalogs.md'} <= visited, language
-    assert {f'category-{c}.md' for c in ('automation', 'storage', 'food', 'building', 'travel', 'combat', 'exploration', 'utilities', 'visuals', 'technical')} <= visited
+    assert 'quick-reference.md' in visited, language
+    assert 'mod-catalogs.md' not in expected
+    assert not list(locale_root.glob('category-*.md'))
+    home_links = set(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / 'index.md').read_text()))
+    reference_links = set(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / 'quick-reference.md').read_text()))
+    assert home_links == reference_links, language
+    for article in handbook['pages']:
+        current = article['filename']
+        seen = {current}
+        depth = 0
+        while parents := re.findall(r'^  parent: (.+)$', (locale_root / current).read_text(), re.M):
+            assert len(parents) == 1, current
+            current = parents[0]
+            assert current not in seen, article['filename']
+            seen.add(current)
+            depth += 1
+        assert current == 'quick-reference.md', article['filename']
+        assert depth <= 2, article['filename']
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options
 if args.source_only:

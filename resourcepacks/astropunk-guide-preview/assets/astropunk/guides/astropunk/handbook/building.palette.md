@@ -129,12 +129,24 @@ navigation:
 
 ## Getting started
 
-Craft the matching Chipped workstation, insert its base material and choose a texture. Chipped Express adds stonecutting conversions between Chipped variants and base materials. Every Compat and Stone Zone supply compatibility families for installed wood and stone providers. Their available variants depend on those providers. Use Item recipe for exact conversions.
+Craft the matching Chipped workstation, insert its base material and choose a texture. Chipped Express adds stonecutting conversions between Chipped variants and base materials. Every Compat and Stone Zone supply compatibility families for installed wood and stone providers. Their available variants depend on those providers. Use Browse recipe for exact conversions.
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
 
 ***
 
 ## Crafting
 
 <Recipe id="minecraft:workbench/alchemy_bench" />
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Chipped](images/catalog-BAscRYKm.png) [Chipped](building.palette.md) | Baseline, installed | Every block deserves a friend. |
+| ![Chipped Express](images/catalog-dQIcJONI.png) [Chipped Express](building.palette.md) | Baseline, installed | Mod addon for Chipped to allow to craft ANY recipe with stonecutter |
+| ![Every Compat (Stone Zone)](images/catalog-uYwn8IP5.png) [Every Compat (Stone Zone)](building.palette.md) | Baseline, installed | Universal Stone Compat: Create, Twigs, Stoneworks, and more... |
+| ![Every Compat (Wood Good)](images/catalog-eiktJyw1.png) [Every Compat (Wood Good)](building.palette.md) | Baseline, installed | Universal Wood Compat: Quark, Twilight Forest, Twigs, Another Furniture, Farmers Delight, Macaw's,  Valhelsia, Architects Palette, Deco Blocks, Crayfish FM |

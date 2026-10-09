@@ -2,18 +2,25 @@
 navigation:
   title: "查询暂缓加入的太空渲染组件"
   position: 0
-  parent: category-technical.md
+  parent: reference.technical.md
   icon: minecraft:redstone
 ---
 
 # 查询暂缓加入的太空渲染组件
 
-## 概览
+## 未安装
 
-编写中（WIP）。
+Northstar 渲染与移动结构兼容组件已暂缓加入，不会在此版本提供已安装太空目的地。
+
+| 内容 | 作用 |
+| --- | --- |
+| Northstar Sable Iris Horizons Bridge（未安装） | 连接 Northstar 天空、远景与移动结构。 |
+
+
+***
 
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| <ItemImage id="minecraft:redstone" /> Northstar Sable Iris Horizons Bridge（未安装） | 当前未安装。 |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Northstar Sable Iris Horizons Bridge](technical.space-bridge.md) | 暂缓，未安装 | 当前未安装。 |

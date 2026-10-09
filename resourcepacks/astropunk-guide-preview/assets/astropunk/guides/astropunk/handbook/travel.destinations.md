@@ -119,3 +119,15 @@ Tempad separates time-power equipment from equipment for managing saved location
 ## Crafting
 
 <Recipe id="waystones:orange_sharestone_recolor" />
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Baseline, installed | This mod changes the recipes of Waystones to fit with and use the Create mod. It also balances things a bit more. |
+| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Baseline, installed | Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer. |
+| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Baseline, installed | Create a portal to anywhere from anywhere |
+| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Baseline, installed | Teleport from waystone to waystone or craft magical scrolls to warp. |

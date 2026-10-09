@@ -119,3 +119,15 @@ Tempad 将时间动力设备与保存位置的管理设备分开。通过位置�
 ## 制作
 
 <Recipe id="waystones:orange_sharestone_recolor" />
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | 已安装基准版 | This mod changes the recipes of Waystones to fit with and use the Create mod. It also balances things a bit more. |
+| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | 已安装基准版 | Ensures correct destinations when traveling back and forth through Nether Portals in Multiplayer. |
+| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | 已安装基准版 | Create a portal to anywhere from anywhere |
+| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | 已安装基准版 | Teleport from waystone to waystone or craft magical scrolls to warp. |

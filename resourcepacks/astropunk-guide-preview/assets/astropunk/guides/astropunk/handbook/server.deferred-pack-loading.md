@@ -2,18 +2,25 @@
 navigation:
   title: "Deferred loading"
   position: 0
-  parent: category-technical.md
+  parent: reference.technical.md
   icon: minecraft:redstone
 ---
 
 # Deferred loading
 
-## Overview
+## Not installed
 
-Work in progress (WIP).
+Paxi is deferred. Its automatic pack-loading function is not installed here.
+
+| Component | Function |
+| --- | --- |
+| Paxi (not installed) | Automatic data-pack and resource-pack loading. |
+
+
+***
 
 ## Related mods
 
-| Mod or content | Publisher description |
-| --- | --- |
-| <ItemImage id="minecraft:redstone" /> Paxi (not installed) | Not installed here. |
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) | Deferred, not installed | Not installed here. |

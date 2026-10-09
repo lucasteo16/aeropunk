@@ -37,4 +37,14 @@ navigation:
 
 ## 相关页面
 
-- [物品配方](help.search.md)
+- [浏览配方](help.search.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 已安装基准版 | A loot drop (chest, block, entity) plugin for the EMI Recipe and Item viewer. |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 已安装基准版 | A mod that makes it so nobody misses out on Loot! All loot chests are instanced per player and visually unique. |

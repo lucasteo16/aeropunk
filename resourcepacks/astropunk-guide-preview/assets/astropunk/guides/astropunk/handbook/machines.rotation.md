@@ -58,6 +58,33 @@ navigation:
 
 ## Getting started
 
+### First transmission
+
+<Recipe id="create:crafting/kinetics/shaft" />
+
+Two <ItemLink id="create:andesite_alloy" /> make eight <ItemLink id="create:shaft" />.
+
+### First power source
+
+<Recipe id="create:crafting/kinetics/water_wheel" />
+
+Craft <ItemLink id="create:water_wheel" /> for the first powered machine. Use its Ponder entry for the water arrangement.
+
+### Machine tool
+
+<Recipe id="create:crafting/kinetics/wrench" />
+
+Keep <ItemLink id="create:wrench" /> ready when adjusting Create components.
+
 Begin with a Water Wheel, shaft and one machine. Use each component's Ponder entry for placement and direction. Add a clutch only when a branch needs independent control. Energy reserves are in Stored rotation.
 
 - [Stored rotation](power.stored-rotation.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Baseline, installed | QoL blocks that you wish existed in Create - Highly configurable, disable what you don't need |

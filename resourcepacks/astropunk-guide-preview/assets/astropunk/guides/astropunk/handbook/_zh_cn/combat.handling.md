@@ -32,3 +32,14 @@ Better Combat 为支持的武器提供攻击模式与动画。比较攻击距离
 - [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
 - [完整操作](help.controls.md)
 - [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 已安装基准版 | ⚔️ Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 已安装基准版 | 🧶 Adds combat roll ability, with related attributes and enchantments. |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 已安装基准版 | 🍀 Chance based critical hits for melee and ranged attacks! |

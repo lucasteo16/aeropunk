@@ -157,3 +157,12 @@ navigation:
 ## 制作
 
 <Recipe id="copycats:crafting/copycat_block_from_slabs" />
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | 已安装基准版 | All the copycats you've ever wanted, combined into a single mod! |

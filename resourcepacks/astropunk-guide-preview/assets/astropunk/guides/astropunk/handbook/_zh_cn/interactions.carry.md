@@ -2,8 +2,8 @@
 navigation:
   title: "搬运方块与生物"
   position: 0
-  parent: category-utilities.md
-  icon: minecraft:white_bed
+  parent: reference.utilities.md
+  icon: minecraft:lever
 ---
 
 # 搬运方块与生物
@@ -25,8 +25,10 @@ Carry On 用于搬运受支持的已放置方块和生物。
 
 - [便携储存](storage.portable.md)
 
+***
+
 ## 相关模组
 
-| 模组或内容 | 官方简介 |
-| --- | --- |
-| ![Carry On](images/catalog-joEfVgkn.png) Carry On | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
+| 模组或内容 | 状态 | 英文官方简介 |
+| --- | --- | --- |
+| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | 已安装基准版 | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |

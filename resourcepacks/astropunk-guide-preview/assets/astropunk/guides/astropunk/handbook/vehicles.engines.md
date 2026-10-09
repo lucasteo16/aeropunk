@@ -90,4 +90,14 @@ Aviation materials supply the engine core parts. Create Propulsion has a separat
 
 ## Related topics
 
-- [Item recipe](help.search.md)
+- [Browse recipe](help.search.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Status | Publisher description |
+| --- | --- | --- |
+| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Baseline, installed | AeroEngine is a Create addon that adds modular aircraft engines and a pilot HUD for flight control and navigation. |
+| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Baseline, installed | Port of Create: Propulsion mod to NeoForge 1.21.1 with support of Sable and Create: Aeronautics |
