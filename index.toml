@@ -2687,7 +2687,7 @@ hash = "b6c95308c695e7e3363c2a8f4bc8208f43e582dae57e48a32f10b2a9573cc49f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/index.md"
-hash = "28ef982b9689ef7a5ca9702b5ee076b60d5e7e28a12b11c0a41ce00165787bb8"
+hash = "4ecb0f325b8f084a44bcb28e69656b6ea29a393bfc776b9df1abcc49c69867b2"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/interactions.carry.md"
@@ -4318,6 +4318,10 @@ file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/
 hash = "9233b38c3a6457d64f4590360a19c17ba9259d80e06c013aeac4b80ad6998858"
 
 [[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/home-aeronautics-ship.png"
+hash = "fcddcd12cbf6ba8bc554c24f91d0a0aac0f81896a3a897ce19df2589da2943e6"
+
+[[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/ibo-icon.png"
 hash = "ea1018bb84b8628b4377cb6fcd8714f308df5aa8f1969b89c18c6c78ec1e7c1a"
 
@@ -4439,7 +4443,7 @@ hash = "ec50b4e5bb25de8e2670d59a0eb62ba7d17a1994840b43e4e6b0b6e21e51fefd"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/index.md"
-hash = "1d933cb4f7e6ab580054a259ae13c42afa32d0818aac845e386804c3f2d5ebdc"
+hash = "067d1f0f9cf45493feb9a125ad6a3d41cbeaebf038f716d82f9dd2d436703a7a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/interactions.carry.md"

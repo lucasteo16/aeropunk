@@ -297,7 +297,7 @@ def write_page(filename, title, body, chinese, parent=None, icon=None, associati
     if associations:
         front += 'item_ids:\n' + ''.join('  - ' + item + '\n' for item in associations)
     body = body.strip()
-    if not body.startswith('## '):
+    if filename != 'index.md' and not body.startswith('## '):
         body = '## ' + ('概览' if chinese else 'Overview') + '\n\n' + body
     text = front + '---\n\n# ' + title + '\n\n' + body + '\n'
     out = PAGES / ('_zh_cn' if chinese else '') / filename

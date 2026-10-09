@@ -20,7 +20,7 @@ The handbook is freely accessible. Do not add quests, completion rewards, progre
 | Getting started | Inside its reference topic when short; name the first prerequisite, item, workstation or interface, then point to native recipes, Ponder or existing help; no exhaustive walkthrough |
 | Controls article | Access instructions, current bindings, clearly labeled defaults, rebinding and conflict instructions |
 
-The first-level heading supplies the toolbar title. No prose, image, table, status marker or navigation may sit directly below it. The body must begin with a second-level heading, and every later section must remain beneath a second-level heading. Third-level headings may subdivide a section.
+The first-level heading supplies the toolbar title. The Astropunk homepage is the sole exception to sectioned article layout: put one clean authentic Aeronautics ship image directly beneath the title, followed by compact engaging prose, without secondary headings, a next-project section or a duplicated navigation list. Explain that sidebar topics are quick entry points, not quest progression. Target one screen at the review layout, preserve both languages and do not change global interface scaling to enlarge this page. All other article bodies must begin with a second-level heading, and every later section must remain beneath a second-level heading. Third-level headings may subdivide an article section.
 
 Use the matching file in docs/handbook-templates as a starting point. Omit sections that add nothing; do not insert empty headings or generic introductory paragraphs to satisfy a template. A dimension catalog does not need a crafting recipe. A library reference does not need a demonstration.
 

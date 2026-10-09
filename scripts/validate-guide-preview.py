@@ -81,7 +81,7 @@ for language in ('', '_zh_cn'):
     assert not {'quick-reference.md', 'mod-catalogs.md', 'sounds.ambience.md', 'audio.sound.md'} & expected
     assert not list(locale_root.glob('category-*.md'))
     home_links = set(re.findall(r'\]\(([^)]+\.md)\)', page_texts['index.md']))
-    assert home_links == {'help.controls.md'}, language
+    assert home_links == set(), language
     assert not (resource / 'assets/astropunk/guideme_guides/handbook.json').exists()
     # Reachability starts from every native sidebar root, not a duplicate home directory.
     visited = set()

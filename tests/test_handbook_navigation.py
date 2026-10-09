@@ -43,7 +43,7 @@ class NavigationSkeleton(unittest.TestCase):
             base = PAGES / locale
             home = (base / 'index.md').read_text()
             refs = {topic + '.md' for topic in SECTIONS}
-            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'help.controls.md'})
+            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), set())
             self.assertNotIn('| Reference | Contents |', home)
             self.assertEqual(len(refs), 16)
             self.assertNotIn('reference.equipment.md', refs)

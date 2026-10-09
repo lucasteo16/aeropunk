@@ -18,12 +18,12 @@ class ReviewedLayout(unittest.TestCase):
         for language in ('', '_zh_cn'):
             text = (PAGES / language / 'index.md').read_text()
             content = text.split('\n# Astropunk\n', 1)[1].strip()
-            self.assertTrue(content.startswith('## '))
-            self.assertEqual(len(re.findall(r'^## ', content, re.M)), 2)
-            self.assertEqual(text.count('<ItemImage '), 1)
+            self.assertTrue(content.startswith('!['))
+            self.assertEqual(len(re.findall(r'^## ', content, re.M)), 0)
+            self.assertEqual(text.count('<ItemImage '), 0)
             self.assertNotIn('<ItemGrid>', text)
             self.assertNotIn('| Reference | Contents |', text)
-            self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', text), ['help.controls.md'])
+            self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', text), [])
             self.assertNotIn('Mod catalogs' if not language else '模组目录', text)
             self.assertNotIn('category-', text)
             self.assertNotIn(' · ', text)
@@ -69,7 +69,11 @@ class ReviewedLayout(unittest.TestCase):
                 lines = text.splitlines()
                 self.assertTrue(lines[0].startswith('# '), path)
                 rest = '\n'.join(lines[1:]).strip()
-                self.assertTrue(rest.startswith('## '), path)
+                if path.name in {'index.md', 'home.md'}:
+                    self.assertTrue(rest.startswith('!['), path)
+                    self.assertIsNone(re.search(r'^#{2,6} ', rest, re.M), path)
+                else:
+                    self.assertTrue(rest.startswith('## '), path)
 
 
 if __name__ == '__main__':

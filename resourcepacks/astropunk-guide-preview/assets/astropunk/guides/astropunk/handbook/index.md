@@ -7,20 +7,12 @@ navigation:
 
 # Astropunk
 
-## A world of your own
+![Aeronautics airship above the landscape](images/home-aeronautics-ship.png)
 
-Astropunk combines mechanical automation, expressive building, exploration and flexible combat builds in one survival world.
+Raise your sails above the clouds. Astropunk turns the workshop you build today into the vessel that carries you beyond tomorrow's horizon.
 
-Build a workshop around Create machinery, shape a home with decorative materials and furniture, or construct transport that connects your settlements. Travel through reshaped Overworld, Nether and End landscapes to find villages, dungeons, unusual creatures and boss encounters.
+Ruined strongholds and sprawling dungeons give your ambition something to collide with. Choose a combat class, pair weapons with spells and trinkets, and shape your strengths through skills. Boss encounters put those choices to the test, while hostile mobs grow tougher as the world ages.
 
-Combat builds come from weapons, armor, accessories, class books and skill-tree choices. Choose the systems that suit your project rather than following a required quest chain. The handbook has no completion rewards or reading locks. Individual crafts, abilities and destinations still have their own gameplay requirements.
+There is a life worth building between expeditions. Tend your fields, cook for the journey and turn a shelter into a home. Let machinery carry the work while you furnish a cottage, raise a factory or build a harbor. The sky offers an escape when the ground grows hostile, and the seas are waiting to be sailed.
 
-***
-
-## Your next project
-
-Start small: prepare food and storage for an expedition, make a useful machine, try a building palette, or assemble the first equipment for a combat style. Recipe browsing and Create's Ponder help connect an idea to its actual ingredients and arrangement.
-
-Choose a topic directly in the sidebar. Topic pages distinguish installed content from uninstalled edition options.
-
-- <ItemImage id="minecraft:lever" /> [Controls](help.controls.md)
+There is no quest-based progression to dictate your path. The sidebar provides quick entry points into each topic, not a checklist to complete. Your curiosity and imagination set the course.
