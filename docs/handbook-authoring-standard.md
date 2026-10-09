@@ -36,6 +36,8 @@ Keep an introduction to one sentence when possible. Prefer short labels, compari
 
 Reuse Create Ponder for supported assembly and operation. Identify the relevant item and its help entry rather than rebuilding an existing demonstration. Write bespoke explanation when existing help does not cover the mechanic or interaction.
 
+Use native GameScene when an equipped model or spatial arrangement adds useful information. Read docs/guideme-scene-authoring-notes.md before authoring scenes. In the selected release, imported structures omit entities, so an equipped armor stand requires the native Entity element and verified equipment data. Preserve native item references beside model displays. Verify scene compilation, selected registries and actual rendering separately, and do not present a scene as proof of functioning machinery.
+
 ## Shared topic structure
 
 Use one topic tree and two complementary page types: Reference and Getting started. The reference page is the landing page and inventories what exists, variants, locations and access. Put a short Getting started section beneath that same topic when useful. It should establish the first meaningful entry into the mod, not teach every machine or recipe. Show playable class choices and their roles directly on Spells & skills, with starting equipment, suitable native crafting recipes, spell binding and equipment relationships. Do not bury class choices or first steps in provider rosters. A substantial introduction may become a linked companion article beneath the same topic, never a separate tutorial tree. Do not create an empty Getting started section or a mandatory pair of pages for every topic.
