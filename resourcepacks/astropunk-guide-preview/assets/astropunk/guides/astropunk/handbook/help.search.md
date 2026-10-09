@@ -12,13 +12,13 @@ navigation:
 
 ![Recipe interface](images/parent-emi-recipes.png)
 
-Ingredients and results appear in the center; searchable items sit on the right.
+Ingredients and results appear in the center, searchable items sit on the right.
 
 | Find | Action |
 | --- | --- |
 | How to make an item | Hover it and press R |
 | What an ingredient makes | Hover it and press U |
-| One mod's items | Search @create or @farmersdelight |
+| One mod's items | Search <Color id="gold">@create</Color> or <Color id="gold">@farmersdelight</Color> |
 
 These are defaults. Change them in the item browser settings.
 

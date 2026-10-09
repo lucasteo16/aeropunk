@@ -46,9 +46,9 @@ navigation:
 
 | 物品与系列 | 用途 |
 | --- | --- |
-| <ItemLink id="tfmg:surface_scanner" />, <ItemLink id="tfmg:pumpjack_base" />, <ItemLink id="tfmg:industrial_pipe" /> | 地表扫描仪、抽油机与工业管道开采组件。 |
+| <ItemLink id="tfmg:surface_scanner" />, <ItemLink id="tfmg:pumpjack_base" />, <ItemLink id="tfmg:industrial_pipe" /> | 寻找含油区块并提供开采组件。铺设开采线路前先查看抽油机思索演示。 |
 | <ItemLink id="tfmg:steel_distillation_controller" />, <ItemLink id="tfmg:steel_distillation_output" /> | 蒸馏塔控制器与输出组件。 |
-| <ItemLink id="tfmg:regular_engine" />, <ItemLink id="tfmg:large_engine" />, <ItemLink id="tfmg:simple_large_engine" />, <ItemLink id="tfmg:radial_engine" />, <ItemLink id="tfmg:turbine_engine" /> | 普通、大型、简易大型、星形与涡轮引擎系列。 |
+| <ItemLink id="tfmg:regular_engine" />, <ItemLink id="tfmg:large_engine" />, <ItemLink id="tfmg:simple_large_engine" />, <ItemLink id="tfmg:radial_engine" />, <ItemLink id="tfmg:turbine_engine" /> | 不同的旋转动力引擎系列。大型引擎使用较少精炼的燃料，并需要持续空气供应。部分系列的组装与操作帮助尚未完成。 |
 
 ***
 
@@ -74,7 +74,7 @@ navigation:
 | <ItemLink id="tfmg:generator" />, <ItemLink id="tfmg:electric_motor" />, <ItemLink id="tfmg:heavy_electric_motor" /> | 发电机、普通与重型电动机。 |
 | <ItemLink id="tfmg:transformer" />, <ItemLink id="tfmg:voltmeter" />, <ItemLink id="tfmg:electricians_wrench" /> | 工业电路的变压器、电气仪表与配置扳手。 |
 | <ItemLink id="tfmg:copper_cable_hub" />, <ItemLink id="tfmg:steel_pipe" />, <ItemLink id="tfmg:steel_fluid_tank" /> | 电缆集线器，以及金属管道、泵、阀门与储罐系列。 |
-| <ItemLink id="tfmg:winding_machine" />, <ItemLink id="tfmg:freezer" />, <ItemLink id="tfmg:compressor" /> | 绕线机、冷冻机与压缩机用于后续生产。 |
+| <ItemLink id="tfmg:winding_machine" />, <ItemLink id="tfmg:freezer" />, <ItemLink id="tfmg:compressor" /> | 独立的生产机器。绕线机在旋转动力供应下，将线轴绕在输入物品上。 |
 
 ***
 
@@ -83,3 +83,7 @@ navigation:
 先查看焦炉配方及煤炭加工思索演示。高炉需要独立的热风与加固结构。石油开采从矿藏和工业管道开始，再查看抽油机思索演示。该工业电力系统使用自己的电压分组与配置扳手，不等同于 Electro Energetics 的网络。
 
 <Recipe id="tfmg:crafting/materials/coke_oven" />
+
+## 相关页面
+
+- [物品配方](help.search.md)

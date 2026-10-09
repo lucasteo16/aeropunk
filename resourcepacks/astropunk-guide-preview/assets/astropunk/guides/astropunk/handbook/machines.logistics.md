@@ -25,7 +25,7 @@ navigation:
 
 | Items & families | Use |
 | --- | --- |
-| <ItemLink id="create:belt_connector" />, <ItemLink id="create:andesite_funnel" />, <ItemLink id="create:brass_funnel" />, <ItemLink id="create:brass_tunnel" /> | Create belts, funnels and tunnels route items; brass components add filtering. |
+| <ItemLink id="create:belt_connector" />, <ItemLink id="create:andesite_funnel" />, <ItemLink id="create:brass_funnel" />, <ItemLink id="create:brass_tunnel" /> | Create belts, funnels and tunnels route items. Brass components add filtering. |
 | <ItemLink id="create:chute" />, <ItemLink id="create_connected:brass_chute" />, <ItemLink id="create:mechanical_arm" /> | Chutes and mechanical arms connect processing stations. |
 | <ItemLink id="create:fluid_pipe" />, <ItemLink id="create:mechanical_pump" />, <ItemLink id="create:smart_fluid_pipe" /> | Pipes, pumps and filtered fluid routing. |
 
@@ -51,11 +51,27 @@ navigation:
 | --- | --- |
 | <ItemLink id="create:packager" />, <ItemLink id="create:stock_link" />, <ItemLink id="create:redstone_requester" /> | Create packaging, stock networks and redstone requests. |
 | <ItemLink id="create:package_frogport" />, <ItemLink id="create:chain_conveyor" /> | Package transfer through frogports and chain conveyors. |
-| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | Create: Additional Logistics supplies Package Accelerator, Package Editor and Cash Register. |
-| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | Lazy shafts and cogwheels, plus flexible shafts with colored and encased variants. |
+| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | Speeds up the packager at a stress cost, edits package addresses by rules and records stock-ticker sales in a ledger. |
+| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | Lazy shafts are more efficient in runs of more than two. Flexible shafts allow wrench-controlled connections on individual sides. |
 
 ***
 
 ## Getting started
 
-Connect one input container and one output container to a belt or chute before adding a stock network. Ponder covers the Create components. Additional Logistics also includes a Sales Ledger and Train Network Monitor Peripheral; the peripheral is a computer integration, not a standalone stock screen.
+Connect one input container and one output container to a belt or chute before adding a stock network. Ponder covers the Create components. Additional Logistics also includes a Sales Ledger and Train Network Monitor Peripheral. The peripheral is a computer integration, not a standalone stock screen.
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="createadditionallogistics:sales_ledger" />
+  <ItemIcon id="createadditionallogistics:network_monitor" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="createadditionallogistics:sales_ledger" /> |
+| <ItemLink id="createadditionallogistics:network_monitor" /> |
+
+## Related topics
+
+- [Item recipe](help.search.md)

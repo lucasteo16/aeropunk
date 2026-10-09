@@ -50,7 +50,7 @@ navigation:
 | Items & families | Use |
 | --- | --- |
 | <ItemLink id="create_connected:inverted_clutch" />, <ItemLink id="create_connected:inverted_gearshift" /> | Redstone-enabled clutch and inverted gearshift variants. |
-| <ItemLink id="create_connected:centrifugal_clutch" />, <ItemLink id="create_connected:freewheel_clutch" />, <ItemLink id="create_connected:overstress_clutch" /> | Couple by speed threshold or direction; disconnect on overstress. |
+| <ItemLink id="create_connected:centrifugal_clutch" />, <ItemLink id="create_connected:freewheel_clutch" />, <ItemLink id="create_connected:overstress_clutch" /> | Couple by speed threshold or direction. Disconnect on overstress. |
 | <ItemLink id="create_connected:brake" />, <ItemLink id="create_connected:shear_pin" /> | Brake and shear-pin protection components. |
 | <ItemLink id="create_connected:kinetic_bridge" />, <ItemLink id="create_connected:encased_chain_cogwheel" />, <ItemLink id="create_connected:crank_wheel" /> | Compact bridges, chain transmission and manual crank wheels. |
 
@@ -58,4 +58,6 @@ navigation:
 
 ## Getting started
 
-Begin with a Water Wheel, shaft and one machine. Use each component's Ponder entry for placement and direction. Add a clutch only when a branch needs independent control. Energy reserves are in [Stored rotation](power.stored-rotation.md).
+Begin with a Water Wheel, shaft and one machine. Use each component's Ponder entry for placement and direction. Add a clutch only when a branch needs independent control. Energy reserves are in Stored rotation.
+
+- [Stored rotation](power.stored-rotation.md)

@@ -12,6 +12,11 @@ navigation:
 
 <ItemGrid><ItemIcon id="naturescompass:naturescompass" /><ItemIcon id="explorerscompass:explorerscompass" /></ItemGrid>
 
+| 图示物品 |
+| --- |
+| <ItemLink id="naturescompass:naturescompass" /> |
+| <ItemLink id="explorerscompass:explorerscompass" /> |
+
 | 工具 | 查找内容 |
 | --- | --- |
 | Nature's Compass | 生物群系，包括支持的模组生物群系 |
@@ -23,6 +28,10 @@ navigation:
 
 ## 入门
 
-在[物品配方](help.search.md)中查找并制作指南针，使用它选择目标。根据方向与距离前进，到达后保存路标。
+在物品配方中查找并制作指南针，使用它选择目标。根据方向与距离前进，到达后保存路标。
 
-搜索范围与服务器限制会影响结果。先查看[维度](world.dimensions.md)，确定目标所在维度。
+- [物品配方](help.search.md)
+
+搜索范围与服务器限制会影响结果。先查看维度，确定目标所在维度。
+
+- [维度](world.dimensions.md)

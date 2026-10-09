@@ -26,7 +26,23 @@ navigation:
   <ItemIcon id="copycats:copycat_ghost_block" />
 </ItemGrid>
 
-方块、台阶、楼梯、垂直伪装楼梯、垂直伪装半阶、梁、薄板、墙、栅栏、栅栏门、走道、箱体、幽灵方块。
+| 图示物品 |
+| --- |
+| <ItemLink id="copycats:copycat_block" /> |
+| <ItemLink id="copycats:copycat_slab" /> |
+| <ItemLink id="copycats:copycat_stairs" /> |
+| <ItemLink id="copycats:copycat_vertical_stairs" /> |
+| <ItemLink id="copycats:copycat_vertical_step" /> |
+| <ItemLink id="copycats:copycat_beam" /> |
+| <ItemLink id="copycats:copycat_board" /> |
+| <ItemLink id="copycats:copycat_wall" /> |
+| <ItemLink id="copycats:copycat_fence" /> |
+| <ItemLink id="copycats:copycat_fence_gate" /> |
+| <ItemLink id="copycats:copycat_catwalk" /> |
+| <ItemLink id="copycats:copycat_box" /> |
+| <ItemLink id="copycats:copycat_ghost_block" /> |
+
+伪装结构件可应用受支持的方块材质。先按建筑选择形状，再查看思索演示中的放置与多材质表面。
 
 ***
 
@@ -50,7 +66,25 @@ navigation:
   <ItemIcon id="copycats:copycat_flat_pane" />
 </ItemGrid>
 
-层、半伪装层、垂直半伪装层、堆叠半伪装层、切棱、垂直伪装切棱、切角、斜坡、垂直伪装斜坡、斜坡层、小方块、小方块板、半伪装板、片、水平伪装片。
+| 图示物品 |
+| --- |
+| <ItemLink id="copycats:copycat_layer" /> |
+| <ItemLink id="copycats:copycat_half_layer" /> |
+| <ItemLink id="copycats:copycat_vertical_half_layer" /> |
+| <ItemLink id="copycats:copycat_stacked_half_layer" /> |
+| <ItemLink id="copycats:copycat_slice" /> |
+| <ItemLink id="copycats:copycat_vertical_slice" /> |
+| <ItemLink id="copycats:copycat_corner_slice" /> |
+| <ItemLink id="copycats:copycat_slope" /> |
+| <ItemLink id="copycats:copycat_vertical_slope" /> |
+| <ItemLink id="copycats:copycat_slope_layer" /> |
+| <ItemLink id="copycats:copycat_byte" /> |
+| <ItemLink id="copycats:copycat_byte_panel" /> |
+| <ItemLink id="copycats:copycat_half_panel" /> |
+| <ItemLink id="copycats:copycat_pane" /> |
+| <ItemLink id="copycats:copycat_flat_pane" /> |
+
+薄层、面板与斜面提供不同轮廓，同时保留所应用的材质。通过下列物品名称区分水平与垂直形状。
 
 ***
 
@@ -72,7 +106,23 @@ navigation:
   <ItemIcon id="copycats:copycat_heavy_weighted_pressure_plate" />
 </ItemGrid>
 
-门、铁门、推拉门、折叠门、活板门、铁活板门、梯子、石头按钮、木质按钮、石头压力板、木质压力板、轻质测重压力板、重质测重压力板。
+| 图示物品 |
+| --- |
+| <ItemLink id="copycats:copycat_door" /> |
+| <ItemLink id="copycats:copycat_iron_door" /> |
+| <ItemLink id="copycats:copycat_sliding_door" /> |
+| <ItemLink id="copycats:copycat_folding_door" /> |
+| <ItemLink id="copycats:copycat_trapdoor" /> |
+| <ItemLink id="copycats:copycat_iron_trapdoor" /> |
+| <ItemLink id="copycats:copycat_ladder" /> |
+| <ItemLink id="copycats:copycat_stone_button" /> |
+| <ItemLink id="copycats:copycat_wooden_button" /> |
+| <ItemLink id="copycats:copycat_stone_pressure_plate" /> |
+| <ItemLink id="copycats:copycat_wooden_pressure_plate" /> |
+| <ItemLink id="copycats:copycat_light_weighted_pressure_plate" /> |
+| <ItemLink id="copycats:copycat_heavy_weighted_pressure_plate" /> |
+
+伪装门窗与控制件可使用建筑中的同一种材质。应按门或控制件本身的类型选择，而非根据复制的纹理判断功能。
 
 ***
 
@@ -85,13 +135,22 @@ navigation:
   <ItemIcon id="copycats:copycat_fluid_pipe" />
 </ItemGrid>
 
-传动杆、齿轮、大齿轮、流体管道。
+| 图示物品 |
+| --- |
+| <ItemLink id="copycats:copycat_shaft" /> |
+| <ItemLink id="copycats:copycat_cogwheel" /> |
+| <ItemLink id="copycats:copycat_large_cogwheel" /> |
+| <ItemLink id="copycats:copycat_fluid_pipe" /> |
+
+伪装传动件与管道将机器形状和方块材质结合。各部件的制作与放置请查看配方和思索演示。
 
 ***
 
 ## 入门
 
-制作所需形状，再应用支持的方块材料。多材质表面与放置方式见对应思索演示。复制纹理不代表船壳耐压或气密性，见[水下载具](vehicles.water.md)。
+制作所需形状，再应用支持的方块材料。多材质表面与放置方式见对应思索演示。复制纹理不代表船壳耐压或气密性，见水上与水下载具。
+
+- [水上与水下载具](vehicles.water.md)
 
 ***
 

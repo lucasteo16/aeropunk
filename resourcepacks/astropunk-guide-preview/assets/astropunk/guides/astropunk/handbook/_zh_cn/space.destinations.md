@@ -16,4 +16,4 @@ navigation:
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
-| Create: Northstar - Redux（未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:minecart" /> Create: Northstar - Redux（未安装） | 当前未安装。 |

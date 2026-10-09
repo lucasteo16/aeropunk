@@ -8,7 +8,7 @@ navigation:
 
 # 使用武器与闪避
 
-## 武器与攻击
+## 攻击与武器类型
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
@@ -17,18 +17,18 @@ navigation:
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
 
-Better Combat 提供武器攻击动画与连击。不同武器种类的攻击方式和触及距离不同；匕首与双手武器不会因为都造成物理伤害就完全等同。
+Better Combat 为支持的武器提供攻击模式与动画。比较攻击距离、攻速、伤害及双手要求，弓弩还各有蓄力或装填方式。
+
+按 <KeyBind id="key.attack" /> 攻击，按 <KeyBind id="key.use" /> 使用物品。先在远离首领的地方熟悉攻击模式，再选择对应的武器技能。
 
 ***
 
-## 翻滚与暴击
+## 翻滚与施法
 
-Combat Roll 加入闪避翻滚，Critical Strike 提供暴击处理。攻击、翻滚和法术按键冲突时，在对应的操作设置中重新绑定。动作动画本身不代表无敌，也不保证触发暴击。
+按 <KeyBind id="keybinds.combat_roll.roll" /> 翻滚。Combat Roll 提供闪避动作，Critical Strike 提供近战暴击属性。武器动画或翻滚本身并不保证无敌。
 
-***
+法术招式使用 Spell Engine 快捷栏。若招式没有绑定按键，可在按键设置中分配。配方浏览器使用独立设置，按键重复时可能需要同时检查两处界面。
 
-## 起步
-
-进入首领竞技场前，先用便宜武器熟悉攻击方式和闪避，再比较武器属性、法术入口及可选技能分支。
-
-[操作与按键](help.controls.md)、[武技](combat.martial.md)与[技能](combat.skills.md)。
+- [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
+- [完整操作](help.controls.md)
+- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。

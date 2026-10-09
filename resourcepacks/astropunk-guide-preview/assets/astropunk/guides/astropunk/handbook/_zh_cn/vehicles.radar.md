@@ -19,7 +19,16 @@ navigation:
   <ItemIcon id="create_radar:plane_radar" />
 </ItemGrid>
 
-Create Radars 提供轴承、雷达碟、雷达板、接收器、监视器与机载雷达组件。探测筛选器、目标筛选器与识别筛选器为不同用途的独立物品。
+| 图示物品 |
+| --- |
+| <ItemLink id="create_radar:radar_bearing" /> |
+| <ItemLink id="create_radar:radar_dish_block" /> |
+| <ItemLink id="create_radar:radar_plate_block" /> |
+| <ItemLink id="create_radar:radar_receiver_block" /> |
+| <ItemLink id="create_radar:monitor" /> |
+| <ItemLink id="create_radar:plane_radar" /> |
+
+Create Radars 将探测组件、接收器与显示器分开。先选择雷达系列，再根据提示和配方帮助连接。过滤器列在下方。
 
 ***
 
@@ -35,7 +44,17 @@ Create Radars 提供轴承、雷达碟、雷达板、接收器、监视器与机
   <ItemIcon id="aeroengineering:airborne_radar" />
 </ItemGrid>
 
-识别应答器、数据链、网络控制器、雷达告警接收器、火控器、自动俯仰和偏航控制器与制导引信扩展该系统。Aero Engineering 另有机载雷达，包含切换目标、确认与导弹发射频率。入门时先选择雷达系列，再按物品提示与配方帮助连接接收器和显示设备。
+| 图示物品 |
+| --- |
+| <ItemLink id="create_radar:identification_transponder" /> |
+| <ItemLink id="create_radar:data_link" /> |
+| <ItemLink id="create_radar:network_filterer" /> |
+| <ItemLink id="create_radar:radar_warning_receiver" /> |
+| <ItemLink id="create_radar:fire_controller" /> |
+| <ItemLink id="create_radar:guided_fuze" /> |
+| <ItemLink id="aeroengineering:airborne_radar" /> |
+
+识别与网络组件将雷达信息连接到警告及火控设备。Aero Engineering 另有机载雷达，使用目标切换、确认与导弹发射频率。先选择雷达系列，再根据提示与配方帮助连接。
 
 ***
 
@@ -51,10 +70,24 @@ Create Radars 提供轴承、雷达碟、雷达板、接收器、监视器与机
   <ItemIcon id="create_radar:auto_yaw_controller" />
 </ItemGrid>
 
-探测、目标与识别筛选器，雷达安全区指定器与望远镜补充观察系列。自动俯仰和偏航控制器是独立瞄准组件。创造雷达板属于创造模式设备。
+| 图示物品 |
+| --- |
+| <ItemLink id="create_radar:radar_filter_item" /> |
+| <ItemLink id="create_radar:target_filter_item" /> |
+| <ItemLink id="create_radar:ident_filter_item" /> |
+| <ItemLink id="create_radar:radar_safe_zone_designator" /> |
+| <ItemLink id="create_radar:binoculars" /> |
+| <ItemLink id="create_radar:auto_pitch_controller" /> |
+| <ItemLink id="create_radar:auto_yaw_controller" /> |
+
+探测、瞄准与识别使用不同的过滤器。观测工具和独立的俯仰、偏航控制器扩展这些用途。创造雷达板属于创造模式设备。
 
 ***
 
 ## 制作
 
 <Recipe id="create_radar:crafting/auto_pitch_controller" />
+
+## 相关页面
+
+- [物品配方](help.search.md)

@@ -16,4 +16,4 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Northstar Sable Iris Horizons Bridge (not installed) | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> Northstar Sable Iris Horizons Bridge (not installed) | Not installed here. |

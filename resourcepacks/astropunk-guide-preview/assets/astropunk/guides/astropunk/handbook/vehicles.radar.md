@@ -19,7 +19,16 @@ navigation:
   <ItemIcon id="create_radar:plane_radar" />
 </ItemGrid>
 
-Create Radars supplies bearing, dish, plate, receiver, monitor and plane radar components. Detection Filter, Targeting Filter and Identification Filter are separate items for different filtering roles.
+| Shown items |
+| --- |
+| <ItemLink id="create_radar:radar_bearing" /> |
+| <ItemLink id="create_radar:radar_dish_block" /> |
+| <ItemLink id="create_radar:radar_plate_block" /> |
+| <ItemLink id="create_radar:radar_receiver_block" /> |
+| <ItemLink id="create_radar:monitor" /> |
+| <ItemLink id="create_radar:plane_radar" /> |
+
+Create Radars separates detection components from receivers and displays. Choose a radar family, then use its tooltip and recipe help for the connections. Filters are listed below.
 
 ***
 
@@ -35,7 +44,17 @@ Create Radars supplies bearing, dish, plate, receiver, monitor and plane radar c
   <ItemIcon id="aeroengineering:airborne_radar" />
 </ItemGrid>
 
-Identification Transponder, Data Link, Network Controller, Radar Warning Receiver, Fire Controller, automatic pitch and yaw controllers and Guided Fuze extend the system. Aero Engineering has a separate Airborne Radar with target switching, confirmation and missile launch frequencies. Getting started: choose the radar family, then follow its tooltip and recipe help for receivers and display connections.
+| Shown items |
+| --- |
+| <ItemLink id="create_radar:identification_transponder" /> |
+| <ItemLink id="create_radar:data_link" /> |
+| <ItemLink id="create_radar:network_filterer" /> |
+| <ItemLink id="create_radar:radar_warning_receiver" /> |
+| <ItemLink id="create_radar:fire_controller" /> |
+| <ItemLink id="create_radar:guided_fuze" /> |
+| <ItemLink id="aeroengineering:airborne_radar" /> |
+
+Identification and network components connect radar information to warning and fire-control equipment. Aero Engineering has a separate Airborne Radar with target switching, confirmation and missile launch frequencies. Choose the radar family, then follow its tooltip and recipe help for connections.
 
 ***
 
@@ -51,10 +70,24 @@ Identification Transponder, Data Link, Network Controller, Radar Warning Receive
   <ItemIcon id="create_radar:auto_yaw_controller" />
 </ItemGrid>
 
-Detection, Targeting and Identification Filters, the Radar Safe Zone Designator and Binoculars round out the observation family. Automatic pitch and yaw controllers are distinct aiming components. Creative Radar Plates are creative equipment.
+| Shown items |
+| --- |
+| <ItemLink id="create_radar:radar_filter_item" /> |
+| <ItemLink id="create_radar:target_filter_item" /> |
+| <ItemLink id="create_radar:ident_filter_item" /> |
+| <ItemLink id="create_radar:radar_safe_zone_designator" /> |
+| <ItemLink id="create_radar:binoculars" /> |
+| <ItemLink id="create_radar:auto_pitch_controller" /> |
+| <ItemLink id="create_radar:auto_yaw_controller" /> |
+
+Detection, targeting and identification use separate filters. Observation tools and distinct pitch and yaw controllers extend those roles. Creative Radar Plates are creative equipment.
 
 ***
 
 ## Crafting
 
 <Recipe id="create_radar:crafting/auto_pitch_controller" />
+
+## Related topics
+
+- [Item recipe](help.search.md)

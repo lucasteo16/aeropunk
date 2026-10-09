@@ -19,7 +19,16 @@ navigation:
   <ItemIcon id="aeroengineering:aviation_kerosene_bucket" />
 </ItemGrid>
 
-Aero Engineering 提供涡扇、加力涡扇、可变气流、矢量、高涵道、涡桨、燃气轮机与涡轴系列。基础核心依次使用风扇、压气机、燃烧室、涡轮与排气锥，燃料为航空煤油。机壳、喷口、燃料输送与齿轮箱位置见引擎思索演示。
+| 图示物品 |
+| --- |
+| <ItemLink id="aeroengineering:engine_fan" /> |
+| <ItemLink id="aeroengineering:engine_compressor" /> |
+| <ItemLink id="aeroengineering:engine_combustor" /> |
+| <ItemLink id="aeroengineering:engine_turbine" /> |
+| <ItemLink id="aeroengineering:engine_exhaust_cone" /> |
+| <ItemLink id="aeroengineering:aviation_kerosene_bucket" /> |
+
+Aero Engineering 提供多种涡轮引擎系列。基本核心按风扇、压缩机、燃烧室、涡轮、排气锥的顺序组装，使用航空煤油。机壳、喷嘴、燃料供应与齿轮箱位置请查看引擎思索演示。
 
 ***
 
@@ -34,7 +43,16 @@ Aero Engineering 提供涡扇、加力涡扇、可变气流、矢量、高涵道
   <ItemIcon id="createpropulsion:stirling_engine" />
 </ItemGrid>
 
-Create Propulsion 提供普通、矢量、固体燃料、液体矢量与离子推进器，斯特林引擎、固体和液体燃烧器，以及机翼、强化机翼与模仿机翼。创造推进器为独立创造模式系列。各引擎使用自己的配方、燃料或动力说明，不能假定输入互通。
+| 图示物品 |
+| --- |
+| <ItemLink id="createpropulsion:thruster" /> |
+| <ItemLink id="createpropulsion:vector_thruster" /> |
+| <ItemLink id="createpropulsion:solid_fuel_thruster" /> |
+| <ItemLink id="createpropulsion:liquid_vector_thruster" /> |
+| <ItemLink id="createpropulsion:ion_thruster" /> |
+| <ItemLink id="createpropulsion:stirling_engine" /> |
+
+Create Propulsion 提供燃料或动力要求不同的推进器，另有独立的引擎与机翼系列。创造推进器属于创造模式设备。应按各引擎的配方与帮助选择输入，不要假定能够互换。
 
 ***
 
@@ -48,12 +66,28 @@ Create Propulsion 提供普通、矢量、固体燃料、液体矢量与离子�
   <ItemIcon id="aeroengineering:turbine_component" />
   <ItemIcon id="createpropulsion:platinum_ingot" />
   <ItemIcon id="createpropulsion:turpentine_bucket" />
+  <ItemIcon id="minecraft:redstone" />
 </ItemGrid>
 
-航空合金锭与板、引擎叶片、压气机组件与涡轮组件构成航空材料系列。Create Propulsion 提供铂矿、粗铂、锭、粒、板、机壳、水箱与容器，以及松脂、松节油和氧化剂。普通推进器使用松节油与红石，固体燃料推进器从后部燃烧固体物品，离子推进器需要 Forge Energy 与红石。
+| 图示物品 |
+| --- |
+| <ItemLink id="aeroengineering:aviation_alloy_ingot" /> |
+| <ItemLink id="aeroengineering:aviation_alloy_sheet" /> |
+| <ItemLink id="aeroengineering:aviation_blade" /> |
+| <ItemLink id="aeroengineering:compressor_component" /> |
+| <ItemLink id="aeroengineering:turbine_component" /> |
+| <ItemLink id="createpropulsion:platinum_ingot" /> |
+| <ItemLink id="createpropulsion:turpentine_bucket" /> |
+| <ItemLink id="minecraft:redstone" /> |
+
+航空材料用于制造引擎核心组件。Create Propulsion 另有铂金与燃料材料系列。普通推进器使用松节油与红石信号，固体燃料推进器从后方燃烧固体物品，离子推进器需要 Forge Energy 与红石信号。桶图标代表流体，并不表示必须插入桶。
 
 ***
 
 ## 制作
 
 <Recipe id="aeroengineering:compressor_component" />
+
+## 相关页面
+
+- [物品配方](help.search.md)

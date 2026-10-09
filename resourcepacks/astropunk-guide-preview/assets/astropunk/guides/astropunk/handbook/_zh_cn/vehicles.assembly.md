@@ -17,6 +17,13 @@ navigation:
   <ItemIcon id="simulated:docking_connector" />
 </ItemGrid>
 
+| 图示物品 |
+| --- |
+| <ItemLink id="simulated:physics_assembler" /> |
+| <ItemLink id="simulated:honey_glue" /> |
+| <ItemLink id="simulated:contraption_diagram" /> |
+| <ItemLink id="simulated:docking_connector" /> |
+
 Create Aeronautics 包含负责物理移动建筑的 Simulated，以及负责车轮的 Offroad。使用强力胶或蜂蜜胶连接目标方块，再按住右键操作物理装配器并拉动拉杆。另一台物理装配器也能拆解建筑。组装、方块质量与分裂规则见物理装配器思索演示。
 
 ***
@@ -32,7 +39,16 @@ Create Aeronautics 包含负责物理移动建筑的 Simulated，以及负责车
   <ItemIcon id="offroad:borehead_bearing" />
 </ItemGrid>
 
-轮架配合小型、普通、大型与巨型轮胎。钻头轴承与岩石切割轮属于挖掘系列。底盘仍需动力与转向系统，见[引擎](vehicles.engines.md)与[控制](vehicles.controls.md)。
+| 图示物品 |
+| --- |
+| <ItemLink id="offroad:wheel_mount" /> |
+| <ItemLink id="offroad:small_tire" /> |
+| <ItemLink id="offroad:tire" /> |
+| <ItemLink id="offroad:large_tire" /> |
+| <ItemLink id="offroad:monstrous_tire" /> |
+| <ItemLink id="offroad:borehead_bearing" /> |
+
+Offroad 车轮支架可搭配不同尺寸的轮胎。挖掘系统有独立轴承与切削轮组件。底盘仍需要推进与转向。
 
 ***
 
@@ -47,10 +63,34 @@ Create Aeronautics 包含负责物理移动建筑的 Simulated，以及负责车
   <ItemIcon id="simulated:navigation_table" />
 </ItemGrid>
 
-Simulated 另有绳索绞盘、连接器与联轴器、旋转轴承、弹簧与扭簧、对接连接器、导航桌、激光指示器与机械图。Create Propulsion 另有自动组装、自动粘合，以及移动、复制和移除机械的工具。这些是独立工具，并非预制载具模型。
+| 图示物品 |
+| --- |
+| <ItemLink id="simulated:rope_winch" /> |
+| <ItemLink id="simulated:rope_connector" /> |
+| <ItemLink id="simulated:rope_coupling" /> |
+| <ItemLink id="simulated:swivel_bearing" /> |
+| <ItemLink id="simulated:spring" /> |
+| <ItemLink id="simulated:navigation_table" /> |
+
+Simulated 提供移动结构的机械连接件与工具。Create Propulsion 增加组装及结构编辑工具。它们是独立部件与工具，并非预制载具。
 
 ***
 
 ## 制作
 
 <Recipe id="offroad:borehead_bearing" />
+
+## 相关页面
+
+- [载具引擎](vehicles.engines.md)
+- [载具控制](vehicles.controls.md)
+
+## 相关物品
+
+<ItemGrid>
+  <ItemIcon id="create:super_glue" />
+</ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="create:super_glue" /> |

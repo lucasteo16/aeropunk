@@ -8,43 +8,28 @@ navigation:
 
 # 装备
 
-## 近战与远程
+## 构筑装备
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="rogues:iron_glaive" />
-  <ItemIcon id="paladins:iron_claymore" />
-  <ItemIcon id="berserker_rpg:iron_berserker_axe" />
-  <ItemIcon id="forcemaster_rpg:iron_knuckle" />
   <ItemIcon id="archers:composite_longbow" />
+  <ItemIcon id="wizards:wand_novice" />
+  <ItemIcon id="jewelry:copper_ring" />
 </ItemGrid>
 
-匕首、镰刀、双刃斧、长柄刀、双手剑、钉头锤、巨锤、突袭斧、拳套、矛、弓与弩。[武器种类与护甲套装](equipment.weapons-armor.md)列出职业套装、Armory 升级、Arsenal 命名武器和 Cataclysm 装备。
+武器决定攻击方式与可用法术范围。护甲和饰品改变防护及战斗属性。护甲值更高，不代表你的招式学派也更强。
+
+- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
+- [饰品](equipment.accessories.md) 将珠宝与遗物装入适用的饰品槽。
+- [护甲与效果显示](equipment.display.md) 区分装备属性与临时效果。
+
 
 ***
 
-## 施法器与护甲
+## 属性搭配
 
-<ItemGrid>
-  <ItemIcon id="wizards:wand_arcane" />
-  <ItemIcon id="wizards:staff_fire" />
-  <ItemIcon id="paladins:holy_staff" />
-  <ItemIcon id="elemental_wizards_rpg:staff_aqua" />
-  <ItemIcon id="bards_rpg:wooden_lute" />
-  <ItemIcon id="armory_rpgs:astral_robe_chest" />
-</ItemGrid>
+近战比较攻击伤害，弓术比较远程伤害，魔法和治疗则比较对应学派的法术强度。同时查看急速、暴击属性与装备效果的触发条件。触发式增益不是可以任意释放的额外职业法术。
 
-魔杖与法杖对应不同法术学派，吟游诗人还使用里拉琴、鲁特琴、竖琴弩和细剑。按[能力](combat.magic.md)所需属性搭配法袍与护甲，不要只看防护值。
-
-***
-
-## 珠宝与遗物
-
-<ItemGrid>
-  <ItemIcon id="jewelry:ruby_ring" />
-  <ItemIcon id="jewelry:sapphire_necklace" />
-  <ItemIcon id="relics_rpgs:lesser_roll" />
-  <ItemIcon id="more_relics:medium_proc_lifesteal" />
-</ItemGrid>
-
-[戒指、项链与遗物系列](equipment.accessories.md)包含宝石变种、命名独特饰品、雕像以及主动或触发式遗物。[护甲与效果显示](equipment.display.md)帮助查看配装结果。
+- [武技](combat.martial.md) 查看远程射击、近战与职业招式。
+- [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
+- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。

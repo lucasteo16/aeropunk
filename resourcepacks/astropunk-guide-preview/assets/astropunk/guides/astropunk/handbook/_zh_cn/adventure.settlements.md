@@ -92,4 +92,7 @@ ChoiceTheorem's Overhauled Village
 
 ## 相关条目
 
-[建筑与地牢](adventure.structures.md)与[战利品](adventure.loot.md)。
+建筑与地牢与战利品。
+
+- [建筑与地牢](adventure.structures.md)
+- [战利品](adventure.loot.md)

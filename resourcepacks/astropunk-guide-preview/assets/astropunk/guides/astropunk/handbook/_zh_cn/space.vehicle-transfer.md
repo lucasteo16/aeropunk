@@ -16,5 +16,5 @@ navigation:
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
-| Create: AeroWarptics（未安装） | 当前未安装。 |
-| Create: Northstar-Aeronautics Compatibility（未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:minecart" /> Create: AeroWarptics（未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:minecart" /> Create: Northstar-Aeronautics Compatibility（未安装） | 当前未安装。 |

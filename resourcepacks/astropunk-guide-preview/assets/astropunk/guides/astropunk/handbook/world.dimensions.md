@@ -99,7 +99,9 @@ Nullscape reshapes the End's outer islands. It changes an existing dimension rat
 
 Copper submarine from Deep Seas.
 
-The selected Deep Seas release contains an Abyss prototype, but disables that dimension outside development environments. It is not an accessible destination in this pack. Boats and submarines belong to [Vehicles](reference.vehicles.md).
+The selected Deep Seas release contains an Abyss prototype, but disables that dimension outside development environments. It is not an accessible destination in this pack.
+
+- [Vehicles](reference.vehicles.md)
 
 ***
 
@@ -111,10 +113,14 @@ The selected Deep Seas release contains an Abyss prototype, but disables that di
 | Nether | Light an obsidian portal |
 | End | Activate a stronghold's End portal with Eyes of Ender |
 
-Use [Location finders](maps.find.md) to locate biomes and structures. Terrain changes appear in newly generated areas; existing terrain is not rebuilt by opening this guide.
+Terrain changes appear in newly generated areas, existing terrain is not rebuilt by opening this guide.
+
+- [Location finders](maps.find.md)
 
 ***
 
 ## Other editions
 
-Space content is not installed in this light edition. See [Space](space.destinations.md) for its separate selections.
+Space content is not installed in this light edition.
+
+- [Space](space.destinations.md)

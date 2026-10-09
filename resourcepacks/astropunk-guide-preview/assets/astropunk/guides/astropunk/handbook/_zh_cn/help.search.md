@@ -18,7 +18,7 @@ navigation:
 | --- | --- |
 | 物品如何制作 | 指向物品，按 R |
 | 材料能做什么 | 指向材料，按 U |
-| 某个模组的物品 | 搜索 @create 或 @farmersdelight |
+| 某个模组的物品 | 搜索 <Color id="gold">@create</Color> 或 <Color id="gold">@farmersdelight</Color> |
 
 这些是默认按键，可在物品浏览器设置中修改。
 

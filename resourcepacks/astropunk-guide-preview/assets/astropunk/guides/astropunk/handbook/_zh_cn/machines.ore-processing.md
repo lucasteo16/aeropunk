@@ -46,6 +46,13 @@ item_ids:
   <ItemIcon id="minecraft:wheat_seeds" />
 </ItemGrid>
 
+| 图示物品 |
+| --- |
+| <ItemLink id="minecraft:wheat" /> |
+| <ItemLink id="create:millstone" /> |
+| <ItemLink id="create:wheat_flour" /> |
+| <ItemLink id="minecraft:wheat_seeds" /> |
+
 | 输入 | 产物 |
 | --- | --- |
 | 一个小麦 | 一份小麦粉 |
@@ -62,6 +69,13 @@ item_ids:
   <ItemIcon id="create:crushed_raw_iron" />
   <ItemIcon id="create:experience_nugget" />
 </ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="minecraft:raw_iron" /> |
+| <ItemLink id="create:crushing_wheel" /> |
+| <ItemLink id="create:crushed_raw_iron" /> |
+| <ItemLink id="create:experience_nugget" /> |
 
 | 输入 | 产物 |
 | --- | --- |
@@ -80,9 +94,19 @@ item_ids:
   <ItemIcon id="minecraft:redstone" />
 </ItemGrid>
 
+| 图示物品 |
+| --- |
+| <ItemLink id="create:crushed_raw_iron" /> |
+| <ItemLink id="create:encased_fan" /> |
+| <ItemLink id="minecraft:water_bucket" /> |
+| <ItemLink id="minecraft:iron_nugget" /> |
+| <ItemLink id="minecraft:redstone" /> |
+
 | 输入 | 产物 |
 | --- | --- |
 | 一个粉碎铁矿石 | 九个铁粒 |
 | 额外产物，概率百分之七十五 | 一个红石 |
 
-水是鼓风机的加工介质，不会消耗一桶水。原料输送和产物收集见[物品输送](machines.logistics.md)。
+水是鼓风机的加工介质，不会消耗一桶水。原料输送和产物收集见物品输送。
+
+- [物品输送](machines.logistics.md)

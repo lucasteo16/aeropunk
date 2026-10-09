@@ -157,6 +157,7 @@ zh_titles: dict[str, str] = {line.split('|', 1)[0]: line.split('|', 1)[1] for li
 # Authored articles are maintained separately from generated indexes.
 written = json.loads((ROOT / 'docs/handbook-content.json').read_text())
 descriptions = json.loads((ROOT / 'docs/handbook-project-descriptions.json').read_text())
+visual_sources = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_text())
 zh_titles['world.dimensions'] = '维度目录'
 page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
 page_defs += [dict(page_id=topic, title=english, player_questions=[]) for topic, english, *_ in reference_sections if topic in reference_hubs]
@@ -177,7 +178,7 @@ titles.update({'help.inspect': 'Block & mob info', 'help.reference': 'Existing h
 zh_titles['help.search'] = '物品配方'
 
 def clean(value):
-    return value.replace('|', ',').replace('\n', ' ').replace('—', ', ').replace('–', ' to ')
+    return value.replace('|', ',').replace('\n', ' ').replace('—', ', ').replace('–', ' to ').replace(';', ',').replace('；', '，')
 
 def description(entry, chinese):
     data = descriptions.get(entry['metadata_path'])
@@ -201,6 +202,14 @@ def roster(members, chinese, linked=False):
             label = '（重型版，当前未安装）' if chinese else ' (heavy edition, not installed here)'
         elif entry['availability'] == 'deferred':
             label = '（未安装）' if chinese else ' (not installed)'
+        visual = visual_sources.get(entry['metadata_path'])
+        if visual and visual.get('kind') in {'publisher icon', 'bundled publisher icon'}:
+            name = '![' + clean(entry['name']) + '](' + visual['resource'] + ') ' + name
+        else:
+            # Missing publisher artwork is represented by a functional topic icon,
+            # never passed off as a logo supplied by that publisher.
+            icon = category_by_name[entry['category']][3]
+            name = '<ItemImage id="' + icon + '" /> ' + name
         rows.append('| ' + name + label + ' | ' + description(entry, chinese) + ' |')
     return '\n'.join(rows)
 
@@ -228,6 +237,8 @@ def write_page(filename, title, body, chinese, parent=None, icon=None, associati
 status = []
 assigned_paths = []
 associations = {
+    'adventure.bosses': ['cataclysm:abyssal_sacrifice', 'cataclysm:altar_of_abyss', 'cataclysm:altar_of_fire', 'cataclysm:altar_of_void', 'cataclysm:burning_ashes', 'cataclysm:cursed_tombstone', 'cataclysm:door_of_seal', 'cataclysm:necklace_of_the_desert', 'cataclysm:strange_key'],
+    'combat.magic': ['spell_engine:spell_binding', 'spell_engine:spell_book', 'spell_engine:spell_scroll'],
     'machines.ore-processing': ['create:millstone', 'create:crushing_wheel', 'create:encased_fan', 'create:crushed_raw_iron'],
     'food.utensils': ['farmersdelight:cooking_pot', 'farmersdelight:cutting_board', 'farmersdelight:skillet', 'farmersdelight:stove'],
 }

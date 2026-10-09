@@ -16,5 +16,5 @@ navigation:
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
-| Corpse | Never lose your items again! |
-| Corpse x Curios API Compat | This little mod allows you to directly equip your Curios items to the respective slots |
+| ![Corpse](images/catalog-WrpuIfhw.png) Corpse | Never lose your items again! |
+| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) Corpse x Curios API Compat | This little mod allows you to directly equip your Curios items to the respective slots |

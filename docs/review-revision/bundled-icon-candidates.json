@@ -1,0 +1,26 @@
+[
+  {
+    "metadata_path": "mods/badoptimizations.pw.toml",
+    "cache_path": "/home/tsb/.cache/packwiz/cache/22/e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba",
+    "declared_hash": "2b66428bd98bd5ec0e09f2ec6af801cefb7b9b99cc4f0993daeaffe8d0ccc5ee0c2a73e9f38d4f92540ead0181704d2c9e946837ec05cf710fc3b20fce3b0cac",
+    "algorithm": "sha512",
+    "candidates": [
+      "badoptimizations-icon.png",
+      "assets/badoptimizations/icon.png"
+    ]
+  },
+  {
+    "metadata_path": "mods/playeranimator.pw.toml",
+    "cache_path": "/home/tsb/.cache/packwiz/cache/db/e5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "declared_hash": "fc00450fb6c95ec1779021bdc726122dacb5915c6baddaacc981cd221b01b8db35f2a0dfde5d6fa6766d877266dc82f58854f571ea53cc5c4d468b80e1548a5f",
+    "algorithm": "sha512",
+    "candidates": []
+  },
+  {
+    "metadata_path": "mods/short-stacks.pw.toml",
+    "cache_path": "/home/tsb/.cache/packwiz/cache/14/ec86e210d165b11e8f6f32a58a5c8bd24058e8dafe692e537ab090cb04b884",
+    "declared_hash": "6db25e56f8d37237721926b98c9244756fbd511d",
+    "algorithm": "sha1",
+    "candidates": []
+  }
+]

@@ -45,7 +45,7 @@ navigation:
 | 物品与系列 | 用途 |
 | --- | --- |
 | <ItemLink id="minecraft:anvil" />, <ItemLink id="minecraft:name_tag" /> | Easy Anvils 改善手动铁砧操作并提供命名牌编辑，不是动力机器。 |
-| <ItemLink id="create_enchantment_industry:infuser" />, <ItemLink id="create_enchantment_industry:affix_augmentor" />, <ItemLink id="create_enchantment_industry:gem_cutter" /> | 灌注、词缀与宝石联动组件，仅在对应配方与系统可用时使用。 |
+| <ItemLink id="create_enchantment_industry:infuser" />, <ItemLink id="create_enchantment_industry:affix_augmentor" />, <ItemLink id="create_enchantment_industry:gem_cutter" /> | 可选联动组件。只有对应联动注册后才可使用，不应假定此整合包中一定存在这些物品或配方。 |
 
 ***
 
@@ -54,3 +54,17 @@ navigation:
 先制作机械砂轮。其思索演示介绍置物排液器转换与经验输入。消耗液态经验前先查看烈焰人附魔器演示。超级附魔可能引发雷击，启用前请查看对应说明。
 
 <Recipe id="create_enchantment_industry:crafting/mechanical_grindstone" />
+
+## 相关物品
+
+<ItemGrid>
+  <ItemIcon id="create:item_drain" />
+</ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="create:item_drain" /> |
+
+## 相关页面
+
+- [物品配方](help.search.md)

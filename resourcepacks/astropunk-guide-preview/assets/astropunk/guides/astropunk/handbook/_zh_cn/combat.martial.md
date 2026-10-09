@@ -8,11 +8,31 @@ navigation:
 
 # 选择近战与远程战斗风格
 
+## 使用武技
+
+<ItemGrid>
+  <ItemIcon id="archers:composite_longbow" />
+  <ItemIcon id="rogues:iron_dagger" />
+  <ItemIcon id="spell_engine:spell_binding" />
+  <ItemIcon id="minecraft:book" />
+</ItemGrid>
+
+下方列出当前支持的武技职业书中的全部主动招式。在法术绑定台创建对应书籍，绑定招式，然后装备书籍并手持兼容武器。普通攻击、武器自带招式与技能树强化是不同系统。
+
+- [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
+- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
+- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+
+
+***
+
 ## 弓箭手
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
+
+弓术招式包含蓄势射击、投射物、范围攻击与伙伴效果。
 
 | 能力 | 形式 |
 | --- | --- |
@@ -31,6 +51,8 @@ navigation:
   <ItemIcon id="archers_expansion:deadeye_chest" />
 </ItemGrid>
 
+物理远程招式结合快射、控制与职业专属攻击。
+
 | 能力 | 形式 |
 | --- | --- |
 | 快速射击 | 预备效果 |
@@ -47,6 +69,8 @@ navigation:
 <ItemGrid>
   <ItemIcon id="archers_expansion:tundra_hunter_chest" />
 </ItemGrid>
+
+冰霜远程招式结合冰冻射击与持续区域。
 
 | 能力 | 形式 |
 | --- | --- |
@@ -65,6 +89,8 @@ navigation:
   <ItemIcon id="archers_expansion:war_archer_chest" />
 </ItemGrid>
 
+火焰远程招式结合箭矢攻击与燃烧区域。
+
 | 能力 | 形式 |
 | --- | --- |
 | 双重射击 | 射箭 |
@@ -81,6 +107,8 @@ navigation:
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
+
+近战招式结合蓄势效果、陷阱与机动能力。
 
 | 能力 | 形式 |
 | --- | --- |
@@ -99,6 +127,8 @@ navigation:
   <ItemIcon id="rogues:iron_double_axe" />
 </ItemGrid>
 
+近战招式结合投掷、冲锋与自身防御效果。
+
 | 能力 | 形式 |
 | --- | --- |
 | 碎裂投掷 | 投射物 |
@@ -115,6 +145,8 @@ navigation:
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
+
+怒气招式结合近战伤害与自身效果。
 
 | 能力 | 形式 |
 | --- | --- |
@@ -133,6 +165,8 @@ navigation:
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>
 
+奥术近战招式结合贴身打击与远程效果。
+
 | 能力 | 形式 |
 | --- | --- |
 | 石手 | 预备效果 |
@@ -144,8 +178,8 @@ navigation:
 
 ***
 
-## 起步
+## 构筑相关
 
-先选择对应职业的武器或施法器，查看其法术列表和要求，再取得匹配的书或卷轴并查看法术界面。上方列出职业书分配的主动能力，并非每个装备触发效果都对应一个按键。消耗和冷却以游戏内说明为准。
-
-[技能路线](combat.skills.md)、[装备](equipment.weapons-armor.md)与[战斗操作](combat.handling.md)。
+- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
+- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+- [战斗操作](combat.handling.md) 了解攻击模式、施法操作与翻滚。

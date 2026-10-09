@@ -18,7 +18,7 @@ navigation:
 
 ## Nether
 
-<ItemGrid><ItemIcon id="minecraft:netherrack" /></ItemGrid>
+![Nether terrain](images/parent-incendium-terrain.png)
 
 | Mod | Purpose |
 | --- | --- |
@@ -29,7 +29,7 @@ navigation:
 
 ## End
 
-<ItemGrid><ItemIcon id="minecraft:end_stone" /></ItemGrid>
+![End terrain](images/parent-nullscape-terrain.png)
 
 | Mod | Purpose |
 | --- | --- |

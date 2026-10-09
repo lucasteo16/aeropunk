@@ -8,43 +8,28 @@ navigation:
 
 # Equipment
 
-## Melee & ranged
+## Build equipment
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="rogues:iron_glaive" />
-  <ItemIcon id="paladins:iron_claymore" />
-  <ItemIcon id="berserker_rpg:iron_berserker_axe" />
-  <ItemIcon id="forcemaster_rpg:iron_knuckle" />
   <ItemIcon id="archers:composite_longbow" />
+  <ItemIcon id="wizards:wand_novice" />
+  <ItemIcon id="jewelry:copper_ring" />
 </ItemGrid>
 
-Daggers, sickles, double axes, glaives, claymores, maces, great hammers, raid axes, knuckles, spears, bows and crossbows. [Weapon families and armor sets](equipment.weapons-armor.md) lists class sets, Armory upgrades, Arsenal named weapons and Cataclysm equipment.
+Weapons determine attack patterns and available spell access. Armor and accessories modify protection and combat attributes. A higher armor value does not necessarily improve the school your ability uses.
+
+- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
+- [Accessories](equipment.accessories.md) Equip jewelry and relics in their supported slots.
+- [Armor & effects](equipment.display.md) Separate equipment attributes from temporary effects.
+
 
 ***
 
-## Casting & armor
+## Match your abilities
 
-<ItemGrid>
-  <ItemIcon id="wizards:wand_arcane" />
-  <ItemIcon id="wizards:staff_fire" />
-  <ItemIcon id="paladins:holy_staff" />
-  <ItemIcon id="elemental_wizards_rpg:staff_aqua" />
-  <ItemIcon id="bards_rpg:wooden_lute" />
-  <ItemIcon id="armory_rpgs:astral_robe_chest" />
-</ItemGrid>
+Compare attack damage for melee, ranged damage for archery and the matching spell-power school for magic or healing. Also read haste, critical modifiers and any equipment-trigger conditions. A triggered bonus is not another freely castable class spell.
 
-Wands and staves serve different spell schools; bards add lyres, lutes, harp crossbows and rapiers. Match robes and armor to the attributes your [abilities](combat.magic.md) use, not just their protection value.
-
-***
-
-## Jewelry & relics
-
-<ItemGrid>
-  <ItemIcon id="jewelry:ruby_ring" />
-  <ItemIcon id="jewelry:sapphire_necklace" />
-  <ItemIcon id="relics_rpgs:lesser_roll" />
-  <ItemIcon id="more_relics:medium_proc_lifesteal" />
-</ItemGrid>
-
-[Rings, necklaces and relic families](equipment.accessories.md) include gem variants, named uniques, figurines and activated or triggered relics. [Armor and effect displays](equipment.display.md) helps read the resulting loadout.
+- [Martial abilities](combat.martial.md) Ranged shots, close combat and class techniques.
+- [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
+- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.

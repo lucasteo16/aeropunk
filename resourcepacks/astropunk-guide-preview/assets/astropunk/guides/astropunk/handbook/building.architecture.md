@@ -17,7 +17,14 @@ navigation:
   <ItemIcon id="mcwbridges:stone_brick_bridge" />
 </ItemGrid>
 
-Macaw's Bridges: Log, rope, rail and balustrade bridges, bridge stairs and supports. Wood and stone families include stone bricks, cobblestone, mossy variants, granite, diorite, andesite, sandstone, red sandstone, bricks, mud bricks, Nether bricks, prismarine and blackstone.
+| Shown items |
+| --- |
+| <ItemLink id="mcwbridges:oak_log_bridge_middle" /> |
+| <ItemLink id="mcwbridges:oak_rail_bridge" /> |
+| <ItemLink id="mcwbridges:oak_bridge_pier" /> |
+| <ItemLink id="mcwbridges:stone_brick_bridge" /> |
+
+Macaw's Bridges supplies spans, stairs and supports in wood and stone families. Select both the bridge shape and material through its recipe.
 
 ***
 
@@ -30,7 +37,14 @@ Macaw's Bridges: Log, rope, rail and balustrade bridges, bridge stairs and suppo
   <ItemIcon id="mcwroofs:oak_steep_roof" />
 </ItemGrid>
 
-Macaw's Roofs: Base, top, attic, steep base, steep top, lower base and lower top pieces. Log, plank, stone and colored roof families use different recipes.
+| Shown items |
+| --- |
+| <ItemLink id="mcwroofs:oak_roof" /> |
+| <ItemLink id="mcwroofs:oak_top_roof" /> |
+| <ItemLink id="mcwroofs:oak_attic_roof" /> |
+| <ItemLink id="mcwroofs:oak_steep_roof" /> |
+
+Macaw's Roofs uses separate pieces for the base, ridge and attic, including steeper profiles. Log, plank, stone and colored families have different recipes.
 
 ***
 
@@ -45,7 +59,16 @@ Macaw's Roofs: Base, top, attic, steep base, steep top, lower base and lower top
   <ItemIcon id="mcwstairs:oak_railing" />
 </ItemGrid>
 
-Macaw's Stairs: Bulk, compact, loft and skyline stairs, platforms, terraces, balconies and railings.
+| Shown items |
+| --- |
+| <ItemLink id="mcwstairs:oak_bulk_stairs" /> |
+| <ItemLink id="mcwstairs:oak_compact_stairs" /> |
+| <ItemLink id="mcwstairs:oak_loft_stairs" /> |
+| <ItemLink id="mcwstairs:oak_skyline_stairs" /> |
+| <ItemLink id="mcwstairs:oak_balcony" /> |
+| <ItemLink id="mcwstairs:oak_railing" /> |
+
+Macaw's Stairs provides different stair profiles with platforms, balconies and matching railings. Choose the profile before collecting its materials.
 
 ***
 
@@ -57,7 +80,13 @@ Macaw's Stairs: Bulk, compact, loft and skyline stairs, platforms, terraces, bal
   <ItemIcon id="mcwdoors:oak_modern_door" />
 </ItemGrid>
 
-Macaw's Doors: Barn, glassed barn, cottage, classic, modern, four panel, stable, horse stable, Shoji, paper, western, beach, swamp and other door styles.
+| Shown items |
+| --- |
+| <ItemLink id="mcwdoors:oak_barn_door" /> |
+| <ItemLink id="mcwdoors:oak_japanese_door" /> |
+| <ItemLink id="mcwdoors:oak_modern_door" /> |
+
+Macaw's Doors changes the visual style of building entrances. The shown doors are examples, not a complete style list.
 
 ***
 
@@ -70,7 +99,14 @@ Macaw's Doors: Barn, glassed barn, cottage, classic, modern, four panel, stable,
   <ItemIcon id="mcwwindows:black_curtain" />
 </ItemGrid>
 
-Macaw's Windows: Resizable, rectangular, pane and four pane windows; parapets, shutters, louvered shutters, blinds, curtain rods, curtains and mosaic glass.
+| Shown items |
+| --- |
+| <ItemLink id="mcwwindows:oak_window" /> |
+| <ItemLink id="mcwwindows:oak_pane_window" /> |
+| <ItemLink id="mcwwindows:oak_shutter" /> |
+| <ItemLink id="mcwwindows:black_curtain" /> |
+
+Macaw's Windows combines window shapes with shutters and curtains. Choose the opening and its fittings separately through their recipes.
 
 ***
 
@@ -83,7 +119,14 @@ Macaw's Windows: Resizable, rectangular, pane and four pane windows; parapets, s
   <ItemIcon id="mcwfences:bastion_metal_fence" />
 </ItemGrid>
 
-Macaw's Fences and Walls: Picket, stockade, horse and wired wood fences, hedges, metal fences, pillar and grass-topped walls, plus matching gate styles. Diagonal Fences changes compatible fence connections.
+| Shown items |
+| --- |
+| <ItemLink id="mcwfences:oak_picket_fence" /> |
+| <ItemLink id="mcwfences:oak_stockade_fence" /> |
+| <ItemLink id="mcwfences:oak_hedge" /> |
+| <ItemLink id="mcwfences:bastion_metal_fence" /> |
+
+Macaw's Fences and Walls provides wood, hedge, metal and masonry boundary families with matching gates. Diagonal Fences changes compatible fence connections.
 
 ***
 
@@ -93,7 +136,13 @@ Macaw's Fences and Walls: Picket, stockade, horse and wired wood fences, hedges,
   <ItemIcon id="minecraft:chain" />
 </ItemGrid>
 
-Reconnectible Chains uses vanilla chains for connected hanging spans. Choose your structural pieces through [item recipes](help.search.md).
+| Shown items |
+| --- |
+| <ItemLink id="minecraft:chain" /> |
+
+Reconnectible Chains uses vanilla chains for connected hanging spans. Choose your structural pieces through Item recipe.
+
+- [Item recipe](help.search.md)
 
 ***
 

@@ -44,8 +44,8 @@ navigation:
 
 | Items & families | Use |
 | --- | --- |
-| <ItemLink id="minecraft:anvil" />, <ItemLink id="minecraft:name_tag" /> | Easy Anvils improves manual anvil use and includes name-tag editing; it is not a powered factory machine. |
-| <ItemLink id="create_enchantment_industry:infuser" />, <ItemLink id="create_enchantment_industry:affix_augmentor" />, <ItemLink id="create_enchantment_industry:gem_cutter" /> | Infusion, affix and gem integration components. Use them only when their matching recipes and systems are available. |
+| <ItemLink id="minecraft:anvil" />, <ItemLink id="minecraft:name_tag" /> | Easy Anvils improves manual anvil use and includes name-tag editing. It is not a powered factory machine. |
+| <ItemLink id="create_enchantment_industry:infuser" />, <ItemLink id="create_enchantment_industry:affix_augmentor" />, <ItemLink id="create_enchantment_industry:gem_cutter" /> | Optional integration components. They are available only when the corresponding integration registers them. Do not assume their presence or recipes in this pack. |
 
 ***
 
@@ -54,3 +54,17 @@ navigation:
 Make a Mechanical Grindstone first. Its Ponder entry shows the Item Drain conversion and experience input. Follow the Blaze Enchanter entry before spending liquid experience. Super enchanting can cause lightning strikes, so consult that entry before enabling it.
 
 <Recipe id="create_enchantment_industry:crafting/mechanical_grindstone" />
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="create:item_drain" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="create:item_drain" /> |
+
+## Related topics
+
+- [Item recipe](help.search.md)

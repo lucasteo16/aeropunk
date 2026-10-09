@@ -22,7 +22,7 @@ navigation:
 | 物品与系列 | 用途 |
 | --- | --- |
 | <ItemLink id="electroenergetics:alternator_rotor" />, <ItemLink id="electroenergetics:stator" />, <ItemLink id="electroenergetics:alternator_brushes" /> | Create: Electro Energetics 的交流发电机将旋转动力转为电力，另有三相电刷系列。 |
-| <ItemLink id="electroenergetics:accumulator" />, <ItemLink id="electroenergetics:capacitor" />, <ItemLink id="electroenergetics:high_voltage_capacitor" /> | 蓄电池、电容与高压电容储能组件。 |
+| <ItemLink id="electroenergetics:accumulator" />, <ItemLink id="electroenergetics:capacitor" />, <ItemLink id="electroenergetics:high_voltage_capacitor" /> | 储存电能以供后续使用。充电电压与极性请看蓄电池思索演示。 |
 
 ***
 
@@ -46,9 +46,9 @@ navigation:
 | 物品与系列 | 用途 |
 | --- | --- |
 | <ItemLink id="electroenergetics:connector" />, <ItemLink id="electroenergetics:copper_wire_spool" />, <ItemLink id="electroenergetics:insulated_wire" /> | 连接器系列，以及铜、铁、琥珀金与绝缘导线系列。 |
-| <ItemLink id="electroenergetics:transformer" />, <ItemLink id="electroenergetics:transformer_core" />, <ItemLink id="electroenergetics:voltage_regulator" /> | 变压器、铁芯与电压调节器，另有调压器和转换器。 |
-| <ItemLink id="electroenergetics:fuse" />, <ItemLink id="electroenergetics:fuse_holder" />, <ItemLink id="electroenergetics:emergency_stop_button" /> | 保险丝、保险丝座、开关与紧急停止组件。 |
-| <ItemLink id="electroenergetics:voltmeter" />, <ItemLink id="electroenergetics:ammeter" />, <ItemLink id="electroenergetics:clamp_meter" /> | 电压与电流仪表，另有电能和频率仪表。 |
+| <ItemLink id="electroenergetics:transformer" />, <ItemLink id="electroenergetics:transformer_core" />, <ItemLink id="electroenergetics:voltage_regulator" /> | 转换或调节电路电压。变压器铁芯有独立功率额定值与组装要求。 |
+| <ItemLink id="electroenergetics:fuse" />, <ItemLink id="electroenergetics:fuse_holder" />, <ItemLink id="electroenergetics:emergency_stop_button" /> | 保险丝在电流过大时提供保护。保险丝座与紧急停止按钮是独立的电路控制组件。 |
+| <ItemLink id="electroenergetics:voltmeter" />, <ItemLink id="electroenergetics:ammeter" />, <ItemLink id="electroenergetics:clamp_meter" /> | 用于测量电路电压与电流。钳形电流表读取导线中的电流。 |
 
 ***
 
@@ -72,4 +72,6 @@ navigation:
 
 ## 初次使用
 
-先查看交流发电机与连接导线的思索演示，再先装仪表后接电动机。此系统需要考虑电压与电流，带电导线不是通用电力管线。除非目标连接明确受支持，否则应与[工业机器](power.industry.md)的电路分开。
+先查看交流发电机与连接导线的思索演示，再先装仪表后接电动机。此系统需要考虑电压与电流，带电导线不是通用电力管线。除非目标连接明确受支持，否则应与工业机器的电路分开。
+
+- [工业机器](power.industry.md)

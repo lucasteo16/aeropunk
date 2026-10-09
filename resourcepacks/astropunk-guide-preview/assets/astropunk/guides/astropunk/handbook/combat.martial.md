@@ -8,11 +8,31 @@ navigation:
 
 # Martial classes
 
+## Using martial abilities
+
+<ItemGrid>
+  <ItemIcon id="archers:composite_longbow" />
+  <ItemIcon id="rogues:iron_dagger" />
+  <ItemIcon id="spell_engine:spell_binding" />
+  <ItemIcon id="minecraft:book" />
+</ItemGrid>
+
+The lists below cover every active ability assigned to the supported martial class books. Create the matching book at the Spell Binding Table, bind its abilities and equip it with a compatible held weapon. Weapon attacks, weapon-provided skills and skill-tree modifiers remain separate.
+
+- [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
+- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
+- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
+
+
+***
+
 ## Archer
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
+
+Archery abilities combine prepared shots, projectiles, area attacks and a companion effect.
 
 | Ability | Form |
 | --- | --- |
@@ -31,6 +51,8 @@ navigation:
   <ItemIcon id="archers_expansion:deadeye_chest" />
 </ItemGrid>
 
+Physical ranged techniques combine rapid shots, control and class-specific attacks.
+
 | Ability | Form |
 | --- | --- |
 | Fast Shot | Prepared effect |
@@ -47,6 +69,8 @@ navigation:
 <ItemGrid>
   <ItemIcon id="archers_expansion:tundra_hunter_chest" />
 </ItemGrid>
+
+Frost ranged techniques combine freezing shots and persistent areas.
 
 | Ability | Form |
 | --- | --- |
@@ -65,6 +89,8 @@ navigation:
   <ItemIcon id="archers_expansion:war_archer_chest" />
 </ItemGrid>
 
+Fire ranged techniques combine arrow attacks and burning areas.
+
 | Ability | Form |
 | --- | --- |
 | Dual Shot | Arrow shot |
@@ -81,6 +107,8 @@ navigation:
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>
+
+Close-combat techniques combine prepared melee effects, traps and mobility.
 
 | Ability | Form |
 | --- | --- |
@@ -99,6 +127,8 @@ navigation:
   <ItemIcon id="rogues:iron_double_axe" />
 </ItemGrid>
 
+Melee techniques combine throws, charging and defensive self effects.
+
 | Ability | Form |
 | --- | --- |
 | Shattering Throw | Projectile |
@@ -115,6 +145,8 @@ navigation:
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>
+
+Rage-based techniques mix melee damage and self effects.
 
 | Ability | Form |
 | --- | --- |
@@ -133,6 +165,8 @@ navigation:
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>
 
+Arcane close-combat techniques mix melee strikes and ranged effects.
+
 | Ability | Form |
 | --- | --- |
 | Stonehand | Prepared effect |
@@ -144,8 +178,8 @@ navigation:
 
 ***
 
-## Getting started
+## Build links
 
-Start with the weapon or casting focus for the role you want. Inspect its spell list and requirements, then obtain the matching book or scroll and check the spell interface. The lists above are active abilities assigned to class books, not extra buttons for every equipment trigger. Read costs and cooldowns in game.
-
-[Skill paths](combat.skills.md), [equipment](equipment.weapons-armor.md) and [combat controls](combat.handling.md).
+- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
+- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
+- [Combat controls](combat.handling.md) Learn attack patterns, spell controls and rolling.

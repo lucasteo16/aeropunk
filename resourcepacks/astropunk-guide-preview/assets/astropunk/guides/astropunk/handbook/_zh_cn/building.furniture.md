@@ -26,7 +26,15 @@ Handcrafted 樱木卧室，moony。
   <ItemIcon id="handcrafted:oak_fancy_bed" />
 </ItemGrid>
 
-Handcrafted 提供椅子、长凳、餐凳、桌子、边桌、书桌、沙发、台面、橱柜、抽屉、搁架、床头柜与精致床。木材系列包含橡木、云杉、白桦、丛林木、金合欢、深色橡木、红树、樱花、竹、绯红与诡异木。
+| 图示物品 |
+| --- |
+| <ItemLink id="handcrafted:oak_chair" /> |
+| <ItemLink id="handcrafted:oak_table" /> |
+| <ItemLink id="handcrafted:oak_cupboard" /> |
+| <ItemLink id="handcrafted:oak_couch" /> |
+| <ItemLink id="handcrafted:oak_fancy_bed" /> |
+
+Handcrafted 提供配套座椅、桌面、储物造型家具与床，并覆盖多种木材。下列橡木物品仅为示例，不是全部家具或木材目录。
 
 ***
 
@@ -38,6 +46,13 @@ Handcrafted 提供椅子、长凳、餐凳、桌子、边桌、书桌、沙发�
   <ItemIcon id="interiors:white_cushion" />
   <ItemIcon id="interiors:kelp_seat" />
 </ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="interiors:white_chair" /> |
+| <ItemLink id="interiors:white_floor_chair" /> |
+| <ItemLink id="interiors:white_cushion" /> |
+| <ItemLink id="interiors:kelp_seat" /> |
 
 Create Interiors 提供十六种染料颜色的椅子、地椅与坐垫，以及海带座椅。Handcrafted 另有彩色坐垫、床单与餐具。
 
@@ -54,7 +69,16 @@ Create Interiors 提供十六种染料颜色的椅子、地椅与坐垫，以及
   <ItemIcon id="beautify:oak_trellis" />
 </ItemGrid>
 
-Beautify 提供格架、卷帘、画框、吊盆、书堆、烛台，以及竹灯、灯泡和荧石精华灯。
+| 图示物品 |
+| --- |
+| <ItemLink id="beautify:hanging_pot" /> |
+| <ItemLink id="beautify:bookstack" /> |
+| <ItemLink id="beautify:botanist_workbench" /> |
+| <ItemLink id="beautify:lamp_bamboo" /> |
+| <ItemLink id="beautify:lamp_candelabra" /> |
+| <ItemLink id="beautify:oak_trellis" /> |
+
+Beautify 提供植物陈设、墙面装饰与灯具。通过各物品的独立配方选择所需陈设。
 
 ***
 
@@ -68,6 +92,14 @@ Beautify 提供格架、卷帘、画框、吊盆、书堆、烛台，以及竹�
   <ItemIcon id="supplementaries:jar" />
 </ItemGrid>
 
+| 图示物品 |
+| --- |
+| <ItemLink id="supplementaries:awning" /> |
+| <ItemLink id="supplementaries:blackboard" /> |
+| <ItemLink id="supplementaries:clock_block" /> |
+| <ItemLink id="supplementaries:pedestal" /> |
+| <ItemLink id="supplementaries:jar" /> |
+
 Supplementaries 提供遮阳篷、罐子、基座、黑板与小型摆设。Amendments 修改现有原版方块的交互。Decorative Food 提供食物展示交互，并非另一套烹饪机器。家具能否储物或作为机器使用，以物品提示为准。
 
 ***
@@ -75,3 +107,7 @@ Supplementaries 提供遮阳篷、罐子、基座、黑板与小型摆设。Amen
 ## 制作
 
 <Recipe id="beautify:bookstack" />
+
+## 相关页面
+
+- [物品配方](help.search.md)

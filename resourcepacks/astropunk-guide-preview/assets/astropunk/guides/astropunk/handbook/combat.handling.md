@@ -8,7 +8,7 @@ navigation:
 
 # Weapons & dodging
 
-## Weapons & attacks
+## Attacks & weapon types
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
@@ -17,18 +17,18 @@ navigation:
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>
 
-Better Combat supplies weapon attack animations and combinations. Different weapon families have different attack patterns and reach; a dagger and a two-handed weapon are not interchangeable just because both deal physical damage.
+Better Combat gives supported weapons attack patterns and animations. Compare reach, attack speed, damage and any two-handed requirement. Bows and crossbows also differ in drawing or loading behavior.
+
+Use <KeyBind id="key.attack" /> for attacks and <KeyBind id="key.use" /> for item use. Test the pattern away from a boss before choosing matching weapon skills.
 
 ***
 
-## Rolls & critical hits
+## Rolls & spells
 
-Combat Roll adds a dodge roll. Critical Strike adds critical-hit handling. Rebind attacks, rolling and spell actions in the appropriate controls menu if they conflict. A movement animation alone does not establish invulnerability or a guaranteed critical strike.
+Roll with <KeyBind id="keybinds.combat_roll.roll" />. Combat Roll supplies the dodge action. Critical Strike supplies melee critical attributes. Neither a weapon animation nor a roll by itself promises invulnerability.
 
-***
+Spell actions use the Spell Engine hotbar. Assign its controls in Key Binds if an action is unbound. The recipe browser uses separate settings, so a shared key can need attention in both interfaces.
 
-## Getting started
-
-Try the attack pattern and dodge with an inexpensive weapon before entering a boss arena. Then compare the weapon’s attributes, spell access and available skill branches.
-
-[Controls](help.controls.md), [martial abilities](combat.martial.md) and [skills](combat.skills.md).
+- [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
+- [All controls](help.controls.md)
+- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.

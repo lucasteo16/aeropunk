@@ -40,14 +40,34 @@ navigation:
 | --- | --- |
 | <ItemLink id="minecraft:leather" />, <ItemLink id="minecraft:chest" /> | Backpacks! 的小型、普通、大型和巨大背包分别有三个、九个、十八个和四十个槽位，另有染色与主题外观。 |
 | <ItemLink id="minecraft:ender_chest" /> | Backpacks! 还提供末影背包。 |
-| <ItemLink id="minecraft:shulker_shell" /> | Shulker Drops Two 默认将壳的掉落数量设为两个，但仍有掉落概率，除非修改设置；Easy Shulker Boxes 为支持的容器提供背包内取用。 |
+| <ItemLink id="minecraft:shulker_shell" /> | Shulker Drops Two 默认将壳的掉落数量设为两个，但仍有掉落概率，除非修改设置。Easy Shulker Boxes 为支持的容器提供背包内取用。 |
 
 ***
 
 ## 初次使用
 
-用八张皮革围住箱子制作小型背包。在锻造台用箱子和铁锭进行首次升级，后续使用钻石，再使用下界合金升级模板与下界合金锭。工厂容器见[大宗储存](storage.bulk.md)。
+用八张皮革围住箱子制作小型背包。在锻造台用箱子和铁锭进行首次升级，后续使用钻石，再使用下界合金升级模板与下界合金锭。工厂容器见大宗储存。
+
+- [大宗储存](storage.bulk.md)
 
 <Recipe id="backpacks:crafting_table/small" />
 
 <Recipe id="backpacks:crafting_table/ender" />
+
+## 相关物品
+
+<ItemGrid>
+  <ItemIcon id="minecraft:iron_ingot" />
+  <ItemIcon id="minecraft:diamond" />
+  <ItemIcon id="minecraft:netherite_upgrade_smithing_template" />
+  <ItemIcon id="minecraft:netherite_ingot" />
+  <ItemIcon id="minecraft:smithing_table" />
+</ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="minecraft:iron_ingot" /> |
+| <ItemLink id="minecraft:diamond" /> |
+| <ItemLink id="minecraft:netherite_upgrade_smithing_template" /> |
+| <ItemLink id="minecraft:netherite_ingot" /> |
+| <ItemLink id="minecraft:smithing_table" /> |

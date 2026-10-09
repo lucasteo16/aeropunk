@@ -63,8 +63,10 @@ public final class HandbookAccess {
                         widget.getWidth() + 4, widget.getHeight() + 4));
             }
         }
-        ButtonPlacement.find(screen.width, screen.height, 96, 20, occupied).ifPresent(position -> {
-            var button = Button.builder(Component.translatable("astropunk_handbook_access.button"), ignored -> openHandbook())
+        ButtonPlacement.findInventory(screen.width, screen.height, occupied).ifPresent(position -> {
+            Component label = position.width() == 20 ? Component.literal("H")
+                    : Component.translatable("astropunk_handbook_access.button");
+            var button = Button.builder(label, ignored -> openHandbook())
                     .bounds(position.x(), position.y(), position.width(), position.height())
                     .tooltip(Tooltip.create(Component.translatable("astropunk_handbook_access.tooltip")))
                     .build();

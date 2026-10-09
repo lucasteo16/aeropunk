@@ -1181,7 +1181,7 @@ metafile = true
 
 [[files]]
 file = "mods/astropunk-handbook-access-1.0.0.jar"
-hash = "946027c72b8f99e6fb2e8c09d01b6d19e94254f4c4a3541f887721abd4910b8e"
+hash = "5e3dc4a719f0166ed6456a3d762966d772a50bb851e1cc7004fa81cc47697d98"
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
@@ -2543,63 +2543,63 @@ hash = "e92c062c1b32f3906d8e49d55d2182bb45f1dfe6d5bae28f658d642ae2f2cd0c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.bosses.md"
-hash = "ee5ece67a5fd1e39133deb0a129a403de9ac41b4d55c7b7f9e184c6ed4c445db"
+hash = "81b39fa390205d9a53244edc73f6338cab7fc540755e73aff1fdc3051187159c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.creatures.md"
-hash = "cda3c25c470eb5d9a088fac44c2bb55b5ae195fc4ea5b0f93b27ffa37e1300ea"
+hash = "51cdb2305874a8650d0fd793f5548f1ba5e2abb7ce723520a69000b04836ae38"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.loot.md"
-hash = "3c6a2bbe20998cc8c6e1d9dc668a93917f83cb9df737960cbf741451f1d0d597"
+hash = "30694bcf03ca947a24c85406b84a23f91059d21e8b73ad74b0ff515859291ec4"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.recovery.md"
-hash = "66a300d916f88e39ae514c5cac3e8ab17279437bd376cd25727a62c6031210ae"
+hash = "4ca17d7c507b6c18afc56be2db2334166f66dd06d4ddb3c03bf57386a89237c8"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.settlements.md"
-hash = "33449c46051ae5f8153e47d523a9b3dc7511c2f34c93baf19f1c9dd9b3f23600"
+hash = "f6d7f0dd9b22c2d289003e47aadbe8c2bd998640685bb0a9e4bb1cf1016a1836"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.sleep.md"
-hash = "d1e53de73c57457e5f236473f8572531a38c0ca565e6ff1ca6ca20696eb6ab29"
+hash = "95f57694eeaef762810445d0ca53aae2bd6ef1dd21e438ad2b44ac08feeb1e68"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/adventure.structures.md"
-hash = "309b5f0c5cd21fb104eaa2d03198fe39d043b31360c3a0f97a76fd66629fd68c"
+hash = "d025acd451962c709dbdd95610875eea6842724d44f648781c15501f438742f9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.architecture.md"
-hash = "863e8fba8fc0fecc5c8094baef258f0039ab4a5bf8795c7221f66bd123fcdbc7"
+hash = "9b075fb63dc26783f32306618852e4620575b05b1c764de6363247de2a64ddee"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.copycats.md"
-hash = "5173c3bf0f41602f2ce62c0bcff8968ecba154245adf057ff4d0f16915f33268"
+hash = "37387e7ba16167a1e293ad7dee2a19ec78a21cd23d96ca793908806e8ac7fa81"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.displays.md"
-hash = "773efee6cd47226a2f01b6402c9d393166819f906af3e5081493aa049040da90"
+hash = "78725a65497c05044379fce0209df0dda3e5c283ab90cb0eea303e3fa2d43bab"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.factory.md"
-hash = "441cec3114866141f457861e4b3026e974e6cc334c96994f1db21c5fba9f2f15"
+hash = "58d9eefd1bbc9b37e02ac17be1bc0df8f3b722ab8f8933691843f40ef17fe3f8"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.furniture.md"
-hash = "35f31a8ea305754042d291e28f94ff21208b9defddd4396b44660b579f89dfe3"
+hash = "1824a4c9c7233c2b9f320baca5d64273d3465ca567b5a7d16a297519f6290c85"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.palette.md"
-hash = "76065627241c2d179ba18b5e124caa55d8c9b9c29feb593043e281189777edc8"
+hash = "49cd999aa9ba5c1ff7e110f4e1e346b11f17df065f16328c16d781f51311ad64"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.placement.md"
-hash = "8464ab02df81fdda3350f9cd9ffe90270bea0b5ba38236281e038183d9dba05c"
+hash = "fb18a7bee696e8f3056a409ee726160c7a09cac16c198db6bfca0f6abd549ef8"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/building.safety.md"
-hash = "668a52d1b7cf9137c8830aab9b72c13d2bcb768d467029a6304934ff695f4dbe"
+hash = "5990d224a958967beb96312fdacd004d131222c653fddc54611138f35f4d674b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-automation.md"
@@ -2607,123 +2607,123 @@ hash = "d83f62241fcfe8a7ef15e0364718141033b96bd6d731cca8f60011d480b95816"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-building.md"
-hash = "8fd7fd25363b5c6e8a5a7d140c777c098bb41e8f52f8c9516933e0ba9082576b"
+hash = "7c645f3f8a4eb38e25b5a48b529a839109cf13a090382280f08f23c7428e3b47"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-combat.md"
-hash = "9f31e789c9a48e184f06cb6eb312703effed5cea201f182b720ca73827f50529"
+hash = "86d6f370fb67d67e032b6aec346a10a20c4bab5b22ea19a61b56ba9a0e17d266"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-exploration.md"
-hash = "1ef9a467ba58f728ad3bc024975bb8c80643f8d3a6c51087c5679e007efb1b6e"
+hash = "aa5294da7599bb9d324c17edb3495eecd1624ecec3c90fc48c945c5cf509daa3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-food.md"
-hash = "e80a8922e8525474b59540a1d8ecc324a94932edfff1dbbc233f800a79a25069"
+hash = "742e725cc4c7c90cce44f772f071659c9f0a286b41be3bb51f4a56ff0920e469"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-storage.md"
-hash = "171c3395f3b1a83a2f4277e99a95e889045942fee9be9789511874c3d0858e76"
+hash = "9258ec0f7057ba0af13ba046291cbac12ad799e73bb5d9620db85d66ec3396d2"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-technical.md"
-hash = "7cd1e9fbf00712791e82cec1601cb694b2088d2def3139095f699d8a215d0020"
+hash = "5a634c49d0a56aadeb08aa050c73bab117f013dd9c187998aa42178b239affc9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-travel.md"
-hash = "f473acb64c6f7e3fc561ad7c4c25d1072b0e02c40070d7cd9f1985808c99a7a0"
+hash = "d1a32ccea3fd3b60905b1ef287a1593b19b7f239c97417bd828e0c2577947518"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-utilities.md"
-hash = "1b01378227dea511f5456885e915d738cb552ae5c7718d3ab97277c15ad381c8"
+hash = "cb923fe91989242597ff571981ef6d0a0cf0b22ee25b4ad9d6a265f7d212e755"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/category-visuals.md"
-hash = "676ecaa8a84f15a1cdf81b9af5ca58141a705066767990cda6fd649843be2f58"
+hash = "2c86408b3de53757fdf202f5e1b2dd0f36b41d4940354d655ce1faa176658aec"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.handling.md"
-hash = "a8ee723273dd3f0d10d61bab696f719839292940cdaa049384b855499db15271"
+hash = "66ee6e763c35eb2fb15e305e7a39a786a5dad14d21d490af5c4d645aaf672192"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.magic.md"
-hash = "b4071f589f2df2b789dcb02fddd816f30184cea51523ecab75978dca2f6a323d"
+hash = "0656045d381a750722d551e6ea8457fbf98af821069ae9ef65da2c0537221c32"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.martial.md"
-hash = "caf6e6fc7771b107eecf98b95a3f521d5f7d9afdb1f8c5ffad939dc53532bc01"
+hash = "6ed1ff2888d951ee260cd94b2516e84b5ed9b24f569fe6a009906962b20cf133"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/combat.skills.md"
-hash = "24bda625fa108654ab6417cc86c9d16eaea043f4665978962af254613224c45e"
+hash = "70072382b95906d1405126f95a4aba9cd74daff96589b8d802b8797ec4ff24bb"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/equipment.accessories.md"
-hash = "d66461d85a9b71cda346e4b1ef0be07ee2dc693b39eb1cc14a57abc9d949362a"
+hash = "dbe479c1ac03b38c42bad5a78a5ee69d18f3fa143210531cd1f87dcfddcafb71"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/equipment.display.md"
-hash = "ec43f6d40b3e48cc9ae0155707ce62975df96182d55bf06361dd30f4c3413f99"
+hash = "fec27de3465e9dc6f8913a65a872737b6edc5c631cc8a7bd6e008832c6b2cade"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/equipment.weapons-armor.md"
-hash = "a9ed76016fc97ceb2a01f5ca2890723d1a53d8f8e318d8736bdcc2dd9ede7215"
+hash = "8607475ac292f588ab7f5c599894d8e253aef4ba4dd7da1c9e6797eac46a4cb9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.encounters.md"
-hash = "ee4ebf3830e172b99ec2c855ad019aa9224fdbded355c4a26569115af9f66d1a"
+hash = "3f224f61a7533607f82a42f9d89a96109d2bb8e961c14c89b7d1c78700be448a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.end.md"
-hash = "8f3b0cfd4c2807822d608d8f82eed7d8c2b75218ed3eb3feaa02621c0c51fadc"
+hash = "2c09f12a707c1f9e97a0be1e151ab4ff379866922b0cf9d20631b9730b608318"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.fishing.md"
-hash = "08528d269c01fb66c6c7db9388a34a4aba7adff58df9af3b4fd3517747f33fbb"
+hash = "395c3cf4716559f512e1d2e2ddfe6c57d426e9dceac57b7369c0e178cbc9a52f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.growing.md"
-hash = "dbe7d2bca63355c84143eb6047a10c6ae9d24f9f644f8328d5e59258f63e0737"
+hash = "540e2d8b97e701b06cfc4d4cf6bc94a040b5e8d97e1cc74820d06545380be568"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.hunger.md"
-hash = "ce0c4d7e77b82a8263a4176f4d304da4f2e6953ef45c6c144f290c8e9725f17a"
+hash = "9c05b262c7947e42c8a07d2f35633a75e811c6fa21a7bf767955cba450308e23"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.machine-cooking.md"
-hash = "bf09f5915b30c509b27e50903acad05ef2a75d9319a69f49c97a5159fbf250bd"
+hash = "285dfb0a27c3ab9a796c080f823f94f70e16535677bc1b2c6dc705b4a44796b1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.nether.md"
-hash = "d495fdaf8f29f2cf8b331c1232a249fead018a97cbc6a0b34ce2831b518d8ecc"
+hash = "ba8440a9b65e1296201ddfdc576fc3d3e0b8fe2608bed63ca06f070bb34c6b9d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.underground.md"
-hash = "6cb8b29b13ec55a1c79cb97f55d028b6846262c6fcfb1fa95df3e83eb19a115c"
+hash = "659c4bb64ade51608b09bc6b159efea50ff3adf264bcd3e0bd7034c993ff2bd4"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.utensils.md"
-hash = "926e314bcdb849a440ffab79c5a7cc09d5b208caf550b0e9fdd0a2b1e63c9255"
+hash = "989e3852ee0b28ce11cfc3bb723bdf767763a066e61770505a07f83bd9861532"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.controls.md"
-hash = "ccdb7b618cdc8a6f0e17e1a52972e38b29261c5ea122cedc6490b177d84ee7dd"
+hash = "428f1302c3dd585b74028af3378f570e10d172b6d009a93b8fb93ce1e687732e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.handbook.md"
-hash = "d30f57e92557dd78aa2c730f23a4b8a589cba1f2d7503348e0e72484094a17ec"
+hash = "063a66a5ac8d70a9021293fd610beb95f50c7b64b3acace151bcb35d55afcca0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.inspect.md"
-hash = "6b3a117beec9192e9636783fbcbc4482241135ca28c08ceec80fb0b448166f6e"
+hash = "9d7e412e7e14e4d833eba885cb8365156757391982abbbe77b42103853189bc5"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.reference.md"
-hash = "33a724822e2869743e280fc6ccecc08a64631a139e285a7e34c09cf9d672c816"
+hash = "5ab834518860c8ed4e1b2de08da12744d5872b9a5f91840fab0422097d53387d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.search.md"
-hash = "fdd34a33cbe3eb4c569d24f73646ab048d900bcd6e594edccbf6675371cd5cc3"
+hash = "81163779e9269e5003b5fd7d62b612705d68a3d1f7369f3735f4146f2a510682"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/index.md"
@@ -2731,47 +2731,47 @@ hash = "ef9addf9273c7e66cdecd364e7b1b4310d0c9fc44a6a7e500ed859679f92f0f9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/interactions.carry.md"
-hash = "5612c8df24f315342733f525aa43941e03d4dd9293d1f7581807b76643e69e77"
+hash = "1db3885b8c77345c4563029f2502cc60dbf11b2da827b223f0b4793adf9418d2"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.enchanting.md"
-hash = "b61efe36ebd4e3bf17a1802e147e6df90e7f84b2d1321f6e0c2a31719d6291c4"
+hash = "e47533b6015334459b00466ae392bcdffa2c2dbfbfcb6a026e8551357b58d4ee"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.logistics.md"
-hash = "a7c1df2eda3adff24c3fb7921e634022bc37b0e77b31cd95df4a149b3d6d5f88"
+hash = "66fe6267e19b447018bd2840773df9bfdee265bf429561f2eae4a80d32f1489f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.miscellaneous.md"
-hash = "9baa2dcc563d4aac440edbd8162d07889a0c4bc0b9b8c31c6ff93f414690893c"
+hash = "a28cfc14c4f7a5945e55037980d9fe5c59f25397b2dec236eab467a5c1c03c6d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.ore-processing.md"
-hash = "0e38ef446d0551a0ea92d5073dc0456663b5413a3132b01f52c52edd7c7cdbdf"
+hash = "5e57d65843a7a3341e5b573a46f7385f69c7e491c832f9684468ccf71ce90903"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.renewables.md"
-hash = "85c95c337228e4c2947ec9961a8fc71ed817b98eebd4fee8f23a51fb554cc68a"
+hash = "b47336643c892ca3c2405bc6b5093b9dd7e5408472d170d8037ece65af9fd3c8"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.rotation.md"
-hash = "588bfa93bf112379e129df39f634569b7a7a5729e5b546b7e0db2f1fb7f3e228"
+hash = "797f53139d19a9a6c3d1f6033cb5056f89bfa631e2e6255c17ed9d33c73e46f3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/machines.trading.md"
-hash = "bcfc5ff6678eaa1424038af35562b164db92780f5261845256ad8da7a873257a"
+hash = "a3d16df69e0b3fbcdf54082cb4a21ce821a730094ee571bea8d1daca4da4e57b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/maps.find.md"
-hash = "621915f7631db455ea86d53e17dd1b61de5fd3fea0eebbbb853891d629572d10"
+hash = "7895d1e8d9c73dfafc613467ce1588bad3f730dd0b6e08870580d757798cda14"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/maps.personal.md"
-hash = "9ac940f08d12f329673e66e8cb3eac96cd5eda9b3a906a9c5d689fe7571b1b96"
+hash = "3393e079acf8dc3b5b90ed95d4358891618eb227bbca1f0166abea77703ccc01"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/maps.shared.md"
-hash = "916516bd7fd9dc7540dbc2b4f03b7cf262a50a53b8228676ad5230b76ae1704c"
+hash = "b1e559625d465a9ef82ae3a22875b7b90c9c75d4f0faea670d38ea5c4833aec1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/mod-catalogs.md"
@@ -2779,27 +2779,27 @@ hash = "5c5af406d87188ae22ff5c5c312ef62942df71ed0ebb17b9fe12d533ce00cd6c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.baseline.md"
-hash = "c7890eece5f4b238f6de0b17f8faa240710f0a0237f7fdf759ee077d165fc892"
+hash = "6439e900f2c5b4150cd3870d26fb08156acfcd0fa20c75b65dcb6474c7caeb72"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.deferred.md"
-hash = "94d8c3f478b66acd112c25e799670d85551c899f249e445ca2746963c0e0c3bf"
+hash = "d01eee9cb38c993f9039ec246b1cd6b35f4ac5cc7ed9d76e990e239b0318ff2d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.burners.md"
-hash = "f9d8d2dca8e06bf5f87134f9cf1d21d68de90d7e3ea326b64d656004f92b0c31"
+hash = "1501281e7ed3f713f63bb638461e05ccb523001e1d50b287122c997719c0b16b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.electricity.md"
-hash = "0ed909e434b716c7289dda47bfdc4f1d43e946c840102b87010a7dd84e669263"
+hash = "7687f86f3ac36ce83b6379822b980e88f06734735d397428987926fea953c625"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.industry.md"
-hash = "d2384406a8ff5e82c8df550b9fbe734835317f3cd05dc4e16765f56459788e56"
+hash = "90837ad8f98b9c2140ea89f1a035e49140027385b6b750522478e4ee9489dbaf"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.stored-rotation.md"
-hash = "da74a956f9b51e05031b8a173dcbdc8112a7b9300b3872d42c5b5264d1759ce3"
+hash = "168be57178d7fafeca3257b08fb7e1e12f10546012edf7073d79949aadb374fc"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/quick-reference.md"
@@ -2807,15 +2807,15 @@ hash = "5c1add3bfbca806a369c9f4d32a361e6398061774adc1a29af4402c747040ccd"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.building.md"
-hash = "74f6486486f1ddd04069a32416710cd47511d172d3a25c67859601feb88f1f99"
+hash = "7dfeaf9f5c8038eaede8296640803ee36f550af3ef0625ffc025acf21e795bf6"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.equipment.md"
-hash = "f6b3fb1c5a525643eeaa2f58a058813efd3bb98961628d23f9f1594b4c2a8f97"
+hash = "838f044119723f611a3400c7db29315062b0a7115bebe3209139e015aa582a36"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.food.md"
-hash = "d34e1e605ed54f16880abbb760df8ad5751ac84608b34b8585aa1a57a5cba790"
+hash = "727e17696938f6eb0b4b41ccfe78399d30e5ca665504dcfb50101257ea3694d1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.machines-storage.md"
@@ -2823,195 +2823,195 @@ hash = "c914e40871ef5dceee4a7c24787dd9fdf767e5ddb502d8d721562b9a5dc92888"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.skills.md"
-hash = "055be400edabbe2012a1d2418fec330e352488d0b217544c12fdeb586f877894"
+hash = "344eb44e4d778eb51893cf16142f7f53d041af145eb5c6d4544eccce81885ed1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.vehicles.md"
-hash = "b14ba91e2040397d67b95ed416c47af156cd89aa7f6f32f4ca42def21c2640ab"
+hash = "adcb687f98247f3e0109e0ccfc0da0490ac5654f6bf6caac2d7527907c29c0eb"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/server.deferred-pack-loading.md"
-hash = "a237fdf8c283d24e1f8037a0d95813ea89ded041fd454b9e40627ec5f5f5ad6b"
+hash = "f123f71599c55d4e777d81968d0aa49c81f7c6e1b60c49fafbd9706239e94d5d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/server.tools.md"
-hash = "f3b5c54ce08b4331aef03fe0fb573c73c285ad4653dc37a39b15b7e95d6947b2"
+hash = "d38bcb9d97b963a89b290f7fff22b41421cda879501c74a9c70e641c6b63ba83"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/sounds.ambience.md"
-hash = "2b9aa60abda1e6e86d53e2c33c3ac10d5121ba1c851f4af594a6045c02f164a3"
+hash = "20578ae69034dafa292538cc89206f143f609ef71a107164f15068103dee9873"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.destinations.md"
-hash = "68f4b5baf889731ad602a8f58dd997e2dd5b21158db93e8861dc4020e786c0e4"
+hash = "29b8caadb2ed0e6d493e1115dc10d4f167789dfffa3534ebacc1bf11b1b754b5"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.vehicle-transfer.md"
-hash = "4acc303f37491a24a5a9aa0aedf05c6f993e204f63048ddf5fa8227006c69248"
+hash = "8b1568b60442e658c71cd3746eea8206be867572e8f3bb4b55c9567f5cdfcb69"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/storage.bulk.md"
-hash = "45b60cb3837b68b033f602258de59fa0aa3b0b9a08aaee9e5fb083dbed1fc4c9"
+hash = "d67e9c838da0cbe360dbcd9940def9e40f5cb7ca39a3bd9008280d96bbfba114"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/storage.handling.md"
-hash = "2909d808c023bceb6066b549129d79ec3d4596224d1f4c0b8be570694b87524f"
+hash = "7e4fc47796e164acb11d06c5886c1804530bfda2d0458fd096bc3e5a63c1ea8b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/storage.portable.md"
-hash = "8de05f002174492986003dd9a9fb52e2f7494807318cf2d8361152d2c52e99ba"
+hash = "c75d96ccfbdf8eda9715a6b987b66301a0e619bb6cad730a66abfc292464dc95"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/technical.bridges.md"
-hash = "efbc93290e087695adbcdcf1d5b398e368a08f56e6ff386c77761cf9592bc590"
+hash = "a03d0edd72c4440639fe80c64b02fbabf800ec93f5c4093260b5611c90c3ec96"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/technical.libraries.md"
-hash = "a6ccd1122ca8ed6c1cf4cd569692fc16bbad8da7dec09d8bffa28b4960a9c528"
+hash = "40334610251189a5036d896aafcc7491ffff4a243be274867811aac061f0299f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/technical.space-bridge.md"
-hash = "82e6bbd789fd6c7f4e56d59e9f2a914e4ab8f7f89e5d330536665be214092b6b"
+hash = "62b21e8e9197155da6f6ce9606fd1469beca741196246417763009af9e5c1ca3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/transport.local.md"
-hash = "ab7621f22b1cd1fa1a82bc1a3c96c1f733d232a9076258b17f794e74fd227f60"
+hash = "0aaacea6fb221303aba294478d0bcb74aa730d3c4593ef31a478024afed9b100"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/transport.passenger.md"
-hash = "b30ea187b8f1d3baec9a4f7ac8c719b626a4d96d59afd49def439d70c653f39c"
+hash = "fb6bc3eccad684bc1a2346ed041865b0a98b221a71f79bfdb204c2bbdd6a56c2"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/transport.railway-builder.md"
-hash = "791bf1bf67208ae5ac0baa28fcc2f7add74bcf737820f9c35680daca5b0330c8"
+hash = "78348d6926bb1e26aaaaee89f32afe912148a0fef1a6a46eede018f59b59bd3c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/travel.destinations.md"
-hash = "1bb49259547c5e3c26086b752a068ba5edc2d68a30d9b6d5c7f2ba3f3f5e4cf5"
+hash = "37d866d9bcb6f57276d19c61a4e5766c43820603562f94a0e05632cb4285ca96"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/travel.moving-destinations.md"
-hash = "f11cbef250ea20cd50331156527af9bbe00b0b66bffcc4fbf26bb2ac77737591"
+hash = "7cb714063cd6fe094c763d95c3afa7db6b4dfefc91b60ae7df56d7445029daf1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.airships.md"
-hash = "a900bc4a6fa898993c7b34c74fab549669b5d9e59caf414b1f9521c0053d9129"
+hash = "9bcc4221b937fd6a6409fb1ab42af5df0c168122ac07b6aec4e17f6e597f7f3e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.assembly.md"
-hash = "3142d334334c2a9fec051aa79f04a460b7ad8b73d371bda52e2e54fab1afc78d"
+hash = "38f9f28381b4aa731b5fca32db59e38eeb2049fd52ec0e11dea820018fbf9aa3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.controls.md"
-hash = "4cfaf37344363a18ddacf440fa32128efa02348da50130721532742bd4d87090"
+hash = "55a49ca33f3f6af3ab8562bb181508dc92863546c6dc06989365d28310049727"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.engines.md"
-hash = "d597759724b58c5a10e28adb373143824d5c1b8c45e32d1e5b0e3d530eb2a497"
+hash = "91ec233c413a839482d57869fcba5e68ef4ec5a30c57838c41311571db70e170"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.radar.md"
-hash = "5aac7a56d6b3aacbe09f1a72f3329dd567ddb7f1c78382634a2b09825c0c1f75"
+hash = "b6f3fe6f2baacd96fc4f73627011f03b1d533839ad71bb9a6c5c012bb067c729"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.water.md"
-hash = "e86986d798fe3ea1cec0fd4bf52c68ca27dfc646fd9eb6d7aac4ea5567fe4c3d"
+hash = "2a161f9c622e3f7b09bfe6015e3e700bae98ad0c7c20cd90be87d11d1de01c9e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.weapons.md"
-hash = "2a59121370af7ac2b8c5130b3ea392c2ec7180baf2cdbd1f9533202e1b15a62f"
+hash = "5039d1fa7cbde26882a1edd5067f532ebbdffbae42be04eb4021d756c640df6c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.camera.md"
-hash = "bc3e7d387fa48c3aad35e30266c48271b93dd5e77b2074bbbac51a5211fb0f0c"
+hash = "b7e6b0aacc2647665b841b7e5fbba2aa8e8cfdd4ffcfc37486844c431e73e0e3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.interface.md"
-hash = "0aeb7d3a84cde72fa9d1aff80607d96c1ebc076f8492a2977ab9503ac29635af"
+hash = "70dbd2039452f25429116a5b07486a7965fb016342483d4ea0d4de4096be0c30"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.lighting.md"
-hash = "961e1a21f792c0e5b894f9965d2de5c95495ecdb4d5891f8a93543f885581e6c"
+hash = "9691c0f29b46a3d7b8ba6eb7d694f74da35e1e29a43c9c6043eea8a799798672"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.models.md"
-hash = "635ef108c7e19fb7e674ed9fd47391acdb0859008c25743f238abcb3119affbd"
+hash = "912c1c6d9c8a3daccb4d07a55f590a1fe847c424087fc450978f713273c9059e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.resource-packs.md"
-hash = "ae79a065569a326424532fff7a00eadee438954359308a2de0ffcb2d89d58c7d"
+hash = "b4dfd51486f829487d46fe3c5d931f55219a12b008fd6a2ec88706689902491a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.shader-packs.md"
-hash = "cf43f945ffd450544e29ee1534ee6795ca5757cc2e28099be41786ea4ed32b6b"
+hash = "1fd8948e30377ed99c33ae560e53d6f742c3731a9475d5329e5c5d50bb60a5c8"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/visuals.weather.md"
-hash = "4ed12ca83bb8104247c76b5cfc35e19afb8e90bdf91dc3b8b223c78ab38e9523"
+hash = "7c794fdc04139bb475eab3b832e06fdd4c7c7cd6ce3fafcb838884f358c2cd64"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/world.dimensions.md"
-hash = "9aff83dc76301167cfb2c712eb74e637991da3a5550068e5c37c26bf5cdf6c49"
+hash = "01558cf38403f0af765cdba0e7060f182c3b01dd8972393f975efbe5bb77cfd0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.bosses.md"
-hash = "3023471d5583cb0d80d3f4ef11258e9cb2a8eec389396b262580cb4634b366b1"
+hash = "c870db6416f1516cc3a0b60a438eb97fdfe939e2e33ad4c2b4faa0023da8c29a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.creatures.md"
-hash = "86e47ac60d820ddb53a8ae7d4bcc041434f72f8aa4f3cf01bb12474ef5531f4b"
+hash = "5cbea787f3e18f62825e779d6477a63c391bf643f932e928b6c96ada9bb7407c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.loot.md"
-hash = "ef39a2a3b5edde7898b76bba4aef74cc3e66d8d47435f33ffd6efbe2560dd4c0"
+hash = "b980d94aef1afb9e82408be7c1b97884711d1180719d69aaa4131d77cb1dabc5"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.recovery.md"
-hash = "71ab89b34b966988daf8cd18211d12ba830f6b9b436869f9a9d1a0e2d5250507"
+hash = "96190d8e279bd94cf3bc3be39f690ecbd9af069804d8f7296e7576150fae7762"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.settlements.md"
-hash = "02104baa757d54c392bf340fde2520735b0933c937d6ab408159dbf9bde2c0ad"
+hash = "08761036eda5877de0206445409677da2f00f5c36f41abf6eff412720a32d9a0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.sleep.md"
-hash = "397b179089e557d51dbf3fbd916f8a637feadeb1b469b4dc9e5fa37d6c5edd16"
+hash = "5fd6228256c4939f118503575a4dc4496cbd36770a8e1987862abfe886f96ece"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.structures.md"
-hash = "01d2fd7c7b0a540445f2a43f18eed5b61536dec5c0fc4ee223dc2cb4956f9b93"
+hash = "8f27ca793605d40cd8ef2ff9c9b75875d2d96d4b5bd5bf6694f657178793bace"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.architecture.md"
-hash = "e9b3404501f4941ed684ad225572e18a18946721a75032b4e10be3ad7abc5f33"
+hash = "45d1c575793c1faedab34293a5071919981c74daaa86c6a98f1f73815df07dbc"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.copycats.md"
-hash = "85544f58d17ca0c89811140b385ca18d76683f73c6e29c0a59066bfeb9f816d2"
+hash = "f490b26776210ceb48138494a652c952adcc6cb0a18315d9a500d9249fe1ae82"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.displays.md"
-hash = "e3fe2811a3f521a05831e5e0cb415a862f1a4b6119df1d4c1313f3b4bce630fc"
+hash = "eb0aec86c93b0bde7f36472ca0de3f143e60a710ec5274a5c63b73b34d5a2b03"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.factory.md"
-hash = "cc1d78511a1330630d47689214561e114c6a5c0ea2d728938b9c54d7a767e869"
+hash = "e9bee453968b31a9705b0c9f512b1e4ec1b433d92b595e37e95aa548e3e7da42"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.furniture.md"
-hash = "63c546a58a88f0b4087b4534f30b3ab30bfa507c3e8feb3aa06832c25f31f057"
+hash = "bce02bea882c09cfb19d1605500d6682b591fe382f369cf6f9087f5e4454272f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.palette.md"
-hash = "4404ee28952b91766b0522ce666be82bcaf234fe033ca0fccad1f39a04d6f51c"
+hash = "ac072c5df05cff7985f0ecfebce875613fba68bc3574c8f4ac3a9d8768b79a94"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.placement.md"
-hash = "9bb88bf9dd7df060bb1caec0ae5c3aed9ed37b6118de8dfad160130616d6068e"
+hash = "1f3b17ee5b77171147b12edd9ac011ce2175f381808ea9aac6654ae57e2f6be9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/building.safety.md"
-hash = "5c3a3e697d27026bda28753bf59c3ff210abd866ae29166c5401bc3012293fc3"
+hash = "b63e95627fc8877472e9181860d44f7f138ad43663bbd3b4af7766bd6a4c711c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-automation.md"
@@ -3019,123 +3019,123 @@ hash = "8e6e27d0ed9f080a99012e3eddfab229a0f866d851a4c53b266f1310402a66f1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-building.md"
-hash = "22a4f8ef8a44a64159b13213d4fa75d5e77bd67422d70bab194cc9810a366d5e"
+hash = "6b27a83d4522ffb623a654899b0da979af22fca3f88da01556becd8e80d658a0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-combat.md"
-hash = "a2c8f03fe06783c253f89bc77bde4db5db1ed3aff3506177f1870f51c6d4e5f2"
+hash = "edf0d9f586ddd2c146c37bd14e918a59674aa265b8606d50ff676c3e431b695a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-exploration.md"
-hash = "782b363480b266609dc3fbb1ffa8721d85522fa36274373d44113fe2bc7eb7b4"
+hash = "8b49251fbe0d7a724bb4c6fc4c9bbc02a80f7dd460d954ac64dc78d91787cdfc"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-food.md"
-hash = "7988555d51ed5df328a51060f3764bb8038bf02536d0a9f943035975e9aa566a"
+hash = "2e4cb4d8cbf48f12324ff4e3edd07f6146d6c90c73650f3c38ec7c5cbfaa9704"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-storage.md"
-hash = "05887a16c2efcaa4bc53f0c3c81d78334bdc4e6e1defe1ee791639e3e0750eaf"
+hash = "8fcfd02a4d8a9d871d8e98712cd00995e57ef63c7b25593164a304826b191394"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-technical.md"
-hash = "4b82a3ca805606333f9d586e1a8f3e923532d5ae0f8955626d3011eb5f4fcaf8"
+hash = "6c677c41026e28d3854ad800798f815e8c3d38eb7378b74169c0cd6c8a7c0265"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-travel.md"
-hash = "89eff17c6cb80b220f011685ad2f10fb26877ad47b44dad8c574af0a00416e4c"
+hash = "f7fdad7ff89aea1ca8296e3ae4fa82cbc5e7b37cea23b0f3a7294b4470a65c82"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-utilities.md"
-hash = "7fe4ab381c1b5477fa7f1a64d38dcbe57a05dcd269e49a7bc1d2e718c1ce146c"
+hash = "4373b20741dedd7d7a97ad58f10177831d6a168ed44ea5e562a11553db213684"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/category-visuals.md"
-hash = "449966f4566c2121d458ceb7d9ac53d99b6d8ea1617b4a671c493eda27754575"
+hash = "a7736fb3ce1253351dca02bb737c3498c2866c45954f4f7673b33de7bb882f1b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.handling.md"
-hash = "24a9a38a4d5e00cbfd9ef1d1005f6f8f189554e4a7d37ae91993274771965170"
+hash = "1d8b5a4865b93fc7c84e5ca18495dc8f78d9f9d4cc5f4a5c70f1ffa2e797a518"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.magic.md"
-hash = "10baa59e479c4deb83440db6bef190d85ee9b8e64c2e2e922d65fc24a9431102"
+hash = "e4d2ec676a39b19739109842957bad0c0413247a6af63886f932ba2feec9f0ad"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.martial.md"
-hash = "6c4b97b300cd290d5cb56cc68e80fcbe284f86d45432dfc9e284105c9e3218ec"
+hash = "84eb0dca8f59596607d34f3a838ce95d03eefb4c23ef8b1da195270d9ed48c6a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/combat.skills.md"
-hash = "3c7262b282639f68013f30e8097667a627c77851b3da352d6c3795decf205f11"
+hash = "ccd2bcf88a9ed458c185e1c64dc0c69a36ca11710a1e390be7fd9879d4d0ceab"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/equipment.accessories.md"
-hash = "93fe3a549c66894f64bc46163d9ea6094fb696e713171e1347a93253461afadc"
+hash = "100bd242e05482bd74779135f09cd162c50d0600228fd1ebf666b443ea9519af"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/equipment.display.md"
-hash = "1a43bc9a2c51b55bb82160c85916c0a26c6c6f8aa3eef1124a81f08b99df11ef"
+hash = "a4449fb11f245fc2dd973fe7f530119c153e6344927cfc53e70f5338b34eb279"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/equipment.weapons-armor.md"
-hash = "b5fa51a13db41ba479330674d6cd94b8f8fcf125b45c2de8d565909b9e2605d6"
+hash = "c3b0a3fb3ea6504c61c47dd1b811053a520f2ea85d80b492a273f660080ecc81"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.encounters.md"
-hash = "c5993c621a5baa53453e6c79c6ed90a96ade1e6c694742655ee6298a6902e7f4"
+hash = "f2cefb8986adc02643a65265615820e13bf8f73b2ff879f3a0b497c2a6a6c4d3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.end.md"
-hash = "847a2da519e7ba81c01c29958cb66d30b1fd6a894b9e57095fd1ecbcc6fecef2"
+hash = "b0dfc52bdc64cad82572ad5a99139c66ec3cd0ffd916b1aa5589b0065ba06d77"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.fishing.md"
-hash = "fbb33574bda034519288d046ee27fa941aab8460da3d947208623e2cf63dc70d"
+hash = "5bb081a6fbd79c46f3b3f6bb9e43385f3cabf3cc01efc0e988b2045448659ca7"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.growing.md"
-hash = "4ef531803f5f87d1298b0c60194556993aca761157248c5c632b0acbefe6ebe1"
+hash = "074cb4274d0b60977b1b03c900f00dfc40d175fcd65f39603c9b058faa94090d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.hunger.md"
-hash = "3d9cef7840ab3c04ccbbc4a3823cc54c75452543031d104b55f4759d2bf501d9"
+hash = "db5fd07a3d11ca2c9edc47c5238db715800986fe826ea9c14ff5505bf3374b75"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.machine-cooking.md"
-hash = "f5fb97e6bbd6d0b5385984b71d6f27f02a23da79f4d743a4891e6294fb5c342e"
+hash = "44f884bd118e85d1dc7b57be7a55f92baf1a31b645c7678bc03d4fd9adb7b382"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.nether.md"
-hash = "4194826becbaf67be6078a5ad05de2b49890e92d5b0c9cba83998d044fda40e6"
+hash = "0682b4f5d3635122ad71f037c5c0fa009945522d8864bd4b22ac4b4601c57868"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.underground.md"
-hash = "149b87143665a6395c35adb8b2cc2d3222114f19f7d0b5d065a9c7c913f81505"
+hash = "29b3dee2f7c29e91d5fc6dc02fb5a0c3f49e23e4dee1843b6fa50843b9287b1f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/food.utensils.md"
-hash = "474a8caf19643c4d84cb92856d84d6877459b3b98990d7976afe950231576fd7"
+hash = "4d0be4dccaacf891957294650575f4af03243f771726e54574c56c2f0833ad0e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.controls.md"
-hash = "9dc59e3ab4dda7367ab5b806c0f379d84d4b32620aff1b2992f6531e8f595325"
+hash = "20625cc78e32a0cce2f3918a8a4c08ac262068d7781199385be717f0ce68df88"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.handbook.md"
-hash = "c4f9bcdad07bde2c480ad98bd41d0fd3709a269ba78bccadbed88fb4f11a8be0"
+hash = "d7639c4b79ac8233f73e7e739e25203c4536c09c59214a6622363d14478ea332"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.inspect.md"
-hash = "0ae0824ba0ae50e1d3efdda638dfe1cf71fecd48f65e803ab1b60ccdd2029733"
+hash = "e0844fba74dfd1c3415464d1213c8a4c699f5eeb675cdc09210f893e4434ffc7"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.reference.md"
-hash = "9446f8f115722b68758c79fff735f8c90426a8b7719155c828941f7a542a7dd7"
+hash = "acd1b3e5f4595f02832d65cebf39df97c45f688c5a7929bf8c350e8c68b57d44"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.search.md"
-hash = "4ac012fd20b041300b09f83caa48c04f57c05a5f41d59c16bf973883189434de"
+hash = "7d499aad786587340e444d03ffc0e6e677951cc936e344b5ef5c7c36ccb484fe"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/building-travel-furniture.png"
@@ -3144,6 +3144,1086 @@ hash = "eeb5147a03c4de4b7fbb8bf1baff600038e52519b2c7ac52fbd850bb103a7c1b"
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/building-travel-submarine.png"
 hash = "9e5d5789ea98279e1d514c596add37e05e9a67d136545b914601fac33d212230"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-15fFZ3f4.png"
+hash = "5dcd296652c893097008679402e520c486e0930a4defb96f87489204ce79855d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-1A2XNzUB.png"
+hash = "b9362a2f52fe85d91b4bd7d2650fd39f5e8509cafc9745d0fcb0e861931c962a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-1BHIIm4m.png"
+hash = "ad0cc7dc52dffdffa42e632096691dfad4a3d05da8d995981859794cfecdba3f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-1IjD5062.png"
+hash = "2439a0785b46e8ce72c5c54711051997623137bcbd0ac79a0dd83a61a735d841"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-1bokaNcj.png"
+hash = "dc2b2ec58e9e6f9004512d38806c8bce44e4f2ddba3aac1d3edb7c590de0d344"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-1eAoo2KR.png"
+hash = "4766eb09b7a21acb5ed8faf6b0bfebdfef59b9a2f468a0ee4a60e10f808975d8"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-2RKFTmiB.png"
+hash = "25572e57d92eef1d6975f422c6279e00468af4710c1235136393cc1a3787f52c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-2fltysAl.png"
+hash = "fe7b953b5c4972ce3f46eb7ae4c5ea7e6a76d15e3ebf8b1ee1baa1b7685602e0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-3MKqoGuP.png"
+hash = "28c0f22a8adfdeaa561436fff26f533599674fc1de8b561d3c367fc1a7acb490"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-3OYmNUDq.png"
+hash = "cb799ac56b3847bdf10c6aae26e4b60c9c3b6ef8f64ed8b2481876d1115751ad"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-3dT9sgt4.png"
+hash = "84179195eba0d4d93de544b37dc19d3fc2b07d42a16cd2f3c923a3c3e61a0f83"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-3qAYkBMB.png"
+hash = "38fc7899e92f9dcbb4fe6ef7aa7a9915f66802c49099234c0f6748cd1c4c2fc4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-46KJle7n.png"
+hash = "ca727be78220ed27552e7b0b909d551866ef34eefec4178e1d601bfaa2f6b876"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-46RgF8H2.png"
+hash = "46c162e3796fe17302b03cdff7285addeaee0b7e7b5ef18b56b5bebb26292514"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-4I1XuqiY.png"
+hash = "db0587d69ac471d45f042745456b690ece2deee3f49031e69953a22b99b789ae"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-4Rh1Mobu.png"
+hash = "04e27eaae85ac4b60ebc2405568b25811fcef6d0ba40fe6d7613b2612f7adaa8"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-4eW1c7Gj.png"
+hash = "ac14f365052790620b9016e2516f1f8991acae09150d83b80bc7d404c59b0a08"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-51shyZVL.png"
+hash = "08110b82e85c195bfed4d7a00a34d66afa862df947f2a1d1ac7f2c664b433236"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-5IIKsxiL.png"
+hash = "c018d2d579e2260e47670c01ed6fea26623cb8846b1d23dc7efbe9a56de6db1b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-5ZwdcRci.png"
+hash = "0db7738b5e013d7cfc2cce8c49dad018d568710b9d76c0d4d79dad0f7f9b2d0b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-5faXoLqX.png"
+hash = "827808a13531a18e0684b0c8463cae6f8334b3523875fe3f8eb5c25508684c54"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-5pzBXDS3.png"
+hash = "571a2c292d126a7328ab1f41cbf3557a630d43abe1ce6ec10c2604f55756de93"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-5sy6g3kz.png"
+hash = "0ee708033ccf131bd426a1cc74bc7ea9aa1cfcb8574d99ad72c52615a92cf7fc"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-5ypXYrfG.png"
+hash = "3416c7d06615d59749a6486baed58c7b32125b6ffd17875662a6fc3a039e5bad"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-656seq5J.png"
+hash = "8d8afd148acd1a6b741481d408f41aa1a5fe1294054998449a45a2a4fed6daf2"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-66VIiT1y.png"
+hash = "1fdeacf0dbe4c356e30326c97a298950881c7ab8dda1261da2e17cdfdd2fd845"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-6iTJugQR.png"
+hash = "05fe30fc46e69fbab56ebe1c217d85664b32c02b147bbb1582c89df8b6797020"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-6txNkua3.png"
+hash = "1408614f82eab4d01dfcdd8d42b440972144c97d642a6efcc2bf3e4adbbaa9b1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-73QpzsIN.png"
+hash = "efe42e4cc9671496f69b524210bc2a5691a325d23e6788fcedded6760f28a6f0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-8BmcQJ2H.png"
+hash = "07da8b1f906600d687c62a4221960522c44d7aff6e19be2caa2e6bb26d56633c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-8DfbfASn.png"
+hash = "1b41850815729e80e0db6f84d14dc263c8d533db7bd59c619c3e4eb2b2ba5c60"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-8hqOZzxM.png"
+hash = "c8009deb9dd073c23b50d52931d989b6432e2458246fe575cc278b0139509b2f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-8jvcOd6S.png"
+hash = "cad9189442dde609668af30bd7033a07a467fb71c364377335d9c2ee9eb7aac2"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-8ooWzSQP.png"
+hash = "ca7df15645c6f950fee1d89ef79ff48e6d14c2580e8360220ca1169dbc4441e4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-8shC1gFX.png"
+hash = "8aeb087793a2437c9b8bc1921d55347c30e4e021bc34b2e8d64e90d3081ac593"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-9NM0dXub.png"
+hash = "ff890fdd9c604193ebd9082aa6ef33755128cae0f645580ee1c838abc176e9df"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-9k1pAsfR.png"
+hash = "2d63002e3b1b0e109c462007e4af8184b65502f9beef7faf940312ae98fe605e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-9s6osm5g.png"
+hash = "377af16a01eca3991484683b93e718df5be4e5e70a77ea17238d3eb0a3f64a23"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-AANobbMI.png"
+hash = "8d82f8d83acf48c4ae24ab83d9c57895c4979ea7ed7d5a624eb0a834d7e7a993"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ATDdrG1y.png"
+hash = "2044d4e743a8bef96794c579a7ecd225ed27c395cd78231ae46bc90027ad3dac"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-AVq17PqV.png"
+hash = "c6e4ca1065c415c72c693b03deaff7e33c1ed9db71698696128800dbdb0141cf"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ApkoHNO9.png"
+hash = "b9c3337b5efb5515e3066fee1d9727e693b739b6f5d749680ba1518ce3b9a48d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-AqaIIO6D.png"
+hash = "421b7e4d0982bf685502e0c8e9c3eaf2465ad9165e30912869ac58f1ea484bdd"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Aqlf1Shp.png"
+hash = "d45faa6d2c421c7169be32b2494d409014431a72c2c0554270569dfd1dd4f9b6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-B3pb093D.png"
+hash = "3c7982641071a68577b1605a7fa04dc47b1bfb3acbd9aa289175f06e63b88021"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-B8jaH3P1.png"
+hash = "4546ec1fe5afaee1753d4e171f08c4e020d4ff45b192c53ee8527e46f1542449"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BAscRYKm.png"
+hash = "5549c161d4e1eaebfc2682657a08db561934cc2b198d9bcfc6757348c364ca60"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BDQucwF0.png"
+hash = "4b9f81858db1cfec048107d524d66b8b7745162112c3d865c9dfc675c987913a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BLu2Yqfq.png"
+hash = "5579a983d64ae341b99202bf4ce2bbbc391550d440c6354db2d3a027fc647e21"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BM12h14f.png"
+hash = "c579b7326a46aae7c323dee1b13f498aa833cea64d0fd03f75bb28295e0b5f8a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BOCJKD49.png"
+hash = "23163d78e1f23ae5c867bde0f903e373762409b24ff19236797232117dbae47f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BVzZfTc1.png"
+hash = "942eab407f6df9de6881a8411d6879dbdf159996852e383bfc07bc9d42023b87"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Bh37bMuy.png"
+hash = "d285465202179979a35ffcfa978f7e3978ee520c756083292d4587585cb0d5ac"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Bh6ZOMvp.png"
+hash = "59dc91e94f7974de39c936a81f3b03b62c9c41d3ce2cd21e737648e2216bf70a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-BxhPGfcK.png"
+hash = "81e4083058d6ad7621194598fe0644a367745f908818a10eaa980c61ac45db5a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-C7I0BCni.png"
+hash = "daf42ac7d3951ceca6fabd1b4ded6eb2c6a3abcdf5ad3598611098e689483bc7"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-COlSi5iR.png"
+hash = "259df6b4d4d587fa90fceb8ed2c3eca0da94b45629764e66a811a15fc1971e12"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-CRh10iJF.png"
+hash = "a9091cb09b0abf98bc722c64b25eb31b31cf0c9c472d93743113cf150ce8d8aa"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-CZaz7aje.png"
+hash = "4ea610b2e5045bd41ead476feb74738fe029a1eb3631f7179e5e563d443ef3ec"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-CnOG2wlS.png"
+hash = "41e341d1ef803ed2025c10371ab8c60fae87d054aaf2325fff51cc49735bd348"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Cnejf5xM.png"
+hash = "c45b4f10f5f9415bc9594f9ef5e9e365cc20aa65c6541d1565554f0937379cbc"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-DSVgwcji.png"
+hash = "45c6db7daea041f6b08141bbdb340467aefbc257144fe5bf8f9c9e5ad17424c5"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-DdAlVT8M.png"
+hash = "cdd29071acb687ed43b8c4ac684cd403e2e5a6ec9d860ba516a7a5ad2b83dc4f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Dq3STxps.png"
+hash = "541972749a98e0540dd11d3323cdbecef89e08c52f30e31294aad44829d4896a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-DzSY371i.png"
+hash = "a08eb8147ecfac75eea95918f30758b05719d80472a111d3b5003c27daa05bf5"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ETlrkaYF.png"
+hash = "b49fa31d47de875909f25fa6d5f444aa66f585f22dc005435068a5c9dc10977e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-EltpO5cN.png"
+hash = "e245fded9937c3d1db800a98dc678333e921ca9d7062c4b0254b6c340adb0c5a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-EsAfCjCV.png"
+hash = "76294885efe4fd81f936407ff37e07041499cfddb4e264fe1837383c75ff32dd"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-FoVacERa.png"
+hash = "3c041939b558ebbd57ec3a4dfb4cb85ef7fac0e2437ee858f374a125da612938"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-FxXkHaLe.png"
+hash = "7ba93e71d800740d9f14380d9a1881b4abb16cd80eaa0cc24a317d04997f95b4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-G1hIVOrD.png"
+hash = "ab4a29b8882b88a860843754b3a216ae4c9b060aaa91849635609bc9662f043a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-GNxdLCoP.png"
+hash = "069604280b12d050d8655d0fd3fa71be51fe14309a2c8d144d33bcfff6231d40"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-GURcjz8O.png"
+hash = "fe559fbea24956823987c5881084fc54292f8709b49d5b4e43b6332fffc7721b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-GWp4jCJj.png"
+hash = "fa5ab51c2d2b633925f26b4551645dfc17882bcf5bc393e4a6bc103eb17d893a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Gi02250Z.png"
+hash = "100cb8a9f1e6e3e1635dc52512dd4d21a16e0cf007cbe22a55922bb99118bd50"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-GmwLse2I.png"
+hash = "1931163bb171f0de0721f682bada0b05cc31fdcc50748f09a1703cb77c4fad2e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-H6bJ8Ju4.png"
+hash = "070f5f83a0a0e0c173cdfaaf0cc2cabb19d54864c62720ad70b082f5381f1fe9"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-HVnmMxH1.png"
+hash = "0a952e584efa22264d4ae575f6436ab910d140cab41b2a4350efbd6596f0638c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-HjmxVlSr.png"
+hash = "beb47b4bd964983a9f4be6e537701ece006dbe01412377d30875a32e72925c28"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-IKARgflD.png"
+hash = "999e271ce2abddb2ba11044d5720b1ab9b5b3e28b0f4567cdaf2cb74def85212"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-IYY9Siz8.png"
+hash = "d8feffbc8e443213d50d92505d0cd5636044656f2fd9b5fe99a54eba2da2a4f7"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-IZ3b4kEa.png"
+hash = "b035706681751bcd00482d5ede44dd26f120e67a8dae81bce809c6b32eef1895"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-IgftU6Mn.png"
+hash = "af3bcc2ea2d05e70665df7bb53923adf7d9fbb14ae5fb328880a3c855c45ad18"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-J9McOdzy.png"
+hash = "f742b79d572af8f33f36944470d443fdb0927bf1910a84f6806d82e30ac29a80"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-JIEwmDVI.png"
+hash = "d79ea6f3d0b4d75e21b9045122e7a6446ace9040c1f699a2c3614d881eb2ba77"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-JtifUr64.png"
+hash = "0587d8a7c7911bc3caa1f118a3a8ff99fc21caab9d947f252c795c22a457f6ad"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-K3yHebFL.png"
+hash = "f92517a9086b61bc916e2e89ab9b57b993db5667501c0163da36b6d65011ac82"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-L3Jv0QZI.png"
+hash = "8a15a1e25c2e6d8822f57466e9c7eb2952851026f64cc94dd1d2f60f8e470555"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-LGVihYcz.png"
+hash = "16ecde4bb04ab87525f60d20b6b5a2e234227ae02e495e77a07bf4b5594b4d2e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-LOpKHB2A.png"
+hash = "8c96ce0348a74c95f22e5981828dfecafbc82165eca10a9d02e6e6c35ec91966"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-LQ3K71Q1.png"
+hash = "de97eb65ff51fbbe51d8dc3758035a77ff5244b9e031bd08f8071adbb757390f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-LiP9Q3KV.png"
+hash = "3643bd914d23e74187a65c8070aa4437b1476d79e8ba084efae9fd4fab47775a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Lq6ojcWv.png"
+hash = "36c20a5ff01aa2c01a3203f61ad27aa4dbd0cd12df4f1a23c2f5ed2ed6c07ef1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-LrYZi08Q.png"
+hash = "980dc5f1694fed4d22cca46e01ade431984d4af19f70dfe7df3cc225401e2ed1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-LyOBYG8Q.png"
+hash = "ed6682768e389022eb12c1063492ab26f0c7e3d01c24423449b3f6d33ab7feb0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-M1953qlQ.png"
+hash = "c109c77db0074c55b4d9e2f756ede4a2d756cb2d25148254c18ef7392044e856"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-MBAkmtvl.png"
+hash = "7a37cc4a9fc8f83a3cc42f6a3260e2495590b5719f2caf12b18f0f275c3f3bef"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-MGcd6kTf.png"
+hash = "c92b9b2adc9a7cbd171c3aeadd3c6a4b2b462a695b3d205b7b8c11281161abd9"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-MI1LWe93.png"
+hash = "05ec090ca311b4be38bc39eb5a0e84554ec14da0e331d12c50a82d0f1799383e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-N9WucjHL.png"
+hash = "e9d5d0adc8f3ff22076e2904f0b795bc91493578eb2d4803fcc3d44ff7c67fc4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-NNAgCjsB.png"
+hash = "6f4098bc04457735f3881633ed49dbb8249a026bf3eeaded1d1c85207c72b505"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-NcUtCpym.png"
+hash = "dc2b2ec58e9e6f9004512d38806c8bce44e4f2ddba3aac1d3edb7c590de0d344"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-NkGaQMDA.png"
+hash = "5de72224b59f6d67733d939d8398fbbe99d001e4b4644135d100467e2e6f07b6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-O53VhQoZ.png"
+hash = "185db0ae790aeaf3a8bfb5985632a764210330ea8a68b1fac8eb99fa9f201d52"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-OZBR5JT5.png"
+hash = "04950642214c0a8de24146bd31fb091b98df434741ede97f7d080ab9918a5e5d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-OfKzpbRU.png"
+hash = "0e25703b9a35b0ab990420dae56d3dc56b71bbb1fe0da10a6bae78828f225c87"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-OlAQOlqx.png"
+hash = "f7de5af85238756a1deb072af96674c2e4056f6e5228343c4b91b3258f20a8da"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-OsZiaDHq.png"
+hash = "3d7b2c77de6f47d9be2ee0abf013a361265ca243a64189ef823caeab1beeff27"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-P26k79kP.png"
+hash = "ee1cef0bdae5b33d304aa2bb6dd25a01a85377f3ce742f630408ab266e0df283"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PFwYNrHb.png"
+hash = "94db15d5ae601395d0b58c4b373f567b6d5c7c9e8755a3878949d44bacd50b4a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PJvJUdGw.png"
+hash = "f0a4d5d922920602a251f767a4378cb24649e680dc3ca5b116bafae819ec0f49"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PeZ4h4i0.png"
+hash = "e334bc5eaaa194822fa2ff635b253cb5af123be7606becb25b3243afb03726d2"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PjDhruSC.png"
+hash = "ea2a7ffa4249b668d7aa206454ce75a9b2c27a87fb127e879389fa26857d2fd4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PrW3B4fH.png"
+hash = "14b7a52eb568d7420cbca5260a7f7100f3da0c468350a0e88013176d31fe1fa8"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PsllFHj8.png"
+hash = "4c27ffa7693ea6cbb6c594ce8918fab18139ed07358e4b8057522f69fcfdccba"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PtjYWJkn.png"
+hash = "50ba388b27894859031093e754b121b71be40fa4e10d08ef3cf932c271c410f0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-PuR4vDBo.png"
+hash = "9a91999b915faa558783bbb67bb90cfbdbb8ba0f569743a3be1375250bd8f4fc"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-QAGBst4M.png"
+hash = "2163b1d2ea1b879bf5d7fa3aacbe9352ef80863122217cfa4d5a305b40fe1714"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-QdG47OkI.png"
+hash = "07f7f7ce9cab7ab59a3df403362d4eca09d7f01654556a53bc37f7c25de274a6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-QgooUXAJ.png"
+hash = "04756d819a8ffe7dcf5673fc7b9069e941fc982d80dd911fa1426ce843f0e3b6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-R2OftAxM.png"
+hash = "7a01e1fc86e53cfb9e715aca9a0f5113be4f563167726efbfeed11c77ebabff0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-R6NEzAwj.png"
+hash = "b1ca9d887c940fb73e9438eb05b6754a6ab41039324791ac1981d689704b5618"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-RV1qfVQ8.png"
+hash = "3e410453c231a92bcdd52773c0f0ad24eb074bb94c8ab1526392eef46bd2e10f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Rm4OOdHd.png"
+hash = "9720d501650dfaa5d4ba055e1f7ec9e610670d10553d8cd7c8df60336b0cc12d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-SISoSFPP.png"
+hash = "0de7c2aa8af3ae02155bfef2bd1e8571206c081ea981cd6a3ca7a98f73fefb89"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-SKI34J7B.png"
+hash = "bb70d95f71824bc24222e756e973c640e82af509cc5701dc3d5081394bf96d7e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-SNVQ2c0g.png"
+hash = "42dbcb10300da1402390edfc7abb8f1e5500fb8e21f9423b1905f606ee2dc84e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-SaCpeal4.png"
+hash = "923af14b0f088b78d7702fb1b98c68ebe7feb9f38e25dc4938c52a59571c49b6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Si9Uim4y.png"
+hash = "008de9ba47ff73d6a3a65848bdd48d83b0376ee7236f1fe2cc85587711acc4b3"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-T8bvmqVZ.png"
+hash = "196d7d3177d60e52cd74c1a2aa6d5dfdd4f0500a7fa316e1a9f62969a165666f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-T9PomCSv.png"
+hash = "26c062a9bdc0e0898865704c64ecb6d1e5e1c172dbb05c7e12d713ecba22f54d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Tl8ESrhX.png"
+hash = "754e1ee6039007e8bb9888f4cb8d67c5bf9a157d417a2ee0e5b390d68969c249"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-TxIuhIFo.png"
+hash = "33580585d47088bd5265d2d8fd69cfb6dd7197461e86fc5b92fe8506842c485f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-UCpxwAAu.png"
+hash = "e259853939dc37ac54d0f48f52d954ed2a0673560dc49b5a77c101e6b25f4460"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-UT2M39wf.png"
+hash = "539488759bb4bcedc078246b1500ab4ddef6bceaf4d37eb476a2234aff29f187"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Ua7DFN59.png"
+hash = "950109a6e89395c3c990b4aff79f6669674cdfae0db5f680a00e2dc8b057c1a2"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-UjXIyw47.png"
+hash = "774c8dde041d36fa0a05cee922f4b4a3ea1f0a65586ebdc609580ae4c27c8e89"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-VDI2Ytax.png"
+hash = "a7aaf32bdd2fa07633ee4f0a8a088f9c540a05f14dfc7626845a47249098b43b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-VYRu7qmG.png"
+hash = "c84e6cd053882b71f8e990defe3b2790beb8841546ff9e98f67970eddca29c2d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Wkc3lwHo.png"
+hash = "4ce9686bdeabdd51345ee314135b296f358cd7bf564764539cc0c9b663be6162"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Wnxd13zP.png"
+hash = "34290683640e108e3fcb3e54f15ded1b3382c7e3f548bf4a9d5046fe6eda5e3a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-WrpuIfhw.png"
+hash = "a804736d3f949a135acdddf467d8ee9fc67aa6f2bdff3b5074c1ff368bb144e6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-X9kjRZeX.png"
+hash = "85a753c67292f6550b62c1ed24b02475e712b7916fd23dfe3fce3e86b8234d6a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-XIpMGI6r.png"
+hash = "f87e7137a51f372bdb0ac436f21eeade663cde281a36369922ec7bf4bbcc4f51"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-XNlO7sBv.png"
+hash = "e0a435ac3591d7aa013f481fc0bed94c2888afd0ab4ff637bd4326638a8161f8"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-XaDC71GB.png"
+hash = "b44a6b6890b29dc82bc282e7a295ffa8e70c37ff6b902c27321518f10dc67736"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-XeEZ3fK2.png"
+hash = "5177fc95714fe9a7a228cdf700673a1c425c20a763e73056c85a84657193cb6d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Xh8hkQmD.png"
+hash = "3a0a66edc6ab494c30c3b49a8b882d90fdedf15a7845dea2db84640e4348bc7d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-XvoWJaA2.png"
+hash = "3e0f6b709eb75a34be8be5825219a178fdb651650b40de1488c048c602a103c0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-YL57xq9U.png"
+hash = "37e0efaa80c8fb602b0f056012b68db13bb544d1491b194a6a15c288aeba9f01"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Z0d7hFh4.png"
+hash = "6cb7d89cef666c540712f70094e712950620c98358c605ab183a463e64a1f73b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-Z2mXHnxP.png"
+hash = "96895bcce91d5a91f9d6ee92f615baf92cf6db295d8501eb56d856e09118c381"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ZAhKrMSS.png"
+hash = "3a60f6ec32c35a708eada20f4383842402cbf64c85b933cbfbf001ee2470046f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ZQCyyWBM.png"
+hash = "6c2383484a918eb9be20225111a8b96ef6a390719f310d3acbaf1e5a70036dbb"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ZouiUX7t.png"
+hash = "1d4097b0d64cbae2ba111f78d17c8549b52913cf4c87b5d7cfa3bc2afe8cf396"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-a48R8AGk.png"
+hash = "f7d8aa848bc682ec7dbddc893488785e0e06999c86ed2a59a1ecc7d2db526c43"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-aC3cM3Vq.png"
+hash = "80b9004506cbeb2aeeda0b571eb31a1a2e8d970b0d866762d947450dda40464d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-aXf2OSFU.png"
+hash = "3d90d11862763dd6337ceb5014713c31be752d9b0303c5885f168a318e71cd3d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-aaRl8GiW.png"
+hash = "ce1171e2944810a6d003f3b3ae61266e79a8495e1eabc8ba0456762b4f3fdfec"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-aq9qUUQG.png"
+hash = "da681c42bc842c7a92c56ba3a839c7c84b43ae156075c56f2fa3d918a7201c24"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ayPU0OHc.png"
+hash = "d39831b66c283263dad246125957889c5b9a9a46c6b111ce09b55736d3280f50"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-b1ZV3DIJ.png"
+hash = "f61320dec0b3f77223bba9351a2742a154c14e6c9396dd9dd04314c6b0049758"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-bN3xUWdo.png"
+hash = "98b226962cc6c95357cc07660f1385cc31e5f4f6d0db848f94999ec7d7be8940"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-bj4a8NjJ.png"
+hash = "0e9f3b0ffdb02053966e636ded1dfbed5967c7b8c7f123f1d186813805cd2b49"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-c3onkd5k.png"
+hash = "64a79eac9f28a7f2d97fefc346cf667d7604881a7ece1fd898a79760010196d7"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ccKDOlHs.png"
+hash = "e0704161f008ab8cda8f662af5087eb69e33f529ce450f3b81329a08f0a5609a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-codAaoxh.png"
+hash = "717a7e76a78e579fa18e31f55e63d096effb1647272210ffb18161c589893559"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-cpqKG67r.png"
+hash = "923ea8be12ba0314a29ce11b4de38085faddfa4bf690384607e06db06b799e1e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-dCKRaeBC.png"
+hash = "3968d6ad9af380001737c923f4d5ed4d3cc189b0d16bd13bf5df95370b62a448"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-dQIcJONI.png"
+hash = "5203972232a8a95a19ddc7753d0480092e7dc080f0e55e7d09ef976702fdc713"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-dzb1a5WV.png"
+hash = "aa8c10901557c8524a88c9e79eb76b005cc4b6646fd3d397d4eb069a294d3d07"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-e0M1UDsY.png"
+hash = "e2a6517b3b393952dda0afaf036a7694a49e1eda1f5852cfd0e8d81a6d567ca7"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-eHGYGKJz.png"
+hash = "55fb37722228e119ad4c651e7099e3c97144260af7509559be9ce7d28ccbf6ee"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-eiktJyw1.png"
+hash = "890a60c72cb224ceb44b479a7f1a81650b169192a0f0b1be1f99e1f39e2fd768"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-f0ruQTF7.png"
+hash = "b0a410f6f8814bcaa585b181bc6fcc3b23e01aceacde1771da1315581da0acc0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-fALzjamp.png"
+hash = "40d904943c300de0bcbd3b553e2427062dc3aa78b4707c0497afc9099d30d1a6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-fFEIiSDQ.png"
+hash = "40a61bb4c64e6a979b8e79269b88ef995198d787526000d8a2404502ed0e1dc6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-fPetb5Kh.png"
+hash = "f6b92795b66abc8630d8046da9dcbe709a033e2efd976f5b03ecb7002bf4387c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-fRiHVvU7.png"
+hash = "25d0f04c5d1b0c27acd1eeaf4a9319f1d6dcbfb525322264bd9aa6bf22c6f7b5"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-fgmhI8kH.png"
+hash = "aed60d785d4e7b22b8f4e4c6a1ec9ae64b5685e82146d6ba8a5cd651930eb712"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-fuuu3xnx.png"
+hash = "0082a1b7bc76401bd399693bb75c1528fd9020300346f5c5b1c45ac41a2d3aa0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-gA5euN8S.png"
+hash = "a93696cd0fc75fff20302d817205d65cfc32e68ff6ff2c7944bb5c81156a3caa"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-gJ5afkVv.png"
+hash = "1393b95669e7e538043d52a96001b7be2dafdb2b7b5d5d95ba2d59461c21c7d0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-gKNwt7xu.png"
+hash = "3daebeee9f8f7dce6c5ea9f935ee88a9202707c291c2e957f52a5148f76f0410"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-gqRXDo8B.png"
+hash = "d574a1e66614ffd4a58106c8d7f2f10d10d12bf61d3758da9b860dce74486b1e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-gv5RRavC.png"
+hash = "a6b2bab3b745054222ce73f0af377a5285fe677dfd7bd6007b2236388f890520"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-gvQqBUqZ.png"
+hash = "c750486188e666077e6916d8d3198c3d914314be0dae3363370811bd4429ba7c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-h6zxsNVF.png"
+hash = "26a5bcf51582896b2582bc0ba2ab5ccc94f68a405015be37b625625afcf1344c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-hSSqdyU1.png"
+hash = "6d9149480006427d8cc1d8049406d810b8a786f031050ae5e4385d254c1e62e0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-hYykXjDp.png"
+hash = "1bc963d4ca2d4871124dd254239d8b528906f27bac1c2b39e00c5e7dafa40a82"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-hbGct5uU.png"
+hash = "884139837e0b973ee02ca80388b42050059b8d3c90f1031e9d311f34873b21eb"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-hddN8ksR.png"
+hash = "2446e68acc1c596e88cd2ca2713ee8ee39e41a9840b25a62a4eea27b2a9d50f9"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-hqQqvaa4.png"
+hash = "51e2d60b94bd3af0b7ca9298b4d93270fb16da11230f3666fbdf924f819ef410"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-iP3wH1ha.png"
+hash = "4e5aa04699573ec2f43218842abb08d40470014d3d52ffd37c74882b238ebae4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ilvNBzFn.png"
+hash = "376f9fc486ca8e9e55a0f3fd045772b69ae5378fa8fc9e2c9930b30f61ae781e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-j4ARnQwY.png"
+hash = "f40c26f4ec102ea5733ace682726c4195929d6cbf2c3e782956dd0dc2620cb8f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-jSV9w0J5.png"
+hash = "8843821e9a9f5c0a42e78b86fac256579fa665f5a301892828bdabecbc1ee820"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-joEfVgkn.png"
+hash = "3dd035b04a8d8cb0b2903f89f64941a663ed4eb13bf0d943ae1b6c28ed4c072e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-kL7Bjgmw.png"
+hash = "6fc99b47b78de81282916d0954a745a208a89b918879629e5117925d0f86e7a0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-kNxa8z3e.png"
+hash = "3557e31678c6e4b6397ad3ed715065c6e5619b134f525e6f1825df8945ea7446"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-kidLKymU.png"
+hash = "64b6be85602bb7803919375145a92c1d4297299097eb641779c3224a583bc039"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-l6YH9Als.png"
+hash = "e944644534a6b7dd2fe85a07e55de4c652a51e2eead409ed6445c4867f20c539"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-lLqFfGNs.png"
+hash = "9247e9b0223bd4c3ab23ce72e9f4815670543dc9a93d3cb790a523081bfbca06"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-lMYIHZNH.png"
+hash = "00a2cdd47a0995f1f9331a4c2a1881b4e854a2c6d7619f50edfd9e6cc94a7e92"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-lNDRiXkY.png"
+hash = "327088342b47cc54b336fb04ecc2249a815479438f3a2a6aa737efe190cad2aa"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-lOOpEntO.png"
+hash = "0f32c9f54581302af649e5b4a0ad857cdfaabd4658917cfdb8d12ab19754ef0c"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-lP9Yrr1E.png"
+hash = "fdfe1756291656996747ce7a0c8b4b2c7255b3b7768121733bdc343e842c47ad"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-lhGA9TYQ.png"
+hash = "bc229233822ece1a82862fa906529e14e95abf30536eb84f65e004055ef3cc93"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-mva5q4qZ.png"
+hash = "cd092a37eb803b6013d96b7878fadb8673d7b1da733dfd25751f821b3b55659a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-n8QN6Z1a.png"
+hash = "29deba86704ec20ae082d5bd3084373894ae414a3437556cfe7c0454597c9c9a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nPZr02ET.png"
+hash = "b5496bf33af47b8fced8baad2c6a029ac447ce13152e00c7ca2786b0e6652d45"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nUwwB5kx.png"
+hash = "9d3b3d39eb34ec536ddcf5ad93563c7e9b0bc22e42483f2b4234d125f9db5ebc"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nmDcB62a.png"
+hash = "c72e252444824abc09d452e7fa9817c2d9d5cf7f456e8db77e68da8a584675a1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nmoqTijg.png"
+hash = "eb86ca529ab6b5ea47f586ea220575e6a1d5680a98721be22f4ca6a60a571bae"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nqFNRALS.png"
+hash = "9379c7b7b5385fd9a6c1dc2cb282b3d4c9a8e07efdc7a1c322e38258ad476750"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nsri5wVW.png"
+hash = "499d379466c25cac2af281681ce11506f3ebb59007d73a09ae87839435f5b456"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-nvQzSEkH.png"
+hash = "7dedcad63097cda4ff81562f7dbf9c0c2be35ea9eb2955a89c33580744fb0a1f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-o1C1Dkj5.png"
+hash = "a9cf275e44e4204e9481cb9f9ce12cc97e5802754e6e143e1624f123f02922f1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-oWaK0Q19.png"
+hash = "a30ec17b5ffdfb1d639ebe03d1e39f5bc7be508346989ac748075bd20b0d3dfb"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-onDuQF5e.png"
+hash = "ce86f5d340bced1d6bba7a1677faef8267c68163355b2675f01506b58ead740d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-onz2NN2n.png"
+hash = "65ce32ca045160abdbe9272eef5941493bb2b236b4d40508e947236b9993672f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-ordsPcFz.png"
+hash = "cef7ed2b305d63431366c60ee4ca515cc51f895905f17bd227e5d2a7ef8c48a3"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-orgY0JIo.png"
+hash = "96c8c87005cf08534c2423226a530d5958dfee67fd6cdfb601676f7153c5967a"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-p8RJPJIC.png"
+hash = "fa439b016d8576b99b7e900d61c5c55dd79be3076d4d1f57f2054fb0f2cef6cb"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-pJGcKPh1.png"
+hash = "76f853fc5163b3d27f2ab1f76f4a23100cc226910cbfd0bc8b8ad64ab88f71a9"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-pJmCFF0p.png"
+hash = "3c82cf549db83c8dbb97d225080f14d14cd9bb08ef9455f2dbf9d53705c5449e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-pSISfJ4O.png"
+hash = "70d42df641f9a53170be105b23d2d1c1370c39e8e38eefb25308770fa0758527"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-q2bV1Tm1.png"
+hash = "bb816cbeda7b59a35fe0ca892ae8336900efce262d8f45158d55ac539191b8fe"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-qMxbM4BQ.png"
+hash = "41e2a98dee6a5816681ab7620a453d978205ed9c0b2379ab1924f8a81d6350bf"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-qbbO7Jns.png"
+hash = "19a91a784984073a65054ecb9eecd061a7676e482b873dab0d0534a59b71e527"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-qyVF9oeo.png"
+hash = "21a3cbf84b1e90778d8d6061e9a71c207a88ee15cc892b53e27c36380b5f02c8"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-r4Knci2k.png"
+hash = "80132d11f306133375e5543dcf931e9eb98b5b31942c1a8699b13a6bbcfcd64d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-rLJ1qF79.png"
+hash = "6e15e26121c704e216293d018088512b08571ff7ab5484b16cff95ad80897ff9"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-rULzJh3O.png"
+hash = "eec96a31375aa3bcf82ecc63da49ec9854fc8e8f1ef2b5e91b4a29ed9e250c1e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-rex9wwpz.png"
+hash = "7c09e3a5040fbdeab729812590056d1cf9d7fe0b9dc1b955948522a9071076ec"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-sMvUb4Rb.png"
+hash = "cd6155fb0f77b0a90701d4752cd3344053bdcbb48cea44391fd11f4788a95887"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-sNJAIjUm.png"
+hash = "e3486fd469f45cf9f33680cabdf8c23739521f3c6e63cebe5736f510454a89c8"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-sPg2LVAd.png"
+hash = "36408436d3f80579b32b25d50a0f2f50321d4cb1e286c2e845614e1e7a7c7d04"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-sZbcIrJb.png"
+hash = "3bca22d9a6b6c064c16b3d5399d2d30c73a0c06e13834a8d721b6c03d2114a4d"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-sbIsGaOV.png"
+hash = "b0250818c99236e5ea26ea7ef77f187761925c0025005cc45b27c2e11cf219b3"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-sbpqhzIG.png"
+hash = "667b2da3b3b070d7228b5692109959ff5196b2101da4e788a358fd670d3d674f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-stTaMuWa.png"
+hash = "e8a850507f78e7767a24752ecc4d589d46d6f0054025176bf57dda01bc3bde59"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-t5FRdP87.png"
+hash = "462e669eeb2f19d9220bec501af0c3de16b2a6cf4a44f1361d3e0f1883c5ac57"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-tCkE8p2N.png"
+hash = "e19b6cd919f5c5394200f9e2d7fe00cae2ccb130f5bcd13ad8a0c0a426f40aa4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-tPLE214j.png"
+hash = "4f8a15d42872fbe1242e894fe97a90f381a4bae77850b0af3edc4f5fe67b573b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-tagwiZkJ.png"
+hash = "cf845b4b0af9a78f5555bbdc4b0e075ec54e36490c2cdf7ab7b48fe11089b3ff"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-twkfQtEc.png"
+hash = "3e9d5093469e27597f55740390ee8592030f404a61773f6ff696e0d918ea5ae0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-u58R1TMW.png"
+hash = "0b9fca5d59f1f430055cc2c6a23785bad98063ef73471d1835b4edbfb2a993a4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-uCdwusMi.png"
+hash = "7fd9f007aa108e2addd663e792256f7e4a6739b3388a5997c8809d2a8b892da3"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-uXXizFIs.png"
+hash = "10995d36f9ac87bb38bb957aeb1220b60faf85e0e14f6e362602f2cf4f9546fe"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-uYwn8IP5.png"
+hash = "53b2904aafb868f7bc07e7afe5ebb94cbe39b0f59181cbd99ffb67d001733803"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-udEtt0b2.png"
+hash = "c278fdd39d17aa1b924a30e41c0016279e38fb110525af4da6c659879ddecd73"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-uvpymuxq.png"
+hash = "ef1e445a3753ded2b6b71a4c15777ac933ceee39ea42785d58799b1bc8e758fb"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-uy4Cnpcm.png"
+hash = "2120522c96462e2c20bf2da8cdb98fe02c8d941f7ed159017ffd7bdb87c7e060"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-vE2FN5qn.png"
+hash = "ed67d7ce3832ae781c18bfe64bf8fd03924c32c5f2800d29472e4c4006891de6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-vRYk0bv7.png"
+hash = "d17cf1eb9c0e60810c87dcb2c082158b1f13f958e251996a1fdb39a5784274ac"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-vvuO3ImH.png"
+hash = "40de504e9a5560abd95b2ded99349681aeb93f613da71ac82b8c6c8758569684"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-wGKYL7st.png"
+hash = "adfa7c5385d2c35f784568e58c011a8f4dd9af7808a33806a976a5010abea7e1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-wQpKGqNJ.png"
+hash = "5d979d7e8dfec1ef6a45783a6ce3716d329b8a2e45a6f592e585b8c69a4773a0"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-wbWoo11W.png"
+hash = "3849ba32784c79e16d641709d57a7c8c8638c3f6977cf8145e9559c628df9c05"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-x49wilh8.png"
+hash = "e510b8a610e011f88a3f34b44597149808d3f2911d8ae2a18ab1a9430aab1afc"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-xVwaUG1g.png"
+hash = "7ddf7cfa8325dd722481fa891a460464c1761618a0b06b7cfb58d838efcdd73b"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-xlOwuSdN.png"
+hash = "a978af79a29b69941cd290eb5309b10377961d954a1bcdfddbd515cc12231582"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-xuDOzCLy.png"
+hash = "7dedcad63097cda4ff81562f7dbf9c0c2be35ea9eb2955a89c33580744fb0a1f"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-xv94TkTM.png"
+hash = "0acbac02777a428c8e675775423edcc76a95053ebcc9f782dfbdbdf3700e5ed1"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-y9clIFY4.png"
+hash = "d5b74bae71150000f18edb22f8222eca0c5f1a5ffa16ffc9f9042fed72a16291"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-yHN0njMr.png"
+hash = "2d24d4c5d9cd4c9b95cbd1ea750622cfeca49636a9bffca7dd7fbe0f7a2b3940"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-yjvKidNM.png"
+hash = "2044c60df72f980c2dfc0c00e5df77fb6b9de1afad71ae146e84f2a551d5f88e"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-z9Ve58Ih.png"
+hash = "cb022a6c277ddfc3ffbbf59776bf55b5778725b59192c535ab2ec721d139aef4"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/catalog-zg2tT2Vu.png"
+hash = "6a52e3be8b8d85f578c0946c534f19855474a29dbe9189e0d9683297fc05e65c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/create-central-kitchen-icon.png"
@@ -3326,6 +4406,34 @@ file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/
 hash = "c8d1eaaaf741f124e830342921dc351332e646e6521e74072ac49f2182f49ee6"
 
 [[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-bossesrise-provider-art.png"
+hash = "bb816cbeda7b59a35fe0ca892ae8336900efce262d8f45158d55ac539191b8fe"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-illager-invasion-provider-art.png"
+hash = "8843821e9a9f5c0a42e78b86fac256579fa665f5a301892828bdabecbc1ee820"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-l_enders-cataclysm-provider-art.png"
+hash = "ca727be78220ed27552e7b0b909d551866ef34eefec4178e1d601bfaa2f6b876"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-nullscape-provider-art.png"
+hash = "fd8c1e4c022f549867f5ddbeff4a3f614fd41eb905dbdde387f97dbf732820da"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-supplementaries-provider-art.png"
+hash = "40a61bb4c64e6a979b8e79269b88ef995198d787526000d8a2404502ed0e1dc6"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-terralith-provider-art.png"
+hash = "73a0144f3ab90cfc97893be8a3c6598d693aec1ebbfcba4b95f43bfa00b43166"
+
+[[files]]
+file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/revision-encounters-witcher-rpg-class-provider-art.png"
+hash = "ac14f365052790620b9016e2516f1f8991acae09150d83b80bc7d404c59b0a08"
+
+[[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/slice-and-dice-icon.png"
 hash = "426a4f45727197a1ae084cdfafc3257d27348efe052b9c8517e6c788425d90e1"
 
@@ -3355,47 +4463,47 @@ hash = "597c07989d927f5c2b35c55e591abe04dd1e0a48abfa46ac2980ad7b19cc09d0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/interactions.carry.md"
-hash = "4dd77ea771f27258dac019e9a8e23124f6ad512c06e454d629841cc0e6a99f40"
+hash = "b827dc6d4dc4a8fe22b408f4770ba835aca58bb70e2759386482ab1cbb89d901"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.enchanting.md"
-hash = "7880126b0863abb8d0801a7277f415d3e52e92d305182728c8f36f9b73b78ac5"
+hash = "12e48279d781c5c663dde830d6730276532c60a607b90fb54a26f0d2c43bad41"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.logistics.md"
-hash = "aa2de2a56bd96bfa3ef084f2c5ecaae3173c7f949cc5145bd8b32848e07e2a91"
+hash = "c3c59e3742402ab4e6e82a9a3544f3c24a03217d51d17a0cab47172a0cb57c37"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.miscellaneous.md"
-hash = "03f1e43376b9bb482a160932440c9e11c84cbc93fb716ad8b3ada9a1ab5d0cbc"
+hash = "080bb8055b5eeb2efb5e90b13db223ec1a5c74b8031c6b5735fe66ccbf7ed94d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.ore-processing.md"
-hash = "a52bff8929cf1f9bb3c325ccc2cb6feccc1da647fa3dd25aa473b6c44cdd6a5d"
+hash = "35bdd22ca29bdbc8a73e70c9bee945efb856abcde207662c51c8769aa73fffd1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.renewables.md"
-hash = "83fa290ab964115bba468d381a138e4082999933ae53d3bc6f66e91172c97359"
+hash = "1d90cc13a1784d318f3c9e99508ee517ccc73b9c85528819aa7ed667466546bc"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.rotation.md"
-hash = "03b505faa30e31388468afbdcf06bc156c6117a26c00172f28593f6aca749780"
+hash = "776c40a2d3e27918afd30f138b548a70400e5470ac9775dfdb64f0d0e9172ccb"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/machines.trading.md"
-hash = "5eb2584c86c8af9eb40b788e75d961ea074fbf8121bc811096bc82343cd7531d"
+hash = "0328e77ea1a763422178a5db86c2e631e924465008ba0715be341abb89f3d0d3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/maps.find.md"
-hash = "22344ed0a909389661135dda86a55ec5bd0e0fde497fcec05b11e2ecb51696cd"
+hash = "cd478538c6e7c907c86e97c2fbed905f01d56de66781f45578ba79af571f6740"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/maps.personal.md"
-hash = "591738af381e36733a0a12528b527f670d228045552b7a4023d8b830c0174fdc"
+hash = "c707557889b269621311aa145d8a98ec915288e417ad3c83e9edf57aa24bd7b3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/maps.shared.md"
-hash = "5ac78ba70ba8aed414e9296fc93ebb5e65f8798b9ad359c51f3815a17e08d373"
+hash = "fd5d97572095afd3ccffe0b8259cc194146c3b4b24b609c6294fa7bdd74fd653"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/mod-catalogs.md"
@@ -3403,27 +4511,27 @@ hash = "0fb9519f176fdec7dd1864f294d2ba09374507060a63adbd2664f79c835ce030"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.baseline.md"
-hash = "826e28b9a8dd38a4f414557f9fc44d3ade7cdea9eb8318a921e4217cfb3c1ddc"
+hash = "d1c264d9417097b2296ebdf688cca2eb373128ad6e9f3f1e4d1e358a71649b4c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.deferred.md"
-hash = "794b7001abc1b08df4deaf5c6d942e0ecdc9f264e577fb5bfa28843d8862a8c3"
+hash = "dbcdcb735980579ac24eb3b6cd4c2800e0235d2164ec307fb24ba8aa8e0c5db0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.burners.md"
-hash = "f3560cc96180da53a9dd88a164216efd4daf4a8999388fa0b236578e1f863f5c"
+hash = "ecd3b7bef969d7b4523bc86d6815f875eba8de6830958e38a0db1b6a1cdee27b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.electricity.md"
-hash = "6997288f4b51647d3b84f0d35b6ce22a1e2133fe8e34a71590f37de65dd5f22b"
+hash = "a02bcf24eff3e82ed3febf205a8ad58952582466c101525be30dd5f1356953f3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.industry.md"
-hash = "77f8cdf59951d573dd8371c1893287ba45b85244ae4aaa884ce1fc01123bfcfd"
+hash = "891801083fbd16641a436f129f7bc3a7ab63272b592294d244f6aca690507c3d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.stored-rotation.md"
-hash = "5c213e943d816e2727ede8d66abe87c8a2441c61fe4320d5d902bcc700e2806c"
+hash = "20cb72c73ab67c8341b15ab4a585cd7f5f35342b037e436b61876b3c479638b4"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/quick-reference.md"
@@ -3431,151 +4539,151 @@ hash = "688c01b8f5f4d0825f7b2dbc52ae484dba7c4e3f5573e88cb2a3b4bb5917fef6"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.building.md"
-hash = "79fed260ce06f9672fd2e6269af8356115a2ebb56bbe8a6bdcca00330bde1b52"
+hash = "42666fd9f33c430bb3e93fb51cd99aae21edc35cba75062e374cb4f039bb06f0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.equipment.md"
-hash = "9176e5c4eb8395941b0b7c3ff1962b45451433c1ad86d3554c87c158ecbc3439"
+hash = "b3e7f7152e3ca7c258f09811a0984e29be2fdf0b72d6e474dcaf536562fea0e7"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.food.md"
-hash = "8077b977f4fec89b5bef575ca4ef7b9a34d9e968be8b5a223353a9b5f41ccab2"
+hash = "70df41ced38456806f3c4ad809c49b6b31cc2fa4838fae78335cfa33dca69980"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.machines-storage.md"
-hash = "e3de7a0881b490981f5d11b43116e10313472cc5fbc3370ec2e81e653cbffed0"
+hash = "9182d6a1384c70cc23b26f53a1710457aecf9ea7c898e53986613a8313935503"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.skills.md"
-hash = "90439706ace98b8472487f6c6e9b1627457b0eb9798741f7d6ae0ff7f1f55b12"
+hash = "fbdc5d8d5ac130498bfe6885e895aebba20341cb99bfc3a21898334e204fe993"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.vehicles.md"
-hash = "78c764f4c983a1a05634806a8ccccbb860ac0639c143e964c43c549186c9cb4a"
+hash = "b94ffa200c362f1f564bdff2bef58a9cfbd58a0f0502ec543dad9147d7c1d527"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/server.deferred-pack-loading.md"
-hash = "4782f9ed4b9fd88be1192f9804617117a43e85cf2134c919c0f5cb95472baac0"
+hash = "a21ec942bd8052758934c3396cc123941f7f1ef0d097b631396b369539807457"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/server.tools.md"
-hash = "ee62c047101eba09b9d6d906555aa2fce5f1aa507e0a916e961853a6a30fe245"
+hash = "4c1c46a4effcafc77ca0e82080a2593b7cf514183856dda4fb6a05f6559f0b43"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/sounds.ambience.md"
-hash = "9eacac7d6b72a891b52095067a4e1ad81bbbf3bd72bc34c90f2e4bac8ea6d69f"
+hash = "93a69f38b3495d7a8da3260183747c7f72760020b8b5736fcb98576d6dad4cc9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.destinations.md"
-hash = "23f43c8d30af86c9180a204253702aa9f53cbbe786b73f7995796651899bfc76"
+hash = "8b32ee8cdc06a98f0e7b9d27b5313839c838ec086851af7f18c1db4edaed8884"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.vehicle-transfer.md"
-hash = "11e85ae53f7d3dffc8841b6d8405259bf88181e2b7e05957f3047a083b4f5b28"
+hash = "c6b0409fe26a5dc4ce399c6859e75821eeb30865daaf0c8f55b980c0de9e0045"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/storage.bulk.md"
-hash = "da97b10d382af9ec6d659302c5d2fe2089c359e78d2e6fc1a16ad2f406095390"
+hash = "810fa244cda7a8b99c309b9b8c1b22d254014c06d950a4965beabd43379fa2e8"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/storage.handling.md"
-hash = "d9f1135c1de95e9421f7e4acc7c3f0d8b19e68ddfbe7ae730a7d6ef922f0f567"
+hash = "23c7e5da1ee713e6a9a7286a840f9ba1640c50014121a502be82a753abe50418"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/storage.portable.md"
-hash = "7ee8ab7b7857997d46ecb220a87e61d9397c50b81a94fcbfdf2a75e5f11b5985"
+hash = "82853b9d21a03b04470dbb02eb2c84fd08ff5bdd744a043329f8306d44f01496"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/technical.bridges.md"
-hash = "079d51262905b533aec73c701e06a90d29577a39234d7528eafb42e4870da37f"
+hash = "7fd0fe98e2923a5fa57b562b425ced6062f1f617d61ff119cf76e04099555647"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/technical.libraries.md"
-hash = "c09dd7df531ac2577912983e33c2f888505432731e85ca5362583f6bd9fdbd4a"
+hash = "3e7c1cb65e022bc30d30781a6003e230a034571ca6b508da9b39de5a540e8719"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/technical.space-bridge.md"
-hash = "637aca5615c1671bc468fabd2cba816abd30db71c973995d2dd86e704bc40b71"
+hash = "b99459d568c13fe4dc08e3343c90959d6032720ca2d3127cab3d1f80909b0b2f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/transport.local.md"
-hash = "b19b46e3d202c724990cf7c59c6c02cdfdc9b46f2a5ac0c1457ffd9b655cb836"
+hash = "5771227032b293ef23c6cfbb58a054f0164b9ed1961c9ebb4bafc26394331e26"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/transport.passenger.md"
-hash = "ade0d351c53e270fc0db915af77f488d8fb5fb1a4d052b9439b8e3b06d5aa600"
+hash = "aa19d50052b8b0f89faf885fd5cb26dfcd3528b541a6d1b771f3ef15b5f99a13"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/transport.railway-builder.md"
-hash = "822739a9610510bea130abd0d1f7563d3e803f37163b9b89c025619353aa80b0"
+hash = "4425eac53c3fcf8abc65ac38bccd54bff38e3b276e507bc56f5c7ea0a8c1202e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/travel.destinations.md"
-hash = "f3a2d46e5d68a3a0229593299c6439d35dc9bdff9411296e89608fba4d82cabe"
+hash = "dfef70701cac4404ca206067e3e2c24fbbdc4ae1e8d191b93dbc8e3c53952dad"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/travel.moving-destinations.md"
-hash = "86a004ee6afd43c344b3db7db2a2e97270dba1fcf31c3edeb6cbdadbfa85bf52"
+hash = "3c213b9e9ff8a779cdee9c572c349775fae2cdfe85b139ced199d9423023f1a1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.airships.md"
-hash = "7f8df1389c76cb73482a38a40395a72faff769136950332f73b0a6fcc29460f4"
+hash = "ffe7f883c1a102647d2dce6aabba8b8b40d2dc71f5cb7f02178b18783f00b704"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.assembly.md"
-hash = "180ccd733d2d7b4f8d5abe6c0ba2bc04feb0e38ddf8779449f479a7c1a103e38"
+hash = "a8dfbdf4e578596225eaf8190cefd431c494b444ff2464737e0b249c30467b24"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.controls.md"
-hash = "32f3eb8d7c3879cc98da5da422b0f0ba87ea0a18403dc18d35484394149ac1bd"
+hash = "090e7b7b82cf11cc70bf7d6d698283bf79b89f06a043986bd553debfe9c772c9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.engines.md"
-hash = "fb26533c6d9cd0819040aa0ff18a4d8c25d841aa6f71bf8823a84a5e6e02dcb0"
+hash = "c573d0090342b12c08801e8831f84eaac51d69f4e75ba20867a08d3db2524e34"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.radar.md"
-hash = "df58da37d2028f176a174163c32c59365c26629ad3d5c0e14ecfd6145b6fc3bb"
+hash = "347f429f11ae64b272dfb4c6f65f7f93a3f6a592fa24c6774021920a852c0270"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.water.md"
-hash = "45d89acf536439f1ad794f6346fbaea2e708047ada0e2c1f4da6e70a1bee8eb8"
+hash = "2f91106f161f5b61973631e92f6e45837618016eb8767dd56c52bf8b359578db"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.weapons.md"
-hash = "2af384856d1df1fc5d90ba8d7c9498f9e9a4537479a62da31c237c07689e1b5e"
+hash = "6c6bdf0d1baafc27c481c185fa2a3baf70d6a071675bd1537ade0bc8fbb57751"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.camera.md"
-hash = "e6dc2a511f5a11a3d06b6b7b97f104c9aec0c58a251f955ba4fc5bfe226705c2"
+hash = "b86af48e02d14fc3eb56265df3420c257c98ca0c5e83e21ce3dd5ea5c4519481"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.interface.md"
-hash = "a6724e52b6ba3f77b94e62cfba6f11fcb37168d64dfc7488eb40402086d74514"
+hash = "435e0ed5944ceabcc3588df5fab7c1603eacc00ac1ee71459634a192691ac434"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.lighting.md"
-hash = "47bf32dfd91bcba486a3378da81808960803b003926dda081172f31abc4aae47"
+hash = "f1b827e930fd35faf17c3c4bd778ff742c7325b0c372525d56ff54ae2e95a449"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.models.md"
-hash = "436b42addb0acf0ac3eb6b92e79f1dc12b0c676ac30f9bbc6cde3a1e3f02ea24"
+hash = "52d40ba5704d3ba4f8b435964ff579819000edb1b57a5eb9542eece59a90439b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.resource-packs.md"
-hash = "8be516d86dc05a57cfbff77e03213a9a93fe4d5798a4a6c9a7a056c6724c8c51"
+hash = "f33f44895410b41a97e5aa1c71b64f83544efd92d61a5de1ade20f79f782bcaa"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.shader-packs.md"
-hash = "9252c7702cf887beb9bd6fee14e2b6556bd16e792dc680f3a7189d24d9a7d1bb"
+hash = "2e23cf6fd7b3a866ab8e91e355eed5d09d4ea906379b424108917d02e70ab8e9"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/visuals.weather.md"
-hash = "871efd351b05400532e1bf2ae9289ccdad8aa5e82ecae283a04920e0cab2dcdf"
+hash = "e74eabbfd14aa741e003234e7f82fd909496272a6f65b142e1115cef398c5de6"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/world.dimensions.md"
-hash = "8ee3865aa357bcbb29dbe50c9882edb274c5ca37fe81e57a62e26a3225abba26"
+hash = "71453e45c55b5477f9b7761fce1490f0123033f1e49c4e61e9eee72b7397c8bf"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/pack.mcmeta"

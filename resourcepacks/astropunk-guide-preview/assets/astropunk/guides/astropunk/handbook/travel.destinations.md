@@ -23,7 +23,20 @@ navigation:
   <ItemIcon id="waystones:waystone" />
 </ItemGrid>
 
-Waystones includes regular, mossy, sandy, blackstone, deepslate, End stone, Nether brick, purpur, prismarine and mud brick destination forms. Activate a waystone before choosing it in your destination list. The interface shows required experience and cooldowns. Create Waystones Recipes adds Create crafting paths.
+| Shown items |
+| --- |
+| <ItemLink id="waystones:blackstone_waystone" /> |
+| <ItemLink id="waystones:deepslate_waystone" /> |
+| <ItemLink id="waystones:end_stone_waystone" /> |
+| <ItemLink id="waystones:mossy_waystone" /> |
+| <ItemLink id="waystones:mud_bricks_waystone" /> |
+| <ItemLink id="waystones:prismarine_waystone" /> |
+| <ItemLink id="waystones:purpur_waystone" /> |
+| <ItemLink id="waystones:red_nether_bricks_waystone" /> |
+| <ItemLink id="waystones:sandy_waystone" /> |
+| <ItemLink id="waystones:waystone" /> |
+
+Waystones supplies destination blocks in different materials. Activate a waystone before choosing it in your destination list. The interface shows required experience and cooldowns. Create Waystones Recipes adds Create crafting paths.
 
 ***
 
@@ -38,6 +51,16 @@ Waystones includes regular, mossy, sandy, blackstone, deepslate, End stone, Neth
   <ItemIcon id="waystones:blank_scroll" />
   <ItemIcon id="waystones:warp_stone" />
 </ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="waystones:orange_sharestone" /> |
+| <ItemLink id="waystones:white_portstone" /> |
+| <ItemLink id="waystones:warp_plate" /> |
+| <ItemLink id="waystones:dormant_shard" /> |
+| <ItemLink id="waystones:attuned_shard" /> |
+| <ItemLink id="waystones:blank_scroll" /> |
+| <ItemLink id="waystones:warp_stone" /> |
 
 Sharestones connect to others of the same color. Portstones provide departure access but cannot be destinations. Warp Plates use attuned shards: attune a Dormant Shard in one plate, then bring it to another. Bind a Blank Scroll by using it on a waystone. Warp Stones and scrolls provide portable access.
 
@@ -54,7 +77,18 @@ Sharestones connect to others of the same color. Portstones provide departure ac
   <ItemIcon id="minecraft:obsidian" />
 </ItemGrid>
 
-Tempad supplies a portable destination interface, Location Cards, Timedoor Projectors, Workstations and chronon power equipment. Open the Tempad location application to manage saved places and inspect its requirements. NetherPortalFix improves Nether portal return matching; it adds no separate destination item. Fixed saved coordinates are not a moving-vehicle tracking system; see [moving destinations](travel.moving-destinations.md).
+| Shown items |
+| --- |
+| <ItemLink id="tempad:tempad" /> |
+| <ItemLink id="tempad:location_card" /> |
+| <ItemLink id="tempad:timedoor_projector" /> |
+| <ItemLink id="tempad:workstation" /> |
+| <ItemLink id="tempad:chronon_generator" /> |
+| <ItemLink id="minecraft:obsidian" /> |
+
+Tempad supplies a portable destination interface, Location Cards, Timedoor Projectors, Workstations and chronon power equipment. Open the Tempad location application to manage saved places and inspect its requirements. NetherPortalFix improves Nether portal return matching. It adds no separate destination item. Fixed saved coordinates are not a moving-vehicle tracking system. See Moving destinations.
+
+- [Moving destinations](travel.moving-destinations.md)
 
 ***
 
@@ -69,7 +103,16 @@ Tempad supplies a portable destination interface, Location Cards, Timedoor Proje
   <ItemIcon id="tempad:card_wallet" />
 </ItemGrid>
 
-Chronometers, Chronon Cells, Batteries and Generators form the time power family. Location Broadcasters, Timedoor Markers, Location Cards and Card Wallets manage location equipment. Time Twisters, Chronomarks, Metronomes, Screening Devices and Knowledge Projectors are separate devices. New Location, Player Teleport and Knowledge Repository upgrades belong to the workstation equipment family. Creative Chronometers are creative equipment.
+| Shown items |
+| --- |
+| <ItemLink id="tempad:chronometer" /> |
+| <ItemLink id="tempad:chronon_cell" /> |
+| <ItemLink id="tempad:chronon_battery" /> |
+| <ItemLink id="tempad:location_broadcaster" /> |
+| <ItemLink id="tempad:timedoor_marker" /> |
+| <ItemLink id="tempad:card_wallet" /> |
+
+Tempad separates time-power equipment from equipment for managing saved locations. Check each device in the location application and recipe browser. Workstation upgrades and creative equipment are separate families, not prerequisites shared by every device.
 
 ***
 

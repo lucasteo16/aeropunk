@@ -26,7 +26,15 @@ Handcrafted cherry bedroom, moony.
   <ItemIcon id="handcrafted:oak_fancy_bed" />
 </ItemGrid>
 
-Handcrafted has chairs, benches, dining benches, tables, side tables, desks, couches, counters, cupboards, drawers, shelves, nightstands and fancy beds. Wood families include oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson and warped.
+| Shown items |
+| --- |
+| <ItemLink id="handcrafted:oak_chair" /> |
+| <ItemLink id="handcrafted:oak_table" /> |
+| <ItemLink id="handcrafted:oak_cupboard" /> |
+| <ItemLink id="handcrafted:oak_couch" /> |
+| <ItemLink id="handcrafted:oak_fancy_bed" /> |
+
+Handcrafted supplies coordinated seating, surfaces, storage-shaped furniture and beds across wood families. The shown oak items are examples, not the complete furniture or wood catalog.
 
 ***
 
@@ -38,6 +46,13 @@ Handcrafted has chairs, benches, dining benches, tables, side tables, desks, cou
   <ItemIcon id="interiors:white_cushion" />
   <ItemIcon id="interiors:kelp_seat" />
 </ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="interiors:white_chair" /> |
+| <ItemLink id="interiors:white_floor_chair" /> |
+| <ItemLink id="interiors:white_cushion" /> |
+| <ItemLink id="interiors:kelp_seat" /> |
 
 Create Interiors supplies chairs, floor chairs and cushions in sixteen dye colors, plus kelp seating. Handcrafted adds colored cushions, sheets and crockery.
 
@@ -54,7 +69,16 @@ Create Interiors supplies chairs, floor chairs and cushions in sixteen dye color
   <ItemIcon id="beautify:oak_trellis" />
 </ItemGrid>
 
-Beautify adds lattices, blinds, picture frames, hanging pots, bookstacks, candelabras and bamboo, bulb and glowstone essence lamps.
+| Shown items |
+| --- |
+| <ItemLink id="beautify:hanging_pot" /> |
+| <ItemLink id="beautify:bookstack" /> |
+| <ItemLink id="beautify:botanist_workbench" /> |
+| <ItemLink id="beautify:lamp_bamboo" /> |
+| <ItemLink id="beautify:lamp_candelabra" /> |
+| <ItemLink id="beautify:oak_trellis" /> |
+
+Beautify supplies plant displays, wall furnishings and decorative lamps. Choose each furnishing through its own recipe.
 
 ***
 
@@ -68,6 +92,14 @@ Beautify adds lattices, blinds, picture frames, hanging pots, bookstacks, candel
   <ItemIcon id="supplementaries:jar" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="supplementaries:awning" /> |
+| <ItemLink id="supplementaries:blackboard" /> |
+| <ItemLink id="supplementaries:clock_block" /> |
+| <ItemLink id="supplementaries:pedestal" /> |
+| <ItemLink id="supplementaries:jar" /> |
+
 Supplementaries supplies awnings, jars, pedestals, blackboards and small furnishings. Amendments changes interactions with existing vanilla blocks. Decorative Food supplies food presentation interactions rather than a separate set of cooking machines. Check the item tooltip before using furniture as storage or machinery.
 
 ***
@@ -75,3 +107,7 @@ Supplementaries supplies awnings, jars, pedestals, blackboards and small furnish
 ## Crafting
 
 <Recipe id="beautify:bookstack" />
+
+## Related topics
+
+- [Item recipe](help.search.md)

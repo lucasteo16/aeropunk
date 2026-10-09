@@ -21,9 +21,9 @@ navigation:
 
 | Items & families | Use |
 | --- | --- |
-| <ItemLink id="minecraft:shulker_box" /> | Vanilla portable container; retains contents when broken. |
+| <ItemLink id="minecraft:shulker_box" /> | Vanilla portable container. Retains contents when broken. |
 | <ItemLink id="reinfshulker:copper_shulker_box" />, <ItemLink id="reinfshulker:iron_shulker_box" /> | Reinforced Shulker Boxes, copper and iron families. |
-| <ItemLink id="reinfshulker:gold_shulker_box" />, <ItemLink id="reinfshulker:diamond_shulker_box" />, <ItemLink id="reinfshulker:netherite_shulker_box" /> | Gold, diamond and netherite families; each also has dyed variants. |
+| <ItemLink id="reinfshulker:gold_shulker_box" />, <ItemLink id="reinfshulker:diamond_shulker_box" />, <ItemLink id="reinfshulker:netherite_shulker_box" /> | Gold, diamond and netherite families. Each also has dyed variants. |
 
 ***
 
@@ -40,14 +40,34 @@ navigation:
 | --- | --- |
 | <ItemLink id="minecraft:leather" />, <ItemLink id="minecraft:chest" /> | Backpacks! supplies Small, Normal, Big and Enormous Backpacks with three, nine, eighteen and forty slots respectively, plus dye and themed variants. |
 | <ItemLink id="minecraft:ender_chest" /> | Backpacks! also supplies an Ender Backpack. |
-| <ItemLink id="minecraft:shulker_shell" /> | Shulker Drops Two sets shell quantity to two by default; the drop chance still applies unless changed in settings. Easy Shulker Boxes adds inventory access to supported containers. |
+| <ItemLink id="minecraft:shulker_shell" /> | Shulker Drops Two sets shell quantity to two by default. The drop chance still applies unless changed in settings. Easy Shulker Boxes adds inventory access to supported containers. |
 
 ***
 
 ## Getting started
 
-Craft a Small Backpack with eight leather around a chest. Its first upgrade uses a chest and iron ingot at a smithing table; later upgrades use diamond, then a netherite upgrade template and netherite ingot. For workshop containers, see [Bulk storage](storage.bulk.md).
+Craft a Small Backpack with eight leather around a chest. Its first upgrade uses a chest and iron ingot at a smithing table. Later upgrades use diamond, then a netherite upgrade template and netherite ingot. For workshop containers, see Bulk storage.
+
+- [Bulk storage](storage.bulk.md)
 
 <Recipe id="backpacks:crafting_table/small" />
 
 <Recipe id="backpacks:crafting_table/ender" />
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="minecraft:iron_ingot" />
+  <ItemIcon id="minecraft:diamond" />
+  <ItemIcon id="minecraft:netherite_upgrade_smithing_template" />
+  <ItemIcon id="minecraft:netherite_ingot" />
+  <ItemIcon id="minecraft:smithing_table" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="minecraft:iron_ingot" /> |
+| <ItemLink id="minecraft:diamond" /> |
+| <ItemLink id="minecraft:netherite_upgrade_smithing_template" /> |
+| <ItemLink id="minecraft:netherite_ingot" /> |
+| <ItemLink id="minecraft:smithing_table" /> |

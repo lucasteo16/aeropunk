@@ -18,6 +18,16 @@ class ButtonPlacementTest {
         assertTrue(button.y() + button.height() <= 236);
     }
 
+    @Test void compactViewportKeepsAnInventoryEntry() {
+        var inventory = new ButtonPlacement.Rect(82, 12, 180, 170);
+        var result = ButtonPlacement.findInventory(344, 194, List.of(inventory));
+        assertTrue(result.isPresent(), "A compact entry must remain available beside the inventory");
+        var button = result.orElseThrow();
+        assertFalse(button.overlaps(inventory));
+        assertEquals(20, button.width());
+        assertEquals(20, button.height());
+    }
+
     @Test void noSpaceDoesNotReplaceControls() {
         assertTrue(ButtonPlacement.find(320, 240, 96, 20,
                 List.of(new ButtonPlacement.Rect(0, 0, 320, 240))).isEmpty());

@@ -21,8 +21,8 @@ navigation:
 
 | Items & families | Use |
 | --- | --- |
-| <ItemLink id="electroenergetics:alternator_rotor" />, <ItemLink id="electroenergetics:stator" />, <ItemLink id="electroenergetics:alternator_brushes" /> | Create: Electro Energetics alternators convert rotation to electricity; three-phase brushes are another family. |
-| <ItemLink id="electroenergetics:accumulator" />, <ItemLink id="electroenergetics:capacitor" />, <ItemLink id="electroenergetics:high_voltage_capacitor" /> | Accumulator and capacitor storage components. |
+| <ItemLink id="electroenergetics:alternator_rotor" />, <ItemLink id="electroenergetics:stator" />, <ItemLink id="electroenergetics:alternator_brushes" /> | Create: Electro Energetics alternators convert rotation to electricity. Three-phase brushes are another family. |
+| <ItemLink id="electroenergetics:accumulator" />, <ItemLink id="electroenergetics:capacitor" />, <ItemLink id="electroenergetics:high_voltage_capacitor" /> | Stores electrical energy for later use. Follow the accumulator Ponder for charging voltage and polarity. |
 
 ***
 
@@ -46,9 +46,9 @@ navigation:
 | Items & families | Use |
 | --- | --- |
 | <ItemLink id="electroenergetics:connector" />, <ItemLink id="electroenergetics:copper_wire_spool" />, <ItemLink id="electroenergetics:insulated_wire" /> | Connector families and copper, iron, electrum and insulated wire families. |
-| <ItemLink id="electroenergetics:transformer" />, <ItemLink id="electroenergetics:transformer_core" />, <ItemLink id="electroenergetics:voltage_regulator" /> | Transformers, cores and voltage regulators; variacs and converters provide additional control. |
-| <ItemLink id="electroenergetics:fuse" />, <ItemLink id="electroenergetics:fuse_holder" />, <ItemLink id="electroenergetics:emergency_stop_button" /> | Fuses, holders, switches and emergency stop controls. |
-| <ItemLink id="electroenergetics:voltmeter" />, <ItemLink id="electroenergetics:ammeter" />, <ItemLink id="electroenergetics:clamp_meter" /> | Voltage and current instruments; energy and frequency meters extend measurement. |
+| <ItemLink id="electroenergetics:transformer" />, <ItemLink id="electroenergetics:transformer_core" />, <ItemLink id="electroenergetics:voltage_regulator" /> | Changes or regulates circuit voltage. Transformer cores have their own power rating and assembly requirements. |
+| <ItemLink id="electroenergetics:fuse" />, <ItemLink id="electroenergetics:fuse_holder" />, <ItemLink id="electroenergetics:emergency_stop_button" /> | Fuses protect against excessive current. The holder and emergency stop provide separate circuit-control components. |
+| <ItemLink id="electroenergetics:voltmeter" />, <ItemLink id="electroenergetics:ammeter" />, <ItemLink id="electroenergetics:clamp_meter" /> | Measures circuit voltage and current. The clamp meter reads the current flowing through a wire. |
 
 ***
 
@@ -72,4 +72,6 @@ navigation:
 
 ## Getting started
 
-Begin with the alternator and Connecting Wires Ponder entries, then add a meter before a motor. Voltage and current matter here; an energized wire is not a generic power cable. Keep this circuit distinct from [Industrial machinery](power.industry.md) unless the intended connection is supported.
+Begin with the alternator and Connecting Wires Ponder entries, then add a meter before a motor. Voltage and current matter here. An energized wire is not a generic power cable. Keep this circuit distinct from Industrial machinery unless the intended connection is supported.
+
+- [Industrial machinery](power.industry.md)

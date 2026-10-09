@@ -28,6 +28,10 @@ navigation:
 
 ## Getting started
 
-Craft a Trading Depot and attach it to a working villager's workstation. Trading happens when the villager next works, during normal working times. Two depots support trades with two inputs; their filters must match or one must be empty. Ponder shows both arrangements.
+Craft a Trading Depot and attach it to a working villager's workstation. Trading happens when the villager next works, during normal working times. Two depots support trades with two inputs. Their filters must match or one must be empty. Ponder shows both arrangements.
 
 <Recipe id="trading_floor:trading_depot" />
+
+## Related topics
+
+- [Item recipe](help.search.md)

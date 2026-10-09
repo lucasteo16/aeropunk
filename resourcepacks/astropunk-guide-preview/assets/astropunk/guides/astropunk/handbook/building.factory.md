@@ -18,7 +18,15 @@ navigation:
   <ItemIcon id="bellsandwhistles:brass_bogie_steps" />
 </ItemGrid>
 
-Create: Bells & Whistles: Pilots, grab bars, steps, headlights, metro casings, panels, windows and trapdoors. Andesite, brass and copper fittings.
+| Shown items |
+| --- |
+| <ItemLink id="bellsandwhistles:brass_pilot" /> |
+| <ItemLink id="bellsandwhistles:brass_grab_rails" /> |
+| <ItemLink id="bellsandwhistles:headlight" /> |
+| <ItemLink id="bellsandwhistles:metro_window" /> |
+| <ItemLink id="bellsandwhistles:brass_bogie_steps" /> |
+
+Create: Bells & Whistles adds exterior train fittings and body panels. Choose the fitting and its material through the recipe browser.
 
 ***
 
@@ -30,7 +38,13 @@ Create: Bells & Whistles: Pilots, grab bars, steps, headlights, metro casings, p
   <ItemIcon id="bits_n_bobs:red_chair" />
 </ItemGrid>
 
-Create: Bits 'n' Bobs: Andesite, asurine, calcite, crimsite, deepslate, diorite, dripstone, granite, limestone, ochrum, scoria, scorchia, tuff and veridium tile families, plus chairs and lamps.
+| Shown items |
+| --- |
+| <ItemLink id="bits_n_bobs:tuff_tiles" /> |
+| <ItemLink id="bits_n_bobs:headlamp" /> |
+| <ItemLink id="bits_n_bobs:red_chair" /> |
+
+Create: Bits 'n' Bobs combines stone tile families with seating and lighting. The shown items identify some of its building choices, not its entire palette.
 
 ***
 
@@ -43,7 +57,14 @@ Create: Bits 'n' Bobs: Andesite, asurine, calcite, crimsite, deepslate, diorite,
   <ItemIcon id="createdeco:red_placard" />
 </ItemGrid>
 
-Create Deco: Brick families include blue, dean, dusk, pearl, scarlet, umber and verdant. Combine normal, cracked, mossy, short, long, tiled and corner patterns with slabs, stairs and walls. Metal catwalks, railings, windows, doors, bars, lamps, decals and placards finish the factory.
+| Shown items |
+| --- |
+| <ItemLink id="createdeco:iron_catwalk" /> |
+| <ItemLink id="createdeco:scarlet_bricks" /> |
+| <ItemLink id="createdeco:pearl_bricks" /> |
+| <ItemLink id="createdeco:red_placard" /> |
+
+Create Deco combines colored brick patterns with matching slabs, stairs and walls. Metal walkways and fittings provide a separate factory finish.
 
 ***
 
@@ -56,7 +77,14 @@ Create Deco: Brick families include blue, dean, dusk, pearl, scarlet, umber and 
   <ItemIcon id="dndecor:diagonal_girder" />
 </ItemGrid>
 
-Create: Design n' Decor: Colored sheet metal, dark metal plating, containers, large girders, industrial cogwheels and large fans; stone pillars, catwalks and boiler casings.
+| Shown items |
+| --- |
+| <ItemLink id="dndecor:gold_catwalk" /> |
+| <ItemLink id="dndecor:gold_boiler" /> |
+| <ItemLink id="dndecor:container" /> |
+| <ItemLink id="dndecor:diagonal_girder" /> |
+
+Create: Design n' Decor supplies industrial cladding and large decorative machine shapes. Check a part's recipe rather than assuming that its appearance makes it functional machinery.
 
 ***
 
@@ -69,7 +97,14 @@ Create: Design n' Decor: Colored sheet metal, dark metal plating, containers, la
   <ItemIcon id="createcasing:copper_chain_conveyor" />
 </ItemGrid>
 
-Create Encased: Wooden shafts and cogwheels, plus copper, industrial iron, weathered iron, railway, shadow steel and refined radiance encased mechanical families. These are individual parts with their own recipes, not a universal material swap.
+| Shown items |
+| --- |
+| <ItemLink id="createcasing:railway_clutch" /> |
+| <ItemLink id="createcasing:industrial_iron_depot" /> |
+| <ItemLink id="createcasing:spruce_shaft" /> |
+| <ItemLink id="createcasing:copper_chain_conveyor" /> |
+
+Create Encased adds wood transmission parts and material-specific encased machines. Each part has its own recipe, rather than accepting a universal casing swap.
 
 ***
 
@@ -82,7 +117,14 @@ Create Encased: Wooden shafts and cogwheels, plus copper, industrial iron, weath
   <ItemIcon id="createframed:cardboard_window" />
 </ItemGrid>
 
-Create: Framed: Framed glass, panes, doors and trapdoors; tiled glass, metal windows and cardboard peepholes. Stained variants provide colored glazing.
+| Shown items |
+| --- |
+| <ItemLink id="createframed:tinted_framed_glass" /> |
+| <ItemLink id="createframed:tinted_tiled_glass" /> |
+| <ItemLink id="createframed:zinc_window" /> |
+| <ItemLink id="createframed:cardboard_window" /> |
+
+Create: Framed supplies framed and tiled glazing for openings. Stained variants provide colored glazing.
 
 ***
 
@@ -95,7 +137,14 @@ Create: Framed: Framed glass, panes, doors and trapdoors; tiled glass, metal win
   <ItemIcon id="createmoregirder:copper_beam" />
 </ItemGrid>
 
-Create: More Girder: Andesite, brass and copper beams and trusses, copper oxidation and waxed variants, struts and brackets, plus copycat forms.
+| Shown items |
+| --- |
+| <ItemLink id="createmoregirder:andesite_beam" /> |
+| <ItemLink id="createmoregirder:brass_truss" /> |
+| <ItemLink id="createmoregirder:copycat_bracket" /> |
+| <ItemLink id="createmoregirder:copper_beam" /> |
+
+Create: More Girder supplies structural beam and truss forms with matching connectors. Copper has oxidation and waxed variants, while copycat forms use a separate texture approach.
 
 ***
 
@@ -107,13 +156,21 @@ Create: More Girder: Andesite, brass and copper beams and trusses, copper oxidat
   <ItemIcon id="createprism:copper_illumination_casing" />
 </ItemGrid>
 
-Create: Prismatic Shine: Andesite, brass and copper glass, clear glass and illumination casings, with encased shafts, cogwheels and large cogwheels. Glass scaffolding is a separate family.
+| Shown items |
+| --- |
+| <ItemLink id="createprism:andesite_glass_casing" /> |
+| <ItemLink id="createprism:brass_clear_glass_casing" /> |
+| <ItemLink id="createprism:copper_illumination_casing" /> |
+
+Create: Prismatic Shine combines glass casings with encased transmission parts. Clear and illuminated casing families are distinct choices. Glass scaffolding is a separate family.
 
 ***
 
 ## Copper aging
 
-Create Oxidized supplies water filling recipes for exposed, weathered and oxidized copper, including Create shingles and tiles with slabs and stairs. Each inspected step uses 250 millibuckets of water. Waxing remains a separate item recipe. [Copycat shapes](building.copycats.md) provide a separate texture system.
+Create Oxidized supplies water filling recipes for exposed, weathered and oxidized copper, including Create shingles and tiles with slabs and stairs. Each inspected step uses 250 millibuckets of water. Waxing remains a separate item recipe. Copycat shapes provide a separate texture system.
+
+- [Copycat shapes](building.copycats.md)
 
 ***
 

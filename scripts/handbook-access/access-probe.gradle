@@ -1,0 +1,12 @@
+allprojects {
+    afterEvaluate {
+        tasks.register('accessProbeClasspath') {
+            doLast {
+                def output = new File(rootProject.projectDir, 'build/access-probe-classpath.txt')
+                output.parentFile.mkdirs()
+                output.text = sourceSets.main.compileClasspath.asPath
+                println 'Probe compile classpath written.'
+            }
+        }
+    }
+}

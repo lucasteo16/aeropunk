@@ -92,4 +92,5 @@ These buildings extend village house pools, rather than creating standalone dung
 
 ## Related
 
-[Structures and dungeons](adventure.structures.md) and [Loot](adventure.loot.md).
+- [Structures and dungeons](adventure.structures.md)
+- [Loot](adventure.loot.md)

@@ -8,28 +8,35 @@ navigation:
 
 # Machine cooking
 
-## Slicers & farming
+## Slicing
 
 <ItemGrid>
   <ItemIcon id="sliceanddice:slicer" />
+  <ItemIcon id="farmersdelight:cutting_board" />
+  <ItemIcon id="farmersdelight:flint_knife" />
+</ItemGrid>
+
+The <ItemLink id="sliceanddice:slicer" /> automates cutting rather than turning every ingredient directly into a finished meal. A <ItemLink id="farmersdelight:flint_knife" /> is a manual cutting tool. Choose the cutting output first, then supply the required ingredient and tool. Use its native Ponder help for assembly. Manual <ItemLink id="farmersdelight:cutting_board" /> recipes show why a whole ingredient and its portions are different inputs.
+
+***
+
+## Drinks & farm fluids
+
+<ItemGrid>
+  <ItemIcon id="farmersdelight:hot_cocoa" />
+  <ItemIcon id="farmersdelight:apple_cider" />
   <ItemIcon id="sliceanddice:sprinkler" />
   <ItemIcon id="sliceanddice:fertilizer_bucket" />
 </ItemGrid>
 
-The Slicer automates cutting. The Sprinkler and liquid fertilizer belong to crop production, not serving dishes.
+Slice & Dice supplies Create filling and emptying recipes for <ItemLink id="farmersdelight:hot_cocoa" /> and <ItemLink id="farmersdelight:apple_cider" />. Fluid handling is a different processing stage from making the drink ingredients. The <ItemLink id="sliceanddice:sprinkler" /> and <ItemLink id="sliceanddice:fertilizer_bucket" /> belong to crop production, not serving containers for meals.
 
 ***
 
-## Processing connections
+## Kitchen integration
 
-Slice & Dice packages Create filling and emptying recipes for hot cocoa and apple cider. Central Kitchen supplies cooking integration rather than a separate meal catalog. Use the item browser to distinguish manual cutting, machine slicing, mixing and fluid handling; a shared ingredient is not proof that every cooking recipe has a machine equivalent.
+Create: Central Kitchen supplies cooking integration rather than another food menu. Inspect the target dish’s actual machine recipe before connecting ingredient delivery and output storage. A shared ingredient does not mean every pot recipe has a machine equivalent.
 
-***
-
-## Getting started
-
-Look up the Slicer recipe, then use its native Ponder help for assembly. Choose a target meal before connecting ingredient delivery and output storage.
-
-<Recipe id="sliceanddice:slicer" />
-
-[Cooking tools](food.utensils.md), [crop production](food.growing.md) and [storage](reference.machines-storage.md).
+- [Cooking tools](food.utensils.md)
+- [Crop production](food.growing.md)
+- [Machines & storage](reference.machines-storage.md)

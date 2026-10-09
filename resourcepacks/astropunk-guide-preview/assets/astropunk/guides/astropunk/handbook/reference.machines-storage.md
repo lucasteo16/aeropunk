@@ -23,7 +23,7 @@ navigation:
 | Reference | Contents |
 | --- | --- |
 | <ItemImage id="create:crushing_wheel" /> [Ore processing](machines.ore-processing.md) | Millstone, crushing wheels and fan washing, with exact outputs. |
-| <ItemImage id="create:water_wheel" /> [Rotation & transmission](machines.rotation.md) | Water, wind and steam sources; gearboxes and clutches. |
+| <ItemImage id="create:water_wheel" /> [Rotation & transmission](machines.rotation.md) | Water, wind and steam sources, gearboxes and clutches. |
 | <ItemImage id="create:packager" /> [Material routing](machines.logistics.md) | Belts, pipes, packages and stock networks. |
 | <ItemImage id="molten_vents:active_molten_asurine" /> [Renewable stone](machines.renewables.md) | Six molten-vent stone families and activation entry. |
 | <ItemImage id="create_enchantment_industry:mechanical_grindstone" /> [Enchanting machinery](machines.enchanting.md) | Liquid experience, enchanters, printers and manual anvils. |

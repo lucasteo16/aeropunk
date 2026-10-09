@@ -16,6 +16,6 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Async Logger (not installed) | Not installed here. |
-| Jasione (not installed) | Not installed here. |
-| ServerCore (not installed) | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> Async Logger (not installed) | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> Jasione (not installed) | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> ServerCore (not installed) | Not installed here. |

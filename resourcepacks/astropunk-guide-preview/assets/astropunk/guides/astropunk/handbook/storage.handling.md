@@ -28,4 +28,6 @@ navigation:
 
 ## Getting started
 
-Open a chest to find the search, sort and transfer controls on supported screens. Configure the Item Filter before collecting drops. Keep valuable items away from TrashSlot and check its instant deletion setting. Current bindings are in [Controls](help.controls.md).
+Open a chest to find the search, sort and transfer controls on supported screens. Configure the Item Filter before collecting drops. Keep valuable items away from TrashSlot and check its instant deletion setting. Current bindings are in Controls.
+
+- [Controls](help.controls.md)

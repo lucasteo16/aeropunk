@@ -17,12 +17,16 @@ navigation:
 
 Carry On 用于搬运受支持的已放置方块和生物。
 
-当前搬运按键：<KeyBind id="key.carry.desc" />。修改方式见[操作与按键](help.controls.md)。
+当前搬运按键为 <KeyBind id="key.carry.desc" />。
 
-搬运贵重机器前，先在普通目标上试用。携带物品栏内容见[便携储存](storage.portable.md)。
+- [操作与按键](help.controls.md)
+
+搬运贵重机器前，先在普通目标上试用。
+
+- [便携储存](storage.portable.md)
 
 ## 相关模组
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
-| Carry On | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
+| ![Carry On](images/catalog-joEfVgkn.png) Carry On | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |

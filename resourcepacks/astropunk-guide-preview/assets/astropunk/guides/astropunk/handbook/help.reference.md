@@ -16,4 +16,4 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Reliable Advancements | In-game advancement editing and improvements to the advancement screen! |
+| ![Reliable Advancements](images/catalog-xVwaUG1g.png) Reliable Advancements | In-game advancement editing and improvements to the advancement screen! |

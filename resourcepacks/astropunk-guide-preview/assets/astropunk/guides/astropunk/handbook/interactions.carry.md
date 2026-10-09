@@ -17,12 +17,16 @@ navigation:
 
 Carry On moves supported placed blocks and creatures.
 
-Your carry key: <KeyBind id="key.carry.desc" />. Check [Controls](help.controls.md) to change it.
+Your carry key is <KeyBind id="key.carry.desc" />.
 
-Test the interaction on an ordinary target before moving a valuable machine. [Portable storage](storage.portable.md) covers carrying inventory contents.
+- [Controls](help.controls.md)
+
+Test the interaction on an ordinary target before moving a valuable machine.
+
+- [Portable storage](storage.portable.md)
 
 ## Related mods
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Carry On | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |
+| ![Carry On](images/catalog-joEfVgkn.png) Carry On | Carry On allows you to pick up Tile Entities and Mobs and carry them around! |

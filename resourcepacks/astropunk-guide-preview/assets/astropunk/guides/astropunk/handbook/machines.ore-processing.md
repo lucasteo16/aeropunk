@@ -46,6 +46,13 @@ Use Ponder for the machine arrangement and power supply.
   <ItemIcon id="minecraft:wheat_seeds" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="minecraft:wheat" /> |
+| <ItemLink id="create:millstone" /> |
+| <ItemLink id="create:wheat_flour" /> |
+| <ItemLink id="minecraft:wheat_seeds" /> |
+
 | Input | Output |
 | --- | --- |
 | One wheat | One wheat flour |
@@ -62,6 +69,13 @@ Use Ponder for the machine arrangement and power supply.
   <ItemIcon id="create:crushed_raw_iron" />
   <ItemIcon id="create:experience_nugget" />
 </ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="minecraft:raw_iron" /> |
+| <ItemLink id="create:crushing_wheel" /> |
+| <ItemLink id="create:crushed_raw_iron" /> |
+| <ItemLink id="create:experience_nugget" /> |
 
 | Input | Output |
 | --- | --- |
@@ -80,9 +94,19 @@ Use Ponder for the machine arrangement and power supply.
   <ItemIcon id="minecraft:redstone" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="create:crushed_raw_iron" /> |
+| <ItemLink id="create:encased_fan" /> |
+| <ItemLink id="minecraft:water_bucket" /> |
+| <ItemLink id="minecraft:iron_nugget" /> |
+| <ItemLink id="minecraft:redstone" /> |
+
 | Input | Output |
 | --- | --- |
 | One crushed raw iron | Nine iron nuggets |
 | Bonus, 75 percent chance | One redstone |
 
-Water is the fan's processing medium, not a consumed bucket. [Material routing](machines.logistics.md) covers moving ingredients and collecting outputs.
+Water is the fan's processing medium, not a consumed bucket. Material routing covers moving ingredients and collecting outputs.
+
+- [Material routing](machines.logistics.md)

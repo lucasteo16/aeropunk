@@ -8,7 +8,7 @@ navigation:
 
 # Armor & status
 
-## Armor & effects
+## Armor & effect displays
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_chestplate" />
@@ -16,12 +16,14 @@ navigation:
   <ItemIcon id="minecraft:potion" />
 </ItemGrid>
 
-Detail Armor Bar Reconstructed makes armor information easier to read. Status Effect Bars Reforged shows effect durations. Stylish Effects changes the status-effect presentation. These displays do not add another equipment slot or another set of combat bonuses.
+Detail Armor Bar Reconstructed makes armor protection easier to read. Status Effect Bars Reforged shows remaining effect durations. Stylish Effects changes effect presentation. These displays do not grant another equipment slot or another combat bonus.
 
 ***
 
-## Reading a loadout
+## Reading your build
 
-Use equipment tooltips for attributes and requirements, the armor display for protection information and the effect display for active durations. A potion effect and an item’s permanent attribute are not the same thing. Adjust display settings if two overlays obscure each other.
+Read equipment tooltips for permanent attributes while the item is equipped. Read effect durations for temporary bonuses. Then compare the spell school and trigger conditions your build actually uses.
 
-[Equipment](equipment.weapons-armor.md), [accessories](equipment.accessories.md) and [skills](combat.skills.md).
+- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
+- [Accessories](equipment.accessories.md) Equip jewelry and relics in their supported slots.
+- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.

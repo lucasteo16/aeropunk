@@ -16,5 +16,5 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Create: AeroWarptics (not installed) | Not installed here. |
-| Create: Northstar-Aeronautics Compatibility (not installed) | Not installed here. |
+| <ItemImage id="minecraft:minecart" /> Create: AeroWarptics (not installed) | Not installed here. |
+| <ItemImage id="minecraft:minecart" /> Create: Northstar-Aeronautics Compatibility (not installed) | Not installed here. |

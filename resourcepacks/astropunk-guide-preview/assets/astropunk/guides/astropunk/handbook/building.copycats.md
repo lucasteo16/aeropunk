@@ -26,7 +26,23 @@ navigation:
   <ItemIcon id="copycats:copycat_ghost_block" />
 </ItemGrid>
 
-Block, slab, stairs, vertical stairs, vertical step, beam, board, wall, fence, fence gate, catwalk, box, ghost block.
+| Shown items |
+| --- |
+| <ItemLink id="copycats:copycat_block" /> |
+| <ItemLink id="copycats:copycat_slab" /> |
+| <ItemLink id="copycats:copycat_stairs" /> |
+| <ItemLink id="copycats:copycat_vertical_stairs" /> |
+| <ItemLink id="copycats:copycat_vertical_step" /> |
+| <ItemLink id="copycats:copycat_beam" /> |
+| <ItemLink id="copycats:copycat_board" /> |
+| <ItemLink id="copycats:copycat_wall" /> |
+| <ItemLink id="copycats:copycat_fence" /> |
+| <ItemLink id="copycats:copycat_fence_gate" /> |
+| <ItemLink id="copycats:copycat_catwalk" /> |
+| <ItemLink id="copycats:copycat_box" /> |
+| <ItemLink id="copycats:copycat_ghost_block" /> |
+
+Copycat structural shapes accept a supported block material. Choose the geometry for the build, then use Ponder for placement and multi-material faces.
 
 ***
 
@@ -50,7 +66,25 @@ Block, slab, stairs, vertical stairs, vertical step, beam, board, wall, fence, f
   <ItemIcon id="copycats:copycat_flat_pane" />
 </ItemGrid>
 
-Layer, half layer, vertical half layer, stacked half layer, slice, vertical slice, corner slice, slope, vertical slope, slope layer, byte, byte panel, half panel, pane, flat pane.
+| Shown items |
+| --- |
+| <ItemLink id="copycats:copycat_layer" /> |
+| <ItemLink id="copycats:copycat_half_layer" /> |
+| <ItemLink id="copycats:copycat_vertical_half_layer" /> |
+| <ItemLink id="copycats:copycat_stacked_half_layer" /> |
+| <ItemLink id="copycats:copycat_slice" /> |
+| <ItemLink id="copycats:copycat_vertical_slice" /> |
+| <ItemLink id="copycats:copycat_corner_slice" /> |
+| <ItemLink id="copycats:copycat_slope" /> |
+| <ItemLink id="copycats:copycat_vertical_slope" /> |
+| <ItemLink id="copycats:copycat_slope_layer" /> |
+| <ItemLink id="copycats:copycat_byte" /> |
+| <ItemLink id="copycats:copycat_byte_panel" /> |
+| <ItemLink id="copycats:copycat_half_panel" /> |
+| <ItemLink id="copycats:copycat_pane" /> |
+| <ItemLink id="copycats:copycat_flat_pane" /> |
+
+Thin layers, panels and sloping shapes give different profiles without changing the applied material. Use the shown item names to distinguish horizontal and vertical forms.
 
 ***
 
@@ -72,7 +106,23 @@ Layer, half layer, vertical half layer, stacked half layer, slice, vertical slic
   <ItemIcon id="copycats:copycat_heavy_weighted_pressure_plate" />
 </ItemGrid>
 
-Door, iron door, sliding door, folding door, trapdoor, iron trapdoor, ladder, stone button, wooden button, stone pressure plate, wooden pressure plate, light weighted pressure plate, heavy weighted pressure plate.
+| Shown items |
+| --- |
+| <ItemLink id="copycats:copycat_door" /> |
+| <ItemLink id="copycats:copycat_iron_door" /> |
+| <ItemLink id="copycats:copycat_sliding_door" /> |
+| <ItemLink id="copycats:copycat_folding_door" /> |
+| <ItemLink id="copycats:copycat_trapdoor" /> |
+| <ItemLink id="copycats:copycat_iron_trapdoor" /> |
+| <ItemLink id="copycats:copycat_ladder" /> |
+| <ItemLink id="copycats:copycat_stone_button" /> |
+| <ItemLink id="copycats:copycat_wooden_button" /> |
+| <ItemLink id="copycats:copycat_stone_pressure_plate" /> |
+| <ItemLink id="copycats:copycat_wooden_pressure_plate" /> |
+| <ItemLink id="copycats:copycat_light_weighted_pressure_plate" /> |
+| <ItemLink id="copycats:copycat_heavy_weighted_pressure_plate" /> |
+
+Copycat openings and control shapes let these parts share a building material. Select the door or control type itself, rather than treating the copied texture as its behavior.
 
 ***
 
@@ -85,13 +135,22 @@ Door, iron door, sliding door, folding door, trapdoor, iron trapdoor, ladder, st
   <ItemIcon id="copycats:copycat_fluid_pipe" />
 </ItemGrid>
 
-Shaft, cogwheel, large cogwheel, fluid pipe.
+| Shown items |
+| --- |
+| <ItemLink id="copycats:copycat_shaft" /> |
+| <ItemLink id="copycats:copycat_cogwheel" /> |
+| <ItemLink id="copycats:copycat_large_cogwheel" /> |
+| <ItemLink id="copycats:copycat_fluid_pipe" /> |
+
+Copycat transmission and pipe shapes combine machine geometry with an applied block material. Check each part through its recipe and Ponder help.
 
 ***
 
 ## Getting started
 
-Craft the desired shape, then apply a supported block material. Use its Ponder entry for multi-material faces and placement. Copying a texture does not establish hull pressure resistance or airtightness; see [water vehicles](vehicles.water.md).
+Craft the desired shape, then apply a supported block material. Use its Ponder entry for multi-material faces and placement. Copying a texture does not establish hull pressure resistance or airtightness. See Water vehicles.
+
+- [Water vehicles](vehicles.water.md)
 
 ***
 

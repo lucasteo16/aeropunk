@@ -16,9 +16,9 @@ navigation:
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
-| [EMF] Entity Model Features | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
-| [ETF] Entity Texture Features | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
-| Eating Animations（重型版，当前未安装） | 当前未安装。 |
-| Fancy World Animations [FWA]（重型版，当前未安装） | 当前未安装。 |
-| Not Enough Animations（重型版，当前未安装） | 当前未安装。 |
-| Spawn Animations（重型版，当前未安装） | 当前未安装。 |
+| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [EMF] Entity Model Features | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
+| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [ETF] Entity Texture Features | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
+| <ItemImage id="minecraft:painting" /> Eating Animations（重型版，当前未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:painting" /> Fancy World Animations [FWA]（重型版，当前未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:painting" /> Not Enough Animations（重型版，当前未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:painting" /> Spawn Animations（重型版，当前未安装） | 当前未安装。 |

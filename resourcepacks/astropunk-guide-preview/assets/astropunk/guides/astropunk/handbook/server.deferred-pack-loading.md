@@ -16,4 +16,4 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Paxi (not installed) | Not installed here. |
+| <ItemImage id="minecraft:redstone" /> Paxi (not installed) | Not installed here. |

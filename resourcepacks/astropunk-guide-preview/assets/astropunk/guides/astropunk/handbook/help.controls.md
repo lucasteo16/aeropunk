@@ -8,17 +8,6 @@ navigation:
 
 # Controls
 
-## Movement
-
-| Action | Your key |
-| --- | --- |
-| Inventory | <KeyBind id="key.inventory" /> |
-| Jump | <KeyBind id="key.jump" /> |
-| Sneak | <KeyBind id="key.sneak" /> |
-| Sprint | <KeyBind id="key.sprint" /> |
-
-***
-
 ## Maps & tools
 
 | Action | Your key |
@@ -37,9 +26,9 @@ navigation:
 | Open handbook | <KeyBind id="key.astropunk_handbook_access.open" /> |
 | Item guide | <KeyBind id="key.guideme.guide" /> |
 
-The inventory also has a Handbook button. The item guide needs a hovered item linked to a handbook page.
+The item guide is contextual. It needs a hovered item associated with a guide page, it is not a whole-handbook shortcut. The custom handbook shortcut and inventory button are currently unavailable in the reviewed instance.
 
-If the shortcut does not open the handbook, use /guidemec astropunk:handbook open.
+Open chat and enter <Color id="gold">/guidemec astropunk:handbook open</Color> to use the command entry point.
 
 ***
 
@@ -50,7 +39,9 @@ If the shortcut does not open the handbook, use /guidemec astropunk:handbook ope
 | Recipes | R |
 | Uses | U |
 
-Change these in the item browser settings. Create's Ponder tooltip displays its own key. See [Item recipe](help.search.md) for illustrated examples.
+Change these in the item browser settings. Create's Ponder tooltip displays its own key.
+
+- [Item recipe](help.search.md)
 
 ***
 

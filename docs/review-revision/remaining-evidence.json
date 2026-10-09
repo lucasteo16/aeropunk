@@ -1,0 +1,1592 @@
+{
+  "scope": "Existing authored machines, power, storage, building, vehicles, transport, travel, maps, handbook help and remaining adventure topics. No new work-in-progress content. Controls, item-recipe help, bosses, creatures and structures are excluded.",
+  "format": "remaining-content.json is a topic-to-locale replacement fragment for the parent to merge into docs/handbook-content.json.",
+  "counts": {
+    "topics": 40,
+    "locale_bodies": 80,
+    "unique_native_item_ids": 534,
+    "selected_archives_read": 81
+  },
+  "topics": {
+    "machines.ore-processing": {
+      "source_references": [
+        "docs/handbook-content.json#machines.ore-processing",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.ore-processing"
+      ],
+      "native_item_ids": [
+        "create:crushed_raw_iron",
+        "create:crushing_wheel",
+        "create:encased_fan",
+        "create:experience_nugget",
+        "create:millstone",
+        "create:wheat_flour",
+        "minecraft:iron_nugget",
+        "minecraft:raw_iron",
+        "minecraft:redstone",
+        "minecraft:water_bucket",
+        "minecraft:wheat",
+        "minecraft:wheat_seeds"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "create:crafting/kinetics/millstone"
+      ],
+      "page_destinations": [
+        "machines.logistics.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "maps.find": {
+      "source_references": [
+        "docs/handbook-content.json#maps.find",
+        "docs/quick-reference-work/parent-reference-evidence.json"
+      ],
+      "native_item_ids": [
+        "explorerscompass:explorerscompass",
+        "naturescompass:naturescompass"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.search.md",
+        "world.dimensions.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "help.handbook": {
+      "source_references": [
+        "docs/handbook-content.json#help.handbook"
+      ],
+      "native_item_ids": [],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.controls.md",
+        "help.search.md",
+        "index.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "storage.portable": {
+      "source_references": [
+        "docs/handbook-content.json#storage.portable",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.storage.portable"
+      ],
+      "native_item_ids": [
+        "minecraft:chest",
+        "minecraft:diamond",
+        "minecraft:ender_chest",
+        "minecraft:iron_ingot",
+        "minecraft:leather",
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:shulker_box",
+        "minecraft:shulker_shell",
+        "minecraft:smithing_table",
+        "reinfshulker:copper_shulker_box",
+        "reinfshulker:diamond_shulker_box",
+        "reinfshulker:gold_shulker_box",
+        "reinfshulker:iron_shulker_box",
+        "reinfshulker:netherite_shulker_box"
+      ],
+      "added_item_ids": [
+        "minecraft:diamond",
+        "minecraft:iron_ingot",
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:smithing_table"
+      ],
+      "unchanged_recipe_ids": [
+        "backpacks:crafting_table/small",
+        "backpacks:crafting_table/ender"
+      ],
+      "page_destinations": [
+        "storage.bulk.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "travel.destinations": {
+      "source_references": [
+        "docs/handbook-content.json#travel.destinations",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.travel.destinations"
+      ],
+      "native_item_ids": [
+        "minecraft:obsidian",
+        "tempad:card_wallet",
+        "tempad:chronometer",
+        "tempad:chronon_battery",
+        "tempad:chronon_cell",
+        "tempad:chronon_generator",
+        "tempad:location_broadcaster",
+        "tempad:location_card",
+        "tempad:tempad",
+        "tempad:timedoor_marker",
+        "tempad:timedoor_projector",
+        "tempad:workstation",
+        "waystones:attuned_shard",
+        "waystones:blackstone_waystone",
+        "waystones:blank_scroll",
+        "waystones:deepslate_waystone",
+        "waystones:dormant_shard",
+        "waystones:end_stone_waystone",
+        "waystones:mossy_waystone",
+        "waystones:mud_bricks_waystone",
+        "waystones:orange_sharestone",
+        "waystones:prismarine_waystone",
+        "waystones:purpur_waystone",
+        "waystones:red_nether_bricks_waystone",
+        "waystones:sandy_waystone",
+        "waystones:warp_plate",
+        "waystones:warp_stone",
+        "waystones:waystone",
+        "waystones:white_portstone"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "waystones:orange_sharestone_recolor"
+      ],
+      "page_destinations": [
+        "travel.moving-destinations.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.copycats": {
+      "source_references": [
+        "docs/handbook-content.json#building.copycats",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.copycats",
+        "docs/quick-reference-work/parent-native-identifier-verification.json"
+      ],
+      "native_item_ids": [
+        "copycats:copycat_beam",
+        "copycats:copycat_block",
+        "copycats:copycat_board",
+        "copycats:copycat_box",
+        "copycats:copycat_byte",
+        "copycats:copycat_byte_panel",
+        "copycats:copycat_catwalk",
+        "copycats:copycat_cogwheel",
+        "copycats:copycat_corner_slice",
+        "copycats:copycat_door",
+        "copycats:copycat_fence",
+        "copycats:copycat_fence_gate",
+        "copycats:copycat_flat_pane",
+        "copycats:copycat_fluid_pipe",
+        "copycats:copycat_folding_door",
+        "copycats:copycat_ghost_block",
+        "copycats:copycat_half_layer",
+        "copycats:copycat_half_panel",
+        "copycats:copycat_heavy_weighted_pressure_plate",
+        "copycats:copycat_iron_door",
+        "copycats:copycat_iron_trapdoor",
+        "copycats:copycat_ladder",
+        "copycats:copycat_large_cogwheel",
+        "copycats:copycat_layer",
+        "copycats:copycat_light_weighted_pressure_plate",
+        "copycats:copycat_pane",
+        "copycats:copycat_shaft",
+        "copycats:copycat_slab",
+        "copycats:copycat_slice",
+        "copycats:copycat_sliding_door",
+        "copycats:copycat_slope",
+        "copycats:copycat_slope_layer",
+        "copycats:copycat_stacked_half_layer",
+        "copycats:copycat_stairs",
+        "copycats:copycat_stone_button",
+        "copycats:copycat_stone_pressure_plate",
+        "copycats:copycat_trapdoor",
+        "copycats:copycat_vertical_half_layer",
+        "copycats:copycat_vertical_slice",
+        "copycats:copycat_vertical_slope",
+        "copycats:copycat_vertical_stairs",
+        "copycats:copycat_vertical_step",
+        "copycats:copycat_wall",
+        "copycats:copycat_wooden_button",
+        "copycats:copycat_wooden_pressure_plate"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "copycats:crafting/copycat_block_from_slabs"
+      ],
+      "page_destinations": [
+        "vehicles.water.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "maps.personal": {
+      "source_references": [
+        "docs/handbook-content.json#maps.personal",
+        "docs/quick-reference-work/parent-reference-evidence.json"
+      ],
+      "native_item_ids": [],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "maps.find.md",
+        "maps.shared.md",
+        "world.dimensions.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "maps.shared": {
+      "source_references": [
+        "docs/handbook-content.json#maps.shared",
+        "docs/quick-reference-work/parent-reference-evidence.json"
+      ],
+      "native_item_ids": [],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "maps.personal.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "adventure.settlements": {
+      "source_references": [
+        "docs/handbook-content.json#adventure.settlements",
+        "docs/quick-reference-work/encounters-evidence.json"
+      ],
+      "native_item_ids": [],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "adventure.loot.md",
+        "adventure.structures.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "adventure.loot": {
+      "source_references": [
+        "docs/handbook-content.json#adventure.loot",
+        "docs/quick-reference-work/encounters-evidence.json"
+      ],
+      "native_item_ids": [],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.palette": {
+      "source_references": [
+        "docs/handbook-content.json#building.palette",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.palette"
+      ],
+      "native_item_ids": [
+        "chipped:alchemy_bench",
+        "chipped:ancient_gold_block",
+        "chipped:angry_mossy_stone_bricks",
+        "chipped:angry_raw_gold_block",
+        "chipped:arched_black_stained_glass_pillar",
+        "chipped:arched_blue_stained_glass_pillar",
+        "chipped:barbed_iron_bars",
+        "chipped:barky_white_wool",
+        "chipped:basket_woven_oak_planks",
+        "chipped:blobby_moss_block",
+        "chipped:blocky_white_wool",
+        "chipped:blue_moss_block",
+        "chipped:bolted_iron_bars",
+        "chipped:bordered_mossy_stone_bricks",
+        "chipped:botanist_workbench",
+        "chipped:boxed_oak_planks",
+        "chipped:carpenters_table",
+        "chipped:glassblower",
+        "chipped:loom_table",
+        "chipped:mason_table",
+        "chipped:tinkering_table"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "minecraft:workbench/alchemy_bench"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.factory": {
+      "source_references": [
+        "docs/handbook-content.json#building.factory",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.factory"
+      ],
+      "native_item_ids": [
+        "bellsandwhistles:brass_bogie_steps",
+        "bellsandwhistles:brass_grab_rails",
+        "bellsandwhistles:brass_pilot",
+        "bellsandwhistles:headlight",
+        "bellsandwhistles:metro_window",
+        "bits_n_bobs:headlamp",
+        "bits_n_bobs:red_chair",
+        "bits_n_bobs:tuff_tiles",
+        "createcasing:copper_chain_conveyor",
+        "createcasing:industrial_iron_depot",
+        "createcasing:railway_clutch",
+        "createcasing:spruce_shaft",
+        "createdeco:iron_catwalk",
+        "createdeco:pearl_bricks",
+        "createdeco:red_placard",
+        "createdeco:scarlet_bricks",
+        "createframed:cardboard_window",
+        "createframed:tinted_framed_glass",
+        "createframed:tinted_tiled_glass",
+        "createframed:zinc_window",
+        "createmoregirder:andesite_beam",
+        "createmoregirder:brass_truss",
+        "createmoregirder:copper_beam",
+        "createmoregirder:copycat_bracket",
+        "createprism:andesite_glass_casing",
+        "createprism:brass_clear_glass_casing",
+        "createprism:copper_illumination_casing",
+        "dndecor:container",
+        "dndecor:diagonal_girder",
+        "dndecor:gold_boiler",
+        "dndecor:gold_catwalk"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "bellsandwhistles:bogie_steps/brass_bogie_steps"
+      ],
+      "page_destinations": [
+        "building.copycats.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.architecture": {
+      "source_references": [
+        "docs/handbook-content.json#building.architecture",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.architecture"
+      ],
+      "native_item_ids": [
+        "mcwbridges:oak_bridge_pier",
+        "mcwbridges:oak_log_bridge_middle",
+        "mcwbridges:oak_rail_bridge",
+        "mcwbridges:stone_brick_bridge",
+        "mcwdoors:oak_barn_door",
+        "mcwdoors:oak_japanese_door",
+        "mcwdoors:oak_modern_door",
+        "mcwfences:bastion_metal_fence",
+        "mcwfences:oak_hedge",
+        "mcwfences:oak_picket_fence",
+        "mcwfences:oak_stockade_fence",
+        "mcwroofs:oak_attic_roof",
+        "mcwroofs:oak_roof",
+        "mcwroofs:oak_steep_roof",
+        "mcwroofs:oak_top_roof",
+        "mcwstairs:oak_balcony",
+        "mcwstairs:oak_bulk_stairs",
+        "mcwstairs:oak_compact_stairs",
+        "mcwstairs:oak_loft_stairs",
+        "mcwstairs:oak_railing",
+        "mcwstairs:oak_skyline_stairs",
+        "mcwwindows:black_curtain",
+        "mcwwindows:oak_pane_window",
+        "mcwwindows:oak_shutter",
+        "mcwwindows:oak_window",
+        "minecraft:chain"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "mcwbridges:oak_bridge_pier"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.furniture": {
+      "source_references": [
+        "docs/handbook-content.json#building.furniture",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.furniture"
+      ],
+      "native_item_ids": [
+        "beautify:bookstack",
+        "beautify:botanist_workbench",
+        "beautify:hanging_pot",
+        "beautify:lamp_bamboo",
+        "beautify:lamp_candelabra",
+        "beautify:oak_trellis",
+        "handcrafted:oak_chair",
+        "handcrafted:oak_couch",
+        "handcrafted:oak_cupboard",
+        "handcrafted:oak_fancy_bed",
+        "handcrafted:oak_table",
+        "interiors:kelp_seat",
+        "interiors:white_chair",
+        "interiors:white_cushion",
+        "interiors:white_floor_chair",
+        "supplementaries:awning",
+        "supplementaries:blackboard",
+        "supplementaries:clock_block",
+        "supplementaries:jar",
+        "supplementaries:pedestal"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "beautify:bookstack"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.displays": {
+      "source_references": [
+        "docs/handbook-content.json#building.displays",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.displays"
+      ],
+      "native_item_ids": [
+        "immersive_paintings:glow_graffiti",
+        "immersive_paintings:glow_painting",
+        "immersive_paintings:graffiti",
+        "immersive_paintings:painting",
+        "items_displayed:black_jewelry_pillow",
+        "items_displayed:blue_jewelry_pillow",
+        "items_displayed:brown_jewelry_pillow",
+        "minecraft:armor_stand",
+        "minecraft:oak_sign",
+        "strawstatues:straw_statue"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "immersive_paintings:graffiti"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.placement": {
+      "source_references": [
+        "docs/handbook-content.json#building.placement",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.placement"
+      ],
+      "native_item_ids": [
+        "create_pattern_schematics:empty_pattern_schematic",
+        "create_pattern_schematics:pattern_schematic",
+        "create_pattern_schematics:pattern_schematic_and_quill",
+        "createshufflefilter:shuffle_filter",
+        "createshufflefilter:weighted_shuffle_filter",
+        "mechtrowel:mech_trowel"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "create_pattern_schematics:pattern_schematic"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "building.safety": {
+      "source_references": [
+        "docs/handbook-content.json#building.safety",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.building.safety"
+      ],
+      "native_item_ids": [
+        "torchmaster:dreadlamp",
+        "torchmaster:feral_flare_lantern",
+        "torchmaster:frozen_pearl",
+        "torchmaster:megatorch"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "torchmaster:frozen_pearl"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.assembly": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.assembly",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.assembly"
+      ],
+      "native_item_ids": [
+        "create:super_glue",
+        "offroad:borehead_bearing",
+        "offroad:large_tire",
+        "offroad:monstrous_tire",
+        "offroad:small_tire",
+        "offroad:tire",
+        "offroad:wheel_mount",
+        "simulated:contraption_diagram",
+        "simulated:docking_connector",
+        "simulated:honey_glue",
+        "simulated:navigation_table",
+        "simulated:physics_assembler",
+        "simulated:rope_connector",
+        "simulated:rope_coupling",
+        "simulated:rope_winch",
+        "simulated:spring",
+        "simulated:swivel_bearing"
+      ],
+      "added_item_ids": [
+        "create:super_glue"
+      ],
+      "unchanged_recipe_ids": [
+        "offroad:borehead_bearing"
+      ],
+      "page_destinations": [
+        "vehicles.controls.md",
+        "vehicles.engines.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.airships": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.airships",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.airships"
+      ],
+      "native_item_ids": [
+        "aeroencasedpipe:white_envelope_encased_pipe",
+        "aeronautics:adjustable_burner",
+        "aeronautics:andesite_propeller",
+        "aeronautics:gyroscopic_propeller_bearing",
+        "aeronautics:propeller_bearing",
+        "aeronautics:smart_propeller",
+        "aeronautics:white_envelope",
+        "aeronautics:white_envelope_encased_shaft",
+        "aeronautics:wooden_propeller",
+        "ballastmod:ballast_stones",
+        "simulated:white_symmetric_sail"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.engines": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.engines",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.engines"
+      ],
+      "native_item_ids": [
+        "aeroengineering:aviation_alloy_ingot",
+        "aeroengineering:aviation_alloy_sheet",
+        "aeroengineering:aviation_blade",
+        "aeroengineering:aviation_kerosene_bucket",
+        "aeroengineering:compressor_component",
+        "aeroengineering:engine_combustor",
+        "aeroengineering:engine_compressor",
+        "aeroengineering:engine_exhaust_cone",
+        "aeroengineering:engine_fan",
+        "aeroengineering:engine_turbine",
+        "aeroengineering:turbine_component",
+        "createpropulsion:ion_thruster",
+        "createpropulsion:liquid_vector_thruster",
+        "createpropulsion:platinum_ingot",
+        "createpropulsion:solid_fuel_thruster",
+        "createpropulsion:stirling_engine",
+        "createpropulsion:thruster",
+        "createpropulsion:turpentine_bucket",
+        "createpropulsion:vector_thruster",
+        "minecraft:redstone"
+      ],
+      "added_item_ids": [
+        "minecraft:redstone"
+      ],
+      "unchanged_recipe_ids": [
+        "aeroengineering:compressor_component"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.controls": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.controls",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.controls"
+      ],
+      "native_item_ids": [
+        "aeroengineering:engine_monitor_helmet",
+        "aeroengineering:folding_landing_gear_bearing",
+        "aeroengineering:hud_display",
+        "aeroworks:control_desk",
+        "aeroworks:gyroscope",
+        "aeroworks:joystick_module",
+        "aeroworks:mechanical_servo",
+        "aeroworks:stepper_servo",
+        "aeroworks:throttle_quadrant_module",
+        "aeroworks:wheel_module",
+        "create:redstone_link",
+        "create:wrench",
+        "create_tweaked_controllers:tweaked_linked_controller",
+        "simulated:altitude_sensor",
+        "simulated:directional_linked_receiver",
+        "simulated:gimbal_sensor",
+        "simulated:laser_sensor",
+        "simulated:modulating_linked_receiver",
+        "simulated:optical_sensor",
+        "simulated:steering_wheel",
+        "simulated:throttle_lever",
+        "simulated:velocity_sensor"
+      ],
+      "added_item_ids": [
+        "create:redstone_link",
+        "create:wrench"
+      ],
+      "unchanged_recipe_ids": [
+        "aeroworks:throttle_quadrant_module"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.radar": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.radar",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.radar"
+      ],
+      "native_item_ids": [
+        "aeroengineering:airborne_radar",
+        "create_radar:auto_pitch_controller",
+        "create_radar:auto_yaw_controller",
+        "create_radar:binoculars",
+        "create_radar:data_link",
+        "create_radar:fire_controller",
+        "create_radar:guided_fuze",
+        "create_radar:ident_filter_item",
+        "create_radar:identification_transponder",
+        "create_radar:monitor",
+        "create_radar:network_filterer",
+        "create_radar:plane_radar",
+        "create_radar:radar_bearing",
+        "create_radar:radar_dish_block",
+        "create_radar:radar_filter_item",
+        "create_radar:radar_plate_block",
+        "create_radar:radar_receiver_block",
+        "create_radar:radar_safe_zone_designator",
+        "create_radar:radar_warning_receiver",
+        "create_radar:target_filter_item"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "create_radar:crafting/auto_pitch_controller"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.weapons": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.weapons",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.weapons"
+      ],
+      "native_item_ids": [
+        "aeroengineering:air_to_air_missile",
+        "aeroengineering:missile_assembly_station",
+        "aeronautics:mounted_potato_cannon",
+        "createbigcannons:ap_shell",
+        "createbigcannons:ap_shot",
+        "createbigcannons:autocannon_ammo_container",
+        "createbigcannons:bag_of_grapeshot",
+        "createbigcannons:big_cartridge",
+        "createbigcannons:bronze_autocannon_barrel",
+        "createbigcannons:cannon_mount",
+        "createbigcannons:steel_cannon_barrel",
+        "createbigcannons:steel_sliding_breech"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "createbigcannons:ap_shot"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "vehicles.water": {
+      "source_references": [
+        "docs/handbook-content.json#vehicles.water",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.vehicles.water"
+      ],
+      "native_item_ids": [
+        "create_submarine:arresting_hook",
+        "create_submarine:ballast_tank",
+        "create_submarine:ballast_vent",
+        "create_submarine:barometer",
+        "create_submarine:copper_pressurizer",
+        "create_submarine:decompression_chamber",
+        "create_submarine:electrolyzer",
+        "create_submarine:floater",
+        "create_submarine:industrial_alarm",
+        "create_submarine:iron_pressurizer",
+        "create_submarine:oxygene_diffuser",
+        "create_submarine:phycological_membrane",
+        "create_submarine:pulley",
+        "create_submarine:steel_cable",
+        "create_submarine:submarine_propeller",
+        "create_submarine:underwater_mine",
+        "create_submarine:water_thruster"
+      ],
+      "added_item_ids": [
+        "create_submarine:arresting_hook",
+        "create_submarine:decompression_chamber"
+      ],
+      "unchanged_recipe_ids": [
+        "create_submarine:ballast_tank"
+      ],
+      "page_destinations": [
+        "world.dimensions.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "transport.passenger": {
+      "source_references": [
+        "docs/handbook-content.json#transport.passenger",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.transport.passenger"
+      ],
+      "native_item_ids": [
+        "create:wrench",
+        "createrailwaysnavigator:advanced_display",
+        "createrailwaysnavigator:advanced_display_block",
+        "createrailwaysnavigator:advanced_display_half_panel",
+        "createrailwaysnavigator:advanced_display_panel",
+        "createrailwaysnavigator:advanced_display_slab",
+        "createrailwaysnavigator:advanced_display_sloped",
+        "createrailwaysnavigator:advanced_display_small",
+        "createrailwaysnavigator:navigator",
+        "createrailwaysnavigator:train_station_clock"
+      ],
+      "added_item_ids": [
+        "create:wrench"
+      ],
+      "unchanged_recipe_ids": [
+        "createrailwaysnavigator:advanced_display"
+      ],
+      "page_destinations": [
+        "transport.railway-builder.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "transport.railway-builder": {
+      "source_references": [
+        "docs/handbook-content.json#transport.railway-builder",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.transport.railway-builder"
+      ],
+      "native_item_ids": [
+        "create:controls",
+        "create:railway_casing",
+        "create:schedule",
+        "create:track",
+        "create:track_station"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "building.factory.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "transport.local": {
+      "source_references": [
+        "docs/handbook-content.json#transport.local",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.transport.local"
+      ],
+      "native_item_ids": [
+        "create_hypertube:hypertube",
+        "create_hypertube:hypertube_accelerator",
+        "create_hypertube:hypertube_entrance",
+        "create_hypertube:hypertube_junction",
+        "create_hypertube:tube_scanner_attachment",
+        "escalated:metal_walkway_steps",
+        "escalated:wooden_walkway_steps"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "escalated:metal_walkway_steps"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "travel.moving-destinations": {
+      "source_references": [
+        "docs/handbook-content.json#travel.moving-destinations",
+        "docs/quick-reference-work/building-travel-evidence.json#topics.travel.moving-destinations"
+      ],
+      "native_item_ids": [
+        "simulated:physics_assembler",
+        "waystones:warp_plate",
+        "waystones:waystone"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "travel.destinations.md",
+        "vehicles.assembly.md",
+        "world.dimensions.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "storage.bulk": {
+      "source_references": [
+        "docs/handbook-content.json#storage.bulk",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.storage.bulk"
+      ],
+      "native_item_ids": [
+        "create:item_vault",
+        "create_connected:fluid_vessel",
+        "create_connected:inventory_access_port",
+        "create_connected:inventory_bridge",
+        "create_connected:item_silo",
+        "create_vibrant_vaults:basic_shipping_container",
+        "create_vibrant_vaults:shipping_container",
+        "create_vibrant_vaults:vertical_basic_shipping_container",
+        "create_vibrant_vaults:vertical_item_vault",
+        "create_vibrant_vaults:vertical_shipping_container"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "machines.logistics.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "storage.handling": {
+      "source_references": [
+        "docs/handbook-content.json#storage.handling",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.storage.handling"
+      ],
+      "native_item_ids": [
+        "interactic:item_filter",
+        "minecraft:chest",
+        "minecraft:hopper",
+        "minecraft:lava_bucket"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.controls.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "machines.rotation": {
+      "source_references": [
+        "docs/handbook-content.json#machines.rotation",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.rotation"
+      ],
+      "native_item_ids": [
+        "create:cogwheel",
+        "create:gearbox",
+        "create:large_water_wheel",
+        "create:shaft",
+        "create:steam_engine",
+        "create:water_wheel",
+        "create:windmill_bearing",
+        "create_connected:brake",
+        "create_connected:brass_gearbox",
+        "create_connected:centrifugal_clutch",
+        "create_connected:crank_wheel",
+        "create_connected:cross_connector",
+        "create_connected:encased_chain_cogwheel",
+        "create_connected:freewheel_clutch",
+        "create_connected:inverted_clutch",
+        "create_connected:inverted_gearshift",
+        "create_connected:kinetic_bridge",
+        "create_connected:overstress_clutch",
+        "create_connected:parallel_gearbox",
+        "create_connected:shear_pin",
+        "create_connected:six_way_gearbox"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "power.stored-rotation.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "machines.logistics": {
+      "source_references": [
+        "docs/handbook-content.json#machines.logistics",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.logistics"
+      ],
+      "native_item_ids": [
+        "create:andesite_funnel",
+        "create:belt_connector",
+        "create:brass_funnel",
+        "create:brass_tunnel",
+        "create:chain_conveyor",
+        "create:chute",
+        "create:fluid_pipe",
+        "create:mechanical_arm",
+        "create:mechanical_pump",
+        "create:package_frogport",
+        "create:packager",
+        "create:redstone_requester",
+        "create:smart_fluid_pipe",
+        "create:stock_link",
+        "create_connected:brass_chute",
+        "createadditionallogistics:cash_register",
+        "createadditionallogistics:flexible_shaft",
+        "createadditionallogistics:lazy_cogwheel",
+        "createadditionallogistics:lazy_shaft",
+        "createadditionallogistics:network_monitor",
+        "createadditionallogistics:package_accelerator",
+        "createadditionallogistics:package_editor",
+        "createadditionallogistics:sales_ledger"
+      ],
+      "added_item_ids": [
+        "createadditionallogistics:network_monitor",
+        "createadditionallogistics:sales_ledger"
+      ],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "machines.renewables": {
+      "source_references": [
+        "docs/handbook-content.json#machines.renewables",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.renewables"
+      ],
+      "native_item_ids": [
+        "molten_vents:active_molten_asurine",
+        "molten_vents:active_molten_crimsite",
+        "molten_vents:active_molten_ochrum",
+        "molten_vents:active_molten_scorchia",
+        "molten_vents:active_molten_scoria",
+        "molten_vents:active_molten_veridium",
+        "molten_vents:dormant_molten_asurine"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "machines.ore-processing.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "machines.enchanting": {
+      "source_references": [
+        "docs/handbook-content.json#machines.enchanting",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.enchanting"
+      ],
+      "native_item_ids": [
+        "create:item_drain",
+        "create_enchantment_industry:affix_augmentor",
+        "create_enchantment_industry:blaze_composer",
+        "create_enchantment_industry:blaze_enchanter",
+        "create_enchantment_industry:blaze_forger",
+        "create_enchantment_industry:brass_bookshelf",
+        "create_enchantment_industry:enchanting_template",
+        "create_enchantment_industry:experience_hatch",
+        "create_enchantment_industry:experience_lantern",
+        "create_enchantment_industry:gem_cutter",
+        "create_enchantment_industry:grindstone_drain",
+        "create_enchantment_industry:infuser",
+        "create_enchantment_industry:mechanical_grindstone",
+        "create_enchantment_industry:printer",
+        "minecraft:anvil",
+        "minecraft:name_tag"
+      ],
+      "added_item_ids": [
+        "create:item_drain"
+      ],
+      "unchanged_recipe_ids": [
+        "create_enchantment_industry:crafting/mechanical_grindstone"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "machines.trading": {
+      "source_references": [
+        "docs/handbook-content.json#machines.trading",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.trading"
+      ],
+      "native_item_ids": [
+        "create:brass_funnel",
+        "create:mechanical_arm",
+        "minecraft:emerald",
+        "minecraft:lectern",
+        "trading_floor:trading_depot"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "trading_floor:trading_depot"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "machines.miscellaneous": {
+      "source_references": [
+        "docs/handbook-content.json#machines.miscellaneous",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.machines.miscellaneous"
+      ],
+      "native_item_ids": [
+        "create:steam_engine",
+        "create_sa:block_picker",
+        "create_sa:brass_drone_item",
+        "create_sa:copper_magnet",
+        "create_sa:drone_controller",
+        "create_sa:heat_engine",
+        "create_sa:hydraulic_engine",
+        "create_sa:large_filling_tank",
+        "create_sa:medium_filling_tank",
+        "create_sa:portable_drill",
+        "create_sa:small_filling_tank",
+        "create_sa:steam_engine",
+        "minecraft:blue_dye",
+        "minecraft:brown_mushroom",
+        "minecraft:brown_mushroom_block",
+        "minecraft:feather",
+        "minecraft:phantom_membrane",
+        "minecraft:prismarine_shard",
+        "minecraft:red_mushroom",
+        "minecraft:red_mushroom_block"
+      ],
+      "added_item_ids": [
+        "create:steam_engine",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom"
+      ],
+      "unchanged_recipe_ids": [
+        "stam1ocreatetweaks:blasting/blue_dye"
+      ],
+      "page_destinations": [
+        "equipment.weapons-armor.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "power.electricity": {
+      "source_references": [
+        "docs/handbook-content.json#power.electricity",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.power.electricity"
+      ],
+      "native_item_ids": [
+        "electroenergetics:accumulator",
+        "electroenergetics:alternator_brushes",
+        "electroenergetics:alternator_rotor",
+        "electroenergetics:ammeter",
+        "electroenergetics:blue_electric_motor",
+        "electroenergetics:bulb",
+        "electroenergetics:capacitor",
+        "electroenergetics:catenary_holder",
+        "electroenergetics:clamp_meter",
+        "electroenergetics:connector",
+        "electroenergetics:copper_wire_spool",
+        "electroenergetics:electric_pump",
+        "electroenergetics:emergency_stop_button",
+        "electroenergetics:fuse",
+        "electroenergetics:fuse_holder",
+        "electroenergetics:high_voltage_capacitor",
+        "electroenergetics:insulated_wire",
+        "electroenergetics:pantograph",
+        "electroenergetics:rail_contact_shoe",
+        "electroenergetics:stator",
+        "electroenergetics:transformer",
+        "electroenergetics:transformer_core",
+        "electroenergetics:voltage_regulator",
+        "electroenergetics:voltmeter"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "power.industry.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "power.industry": {
+      "source_references": [
+        "docs/handbook-content.json#power.industry",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.power.industry"
+      ],
+      "native_item_ids": [
+        "tfmg:blast_furnace_hatch",
+        "tfmg:blast_furnace_output",
+        "tfmg:blast_stove",
+        "tfmg:casting_basin",
+        "tfmg:coal_coke",
+        "tfmg:coke_oven",
+        "tfmg:compressor",
+        "tfmg:copper_cable_hub",
+        "tfmg:electric_motor",
+        "tfmg:electricians_wrench",
+        "tfmg:freezer",
+        "tfmg:generator",
+        "tfmg:heavy_electric_motor",
+        "tfmg:industrial_mixer",
+        "tfmg:industrial_pipe",
+        "tfmg:large_engine",
+        "tfmg:pumpjack_base",
+        "tfmg:radial_engine",
+        "tfmg:regular_engine",
+        "tfmg:simple_large_engine",
+        "tfmg:steel_chemical_vat",
+        "tfmg:steel_distillation_controller",
+        "tfmg:steel_distillation_output",
+        "tfmg:steel_fluid_tank",
+        "tfmg:steel_pipe",
+        "tfmg:surface_scanner",
+        "tfmg:transformer",
+        "tfmg:turbine_engine",
+        "tfmg:voltmeter",
+        "tfmg:winding_machine"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [
+        "tfmg:crafting/materials/coke_oven"
+      ],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "power.burners": {
+      "source_references": [
+        "docs/handbook-content.json#power.burners",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.power.burners"
+      ],
+      "native_item_ids": [
+        "create:blaze_burner",
+        "create:fluid_pipe",
+        "create:fluid_tank",
+        "create:mechanical_pump",
+        "minecraft:lava_bucket"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    },
+    "power.stored-rotation": {
+      "source_references": [
+        "docs/handbook-content.json#power.stored-rotation",
+        "docs/quick-reference-work/machines-storage-evidence.json#topics.power.stored-rotation"
+      ],
+      "native_item_ids": [
+        "create_connected:kinetic_battery",
+        "createsprings:friction_welder",
+        "createsprings:kinetic_interface",
+        "createsprings:large_spring_coil",
+        "createsprings:portative_steam_engine",
+        "createsprings:punchcard",
+        "createsprings:spring",
+        "createsprings:spring_alloy",
+        "createsprings:spring_base",
+        "createsprings:spring_catapult",
+        "createsprings:spring_drill",
+        "createsprings:spring_fan",
+        "createsprings:spring_launcher",
+        "createsprings:spring_saw",
+        "createsprings:spring_shove",
+        "createsprings:unfinished_spring"
+      ],
+      "added_item_ids": [],
+      "unchanged_recipe_ids": [],
+      "page_destinations": [
+        "help.search.md"
+      ],
+      "revision": "Standalone destination bullets, visible native item labels and purpose-oriented family prose. Existing recipe counts and chances retained."
+    }
+  },
+  "selected_archive_scans": [
+    {
+      "artifact": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e"
+    },
+    {
+      "artifact": "aeroencasedpipe-1.0.7.jar",
+      "sha256": "1791aa8ca581a0bbfaec604ca4ac1acd4cccb77345adfad5660e86aa3f11ccb4"
+    },
+    {
+      "artifact": "ballastmod-0.1.0.jar",
+      "sha256": "10f91211ebdf9b76bd11415f3c10306c350f2209e1c816e38730644a950970b4"
+    },
+    {
+      "artifact": "AeroEngine-1.3.0.jar",
+      "sha256": "5d9f86d8345beb25189e21044ecd19c9140c77c6e9010fb1a7f2250fde775e05"
+    },
+    {
+      "artifact": "createpropulsion-1.1.5.jar",
+      "sha256": "5525a3a0c8b1c476cbc467d021e9d1492b58c78de31ed269eb04f169d42db0a1"
+    },
+    {
+      "artifact": "aeroworks-1.5.0.jar",
+      "sha256": "7e9745569a75eb613a9f75c9308aa2c806d3f0fab3a272d98647a13d3fa41641"
+    },
+    {
+      "artifact": "create_tweaked_controllers-1.21.1-1.2.7.jar",
+      "sha256": "eda56263fabfcf4064dbaa8950a7f469775d4457dc807ee84ba29169690fda34"
+    },
+    {
+      "artifact": "create_radar-0.4.9.4-1.21.1.jar",
+      "sha256": "4554359fee389b1c255b4cef23ac41e978b2a371cec9e952185f4ec0a90ee930"
+    },
+    {
+      "artifact": "createbigcannons-5.11.7+mc.1.21.1.jar",
+      "sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca"
+    },
+    {
+      "artifact": "create_submarine-2.2.4.jar",
+      "sha256": "87a20bb20ae3c90e6838073d3a84839e251c8794f409ade8cab79f51d1de0c66"
+    },
+    {
+      "artifact": "createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
+      "sha256": "336536a181faf6db7f756393248e786382fdd0c1c2760ff2dfc4b265859321b7"
+    },
+    {
+      "artifact": "create_bb-1.0.7-1.21.1-Neoforge.jar",
+      "sha256": "68833088a56a2e160df7b23ce9703cde0da974b35ba41f5d86bbb758acd1ec79"
+    },
+    {
+      "artifact": "railways-0.3.0-beta.2+neoforge-mc1.21.1.jar",
+      "sha256": "64b74ddad661deae1cfe7e8334cfa3d39bb8ef7b761f83595ba0476c4a9bb1d5"
+    },
+    {
+      "artifact": "escalated-1.3.2+mc.1.21.1.jar",
+      "sha256": "c25ee54ebec01dcf5d471853f862391e3636c185daa88dba519d66326d60b1be"
+    },
+    {
+      "artifact": "create_hypertube-0.6.0-NEOFORGE.jar",
+      "sha256": "7bdb8979c7ff7d3b29f7a23771b6ae4870a6dcb7ce2e4a3214fdd6059aacace8"
+    },
+    {
+      "artifact": "create_waystones_recipes-3.0.1.b.jar",
+      "sha256": "2d9c6b2398e113e3b0de7006d0fa6b24b044fa10913ffb6504dfb65d24c1c1b8"
+    },
+    {
+      "artifact": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+      "sha256": "242267afa324352130adb2263a5667e421c6f4c573ad0dfe0565971255ea5a1e"
+    },
+    {
+      "artifact": "tempad-1.21.1-3.0.4-all.jar",
+      "sha256": "932dd8a1cbb86d7632330ee3b9da43211b7c7a2fb6246443fd8207f74a74eba3"
+    },
+    {
+      "artifact": "waystones-neoforge-1.21.1-21.1.46.jar",
+      "sha256": "ca76a4457160e8353b1f013a21ab377b264141f466d84ec8952a123058b8af78"
+    },
+    {
+      "artifact": "waystonessable-1.0.7.jar",
+      "sha256": "617af6cffce9f5a939e1e376972ccba6da6b6eca89edfb92cf98e9e62b3e3c45"
+    },
+    {
+      "artifact": "ChippedExpress-universal-21x.jar",
+      "sha256": "0e00cac10cebbb42b17f6178352c885eb0404fd58b63aa9c1c40a85d6cae20f9"
+    },
+    {
+      "artifact": "chipped-neoforge-1.21.1-4.0.2.jar",
+      "sha256": "18ac6fd6b30db4922ccc6ee8bea5b113f69587505b7529834f37ace506427291"
+    },
+    {
+      "artifact": "everycomp-1.21-2.11.46-neoforge.jar",
+      "sha256": "9364bd08e9f0e557ceea9b9d40e2adfbf31270db7a8e8928f305fb395f645345"
+    },
+    {
+      "artifact": "stonezone-1.21-2.11.16-neoforge.jar",
+      "sha256": "de953ccfecdf35bf5c65c2626ad3c2259407d634c957f51b24ef3b21d3ef24c5"
+    },
+    {
+      "artifact": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "sha256": "a438cf2ea3a05120e12342484f1e12ca11526fbf4195d259ce1d7df8a9b3ffca"
+    },
+    {
+      "artifact": "bits_n_bobs-0.0.44.jar",
+      "sha256": "6d8268d82cc6e38dd13f5247b28f37b7a35d66cb476c6e0632f4e9ba5570f5d8"
+    },
+    {
+      "artifact": "createdeco-2.1.3.jar",
+      "sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e"
+    },
+    {
+      "artifact": "Design-n-Decor-1.21.1-2.2b.jar",
+      "sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f"
+    },
+    {
+      "artifact": "Create Encased-1.21.1-1.9.0-ht3.jar",
+      "sha256": "e93bb110241ab8283c6238590eb04f1fb37199815623f53f3e981ee650f344a3"
+    },
+    {
+      "artifact": "createframed-1.21.1-1.8.2.jar",
+      "sha256": "a1f0434f5485de5ba5683320ebca7b71841488421a5249641ae357dbeeb35283"
+    },
+    {
+      "artifact": "create-more-girder-2.1.2-neo.jar",
+      "sha256": "69a0efee89806369b6f14ac808b5fbe04a79fe3e4cf371c4026c94d16083bd38"
+    },
+    {
+      "artifact": "createprism-1.2.2.jar",
+      "sha256": "3b9c80f8a0104a2cee1af2b0a17b5a500f5600c55bccc441a34063154587a8fa"
+    },
+    {
+      "artifact": "create_oxidized-0.1.3.jar",
+      "sha256": "9221f4caa70036d05a04e83e6b57844fa03b60cdef6ade1491c37c0f7800d063"
+    },
+    {
+      "artifact": "copycats-3.0.9+mc.1.21.1-neoforge.jar",
+      "sha256": "d1efdd8688af6603dff9425299ac4547ef56a7d5cfee757716ead7853276694e"
+    },
+    {
+      "artifact": "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar",
+      "sha256": "361d1025a8a81f8e77d21da5332bd8390c80c316bae256f8513de97c9f6c9970"
+    },
+    {
+      "artifact": "mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+      "sha256": "070b817d3282760d9789b22ce13779613c8b558e02012fd5884d343175d88fd9"
+    },
+    {
+      "artifact": "mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+      "sha256": "87261e309f5e10c9910169d5acbba613cab3a2d2270698b0bd47e657a45b0518"
+    },
+    {
+      "artifact": "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar",
+      "sha256": "e4b0e5a5b67decc2285e71f017fb4f60284796fa0838de3edeaf6b7cb0395735"
+    },
+    {
+      "artifact": "mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+      "sha256": "25c79def993a24b05b0f8494ee9417717d469bc000d5ed7c219b47dcc3b3e9c8"
+    },
+    {
+      "artifact": "mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+      "sha256": "177fe382ff22caa14983d862ead2717321315a5e4afa778d245e9acd2f61608d"
+    },
+    {
+      "artifact": "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+      "sha256": "8970c40ec622edd34c9b055226b403af08ab441c77303a6dc625ae18005f8184"
+    },
+    {
+      "artifact": "connectiblechains-neoforge-1.21.1-2.2.5.jar",
+      "sha256": "34439f67ac12465635e075ef50c0a5050c0a532442835ba8a840dbfd29a32039"
+    },
+    {
+      "artifact": "amendments-1.21-2.0.15-neoforge.jar",
+      "sha256": "e44e67d5c2eb5a73ee8ca3d1e9099ed20ccbf8167022bc407df8434b1bf362b5"
+    },
+    {
+      "artifact": "beautify+1.21.1-1.9.0.jar",
+      "sha256": "b4a019f7e91a57830a2b0db2b540afaa28dbce7ff4c7c32809e521d0dbd421a7"
+    },
+    {
+      "artifact": "tw-decorative-food-1.21.1-2.0.1-neoforge.jar",
+      "sha256": "4695cb79d17cdc2d98f068b996cae18c1debb2fd5fe6b1a281f1c6e9dc244728"
+    },
+    {
+      "artifact": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "sha256": "6f2a776fb28ed07d370899814e5e711fbeebe31396097d78a3b550439b364948"
+    },
+    {
+      "artifact": "interiors-1.21.1-neoforge-0.6.1.jar",
+      "sha256": "0d1326fb8b67623ae1c69a63b788dcdcecaf8df400c7d8e5e55ace79a5166fe5"
+    },
+    {
+      "artifact": "supplementaries-1.21.1-3.9.9-neoforge.jar",
+      "sha256": "d6876ad959d0da4bab0ba182839a0af0e38ef3571345e5e7aea0be572f958e05"
+    },
+    {
+      "artifact": "ArmorPoser-neoforge-1.21.1-6.2.3.jar",
+      "sha256": "956173fcb08f00fc3842dc5fca7608bb681f9155288c4ac127c7b59ff6c9b788"
+    },
+    {
+      "artifact": "bigsignwriter-2.2.0+1.21.1-neoforge.jar",
+      "sha256": "27a09ad567cd2ff6903c6cfa389f657f9471ba2e14c72f815c69a81a7ab3b32c"
+    },
+    {
+      "artifact": "immersive_paintings-neoforge-1.21.1-0.7.8.jar",
+      "sha256": "c377f6dfaf5be5022761f6e3d6310ef90e59e10bd00bb252d78cff5381b2520c"
+    },
+    {
+      "artifact": "ItemsDisplayed-NeoForge-2.0.10.jar",
+      "sha256": "a0a691e050778fc18120f8ba87d8ac9619db84ad229ff3ebafe53a0da6f28a4a"
+    },
+    {
+      "artifact": "StrawStatues-v21.1.0-1.21.1-NeoForge.jar",
+      "sha256": "46b10676fa5cf3d472119e38537a912e656832fd784f9343f853fc1b571d3f2e"
+    },
+    {
+      "artifact": "create_pattern_schematics-2.0.10.jar",
+      "sha256": "d6525b9ab9914a194ca5aa00e6605f5977d8ac28722cdccce018da44f62bc5c5"
+    },
+    {
+      "artifact": "create-shufflefilter-2.1.1-neo.jar",
+      "sha256": "6e2b27c015936f61b3ba3271477b09032162239945491d09815518ebff7d76bf"
+    },
+    {
+      "artifact": "forgematica-0.4.2+mc1.21.1.jar",
+      "sha256": "e19f1653c2f72c771bca2c21519620b71cb32511e25698ba70d5654d50e96c2d"
+    },
+    {
+      "artifact": "mechtrowel-1.3.2.1.jar",
+      "sha256": "fb3dcec678374060da7249b0fdce88d89a6e05a26299594fe2cf5edc16fac2c9"
+    },
+    {
+      "artifact": "lighty-neoforge-3.0.0-beta.8+1.21.1.jar",
+      "sha256": "81875bb4128b7481cbaed480ff76f59eb176723e4b93070a733db8d7e10eec11"
+    },
+    {
+      "artifact": "torchmaster-neoforge-1.21.1-21.1.9.jar",
+      "sha256": "db9a2fa385757656797a5a14ffad1777fbe596e2e443f1deba5f7534706eb806"
+    },
+    {
+      "artifact": "createadditionallogistics-1.21.1-1.4.5.jar",
+      "sha256": "f7bf95504c3bf293464b883c989354dd643d559de5bfcad4a23fed4144592d6a"
+    },
+    {
+      "artifact": "create_connected-1.3.3-mc1.21.1.jar",
+      "sha256": "0c5eb9ffb5c8d71e6e2a39023feb85c51adfb10d38949bc47c4abbd53b351a4f"
+    },
+    {
+      "artifact": "electroenergetics-1.21.1-1.1.3.jar",
+      "sha256": "ae7ea74b7b00f175daa5a60a953a6d57f7f775aed0b642a1e9f80c3865cf8be7"
+    },
+    {
+      "artifact": "create-enchantment-industry-2.5.4.jar",
+      "sha256": "6e68d68eb0619fb092861d981ae998b1fcf3757d5ca72636103a24bcdb89d1ad"
+    },
+    {
+      "artifact": "createliquidfuel-2.1.1-1.21.1.jar",
+      "sha256": "ccd44b069962890352dfee442508880a37eecd3c5625d74d668dd6eb7d39ee3d"
+    },
+    {
+      "artifact": "molten_vents-1.21.1-2.1.1.jar",
+      "sha256": "62aa307741ae10c3df3bd364dfe2e706413a1b428601ff61e4aeb5049cc40b5c"
+    },
+    {
+      "artifact": "createsprings-1.2.1-neoforge.jar",
+      "sha256": "3f9dc9c20110a6e64962da2d0cb1cf96ba8582e0216b97839910544d91520a96"
+    },
+    {
+      "artifact": "Stam1oCreateTweaks-1.0.8+1.21.1-Neo.jar",
+      "sha256": "ac6732ba61c05b1bb7a68d77e6d12e76a1edc31b0dc53d568dcc2ab7c7865986"
+    },
+    {
+      "artifact": "create-stuff-additions1.21.1_v2.1.4b.jar",
+      "sha256": "4aee9a1af2754609ab31bfebf13dc0d7d648e61e440232dbf9bb3459941e23d5"
+    },
+    {
+      "artifact": "trading_floor-3.0.16.jar",
+      "sha256": "f0aacddb1f8f191f13b79c603e52bd49a6d1cb918078d8a3bdcb2621c88b8d40"
+    },
+    {
+      "artifact": "create_vibrant_vaults-0.3.2.jar",
+      "sha256": "cebf5d1d1793fbfc2ee25b63d6f929910ad04ff72da5c1a6987d33961708cff1"
+    },
+    {
+      "artifact": "create-1.21.1-6.0.10.jar",
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    {
+      "artifact": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+      "sha256": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc"
+    },
+    {
+      "artifact": "EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+      "sha256": "9976385a5993fd1c5d8b029aad5ac100e67a218c28fc7c9eb0ba59557f860ed8"
+    },
+    {
+      "artifact": "interactic-0.2.2+1.21.1.jar",
+      "sha256": "a74bb995a0b0d2444c196facc47440a8596b313e7c501c74024c211dfca7e7a5"
+    },
+    {
+      "artifact": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b"
+    },
+    {
+      "artifact": "reinforced-shulker-boxes-3.2.1+1.21.1.jar",
+      "sha256": "88efbc64ec091b4ffc7842113fb7371b66e1664f0ac10b0739bec806f7d0e485"
+    },
+    {
+      "artifact": "shulkerdropstwo-1.21.1-3.7.jar",
+      "sha256": "beadd6f6b7cd425bd5cfbb732516452ffb6ff8d87b5764b112f89e05fdab41ca"
+    },
+    {
+      "artifact": "sophisticatedinventoryinteractions-1.21.1-0.1.9.160.jar",
+      "sha256": "acc295a6c0b2521633bdd689fc658349cef99093205a3c3e0843932cfb55c10a"
+    },
+    {
+      "artifact": "tfmg-1.21.1-1.3.1-community.jar",
+      "sha256": "34713689a6265bc7644027bdcd6d319ea72286444cb371560fadf7d9445ba7ad"
+    },
+    {
+      "artifact": "trashslot-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "61fdb5de0fc3d36db0e5dd82c2e03341e449bbc47ce13eeab834b05596b7bb5b"
+    },
+    {
+      "artifact": "1.3.5-backpacks_mod-1.21-1.21.1.jar",
+      "sha256": "eecbcf2632f4fd7058e1e38019341817cf154e6f079e2db1c2b18f793d4cc417"
+    }
+  ],
+  "added_item_evidence": {
+    "create:super_glue": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create-1.21.1-6.0.10.jar"
+    },
+    "create:wrench": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create-1.21.1-6.0.10.jar"
+    },
+    "create:redstone_link": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create-1.21.1-6.0.10.jar"
+    },
+    "create_submarine:arresting_hook": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create_submarine-2.2.4.jar"
+    },
+    "create_submarine:decompression_chamber": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create_submarine-2.2.4.jar"
+    },
+    "createadditionallogistics:sales_ledger": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "createadditionallogistics-1.21.1-1.4.5.jar"
+    },
+    "createadditionallogistics:network_monitor": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "createadditionallogistics-1.21.1-1.4.5.jar"
+    },
+    "create:item_drain": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create-1.21.1-6.0.10.jar"
+    },
+    "create:steam_engine": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "create-1.21.1-6.0.10.jar"
+    },
+    "waystones:waystone": {
+      "identifier_source": "Existing selected item model and language key, never inferred from the English item name.",
+      "selected_artifact": "waystones-neoforge-1.21.1-21.1.46.jar"
+    }
+  },
+  "vanilla_additions": {
+    "storage.portable": "Vanilla iron ingot, diamond, netherite upgrade template and netherite ingot come from the retained Backpacks! upgrade recipe definitions in machines-storage-evidence.json. Smithing table is the already-authored upgrade workstation.",
+    "machines.miscellaneous": "Vanilla brown and red mushrooms are inputs in the already-authored four-to-one mushroom compacting description.",
+    "vehicles.engines": "Vanilla redstone represents the already-authored control signal, not a consumed fuel ingredient."
+  },
+  "conditional_registration": {
+    "create_enchantment_industry:infuser": "Optional integration. Item model and language label do not establish active registration. Player prose explicitly makes availability conditional on matching integration registration.",
+    "create_enchantment_industry:affix_augmentor": "Same optional-integration distinction. No claim this item is registered in the selected loaded pack.",
+    "create_enchantment_industry:gem_cutter": "Same optional-integration distinction. No claim this item is registered in the selected loaded pack."
+  },
+  "verification": {
+    "locale_parity": "All 40 topic pairs have matching icon, ItemLink and Recipe sequences, and page-link target sequences.",
+    "headings": "Every body begins with a second-level heading. All English section headings contain at most 24 characters.",
+    "punctuation": "No English or Chinese semicolon remains.",
+    "navigation": "Every Markdown page link is on a standalone bullet. All original page-link targets are retained. All targets exist in both generated locale folders.",
+    "item_names": "Every instructional ItemIcon identifier has a matching localized ItemLink label and every ItemLink has an icon on its page. Existing grid identifiers are retained.",
+    "processing_quantities": "Wheat milling, raw iron crushing and crushed iron washing quantity and chance rows are unchanged. Native Recipe identifiers and sequence are unchanged for every topic and locale.",
+    "syntax": "GuideME 21.1.19 MdAst parser accepted a composite document containing all 80 revised locale bodies, with zero parse failures. Its malformed ItemLink negative control was rejected.",
+    "runtime": "No game launch, loaded registry inspection or visual rendering test was performed."
+  },
+  "limitations": [
+    "Static item models and language labels are not registration proof. Native ItemLink localization and layout still require parent integration and rendered review.",
+    "Backpacks! keeps component-bearing native Recipe outputs. No plain command-block or jigsaw icon was substituted for a backpack.",
+    "Illustrated shapes, colors and material families are representative. Shortened prose does not claim an exhaustive inventory. Full selected family inventories remain in existing evidence files.",
+    "Unsupported recipe types retain item visuals and exact output data instead of invented native Recipe displays.",
+    "Some industrial engine Ponder assembly and operation entries are themselves unfinished. The revised article preserves that limitation.",
+    "No live profile, game options, mods, worlds, authoritative content JSON, generator or generated resource pages were changed."
+  ]
+}

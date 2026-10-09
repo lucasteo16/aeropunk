@@ -16,4 +16,4 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Create: Northstar - Redux (not installed) | Not installed here. |
+| <ItemImage id="minecraft:minecart" /> Create: Northstar - Redux (not installed) | Not installed here. |

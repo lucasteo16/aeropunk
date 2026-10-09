@@ -1,0 +1,1453 @@
+{
+  "scope": "Bilingual Bosses, Creatures and Structures rewrite only. No edits to authoritative authoring JSON, generator, shared files or installed profiles. New images have unique revision-encounters names.",
+  "branch": "test/guide",
+  "sources": [
+    "docs/handbook-authoring-standard.md",
+    "docs/handbook-content.json",
+    "docs/quick-reference-work/encounters-content.json",
+    "docs/quick-reference-work/encounters-evidence.json",
+    "docs/quick-reference-work/encounters-visuals.json"
+  ],
+  "artifact_verification": [
+    {
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "filename": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/9e/230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c",
+      "declared_digest": "9a2b58bd7c15c15f089d87bdd1ac5b8cccaeab6a28518b9a10336e811334aba7e42c9cae7733a5fd7125ebce28554b0dea530cb7f86ecb85617203d948590344",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/creeper-overhaul.pw.toml",
+      "filename": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/ed/83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+      "declared_digest": "880ca9d8d23b527d3583cbe7fa399b2a26421b6ccba1deacd666cf9b61f4af4378157f404ab3789a7ae9c3c8693e2b7f6c8c532e703e5bb0e1881b9cc2879a6e",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/enderman-overhaul.pw.toml",
+      "filename": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/fe/6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+      "declared_digest": "d2032b35ed5dcf028a35a1d3da16a48b71d182fab1203bbf0f9f9123b99bb725730c60cdd8a9f48431c91f7ac9e04fa958aed842ee94114ade3a9418392ee6ab",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/friends-and-foes-forge.pw.toml",
+      "filename": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/40/f6129d9124bcd0052a348813425fc223b7b6ef16b81928f5edcb89ea62cfd1",
+      "declared_digest": "7575f340d8021b8da09674163b8ef8ea8f52b7e2b76da302a04c70f7ae552429a65853ea65fd513a65d9f43ba84f524a2957cc37f22e0f0265f331c6bcb4bfc4",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/illager-invasion.pw.toml",
+      "filename": "IllagerInvasion-v21.1.6-1.21.1-NeoForge.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/5a/dfdd0df0c5dbe81e4458da50442b58863f9db9f22abc182f81e487eef0e6db",
+      "declared_digest": "5ad618c60d78ab9196ef386c63d5855f3eab2f90006156b786d5b4f4ea7e6bcc1fd9f61dfa45b7b2df44dd900fe9747c9ac1ccac6fdb11814e2f4a7e53d93107",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "filename": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/37/1956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+      "declared_digest": "289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/nullscape.pw.toml",
+      "filename": "Nullscape_1.21.x_v1.2.14.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/87/49c6fdda659335e50116c18e012cdf8699b3789859c82559af2c6f425c93ae",
+      "declared_digest": "b35a9dfdc7180ca851aea378ee4687e18b3aae717c16870a7762afc67dc0c77598fb2c4a62cb12d6ed0eacf7c9166520e0a3e7dce20da09817065d27e62c8b44",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/spawn-mod.pw.toml",
+      "filename": "spawn-4.0.8-1.21.1.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/70/5dabdfb29b163500334a08c095b51ea8800db08b6c96ec430c52b30d6d9842",
+      "declared_digest": "f6db8f8a11d90d973ad4e7041816793a70e298949c4d378cb08a2b78937327c8f2d5c75d1f938a0493adad1a5a1c6fda67949867b7c7b1c56c5d58eda8ae8204",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/supplementaries.pw.toml",
+      "filename": "supplementaries-1.21.1-3.9.9-neoforge.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/d6/876ad959d0da4bab0ba182839a0af0e38ef3571345e5e7aea0be572f958e05",
+      "declared_digest": "f341d0971e644255c063f0cb363bb93e312f4f005304f8af76d7249c3cbc0c258f415cf6e7bddcdf02115ade9ba9a205ec6d062e2626b414afaef5725667f079",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/terralith.pw.toml",
+      "filename": "Terralith_1.21.1_v2.6.2_Neoforge.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/d3/8bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546",
+      "declared_digest": "35298f1682567f63dc16658b04cee5498b30819f1c05f9712b4480d7f5eb17059db3b13ab14f81a05fe257149d11ced2cce2030d3727c1747edd8657c53e2a85",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/when-dungeons-arise.pw.toml",
+      "filename": "DungeonsArise-1.21.1-2.1.68-release.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/7e/ee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+      "declared_digest": "cf87e06c8a49c9147fac2cf4d218d0e0eb56bb75819ab85f84ed7ae775bb3e259e2ebd5c423696d4d9026f6a69698babf5e7c82c74e480fbbf107359ef30a97e",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/witcher-rpg-class.pw.toml",
+      "filename": "witcher-class-mod-neoforge-3.1.4+1.21.1.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/74/698eb43b0e2b34059f28c0ecea6876d829f4ec74d5abb2e1f2d9619efef46b",
+      "declared_digest": "6de132a84422ad1ccec5ddd591279a836e7bd65a4d9bd3d10107dad69c7c16b4c64e5efe54e904a2e4b43bf69340f86978c0c1aec5086b6e36dec67c7a157726",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-desert-temples.pw.toml",
+      "filename": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/2c/3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6",
+      "declared_digest": "6454c955f75f66104810e967a59ae032ddf1ccc5a854346af6bfba6e44cd456e755cd8feb1e0968be4e9132ea6c5d1cb2126fe5e85d3eb18c8d3ea3c81ffdf9a",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-dungeons.pw.toml",
+      "filename": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/61/816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+      "declared_digest": "40513bacd13fa9860abcab507b1fc09dc51649af4b615ce466e0ec361557f02d35e6e44bea1cc17cb4120805f862aad01394eb185f46611e7be63dfd97f272df",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-jungle-temples.pw.toml",
+      "filename": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/a0/d57b78c7a1891796f342b1f09c214bc27bedf0a3a894f029dfdb2db9f813d0",
+      "declared_digest": "eca4233e874a55886c63d2111b8685d479771d3627bad2922582e65b78c51ba74733dc4624aabf91f2a2178a940a72d9209ae33eef74e34f84f07d62256709d9",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-mineshafts.pw.toml",
+      "filename": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/56/25930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+      "declared_digest": "8b01b386f53feeaa55f0c62697578b82e00501e45e428b2a68df6bda34efb6a4b3b4e3582abf13fe767ebcb61aef9368186f53c03999958bef38f31c41a7f8b2",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-nether-fortresses.pw.toml",
+      "filename": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/54/50a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff",
+      "declared_digest": "18b461298d3df1215fa3b4d2c0cb2ef1c7ed76701d8a0bb140277b21923e31abd939f0fd9b400c5bd676d739f1cda31c43b4dc753f9187251542223f3424d336",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-ocean-monuments.pw.toml",
+      "filename": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/cd/cf8fe0e08c75261048d43c6ed4898972d23e096dd04a2524c136f06416ab02",
+      "declared_digest": "77c864da36f1d2173e6460dc335996893a804954b8a5c274173fc95dfdbf437e80d9dce32f6060306a662fc35322566eecf5dfe24e2d3fab79bf7e0ff9fa4db6",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-strongholds.pw.toml",
+      "filename": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/a9/cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+      "declared_digest": "385d67e07f2c67af5ea387d92d92949d8f671e8f99204457b6396dbe987ac3b14c2bff765df5fcbaa68016604f82a1fc6ec5a69c012ca22ad088d1a7c9bc135d",
+      "digest_algorithm": "sha512",
+      "verified": true
+    },
+    {
+      "metadata_path": "mods/yungs-better-witch-huts.pw.toml",
+      "filename": "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "archive": "/home/tsb/.cache/packwiz/cache/88/8b1e6d1ada21982a75abfb4afb040c9bc2cc68777ec5fcd1199b978e3d4f8d",
+      "declared_digest": "9baa8a1f36a2a36efc3df58ab9347fd9f326b551ad78e3f600ed9d68862c619752ac0770804807efb15a46fcb4d9f6e2baf6a11f622d3ebb6c865662f6c7bcfd",
+      "digest_algorithm": "sha512",
+      "verified": true
+    }
+  ],
+  "selected_cataclysm_sha512": "289f6e8364a6e432f34803a47cff8381899a1df0fdc675170323b43fd1c09579b1320d8b4e0de5df65c609b738d450c13c89e240d6d79f607888da26b7724947",
+  "boss_catalog": [
+    {
+      "identifier": "block_factorys_bosses:infernal_dragon",
+      "name": "Ashlord, The Infernal Dragon",
+      "mod": "Bosses'Rise",
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "source": "data/block_factorys_bosses/tags/entity_type/bf_boss.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "block_factorys_bosses:dragon_tower",
+      "resolved_biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:jungle",
+        "minecraft:mangrove_swamp",
+        "minecraft:plains",
+        "minecraft:savanna",
+        "minecraft:sparse_jungle",
+        "minecraft:sunflower_plains",
+        "minecraft:swamp",
+        "minecraft:windswept_forest",
+        "minecraft:windswept_gravelly_hills"
+      ],
+      "access_en_us": "Explore the tower; its boss spawner controls the encounter.",
+      "access_zh_cn": "探索龙塔，战斗由塔内的首领生成器触发。"
+    },
+    {
+      "identifier": "block_factorys_bosses:yeti",
+      "name": "Skor, The Yeti",
+      "mod": "Bosses'Rise",
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "source": "data/block_factorys_bosses/tags/entity_type/bf_boss.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "block_factorys_bosses:yeti_hideout",
+      "resolved_biomes": [
+        "minecraft:snowy_plains"
+      ],
+      "access_en_us": "Reach the arena inside the hideout.",
+      "access_zh_cn": "进入藏身处内的竞技场。"
+    },
+    {
+      "identifier": "block_factorys_bosses:sandworm",
+      "name": "Sirok, The Sandworm",
+      "mod": "Bosses'Rise",
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "source": "data/block_factorys_bosses/tags/entity_type/bf_boss.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "block_factorys_bosses:sandworm_nest",
+      "resolved_biomes": [
+        "minecraft:desert"
+      ],
+      "access_en_us": "Enter the nest.",
+      "access_zh_cn": "进入巢穴。"
+    },
+    {
+      "identifier": "block_factorys_bosses:underworld_knight",
+      "name": "Helvar, the Underworld Knight",
+      "mod": "Bosses'Rise",
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "source": "data/block_factorys_bosses/tags/entity_type/bf_boss.json",
+      "dimension": "Nether",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "block_factorys_bosses:underworld_arena",
+      "resolved_biomes": [
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley"
+      ],
+      "access_en_us": "Reach the underground arena.",
+      "access_zh_cn": "进入地下竞技场。"
+    },
+    {
+      "identifier": "block_factorys_bosses:kraken",
+      "name": "Nerakyss, The Kraken",
+      "mod": "Bosses'Rise",
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "source": "data/block_factorys_bosses/tags/entity_type/bf_boss.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "block_factorys_bosses:kraken_ship",
+      "resolved_biomes": [
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:deep_ocean"
+      ],
+      "access_en_us": "The ship uses a dedicated pirate encounter spawner.",
+      "access_zh_cn": "船上设有专用海盗战斗生成器。"
+    },
+    {
+      "identifier": "cataclysm:ignis",
+      "name": "Ignis",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Nether",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:burning_arena",
+      "resolved_biomes": [
+        "minecraft:nether_wastes"
+      ],
+      "access_en_us": "Burning Ashes at the Altar of Fire.",
+      "access_zh_cn": "在烈焰祭坛使用烈焰灰烬。"
+    },
+    {
+      "identifier": "cataclysm:netherite_monstrosity",
+      "name": "Netherite Monstrosity",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Nether",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:soul_black_smith",
+      "resolved_biomes": [
+        "minecraft:crimson_forest",
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:warped_forest"
+      ],
+      "access_en_us": "Find the Monstrosity within the forge.",
+      "access_zh_cn": "在锻造场内寻找巨兽。"
+    },
+    {
+      "identifier": "cataclysm:ender_guardian",
+      "name": "Ender Guardian",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "End",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:ruined_citadel",
+      "resolved_biomes": [
+        "minecraft:end_highlands",
+        "minecraft:end_midlands"
+      ],
+      "access_en_us": "Reach the Altar of Void.",
+      "access_zh_cn": "抵达虚空祭坛。"
+    },
+    {
+      "identifier": "cataclysm:the_harbinger",
+      "name": "The Harbinger",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:ancient_factory",
+      "resolved_biomes": [
+        "terralith:cave/andesite_caves",
+        "terralith:cave/deep_caves",
+        "terralith:cave/diorite_caves",
+        "terralith:cave/frostfire_caves",
+        "terralith:cave/fungal_caves",
+        "terralith:cave/granite_caves",
+        "terralith:cave/infested_caves",
+        "terralith:cave/mantle_caves",
+        "terralith:cave/thermal_caves",
+        "terralith:cave/tuff_caves",
+        "terralith:cave/underground_jungle"
+      ],
+      "access_en_us": "Use a Nether Star on the dormant Harbinger.",
+      "access_zh_cn": "对休眠中的先驱者使用下界之星。"
+    },
+    {
+      "identifier": "cataclysm:the_leviathan",
+      "name": "The Leviathan",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:sunken_city",
+      "resolved_biomes": [
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:deep_ocean"
+      ],
+      "access_en_us": "Abyssal Sacrifice at the Altar of Abyss; fight underwater.",
+      "access_zh_cn": "在深渊祭坛使用深渊祭品，在水下战斗。"
+    },
+    {
+      "identifier": "cataclysm:ancient_remnant",
+      "name": "Ancient Remnant",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:cursed_pyramid",
+      "resolved_biomes": [
+        "minecraft:desert"
+      ],
+      "access_en_us": "Use the Necklace of the Desert on the dormant Remnant.",
+      "access_zh_cn": "对休眠中的远古遗魂使用沙漠项链。"
+    },
+    {
+      "identifier": "cataclysm:maledictus",
+      "name": "Maledictus",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:frosted_prison",
+      "resolved_biomes": [
+        "minecraft:snowy_plains"
+      ],
+      "access_en_us": "Reach the Cursed Tombstone; exact interaction needs confirmation.",
+      "access_zh_cn": "抵达诅咒墓碑，具体触发方式待确认。"
+    },
+    {
+      "identifier": "cataclysm:scylla",
+      "name": "Scylla",
+      "mod": "L_Ender's Cataclysm",
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "source": "data/c/tags/entity_type/bosses.json",
+      "dimension": "Overworld",
+      "biome_or_structure_or_spawn": null,
+      "access_or_summoning": null,
+      "variants": null,
+      "drops": null,
+      "handbook_entity_entry_found": false,
+      "evidence_level": "released_boss_entity_tag_and_kill_all_bosses_advancement",
+      "checklist_state": "not_personalized",
+      "structure_identifier": "cataclysm:acropolis",
+      "resolved_biomes": [
+        "minecraft:warm_ocean"
+      ],
+      "access_en_us": "Find Scylla in the Acropolis.",
+      "access_zh_cn": "在卫城寻找斯库拉。"
+    }
+  ],
+  "summoning_and_access": [
+    {
+      "source": "com/github/L_Ender/cataclysm/blocks/Altar_Of_Fire_Block.class",
+      "class_sha256": "7438d683159ac9f6889d3d468f5e68a6e9f9423f0c799e9a0df15d0a25c5ddfa",
+      "claim": "The fire altar accepts one held item without sneaking.",
+      "decompiled_excerpt": " aof = (AltarOfFire_Block_Entity)worldIn.getBlockEntity(pos);\n            ItemStack copy = heldItem.copy();\n            copy.setCount(1);\n            if (aof.getItem(0).isEmpty()) {\n                aof.placeItem((LivingEntity)player, 0, copy);\n                if (!player.isCreative()) {\n                    heldItem.shrink(1);\n                }\n            } else {\n                Altar_Of_Fire_Block.popResource((Level)worldIn, (BlockPos)pos, (ItemStack)aof.getItem(0).copy());\n                aof.placeItem((LivingEntity)player, 0, ItemStack.EMPTY);\n            }\n            return ItemInteractionResult.SUCCESS;\n        }\n        return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;\n    }\n\n    public void animateTick(BlockState p_220918_, Level p_220919_, BlockPos p_220920_, RandomSource p_220921_) {\n        if (p_220921_.nextInt(5) == 0) {\n            for (int i = 0; i < p_220921_.nextInt(1) + 1; ++i) {\n                p_220919_.addParticle((ParticleOptions)ParticleTypes.LAVA, (double)p_220920_.getX() + 0.5, (double)p_220920_.getY() + 1.5, (double)p_220920_.getZ() + 0.5, (double)(p_220921_.nextFloat() / 2.0f), 5.0E-5, (double)(p_220921_.nextFloat() / 2.0f));\n            }\n        }\n    }\n\n    protected void entityInside(BlockState p_51269_, Level p_51270_, BlockPos p_51271_, Entity p_51272_) {\n        if (p_51272_ instanceof LivingEntity) {\n            p_51272_.hurt(p_51270_.damageSources().campfire(), 3.0f);\n        }\n        super.entityInside(p_51269_, p_51270_, p_51271_, p_51272_);\n    }\n\n    @Nullable\n    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {\n        return new AltarOfFire_Block_Entity(pos, state);\n    }\n\n    @Nullable\n    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level p_152180_, BlockState p_152181_, BlockEntityType<T> p_152182_) {\n        return Altar_Of_Fire_Block.createTickerHelper(p_152182_, (BlockEntityType)((BlockEnt",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blockentities/AltarOfFire_Block_Entity.class",
+      "class_sha256": "5cc07d9c560ca0b14f272c3451ebfcd6555901c42677d8c4a52fba6ed670a8bd",
+      "claim": "Burning Ashes triggers Ignis, and the altar slot clears on successful spawn.",
+      "decompiled_excerpt": "nt;\n        this.summoningthis = false;\n        if (!this.getItem(0).isEmpty() && this.getItem(0).getItem() == ModItems.BURNING_ASHES.get()) {\n            this.summoningthis = true;\n            if (this.summoningticks == 1) {\n                ScreenShake_Entity.ScreenShake((Level)level, (Vec3)Vec3.atCenterOf((Vec3i)pos), (float)20.0f, (float)0.05f, (int)0, (int)150);\n            }\n            if (this.summoningticks > 118 && this.summoningticks < 121) {\n                this.Sphereparticle(3.0f, 3.0f);\n            }\n            if (this.summoningticks > 121) {\n                this.BlockBreaking(3, 3, 3);\n                this.BasaltBreaking(16, 8, 16);\n                Ignis_Entity ignis = (Ignis_Entity)((EntityType)ModEntities.IGNIS.get()).create(level);\n                if (level instanceof ServerLevel) {\n                    ServerLevel serverLevel = (ServerLevel)level;\n                    if (ignis != null) {\n                        ignis.setPos((double)((float)pos.getX() + 0.5f), (double)(pos.getY() + 3), (double)((float)pos.getZ() + 0.5f));\n                        ignis.setHomePos(GlobalPos.of((ResourceKey)serverLevel.dimension(), (BlockPos)pos));\n                        boolean flag = level.addFreshEntity((Entity)ignis);\n                        if (flag) {\n                            this.items.set(0, (Object)ItemStack.EMPTY);\n                            this.setChanged();\n                            level.sendBlockUpdated(pos, state, state, 3);\n                        }\n                    }\n                }\n            }\n        }\n        this.summoningticks = !this.summoningthis ? 0 : ++this.summoningticks;\n    }\n\n    private void BlockBreaking(int x, int y, int z) {\n        int MthX = Mth.floor((float)this.getBlockPos().getX());\n        int MthY = Mth.floor((float)this.getBlockPos().getY());\n        int MthZ = Mth.floor((float)this.getBlockPos().getZ());\n        for (int k2 = -x; k",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blocks/Altar_Of_Abyss_Block.class",
+      "class_sha256": "a10fa9099727e4b4e096966a2ce9c3e85def5129c307b57afe1d2d35c1a13dcb",
+      "claim": "The abyss altar accepts one held item without sneaking.",
+      "decompiled_excerpt": "aof = (AltarOfAbyss_Block_Entity)worldIn.getBlockEntity(pos);\n            ItemStack copy = heldItem.copy();\n            copy.setCount(1);\n            if (aof.getItem(0).isEmpty()) {\n                aof.placeItem((LivingEntity)player, 0, copy);\n                if (!player.isCreative()) {\n                    heldItem.shrink(1);\n                }\n            } else {\n                Altar_Of_Abyss_Block.popResource((Level)worldIn, (BlockPos)pos, (ItemStack)aof.getItem(0).copy());\n                aof.placeItem((LivingEntity)player, 0, ItemStack.EMPTY);\n            }\n            return ItemInteractionResult.SUCCESS;\n        }\n        return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;\n    }\n\n    public BlockState getStateForPlacement(BlockPlaceContext p_48781_) {\n        FluidState fluidstate = p_48781_.getLevel().getFluidState(p_48781_.getClickedPos());\n        return (BlockState)((BlockState)this.defaultBlockState().setValue((Property)FACING, (Comparable)p_48781_.getHorizontalDirection().getClockWise())).setValue((Property)WATERLOGGED, (Comparable)Boolean.valueOf(fluidstate.getType() == Fluids.WATER));\n    }\n\n    public FluidState getFluidState(BlockState p_51581_) {\n        return (Boolean)p_51581_.getValue((Property)WATERLOGGED) != false ? Fluids.WATER.getSource(false) : super.getFluidState(p_51581_);\n    }\n\n    public BlockState rotate(BlockState p_48811_, Rotation p_48812_) {\n        return (BlockState)p_48811_.setValue((Property)FACING, (Comparable)p_48812_.rotate((Direction)p_48811_.getValue((Property)FACING)));\n    }\n\n    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> p_48814_) {\n        p_48814_.add(new Property[]{FACING, WATERLOGGED});\n    }\n\n    public VoxelShape getShape(BlockState p_48816_, BlockGetter p_48817_, BlockPos p_48818_, CollisionContext p_48819_) {\n        return AXIS_AABB;\n    }\n\n    public BlockState updateShape(Bloc",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blockentities/AltarOfAbyss_Block_Entity.class",
+      "class_sha256": "a859e560a32f71b4eb86da170a8e7f51ac1c3b407164ca0f68c11b8b2be47683",
+      "claim": "Abyssal Sacrifice triggers Leviathan, and the altar slot clears on successful spawn.",
+      "decompiled_excerpt": "prevChompProgress = this.chompProgress;\n        if (!this.getItem(0).isEmpty() && this.getItem(0).getItem() == ModItems.ABYSSAL_SACRIFICE.get()) {\n            this.summoningthis = true;\n            if (this.summoningticks == 1) {\n                ScreenShake_Entity.ScreenShake((Level)level, (Vec3)Vec3.atCenterOf((Vec3i)pos), (float)20.0f, (float)0.03f, (int)0, (int)150);\n            }\n            if (this.summoningticks > 118 && this.summoningticks < 121) {\n                this.Sphereparticle(level, 3.0f, 3.0f);\n            }\n            if (this.summoningticks > 121) {\n                this.BlockBreaking(3, 6, 3);\n                The_Leviathan_Entity leviathan = (The_Leviathan_Entity)((EntityType)ModEntities.THE_LEVIATHAN.get()).create(level);\n                if (level instanceof ServerLevel) {\n                    ServerLevel serverLevel = (ServerLevel)level;\n                    if (leviathan != null) {\n                        leviathan.setPos((double)((float)pos.getX() + 0.5f), (double)(pos.getY() + 3), (double)((float)pos.getZ() + 0.5f));\n                        leviathan.setHomePos(GlobalPos.of((ResourceKey)serverLevel.dimension(), (BlockPos)pos));\n                        boolean flag = level.addFreshEntity((Entity)leviathan);\n                        if (flag) {\n                            this.items.set(0, (Object)ItemStack.EMPTY);\n                            this.setChanged();\n                            level.sendBlockUpdated(pos, state, state, 3);\n                        }\n                    }\n                }\n            }\n        }\n        if (this.summoningthis && this.chompProgress < 30.0f) {\n            this.chompProgress += 1.0f;\n        }\n        if (!this.summoningthis && this.chompProgress > 0.0f) {\n            this.chompProgress -= 1.0f;\n        }\n        this.summoningticks = !this.summoningthis ? 0 : ++this.summoningticks;\n    }\n\n    public float getChompProgress(floa",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/entity/AnimationMonster/BossMonsters/The_Harbinger_Entity.class",
+      "class_sha256": "0d3df28447eaeb83f313475b5b5e27a96eed74cfdddfecb79eef12e0a0dbc125",
+      "claim": "One Nether Star activates the dormant Harbinger and is consumed outside creative mode.",
+      "decompiled_excerpt": "s.level().levelEvent((Player)null, 1022, this.blockPosition(), 0);\n                }\n            }\n        }\n    }\n\n    public InteractionResult mobInteract(Player player, InteractionHand hand) {\n        ItemStack itemstack = player.getItemInHand(hand);\n        Item item = itemstack.getItem();\n        if (item == Items.NETHER_STAR && !this.getIsAct()) {\n            if (!player.isCreative()) {\n                itemstack.shrink(1);\n            }\n            this.setIsAct(true);\n            this.setHomePos(GlobalPos.of((ResourceKey)this.level().dimension(), (BlockPos)this.blockPosition()));\n            this.heal(this.getMaxHealth());\n            return InteractionResult.SUCCESS;\n        }\n        return super.mobInteract(player, hand);\n    }\n\n    protected void customServerAiStep() {\n        if (this.getIsAct()) {\n            if (this.deactivateProgress > 0.0f) {\n                float k1 = this.deactivateProgress - 1.0f;\n                if (k1 <= 0.0f && !this.isSilent()) {\n                    this.level().globalLevelEvent(1023, this.blockPosition(), 0);\n                }\n            } else {\n                super.customServerAiStep();\n                for (int i = 1; i < 3; ++i) {\n                    if (this.tickCount < this.nextHeadUpdate[i - 1]) continue;\n                    this.nextHeadUpdate[i - 1] = this.tickCount + 10 + this.random.nextInt(10);\n                    int l1 = this.getAlternativeTarget(i);\n                    if (l1 > 0) {\n                        LivingEntity livingentity = (LivingEntity)this.level().getEntity(l1);\n                        if (livingentity != null && this.canAttack(livingentity) && !(this.distanceToSqr((Entity)livingentity) > 1600.0) && this.hasLineOfSight((Entity)livingentity) && (this.Laser_Mode_Progress == 30.0f || this.Laser_Mode_Progress == 0.0f) && this.getAnimation() == NO_ANIMATION) {\n                            this.performRangedAttack(i + 1, liv",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/entity/InternalAnimationMonster/IABossMonsters/Ancient_Remnant/Ancient_Remnant_Entity.class",
+      "class_sha256": "60494d5d78e5439b877b8204fbdc8f10b58b4009a0ee263c3c9b24d6dff5a956",
+      "claim": "One Necklace of the Desert activates the dormant Remnant and is consumed outside creative mode.",
+      "decompiled_excerpt": "    this.Roarparticle(4.0f, -1.0f, 7.5f, 10, 255, 255, 255, 0.4f, 1.0f, 0.8f, 3.5f);\n            }\n        }\n    }\n\n    public InteractionResult mobInteract(Player player, InteractionHand hand) {\n        ItemStack itemstack = player.getItemInHand(hand);\n        Item item = itemstack.getItem();\n        if (item == ModItems.NECKLACE_OF_THE_DESERT.get() && !this.getNecklace()) {\n            if (!player.isCreative()) {\n                itemstack.shrink(1);\n            }\n            this.setHomePos(GlobalPos.of((ResourceKey)this.level().dimension(), (BlockPos)this.blockPosition()));\n            this.setNecklace(true);\n            this.setAttackState(2);\n            return InteractionResult.SUCCESS;\n        }\n        return super.mobInteract(player, hand);\n    }\n\n    private void AreaAttack(float range, float height, float arc, float damage, float hpdamage, int shieldbreakticks, int stunticks) {\n        List entitiesHit = this.getEntityLivingBaseNearby(range, height, range, range);\n        if (!this.level().isClientSide) {\n            DamageSource damagesource = this.damageSources().mobAttack((LivingEntity)this);\n            for (LivingEntity entityHit : entitiesHit) {\n                float entityHitAngle = (float)((Math.atan2(entityHit.getZ() - this.getZ(), entityHit.getX() - this.getX()) * 57.29577951308232 - 90.0) % 360.0);\n                float entityAttackingAngle = this.yBodyRot % 360.0f;\n                if (entityHitAngle < 0.0f) {\n                    entityHitAngle += 360.0f;\n                }\n                if (entityAttackingAngle < 0.0f) {\n                    entityAttackingAngle += 360.0f;\n                }\n                float entityRelativeAngle = entityHitAngle - entityAttackingAngle;\n                float entityHitDistance = (float)Math.sqrt((entityHit.getZ() - this.getZ()) * (entityHit.getZ() - this.getZ()) + (entityHit.getX() - this.getX()) * (entityHit.getX() - this.getX())",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blocks/Door_of_Seal_Block.class",
+      "class_sha256": "a45fa2f69114369bb4c0a3afdd54136d43b13c70c0911de131da1c693287c9af",
+      "claim": "The sealed door recognizes Strange Key without consuming it in this interaction.",
+      "decompiled_excerpt": "ty newBlockEntity(BlockPos pos, BlockState state) {\n        return new Door_Of_Seal_BlockEntity(pos, state);\n    }\n\n    protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {\n        BlockPos basePos = this.getBasePos(state, pos);\n        BlockState baseState = level.getBlockState(basePos);\n        if (player.getItemInHand(hand).is((Item)ModItems.STRANGE_KEY.get())) {\n            return this.onHit(level, baseState, new BlockHitResult(hit.getLocation().add((double)(basePos.getX() - pos.getX()), (double)(basePos.getY() - pos.getY()), (double)(basePos.getZ() - pos.getZ())), hit.getDirection(), basePos, hit.isInside()), player, hand, true) ? ItemInteractionResult.sidedSuccess((boolean)level.isClientSide) : ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;\n        }\n        return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;\n    }\n\n    public boolean onHit(Level p_49702_, BlockState blockState, BlockHitResult p_49704_, Player p_49705_, InteractionHand p_49726_, boolean p_49706_) {\n        BlockPos blockpos = p_49704_.getBlockPos();\n        if (p_49706_) {\n            this.attemptToRing(p_49705_, p_49702_, p_49726_, blockState, blockpos);\n            return true;\n        }\n        return false;\n    }\n\n    public boolean attemptToRing(Player p_152189_, Level p_152190_, InteractionHand p_49726_, BlockState blockState, BlockPos p_152191_) {\n        BlockEntity blockentity = p_152190_.getBlockEntity(p_152191_);\n        if (!p_152190_.isClientSide && blockentity instanceof Door_Of_Seal_BlockEntity && !((Boolean)blockState.getValue((Property)LIT)).booleanValue()) {\n            ((Door_Of_Seal_BlockEntity)blockentity).onHit(p_152190_);\n            p_152190_.setBlock(p_152191_, (BlockState)blockState.setValue((Property)LIT, (Comparable)Boolean.valueOf(true)), 3);\n            p_",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blocks/Cursed_Tombstone_Block.class",
+      "class_sha256": "4b9e370c8215215a3f7905f3a334febbeaa2cd9b592370d365aa58c18fd5cb85",
+      "claim": "When POWERED and not LIT, held-item interaction sets LIT without requiring a particular item.",
+      "decompiled_excerpt": " mirrorIn) {\n        return state.rotate(mirrorIn.getRotation((Direction)state.getValue((Property)FACING)));\n    }\n\n    protected ItemInteractionResult useItemOn(ItemStack p_316383_, BlockState state, Level worldIn, BlockPos pos, Player player, InteractionHand p_316216_, BlockHitResult p_316827_) {\n        if (((Boolean)state.getValue((Property)POWERED)).booleanValue()) {\n            if (!((Boolean)state.getValue((Property)LIT)).booleanValue()) {\n                state = (BlockState)state.setValue((Property)LIT, (Comparable)Boolean.valueOf(true));\n                worldIn.setBlock(pos, state, 10);\n                return ItemInteractionResult.SUCCESS;\n            }\n        } else {\n            player.displayClientMessage((Component)Component.translatable((String)\"block.cataclysm.cursed_tombstone.message\"), true);\n            return ItemInteractionResult.FAIL;\n        }\n        return ItemInteractionResult.FAIL;\n    }\n\n    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> p_48814_) {\n        p_48814_.add(new Property[]{FACING, LIT, POWERED});\n    }\n\n    public VoxelShape getShape(BlockState p_48816_, BlockGetter p_48817_, BlockPos p_48818_, CollisionContext p_48819_) {\n        Direction direction = (Direction)p_48816_.getValue((Property)FACING);\n        return direction.getAxis() == Direction.Axis.X ? X_AXIS_AABB : Z_AXIS_AABB;\n    }\n\n    @Nullable\n    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {\n        return new Cursed_tombstone_Entity(pos, state);\n    }\n\n    @Nullable\n    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level p_152180_, BlockState p_152181_, BlockEntityType<T> p_152182_) {\n        return Cursed_Tombstone_Block.createTickerHelper(p_152182_, (BlockEntityType)((BlockEntityType)ModTileentites.CURSED_TOMBSTONE.get()), Cursed_tombstone_Entity::commonTick);\n    }\n}\n",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blockentities/Cursed_tombstone_Entity.class",
+      "class_sha256": "a578b5b1b45e91b26b09dc550b9e263fd87e6d9a70bad4088691457650a342c1",
+      "claim": "The configured cooldown restores POWERED, and LIT triggers Maledictus creation.",
+      "decompiled_excerpt": " pos, BlockState state) {\n        super((BlockEntityType)ModTileentites.CURSED_TOMBSTONE.get(), pos, state);\n    }\n\n    public static void commonTick(Level level, BlockPos pos, BlockState blockState, Cursed_tombstone_Entity entity) {\n        if (blockState.getBlock() instanceof Cursed_Tombstone_Block) {\n            if (!((Boolean)blockState.getValue((Property)Cursed_Tombstone_Block.POWERED)).booleanValue()) {\n                if (entity.summonCooldownProgress < CMCommonConfig.Blocks.CursedTombstoneCooldown * 1200) {\n                    ++entity.summonCooldownProgress;\n                } else {\n                    level.setBlock(pos, (BlockState)blockState.setValue((Property)Cursed_Tombstone_Block.POWERED, (Comparable)Boolean.valueOf(true)), 2);\n                    level.gameEvent((Holder)GameEvent.BLOCK_CHANGE, pos, GameEvent.Context.of(null, (BlockState)blockState));\n                }\n            } else if (((Boolean)blockState.getValue((Property)Cursed_Tombstone_Block.LIT)).booleanValue()) {\n                ++entity.tickCount;\n                if (entity.tickCount == 1) {\n                    ScreenShake_Entity.ScreenShake((Level)level, (Vec3)Vec3.atCenterOf((Vec3i)pos), (float)20.0f, (float)0.05f, (int)0, (int)80);\n                }\n                if (entity.tickCount > 60 && entity.tickCount < 63) {\n                    double d0 = (float)pos.getX() + 0.5f;\n                    double d1 = pos.getY() + 2;\n                    double d2 = (float)pos.getZ() + 0.5f;\n                    float size = 3.0f;\n                    for (float i = -size; i <= size; i += 1.0f) {\n                        for (float j = -size; j <= size; j += 1.0f) {\n                            for (float k = -size; k <= size; k += 1.0f) {\n                                double d3 = (double)j + (entity.rnd.nextDouble() - entity.rnd.nextDouble()) * 0.5;\n                                double d4 = (double)i + (entity.rnd.ne",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/blockentities/AltarOfVoid_Block_Entity.class",
+      "class_sha256": "a8ee864fe0220127a5e817f73d4f78111a4a0a2ac1197a22964c119da9373ac6",
+      "claim": "The void altar spawns Ender Guardian within six blocks outside Peaceful difficulty, with no offering.",
+      "decompiled_excerpt": "os pos, BlockState state, AltarOfVoid_Block_Entity entity) {\n        entity.tick(level, pos, state, entity);\n    }\n\n    public boolean anyPlayerInRange(Level level, BlockPos pos) {\n        return level.hasNearbyAlivePlayer((double)pos.getX() + 0.5, (double)pos.getY() + 0.5, (double)pos.getZ() + 0.5, (double)this.getRange());\n    }\n\n    public void tick(Level level, BlockPos pos, BlockState state, AltarOfVoid_Block_Entity te) {\n        if (this.spawnedBoss || !this.anyPlayerInRange(level, pos)) {\n            return;\n        }\n        if (level instanceof ServerLevel) {\n            ServerLevel serverLevel = (ServerLevel)level;\n            if (level.getDifficulty() != Difficulty.PEACEFUL && this.spawnMyBoss(serverLevel, pos)) {\n                level.destroyBlock(pos, false);\n                this.spawnedBoss = true;\n            }\n        }\n    }\n\n    protected boolean spawnMyBoss(ServerLevel serverLevel, BlockPos pos) {\n        Vec3 vec3 = Vec3.atLowerCornerWithOffset((Vec3i)pos, (double)0.5, (double)0.0, (double)0.5);\n        Ender_Guardian_Entity entity = (Ender_Guardian_Entity)((EntityType)ModEntities.ENDER_GUARDIAN.get()).create((Level)serverLevel);\n        if (entity != null) {\n            entity.setPos(vec3);\n            entity.finalizeSpawn((ServerLevelAccessor)serverLevel, serverLevel.getCurrentDifficultyAt(this.worldPosition), MobSpawnType.SPAWNER, null);\n            entity.setUsedMassDestruction(false);\n            entity.setHomePos(GlobalPos.of((ResourceKey)serverLevel.dimension(), (BlockPos)pos));\n            return serverLevel.addFreshEntity((Entity)entity);\n        }\n        return false;\n    }\n\n    protected int getRange() {\n        return 6;\n    }\n}\n",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/entity/InternalAnimationMonster/IABossMonsters/Scylla/Scylla_Entity.class",
+      "class_sha256": "19586f14c26adf078b0312a05133c2999cdbccd82f449521e36d7bace89f0b48",
+      "claim": "Inactive Scylla activates on interaction without checking an offering.",
+      "decompiled_excerpt": "ian() * 0.03, this.random.nextGaussian() * 0.01, this.random.nextGaussian() * 0.03);\n            }\n        }\n    }\n\n    public InteractionResult mobInteract(Player player, InteractionHand hand) {\n        if (!this.getAct()) {\n            this.setHomePos(GlobalPos.of((ResourceKey)this.level().dimension(), (BlockPos)this.blockPosition()));\n            this.setAct(true);\n            this.heal(this.getMaxHealth());\n            this.PlayerCounter(this.level());\n            return InteractionResult.SUCCESS;\n        }\n        return super.mobInteract(player, hand);\n    }\n\n    public boolean isAlliedTo(Entity entityIn) {\n        if (entityIn == this) {\n            return true;\n        }\n        if (super.isAlliedTo(entityIn)) {\n            return true;\n        }\n        if (entityIn.getType().is(ModTag.TEAM_SCYLLA)) {\n            return this.getTeam() == null && entityIn.getTeam() == null;\n        }\n        return false;\n    }\n\n    public SoundEvent getBossMusic() {\n        return (SoundEvent)ModSounds.SCYLLA_MUSIC.get();\n    }\n\n    protected boolean canPlayMusic() {\n        return super.canPlayMusic() && !this.isSleep();\n    }\n\n    protected SoundEvent getHurtSound(DamageSource damageSourceIn) {\n        return (SoundEvent)ModSounds.SCYLLA_HURT.get();\n    }\n\n    protected SoundEvent getDeathSound() {\n        return (SoundEvent)ModSounds.SCYLLA_DEATH.get();\n    }\n\n    public void startSeenByPlayer(ServerPlayer player) {\n        super.startSeenByPlayer(player);\n        this.bossEvent.addPlayer(player);\n    }\n\n    public void stopSeenByPlayer(ServerPlayer player) {\n        super.stopSeenByPlayer(player);\n        this.bossEvent.removePlayer(player);\n    }\n\n    protected BodyRotationControl createBodyControl() {\n        return new SmartBodyHelper2((Mob)this);\n    }\n\n    protected PathNavigation createNavigation(Level worldIn) {\n        return new CMPathNavigateGround((Mob)this, worldIn);\n    }\n\n    p",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    },
+    {
+      "source": "com/github/L_Ender/cataclysm/entity/InternalAnimationMonster/IABossMonsters/NewNetherite_Monstrosity/Netherite_Monstrosity_Entity.class",
+      "class_sha256": "d7a2e263b21dfea6725975a7b87faa74c16b601a6b20a2bb7e1ec78ba081e71b",
+      "claim": "Successful damage wakes a living dormant Netherite Monstrosity.",
+      "decompiled_excerpt": " source.getDirectEntity();\n        if (entity instanceof AbstractGolem) {\n            damage *= 0.5f;\n        }\n        if ((attack = super.hurt(source, damage)) && !this.getIsAwaken() && this.isAlive()) {\n            this.setIsAwaken(true);\n        }\n        return attack;\n    }\n\n    public boolean hurtParts(Netherite_Monstrosity_Part part, DamageSource source, float damage) {\n        if (part == this.headPart) {\n            damage = Math.min(Float.MAX_VALUE, damage * 1.5f);\n        }\n        boolean attack = super.hurt(source, damage);\n        return attack;\n    }\n\n    protected int decreaseAirSupply(int air) {\n        return air;\n    }\n\n    public float DamageCap() {\n        return (float)CMCommonConfig.NetheriteMonstrosity.damageCap;\n    }\n\n    public float NatureRegen() {\n        return (float)CMCommonConfig.NetheriteMonstrosity.natureHeal;\n    }\n\n    public float DpsCap() {\n        return (float)CMCommonConfig.NetheriteMonstrosity.dpsCap;\n    }\n\n    public double RangeLimit() {\n        return CMCommonConfig.NetheriteMonstrosity.rangeCap;\n    }\n\n    public boolean canBeCollidedWith() {\n        return this.isAlive() && CMCommonConfig.NetheriteMonstrosity.BodyCollided && this.getAttackState() != 8;\n    }\n\n    public boolean isPushable() {\n        return false;\n    }\n\n    public AnimationState getAnimationState(String input) {\n        if (input == \"idle\") {\n            return this.idleAnimationState;\n        }\n        if (input == \"sleep\") {\n            return this.sleepAnimationState;\n        }\n        if (input == \"awake\") {\n            return this.awakeAnimationState;\n        }\n        if (input == \"smash\") {\n            return this.smashsAnimationState;\n        }\n        if (input == \"phase_two\") {\n            return this.phaseAnimationState;\n        }\n        if (input == \"fire\") {\n            return this.fireAnimationState;\n        }\n        if (input == \"death\") {\n            re",
+      "method": "CFR 0.152 on the checksum-verified selected artifact",
+      "runtime_test": false
+    }
+  ],
+  "key_drop": {
+    "source": "data/cataclysm/loot_table/entities/aptrgangr.json",
+    "definition": {
+      "type": "minecraft:entity",
+      "pools": [
+        {
+          "bonus_rolls": 0.0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 0.0
+                  },
+                  "enchantment": "minecraft:looting",
+                  "function": "minecraft:enchanted_count_increase"
+                }
+              ],
+              "name": "minecraft:bone"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": 0.0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "cataclysm:strange_key"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": 0.0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 1.0
+                  },
+                  "enchantment": "minecraft:looting",
+                  "function": "minecraft:enchanted_count_increase"
+                }
+              ],
+              "name": "minecraft:rotten_flesh"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": 0.0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 2.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 0.0
+                  },
+                  "enchantment": "minecraft:looting",
+                  "function": "minecraft:enchanted_count_increase"
+                }
+              ],
+              "name": "cataclysm:black_steel_nugget"
+            }
+          ],
+          "rolls": 1.0
+        },
+        {
+          "bonus_rolls": 0.0,
+          "entries": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 1.0,
+                    "min": 0.0
+                  },
+                  "enchantment": "minecraft:looting",
+                  "function": "minecraft:enchanted_count_increase"
+                }
+              ],
+              "name": "cataclysm:black_steel_ingot"
+            }
+          ],
+          "rolls": 1.0
+        }
+      ],
+      "random_sequence": "cataclysm:entities/draugr"
+    }
+  },
+  "native_item_evidence": [
+    {
+      "identifier": "cataclysm:abyssal_sacrifice",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<Item> ABYSSAL_SACRIFICE = ITEMS.register(\"abyssal_sacrifice\", () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.RARE)));",
+      "localized_names": {
+        "en_us": "Abyssal Sacrifice",
+        "zh_cn": "深渊祭品"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:altar_of_abyss",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<BlockItem> ALTAR_OF_ABYSS = ITEMS.register(\"altar_of_abyss\", () -> new BlockItem((Block)ModBlocks.ALTAR_OF_ABYSS.get(), new Item.Properties().fireResistant().rarity(Rarity.EPIC)));",
+      "localized_names": {
+        "en_us": "Altar of Abyss",
+        "zh_cn": "深渊祭坛"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:altar_of_fire",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<BlockItem> ALTAR_OF_FIRE = ITEMS.register(\"altar_of_fire\", () -> new BlockItem((Block)ModBlocks.ALTAR_OF_FIRE.get(), new Item.Properties().fireResistant().rarity(Rarity.EPIC)));",
+      "localized_names": {
+        "en_us": "Altar of Fire",
+        "zh_cn": "烈焰祭坛"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:altar_of_void",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<BlockItem> ALTAR_OF_VOID = ITEMS.register(\"altar_of_void\", () -> new BlockItem((Block)ModBlocks.ALTAR_OF_VOID.get(), new Item.Properties().fireResistant().rarity(Rarity.EPIC)));",
+      "localized_names": {
+        "en_us": "Altar of Void",
+        "zh_cn": "虚空祭坛"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:burning_ashes",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<Item> BURNING_ASHES = ITEMS.register(\"burning_ashes\", () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.RARE)));",
+      "localized_names": {
+        "en_us": "Burning Ashes",
+        "zh_cn": "炽燃余烬"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:cursed_tombstone",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<BlockItem> CURSED_TOMBSTONE = ITEMS.register(\"cursed_tombstone\", () -> new BlockItem((Block)ModBlocks.CURSED_TOMBSTONE.get(), new Item.Properties().fireResistant().rarity(Rarity.EPIC)));",
+      "localized_names": {
+        "en_us": "Cursed Tombstone",
+        "zh_cn": "被诅咒的墓碑"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:door_of_seal",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<BlockItem> DOOR_OF_SEAL = ITEMS.register(\"door_of_seal\", () -> new BlockItem((Block)ModBlocks.DOOR_OF_SEAL.get(), new Item.Properties().fireResistant().rarity(Rarity.EPIC)));",
+      "localized_names": {
+        "en_us": "Door of Seal",
+        "zh_cn": "封印之门"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:necklace_of_the_desert",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<Item> NECKLACE_OF_THE_DESERT = ITEMS.register(\"necklace_of_the_desert\", () -> new Necklace_Of_The_Desert(new Item.Properties().fireResistant().rarity(Rarity.RARE)));",
+      "localized_names": {
+        "en_us": "Necklace of the desert",
+        "zh_cn": "沙漠项链"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "cataclysm:strange_key",
+      "registration_source": "com/github/L_Ender/cataclysm/init/ModItems.class",
+      "decompiled_registration": "public static final DeferredItem<Item> STRANGE_KEY = ITEMS.register(\"strange_key\", () -> new Strange_Key(new Item.Properties().fireResistant().rarity(Rarity.RARE)));",
+      "localized_names": {
+        "en_us": "Strange Key",
+        "zh_cn": "怪奇之钥"
+      },
+      "runtime_registry_presence": "not_observed",
+      "proof_boundary": "Explicit released registration call, not inferred from translations or models."
+    },
+    {
+      "identifier": "minecraft:nether_star",
+      "registration_source": "Minecraft vanilla item",
+      "runtime_registry_presence": "not_observed"
+    },
+    {
+      "identifier": "minecraft:soul_sand",
+      "registration_source": "Minecraft vanilla item",
+      "runtime_registry_presence": "not_observed"
+    },
+    {
+      "identifier": "minecraft:soul_soil",
+      "registration_source": "Minecraft vanilla item",
+      "runtime_registry_presence": "not_observed"
+    },
+    {
+      "identifier": "minecraft:wither_skeleton_skull",
+      "registration_source": "Minecraft vanilla item",
+      "runtime_registry_presence": "not_observed"
+    }
+  ],
+  "recommended_primary_item_associations": {
+    "adventure.bosses": [
+      "cataclysm:abyssal_sacrifice",
+      "cataclysm:altar_of_abyss",
+      "cataclysm:altar_of_fire",
+      "cataclysm:altar_of_void",
+      "cataclysm:burning_ashes",
+      "cataclysm:cursed_tombstone",
+      "cataclysm:door_of_seal",
+      "cataclysm:necklace_of_the_desert",
+      "cataclysm:strange_key",
+      "minecraft:nether_star",
+      "minecraft:soul_sand",
+      "minecraft:soul_soil",
+      "minecraft:wither_skeleton_skull"
+    ]
+  },
+  "association_boundary": "Parent integration owns item_ids. Native ItemLink supplies localized labels. A self-reference or unassociated item need not navigate and does not open a recipe browser. No click behavior is claimed.",
+  "visual_provenance": "docs/review-revision/encounters-visuals.json",
+  "publisher_searches": {
+    "inspected_modrinth_galleries": [
+      "https://modrinth.com/mod/bossesrise/gallery",
+      "https://modrinth.com/mod/l_enders-cataclysm/gallery",
+      "https://modrinth.com/mod/illager-invasion/gallery"
+    ],
+    "additional_publisher_searches": [
+      "site:curseforge.com/minecraft/mc-mods/lendercataclysm Leviathan attachments",
+      "site:curseforge.com/minecraft/mc-mods/bossesrise Sandworm Kraken",
+      "site:curseforge.com/minecraft/mc-mods/lendercataclysm Ancient Remnant https://media",
+      "site:curseforge.com/minecraft/mc-mods/lendercataclysm Scylla Maledictus Leviathan"
+    ],
+    "outcome": "No additional image was securely identified as one of the missing bosses. Named structure images were not repurposed as boss portraits. No generic arenas substituted.",
+    "partial_fetches": "CurseForge extraction returned mainly page header content, not a complete current description. Search snippets recovered named structure images but did not establish new boss identities."
+  },
+  "boss_visual_coverage": [
+    {
+      "identifier": "block_factorys_bosses:infernal_dragon",
+      "resource": "images/encounters-bossesrise-infernal-dragon.png",
+      "identity_evidence": {
+        "url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/b8a55442c5008a2079d033cd81aa10198f286a01_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/b8a55442c5008a2079d033cd81aa10198f286a01.png",
+        "featured": false,
+        "title": "Infernal Dragon",
+        "description": null,
+        "created": "2025-07-28T22:47:53.611281Z",
+        "ordering": 0
+      },
+      "status": "explicit publisher gallery title"
+    },
+    {
+      "identifier": "block_factorys_bosses:yeti",
+      "resource": "images/encounters-bossesrise-yeti.png",
+      "identity_evidence": {
+        "url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/a19d014bb9b41dda473188669c422d869df01deb_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/a19d014bb9b41dda473188669c422d869df01deb.png",
+        "featured": false,
+        "title": "Yeti",
+        "description": null,
+        "created": "2025-07-28T22:48:27.862552Z",
+        "ordering": 0
+      },
+      "status": "explicit publisher gallery title"
+    },
+    {
+      "identifier": "block_factorys_bosses:sandworm",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "block_factorys_bosses:underworld_knight",
+      "resource": "images/encounters-bossesrise-underworld-knight.png",
+      "identity_evidence": {
+        "url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/840954c088e9cd516339daf976afec3de8d69cf3_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/840954c088e9cd516339daf976afec3de8d69cf3.png",
+        "featured": false,
+        "title": "Underworld Knight",
+        "description": null,
+        "created": "2025-07-28T22:47:42.181138Z",
+        "ordering": 0
+      },
+      "status": "explicit publisher gallery title"
+    },
+    {
+      "identifier": "block_factorys_bosses:kraken",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "cataclysm:ignis",
+      "resource": "images/encounters-l_enders-cataclysm-ignis.png",
+      "identity_evidence": {
+        "url": "https://cdn.modrinth.com/data/46KJle7n/images/04cc6a87394c250a764687524c40f07013ece1de_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/46KJle7n/images/848feafcef53993ecfc3e663179e9ef1cb8fa187.png",
+        "featured": false,
+        "title": "Ignis",
+        "description": "Ignis",
+        "created": "2023-11-07T09:28:53.843971Z",
+        "ordering": 0
+      },
+      "status": "explicit publisher gallery title"
+    },
+    {
+      "identifier": "cataclysm:netherite_monstrosity",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "cataclysm:ender_guardian",
+      "resource": "images/encounters-cataclysm-ender-guardian-publisher.png",
+      "identity_evidence": {
+        "title": "Ender Guardian",
+        "description": "Official publisher description binds this image to the named boss. Visual inspection confirms the boss is present, not only an empty arena."
+      },
+      "status": "Explicit named boss section in official CurseForge description, plus visual inspection."
+    },
+    {
+      "identifier": "cataclysm:the_harbinger",
+      "resource": "images/encounters-cataclysm-the-harbinger-publisher.png",
+      "identity_evidence": {
+        "title": "The Harbinger",
+        "description": "Official publisher description binds this image to the named boss. Visual inspection confirms the boss is present, not only an empty arena."
+      },
+      "status": "Explicit named boss section in official CurseForge description, plus visual inspection."
+    },
+    {
+      "identifier": "cataclysm:the_leviathan",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "cataclysm:ancient_remnant",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "cataclysm:maledictus",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "cataclysm:scylla",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "illagerinvasion:invoker",
+      "resource": null,
+      "identity_evidence": null,
+      "status": "No explicitly identified screenshot in inspected official Modrinth gallery; no substitute used."
+    },
+    {
+      "identifier": "friendsandfoes:wildfire",
+      "resource": "images/encounters-friends-and-foes-forge-wildfire.png",
+      "identity_evidence": {
+        "url": "https://cdn.modrinth.com/data/BOCJKD49/images/3265740c52749c655071ec4b7662431a9cfebb9e_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/BOCJKD49/images/3265740c52749c655071ec4b7662431a9cfebb9e.webp",
+        "featured": false,
+        "title": "Wildfire",
+        "description": "Wildfire in the Citadel structure in the nether",
+        "created": "2024-09-29T12:45:05.571910Z",
+        "ordering": 14
+      },
+      "status": "explicit publisher gallery title"
+    },
+    {
+      "identifier": "minecraft:ender_dragon",
+      "resource": null,
+      "status": "No identified authentic capture obtained."
+    },
+    {
+      "identifier": "minecraft:wither",
+      "resource": null,
+      "status": "No identified authentic capture obtained."
+    }
+  ],
+  "appearance_sources": {
+    "pictured_bosses": "Visual inspection of seven existing identified publisher captures in an image contact sheet.",
+    "sandworm": "Selected Bosses Rise sandworm geometry has sequential body segments. Publisher 2.0.0 changelog describes underground movement.",
+    "kraken": "Selected kraken geometry and separate tentacle geometries.",
+    "unpictured_cataclysm": "Selected model class part names, recorded below. Basic physical description only, not a screenshot or runtime observation."
+  },
+  "appearance_model_parts": {
+    "com/github/L_Ender/cataclysm/client/model/entity/Maledictus_Model.class": {
+      "sha256": "8e2903d8152087013d322e907160758854dd325e5575c151c4e0ef4a1f0c4e14",
+      "parts": [
+        "root",
+        "roots",
+        "berserker",
+        "legs",
+        "right_leg",
+        "cube_r1",
+        "right_front_leg",
+        "cube_r2",
+        "left_leg",
+        "cube_r3",
+        "left_front_leg",
+        "cube_r4",
+        "pelvis",
+        "front_cloth1",
+        "front_cloth2",
+        "body",
+        "right_shoulder",
+        "cube_r5",
+        "cube_r6",
+        "right_arm",
+        "right_front_arm",
+        "bow",
+        "cube_r7",
+        "cube_r8",
+        "cube_r9",
+        "bow_string",
+        "string1",
+        "string2",
+        "right_mace",
+        "cube_r10",
+        "cube_r11",
+        "cube_r12",
+        "halberd",
+        "cube_r13",
+        "halberd2",
+        "cube_r14",
+        "cube_r15",
+        "bone",
+        "right_particle",
+        "left_shoulder",
+        "cube_r16",
+        "cube_r17",
+        "left_arm",
+        "left_front_arm",
+        "left_mace",
+        "cube_r18",
+        "cube_r19",
+        "cube_r20",
+        "left_particle",
+        "head",
+        "right_horn",
+        "cube_r21",
+        "left_horn",
+        "cube_r22",
+        "left_wing",
+        "left_wing2",
+        "right_wing",
+        "right_wing2",
+        "create",
+        "offset",
+        "mirror",
+        "accept",
+        "idle",
+        "animate",
+        "swing",
+        "shoot",
+        "flying_shoot",
+        "fall_loop",
+        "fall_end",
+        "mass_effect",
+        "flying_smash_1",
+        "flying_smash_2",
+        "flying_halberd_smash_1",
+        "flying_halberd_smash_2",
+        "death",
+        "back_step",
+        "back_step_dash",
+        "radagon",
+        "halberd_swing",
+        "dash"
+      ]
+    },
+    "com/github/L_Ender/cataclysm/client/model/entity/Netherite_Monstrosity_Model.class": {
+      "sha256": "59339f457ba786ae01ba8738592b445c0768bb1fa71c3d0d8df05e4f7877c755",
+      "parts": [
+        "root",
+        "roots",
+        "lowerbody",
+        "upperbody",
+        "head",
+        "horns",
+        "jaw",
+        "leftarmjoint",
+        "leftarm",
+        "leftarm2",
+        "lefthand",
+        "l_hand_blast_4",
+        "l_hand_blast_3",
+        "leftfinger1",
+        "l_hand_blast_2",
+        "leftfinger2",
+        "l_hand_blast_1",
+        "leftfinger3",
+        "l_cannon",
+        "l_core",
+        "l_flame_2",
+        "l_flame_1",
+        "rightarmjoint",
+        "rightarm",
+        "rightarm2",
+        "righthand",
+        "r_hand_blast_4",
+        "r_hand_blast_3",
+        "rightfinger1",
+        "r_hand_blast_2",
+        "rightfinger2",
+        "r_hand_blast_1",
+        "rightfinger3",
+        "r_cannon",
+        "r_core",
+        "r_flame_1",
+        "r_flame_2",
+        "rightleg",
+        "leftleg",
+        "create",
+        "offset",
+        "mirror",
+        "righthand_r1",
+        "lefthand_r1",
+        "righthand_r2",
+        "lefthand_r2",
+        "righthand_r3",
+        "righthand_r4",
+        "lefthand_r3",
+        "righthand_r5",
+        "leftfinger3_r1",
+        "righthand_r6",
+        "righthand_r7",
+        "righthand_r8",
+        "righthand_r9",
+        "lefthand_r4",
+        "righthand_r10",
+        "lefthand_r5",
+        "righthand_r11",
+        "lefthand_r6",
+        "lefthand_r7",
+        "righthand_r12",
+        "lefthand_r8",
+        "rightfinger3_r1",
+        "lefthand_r9",
+        "lefthand_r10",
+        "lefthand_r11",
+        "lefthand_r12",
+        "accept",
+        "idle",
+        "animate",
+        "smash",
+        "sleep",
+        "awake",
+        "phase_two",
+        "death",
+        "fire",
+        "drain",
+        "shoulder_check",
+        "overpower"
+      ]
+    },
+    "com/github/L_Ender/cataclysm/client/model/entity/Scylla_Model.class": {
+      "sha256": "144c92f3bab318db09667ba587d424a6459e28273c64acfa8d64cb21e5ba2ad1",
+      "parts": [
+        "root",
+        "everything",
+        "anchor2",
+        "scylla",
+        "r_leg",
+        "r_leg_armor",
+        "r_leg2",
+        "body",
+        "belt_sea_snake_mody",
+        "belt_sea_snake",
+        "belt_sea_snake2",
+        "belt_sea_snake3",
+        "belt_sea_snake_head",
+        "belt_sea_snake_head2",
+        "belt_sea_snake_tongue",
+        "chest",
+        "head",
+        "l_eye",
+        "r_eye",
+        "hair",
+        "hair2",
+        "l_arm",
+        "l_armor",
+        "l_sea_snake",
+        "l_sea_snake2",
+        "l_sea_snake3",
+        "l_sea_snake_head",
+        "r_sea_snake_head3",
+        "l_sea_snake_tongue",
+        "l_arm2",
+        "anchor",
+        "trail2",
+        "chain_main",
+        "chain_4",
+        "chain_3",
+        "chain_2",
+        "chain",
+        "chain_anchor",
+        "trail",
+        "r_arm",
+        "r_armor",
+        "r_arm2",
+        "r_sea_snake",
+        "r_sea_snake2",
+        "r_sea_snake3",
+        "r_sea_snake_head",
+        "r_sea_snake_tongue",
+        "r_sea_snake_head2",
+        "l_leg",
+        "l_leg_armor",
+        "l_leg2",
+        "create",
+        "offset",
+        "cube_r1",
+        "cube_r2",
+        "cube_r3",
+        "cube_r4",
+        "cube_r5",
+        "cube_r6",
+        "cube_r7",
+        "mirror",
+        "cube_r8",
+        "cube_r9",
+        "cube_r10",
+        "cube_r11",
+        "cube_r12",
+        "cube_r13",
+        "cube_r14",
+        "cube_r15",
+        "cube_r16",
+        "cube_r17",
+        "cube_r18",
+        "cube_r19",
+        "cube_r20",
+        "cube_r21",
+        "cube_r22",
+        "cube_r23",
+        "cube_r24",
+        "cube_r25",
+        "cube_r26"
+      ]
+    },
+    "com/github/L_Ender/cataclysm/client/model/entity/The_Leviathan_Model.class": {
+      "sha256": "8b0286616d6617f4164e33c666cdaafd54874af88dda1b1f564e4f031bf9ab7a",
+      "parts": [
+        "root",
+        "body",
+        "tongue",
+        "four_mouths",
+        "create",
+        "animator",
+        "x",
+        "z",
+        "update",
+        "rotate",
+        "move",
+        "animate",
+        "flap",
+        "swing",
+        "walk",
+        "of",
+        "translate",
+        "rotation",
+        "y",
+        "last",
+        "pose",
+        "mul",
+        "this",
+        "vec",
+        "entity",
+        "f",
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "finspeed",
+        "in",
+        "offset"
+      ]
+    },
+    "com/github/L_Ender/cataclysm/client/model/entity/Ancient_Remnant_Rework_Model.class": {
+      "sha256": "26aa1284a390384d41e23bd8ed12dfb7d7dae1382658bf324cd922e1b4c49d6a",
+      "parts": [
+        "root",
+        "roots",
+        "mid_pivot",
+        "pelvis",
+        "left_long_bone",
+        "right_long_bone",
+        "spine_sail2",
+        "left_bone",
+        "right_bone",
+        "left_big_bone",
+        "right_big_bone",
+        "tail1",
+        "tail2",
+        "tail3",
+        "tail4",
+        "spine1",
+        "spine2",
+        "spine_sail1",
+        "right_shoulder",
+        "left_shoulder",
+        "neck1",
+        "neck2",
+        "head",
+        "jaw",
+        "crown",
+        "under_crown",
+        "right_crown1",
+        "right_crown2",
+        "left_crown",
+        "left_crown2",
+        "snake",
+        "upper_crown",
+        "desert_necklace",
+        "chain1",
+        "chain2",
+        "chain3",
+        "chain4",
+        "chain5",
+        "desert_eye",
+        "eye",
+        "left_arm",
+        "left_front_arm",
+        "left_hand",
+        "left_finger3",
+        "left_finger1",
+        "left_finger2",
+        "right_arm",
+        "right_front_arm",
+        "right_hand",
+        "right_finger1",
+        "right_finger2",
+        "right_finger3",
+        "spine_deco",
+        "legs",
+        "left_leg",
+        "left_deco1",
+        "left_front_leg",
+        "left_ankel_joint",
+        "left_mini_bone",
+        "left_deco2",
+        "left_deco3",
+        "left_ankel",
+        "left_foot",
+        "left_toe",
+        "left_toe2",
+        "left_toe3",
+        "right_leg",
+        "right_deco1",
+        "right_front_leg",
+        "right_ankel_joint",
+        "right_mini_bone",
+        "right_deco2",
+        "right_deco3",
+        "right_ankel",
+        "right_foot",
+        "right_toe",
+        "right_toe2",
+        "right_toe3",
+        "create",
+        "offset"
+      ]
+    }
+  },
+  "content_changes": [
+    "One second-level section per boss, with native item slots and localized item labels for applicable access requirements.",
+    "Moved Invoker and Wildfire out of ordinary creatures, with standalone links to the Bosses page. Removed boss images from ordinary creature sections.",
+    "Shortened large biome expansions to useful terrain or location examples, preserving detailed source evidence in the prior encounter evidence file.",
+    "Corrected End and Nether themed Enderman locations that had been mislabeled as Overworld.",
+    "Translated Chinese structure location prose, keeping official structure and mod names intact.",
+    "Kept all 142 existing structure rows, including explicit disabled or unavailable entries.",
+    "Used labeled provider artwork or habitat fallback images where no suitable structure capture was established."
+  ],
+  "gaps": [
+    "All runtime registry, interaction, rendering and world generation checks remain unperformed. Explicit released item registrations are evidence of shipped code, not proof of runtime presence.",
+    "Ten boss entries have no securely identified authentic image. No substitute image is presented as their appearance.",
+    "Bosses Rise structure entry and spawner details remain at the previously evidenced system level. Exact per-boss activation, range and reset rules are not established.",
+    "Some Cataclysm companions, Illager Invasion placements and Supplementaries encounter conditions remain unresolved and retain uncertainty in player prose.",
+    "Structure locations are readable examples or terrain families, not exhaustive active biome lists. Optional integration biome names in archive tags do not prove those mods or biomes exist at runtime.",
+    "Project license metadata does not independently establish gallery image reuse permission. Permission review remains necessary before redistributing restrictive assets.",
+    "No native parser or live layout verification was run. All image references, locale parity and source conventions were checked programmatically."
+  ],
+  "verification": {
+    "topics": 3,
+    "locales_per_topic": 2,
+    "boss_entries": 17,
+    "boss_sections_with_identified_images": 7,
+    "boss_sections_without_identified_images": 10,
+    "creature_table_rows": 137,
+    "structure_table_rows": 142,
+    "unique_item_identifiers": 13,
+    "referenced_images": 29,
+    "new_provider_artwork_images": 7,
+    "section_counts": {
+      "adventure.bosses": 19,
+      "adventure.creatures": 11,
+      "adventure.structures": 20
+    },
+    "source_checks": {
+      "h2_first": true,
+      "locale_section_parity": true,
+      "english_headings_at_most_24_characters": true,
+      "no_semicolons": true,
+      "markdown_navigation_links_on_standalone_bullets": true,
+      "all_visual_files_exist_and_hash_match": true
+    },
+    "native_parser": "not_run",
+    "rendered_layout": "not_observed",
+    "runtime_item_registry": "not_observed",
+    "game_launch": false,
+    "generator_run": false,
+    "shared_sources_written": false
+  }
+}

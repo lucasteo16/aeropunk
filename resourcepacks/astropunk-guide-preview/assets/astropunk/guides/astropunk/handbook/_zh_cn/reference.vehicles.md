@@ -17,7 +17,10 @@ navigation:
   <ItemIcon id="create_submarine:ballast_tank" />
 </ItemGrid>
 
-[组装](vehicles.assembly.md)包含物理船体与 Offroad 车轮系列。[飞行船](vehicles.airships.md)包含热气囊、燃烧器、螺旋桨、帆与压舱石。[引擎](vehicles.engines.md)整理航空核心、推进器、燃烧器与机翼。[水下载具](vehicles.water.md)包含浮筒、压载、水下推进、氧气与船壳压力。
+- [组装](vehicles.assembly.md) 将方块船体组装为物理载具。
+- [飞行船](vehicles.airships.md) 为飞行船选择升力与推进方式。
+- [引擎](vehicles.engines.md) 比较动力与推进组件。
+- [水下载具](vehicles.water.md) 准备浮力、潜水装备与水下出行。
 
 ***
 
@@ -29,7 +32,9 @@ navigation:
   <ItemIcon id="createbigcannons:cannon_mount" />
 </ItemGrid>
 
-[控制](vehicles.controls.md)包含驾驶舱模块、伺服器、传感器与手持控制器。[雷达](vehicles.radar.md)区分探测、识别与火控。[武器](vehicles.weapons.md)包含火炮、弹药、导弹与固定式马铃薯炮。
+- [控制](vehicles.controls.md) 将驾驶控制装置连接到需要操作的机器。
+- [雷达](vehicles.radar.md) 探测目标并了解识别限制。
+- [武器](vehicles.weapons.md) 安装并补给载具武器。
 
 ***
 
@@ -43,4 +48,8 @@ navigation:
   <ItemIcon id="tempad:tempad" />
 </ItemGrid>
 
-[乘客出行](transport.passenger.md)查询已有列车服务。[铁路建造](transport.railway-builder.md)包含轨道、车站、时刻表与转向架选项。[本地交通](transport.local.md)包含高速管道与步道。[传送](travel.destinations.md)包含 Waystones、Tempad 与传送门返回匹配。[移动目的地](travel.moving-destinations.md)说明安装在支持的移动建筑上的传送石。
+- [乘客出行](transport.passenger.md) 查找列车服务并规划行程。
+- [铁路建造](transport.railway-builder.md) 建设铁路设施并安排运行计划。
+- [本地交通](transport.local.md) 无需完整载具即可在基地内移动。
+- [传送](travel.destinations.md) 使用已发现或已放置的传送目的地。
+- [移动目的地](travel.moving-destinations.md) 了解移动结构上的目的地行为。

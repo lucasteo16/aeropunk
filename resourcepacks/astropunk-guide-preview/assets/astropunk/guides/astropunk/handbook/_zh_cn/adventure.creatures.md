@@ -10,75 +10,76 @@ navigation:
 
 ## Creeper Overhaul
 
-![Spruce Creeper](images/encounters-creeper-overhaul-spruce-creeper.png)
+![云杉苦力怕](images/encounters-creeper-overhaul-spruce-creeper.png)
 
-作者发布的游戏截图，Spruce Creeper。
+云杉苦力怕
 
-| 生物 | 地点与获取 |
+图片展示其中一种生物，其他条目各有不同外形。
+
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
-| 恶地苦力怕 | 主世界，Bryce Canyon (terralith)、Painted Mountains (terralith)、Red Oasis (terralith)、Savanna Badlands (terralith)、Snowy Badlands (terralith)、White Mesa (terralith) |
-| 竹竿苦力怕 | 主世界，Amethyst Canyon (terralith)、Amethyst Rainforest (terralith)、Jungle Mountains (terralith)、Rocky Jungle (terralith)、Tropical Jungle (terralith) |
-| 沙滩苦力怕 | 主世界，Gravel Beach (terralith) |
-| Birch Creeper | 主世界，Birch Taiga (terralith) |
-| 洞穴苦力怕 | 主世界，黑森林、温水深海、Lukewarm Ocean、暖水海洋、Alpine Grove (terralith)等匹配生物群系 |
-| 深橡苦力怕 | 主世界，黑森林 |
-| 沙漠苦力怕 | 主世界，Ancient Sands (terralith)、Desert Canyon (terralith)、Desert Oasis (terralith)、Desert Spires (terralith)、Lush Desert (terralith)、Sandstone Valley (terralith) |
-| 滴水石苦力怕 | 主世界，Andesite Caves (terralith)、Deep Caves (terralith)、Diorite Caves (terralith)、Frostfire Caves (terralith)、Fungal Caves (terralith)等匹配生物群系 |
-| 山地苦力怕 | 主世界，Fractured Savanna (terralith)、Haze Mountain (terralith)、Stony Spires (terralith)、Windswept Spires (terralith) |
-| 丛林苦力怕 | 主世界，Amethyst Canyon (terralith)、Amethyst Rainforest (terralith)、Jungle Mountains (terralith)、Rocky Jungle (terralith)、Tropical Jungle (terralith) |
-| 蘑菇苦力怕 | 主世界，Fungal Caves (terralith)、Mirage Isles (terralith) |
-| Ocean Creeper | 主世界，温水深海、Lukewarm Ocean、暖水海洋 |
-| 稀树苦力怕 | 主世界，Arid Highlands (terralith)、Ashen Savanna (terralith)、Fractured Savanna (terralith)、Savanna Badlands (terralith)、Savanna Slopes (terralith) |
-| 雪原苦力怕 | 主世界，Alpine Grove (terralith)、Cold Shrubland (terralith)、Emerald Peaks (terralith)、Frozen Cliffs (terralith)、Glacial Chasm (terralith)等匹配生物群系 |
-| 云杉苦力怕 | 主世界，Alpine Grove (terralith)、Birch Taiga (terralith)、Forested Highlands (terralith)、Shield (terralith)、Siberian Grove (terralith)等匹配生物群系 |
-| 沼泽苦力怕 | 主世界，Ice Marsh (terralith)、Orchid Swamp (terralith) |
+| 恶地苦力怕 | 在主世界符合条件的恶地生物群系寻找。 |
+| 竹竿苦力怕 | 在主世界符合条件的丛林生物群系寻找。 |
+| 沙滩苦力怕 | 在主世界符合条件的沙滩生物群系寻找。 |
+| 桦木苦力怕 | 在主世界符合条件的桦木林生物群系寻找。 |
+| 洞穴苦力怕 | 在主世界符合模组苦力怕生成规则的生物群系中出现。 |
+| 深橡苦力怕 | 在主世界符合条件的黑森林生物群系寻找。 |
+| 沙漠苦力怕 | 在主世界符合条件的沙漠生物群系寻找。 |
+| 滴水石苦力怕 | 在主世界符合条件的洞穴生物群系寻找。 |
+| 山地苦力怕 | 在主世界符合条件的丘陵生物群系寻找。 |
+| 丛林苦力怕 | 在主世界符合条件的丛林生物群系寻找。 |
+| 蘑菇苦力怕 | 在主世界符合条件的蘑菇岛生物群系寻找。 |
+| 海洋苦力怕 | 在主世界符合条件的温水与暖水海洋生物群系寻找。 |
+| 稀树苦力怕 | 在主世界符合条件的热带草原生物群系寻找。 |
+| 雪原苦力怕 | 在主世界符合条件的积雪地形生物群系寻找。 |
+| 云杉苦力怕 | 在主世界符合条件的针叶林生物群系寻找。 |
+| 沼泽苦力怕 | 在主世界符合条件的沼泽生物群系寻找。 |
 
 ***
 
 ## Enderman Overhaul
 
-![Flower Fields Enderman](images/encounters-enderman-overhaul-flower-fields-enderman.png)
+![花卉末影人](images/encounters-enderman-overhaul-flower-fields-enderman.png)
 
-作者发布的游戏截图，Flower Fields Enderman。
+花卉末影人
 
-| 生物 | 地点与获取 |
+图片展示其中一种生物，其他条目各有不同外形。
+
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
-| 美西螈宠物末影人 | 由远古珍珠召唤，不自然生成。 |
-| 恶地末影人 | 主世界，Badlands类生物群系、Mesa类生物群系、Badlands类生物群系、Mesa类生物群系、Atacama Desert (byg)等匹配生物群系 |
-| 洞穴末影人 | 主世界，Floral类生物群系、Icy类生物群系、Badlands类生物群系、Caves类生物群系、沙漠类生物群系等匹配生物群系 |
-| 海洋末影人 | 主世界，暖水海洋 |
-| 绯红末影人 | 主世界，Crimson Glowing Woods (betternether)、Crimson Pinewood (betternether)、Nether Swampland (betternether)、Old Swampland (betternether)、Crimson Gardens (byg)等匹配生物群系 |
-| 深橡末影人 | 主世界，Ominous Woods (biomesoplenty)、Ancient Forest (byg)、Ebony Woods (byg)、黑森林、Ashen Woodland (regions_unexplored)等匹配生物群系 |
-| 沙漠末影人 | 主世界，沙漠类生物群系、沙漠类生物群系、Lush Desert (biomesoplenty)、Desert Shrubland (projectvibrantjourneys)、Verdant Sands (projectvibrantjourneys)等匹配生物群系 |
-| 末地末影人 | 主世界，The End类生物群系、End Highland类生物群系、End类生物群系、Amber Land (betterend)、Blossoming Spires (betterend)等匹配生物群系 |
-| 末屿末影人 | 主世界，End Highland类生物群系、Ice Starfield (betterend)、End Barrens、Small End Islands、Crystal Peaks (nullscape)、Shadowlands (nullscape)、Void Barrens (nullscape) |
-| 花原末影人 | 主世界，Floral类生物群系、Floral类生物群系、Cherry Blossom Grove (biomesoplenty)、Lavender Field (biomesoplenty)、Lavender Forest (biomesoplenty)等匹配生物群系 |
-| 锤头宠物末影人 | 由远古珍珠召唤，不自然生成。 |
-| 冰刺末影人 | 主世界，Ice Spikes |
-| 蘑菇末影人 | 主世界，Mushroom类生物群系、Mushroom类生物群系、Fungal Jungle (biomesoplenty) |
-| 下界末影人 | 下界，下界荒地 |
-| 宠物末影人 | 由远古珍珠召唤，不自然生成。 |
-| 热草末影人 | 主世界，热带草原类生物群系、热带草原类生物群系、Arid Highlands (terralith)、Ashen Savanna (terralith)、Fractured Savanna (terralith)等匹配生物群系 |
-| 雪原末影人 | 主世界，Icy类生物群系、Snowy类生物群系、Snowy类生物群系、Alpine Grove (terralith)、Cold Shrubland (terralith)等匹配生物群系 |
-| 灵魂末影人 | 主世界，Nether Grasslands (betternether)、Poor Nether Grasslands (betternether)、Soul Plain (betternether)、Wart Forest (betternether)、Wart Forest Edge (betternether)等匹配生物群系 |
-| 沼泽末影人 | 主世界，沼泽类生物群系、沼泽类生物群系、Ice Marsh (terralith)、Orchid Swamp (terralith) |
-| 诡异末影人 | 主世界，Bone Reef (betternether)、Nether Jungle (betternether)、Old Warped Woods (betternether)、Upside Down Forest (betternether)、Upside Down Forest Cleared (betternether)等匹配生物群系 |
-| 高丘末影人 | 主世界，Windswept Hills |
-
-| 生物 | 地点与获取 |
-| --- | --- |
-| Scarab | 已注册的辅助生物，具体出现方式待确认。 |
-| Spirit | 已注册的辅助生物，具体出现方式待确认。 |
+| 美西螈宠物末影人 | 使用远古珍珠召唤，不属于自然出现的动物。 |
+| 恶地末影人 | 在主世界符合条件的恶地生物群系寻找。 |
+| 洞穴末影人 | 使用范围较广的主世界生成标签，并非只出现在洞穴。 |
+| 海洋末影人 | 在主世界符合条件的暖水海洋生物群系寻找。 |
+| 绯红末影人 | 在下界符合条件的绯红森林生物群系寻找。 |
+| 深橡末影人 | 在主世界符合条件的黑森林生物群系寻找。 |
+| 沙漠末影人 | 在主世界符合条件的沙漠生物群系寻找。 |
+| 末地末影人 | 在末地符合条件的末地生物群系寻找。 |
+| 末屿末影人 | 在末地符合条件的末地外岛生物群系寻找。 |
+| 花原末影人 | 在主世界符合条件的花卉林地生物群系寻找。 |
+| 锤头宠物末影人 | 使用远古珍珠召唤，不属于自然出现的动物。 |
+| 冰刺末影人 | 在主世界符合条件的冰刺之地生物群系寻找。 |
+| 蘑菇末影人 | 在主世界符合条件的蘑菇岛生物群系寻找。 |
+| 下界末影人 | 在下界符合条件的下界荒地生物群系寻找。 |
+| 宠物末影人 | 使用远古珍珠召唤，不属于自然出现的动物。 |
+| 热草末影人 | 在主世界符合条件的热带草原生物群系寻找。 |
+| 雪原末影人 | 在主世界符合条件的积雪地形生物群系寻找。 |
+| 灵魂末影人 | 在下界符合条件的灵魂沙峡谷生物群系寻找。 |
+| 沼泽末影人 | 在主世界符合条件的沼泽生物群系寻找。 |
+| 诡异末影人 | 在下界符合条件的诡异森林生物群系寻找。 |
+| 高丘末影人 | 在主世界符合条件的风袭丘陵生物群系寻找。 |
+| 圣甲虫 | 已注册的辅助生物，具体出现方式待确认。 |
+| 灵魂 | 已注册的辅助生物，具体出现方式待确认。 |
 
 ***
 
 ## Friends&Foes
 
-![Waving Crab](images/encounters-friends-and-foes-forge-waving-crab.png)
+![招手的螃蟹](images/encounters-friends-and-foes-forge-waving-crab.png)
 
-作者发布的游戏截图，Waving Crab。
+招手的螃蟹
 
-| 生物 | 地点与获取 |
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
 | 铜傀儡 | 用铜块、避雷针和雕刻南瓜建造。 |
 | 凝灰岩傀儡 | 用凝灰岩、羊毛和雕刻南瓜建造，也可在要塞发现。 |
@@ -89,17 +90,18 @@ navigation:
 | 哞花 | 主世界繁花森林、樱花林、草甸与向日葵平原。 |
 | 淘气鬼 | 主世界废弃矿井，完成捉迷藏可获得奖励。 |
 | 大胃怪 | 主世界沙漠、恶地与热带草原变种。 |
-| 野火 | 下界堡垒 Citadel，另见首领目录。 |
+
+- [具名首领与进入条件](adventure.bosses.md)
 
 ***
 
 ## Variants&Ventures
 
-![Gelid (Frozen Zombie)](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
+![冰冻僵尸](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
 
-作者发布的游戏截图，Gelid (Frozen Zombie)。
+冰冻僵尸
 
-| 生物 | 地点与获取 |
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
 | 寒尸 | 主世界寒冷生物群系，攻击附带冰冻。 |
 | 苔尸 | 主世界丛林，攻击附带中毒。 |
@@ -110,91 +112,89 @@ navigation:
 
 ## Spawn
 
-![Snail](images/encounters-spawn-mod-snail.png)
+![蜗牛](images/encounters-spawn-mod-snail.png)
 
-作者发布的游戏截图，Snail。
+蜗牛
 
-| 生物 | 地点与获取 | 特点 |
-| --- | --- | --- |
-| 鮟鱇鱼 | 主世界，Abyssal Chasm (alexscaves)、冷水深海、冻洋深海 | 深水，可用桶捕捉 |
-| 金枪鱼 | 主世界，冷水深海、深海 | 可繁殖，成年后不能装桶 |
-| 海马 | 主世界，暖水海洋、Seagrass Meadow (spawn) | 珊瑚礁与海草草甸，外观随地点变化 |
-| 蜗牛 | 主世界，Autumnal Forest (nomansland)、Dark Taiga (nomansland)、Maple Forest (nomansland)、Maple Grove (nomansland)、Old Growth Forest (nomansland)等匹配生物群系 | 森林，潮湿时产生黏液 |
-| 仓鼠 | 主世界，草甸、平原、向日葵平原、Lavender Field (nomansland)、Prairie (nomansland) | 开阔草地，用向日葵种子驯服 |
-| 蚂蚁 | 自然出现地点待确认。 | 蚁丘，由蛹孵化的蚂蚁跟随主人 |
-| 蚌 | 主世界，沙滩、Deep Warm Ocean (spawn)、Rocky Shore (spawn)、Sandy Island (spawn)、Seagrass Meadow (spawn)、Tropical Island (spawn)、Volcanic Island (spawn) | 海洋与沙滩，可用手或捕捞网收集 |
-| 海牛 | 主世界，Seagrass Meadow (spawn) | 海草草甸，可用桶挤奶 |
-| 海菇 | 主世界，蘑菇岛 | 蘑菇岛，可用碗收集汤 |
-| 章鱼 | 主世界，Deep Warm Ocean (spawn)、Seagrass Meadow (spawn) | 海洋中较少见，可用捕捞网捕捉 |
-| 鲱鱼 | 主世界，温水深海、深海、Lukewarm Ocean、Ocean、Seagrass Meadow (spawn) | 海洋中的群游鱼类 |
-| 舟鰤 | 自然出现地点待确认。 | 围绕较大生物游动 |
-| 鳚鱼 | 自然出现地点待确认。 | 潮池，容易受惊 |
-| 扁鲹 | 主世界，Cold Ocean、冷水深海、深海、Ocean | 海洋与冷水海洋，附近生物受伤时可能进入狂食状态 |
-| 翻车鲀 | 主世界，Cold Ocean、冷水深海、温水深海、Lukewarm Ocean | 海洋，成年后不能装桶 |
-| 竹节虫 | 自然出现地点待确认。 | 拟态生物，出现条件待确认 |
-| 梭鱼 | 主世界，温水深海、Deep Warm Ocean (spawn) | 温水与暖水深海，可用捕捞网捕捉 |
-| 海岸蟹 | 主世界，沙滩、Cold Ocean、Frozen Ocean、Lukewarm Ocean、Ocean等匹配生物群系 | 海岸，可装桶，会发射气泡 |
-| 蜘蛛蟹 | 主世界，Cold Ocean、冷水深海、冻洋深海、Frozen Ocean | 冷水海洋，敌对，会攀爬并发射冰冻气泡 |
-| 滞儡 | 自然出现地点待确认。 | 接触敌对生物时攻击，可通过打蜡切换状态 |
-| 棘骸 | 主世界，温水深海、Lukewarm Ocean、暖水海洋、Deep Warm Ocean (spawn) | 较暖海洋，仅攻击水中的玩家 |
-| 鬣蜥 | 自然出现地点待确认。 | 热带岛屿，可利用阳光烹饪物品 |
-| 海鬣蜥 | 自然出现地点待确认。 | 海蚀柱，幼年时帮助蜕皮可获得信任 |
-| 海豹 | 主世界，冻洋深海、Frozen Ocean | 寒冷岛屿与冻洋，可用活鱼换取搭乘 |
-| 鲣鸟 | 自然出现地点待确认。 | 沙岛，有求偶舞蹈 |
-| 渡渡鸟 | 自然出现地点待确认。 | 渡渡鸟岛，不能繁殖或游泳 |
-| 火焰守卫 | 自然出现地点待确认。 | 熔岩与太阳石构成的敌对生物 |
+| 生物 | 遭遇地点与特点 |
+| --- | --- |
+| 鮟鱇鱼 | 深水，可用桶捕捉。 |
+| 金枪鱼 | 可繁殖，成年后不能装桶。 |
+| 海马 | 珊瑚礁与海草草甸，外观随地点变化。 |
+| 蜗牛 | 森林，潮湿时产生黏液。 |
+| 仓鼠 | 开阔草地，用向日葵种子驯服。 |
+| 蚂蚁 | 蚁丘，由蛹孵化的蚂蚁跟随主人。自然生成条件尚未确认。 |
+| 蚌 | 海洋与沙滩，可用手或捕捞网收集。 |
+| 海牛 | 海草草甸，可用桶挤奶。 |
+| 海菇 | 蘑菇岛，可用碗收集汤。 |
+| 章鱼 | 海洋中较少见，可用捕捞网捕捉。 |
+| 鲱鱼 | 海洋中的群游鱼类。 |
+| 舟鰤 | 围绕较大生物游动。自然生成条件尚未确认。 |
+| 鳚鱼 | 潮池，容易受惊。自然生成条件尚未确认。 |
+| 扁鲹 | 海洋与冷水海洋，附近生物受伤时可能进入狂食状态。 |
+| 翻车鲀 | 海洋，成年后不能装桶。 |
+| 竹节虫 | 拟态生物，出现条件待确认。自然生成条件尚未确认。 |
+| 梭鱼 | 温水与暖水深海，可用捕捞网捕捉。 |
+| 海岸蟹 | 海岸，可装桶，会发射气泡。 |
+| 蜘蛛蟹 | 冷水海洋，敌对，会攀爬并发射冰冻气泡。 |
+| 滞儡 | 接触敌对生物时攻击，可通过打蜡切换状态。自然生成条件尚未确认。 |
+| 棘骸 | 较暖海洋，仅攻击水中的玩家。 |
+| 鬣蜥 | 热带岛屿，可利用阳光烹饪物品。自然生成条件尚未确认。 |
+| 海鬣蜥 | 海蚀柱，幼年时帮助蜕皮可获得信任。自然生成条件尚未确认。 |
+| 海豹 | 寒冷岛屿与冻洋，可用活鱼换取搭乘。 |
+| 鲣鸟 | 沙岛，有求偶舞蹈。自然生成条件尚未确认。 |
+| 渡渡鸟 | 在渡渡鸟岛寻找。它缺乏自卫能力，会向敌对生物发射无害的种子。自然生成条件尚未确认。 |
+| 火焰守卫 | 熔岩与太阳石构成的敌对生物。自然生成条件尚未确认。 |
 
 ***
 
 ## Bosses'Rise
 
-![Underworld Knight](images/encounters-bossesrise-underworld-knight.png)
+这些敌人守卫首领建筑。
 
-作者发布的游戏截图，Underworld Knight。
-
-| 生物 | 地点与获取 |
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
 | 飞龙守卫 | 龙塔与竞技场装饰，具体生成方式各异。 |
 | 燃烧的骷髅射手 | 龙塔与竞技场装饰，具体生成方式各异。 |
 | 燃烧的飞龙守卫 | 龙塔与竞技场装饰，具体生成方式各异。 |
-| 冰冻骷髅 | 雪人藏身处 |
-| 灵魂骷髅 | 冥界竞技场 |
-| 凋灵骷髅骑士 | 冥界竞技场 |
-| Pirate Captain | 海怪船 |
-| Pirate Rook | 海怪船 |
-| Crossbow Pirate | 海怪船 |
+| 冰冻骷髅 | 雪人藏身处。 |
+| 灵魂骷髅 | 冥界竞技场。 |
+| 凋灵骷髅骑士 | 冥界竞技场。 |
+| 海盗船长 | 海怪船。 |
+| 海盗守卫 | 海怪船。 |
+| 持弩海盗 | 海怪船。 |
 | 骨头堆 | 龙塔与竞技场装饰，具体生成方式各异。 |
+
+- [具名首领与进入条件](adventure.bosses.md)
 
 ***
 
 ## L_Ender's Cataclysm
 
-![Ignis](images/encounters-l_enders-cataclysm-ignis.png)
+在对应遗迹与首领建筑附近寻找这些生物。部分伙伴的获取方式尚未确认。
 
-作者发布的游戏截图，Ignis。
-
-| 生物 | 地点与获取 |
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
-| 末影傀儡 | 末地破碎堡垒 |
-| 末影甲虫 | 末地破碎堡垒 |
-| 炽燃遗魂 | 下界烈焰竞技场与下界要塞战斗 |
-| 炽燃狂魂 | 下界烈焰竞技场与下界要塞战斗 |
-| 观测者 | 主世界远古工厂 |
-| 徘徊者 | 主世界远古工厂 |
-| 渊灵 | 主世界深海与沉没之城 |
-| 渊灵蛮兵 | 主世界深海与沉没之城 |
-| 渊灵垂钓者 | 主世界深海与沉没之城 |
-| 渊灵祭司 | 主世界深海与沉没之城 |
-| 渊灵术士 | 主世界深海与沉没之城 |
-| 珊瑚巨像 | 主世界深海与沉没之城 |
-| 紫水晶巨蟹 | 主世界繁茂洞穴与紫水晶巢穴 |
-| 骸龙 | 主世界沙漠与诅咒金字塔 |
-| 骸龙斗士 | 主世界沙漠与诅咒金字塔 |
-| 瓦吉特 | 主世界沙漠与诅咒金字塔 |
-| 再行魂尸 | 主世界霜冻监狱与雪地遗迹 |
-| 皇家魂尸 | 主世界霜冻监狱与雪地遗迹 |
-| 精英魂尸 | 主世界霜冻监狱与雪地遗迹 |
-| 冥行武弁 | 主世界霜冻监狱与雪地遗迹 |
+| 末影傀儡 | 末地破碎堡垒。 |
+| 末影甲虫 | 末地破碎堡垒。 |
+| 炽燃遗魂 | 下界烈焰竞技场与下界要塞战斗。 |
+| 炽燃狂魂 | 下界烈焰竞技场与下界要塞战斗。 |
+| 观测者 | 主世界远古工厂。 |
+| 徘徊者 | 主世界远古工厂。 |
+| 渊灵 | 主世界深海与沉没之城。 |
+| 渊灵蛮兵 | 主世界深海与沉没之城。 |
+| 渊灵垂钓者 | 主世界深海与沉没之城。 |
+| 渊灵祭司 | 主世界深海与沉没之城。 |
+| 渊灵术士 | 主世界深海与沉没之城。 |
+| 珊瑚巨像 | 主世界深海与沉没之城。 |
+| 紫水晶巨蟹 | 主世界繁茂洞穴与紫水晶巢穴。 |
+| 骸龙 | 主世界沙漠与诅咒金字塔。 |
+| 骸龙斗士 | 主世界沙漠与诅咒金字塔。 |
+| 瓦吉特 | 主世界沙漠与诅咒金字塔。 |
+| 再行魂尸 | 主世界霜冻监狱与雪地遗迹。 |
+| 皇家魂尸 | 主世界霜冻监狱与雪地遗迹。 |
+| 精英魂尸 | 主世界霜冻监狱与雪地遗迹。 |
+| 冥行武弁 | 主世界霜冻监狱与雪地遗迹。 |
 | 沧溟巡守 | 主世界卫城战斗系列，逐类具体地点待确认。 |
 | 水母莉亚 | 主世界卫城战斗系列，逐类具体地点待确认。 |
 | 巨钳守卫 | 主世界卫城战斗系列，逐类具体地点待确认。 |
@@ -207,47 +207,51 @@ navigation:
 | 下界合金幼兽 | 已发布的生物，具体自然生成或伙伴获取方式尚未全部确认。 |
 | 幼年利维坦 | 已发布的生物，具体自然生成或伙伴获取方式尚未全部确认。 |
 
+- [具名首领与进入条件](adventure.bosses.md)
+
 ***
 
 ## Illager Invasion
 
-| 生物 | 地点与获取 |
+| 生物 | 遭遇地点与特点 |
 | --- | --- |
 | 炼金术士 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 档案员 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 猛击者 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 唤火者 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 裁决者 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
-| 祈灵师 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 掳掠者 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 死灵法师 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 挑衅者 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 不祥术士 | 主世界灾厄村民建筑与袭击援军，逐类具体出现地点尚未全部确认。 |
 | 亡骨役奴 | 由灾厄村民魔法召唤，不属于自然生物群系生成。 |
 
+- [具名首领与进入条件](adventure.bosses.md)
+
 ***
 
 ## 召唤生物
 
-| 模组 | 生物 | 获取 |
-| --- | --- | --- |
-| Archers | Spirit Wolf | 通过对应法术召唤。 |
-| Archers Expansion | Polar Bear, Alter Ego | 通过对应法术召唤，不属于自然动物生成。 |
-| Elemental Wizards | Earth Golem | 通过对应法术召唤。 |
-| Wizards | Fire Hydra, Frost Elemental | 通过对应法术召唤。 |
+| 模组 | 生物与获取方式 |
+| --- | --- |
+| Archers | 通过对应法术召唤灵狼。 |
+| Archers Expansion | 通过对应法术召唤北极熊与分身，不属于自然出现的动物。 |
+| Elemental Wizards | 通过对应法术召唤大地傀儡。 |
+| Wizards | 通过对应法术召唤火焰九头蛇与冰霜元素。 |
 
 ***
 
 ## 其他遭遇
 
-| 模组 | 条目 | 状态 |
-| --- | --- | --- |
-| Supplementaries | Red Merchant, Plunderer | 已发布生物，具体出现条件待确认。 |
-| Dangerous | 原版敌人 | 调整现有敌人的装备与生命值，不增加自然生物种类。 |
-| Create: Deep Seas | Amphistium, Cookiecutter Shark | 仅开发环境，普通游戏中不会注册；不属于可探索的生物。 |
+| 模组 | 生物与获取方式 |
+| --- | --- |
+| Supplementaries | 红商人与掠夺者已有发布的生物定义，具体出现条件尚未确认。 |
+| Dangerous | 调整现有敌人的装备与生命值，不增加自然生物种类。 |
+| Create: Deep Seas | Amphistium 与 Cookiecutter Shark 仅用于开发环境，普通游戏中不会注册。 |
 
 ***
 
 ## 相关条目
 
-[首领](adventure.bosses.md)与[建筑与地牢](adventure.structures.md)。
+- [首领与召唤](adventure.bosses.md)
+- [生物栖息地与建筑](adventure.structures.md)

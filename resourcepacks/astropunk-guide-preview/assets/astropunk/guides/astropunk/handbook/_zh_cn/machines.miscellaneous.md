@@ -54,6 +54,22 @@ navigation:
 
 ## 初次使用
 
-制作引擎和储罐组件前，先查看便携钻配方。这些物品不能直接替代 Create 放置式蒸汽引擎。穿戴装备见[装备](equipment.weapons-armor.md)。额外材料配方请查物品浏览器，加工机器的布局请看思索演示。
+制作引擎和储罐组件前，先查看便携钻配方。这些物品不能直接替代 Create 放置式蒸汽引擎。穿戴装备见装备。额外材料配方请查物品浏览器，加工机器的布局请看思索演示。
+
+- [装备](equipment.weapons-armor.md)
 
 <Recipe id="stam1ocreatetweaks:blasting/blue_dye" />
+
+## 相关物品
+
+<ItemGrid>
+  <ItemIcon id="create:steam_engine" />
+  <ItemIcon id="minecraft:brown_mushroom" />
+  <ItemIcon id="minecraft:red_mushroom" />
+</ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="create:steam_engine" /> |
+| <ItemLink id="minecraft:brown_mushroom" /> |
+| <ItemLink id="minecraft:red_mushroom" /> |

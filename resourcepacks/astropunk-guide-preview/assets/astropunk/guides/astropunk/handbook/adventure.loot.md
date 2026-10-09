@@ -10,14 +10,14 @@ navigation:
 
 ## Loot containers
 
-![Mineshaft lootr chest!](images/encounters-lootr-catalog.png)
+![Lootr chest](images/encounters-lootr-catalog.png)
 
-Mineshaft lootr chest!.
+Lootr chest in a mineshaft.
 
 | Container | Behavior |
 | --- | --- |
 | Lootr chests, trapped chests, barrels, shulker boxes and minecarts | Each player receives a separate inventory in converted loot-table containers. |
-| Gold and blue appearance | Gold indicates unopened for you; blue indicates opened. A client setting can hide this appearance. |
+| Gold and blue appearance | Gold indicates unopened for you. Blue indicates opened. A client setting can hide this appearance. |
 | Ordinary storage | Containers without loot tables are not automatically personal loot. |
 
 ***
@@ -33,4 +33,8 @@ Mineshaft lootr chest!.
 
 ## Getting started
 
-Open a Lootr container for your own loot. Use the item browser’s loot displays to check sources and conditions. Refresh and decay depend on server settings; reopening does not guarantee new loot.
+Open a Lootr container for your own loot. Use the item browser’s loot displays to check sources and conditions. Refresh and decay depend on server settings. Reopening does not guarantee new loot.
+
+## Related topics
+
+- [Item recipe](help.search.md)

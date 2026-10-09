@@ -8,41 +8,35 @@ navigation:
 
 # 法术与技能
 
-## 武技路线
+## 角色构筑
 
 <ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="archers_expansion:deadeye_chest" />
   <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="rogues:iron_double_axe" />
-  <ItemIcon id="berserker_rpg:iron_berserker_axe" />
-  <ItemIcon id="forcemaster_rpg:iron_knuckle" />
-</ItemGrid>
-
-[武技](combat.martial.md)包括弓箭手、神射手、冻原猎手、战弓手、盗贼、战士、狂战士和气功师。目录列出职业书分配的实际能力，包括强力射击、暗影步、狂野之怒和石手。
-
-***
-
-## 法术与支援
-
-<ItemGrid>
-  <ItemIcon id="wizards:wand_arcane" />
-  <ItemIcon id="wizards:wand_fire" />
-  <ItemIcon id="wizards:wand_frost" />
-  <ItemIcon id="elemental_wizards_rpg:wand_aqua" />
+  <ItemIcon id="archers:composite_longbow" />
+  <ItemIcon id="wizards:wand_novice" />
   <ItemIcon id="paladins:holy_wand" />
-  <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
 
-[法术](combat.magic.md)包括奥术、火焰、冰霜、水、土、风、圣骑士、牧师、吟游诗人，以及猎魔人的法印与剑术。能力要求符文时，可用符文和符文袋准备施法资源。
+构筑由手持武器、可用招式、技能点与装备属性共同组成。制作武器不会分配技能点，也不会让你学会全部职业招式。
+
+- [武技](combat.martial.md) 查看远程射击、近战与职业招式。
+- [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
+- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+- [战斗操作](combat.handling.md) 了解攻击模式、施法操作与翻滚。
+
 
 ***
 
-## 技能强化与操作
+## 第一套构筑
 
 <ItemGrid>
-  <ItemIcon id="skill_tree_rpgs:orb_of_oblivion" />
-  <ItemIcon id="minecraft:iron_sword" />
+  <ItemIcon id="spell_engine:spell_binding" />
+  <ItemIcon id="spell_engine:spell_book" />
 </ItemGrid>
 
-[职业路线与武器专精](combat.skills.md)通过 Pufferfish’s Skills 技能树调整配装。装备触发效果与法术强化并非额外可选择的职业法术。[战斗操作](combat.handling.md)介绍攻击方式、翻滚和按键冲突。
+<ItemLink id="spell_engine:spell_binding" /> · <ItemLink id="spell_engine:spell_book" />
+
+先选材料可负担、属性契合招式学派的武器。使用职业法术书招式时，在法术绑定台创建并绑定对应法术书，再装备法术书并手持兼容武器。武器自带招式与技能树强化不同于书中学习的法术。
+
+- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
+- [饰品](equipment.accessories.md) 将珠宝与遗物装入适用的饰品槽。

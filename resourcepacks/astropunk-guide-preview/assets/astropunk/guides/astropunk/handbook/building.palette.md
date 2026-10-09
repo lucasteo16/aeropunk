@@ -16,7 +16,12 @@ navigation:
   <ItemIcon id="chipped:boxed_oak_planks" />
 </ItemGrid>
 
-<ItemLink id="chipped:carpenters_table" /> handles these Chipped families: Planks, logs, stripped logs, doors, trapdoors, barrels, bookshelves, ladders and torches.
+| Shown items |
+| --- |
+| <ItemLink id="chipped:basket_woven_oak_planks" /> |
+| <ItemLink id="chipped:boxed_oak_planks" /> |
+
+<ItemLink id="chipped:carpenters_table" /> changes wood and wooden joinery textures. Insert the base material and select a variant. The shown oak planks are examples, not the full family.
 
 ***
 
@@ -28,7 +33,12 @@ navigation:
   <ItemIcon id="chipped:bordered_mossy_stone_bricks" />
 </ItemGrid>
 
-<ItemLink id="chipped:mason_table" /> handles these Chipped families: Stone, andesite, diorite, granite, basalt, blackstone, deepslate, tuff, calcite, dripstone, sandstone, prismarine, quartz, purpur, obsidian, Nether bricks, bricks, mud bricks, terracotta and concrete.
+| Shown items |
+| --- |
+| <ItemLink id="chipped:angry_mossy_stone_bricks" /> |
+| <ItemLink id="chipped:bordered_mossy_stone_bricks" /> |
+
+<ItemLink id="chipped:mason_table" /> changes stone and masonry textures. Its families include natural stone and manufactured building materials. The shown mossy stone bricks are examples.
 
 ***
 
@@ -39,6 +49,11 @@ navigation:
   <ItemIcon id="chipped:arched_black_stained_glass_pillar" />
   <ItemIcon id="chipped:arched_blue_stained_glass_pillar" />
 </ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="chipped:arched_black_stained_glass_pillar" /> |
+| <ItemLink id="chipped:arched_blue_stained_glass_pillar" /> |
 
 <ItemLink id="chipped:glassblower" /> handles these Chipped families: Clear glass and panes, plus stained glass and panes in all sixteen dye colors.
 
@@ -52,6 +67,11 @@ navigation:
   <ItemIcon id="chipped:blocky_white_wool" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="chipped:barky_white_wool" /> |
+| <ItemLink id="chipped:blocky_white_wool" /> |
+
 <ItemLink id="chipped:loom_table" /> handles these Chipped families: Wool and carpet in all sixteen dye colors.
 
 ***
@@ -64,7 +84,12 @@ navigation:
   <ItemIcon id="chipped:blue_moss_block" />
 </ItemGrid>
 
-<ItemLink id="chipped:botanist_workbench" /> handles these Chipped families: Leaves, roots, fungi, mushroom blocks, ice, snow, dirt, clay, mud, sand, gravel, moss, vines, pumpkins, melon, hay and froglights.
+| Shown items |
+| --- |
+| <ItemLink id="chipped:blobby_moss_block" /> |
+| <ItemLink id="chipped:blue_moss_block" /> |
+
+<ItemLink id="chipped:botanist_workbench" /> changes plant and terrain block textures. The shown moss variants illustrate part of this family.
 
 ***
 
@@ -76,7 +101,12 @@ navigation:
   <ItemIcon id="chipped:angry_raw_gold_block" />
 </ItemGrid>
 
-<ItemLink id="chipped:alchemy_bench" /> handles these Chipped families: Amethyst, coal, lapis, diamond, emerald, gold, iron, netherite, crying obsidian, lodestone, sponge, glowstone and waxed copper oxidation stages.
+| Shown items |
+| --- |
+| <ItemLink id="chipped:ancient_gold_block" /> |
+| <ItemLink id="chipped:angry_raw_gold_block" /> |
+
+<ItemLink id="chipped:alchemy_bench" /> changes mineral and metal block textures. Copper choices include waxed oxidation stages. The shown gold blocks are examples.
 
 ***
 
@@ -88,13 +118,20 @@ navigation:
   <ItemIcon id="chipped:bolted_iron_bars" />
 </ItemGrid>
 
-<ItemLink id="chipped:tinkering_table" /> handles these Chipped families: Iron bars, sea lanterns, redstone lamps, redstone blocks, lanterns, soul lanterns and redstone torches.
+| Shown items |
+| --- |
+| <ItemLink id="chipped:barbed_iron_bars" /> |
+| <ItemLink id="chipped:bolted_iron_bars" /> |
+
+<ItemLink id="chipped:tinkering_table" /> changes metal-bar, lighting and redstone block textures. The shown iron bars are examples, not the complete workstation catalog.
 
 ***
 
 ## Getting started
 
-Craft the matching Chipped workstation, insert its base material and choose a texture. Chipped Express adds stonecutting conversions between Chipped variants and base materials. Every Compat and Stone Zone supply compatibility families for installed wood and stone providers; their available variants depend on those providers. Use [item recipes](help.search.md) for exact conversions.
+Craft the matching Chipped workstation, insert its base material and choose a texture. Chipped Express adds stonecutting conversions between Chipped variants and base materials. Every Compat and Stone Zone supply compatibility families for installed wood and stone providers. Their available variants depend on those providers. Use Item recipe for exact conversions.
+
+- [Item recipe](help.search.md)
 
 ***
 

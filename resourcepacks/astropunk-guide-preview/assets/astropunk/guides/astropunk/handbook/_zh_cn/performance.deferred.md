@@ -16,6 +16,6 @@ navigation:
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
-| Async Logger（未安装） | 当前未安装。 |
-| Jasione（未安装） | 当前未安装。 |
-| ServerCore（未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:redstone" /> Async Logger（未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:redstone" /> Jasione（未安装） | 当前未安装。 |
+| <ItemImage id="minecraft:redstone" /> ServerCore（未安装） | 当前未安装。 |

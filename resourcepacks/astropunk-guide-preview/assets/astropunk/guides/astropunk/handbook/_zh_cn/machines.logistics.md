@@ -51,11 +51,27 @@ navigation:
 | --- | --- |
 | <ItemLink id="create:packager" />, <ItemLink id="create:stock_link" />, <ItemLink id="create:redstone_requester" /> | Create 的打包、库存网络与红石请求组件。 |
 | <ItemLink id="create:package_frogport" />, <ItemLink id="create:chain_conveyor" /> | 通过蛙口与链式输送机转移包裹。 |
-| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | Create: Additional Logistics 提供包裹加速器、包裹编辑器与收银机。 |
-| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | 惰性传动杆与齿轮，以及带染色和包壳变体的柔性传动杆。 |
+| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | 以应力消耗换取打包机加速，按规则修改包裹地址，并将库存交易记录到台账。 |
+| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | 超过两根的连续惰性传动杆可提高效率。柔性传动杆可用扳手逐面控制连接。 |
 
 ***
 
 ## 初次使用
 
-先用传送带或溜槽连接一个输入容器和一个输出容器，再添加库存网络。Create 组件的布局请看思索演示。Additional Logistics 还包含销售账簿与列车网络监视器外设；后者是计算机接口，不是独立库存界面。
+先用传送带或溜槽连接一个输入容器和一个输出容器，再添加库存网络。Create 组件的布局请看思索演示。Additional Logistics 还包含销售账簿与列车网络监视器外设。后者是计算机接口，不是独立库存界面。
+
+## 相关物品
+
+<ItemGrid>
+  <ItemIcon id="createadditionallogistics:sales_ledger" />
+  <ItemIcon id="createadditionallogistics:network_monitor" />
+</ItemGrid>
+
+| 图示物品 |
+| --- |
+| <ItemLink id="createadditionallogistics:sales_ledger" /> |
+| <ItemLink id="createadditionallogistics:network_monitor" /> |
+
+## 相关页面
+
+- [物品配方](help.search.md)

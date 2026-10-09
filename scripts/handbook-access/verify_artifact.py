@@ -51,7 +51,9 @@ assert configure_position < listeners_position
 
 reports = [ET.parse(path).getroot() for path in (root / 'build/test-results/test').glob('TEST-*.xml')]
 total = sum(int(report.attrib['tests']) for report in reports)
-assert total == 9, total
+assert total == 10, total
+assert any(case.attrib.get('name') == 'compactViewportKeepsAnInventoryEntry()'
+           for report in reports for case in report.findall('testcase')), 'Compact inventory regression did not run'
 assert sum(int(report.attrib['failures']) + int(report.attrib['errors']) for report in reports) == 0
 print(f'Archive verified: {jar}')
 print(f'Archive size: {jar.stat().st_size} bytes')

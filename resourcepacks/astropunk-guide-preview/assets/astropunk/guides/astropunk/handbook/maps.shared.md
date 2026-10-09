@@ -20,6 +20,8 @@ Terrain sharing, waypoint sharing and player tracking are separate features. Do 
 
 ## Getting started
 
-Open [Maps](maps.personal.md) after joining the server. Let synchronization update the explored areas before treating an empty region as unexplored.
+Open Maps after joining the server. Let synchronization update the explored areas before treating an empty region as unexplored.
+
+- [Personal maps](maps.personal.md)
 
 Cave synchronization can disable World Map's cave-layer selector. This does not mean the Minimap's cave display is also disabled.

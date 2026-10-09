@@ -18,10 +18,20 @@ navigation:
   <ItemIcon id="create:schedule" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="create:track" /> |
+| <ItemLink id="create:railway_casing" /> |
+| <ItemLink id="create:track_station" /> |
+| <ItemLink id="create:controls" /> |
+| <ItemLink id="create:schedule" /> |
+
 Create supplies track, Railway Casing, Train Stations, Train Controls and schedules. Steam 'n' Rails extends track families, gauges, switches, signals and conductor equipment. Use Train Station Ponder for train assembly and the chosen track recipe for its gauge and material.
 
 ***
 
 ## Bogie styles
 
-Blocks & Bogies adds a Bogie Customisation interface rather than a separate bag of bogie items. Its selections include driver and truck types, axle count, small, large and extra large sizes, short, standard, long and trailing variants, and gearless, rodless, pistonless, Walschaerts, rotary poppet, Scotch yoke and Southern valve gear. The interface can switch to the Steam 'n' Rails bogie menu. Choose a supported style there; axle and size choices are not all interchangeable. [Train fittings](building.factory.md) covers the decorative bodywork.
+Blocks & Bogies adds a Bogie Customisation interface, not a separate set of bogie items. Choose the driver or truck role, then the axle count, size and length offered by the menu. Valve-gear styles are additional interface choices. The menu can switch to Steam 'n' Rails. Not every axle, size and style combination is interchangeable. Train fittings covers decorative bodywork.
+
+- [Train fittings](building.factory.md)

@@ -54,6 +54,22 @@ navigation:
 
 ## Getting started
 
-Inspect the Portable Drill recipe before making its engine and tank components; these items are not interchangeable with Create's placed Steam Engine. Wearable equipment belongs in [Equipment](equipment.weapons-armor.md). Use the item browser for the extra material recipes and Ponder for the processing machines.
+Inspect the Portable Drill recipe before making its engine and tank components. These items are not interchangeable with Create's placed Steam Engine. Wearable equipment belongs in Equipment. Use the item browser for the extra material recipes and Ponder for the processing machines.
+
+- [Equipment](equipment.weapons-armor.md)
 
 <Recipe id="stam1ocreatetweaks:blasting/blue_dye" />
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="create:steam_engine" />
+  <ItemIcon id="minecraft:brown_mushroom" />
+  <ItemIcon id="minecraft:red_mushroom" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="create:steam_engine" /> |
+| <ItemLink id="minecraft:brown_mushroom" /> |
+| <ItemLink id="minecraft:red_mushroom" /> |

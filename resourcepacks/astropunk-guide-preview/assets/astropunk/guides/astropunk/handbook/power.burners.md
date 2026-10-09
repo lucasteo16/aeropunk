@@ -29,3 +29,7 @@ navigation:
 ## Getting started
 
 Start with a captured Blaze Burner and inspect the lava supply route. Do not assume diesel, gasoline or every oil is accepted: the selected Liquid Fuel artifact defines lava plus named compatibility fluids from other mods. Confirm the actual fluid in the item browser before plumbing a fuel line. Burner arrangement and heat states are covered by Create Ponder.
+
+## Related topics
+
+- [Item recipe](help.search.md)

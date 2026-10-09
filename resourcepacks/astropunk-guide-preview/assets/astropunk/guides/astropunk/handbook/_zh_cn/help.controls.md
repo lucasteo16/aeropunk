@@ -8,17 +8,6 @@ navigation:
 
 # 操作与按键
 
-## 移动
-
-| 操作 | 当前按键 |
-| --- | --- |
-| 物品栏 | <KeyBind id="key.inventory" /> |
-| 跳跃 | <KeyBind id="key.jump" /> |
-| 潜行 | <KeyBind id="key.sneak" /> |
-| 疾跑 | <KeyBind id="key.sprint" /> |
-
-***
-
 ## 地图与工具
 
 | 操作 | 当前按键 |
@@ -37,9 +26,9 @@ navigation:
 | 打开手册 | <KeyBind id="key.astropunk_handbook_access.open" /> |
 | 物品指南 | <KeyBind id="key.guideme.guide" /> |
 
-物品栏也有手册按钮。物品指南需要鼠标指向已关联手册页面的物品。
+物品指南是悬停物品的上下文帮助，并不是整本手册的快捷键。当前实例中的自定义手册快捷键和物品栏按钮尚未正常工作。
 
-若快捷键无法打开手册，可输入 /guidemec astropunk:handbook open。
+若快捷键无法打开手册，可输入 <Color id="gold">/guidemec astropunk:handbook open</Color>。
 
 ***
 
@@ -50,7 +39,9 @@ navigation:
 | 查看配方 | R |
 | 查看用途 | U |
 
-在物品浏览器设置中修改这些按键。机械动力的思索提示会显示自身按键。图示见[物品配方](help.search.md)。
+在物品浏览器设置中修改这些按键。机械动力的思索提示会显示自身按键。
+
+- [物品配方](help.search.md)
 
 ***
 

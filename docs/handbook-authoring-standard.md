@@ -68,9 +68,15 @@ Do not create one-line redirect pages or duplicate top-level navigation entries.
 
 Classify inventory entries by their actual function, not merely by their relationship to a mechanic. Recipe-browser addons, villager naming, trade-screen shortcuts and manual anvil conveniences belong with player utilities. A mechanics page may cross-reference them without turning them into Automation Mods. Supporting libraries belong under Technical reference.
 
-Every catalog title and detailed entry that promises a destination must have a real handbook link. Link mod entries to their primary topic. Place related topic links near the relevant explanation or in one short closing line. Use the toolbar for history navigation; do not stack Back to category and Back to activities links.
+Every catalog title and detailed entry that promises a destination must have a real handbook link. Link mod entries to their primary topic. Put topic entry points in standalone bullet lists or clear navigation tables above or below the explanation, never hide multiple destination links inside paragraphs. Use the toolbar for history navigation, do not stack Back to category and Back to activities links.
+
+Use informational sentences instead of comma-separated name dumps. Describe a family's purpose, how to acquire it and what a player can do with it. A partial grid must not imply complete equipment coverage. Give each boss its own identifying section, appearance image where available, location and verified access requirement. Bosses owns boss encounters, Creatures links to that page rather than duplicating them. Actual named items used for summoning, crafting, equipment or instruction need native item visuals and localized tooltip references beside their explanation. Resource models and translations alone do not prove that an item is registered in the running game.
+
+Do not use English or Chinese semicolons in player prose. Preserve them only inside literal code or a required token. Omit ordinary Minecraft movement controls. Distinguish normal resource reloading, GuideME's contextual item binding and the custom whole-handbook helper, never claim that watching, shortcuts or an inventory button work without runtime evidence. Structure image fallbacks may use a publisher title image, but label its subject without pretending it is an individual structure screenshot. All mod roster rows need publisher icons where supplied, or a meaningful topic icon when no publisher artwork is available.
 
 Item associations belong in item_ids frontmatter and must have one unambiguous primary article. Native ItemLink follows those associations to handbook pages. It does not open the external recipe browser. Native ItemGrid provides tooltips, not automatic external actions. Do not describe an icon as clickable unless its action has been verified.
+
+Use native Color with symbolic gold around literal commands and search queries the player must type. Keep the typed tokens unchanged and do not imply the styled text executes an action.
 
 Use exact registered KeyBind identifiers for current controls. Label default keys separately from current assignments. The item browser has its own settings; do not imply all its controls are configured in Minecraft's Key Binds screen. Check the selected instance before assigning a new shortcut, and do not overwrite unrelated controls.
 

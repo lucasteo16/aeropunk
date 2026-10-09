@@ -16,7 +16,10 @@ navigation:
   <ItemIcon id="mcwroofs:oak_roof" />
 </ItemGrid>
 
-[Materials](building.palette.md) groups Chipped wood, stone, glass, wool, plants, minerals and lighting by their seven workstations. [Factory finishes](building.factory.md) covers colored bricks, catwalks, girders, metal plating, casings and glazing. [Copycat shapes](building.copycats.md) catalogs blocks, layers, slopes, openings, redstone parts and machine shapes. [Architecture](building.architecture.md) covers bridges, roofs, stairs, doors, windows, fences and chains.
+- [Materials](building.palette.md) Choose decorative materials and the workstation that makes them.
+- [Factory finishes](building.factory.md) Finish industrial builds with matching surfaces and structural details.
+- [Copycat shapes](building.copycats.md) Give shaped blocks the appearance of another material.
+- [Architecture](building.architecture.md) Choose building components that fit a room or exterior.
 
 ***
 
@@ -29,4 +32,7 @@ navigation:
   <ItemIcon id="torchmaster:megatorch" />
 </ItemGrid>
 
-[Furniture](building.furniture.md) includes seating, tables, storage furniture, beds, plants, lamps and crockery. [Displays](building.displays.md) covers paintings, signs, posed armor stands, straw statues and item displays. [Placement](building.placement.md) covers random palettes, weighted filters and schematics. [Lighting & spawning](building.safety.md) separates illumination from spawn suppression.
+- [Furniture](building.furniture.md) Furnish rooms with functional and decorative objects.
+- [Displays](building.displays.md) Arrange artwork and display objects in a build.
+- [Placement](building.placement.md) Use placement tools for repetitive or varied building work.
+- [Lighting & spawning](building.safety.md) Check lighting and control hostile creature spawning.

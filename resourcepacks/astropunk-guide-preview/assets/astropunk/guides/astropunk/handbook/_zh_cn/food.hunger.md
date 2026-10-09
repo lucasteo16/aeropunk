@@ -16,11 +16,11 @@ navigation:
   <ItemIcon id="minecraft:cooked_beef" />
 </ItemGrid>
 
-AppleSkin 在食物提示中显示饥饿值和饱和度。饥饿值补充可见的饥饿条，饱和度延缓下一次消耗。出发前同时比较两者。
+AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿值补充可见的饥饿条，饱和度则是饥饿条下降前先消耗的储备。比较 <ItemLink id="minecraft:bread" /> 与 <ItemLink id="minecraft:cooked_beef" /> 的实际提示，不要凭菜名判断饱腹能力。也可用 <ItemLink id="minecraft:apple" /> 比较水果的恢复量。状态效果与这两个数值是不同属性。
 
 ***
 
-## 饮食多样性与容器
+## 滚动饮食记录
 
 <ItemGrid>
   <ItemIcon id="solonion:food_book" />
@@ -29,12 +29,22 @@ AppleSkin 在食物提示中显示饥饿值和饱和度。饥饿值补充可见�
   <ItemIcon id="solonion:golden_lunchbox" />
 </ItemGrid>
 
-食物手册记录当前饮食和多样性奖励。重复吃同一种食物会刷新它在历史中的记录，不会增加一种新食物。搭配不同料理，不要把曾经吃过的品种当作永久奖励。
+整合包记录最近十六次计入饮食的进食，并启用多样性衰减。每种不同食物只计算其仍在记录中的最强贡献。重复进食会刷新该食物自己的贡献，但不会多出一种食物。其他食物会逐渐变旧，最终离开记录。因此奖励取决于当前饮食，而不是一生吃过多少种。
+
+通过物品栏的饮食按钮或 <ItemLink id="solonion:food_book" /> 查看多样性与奖励。所选版本默认启用物品栏按钮，因此检查饮食不必携带手册。该版本随附的负面惩罚列表为空。重复进食可能降低多样性并失去奖励，但不等于同一食物越吃越少恢复饥饿值。
 
 ***
 
-## 远行口粮
+## 准备口粮
 
-Short Stacks 会调整食物堆叠上限。查看实际提示和堆叠上限，不要假定所有料理都像面包一样堆叠。食物效果、饱腹能力和饮食多样性是不同属性。
+<ItemGrid>
+  <ItemIcon id="solonion:lunchbag" />
+  <ItemIcon id="solonion:lunchbox" />
+  <ItemIcon id="solonion:golden_lunchbox" />
+</ItemGrid>
 
-另见[厨房料理](food.utensils.md)、[作物](food.growing.md)和[鱼类](food.fishing.md)。
+用 <ItemLink id="solonion:lunchbag" /> 或 <ItemLink id="solonion:lunchbox" /> 收纳食物。<ItemLink id="solonion:golden_lunchbox" /> 也是容器，并非可食用料理。Short Stacks 会改变食物堆叠上限，装满行囊前先查看实际限制。携带不同成品料理维持饮食多样性，同时单独比较各自的饱腹能力。
+
+- [厨房料理](food.utensils.md)
+- [作物食材](food.growing.md)
+- [鱼类料理](food.fishing.md)

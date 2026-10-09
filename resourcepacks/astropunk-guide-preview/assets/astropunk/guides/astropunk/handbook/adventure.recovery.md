@@ -16,5 +16,5 @@ Work in progress (WIP).
 
 | Mod or content | Publisher description |
 | --- | --- |
-| Corpse | Never lose your items again! |
-| Corpse x Curios API Compat | This little mod allows you to directly equip your Curios items to the respective slots |
+| ![Corpse](images/catalog-WrpuIfhw.png) Corpse | Never lose your items again! |
+| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) Corpse x Curios API Compat | This little mod allows you to directly equip your Curios items to the respective slots |

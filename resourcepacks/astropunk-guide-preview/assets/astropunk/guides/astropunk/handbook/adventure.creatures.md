@@ -12,26 +12,28 @@ navigation:
 
 ![Spruce Creeper](images/encounters-creeper-overhaul-spruce-creeper.png)
 
-Spruce Creeper.
+Spruce Creeper
 
-| Creature | Location and access |
+The image shows one species. The other entries have their own appearance.
+
+| Creature | Encounter |
 | --- | --- |
-| Badlands Creeper | Overworld, Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) |
-| Bamboo Creeper | Overworld, Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) |
-| Beach Creeper | Overworld, Gravel Beach (terralith) |
-| Birch Creeper | Overworld, Birch Taiga (terralith) |
-| Cave Creeper | Overworld, Dark Forest, Deep Lukewarm Ocean, Lukewarm Ocean, Warm Ocean, Alpine Grove (terralith) and related eligible biomes |
-| Dark Oak Creeper | Overworld, Dark Forest |
-| Desert Creeper | Overworld, Ancient Sands (terralith), Desert Canyon (terralith), Desert Oasis (terralith), Desert Spires (terralith), Lush Desert (terralith), Sandstone Valley (terralith) |
-| Dripstone Creeper | Overworld, Andesite Caves (terralith), Deep Caves (terralith), Diorite Caves (terralith), Frostfire Caves (terralith), Fungal Caves (terralith) and related eligible biomes |
-| Hills Creeper | Overworld, Fractured Savanna (terralith), Haze Mountain (terralith), Stony Spires (terralith), Windswept Spires (terralith) |
-| Jungle Creeper | Overworld, Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) |
-| Mushroom Creeper | Overworld, Fungal Caves (terralith), Mirage Isles (terralith) |
-| Ocean Creeper | Overworld, Deep Lukewarm Ocean, Lukewarm Ocean, Warm Ocean |
-| Savannah Creeper | Overworld, Arid Highlands (terralith), Ashen Savanna (terralith), Fractured Savanna (terralith), Savanna Badlands (terralith), Savanna Slopes (terralith) |
-| Snowy Creeper | Overworld, Alpine Grove (terralith), Cold Shrubland (terralith), Emerald Peaks (terralith), Frozen Cliffs (terralith), Glacial Chasm (terralith) and related eligible biomes |
-| Spruce Creeper | Overworld, Alpine Grove (terralith), Birch Taiga (terralith), Forested Highlands (terralith), Shield (terralith), Siberian Grove (terralith) and related eligible biomes |
-| Swamp Creeper | Overworld, Ice Marsh (terralith), Orchid Swamp (terralith) |
+| Badlands Creeper | Look in eligible Overworld badlands biomes. |
+| Bamboo Creeper | Look in eligible Overworld jungle biomes. |
+| Beach Creeper | Look in eligible Overworld beach biomes. |
+| Birch Creeper | Look in eligible Overworld birch forest biomes. |
+| Cave Creeper | Spawns in eligible Overworld biomes used by the mod’s creeper spawn rules. |
+| Dark Oak Creeper | Look in eligible Overworld dark forest biomes. |
+| Desert Creeper | Look in eligible Overworld desert biomes. |
+| Dripstone Creeper | Look in eligible Overworld cave biomes. |
+| Hills Creeper | Look in eligible Overworld hill biomes. |
+| Jungle Creeper | Look in eligible Overworld jungle biomes. |
+| Mushroom Creeper | Look in eligible Overworld mushroom biomes. |
+| Ocean Creeper | Look in eligible Overworld ocean biomes. |
+| Savannah Creeper | Look in eligible Overworld savanna biomes. |
+| Snowy Creeper | Look in eligible Overworld snowy biomes. |
+| Spruce Creeper | Look in eligible Overworld taiga biomes. |
+| Swamp Creeper | Look in eligible Overworld swamp biomes. |
 
 ***
 
@@ -39,36 +41,35 @@ Spruce Creeper.
 
 ![Flower Fields Enderman](images/encounters-enderman-overhaul-flower-fields-enderman.png)
 
-Flower Fields Enderman.
+Flower Fields Enderman
 
-| Creature | Location and access |
-| --- | --- |
-| Axolotl Pet Enderman | Summoned with an Ancient Pearl, not a natural spawn. |
-| Badlands Enderman | Overworld, Badlands biomes, Mesa biomes, Badlands biomes, Mesa biomes, Atacama Desert (byg) and related eligible biomes |
-| Cave Enderman | Overworld, Floral biomes, Icy biomes, Badlands biomes, Caves biomes, 沙漠 biomes and related eligible biomes |
-| Coral Enderman | Overworld, Warm Ocean |
-| Crimson Forest Enderman | Overworld, Crimson Glowing Woods (betternether), Crimson Pinewood (betternether), Nether Swampland (betternether), Old Swampland (betternether), Crimson Gardens (byg) and related eligible biomes |
-| Dark Oak Enderman | Overworld, Ominous Woods (biomesoplenty), Ancient Forest (byg), Ebony Woods (byg), Dark Forest, Ashen Woodland (regions_unexplored) and related eligible biomes |
-| Desert Enderman | Overworld, 沙漠 biomes, 沙漠 biomes, Lush Desert (biomesoplenty), Desert Shrubland (projectvibrantjourneys), Verdant Sands (projectvibrantjourneys) and related eligible biomes |
-| End Enderman | Overworld, The End biomes, End Highland biomes, End biomes, Amber Land (betterend), Blossoming Spires (betterend) and related eligible biomes |
-| End Islands Enderman | Overworld, End Highland biomes, Ice Starfield (betterend), End Barrens, Small End Islands, Crystal Peaks (nullscape), Shadowlands (nullscape), Void Barrens (nullscape) |
-| Flower Fields Enderman | Overworld, Floral biomes, Floral biomes, Cherry Blossom Grove (biomesoplenty), Lavender Field (biomesoplenty), Lavender Forest (biomesoplenty) and related eligible biomes |
-| Hammerhead Pet Enderman | Summoned with an Ancient Pearl, not a natural spawn. |
-| Ice Spikes Enderman | Overworld, Ice Spikes |
-| Mushroom Fields Enderman | Overworld, Mushroom biomes, Mushroom biomes, Fungal Jungle (biomesoplenty) |
-| Nether Wastes Enderman | Nether, Nether Wastes |
-| Pet Enderman | Summoned with an Ancient Pearl, not a natural spawn. |
-| Savanna Enderman | Overworld, 热带草原 biomes, 热带草原 biomes, Arid Highlands (terralith), Ashen Savanna (terralith), Fractured Savanna (terralith) and related eligible biomes |
-| Snowy Enderman | Overworld, Icy biomes, Snowy biomes, Snowy biomes, Alpine Grove (terralith), Cold Shrubland (terralith) and related eligible biomes |
-| Soulsand Valley Enderman | Overworld, Nether Grasslands (betternether), Poor Nether Grasslands (betternether), Soul Plain (betternether), Wart Forest (betternether), Wart Forest Edge (betternether) and related eligible biomes |
-| Swamp Enderman | Overworld, 沼泽 biomes, 沼泽 biomes, Ice Marsh (terralith), Orchid Swamp (terralith) |
-| Warped Forest Enderman | Overworld, Bone Reef (betternether), Nether Jungle (betternether), Old Warped Woods (betternether), Upside Down Forest (betternether), Upside Down Forest Cleared (betternether) and related eligible biomes |
-| Windswept Hills Enderman | Overworld, Windswept Hills |
+The image shows one species. The other entries have their own appearance.
 
-| Creature | Location and access |
+| Creature | Encounter |
 | --- | --- |
-| Scarab | Registered secondary creature; encounter conditions not confirmed. |
-| Spirit | Registered secondary creature; encounter conditions not confirmed. |
+| Axolotl Pet Enderman | Summoned with an Ancient Pearl rather than found as wild animals. |
+| Badlands Enderman | Look in eligible Overworld badlands biomes. |
+| Cave Enderman | Uses broad Overworld spawn tags. Its name does not limit it to caves. |
+| Coral Enderman | Look in eligible Overworld Warm Ocean biomes. |
+| Crimson Forest Enderman | Look in eligible Nether crimson forest biomes. |
+| Dark Oak Enderman | Look in eligible Overworld dark forest biomes. |
+| Desert Enderman | Look in eligible Overworld desert biomes. |
+| End Enderman | Look in eligible End biomes. |
+| End Islands Enderman | Look on the outer End islands in eligible biomes. |
+| Flower Fields Enderman | Look in eligible Overworld flower forest biomes. |
+| Hammerhead Pet Enderman | Summoned with an Ancient Pearl rather than found as wild animals. |
+| Ice Spikes Enderman | Look in eligible Overworld ice spikes biomes. |
+| Mushroom Fields Enderman | Look in eligible Overworld mushroom fields biomes. |
+| Nether Wastes Enderman | Look in the Nether Wastes. |
+| Pet Enderman | Summoned with an Ancient Pearl rather than found as wild animals. |
+| Savanna Enderman | Look in eligible Overworld savanna biomes. |
+| Snowy Enderman | Look in eligible Overworld snowy biomes. |
+| Soulsand Valley Enderman | Look in eligible Nether soul sand valley biomes. |
+| Swamp Enderman | Look in eligible Overworld swamp biomes. |
+| Warped Forest Enderman | Look in eligible Nether warped forest biomes. |
+| Windswept Hills Enderman | Look in eligible Overworld windswept hills biomes. |
+| Scarab | Registered secondary creature. Encounter conditions not confirmed. |
+| Spirit | Registered secondary creature. Encounter conditions not confirmed. |
 
 ***
 
@@ -76,20 +77,21 @@ Flower Fields Enderman.
 
 ![Waving Crab](images/encounters-friends-and-foes-forge-waving-crab.png)
 
-Waving Crab.
+Waving Crab
 
-| Creature | Location and access |
+| Creature | Encounter |
 | --- | --- |
 | Copper Golem | Built from copper block, lightning rod and carved pumpkin. |
-| Tuff Golem | Built from tuff, wool and carved pumpkin; also in strongholds. |
-| Crab | Overworld mangrove swamps and beaches; breed with kelp. |
+| Tuff Golem | Built from tuff, wool and carved pumpkin. Also in strongholds. |
+| Crab | Overworld mangrove swamps and beaches. Breed with kelp. |
 | Glare | Overworld lush caves. |
 | Iceologer | Overworld snowy biomes and Iceologer Cabins. |
 | Illusioner | Overworld taiga shacks and training grounds. |
 | Moobloom | Overworld flower forests, cherry groves, meadows and sunflower plains. |
-| Rascal | Overworld mineshafts; play hide and seek for a reward. |
+| Rascal | Overworld mineshafts. Play hide and seek for a reward. |
 | Mauler | Overworld desert, badlands and savanna variants. |
-| Wildfire | Nether Citadel; see Bosses. |
+
+- [Named bosses & access](adventure.bosses.md)
 
 ***
 
@@ -97,14 +99,14 @@ Waving Crab.
 
 ![Gelid (Frozen Zombie)](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
 
-Gelid (Frozen Zombie).
+Gelid (Frozen Zombie)
 
-| Creature | Location and access |
+| Creature | Encounter |
 | --- | --- |
-| Gelid | Overworld cold biomes; freezing attacks. |
-| Thicket | Overworld jungles; poisonous attacks. |
-| Verdant | Overworld jungles; poison arrows. |
-| Murk | Overworld warm oceans; underwater skeleton. |
+| Gelid | Overworld cold biomes. Freezing attacks. |
+| Thicket | Overworld jungles. Poisonous attacks. |
+| Verdant | Overworld jungles. Poison arrows. |
+| Murk | Overworld warm oceans. Underwater skeleton. |
 
 ***
 
@@ -112,142 +114,144 @@ Gelid (Frozen Zombie).
 
 ![Snail](images/encounters-spawn-mod-snail.png)
 
-Snail.
+Snail
 
-| Creature | Location and access | Traits |
-| --- | --- | --- |
-| Angler Fish | Overworld, Abyssal Chasm (alexscaves), Deep Cold Ocean, Deep Frozen Ocean | An aquatic ambient passive mob found in Deep Waters, where it attracts prey with its lure. Deflates on Land. Fits in a bucket. |
-| Tuna | Overworld, Deep Cold Ocean, Deep Ocean | An aquatic passive mob that can be bred. Doesn't fit in a Bucket when grown up. |
-| Seahorse | Overworld, Warm Ocean, Seagrass Meadow (spawn) | An aquatic ambient passive mob found in Reefs and Seagrass Meadows. |
-| Snail | Overworld, Autumnal Forest (nomansland), Dark Taiga (nomansland), Maple Forest (nomansland), Maple Grove (nomansland), Old Growth Forest (nomansland) and related eligible biomes | A passive mob found in forests that produces Mucus when wet. |
-| Hamster | Overworld, Meadow, Plains, Sunflower Plains, Lavender Field (nomansland), Prairie (nomansland) | A passive mob found in open grassy areas that can be tamed with Sunflower Seeds. |
-| Ant | Natural location not confirmed. | A neutral mob found in Anthills. |
-| Clam | Overworld, Beach, Deep Warm Ocean (spawn), Rocky Shore (spawn), Sandy Island (spawn), Seagrass Meadow (spawn), Tropical Island (spawn), Volcanic Island (spawn) | An aquatic ambient passive mob found in Oceans and Beaches. Can be collected by hand and with a Casting Net. |
-| Sea Cow | Overworld, Seagrass Meadow (spawn) | A passive mob found in Seagrass Meadows that can be milked using a bucket. |
-| Flukeshroom | Overworld, Mushroom Fields | A passive mob found in Mushroom Fields that can be milked for soup using a bowl. Transforms when struck by lightning. |
-| Octopus | Overworld, Deep Warm Ocean (spawn), Seagrass Meadow (spawn) | An aquatic ambient mob rarely found in oceans. Can be captured in a multitude of items, including Casting Nets. |
-| Herring | Overworld, Deep Lukewarm Ocean, Deep Ocean, Lukewarm Ocean, Ocean, Seagrass Meadow (spawn) | An aquatic ambient passive mob found in Oceans schooling in big groups. Fits in a Bucket. |
-| Pilot Fish | Natural location not confirmed. | An aquatic ambient passive mob found circling bigger mobs. Fits in a Bucket. |
-| Blenny | Natural location not confirmed. | A really skittish aquatic ambient passive mob found in Tide Pools. Fits in a Bucket. |
-| Bluefish | Overworld, Cold Ocean, Deep Cold Ocean, Deep Ocean, Ocean | An aquatic ambient neutral mob found in Oceans and Cold Oceans. Can be thrown into a feeding frenzy if mobs nearby are hurt. Fits in a Bucket. |
-| Sunfish | Overworld, Cold Ocean, Deep Cold Ocean, Deep Lukewarm Ocean, Lukewarm Ocean | An aquatic ambient passive mob that can be found in Oceans. |
-| Stickbug | Natural location not confirmed. | Living mimic; exact encounter conditions need confirmation. |
-| Barracuda | Overworld, Deep Lukewarm Ocean, Deep Warm Ocean (spawn) | An aquatic ambient neutral mob found in deep Lukewarm and Warm Oceans. Can be caught in a Casting Net. |
-| Coastal Crab | Overworld, Beach, Cold Ocean, Frozen Ocean, Lukewarm Ocean, Ocean and related eligible biomes | A neutral mob found in coastal regions that can shoot Bubbles and bury itself. Fits in a Bucket. |
-| Spider Crab | Overworld, Cold Ocean, Deep Cold Ocean, Deep Frozen Ocean, Frozen Ocean | An aquatic hostile mob that spawns in Cold Oceans and can jump, climb walls and shoot frozen bubbles. |
-| Stranded | Natural location not confirmed. | An ambient passive mob that attacks hostiles that bump into it. Can be turned on and off by waxing. |
-| Barbed | Overworld, Deep Lukewarm Ocean, Lukewarm Ocean, Warm Ocean, Deep Warm Ocean (spawn) | An aquatic neutral mob found in Warmer Oceans that only attacks players in water. Shoots exploding Barbs. |
-| Iguana | Natural location not confirmed. | A passive mob found on Tropical Islands that can absorb sunrays and use them to cook items. Can be trusted from a young age by helping it shed. |
-| Marine Iguana | Natural location not confirmed. | A passive mob found on sea stacks. Can be trusted from a young age by helping it shed. |
-| Seal | Overworld, Deep Frozen Ocean, Frozen Ocean | A passive mob found on Cold islands and in Frozen Oceans. Can hitch you a ride at the cost of live fish. Doesn't fit into a Bucket when grown up. |
-| Booby | Natural location not confirmed. | A passive mob found on Sandy Islands that performs mating dances and mates for life. |
-| Dodo | Natural location not confirmed. | A passive defenseless mob found on Dodo islands that shoots harmless seeds at hostile mobs. |
-| Firekeeper | Natural location not confirmed. | A hostile mob made of molten rock and sunstone that can attack from long and close range. |
+| Creature | Encounter |
+| --- | --- |
+| Angler Fish | Deep water fish that attracts prey with a lure. Look in deep cold and frozen Overworld oceans. It fits in a bucket. |
+| Tuna | A breedable fish found in cold and deep Overworld oceans. Adults do not fit in a bucket. |
+| Seahorse | Look around warm Overworld reefs and Seagrass Meadow. Its appearance varies with the habitat. |
+| Snail | A forest snail that produces mucus when wet. |
+| Hamster | Look in open Overworld grasslands. Tame it with sunflower seeds. |
+| Ant | Look around anthills. Ants hatched from pupae follow their owner. Natural spawn conditions are not confirmed. |
+| Clam | Look along Overworld beaches and oceans. Collect it by hand or with a Casting Net. |
+| Sea Cow | Look in Seagrass Meadow in the Overworld. Milk it with a bucket. |
+| Flukeshroom | Look on Overworld Mushroom Fields. Collect its soup with a bowl. |
+| Octopus | A rare Overworld ocean creature. Catch it with a Casting Net. |
+| Herring | A schooling fish found in Overworld oceans. |
+| Pilot Fish | Swims around larger creatures. Its natural location is not confirmed. |
+| Blenny | Look in tide pools. It is easily startled. Natural spawn conditions are not confirmed. |
+| Bluefish | Look in cold Overworld oceans. It can enter a frenzy when nearby creatures are hurt. |
+| Sunfish | Look in cold and lukewarm Overworld oceans. Adults do not fit in a bucket. |
+| Stickbug | A mimic creature. Its encounter conditions are not confirmed. |
+| Barracuda | Look in deep warm and lukewarm Overworld oceans. Catch it with a Casting Net. |
+| Coastal Crab | Look along Overworld coasts. It shoots bubbles and fits in a bucket. |
+| Spider Crab | A hostile crab in cold Overworld oceans. It climbs walls and shoots frozen bubbles. |
+| Stranded | Attacks hostile creatures that bump into it. Waxing changes its state. Its natural location is not confirmed. |
+| Barbed | Look in warmer Overworld oceans. It only attacks players who are in water. |
+| Iguana | Look on Tropical Islands. It uses sunlight to cook items. Natural spawn conditions are not confirmed. |
+| Marine Iguana | Look around sea stacks. Help a young iguana shed to gain its trust. Natural spawn conditions are not confirmed. |
+| Seal | Look on Cold Islands and in frozen Overworld oceans. Offer live fish for a ride. |
+| Booby | Look on Sandy Islands. It performs mating dances. Natural spawn conditions are not confirmed. |
+| Dodo | Look on Dodo Islands. It is defenseless and shoots harmless seeds at hostile creatures. Natural spawn conditions are not confirmed. |
+| Firekeeper | A hostile creature made from molten rock and sunstone. Its natural location is not confirmed. |
 
 ***
 
 ## Bosses'Rise
 
-![Underworld Knight](images/encounters-bossesrise-underworld-knight.png)
+These enemies guard boss structures.
 
-Underworld Knight.
-
-| Creature | Location and access |
+| Creature | Encounter |
 | --- | --- |
-| Ashlord Guard | Dragon Tower and arena decorations; exact spawning varies. |
-| Flaming Ashlord Shooter | Dragon Tower and arena decorations; exact spawning varies. |
-| Flaming Ashlord Guard | Dragon Tower and arena decorations; exact spawning varies. |
-| Frozen Skeleton | Yeti Hideout |
-| Soul Skeleton | Underworld Arena |
-| Wither Knight | Underworld Arena |
-| Pirate Captain | Kraken Ship |
-| Pirate Rook | Kraken Ship |
-| Crossbow Pirate | Kraken Ship |
-| Pile Of Bones | Dragon Tower and arena decorations; exact spawning varies. |
+| Ashlord Guard | Dragon Tower and arena decorations. Exact spawning varies. |
+| Flaming Ashlord Shooter | Dragon Tower and arena decorations. Exact spawning varies. |
+| Flaming Ashlord Guard | Dragon Tower and arena decorations. Exact spawning varies. |
+| Frozen Skeleton | Yeti Hideout. |
+| Soul Skeleton | Underworld Arena. |
+| Wither Knight | Underworld Arena. |
+| Pirate Captain | Kraken Ship. |
+| Pirate Rook | Kraken Ship. |
+| Crossbow Pirate | Kraken Ship. |
+| Pile Of Bones | Dragon Tower and arena decorations. Exact spawning varies. |
+
+- [Named bosses & access](adventure.bosses.md)
 
 ***
 
 ## L_Ender's Cataclysm
 
-![Ignis](images/encounters-l_enders-cataclysm-ignis.png)
+Find these creatures around the corresponding ruins and boss structures. Some companion encounters remain unconfirmed.
 
-Ignis.
-
-| Creature | Location and access |
+| Creature | Encounter |
 | --- | --- |
-| Ender Golem | End Ruined Citadel |
-| Endermaptera | End Ruined Citadel |
-| Ignited Revenant | Nether Burning Arena and fortress encounters |
-| Ignited Berserker | Nether Burning Arena and fortress encounters |
-| The Watcher | Overworld Ancient Factory |
-| The Prowler | Overworld Ancient Factory |
-| Deepling | Overworld deep oceans and Sunken City |
-| Deepling Brute | Overworld deep oceans and Sunken City |
-| Deepling Angler | Overworld deep oceans and Sunken City |
-| Deepling Priest | Overworld deep oceans and Sunken City |
-| Deepling Warlock | Overworld deep oceans and Sunken City |
-| Coralssus | Overworld deep oceans and Sunken City |
-| Amethyst Crab | Overworld lush caves and Amethyst Nest |
-| Koboleton | Overworld deserts and Cursed Pyramid |
-| Kobolediator | Overworld deserts and Cursed Pyramid |
-| Wadjet | Overworld deserts and Cursed Pyramid |
-| Draugr | Overworld Frosted Prison and snowy ruins |
-| Royal Draugr | Overworld Frosted Prison and snowy ruins |
-| Elite Draugr | Overworld Frosted Prison and snowy ruins |
-| Aptrgangr | Overworld Frosted Prison and snowy ruins |
-| Hippocamtus | Overworld Acropolis encounter family; individual placement needs confirmation. |
-| Cindaria | Overworld Acropolis encounter family; individual placement needs confirmation. |
-| Clawdian | Overworld Acropolis encounter family; individual placement needs confirmation. |
-| Urchinkin | Overworld Acropolis encounter family; individual placement needs confirmation. |
-| Drowned Host | Overworld Acropolis encounter family; individual placement needs confirmation. |
-| Symbiocto | Overworld Acropolis encounter family; individual placement needs confirmation. |
-| Coral Golem | Released living creatures; exact natural or companion access not fully confirmed. |
-| Lionfish | Released living creatures; exact natural or companion access not fully confirmed. |
-| Modern Remnant | Released living creatures; exact natural or companion access not fully confirmed. |
-| Netherite Ministrosity | Released living creatures; exact natural or companion access not fully confirmed. |
-| The Baby Leviathan | Released living creatures; exact natural or companion access not fully confirmed. |
+| Ender Golem | End Ruined Citadel. |
+| Endermaptera | End Ruined Citadel. |
+| Ignited Revenant | Nether Burning Arena and fortress encounters. |
+| Ignited Berserker | Nether Burning Arena and fortress encounters. |
+| The Watcher | Overworld Ancient Factory. |
+| The Prowler | Overworld Ancient Factory. |
+| Deepling | Overworld deep oceans and Sunken City. |
+| Deepling Brute | Overworld deep oceans and Sunken City. |
+| Deepling Angler | Overworld deep oceans and Sunken City. |
+| Deepling Priest | Overworld deep oceans and Sunken City. |
+| Deepling Warlock | Overworld deep oceans and Sunken City. |
+| Coralssus | Overworld deep oceans and Sunken City. |
+| Amethyst Crab | Overworld lush caves and Amethyst Nest. |
+| Koboleton | Overworld deserts and Cursed Pyramid. |
+| Kobolediator | Overworld deserts and Cursed Pyramid. |
+| Wadjet | Overworld deserts and Cursed Pyramid. |
+| Draugr | Overworld Frosted Prison and snowy ruins. |
+| Royal Draugr | Overworld Frosted Prison and snowy ruins. |
+| Elite Draugr | Overworld Frosted Prison and snowy ruins. |
+| Aptrgangr | Overworld Frosted Prison and snowy ruins. |
+| Hippocamtus | Overworld Acropolis encounter family. Individual placement needs confirmation. |
+| Cindaria | Overworld Acropolis encounter family. Individual placement needs confirmation. |
+| Clawdian | Overworld Acropolis encounter family. Individual placement needs confirmation. |
+| Urchinkin | Overworld Acropolis encounter family. Individual placement needs confirmation. |
+| Drowned Host | Overworld Acropolis encounter family. Individual placement needs confirmation. |
+| Symbiocto | Overworld Acropolis encounter family. Individual placement needs confirmation. |
+| Coral Golem | Released living creatures. Exact natural or companion access not fully confirmed. |
+| Lionfish | Released living creatures. Exact natural or companion access not fully confirmed. |
+| Modern Remnant | Released living creatures. Exact natural or companion access not fully confirmed. |
+| Netherite Ministrosity | Released living creatures. Exact natural or companion access not fully confirmed. |
+| The Baby Leviathan | Released living creatures. Exact natural or companion access not fully confirmed. |
+
+- [Named bosses & access](adventure.bosses.md)
 
 ***
 
 ## Illager Invasion
 
-| Creature | Location and access |
+| Creature | Encounter |
 | --- | --- |
-| Alchemist | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Archivist | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Basher | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Firecaller | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Inquisitor | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Invoker | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Marauder | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Necromancer | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Provoker | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Sorcerer | Overworld illager structures and raid reinforcements; exact per-mob placement not fully resolved. |
-| Surrendered | Summoned by illager magic; not a natural biome spawn. |
+| Alchemist | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Archivist | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Basher | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Firecaller | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Inquisitor | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Marauder | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Necromancer | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Provoker | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Sorcerer | Overworld illager structures and raid reinforcements. Exact per-mob placement not fully resolved. |
+| Surrendered | Summoned by illager magic. Not a natural biome spawn. |
+
+- [Named bosses & access](adventure.bosses.md)
 
 ***
 
 ## Summoned creatures
 
-| Mod | Creature | Access |
-| --- | --- | --- |
-| Archers | Spirit Wolf | Summon through its spell. |
-| Archers Expansion | Polar Bear, Alter Ego | Spell summons, not naturally spawning wildlife. |
-| Elemental Wizards | Earth Golem | Summon through its spell. |
-| Wizards | Fire Hydra, Frost Elemental | Summon through their spells. |
+| Mod | Creatures & access |
+| --- | --- |
+| Archers | Summon a Spirit Wolf through its spell. |
+| Archers Expansion | Polar Bear and Alter Ego are spell summons rather than naturally spawning wildlife. |
+| Elemental Wizards | Summon an Earth Golem through its spell. |
+| Wizards | Summon a Fire Hydra or Frost Elemental through its spell. |
 
 ***
 
 ## Other encounters
 
-| Mod | Entry | Status |
-| --- | --- | --- |
-| Supplementaries | Red Merchant, Plunderer | Released living entities; exact encounter conditions need confirmation. |
-| Dangerous | Vanilla enemies | Changes existing enemy equipment and health, not a new wildlife roster. |
-| Create: Deep Seas | Amphistium, Cookiecutter Shark | Development only. Registration returns early in ordinary gameplay; not available encounters. |
+| Mod | Creatures & access |
+| --- | --- |
+| Supplementaries | Red Merchant and Plunderer have shipped entity definitions. Their encounter conditions are not confirmed. |
+| Dangerous | Changes existing enemy equipment and health without adding a new wildlife roster. |
+| Create: Deep Seas | Amphistium and Cookiecutter Shark are development creatures. They are not registered in ordinary gameplay. |
 
 ***
 
 ## Related
 
-[Bosses](adventure.bosses.md) and [Structures and dungeons](adventure.structures.md).
+- [Bosses & summoning](adventure.bosses.md)
+- [Creature habitats & structures](adventure.structures.md)

@@ -19,7 +19,16 @@ navigation:
   <ItemIcon id="aeroworks:stepper_servo" />
 </ItemGrid>
 
-Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and button panel modules. Right-click a socket with a module; remove it with a wrench. Sneak and right-click to configure each control and its Redstone Link frequencies. Empty-hand right-click takes control; Escape releases it. Touching consoles form one deck, controlled by one player at a time.
+| Shown items |
+| --- |
+| <ItemLink id="aeroworks:control_desk" /> |
+| <ItemLink id="aeroworks:joystick_module" /> |
+| <ItemLink id="aeroworks:throttle_quadrant_module" /> |
+| <ItemLink id="aeroworks:wheel_module" /> |
+| <ItemLink id="aeroworks:mechanical_servo" /> |
+| <ItemLink id="aeroworks:stepper_servo" /> |
+
+Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and button panel modules. Right-click a socket with a module. Remove it with a wrench. Sneak and right-click to configure each control and its Redstone Link frequencies. Empty-hand right-click takes control. Escape releases it. Touching consoles form one deck, controlled by one player at a time.
 
 ***
 
@@ -35,7 +44,17 @@ Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and bu
   <ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" />
 </ItemGrid>
 
-Steering Wheels, Throttle Levers, altitude, velocity and gimbal sensors provide the base control family. Aeroworks adds Gyroscopes and servos. Tweaked Linked Controllers provide a separate handheld control interface. Use the console and servo Ponder for signal behavior; these parts do not create an automatic flight program on their own.
+| Shown items |
+| --- |
+| <ItemLink id="simulated:steering_wheel" /> |
+| <ItemLink id="simulated:throttle_lever" /> |
+| <ItemLink id="simulated:altitude_sensor" /> |
+| <ItemLink id="simulated:velocity_sensor" /> |
+| <ItemLink id="simulated:gimbal_sensor" /> |
+| <ItemLink id="aeroworks:gyroscope" /> |
+| <ItemLink id="create_tweaked_controllers:tweaked_linked_controller" /> |
+
+Steering and throttle controls provide manual input. Sensors report altitude, velocity and gimbal state. Aeroworks adds gyroscopes and servos, while Tweaked Linked Controllers provide a handheld interface. Use console and servo Ponder for signal behavior. These parts do not create an automatic flight program on their own.
 
 ***
 
@@ -51,10 +70,36 @@ Steering Wheels, Throttle Levers, altitude, velocity and gimbal sensors provide 
   <ItemIcon id="aeroengineering:folding_landing_gear_bearing" />
 </ItemGrid>
 
-Directional and Modulating Linked Receivers, optical and laser sensors, analog transmissions and directional gearshifts extend control wiring. Aero Engineering adds Pilot Helmets, cockpit displays, Propeller Pitch Controllers, folding landing gear bearings and Vector Afterburner Mechanisms. Configure their bindings through the item help; cockpit displays require linked monitoring targets.
+| Shown items |
+| --- |
+| <ItemLink id="simulated:directional_linked_receiver" /> |
+| <ItemLink id="simulated:modulating_linked_receiver" /> |
+| <ItemLink id="simulated:optical_sensor" /> |
+| <ItemLink id="simulated:laser_sensor" /> |
+| <ItemLink id="aeroengineering:engine_monitor_helmet" /> |
+| <ItemLink id="aeroengineering:hud_display" /> |
+| <ItemLink id="aeroengineering:folding_landing_gear_bearing" /> |
+
+Linked receivers and optical or laser sensors extend control wiring. Aero Engineering cockpit equipment provides monitoring and landing-gear controls. Configure bindings through the item help. Cockpit displays require linked monitoring targets.
 
 ***
 
 ## Crafting
 
 <Recipe id="aeroworks:throttle_quadrant_module" />
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="create:wrench" />
+  <ItemIcon id="create:redstone_link" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="create:wrench" /> |
+| <ItemLink id="create:redstone_link" /> |
+
+## Related topics
+
+- [Item recipe](help.search.md)

@@ -18,6 +18,14 @@ navigation:
   <ItemIcon id="minecraft:oak_sign" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="immersive_paintings:painting" /> |
+| <ItemLink id="immersive_paintings:glow_painting" /> |
+| <ItemLink id="immersive_paintings:graffiti" /> |
+| <ItemLink id="immersive_paintings:glow_graffiti" /> |
+| <ItemLink id="minecraft:oak_sign" /> |
+
 Immersive Paintings supplies paintings, graffiti and glowing forms. Big Sign Writer expands sign lettering. Use their editing interfaces for image and lettering options.
 
 ***
@@ -32,10 +40,22 @@ Immersive Paintings supplies paintings, graffiti and glowing forms. Big Sign Wri
   <ItemIcon id="items_displayed:brown_jewelry_pillow" />
 </ItemGrid>
 
-Armor Poser edits armor stand limbs, position, rotation and presets. Sneak and right-click an armor stand to open its enabled posing interface. Straw Statues adds a separate Straw Statue. Items Displayed supplies display pillows in sixteen colors and presentations for supported items; display models are not additional collectible items.
+| Shown items |
+| --- |
+| <ItemLink id="minecraft:armor_stand" /> |
+| <ItemLink id="strawstatues:straw_statue" /> |
+| <ItemLink id="items_displayed:black_jewelry_pillow" /> |
+| <ItemLink id="items_displayed:blue_jewelry_pillow" /> |
+| <ItemLink id="items_displayed:brown_jewelry_pillow" /> |
+
+Armor Poser edits armor stand limbs, position, rotation and presets. Sneak and right-click an armor stand to open its enabled posing interface. Straw Statues adds a separate Straw Statue. Items Displayed supplies display pillows in sixteen colors and presentations for supported items. Display models are not additional collectible items.
 
 ***
 
 ## Crafting
 
 <Recipe id="immersive_paintings:graffiti" />
+
+## Related topics
+
+- [Item recipe](help.search.md)

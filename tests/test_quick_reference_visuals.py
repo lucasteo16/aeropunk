@@ -73,7 +73,42 @@ class ReferenceVisuals(unittest.TestCase):
                     if not locale:
                         for heading in re.findall(r'^#{2,3} (.+)$', body, re.M):
                             self.assertLessEqual(len(heading), 24, (filename, heading))
-                    self.assertTrue(any(token in body for token in ('<ItemGrid', '<Recipe', '![', '| ')), filename)
+                    self.assertTrue(any(token in body for token in ('<ItemGrid', '<ItemImage', '<Recipe', '![', '| ')), filename)
+
+    def test_review_removes_movement_and_corrects_access_claims(self):
+        for locale in ('', '_zh_cn'):
+            text = (PAGES / locale / 'help.controls.md').read_text()
+            self.assertNotIn('## Movement', text)
+            self.assertNotIn('## 移动', text)
+            self.assertNotIn('The inventory also has a Handbook button.', text)
+            self.assertNotIn('物品栏也有手册按钮。', text)
+
+    def test_catalog_entries_all_have_visuals(self):
+        for locale in ('', '_zh_cn'):
+            for page in (PAGES / locale).glob('category-*.md'):
+                text = page.read_text()
+                for row in text.splitlines():
+                    if row.startswith('| ') and ('Publisher description' in text or '官方简介' in text):
+                        if re.search(r'\]\([a-z][a-z0-9.-]+\.md\)', row) and not row.endswith('| Reference |') and not row.endswith('| 参考 |') and not row.endswith('| WIP |'):
+                            self.assertTrue('![' in row or '<ItemImage ' in row, (page.name, row))
+
+    def test_review_navigation_and_punctuation(self):
+        authored = json.loads((ROOT / 'docs/handbook-content.json').read_text())
+        for topic, locales in authored.items():
+            for locale, body in locales.items():
+                self.assertNotIn(';', body, (topic, locale))
+                self.assertNotIn('；', body, (topic, locale))
+                for line in body.splitlines():
+                    if re.search(r'(?<!!)\[[^\]]+\]\([^)]*\.md\)', line):
+                        self.assertTrue(line.startswith(('- ', '| ')), (topic, locale, line))
+        for locale in ('', '_zh_cn'):
+            controls = (PAGES / locale / 'help.controls.md').read_text()
+            recipe = (PAGES / locale / 'help.search.md').read_text()
+            self.assertIn('<Color id="gold">/guidemec astropunk:handbook open</Color>', controls)
+            self.assertIn('<Color id="gold">@create</Color>', recipe)
+            equipment = (PAGES / locale / 'equipment.weapons-armor.md').read_text()
+            for unavailable in ('ruby_rapid_crossbow', 'ruby_heavy_crossbow', 'ruby_spear'):
+                self.assertNotIn('archers:' + unavailable, equipment)
 
     def test_local_images_exist(self):
         for p in PAGES.rglob('*.md'):

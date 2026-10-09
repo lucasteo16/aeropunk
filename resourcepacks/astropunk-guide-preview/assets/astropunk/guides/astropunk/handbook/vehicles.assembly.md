@@ -17,6 +17,13 @@ navigation:
   <ItemIcon id="simulated:docking_connector" />
 </ItemGrid>
 
+| Shown items |
+| --- |
+| <ItemLink id="simulated:physics_assembler" /> |
+| <ItemLink id="simulated:honey_glue" /> |
+| <ItemLink id="simulated:contraption_diagram" /> |
+| <ItemLink id="simulated:docking_connector" /> |
+
 Create Aeronautics bundles Simulated for physical moving builds and Offroad for wheels. Join the intended blocks with Super Glue or Honey Glue, then hold right-click on the Physics Assembler and pull its lever. Another Physics Assembler can disassemble the build. Use the Physics Assembler Ponder for assembly, block mass and splitting.
 
 ***
@@ -32,7 +39,16 @@ Create Aeronautics bundles Simulated for physical moving builds and Offroad for 
   <ItemIcon id="offroad:borehead_bearing" />
 </ItemGrid>
 
-Wheel mounts pair with small, normal, large and monstrous tires. Borehead Bearings and Rock Cutting Wheels form the excavation family. A chassis still needs propulsion and steering; see [engines](vehicles.engines.md) and [controls](vehicles.controls.md).
+| Shown items |
+| --- |
+| <ItemLink id="offroad:wheel_mount" /> |
+| <ItemLink id="offroad:small_tire" /> |
+| <ItemLink id="offroad:tire" /> |
+| <ItemLink id="offroad:large_tire" /> |
+| <ItemLink id="offroad:monstrous_tire" /> |
+| <ItemLink id="offroad:borehead_bearing" /> |
+
+Offroad wheel mounts accept different tire sizes. Excavation has its own bearing and cutting-wheel components. A chassis still needs propulsion and steering.
 
 ***
 
@@ -47,10 +63,34 @@ Wheel mounts pair with small, normal, large and monstrous tires. Borehead Bearin
   <ItemIcon id="simulated:navigation_table" />
 </ItemGrid>
 
-Simulated adds rope winches, connectors and couplings, swivel bearings, springs and torsion springs, docking connectors, navigation tables, laser pointers and contraption diagrams. Create Propulsion adds Auto Assembly, Auto Glue and contraption moving, cloning and removal tools. These are separate tools, not prebuilt vehicle models.
+| Shown items |
+| --- |
+| <ItemLink id="simulated:rope_winch" /> |
+| <ItemLink id="simulated:rope_connector" /> |
+| <ItemLink id="simulated:rope_coupling" /> |
+| <ItemLink id="simulated:swivel_bearing" /> |
+| <ItemLink id="simulated:spring" /> |
+| <ItemLink id="simulated:navigation_table" /> |
+
+Simulated supplies mechanical connections and tools for moving builds. Create Propulsion adds assembly and contraption-editing tools. These are separate components and tools, not prebuilt vehicle models.
 
 ***
 
 ## Crafting
 
 <Recipe id="offroad:borehead_bearing" />
+
+## Related topics
+
+- [Vehicle engines](vehicles.engines.md)
+- [Vehicle controls](vehicles.controls.md)
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="create:super_glue" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="create:super_glue" /> |

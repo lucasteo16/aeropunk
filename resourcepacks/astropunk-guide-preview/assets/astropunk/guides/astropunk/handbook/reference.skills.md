@@ -8,41 +8,35 @@ navigation:
 
 # Spells & skills
 
-## Martial paths
+## Role-playing builds
 
 <ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="archers_expansion:deadeye_chest" />
   <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="rogues:iron_double_axe" />
-  <ItemIcon id="berserker_rpg:iron_berserker_axe" />
-  <ItemIcon id="forcemaster_rpg:iron_knuckle" />
-</ItemGrid>
-
-[Martial abilities](combat.martial.md): Archer, Deadeye, Tundra Hunter, War Archer, Rogue, Warrior, Berserker and Forcemaster. Their catalogs list the actual book-assigned abilities, including Power Shot, Shadow Step, Wild Rage and Stonehand.
-
-***
-
-## Magic & support
-
-<ItemGrid>
-  <ItemIcon id="wizards:wand_arcane" />
-  <ItemIcon id="wizards:wand_fire" />
-  <ItemIcon id="wizards:wand_frost" />
-  <ItemIcon id="elemental_wizards_rpg:wand_aqua" />
+  <ItemIcon id="archers:composite_longbow" />
+  <ItemIcon id="wizards:wand_novice" />
   <ItemIcon id="paladins:holy_wand" />
-  <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>
 
-[Magic abilities](combat.magic.md): Arcane, Fire, Frost, Water, Earth, Wind, Paladin, Priest, Bard and Witcher signs and fencing. Runes and rune pouches supply casting resources where the ability requires them.
+A build combines a held weapon, available abilities, skill points and equipment attributes. Making a weapon does not spend skill points or teach every class ability.
+
+- [Martial abilities](combat.martial.md) Ranged shots, close combat and class techniques.
+- [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
+- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
+- [Combat controls](combat.handling.md) Learn attack patterns, spell controls and rolling.
+
 
 ***
 
-## Skills & controls
+## First build
 
 <ItemGrid>
-  <ItemIcon id="skill_tree_rpgs:orb_of_oblivion" />
-  <ItemIcon id="minecraft:iron_sword" />
+  <ItemIcon id="spell_engine:spell_binding" />
+  <ItemIcon id="spell_engine:spell_book" />
 </ItemGrid>
 
-[Class paths and weapon specializations](combat.skills.md) modify your build through the Pufferfish’s Skills tree. Equipment triggers and improved-spell modifiers are not extra selectable class spells. [Combat handling](combat.handling.md) covers attack patterns, rolling and control conflicts.
+<ItemLink id="spell_engine:spell_binding" /> · <ItemLink id="spell_engine:spell_book" />
+
+Choose an affordable weapon with a matching ability school. For class-book abilities, create and bind a suitable spell book at the Spell Binding Table, then equip it and hold a compatible weapon. Weapon-provided abilities and skill-tree upgrades are separate from learned book spells.
+
+- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
+- [Accessories](equipment.accessories.md) Equip jewelry and relics in their supported slots.

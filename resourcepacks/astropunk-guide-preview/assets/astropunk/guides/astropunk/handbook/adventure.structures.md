@@ -12,165 +12,195 @@ navigation:
 
 ![Mechanical Nest](images/encounters-when-dungeons-arise-mechanical-nest.png)
 
-Mechanical Nest.
+Mechanical Nest
 
-| Structure or variant | Dimension and placement |
+Explore large dungeons and smaller landmarks. Aviary belongs to the End, while the other listed destinations belong to the Overworld.
+
+| Structure | Where to look |
 | --- | --- |
-| Abandoned Temple | Overworld, 针叶林 biomes, Hill biomes, Mountain biomes; matching Terralith biomes also included |
-| Aviary | End, End Highlands, End Midlands |
-| Bandit Towers | Overworld, Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) |
-| Bandit Village | Overworld, Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) |
-| Bathhouse | Overworld, Plains, Meadow, Dark Forest, Sunflower Plains, Snowy Taiga; matching Terralith biomes also included |
-| Ceryneian Hind | Overworld, 沙漠 biomes, Desert, Ancient Sands (terralith), Desert Canyon (terralith), Desert Oasis (terralith), Desert Spires (terralith), Lush Desert (terralith), Sandstone Valley (terralith) |
-| Coliseum | Overworld, Plains, Meadow, Sunflower Plains; matching Terralith biomes also included |
-| Fishing Hut | Overworld, Gravel Beach (terralith) |
-| Foundry | Overworld, 丛林 biomes, Forest biomes, 针叶林 biomes, Desert, Plains; matching Terralith biomes also included |
-| Giant Mushroom | Overworld, Meadow, Plains, Sunflower Plains |
-| Greenwood Pub | Overworld, Dark Forest, Sunflower Plains, Forest biomes; matching Terralith biomes also included |
-| Heavenly Challenger | Overworld, 丛林 biomes, Forest biomes, Desert, Plains, Sunflower Plains; matching Terralith biomes also included |
-| Heavenly Conqueror | Overworld, 丛林 biomes, Forest biomes, Desert, Plains, Sunflower Plains; matching Terralith biomes also included |
-| Heavenly Rider | Overworld, 丛林 biomes, Forest biomes, Desert, Plains, Sunflower Plains; matching Terralith biomes also included |
-| Illager Campsite | Overworld, Plains, Meadow, Sunflower Plains, Hill biomes; matching Terralith biomes also included |
-| Illager Corsair | Overworld, Ocean biomes, Deep Warm Ocean (spawn), Seagrass Meadow (spawn) |
-| Illager Fort | Overworld, Snowy Taiga, Snowy Plains, Snowy Slopes, 针叶林 biomes; matching Terralith biomes also included |
-| Illager Galley | Overworld, Ocean biomes, Deep Warm Ocean (spawn), Seagrass Meadow (spawn) |
-| Illager Windmill | Overworld, Plains, Meadow, Sunflower Plains; matching Terralith biomes also included |
-| Infested Temple | Overworld, 针叶林 biomes, Hill biomes; matching Terralith biomes also included |
-| Jungle Tree House | Overworld, Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) |
-| Keep Kayra | Overworld, 沼泽 biomes, Mangrove Swamp, Swamp, Ice Marsh (terralith), Orchid Swamp (terralith) |
-| Kisegi Sanctuary | Overworld, Plains, Hill biomes; matching Terralith biomes also included |
-| Lighthouse | Overworld, 平原 biomes, Plains, Alpine Highlands (terralith), Arid Highlands (terralith), Brushland (terralith), Gravel Beach (terralith), Highlands (terralith), Steppe (terralith) |
-| Mechanical Nest | Overworld, Swamp, Mangrove Swamp, Forest biomes; matching Terralith biomes also included |
-| Merchant Campsite | Overworld, Plains, Meadow, Sunflower Plains; matching Terralith biomes also included |
-| Mining Complex | Overworld, 丛林 biomes, Forest biomes, 针叶林 biomes, Desert, Plains; matching Terralith biomes also included |
-| Mining System | Empty biome tag, no natural generation. |
-| Monastery | Overworld, 针叶林 biomes, Hill biomes, Mountain biomes; matching Terralith biomes also included |
-| Mushroom House | Overworld, Forest biomes; matching Terralith biomes also included |
-| Mushroom Mines | Overworld, Forest biomes; matching Terralith biomes also included |
-| Mushroom Village | Overworld, Forest biomes; matching Terralith biomes also included |
-| Plague Asylum | Overworld, Forest biomes; matching Terralith biomes also included |
-| Scorched Mines | Overworld, 沙漠 biomes, Desert, Ancient Sands (terralith), Desert Canyon (terralith), Desert Oasis (terralith), Desert Spires (terralith), Lush Desert (terralith), Sandstone Valley (terralith) |
-| Shiraz Palace | Overworld, 沙漠 biomes, Desert, Ancient Sands (terralith), Desert Canyon (terralith), Desert Oasis (terralith), Desert Spires (terralith), Lush Desert (terralith), Sandstone Valley (terralith) |
-| Small Blimp | Overworld, 丛林 biomes, Forest biomes, 针叶林 biomes, Desert, Plains; matching Terralith biomes also included |
-| Thornborn Towers | Overworld, Forest biomes; matching Terralith biomes also included |
-| Typhon | Overworld, Ocean biomes, Deep Warm Ocean (spawn), Seagrass Meadow (spawn) |
-| Undead Pirate Ship | Overworld, Ocean biomes, Deep Warm Ocean (spawn), Seagrass Meadow (spawn) |
-| Wishing Well | Overworld, Plains, Meadow, Sunflower Plains; matching Terralith biomes also included |
-
-Aviary targets End Highlands and End Midlands. These dungeons do not all belong to the Overworld.
+| Abandoned Temple | Look in Overworld eligible Taiga, hill, mountain biomes. |
+| Aviary | Look in End End Highlands, End Midlands. |
+| Bandit Towers | Look in Overworld eligible Bryce Canyon (Terralith), Painted Mountains (Terralith). |
+| Bandit Village | Look in Overworld eligible Bryce Canyon (Terralith), Painted Mountains (Terralith). |
+| Bathhouse | Look in Overworld eligible Plains, Meadow, Dark Forest. |
+| Ceryneian Hind | Look in Overworld eligible Desert biomes. |
+| Coliseum | Look in Overworld Plains, Meadow, Sunflower Plains. |
+| Fishing Hut | Look in Overworld Gravel Beach (Terralith). |
+| Foundry | Look in Overworld eligible Jungle, Forest, Taiga biomes. |
+| Giant Mushroom | Look in Overworld Meadow, Plains, Sunflower Plains. |
+| Greenwood Pub | Look in Overworld eligible Forest biomes. |
+| Heavenly Challenger | Look in Overworld eligible Jungle, Forest biomes. |
+| Heavenly Conqueror | Look in Overworld eligible Jungle, Forest biomes. |
+| Heavenly Rider | Look in Overworld eligible Jungle, Forest biomes. |
+| Illager Campsite | Look in Overworld eligible hill biomes. |
+| Illager Corsair | Look in Overworld eligible Ocean biomes. |
+| Illager Fort | Look in Overworld eligible Taiga biomes. |
+| Illager Galley | Look in Overworld eligible Ocean biomes. |
+| Illager Windmill | Look in Overworld Plains, Meadow, Sunflower Plains. |
+| Infested Temple | Look in Overworld eligible Taiga, hill biomes. |
+| Jungle Tree House | Look in Overworld eligible Amethyst Canyon (Terralith), Amethyst RainForest (Terralith). |
+| Keep Kayra | Look in Overworld eligible Swamp biomes. |
+| Kisegi Sanctuary | Look in Overworld eligible hill biomes. |
+| Lighthouse | Look in Overworld eligible Plains biomes. |
+| Mechanical Nest | Look in Overworld eligible Forest biomes. |
+| Merchant Campsite | Look in Overworld Plains, Meadow, Sunflower Plains. |
+| Mining Complex | Look in Overworld eligible Jungle, Forest, Taiga biomes. |
+| Mining System | Does not generate naturally. |
+| Monastery | Look in Overworld eligible Taiga, hill, mountain biomes. |
+| Mushroom House | Look in Overworld eligible Forest biomes. |
+| Mushroom Mines | Look in Overworld eligible Forest biomes. |
+| Mushroom Village | Look in Overworld eligible Forest biomes. |
+| Plague Asylum | Look in Overworld eligible Forest biomes. |
+| Scorched Mines | Look in Overworld eligible Desert biomes. |
+| Shiraz Palace | Look in Overworld eligible Desert biomes. |
+| Small Blimp | Look in Overworld eligible Jungle, Forest, Taiga biomes. |
+| Thornborn Towers | Look in Overworld eligible Forest biomes. |
+| Typhon | Look in Overworld eligible Ocean biomes. |
+| Undead Pirate Ship | Look in Overworld eligible Ocean biomes. |
+| Wishing Well | Look in Overworld Plains, Meadow, Sunflower Plains. |
 
 ***
 
 ## Bosses'Rise
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-bossesrise-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+Each boss has a dedicated encounter structure.
+
+| Structure | Where to look |
 | --- | --- |
-| Sandworm Nest | Overworld, Desert |
-| Dragon Tower | Overworld, Bamboo Jungle, Jungle, Mangrove Swamp, Plains, Savanna and related eligible biomes |
-| Underworld Arena | Nether, Nether Wastes, Soul Sand Valley |
-| Yeti Hideout | Overworld, Snowy Plains |
-| Kraken Ship | Overworld, Deep Cold Ocean, Deep Lukewarm Ocean, Deep Ocean |
+| Sandworm Nest | Look in Overworld Desert. |
+| Dragon Tower | Look in Overworld eligible Bamboo Jungle, Jungle, Mangrove Swamp. |
+| Underworld Arena | Look in Nether Nether Wastes, Soul Sand Valley. |
+| Yeti Hideout | Look in Overworld Snowy Plains. |
+| Kraken Ship | Look in Overworld Deep Cold Ocean, Deep Lukewarm Ocean, Deep Ocean. |
+
+- [Boss encounters](adventure.bosses.md)
 
 ***
 
 ## L_Ender's Cataclysm
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-l_enders-cataclysm-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+Boss arenas sit alongside smaller ruins and creature nests.
+
+| Structure | Where to look |
 | --- | --- |
-| Abandoned Spire | Overworld, Snowy Plains |
-| Abandoned Temple | Overworld, Snowy Plains |
-| Abandoned Village | Overworld, Snowy Plains |
-| Acropolis | Overworld, Warm Ocean |
-| Amethyst Nest | Overworld, Lush Caves |
-| Ancient Factory | Overworld, Andesite Caves (terralith), Deep Caves (terralith), Diorite Caves (terralith), Frostfire Caves (terralith), Fungal Caves (terralith) and related eligible biomes |
-| Burning Arena | Nether, Nether Wastes |
-| Cursed Pyramid | Overworld, Desert |
-| Desert Occupied Village | Overworld, Desert |
-| Desert Site | Overworld, Desert |
-| Desert Temple | Overworld, Desert |
-| Frosted Prison | Overworld, Snowy Plains |
-| Ruined Citadel | End, End Highlands, End Midlands |
-| Soul Black Smith | Nether, Crimson Forest, Nether Wastes, Soul Sand Valley, Warped Forest |
-| Sunken City | Overworld, Deep Cold Ocean, Deep Frozen Ocean, Deep Lukewarm Ocean, Deep Ocean |
+| Abandoned Spire | Look in Overworld Snowy Plains. |
+| Abandoned Temple | Look in Overworld Snowy Plains. |
+| Abandoned Village | Look in Overworld Snowy Plains. |
+| Acropolis | Look in Overworld Warm Ocean. |
+| Amethyst Nest | Look in Overworld Lush Caves. |
+| Ancient Factory | Look in Overworld eligible andesite caves (Terralith), deep caves (Terralith). |
+| Burning Arena | Look in Nether Nether Wastes. |
+| Cursed Pyramid | Look in Overworld Desert. |
+| Desert Occupied Village | Look in Overworld Desert. |
+| Desert Site | Look in Overworld Desert. |
+| Desert Temple | Look in Overworld Desert. |
+| Frosted Prison | Look in Overworld Snowy Plains. |
+| Ruined Citadel | Look in End End Highlands, End Midlands. |
+| Soul Black Smith | Look in Nether eligible Crimson Forest, Nether Wastes, Soul Sand Valley. |
+| Sunken City | Look in Overworld eligible Deep Cold Ocean, Deep Frozen Ocean, Deep Lukewarm Ocean. |
+
+- [Boss encounters](adventure.bosses.md)
 
 ***
 
 ## Illager Invasion
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-illager-invasion-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+| Structure | Where to look |
 | --- | --- |
-| Firecaller Hut | Overworld, Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) |
-| Illager Fort | Overworld, Snowy Plains, Alpine Grove (terralith), Birch Taiga (terralith), Forested Highlands (terralith), Shield (terralith) and related eligible biomes |
-| Illusioner Tower | Overworld, Dark Forest, Old Growth Pine Taiga, Old Growth Spruce Taiga, Swamp, Taiga |
-| Labyrinth | Overworld, Alpine Grove (terralith), Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Arid Highlands (terralith), Ashen Savanna (terralith) and related eligible biomes |
-| Sorcerer Hut | Overworld, Dark Forest |
+| Firecaller Hut | Look in Overworld eligible Bryce Canyon (Terralith), Painted Mountains (Terralith). |
+| Illager Fort | Look in Overworld eligible Snowy Plains. |
+| Illusioner Tower | Look in Overworld eligible Dark Forest, Old Growth Pine Taiga, Old Growth Spruce Taiga. |
+| Labyrinth | Look in Overworld eligible alpine grove (Terralith), Amethyst Canyon (Terralith). |
+| Sorcerer Hut | Look in Overworld Dark Forest. |
 
 ***
 
 ## Friends&Foes
 
-![Waving Crab](images/encounters-friends-and-foes-forge-waving-crab.png)
+![Wildfire inside a Citadel](images/encounters-friends-and-foes-forge-wildfire.png)
 
-Waving Crab.
+Wildfire inside a Citadel
 
-| Structure or variant | Dimension and placement |
+| Structure | Where to look |
 | --- | --- |
-| Citadel | Nether, Nether biomes, Ash Barrens (incendium), Infernal Dunes (incendium), Inverted Forest (incendium), Quartz Flats (incendium) and related eligible biomes |
-| Iceologer Cabin | Overworld, Snowy biomes, 积雪平原 biomes, Muskeg (biomesoplenty), Rainbow Hills (biomesoplenty), Snowy Coniferous Forest (biomesoplenty) and related eligible biomes |
-| Illusioner Shack | Overworld, 针叶林 biomes, Dead Forest (biomesoplenty), Jade Cliffs (biomesoplenty), Mediterranean Taiga (biomesoplenty), Old Growth Dead Forest (biomesoplenty) and related eligible biomes |
-| Illusioner Training Grounds | Overworld, 针叶林 biomes, Dead Forest (biomesoplenty), Jade Cliffs (biomesoplenty), Mediterranean Taiga (biomesoplenty), Old Growth Dead Forest (biomesoplenty) and related eligible biomes |
+| Citadel | Look in Nether eligible nether biomes. |
+| Iceologer Cabin | Look in Overworld eligible snowy, 积雪Plains biomes. |
+| Illusioner Shack | Look in Overworld eligible Taiga biomes. |
+| Illusioner Training Grounds | Look in Overworld eligible Taiga biomes. |
+
+- [Boss encounters](adventure.bosses.md)
 
 ***
 
-## YUNG's Better Dungeons
+## Dungeons
 
 ![Fortress of the Undead](images/encounters-yungs-better-dungeons-catalog.png)
 
-Fortress of the Undead.
+Fortress of the Undead
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Dungeons.
+
+These are dungeon families, not a count of rooms or building templates. Small Nether Dungeon is disabled.
+
+| Structure | Where to look |
 | --- | --- |
-| Catacombs | Overworld, Icy biomes, Badlands biomes, 沙漠 biomes, Forest biomes, Icy biomes and related eligible biomes |
-| Small Dungeon | Overworld, Icy biomes, Badlands biomes, 沙漠 biomes, Forest biomes, Icy biomes and related eligible biomes |
-| Small Nether Dungeon | Disabled, does not generate. |
-| Spider Caves | Overworld, Icy biomes, Badlands biomes, 沙漠 biomes, Forest biomes, Icy biomes and related eligible biomes |
-| Fortress of the Undead | Overworld, Icy biomes, Badlands biomes, 沙漠 biomes, Forest biomes, Icy biomes and related eligible biomes |
+| Catacombs | Look in Overworld eligible icy, badlands, Desert biomes. |
+| Small Dungeon | Look in Overworld eligible icy, badlands, Desert biomes. |
+| Small Nether Dungeon | Disabled by the pack settings. |
+| Spider Caves | Look in Overworld eligible icy, badlands, Desert biomes. |
+| Fortress of the Undead | Look in Overworld eligible icy, badlands, Desert biomes. |
 
 ***
 
-## YUNG's Better Mineshafts
+## Mineshafts
 
-![YUNG's Better Mineshafts](images/encounters-yungs-better-mineshafts-catalog.png)
+![Witch hut](images/encounters-yungs-better-mineshafts-catalog.png)
 
-YUNG's Better Mineshafts.
+Witch hut
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Mineshafts.
+
+| Structure | Where to look |
 | --- | --- |
-| Mineshaft Acacia | Overworld, 热带草原 biomes, 热带草原 biomes, Savanna, Savanna Plateau, Baobab Fields (projectvibrantjourneys) and related eligible biomes |
-| Mineshaft Desert | Overworld, 沙漠 biomes, 沙漠 biomes, Lush Desert (biomesoplenty), Desert, Desert Shrubland (projectvibrantjourneys), Verdant Sands (projectvibrantjourneys), Lush Desert (terralith) |
-| Mineshaft Dripstone | Overworld, Dripstone Caves |
-| Mineshaft Ice | Overworld, Icy biomes, Icy biomes, Icy biomes, Frozen Peaks, Ice Spikes |
-| Mineshaft Jungle | Overworld, 丛林 biomes, 丛林 biomes, Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) |
-| Mineshaft Lush | Overworld, Lush Caves |
-| Mineshaft Mesa | Overworld, Badlands biomes, Mesa biomes, Badlands biomes, Mesa biomes, Bryce Canyon (terralith) and related eligible biomes |
-| Mineshaft Mushroom | Overworld, Mushroom biomes, Mushroom biomes, Fungal Jungle (biomesoplenty), Mushroom Fields |
-| Mineshaft Oak | Overworld, 平原 biomes, Meadow, Plains, Sunflower Plains, Swamp, Prairie (projectvibrantjourneys), Brushland (terralith) |
-| Mineshaft Overgrown | Overworld, Forest biomes, Forest biomes, Cherry Blossom Grove (biomesoplenty), Old Growth Woodland (biomesoplenty), Orchard (biomesoplenty) and related eligible biomes |
-| Mineshaft Red Desert | Overworld, Badlands biomes, Badlands biomes, Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) |
-| Mineshaft Spruce | Overworld, Dead Forest (biomesoplenty), Jade Cliffs (biomesoplenty), Mediterranean Taiga (biomesoplenty), Old Growth Dead Forest (biomesoplenty), Autumnal Taiga (byg) and related eligible biomes |
-| Mineshaft Spruce Snowy | Overworld, Jagged Peaks, Snowy Plains, Snowy Slopes, Snowy Taiga, Cold Shrubland (terralith), Rocky Shrubland (terralith), Wintry Forest (terralith) |
+| Mineshaft Acacia | Look in Overworld eligible Savanna biomes. |
+| Mineshaft Desert | Look in Overworld eligible Desert biomes. |
+| Mineshaft Dripstone | Look in Overworld Dripstone Caves. |
+| Mineshaft Ice | Look in Overworld eligible icy biomes. |
+| Mineshaft Jungle | Look in Overworld eligible Jungle biomes. |
+| Mineshaft Lush | Look in Overworld Lush Caves. |
+| Mineshaft Mesa | Look in Overworld eligible badlands, mesa biomes. |
+| Mineshaft Mushroom | Look in Overworld eligible mushroom biomes. |
+| Mineshaft Oak | Look in Overworld eligible Plains biomes. |
+| Mineshaft Overgrown | Look in Overworld eligible Forest biomes. |
+| Mineshaft Red Desert | Look in Overworld eligible badlands biomes. |
+| Mineshaft Spruce | Look in Overworld eligible dead Forest (biomesoplenty), jade cliffs (biomesoplenty). |
+| Mineshaft Spruce Snowy | Look in Overworld eligible Jagged Peaks, Snowy Plains, Snowy Slopes. |
 
 ***
 
 ## Desert temples
 
-![YUNG's Better Desert Temples](images/encounters-yungs-better-desert-temples-catalog.png)
+![Witch hut](images/encounters-yungs-better-desert-temples-catalog.png)
 
-YUNG's Better Desert Temples.
+Witch hut
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Desert Temples.
+
+| Structure | Where to look |
 | --- | --- |
-| Desert Temple | Overworld, 沙漠 biomes, 沙漠 biomes, Lush Desert (biomesoplenty), Desert, Desert Shrubland (projectvibrantjourneys), Verdant Sands (projectvibrantjourneys), Lush Desert (terralith) |
+| Desert Temple | Look in Overworld eligible Desert biomes. |
 
 ***
 
@@ -178,11 +208,13 @@ YUNG's Better Desert Temples.
 
 ![YUNG's Better Jungle Temples](images/encounters-yungs-better-jungle-temples-catalog.png)
 
-YUNG's Better Jungle Temples.
+YUNG's Better Jungle Temples
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Jungle Temples.
+
+| Structure | Where to look |
 | --- | --- |
-| Jungle Temple | Overworld, Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) |
+| Jungle Temple | Look in Overworld eligible Amethyst Canyon (Terralith), Amethyst RainForest (Terralith). |
 
 ***
 
@@ -190,146 +222,176 @@ YUNG's Better Jungle Temples.
 
 ![YUNG's Better Nether Fortresses](images/encounters-yungs-better-nether-fortresses-catalog.png)
 
-YUNG's Better Nether Fortresses.
+YUNG's Better Nether Fortresses
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Nether Fortresses.
+
+| Structure | Where to look |
 | --- | --- |
-| Fortress | Nether, Nether biomes, Ash Barrens (incendium), Infernal Dunes (incendium), Inverted Forest (incendium), Quartz Flats (incendium) and related eligible biomes |
+| Fortress | Look in Nether eligible nether biomes. |
 
 ***
 
 ## Ocean monuments
 
-![YUNG's Better Ocean Monuments](images/encounters-yungs-better-ocean-monuments-catalog.png)
+![Witch hut](images/encounters-yungs-better-ocean-monuments-catalog.png)
 
-YUNG's Better Ocean Monuments.
+Witch hut
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Ocean Monuments.
+
+| Structure | Where to look |
 | --- | --- |
-| Ocean Monument | Overworld, 深海 biomes, Deep Warm Ocean (terralith) |
+| Ocean Monument | Look in Overworld eligible Deep Ocean biomes. |
 
 ***
 
 ## Strongholds
 
-![YUNG's Better Strongholds](images/encounters-yungs-better-strongholds-catalog.png)
+![Witch hut](images/encounters-yungs-better-strongholds-catalog.png)
 
-YUNG's Better Strongholds.
+Witch hut
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Strongholds.
+
+| Structure | Where to look |
 | --- | --- |
-| Stronghold | Overworld, Icy biomes, 沙漠 biomes, Forest biomes, Icy biomes, 丛林 biomes and related eligible biomes |
+| Stronghold | Look in Overworld eligible icy, Desert, Forest biomes. |
 
 ***
 
-## YUNG's Better Witch Huts
+## Witch huts
 
-![YUNG's Better Witch Huts](images/encounters-yungs-better-witch-huts-catalog.png)
+![Witch hut](images/encounters-yungs-better-witch-huts-catalog.png)
 
-YUNG's Better Witch Huts.
+Witch hut
 
-| Structure or variant | Dimension and placement |
+From YUNG's Better Witch Huts.
+
+| Structure | Where to look |
 | --- | --- |
-| Witch Circle | Overworld, 沼泽 biomes, 沼泽 biomes, Swamp |
-| Witch Hut | Overworld, 沼泽 biomes, 沼泽 biomes, Mangrove Swamp, Swamp |
+| Witch Circle | Look in Overworld eligible Swamp biomes. |
+| Witch Hut | Look in Overworld eligible Swamp biomes. |
 
-Huts include large, small and duplex layouts. Witch Circle is a separate structure.
+Huts have large, small and duplex layouts. Witch Circle is a separate structure.
 
 ***
 
 ## Spawn
 
-![Snail](images/encounters-spawn-mod-snail.png)
+![Deep coral reef, giant clams and barracuda. Habitat image, not an island structure.](images/encounters-spawn-mod-deep-coral-reef-giant-clams-and-barracuda.png)
 
-Snail.
+Deep coral reef, giant clams and barracuda. Habitat image, not an island structure.
 
-| Structure or variant | Dimension and placement |
+| Structure | Where to look |
 | --- | --- |
-| Ant Mount | Overworld, Ant Gardens (spawn) |
-| Cold Island | Overworld, Deep Cold Ocean |
-| Dodo Island | Overworld, Deep Cold Ocean, Deep Lukewarm Ocean, Deep Ocean, Deep Warm Ocean (spawn) |
-| Octopolis | Overworld, Deep Ocean, Lukewarm Ocean, Ocean, Warm Ocean |
-| Sandy Island | Overworld, Deep Lukewarm Ocean |
-| Tide Pool | Overworld, Deep Cold Ocean |
-| Tropical Island | Overworld, Warm Ocean, Deep Warm Ocean (spawn), Deep Warm Ocean (terralith) |
-| Volcanic Island | Overworld, Warm Ocean, Deep Warm Ocean (spawn), Deep Warm Ocean (terralith) |
+| Ant Mount | Look in Overworld ant gardens (Spawn). |
+| Cold Island | Look in Overworld Deep Cold Ocean. |
+| Dodo Island | Look in Overworld eligible Deep Cold Ocean, Deep Lukewarm Ocean, Deep Ocean. |
+| Octopolis | Look in Overworld eligible Deep Ocean, Lukewarm Ocean, Ocean. |
+| Sandy Island | Look in Overworld Deep Lukewarm Ocean. |
+| Tide Pool | Look in Overworld Deep Cold Ocean. |
+| Tropical Island | Look in Overworld eligible Warm Ocean. |
+| Volcanic Island | Look in Overworld eligible Warm Ocean. |
 
 ***
 
 ## Terralith
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-terralith-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+Look for surface landmarks and underground structures in their matching terrain.
+
+| Structure | Where to look |
 | --- | --- |
-| Desert Outpost | Overworld, Desert, Desert Oasis (terralith), Lush Desert (terralith) |
-| Fortified Desert Village | Overworld, Desert, Desert Oasis (terralith), Lush Desert (terralith) |
-| Fortified Village | Overworld, Meadow, Plains, Sunflower Plains, Alpine Highlands (terralith), Brushland (terralith), Forested Highlands (terralith), Temperate Highlands (terralith) |
-| Glacial Hut | Overworld, Glacial Chasm (terralith) |
-| Igloo | Overworld, Snowy Cherry Grove (terralith) |
-| Mage Complex | Overworld, Amethyst Rainforest (terralith), Lavender Forest (terralith), Moonlight Grove (terralith) |
-| Mage Tower | Overworld, Amethyst Canyon (terralith), Lavender Valley (terralith), Mirage Isles (terralith), Moonlight Valley (terralith) |
-| Mage Tower Autumn | Overworld, Skylands Autumn (terralith) |
-| Mage Tower Spring | Overworld, Skylands Spring (terralith) |
-| Mage Tower Summer | Overworld, Skylands Summer (terralith) |
-| Mage Tower Winter | Overworld, Skylands Winter (terralith) |
-| Rubble Desert | Overworld, Desert, Ancient Sands (terralith), Desert Oasis (terralith), Red Oasis (terralith) |
-| Rubble Forest | Overworld, Birch Forest, Dark Forest, Flower Forest, Forest, Old Growth Birch Forest and related eligible biomes |
-| Rubble Jungle | Overworld, Bamboo Jungle, Jungle, Sparse Jungle, Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Stony Spires (terralith), Tropical Jungle (terralith) |
-| Rubble Mesa | Overworld, Badlands, Eroded Badlands, Wooded Badlands, Arid Highlands (terralith), Bryce Canyon (terralith) and related eligible biomes |
-| Rubble Mountain | Overworld, Frozen Peaks, Jagged Peaks, Stony Peaks, Basalt Cliffs (terralith), Emerald Peaks (terralith) and related eligible biomes |
-| Rubble Taiga | Overworld, Grove, Old Growth Pine Taiga, Old Growth Spruce Taiga, Snowy Taiga, Taiga and related eligible biomes |
-| Spire | Overworld, Frozen River |
-| Frosted Dungeon | Overworld, Frostfire Caves (terralith) |
-| Giant Bee Hive | Overworld, Lush Caves, Underground Jungle (terralith) |
-| Mining Outpost | Overworld, Deep Caves (terralith) |
-| Oak Cabin | Overworld, Lush Caves |
-| Old Refinery | Overworld, Deep Caves (terralith), Fungal Caves (terralith), Infested Caves (terralith) |
-| Sunken Tower | Overworld, Lush Caves, Underground Jungle (terralith) |
-| Witch Hut | Empty biome tag, no natural generation. |
-| Underground Cabin | Overworld, Lush Caves |
-| Valley Lodge | Overworld, Shield Clearing (terralith), Valley Clearing (terralith) |
-| Witch Hut | Overworld, Swamp, Ice Marsh (terralith), Orchid Swamp (terralith) |
+| Desert Outpost | Look in Overworld eligible Desert. |
+| Fortified Desert Village | Look in Overworld eligible Desert. |
+| Fortified Village | Look in Overworld eligible Meadow, Plains, Sunflower Plains. |
+| Glacial Hut | Look in Overworld glacial chasm (Terralith). |
+| Igloo | Look in Overworld snowy cherry grove (Terralith). |
+| Mage Complex | Look in Overworld eligible Amethyst RainForest (Terralith), lavender Forest (Terralith). |
+| Mage Tower | Look in Overworld eligible Amethyst Canyon (Terralith), lavender valley (Terralith). |
+| Mage Tower Autumn | Look in Overworld skylands autumn (Terralith). |
+| Mage Tower Spring | Look in Overworld skylands spring (Terralith). |
+| Mage Tower Summer | Look in Overworld skylands summer (Terralith). |
+| Mage Tower Winter | Look in Overworld skylands winter (Terralith). |
+| Rubble Desert | Look in Overworld eligible Desert. |
+| Rubble Forest | Look in Overworld eligible birch Forest, Dark Forest, flower Forest. |
+| Rubble Jungle | Look in Overworld eligible Bamboo Jungle, Jungle, sparse Jungle. |
+| Rubble Mesa | Look in Overworld eligible badlands, eroded badlands, wooded badlands. |
+| Rubble Mountain | Look in Overworld eligible Frozen Peaks, Jagged Peaks, stony peaks. |
+| Rubble Taiga | Look in Overworld eligible grove, Old Growth Pine Taiga, Old Growth Spruce Taiga. |
+| Spire | Look in Overworld Frozen River. |
+| Frosted Dungeon | Look in Overworld frostfire caves (Terralith). |
+| Giant Bee Hive | Look in Overworld eligible Lush Caves. |
+| Mining Outpost | Look in Overworld deep caves (Terralith). |
+| Oak Cabin | Look in Overworld Lush Caves. |
+| Old Refinery | Look in Overworld eligible deep caves (Terralith), fungal caves (Terralith). |
+| Sunken Tower | Look in Overworld eligible Lush Caves. |
+| Witch Hut | Does not generate naturally. |
+| Underground Cabin | Look in Overworld Lush Caves. |
+| Valley Lodge | Look in Overworld shield clearing (Terralith), valley clearing (Terralith). |
+| Witch Hut | Look in Overworld eligible Swamp. |
 
 ***
 
 ## Nullscape
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-nullscape-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+Both landmarks belong to the End Shadowlands biome.
+
+| Structure | Where to look |
 | --- | --- |
-| Dragon Skeleton | End, Shadowlands (nullscape) |
-| Rift | End, Shadowlands (nullscape) |
+| Dragon Skeleton | Look in End Shadowlands (Nullscape). |
+| Rift | Look in End Shadowlands (Nullscape). |
 
 ***
 
 ## Witcher
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-witcher-rpg-class-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+From Witcher (RPG Series Plus).
+
+| Structure | Where to look |
 | --- | --- |
-| Dark Oak Ruins | Overworld, Dark Forest |
-| Feline Witcher Hideout | Overworld, Caves biomes, Deep Dark, Desert, Dripstone Caves, Forest and related eligible biomes |
-| Griffin Witcher Hideout | Overworld, Caves biomes, Deep Dark, Desert, Dripstone Caves, Forest and related eligible biomes |
-| Oak Ruins | Overworld, Forest, Plains |
-| Ursine Witcher Hideout | Overworld, Caves biomes, Deep Dark, Desert, Dripstone Caves, Forest and related eligible biomes |
-| Witcher Grave Cave | Overworld, Caves biomes, Deep Dark, Desert, Dripstone Caves, Forest and related eligible biomes |
-| Witcher Grave Dark Oak | Overworld, Dark Forest |
-| Wolven Witcher Hideout | Overworld, Caves biomes, Deep Dark, Desert, Dripstone Caves, Forest and related eligible biomes |
+| Dark Oak Ruins | Look in Overworld Dark Forest. |
+| Feline Witcher Hideout | Look in Overworld eligible caves biomes. |
+| Griffin Witcher Hideout | Look in Overworld eligible caves biomes. |
+| Oak Ruins | Look in Overworld Forest, Plains. |
+| Ursine Witcher Hideout | Look in Overworld eligible caves biomes. |
+| Witcher Grave Cave | Look in Overworld eligible caves biomes. |
+| Witcher Grave Dark Oak | Look in Overworld Dark Forest. |
+| Wolven Witcher Hideout | Look in Overworld eligible caves biomes. |
 
 ***
 
 ## Supplementaries
 
-| Structure or variant | Dimension and placement |
+![Provider project artwork, not a structure screenshot.](images/revision-encounters-supplementaries-provider-art.png)
+
+Provider project artwork, not a structure screenshot.
+
+| Structure | Where to look |
 | --- | --- |
-| Galleon | Overworld, Galleons biomes |
-| Road Sign | Overworld, Road Signs biomes |
+| Galleon | Uses a custom Overworld placement tag. Its effective biome list is not confirmed. |
+| Road Sign | Uses a custom Overworld placement tag. Its effective biome list is not confirmed. |
 
 ***
 
 ## Settlements
 
-[Villages, gazebos and taverns](adventure.settlements.md) catalog village sizes and building variants.
+- [Village styles, gazebos & taverns](adventure.settlements.md)
 
 ***
 
-## Removed content
+## Unavailable structures
 
-Incendium Biomes Only removes Incendium structures, special mobs, bosses and loot. Do not search for these structures as pack destinations: Quartz Kitchen, Nether Reactor, Piglin Village, Abandoned Tower, Forbidden Castle, Infernal Altar, Pipeline, Sanctum, Ruined Lab.
+Incendium Biomes Only removes Incendium structures, special mobs, bosses and loot. Its terrain remains, but its structures are not pack destinations.

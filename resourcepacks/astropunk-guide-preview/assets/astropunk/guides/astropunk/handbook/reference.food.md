@@ -10,54 +10,29 @@ navigation:
 
 ## Kitchen meals
 
-<ItemGrid>
-  <ItemIcon id="farmersdelight:egg_sandwich" />
-  <ItemIcon id="farmersdelight:beef_stew" />
-  <ItemIcon id="farmersdelight:fried_rice" />
-  <ItemIcon id="farmersdelight:roast_chicken" />
-  <ItemIcon id="farmersdelight:apple_pie_slice" />
-  <ItemIcon id="farmersdelight:hot_cocoa" />
-</ItemGrid>
+Farmer’s Delight covers everyday cooking from prepared portions to shared feasts. Choose the kitchen tool and serving form before gathering ingredients.
 
-[Kitchen catalog](food.utensils.md): sandwiches, rolls, soups, rice, pasta, plated meals, shareable feasts, desserts and drinks. Cooking pot, cutting board, skillet and stove are the main tools.
+- <ItemImage id="farmersdelight:cooking_pot" /> [Cooking tools & meals](food.utensils.md) explains cutting, heated pot meals, sandwiches, rice, pasta, feasts, desserts and drinks.
 
 ***
 
 ## Regional ingredients
 
-<ItemGrid>
-  <ItemIcon id="mynethersdelight:bullet_pepper" />
-  <ItemIcon id="mynethersdelight:hoglin_loin" />
-  <ItemIcon id="ends_delight:chorus_fruit_milk_tea" />
-  <ItemIcon id="ends_delight:shulker_meat" />
-  <ItemIcon id="minersdelight:cave_carrot" />
-  <ItemIcon id="lendersdelight:amethyst_crab_sandwich" />
-</ItemGrid>
-
-[Nether](food.nether.md): Bullet Pepper, hoglin, strider and ghast families. [End](food.end.md): chorus, shulker and dragon dishes. [Underground](food.underground.md): Cave Carrots, insects, squid, bars and copper cups. [Encounter foods](food.encounters.md): Cataclysm seafood and boss-ingredient dishes.
+- <ItemImage id="mynethersdelight:bullet_pepper" /> [Nether foods](food.nether.md) connects Nether hunting and pepper ingredients to sausages, stews and ghast dough.
+- <ItemImage id="ends_delight:chorus_fruit_grain" /> [End foods](food.end.md) distinguishes gathered chorus ingredients from knife-hunted shulker meat and dragon encounters.
+- <ItemImage id="minersdelight:cave_carrot" /> [Underground foods](food.underground.md) covers cave crops, hunted ingredients, squid dishes, plant meals and copper serving containers.
+- <ItemImage id="lendersdelight:amethyst_crab_sandwich" /> [Encounter foods](food.encounters.md) covers Cataclysm creature ingredients and specialized boss dishes.
 
 ***
 
-## Growing & fishing
+## Growing & seafood
 
-<ItemGrid>
-  <ItemIcon id="farmersdelight:cabbage" />
-  <ItemIcon id="farmersdelight:tomato" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="farmersdelight:rice" />
-  <ItemIcon id="spawn:tuna_roll" />
-  <ItemIcon id="spawn:clam_chowder" />
-</ItemGrid>
-
-[Crop families](food.growing.md) include cabbage, tomato, onion and rice alongside vanilla staples. [Fishing and seafood](food.fishing.md) includes tuna, herring, bluefish, clams and crab, with capture tools distinct from rod catches.
+- <ItemImage id="farmersdelight:cabbage" /> [Crop ingredients](food.growing.md) explains wild crop sources, seeds, rice processing and harvesting helpers.
+- <ItemImage id="spawn:tuna_roll" /> [Fish & shellfish](food.fishing.md) separates ordinary rod catches from aquatic creatures, prepared portions and shellfish meals.
 
 ***
 
 ## Diet & production
 
-<ItemGrid>
-  <ItemIcon id="solonion:food_book" />
-  <ItemIcon id="sliceanddice:slicer" />
-</ItemGrid>
-
-[Hunger and variety](food.hunger.md) distinguishes filling power, stack limits and dietary history. [Machine kitchens](food.machine-cooking.md) introduces slicing and fluid connections. Use the recipe browser for each meal rather than assuming every manual recipe has a machine equivalent.
+- <ItemImage id="solonion:food_book" /> [Hunger & variety](food.hunger.md) explains hunger, saturation, the rolling diet and expedition food storage.
+- <ItemImage id="sliceanddice:slicer" /> [Machine kitchens](food.machine-cooking.md) separates slicing, drink fluids and crop production from finished meal recipes.
