@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "使用饰品、遗物与饰品栏"
-  parent: category-combat.md
+  position: 0
+  parent: reference.equipment.md
 ---
 
 # 使用饰品、遗物与饰品栏
+
+## 概览
 
 编写中（WIP）。
 

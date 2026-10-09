@@ -1,21 +1,14 @@
 ---
 navigation:
   title: "Storage and logistics"
+  position: 1
+  parent: mod-catalogs.md
   icon: minecraft:chest
 ---
 
 # Storage and logistics
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Portable storage](storage.portable.md) | Reference |
-| [Store bulk workshop materials](storage.bulk.md) | WIP |
-| [Sort, transfer and discard items](storage.handling.md) | WIP |
-| [Move, filter and distribute materials](machines.logistics.md) | WIP |
-
-## Installed mods and content
+## Storage Mods
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -29,3 +22,14 @@ navigation:
 | [Shulker Drops Two](storage.portable.md) | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
 | [Sophisticated Inventory Interactions](storage.handling.md) | Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting. |
 | [TrashSlot](storage.handling.md) | Adds a draggable trash slot to all inventory screens. Press T to toggle. |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Portable storage](storage.portable.md) | Reference |
+| [Store bulk workshop materials](storage.bulk.md) | WIP |
+| [Sort, transfer and discard items](storage.handling.md) | WIP |
+| [Move, filter and distribute materials](machines.logistics.md) | WIP |

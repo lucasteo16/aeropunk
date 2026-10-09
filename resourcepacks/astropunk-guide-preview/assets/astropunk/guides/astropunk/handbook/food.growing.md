@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Grow and harvest ingredients"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Grow and harvest ingredients
+
+## Overview
 
 Work in progress (WIP).
 

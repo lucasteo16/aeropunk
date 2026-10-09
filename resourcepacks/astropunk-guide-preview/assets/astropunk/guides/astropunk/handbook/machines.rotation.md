@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Supply rotational power"
-  parent: category-automation.md
+  title: "Rotational power"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Supply rotational power
+# Rotational power
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "安装和操作载具武器"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 安装和操作载具武器
+
+## 概览
 
 编写中（WIP）。
 

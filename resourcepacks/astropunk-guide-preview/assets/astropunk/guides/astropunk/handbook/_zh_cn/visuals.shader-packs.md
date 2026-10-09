@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "比较光影风格"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 比较光影风格
+
+## 概览
 
 编写中（WIP）。
 

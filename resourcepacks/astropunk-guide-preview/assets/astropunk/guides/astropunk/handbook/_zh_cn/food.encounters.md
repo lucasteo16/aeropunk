@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "用特殊遭遇获得的食材烹饪"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # 用特殊遭遇获得的食材烹饪
+
+## 概览
 
 编写中（WIP）。
 

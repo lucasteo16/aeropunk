@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Lighting and distant terrain"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Lighting and distant terrain
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:lantern" />

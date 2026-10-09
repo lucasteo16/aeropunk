@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "阅读护甲与状态信息"
-  parent: category-combat.md
+  position: 0
+  parent: reference.equipment.md
 ---
 
 # 阅读护甲与状态信息
+
+## 概览
 
 编写中（WIP）。
 

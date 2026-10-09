@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "共享地图信息"
-  parent: category-exploration.md
+  position: 0
+  parent: maps.personal.md
 ---
 
 # 共享地图信息
+
+## 概览
 
 编写中（WIP）。
 

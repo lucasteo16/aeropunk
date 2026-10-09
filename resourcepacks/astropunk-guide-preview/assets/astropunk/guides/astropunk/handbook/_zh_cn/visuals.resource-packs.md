@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择资源包外观"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 选择资源包外观
+
+## 概览
 
 编写中（WIP）。
 

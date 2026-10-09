@@ -1,24 +1,14 @@
 ---
 navigation:
   title: "战斗与角色"
+  position: 5
+  parent: mod-catalogs.md
   icon: minecraft:iron_sword
 ---
 
 # 战斗与角色
 
-## 主题目录
-
-| 主题 | 状态 |
-| --- | --- |
-| [使用武器与闪避](combat.handling.md) | WIP |
-| [选择近战与远程战斗风格](combat.martial.md) | WIP |
-| [选择法术与支援风格](combat.magic.md) | WIP |
-| [通过技能培养角色](combat.skills.md) | 参考 |
-| [选择武器与护甲](equipment.weapons-armor.md) | WIP |
-| [使用饰品、遗物与饰品栏](equipment.accessories.md) | WIP |
-| [阅读护甲与状态信息](equipment.display.md) | WIP |
-
-## 已安装模组与内容
+## 战斗与角色模组
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
@@ -49,3 +39,19 @@ navigation:
 | [Stylish Effects](equipment.display.md) | Status effect display overhaul: Display them in any menu! And way more compact. |
 | [Witcher (RPG Series Plus)](combat.magic.md) | Slay monsters like a Witcher! Spell Engine Add-On |
 | [Wizards (RPG Series)](combat.magic.md) | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |
+
+***
+
+## 主题
+
+| 主题 | 状态 |
+| --- | --- |
+| [使用武器与闪避](combat.handling.md) | WIP |
+| [选择近战与远程战斗风格](combat.martial.md) | WIP |
+| [选择法术与支援风格](combat.magic.md) | WIP |
+| [通过技能培养角色](combat.skills.md) | 参考 |
+| [选择武器与护甲](equipment.weapons-armor.md) | WIP |
+| [使用饰品、遗物与饰品栏](equipment.accessories.md) | WIP |
+| [阅读护甲与状态信息](equipment.display.md) | WIP |
+| [装备](reference.equipment.md) | 参考 |
+| [法术与技能](reference.skills.md) | 参考 |

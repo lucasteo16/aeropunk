@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Compare industrial materials and fuel systems"
-  parent: category-automation.md
+  title: "Industrial materials and fuels"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Compare industrial materials and fuel systems
+# Industrial materials and fuels
+
+## Overview
 
 Work in progress (WIP).
 

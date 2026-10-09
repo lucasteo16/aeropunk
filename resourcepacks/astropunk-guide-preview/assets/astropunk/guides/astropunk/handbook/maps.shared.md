@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Share map information"
-  parent: category-exploration.md
+  position: 0
+  parent: maps.personal.md
 ---
 
 # Share map information
+
+## Overview
 
 Work in progress (WIP).
 

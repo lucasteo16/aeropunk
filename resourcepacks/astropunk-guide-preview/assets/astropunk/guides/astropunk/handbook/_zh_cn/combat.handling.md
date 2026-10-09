@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "使用武器与闪避"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # 使用武器与闪避
+
+## 概览
 
 编写中（WIP）。
 

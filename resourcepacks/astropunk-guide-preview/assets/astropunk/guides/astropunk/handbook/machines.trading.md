@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Trade manually or with machines"
-  parent: category-automation.md
+  title: "Automated trading"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Trade manually or with machines
+# Automated trading
+
+## Overview
 
 Work in progress (WIP).
 
@@ -13,6 +16,3 @@ Work in progress (WIP).
 | Mod or content | Publisher description |
 | --- | --- |
 | Create: Trading floor | Automate trading with villagers using create! |
-| EMI professions (EMIP) | An EMI addon that adds profession workstations |
-| Trade Refresh | in-UI trade refresh key |
-| Villager Names | 🧑‍🌾 Gives all villager entities a default or custom name to liven up the world. |

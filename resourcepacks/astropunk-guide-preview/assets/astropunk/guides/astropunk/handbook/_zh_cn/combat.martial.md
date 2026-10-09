@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择近战与远程战斗风格"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # 选择近战与远程战斗风格
+
+## 概览
 
 编写中（WIP）。
 

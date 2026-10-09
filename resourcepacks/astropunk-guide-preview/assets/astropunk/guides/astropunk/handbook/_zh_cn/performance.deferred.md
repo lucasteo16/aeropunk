@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "了解暂缓加入的优化模组"
+  position: 0
   parent: category-technical.md
 ---
 
 # 了解暂缓加入的优化模组
+
+## 概览
 
 编写中（WIP）。
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "查看照明与管理刷怪"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 查看照明与管理刷怪
+
+## 概览
 
 编写中（WIP）。
 

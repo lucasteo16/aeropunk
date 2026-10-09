@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Supply liquid burner fuel"
-  parent: category-automation.md
+  title: "Liquid burner fuels"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Supply liquid burner fuel
+# Liquid burner fuels
+
+## Overview
 
 Work in progress (WIP).
 

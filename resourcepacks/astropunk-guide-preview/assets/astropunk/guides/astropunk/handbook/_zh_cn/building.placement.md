@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "使用随机放置与蓝图工具"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 使用随机放置与蓝图工具
+
+## 概览
 
 编写中（WIP）。
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "在基地内移动"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 在基地内移动
+
+## 概览
 
 编写中（WIP）。
 

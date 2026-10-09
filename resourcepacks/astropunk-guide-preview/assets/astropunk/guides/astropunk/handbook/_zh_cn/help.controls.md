@@ -1,10 +1,11 @@
 ---
 navigation:
-  title: "查找和修改按键"
-  parent: category-utilities.md
+  title: "操作与按键"
+  position: 0
+  parent: quick-reference.md
 ---
 
-# 查找和修改按键
+# 操作与按键
 
 ## 修改按键
 
@@ -53,3 +54,4 @@ navigation:
 | --- | --- |
 | Astropunk Handbook Access | 物品栏手册按钮与可配置快捷键。 |
 | Controlling | Adds a search bar to the Key-Bindings menu |
+| Trade Refresh | in-UI trade refresh key |

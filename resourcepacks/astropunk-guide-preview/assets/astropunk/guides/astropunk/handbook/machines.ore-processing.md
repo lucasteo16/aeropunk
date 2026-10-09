@@ -1,7 +1,8 @@
 ---
 navigation:
   title: "Ore processing"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 item_ids:
   - create:millstone
   - create:crushing_wheel
@@ -10,6 +11,8 @@ item_ids:
 ---
 
 # Ore processing
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />

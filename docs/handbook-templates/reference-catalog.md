@@ -1,20 +1,36 @@
 ---
 navigation:
   title: Dimensions
-  parent: category-exploration.md
+  parent: quick-reference.md
 ---
 
 # Dimensions
 
-<ItemGrid>
-  <ItemIcon id="minecraft:grass_block" />
-  <ItemIcon id="minecraft:netherrack" />
-  <ItemIcon id="minecraft:end_stone" />
-</ItemGrid>
+## Overworld
 
-| Dimension | Catalog |
+| Mod | Purpose |
 | --- | --- |
-| Overworld | [Landscapes and rivers](landscapes.overworld.md) |
-| Nether | [Nether landscapes](landscapes.nether.md) |
-| End | [End landscapes](landscapes.end.md) |
+| Tectonic | Terrain shaping and mountain ranges |
+| Terralith | New biomes using vanilla blocks |
+| Streams Reflowing | Flowing streams |
 
+***
+
+## Nether
+
+<ItemGrid><ItemIcon id="minecraft:netherrack" /></ItemGrid>
+
+| Mod | Purpose |
+| --- | --- |
+| Incendium | Nether terrain and biomes |
+| Incendium Biomes Only | Removes added structures, items, mobs and bosses |
+
+***
+
+## End
+
+<ItemGrid><ItemIcon id="minecraft:end_stone" /></ItemGrid>
+
+| Mod | Purpose |
+| --- | --- |
+| Nullscape | Alien terrain and new biomes |

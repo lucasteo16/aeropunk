@@ -1,21 +1,25 @@
 ---
 navigation:
   title: Automation and industry
+  parent: mod-catalogs.md
   icon: create:crushing_wheel
 ---
 
 # Automation and industry
 
-## Contents
+## Automation Mods
+
+### Machines and processing
+
+| Mod | Purpose |
+| --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing |
+
+***
+
+## Mechanics
 
 | Topic | Status |
 | --- | --- |
 | [Ore processing](machines.ore-processing.md) | Reference |
-| [Material routing](machines.logistics.md) | WIP |
-
-## Installed mods and content
-
-| Mod or content | Purpose |
-| --- | --- |
-| [Create](machines.ore-processing.md) | Mechanical power, machines and material processing |
-
+| [Rotational power](machines.rotation.md) | WIP |

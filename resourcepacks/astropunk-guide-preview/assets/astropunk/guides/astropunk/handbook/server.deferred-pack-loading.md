@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Deferred pack loading"
+  position: 0
   parent: category-technical.md
 ---
 
 # Deferred pack loading
+
+## Overview
 
 Work in progress (WIP).
 

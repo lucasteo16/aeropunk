@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Adjust notifications and information displays"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Adjust notifications and information displays
+
+## Overview
 
 Work in progress (WIP).
 

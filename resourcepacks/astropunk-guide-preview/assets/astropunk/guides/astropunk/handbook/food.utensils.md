@@ -1,7 +1,8 @@
 ---
 navigation:
   title: "Cooking tools"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 item_ids:
   - farmersdelight:cooking_pot
   - farmersdelight:cutting_board
@@ -10,6 +11,8 @@ item_ids:
 ---
 
 # Cooking tools
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooking_pot" />

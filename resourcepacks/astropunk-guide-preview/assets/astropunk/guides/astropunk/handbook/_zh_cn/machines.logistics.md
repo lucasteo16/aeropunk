@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "输送、筛选与分配物品"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 输送、筛选与分配物品
+
+## 概览
 
 编写中（WIP）。
 

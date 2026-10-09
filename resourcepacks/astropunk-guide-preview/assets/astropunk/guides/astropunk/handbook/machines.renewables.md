@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Produce renewable workshop resources"
-  parent: category-automation.md
+  title: "Renewable resources"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Produce renewable workshop resources
+# Renewable resources
+
+## Overview
 
 Work in progress (WIP).
 

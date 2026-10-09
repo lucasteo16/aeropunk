@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "建造桥梁、屋顶与围栏"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 建造桥梁、屋顶与围栏
+
+## 概览
 
 编写中（WIP）。
 

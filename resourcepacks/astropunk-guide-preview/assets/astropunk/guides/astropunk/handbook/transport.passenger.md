@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Travel as a train passenger"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Travel as a train passenger
+
+## Overview
 
 Work in progress (WIP).
 

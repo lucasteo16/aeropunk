@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "调整视角与窗口"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 调整视角与窗口
+
+## 概览
 
 编写中（WIP）。
 

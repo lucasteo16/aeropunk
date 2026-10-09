@@ -1,7 +1,8 @@
 ---
 navigation:
   title: "加工矿石与原料"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 item_ids:
   - create:millstone
   - create:crushing_wheel
@@ -10,6 +11,8 @@ item_ids:
 ---
 
 # 加工矿石与原料
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />

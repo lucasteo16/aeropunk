@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "食物与农业"
+  position: 2
+  parent: mod-catalogs.md
   icon: minecraft:wheat
 ---
 
 # 食物与农业
 
-## 主题目录
-
-| 主题 | 状态 |
-| --- | --- |
-| [饥饿、饮食多样性与食物携带](food.hunger.md) | 参考 |
-| [用烹饪工具准备食物](food.utensils.md) | 参考 |
-| [用下界食材烹饪](food.nether.md) | WIP |
-| [用末地食材烹饪](food.end.md) | WIP |
-| [用地下食材烹饪](food.underground.md) | WIP |
-| [用特殊遭遇获得的食材烹饪](food.encounters.md) | WIP |
-| [种植与收获食材](food.growing.md) | WIP |
-| [钓鱼与水产食材](food.fishing.md) | WIP |
-
-## 已安装模组与内容
+## 食物与农业模组
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
@@ -36,3 +25,19 @@ navigation:
 | [Smarter Farmers (farmers replant)](food.growing.md) | Allows villagers to replant the correct seed & allows them to use modded ones |
 | [Spice of Life Onion](food.hunger.md) | A mod designed to encourage dietary variety! |
 | [Universal Bone Meal](food.growing.md) | Stop the bonemeal discrimination! Grow all plants, no limitations. |
+
+***
+
+## 主题
+
+| 主题 | 状态 |
+| --- | --- |
+| [饥饿、饮食多样性与食物携带](food.hunger.md) | 参考 |
+| [用烹饪工具准备食物](food.utensils.md) | 参考 |
+| [用下界食材烹饪](food.nether.md) | WIP |
+| [用末地食材烹饪](food.end.md) | WIP |
+| [用地下食材烹饪](food.underground.md) | WIP |
+| [用特殊遭遇获得的食材烹饪](food.encounters.md) | WIP |
+| [种植与收获食材](food.growing.md) | WIP |
+| [钓鱼与水产食材](food.fishing.md) | WIP |
+| [食物与农业](reference.food.md) | 参考 |

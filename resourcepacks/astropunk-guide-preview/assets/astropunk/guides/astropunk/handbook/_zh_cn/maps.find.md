@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "寻找生物群系与结构"
-  parent: category-exploration.md
+  position: 0
+  parent: maps.personal.md
 ---
 
 # 寻找生物群系与结构
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:compass" />
@@ -18,7 +21,7 @@ navigation:
 
 查看指南针配方和目标列表。搜索结果取决于世界。
 
-用[个人地图](maps.personal.md)记录目的地。地点目录见[地形](landscapes.overworld.md)、[聚落](adventure.settlements.md)和[结构](adventure.structures.md)。
+用[个人地图](maps.personal.md)记录目的地。地点目录见[地形](world.dimensions.md)、[聚落](adventure.settlements.md)和[结构](adventure.structures.md)。
 
 ## 相关模组
 

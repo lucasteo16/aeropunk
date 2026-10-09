@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "阅读地图与标记目的地"
-  parent: category-exploration.md
+  title: "地图"
+  position: 12
+  parent: quick-reference.md
 ---
 
-# 阅读地图与标记目的地
+# 地图
+
+## 概览
 
 编写中（WIP）。
 

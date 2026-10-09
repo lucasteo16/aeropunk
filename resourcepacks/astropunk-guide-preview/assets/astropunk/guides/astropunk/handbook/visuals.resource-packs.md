@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Resource-pack appearance"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Resource-pack appearance
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "了解当前性能优化系统"
+  position: 0
   parent: category-technical.md
 ---
 
 # 了解当前性能优化系统
+
+## 概览
 
 编写中（WIP）。
 

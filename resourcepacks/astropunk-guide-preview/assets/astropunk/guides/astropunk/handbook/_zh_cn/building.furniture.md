@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "布置住宅与公共空间"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 布置住宅与公共空间
+
+## 概览
 
 编写中（WIP）。
 

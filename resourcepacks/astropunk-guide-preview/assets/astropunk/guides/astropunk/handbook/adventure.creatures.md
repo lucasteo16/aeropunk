@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Recognize wilderness creatures"
-  parent: category-exploration.md
+  title: "Creatures"
+  position: 3
+  parent: quick-reference.md
 ---
 
-# Recognize wilderness creatures
+# Creatures
+
+## Overview
 
 Work in progress (WIP).
 

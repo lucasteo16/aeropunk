@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Cook underground supplies"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Cook underground supplies
+
+## Overview
 
 Work in progress (WIP).
 

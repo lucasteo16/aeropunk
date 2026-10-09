@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "调整声音与环境声学"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 调整声音与环境声学
+
+## 概览
 
 编写中（WIP）。
 

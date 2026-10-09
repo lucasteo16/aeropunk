@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Place palettes and schematic patterns"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Place palettes and schematic patterns
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "制作展示、画作、标牌与雕像"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 制作展示、画作、标牌与雕像
+
+## 概览
 
 编写中（WIP）。
 

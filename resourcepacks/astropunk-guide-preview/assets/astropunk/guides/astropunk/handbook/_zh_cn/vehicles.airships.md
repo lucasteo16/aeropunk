@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "建造与平衡飞行船"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 建造与平衡飞行船
+
+## 概览
 
 编写中（WIP）。
 

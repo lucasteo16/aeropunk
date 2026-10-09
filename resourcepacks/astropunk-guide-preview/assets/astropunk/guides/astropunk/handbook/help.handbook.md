@@ -1,14 +1,17 @@
 ---
 navigation:
   title: "Astropunk handbook"
+  position: 0
   parent: category-technical.md
 ---
 
 # Astropunk handbook
 
+## Overview
+
 Browse the area catalogs for installed mods and their features. Gameplay pages explain specific mechanics. Hover item slots for their names and tooltips.
 
-[Home](index.md) · [Controls](help.controls.md) · [Items and recipes](help.search.md)
+[Home](index.md) · [Controls](help.controls.md) · [Item recipe](help.search.md)
 
 ## Related mods
 

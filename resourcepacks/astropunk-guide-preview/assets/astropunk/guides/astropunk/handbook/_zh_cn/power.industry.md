@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "工业材料与燃料系统"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 工业材料与燃料系统
+
+## 概览
 
 编写中（WIP）。
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "提供液体燃烧燃料"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 提供液体燃烧燃料
+
+## 概览
 
 编写中（WIP）。
 

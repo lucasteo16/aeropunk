@@ -16,8 +16,8 @@ java_home = root / 'toolchain/jdk-21.0.12.1+1'
 def javap(archive, *arguments):
     return subprocess.check_output([str(java_home / 'bin/javap'), '-classpath', str(archive), *arguments], text=True)
 
-released = javap(root / 'guideme-21.1.19.jar', '-public', '-s', 'guideme.GuidesCommon', 'guideme.Guides')
-assert '(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/resources/ResourceLocation;)V' in released
+released = javap(root / 'guideme-21.1.19.jar', '-public', '-s', 'guideme.internal.GuideMEClient', 'guideme.Guides')
+assert '(Lguideme/Guide;Lnet/minecraft/resources/ResourceLocation;)Z' in released
 assert '(Lnet/minecraft/resources/ResourceLocation;)Lguideme/Guide;' in released
 with zipfile.ZipFile(jar) as archive:
     names = archive.namelist()
@@ -38,7 +38,9 @@ with zipfile.ZipFile(jar) as archive:
 
 client = javap(jar, '-p', '-c', '-v', 'dev.astropunk.handbook.HandbookAccess')
 assert 'dist=[Lnet/neoforged/api/distmarker/Dist;.CLIENT]' in client
-assert 'guideme/GuidesCommon.openGuide:' in client
+assert 'guideme/internal/GuideMEClient.openGuideAtPreviousPage:(Lguideme/Guide;Lnet/minecraft/resources/ResourceLocation;)Z' in client
+assert 'guideme/Guide.getStartPage:' in client
+assert 'guideme/GuidesCommon.openGuide:' not in client
 assert 'guideme/Guides.getById:' in client
 assert 'astropunk' in client and 'handbook' in client
 assert re.search(r'sipush\s+298', client), 'The compiled default must be GLFW F9'

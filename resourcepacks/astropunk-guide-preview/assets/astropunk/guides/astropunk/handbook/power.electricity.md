@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Generate, distribute and consume electricity"
-  parent: category-automation.md
+  title: "Electricity"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Generate, distribute and consume electricity
+# Electricity
+
+## Overview
 
 Work in progress (WIP).
 

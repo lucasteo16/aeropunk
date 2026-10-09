@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Assemble and operate mounted weapons"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Assemble and operate mounted weapons
+
+## Overview
 
 Work in progress (WIP).
 

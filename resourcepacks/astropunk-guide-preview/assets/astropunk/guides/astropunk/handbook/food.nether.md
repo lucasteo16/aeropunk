@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Cook Nether ingredients"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Cook Nether ingredients
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Furnish homes and shared spaces"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Furnish homes and shared spaces
+
+## Overview
 
 Work in progress (WIP).
 

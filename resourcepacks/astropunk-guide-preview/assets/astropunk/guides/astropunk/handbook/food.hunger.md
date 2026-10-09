@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Hunger and food variety"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Hunger and food variety
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:apple" />

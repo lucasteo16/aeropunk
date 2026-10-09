@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Copycat shapes"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Copycat shapes
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:bricks" />

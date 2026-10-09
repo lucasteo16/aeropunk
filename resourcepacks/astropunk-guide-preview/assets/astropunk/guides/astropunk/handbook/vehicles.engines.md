@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Engines and propulsion"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Engines and propulsion
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Enchant, repair and inspect equipment"
-  parent: category-automation.md
+  title: "Automated enchanting"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Enchant, repair and inspect equipment
+# Automated enchanting
+
+## Overview
 
 Work in progress (WIP).
 
@@ -14,4 +17,3 @@ Work in progress (WIP).
 | --- | --- |
 | Create: Enchantment Industry | Automatic Enchanting, with Create |
 | Easy Anvils | Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties. |
-| EMI Enchanting | EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc. |

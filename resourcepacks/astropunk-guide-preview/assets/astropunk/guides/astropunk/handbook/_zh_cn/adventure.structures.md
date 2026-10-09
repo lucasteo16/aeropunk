@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "探索地牢与改造后的结构"
-  parent: category-exploration.md
+  title: "结构与地牢"
+  position: 4
+  parent: quick-reference.md
 ---
 
-# 探索地牢与改造后的结构
+# 结构与地牢
+
+## 概览
 
 编写中（WIP）。
 

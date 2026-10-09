@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Build trains, tracks and stations"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Build trains, tracks and stations
+
+## Overview
 
 Work in progress (WIP).
 

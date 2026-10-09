@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Build bridges, roofs and boundaries"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Build bridges, roofs and boundaries
+
+## Overview
 
 Work in progress (WIP).
 

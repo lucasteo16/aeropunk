@@ -1,9 +1,12 @@
 ---
 navigation:
   title: "Fishing and aquatic ingredients"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Fishing and aquatic ingredients
+
+## Overview
 
 Work in progress (WIP).

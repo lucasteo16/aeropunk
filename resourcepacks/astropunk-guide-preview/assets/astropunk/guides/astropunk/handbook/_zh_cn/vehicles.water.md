@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "操作船只与潜艇"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 操作船只与潜艇
+
+## 概览
 
 编写中（WIP）。
 

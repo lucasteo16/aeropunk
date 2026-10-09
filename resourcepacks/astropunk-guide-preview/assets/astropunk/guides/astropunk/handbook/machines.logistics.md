@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Move, filter and distribute materials"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # Move, filter and distribute materials
+
+## Overview
 
 Work in progress (WIP).
 

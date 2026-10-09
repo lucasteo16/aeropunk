@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Decorate workshops and stations"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Decorate workshops and stations
+
+## Overview
 
 Work in progress (WIP).
 

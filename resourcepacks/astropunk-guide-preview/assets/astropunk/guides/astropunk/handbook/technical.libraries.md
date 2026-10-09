@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Supporting libraries and frameworks"
+  position: 0
   parent: category-technical.md
 ---
 
 # Supporting libraries and frameworks
+
+## Overview
 
 Work in progress (WIP).
 
@@ -24,6 +27,7 @@ Work in progress (WIP).
 | Bundle API | Bundle API allows mod authors to easily add bundles that can hold more than 1 stack of items specified by an item tag. |
 | Cloth Config API | Configuration Library for Minecraft Mods |
 | Collective | 🎓 Collective is a shared library with common code for all of Serilum's mods. |
+| Create: Dragons Plus | Provide convenient features to players and dev utilities for Create addon developers. |
 | CreativeCore | A core mod |
 | DragonLib | DragonLib is a small and simple library mod which contains code that is used by most of my mods. |
 | Forgified Fabric API | Fabric API implemented on top of NeoForge |

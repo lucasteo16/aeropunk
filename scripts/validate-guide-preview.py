@@ -23,7 +23,7 @@ pages = resource / "assets/astropunk/guides/astropunk/handbook"
 expected = {p.name for p in pages.glob("*.md")}
 assert {p.name for p in (pages / "_zh_cn").glob("*.md")} == expected
 handbook = json.loads((root / 'docs/handbook-draft-manifest.json').read_text())
-assert len(expected) == handbook['article_count'] + handbook['category_count'] + 2
+assert len(expected) == handbook['article_count'] + handbook['category_count'] + handbook['navigation_page_count'] + handbook['reference_directory_count'] + 1
 for article in handbook['pages']:
     assert article['filename'] in expected
     for language in ('', '_zh_cn'):
@@ -44,7 +44,9 @@ for p in pages.rglob("*.md"):
         assert (p.parent / parent).is_file(), (p, parent)
     assert "\u2014" not in text and "\u2013" not in text, p
     assert 'minecraft:bed' not in text, p
-    assert '<ItemImage' not in text, p
+    # Decorative home icons intentionally have no item tooltip; instructional slots still do.
+    if p.name not in ('index.md', 'quick-reference.md', 'mod-catalogs.md'):
+        assert '<ItemImage' not in text, p
     for phrase in ('Draft for review', 'Drafts to review', 'first preview', 'This draft', 'Back to activities', '草稿，可供评阅'):
         assert phrase not in text, (p, phrase)
     assert '`@' not in text, p
@@ -60,8 +62,11 @@ for language in ('', '_zh_cn'):
         if filename in visited:
             continue
         visited.add(filename)
-        pending.extend(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / filename).read_text()))
+        page_text = (locale_root / filename).read_text()
+        pending.extend(re.findall(r'\]\(([^)]+\.md)\)', page_text))
+        pending.extend(re.findall(r'^  parent: (.+)$', page_text, re.MULTILINE))
     assert {a['filename'] for a in handbook['pages']} <= visited, language
+    assert {'quick-reference.md', 'mod-catalogs.md'} <= visited, language
     assert {f'category-{c}.md' for c in ('automation', 'storage', 'food', 'building', 'travel', 'combat', 'exploration', 'utilities', 'visuals', 'technical')} <= visited
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options

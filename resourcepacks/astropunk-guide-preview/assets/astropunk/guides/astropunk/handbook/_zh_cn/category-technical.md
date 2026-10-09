@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "技术参考"
+  position: 9
+  parent: mod-catalogs.md
   icon: minecraft:redstone
 ---
 
 # 技术参考
 
-## 主题目录
-
-| 主题 | 状态 |
-| --- | --- |
-| [了解当前性能优化系统](performance.baseline.md) | WIP |
-| [了解暂缓加入的优化模组](performance.deferred.md) | WIP |
-| [了解管理员与诊断工具](server.tools.md) | WIP |
-| [了解暂缓加入的内容加载工具](server.deferred-pack-loading.md) | WIP |
-| [查询移动建筑与视觉兼容组件](technical.bridges.md) | WIP |
-| [查询暂缓加入的太空渲染组件](technical.space-bridge.md) | WIP |
-| [查询支持库与框架](technical.libraries.md) | WIP |
-| [Astropunk 手册](help.handbook.md) | 参考 |
-
-## 已安装模组与内容
+## 技术组件
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
@@ -42,6 +31,7 @@ navigation:
 | [Collective](technical.libraries.md) | 🎓 Collective is a shared library with common code for all of Serilum's mods. |
 | [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | A mod designed to improve the chunk performance of Minecraft. |
 | [Configured Defaults](server.tools.md) | Allows for providing defaults for files absent in .minecraft like configs. A quintessential modpack utility. |
+| [Create: Dragons Plus](technical.libraries.md) | Provide convenient features to players and dev utilities for Create addon developers. |
 | [Create: LazyTick](performance.baseline.md) | A commitment to optimizing Create lag in large quantities! |
 | [CreateBetterFps](performance.baseline.md) | Improve your Create FPS when shaderpack is on, up to 50% |
 | [CreativeCore](technical.libraries.md) | A core mod |
@@ -120,3 +110,18 @@ navigation:
 | [Paxi](server.deferred-pack-loading.md)（未安装） | 当前未安装。 |
 | [ServerCore](performance.deferred.md)（未安装） | 当前未安装。 |
 | [Spawn Animations Compats](technical.bridges.md)（重型版，当前未安装） | 当前未安装。 |
+
+***
+
+## 主题
+
+| 主题 | 状态 |
+| --- | --- |
+| [了解当前性能优化系统](performance.baseline.md) | WIP |
+| [了解暂缓加入的优化模组](performance.deferred.md) | WIP |
+| [了解管理员与诊断工具](server.tools.md) | WIP |
+| [了解暂缓加入的内容加载工具](server.deferred-pack-loading.md) | WIP |
+| [查询移动建筑与视觉兼容组件](technical.bridges.md) | WIP |
+| [查询暂缓加入的太空渲染组件](technical.space-bridge.md) | WIP |
+| [查询支持库与框架](technical.libraries.md) | WIP |
+| [Astropunk 手册](help.handbook.md) | 参考 |

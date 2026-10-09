@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Store rotational force"
-  parent: category-automation.md
+  title: "Rotational storage"
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
-# Store rotational force
+# Rotational storage
+
+## Overview
 
 Work in progress (WIP).
 

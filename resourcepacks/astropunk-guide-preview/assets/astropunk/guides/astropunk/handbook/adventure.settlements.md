@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Settlements and spell libraries"
-  parent: category-exploration.md
+  position: 0
+  parent: adventure.structures.md
 ---
 
 # Settlements and spell libraries
+
+## Overview
 
 Work in progress (WIP).
 

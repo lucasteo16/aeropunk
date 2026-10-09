@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "读取雷达信息"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 读取雷达信息
+
+## 概览
 
 编写中（WIP）。
 

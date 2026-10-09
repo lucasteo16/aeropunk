@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Recover after death"
+  position: 0
   parent: category-utilities.md
 ---
 
 # Recover after death
+
+## Overview
 
 Work in progress (WIP).
 

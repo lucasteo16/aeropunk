@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "了解整台载具的跨维度移动"
+  position: 0
   parent: category-travel.md
 ---
 
 # 了解整台载具的跨维度移动
+
+## 概览
 
 编写中（WIP）。
 

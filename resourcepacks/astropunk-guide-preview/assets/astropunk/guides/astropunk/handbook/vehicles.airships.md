@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Build and balance an airship"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Build and balance an airship
+
+## Overview
 
 Work in progress (WIP).
 

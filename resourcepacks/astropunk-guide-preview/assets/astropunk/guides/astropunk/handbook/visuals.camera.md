@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Adjust camera and window comfort"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Adjust camera and window comfort
+
+## Overview
 
 Work in progress (WIP).
 

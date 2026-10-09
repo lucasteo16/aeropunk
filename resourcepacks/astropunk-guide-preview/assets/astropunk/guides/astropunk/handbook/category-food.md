@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "Food and farming"
+  position: 2
+  parent: mod-catalogs.md
   icon: minecraft:wheat
 ---
 
 # Food and farming
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Hunger and food variety](food.hunger.md) | Reference |
-| [Cooking tools](food.utensils.md) | Reference |
-| [Cook Nether ingredients](food.nether.md) | WIP |
-| [Cook End ingredients](food.end.md) | WIP |
-| [Cook underground supplies](food.underground.md) | WIP |
-| [Cook encounter ingredients](food.encounters.md) | WIP |
-| [Grow and harvest ingredients](food.growing.md) | WIP |
-| [Fishing and aquatic ingredients](food.fishing.md) | WIP |
-
-## Installed mods and content
+## Food and Farming Mods
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -36,3 +25,19 @@ navigation:
 | [Smarter Farmers (farmers replant)](food.growing.md) | Allows villagers to replant the correct seed & allows them to use modded ones |
 | [Spice of Life Onion](food.hunger.md) | A mod designed to encourage dietary variety! |
 | [Universal Bone Meal](food.growing.md) | Stop the bonemeal discrimination! Grow all plants, no limitations. |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Hunger and food variety](food.hunger.md) | Reference |
+| [Cooking tools](food.utensils.md) | Reference |
+| [Cook Nether ingredients](food.nether.md) | WIP |
+| [Cook End ingredients](food.end.md) | WIP |
+| [Cook underground supplies](food.underground.md) | WIP |
+| [Cook encounter ingredients](food.encounters.md) | WIP |
+| [Grow and harvest ingredients](food.growing.md) | WIP |
+| [Fishing and aquatic ingredients](food.fishing.md) | WIP |
+| [Food and farming](reference.food.md) | Reference |

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择法术与支援风格"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # 选择法术与支援风格
+
+## 概览
 
 编写中（WIP）。
 

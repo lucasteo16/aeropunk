@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Handle weapons and dodge"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # Handle weapons and dodge
+
+## Overview
 
 Work in progress (WIP).
 

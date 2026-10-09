@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Teleportation"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Teleportation
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:ender_pearl" />

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Weapons and armor"
-  parent: category-combat.md
+  position: 0
+  parent: reference.equipment.md
 ---
 
 # Weapons and armor
+
+## Overview
 
 Work in progress (WIP).
 

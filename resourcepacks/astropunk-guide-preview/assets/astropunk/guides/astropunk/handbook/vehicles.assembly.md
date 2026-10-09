@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Assemble and operate moving vehicles"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Assemble and operate moving vehicles
+
+## Overview
 
 Work in progress (WIP).
 

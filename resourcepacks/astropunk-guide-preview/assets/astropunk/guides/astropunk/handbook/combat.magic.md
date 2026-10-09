@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Compare magic and support roles"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # Compare magic and support roles
+
+## Overview
 
 Work in progress (WIP).
 

@@ -4,11 +4,13 @@ Version: `0.3.0-guide.light.2`. Based on light main at `34cb006`, maintained on 
 
 ## Existing authoring instance
 
-The dedicated light guide instance already has the compiled access helper installed. Its handbook resource directory links to the authoritative worktree. Other instances and worlds are untouched.
+The dedicated light guide instance has the compiled access helper and a normal resource-pack folder installed. Its former symbolic link was rejected by Minecraft and has been archived. Other instances and worlds are untouched.
 
-Restart this instance once to load the helper. Open the inventory and use Handbook, or press F9. Configure Open Astropunk Handbook in Options, Controls and Key Binds. The existing contextual GuideME binding remains separate.
+In this instance's launcher settings, append the two official GuideME Java arguments from guide-live-preview-java-arguments.txt without removing existing arguments. Computer use is currently prohibited, so Lucas performs this launcher setting change. Start the same instance, enable Astropunk Handbook under Resource Packs, and apply the selection. Minecraft previously removed it when rejecting the symbolic link.
 
-After that initial launch, native watched-source mode should refresh page changes automatically. Until then, F3 and T reloads linked resources without closing the game. Compiled helper changes still require a restart. Do not reimport the pack to review ordinary writing changes.
+Use the inventory Handbook button or F9. Configure Open Astropunk Handbook in Options, Controls and Key Binds. GuideME's native source setting points directly to the repository Markdown folder, which the engine watches for ordinary page changes. The installed normal copy provides registration and packaged fallback resources. Helper code changes still require a restart; registration and resource-pack asset changes may require a resource reload.
+
+The normal folder and its 200 files have been checked. Java arguments, guide loading and live refresh still need verification after Lucas completes the launcher setting.
 
 ## Fresh package
 

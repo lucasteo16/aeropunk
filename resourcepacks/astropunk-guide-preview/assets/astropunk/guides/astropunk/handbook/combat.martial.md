@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Compare martial combat roles"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # Compare martial combat roles
+
+## Overview
 
 Work in progress (WIP).
 

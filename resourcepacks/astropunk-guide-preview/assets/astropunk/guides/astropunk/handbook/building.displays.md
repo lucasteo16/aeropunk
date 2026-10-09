@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Make displays, paintings, signs and statues"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Make displays, paintings, signs and statues
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "探索聚落与法术图书馆"
-  parent: category-exploration.md
+  position: 0
+  parent: adventure.structures.md
 ---
 
 # 探索聚落与法术图书馆
+
+## 概览
 
 编写中（WIP）。
 

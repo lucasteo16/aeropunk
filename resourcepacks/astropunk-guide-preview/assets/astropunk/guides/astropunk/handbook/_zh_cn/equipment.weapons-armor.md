@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择武器与护甲"
-  parent: category-combat.md
+  position: 0
+  parent: reference.equipment.md
 ---
 
 # 选择武器与护甲
+
+## 概览
 
 编写中（WIP）。
 

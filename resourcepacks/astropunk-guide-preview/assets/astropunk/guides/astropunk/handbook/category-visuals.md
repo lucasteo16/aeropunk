@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "Visuals and sound"
+  position: 8
+  parent: mod-catalogs.md
   icon: minecraft:painting
 ---
 
 # Visuals and sound
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Adjust camera and window comfort](visuals.camera.md) | WIP |
-| [Adjust models and animations](visuals.models.md) | WIP |
-| [Adjust weather, particles and transitions](visuals.weather.md) | WIP |
-| [Lighting and distant terrain](visuals.lighting.md) | Reference |
-| [Resource-pack appearance](visuals.resource-packs.md) | WIP |
-| [Compare shader styles](visuals.shader-packs.md) | WIP |
-| [Adjust sounds and acoustic effects](sounds.ambience.md) | WIP |
-| [Adjust notifications and information displays](visuals.interface.md) | WIP |
-
-## Installed mods and content
+## Visual and Sound Mods
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -76,3 +65,18 @@ navigation:
 | [Sodium Dynamic Lights](visuals.lighting.md) (heavy edition, not installed here) | Not installed here. |
 | [Spawn Animations](visuals.models.md) (heavy edition, not installed here) | Not installed here. |
 | [Visual Effects+](visuals.resource-packs.md) (heavy edition, not installed here) | Not installed here. |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Adjust camera and window comfort](visuals.camera.md) | WIP |
+| [Adjust models and animations](visuals.models.md) | WIP |
+| [Adjust weather, particles and transitions](visuals.weather.md) | WIP |
+| [Lighting and distant terrain](visuals.lighting.md) | Reference |
+| [Resource-pack appearance](visuals.resource-packs.md) | WIP |
+| [Compare shader styles](visuals.shader-packs.md) | WIP |
+| [Adjust sounds and acoustic effects](sounds.ambience.md) | WIP |
+| [Adjust notifications and information displays](visuals.interface.md) | WIP |

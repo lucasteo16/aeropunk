@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "饥饿、饮食多样性与食物携带"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # 饥饿、饮食多样性与食物携带
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:apple" />

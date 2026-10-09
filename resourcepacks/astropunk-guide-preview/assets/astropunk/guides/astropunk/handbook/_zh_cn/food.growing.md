@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "种植与收获食材"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # 种植与收获食材
+
+## 概览
 
 编写中（WIP）。
 

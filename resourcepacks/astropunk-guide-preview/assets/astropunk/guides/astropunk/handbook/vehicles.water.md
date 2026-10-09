@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Operate boats and submarines"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Operate boats and submarines
+
+## Overview
 
 Work in progress (WIP).
 

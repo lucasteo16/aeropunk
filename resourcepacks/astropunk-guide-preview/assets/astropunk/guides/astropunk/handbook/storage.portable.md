@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Portable storage"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # Portable storage
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />

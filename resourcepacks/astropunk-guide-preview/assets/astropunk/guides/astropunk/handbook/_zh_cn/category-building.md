@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "建筑与装饰"
+  position: 3
+  parent: mod-catalogs.md
   icon: minecraft:bricks
 ---
 
 # 建筑与装饰
 
-## 主题目录
-
-| 主题 | 状态 |
-| --- | --- |
-| [选择装饰材料](building.palette.md) | WIP |
-| [装饰工厂与车站](building.factory.md) | WIP |
-| [使用模仿材料的建筑形状](building.copycats.md) | 参考 |
-| [建造桥梁、屋顶与围栏](building.architecture.md) | WIP |
-| [布置住宅与公共空间](building.furniture.md) | WIP |
-| [制作展示、画作、标牌与雕像](building.displays.md) | WIP |
-| [使用随机放置与蓝图工具](building.placement.md) | WIP |
-| [查看照明与管理刷怪](building.safety.md) | WIP |
-
-## 已安装模组与内容
+## 建筑模组
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
@@ -62,3 +51,19 @@ navigation:
 | [Supplementaries](building.furniture.md) | Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation |
 | [TorchMaster](building.safety.md) | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |
 | [TW‘s  Decorative Food](building.furniture.md) | Make the food placeable.Decorate your world! |
+
+***
+
+## 主题
+
+| 主题 | 状态 |
+| --- | --- |
+| [选择装饰材料](building.palette.md) | WIP |
+| [装饰工厂与车站](building.factory.md) | WIP |
+| [使用模仿材料的建筑形状](building.copycats.md) | 参考 |
+| [建造桥梁、屋顶与围栏](building.architecture.md) | WIP |
+| [布置住宅与公共空间](building.furniture.md) | WIP |
+| [制作展示、画作、标牌与雕像](building.displays.md) | WIP |
+| [使用随机放置与蓝图工具](building.placement.md) | WIP |
+| [查看照明与管理刷怪](building.safety.md) | WIP |
+| [建筑](reference.building.md) | 参考 |

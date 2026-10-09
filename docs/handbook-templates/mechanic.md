@@ -1,12 +1,14 @@
 ---
 navigation:
   title: Ore processing
-  parent: category-automation.md
+  parent: reference.machines-storage.md
 item_ids:
   - create:millstone
 ---
 
 # Ore processing
+
+## Machines
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />

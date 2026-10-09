@@ -7,4 +7,5 @@ export GRADLE_USER_HOME="$PWD/.gradle-user-home"
 export TMPDIR="$PWD/build-tmp"
 mkdir -p "$TMPDIR"
 ./gradlew clean test build --console=plain
+python test_open_endpoint.py
 python verify_artifact.py

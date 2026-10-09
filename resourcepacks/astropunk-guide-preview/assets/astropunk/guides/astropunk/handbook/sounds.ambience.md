@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Adjust sounds and acoustic effects"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Adjust sounds and acoustic effects
+
+## Overview
 
 Work in progress (WIP).
 

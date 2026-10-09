@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择引擎与推进装置"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 选择引擎与推进装置
+
+## 概览
 
 编写中（WIP）。
 

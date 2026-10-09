@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "调整通知与信息界面"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 调整通知与信息界面
+
+## 概览
 
 编写中（WIP）。
 

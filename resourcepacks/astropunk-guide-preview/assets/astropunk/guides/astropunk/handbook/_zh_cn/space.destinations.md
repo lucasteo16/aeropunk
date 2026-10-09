@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "了解规划中的太空目的地"
+  position: 0
   parent: category-travel.md
 ---
 
 # 了解规划中的太空目的地
+
+## 概览
 
 编写中（WIP）。
 

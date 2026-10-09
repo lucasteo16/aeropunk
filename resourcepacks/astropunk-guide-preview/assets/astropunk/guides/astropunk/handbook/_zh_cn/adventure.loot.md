@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "分享与查看探险战利品"
-  parent: category-exploration.md
+  position: 0
+  parent: adventure.structures.md
 ---
 
 # 分享与查看探险战利品
+
+## 概览
 
 编写中（WIP）。
 

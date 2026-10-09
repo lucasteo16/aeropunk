@@ -1,21 +1,14 @@
 ---
 navigation:
   title: "仓储与物流"
+  position: 1
+  parent: mod-catalogs.md
   icon: minecraft:chest
 ---
 
 # 仓储与物流
 
-## 主题目录
-
-| 主题 | 状态 |
-| --- | --- |
-| [携带便携储存装备](storage.portable.md) | 参考 |
-| [储存工厂的大批原料](storage.bulk.md) | WIP |
-| [整理、转移与丢弃物品](storage.handling.md) | WIP |
-| [输送、筛选与分配物品](machines.logistics.md) | WIP |
-
-## 已安装模组与内容
+## 仓储模组
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
@@ -29,3 +22,14 @@ navigation:
 | [Shulker Drops Two](storage.portable.md) | 🟪 Allows Shulkers to drop two or more shells and ignore their default drop chance. |
 | [Sophisticated Inventory Interactions](storage.handling.md) | Adds Sophisticated-style search, sort, and transfer controls to vanilla and compatible modded container GUIs, including player-inventory sorting. |
 | [TrashSlot](storage.handling.md) | Adds a draggable trash slot to all inventory screens. Press T to toggle. |
+
+***
+
+## 主题
+
+| 主题 | 状态 |
+| --- | --- |
+| [携带便携储存装备](storage.portable.md) | 参考 |
+| [储存工厂的大批原料](storage.bulk.md) | WIP |
+| [整理、转移与丢弃物品](storage.handling.md) | WIP |
+| [输送、筛选与分配物品](machines.logistics.md) | WIP |

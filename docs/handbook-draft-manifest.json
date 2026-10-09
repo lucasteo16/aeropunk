@@ -1,7 +1,10 @@
 {
   "draft_articles": 14,
-  "article_count": 87,
+  "article_count": 84,
   "category_count": 10,
+  "navigation_page_count": 2,
+  "reference_section_count": 13,
+  "reference_directory_count": 6,
   "installed_content_count": 292,
   "heavy_content_count": 20,
   "baseline_commit": "34cb006",
@@ -12,8 +15,11 @@
       "category": "Player utilities and quality of life",
       "filename": "help.search.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/emi-enchanting.pw.toml",
+        "mods/emi-professions-(emip).pw.toml",
         "mods/emi.pw.toml",
         "mods/polymorph.pw.toml",
         "mods/reliable-emi.pw.toml",
@@ -25,10 +31,12 @@
       "category": "Player utilities and quality of life",
       "filename": "help.inspect.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/jade-addons-forge.pw.toml",
-        "mods/jade.pw.toml"
+        "mods/jade.pw.toml",
+        "mods/villager-names-serilum.pw.toml"
       ]
     },
     {
@@ -36,9 +44,11 @@
       "category": "Player utilities and quality of life",
       "filename": "help.controls.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/controlling.pw.toml",
+        "mods/trade-refresh.pw.toml",
         "mods/astropunk-handbook-access-1.0.0.jar"
       ]
     },
@@ -47,6 +57,7 @@
       "category": "Player utilities and quality of life",
       "filename": "help.reference.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/reliable-advancements.pw.toml"
@@ -57,6 +68,7 @@
       "category": "Food and farming",
       "filename": "food.hunger.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/appleskin.pw.toml",
@@ -69,6 +81,7 @@
       "category": "Food and farming",
       "filename": "food.utensils.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/farmers-delight.pw.toml"
@@ -79,6 +92,7 @@
       "category": "Food and farming",
       "filename": "food.nether.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/my-nethers-delight.pw.toml"
@@ -89,6 +103,7 @@
       "category": "Food and farming",
       "filename": "food.end.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/ends-delight.pw.toml"
@@ -99,6 +114,7 @@
       "category": "Food and farming",
       "filename": "food.underground.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/miners-delight.pw.toml"
@@ -109,6 +125,7 @@
       "category": "Food and farming",
       "filename": "food.encounters.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/l_enders-cataclysm-delight.pw.toml"
@@ -119,6 +136,7 @@
       "category": "Automation and industry",
       "filename": "food.machine-cooking.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-central-kitchen.pw.toml",
@@ -130,6 +148,7 @@
       "category": "Food and farming",
       "filename": "food.growing.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-integrated-farming.pw.toml",
@@ -144,6 +163,7 @@
       "category": "Food and farming",
       "filename": "food.fishing.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
@@ -152,6 +172,7 @@
       "category": "Storage and logistics",
       "filename": "storage.portable.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/easy-shulker-boxes.pw.toml",
@@ -165,6 +186,7 @@
       "category": "Storage and logistics",
       "filename": "storage.bulk.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-vibrant-vaults.pw.toml"
@@ -175,6 +197,7 @@
       "category": "Storage and logistics",
       "filename": "storage.handling.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/interactic-renewed.pw.toml",
@@ -188,6 +211,7 @@
       "category": "Automation and industry",
       "filename": "machines.ore-processing.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create.pw.toml"
@@ -198,6 +222,7 @@
       "category": "Automation and industry",
       "filename": "machines.rotation.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-connected.pw.toml"
@@ -208,6 +233,7 @@
       "category": "Storage and logistics",
       "filename": "machines.logistics.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-additional-logistics.pw.toml"
@@ -218,6 +244,7 @@
       "category": "Automation and industry",
       "filename": "machines.renewables.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-molten-vents.pw.toml"
@@ -228,11 +255,11 @@
       "category": "Automation and industry",
       "filename": "machines.enchanting.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-enchantment-industry.pw.toml",
-        "mods/easy-anvils.pw.toml",
-        "mods/emi-enchanting.pw.toml"
+        "mods/easy-anvils.pw.toml"
       ]
     },
     {
@@ -240,22 +267,20 @@
       "category": "Automation and industry",
       "filename": "machines.trading.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create-trading-floor.pw.toml",
-        "mods/emi-professions-(emip).pw.toml",
-        "mods/trade-refresh.pw.toml",
-        "mods/villager-names-serilum.pw.toml"
+        "mods/create-trading-floor.pw.toml"
       ]
     },
     {
       "topic": "machines.miscellaneous",
-      "category": "Automation and industry",
+      "category": "Player utilities and quality of life",
       "filename": "machines.miscellaneous.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create-dragons-plus.pw.toml",
         "mods/create-stam1o-tweaks.pw.toml",
         "mods/create-stuff-additions.pw.toml"
       ]
@@ -265,6 +290,7 @@
       "category": "Automation and industry",
       "filename": "power.electricity.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-electro-energetics.pw.toml"
@@ -275,6 +301,7 @@
       "category": "Automation and industry",
       "filename": "power.industry.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/tfmg-community-edition.pw.toml"
@@ -285,6 +312,7 @@
       "category": "Automation and industry",
       "filename": "power.burners.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-liquid-fuel.pw.toml"
@@ -295,6 +323,7 @@
       "category": "Automation and industry",
       "filename": "power.stored-rotation.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-springs.pw.toml"
@@ -305,6 +334,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.assembly.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-aeronautics.pw.toml"
@@ -315,6 +345,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.airships.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-aeronautics-encased-fluid-pipes.pw.toml",
@@ -326,6 +357,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.engines.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/aeroengine.pw.toml",
@@ -337,6 +369,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.controls.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-aeroworks.pw.toml",
@@ -348,6 +381,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.radar.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-radars.pw.toml"
@@ -358,6 +392,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.weapons.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-big-cannons.pw.toml"
@@ -368,6 +403,7 @@
       "category": "Vehicles and travel",
       "filename": "vehicles.water.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-deep-seas.pw.toml"
@@ -378,6 +414,7 @@
       "category": "Vehicles and travel",
       "filename": "transport.passenger.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-railways-navigator.pw.toml"
@@ -388,6 +425,7 @@
       "category": "Vehicles and travel",
       "filename": "transport.railway-builder.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/blocks-bogies.pw.toml",
@@ -399,6 +437,7 @@
       "category": "Vehicles and travel",
       "filename": "transport.local.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/escalated.pw.toml",
@@ -410,6 +449,7 @@
       "category": "Vehicles and travel",
       "filename": "travel.destinations.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-waystones-recipes.pw.toml",
@@ -423,6 +463,7 @@
       "category": "Vehicles and travel",
       "filename": "travel.moving-destinations.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/waystones-sable.pw.toml"
@@ -433,6 +474,7 @@
       "category": "Exploration and adventure",
       "filename": "maps.personal.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/xaeros-minimap.pw.toml",
@@ -444,6 +486,7 @@
       "category": "Exploration and adventure",
       "filename": "maps.shared.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/team-capes.pw.toml",
@@ -455,6 +498,7 @@
       "category": "Exploration and adventure",
       "filename": "maps.find.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/explorers-compass.pw.toml",
@@ -466,6 +510,7 @@
       "category": "Exploration and adventure",
       "filename": "adventure.loot.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/emi-loot.pw.toml",
@@ -477,6 +522,7 @@
       "category": "Player utilities and quality of life",
       "filename": "adventure.recovery.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/corpse-x-curios-api-compat.pw.toml",
@@ -488,6 +534,7 @@
       "category": "Player utilities and quality of life",
       "filename": "adventure.sleep.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/betterdays.pw.toml",
@@ -499,6 +546,7 @@
       "category": "Exploration and adventure",
       "filename": "adventure.settlements.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/ct-overhaul-village.pw.toml",
@@ -511,6 +559,7 @@
       "category": "Exploration and adventure",
       "filename": "adventure.structures.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/when-dungeons-arise.pw.toml",
@@ -529,6 +578,7 @@
       "category": "Exploration and adventure",
       "filename": "adventure.creatures.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/creeper-overhaul.pw.toml",
@@ -543,6 +593,7 @@
       "category": "Exploration and adventure",
       "filename": "adventure.bosses.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/bossesrise.pw.toml",
@@ -556,6 +607,7 @@
       "category": "Combat and character",
       "filename": "combat.handling.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/better-combat.pw.toml",
@@ -568,6 +620,7 @@
       "category": "Combat and character",
       "filename": "combat.martial.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/archers-expansion.pw.toml",
@@ -582,6 +635,7 @@
       "category": "Combat and character",
       "filename": "combat.magic.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/bard-more-rpg-classes.pw.toml",
@@ -597,6 +651,7 @@
       "category": "Combat and character",
       "filename": "combat.skills.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/more-rpg-classes-skill-tree.pw.toml",
@@ -609,6 +664,7 @@
       "category": "Combat and character",
       "filename": "equipment.weapons-armor.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/armory-rpg-series.pw.toml",
@@ -620,6 +676,7 @@
       "category": "Combat and character",
       "filename": "equipment.accessories.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/additional-rpg-jewelry.pw.toml",
@@ -634,6 +691,7 @@
       "category": "Combat and character",
       "filename": "equipment.display.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/detail-armor-bar-reconstructed.pw.toml",
@@ -646,6 +704,7 @@
       "category": "Building and decoration",
       "filename": "building.palette.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/chipped-express.pw.toml",
@@ -659,6 +718,7 @@
       "category": "Building and decoration",
       "filename": "building.factory.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/bellsandwhistles.pw.toml",
@@ -677,6 +737,7 @@
       "category": "Building and decoration",
       "filename": "building.copycats.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/copycats.pw.toml"
@@ -687,6 +748,7 @@
       "category": "Building and decoration",
       "filename": "building.architecture.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/diagonal-fences.pw.toml",
@@ -704,6 +766,7 @@
       "category": "Building and decoration",
       "filename": "building.furniture.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/amendments.pw.toml",
@@ -719,6 +782,7 @@
       "category": "Building and decoration",
       "filename": "building.displays.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/armor-poser.pw.toml",
@@ -733,6 +797,7 @@
       "category": "Building and decoration",
       "filename": "building.placement.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-pattern-schematics.pw.toml",
@@ -746,6 +811,7 @@
       "category": "Building and decoration",
       "filename": "building.safety.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/lighty.pw.toml",
@@ -757,6 +823,7 @@
       "category": "Player utilities and quality of life",
       "filename": "interactions.carry.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/carry-on.pw.toml"
@@ -767,6 +834,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.camera.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/cubes-without-borders.pw.toml",
@@ -779,6 +847,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.models.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/eating-animations.pw.toml",
@@ -794,6 +863,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.weather.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/bbrb.pw.toml",
@@ -812,6 +882,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.lighting.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/distanthorizons.pw.toml",
@@ -826,6 +897,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.resource-packs.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "resourcepacks/attribute-icons-rpg-series.pw.toml",
@@ -845,6 +917,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.shader-packs.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "shaderpacks/complementary-reimagined.pw.toml",
@@ -857,6 +930,7 @@
       "category": "Visuals and sound",
       "filename": "sounds.ambience.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/cool-rain-reforged.pw.toml",
@@ -872,6 +946,7 @@
       "category": "Visuals and sound",
       "filename": "visuals.interface.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/advancement-plaques.pw.toml",
@@ -883,43 +958,11 @@
       ]
     },
     {
-      "topic": "landscapes.overworld",
-      "category": "Exploration and adventure",
-      "filename": "landscapes.overworld.md",
-      "drafted": false,
-      "deferred": false,
-      "metadata_paths": [
-        "mods/streams-reflowing.pw.toml",
-        "mods/tectonic.pw.toml",
-        "mods/terralith.pw.toml"
-      ]
-    },
-    {
-      "topic": "landscapes.nether",
-      "category": "Exploration and adventure",
-      "filename": "landscapes.nether.md",
-      "drafted": false,
-      "deferred": false,
-      "metadata_paths": [
-        "mods/ibo.pw.toml",
-        "mods/incendium.pw.toml"
-      ]
-    },
-    {
-      "topic": "landscapes.end",
-      "category": "Exploration and adventure",
-      "filename": "landscapes.end.md",
-      "drafted": false,
-      "deferred": false,
-      "metadata_paths": [
-        "mods/nullscape.pw.toml"
-      ]
-    },
-    {
       "topic": "space.destinations",
       "category": "Vehicles and travel",
       "filename": "space.destinations.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": true,
       "metadata_paths": [
         "mods/northstar-redux.pw.toml"
@@ -930,6 +973,7 @@
       "category": "Vehicles and travel",
       "filename": "space.vehicle-transfer.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": true,
       "metadata_paths": [
         "mods/create-aerowarptics.pw.toml",
@@ -941,6 +985,7 @@
       "category": "Technical reference",
       "filename": "performance.baseline.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/ai-improvements.pw.toml",
@@ -972,6 +1017,7 @@
       "category": "Technical reference",
       "filename": "performance.deferred.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": true,
       "metadata_paths": [
         "mods/asynclogger.pw.toml",
@@ -984,6 +1030,7 @@
       "category": "Technical reference",
       "filename": "server.tools.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/chunky.pw.toml",
@@ -998,6 +1045,7 @@
       "category": "Technical reference",
       "filename": "server.deferred-pack-loading.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": true,
       "metadata_paths": [
         "mods/paxi.pw.toml"
@@ -1008,6 +1056,7 @@
       "category": "Technical reference",
       "filename": "technical.bridges.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/create-emf-compat-skyhook.pw.toml",
@@ -1026,6 +1075,7 @@
       "category": "Technical reference",
       "filename": "technical.space-bridge.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": true,
       "metadata_paths": [
         "mods/northstar-sable-iris-horizons-bridge.pw.toml"
@@ -1036,6 +1086,7 @@
       "category": "Technical reference",
       "filename": "technical.libraries.md",
       "drafted": false,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/almanac.pw.toml",
@@ -1051,6 +1102,7 @@
         "mods/cloth-config.pw.toml",
         "mods/collective.pw.toml",
         "mods/connector.pw.toml",
+        "mods/create-dragons-plus.pw.toml",
         "mods/creativecore.pw.toml",
         "mods/dragonlib.pw.toml",
         "mods/forgified-fabric-api.pw.toml",
@@ -1095,6 +1147,7 @@
       "category": "Technical reference",
       "filename": "help.handbook.md",
       "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": [
         "mods/guideme.pw.toml"
@@ -1105,6 +1158,68 @@
       "category": "Exploration and adventure",
       "filename": "world.dimensions.md",
       "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/ibo.pw.toml",
+        "mods/incendium.pw.toml",
+        "mods/nullscape.pw.toml",
+        "mods/streams-reflowing.pw.toml",
+        "mods/tectonic.pw.toml",
+        "mods/terralith.pw.toml"
+      ]
+    },
+    {
+      "topic": "reference.equipment",
+      "category": "Combat and character",
+      "filename": "reference.equipment.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "reference.skills",
+      "category": "Combat and character",
+      "filename": "reference.skills.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "reference.food",
+      "category": "Food and farming",
+      "filename": "reference.food.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "reference.building",
+      "category": "Building and decoration",
+      "filename": "reference.building.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "reference.vehicles",
+      "category": "Vehicles and travel",
+      "filename": "reference.vehicles.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "reference.machines-storage",
+      "category": "Automation and industry",
+      "filename": "reference.machines-storage.md",
+      "drafted": true,
+      "page_type": "directory",
       "deferred": false,
       "metadata_paths": []
     }
@@ -1985,8 +2100,8 @@
       "metadata_path": "mods/create-dragons-plus.pw.toml",
       "name": "Create: Dragons Plus",
       "availability": "baseline",
-      "category": "Automation and industry",
-      "topic": "machines.miscellaneous",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2232,7 +2347,7 @@
       "metadata_path": "mods/create-stam1o-tweaks.pw.toml",
       "name": "Create: Stam1o Tweaks",
       "availability": "baseline",
-      "category": "Automation and industry",
+      "category": "Player utilities and quality of life",
       "topic": "machines.miscellaneous",
       "indexed": true,
       "player_mention_written": false,
@@ -2258,7 +2373,7 @@
       "metadata_path": "mods/create-stuff-additions.pw.toml",
       "name": "Create Stuff 'N Additions",
       "availability": "baseline",
-      "category": "Automation and industry",
+      "category": "Player utilities and quality of life",
       "topic": "machines.miscellaneous",
       "indexed": true,
       "player_mention_written": false,
@@ -2557,7 +2672,7 @@
       "metadata_path": "mods/easy-anvils.pw.toml",
       "name": "Easy Anvils",
       "availability": "baseline",
-      "category": "Automation and industry",
+      "category": "Player utilities and quality of life",
       "topic": "machines.enchanting",
       "indexed": true,
       "player_mention_written": false,
@@ -2622,8 +2737,8 @@
       "metadata_path": "mods/emi-enchanting.pw.toml",
       "name": "EMI Enchanting",
       "availability": "baseline",
-      "category": "Automation and industry",
-      "topic": "machines.enchanting",
+      "category": "Player utilities and quality of life",
+      "topic": "help.search",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2648,8 +2763,8 @@
       "metadata_path": "mods/emi-professions-(emip).pw.toml",
       "name": "EMI professions (EMIP)",
       "availability": "baseline",
-      "category": "Automation and industry",
-      "topic": "machines.trading",
+      "category": "Player utilities and quality of life",
+      "topic": "help.search",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3026,7 +3141,7 @@
       "name": "Incendium Biomes Only",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "landscapes.nether",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3091,7 +3206,7 @@
       "name": "Incendium Legacy",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "landscapes.nether",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3754,7 +3869,7 @@
       "name": "Nullscape",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "landscapes.end",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4560,7 +4675,7 @@
       "name": "Streams Reflowing",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "landscapes.overworld",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4651,7 +4766,7 @@
       "name": "Tectonic",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "landscapes.overworld",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4677,7 +4792,7 @@
       "name": "Terralith",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "landscapes.overworld",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4741,8 +4856,8 @@
       "metadata_path": "mods/trade-refresh.pw.toml",
       "name": "Trade Refresh",
       "availability": "baseline",
-      "category": "Automation and industry",
-      "topic": "machines.trading",
+      "category": "Player utilities and quality of life",
+      "topic": "help.controls",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4832,8 +4947,8 @@
       "metadata_path": "mods/villager-names-serilum.pw.toml",
       "name": "Villager Names",
       "availability": "baseline",
-      "category": "Automation and industry",
-      "topic": "machines.trading",
+      "category": "Player utilities and quality of life",
+      "topic": "help.inspect",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,

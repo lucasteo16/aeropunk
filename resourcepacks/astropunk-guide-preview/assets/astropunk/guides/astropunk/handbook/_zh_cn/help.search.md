@@ -1,10 +1,11 @@
 ---
 navigation:
-  title: "查找物品、配方与用途"
-  parent: category-utilities.md
+  title: "物品配方"
+  position: 1
+  parent: quick-reference.md
 ---
 
-# 查找物品、配方与用途
+# 物品配方
 
 ## 配方与用途
 
@@ -27,6 +28,8 @@ Polymorph 用于选择存在冲突的合成结果。
 | 模组或内容 | 官方简介 |
 | --- | --- |
 | EMI | A featureful and accessible item and recipe viewer |
+| EMI Enchanting | EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc. |
+| EMI professions (EMIP) | An EMI addon that adds profession workstations |
 | Polymorph | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
 | Reliable EMI (REMI) | A mod adding many configurable features to EMI! |
 | ToolTipFix | Fixes Tooltips from runnning off the screen. |

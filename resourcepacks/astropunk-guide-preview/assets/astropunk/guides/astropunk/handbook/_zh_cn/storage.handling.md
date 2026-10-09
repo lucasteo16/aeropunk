@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "整理、转移与丢弃物品"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 整理、转移与丢弃物品
+
+## 概览
 
 编写中（WIP）。
 

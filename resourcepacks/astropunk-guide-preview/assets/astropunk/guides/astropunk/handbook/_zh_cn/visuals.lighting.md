@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择光影、动态光源与远景"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 选择光影、动态光源与远景
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:lantern" />

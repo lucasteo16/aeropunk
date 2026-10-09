@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "乘坐列车出行"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 乘坐列车出行
+
+## 概览
 
 编写中（WIP）。
 

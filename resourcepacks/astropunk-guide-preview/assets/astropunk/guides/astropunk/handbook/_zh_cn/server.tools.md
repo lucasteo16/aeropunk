@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "了解管理员与诊断工具"
+  position: 0
   parent: category-technical.md
 ---
 
 # 了解管理员与诊断工具
+
+## 概览
 
 编写中（WIP）。
 

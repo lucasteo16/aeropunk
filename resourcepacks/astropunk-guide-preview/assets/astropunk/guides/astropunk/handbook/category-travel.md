@@ -1,31 +1,14 @@
 ---
 navigation:
   title: "Vehicles and travel"
+  position: 4
+  parent: mod-catalogs.md
   icon: minecraft:minecart
 ---
 
 # Vehicles and travel
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Assemble and operate moving vehicles](vehicles.assembly.md) | WIP |
-| [Build and balance an airship](vehicles.airships.md) | WIP |
-| [Engines and propulsion](vehicles.engines.md) | WIP |
-| [Control and stabilize a vehicle](vehicles.controls.md) | WIP |
-| [Radar information](vehicles.radar.md) | WIP |
-| [Assemble and operate mounted weapons](vehicles.weapons.md) | WIP |
-| [Operate boats and submarines](vehicles.water.md) | WIP |
-| [Travel as a train passenger](transport.passenger.md) | WIP |
-| [Build trains, tracks and stations](transport.railway-builder.md) | WIP |
-| [Move around a shared base](transport.local.md) | WIP |
-| [Teleportation](travel.destinations.md) | Reference |
-| [Reach a destination aboard a moving build](travel.moving-destinations.md) | WIP |
-| [Compare future space destinations](space.destinations.md) | WIP |
-| [Compare whole-vehicle dimension transfer](space.vehicle-transfer.md) | WIP |
-
-## Installed mods and content
+## Vehicle and Travel Mods
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -57,3 +40,25 @@ navigation:
 | [Create: AeroWarptics](space.vehicle-transfer.md) (not installed) | Not installed here. |
 | [Create: Northstar - Redux](space.destinations.md) (not installed) | Not installed here. |
 | [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) (not installed) | Not installed here. |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Assemble and operate moving vehicles](vehicles.assembly.md) | WIP |
+| [Build and balance an airship](vehicles.airships.md) | WIP |
+| [Engines and propulsion](vehicles.engines.md) | WIP |
+| [Control and stabilize a vehicle](vehicles.controls.md) | WIP |
+| [Radar information](vehicles.radar.md) | WIP |
+| [Assemble and operate mounted weapons](vehicles.weapons.md) | WIP |
+| [Operate boats and submarines](vehicles.water.md) | WIP |
+| [Travel as a train passenger](transport.passenger.md) | WIP |
+| [Build trains, tracks and stations](transport.railway-builder.md) | WIP |
+| [Move around a shared base](transport.local.md) | WIP |
+| [Teleportation](travel.destinations.md) | Reference |
+| [Reach a destination aboard a moving build](travel.moving-destinations.md) | WIP |
+| [Compare future space destinations](space.destinations.md) | WIP |
+| [Compare whole-vehicle dimension transfer](space.vehicle-transfer.md) | WIP |
+| [Vehicles and travel](reference.vehicles.md) | Reference |

@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Challenging encounters"
-  parent: category-exploration.md
+  title: "Bosses"
+  position: 2
+  parent: quick-reference.md
 ---
 
-# Challenging encounters
+# Bosses
+
+## Overview
 
 Work in progress (WIP).
 

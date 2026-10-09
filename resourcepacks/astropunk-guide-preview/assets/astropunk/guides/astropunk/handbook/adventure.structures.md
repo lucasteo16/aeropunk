@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Dungeons and redesigned structures"
-  parent: category-exploration.md
+  title: "Structures and dungeons"
+  position: 4
+  parent: quick-reference.md
 ---
 
-# Dungeons and redesigned structures
+# Structures and dungeons
+
+## Overview
 
 Work in progress (WIP).
 

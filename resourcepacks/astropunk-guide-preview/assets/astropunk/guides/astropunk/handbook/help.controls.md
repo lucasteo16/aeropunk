@@ -1,7 +1,8 @@
 ---
 navigation:
   title: "Controls and key bindings"
-  parent: category-utilities.md
+  position: 0
+  parent: quick-reference.md
 ---
 
 # Controls and key bindings
@@ -53,3 +54,4 @@ Open Video Settings and increase the interface scale for larger text. This also 
 | --- | --- |
 | Astropunk Handbook Access | Inventory handbook button and configurable opening shortcut. |
 | Controlling | Adds a search bar to the Key-Bindings menu |
+| Trade Refresh | in-UI trade refresh key |

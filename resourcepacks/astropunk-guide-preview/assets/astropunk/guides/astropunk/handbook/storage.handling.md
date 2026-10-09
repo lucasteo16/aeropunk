@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Sort, transfer and discard items"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # Sort, transfer and discard items
+
+## Overview
 
 Work in progress (WIP).
 

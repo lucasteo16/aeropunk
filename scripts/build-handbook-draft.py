@@ -13,9 +13,23 @@ entries = checklist['entries']
 entries = [dict(e, availability='heavy') if e['availability'] == 'baseline' and not (ROOT / e['metadata_path']).is_file() else e for e in entries]
 # GuideME was added after the original inventory snapshot.
 entries = entries + [dict(metadata_path='mods/guideme.pw.toml', name='GuideME', availability='baseline', category='Technical reference', topic='help.handbook'), dict(metadata_path='mods/astropunk-handbook-access-1.0.0.jar', name='Astropunk Handbook Access', availability='baseline', category='Player utilities and quality of life', topic='help.controls')]
+# Inventory homes follow the mod's function, not whichever mechanic mentions it.
 for entry in entries:
+    path = entry['metadata_path']
     if entry['topic'] == 'food.machine-cooking':
         entry['category'] = 'Automation and industry'
+    if entry['topic'].startswith('landscapes.'):
+        entry['topic'] = 'world.dimensions'
+    if path in {'mods/emi-enchanting.pw.toml', 'mods/emi-professions-(emip).pw.toml'}:
+        entry.update(category='Player utilities and quality of life', topic='help.search')
+    if path == 'mods/villager-names-serilum.pw.toml':
+        entry.update(category='Player utilities and quality of life', topic='help.inspect')
+    if path == 'mods/trade-refresh.pw.toml':
+        entry.update(category='Player utilities and quality of life', topic='help.controls')
+    if path in {'mods/easy-anvils.pw.toml', 'mods/create-stuff-additions.pw.toml', 'mods/create-stam1o-tweaks.pw.toml'}:
+        entry['category'] = 'Player utilities and quality of life'
+    if path == 'mods/create-dragons-plus.pw.toml':
+        entry.update(category='Technical reference', topic='technical.libraries')
 by_topic = defaultdict(list)
 for entry in entries:
     by_topic[entry['topic']].append(entry)
@@ -33,6 +47,18 @@ categories = [
 ('technical', 'Technical reference', '技术参考', 'minecraft:redstone', 'Look up supporting libraries, optimization and administrator tools.', '查询支持库、性能优化和管理员工具。'),
 ]
 category_by_name = {c[1]: c for c in categories}
+
+reference_sections = [('help.controls', 'Controls', '操作与按键', 'minecraft:lever', 'Bindings and interface settings', '按键绑定与界面设置'), ('help.search', 'Item recipe', '物品配方', 'minecraft:crafting_table', 'Ingredients, uses and recipe conflicts', '原料、用途与配方冲突'), ('adventure.bosses', 'Bosses', '首领', 'minecraft:dragon_head', 'Encounters, locations and access', '遭遇、位置与进入条件'), ('adventure.creatures', 'Creatures', '生物', 'minecraft:egg', 'Species, variants and habitats', '种类、变种与栖息地'), ('adventure.structures', 'Structures and dungeons', '结构与地牢', 'minecraft:stone_bricks', 'Locations, families and variants', '位置、类型与变体'), ('world.dimensions', 'Dimensions', '维度', 'minecraft:grass_block', 'Overworld, Nether and End', '主世界、下界与末地'), ('reference.equipment', 'Equipment', '装备', 'minecraft:iron_chestplate', 'Weapons, armor and accessories', '武器、护甲与饰品'), ('reference.skills', 'Spells and skills', '法术与技能', 'minecraft:enchanted_book', 'Combat styles, spells and skill systems', '战斗风格、法术与技能系统'), ('reference.food', 'Food and farming', '食物与农业', 'minecraft:apple', 'Ingredients, dishes and crops', '食材、料理与作物'), ('reference.building', 'Building', '建筑', 'minecraft:bricks', 'Materials, shapes and furniture', '材料、形状与家具'), ('reference.vehicles', 'Vehicles and travel', '载具与旅行', 'minecraft:minecart', 'Components, transport and destinations', '组件、交通与目的地'), ('reference.machines-storage', 'Machines and storage', '机器与储存', 'create:crushing_wheel', 'Machines, power, resources and containers', '机器、动力、资源与容器'), ('maps.personal', 'Maps', '地图', 'minecraft:map', 'World maps, waypoints and finders', '世界地图、路标与查找工具')]
+reference_hubs = {'reference.equipment': ('Combat and character', ['equipment.weapons-armor', 'equipment.accessories', 'equipment.display']), 'reference.skills': ('Combat and character', ['combat.handling', 'combat.martial', 'combat.magic', 'combat.skills']), 'reference.food': ('Food and farming', ['food.hunger', 'food.utensils', 'food.nether', 'food.end', 'food.underground', 'food.encounters', 'food.machine-cooking', 'food.growing', 'food.fishing']), 'reference.building': ('Building and decoration', ['building.palette', 'building.factory', 'building.copycats', 'building.architecture', 'building.furniture', 'building.displays', 'building.placement', 'building.safety']), 'reference.vehicles': ('Vehicles and travel', ['vehicles.assembly', 'vehicles.airships', 'vehicles.engines', 'vehicles.controls', 'vehicles.radar', 'vehicles.weapons', 'vehicles.water', 'transport.passenger', 'transport.railway-builder', 'transport.local', 'travel.destinations', 'travel.moving-destinations']), 'reference.machines-storage': ('Automation and industry', ['storage.portable', 'storage.bulk', 'storage.handling', 'machines.ore-processing', 'machines.rotation', 'machines.logistics', 'machines.renewables', 'machines.enchanting', 'machines.trading', 'machines.miscellaneous', 'power.electricity', 'power.industry', 'power.burners', 'power.stored-rotation'])}
+reference_parents = {topic: 'quick-reference.md' for topic, *_ in reference_sections}
+for hub, (_, topics) in reference_hubs.items():
+    for topic in topics:
+        reference_parents[topic] = hub + '.md'
+for topic in ('maps.shared', 'maps.find'):
+    reference_parents[topic] = 'maps.personal.md'
+for topic in ('adventure.settlements', 'adventure.loot'):
+    reference_parents[topic] = 'adventure.structures.md'
+
 
 raw_zh_titles = '''help.search|查找物品、配方与用途
 help.inspect|查看方块与生物信息
@@ -126,9 +152,13 @@ zh_titles: dict[str, str] = {line.split('|', 1)[0]: line.split('|', 1)[1] for li
 written = json.loads((ROOT / 'docs/handbook-content.json').read_text())
 descriptions = json.loads((ROOT / 'docs/handbook-project-descriptions.json').read_text())
 zh_titles['world.dimensions'] = '维度目录'
-page_defs = list(coverage['pages']) + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
+page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
+page_defs += [dict(page_id=topic, title=english, player_questions=[]) for topic, english, *_ in reference_sections if topic in reference_hubs]
+for topic, english, chinese_title, *_ in reference_sections:
+    zh_titles[topic] = chinese_title
 titles = {p['page_id']: p['title'] for p in page_defs}
-titles.update({'help.search':'Items and recipes', 'help.controls':'Controls and key bindings', 'machines.ore-processing':'Ore processing', 'food.utensils':'Cooking tools', 'food.hunger':'Hunger and food variety', 'storage.portable':'Portable storage', 'travel.destinations':'Teleportation', 'building.copycats':'Copycat shapes', 'interactions.carry':'Carry On', 'visuals.lighting':'Lighting and distant terrain', 'combat.skills':'Character skills', 'maps.find':'Biome and structure finders'})
+titles.update({topic: english for topic, english, *_ in reference_sections})
+titles.update({'help.search':'Item recipe', 'help.controls':'Controls and key bindings', 'machines.ore-processing':'Ore processing', 'food.utensils':'Cooking tools', 'food.hunger':'Hunger and food variety', 'storage.portable':'Portable storage', 'travel.destinations':'Teleportation', 'building.copycats':'Copycat shapes', 'interactions.carry':'Carry On', 'visuals.lighting':'Lighting and distant terrain', 'combat.skills':'Character skills', 'maps.find':'Biome and structure finders', 'machines.rotation':'Rotational power', 'machines.renewables':'Renewable resources', 'machines.enchanting':'Automated enchanting', 'machines.trading':'Automated trading', 'machines.miscellaneous':'Workshop tools', 'power.electricity':'Electricity', 'power.industry':'Industrial materials and fuels', 'power.burners':'Liquid burner fuels', 'power.stored-rotation':'Rotational storage', 'food.machine-cooking':'Machine cooking'})
 for topic, title in titles.items():
     for verb in ('Find ', 'Explore ', 'Choose ', 'Use ', 'Understand ', 'Read ', 'Look up ', 'Learn about '):
         if title.startswith(verb):
@@ -136,34 +166,7 @@ for topic, title in titles.items():
             break
     titles[topic] = title[:1].upper() + title[1:]
 
-written['world.dimensions'] = {
-'en_us': '''| Dimension | Catalog |
-| --- | --- |
-| Overworld | [Landscapes and rivers](landscapes.overworld.md) |
-| Nether | [Nether landscapes](landscapes.nether.md) |
-| End | [End landscapes](landscapes.end.md) |
-
-<ItemGrid>
-  <ItemIcon id="minecraft:grass_block" />
-  <ItemIcon id="minecraft:netherrack" />
-  <ItemIcon id="minecraft:end_stone" />
-</ItemGrid>
-
-The light edition uses the three vanilla dimensions. Space content is not installed. [Space reference](space.destinations.md) lists that separate content.''',
-'zh_cn': '''| 维度 | 目录 |
-| --- | --- |
-| 主世界 | [地形与河流](landscapes.overworld.md) |
-| 下界 | [下界地形](landscapes.nether.md) |
-| 末地 | [末地地形](landscapes.end.md) |
-
-<ItemGrid>
-  <ItemIcon id="minecraft:grass_block" />
-  <ItemIcon id="minecraft:netherrack" />
-  <ItemIcon id="minecraft:end_stone" />
-</ItemGrid>
-
-轻量版使用三个原版维度，当前未安装太空内容。相关独立内容见[太空参考](space.destinations.md)。'''
-}
+zh_titles['help.search'] = '物品配方'
 
 def clean(value):
     return value.replace('|', ',').replace('\n', ' ').replace('—', ', ').replace('–', ' to ')
@@ -193,18 +196,26 @@ def roster(members, chinese, linked=False):
         rows.append('| ' + name + label + ' | ' + description(entry, chinese) + ' |')
     return '\n'.join(rows)
 
-def write_page(filename, title, body, chinese, parent=None, icon=None, associations=None):
+def write_page(filename, title, body, chinese, parent=None, icon=None, associations=None, position=0):
     front = '---\nnavigation:\n  title: ' + json.dumps(title, ensure_ascii=False) + '\n'
+    front += '  position: ' + str(position) + '\n'
     if parent:
         front += '  parent: ' + parent + '\n'
     if icon:
         front += '  icon: ' + icon + '\n'
     if associations:
         front += 'item_ids:\n' + ''.join('  - ' + item + '\n' for item in associations)
-    text = front + '---\n\n# ' + title + '\n\n' + body.strip() + '\n'
+    body = body.strip()
+    if not body.startswith('## '):
+        body = '## ' + ('概览' if chinese else 'Overview') + '\n\n' + body
+    text = front + '---\n\n# ' + title + '\n\n' + body + '\n'
     out = PAGES / ('_zh_cn' if chinese else '') / filename
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(text)
+    # Avoid unnecessary reloads and never let the watcher read a half-written page.
+    if not out.exists() or out.read_text() != text:
+        temporary = out.with_suffix('.md.tmp')
+        temporary.write_text(text)
+        temporary.replace(out)
 
 status = []
 assigned_paths = []
@@ -217,18 +228,27 @@ for page in page_defs:
     members = by_topic[topic]
     counts = Counter(e['category'] for e in members)
     category_name = counts.most_common(1)[0][0] if members else 'Exploration and adventure' if topic == 'world.dimensions' else 'Food and farming' if topic.startswith('food.') else 'Technical reference'
-    assert len(counts) <= 1, (topic, counts)
+    # A mechanic can reference utility mods without giving them an automation inventory home.
+    if topic in reference_hubs:
+        category_name = reference_hubs[topic][0]
     cat = category_by_name[category_name]
-    authored = topic in written
+    authored = topic in written or topic in reference_hubs
     deferred = bool(members) and all(e['availability'] == 'deferred' for e in members)
-    status.append(dict(topic=topic, category=category_name, filename=topic+'.md', drafted=authored, deferred=deferred, metadata_paths=[e['metadata_path'] for e in members]))
+    status.append(dict(topic=topic, category=category_name, filename=topic+'.md', drafted=authored, page_type='directory' if topic in reference_hubs else 'article', deferred=deferred, metadata_paths=[e['metadata_path'] for e in members]))
     for chinese in (False, True):
         title = zh_titles[topic] if chinese else titles[topic]
-        body = written[topic]['zh_cn' if chinese else 'en_us'] if authored else '编写中（WIP）。' if chinese else 'Work in progress (WIP).'
-        if members:
+        body = written[topic]['zh_cn' if chinese else 'en_us'] if topic in written else '编写中（WIP）。' if chinese else 'Work in progress (WIP).'
+        if topic in reference_hubs:
+            body = '## ' + ('内容目录' if chinese else 'Contents') + '\n\n'
+            body += '| 主题 | 状态 |\n| --- | --- |\n' if chinese else '| Topic | Status |\n| --- | --- |\n'
+            for child in reference_hubs[topic][1]:
+                label = zh_titles[child] if chinese else titles[child]
+                state = ('参考' if chinese else 'Reference') if child in written else 'WIP'
+                body += '| [' + label + '](' + child + '.md) | ' + state + ' |\n'
+        if members and topic != 'world.dimensions':
             body += '\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(members, chinese)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
-        write_page(topic+'.md', title, body, chinese, 'category-'+cat[0]+'.md', associations=associations.get(topic))
+        write_page(topic+'.md', title, body, chinese, reference_parents.get(topic, 'category-'+cat[0]+'.md'), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
     assigned_paths += [e['metadata_path'] for e in members]
 
 for cat in categories:
@@ -243,27 +263,41 @@ for cat in categories:
             label = zh_titles[article['topic']] if chinese else titles[article['topic']]
             state = ('参考' if chinese else 'Reference') if article['drafted'] else 'WIP'
             body += '| [' + label + '](' + article['filename'] + ') | ' + state + ' |\n'
-        body += '\n## ' + ('已安装模组与内容' if chinese else 'Installed mods and content') + '\n\n' + roster(installed, chinese, linked=True)
+        body += '\n## ' + ({'automation':'自动化模组','storage':'仓储模组','food':'食物与农业模组','building':'建筑模组','travel':'载具与旅行模组','combat':'战斗与角色模组','exploration':'探索模组','utilities':'实用工具模组','visuals':'视觉与音效模组','technical':'技术组件'}[cat[0]] if chinese else {'automation':'Automation Mods','storage':'Storage Mods','food':'Food and Farming Mods','building':'Building Mods','travel':'Vehicle and Travel Mods','combat':'Combat and Character Mods','exploration':'Exploration Mods','utilities':'Player Utility Mods','visuals':'Visual and Sound Mods','technical':'Technical Components'}[cat[0]]) + '\n\n' + roster(installed, chinese, linked=True)
         if optional:
             body += '\n\n## ' + ('其他版本与未安装内容' if chinese else 'Other editions and uninstalled content') + '\n\n' + roster(optional, chinese, linked=True)
-        write_page('category-'+cat[0]+'.md', title, body, chinese, icon=cat[3])
+        if cat[0] == 'automation':
+            body = written['category-automation']['zh_cn' if chinese else 'en_us'] + '\n\n***\n\n' + body.split('\n## ', 1)[0].replace('## 主题目录', '## 机制指南').replace('## Contents', '## Mechanics')
+        else:
+            contents, mod_tables = body.split('\n## ', 1)
+            body = '## ' + mod_tables + '\n\n***\n\n' + contents.replace('## Contents', '## Topics').replace('## 主题目录', '## 主题')
+        write_page('category-'+cat[0]+'.md', title, body, chinese, parent='mod-catalogs.md', icon=cat[3], position=categories.index(cat))
 
 for chinese in (False, True):
-    body = ('模组、世界与玩法的参考手册。按领域浏览内容，或查找具体机制。' if chinese else 'A reference to the mods, worlds and mechanics in Astropunk.') + '\n\n'
-    body += ('[操作与按键](help.controls.md) · [物品与配方](help.search.md) · [维度目录](world.dimensions.md)' if chinese else '[Controls](help.controls.md) · [Items and recipes](help.search.md) · [Dimensions](world.dimensions.md)') + '\n\n## ' + ('内容目录' if chinese else 'Catalogs') + '\n\n'
+    body = '## ' + ('模组目录' if chinese else 'Mod catalogs') + '\n\n'
     body += '| 领域 | 内容 |\n| --- | --- |\n' if chinese else '| Area | Contents |\n| --- | --- |\n'
     brief_en = {'automation':'Machines, power and processing', 'storage':'Containers and material routing', 'food':'Ingredients, kitchens and crops', 'building':'Materials, shapes and furniture', 'travel':'Ships, trains and teleportation', 'combat':'Equipment, skills and spells', 'exploration':'Dimensions, landscapes and encounters', 'utilities':'Controls and everyday interactions', 'visuals':'Appearance, shaders and audio', 'technical':'Libraries, performance and administration'}
     brief_zh = {'automation':'机器、动力与加工', 'storage':'容器与物品输送', 'food':'食材、厨房与作物', 'building':'材料、形状与家具', 'travel':'船只、列车与传送', 'combat':'装备、技能与法术', 'exploration':'维度、地形与遭遇', 'utilities':'按键与日常交互', 'visuals':'外观、光影与声音', 'technical':'支持库、性能与管理'}
     for cat in categories:
-        body += '| [' + (cat[2] if chinese else cat[1]) + '](category-' + cat[0] + '.md) | ' + (brief_zh if chinese else brief_en)[cat[0]] + ' |\n'
-    write_page('index.md', 'Astropunk', body, chinese)
-    write_page('ore-processing.md', '矿石加工' if chinese else 'Ore processing', '[矿石加工](machines.ore-processing.md)' if chinese else '[Ore processing](machines.ore-processing.md)', chinese)
+        slot = '<ItemImage id="' + cat[3] + '" />'
+        body += '| ' + slot + ' [' + (cat[2] if chinese else cat[1]) + '](category-' + cat[0] + '.md) | ' + (brief_zh if chinese else brief_en)[cat[0]] + ' |\n'
+    catalogs_body = body
+    body = '## ' + ('快速参考' if chinese else 'Quick reference') + '\n\n'
+    body += '| 参考 | 内容 |\n| --- | --- |\n' if chinese else '| Reference | Contents |\n| --- | --- |\n'
+    reference = reference_sections
+    for topic, english, chinese_name, icon, english_role, chinese_role in reference:
+        slot = '<ItemImage id="' + icon + '" />'
+        body += '| ' + slot + ' [' + (chinese_name if chinese else english) + '](' + topic + '.md) | ' + (chinese_role if chinese else english_role) + ' |\n'
+    write_page('quick-reference.md', '快速参考' if chinese else 'Quick reference', body, chinese, position=0)
+    write_page('mod-catalogs.md', '模组目录' if chinese else 'Mod catalogs', catalogs_body, chinese, position=1)
+    body += '\n***\n\n' + catalogs_body
+    write_page('index.md', 'Astropunk', body, chinese, position=-100)
 
 actual = {p.relative_to(ROOT).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks') for p in (ROOT / folder).glob('*.pw.toml')} | {'mods/astropunk-handbook-access-1.0.0.jar'}
 assert len(assigned_paths) == len(set(assigned_paths)), 'Duplicate primary coverage'
 covered = {e['metadata_path'] for e in entries if e['availability'] == 'baseline'}
 assert actual == covered, {'missing': sorted(actual - covered), 'unexpected': sorted(covered - actual)}
 assert set(assigned_paths) == {e['metadata_path'] for e in entries}
-manifest = {'draft_articles': sum(s['drafted'] for s in status), 'article_count': len(status), 'category_count': len(categories), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '34cb006', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
+manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': len(categories), 'navigation_page_count': 2, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '34cb006', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
 (ROOT / 'docs/handbook-draft-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ('pages','content')}, indent=2))

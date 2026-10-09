@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Reach a destination aboard a moving build"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Reach a destination aboard a moving build
+
+## Overview
 
 Work in progress (WIP).
 

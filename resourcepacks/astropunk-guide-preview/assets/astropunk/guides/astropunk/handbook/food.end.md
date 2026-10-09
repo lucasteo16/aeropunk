@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Cook End ingredients"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Cook End ingredients
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Adjust weather, particles and transitions"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Adjust weather, particles and transitions
+
+## Overview
 
 Work in progress (WIP).
 

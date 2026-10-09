@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "调整天气、粒子与过渡效果"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 调整天气、粒子与过渡效果
+
+## 概览
 
 编写中（WIP）。
 

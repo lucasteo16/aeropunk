@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "选择具有挑战性的遭遇"
-  parent: category-exploration.md
+  title: "首领"
+  position: 2
+  parent: quick-reference.md
 ---
 
-# 选择具有挑战性的遭遇
+# 首领
+
+## 概览
 
 编写中（WIP）。
 

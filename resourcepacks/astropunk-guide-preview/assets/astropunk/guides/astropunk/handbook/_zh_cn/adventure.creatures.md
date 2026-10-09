@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "认识野外生物"
-  parent: category-exploration.md
+  title: "生物"
+  position: 3
+  parent: quick-reference.md
 ---
 
-# 认识野外生物
+# 生物
+
+## 概览
 
 编写中（WIP）。
 

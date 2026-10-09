@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "为机器提供旋转动力"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 为机器提供旋转动力
+
+## 概览
 
 编写中（WIP）。
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Inspect lighting and manage spawning"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Inspect lighting and manage spawning
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "发电、配电与用电"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 发电、配电与用电
+
+## 概览
 
 编写中（WIP）。
 

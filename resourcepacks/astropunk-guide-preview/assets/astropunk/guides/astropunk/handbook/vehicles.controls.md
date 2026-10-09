@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Control and stabilize a vehicle"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Control and stabilize a vehicle
+
+## Overview
 
 Work in progress (WIP).
 

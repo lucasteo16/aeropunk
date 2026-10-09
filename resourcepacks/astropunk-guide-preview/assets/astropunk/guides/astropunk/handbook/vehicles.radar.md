@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Radar information"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Radar information
+
+## Overview
 
 Work in progress (WIP).
 

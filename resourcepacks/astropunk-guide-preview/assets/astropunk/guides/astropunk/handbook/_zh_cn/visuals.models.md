@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "调整模型与动画"
+  position: 0
   parent: category-visuals.md
 ---
 
 # 调整模型与动画
+
+## 概览
 
 编写中（WIP）。
 

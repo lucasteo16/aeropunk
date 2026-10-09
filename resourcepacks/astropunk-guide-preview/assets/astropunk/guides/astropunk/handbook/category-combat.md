@@ -1,24 +1,14 @@
 ---
 navigation:
   title: "Combat and character"
+  position: 5
+  parent: mod-catalogs.md
   icon: minecraft:iron_sword
 ---
 
 # Combat and character
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Handle weapons and dodge](combat.handling.md) | WIP |
-| [Compare martial combat roles](combat.martial.md) | WIP |
-| [Compare magic and support roles](combat.magic.md) | WIP |
-| [Character skills](combat.skills.md) | Reference |
-| [Weapons and armor](equipment.weapons-armor.md) | WIP |
-| [Jewelry, relics and accessory slots](equipment.accessories.md) | WIP |
-| [Armor and status information](equipment.display.md) | WIP |
-
-## Installed mods and content
+## Combat and Character Mods
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -49,3 +39,19 @@ navigation:
 | [Stylish Effects](equipment.display.md) | Status effect display overhaul: Display them in any menu! And way more compact. |
 | [Witcher (RPG Series Plus)](combat.magic.md) | Slay monsters like a Witcher! Spell Engine Add-On |
 | [Wizards (RPG Series)](combat.magic.md) | 🧙🏻‍♂️ Destroy your enemies with Arcane, Fire and Frost magic |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Handle weapons and dodge](combat.handling.md) | WIP |
+| [Compare martial combat roles](combat.martial.md) | WIP |
+| [Compare magic and support roles](combat.magic.md) | WIP |
+| [Character skills](combat.skills.md) | Reference |
+| [Weapons and armor](equipment.weapons-armor.md) | WIP |
+| [Jewelry, relics and accessory slots](equipment.accessories.md) | WIP |
+| [Armor and status information](equipment.display.md) | WIP |
+| [Equipment](reference.equipment.md) | Reference |
+| [Spells and skills](reference.skills.md) | Reference |

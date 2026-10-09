@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Armor and status information"
-  parent: category-combat.md
+  position: 0
+  parent: reference.equipment.md
 ---
 
 # Armor and status information
+
+## Overview
 
 Work in progress (WIP).
 

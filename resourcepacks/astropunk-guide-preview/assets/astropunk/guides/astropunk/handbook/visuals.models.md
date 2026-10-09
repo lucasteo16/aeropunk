@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Adjust models and animations"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Adjust models and animations
+
+## Overview
 
 Work in progress (WIP).
 

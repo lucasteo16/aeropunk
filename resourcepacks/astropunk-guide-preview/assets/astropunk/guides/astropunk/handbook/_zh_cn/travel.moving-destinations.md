@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "前往移动建筑上的目的地"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 前往移动建筑上的目的地
+
+## 概览
 
 编写中（WIP）。
 

@@ -1,14 +1,17 @@
 ---
 navigation:
   title: "Astropunk 手册"
+  position: 0
   parent: category-technical.md
 ---
 
 # Astropunk 手册
 
+## 概览
+
 按领域目录查看已安装模组与功能。玩法页面解释具体机制。指向物品格可以查看名称和提示。
 
-[首页](index.md) · [操作与按键](help.controls.md) · [物品与配方](help.search.md)
+[首页](index.md) · [操作与按键](help.controls.md) · [物品配方](help.search.md)
 
 ## 相关模组
 

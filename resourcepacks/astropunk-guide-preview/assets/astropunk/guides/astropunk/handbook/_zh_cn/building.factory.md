@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "装饰工厂与车站"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 装饰工厂与车站
+
+## 概览
 
 编写中（WIP）。
 

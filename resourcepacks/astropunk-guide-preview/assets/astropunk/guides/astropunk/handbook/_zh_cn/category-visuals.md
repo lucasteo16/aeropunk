@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "视觉与音效"
+  position: 8
+  parent: mod-catalogs.md
   icon: minecraft:painting
 ---
 
 # 视觉与音效
 
-## 主题目录
-
-| 主题 | 状态 |
-| --- | --- |
-| [调整视角与窗口](visuals.camera.md) | WIP |
-| [调整模型与动画](visuals.models.md) | WIP |
-| [调整天气、粒子与过渡效果](visuals.weather.md) | WIP |
-| [选择光影、动态光源与远景](visuals.lighting.md) | 参考 |
-| [选择资源包外观](visuals.resource-packs.md) | WIP |
-| [比较光影风格](visuals.shader-packs.md) | WIP |
-| [调整声音与环境声学](sounds.ambience.md) | WIP |
-| [调整通知与信息界面](visuals.interface.md) | WIP |
-
-## 已安装模组与内容
+## 视觉与音效模组
 
 | 模组或内容 | 官方简介 |
 | --- | --- |
@@ -76,3 +65,18 @@ navigation:
 | [Sodium Dynamic Lights](visuals.lighting.md)（重型版，当前未安装） | 当前未安装。 |
 | [Spawn Animations](visuals.models.md)（重型版，当前未安装） | 当前未安装。 |
 | [Visual Effects+](visuals.resource-packs.md)（重型版，当前未安装） | 当前未安装。 |
+
+***
+
+## 主题
+
+| 主题 | 状态 |
+| --- | --- |
+| [调整视角与窗口](visuals.camera.md) | WIP |
+| [调整模型与动画](visuals.models.md) | WIP |
+| [调整天气、粒子与过渡效果](visuals.weather.md) | WIP |
+| [选择光影、动态光源与远景](visuals.lighting.md) | 参考 |
+| [选择资源包外观](visuals.resource-packs.md) | WIP |
+| [比较光影风格](visuals.shader-packs.md) | WIP |
+| [调整声音与环境声学](sounds.ambience.md) | WIP |
+| [调整通知与信息界面](visuals.interface.md) | WIP |

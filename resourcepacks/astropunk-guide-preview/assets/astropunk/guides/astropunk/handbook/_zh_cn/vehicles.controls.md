@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "控制与稳定载具"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 控制与稳定载具
+
+## 概览
 
 编写中（WIP）。
 

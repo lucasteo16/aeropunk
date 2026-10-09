@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "组装和操作移动载具"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 组装和操作移动载具
+
+## 概览
 
 编写中（WIP）。
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "用机器制作食物"
-  parent: category-automation.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # 用机器制作食物
+
+## 概览
 
 编写中（WIP）。
 

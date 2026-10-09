@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Prepare meals with machines"
-  parent: category-automation.md
+  title: "Machine cooking"
+  position: 0
+  parent: reference.food.md
 ---
 
-# Prepare meals with machines
+# Machine cooking
+
+## Overview
 
 Work in progress (WIP).
 

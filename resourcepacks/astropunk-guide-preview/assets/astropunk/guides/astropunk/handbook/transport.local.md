@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Move around a shared base"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # Move around a shared base
+
+## Overview
 
 Work in progress (WIP).
 

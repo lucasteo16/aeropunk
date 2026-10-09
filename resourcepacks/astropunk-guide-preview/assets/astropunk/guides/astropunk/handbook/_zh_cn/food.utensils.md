@@ -1,7 +1,8 @@
 ---
 navigation:
   title: "用烹饪工具准备食物"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 item_ids:
   - farmersdelight:cooking_pot
   - farmersdelight:cutting_board
@@ -10,6 +11,8 @@ item_ids:
 ---
 
 # 用烹饪工具准备食物
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:cooking_pot" />

@@ -1,10 +1,11 @@
 ---
 navigation:
-  title: "Items and recipes"
-  parent: category-utilities.md
+  title: "Item recipe"
+  position: 1
+  parent: quick-reference.md
 ---
 
-# Items and recipes
+# Item recipe
 
 ## Recipes and uses
 
@@ -27,6 +28,8 @@ Polymorph lets you choose between conflicting crafting results.
 | Mod or content | Publisher description |
 | --- | --- |
 | EMI | A featureful and accessible item and recipe viewer |
+| EMI Enchanting | EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc. |
+| EMI professions (EMIP) | An EMI addon that adds profession workstations |
 | Polymorph | No more recipe conflicts! Adds an option to choose the crafting result if more than one is available. |
 | Reliable EMI (REMI) | A mod adding many configurable features to EMI! |
 | ToolTipFix | Fixes Tooltips from runnning off the screen. |

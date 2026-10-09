@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "选择装饰材料"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 选择装饰材料
+
+## 概览
 
 编写中（WIP）。
 

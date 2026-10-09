@@ -3,7 +3,7 @@ package dev.astropunk.handbook;
 import org.lwjgl.glfw.GLFW;
 import com.mojang.blaze3d.platform.InputConstants;
 import guideme.Guides;
-import guideme.GuidesCommon;
+import guideme.internal.GuideMEClient;
 import java.util.ArrayList;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
@@ -94,8 +94,10 @@ public final class HandbookAccess {
     private void openHandbook() {
         var minecraft = Minecraft.getInstance();
         var player = minecraft.player;
-        AccessPolicy.open(player != null, player != null && Guides.getById(HANDBOOK) != null,
-                () -> GuidesCommon.openGuide(player, HANDBOOK),
+        var guide = player != null ? Guides.getById(HANDBOOK) : null;
+        AccessPolicy.open(player != null, guide != null,
+                // Match the working guidemec open path without common proxy dispatch.
+                () -> GuideMEClient.openGuideAtPreviousPage(guide, guide.getStartPage()),
                 key -> player.displayClientMessage(Component.translatable(key), true));
     }
 }

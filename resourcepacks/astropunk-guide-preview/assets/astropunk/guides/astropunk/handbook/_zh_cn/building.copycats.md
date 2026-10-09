@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "使用模仿材料的建筑形状"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # 使用模仿材料的建筑形状
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:bricks" />

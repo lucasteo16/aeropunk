@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "建造列车、轨道与车站"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 建造列车、轨道与车站
+
+## 概览
 
 编写中（WIP）。
 

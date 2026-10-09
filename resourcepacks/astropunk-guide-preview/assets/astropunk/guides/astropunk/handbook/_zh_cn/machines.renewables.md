@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "生产可再生原料"
-  parent: category-automation.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 生产可再生原料
+
+## 概览
 
 编写中（WIP）。
 

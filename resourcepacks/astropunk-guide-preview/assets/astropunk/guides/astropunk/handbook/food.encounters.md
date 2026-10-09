@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Cook encounter ingredients"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # Cook encounter ingredients
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "携带便携储存装备"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 携带便携储存装备
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Decorative material palettes"
-  parent: category-building.md
+  position: 0
+  parent: reference.building.md
 ---
 
 # Decorative material palettes
+
+## Overview
 
 Work in progress (WIP).
 

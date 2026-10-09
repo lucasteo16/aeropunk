@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "Technical reference"
+  position: 9
+  parent: mod-catalogs.md
   icon: minecraft:redstone
 ---
 
 # Technical reference
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Selected optimization systems](performance.baseline.md) | WIP |
-| [Review deferred optimizer additions](performance.deferred.md) | WIP |
-| [Administrator and diagnostic tools](server.tools.md) | WIP |
-| [Deferred pack loading](server.deferred-pack-loading.md) | WIP |
-| [Moving-build and visual bridges](technical.bridges.md) | WIP |
-| [The deferred space rendering bridge](technical.space-bridge.md) | WIP |
-| [Supporting libraries and frameworks](technical.libraries.md) | WIP |
-| [Astropunk handbook](help.handbook.md) | Reference |
-
-## Installed mods and content
+## Technical Components
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -42,6 +31,7 @@ navigation:
 | [Collective](technical.libraries.md) | 🎓 Collective is a shared library with common code for all of Serilum's mods. |
 | [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | A mod designed to improve the chunk performance of Minecraft. |
 | [Configured Defaults](server.tools.md) | Allows for providing defaults for files absent in .minecraft like configs. A quintessential modpack utility. |
+| [Create: Dragons Plus](technical.libraries.md) | Provide convenient features to players and dev utilities for Create addon developers. |
 | [Create: LazyTick](performance.baseline.md) | A commitment to optimizing Create lag in large quantities! |
 | [CreateBetterFps](performance.baseline.md) | Improve your Create FPS when shaderpack is on, up to 50% |
 | [CreativeCore](technical.libraries.md) | A core mod |
@@ -120,3 +110,18 @@ navigation:
 | [Paxi](server.deferred-pack-loading.md) (not installed) | Not installed here. |
 | [ServerCore](performance.deferred.md) (not installed) | Not installed here. |
 | [Spawn Animations Compats](technical.bridges.md) (heavy edition, not installed here) | Not installed here. |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Selected optimization systems](performance.baseline.md) | WIP |
+| [Review deferred optimizer additions](performance.deferred.md) | WIP |
+| [Administrator and diagnostic tools](server.tools.md) | WIP |
+| [Deferred pack loading](server.deferred-pack-loading.md) | WIP |
+| [Moving-build and visual bridges](technical.bridges.md) | WIP |
+| [The deferred space rendering bridge](technical.space-bridge.md) | WIP |
+| [Supporting libraries and frameworks](technical.libraries.md) | WIP |
+| [Astropunk handbook](help.handbook.md) | Reference |

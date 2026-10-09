@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "使用固定与便携传送点"
-  parent: category-travel.md
+  position: 0
+  parent: reference.vehicles.md
 ---
 
 # 使用固定与便携传送点
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:ender_pearl" />

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "储存工厂的大批原料"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # 储存工厂的大批原料
+
+## 概览
 
 编写中（WIP）。
 

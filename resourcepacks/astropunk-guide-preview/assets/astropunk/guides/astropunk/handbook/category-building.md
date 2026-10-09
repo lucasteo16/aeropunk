@@ -1,25 +1,14 @@
 ---
 navigation:
   title: "Building and decoration"
+  position: 3
+  parent: mod-catalogs.md
   icon: minecraft:bricks
 ---
 
 # Building and decoration
 
-## Contents
-
-| Topic | Status |
-| --- | --- |
-| [Decorative material palettes](building.palette.md) | WIP |
-| [Decorate workshops and stations](building.factory.md) | WIP |
-| [Copycat shapes](building.copycats.md) | Reference |
-| [Build bridges, roofs and boundaries](building.architecture.md) | WIP |
-| [Furnish homes and shared spaces](building.furniture.md) | WIP |
-| [Make displays, paintings, signs and statues](building.displays.md) | WIP |
-| [Place palettes and schematic patterns](building.placement.md) | WIP |
-| [Inspect lighting and manage spawning](building.safety.md) | WIP |
-
-## Installed mods and content
+## Building Mods
 
 | Mod or content | Publisher description |
 | --- | --- |
@@ -62,3 +51,19 @@ navigation:
 | [Supplementaries](building.furniture.md) | Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation |
 | [TorchMaster](building.safety.md) | Control Mob Spawning with simple to use Blocks like the Mega Torch or the Dread Lamp |
 | [TW‘s  Decorative Food](building.furniture.md) | Make the food placeable.Decorate your world! |
+
+***
+
+## Topics
+
+| Topic | Status |
+| --- | --- |
+| [Decorative material palettes](building.palette.md) | WIP |
+| [Decorate workshops and stations](building.factory.md) | WIP |
+| [Copycat shapes](building.copycats.md) | Reference |
+| [Build bridges, roofs and boundaries](building.architecture.md) | WIP |
+| [Furnish homes and shared spaces](building.furniture.md) | WIP |
+| [Make displays, paintings, signs and statues](building.displays.md) | WIP |
+| [Place palettes and schematic patterns](building.placement.md) | WIP |
+| [Inspect lighting and manage spawning](building.safety.md) | WIP |
+| [Building](reference.building.md) | Reference |

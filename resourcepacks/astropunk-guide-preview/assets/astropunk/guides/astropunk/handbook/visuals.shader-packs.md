@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Compare shader styles"
+  position: 0
   parent: category-visuals.md
 ---
 
 # Compare shader styles
+
+## Overview
 
 Work in progress (WIP).
 

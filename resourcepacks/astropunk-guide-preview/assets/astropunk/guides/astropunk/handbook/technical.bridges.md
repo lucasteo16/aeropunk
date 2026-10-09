@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Moving-build and visual bridges"
+  position: 0
   parent: category-technical.md
 ---
 
 # Moving-build and visual bridges
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Controls and key bindings
-  parent: category-utilities.md
+  parent: quick-reference.md
 ---
 
 # Controls and key bindings

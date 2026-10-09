@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "用下界食材烹饪"
-  parent: category-food.md
+  position: 0
+  parent: reference.food.md
 ---
 
 # 用下界食材烹饪
+
+## 概览
 
 编写中（WIP）。
 

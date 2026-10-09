@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Character skills"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # Character skills
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />

@@ -1,10 +1,13 @@
 ---
 navigation:
-  title: "Maps and mark destinations"
-  parent: category-exploration.md
+  title: "Maps"
+  position: 12
+  parent: quick-reference.md
 ---
 
-# Maps and mark destinations
+# Maps
+
+## Overview
 
 Work in progress (WIP).
 

@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Jewelry, relics and accessory slots"
-  parent: category-combat.md
+  position: 0
+  parent: reference.equipment.md
 ---
 
 # Jewelry, relics and accessory slots
+
+## Overview
 
 Work in progress (WIP).
 

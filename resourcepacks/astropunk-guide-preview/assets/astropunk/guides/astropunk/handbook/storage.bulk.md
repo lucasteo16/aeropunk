@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Store bulk workshop materials"
-  parent: category-storage.md
+  position: 0
+  parent: reference.machines-storage.md
 ---
 
 # Store bulk workshop materials
+
+## Overview
 
 Work in progress (WIP).
 

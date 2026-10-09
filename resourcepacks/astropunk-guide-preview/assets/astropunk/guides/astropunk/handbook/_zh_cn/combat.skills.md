@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "通过技能培养角色"
-  parent: category-combat.md
+  position: 0
+  parent: reference.skills.md
 ---
 
 # 通过技能培养角色
+
+## 概览
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />

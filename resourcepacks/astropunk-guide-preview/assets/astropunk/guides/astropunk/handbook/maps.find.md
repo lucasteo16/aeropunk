@@ -1,10 +1,13 @@
 ---
 navigation:
   title: "Biome and structure finders"
-  parent: category-exploration.md
+  position: 0
+  parent: maps.personal.md
 ---
 
 # Biome and structure finders
+
+## Overview
 
 <ItemGrid>
   <ItemIcon id="minecraft:compass" />
@@ -18,7 +21,7 @@ navigation:
 
 Inspect the compass recipe and its destination list. Search results depend on the world.
 
-Record a destination with [personal maps](maps.personal.md). Browse [landscapes](landscapes.overworld.md), [settlements](adventure.settlements.md) and [structures](adventure.structures.md) for places to visit.
+Record a destination with [personal maps](maps.personal.md). Browse [landscapes](world.dimensions.md), [settlements](adventure.settlements.md) and [structures](adventure.structures.md) for places to visit.
 
 ## Related mods
 
