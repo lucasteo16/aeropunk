@@ -10,7 +10,7 @@ navigation:
 
 ## Light & spawning
 
-- Browse items: <EmiSearch query="@torchmaster" />
+<EmiSearch query="@torchmaster" />
 
 <ItemGrid>
   <ItemIcon id="torchmaster:megatorch" />
@@ -30,7 +30,7 @@ Mega Torch suppresses natural hostile spawning. Dread Lamp suppresses natural pa
 
 ### Spawn suppression
 
-- Browse items: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 <Recipe id="torchmaster:megatorch" />
 

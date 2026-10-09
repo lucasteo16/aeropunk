@@ -69,7 +69,7 @@ These components support world generation or moving structures. Use the gameplay
 
 ## Combat frameworks
 
-- Browse items: <EmiSearch query="@more_rpg_classes" /> <EmiSearch query="@spell_engine" />
+<EmiSearch query="@more_rpg_classes" /> <EmiSearch query="@spell_engine" />
 
 These components supply shared spell, attribute, weapon and projectile systems. Class equipment and spell choices are documented separately.
 
@@ -86,7 +86,7 @@ These components supply shared spell, attribute, weapon and projectile systems. 
 
 ## Shared code
 
-- Browse items: <EmiSearch query="@dragonlib" /> <EmiSearch query="@moonlight" /> <EmiSearch query="@sophisticatedcore" /> <EmiSearch query="@teallib" />
+<EmiSearch query="@dragonlib" /> <EmiSearch query="@moonlight" /> <EmiSearch query="@sophisticatedcore" /> <EmiSearch query="@teallib" />
 
 Other installed supporting libraries are listed below. Keep required dependencies with the mods that use them. A library name is not a promise of new blocks, recipes or encounters.
 

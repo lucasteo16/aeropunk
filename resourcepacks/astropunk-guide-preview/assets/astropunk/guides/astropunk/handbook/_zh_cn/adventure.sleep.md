@@ -10,7 +10,7 @@ navigation:
 
 ## 旅途中休息
 
-- 浏览物品: <EmiSearch query="@comforts" />
+<EmiSearch query="@comforts" />
 
 睡袋便于夜间在外休息，不会改变家中的重生点。整合包启用了睡袋配方。这里的白色睡袋使用三块白色羊毛，其他颜色使用对应颜色的羊毛。
 

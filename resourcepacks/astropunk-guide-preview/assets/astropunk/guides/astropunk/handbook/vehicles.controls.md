@@ -10,7 +10,7 @@ navigation:
 
 ## Cockpit controls
 
-- Browse items: <EmiSearch query="@aeroworks" />
+<EmiSearch query="@aeroworks" />
 
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
@@ -36,7 +36,7 @@ Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and bu
 
 ## Signals & sensors
 
-- Browse items: <EmiSearch query="@create_tweaked_controllers" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_tweaked_controllers" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="simulated:steering_wheel" />
@@ -64,7 +64,7 @@ Steering and throttle controls provide manual input. Sensors report altitude, ve
 
 ## Receivers & cockpit
 
-- Browse items: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="simulated:directional_linked_receiver" />

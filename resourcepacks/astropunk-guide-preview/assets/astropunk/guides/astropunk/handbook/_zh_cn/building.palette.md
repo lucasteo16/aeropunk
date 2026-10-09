@@ -10,7 +10,7 @@ navigation:
 
 ## 木材与木作
 
-- 浏览物品: <EmiSearch query="@chipped" />
+<EmiSearch query="@chipped" />
 
 <ItemGrid>
   <ItemIcon id="chipped:carpenters_table" />

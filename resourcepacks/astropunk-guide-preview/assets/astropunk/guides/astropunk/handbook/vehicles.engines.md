@@ -10,7 +10,7 @@ navigation:
 
 ## Aviation engines
 
-- Browse items: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="aeroengineering:engine_fan" />
@@ -36,7 +36,7 @@ Aero Engineering supplies several turbine-engine families. The basic core uses F
 
 ## Propulsion components
 
-- Browse items: <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
+<EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createpropulsion:thruster" />

@@ -10,7 +10,7 @@ navigation:
 
 ## Inventory controls
 
-- Browse items: <EmiSearch query="@interactic" />
+<EmiSearch query="@interactic" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />

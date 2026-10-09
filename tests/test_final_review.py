@@ -12,8 +12,9 @@ class FinalReview(unittest.TestCase):
     def test_pack_intro_is_not_another_reference_directory(self):
         for locale in ('', '_zh_cn'):
             home = (PAGES / locale / 'index.md').read_text()
-            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'quick-reference.md'})
-            self.assertNotEqual(home.split('# Astropunk', 1)[-1], (PAGES / locale / 'quick-reference.md').read_text())
+            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'help.controls.md'})
+            self.assertNotIn('| Reference | Contents |', home)
+            self.assertFalse((PAGES / locale / 'quick-reference.md').exists())
 
     def test_every_provider_has_translated_purpose_and_an_honest_query_cell(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())

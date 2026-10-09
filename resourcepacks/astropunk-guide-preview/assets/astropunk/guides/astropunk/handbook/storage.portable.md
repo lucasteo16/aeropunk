@@ -10,7 +10,7 @@ navigation:
 
 ## Shulker boxes
 
-- Browse items: <EmiSearch query="@reinfshulker" />
+<EmiSearch query="@reinfshulker" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />
@@ -31,7 +31,7 @@ navigation:
 
 ## Access & upgrades
 
-- Browse items: <EmiSearch query="backpack" />
+<EmiSearch query="backpack" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:leather" />

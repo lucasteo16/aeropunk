@@ -10,7 +10,7 @@ navigation:
 
 ## Metals & chemicals
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@create" /> <EmiSearch query="@tfmg" />
 
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />

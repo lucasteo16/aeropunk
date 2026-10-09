@@ -10,7 +10,7 @@ navigation:
 
 ## 结构
 
-- 浏览物品: <EmiSearch query="@copycats" />
+<EmiSearch query="@copycats" />
 
 <ItemGrid>
   <ItemIcon id="copycats:copycat_block" />

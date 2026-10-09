@@ -46,6 +46,10 @@ for entry in entries:
     if placement := placement_overrides.get(entry['metadata_path']):
         # Classification changes do not override availability reconciled above.
         entry.update(category=placement['category'], topic=placement['topic'])
+# Consolidate the former Sound article into the first-level Audio page.
+for entry in entries:
+    if entry['topic'] in {'sounds.ambience', 'audio.sound'}:
+        entry['topic'] = 'reference.audio'
 by_topic = defaultdict(list)
 for entry in entries:
     by_topic[entry['topic']].append(entry)
@@ -88,13 +92,12 @@ reference_sections += [
 reference_hubs.update({
     'reference.utilities': ('Player utilities and quality of life', ['help.inspect', 'help.reference', 'interactions.carry', 'adventure.recovery', 'adventure.sleep']),
     'reference.appearance': ('Visuals and sound', ['visuals.camera', 'visuals.models', 'visuals.weather', 'visuals.lighting', 'visuals.resource-packs', 'visuals.shader-packs', 'visuals.interface']),
-    'reference.audio': ('Visuals and sound', ['sounds.ambience']),
     'reference.technical': ('Technical reference', ['help.handbook', 'performance.baseline', 'performance.deferred', 'server.tools', 'server.deferred-pack-loading', 'technical.bridges', 'technical.space-bridge', 'technical.libraries']),
 })
 reference_hubs['reference.vehicles'][1].extend(['space.destinations', 'space.vehicle-transfer'])
 reference_icons.update({topic: icon for topic, _, _, icon, *_ in reference_sections})
 reference_icons.update({'reference.equipment': 'minecraft:iron_chestplate', 'combat.abilities': 'minecraft:enchanted_book'})
-reference_parents = {topic: 'quick-reference.md' for topic, *_ in reference_sections}
+reference_parents: dict[str, str | None] = {topic: None for topic, *_ in reference_sections}
 for hub, (_, topics) in reference_hubs.items():
     for topic in topics:
         reference_parents[topic] = hub + '.md'
@@ -197,10 +200,10 @@ written = json.loads((args.content_source or ROOT / 'docs/handbook-content.json'
 descriptions = json.loads((ROOT / 'docs/handbook-project-descriptions.json').read_text())
 visual_sources = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_text())
 zh_titles['world.dimensions'] = '维度目录'
-page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
+page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') and p['page_id'] not in {'sounds.ambience', 'audio.sound'} ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
 page_defs += [dict(page_id='reference.equipment', title='Equipment', player_questions=[]), dict(page_id='combat.abilities', title='Spells & abilities', player_questions=[])]
 zh_titles.update({'reference.equipment': '装备', 'combat.abilities': '法术与招式'})
-page_defs += [dict(page_id=topic, title=english, player_questions=[]) for topic, english, *_ in reference_sections if topic in reference_hubs]
+page_defs += [dict(page_id=topic, title=english, player_questions=[]) for topic, english, *_ in reference_sections if topic in reference_hubs or topic == 'reference.audio']
 for topic, english, chinese_title, *_ in reference_sections:
     zh_titles[topic] = chinese_title
 titles = {p['page_id']: p['title'] for p in page_defs}
@@ -258,8 +261,7 @@ def decorate_queries(body, chinese):
                     seen.add(query)
         if links:
             heading, _, rest = block.partition('\n')
-            label = '浏览物品' if chinese else 'Browse items'
-            blocks[index] = heading + '\n\n- ' + label + ': ' + ' '.join(links) + '\n\n' + rest.lstrip('\n')
+            blocks[index] = heading + '\n\n' + ' '.join(links) + '\n\n' + rest.lstrip('\n')
     return ''.join(blocks)
 
 def roster(members, chinese, linked=False):
@@ -345,16 +347,16 @@ for page in page_defs:
         if related:
             body += '\n\n***\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(related, chinese, linked=True)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
-        write_page(topic+'.md', title, body, chinese, reference_parents[topic], icon=reference_icons.get(topic, reference_icons.get(reference_parents.get(topic, '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
+        write_page(topic+'.md', title, body, chinese, reference_parents[topic], icon=reference_icons.get(topic, reference_icons.get((reference_parents.get(topic) or '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), 0))
     assigned_paths += [e['metadata_path'] for e in members]
 
 # Retire generated navigation reversibly, outside the authoring repository.
 # Repeated builds do not create further archives unless obsolete files reappear.
-archive_root = ROOT.parent / '.archive' / ROOT.name / 'unified-navigation'
+archive_root = ROOT.parent / '.archive' / 'handbook-sidebar-flat'
 for chinese in (False, True):
     locale = '_zh_cn' if chinese else ''
     base = PAGES / locale
-    obsolete = sorted(base.glob('category-*.md')) + [base / 'mod-catalogs.md']
+    obsolete = sorted(base.glob('category-*.md')) + [base / name for name in ('mod-catalogs.md', 'quick-reference.md', 'sounds.ambience.md', 'audio.sound.md')]
     for old in obsolete:
         if old.is_file():
             import hashlib
@@ -362,12 +364,6 @@ for chinese in (False, True):
             destination = archive_root / locale / (old.stem + '-' + digest + '.md')
             destination.parent.mkdir(parents=True, exist_ok=True)
             old.replace(destination)
-    body = '## ' + ('快速参考' if chinese else 'Quick reference') + '\n\n'
-    body += '| 参考 | 内容 |\n| --- | --- |\n' if chinese else '| Reference | Contents |\n| --- | --- |\n'
-    for topic, english, chinese_name, icon, english_role, chinese_role in reference_sections:
-        slot = '<ItemImage id="' + icon + '" />'
-        body += '| ' + slot + ' [' + (chinese_name if chinese else english) + '](' + topic + '.md) | ' + (chinese_role if chinese else english_role) + ' |\n'
-    write_page('quick-reference.md', '快速参考' if chinese else 'Quick reference', body, chinese, icon='minecraft:book', position=0)
     home = written.get('index')
     assert home, 'The bilingual Astropunk introduction must be present in the authored content source'
     write_page('index.md', 'Astropunk', home['zh_cn' if chinese else 'en_us'], chinese, icon='minecraft:compass', position=-100)
@@ -377,6 +373,6 @@ assert len(assigned_paths) == len(set(assigned_paths)), 'Duplicate primary cover
 covered = {e['metadata_path'] for e in entries if e['availability'] == 'baseline'}
 assert actual == covered, {'missing': sorted(actual - covered), 'unexpected': sorted(covered - actual)}
 assert set(assigned_paths) == {e['metadata_path'] for e in entries}
-manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 1, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '34cb006', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
+manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 0, 'root_page_count': len(reference_sections) + 1, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '34cb006', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
 (ROOT / 'docs/handbook-draft-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ('pages','content')}, indent=2))

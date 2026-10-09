@@ -10,7 +10,7 @@ navigation:
 
 ## 交易置物台
 
-- 浏览物品: <EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
+<EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="trading_floor:trading_depot" />

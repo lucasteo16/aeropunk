@@ -10,7 +10,7 @@ navigation:
 
 ## 航空引擎
 
-- 浏览物品: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="aeroengineering:engine_fan" />
@@ -36,7 +36,7 @@ Aero Engineering 提供多种涡轮引擎系列。基本核心按风扇、压缩
 
 ## 推进组件
 
-- 浏览物品: <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
+<EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createpropulsion:thruster" />

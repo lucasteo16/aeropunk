@@ -22,7 +22,7 @@ Entity Model Features and Entity Texture Features provide custom model and textu
 
 ## Animation bridges
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 EMF Compat: Create adapts Create animations for animated player models. Its shared framework is listed under Libraries.
 
@@ -34,7 +34,7 @@ EMF Compat: Create adapts Create animations for animated player models. Its shar
 
 ## Other edition content
 
-- Browse items: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 The following animation additions are not installed in this edition. Their absence is not an unfinished installed feature.
 

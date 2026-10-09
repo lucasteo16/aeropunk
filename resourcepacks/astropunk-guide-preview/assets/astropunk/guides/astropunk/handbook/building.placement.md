@@ -10,7 +10,7 @@ navigation:
 
 ## Mechanical Trowel
 
-- Browse items: <EmiSearch query="@mechtrowel" />
+<EmiSearch query="@mechtrowel" />
 
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
@@ -30,7 +30,7 @@ Craft one trowel with one <ItemLink id="minecraft:iron_ingot" />, one <ItemLink 
 
 ### Palette controls
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 | Action | Your key |
 | --- | --- |
@@ -45,7 +45,7 @@ Prepare a hotbar mix for quick placement, or open the palette manager to create 
 
 ## Trowel upgrades
 
-- Browse items: <EmiSearch query="@chipped" />
+<EmiSearch query="@chipped" />
 
 | Upgrade item | Function |
 | --- | --- |
@@ -76,7 +76,7 @@ These upgrades use the same smithing slot arrangement with their matching upgrad
 
 ## Shuffle filters
 
-- Browse items: <EmiSearch query="@createshufflefilter" />
+<EmiSearch query="@createshufflefilter" />
 
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
@@ -96,7 +96,7 @@ Shuffle Filter and Weighted Shuffle Filter supply random and weighted palette se
 
 ## Schematics
 
-- Browse items: <EmiSearch query="@create_pattern_schematics" />
+<EmiSearch query="@create_pattern_schematics" />
 
 <ItemGrid>
   <ItemIcon id="create_pattern_schematics:empty_pattern_schematic" />

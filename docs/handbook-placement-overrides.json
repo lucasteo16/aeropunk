@@ -105,7 +105,7 @@
   },
   "mods/cool-rain-reforged.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/create-aerowarptics.pw.toml": {
     "category": "Vehicles and travel",
@@ -181,7 +181,7 @@
   },
   "mods/extreme_sound_muffler.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/ferrite-core.pw.toml": {
     "category": "Technical reference",
@@ -301,7 +301,7 @@
   },
   "mods/more-sounds.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/moreculling.pw.toml": {
     "category": "Technical reference",
@@ -357,7 +357,7 @@
   },
   "mods/pf-neoforge.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/placebo.pw.toml": {
     "category": "Technical reference",
@@ -373,7 +373,7 @@
   },
   "mods/presence-footsteps-x-sable.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/prickle.pw.toml": {
     "category": "Technical reference",
@@ -417,7 +417,7 @@
   },
   "mods/sable-cool-rain.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/sable.pw.toml": {
     "category": "Technical reference",
@@ -461,11 +461,11 @@
   },
   "mods/sound-physics-remastered.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/sound.pw.toml": {
     "category": "Visuals and sound",
-    "topic": "sounds.ambience"
+    "topic": "reference.audio"
   },
   "mods/spark.pw.toml": {
     "category": "Technical reference",

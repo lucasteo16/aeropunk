@@ -10,7 +10,7 @@ navigation:
 
 ## Equipping accessories
 
-- Browse items: <EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
+<EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
 
 <ItemGrid>
   <ItemIcon id="jewelry:jewelers_kit" />
@@ -187,7 +187,7 @@ Rings and necklaces supply build attributes. Gem and netherite variants and name
 
 ### Rings
 
-- Browse items: <EmiSearch query="@additional_rpg_jewelry" />
+<EmiSearch query="@additional_rpg_jewelry" />
 
 <ItemGrid>
   <ItemIcon id="additional_rpg_jewelry:aquamarine_ring" />
@@ -439,7 +439,7 @@ Relic families distinguish passive bonuses, effects that trigger on events and e
 
 ### Lesser relics
 
-- Browse items: <EmiSearch query="@more_relics" />
+<EmiSearch query="@more_relics" />
 
 <ItemGrid>
   <ItemIcon id="more_relics:lesser_proc_air_water" />
@@ -530,7 +530,7 @@ Relic families distinguish passive bonuses, effects that trigger on events and e
 
 ## Cataclysm accessories
 
-- Browse items: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 These custom equipment items use their own effects and slot rules. Check the full tooltip before replacing jewelry or a relic.
 

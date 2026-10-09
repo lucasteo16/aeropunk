@@ -2,7 +2,6 @@
 navigation:
   title: "实用工具"
   position: 12
-  parent: quick-reference.md
   icon: minecraft:lever
 ---
 

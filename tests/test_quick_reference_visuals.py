@@ -61,7 +61,7 @@ class ReferenceVisuals(unittest.TestCase):
             for locale in ('', '_zh_cn'):
                 body = (PAGES / locale / filename).read_text()
                 if page['topic'] in authored:
-                    source_body = re.sub(r'\n\n- (?:Browse items|浏览物品): <EmiSearch[^\n]+\n\n', '\n\n', body)
+                    source_body = re.sub(r'\n\n<EmiSearch[^\n]+\n\n', '\n\n', body)
                     self.assertIn(authored[page['topic']]['zh_cn' if locale else 'en_us'].strip(), source_body, filename)
                     self.assertNotIn('Work in progress', body, filename)
                     self.assertNotIn('WIP', body, filename)

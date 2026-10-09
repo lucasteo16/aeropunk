@@ -10,7 +10,7 @@ navigation:
 
 ## 洞穴作物与营养棒
 
-- 浏览物品: <EmiSearch query="@minersdelight" />
+<EmiSearch query="@minersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:wild_cave_carrots" />
@@ -59,7 +59,7 @@ navigation:
 
 ## 地下食材
 
-- 浏览物品: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:arthropod" />
@@ -118,7 +118,7 @@ navigation:
 
 ## 鱿鱼与素食
 
-- 浏览物品: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:baked_squid" />

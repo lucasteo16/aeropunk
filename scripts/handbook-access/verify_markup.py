@@ -33,7 +33,7 @@ def run(fragment=None, pages=None, authored_only=False, label='markup', include_
     else:
         pages = Path(pages or ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook')
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
-        expected = {entry['filename'] for entry in manifest['pages']} | {'index.md', 'quick-reference.md'}
+        expected = {entry['filename'] for entry in manifest['pages']} | {'index.md'}
         selected = set()
         for page in pages.rglob('*.md'):
             relative = page.relative_to(pages)

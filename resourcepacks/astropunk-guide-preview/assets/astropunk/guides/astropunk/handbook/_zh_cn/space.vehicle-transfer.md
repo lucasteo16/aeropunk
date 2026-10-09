@@ -10,7 +10,7 @@ navigation:
 
 ## 未安装
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 这些太空载具转移附加模组已暂缓加入。不要认为此版本已提供它们的生存制作方式或整台载具转移功能。
 

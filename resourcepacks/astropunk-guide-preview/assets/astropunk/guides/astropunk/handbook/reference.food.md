@@ -2,7 +2,6 @@
 navigation:
   title: "Food & farming"
   position: 7
-  parent: quick-reference.md
   icon: minecraft:apple
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Kitchen meals
 
-- Browse items: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 Farmer’s Delight covers everyday cooking from prepared portions to shared feasts. Choose the kitchen tool and serving form before gathering ingredients.
 
@@ -20,7 +19,7 @@ Farmer’s Delight covers everyday cooking from prepared portions to shared feas
 
 ## Regional ingredients
 
-- Browse items: <EmiSearch query="@ends_delight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+<EmiSearch query="@ends_delight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
 
 - <ItemImage id="mynethersdelight:bullet_pepper" /> [Nether foods](food.nether.md) connects Nether hunting and pepper ingredients to sausages, stews and ghast dough.
 - <ItemImage id="ends_delight:chorus_fruit_grain" /> [End foods](food.end.md) distinguishes gathered chorus ingredients from knife-hunted shulker meat and dragon encounters.
@@ -31,7 +30,7 @@ Farmer’s Delight covers everyday cooking from prepared portions to shared feas
 
 ## Growing & seafood
 
-- Browse items: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 - <ItemImage id="farmersdelight:cabbage" /> [Crop ingredients](food.growing.md) explains wild crop sources, seeds, rice processing and harvesting helpers.
 - <ItemImage id="spawn:tuna_roll" /> [Fish & shellfish](food.fishing.md) separates ordinary rod catches from aquatic creatures, prepared portions and shellfish meals.
@@ -40,7 +39,7 @@ Farmer’s Delight covers everyday cooking from prepared portions to shared feas
 
 ## Diet & production
 
-- Browse items: <EmiSearch query="@sliceanddice" /> <EmiSearch query="@solonion" />
+<EmiSearch query="@sliceanddice" /> <EmiSearch query="@solonion" />
 
 - <ItemImage id="solonion:food_book" /> [Hunger & variety](food.hunger.md) explains hunger, saturation, the rolling diet and expedition food storage.
 - <ItemImage id="sliceanddice:slicer" /> [Machine kitchens](food.machine-cooking.md) separates slicing, drink fluids and crop production from finished meal recipes.

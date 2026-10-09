@@ -10,7 +10,7 @@ navigation:
 
 ## 驾驶舱控制
 
-- 浏览物品: <EmiSearch query="@aeroworks" />
+<EmiSearch query="@aeroworks" />
 
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
@@ -36,7 +36,7 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 ## 信号与传感器
 
-- 浏览物品: <EmiSearch query="@create_tweaked_controllers" />
+<EmiSearch query="@create_tweaked_controllers" />
 
 <ItemGrid>
   <ItemIcon id="simulated:steering_wheel" />
@@ -64,7 +64,7 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 ## 接收器与驾驶舱设备
 
-- 浏览物品: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="simulated:directional_linked_receiver" />
@@ -96,7 +96,7 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 ## 相关物品
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:wrench" />

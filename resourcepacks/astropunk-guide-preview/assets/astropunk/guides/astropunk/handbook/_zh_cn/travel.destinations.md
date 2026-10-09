@@ -10,7 +10,7 @@ navigation:
 
 ## 传送石网络
 
-- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@waystones" />
+<EmiSearch query="@create" /> <EmiSearch query="@waystones" />
 
 <ItemGrid>
   <ItemIcon id="waystones:blackstone_waystone" />
@@ -70,7 +70,7 @@ Waystones 提供不同材质的目的地方块。先激活传送石，再从目�
 
 ## Tempad 与传送门
 
-- 浏览物品: <EmiSearch query="@tempad" />
+<EmiSearch query="@tempad" />
 
 <ItemGrid>
   <ItemIcon id="tempad:tempad" />

@@ -15,7 +15,7 @@ item_ids:
 
 ## Kitchen tools
 
-- Browse items: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 ![Cooking pot over a campfire](images/nav-visual-farmers-delight-pot-campfire.png)
 

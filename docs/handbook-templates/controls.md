@@ -2,7 +2,6 @@
 navigation:
   title: "Controls"
   position: 0
-  parent: quick-reference.md
   icon: minecraft:lever
 ---
 
@@ -21,7 +20,7 @@ navigation:
 
 ## Handbook
 
-- Browse items: <EmiSearch query="@guideme" />
+<EmiSearch query="@guideme" />
 
 | Access | Your key |
 | --- | --- |
@@ -36,7 +35,7 @@ Open chat and enter <Color color="#F28CBD">/guidemec astropunk:handbook open</Co
 
 ## Recipes & help
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 | While hovering an item | Default |
 | --- | --- |

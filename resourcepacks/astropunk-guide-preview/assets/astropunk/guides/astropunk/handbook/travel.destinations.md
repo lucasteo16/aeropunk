@@ -10,7 +10,7 @@ navigation:
 
 ## Waystone network
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@waystones" />
+<EmiSearch query="@create" /> <EmiSearch query="@waystones" />
 
 <ItemGrid>
   <ItemIcon id="waystones:blackstone_waystone" />
@@ -70,7 +70,7 @@ Sharestones connect to others of the same color. Portstones provide departure ac
 
 ## Tempad & portals
 
-- Browse items: <EmiSearch query="@tempad" />
+<EmiSearch query="@tempad" />
 
 <ItemGrid>
   <ItemIcon id="tempad:tempad" />

@@ -2,7 +2,6 @@
 navigation:
   title: "机器与储存"
   position: 10
-  parent: quick-reference.md
   icon: create:crushing_wheel
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## 容器与整理
 
-- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@interactic" />
+<EmiSearch query="@create" /> <EmiSearch query="@interactic" />
 
 | 目录 | 内容 |
 | --- | --- |
@@ -22,7 +21,7 @@ navigation:
 
 ## 机器与材料
 
-- 浏览物品: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
+<EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
 
 | 目录 | 内容 |
 | --- | --- |
@@ -38,7 +37,7 @@ navigation:
 
 ## 电力与工业
 
-- 浏览物品: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
 
 | 目录 | 内容 |
 | --- | --- |
@@ -53,7 +52,7 @@ navigation:
 
 ### 机器与加工
 
-- 浏览物品: <EmiSearch query="@create_connected" />
+<EmiSearch query="@create_connected" />
 
 | 模组 | 功能 |
 | --- | --- |
@@ -76,7 +75,7 @@ navigation:
 
 ### 生产自动化
 
-- 浏览物品: <EmiSearch query="@sliceanddice" />
+<EmiSearch query="@sliceanddice" />
 
 | 模组 | 功能 |
 | --- | --- |

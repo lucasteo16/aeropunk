@@ -22,7 +22,7 @@ AppleSkin shows both hunger restoration and saturation in food tooltips. Hunger 
 
 ## Rolling diet
 
-- Browse items: <EmiSearch query="@solonion" />
+<EmiSearch query="@solonion" />
 
 <ItemGrid>
   <ItemIcon id="solonion:food_book" />

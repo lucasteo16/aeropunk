@@ -10,7 +10,7 @@ navigation:
 
 ## 第一组招式
 
-- 浏览物品: <EmiSearch query="@spell_engine" />
+<EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
@@ -34,7 +34,7 @@ navigation:
 
 ## 入门配方
 
-- 浏览物品: <EmiSearch query="@paladins" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@paladins" /> <EmiSearch query="@wizards" />
 
 新手魔杖是低成本火系起点，不能代替奥术或冰霜法器。侍僧魔杖以木棍与线开始治疗路线。
 

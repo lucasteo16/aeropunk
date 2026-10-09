@@ -10,7 +10,7 @@ navigation:
 
 ## First abilities
 
-- Browse items: <EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
+<EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
@@ -34,7 +34,7 @@ The class books are configured versions of <ItemLink id="spell_engine:spell_book
 
 ## Starter recipes
 
-- Browse items: <EmiSearch query="@paladins" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@paladins" /> <EmiSearch query="@wizards" />
 
 The Novice Wand is a low-cost Fire starting point, not an Arcane or Frost substitute. The Acolyte Wand starts healing with sticks and string.
 

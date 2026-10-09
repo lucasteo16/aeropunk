@@ -2,7 +2,6 @@
 navigation:
   title: "Browse recipe"
   position: 1
-  parent: quick-reference.md
   icon: minecraft:crafting_table
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Recipes & uses
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@emi" />
+<EmiSearch query="@create" /> <EmiSearch query="@emi" />
 
 ![Recipe interface](images/parent-emi-recipes.png)
 

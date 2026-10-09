@@ -10,7 +10,7 @@ navigation:
 
 ## 燃烧器与流体供应
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:blaze_burner" />

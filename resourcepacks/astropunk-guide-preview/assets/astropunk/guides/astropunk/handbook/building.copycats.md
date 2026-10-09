@@ -10,7 +10,7 @@ navigation:
 
 ## Structure
 
-- Browse items: <EmiSearch query="@copycats" />
+<EmiSearch query="@copycats" />
 
 <ItemGrid>
   <ItemIcon id="copycats:copycat_block" />

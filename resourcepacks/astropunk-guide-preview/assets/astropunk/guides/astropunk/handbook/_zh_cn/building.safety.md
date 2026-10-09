@@ -10,7 +10,7 @@ navigation:
 
 ## 照明与生成
 
-- 浏览物品: <EmiSearch query="@torchmaster" />
+<EmiSearch query="@torchmaster" />
 
 <ItemGrid>
   <ItemIcon id="torchmaster:megatorch" />

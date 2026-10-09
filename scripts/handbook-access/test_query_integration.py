@@ -19,6 +19,42 @@ def bytecode(archive, *classes):
 
 
 class QueryIntegrationTest(unittest.TestCase):
+    def test_query_inventory_inherits_complete_native_inventory(self):
+        screen = bytecode(ROOT / 'build/classes/java/main', 'dev.astropunk.handbook.EmiQueryClient$QueryInventoryScreen')
+        self.assertIn('extends net.minecraft.client.gui.screens.inventory.InventoryScreen', screen,
+                      'Query inventory must inherit native player, labels, recipe book and effects rendering')
+        self.assertNotIn('renderBg(', screen)
+        self.assertNotIn('public void render(', screen)
+        self.assertNotIn('renderLabels(', screen)
+
+    def test_creative_query_selects_native_creative_before_initialization(self):
+        present = bytecode(ROOT / 'build/classes/java/main', 'dev.astropunk.handbook.EmiQueryClient$Present')
+        self.assertIn('MultiPlayerGameMode.hasInfiniteItems:', present,
+                      'Select creative directly so InventoryScreen.init cannot discard the close callback')
+        self.assertIn('EmiQueryClient$QueryCreativeInventoryScreen', present)
+
+    def test_selected_native_rendering_lifecycle_and_emi_screen_contract(self):
+        game = ROOT / 'build/moddev/artifacts/neoforge-21.1.255.jar'
+        native = bytecode(game, 'net.minecraft.client.gui.screens.inventory.InventoryScreen',
+                          'net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen',
+                          'net.minecraft.client.gui.screens.inventory.AbstractContainerScreen',
+                          'net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen')
+        self.assertIn('RecipeBookComponent.init:', native)
+        self.assertIn('RecipeBookComponent.render:', native)
+        self.assertIn('renderEntityInInventoryFollowsMouse:', native)
+        self.assertIn('Component.translatable:', native)
+        self.assertIn('String container.crafting', native)
+        self.assertIn('renderEffects:', native)
+        self.assertIn('Player.closeContainer:', native)
+        self.assertIn('removeSlotListener:', native)
+        self.assertIn('MultiPlayerGameMode.hasInfiniteItems:', native)
+        api = bytecode(ROOT / 'emi-1.1.24.jar', 'dev.emi.emi.api.EmiApi')
+        handled = api.split('public static net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<?> getHandledScreen();')[1].split('public static void displayAllRecipes();')[0]
+        self.assertRegex(handled, r'instanceof\s+#[0-9]+\s+// class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen')
+        self.assertIn('RecipeScreen.old:', handled)
+        OUTPUT.mkdir(parents=True, exist_ok=True)
+        (OUTPUT / 'selected-native-query-bytecode.log').write_text(native + '\n' + api)
+
     def test_compiled_native_extension_exists(self):
         self.assertTrue((ROOT / 'build/classes/java/main/dev/astropunk/handbook/EmiSearchTagCompiler.class').is_file(), 'Missing compiled native query extension')
 
@@ -30,7 +66,17 @@ class QueryIntegrationTest(unittest.TestCase):
         present = bytecode(ROOT / 'build/classes/java/main', 'dev.astropunk.handbook.EmiQueryClient$Present')
         self.assertLess(present.index('Minecraft.setScreen:'), present.index('EmiApi.setSearchText:'))
         close = bytecode(ROOT / 'build/classes/java/main', 'dev.astropunk.handbook.EmiQueryClient$QueryInventoryScreen')
-        self.assertIn('extends net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<net.minecraft.world.inventory.InventoryMenu>', close)
+        self.assertIn('extends net.minecraft.client.gui.screens.inventory.InventoryScreen', close)
+        self.assertLess(close.index('InventoryScreen.onClose:'), close.index('Minecraft.setScreen:'))
+        creative = bytecode(ROOT / 'build/classes/java/main', 'dev.astropunk.handbook.EmiQueryClient$QueryCreativeInventoryScreen')
+        self.assertIn('extends net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen', creative)
+        self.assertLess(creative.index('CreativeModeInventoryScreen.onClose:'), creative.index('Minecraft.setScreen:'))
+        for native in (close, creative):
+            self.assertNotIn('renderBg(', native)
+            self.assertNotIn('renderLabels(', native)
+            self.assertNotIn('public void render(', native)
+            self.assertNotIn('public void removed(', native)
+            self.assertNotIn('protected void init(', native)
         self.assertIn('public void onClose();', close)
         self.assertIn('returnScreen:Lnet/minecraft/client/gui/screens/Screen;', close)
         self.assertIn('Minecraft.setScreen:', close)

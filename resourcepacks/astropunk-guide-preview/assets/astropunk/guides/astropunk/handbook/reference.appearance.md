@@ -2,7 +2,6 @@
 navigation:
   title: "Appearance"
   position: 13
-  parent: quick-reference.md
   icon: minecraft:painting
 ---
 

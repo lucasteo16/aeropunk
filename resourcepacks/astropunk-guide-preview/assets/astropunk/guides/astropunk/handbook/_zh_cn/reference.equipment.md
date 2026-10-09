@@ -10,7 +10,7 @@ navigation:
 
 ## 构筑装备
 
-- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />

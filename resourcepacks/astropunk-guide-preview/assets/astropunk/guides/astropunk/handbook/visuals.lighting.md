@@ -21,7 +21,7 @@ Iris loads shader packs. Distant Horizons displays simplified distant terrain. T
 
 ## Other edition lighting
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@spawn" />
+<EmiSearch query="@create" /> <EmiSearch query="@spawn" />
 
 Sodium Dynamic Lights and its Create and Sable bridge are not installed in this edition. A dynamic light is a visual effect, not a guarantee of server-side spawn prevention.
 

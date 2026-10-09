@@ -10,7 +10,7 @@ navigation:
 
 ## Rendering
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 These components reduce rendering work in different parts of the client. They are not additional visual effects.
 
@@ -30,7 +30,7 @@ These components reduce rendering work in different parts of the client. They ar
 
 ## Simulation & terrain
 
-- Browse items: <EmiSearch query="@createlazytick" />
+<EmiSearch query="@createlazytick" />
 
 These components target game logic, creature processing, Create machines or terrain preparation.
 

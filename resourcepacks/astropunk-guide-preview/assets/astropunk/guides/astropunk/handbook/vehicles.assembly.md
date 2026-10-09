@@ -10,7 +10,7 @@ navigation:
 
 ## Assembly
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />

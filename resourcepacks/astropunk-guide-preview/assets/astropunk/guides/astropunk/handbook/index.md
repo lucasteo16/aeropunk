@@ -21,6 +21,6 @@ Combat builds come from weapons, armor, accessories, class books and skill-tree 
 
 Start small: prepare food and storage for an expedition, make a useful machine, try a building palette, or assemble the first equipment for a combat style. Recipe browsing and Create's Ponder help connect an idea to its actual ingredients and arrangement.
 
-Use Quick reference when you need a specific topic. Installed content and uninstalled edition options are marked separately there.
+Choose a topic directly in the sidebar. Topic pages distinguish installed content from uninstalled edition options.
 
-- <ItemImage id="minecraft:book" /> [Quick reference](quick-reference.md)
+- <ItemImage id="minecraft:lever" /> [Controls](help.controls.md)

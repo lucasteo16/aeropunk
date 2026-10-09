@@ -16,7 +16,7 @@ navigation:
 
 ### 弓箭手
 
-- 浏览物品: <EmiSearch query="@archers" />
+<EmiSearch query="@archers" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -42,7 +42,7 @@ navigation:
 
 ### 盗贼
 
-- 浏览物品: <EmiSearch query="@rogues" />
+<EmiSearch query="@rogues" />
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
@@ -68,7 +68,7 @@ navigation:
 
 ### 狂战士
 
-- 浏览物品: <EmiSearch query="@berserker_rpg" />
+<EmiSearch query="@berserker_rpg" />
 
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
@@ -82,7 +82,7 @@ navigation:
 
 ### 气功师
 
-- 浏览物品: <EmiSearch query="@forcemaster_rpg" />
+<EmiSearch query="@forcemaster_rpg" />
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
@@ -96,7 +96,7 @@ navigation:
 
 ### 奥术法师
 
-- 浏览物品: <EmiSearch query="@wizards" />
+<EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -134,7 +134,7 @@ navigation:
 
 ### 水系法师
 
-- 浏览物品: <EmiSearch query="@elemental_wizards_rpg" />
+<EmiSearch query="@elemental_wizards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
@@ -172,7 +172,7 @@ navigation:
 
 ### 圣骑士
 
-- 浏览物品: <EmiSearch query="@paladins" />
+<EmiSearch query="@paladins" />
 
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
@@ -198,7 +198,7 @@ navigation:
 
 ### 吟游诗人
 
-- 浏览物品: <EmiSearch query="@bards_rpg" />
+<EmiSearch query="@bards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
@@ -212,7 +212,7 @@ navigation:
 
 ### 猎魔人剑术
 
-- 浏览物品: <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -308,7 +308,7 @@ navigation:
 
 ### 护甲套装
 
-- 浏览物品: <EmiSearch query="@archers_expansion" />
+<EmiSearch query="@archers_expansion" />
 
 每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
@@ -1361,7 +1361,7 @@ navigation:
 
 ### 护甲套装
 
-- 浏览物品: <EmiSearch query="@armory_rpgs" />
+<EmiSearch query="@armory_rpgs" />
 
 每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
 
@@ -1517,7 +1517,7 @@ navigation:
 
 ### 武器
 
-- 浏览物品: <EmiSearch query="@arsenal" />
+<EmiSearch query="@arsenal" />
 
 <ItemGrid>
   <ItemIcon id="arsenal:unique_claymore_1" />
@@ -1618,7 +1618,7 @@ navigation:
 
 ## Cataclysm 装备
 
-- 浏览物品: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 独特近战武器、盾牌、远程武器、战斗工具与护甲有各自效果，并不会自动成为职业法术法器。本目录收录战斗装备，不包含召唤工具与制作材料。
 

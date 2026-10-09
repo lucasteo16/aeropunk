@@ -41,7 +41,7 @@ public final class VerifyEmiSearch {
         check(Guides.getById(id) == guide, "Public builder failed registry registration");
         check(guide.getExtensions().get(TagCompiler.EXTENSION_POINT).contains(extension), "Missing registered tag compiler");
         System.out.println("PASS actual Guide.builder extension registration and Guides.getById");
-        for (String query : List.of("@create", "@createaddition", "@\"Farmer's Delight\"", "@机械动力", "@create | @minecraft")) {
+        for (String query : List.of("@creeperoverhaul", "@create", "@createaddition", "@\"Farmer's Delight\"", "@机械动力", "@create | @minecraft")) {
             var sink = compile(guide, "<EmiSearch query='" + query.replace("'", "&#39;") + "' />");
             check(sink.errors.isEmpty(), sink.errors.toString());
             var link = (LytFlowLink) sink.children.get(1);

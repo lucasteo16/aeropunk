@@ -10,7 +10,7 @@ navigation:
 
 ## Molten vents
 
-- Browse items: <EmiSearch query="@molten_vents" />
+<EmiSearch query="@molten_vents" />
 
 <ItemGrid>
   <ItemIcon id="molten_vents:dormant_molten_asurine" />

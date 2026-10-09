@@ -10,7 +10,7 @@ navigation:
 
 ## Portable components
 
-- Browse items: <EmiSearch query="@create_sa" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_sa" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create_sa:steam_engine" />

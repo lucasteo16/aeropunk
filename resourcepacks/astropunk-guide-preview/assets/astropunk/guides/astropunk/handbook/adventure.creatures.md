@@ -2,7 +2,6 @@
 navigation:
   title: "Creatures"
   position: 3
-  parent: quick-reference.md
   icon: minecraft:egg
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Creeper Overhaul
 
-- Browse items: <EmiSearch query="@creeperoverhaul" /> <EmiSearch query="@spawn" />
+<EmiSearch query="@creeperoverhaul" /> <EmiSearch query="@spawn" />
 
 ![Spruce Creeper](images/encounters-creeper-overhaul-spruce-creeper.png)
 
@@ -41,7 +40,7 @@ The image shows one species. The other entries have their own appearance.
 
 ## Enderman Overhaul
 
-- Browse items: <EmiSearch query="@endermanoverhaul" />
+<EmiSearch query="@endermanoverhaul" />
 
 ![Flower Fields Enderman](images/encounters-enderman-overhaul-flower-fields-enderman.png)
 
@@ -101,7 +100,7 @@ Waving Crab
 
 ## Variants&Ventures
 
-- Browse items: <EmiSearch query="@variantsandventures" />
+<EmiSearch query="@variantsandventures" />
 
 ![Gelid (Frozen Zombie)](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
 
@@ -156,7 +155,7 @@ Snail
 
 ## Bosses'Rise
 
-- Browse items: <EmiSearch query="@block_factorys_bosses" />
+<EmiSearch query="@block_factorys_bosses" />
 
 These enemies guard boss structures.
 
@@ -179,7 +178,7 @@ These enemies guard boss structures.
 
 ## L_Ender's Cataclysm
 
-- Browse items: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 Find these creatures around the corresponding ruins and boss structures. Some companion encounters remain unconfirmed.
 
@@ -223,7 +222,7 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 ## Illager Invasion
 
-- Browse items: <EmiSearch query="@illagerinvasion" />
+<EmiSearch query="@illagerinvasion" />
 
 | Creature | Encounter |
 | --- | --- |
@@ -255,7 +254,7 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 ## Other encounters
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@supplementaries" />
+<EmiSearch query="@create" /> <EmiSearch query="@supplementaries" />
 
 | Mod | Creatures & access |
 | --- | --- |

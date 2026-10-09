@@ -10,7 +10,7 @@ navigation:
 
 ## Moving waystones
 
-- Browse items: <EmiSearch query="@waystones" />
+<EmiSearch query="@waystones" />
 
 <ItemGrid>
   <ItemIcon id="waystones:waystone" />
@@ -30,7 +30,7 @@ Waystones Sable bridges Waystones destinations on Sable moving structures. It ad
 
 ## Destination scope
 
-- Browse items: <EmiSearch query="@tempad" />
+<EmiSearch query="@tempad" />
 
 A moving waystone destination is different from a Tempad coordinate or a map waypoint. Keep the destination structure loaded and inspect the Waystones list before relying on it for return travel. This bridge does not transfer the entire vehicle between dimensions. See Vehicle assembly, Teleportation and Dimensions.
 

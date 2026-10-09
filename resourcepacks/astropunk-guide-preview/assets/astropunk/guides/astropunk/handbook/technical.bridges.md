@@ -38,7 +38,7 @@ Sound and animation bridges are listed with the feature they change. Shared fram
 
 ## Related topics
 
-- [Audio](sounds.ambience.md)
+- [Audio](reference.audio.md)
 - [Models & animation](visuals.models.md)
 - [Lighting & distance](visuals.lighting.md)
 - [Libraries](technical.libraries.md)

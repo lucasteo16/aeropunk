@@ -10,7 +10,7 @@ navigation:
 
 ## Kinetic reserves
 
-- Browse items: <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create_connected:kinetic_battery" />

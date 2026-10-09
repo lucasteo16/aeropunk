@@ -10,7 +10,7 @@ navigation:
 
 ## Burners & fluid supply
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:blaze_burner" />

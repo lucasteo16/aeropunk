@@ -10,7 +10,7 @@ navigation:
 
 ## Teleport transition
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 GrandTeleport changes the camera transition during teleportation. It does not create a survival travel destination or grant teleport permission.
 

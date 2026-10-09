@@ -10,7 +10,7 @@ navigation:
 
 ## Loot containers
 
-- Browse items: <EmiSearch query="@lootr" />
+<EmiSearch query="@lootr" />
 
 ![Lootr chest](images/encounters-lootr-catalog.png)
 
@@ -26,7 +26,7 @@ Lootr chest in a mineshaft.
 
 ## Drop lookup
 
-- Browse items: <EmiSearch query="@emi" />
+<EmiSearch query="@emi" />
 
 | Mod | Coverage | Reading the display |
 | --- | --- | --- |

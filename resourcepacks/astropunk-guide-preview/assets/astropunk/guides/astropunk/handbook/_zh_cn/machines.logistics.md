@@ -10,7 +10,7 @@ navigation:
 
 ## 物品与流体
 
-- 浏览物品: <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:belt_connector" />
@@ -35,7 +35,7 @@ navigation:
 
 ## 包裹与请求
 
-- 浏览物品: <EmiSearch query="@createadditionallogistics" />
+<EmiSearch query="@createadditionallogistics" />
 
 <ItemGrid>
   <ItemIcon id="create:packager" />

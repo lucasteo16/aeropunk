@@ -10,7 +10,7 @@ navigation:
 
 ## Not installed
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 These space vehicle-transfer addons are deferred. Do not assume they supply an installed survival crafting path or working whole-vehicle transfer in this edition.
 

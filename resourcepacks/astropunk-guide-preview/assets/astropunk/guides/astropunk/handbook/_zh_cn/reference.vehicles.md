@@ -2,7 +2,6 @@
 navigation:
   title: "交通"
   position: 9
-  parent: quick-reference.md
   icon: minecraft:minecart
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## 物理载具
 
-- 浏览物品: <EmiSearch query="@create_submarine" />
+<EmiSearch query="@create_submarine" />
 
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />
@@ -28,7 +27,7 @@ navigation:
 
 ## 控制与设备
 
-- 浏览物品: <EmiSearch query="@aeroworks" /> <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create_radar" />
+<EmiSearch query="@aeroworks" /> <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create_radar" />
 
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
@@ -44,7 +43,7 @@ navigation:
 
 ## 线路与目的地
 
-- 浏览物品: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" /> <EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
+<EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" /> <EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
 
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />

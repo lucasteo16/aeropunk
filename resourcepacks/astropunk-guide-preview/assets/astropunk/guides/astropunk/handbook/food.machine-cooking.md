@@ -10,7 +10,7 @@ navigation:
 
 ## Slicing
 
-- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+<EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
 
 <ItemGrid>
   <ItemIcon id="sliceanddice:slicer" />
@@ -30,7 +30,7 @@ Craft <ItemLink id="sliceanddice:slicer" /> before connecting ingredient deliver
 
 ## Drinks & farm fluids
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:hot_cocoa" />

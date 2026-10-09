@@ -10,7 +10,7 @@ navigation:
 
 ## Build equipment
 
-- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />

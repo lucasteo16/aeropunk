@@ -2,7 +2,6 @@
 navigation:
   title: "建筑"
   position: 8
-  parent: quick-reference.md
   icon: minecraft:bricks
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## 材料与形状
 
-- 浏览物品: <EmiSearch query="@chipped" /> <EmiSearch query="@copycats" /> <EmiSearch query="@mcwroofs" />
+<EmiSearch query="@chipped" /> <EmiSearch query="@copycats" /> <EmiSearch query="@mcwroofs" />
 
 <ItemGrid>
   <ItemIcon id="chipped:mason_table" />
@@ -27,7 +26,7 @@ navigation:
 
 ## 房间与工具
 
-- 浏览物品: <EmiSearch query="@handcrafted" /> <EmiSearch query="@immersive_paintings" /> <EmiSearch query="@mechtrowel" /> <EmiSearch query="@torchmaster" />
+<EmiSearch query="@handcrafted" /> <EmiSearch query="@immersive_paintings" /> <EmiSearch query="@mechtrowel" /> <EmiSearch query="@torchmaster" />
 
 <ItemGrid>
   <ItemIcon id="handcrafted:oak_chair" />

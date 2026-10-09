@@ -10,7 +10,7 @@ navigation:
 
 ## Using martial abilities
 
-- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@create" /> <EmiSearch query="@rogues" /> <EmiSearch query="@spell_engine" />
+<EmiSearch query="@archers" /> <EmiSearch query="@create" /> <EmiSearch query="@rogues" /> <EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -168,7 +168,7 @@ Melee techniques combine throws, charging and defensive self effects.
 
 ## Berserker
 
-- Browse items: <EmiSearch query="@berserker_rpg" />
+<EmiSearch query="@berserker_rpg" />
 
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
@@ -193,7 +193,7 @@ Rage-based techniques mix melee damage and self effects.
 
 ## Forcemaster
 
-- Browse items: <EmiSearch query="@forcemaster_rpg" />
+<EmiSearch query="@forcemaster_rpg" />
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />

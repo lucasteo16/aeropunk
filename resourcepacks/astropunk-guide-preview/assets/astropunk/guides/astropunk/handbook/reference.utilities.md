@@ -2,7 +2,6 @@
 navigation:
   title: "Utilities"
   position: 12
-  parent: quick-reference.md
   icon: minecraft:lever
 ---
 

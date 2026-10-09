@@ -10,7 +10,7 @@ navigation:
 
 ## 列车配件
 
-- 浏览物品: <EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
+<EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="bellsandwhistles:brass_pilot" />
@@ -34,7 +34,7 @@ Create: Bells & Whistles 提供列车外部配件与车体面板。通过物品�
 
 ## 瓷砖与配件
 
-- 浏览物品: <EmiSearch query="@bits_n_bobs" />
+<EmiSearch query="@bits_n_bobs" />
 
 <ItemGrid>
   <ItemIcon id="bits_n_bobs:tuff_tiles" />
@@ -54,7 +54,7 @@ Create: Bits 'n' Bobs 将石材瓷砖系列与座椅、照明组合。下列物�
 
 ## 砖材与走道
 
-- 浏览物品: <EmiSearch query="@createdeco" />
+<EmiSearch query="@createdeco" />
 
 <ItemGrid>
   <ItemIcon id="createdeco:iron_catwalk" />
@@ -76,7 +76,7 @@ Create Deco 将彩色砖纹与对应台阶、楼梯、墙组合。金属走道�
 
 ## 工业配色
 
-- 浏览物品: <EmiSearch query="@dndecor" />
+<EmiSearch query="@dndecor" />
 
 <ItemGrid>
   <ItemIcon id="dndecor:gold_catwalk" />
@@ -98,7 +98,7 @@ Create: Design n' Decor 提供工业覆面与大型机械装饰形状。应查�
 
 ## 机壳机械
 
-- 浏览物品: <EmiSearch query="@createcasing" />
+<EmiSearch query="@createcasing" />
 
 <ItemGrid>
   <ItemIcon id="createcasing:railway_clutch" />
@@ -120,7 +120,7 @@ Create Encased 提供木质传动件与不同材质的包覆机械。各部件�
 
 ## 框架与玻璃
 
-- 浏览物品: <EmiSearch query="@createframed" />
+<EmiSearch query="@createframed" />
 
 <ItemGrid>
   <ItemIcon id="createframed:tinted_framed_glass" />
@@ -142,7 +142,7 @@ Create: Framed 提供框架玻璃与拼接玻璃用于建筑开口。染色变�
 
 ## 梁与桁架
 
-- 浏览物品: <EmiSearch query="@createmoregirder" />
+<EmiSearch query="@createmoregirder" />
 
 <ItemGrid>
   <ItemIcon id="createmoregirder:andesite_beam" />
@@ -164,7 +164,7 @@ Create: More Girder 提供梁、桁架与配套连接件。铜材有氧化与涂
 
 ## 玻璃机壳
 
-- 浏览物品: <EmiSearch query="@createprism" />
+<EmiSearch query="@createprism" />
 
 <ItemGrid>
   <ItemIcon id="createprism:andesite_glass_casing" />

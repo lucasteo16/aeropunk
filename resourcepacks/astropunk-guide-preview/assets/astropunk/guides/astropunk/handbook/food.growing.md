@@ -10,7 +10,7 @@ navigation:
 
 ## Crop ingredients
 
-- Browse items: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:wheat" />
@@ -44,7 +44,7 @@ navigation:
 
 ## Soil & regional crops
 
-- Browse items: <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+<EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:organic_compost" />
@@ -64,7 +64,7 @@ navigation:
 
 ## Harvesting helpers
 
-- Browse items: <EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
 
 RightClickHarvest adds harvesting interactions. Smarter Farmers expands farmer replanting. Universal Bone Meal broadens bone-meal use. Leaves Be Gone clears decaying leaves after tree harvesting rather than growing food. Create: Integrated Farming supplies farm integration with Create. Choose a crop and verify its supported harvesting route before building an automated field.
 

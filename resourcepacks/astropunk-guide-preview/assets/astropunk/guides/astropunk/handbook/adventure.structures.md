@@ -2,7 +2,6 @@
 navigation:
   title: "Structures"
   position: 4
-  parent: quick-reference.md
   icon: minecraft:stone_bricks
 ---
 
@@ -63,7 +62,7 @@ Explore large dungeons and smaller landmarks. Aviary belongs to the End, while t
 
 ## Bosses'Rise
 
-- Browse items: <EmiSearch query="@block_factorys_bosses" />
+<EmiSearch query="@block_factorys_bosses" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-bossesrise-provider-art.png)
 
@@ -85,7 +84,7 @@ Each boss has a dedicated encounter structure.
 
 ## L_Ender's Cataclysm
 
-- Browse items: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-l_enders-cataclysm-provider-art.png)
 
@@ -117,7 +116,7 @@ Boss arenas sit alongside smaller ruins and creature nests.
 
 ## Illager Invasion
 
-- Browse items: <EmiSearch query="@illagerinvasion" />
+<EmiSearch query="@illagerinvasion" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-illager-invasion-provider-art.png)
 
@@ -285,7 +284,7 @@ Huts have large, small and duplex layouts. Witch Circle is a separate structure.
 
 ## Spawn
 
-- Browse items: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 ![Deep coral reef, giant clams and barracuda. Habitat image, not an island structure.](images/encounters-spawn-mod-deep-coral-reef-giant-clams-and-barracuda.png)
 
@@ -362,7 +361,7 @@ Both landmarks belong to the End Shadowlands biome.
 
 ## Witcher
 
-- Browse items: <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@witcher_rpg" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-witcher-rpg-class-provider-art.png)
 
@@ -385,7 +384,7 @@ From Witcher (RPG Series Plus).
 
 ## Supplementaries
 
-- Browse items: <EmiSearch query="@supplementaries" />
+<EmiSearch query="@supplementaries" />
 
 ![Provider project artwork, not a structure screenshot.](images/revision-encounters-supplementaries-provider-art.png)
 

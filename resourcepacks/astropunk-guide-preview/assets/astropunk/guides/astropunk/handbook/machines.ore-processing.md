@@ -15,7 +15,7 @@ item_ids:
 
 ## Processing machines
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />

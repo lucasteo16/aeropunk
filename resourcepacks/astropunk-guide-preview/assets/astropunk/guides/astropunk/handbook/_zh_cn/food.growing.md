@@ -10,7 +10,7 @@ navigation:
 
 ## 作物食材
 
-- 浏览物品: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:wheat" />
@@ -44,7 +44,7 @@ navigation:
 
 ## 土壤与地区作物
 
-- 浏览物品: <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+<EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:organic_compost" />
@@ -64,7 +64,7 @@ navigation:
 
 ## 收获辅助
 
-- 浏览物品: <EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
 
 RightClickHarvest 加入收获交互。Smarter Farmers 扩展农民补种。Universal Bone Meal 扩展骨粉用途。Leaves Be Gone 在伐木后清理衰败树叶，并非种植食物。Create: Integrated Farming 提供与 Create 的农业整合。先选定作物并确认支持的收获方式，再搭建自动农田。
 

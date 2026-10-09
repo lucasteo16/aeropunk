@@ -2,7 +2,6 @@
 navigation:
   title: "Dimensions"
   position: 5
-  parent: quick-reference.md
   icon: minecraft:grass_block
 ---
 

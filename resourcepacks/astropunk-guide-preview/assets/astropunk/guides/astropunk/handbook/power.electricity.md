@@ -10,7 +10,7 @@ navigation:
 
 ## Generation & storage
 
-- Browse items: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
+<EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="electroenergetics:alternator_rotor" />

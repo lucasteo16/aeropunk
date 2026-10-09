@@ -10,7 +10,7 @@ navigation:
 
 ## 切片
 
-- 浏览物品: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+<EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
 
 <ItemGrid>
   <ItemIcon id="sliceanddice:slicer" />
@@ -30,7 +30,7 @@ navigation:
 
 ## 饮品与农业流体
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="farmersdelight:hot_cocoa" />

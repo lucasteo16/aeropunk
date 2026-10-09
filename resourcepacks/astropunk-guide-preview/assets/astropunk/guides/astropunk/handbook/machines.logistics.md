@@ -10,7 +10,7 @@ navigation:
 
 ## Items & fluids
 
-- Browse items: <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:belt_connector" />
@@ -35,7 +35,7 @@ navigation:
 
 ## Packages & requests
 
-- Browse items: <EmiSearch query="@createadditionallogistics" />
+<EmiSearch query="@createadditionallogistics" />
 
 <ItemGrid>
   <ItemIcon id="create:packager" />

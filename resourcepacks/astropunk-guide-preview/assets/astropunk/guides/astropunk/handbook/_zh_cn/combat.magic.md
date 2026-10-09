@@ -14,7 +14,7 @@ item_ids:
 
 ## 法术绑定
 
-- 浏览物品: <EmiSearch query="@spell_engine" />
+<EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
@@ -49,7 +49,7 @@ item_ids:
 
 ## 奥术
 
-- 浏览物品: <EmiSearch query="@wizards" />
+<EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -120,7 +120,7 @@ item_ids:
 
 ## 水
 
-- 浏览物品: <EmiSearch query="@elemental_wizards_rpg" />
+<EmiSearch query="@elemental_wizards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
@@ -191,7 +191,7 @@ item_ids:
 
 ## 圣骑士
 
-- 浏览物品: <EmiSearch query="@paladins" />
+<EmiSearch query="@paladins" />
 
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
@@ -239,7 +239,7 @@ item_ids:
 
 ## 吟游诗人
 
-- 浏览物品: <EmiSearch query="@bards_rpg" />
+<EmiSearch query="@bards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
@@ -264,7 +264,7 @@ item_ids:
 
 ## 猎魔人剑术
 
-- 浏览物品: <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -331,7 +331,7 @@ item_ids:
 
 ## 符文与符文袋
 
-- 浏览物品: <EmiSearch query="@runes" />
+<EmiSearch query="@runes" />
 
 <ItemGrid>
   <ItemIcon id="runes:crafting_altar" />

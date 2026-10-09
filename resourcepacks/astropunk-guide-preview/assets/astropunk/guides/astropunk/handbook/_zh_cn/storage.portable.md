@@ -10,7 +10,7 @@ navigation:
 
 ## 潜影盒
 
-- 浏览物品: <EmiSearch query="@reinfshulker" />
+<EmiSearch query="@reinfshulker" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />
@@ -31,7 +31,7 @@ navigation:
 
 ## 取用与升级
 
-- 浏览物品: <EmiSearch query="背包" />
+<EmiSearch query="背包" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:leather" />

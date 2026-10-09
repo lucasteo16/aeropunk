@@ -21,7 +21,7 @@ Iris 加载光影包，Distant Horizons 显示简化远景。它们是独立系�
 
 ## 其他版本光照
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 Sodium Dynamic Lights 及其机械动力与 Sable 兼容组件未安装在此版本中。动态光源属于视觉效果，不保证服务器阻止生物生成。
 

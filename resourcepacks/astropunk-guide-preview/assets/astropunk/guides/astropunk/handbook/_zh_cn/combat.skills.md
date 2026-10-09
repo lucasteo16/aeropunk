@@ -10,7 +10,7 @@ navigation:
 
 ## 技能成长
 
-- 浏览物品: <EmiSearch query="@rogues" /> <EmiSearch query="@skill_tree_rpgs" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@rogues" /> <EmiSearch query="@skill_tree_rpgs" /> <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="skill_tree_rpgs:orb_of_oblivion" />
@@ -27,7 +27,7 @@ navigation:
 
 ## 职业路线
 
-- 浏览物品: <EmiSearch query="@archers_expansion" /> <EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@archers_expansion" /> <EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" />
 
 | 路线 | 原生物品 |
 | --- | --- |

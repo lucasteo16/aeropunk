@@ -10,7 +10,7 @@ navigation:
 
 ## 旋转动力储备
 
-- 浏览物品: <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create_connected:kinetic_battery" />

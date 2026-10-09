@@ -2,7 +2,6 @@
 navigation:
   title: "浏览配方"
   position: 1
-  parent: quick-reference.md
   icon: minecraft:crafting_table
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## 配方与用途
 
-- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@emi" />
+<EmiSearch query="@create" /> <EmiSearch query="@emi" />
 
 ![配方界面](images/parent-emi-recipes.png)
 

@@ -10,7 +10,7 @@ navigation:
 
 ## 仓库与集装箱
 
-- 浏览物品: <EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:item_vault" />
@@ -31,7 +31,7 @@ navigation:
 
 ## 筒仓与接口
 
-- 浏览物品: <EmiSearch query="@create_connected" />
+<EmiSearch query="@create_connected" />
 
 <ItemGrid>
   <ItemIcon id="create_connected:item_silo" />

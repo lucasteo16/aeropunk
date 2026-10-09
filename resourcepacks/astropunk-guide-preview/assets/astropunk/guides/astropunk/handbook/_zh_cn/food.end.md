@@ -10,7 +10,7 @@ navigation:
 
 ## 紫颂料理
 
-- 浏览物品: <EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="ends_delight:chorus_fruit_grain" />

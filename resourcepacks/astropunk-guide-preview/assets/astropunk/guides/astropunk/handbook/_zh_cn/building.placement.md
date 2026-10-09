@@ -10,7 +10,7 @@ navigation:
 
 ## 机械抹刀
 
-- 浏览物品: <EmiSearch query="@mechtrowel" />
+<EmiSearch query="@mechtrowel" />
 
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
@@ -43,7 +43,7 @@ navigation:
 
 ## 抹刀升级
 
-- 浏览物品: <EmiSearch query="@chipped" />
+<EmiSearch query="@chipped" />
 
 | 升级物品 | 功能 |
 | --- | --- |
@@ -74,7 +74,7 @@ navigation:
 
 ## 随机筛选器
 
-- 浏览物品: <EmiSearch query="@createshufflefilter" />
+<EmiSearch query="@createshufflefilter" />
 
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
@@ -94,7 +94,7 @@ Shuffle Filter 与 Weighted Shuffle Filter 分别提供随机与加权配色选�
 
 ## 蓝图
 
-- 浏览物品: <EmiSearch query="@create_pattern_schematics" />
+<EmiSearch query="@create_pattern_schematics" />
 
 <ItemGrid>
   <ItemIcon id="create_pattern_schematics:empty_pattern_schematic" />

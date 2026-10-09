@@ -10,7 +10,7 @@ navigation:
 
 ## Tracks & stations
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:track" />

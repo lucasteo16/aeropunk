@@ -10,7 +10,7 @@ navigation:
 
 ## Cave crops & bars
 
-- Browse items: <EmiSearch query="@minersdelight" />
+<EmiSearch query="@minersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:wild_cave_carrots" />
@@ -59,7 +59,7 @@ Wild Cave Carrots provide the underground crop branch. Baking makes a prepared c
 
 ## Underground ingredients
 
-- Browse items: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:arthropod" />
@@ -118,7 +118,7 @@ Knife hunting supplies arthropods and bat wings. Infested-block mining supplies 
 
 ## Squid & plant meals
 
-- Browse items: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:baked_squid" />

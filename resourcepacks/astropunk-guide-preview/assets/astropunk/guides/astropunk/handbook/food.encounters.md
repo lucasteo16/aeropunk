@@ -10,7 +10,7 @@ navigation:
 
 ## Crab & sea creatures
 
-- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@cataclysm" />
+<EmiSearch query="@farmersdelight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@cataclysm" />
 
 <ItemGrid>
   <ItemIcon id="lendersdelight:amethyst_crab_meat_stick" />

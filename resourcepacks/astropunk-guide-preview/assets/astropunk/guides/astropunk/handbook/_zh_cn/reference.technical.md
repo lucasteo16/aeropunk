@@ -2,7 +2,6 @@
 navigation:
   title: "技术"
   position: 15
-  parent: quick-reference.md
   icon: minecraft:redstone
 ---
 

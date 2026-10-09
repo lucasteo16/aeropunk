@@ -69,42 +69,48 @@ for p in pages.rglob("*.md"):
     for target in re.findall(r"\]\(([^)]+\.md)\)", text):
         assert (p.parent / target).is_file(), (p, target)
         links += 1
+# Native roots are the introduction and sixteen directly accessible sections.
+section_roots = {'help.controls.md', 'help.search.md', 'adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'maps.personal.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'}
+assert handbook['navigation_page_count'] == 0
+assert handbook['root_page_count'] == len(section_roots) + 1
 for language in ('', '_zh_cn'):
     locale_root = pages / language
+    page_texts = {p.name: p.read_text() for p in locale_root.glob('*.md')}
+    roots = {name for name, text in page_texts.items() if not re.search(r'^  parent:', text, re.M)}
+    assert roots == section_roots | {'index.md'}, (language, roots)
+    assert not {'quick-reference.md', 'mod-catalogs.md', 'sounds.ambience.md', 'audio.sound.md'} & expected
+    assert not list(locale_root.glob('category-*.md'))
+    home_links = set(re.findall(r'\]\(([^)]+\.md)\)', page_texts['index.md']))
+    assert home_links == {'help.controls.md'}, language
+    assert not (resource / 'assets/astropunk/guideme_guides/handbook.json').exists()
+    # Reachability starts from every native sidebar root, not a duplicate home directory.
     visited = set()
-    pending = ['index.md']
+    pending = list(roots)
     while pending:
         filename = pending.pop()
         if filename in visited:
             continue
         visited.add(filename)
-        page_text = (locale_root / filename).read_text()
-        pending.extend(re.findall(r'\]\(([^)]+\.md)\)', page_text))
-        pending.extend(re.findall(r'^  parent: (.+)$', page_text, re.MULTILINE))
-    assert {a['filename'] for a in handbook['pages']} <= visited, language
-    assert 'quick-reference.md' in visited, language
-    assert 'mod-catalogs.md' not in expected
-    assert not list(locale_root.glob('category-*.md'))
-    home_links = set(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / 'index.md').read_text()))
-    reference_links = set(re.findall(r'\]\(([^)]+\.md)\)', (locale_root / 'quick-reference.md').read_text()))
-    assert home_links == {'quick-reference.md'}, language
-    assert len(reference_links) == 16, language
-    assert 'reference.equipment.md' not in reference_links
-    assert not (resource / 'assets/astropunk/guideme_guides/handbook.json').exists(), 'Native query guide registration must not be overridden'
+        pending.extend(re.findall(r'\]\(([^)]+\.md)\)', page_texts[filename]))
+        pending.extend(name for name, text in page_texts.items() if re.search(r'^  parent: ' + re.escape(filename) + r'$', text, re.M))
+    assert visited == expected, (language, expected - visited)
     for filename in ('reference.equipment.md', 'combat.abilities.md'):
-        assert '  parent: reference.skills.md\n' in (locale_root / filename).read_text()
+        assert '  parent: reference.skills.md\n' in page_texts[filename]
+    audio = next(row for row in handbook['pages'] if row['filename'] == 'reference.audio.md')
+    assert audio['page_type'] == 'article' and len(audio['metadata_paths']) == 8
+    assert page_texts['reference.audio.md'].count('## 相关模组' if language else '## Related mods') == 1
     for article in handbook['pages']:
         current = article['filename']
         seen = {current}
         depth = 0
-        while parents := re.findall(r'^  parent: (.+)$', (locale_root / current).read_text(), re.M):
+        while parents := re.findall(r'^  parent: (.+)$', page_texts[current], re.M):
             assert len(parents) == 1, current
             current = parents[0]
             assert current not in seen, article['filename']
             seen.add(current)
             depth += 1
-        assert current == 'quick-reference.md', article['filename']
-        assert depth <= 2, article['filename']
+        assert current in section_roots, article['filename']
+        assert depth <= 1, article['filename']
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options
 if args.source_only:

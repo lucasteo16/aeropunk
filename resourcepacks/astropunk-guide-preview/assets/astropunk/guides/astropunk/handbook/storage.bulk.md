@@ -10,7 +10,7 @@ navigation:
 
 ## Vaults & containers
 
-- Browse items: <EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:item_vault" />
@@ -31,7 +31,7 @@ navigation:
 
 ## Silos & access
 
-- Browse items: <EmiSearch query="@create_connected" />
+<EmiSearch query="@create_connected" />
 
 <ItemGrid>
   <ItemIcon id="create_connected:item_silo" />

@@ -10,7 +10,7 @@ navigation:
 
 ## Paintings & lettering
 
-- Browse items: <EmiSearch query="@immersive_paintings" />
+<EmiSearch query="@immersive_paintings" />
 
 <ItemGrid>
   <ItemIcon id="immersive_paintings:painting" />
@@ -34,7 +34,7 @@ Immersive Paintings supplies paintings, graffiti and glowing forms. Big Sign Wri
 
 ## Poses & objects
 
-- Browse items: <EmiSearch query="@items_displayed" /> <EmiSearch query="@strawstatues" />
+<EmiSearch query="@items_displayed" /> <EmiSearch query="@strawstatues" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:armor_stand" />

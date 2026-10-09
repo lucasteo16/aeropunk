@@ -2,7 +2,6 @@
 navigation:
   title: "维度"
   position: 5
-  parent: quick-reference.md
   icon: minecraft:grass_block
 ---
 

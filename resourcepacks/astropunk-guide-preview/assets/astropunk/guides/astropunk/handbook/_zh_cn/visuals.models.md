@@ -22,7 +22,7 @@ Entity Model Features 与 Entity Texture Features 提供自定义模型与纹理
 
 ## 动画兼容
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 EMF Compat: Create 使机械动力动画适配动态玩家模型，其共享框架列在支持库页面。
 
@@ -34,7 +34,7 @@ EMF Compat: Create 使机械动力动画适配动态玩家模型，其共享框�
 
 ## 其他版本内容
 
-- 浏览物品: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 以下动画扩展未安装在此版本中。未安装不代表已安装功能尚未完成。
 

@@ -10,7 +10,7 @@ navigation:
 
 ## 未安装
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 Northstar 太空内容已暂缓加入。此版本没有已安装 Northstar 目的地。已安装目的地见维度目录。
 

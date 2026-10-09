@@ -15,7 +15,14 @@ REL = Path('assets/astropunk/guides/astropunk/handbook')
 
 class ReleasedNavigation(unittest.TestCase):
     def test_released_navigation_bytecode_and_negative_fallback_controls(self):
-        subprocess.run([sys.executable, str(ROOT / 'scripts/test-native-navigation.py')], check=True, capture_output=True)
+        result = subprocess.run([sys.executable, str(ROOT / 'scripts/test-native-navigation.py')], check=True, capture_output=True, text=True)
+        report = json.loads(result.stdout)
+        self.assertEqual({row['locale'] for row in report['tests']}, {'en_us', '_zh_cn'})
+        manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
+        for row in report['tests']:
+            self.assertIn(f"{len(manifest['pages']) + 1} nodes, seventeen ordered roots, direct Audio article", row['output'])
+            self.assertIn('obsolete Quick reference and Sound resurrection and repair controls', row['output'])
+        self.assertFalse(report['rendered_verified'])
 
     def test_registration_does_not_reintroduce_catalog_or_unsupported_nodes(self):
         self.assertFalse((SOURCE / 'assets/astropunk/guideme_guides/handbook.json').exists())

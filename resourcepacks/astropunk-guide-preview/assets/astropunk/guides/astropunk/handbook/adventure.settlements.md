@@ -60,7 +60,7 @@ Compatibility templates also cover badlands, bamboo, birch, cherry, dark forest,
 
 ## Taverns
 
-- Browse items: <EmiSearch query="@village_taverns" />
+<EmiSearch query="@village_taverns" />
 
 ![Village Taverns (RPG Series)](images/encounters-village-taverns-catalog.png)
 
@@ -80,7 +80,7 @@ Bartender is a villager profession, not a separate creature species.
 
 ## Village buildings
 
-- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 | Mod | Profession and building | Template styles |
 | --- | --- | --- |

@@ -2,7 +2,6 @@
 navigation:
   title: "Bosses"
   position: 2
-  parent: quick-reference.md
   icon: minecraft:dragon_head
 item_ids:
   - cataclysm:abyssal_sacrifice
@@ -20,7 +19,7 @@ item_ids:
 
 ## Infernal Dragon
 
-- Browse items: <EmiSearch query="@block_factorys_bosses" />
+<EmiSearch query="@block_factorys_bosses" />
 
 ![Infernal Dragon](images/encounters-bossesrise-infernal-dragon.png)
 
@@ -82,7 +81,7 @@ Explore the ship. Its pirate encounter spawner controls the encounter.
 
 ## Ignis
 
-- Browse items: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 ![Ignis](images/encounters-l_enders-cataclysm-ignis.png)
 
@@ -208,7 +207,7 @@ Interact with the inactive Scylla to begin the encounter. No specific offering i
 
 ## Invoker
 
-- Browse items: <EmiSearch query="@illagerinvasion" />
+<EmiSearch query="@illagerinvasion" />
 
 ![Invoker](images/final-boss-review-invoker.png)
 

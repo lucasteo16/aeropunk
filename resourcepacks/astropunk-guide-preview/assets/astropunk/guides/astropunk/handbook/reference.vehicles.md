@@ -2,7 +2,6 @@
 navigation:
   title: "Transport"
   position: 9
-  parent: quick-reference.md
   icon: minecraft:minecart
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Physical vehicles
 
-- Browse items: <EmiSearch query="@create_submarine" />
+<EmiSearch query="@create_submarine" />
 
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />
@@ -28,7 +27,7 @@ navigation:
 
 ## Controls & equipment
 
-- Browse items: <EmiSearch query="@aeroworks" /> <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create_radar" />
+<EmiSearch query="@aeroworks" /> <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create_radar" />
 
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
@@ -44,7 +43,7 @@ navigation:
 
 ## Routes & destinations
 
-- Browse items: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" /> <EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
+<EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" /> <EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
 
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />

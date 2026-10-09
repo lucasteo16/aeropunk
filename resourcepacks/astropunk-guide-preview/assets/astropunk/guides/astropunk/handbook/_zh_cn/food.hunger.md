@@ -22,7 +22,7 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 
 ## 滚动饮食记录
 
-- 浏览物品: <EmiSearch query="@solonion" />
+<EmiSearch query="@solonion" />
 
 <ItemGrid>
   <ItemIcon id="solonion:food_book" />

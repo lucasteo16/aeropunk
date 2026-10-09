@@ -10,7 +10,7 @@ navigation:
 
 ## 轨道与车站
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:track" />

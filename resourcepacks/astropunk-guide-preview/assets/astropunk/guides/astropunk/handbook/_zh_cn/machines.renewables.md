@@ -10,7 +10,7 @@ navigation:
 
 ## 熔融喷口
 
-- 浏览物品: <EmiSearch query="@molten_vents" />
+<EmiSearch query="@molten_vents" />
 
 <ItemGrid>
   <ItemIcon id="molten_vents:dormant_molten_asurine" />

@@ -10,7 +10,7 @@ navigation:
 
 ## Experience & enchanting
 
-- Browse items: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create_enchantment_industry:mechanical_grindstone" />

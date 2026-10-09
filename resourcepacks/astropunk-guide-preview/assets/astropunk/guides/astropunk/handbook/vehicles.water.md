@@ -18,7 +18,7 @@ Deep Seas copper submarine.
 
 ## Buoyancy & thrust
 
-- Browse items: <EmiSearch query="@create_submarine" />
+<EmiSearch query="@create_submarine" />
 
 <ItemGrid>
   <ItemIcon id="create_submarine:floater" />

@@ -2,7 +2,6 @@
 navigation:
   title: "Maps"
   position: 11
-  parent: quick-reference.md
   icon: minecraft:map
 ---
 

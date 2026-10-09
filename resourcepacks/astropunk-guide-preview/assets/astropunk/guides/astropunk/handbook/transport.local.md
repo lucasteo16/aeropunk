@@ -10,7 +10,7 @@ navigation:
 
 ## Hypertubes
 
-- Browse items: <EmiSearch query="@create_hypertube" />
+<EmiSearch query="@create_hypertube" />
 
 <ItemGrid>
   <ItemIcon id="create_hypertube:hypertube" />
@@ -34,7 +34,7 @@ Connect two tube blocks by right-clicking one while holding another, then place 
 
 ## Walkways
 
-- Browse items: <EmiSearch query="@escalated" />
+<EmiSearch query="@escalated" />
 
 <ItemGrid>
   <ItemIcon id="escalated:metal_walkway_steps" />

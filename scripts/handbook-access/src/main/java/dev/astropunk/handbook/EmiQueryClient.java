@@ -3,12 +3,12 @@ package dev.astropunk.handbook;
 import dev.emi.emi.api.EmiApi;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.inventory.InventoryMenu;
+import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
+import net.minecraft.client.gui.screens.inventory.InventoryScreen;
+import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.flag.FeatureFlagSet;
 import net.neoforged.fml.ModList;
 
 /** EMI classes are resolved only after the optional mod-presence guard. */
@@ -26,28 +26,40 @@ public final class EmiQueryClient {
     private static final class Present {
         static void open(Minecraft minecraft, String query) {
             Screen guide = minecraft.screen;
-            minecraft.setScreen(new QueryInventoryScreen(minecraft.player, guide));
-            // setScreen initializes the handled inventory first; EMI search mutation does not open a screen.
+            // Select the native creative screen directly. InventoryScreen.init would
+            // redirect creative players to a new screen without our close callback.
+            Screen inventory = minecraft.gameMode.hasInfiniteItems()
+                    ? new QueryCreativeInventoryScreen(minecraft.player,
+                            minecraft.player.connection.enabledFeatures(),
+                            minecraft.options.operatorItemsTab().get(), guide)
+                    : new QueryInventoryScreen(minecraft.player, guide);
+            minecraft.setScreen(inventory);
+            // The selected public setter only changes search, so initialize the native screen first.
             EmiApi.setSearchText(query);
         }
     }
-    // Do not subclass InventoryScreen: it redirects creative players to a different
-    // screen during init, losing our return-to-guide callback.
-    static final class QueryInventoryScreen extends AbstractContainerScreen<InventoryMenu> {
-        private static final ResourceLocation BACKGROUND = ResourceLocation.withDefaultNamespace("textures/gui/container/inventory.png");
+    // Native screens own all rendering, recipe book, input and inventory lifecycle.
+    // A later game-mode change may trigger their normal redirect and lose the return target.
+    static final class QueryInventoryScreen extends InventoryScreen {
         private final Screen returnScreen;
         QueryInventoryScreen(Player player, Screen returnScreen) {
-            super(player.inventoryMenu, player.getInventory(), Component.translatable("container.inventory"));
+            super(player);
             this.returnScreen = returnScreen;
-            titleLabelY = 6;
         }
-        @Override protected void renderBg(GuiGraphics graphics, float partialTick, int mouseX, int mouseY) {
-            graphics.blit(BACKGROUND, leftPos, topPos, 0, 0, imageWidth, imageHeight);
+        @Override public void onClose() {
+            super.onClose();
+            Minecraft.getInstance().setScreen(returnScreen);
         }
-        @Override public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
-            super.render(graphics, mouseX, mouseY, partialTick);
-            renderTooltip(graphics, mouseX, mouseY);
+    }
+    static final class QueryCreativeInventoryScreen extends CreativeModeInventoryScreen {
+        private final Screen returnScreen;
+        QueryCreativeInventoryScreen(LocalPlayer player, FeatureFlagSet features, boolean operatorItemsTab, Screen returnScreen) {
+            super(player, features, operatorItemsTab);
+            this.returnScreen = returnScreen;
         }
-        @Override public void onClose() { Minecraft.getInstance().setScreen(returnScreen); }
+        @Override public void onClose() {
+            super.onClose();
+            Minecraft.getInstance().setScreen(returnScreen);
+        }
     }
 }

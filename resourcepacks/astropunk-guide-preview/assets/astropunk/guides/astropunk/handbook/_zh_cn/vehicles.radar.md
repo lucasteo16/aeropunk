@@ -10,7 +10,7 @@ navigation:
 
 ## 探测与显示
 
-- 浏览物品: <EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create_radar:radar_bearing" />
@@ -36,7 +36,7 @@ Create Radars 将探测组件、接收器与显示器分开。先选择雷达系
 
 ## 识别与火控
 
-- 浏览物品: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="create_radar:identification_transponder" />

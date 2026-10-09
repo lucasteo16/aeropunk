@@ -69,7 +69,7 @@ navigation:
 
 ## 战斗框架
 
-- 浏览物品: <EmiSearch query="@more_rpg_classes" /> <EmiSearch query="@spell_engine" />
+<EmiSearch query="@more_rpg_classes" /> <EmiSearch query="@spell_engine" />
 
 这些组件提供共享法术、属性、武器与弹射物系统。职业装备与法术选择另有页面。
 
@@ -86,7 +86,7 @@ navigation:
 
 ## 共享代码
 
-- 浏览物品: <EmiSearch query="@dragonlib" /> <EmiSearch query="@moonlight" /> <EmiSearch query="@sophisticatedcore" /> <EmiSearch query="@teallib" />
+<EmiSearch query="@dragonlib" /> <EmiSearch query="@moonlight" /> <EmiSearch query="@sophisticatedcore" /> <EmiSearch query="@teallib" />
 
 以下列出其他已安装支持库。依赖库应与使用它们的模组一起保留。库的名称并不代表增加了新方块、配方或遭遇。
 

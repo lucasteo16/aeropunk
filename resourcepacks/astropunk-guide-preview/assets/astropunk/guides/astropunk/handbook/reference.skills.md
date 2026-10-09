@@ -2,7 +2,6 @@
 navigation:
   title: "Combat"
   position: 6
-  parent: quick-reference.md
   icon: minecraft:iron_sword
 ---
 
@@ -14,7 +13,7 @@ Choose a build through equipment, a class book and skill-tree choices. There is 
 
 ### Martial classes
 
-- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@rogues" />
+<EmiSearch query="@archers" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@rogues" />
 
 | Class | Purpose | First weapon or focus |
 | --- | --- | --- |
@@ -29,7 +28,7 @@ Choose a build through equipment, a class book and skill-tree choices. There is 
 
 ### Magic & support
 
-- Browse items: <EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" /> <EmiSearch query="@wizards" />
 
 | Class | Purpose | First weapon or focus |
 | --- | --- | --- |
@@ -61,7 +60,7 @@ Match your weapon or focus, armor bonuses and accessories to the attributes used
 
 ## First steps
 
-- Browse items: <EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
+<EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
 
 <ItemGrid><ItemIcon id="spell_engine:spell_binding" /></ItemGrid>
 

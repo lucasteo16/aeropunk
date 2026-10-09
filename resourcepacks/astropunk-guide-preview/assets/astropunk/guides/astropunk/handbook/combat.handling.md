@@ -10,7 +10,7 @@ navigation:
 
 ## Attacks & weapon types
 
-- Browse items: <EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
+<EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
@@ -27,7 +27,7 @@ Use <KeyBind id="key.attack" /> for attacks and <KeyBind id="key.use" /> for ite
 
 ## Rolls & spells
 
-- Browse items: <EmiSearch query="@spell_engine" />
+<EmiSearch query="@spell_engine" />
 
 Roll with <KeyBind id="keybinds.combat_roll.roll" />. Combat Roll supplies the dodge action. Critical Strike supplies melee critical attributes. Neither a weapon animation nor a roll by itself promises invulnerability.
 

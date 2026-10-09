@@ -2,7 +2,6 @@
 navigation:
   title: "Machines & storage"
   position: 10
-  parent: quick-reference.md
   icon: create:crushing_wheel
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Containers & handling
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@interactic" />
+<EmiSearch query="@create" /> <EmiSearch query="@interactic" />
 
 | Reference | Contents |
 | --- | --- |
@@ -22,7 +21,7 @@ navigation:
 
 ## Machines & materials
 
-- Browse items: <EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
+<EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
 
 | Reference | Contents |
 | --- | --- |
@@ -38,7 +37,7 @@ navigation:
 
 ## Power & industry
 
-- Browse items: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
 
 | Reference | Contents |
 | --- | --- |
@@ -53,7 +52,7 @@ navigation:
 
 ### Machines and processing
 
-- Browse items: <EmiSearch query="@create_connected" />
+<EmiSearch query="@create_connected" />
 
 | Mod | Purpose |
 | --- | --- |
@@ -76,7 +75,7 @@ navigation:
 
 ### Production automation
 
-- Browse items: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+<EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
 
 | Mod | Purpose |
 | --- | --- |

@@ -10,7 +10,7 @@ navigation:
 
 ## 桥梁
 
-- 浏览物品: <EmiSearch query="@mcwbridges" />
+<EmiSearch query="@mcwbridges" />
 
 <ItemGrid>
   <ItemIcon id="mcwbridges:oak_log_bridge_middle" />
@@ -32,7 +32,7 @@ Macaw's Bridges 提供木材与石材系列的桥面、阶梯和支撑件。通�
 
 ## 屋顶
 
-- 浏览物品: <EmiSearch query="@mcwroofs" />
+<EmiSearch query="@mcwroofs" />
 
 <ItemGrid>
   <ItemIcon id="mcwroofs:oak_roof" />
@@ -54,7 +54,7 @@ Macaw's Roofs 用独立部件组成屋面底部、屋脊与阁楼，并提供较
 
 ## 楼梯与阳台
 
-- 浏览物品: <EmiSearch query="@mcwstairs" />
+<EmiSearch query="@mcwstairs" />
 
 <ItemGrid>
   <ItemIcon id="mcwstairs:oak_bulk_stairs" />
@@ -80,7 +80,7 @@ Macaw's Stairs 提供多种楼梯轮廓，以及平台、阳台与配套栏杆�
 
 ## 门
 
-- 浏览物品: <EmiSearch query="@mcwdoors" />
+<EmiSearch query="@mcwdoors" />
 
 <ItemGrid>
   <ItemIcon id="mcwdoors:oak_barn_door" />
@@ -100,7 +100,7 @@ Macaw's Doors 提供不同外观的建筑入口。下列门仅展示部分样式
 
 ## 窗
 
-- 浏览物品: <EmiSearch query="@mcwwindows" />
+<EmiSearch query="@mcwwindows" />
 
 <ItemGrid>
   <ItemIcon id="mcwwindows:oak_window" />
@@ -122,7 +122,7 @@ Macaw's Windows 将窗体形状与百叶窗、窗帘组合。通过各自配方�
 
 ## 围栏与墙
 
-- 浏览物品: <EmiSearch query="@mcwfences" />
+<EmiSearch query="@mcwfences" />
 
 <ItemGrid>
   <ItemIcon id="mcwfences:oak_picket_fence" />

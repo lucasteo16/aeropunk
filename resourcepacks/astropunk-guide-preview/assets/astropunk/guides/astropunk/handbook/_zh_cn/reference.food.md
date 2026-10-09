@@ -2,7 +2,6 @@
 navigation:
   title: "食物与农业"
   position: 7
-  parent: quick-reference.md
   icon: minecraft:apple
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## 厨房料理
 
-- 浏览物品: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选厨房工具与盛装形式，再收集原料。
 
@@ -20,7 +19,7 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 
 ## 地区食材
 
-- 浏览物品: <EmiSearch query="@ends_delight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+<EmiSearch query="@ends_delight" /> <EmiSearch query="@lendersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
 
 - <ItemImage id="mynethersdelight:bullet_pepper" /> [下界食物](food.nether.md) 把下界狩猎与辣椒原料连接到香肠、炖菜和恶魂面团。
 - <ItemImage id="ends_delight:chorus_fruit_grain" /> [末地食物](food.end.md) 区分采集的紫颂食材、用刀猎取的潜影贝肉与末影龙遭遇。
@@ -31,7 +30,7 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 
 ## 种植与海鲜
 
-- 浏览物品: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 - <ItemImage id="farmersdelight:cabbage" /> [作物食材](food.growing.md) 介绍野生作物来源、种子、稻米加工与收获辅助。
 - <ItemImage id="spawn:tuna_roll" /> [鱼类与贝类](food.fishing.md) 区分普通钓鱼竿渔获、水生生物、加工小份与贝类料理。
@@ -40,7 +39,7 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 
 ## 饮食与生产
 
-- 浏览物品: <EmiSearch query="@sliceanddice" /> <EmiSearch query="@solonion" />
+<EmiSearch query="@sliceanddice" /> <EmiSearch query="@solonion" />
 
 - <ItemImage id="solonion:food_book" /> [饥饿与多样性](food.hunger.md) 介绍饥饿值、饱和度、滚动饮食与远行口粮收纳。
 - <ItemImage id="sliceanddice:slicer" /> [机器厨房](food.machine-cooking.md) 区分切片、饮品流体、作物生产与成品料理配方。

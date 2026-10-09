@@ -10,7 +10,7 @@ navigation:
 
 ## 使用武技
 
-- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@rogues" /> <EmiSearch query="@spell_engine" />
+<EmiSearch query="@archers" /> <EmiSearch query="@rogues" /> <EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -168,7 +168,7 @@ navigation:
 
 ## 狂战士
 
-- 浏览物品: <EmiSearch query="@berserker_rpg" />
+<EmiSearch query="@berserker_rpg" />
 
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
@@ -193,7 +193,7 @@ navigation:
 
 ## 气功师
 
-- 浏览物品: <EmiSearch query="@forcemaster_rpg" />
+<EmiSearch query="@forcemaster_rpg" />
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />

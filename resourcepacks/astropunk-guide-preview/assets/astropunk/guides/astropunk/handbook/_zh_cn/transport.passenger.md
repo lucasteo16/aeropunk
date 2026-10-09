@@ -10,7 +10,7 @@ navigation:
 
 ## 线路与站点
 
-- 浏览物品: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
+<EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />

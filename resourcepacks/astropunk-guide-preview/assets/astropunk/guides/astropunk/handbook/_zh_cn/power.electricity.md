@@ -10,7 +10,7 @@ navigation:
 
 ## 发电与储能
 
-- 浏览物品: <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
+<EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="electroenergetics:alternator_rotor" />

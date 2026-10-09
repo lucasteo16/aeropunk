@@ -10,7 +10,7 @@ navigation:
 
 ## 指南针
 
-- 浏览物品: <EmiSearch query="@explorerscompass" /> <EmiSearch query="@naturescompass" />
+<EmiSearch query="@explorerscompass" /> <EmiSearch query="@naturescompass" />
 
 <ItemGrid><ItemIcon id="naturescompass:naturescompass" /><ItemIcon id="explorerscompass:explorerscompass" /></ItemGrid>
 

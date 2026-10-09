@@ -10,7 +10,7 @@ navigation:
 
 ## 画作与文字
 
-- 浏览物品: <EmiSearch query="@immersive_paintings" />
+<EmiSearch query="@immersive_paintings" />
 
 <ItemGrid>
   <ItemIcon id="immersive_paintings:painting" />
@@ -34,7 +34,7 @@ Immersive Paintings 提供画作、涂鸦及发光版本。Big Sign Writer 扩�
 
 ## 姿态与物件
 
-- 浏览物品: <EmiSearch query="@items_displayed" /> <EmiSearch query="@strawstatues" />
+<EmiSearch query="@items_displayed" /> <EmiSearch query="@strawstatues" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:armor_stand" />

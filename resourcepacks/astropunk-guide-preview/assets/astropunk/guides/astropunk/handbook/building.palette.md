@@ -10,7 +10,7 @@ navigation:
 
 ## Wood & joinery
 
-- Browse items: <EmiSearch query="@chipped" />
+<EmiSearch query="@chipped" />
 
 <ItemGrid>
   <ItemIcon id="chipped:carpenters_table" />

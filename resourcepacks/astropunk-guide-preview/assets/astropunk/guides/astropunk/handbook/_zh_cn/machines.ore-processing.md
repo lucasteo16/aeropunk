@@ -15,7 +15,7 @@ item_ids:
 
 ## 矿物加工机器
 
-- 浏览物品: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />

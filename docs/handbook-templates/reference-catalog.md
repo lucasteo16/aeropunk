@@ -1,7 +1,6 @@
 ---
 navigation:
   title: Dimensions
-  parent: quick-reference.md
 ---
 
 # Dimensions

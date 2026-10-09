@@ -110,7 +110,7 @@ def negative_control():
     env = dict(os.environ, ACCESS_HELPER_JAR=str(jar))
     result = subprocess.run([sys.executable, __file__, 'AccessWiringTest.test_constructor_connects_each_typed_event_to_correct_bus'], env=env, text=True, capture_output=True)
     print(result.stdout + result.stderr)
-    assert result.returncode != 0 and '3 != 4' in result.stderr, 'Expected disconnected-listener assertion to fail'
+    assert result.returncode != 0 and '4 != 5' in result.stderr, 'Expected disconnected-listener assertion to fail'
     print('Negative control rejected disconnected inventory listener.')
 
 

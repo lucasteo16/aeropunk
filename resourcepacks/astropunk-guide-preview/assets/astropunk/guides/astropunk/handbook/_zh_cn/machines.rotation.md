@@ -10,7 +10,7 @@ navigation:
 
 ## 动力源与传动
 
-- 浏览物品: <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create:water_wheel" />

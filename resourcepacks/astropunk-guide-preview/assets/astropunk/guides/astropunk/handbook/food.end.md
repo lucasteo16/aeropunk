@@ -10,7 +10,7 @@ navigation:
 
 ## Chorus dishes
 
-- Browse items: <EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
 
 <ItemGrid>
   <ItemIcon id="ends_delight:chorus_fruit_grain" />

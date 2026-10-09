@@ -10,7 +10,7 @@ navigation:
 
 ## 高速管道
 
-- 浏览物品: <EmiSearch query="@create_hypertube" />
+<EmiSearch query="@create_hypertube" />
 
 <ItemGrid>
   <ItemIcon id="create_hypertube:hypertube" />
@@ -34,7 +34,7 @@ navigation:
 
 ## 步道
 
-- 浏览物品: <EmiSearch query="@escalated" />
+<EmiSearch query="@escalated" />
 
 <ItemGrid>
   <ItemIcon id="escalated:metal_walkway_steps" />

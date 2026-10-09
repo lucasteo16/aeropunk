@@ -10,7 +10,7 @@ navigation:
 
 ## 疣猪兽与炽足兽
 
-- 浏览物品: <EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+<EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
 
 <ItemGrid>
   <ItemIcon id="minersdelight:spicy_hoglin_stew_cup" />

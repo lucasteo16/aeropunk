@@ -10,7 +10,7 @@ navigation:
 
 ## Not installed
 
-- Browse items: <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 Northstar space content is deferred. There are no installed Northstar destinations in this edition. Use Dimensions for the installed destination catalogue.
 

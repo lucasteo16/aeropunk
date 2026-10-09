@@ -10,7 +10,7 @@ navigation:
 
 ## 攻击与武器类型
 
-- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
+<EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
@@ -27,7 +27,7 @@ Better Combat 为支持的武器提供攻击模式与动画。比较攻击距离
 
 ## 翻滚与施法
 
-- 浏览物品: <EmiSearch query="@spell_engine" />
+<EmiSearch query="@spell_engine" />
 
 按 <KeyBind id="keybinds.combat_roll.roll" /> 翻滚。Combat Roll 提供闪避动作，Critical Strike 提供近战暴击属性。武器动画或翻滚本身并不保证无敌。
 

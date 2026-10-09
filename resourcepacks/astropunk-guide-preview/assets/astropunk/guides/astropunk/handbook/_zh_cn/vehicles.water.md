@@ -18,7 +18,7 @@ Deep Seas 铜制潜艇。
 
 ## 浮力与推进
 
-- 浏览物品: <EmiSearch query="@create_submarine" />
+<EmiSearch query="@create_submarine" />
 
 <ItemGrid>
   <ItemIcon id="create_submarine:floater" />

@@ -10,7 +10,7 @@ navigation:
 
 ## 战利品容器
 
-- 浏览物品: <EmiSearch query="@lootr" />
+<EmiSearch query="@lootr" />
 
 ![Mineshaft lootr chest!](images/encounters-lootr-catalog.png)
 
@@ -26,7 +26,7 @@ navigation:
 
 ## 掉落查询
 
-- 浏览物品: <EmiSearch query="@emi" />
+<EmiSearch query="@emi" />
 
 | 模组 | 内容 | 读取方式 |
 | --- | --- | --- |

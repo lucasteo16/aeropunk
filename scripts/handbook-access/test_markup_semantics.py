@@ -35,7 +35,7 @@ class MarkupSemanticRegression(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         log = (ROOT / 'build/handbook-access/markup-probe/test-green-book/compiler.log').read_text()
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
-        expected_pages = 2 * len({row['filename'] for row in manifest['pages']} | {'index.md', 'quick-reference.md'})
+        expected_pages = 2 * len({row['filename'] for row in manifest['pages']} | {'index.md'})
         self.assertIn(f'SUMMARY pages {expected_pages} failing_pages 0', log)
         self.assertRegex(log, r'grids [1-9][0-9]* slots [1-9][0-9]* tooltip_labels [1-9][0-9]*')
         self.assertIn('Recipe and KeyBind not compiled', log)

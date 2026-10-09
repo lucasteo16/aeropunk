@@ -38,7 +38,7 @@ AttributeFix 修复属性限制，Neo Bee Fix 修复蜜蜂行为。这些属于�
 
 ## 相关页面
 
-- [声音](sounds.ambience.md)
+- [声音](reference.audio.md)
 - [模型与动画](visuals.models.md)
 - [光照与远景](visuals.lighting.md)
 - [支持库](technical.libraries.md)

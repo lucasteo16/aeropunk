@@ -10,7 +10,7 @@ navigation:
 
 ## Bridges
 
-- Browse items: <EmiSearch query="@mcwbridges" />
+<EmiSearch query="@mcwbridges" />
 
 <ItemGrid>
   <ItemIcon id="mcwbridges:oak_log_bridge_middle" />
@@ -32,7 +32,7 @@ Macaw's Bridges supplies spans, stairs and supports in wood and stone families. 
 
 ## Roofs
 
-- Browse items: <EmiSearch query="@mcwroofs" />
+<EmiSearch query="@mcwroofs" />
 
 <ItemGrid>
   <ItemIcon id="mcwroofs:oak_roof" />
@@ -54,7 +54,7 @@ Macaw's Roofs uses separate pieces for the base, ridge and attic, including stee
 
 ## Stairs & balconies
 
-- Browse items: <EmiSearch query="@mcwstairs" />
+<EmiSearch query="@mcwstairs" />
 
 <ItemGrid>
   <ItemIcon id="mcwstairs:oak_bulk_stairs" />
@@ -80,7 +80,7 @@ Macaw's Stairs provides different stair profiles with platforms, balconies and m
 
 ## Doors
 
-- Browse items: <EmiSearch query="@mcwdoors" />
+<EmiSearch query="@mcwdoors" />
 
 <ItemGrid>
   <ItemIcon id="mcwdoors:oak_barn_door" />
@@ -100,7 +100,7 @@ Macaw's Doors changes the visual style of building entrances. The shown doors ar
 
 ## Windows
 
-- Browse items: <EmiSearch query="@mcwwindows" />
+<EmiSearch query="@mcwwindows" />
 
 <ItemGrid>
   <ItemIcon id="mcwwindows:oak_window" />
@@ -122,7 +122,7 @@ Macaw's Windows combines window shapes with shutters and curtains. Choose the op
 
 ## Fences & walls
 
-- Browse items: <EmiSearch query="@mcwfences" />
+<EmiSearch query="@mcwfences" />
 
 <ItemGrid>
   <ItemIcon id="mcwfences:oak_picket_fence" />

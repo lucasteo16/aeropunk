@@ -10,7 +10,7 @@ navigation:
 
 ## 背包操作
 
-- 浏览物品: <EmiSearch query="@interactic" />
+<EmiSearch query="@interactic" />
 
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />

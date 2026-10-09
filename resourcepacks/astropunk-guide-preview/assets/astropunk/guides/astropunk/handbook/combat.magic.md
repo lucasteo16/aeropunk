@@ -14,7 +14,7 @@ item_ids:
 
 ## Spell binding
 
-- Browse items: <EmiSearch query="@spell_engine" />
+<EmiSearch query="@spell_engine" />
 
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
@@ -40,7 +40,7 @@ Books carry learned abilities. A skill-tree point improves a build but is not a 
 
 ## Casting requirements
 
-- Browse items: <EmiSearch query="@runes" />
+<EmiSearch query="@runes" />
 
 Read each spell tooltip for school, target, casting time, resource cost and cooldown. Keep any required runes or ammunition available. A spell assigned to a book can still be unavailable with an incompatible weapon.
 
@@ -51,7 +51,7 @@ Set spell-hotbar controls in Key Binds. The current first action is <KeyBind id=
 
 ## Arcane
 
-- Browse items: <EmiSearch query="@wizards" />
+<EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -122,7 +122,7 @@ Frost magic combines area attacks, protection and projectiles.
 
 ## Aqua
 
-- Browse items: <EmiSearch query="@elemental_wizards_rpg" />
+<EmiSearch query="@elemental_wizards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
@@ -193,7 +193,7 @@ Air magic combines aimed attacks, persistent areas and self effects.
 
 ## Paladin
 
-- Browse items: <EmiSearch query="@paladins" />
+<EmiSearch query="@paladins" />
 
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
@@ -241,7 +241,7 @@ Healing-school magic offers beams, healing areas and protection.
 
 ## Bard
 
-- Browse items: <EmiSearch query="@bards_rpg" />
+<EmiSearch query="@bards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
@@ -266,7 +266,7 @@ Instrument-based abilities combine arcane attacks and support effects.
 
 ## Fencing
 
-- Browse items: <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />

@@ -2,7 +2,6 @@
 navigation:
   title: "Building"
   position: 8
-  parent: quick-reference.md
   icon: minecraft:bricks
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Materials & shapes
 
-- Browse items: <EmiSearch query="@chipped" /> <EmiSearch query="@copycats" /> <EmiSearch query="@mcwroofs" />
+<EmiSearch query="@chipped" /> <EmiSearch query="@copycats" /> <EmiSearch query="@mcwroofs" />
 
 <ItemGrid>
   <ItemIcon id="chipped:mason_table" />
@@ -27,7 +26,7 @@ navigation:
 
 ## Rooms & tools
 
-- Browse items: <EmiSearch query="@handcrafted" /> <EmiSearch query="@immersive_paintings" /> <EmiSearch query="@mechtrowel" /> <EmiSearch query="@torchmaster" />
+<EmiSearch query="@handcrafted" /> <EmiSearch query="@immersive_paintings" /> <EmiSearch query="@mechtrowel" /> <EmiSearch query="@torchmaster" />
 
 <ItemGrid>
   <ItemIcon id="handcrafted:oak_chair" />

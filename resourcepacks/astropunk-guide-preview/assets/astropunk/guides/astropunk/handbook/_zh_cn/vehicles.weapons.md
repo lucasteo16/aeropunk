@@ -10,7 +10,7 @@ navigation:
 
 ## 火炮
 
-- 浏览物品: <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
+<EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createbigcannons:cannon_mount" />
@@ -34,7 +34,7 @@ Create Big Cannons 提供大型炮管、炮膛、炮尾与炮闩，以及自动�
 
 ## 弹药与发射器
 
-- 浏览物品: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="createbigcannons:ap_shell" />

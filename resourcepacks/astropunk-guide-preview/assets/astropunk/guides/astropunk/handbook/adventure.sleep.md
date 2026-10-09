@@ -10,7 +10,7 @@ navigation:
 
 ## Rest while travelling
 
-- Browse items: <EmiSearch query="@comforts" />
+<EmiSearch query="@comforts" />
 
 Sleeping bags provide portable night-time rest without changing your home respawn point. The pack enables their recipes. This white example uses three white wool blocks, other colors use their matching wool.
 

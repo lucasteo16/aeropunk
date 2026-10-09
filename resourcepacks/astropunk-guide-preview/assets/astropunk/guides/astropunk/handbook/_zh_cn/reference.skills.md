@@ -2,7 +2,6 @@
 navigation:
   title: "战斗"
   position: 6
-  parent: quick-reference.md
   icon: minecraft:iron_sword
 ---
 
@@ -14,7 +13,7 @@ navigation:
 
 ### 武技职业
 
-- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@rogues" />
+<EmiSearch query="@archers" /> <EmiSearch query="@berserker_rpg" /> <EmiSearch query="@forcemaster_rpg" /> <EmiSearch query="@rogues" />
 
 | 职业 | 用途 | 入门武器或法器 |
 | --- | --- | --- |
@@ -29,7 +28,7 @@ navigation:
 
 ### 魔法与辅助职业
 
-- 浏览物品: <EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@witcher_rpg" /> <EmiSearch query="@wizards" />
 
 | 职业 | 用途 | 入门武器或法器 |
 | --- | --- | --- |
@@ -61,7 +60,7 @@ navigation:
 
 ## 起步步骤
 
-- 浏览物品: <EmiSearch query="@spell_engine" />
+<EmiSearch query="@spell_engine" />
 
 <ItemGrid><ItemIcon id="spell_engine:spell_binding" /></ItemGrid>
 

@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import re
 import unittest
+from test_flat_sidebar import SECTIONS
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
@@ -12,11 +13,11 @@ class NavigationSkeleton(unittest.TestCase):
     def test_reference_sections_have_one_primary_parent(self):
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
-            self.assertTrue((base / 'quick-reference.md').is_file())
+            self.assertFalse((base / 'quick-reference.md').exists())
             self.assertFalse((base / 'mod-catalogs.md').exists())
             self.assertEqual(list(base.glob('category-*.md')), [])
             for filename in ('adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'):
-                self.assertIn('  parent: quick-reference.md\n', (base / filename).read_text())
+                self.assertNotIn('  parent:', (base / filename).read_text())
 
     def test_sidebar_is_acyclic_and_no_more_than_two_category_levels(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
@@ -34,23 +35,22 @@ class NavigationSkeleton(unittest.TestCase):
                     current = base / name
                     self.assertTrue(current.is_file())
                     depth += 1
-                self.assertEqual(current.name, 'quick-reference.md', path.name)
-                self.assertLessEqual(depth, 2, path.name)
+                self.assertIn(current.name, {topic + '.md' for topic in SECTIONS}, path.name)
+                self.assertLessEqual(depth, 1, path.name)
 
     def test_home_and_sidebar_reference_directory_match(self):
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
             home = (base / 'index.md').read_text()
-            directory = (base / 'quick-reference.md').read_text()
-            refs = set(re.findall(r'\]\(([^)]+\.md)\)', directory))
-            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'quick-reference.md'})
+            refs = {topic + '.md' for topic in SECTIONS}
+            self.assertEqual(set(re.findall(r'\]\(([^)]+\.md)\)', home)), {'help.controls.md'})
             self.assertNotIn('| Reference | Contents |', home)
             self.assertEqual(len(refs), 16)
             self.assertNotIn('reference.equipment.md', refs)
             for child in ('reference.equipment.md', 'combat.abilities.md'):
                 self.assertIn('  parent: reference.skills.md\n', (base / child).read_text())
             for filename in refs:
-                self.assertIn('  parent: quick-reference.md\n', (base / filename).read_text())
+                self.assertNotIn('  parent:', (base / filename).read_text())
 
     def test_provider_inventory_has_one_primary_home_and_honest_footer_rows(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
@@ -93,21 +93,23 @@ class NavigationSkeleton(unittest.TestCase):
             for name, title in (('help.search.md', '浏览配方' if locale else 'Browse recipe'), ('reference.vehicles.md', '交通' if locale else 'Transport')):
                 text = (PAGES / locale / name).read_text()
                 self.assertIn('# ' + title + '\n', text)
-                self.assertIn('[' + title + '](' + name + ')', (PAGES / locale / 'quick-reference.md').read_text())
+                self.assertIn('  title: ' + json.dumps(title, ensure_ascii=False), text)
+                self.assertNotIn('  parent:', text)
 
     def test_audio_compatibility_providers_have_audio_homes(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         by_path = {e['metadata_path']: e for e in manifest['content']}
         for path in ('mods/cool-rain-reforged.pw.toml', 'mods/pf-neoforge.pw.toml', 'mods/sable-cool-rain.pw.toml', 'mods/presence-footsteps-x-sable.pw.toml'):
-            self.assertEqual(by_path[path]['topic'], 'sounds.ambience')
+            self.assertEqual(by_path[path]['topic'], 'reference.audio')
             self.assertEqual(by_path[path]['category'], 'Visuals and sound')
         for locale in ('', '_zh_cn'):
-            self.assertIn('  parent: reference.audio.md\n', (PAGES / locale / 'sounds.ambience.md').read_text())
+            self.assertFalse((PAGES / locale / 'sounds.ambience.md').exists())
+            self.assertNotIn('  parent:', (PAGES / locale / 'reference.audio.md').read_text())
 
     def test_schema_counts_match_generated_files(self):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         self.assertEqual(manifest['category_count'], 0)
-        self.assertEqual(manifest['navigation_page_count'], 1)
+        self.assertEqual(manifest['navigation_page_count'], 0)
         self.assertEqual(len(list(PAGES.glob('*.md'))), manifest['article_count'] + manifest['reference_directory_count'] + manifest['navigation_page_count'] + 1)
 
 

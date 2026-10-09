@@ -10,7 +10,7 @@ navigation:
 
 ## Detection & display
 
-- Browse items: <EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="create_radar:radar_bearing" />
@@ -36,7 +36,7 @@ Create Radars separates detection components from receivers and displays. Choose
 
 ## Targets & fire control
 
-- Browse items: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="create_radar:identification_transponder" />

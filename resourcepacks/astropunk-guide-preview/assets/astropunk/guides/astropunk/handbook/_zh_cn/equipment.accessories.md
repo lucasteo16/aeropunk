@@ -10,7 +10,7 @@ navigation:
 
 ## 装备饰品
 
-- 浏览物品: <EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
+<EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
 
 <ItemGrid>
   <ItemIcon id="jewelry:jewelers_kit" />
@@ -187,7 +187,7 @@ navigation:
 
 ### 戒指
 
-- 浏览物品: <EmiSearch query="@additional_rpg_jewelry" />
+<EmiSearch query="@additional_rpg_jewelry" />
 
 <ItemGrid>
   <ItemIcon id="additional_rpg_jewelry:aquamarine_ring" />
@@ -439,7 +439,7 @@ navigation:
 
 ### 低阶遗物
 
-- 浏览物品: <EmiSearch query="@more_relics" />
+<EmiSearch query="@more_relics" />
 
 <ItemGrid>
   <ItemIcon id="more_relics:lesser_proc_air_water" />
@@ -530,7 +530,7 @@ navigation:
 
 ## Cataclysm 饰品
 
-- 浏览物品: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 这些特殊装备有各自效果与槽位规则。替换珠宝或遗物之前，先查看完整提示。
 

@@ -22,7 +22,7 @@ class UnifiedContent(unittest.TestCase):
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         for entry in manifest['content']:
             if entry['metadata_path'] in ('mods/cool-rain-reforged.pw.toml', 'mods/presence-footsteps.pw.toml', 'mods/sable-cool-rain.pw.toml', 'mods/presence-footsteps-x-sable.pw.toml'):
-                self.assertEqual(entry['topic'], 'sounds.ambience')
+                self.assertEqual(entry['topic'], 'reference.audio')
         for locale in ('', '_zh_cn'):
             for topic in ('reference.technical', 'technical.libraries', 'technical.bridges', 'technical.space-bridge'):
                 self.assertNotIn('WIP', (PAGES / locale / (topic + '.md')).read_text())

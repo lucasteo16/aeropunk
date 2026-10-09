@@ -10,7 +10,7 @@ navigation:
 
 ## Train fittings
 
-- Browse items: <EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
+<EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="bellsandwhistles:brass_pilot" />
@@ -34,7 +34,7 @@ Create: Bells & Whistles adds exterior train fittings and body panels. Choose th
 
 ## Tiles & fittings
 
-- Browse items: <EmiSearch query="@bits_n_bobs" />
+<EmiSearch query="@bits_n_bobs" />
 
 <ItemGrid>
   <ItemIcon id="bits_n_bobs:tuff_tiles" />
@@ -54,7 +54,7 @@ Create: Bits 'n' Bobs combines stone tile families with seating and lighting. Th
 
 ## Bricks & catwalks
 
-- Browse items: <EmiSearch query="@createdeco" />
+<EmiSearch query="@createdeco" />
 
 <ItemGrid>
   <ItemIcon id="createdeco:iron_catwalk" />
@@ -76,7 +76,7 @@ Create Deco combines colored brick patterns with matching slabs, stairs and wall
 
 ## Industrial palette
 
-- Browse items: <EmiSearch query="@dndecor" />
+<EmiSearch query="@dndecor" />
 
 <ItemGrid>
   <ItemIcon id="dndecor:gold_catwalk" />
@@ -98,7 +98,7 @@ Create: Design n' Decor supplies industrial cladding and large decorative machin
 
 ## Encased machinery
 
-- Browse items: <EmiSearch query="@createcasing" />
+<EmiSearch query="@createcasing" />
 
 <ItemGrid>
   <ItemIcon id="createcasing:railway_clutch" />
@@ -120,7 +120,7 @@ Create Encased adds wood transmission parts and material-specific encased machin
 
 ## Frames & glass
 
-- Browse items: <EmiSearch query="@createframed" />
+<EmiSearch query="@createframed" />
 
 <ItemGrid>
   <ItemIcon id="createframed:tinted_framed_glass" />
@@ -142,7 +142,7 @@ Create: Framed supplies framed and tiled glazing for openings. Stained variants 
 
 ## Beams & trusses
 
-- Browse items: <EmiSearch query="@createmoregirder" />
+<EmiSearch query="@createmoregirder" />
 
 <ItemGrid>
   <ItemIcon id="createmoregirder:andesite_beam" />
@@ -164,7 +164,7 @@ Create: More Girder supplies structural beam and truss forms with matching conne
 
 ## Glass casings
 
-- Browse items: <EmiSearch query="@createprism" />
+<EmiSearch query="@createprism" />
 
 <ItemGrid>
   <ItemIcon id="createprism:andesite_glass_casing" />

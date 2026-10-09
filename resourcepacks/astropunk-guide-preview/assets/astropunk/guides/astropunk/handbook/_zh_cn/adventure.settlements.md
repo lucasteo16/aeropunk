@@ -60,7 +60,7 @@ ChoiceTheorem's Overhauled Village
 
 ## 酒馆
 
-- 浏览物品: <EmiSearch query="@village_taverns" />
+<EmiSearch query="@village_taverns" />
 
 ![Village Taverns (RPG Series)](images/encounters-village-taverns-catalog.png)
 
@@ -80,7 +80,7 @@ ChoiceTheorem's Overhauled Village
 
 ## 村庄建筑
 
-- 浏览物品: <EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
+<EmiSearch query="@archers" /> <EmiSearch query="@bards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
 | 模组 | 职业与建筑 | 模板风格 |
 | --- | --- | --- |

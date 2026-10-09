@@ -10,7 +10,7 @@ navigation:
 
 ## Lift & envelopes
 
-- Browse items: <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
+<EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
 
 <ItemGrid>
   <ItemIcon id="aeronautics:white_envelope" />

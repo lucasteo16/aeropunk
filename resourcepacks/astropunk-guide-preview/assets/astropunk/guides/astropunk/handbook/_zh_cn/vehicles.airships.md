@@ -10,7 +10,7 @@ navigation:
 
 ## 升力与气囊
 
-- 浏览物品: <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
+<EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
 
 <ItemGrid>
   <ItemIcon id="aeronautics:white_envelope" />

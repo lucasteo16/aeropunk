@@ -37,10 +37,12 @@ public class NativeNavigationProbe {
   for(String line:Files.readAllLines(path)){String[] x=line.split("\\t",-1); var p=new ParsedGuidePage(id(x[0]),new Frontmatter(new FrontmatterNavigation(x[1],x[2].isEmpty()?null:id(x[2]),Integer.parseInt(x[3]))));result.put(p.getId(),p);}return result;
  }
  static Set<String> roots(NavigationTree t){Set<String>s=new TreeSet<>();for(var n:t.getRootNodes())s.add(n.pageId().toString());return s;}
- static int walk(NavigationNode n,int depth,Set<String>seen){if(!seen.add(n.pageId().toString()))throw new AssertionError("Duplicate or cyclic node"); if(depth>2)throw new AssertionError("Third category level");int count=1; for(var c:n.children())count+=walk(c,depth+1,seen);return count;}
+ static int walk(NavigationNode n,int depth,Set<String>seen){if(!seen.add(n.pageId().toString()))throw new AssertionError("Duplicate or cyclic node"); if(depth>1)throw new AssertionError("Unexpected second category level");int count=1; for(var c:n.children())count+=walk(c,depth+1,seen);return count;}
  public static void main(String[]args)throws Exception{
   var watched=load(Path.of(args[0]));var fallback=new HashMap<>(watched); var clean=NavigationTree.build(watched.values());
-  if(!roots(clean).equals(Set.of("index.md","quick-reference.md")))throw new AssertionError("Unexpected source roots "+roots(clean));
+  if(!roots(clean).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md")))throw new AssertionError("Unexpected source roots "+roots(clean));
+  var ordered=new ArrayList<String>();for(var n:clean.getRootNodes())ordered.add(n.pageId().toString());
+  if(!ordered.equals(List.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md")))throw new AssertionError("Unexpected native root order "+ordered);
   var combat=clean.getNodeById(id("reference.skills.md"));var children=new HashSet<String>();for(var n:combat.children())children.add(n.pageId().toString());
   if(!children.containsAll(Set.of("reference.equipment.md","combat.abilities.md","equipment.weapons-armor.md","combat.magic.md")))throw new AssertionError("Combat siblings missing");
   if(clean.getNodeById(id("reference.equipment.md")).children().size()!=0)throw new AssertionError("Equipment inserted third level");
@@ -48,15 +50,24 @@ public class NativeNavigationProbe {
   for(int i=0;i<10;i++){var p=new ParsedGuidePage(id("category-old-"+i+".md"),new Frontmatter(new FrontmatterNavigation("Old catalog "+i,null,0)));fallback.put(p.getId(),p);}
   // Released MutableGuide copies fallback and then putAll(developmentPages).
   var merged=new HashMap<>(fallback);merged.putAll(watched);
-  if(roots(NavigationTree.build(merged.values())).size()!=12)throw new AssertionError("Negative stale fallback control failed");
+  if(roots(NavigationTree.build(merged.values())).size()!=27)throw new AssertionError("Negative stale fallback control failed");
   // Removing watched overrides does not tombstone the packaged resource.
-  var oldId=id("category-old-0.md");var override=new ParsedGuidePage(oldId,new Frontmatter(new FrontmatterNavigation("Old",id("quick-reference.md"),0)));watched.put(oldId,override);merged=new HashMap<>(fallback);merged.putAll(watched);
-  if(roots(NavigationTree.build(merged.values())).size()!=11)throw new AssertionError("Watched precedence control failed");
+  var oldId=id("category-old-0.md");var override=new ParsedGuidePage(oldId,new Frontmatter(new FrontmatterNavigation("Old",id("reference.utilities.md"),0)));watched.put(oldId,override);merged=new HashMap<>(fallback);merged.putAll(watched);
+  if(roots(NavigationTree.build(merged.values())).size()!=26)throw new AssertionError("Watched precedence control failed");
   watched.remove(oldId);merged=new HashMap<>(fallback);merged.putAll(watched);
-  if(roots(NavigationTree.build(merged.values())).size()!=12)throw new AssertionError("Deletion resurrection control failed");
+  if(roots(NavigationTree.build(merged.values())).size()!=27)throw new AssertionError("Deletion resurrection control failed");
   for(int i=0;i<10;i++)fallback.remove(id("category-old-"+i+".md"));merged=new HashMap<>(fallback);merged.putAll(watched);
-  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","quick-reference.md")))throw new AssertionError("Fallback repair failed");
-  System.out.println("PASS released NavigationTree, "+count+" nodes, two roots, Combat siblings, depth, fallback merge, watched deletion and repair controls");
+  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md")))throw new AssertionError("Fallback repair failed");
+  var obsolete=new ParsedGuidePage(id("quick-reference.md"),new Frontmatter(new FrontmatterNavigation("Quick reference",null,0)));fallback.put(obsolete.getId(),obsolete);merged=new HashMap<>(fallback);merged.putAll(watched);
+  if(!roots(NavigationTree.build(merged.values())).contains("quick-reference.md"))throw new AssertionError("Quick reference fallback resurrection control failed");
+  fallback.remove(obsolete.getId());merged=new HashMap<>(fallback);merged.putAll(watched);
+  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md")))throw new AssertionError("Quick reference fallback reconciliation failed");
+  if(!clean.getNodeById(id("reference.audio.md")).children().isEmpty())throw new AssertionError("Audio wrapper remains");
+  var sound=new ParsedGuidePage(id("sounds.ambience.md"),new Frontmatter(new FrontmatterNavigation("Sound",id("reference.audio.md"),0)));fallback.put(sound.getId(),sound);merged=new HashMap<>(fallback);merged.putAll(watched);
+  if(NavigationTree.build(merged.values()).getNodeById(id("reference.audio.md")).children().size()!=1)throw new AssertionError("Sound fallback resurrection control failed");
+  fallback.remove(sound.getId());merged=new HashMap<>(fallback);merged.putAll(watched);
+  if(!NavigationTree.build(merged.values()).getNodeById(id("reference.audio.md")).children().isEmpty())throw new AssertionError("Sound fallback reconciliation failed");
+  System.out.println("PASS released NavigationTree, "+count+" nodes, seventeen ordered roots, direct Audio article, Combat siblings, depth, fallback merge, watched deletion, obsolete Quick reference and Sound resurrection and repair controls");
  }
 }'''
 }

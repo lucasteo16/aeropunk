@@ -15,7 +15,7 @@ item_ids:
 
 ## 厨房工具
 
-- 浏览物品: <EmiSearch query="@farmersdelight" />
+<EmiSearch query="@farmersdelight" />
 
 ![营火上的烹饪锅](images/nav-visual-farmers-delight-pot-campfire.png)
 

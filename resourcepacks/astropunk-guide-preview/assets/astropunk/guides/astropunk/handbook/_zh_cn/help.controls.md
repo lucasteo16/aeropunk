@@ -2,7 +2,6 @@
 navigation:
   title: "操作与按键"
   position: 0
-  parent: quick-reference.md
   icon: minecraft:lever
 ---
 
@@ -21,7 +20,7 @@ navigation:
 
 ## 手册
 
-- 浏览物品: <EmiSearch query="@guideme" />
+<EmiSearch query="@guideme" />
 
 | 入口 | 当前按键 |
 | --- | --- |

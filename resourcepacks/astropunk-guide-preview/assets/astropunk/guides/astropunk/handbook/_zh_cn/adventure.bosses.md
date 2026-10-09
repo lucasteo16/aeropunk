@@ -2,7 +2,6 @@
 navigation:
   title: "首领"
   position: 2
-  parent: quick-reference.md
   icon: minecraft:dragon_head
 item_ids:
   - cataclysm:abyssal_sacrifice
@@ -20,7 +19,7 @@ item_ids:
 
 ## 炼狱飞龙
 
-- 浏览物品: <EmiSearch query="@block_factorys_bosses" />
+<EmiSearch query="@block_factorys_bosses" />
 
 ![炼狱飞龙](images/encounters-bossesrise-infernal-dragon.png)
 
@@ -82,7 +81,7 @@ item_ids:
 
 ## 焰魔
 
-- 浏览物品: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 ![焰魔](images/encounters-l_enders-cataclysm-ignis.png)
 
@@ -208,7 +207,7 @@ item_ids:
 
 ## 祈灵师
 
-- 浏览物品: <EmiSearch query="@illagerinvasion" />
+<EmiSearch query="@illagerinvasion" />
 
 ![祈灵师](images/final-boss-review-invoker.png)
 

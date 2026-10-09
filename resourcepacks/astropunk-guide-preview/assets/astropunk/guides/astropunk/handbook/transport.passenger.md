@@ -10,7 +10,7 @@ navigation:
 
 ## Routes & stops
 
-- Browse items: <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
+<EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />

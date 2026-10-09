@@ -10,7 +10,7 @@ navigation:
 
 ## Cannons
 
-- Browse items: <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
+<EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="createbigcannons:cannon_mount" />
@@ -34,7 +34,7 @@ Create Big Cannons supplies large cannon barrels, chambers, ends and breeches, p
 
 ## Ammunition & launchers
 
-- Browse items: <EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" />
 
 <ItemGrid>
   <ItemIcon id="createbigcannons:ap_shell" />

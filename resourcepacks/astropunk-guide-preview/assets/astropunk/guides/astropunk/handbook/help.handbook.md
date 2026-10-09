@@ -10,10 +10,9 @@ navigation:
 
 ## Using the handbook
 
-Quick reference groups the installed content by function. Topic pages explain what exists, how to begin and how related tools fit together. Relevant mods and item queries appear below each topic. Hover native item slots and names for tooltips, click pink queries to browse items.
+The sidebar groups installed content by function, with each main topic directly accessible. Topic pages explain what exists, how to begin and how related tools fit together. Relevant mods and item queries appear below each topic. Hover native item slots and names for tooltips, click pink queries to browse items.
 
 - [Astropunk](index.md) What the pack offers.
-- [Quick reference](quick-reference.md) Gameplay and support topics.
 - [Controls](help.controls.md) Bindings and access.
 - [Browse recipe](help.search.md) Ingredients and uses.
 

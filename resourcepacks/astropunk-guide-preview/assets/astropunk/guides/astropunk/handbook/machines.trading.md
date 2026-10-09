@@ -10,7 +10,7 @@ navigation:
 
 ## Trading depots
 
-- Browse items: <EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
+<EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="trading_floor:trading_depot" />

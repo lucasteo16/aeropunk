@@ -2,7 +2,6 @@
 navigation:
   title: "外观"
   position: 13
-  parent: quick-reference.md
   icon: minecraft:painting
 ---
 

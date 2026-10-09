@@ -2,7 +2,6 @@
 navigation:
   title: "结构与地牢"
   position: 4
-  parent: quick-reference.md
   icon: minecraft:stone_bricks
 ---
 
@@ -63,7 +62,7 @@ Mechanical Nest
 
 ## Bosses'Rise
 
-- 浏览物品: <EmiSearch query="@block_factorys_bosses" />
+<EmiSearch query="@block_factorys_bosses" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-bossesrise-provider-art.png)
 
@@ -85,7 +84,7 @@ Mechanical Nest
 
 ## L_Ender's Cataclysm
 
-- 浏览物品: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-l_enders-cataclysm-provider-art.png)
 
@@ -117,7 +116,7 @@ Mechanical Nest
 
 ## Illager Invasion
 
-- 浏览物品: <EmiSearch query="@illagerinvasion" />
+<EmiSearch query="@illagerinvasion" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-illager-invasion-provider-art.png)
 
@@ -285,7 +284,7 @@ Citadel 内的野火
 
 ## Spawn
 
-- 浏览物品: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 ![深水珊瑚礁、巨蚌与梭鱼。这是栖息地画面，并非岛屿建筑。](images/encounters-spawn-mod-deep-coral-reef-giant-clams-and-barracuda.png)
 
@@ -362,7 +361,7 @@ Citadel 内的野火
 
 ## 猎魔人建筑
 
-- 浏览物品: <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@witcher_rpg" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-witcher-rpg-class-provider-art.png)
 
@@ -385,7 +384,7 @@ Citadel 内的野火
 
 ## Supplementaries
 
-- 浏览物品: <EmiSearch query="@supplementaries" />
+<EmiSearch query="@supplementaries" />
 
 ![模组项目图标，并非建筑截图。](images/revision-encounters-supplementaries-provider-art.png)
 

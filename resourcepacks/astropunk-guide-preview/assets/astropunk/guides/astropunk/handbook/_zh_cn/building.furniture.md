@@ -10,7 +10,7 @@ navigation:
 
 ## 房间
 
-- 浏览物品: <EmiSearch query="@handcrafted" />
+<EmiSearch query="@handcrafted" />
 
 ![发布者布置的房间](images/building-travel-furniture.png)
 
@@ -42,7 +42,7 @@ Handcrafted 提供配套座椅、桌面、储物造型家具与床，并覆盖�
 
 ## 座椅与织物
 
-- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@interiors" />
+<EmiSearch query="@create" /> <EmiSearch query="@interiors" />
 
 <ItemGrid>
   <ItemIcon id="interiors:white_chair" />
@@ -64,7 +64,7 @@ Create Interiors 提供十六种染料颜色的椅子、地椅与坐垫，以及
 
 ## 植物与灯具
 
-- 浏览物品: <EmiSearch query="@beautify" />
+<EmiSearch query="@beautify" />
 
 <ItemGrid>
   <ItemIcon id="beautify:hanging_pot" />
@@ -90,7 +90,7 @@ Beautify 提供植物陈设、墙面装饰与灯具。通过各物品的独立�
 
 ## 小型摆设
 
-- 浏览物品: <EmiSearch query="@amendments" /> <EmiSearch query="@supplementaries" />
+<EmiSearch query="@amendments" /> <EmiSearch query="@supplementaries" />
 
 <ItemGrid>
   <ItemIcon id="supplementaries:awning" />

@@ -16,7 +16,7 @@ Choose the role you want to try and craft its weapon or focus. These recipes are
 
 ### Archer
 
-- Browse items: <EmiSearch query="@archers" />
+<EmiSearch query="@archers" />
 
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
@@ -42,7 +42,7 @@ Rapid ranged attacks and disabling shots.
 
 ### Rogue
 
-- Browse items: <EmiSearch query="@rogues" />
+<EmiSearch query="@rogues" />
 
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
@@ -68,7 +68,7 @@ Charges and defensive melee techniques.
 
 ### Berserker
 
-- Browse items: <EmiSearch query="@berserker_rpg" />
+<EmiSearch query="@berserker_rpg" />
 
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
@@ -82,7 +82,7 @@ Rage effects and heavy melee strikes.
 
 ### Forcemaster
 
-- Browse items: <EmiSearch query="@forcemaster_rpg" />
+<EmiSearch query="@forcemaster_rpg" />
 
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
@@ -96,7 +96,7 @@ Arcane strikes with knuckles.
 
 ### Arcane Wizard
 
-- Browse items: <EmiSearch query="@wizards" />
+<EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
@@ -134,7 +134,7 @@ Frost attacks and protective effects.
 
 ### Aqua Wizard
 
-- Browse items: <EmiSearch query="@elemental_wizards_rpg" />
+<EmiSearch query="@elemental_wizards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
@@ -172,7 +172,7 @@ Air attacks and tornado areas.
 
 ### Paladin
 
-- Browse items: <EmiSearch query="@paladins" />
+<EmiSearch query="@paladins" />
 
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
@@ -198,7 +198,7 @@ Healing beams and group protection.
 
 ### Bard
 
-- Browse items: <EmiSearch query="@bards_rpg" />
+<EmiSearch query="@bards_rpg" />
 
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
@@ -212,7 +212,7 @@ Instrument attacks and support songs.
 
 ### Witcher fencing
 
-- Browse items: <EmiSearch query="@witcher_rpg" />
+<EmiSearch query="@witcher_rpg" />
 
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
@@ -308,7 +308,7 @@ Deadeye, Tundra Hunter and War Archer equipment supports physical, frost and fir
 
 ### Armor sets
 
-- Browse items: <EmiSearch query="@archers_expansion" />
+<EmiSearch query="@archers_expansion" />
 
 Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
@@ -1361,7 +1361,7 @@ Named armor sets add build-specific attributes and set effects. Read the set req
 
 ### Armor sets
 
-- Browse items: <EmiSearch query="@armory_rpgs" />
+<EmiSearch query="@armory_rpgs" />
 
 Each group shows every piece of one supported set, ordered head, chest, legs and feet.
 
@@ -1517,7 +1517,7 @@ Named weapons span melee, ranged, shields and spell focuses. Compare each weapon
 
 ### Weapons
 
-- Browse items: <EmiSearch query="@arsenal" />
+<EmiSearch query="@arsenal" />
 
 <ItemGrid>
   <ItemIcon id="arsenal:unique_claymore_1" />
@@ -1618,7 +1618,7 @@ Named weapons span melee, ranged, shields and spell focuses. Compare each weapon
 
 ## Cataclysm equipment
 
-- Browse items: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 Named melee weapons, shields, ranged weapons, weapon-tools and armor have their own effects. They are not automatically class spell focuses. This catalog covers combat equipment, not summoning tools or crafting materials.
 

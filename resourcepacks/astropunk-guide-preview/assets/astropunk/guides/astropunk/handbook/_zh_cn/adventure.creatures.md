@@ -2,7 +2,6 @@
 navigation:
   title: "生物"
   position: 3
-  parent: quick-reference.md
   icon: minecraft:egg
 ---
 
@@ -10,7 +9,7 @@ navigation:
 
 ## Creeper Overhaul
 
-- 浏览物品: <EmiSearch query="@creeperoverhaul" />
+<EmiSearch query="@creeperoverhaul" />
 
 ![云杉苦力怕](images/encounters-creeper-overhaul-spruce-creeper.png)
 
@@ -41,7 +40,7 @@ navigation:
 
 ## Enderman Overhaul
 
-- 浏览物品: <EmiSearch query="@endermanoverhaul" />
+<EmiSearch query="@endermanoverhaul" />
 
 ![花卉末影人](images/encounters-enderman-overhaul-flower-fields-enderman.png)
 
@@ -101,7 +100,7 @@ navigation:
 
 ## Variants&Ventures
 
-- 浏览物品: <EmiSearch query="@variantsandventures" />
+<EmiSearch query="@variantsandventures" />
 
 ![冰冻僵尸](images/encounters-variants-and-ventures-gelid-frozen-zombie.png)
 
@@ -118,7 +117,7 @@ navigation:
 
 ## Spawn
 
-- 浏览物品: <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 ![蜗牛](images/encounters-spawn-mod-snail.png)
 
@@ -158,7 +157,7 @@ navigation:
 
 ## Bosses'Rise
 
-- 浏览物品: <EmiSearch query="@block_factorys_bosses" />
+<EmiSearch query="@block_factorys_bosses" />
 
 这些敌人守卫首领建筑。
 
@@ -181,7 +180,7 @@ navigation:
 
 ## L_Ender's Cataclysm
 
-- 浏览物品: <EmiSearch query="@cataclysm" />
+<EmiSearch query="@cataclysm" />
 
 在对应遗迹与首领建筑附近寻找这些生物。部分伙伴的获取方式尚未确认。
 
@@ -225,7 +224,7 @@ navigation:
 
 ## Illager Invasion
 
-- 浏览物品: <EmiSearch query="@illagerinvasion" />
+<EmiSearch query="@illagerinvasion" />
 
 | 生物 | 遭遇地点与特点 |
 | --- | --- |
@@ -257,7 +256,7 @@ navigation:
 
 ## 其他遭遇
 
-- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@supplementaries" />
+<EmiSearch query="@create" /> <EmiSearch query="@supplementaries" />
 
 | 模组 | 生物与获取方式 |
 | --- | --- |

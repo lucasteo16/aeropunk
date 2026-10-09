@@ -28,7 +28,7 @@ navigation:
 
 ## 模拟与地形
 
-- 浏览物品: <EmiSearch query="@create" /> <EmiSearch query="@createlazytick" />
+<EmiSearch query="@create" /> <EmiSearch query="@createlazytick" />
 
 这些组件针对游戏逻辑、生物处理、机械动力机器或地形准备。
 

@@ -10,7 +10,7 @@ navigation:
 
 ## Rooms
 
-- Browse items: <EmiSearch query="@handcrafted" />
+<EmiSearch query="@handcrafted" />
 
 ![Handcrafted furniture](images/building-travel-furniture.png)
 
@@ -42,7 +42,7 @@ Handcrafted supplies coordinated seating, surfaces, storage-shaped furniture and
 
 ## Seating & textiles
 
-- Browse items: <EmiSearch query="@create" /> <EmiSearch query="@interiors" />
+<EmiSearch query="@create" /> <EmiSearch query="@interiors" />
 
 <ItemGrid>
   <ItemIcon id="interiors:white_chair" />
@@ -64,7 +64,7 @@ Create Interiors supplies chairs, floor chairs and cushions in sixteen dye color
 
 ## Plants & lamps
 
-- Browse items: <EmiSearch query="@beautify" />
+<EmiSearch query="@beautify" />
 
 <ItemGrid>
   <ItemIcon id="beautify:hanging_pot" />
@@ -90,7 +90,7 @@ Beautify supplies plant displays, wall furnishings and decorative lamps. Choose 
 
 ## Small furnishings
 
-- Browse items: <EmiSearch query="@amendments" /> <EmiSearch query="@supplementaries" />
+<EmiSearch query="@amendments" /> <EmiSearch query="@supplementaries" />
 
 <ItemGrid>
   <ItemIcon id="supplementaries:awning" />
