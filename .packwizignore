@@ -17,6 +17,8 @@ exports/
 client/
 server/
 instances/
+instance-runs/
+instance-templates/
 run/
 world/
 world_nether/
