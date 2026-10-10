@@ -83,6 +83,6 @@ Begin with the alternator and Connecting Wires Ponder entries, then add a meter 
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Adds electricity generation, transmission and powered machinery, including electric trains. | Baseline, installed | <EmiSearch query="@electroenergetics" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Adds electricity generation, transmission and powered machinery, including electric trains. | <EmiSearch query="@electroenergetics" /> |

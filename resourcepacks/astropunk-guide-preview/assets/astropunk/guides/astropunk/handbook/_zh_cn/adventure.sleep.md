@@ -42,7 +42,7 @@ Better Days 控制昼夜时长，也可以在玩家睡眠时加速时间。具�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | 自定义昼夜长度，并在玩家睡眠时加快时间流逝。 | 已安装基准版 | 无独立物品查询 |
-| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | 增加睡袋与吊床，让玩家休息而不改变重生点。 | 已安装基准版 | <EmiSearch query="@comforts" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | 自定义昼夜长度，并在玩家睡眠时加快时间流逝。 | 无独立物品查询 |
+| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | 增加睡袋与吊床，让玩家休息而不改变重生点。 | <EmiSearch query="@comforts" /> |

@@ -1,0 +1,35 @@
+{
+  "handbook": {
+    "archive": "/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.3.0-guide.light.3-modrinth.mrpack",
+    "download": "/home/tsb/.hermes/cache/scratch/astropunk-handbook-final-refinement.mrpack",
+    "version": "0.3.0-guide.light.3",
+    "sha256": "355929b6d387ad2cb7f4795c04c12af7cba54d6c500849dd552a79b6b7ccab5c",
+    "page_count": 226,
+    "native_navigation_levels": 3,
+    "source_tests": 55,
+    "native_parser_pages": 226,
+    "native_compiler_failing_pages": 0,
+    "unique_icons_per_locale": 113
+  },
+  "ship_patch": {
+    "commit": "4c4369374bc050a63ca2a25e9e1fe9252add18e7",
+    "baseline_metadata_unchanged": 284,
+    "exact_added_metadata": [
+      "aeroengine-fuel-compat.pw.toml",
+      "create-aerowarptics.pw.toml"
+    ],
+    "verified_archives": [
+      {
+        "path": "/home/tsb/Projects/lucas/astropunk-ship-patch/dist/astropunk-0.4.0-modrinth.mrpack",
+        "sha256": "0cc6dea34f9c585a21e38d0c85c26ef99db137f0425d15211bfad960c5fa0de8",
+        "mod_count": 286
+      },
+      {
+        "path": "/home/tsb/Projects/lucas/astropunk-ship-patch/dist/astropunk-0.4.0-server.zip",
+        "sha256": "346a7d318230826a9515972f7ef84cf5bdd38ee9d5b70cdd88c243866a933a4c",
+        "mod_count": 220
+      }
+    ]
+  },
+  "boundary": "No launcher import, game launch, desktop automation, live registry test, applied-mixin test or gameplay verification. Compiler normalized item identifiers and skipped Recipe and KeyBind execution. Main unchanged."
+}

@@ -63,7 +63,7 @@ Escalated supplies metal and wooden moving walkway steps for local transport. Us
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Adds rotation-powered escalators for Create buildings. | Baseline, installed | <EmiSearch query="@escalated" /> |
-| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Adds tube transport for moving players around Create builds. | Baseline, installed | <EmiSearch query="@create_hypertube" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Escalated](images/catalog-LyOBYG8Q.png) [Create: Escalated](transport.local.md) | Adds rotation-powered escalators for Create buildings. | <EmiSearch query="@escalated" /> |
+| ![Create: Hypertubes](images/catalog-ATDdrG1y.png) [Create: Hypertubes](transport.local.md) | Adds tube transport for moving players around Create builds. | <EmiSearch query="@create_hypertube" /> |

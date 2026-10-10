@@ -16,29 +16,22 @@ Alpine-style mountain village.
 
 ChoiceTheorem's Overhauled Village
 
-| Style | Biomes | Sizes |
-| --- | --- | --- |
-| Beach | Gravel Beach (terralith) | Small, medium, large |
-| Christmas | Alpine Grove (terralith), Cold Shrubland (terralith), Emerald Peaks (terralith), Rocky Shrubland (terralith), Scarlet Mountains (terralith) and related eligible biomes | Small, medium, large |
-| Desert | Desert Oasis (terralith), Desert Spires (terralith), Lush Desert (terralith), Sandstone Valley (terralith) | Small, medium, large |
-| Desert Oasis | Desert Oasis (terralith), Desert Spires (terralith), Lush Desert (terralith), Sandstone Valley (terralith) | Small, medium, large |
-| Dark Forest | Sakura Grove (terralith), Sakura Valley (terralith) | Small, medium, large |
-| Jungle | Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) | Small, medium, large |
-| Jungle Tree | Amethyst Canyon (terralith), Amethyst Rainforest (terralith), Jungle Mountains (terralith), Rocky Jungle (terralith), Tropical Jungle (terralith) | Small, medium, large |
-| Mesa | Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) | Small, medium, large |
-| Mesa Fortified | Bryce Canyon (terralith), Painted Mountains (terralith), Red Oasis (terralith), Savanna Badlands (terralith), Snowy Badlands (terralith), White Mesa (terralith) | Small, medium, large |
-| Mountain | Alpine Grove (terralith), Ashen Savanna (terralith), Caldera (terralith), Emerald Peaks (terralith), Painted Mountains (terralith) and related eligible biomes | Small, medium, large |
-| Mountain Alpine | Alpine Grove (terralith), Ashen Savanna (terralith), Caldera (terralith), Emerald Peaks (terralith), Painted Mountains (terralith) and related eligible biomes | Small, medium, large |
-| Mushroom | Mushroom Fields | Small, medium, large |
-| Plains | Alpine Highlands (terralith), Arid Highlands (terralith), Blooming Plateau (terralith), Brushland (terralith), Highlands (terralith), Steppe (terralith), Temperate Highlands (terralith) | Small, medium, large |
-| Plains Fortified | Alpine Highlands (terralith), Arid Highlands (terralith), Blooming Plateau (terralith), Brushland (terralith), Highlands (terralith), Steppe (terralith), Temperate Highlands (terralith) | Small, medium, large |
-| Savanna | Arid Highlands (terralith), Ashen Savanna (terralith), Fractured Savanna (terralith), Savanna Badlands (terralith), Savanna Slopes (terralith) | Small, medium, large |
-| Savanna Na | Arid Highlands (terralith), Ashen Savanna (terralith), Fractured Savanna (terralith), Savanna Badlands (terralith), Savanna Slopes (terralith) | Small, medium, large |
-| Snowy Igloo | Alpine Grove (terralith), Cold Shrubland (terralith), Emerald Peaks (terralith), Rocky Shrubland (terralith), Scarlet Mountains (terralith) and related eligible biomes | Small, medium, large |
-| Swamp | Ice Marsh (terralith), Orchid Swamp (terralith) | Small, medium, large |
-| Swamp Fortified | Ice Marsh (terralith), Orchid Swamp (terralith) | Small, medium, large |
-| Taiga | Alpine Grove (terralith), Birch Taiga (terralith), Forested Highlands (terralith), Shield (terralith), Siberian Grove (terralith) and related eligible biomes | Small, medium, large |
-| Taiga Fortified | Alpine Grove (terralith), Birch Taiga (terralith), Forested Highlands (terralith), Shield (terralith), Siberian Grove (terralith) and related eligible biomes | Small, medium, large |
+All listed village styles have small, medium and large variants. The biome lists below name Terralith biomes except Mushroom Fields. Styles with the same listed placement are grouped together. Some rows describe eligible biome examples rather than the complete placement tag.
+
+| Styles | Biomes |
+| --- | --- |
+| Beach | Gravel Beach |
+| Christmas, Snowy Igloo | Alpine Grove, Cold Shrubland, Emerald Peaks, Rocky Shrubland, Scarlet Mountains and related eligible biomes |
+| Desert, Desert Oasis | Desert Oasis, Desert Spires, Lush Desert, Sandstone Valley |
+| Dark Forest | Sakura Grove, Sakura Valley |
+| Jungle, Jungle Tree | Amethyst Canyon, Amethyst Rainforest, Jungle Mountains, Rocky Jungle, Tropical Jungle |
+| Mesa, Mesa Fortified | Bryce Canyon, Painted Mountains, Red Oasis, Savanna Badlands, Snowy Badlands, White Mesa |
+| Mountain, Mountain Alpine | Alpine Grove, Ashen Savanna, Caldera, Emerald Peaks, Painted Mountains and related eligible biomes |
+| Mushroom | Mushroom Fields |
+| Plains, Plains Fortified | Alpine Highlands, Arid Highlands, Blooming Plateau, Brushland, Highlands, Steppe, Temperate Highlands |
+| Savanna, Savanna Na | Arid Highlands, Ashen Savanna, Fractured Savanna, Savanna Badlands, Savanna Slopes |
+| Swamp, Swamp Fortified | Ice Marsh, Orchid Swamp |
+| Taiga, Taiga Fortified | Alpine Grove, Birch Taiga, Forested Highlands, Shield, Siberian Grove and related eligible biomes |
 
 Underground villages are absent from the enabled list. This mod’s pillager outposts are disabled.
 
@@ -104,8 +97,8 @@ These buildings extend village house pools, rather than creating standalone dung
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | Baseline, installed | No separate item search |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | Baseline, installed | No separate item search |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | Baseline, installed | <EmiSearch query="@village_taverns" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | No separate item search |
+| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | No separate item search |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | <EmiSearch query="@village_taverns" /> |

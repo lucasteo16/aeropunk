@@ -39,9 +39,9 @@ Open a chest to find the search, sort and transfer controls on supported screens
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | Improves interaction with dropped items in the world. | Baseline, installed | <EmiSearch query="@interactic" /> |
-| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | Adds mouse-drag and scrolling shortcuts for moving inventory stacks. | Baseline, installed | No separate item search |
-| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | Adds sorting, searching and transfer controls to supported inventory screens. | Baseline, installed | No separate item search |
-| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | Adds an inventory trash slot for discarding unwanted items. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | Improves interaction with dropped items in the world. | <EmiSearch query="@interactic" /> |
+| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | Adds mouse-drag and scrolling shortcuts for moving inventory stacks. | No separate item search |
+| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | Adds sorting, searching and transfer controls to supported inventory screens. | No separate item search |
+| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | Adds an inventory trash slot for discarding unwanted items. | No separate item search |

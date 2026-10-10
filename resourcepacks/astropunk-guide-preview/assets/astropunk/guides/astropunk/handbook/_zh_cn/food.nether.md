@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用下界食材烹饪"
-  position: 0
+  position: 2
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---
@@ -223,6 +223,6 @@ My Nether's Delight 把下界狩猎食材用于香肠、炖菜和盘餐。猎杀
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | 已安装基准版 | <EmiSearch query="@mynethersdelight" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | <EmiSearch query="@mynethersdelight" /> |

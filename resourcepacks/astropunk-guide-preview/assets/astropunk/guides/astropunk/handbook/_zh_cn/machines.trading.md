@@ -43,6 +43,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 通过机械动力机器自动进行村民交易。 | 已安装基准版 | <EmiSearch query="@trading_floor" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 通过机械动力机器自动进行村民交易。 | <EmiSearch query="@trading_floor" /> |

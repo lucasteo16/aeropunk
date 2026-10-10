@@ -8,7 +8,7 @@ navigation:
 
 # Space transport
 
-## Not installed
+## Deferred content
 
 <EmiSearch query="@create" />
 
@@ -16,8 +16,7 @@ These space vehicle-transfer addons are deferred. Do not assume they supply an i
 
 | Component | Function |
 | --- | --- |
-| Create: AeroWarptics (not installed) | A physics-vehicle relocation addon. |
-| Create: Northstar-Aeronautics Compatibility (not installed) | A bridge between Northstar destinations and physical vehicles. |
+| Create: Northstar-Aeronautics Compatibility (deferred addition) | A bridge between Northstar destinations and physical vehicles. |
 
 ***
 
@@ -25,12 +24,16 @@ These space vehicle-transfer addons are deferred. Do not assume they supply an i
 
 - [Dimensions](world.dimensions.md)
 
+Whole-airship relocation within a dimension is a separate transport feature, not space exploration.
+
+- [Teleportation](travel.destinations.md)
+
 
 ***
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) | Adds relocation tools for physical Aeronautics vehicles. | Deferred, not installed | Not installed here |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) | Connects Northstar space travel to Aeronautics physical vehicle transfers. | Deferred, not installed | Not installed here |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) (deferred addition) | Adds relocation tools for physical Aeronautics vehicles. | No separate item search |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) (deferred addition) | Connects Northstar space travel to Aeronautics physical vehicle transfers. | No separate item search |

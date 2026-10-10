@@ -1,6 +1,6 @@
 {
-  "draft_articles": 87,
-  "article_count": 87,
+  "draft_articles": 104,
+  "article_count": 104,
   "category_count": 0,
   "navigation_page_count": 0,
   "root_page_count": 17,
@@ -456,18 +456,8 @@
         "mods/create-waystones-recipes.pw.toml",
         "mods/netherportalfix.pw.toml",
         "mods/tempad.pw.toml",
+        "mods/waystones-sable.pw.toml",
         "mods/waystones.pw.toml"
-      ]
-    },
-    {
-      "topic": "travel.moving-destinations",
-      "category": "Vehicles and travel",
-      "filename": "travel.moving-destinations.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": [
-        "mods/waystones-sable.pw.toml"
       ]
     },
     {
@@ -1266,6 +1256,168 @@
       "filename": "reference.technical.md",
       "drafted": true,
       "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.archer",
+      "category": "Technical reference",
+      "filename": "class.archer.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.deadeye",
+      "category": "Technical reference",
+      "filename": "class.deadeye.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.tundra-hunter",
+      "category": "Technical reference",
+      "filename": "class.tundra-hunter.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.war-archer",
+      "category": "Technical reference",
+      "filename": "class.war-archer.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.rogue",
+      "category": "Technical reference",
+      "filename": "class.rogue.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.warrior",
+      "category": "Technical reference",
+      "filename": "class.warrior.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.berserker",
+      "category": "Technical reference",
+      "filename": "class.berserker.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.forcemaster",
+      "category": "Technical reference",
+      "filename": "class.forcemaster.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.arcane",
+      "category": "Technical reference",
+      "filename": "class.arcane.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.fire",
+      "category": "Technical reference",
+      "filename": "class.fire.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.frost",
+      "category": "Technical reference",
+      "filename": "class.frost.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.aqua",
+      "category": "Technical reference",
+      "filename": "class.aqua.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.terra",
+      "category": "Technical reference",
+      "filename": "class.terra.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.wind",
+      "category": "Technical reference",
+      "filename": "class.wind.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.paladin",
+      "category": "Technical reference",
+      "filename": "class.paladin.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.priest",
+      "category": "Technical reference",
+      "filename": "class.priest.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.bard",
+      "category": "Technical reference",
+      "filename": "class.bard.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.witcher",
+      "category": "Technical reference",
+      "filename": "class.witcher.md",
+      "drafted": true,
+      "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     }
@@ -5007,7 +5159,7 @@
       "name": "Waystones: Sable (Create Aeronautics Addon)",
       "availability": "baseline",
       "category": "Vehicles and travel",
-      "topic": "travel.moving-destinations",
+      "topic": "travel.destinations",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,

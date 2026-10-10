@@ -32,20 +32,20 @@ EMF Compat: Create adapts Create animations for animated player models. Its shar
 
 ***
 
-## Other edition content
+## Action & spawn animation
 
 <EmiSearch query="@spawn" />
 
-The following animation additions are not installed in this edition. Their absence is not an unfinished installed feature.
+The heavy edition adds eating, block-interaction, third-person action and hostile-spawn animations. Enable compatible resource packs for custom animated models.
 
 | Component | Function |
 | --- | --- |
-| Eating Animations (not installed) | Animates eating. |
-| Fancy World Animations [FWA] (not installed) | Animates interactive blocks such as doors and levers. |
-| EMF Compat: Not Enough Animations (not installed) | Connects Not Enough Animations to custom animated player models. |
-| Not Enough Animations (not installed) | Shows more player actions in third-person. |
-| Spawn Animations Compats (not installed) | Adds compatibility data for Spawn Animations. |
-| Spawn Animations (not installed) | Animates hostile creature spawning. |
+| Eating Animations (heavy edition only) | Animates eating. |
+| Fancy World Animations [FWA] (heavy edition only) | Animates interactive blocks such as doors and levers. |
+| EMF Compat: Not Enough Animations (heavy edition only) | Connects Not Enough Animations to custom animated player models. |
+| Not Enough Animations (heavy edition only) | Shows more player actions in third-person. |
+| Spawn Animations Compats (heavy edition only) | Adds compatibility data for Spawn Animations. |
+| Spawn Animations (heavy edition only) | Animates hostile creature spawning. |
 
 ***
 
@@ -59,15 +59,15 @@ The following animation additions are not installed in this edition. Their absen
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | Loads custom entity models from compatible resource packs. | Baseline, installed | No separate item search |
-| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Supports random, custom and emissive entity textures. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | Animates eating. | Heavy edition, not installed here | Not installed here |
-| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | Connects Create player animations to custom animated models. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | Adapts Not Enough Animations player actions to custom Entity Model Features models. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | Animates interactive blocks such as doors and levers. | Heavy edition, not installed here | Not installed here |
-| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | Repairs gaps in block and item models. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | Shows more player actions in third-person. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) | Animates hostile creature spawning. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) | Extends Spawn Animations compatibility to supported modded creatures. | Heavy edition, not installed here | Not installed here |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | Loads custom entity models from compatible resource packs. | No separate item search |
+| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Supports random, custom and emissive entity textures. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) (heavy edition only) | Animates eating. | No separate item search |
+| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | Connects Create player animations to custom animated models. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) (heavy edition only) | Adapts Not Enough Animations player actions to custom Entity Model Features models. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) (heavy edition only) | Animates interactive blocks such as doors and levers. | No separate item search |
+| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | Repairs gaps in block and item models. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) (heavy edition only) | Shows more player actions in third-person. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) (heavy edition only) | Animates hostile creature spawning. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) (heavy edition only) | Extends Spawn Animations compatibility to supported modded creatures. | No separate item search |

@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "查找已有演示与帮助界面"
+  title: "进度"
   position: 0
-  parent: reference.utilities.md
+  parent: reference.technical.md
   icon: minecraft:book
 ---
 
-# 查找已有演示与帮助界面
+# 进度
 
 ## 查看进度
 
@@ -32,6 +32,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | 改进进度浏览，并支持在游戏内编辑进度。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | 改进进度浏览，并支持在游戏内编辑进度。 | 无独立物品查询 |

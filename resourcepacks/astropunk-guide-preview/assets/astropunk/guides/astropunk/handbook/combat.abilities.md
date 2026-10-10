@@ -64,9 +64,9 @@ Read the ability tooltip before choosing accessories or skill nodes. Rage and Wi
 
 ## Related pages
 
-- [Martial abilities](combat.martial.md) Full ranged and melee ability lists.
-- [Magic & support](combat.magic.md) Full spell lists and casting requirements.
+- [Martial abilities](combat.martial.md) Ranged and melee class reference pages.
+- [Magic & support](combat.magic.md) Magic class reference pages and casting requirements.
 - [Skill development](combat.skills.md) Class paths, weapon points and resets.
 - [Combat controls](combat.handling.md) Attacks, spell actions and rolling.
-- [Weapons & armor](equipment.weapons-armor.md) Starter recipes and equipment families.
+- [Weapons & armor](equipment.weapons-armor.md) Shared equipment and class references.
 - [Accessories](equipment.accessories.md) Jewelry, relics and their slots.

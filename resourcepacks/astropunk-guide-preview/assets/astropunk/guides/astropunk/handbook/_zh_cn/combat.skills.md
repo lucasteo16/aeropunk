@@ -106,8 +106,8 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 为 More RPG Classes 的扩展职业增加职业技能树支持。 | 已安装基准版 | 无独立物品查询 |
-| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 提供可自定义的技能系统与技能树界面。 | 已安装基准版 | 无独立物品查询 |
-| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 为 RPG Series 角色增加职业技能树。 | 已安装基准版 | <EmiSearch query="@skill_tree_rpgs" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 为 More RPG Classes 的扩展职业增加职业技能树支持。 | 无独立物品查询 |
+| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 提供可自定义的技能系统与技能树界面。 | 无独立物品查询 |
+| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 为 RPG Series 角色增加职业技能树。 | <EmiSearch query="@skill_tree_rpgs" /> |

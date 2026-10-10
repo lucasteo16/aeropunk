@@ -41,6 +41,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 通过熔融喷口提供可再生的机械动力含矿石材。 | 已安装基准版 | <EmiSearch query="@molten_vents" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 通过熔融喷口提供可再生的机械动力含矿石材。 | <EmiSearch query="@molten_vents" /> |

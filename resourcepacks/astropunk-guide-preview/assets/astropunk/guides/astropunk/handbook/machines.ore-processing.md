@@ -118,6 +118,6 @@ Water is the fan's processing medium, not a consumed bucket. Material routing co
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Adds rotational machines for processing, transport and automated construction. | Baseline, installed | <EmiSearch query="@create" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Adds rotational machines for processing, transport and automated construction. | <EmiSearch query="@create" /> |

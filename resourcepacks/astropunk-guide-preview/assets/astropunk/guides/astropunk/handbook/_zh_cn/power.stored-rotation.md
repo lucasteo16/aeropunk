@@ -65,6 +65,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 将旋转动力存入弹簧，供之后释放使用。 | 已安装基准版 | <EmiSearch query="@createsprings" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 将旋转动力存入弹簧，供之后释放使用。 | <EmiSearch query="@createsprings" /> |

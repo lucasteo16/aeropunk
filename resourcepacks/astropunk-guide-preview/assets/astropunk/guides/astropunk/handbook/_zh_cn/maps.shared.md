@@ -29,9 +29,15 @@ navigation:
 
 ***
 
+## 队伍披风
+
+Team Capes（仅重型版）显示与原版队伍颜色一致的披风。它用于视觉识别队伍，与地形同步和路标共享分开。
+
+***
+
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | 显示与玩家原版队伍颜色一致的披风。 | 重型版，当前未安装 | 当前未安装 |
-| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 为 Xaero 地图增加多人功能，包括世界地图同步。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) （仅重型版） | 显示与玩家原版队伍颜色一致的披风。 | 无独立物品查询 |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 为 Xaero 地图增加多人功能，包括世界地图同步。 | 无独立物品查询 |

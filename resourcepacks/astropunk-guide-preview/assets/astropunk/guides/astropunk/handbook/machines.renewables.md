@@ -41,6 +41,6 @@ Locate a vent and expose its dormant core. Activate that core with an explosion,
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Provides renewable Create ore-bearing stones through molten vents. | Baseline, installed | <EmiSearch query="@molten_vents" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Provides renewable Create ore-bearing stones through molten vents. | <EmiSearch query="@molten_vents" /> |

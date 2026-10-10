@@ -120,7 +120,7 @@ Deep Seas 铜制潜艇。
 
 ## 其他版本
 
-当前轻量版未安装太空内容。
+Northstar 太空内容暂缓加入。
 
 - [太空](space.destinations.md)
 
@@ -128,11 +128,11 @@ Deep Seas 铜制潜艇。
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | 保留 Incendium 地形与生物群系，移除其建筑、生物与物品内容。 | 已安装基准版 | 无独立物品查询 |
-| ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | 重塑下界生物群系，并增加建筑、敌人与独特装备。 | 已安装基准版 | 无独立物品查询 |
-| ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | 以异域地形与新增生物群系重塑末地。 | 已安装基准版 | 无独立物品查询 |
-| ![Streams Reflowing](images/streams-reflowing-icon.png) [Streams Reflowing](world.dimensions.md) | 在世界地形中生成流动的溪流。 | 已安装基准版 | 无独立物品查询 |
-| ![Tectonic](images/tectonic-icon.png) [Tectonic](world.dimensions.md) | 通过更高大的山脉与多样地貌重塑地形。 | 已安装基准版 | 无独立物品查询 |
-| ![Terralith](images/terralith-icon.png) [Terralith](world.dimensions.md) | 使用原版方块增加地表与洞穴生物群系。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | 保留 Incendium 地形与生物群系，移除其建筑、生物与物品内容。 | 无独立物品查询 |
+| ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | 重塑下界生物群系，并增加建筑、敌人与独特装备。 | 无独立物品查询 |
+| ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | 以异域地形与新增生物群系重塑末地。 | 无独立物品查询 |
+| ![Streams Reflowing](images/streams-reflowing-icon.png) [Streams Reflowing](world.dimensions.md) | 在世界地形中生成流动的溪流。 | 无独立物品查询 |
+| ![Tectonic](images/tectonic-icon.png) [Tectonic](world.dimensions.md) | 通过更高大的山脉与多样地貌重塑地形。 | 无独立物品查询 |
+| ![Terralith](images/terralith-icon.png) [Terralith](world.dimensions.md) | 使用原版方块增加地表与洞穴生物群系。 | 无独立物品查询 |

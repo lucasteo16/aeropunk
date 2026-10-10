@@ -51,13 +51,13 @@ Sound Physics Remastered changes how sound travels through the surroundings. Ext
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Cool Rain Reforged](images/catalog-IgftU6Mn.png) [Cool Rain Reforged](reference.audio.md) | Adds rain sounds for particular block surfaces. | Baseline, installed | No separate item search |
-| ![Extreme sound muffler](images/catalog-5IIKsxiL.png) [Extreme sound muffler](reference.audio.md) | Lets the client selectively quiet unwanted sounds. | Baseline, installed | No separate item search |
-| ![More Sounds](images/catalog-8jvcOd6S.png) [More Sounds](reference.audio.md) | Adds sound content and mod compatibility to Sounds. | Baseline, installed | No separate item search |
-| ![Presence Footsteps (NeoForge)](images/catalog-JIEwmDVI.png) [Presence Footsteps (NeoForge)](reference.audio.md) | Adds surface-sensitive footstep sounds. | Baseline, installed | No separate item search |
-| ![Presence Footsteps x Sable (Aeronautics Compat)](images/catalog-ZAhKrMSS.png) [Presence Footsteps x Sable (Aeronautics Compat)](reference.audio.md) | Extends Presence Footsteps to Sable moving structures. | Baseline, installed | No separate item search |
-| ![Sable: Cool Rain](images/catalog-nUwwB5kx.png) [Sable: Cool Rain](reference.audio.md) | Extends rain sounds to Sable moving structures and supported copycat materials. | Baseline, installed | No separate item search |
-| ![Sound Physics Remastered](images/catalog-qyVF9oeo.png) [Sound Physics Remastered](reference.audio.md) | Adds sound attenuation, reverberation and absorption through blocks. | Baseline, installed | No separate item search |
-| ![Sounds](images/catalog-ZouiUX7t.png) [Sounds](reference.audio.md) | Adds sounds for interfaces, items, blocks and other interactions. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Cool Rain Reforged](images/catalog-IgftU6Mn.png) [Cool Rain Reforged](reference.audio.md) | Adds rain sounds for particular block surfaces. | No separate item search |
+| ![Extreme sound muffler](images/catalog-5IIKsxiL.png) [Extreme sound muffler](reference.audio.md) | Lets the client selectively quiet unwanted sounds. | No separate item search |
+| ![More Sounds](images/catalog-8jvcOd6S.png) [More Sounds](reference.audio.md) | Adds sound content and mod compatibility to Sounds. | No separate item search |
+| ![Presence Footsteps (NeoForge)](images/catalog-JIEwmDVI.png) [Presence Footsteps (NeoForge)](reference.audio.md) | Adds surface-sensitive footstep sounds. | No separate item search |
+| ![Presence Footsteps x Sable (Aeronautics Compat)](images/catalog-ZAhKrMSS.png) [Presence Footsteps x Sable (Aeronautics Compat)](reference.audio.md) | Extends Presence Footsteps to Sable moving structures. | No separate item search |
+| ![Sable: Cool Rain](images/catalog-nUwwB5kx.png) [Sable: Cool Rain](reference.audio.md) | Extends rain sounds to Sable moving structures and supported copycat materials. | No separate item search |
+| ![Sound Physics Remastered](images/catalog-qyVF9oeo.png) [Sound Physics Remastered](reference.audio.md) | Adds sound attenuation, reverberation and absorption through blocks. | No separate item search |
+| ![Sounds](images/catalog-ZouiUX7t.png) [Sounds](reference.audio.md) | Adds sounds for interfaces, items, blocks and other interactions. | No separate item search |

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "饥饿、饮食多样性与食物携带"
-  position: 0
+  position: 1
   parent: reference.food.md
   icon: minecraft:apple
 ---
@@ -55,8 +55,8 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 在物品提示与饥饿条中显示食物恢复量及饱和度。 | 已安装基准版 | 无独立物品查询 |
-| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 调整食物堆叠上限，改变每格物品栏可携带的食物数量。 | 已安装基准版 | 无独立物品查询 |
-| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 根据近期饮食的滚动记录奖励食物多样性。 | 已安装基准版 | <EmiSearch query="@solonion" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 在物品提示与饥饿条中显示食物恢复量及饱和度。 | 无独立物品查询 |
+| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 调整食物堆叠上限，改变每格物品栏可携带的食物数量。 | 无独立物品查询 |
+| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 根据近期饮食的滚动记录奖励食物多样性。 | <EmiSearch query="@solonion" /> |

@@ -59,7 +59,7 @@ navigation:
 
 ## 输入与空闲
 
-输入处理与后台资源使用不同于活动世界模拟。已安装不代表已经测得你的电脑能提升多少帧率。
+输入处理与后台资源使用不同于活动世界模拟。性能优化支持不代表已经测得你的电脑能提升多少帧率。
 
 | 内容 | 作用 |
 | --- | --- |
@@ -78,27 +78,27 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![AI Improvements: Performance Tuning](images/catalog-DSVgwcji.png) [AI Improvements: Performance Tuning](performance.baseline.md) | 优化原版生物行为处理。 | 已安装基准版 | 无独立物品查询 |
-| ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | 优化粒子运算与渲染。 | 已安装基准版 | 无独立物品查询 |
-| <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | 优化主地形渲染器以外的处理。 | 已安装基准版 | 无独立物品查询 |
-| ![Clumps](images/catalog-Wnxd13zP.png) [Clumps](performance.baseline.md) | 合并经验球，减少独立经验球的处理。 | 已安装基准版 | 无独立物品查询 |
-| ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-COlSi5iR.png) [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | 优化区块管理与生成。 | 已安装基准版 | 无独立物品查询 |
-| ![Create: LazyTick](images/catalog-Z0d7hFh4.png) [Create: LazyTick](performance.baseline.md) | 优化机械动力机器的刻处理。 | 已安装基准版 | <EmiSearch query="@createlazytick" /> |
-| ![CreateBetterFps](images/catalog-lMYIHZNH.png) [CreateBetterFps](performance.baseline.md) | 优化使用光影时的机械动力渲染。 | 已安装基准版 | 无独立物品查询 |
-| ![Cull Leaves](images/catalog-GNxdLCoP.png) [Cull Leaves](performance.baseline.md) | 跳过部分不可见的树叶几何面。 | 已安装基准版 | 无独立物品查询 |
-| ![Dynamic FPS](images/catalog-LQ3K71Q1.png) [Dynamic FPS](performance.baseline.md) | 降低后台或空闲时的资源使用。 | 已安装基准版 | 无独立物品查询 |
-| ![Entity Culling](images/catalog-NNAgCjsB.png) [Entity Culling](performance.baseline.md) | 避免渲染被遮挡的实体与方块实体。 | 已安装基准版 | 无独立物品查询 |
-| ![FerriteCore](images/catalog-uXXizFIs.png) [FerriteCore](performance.baseline.md) | 减少内存占用。 | 已安装基准版 | 无独立物品查询 |
-| ![Flerovium](images/catalog-4Rh1Mobu.png) [Flerovium](performance.baseline.md) | 优化物品、粒子与实体渲染。 | 已安装基准版 | 无独立物品查询 |
-| ![ImmediatelyFast](images/catalog-5ZwdcRci.png) [ImmediatelyFast](performance.baseline.md) | 优化即时模式渲染。 | 已安装基准版 | 无独立物品查询 |
-| ![Ixeris](images/catalog-p8RJPJIC.png) [Ixeris](performance.baseline.md) | 提供缓冲原始输入与独立线程事件轮询。 | 已安装基准版 | 无独立物品查询 |
-| ![Kerria](images/catalog-f0ruQTF7.png) [Kerria](performance.baseline.md) | 加速动态纹理处理。 | 已安装基准版 | 无独立物品查询 |
-| ![Let Me Despawn](images/catalog-vE2FN5qn.png) [Let Me Despawn](performance.baseline.md) | 调整生物消失规则，减少意外永久保留的生物。 | 已安装基准版 | 无独立物品查询 |
-| ![Lithium](images/catalog-gvQqBUqZ.png) [Lithium](performance.baseline.md) | 优化单人游戏与服务器的游戏逻辑。 | 已安装基准版 | 无独立物品查询 |
-| ![ModernFix](images/catalog-nmDcB62a.png) [ModernFix](performance.baseline.md) | 提供性能、内存与错误修复改进。 | 已安装基准版 | 无独立物品查询 |
-| ![More Culling](images/catalog-51shyZVL.png) [More Culling](performance.baseline.md) | 跳过部分不可见的渲染面。 | 已安装基准版 | 无独立物品查询 |
-| ![quick pack](images/catalog-pSISfJ4O.png) [quick pack](performance.baseline.md) | 加速压缩数据包与资源包加载。 | 已安装基准版 | 无独立物品查询 |
-| ![Sodium](images/catalog-AANobbMI.png) [Sodium](performance.baseline.md) | 替换地形渲染引擎。 | 已安装基准版 | 无独立物品查询 |
-| ![Structure Layout Optimizer](images/catalog-ayPU0OHc.png) [Structure Layout Optimizer](performance.baseline.md) | 优化拼图结构布局处理。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![AI Improvements: Performance Tuning](images/catalog-DSVgwcji.png) [AI Improvements: Performance Tuning](performance.baseline.md) | 优化原版生物行为处理。 | 无独立物品查询 |
+| ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | 优化粒子运算与渲染。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | 优化主地形渲染器以外的处理。 | 无独立物品查询 |
+| ![Clumps](images/catalog-Wnxd13zP.png) [Clumps](performance.baseline.md) | 合并经验球，减少独立经验球的处理。 | 无独立物品查询 |
+| ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-COlSi5iR.png) [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | 优化区块管理与生成。 | 无独立物品查询 |
+| ![Create: LazyTick](images/catalog-Z0d7hFh4.png) [Create: LazyTick](performance.baseline.md) | 优化机械动力机器的刻处理。 | <EmiSearch query="@createlazytick" /> |
+| ![CreateBetterFps](images/catalog-lMYIHZNH.png) [CreateBetterFps](performance.baseline.md) | 优化使用光影时的机械动力渲染。 | 无独立物品查询 |
+| ![Cull Leaves](images/catalog-GNxdLCoP.png) [Cull Leaves](performance.baseline.md) | 跳过部分不可见的树叶几何面。 | 无独立物品查询 |
+| ![Dynamic FPS](images/catalog-LQ3K71Q1.png) [Dynamic FPS](performance.baseline.md) | 降低后台或空闲时的资源使用。 | 无独立物品查询 |
+| ![Entity Culling](images/catalog-NNAgCjsB.png) [Entity Culling](performance.baseline.md) | 避免渲染被遮挡的实体与方块实体。 | 无独立物品查询 |
+| ![FerriteCore](images/catalog-uXXizFIs.png) [FerriteCore](performance.baseline.md) | 减少内存占用。 | 无独立物品查询 |
+| ![Flerovium](images/catalog-4Rh1Mobu.png) [Flerovium](performance.baseline.md) | 优化物品、粒子与实体渲染。 | 无独立物品查询 |
+| ![ImmediatelyFast](images/catalog-5ZwdcRci.png) [ImmediatelyFast](performance.baseline.md) | 优化即时模式渲染。 | 无独立物品查询 |
+| ![Ixeris](images/catalog-p8RJPJIC.png) [Ixeris](performance.baseline.md) | 提供缓冲原始输入与独立线程事件轮询。 | 无独立物品查询 |
+| ![Kerria](images/catalog-f0ruQTF7.png) [Kerria](performance.baseline.md) | 加速动态纹理处理。 | 无独立物品查询 |
+| ![Let Me Despawn](images/catalog-vE2FN5qn.png) [Let Me Despawn](performance.baseline.md) | 调整生物消失规则，减少意外永久保留的生物。 | 无独立物品查询 |
+| ![Lithium](images/catalog-gvQqBUqZ.png) [Lithium](performance.baseline.md) | 优化单人游戏与服务器的游戏逻辑。 | 无独立物品查询 |
+| ![ModernFix](images/catalog-nmDcB62a.png) [ModernFix](performance.baseline.md) | 提供性能、内存与错误修复改进。 | 无独立物品查询 |
+| ![More Culling](images/catalog-51shyZVL.png) [More Culling](performance.baseline.md) | 跳过部分不可见的渲染面。 | 无独立物品查询 |
+| ![quick pack](images/catalog-pSISfJ4O.png) [quick pack](performance.baseline.md) | 加速压缩数据包与资源包加载。 | 无独立物品查询 |
+| ![Sodium](images/catalog-AANobbMI.png) [Sodium](performance.baseline.md) | 替换地形渲染引擎。 | 无独立物品查询 |
+| ![Structure Layout Optimizer](images/catalog-ayPU0OHc.png) [Structure Layout Optimizer](performance.baseline.md) | 优化拼图结构布局处理。 | 无独立物品查询 |

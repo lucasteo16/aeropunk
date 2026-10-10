@@ -73,6 +73,6 @@ Create Big Cannons 提供大型炮管、炮膛、炮尾与炮闩，以及自动�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | 为机械动力增加可组装的大炮与弹药。 | 已安装基准版 | <EmiSearch query="@createbigcannons" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | 为机械动力增加可组装的大炮与弹药。 | <EmiSearch query="@createbigcannons" /> |

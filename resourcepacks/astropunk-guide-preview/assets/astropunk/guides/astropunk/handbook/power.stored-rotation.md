@@ -65,6 +65,6 @@ Choose a Kinetic Battery for a compact reserve, or a Spring for signal-strength-
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Stores rotational energy in springs for later use. | Baseline, installed | <EmiSearch query="@createsprings" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Stores rotational energy in springs for later use. | <EmiSearch query="@createsprings" /> |

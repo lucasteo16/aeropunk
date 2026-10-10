@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用机器制作食物"
-  position: 0
+  position: 6
   parent: reference.food.md
   icon: minecraft:smoker
 ---
@@ -55,7 +55,7 @@ Create: Central Kitchen 提供烹饪整合，并非另一套食物菜单。连�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | 增加自动进行 Farmer's Delight 食材处理的机械动力机器。 | 已安装基准版 | <EmiSearch query="@sliceanddice" /> |
-| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | 将其他烹饪模组接入机械动力机器，实现食物自动加工。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | 增加自动进行 Farmer's Delight 食材处理的机械动力机器。 | <EmiSearch query="@sliceanddice" /> |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | 将其他烹饪模组接入机械动力机器，实现食物自动加工。 | 无独立物品查询 |

@@ -260,9 +260,9 @@ Dangerous 调整现有敌人的生命值与装备，不增加独立的首领种�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | 增加高难度首领与专属遭遇建筑。 | 已安装基准版 | <EmiSearch query="@block_factorys_bosses" /> |
-| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | 提供可调整的难度平衡机制，适应强力的模组玩家装备与能力。 | 已安装基准版 | 无独立物品查询 |
-| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | 增加新的灾厄村民敌人与相关遭遇内容。 | 已安装基准版 | <EmiSearch query="@illagerinvasion" /> |
-| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | 增加危险地下城、高难度首领与强力装备奖励。 | 已安装基准版 | <EmiSearch query="@cataclysm" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | 增加高难度首领与专属遭遇建筑。 | <EmiSearch query="@block_factorys_bosses" /> |
+| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | 提供可调整的难度平衡机制，适应强力的模组玩家装备与能力。 | 无独立物品查询 |
+| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | 增加新的灾厄村民敌人与相关遭遇内容。 | <EmiSearch query="@illagerinvasion" /> |
+| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | 增加危险地下城、高难度首领与强力装备奖励。 | <EmiSearch query="@cataclysm" /> |

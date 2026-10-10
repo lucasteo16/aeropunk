@@ -29,8 +29,8 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | 提供无边框全屏窗口。 | 已安装基准版 | 无独立物品查询 |
-| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | 提供独立观察镜头。 | 已安装基准版 | 无独立物品查询 |
-| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | 提供可调整的镜头缩放。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | 提供无边框全屏窗口。 | 无独立物品查询 |
+| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | 提供独立观察镜头。 | 无独立物品查询 |
+| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | 提供可调整的镜头缩放。 | 无独立物品查询 |

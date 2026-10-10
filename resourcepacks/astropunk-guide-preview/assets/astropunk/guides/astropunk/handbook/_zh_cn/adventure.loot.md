@@ -14,13 +14,9 @@ navigation:
 
 ![Mineshaft lootr chest!](images/encounters-lootr-catalog.png)
 
-作者发布的游戏截图，Mineshaft lootr chest!。
+矿井中的 Lootr 箱子。
 
-| 容器 | 作用 |
-| --- | --- |
-| Lootr 箱子、陷阱箱、木桶、潜影盒与矿车 | 转换后的战利品表容器为每位玩家提供独立物品栏。 |
-| 金色与蓝色外观 | 金色代表你尚未开启，蓝色代表你已开启。客户端设置可隐藏这种外观。 |
-| 普通储物容器 | 没有战利品表的容器不会自动变成个人战利品。 |
+Lootr 为转换后的战利品表箱子、陷阱箱、木桶、潜影盒与矿车提供每位玩家独立的物品栏。金色代表你尚未开启，蓝色代表你已开启，客户端设置可隐藏这些颜色。没有战利品表的普通储物容器不会自动变成个人战利品。
 
 ***
 
@@ -48,7 +44,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 已安装基准版 | 无独立物品查询 |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | 已安装基准版 | <EmiSearch query="@lootr" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 无独立物品查询 |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | <EmiSearch query="@lootr" /> |

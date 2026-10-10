@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "End food"
-  position: 0
+  position: 3
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---
@@ -181,6 +181,6 @@ End ingredients also combine with ordinary pantry items for prepared meals. Use 
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | Baseline, installed | <EmiSearch query="@ends_delight" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | <EmiSearch query="@ends_delight" /> |

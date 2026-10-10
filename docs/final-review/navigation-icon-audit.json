@@ -7,21 +7,21 @@
     "source_commit": "52334ccacf15d763ffe318281d38dca8ec7aaeb8"
   },
   "counts": {
-    "entries_per_locale": 96,
+    "entries_per_locale": 113,
     "locales": [
       "en_us",
       "zh_cn"
     ],
-    "total_locale_entries": 192,
-    "unique_icons_per_locale": 96,
+    "total_locale_entries": 226,
+    "unique_icons_per_locale": 113,
     "duplicate_icons": [],
-    "modded_icons_per_locale": 19,
+    "modded_icons_per_locale": 37,
     "building_entries": 9,
     "building_modded_icons": 6,
-    "expected_articles": 87,
+    "expected_articles": 104,
     "expected_roots": 17
   },
-  "verification_boundary": "Static selected-binary registration, not a rendered or live-registry claim. Full generator executed with only output paths redirected to scratch, producing 96 English and 96 Chinese pages, 87 authored articles and 17 roots. All five navigation icon tests pass against those generated pages, including locale titles, parent parity and global uniqueness. Parent must regenerate repository pages and run the whole test suite and native export.",
+  "verification_boundary": "Static selected-binary registration, not a rendered or live-registry claim. Full generator executed with only output paths redirected to scratch, producing 96 English and 96 Chinese pages, 87 authored articles and 17 roots. All five navigation icon tests pass against those generated pages, including locale titles, parent parity and global uniqueness. Parent must regenerate repository pages and run the whole test suite and native export. Class icons reuse native identifiers from the original handbook, checked for exact source presence, not an additional live registry test.",
   "selected_artifacts": {
     "create": {
       "metadata_path": "mods/create.pw.toml",
@@ -370,6 +370,294 @@
       }
     },
     {
+      "id": "class.aqua",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "elemental_wizards_rpg:wand_aqua",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Aqua Wizard",
+        "zh_cn": "水系法师"
+      }
+    },
+    {
+      "id": "class.arcane",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "wizards:wand_arcane",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Arcane Wizard",
+        "zh_cn": "奥秘法师"
+      }
+    },
+    {
+      "id": "class.archer",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers:composite_longbow",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Archer",
+        "zh_cn": "弓箭手"
+      }
+    },
+    {
+      "id": "class.bard",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "bards_rpg:wooden_lute",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Bard",
+        "zh_cn": "吟游诗人"
+      }
+    },
+    {
+      "id": "class.berserker",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "berserker_rpg:iron_berserker_axe",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Berserker",
+        "zh_cn": "狂战士"
+      }
+    },
+    {
+      "id": "class.deadeye",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers:rapid_crossbow",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Deadeye",
+        "zh_cn": "神射手"
+      }
+    },
+    {
+      "id": "class.fire",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "wizards:wand_fire",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Fire Wizard",
+        "zh_cn": "火焰法师"
+      }
+    },
+    {
+      "id": "class.forcemaster",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "forcemaster_rpg:iron_knuckle",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Forcemaster",
+        "zh_cn": "气功师"
+      }
+    },
+    {
+      "id": "class.frost",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "wizards:wand_frost",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Frost Wizard",
+        "zh_cn": "冰霜法师"
+      }
+    },
+    {
+      "id": "class.paladin",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "paladins:iron_mace",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Paladin",
+        "zh_cn": "圣骑士"
+      }
+    },
+    {
+      "id": "class.priest",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "paladins:holy_wand",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Priest",
+        "zh_cn": "牧师"
+      }
+    },
+    {
+      "id": "class.rogue",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "rogues:iron_dagger",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Rogue",
+        "zh_cn": "盗贼"
+      }
+    },
+    {
+      "id": "class.terra",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "elemental_wizards_rpg:wand_terra",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Terra Wizard",
+        "zh_cn": "土系法师"
+      }
+    },
+    {
+      "id": "class.tundra-hunter",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers_expansion:tundra_hunter_chest",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Tundra Hunter",
+        "zh_cn": "冻原猎手"
+      }
+    },
+    {
+      "id": "class.war-archer",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers_expansion:war_archer_chest",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "War Archer",
+        "zh_cn": "战争弓手"
+      }
+    },
+    {
+      "id": "class.warrior",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "rogues:iron_double_axe",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Warrior",
+        "zh_cn": "战士"
+      }
+    },
+    {
+      "id": "class.wind",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "elemental_wizards_rpg:wand_wind",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Wind Wizard",
+        "zh_cn": "风系法师"
+      }
+    },
+    {
+      "id": "class.witcher",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "witcher_rpg:iron_witcher_sword",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Witcher",
+        "zh_cn": "猎魔人"
+      }
+    },
+    {
       "id": "combat.abilities",
       "parent": "reference.skills.md",
       "labels": {
@@ -411,8 +699,8 @@
       "id": "combat.magic",
       "parent": "reference.skills.md",
       "labels": {
-        "en_us": "Magic classes",
-        "zh_cn": "选择法术与支援风格"
+        "en_us": "Magic & support classes",
+        "zh_cn": "法术与支援职业"
       },
       "icon": "minecraft:blaze_rod",
       "rationale": "Blaze rod is a thematic representative for Magic classes.",
@@ -431,7 +719,7 @@
       "parent": "reference.skills.md",
       "labels": {
         "en_us": "Martial classes",
-        "zh_cn": "选择近战与远程战斗风格"
+        "zh_cn": "武技职业"
       },
       "icon": "minecraft:bow",
       "rationale": "Bow is a thematic representative for Martial classes.",
@@ -770,10 +1058,10 @@
     },
     {
       "id": "help.reference",
-      "parent": "reference.utilities.md",
+      "parent": "reference.technical.md",
       "labels": {
-        "en_us": "Existing help",
-        "zh_cn": "查找已有演示与帮助界面"
+        "en_us": "Advancements",
+        "zh_cn": "进度"
       },
       "icon": "minecraft:book",
       "rationale": "Book is a thematic representative for Existing help.",
@@ -1612,25 +1900,6 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "ender_pearl"
-      }
-    },
-    {
-      "id": "travel.moving-destinations",
-      "parent": "reference.vehicles.md",
-      "labels": {
-        "en_us": "Moving destinations",
-        "zh_cn": "前往移动建筑上的目的地"
-      },
-      "icon": "minecraft:lodestone",
-      "rationale": "A lodestone represents a marked destination, not a claim of native moving-structure teleportation.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "lodestone"
       }
     },
     {

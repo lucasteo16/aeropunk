@@ -120,7 +120,7 @@ Terrain changes appear in newly generated areas, existing terrain is not rebuilt
 
 ## Other editions
 
-Space content is not installed in this light edition.
+Northstar space content is a deferred addition.
 
 - [Space](space.destinations.md)
 
@@ -128,11 +128,11 @@ Space content is not installed in this light edition.
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | Keeps Incendium terrain and biomes while removing its structures, creatures and items. | Baseline, installed | No separate item search |
-| ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | Overhauls Nether biomes and adds structures, enemies and unique equipment. | Baseline, installed | No separate item search |
-| ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | Reshapes the End with alien terrain and additional biomes. | Baseline, installed | No separate item search |
-| ![Streams Reflowing](images/streams-reflowing-icon.png) [Streams Reflowing](world.dimensions.md) | Generates flowing streams in world terrain. | Baseline, installed | No separate item search |
-| ![Tectonic](images/tectonic-icon.png) [Tectonic](world.dimensions.md) | Reshapes terrain with larger mountains and varied landforms. | Baseline, installed | No separate item search |
-| ![Terralith](images/terralith-icon.png) [Terralith](world.dimensions.md) | Adds surface and cave biomes built from vanilla blocks. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | Keeps Incendium terrain and biomes while removing its structures, creatures and items. | No separate item search |
+| ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | Overhauls Nether biomes and adds structures, enemies and unique equipment. | No separate item search |
+| ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | Reshapes the End with alien terrain and additional biomes. | No separate item search |
+| ![Streams Reflowing](images/streams-reflowing-icon.png) [Streams Reflowing](world.dimensions.md) | Generates flowing streams in world terrain. | No separate item search |
+| ![Tectonic](images/tectonic-icon.png) [Tectonic](world.dimensions.md) | Reshapes terrain with larger mountains and varied landforms. | No separate item search |
+| ![Terralith](images/terralith-icon.png) [Terralith](world.dimensions.md) | Adds surface and cave biomes built from vanilla blocks. | No separate item search |

@@ -33,4 +33,4 @@ A Water Wheel supplies rotational power. Connect machines with shafts, match the
 
 | Mod | Purpose | Availability |
 | --- | --- | --- |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing | Baseline, installed |
+| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing |

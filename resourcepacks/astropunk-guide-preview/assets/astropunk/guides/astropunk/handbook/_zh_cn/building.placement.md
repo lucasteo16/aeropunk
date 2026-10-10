@@ -52,7 +52,7 @@ navigation:
 | <ItemLink id="mechtrowel:variant_conversion_template" /> | 用已有基础方块转换为支持的 Chipped 或 Rechiseled 变体。此版本已安装 Chipped。 |
 | <ItemLink id="mechtrowel:reach_upgrade_template" /> | 增加放置距离。 |
 
-升级配方受服务器设置控制。模组自带默认设置要求先升级才能使用魔杖模式。整合包未安装 Applied Energistics 2 与 Refined Storage，因此两者的整合模板不构成这里可用的仓储路线。
+升级配方受服务器设置控制。模组自带默认设置要求先升级才能使用魔杖模式。Applied Energistics 2 与 Refined Storage 的整合模板需要相应仓储模组。
 
 ### 魔杖模板
 
@@ -125,9 +125,9 @@ Pattern Schematics 提供空白样式、已记录样式和样式蓝图与笔。F
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | 让机械动力蓝图建造重复铺设指定图案。 | 已安装基准版 | <EmiSearch query="@create_pattern_schematics" /> |
-| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | 让机械动力机械手从指定材料组中随机选块放置。 | 已安装基准版 | <EmiSearch query="@createshufflefilter" /> |
-| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | 显示建筑蓝图，辅助方块摆放与施工。 | 已安装基准版 | 无独立物品查询 |
-| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | 从自定义材料组随机放置方块，并支持建筑魔杖式摆放。 | 已安装基准版 | <EmiSearch query="@mechtrowel" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | 让机械动力蓝图建造重复铺设指定图案。 | <EmiSearch query="@create_pattern_schematics" /> |
+| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | 让机械动力机械手从指定材料组中随机选块放置。 | <EmiSearch query="@createshufflefilter" /> |
+| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | 显示建筑蓝图，辅助方块摆放与施工。 | 无独立物品查询 |
+| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | 从自定义材料组随机放置方块，并支持建筑魔杖式摆放。 | <EmiSearch query="@mechtrowel" /> |

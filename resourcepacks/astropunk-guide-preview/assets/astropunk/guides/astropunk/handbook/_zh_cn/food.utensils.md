@@ -236,6 +236,6 @@ item_ids:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | 已安装基准版 | <EmiSearch query="@farmersdelight" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | <EmiSearch query="@farmersdelight" /> |

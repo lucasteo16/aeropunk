@@ -165,6 +165,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | 增加可模仿其他方块材质的机械动力伪装建筑形状。 | 已安装基准版 | <EmiSearch query="@copycats" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | 增加可模仿其他方块材质的机械动力伪装建筑形状。 | <EmiSearch query="@copycats" /> |

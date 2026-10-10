@@ -90,9 +90,8 @@ Sharestones connect to others of the same color. Portstones provide departure ac
 | <ItemLink id="tempad:chronon_generator" /> |
 | <ItemLink id="minecraft:obsidian" /> |
 
-Tempad supplies a portable destination interface, Location Cards, Timedoor Projectors, Workstations and chronon power equipment. Open the Tempad location application to manage saved places and inspect its requirements. NetherPortalFix improves Nether portal return matching. It adds no separate destination item. Fixed saved coordinates are not a moving-vehicle tracking system. See Moving destinations.
+Tempad supplies a portable destination interface, Location Cards, Timedoor Projectors, Workstations and chronon power equipment. Open the Tempad location application to manage saved places and inspect its requirements. NetherPortalFix improves Nether portal return matching. It adds no separate destination item. Fixed saved coordinates are not a moving-vehicle tracking system.
 
-- [Moving destinations](travel.moving-destinations.md)
 
 ***
 
@@ -124,14 +123,58 @@ Tempad separates time-power equipment from equipment for managing saved location
 
 <Recipe id="waystones:orange_sharestone_recolor" />
 
+***
+
+## Moving waystones
+
+<ItemGrid>
+  <ItemIcon id="waystones:waystone" />
+  <ItemIcon id="waystones:warp_plate" />
+  <ItemIcon id="simulated:physics_assembler" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="waystones:waystone" /> |
+| <ItemLink id="waystones:warp_plate" /> |
+| <ItemLink id="simulated:physics_assembler" /> |
+
+Waystones Sable bridges Waystones destinations on Sable moving structures. It adds the Sable SubLevels group and tracks waystone positions and assembly state. It does not add a new waystone item. Place and activate the waystone on the supported moving build, then select its destination through Waystones.
+
+***
+
+## Destination scope
+
+A moving waystone destination is different from a Tempad coordinate or a map waypoint. Keep the destination structure loaded and inspect the Waystones list before relying on it for return travel. This bridge does not transfer the entire vehicle between dimensions.
+
+- [Vehicle assembly](vehicles.assembly.md)
+- [Dimensions](world.dimensions.md)
+
+## Related items
+
+<ItemGrid>
+  <ItemIcon id="waystones:waystone" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="waystones:waystone" /> |
+
+***
+
+## Ship teleportation
+
+Create: AeroWarptics (separate ship patch) relocates an assembled Aeronautics ship within a dimension. Waystones Sable teleports players to moving destinations, not the entire ship. AeroWarptics does not supply Northstar planets or other space destinations.
+
 
 ***
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | Baseline, installed | No separate item search |
-| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | Baseline, installed | No separate item search |
-| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | Baseline, installed | <EmiSearch query="@tempad" /> |
-| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | Baseline, installed | <EmiSearch query="@waystones" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | No separate item search |
+| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | No separate item search |
+| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | <EmiSearch query="@tempad" /> |
+| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | <EmiSearch query="@waystones" /> |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.destinations.md) | Fixes Waystones teleportation and destination handling on Sable moving structures. | No separate item search |

@@ -21,6 +21,6 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | 以排版文本、物品展示与交互场景呈现游戏内指南页面。 | 已安装基准版 | <EmiSearch query="@guideme" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | 以排版文本、物品展示与交互场景呈现游戏内指南页面。 | <EmiSearch query="@guideme" /> |

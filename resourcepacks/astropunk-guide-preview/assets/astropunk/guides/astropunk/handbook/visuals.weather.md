@@ -20,16 +20,16 @@ GrandTeleport changes the camera transition during teleportation. It does not cr
 
 ***
 
-## Other edition effects
+## Particles & explosions
 
-These explosion, status-particle and ambient visual additions are not installed here. Particle optimizers are listed separately from visual effect generators.
+The heavy edition adds explosion, status-particle and ambient visual effects. Particle optimizers are separate from visual effect generators.
 
 | Component | Function |
 | --- | --- |
-| Explosive Enhancement: Reforged (not installed) | Changes explosion animation effects. |
-| Particle Effects (not installed) | Gives vanilla status effects distinct textured particles. |
-| Particular ✨ Reforged (not installed) | Adds ambient visual effects. |
-| Ripple (not installed) | Makes particles respond to entities. |
+| Explosive Enhancement: Reforged (heavy edition only) | Changes explosion animation effects. |
+| Particle Effects (heavy edition only) | Gives vanilla status effects distinct textured particles. |
+| Particular ✨ Reforged (heavy edition only) | Adds ambient visual effects. |
+| Ripple (heavy edition only) | Makes particles respond to entities. |
 
 ***
 
@@ -43,10 +43,10 @@ These explosion, status-particle and ambient visual additions are not installed 
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) | Changes explosion animation effects. | Heavy edition, not installed here | Not installed here |
-| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | Adds a cinematic camera transition during teleportation. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) | Gives vanilla status effects distinct textured particles. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) | Adds ambient visual effects. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) | Makes particles respond to entities. | Heavy edition, not installed here | Not installed here |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) (heavy edition only) | Changes explosion animation effects. | No separate item search |
+| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | Adds a cinematic camera transition during teleportation. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) (heavy edition only) | Gives vanilla status effects distinct textured particles. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) (heavy edition only) | Adds ambient visual effects. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) (heavy edition only) | Makes particles respond to entities. | No separate item search |

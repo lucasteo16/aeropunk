@@ -4,6 +4,12 @@ This is the authoring contract for every handbook update. It belongs to reposito
 
 ## Purpose and organization
 
+The same handbook resources serve the light and heavy editions. Populate heavy-edition references even when authoring against the light pack, and label their scope with (heavy edition only), or （仅重型版）. Do not describe common content as baseline or installed, and do not claim edition-specific content is absent from whichever instance reads the guide. Keep truly deferred additions distinct from heavy-edition content. Optional-mod native item references must not cause missing-item errors in the light edition.
+
+Combat may use three sidebar levels: the Combat root, a class grouping, and a focused class article. Keep the Combat overview concise and move class-specific equipment, abilities and starter recipes into those articles. Preserve native references and meaningful shared mechanics, without duplicating all class recipes on Weapons and armor. Keep all sidebar item identifiers globally unique.
+
+Place Cooking tools first and Hunger and variety second within Food and farming. Keep help about the handbook and other documentation under Technical, not gameplay Utilities. Consolidate Moving destinations into Teleportation. Keep image-source qualifications and artwork provenance in authoring records rather than verbose player-facing captions.
+
 Food articles teach the shared cutting-board, stove, pot and skillet interactions once in Cooking tools. Keep other food topics focused on ingredient sources, cuisine families and genuinely different mechanics. Leave amounts, substitutions, yields and ordinary cooking chains to native recipes and the recipe browser rather than repeating one instruction per dish. Preserve native item grids, useful recipe displays and unusual acquisition conditions. Give every food topic a distinct relevant sidebar icon instead of inheriting the same apple.
 
 The handbook prioritizes a content index: answer what exists in the installed game before describing what players can do with it. A mod roster alone is not a complete content index. Catalog actual bosses, creatures, structures, dungeon variants, equipment, spells, foods, building families, vehicles and destination types. Mechanics and crafting tutorials are secondary. Reuse existing recipe tools and Ponder rather than duplicating their instruction. Do not organize the entire book around player intentions.

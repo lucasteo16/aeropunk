@@ -165,6 +165,6 @@ Craft the desired shape, then apply a supported block material. Use its Ponder e
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | Adds Create copycat building shapes that imitate other blocks' materials. | Baseline, installed | <EmiSearch query="@copycats" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Copycats+](images/catalog-UT2M39wf.png) [Create: Copycats+](building.copycats.md) | Adds Create copycat building shapes that imitate other blocks' materials. | <EmiSearch query="@copycats" /> |

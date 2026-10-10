@@ -236,6 +236,6 @@ Fruit, honey and cocoa support desserts and drinks. Whole pies can be cut into s
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | Adds crops, cooking utensils and meal preparation with cutting boards and cooking pots. | Baseline, installed | <EmiSearch query="@farmersdelight" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | Adds crops, cooking utensils and meal preparation with cutting boards and cooking pots. | <EmiSearch query="@farmersdelight" /> |

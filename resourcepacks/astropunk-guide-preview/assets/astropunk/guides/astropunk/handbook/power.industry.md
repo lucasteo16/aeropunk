@@ -95,6 +95,6 @@ Start by checking the Coke Oven recipe and its coal-processing Ponder entry. The
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Expands Create with heavy industry and oil processing in a community-maintained fork. | Baseline, installed | <EmiSearch query="@tfmg" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Expands Create with heavy industry and oil processing in a community-maintained fork. | <EmiSearch query="@tfmg" /> |

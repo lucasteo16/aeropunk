@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Underground food"
-  position: 0
+  position: 4
   parent: reference.food.md
   icon: minecraft:brown_mushroom
 ---
@@ -209,6 +209,6 @@ The Copper Pot and Copper Cup form the copper kitchen branch. Equipment and empt
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | Baseline, installed | <EmiSearch query="@minersdelight" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | <EmiSearch query="@minersdelight" /> |

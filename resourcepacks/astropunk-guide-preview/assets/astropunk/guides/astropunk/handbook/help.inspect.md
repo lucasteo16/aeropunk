@@ -38,8 +38,8 @@ Villager Names gives villagers recognizable names. A name identifies the village
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | Adds mod-specific information support to Jade's inspection overlay. | Baseline, installed | No separate item search |
-| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | Shows information about the block or creature being looked at. | Baseline, installed | No separate item search |
-| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | Gives villagers default or custom names. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | Adds mod-specific information support to Jade's inspection overlay. | No separate item search |
+| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | Shows information about the block or creature being looked at. | No separate item search |
+| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | Gives villagers default or custom names. | No separate item search |

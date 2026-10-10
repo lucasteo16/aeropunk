@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用末地食材烹饪"
-  position: 0
+  position: 3
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---
@@ -181,6 +181,6 @@ End's Delight 用紫颂作物制作饮品和甜点。进入末地外岛后可采
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | 已安装基准版 | <EmiSearch query="@ends_delight" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | <EmiSearch query="@ends_delight" /> |

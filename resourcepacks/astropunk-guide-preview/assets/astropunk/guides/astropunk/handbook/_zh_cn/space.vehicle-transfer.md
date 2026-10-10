@@ -8,7 +8,7 @@ navigation:
 
 # 了解整台载具的跨维度移动
 
-## 未安装
+## 暂缓内容
 
 <EmiSearch query="@create" />
 
@@ -16,8 +16,7 @@ navigation:
 
 | 内容 | 作用 |
 | --- | --- |
-| Create: AeroWarptics（未安装） | 物理载具转移附加模组。 |
-| Create: Northstar-Aeronautics Compatibility（未安装） | 连接 Northstar 目的地与物理载具。 |
+| Create: Northstar-Aeronautics Compatibility（暂缓加入） | 连接 Northstar 目的地与物理载具。 |
 
 ***
 
@@ -25,12 +24,16 @@ navigation:
 
 - [维度](world.dimensions.md)
 
+同一维度内的整艘飞行船移动属于独立交通功能，不是太空探索。
+
+- [传送](travel.destinations.md)
+
 
 ***
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) | 增加用于转移 Aeronautics 物理载具的工具。 | 暂缓，未安装 | 当前未安装 |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) | 将 Northstar 太空旅行与 Aeronautics 物理载具转移衔接。 | 暂缓，未安装 | 当前未安装 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) （暂缓加入） | 增加用于转移 Aeronautics 物理载具的工具。 | 无独立物品查询 |
+| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) （暂缓加入） | 将 Northstar 太空旅行与 Aeronautics 物理载具转移衔接。 | 无独立物品查询 |

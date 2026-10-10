@@ -42,8 +42,8 @@ Spell actions use the Spell Engine hotbar. Assign its controls in Key Binds if a
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Reworks melee attacks with weapon animations and a more fluid combat system. | Baseline, installed | No separate item search |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Adds a dodge roll with related attributes and enchantments. | Baseline, installed | No separate item search |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Adds chance-based critical hits to melee and ranged attacks. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Reworks melee attacks with weapon animations and a more fluid combat system. | No separate item search |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Adds a dodge roll with related attributes and enchantments. | No separate item search |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Adds chance-based critical hits to melee and ranged attacks. | No separate item search |

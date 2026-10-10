@@ -34,11 +34,11 @@ Map teleportation depends on server permissions. Placing a waypoint does not gra
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | Locates structures, including supported modded structures. | Baseline, installed | <EmiSearch query="@explorerscompass" /> |
-| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | Locates biomes, including supported modded biomes. | Baseline, installed | <EmiSearch query="@naturescompass" /> |
-| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | Shows capes colored to match players' vanilla teams. | Heavy edition, not installed here | Not installed here |
-| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Adds multiplayer map features, including world-map synchronization, to Xaero's maps. | Baseline, installed | No separate item search |
-| ![Xaero's Minimap](images/catalog-1bokaNcj.png) [Xaero's Minimap](maps.personal.md) | Shows nearby terrain and entities on a minimap with saved waypoints. | Baseline, installed | No separate item search |
-| ![Xaero's World Map](images/catalog-NcUtCpym.png) [Xaero's World Map](maps.personal.md) | Shows explored terrain in a full-screen world map. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | Locates structures, including supported modded structures. | <EmiSearch query="@explorerscompass" /> |
+| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | Locates biomes, including supported modded biomes. | <EmiSearch query="@naturescompass" /> |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) (heavy edition only) | Shows capes colored to match players' vanilla teams. | No separate item search |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Adds multiplayer map features, including world-map synchronization, to Xaero's maps. | No separate item search |
+| ![Xaero's Minimap](images/catalog-1bokaNcj.png) [Xaero's Minimap](maps.personal.md) | Shows nearby terrain and entities on a minimap with saved waypoints. | No separate item search |
+| ![Xaero's World Map](images/catalog-NcUtCpym.png) [Xaero's World Map](maps.personal.md) | Shows explored terrain in a full-screen world map. | No separate item search |

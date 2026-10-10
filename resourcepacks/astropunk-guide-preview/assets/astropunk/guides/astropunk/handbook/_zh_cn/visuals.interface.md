@@ -45,14 +45,14 @@ Reese's Sodium Options 重新组织视频菜单。Sodium Extra 增加外观、�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Advancement Plaques](images/catalog-9NM0dXub.png) [Advancement Plaques](visuals.interface.md) | 将进度通知替换为牌匾样式。 | 已安装基准版 | 无独立物品查询 |
-| ![Better ModList](images/catalog-sbpqhzIG.png) [Better ModList](visuals.interface.md) | 调整模组列表显示与筛选。 | 已安装基准版 | 无独立物品查询 |
-| ![BetterF3](images/catalog-8shC1gFX.png) [BetterF3](visuals.interface.md) | 重新组织调试信息显示。 | 已安装基准版 | 无独立物品查询 |
-| ![Hide Experimental Warning](images/catalog-Rm4OOdHd.png) [Hide Experimental Warning](visuals.interface.md) | 隐藏实验性世界警告。 | 已安装基准版 | 无独立物品查询 |
-| ![Progress Peek](images/catalog-1A2XNzUB.png) [Progress Peek](visuals.interface.md) | 在桌面任务栏显示加载进度。 | 已安装基准版 | 无独立物品查询 |
-| ![Reese's Sodium Options](images/catalog-Bh37bMuy.png) [Reese's Sodium Options](visuals.interface.md) | 重新组织 Sodium 视频选项。 | 已安装基准版 | 无独立物品查询 |
-| ![Sodium Extra](images/catalog-PtjYWJkn.png) [Sodium Extra](visuals.interface.md) | 增加外观、粒子、动画与信息显示控制。 | 已安装基准版 | 无独立物品查询 |
-| ![Toast Control](images/catalog-CnOG2wlS.png) [Toast Control](visuals.interface.md) | 控制弹出通知。 | 已安装基准版 | 无独立物品查询 |
-| ![Traveler's Titles](images/catalog-JtifUr64.png) [Traveler's Titles](visuals.interface.md) | 显示进入生物群系与维度的标题。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Advancement Plaques](images/catalog-9NM0dXub.png) [Advancement Plaques](visuals.interface.md) | 将进度通知替换为牌匾样式。 | 无独立物品查询 |
+| ![Better ModList](images/catalog-sbpqhzIG.png) [Better ModList](visuals.interface.md) | 调整模组列表显示与筛选。 | 无独立物品查询 |
+| ![BetterF3](images/catalog-8shC1gFX.png) [BetterF3](visuals.interface.md) | 重新组织调试信息显示。 | 无独立物品查询 |
+| ![Hide Experimental Warning](images/catalog-Rm4OOdHd.png) [Hide Experimental Warning](visuals.interface.md) | 隐藏实验性世界警告。 | 无独立物品查询 |
+| ![Progress Peek](images/catalog-1A2XNzUB.png) [Progress Peek](visuals.interface.md) | 在桌面任务栏显示加载进度。 | 无独立物品查询 |
+| ![Reese's Sodium Options](images/catalog-Bh37bMuy.png) [Reese's Sodium Options](visuals.interface.md) | 重新组织 Sodium 视频选项。 | 无独立物品查询 |
+| ![Sodium Extra](images/catalog-PtjYWJkn.png) [Sodium Extra](visuals.interface.md) | 增加外观、粒子、动画与信息显示控制。 | 无独立物品查询 |
+| ![Toast Control](images/catalog-CnOG2wlS.png) [Toast Control](visuals.interface.md) | 控制弹出通知。 | 无独立物品查询 |
+| ![Traveler's Titles](images/catalog-JtifUr64.png) [Traveler's Titles](visuals.interface.md) | 显示进入生物群系与维度的标题。 | 无独立物品查询 |

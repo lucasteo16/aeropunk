@@ -36,7 +36,7 @@ class NavigationSkeleton(unittest.TestCase):
                     self.assertTrue(current.is_file())
                     depth += 1
                 self.assertIn(current.name, {topic + '.md' for topic in SECTIONS} | {'index.md'}, path.name)
-                self.assertLessEqual(depth, 1, path.name)
+                self.assertLessEqual(depth, 2, path.name)
 
     def test_home_and_sidebar_reference_directory_match(self):
         for locale in ('', '_zh_cn'):
@@ -71,7 +71,7 @@ class NavigationSkeleton(unittest.TestCase):
                 self.assertEqual(len(rows), 1, entry['metadata_path'])
                 row = rows[0]
                 self.assertTrue('![' in row or '<ItemImage ' in row, row)
-                label = {'baseline': '已安装基准版' if locale else 'Baseline, installed', 'heavy': '重型版，当前未安装' if locale else 'Heavy edition, not installed here', 'deferred': '暂缓，未安装' if locale else 'Deferred, not installed'}[entry['availability']]
+                label = {'baseline': '', 'heavy': '（仅重型版）' if locale else '(heavy edition only)', 'deferred': '（暂缓加入）' if locale else '(deferred addition)'}[entry['availability']]
                 self.assertIn(label, row, entry['metadata_path'])
                 visuals = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_text())
                 visual = visuals.get(entry['metadata_path'])

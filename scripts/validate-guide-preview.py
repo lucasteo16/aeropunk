@@ -47,9 +47,9 @@ for article in handbook['pages']:
                 row = matching_rows[0]
                 assert '![' in row or '<ItemImage ' in row, entry['metadata_path']
                 availability = {
-                    'baseline': '已安装基准版' if language else 'Baseline, installed',
-                    'heavy': '重型版，当前未安装' if language else 'Heavy edition, not installed here',
-                    'deferred': '暂缓，未安装' if language else 'Deferred, not installed',
+                    'baseline': '',
+                    'heavy': '（仅重型版）' if language else '(heavy edition only)',
+                    'deferred': '（暂缓加入）' if language else '(deferred addition)',
                 }[entry['availability']]
                 assert availability in row, entry['metadata_path']
 assert not (pages / "_zh_tw").exists()
@@ -110,7 +110,7 @@ for language in ('', '_zh_cn'):
             seen.add(current)
             depth += 1
         assert current in section_roots | {'index.md'}, article['filename']
-        assert depth <= 1, article['filename']
+        assert depth <= 2, article['filename']
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options
 if args.source_only:

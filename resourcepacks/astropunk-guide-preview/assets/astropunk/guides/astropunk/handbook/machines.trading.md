@@ -43,6 +43,6 @@ Craft a Trading Depot and attach it to a working villager's workstation. Trading
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | Automates villager trading through Create machinery. | Baseline, installed | <EmiSearch query="@trading_floor" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | Automates villager trading through Create machinery. | <EmiSearch query="@trading_floor" /> |

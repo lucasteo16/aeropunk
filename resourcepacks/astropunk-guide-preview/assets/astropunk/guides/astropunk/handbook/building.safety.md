@@ -57,7 +57,7 @@ Lighty displays block light and sky light, with number, carpet and cross modes. 
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | Overlays light levels to help find dark areas and spawnable surfaces. | Baseline, installed | No separate item search |
-| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | Adds blocks that control hostile or other creature spawning in an area. | Baseline, installed | <EmiSearch query="@torchmaster" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | Overlays light levels to help find dark areas and spawnable surfaces. | No separate item search |
+| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | Adds blocks that control hostile or other creature spawning in an area. | <EmiSearch query="@torchmaster" /> |

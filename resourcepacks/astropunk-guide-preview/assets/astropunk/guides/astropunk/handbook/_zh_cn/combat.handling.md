@@ -42,8 +42,8 @@ Better Combat 为支持的武器提供攻击模式与动画。比较攻击距离
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 通过武器攻击动画与更流畅的攻击机制改进近战。 | 已安装基准版 | 无独立物品查询 |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 增加闪避翻滚及相关属性与附魔。 | 已安装基准版 | 无独立物品查询 |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 为近战与远程攻击增加概率触发的暴击。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 通过武器攻击动画与更流畅的攻击机制改进近战。 | 无独立物品查询 |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 增加闪避翻滚及相关属性与附魔。 | 无独立物品查询 |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 为近战与远程攻击增加概率触发的暴击。 | 无独立物品查询 |

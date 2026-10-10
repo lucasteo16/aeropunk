@@ -10,7 +10,7 @@ navigation:
 
 ## Shaders & distance
 
-Iris loads shader packs. Distant Horizons displays simplified distant terrain. These are separate systems. Packaged initial settings disable shaders and Distant Horizons rendering, while players can retain different existing preferences.
+Iris loads shader packs. Distant Horizons displays simplified distant terrain. These are separate systems.
 
 | Component | Function |
 | --- | --- |
@@ -19,16 +19,16 @@ Iris loads shader packs. Distant Horizons displays simplified distant terrain. T
 
 ***
 
-## Other edition lighting
+## Dynamic lighting
 
 <EmiSearch query="@create" /> <EmiSearch query="@spawn" />
 
-Sodium Dynamic Lights and its Create and Sable bridge are not installed in this edition. A dynamic light is a visual effect, not a guarantee of server-side spawn prevention.
+Sodium Dynamic Lights and its Create and Sable bridge are heavy edition only. Dynamic lighting is a visual effect, not a guarantee of server-side spawn prevention.
 
 | Component | Function |
 | --- | --- |
-| Create Sable Dynamic Lights (not installed) | Extends dynamic lighting to Create and Sable structures. |
-| Sodium Dynamic Lights (not installed) | Provides dynamic lighting with Sodium settings integration. |
+| Create Sable Dynamic Lights (heavy edition only) | Extends dynamic lighting to Create and Sable structures. |
+| Sodium Dynamic Lights (heavy edition only) | Provides dynamic lighting with Sodium settings integration. |
 
 ***
 
@@ -43,9 +43,9 @@ Sodium Dynamic Lights and its Create and Sable bridge are not installed in this 
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) | Adds dynamic light support for lights on Create and Sable moving structures. | Heavy edition, not installed here | Not installed here |
-| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | Baseline, installed | No separate item search |
-| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) | Provides dynamic lighting with Sodium settings integration. | Heavy edition, not installed here | Not installed here |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) (heavy edition only) | Adds dynamic light support for lights on Create and Sable moving structures. | No separate item search |
+| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | No separate item search |
+| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) (heavy edition only) | Provides dynamic lighting with Sodium settings integration. | No separate item search |

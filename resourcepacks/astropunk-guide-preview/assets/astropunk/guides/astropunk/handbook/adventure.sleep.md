@@ -42,7 +42,7 @@ Better Days controls day and night duration and can accelerate time while player
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | Customizes day and night duration and advances time while players sleep. | Baseline, installed | No separate item search |
-| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | Adds sleeping bags and hammocks for resting without changing the respawn point. | Baseline, installed | <EmiSearch query="@comforts" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Better Days](images/catalog-tPLE214j.png) [Better Days](adventure.sleep.md) | Customizes day and night duration and advances time while players sleep. | No separate item search |
+| ![Comforts](images/catalog-SaCpeal4.png) [Comforts](adventure.sleep.md) | Adds sleeping bags and hammocks for resting without changing the respawn point. | <EmiSearch query="@comforts" /> |

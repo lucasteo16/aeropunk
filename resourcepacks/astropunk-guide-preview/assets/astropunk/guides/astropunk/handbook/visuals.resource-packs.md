@@ -20,7 +20,7 @@ These mods implement connected textures, resource-pack colors or biome color ble
 
 ***
 
-## Installed packs
+## Shared resource packs
 
 These selected resource packs change leaf appearance, attribute labels or interface presentation. Resource packs change appearance, not the underlying crafting catalogue.
 
@@ -32,19 +32,19 @@ These selected resource packs change leaf appearance, attribute labels or interf
 
 ***
 
-## Other edition packs
+## Animation & ambience
 
-These packs are absent from this edition. Animated entity packs need their compatible model support, not just a shader loader.
+The heavy edition adds animated entities, crops, ground decorations and environmental effects. Animated entity packs need compatible model support, not just a shader loader.
 
 | Component | Function |
 | --- | --- |
-| Fresh Animations: Player Extension (not installed) | Adds Fresh Animations style player animation. |
-| (Bee's) Fancy Crops (not installed) | Changes crop appearance. |
-| Fresh Animations: Objects (not installed) | Animates non-creature entities. |
-| Fresh Animations: Quivers (not installed) | Adds skeleton quiver visuals. |
-| Fresh Animations (not installed) | Adds animated entity models. |
-| Simple Grass Flowers (not installed) | Adds small surface decorations to grass and related ground textures. |
-| Visual Effects+ (not installed) | Adds biome-based fog, particles and weather appearance. |
+| Fresh Animations: Player Extension (heavy edition only) | Adds Fresh Animations style player animation. |
+| (Bee's) Fancy Crops (heavy edition only) | Changes crop appearance. |
+| Fresh Animations: Objects (heavy edition only) | Animates non-creature entities. |
+| Fresh Animations: Quivers (heavy edition only) | Adds skeleton quiver visuals. |
+| Fresh Animations (heavy edition only) | Adds animated entity models. |
+| Simple Grass Flowers (heavy edition only) | Adds small surface decorations to grass and related ground textures. |
+| Visual Effects+ (heavy edition only) | Adds biome-based fog, particles and weather appearance. |
 
 ***
 
@@ -57,18 +57,18 @@ These packs are absent from this edition. Animated entity packs need their compa
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) | Changes crop appearance. | Heavy edition, not installed here | Not installed here |
-| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | Adds icons to attribute translations. | Baseline, installed | No separate item search |
-| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | Improves blending between biome colors. | Baseline, installed | No separate item search |
-| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | Supports connected block textures from resource packs. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) | Adds animated entity models. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) | Animates non-creature entities. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) | Adds Fresh Animations style player animation. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) | Adds skeleton quiver visuals. | Heavy edition, not installed here | Not installed here |
-| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | Changes interface appearance without replacing item or block textures. | Baseline, installed | No separate item search |
-| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | Changes the appearance of leaf blocks. | Baseline, installed | No separate item search |
-| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | Supports resource-pack colors, colormaps and block sound customization. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) | Adds small surface decorations to grass and related ground textures. | Heavy edition, not installed here | Not installed here |
-| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) | Adds biome-based fog, particles and weather appearance. | Heavy edition, not installed here | Not installed here |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) (heavy edition only) | Changes crop appearance. | No separate item search |
+| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | Adds icons to attribute translations. | No separate item search |
+| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | Improves blending between biome colors. | No separate item search |
+| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | Supports connected block textures from resource packs. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) (heavy edition only) | Adds animated entity models. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) (heavy edition only) | Animates non-creature entities. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) (heavy edition only) | Adds Fresh Animations style player animation. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) (heavy edition only) | Adds skeleton quiver visuals. | No separate item search |
+| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | Changes interface appearance without replacing item or block textures. | No separate item search |
+| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | Changes the appearance of leaf blocks. | No separate item search |
+| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | Supports resource-pack colors, colormaps and block sound customization. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) (heavy edition only) | Adds small surface decorations to grass and related ground textures. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) (heavy edition only) | Adds biome-based fog, particles and weather appearance. | No separate item search |

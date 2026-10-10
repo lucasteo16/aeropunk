@@ -59,8 +59,8 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | 提供手册入口与可点击的物品查询。 | 已安装基准版 | 无独立物品查询 |
-| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | 为按键绑定界面增加搜索与冲突筛选。 | 已安装基准版 | 无独立物品查询 |
-| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | 在交易界面增加刷新符合条件的村民交易的快捷操作。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | 提供手册入口与可点击的物品查询。 | 无独立物品查询 |
+| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | 为按键绑定界面增加搜索与冲突筛选。 | 无独立物品查询 |
+| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | 在交易界面增加刷新符合条件的村民交易的快捷操作。 | 无独立物品查询 |

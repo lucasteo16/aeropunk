@@ -59,8 +59,8 @@ Increase the interface scale in Video Settings for larger text. This also enlarg
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | Adds handbook access and clickable item searches. | Baseline, installed | No separate item search |
-| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | Adds searching and conflict filtering to the keybinding screen. | Baseline, installed | No separate item search |
-| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | Adds a shortcut for refreshing eligible villager trades from the trading interface. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:white_bed" /> [Astropunk Handbook Access](help.controls.md) | Adds handbook access and clickable item searches. | No separate item search |
+| ![Controlling](images/catalog-xv94TkTM.png) [Controlling](help.controls.md) | Adds searching and conflict filtering to the keybinding screen. | No separate item search |
+| ![Trade Refresh](images/catalog-OlAQOlqx.png) [Trade Refresh](help.controls.md) | Adds a shortcut for refreshing eligible villager trades from the trading interface. | No separate item search |

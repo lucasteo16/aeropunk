@@ -33,6 +33,10 @@ navigation:
 | <ItemLink id="create_sa:portable_drill" />, <ItemLink id="create_sa:copper_magnet" />, <ItemLink id="create_sa:block_picker" /> | 便携钻、铜磁铁与方块拾取器工具。 |
 | <ItemLink id="create_sa:brass_drone_item" />, <ItemLink id="create_sa:drone_controller" /> | 黄铜无人机与无人机控制器。 |
 
+这些便携引擎组件不能直接替代 Create 的放置式蒸汽引擎。
+
+- [装备](equipment.weapons-armor.md)
+
 ***
 
 ## 额外材料配方
@@ -51,14 +55,6 @@ navigation:
 | <ItemLink id="minecraft:phantom_membrane" />, <ItemLink id="minecraft:feather" /> | Create: Stam1o Tweaks 增加羽毛缠魂为幻翼膜的配方。 |
 | <ItemLink id="minecraft:brown_mushroom_block" />, <ItemLink id="minecraft:red_mushroom_block" /> | 四个同种蘑菇压块为一个蘑菇方块。 |
 | <ItemLink id="minecraft:prismarine_shard" />, <ItemLink id="minecraft:blue_dye" /> | 一个海晶碎片烧炼为一个蓝色染料。 |
-
-***
-
-## 初次使用
-
-制作引擎和储罐组件前，先查看便携钻配方。这些物品不能直接替代 Create 放置式蒸汽引擎。穿戴装备见装备。额外材料配方请查物品浏览器，加工机器的布局请看思索演示。
-
-- [装备](equipment.weapons-armor.md)
 
 <Recipe id="stam1ocreatetweaks:blasting/blue_dye" />
 
@@ -81,7 +77,7 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | 已安装基准版 | <EmiSearch query="@create_sa" /> |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 无独立物品查询 |

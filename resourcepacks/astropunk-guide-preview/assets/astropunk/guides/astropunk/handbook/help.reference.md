@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: "Existing help"
+  title: "Advancements"
   position: 0
-  parent: reference.utilities.md
+  parent: reference.technical.md
   icon: minecraft:book
 ---
 
-# Existing help
+# Advancements
 
 ## Read advancements
 
@@ -32,6 +32,6 @@ The mod also provides advancement editing features. Editing support and permissi
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | Improves advancement browsing and supports editing advancements in game. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | Improves advancement browsing and supports editing advancements in game. | No separate item search |

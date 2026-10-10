@@ -99,9 +99,15 @@ Aviation materials supply the engine core parts. Create Propulsion has a separat
 
 ***
 
+## Shared fuel addon
+
+AeroEngine fuel compat (separate ship patch) lets AeroEngine accept common fuel tags. TFMG Community Edition kerosene has a matching tag. The addon also accepts broader fuel tags, including other liquids and gases, without assigning different energy values to each fuel. This is fuel acceptance compatibility, not a balanced shared refinery system.
+
+***
+
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | Baseline, installed | <EmiSearch query="@aeroengineering" /> |
-| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | Baseline, installed | <EmiSearch query="@createpropulsion" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | <EmiSearch query="@aeroengineering" /> |
+| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | <EmiSearch query="@createpropulsion" /> |

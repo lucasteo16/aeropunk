@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Encounter food"
-  position: 0
+  position: 5
   parent: reference.food.md
   icon: minecraft:rotten_flesh
 ---
@@ -159,6 +159,6 @@ Improved Dog Food belongs to feeding animals, not the player’s dietary variety
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | Baseline, installed | <EmiSearch query="@lendersdelight" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | <EmiSearch query="@lendersdelight" /> |

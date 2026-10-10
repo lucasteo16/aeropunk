@@ -16,11 +16,7 @@ navigation:
 
 Lootr chest in a mineshaft.
 
-| Container | Behavior |
-| --- | --- |
-| Lootr chests, trapped chests, barrels, shulker boxes and minecarts | Each player receives a separate inventory in converted loot-table containers. |
-| Gold and blue appearance | Gold indicates unopened for you. Blue indicates opened. A client setting can hide this appearance. |
-| Ordinary storage | Containers without loot tables are not automatically personal loot. |
+Lootr gives each player a separate inventory in converted loot-table chests, trapped chests, barrels, shulker boxes and minecarts. Gold means you have not opened the container, while blue means you have. A client setting can hide these colors. Ordinary storage without a loot table does not automatically become personal loot.
 
 ***
 
@@ -48,7 +44,7 @@ Open a Lootr container for your own loot. Use the item browser’s loot displays
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | Baseline, installed | No separate item search |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | Baseline, installed | <EmiSearch query="@lootr" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | No separate item search |
+| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | <EmiSearch query="@lootr" /> |

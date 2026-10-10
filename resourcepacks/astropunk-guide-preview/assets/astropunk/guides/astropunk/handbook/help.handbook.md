@@ -21,6 +21,6 @@ The sidebar groups installed content by function, with each main topic directly 
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | Renders in-game guide pages with formatted text, item displays and interactive scenes. | Baseline, installed | <EmiSearch query="@guideme" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | Renders in-game guide pages with formatted text, item displays and interactive scenes. | <EmiSearch query="@guideme" /> |

@@ -20,7 +20,7 @@ navigation:
 
 ***
 
-## 已安装资源包
+## 通用资源包
 
 这些选定资源包改变树叶外观、属性标签或界面呈现。资源包改变外观，不改变基础制作目录。
 
@@ -32,19 +32,19 @@ navigation:
 
 ***
 
-## 其他版本资源包
+## 动画与环境资源包
 
-这些资源包未包含在此版本。动态实体资源包需要兼容的模型支持，而不只是光影加载器。
+重型版增加动态实体、作物外观、地表装饰与环境效果。动态实体资源包需要兼容的模型支持，而不只是光影加载器。
 
 | 内容 | 作用 |
 | --- | --- |
-| Fresh Animations: Player Extension（未安装） | 增加 Fresh Animations 风格的玩家动画。 |
-| (Bee's) Fancy Crops（未安装） | 改变作物外观。 |
-| Fresh Animations: Objects（未安装） | 为非生物实体增加动画。 |
-| Fresh Animations: Quivers（未安装） | 为骷髅增加箭袋外观。 |
-| Fresh Animations（未安装） | 增加动态实体模型。 |
-| Simple Grass Flowers（未安装） | 为草地及相关地表增加小型外观装饰。 |
-| Visual Effects+（未安装） | 增加随生物群系变化的雾、粒子与天气外观。 |
+| Fresh Animations: Player Extension（仅重型版） | 增加 Fresh Animations 风格的玩家动画。 |
+| (Bee's) Fancy Crops（仅重型版） | 改变作物外观。 |
+| Fresh Animations: Objects（仅重型版） | 为非生物实体增加动画。 |
+| Fresh Animations: Quivers（仅重型版） | 为骷髅增加箭袋外观。 |
+| Fresh Animations（仅重型版） | 增加动态实体模型。 |
+| Simple Grass Flowers（仅重型版） | 为草地及相关地表增加小型外观装饰。 |
+| Visual Effects+（仅重型版） | 增加随生物群系变化的雾、粒子与天气外观。 |
 
 ***
 
@@ -57,18 +57,18 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) | 改变作物外观。 | 重型版，当前未安装 | 当前未安装 |
-| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 为属性翻译增加图标。 | 已安装基准版 | 无独立物品查询 |
-| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | 改善生物群系颜色之间的混合。 | 已安装基准版 | 无独立物品查询 |
-| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | 支持资源包的方块连接纹理。 | 已安装基准版 | 无独立物品查询 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) | 增加动态实体模型。 | 重型版，当前未安装 | 当前未安装 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) | 为非生物实体增加动画。 | 重型版，当前未安装 | 当前未安装 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) | 增加 Fresh Animations 风格的玩家动画。 | 重型版，当前未安装 | 当前未安装 |
-| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) | 为骷髅增加箭袋外观。 | 重型版，当前未安装 | 当前未安装 |
-| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 改变界面外观，不替换物品或方块纹理。 | 已安装基准版 | 无独立物品查询 |
-| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 改变树叶方块外观。 | 已安装基准版 | 无独立物品查询 |
-| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | 支持资源包颜色、颜色映射与方块声音自定义。 | 已安装基准版 | 无独立物品查询 |
-| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) | 为草地及相关地表增加小型外观装饰。 | 重型版，当前未安装 | 当前未安装 |
-| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) | 增加随生物群系变化的雾、粒子与天气外观。 | 重型版，当前未安装 | 当前未安装 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) （仅重型版） | 改变作物外观。 | 无独立物品查询 |
+| ![Attribute Icons (RPG Series)](images/catalog-73QpzsIN.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 为属性翻译增加图标。 | 无独立物品查询 |
+| ![Better Biome Reblend](images/catalog-Xh8hkQmD.png) [Better Biome Reblend](visuals.resource-packs.md) | 改善生物群系颜色之间的混合。 | 无独立物品查询 |
+| ![Continuity](images/catalog-1IjD5062.png) [Continuity](visuals.resource-packs.md) | 支持资源包的方块连接纹理。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations](visuals.resource-packs.md) （仅重型版） | 增加动态实体模型。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Objects](visuals.resource-packs.md) （仅重型版） | 为非生物实体增加动画。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Player Extension](visuals.resource-packs.md) （仅重型版） | 增加 Fresh Animations 风格的玩家动画。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) （仅重型版） | 为骷髅增加箭袋外观。 | 无独立物品查询 |
+| ![Mandala's GUI - Dark mode](images/catalog-h6zxsNVF.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 改变界面外观，不替换物品或方块纹理。 | 无独立物品查询 |
+| ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 改变树叶方块外观。 | 无独立物品查询 |
+| ![Polytone](images/catalog-3qAYkBMB.png) [Polytone](visuals.resource-packs.md) | 支持资源包颜色、颜色映射与方块声音自定义。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Simple Grass Flowers](visuals.resource-packs.md) （仅重型版） | 为草地及相关地表增加小型外观装饰。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Visual Effects+](visuals.resource-packs.md) （仅重型版） | 增加随生物群系变化的雾、粒子与天气外观。 | 无独立物品查询 |

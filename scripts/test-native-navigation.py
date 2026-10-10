@@ -37,7 +37,7 @@ public class NativeNavigationProbe {
   for(String line:Files.readAllLines(path)){String[] x=line.split("\\t",-1); var p=new ParsedGuidePage(id(x[0]),new Frontmatter(new FrontmatterNavigation(x[1],x[2].isEmpty()?null:id(x[2]),Integer.parseInt(x[3]))));result.put(p.getId(),p);}return result;
  }
  static Set<String> roots(NavigationTree t){Set<String>s=new TreeSet<>();for(var n:t.getRootNodes())s.add(n.pageId().toString());return s;}
- static int walk(NavigationNode n,int depth,Set<String>seen){if(!seen.add(n.pageId().toString()))throw new AssertionError("Duplicate or cyclic node"); if(depth>1)throw new AssertionError("Unexpected second category level");int count=1; for(var c:n.children())count+=walk(c,depth+1,seen);return count;}
+ static int walk(NavigationNode n,int depth,Set<String>seen){if(!seen.add(n.pageId().toString()))throw new AssertionError("Duplicate or cyclic node"); if(depth>2)throw new AssertionError("Unexpected fourth navigation level");int count=1; for(var c:n.children())count+=walk(c,depth+1,seen);return count;}
  public static void main(String[]args)throws Exception{
   var watched=load(Path.of(args[0]));var fallback=new HashMap<>(watched); var clean=NavigationTree.build(watched.values());
   if(!roots(clean).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md")))throw new AssertionError("Unexpected source roots "+roots(clean));

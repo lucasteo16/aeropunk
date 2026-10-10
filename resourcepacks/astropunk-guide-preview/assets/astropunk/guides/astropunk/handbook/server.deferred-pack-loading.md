@@ -8,19 +8,19 @@ navigation:
 
 # Deferred loading
 
-## Not installed
+## Deferred additions
 
-Paxi is deferred. Its automatic pack-loading function is not installed here.
+Paxi is deferred. Its automatic pack-loading function is not part of either edition.
 
 | Component | Function |
 | --- | --- |
-| Paxi (not installed) | Automatic data-pack and resource-pack loading. |
+| Paxi (deferred) | Automatic data-pack and resource-pack loading. |
 
 
 ***
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) | Automatic data-pack and resource-pack loading. | Deferred, not installed | Not installed here |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) (deferred addition) | Automatic data-pack and resource-pack loading. | No separate item search |

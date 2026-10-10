@@ -87,6 +87,6 @@ Begin with a Water Wheel, shaft and one machine. Use each component's Ponder ent
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Adds Create transmission components and flexible storage arrangements. | Baseline, installed | <EmiSearch query="@create_connected" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Adds Create transmission components and flexible storage arrangements. | <EmiSearch query="@create_connected" /> |

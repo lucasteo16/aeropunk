@@ -29,9 +29,15 @@ Cave synchronization can disable World Map's cave-layer selector. This does not 
 
 ***
 
+## Team capes
+
+Team Capes (heavy edition only) displays capes in your vanilla team color. It is a visual team identifier, separate from terrain synchronization and waypoint sharing.
+
+***
+
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) | Shows capes colored to match players' vanilla teams. | Heavy edition, not installed here | Not installed here |
-| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Adds multiplayer map features, including world-map synchronization, to Xaero's maps. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) (heavy edition only) | Shows capes colored to match players' vanilla teams. | No separate item search |
+| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | Adds multiplayer map features, including world-map synchronization, to Xaero's maps. | No separate item search |

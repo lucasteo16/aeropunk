@@ -69,10 +69,10 @@ Armor Poser 编辑盔甲架的肢体、位置、旋转与预设姿态。潜行�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | 提供调整盔甲架姿势与属性的界面。 | 已安装基准版 | 无独立物品查询 |
-| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | 在告示牌多行之间绘制大号文字与符号。 | 已安装基准版 | 无独立物品查询 |
-| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | 将图片导入为可摆放的画作，也支持多人服务器。 | 已安装基准版 | <EmiSearch query="@immersive_paintings" /> |
-| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | 让玩家将物品栏中的物品摆放在世界中展示。 | 已安装基准版 | <EmiSearch query="@items_displayed" /> |
-| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | 增加可调整姿势的玩家外观雕像，用于建筑装饰。 | 已安装基准版 | <EmiSearch query="@strawstatues" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | 提供调整盔甲架姿势与属性的界面。 | 无独立物品查询 |
+| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | 在告示牌多行之间绘制大号文字与符号。 | 无独立物品查询 |
+| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | 将图片导入为可摆放的画作，也支持多人服务器。 | <EmiSearch query="@immersive_paintings" /> |
+| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | 让玩家将物品栏中的物品摆放在世界中展示。 | <EmiSearch query="@items_displayed" /> |
+| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | 增加可调整姿势的玩家外观雕像，用于建筑装饰。 | <EmiSearch query="@strawstatues" /> |

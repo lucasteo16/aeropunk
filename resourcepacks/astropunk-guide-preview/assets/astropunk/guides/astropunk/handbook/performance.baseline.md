@@ -61,7 +61,7 @@ Memory, loading and general fixes address different costs from terrain rendering
 
 ## Input & idle use
 
-Input processing and background resource use are separate from active-world simulation. Installation does not establish a measured frame-rate gain on your computer.
+Input processing and background resource use are separate from active-world simulation. Optimization support does not establish a measured frame-rate gain on your computer.
 
 | Component | Function |
 | --- | --- |
@@ -80,27 +80,27 @@ Input processing and background resource use are separate from active-world simu
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![AI Improvements: Performance Tuning](images/catalog-DSVgwcji.png) [AI Improvements: Performance Tuning](performance.baseline.md) | Vanilla creature behavior optimization. | Baseline, installed | No separate item search |
-| ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | Particle processing and rendering optimization. | Baseline, installed | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | Optimizations outside the main terrain renderer. | Baseline, installed | No separate item search |
-| ![Clumps](images/catalog-Wnxd13zP.png) [Clumps](performance.baseline.md) | Combines experience orbs to reduce separate orb processing. | Baseline, installed | No separate item search |
-| ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-COlSi5iR.png) [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | Chunk management and generation optimization. | Baseline, installed | No separate item search |
-| ![Create: LazyTick](images/catalog-Z0d7hFh4.png) [Create: LazyTick](performance.baseline.md) | Create machine tick optimization. | Baseline, installed | <EmiSearch query="@createlazytick" /> |
-| ![CreateBetterFps](images/catalog-lMYIHZNH.png) [CreateBetterFps](performance.baseline.md) | Create rendering optimization for shader use. | Baseline, installed | No separate item search |
-| ![Cull Leaves](images/catalog-GNxdLCoP.png) [Cull Leaves](performance.baseline.md) | Skips selected hidden leaf geometry. | Baseline, installed | No separate item search |
-| ![Dynamic FPS](images/catalog-LQ3K71Q1.png) [Dynamic FPS](performance.baseline.md) | Reduces resource use in the background or while idle. | Baseline, installed | No separate item search |
-| ![Entity Culling](images/catalog-NNAgCjsB.png) [Entity Culling](performance.baseline.md) | Avoids rendering hidden entities and block entities. | Baseline, installed | No separate item search |
-| ![FerriteCore](images/catalog-uXXizFIs.png) [FerriteCore](performance.baseline.md) | Reduces memory use. | Baseline, installed | No separate item search |
-| ![Flerovium](images/catalog-4Rh1Mobu.png) [Flerovium](performance.baseline.md) | Optimizes item, particle and entity rendering. | Baseline, installed | No separate item search |
-| ![ImmediatelyFast](images/catalog-5ZwdcRci.png) [ImmediatelyFast](performance.baseline.md) | Optimizes immediate-mode rendering. | Baseline, installed | No separate item search |
-| ![Ixeris](images/catalog-p8RJPJIC.png) [Ixeris](performance.baseline.md) | Buffered raw input and threaded event polling. | Baseline, installed | No separate item search |
-| ![Kerria](images/catalog-f0ruQTF7.png) [Kerria](performance.baseline.md) | Accelerates animated texture processing. | Baseline, installed | No separate item search |
-| ![Let Me Despawn](images/catalog-vE2FN5qn.png) [Let Me Despawn](performance.baseline.md) | Adjusts creature despawn rules to reduce unintended persistent creatures. | Baseline, installed | No separate item search |
-| ![Lithium](images/catalog-gvQqBUqZ.png) [Lithium](performance.baseline.md) | Optimizes game logic in single-player and servers. | Baseline, installed | No separate item search |
-| ![ModernFix](images/catalog-nmDcB62a.png) [ModernFix](performance.baseline.md) | Performance, memory and bug-fix changes. | Baseline, installed | No separate item search |
-| ![More Culling](images/catalog-51shyZVL.png) [More Culling](performance.baseline.md) | Skips selected hidden rendering faces. | Baseline, installed | No separate item search |
-| ![quick pack](images/catalog-pSISfJ4O.png) [quick pack](performance.baseline.md) | Accelerates compressed data-pack and resource-pack loading. | Baseline, installed | No separate item search |
-| ![Sodium](images/catalog-AANobbMI.png) [Sodium](performance.baseline.md) | Replaces the terrain rendering engine. | Baseline, installed | No separate item search |
-| ![Structure Layout Optimizer](images/catalog-ayPU0OHc.png) [Structure Layout Optimizer](performance.baseline.md) | Optimizes jigsaw structure layout processing. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![AI Improvements: Performance Tuning](images/catalog-DSVgwcji.png) [AI Improvements: Performance Tuning](performance.baseline.md) | Vanilla creature behavior optimization. | No separate item search |
+| ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | Particle processing and rendering optimization. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | Optimizations outside the main terrain renderer. | No separate item search |
+| ![Clumps](images/catalog-Wnxd13zP.png) [Clumps](performance.baseline.md) | Combines experience orbs to reduce separate orb processing. | No separate item search |
+| ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-COlSi5iR.png) [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | Chunk management and generation optimization. | No separate item search |
+| ![Create: LazyTick](images/catalog-Z0d7hFh4.png) [Create: LazyTick](performance.baseline.md) | Create machine tick optimization. | <EmiSearch query="@createlazytick" /> |
+| ![CreateBetterFps](images/catalog-lMYIHZNH.png) [CreateBetterFps](performance.baseline.md) | Create rendering optimization for shader use. | No separate item search |
+| ![Cull Leaves](images/catalog-GNxdLCoP.png) [Cull Leaves](performance.baseline.md) | Skips selected hidden leaf geometry. | No separate item search |
+| ![Dynamic FPS](images/catalog-LQ3K71Q1.png) [Dynamic FPS](performance.baseline.md) | Reduces resource use in the background or while idle. | No separate item search |
+| ![Entity Culling](images/catalog-NNAgCjsB.png) [Entity Culling](performance.baseline.md) | Avoids rendering hidden entities and block entities. | No separate item search |
+| ![FerriteCore](images/catalog-uXXizFIs.png) [FerriteCore](performance.baseline.md) | Reduces memory use. | No separate item search |
+| ![Flerovium](images/catalog-4Rh1Mobu.png) [Flerovium](performance.baseline.md) | Optimizes item, particle and entity rendering. | No separate item search |
+| ![ImmediatelyFast](images/catalog-5ZwdcRci.png) [ImmediatelyFast](performance.baseline.md) | Optimizes immediate-mode rendering. | No separate item search |
+| ![Ixeris](images/catalog-p8RJPJIC.png) [Ixeris](performance.baseline.md) | Buffered raw input and threaded event polling. | No separate item search |
+| ![Kerria](images/catalog-f0ruQTF7.png) [Kerria](performance.baseline.md) | Accelerates animated texture processing. | No separate item search |
+| ![Let Me Despawn](images/catalog-vE2FN5qn.png) [Let Me Despawn](performance.baseline.md) | Adjusts creature despawn rules to reduce unintended persistent creatures. | No separate item search |
+| ![Lithium](images/catalog-gvQqBUqZ.png) [Lithium](performance.baseline.md) | Optimizes game logic in single-player and servers. | No separate item search |
+| ![ModernFix](images/catalog-nmDcB62a.png) [ModernFix](performance.baseline.md) | Performance, memory and bug-fix changes. | No separate item search |
+| ![More Culling](images/catalog-51shyZVL.png) [More Culling](performance.baseline.md) | Skips selected hidden rendering faces. | No separate item search |
+| ![quick pack](images/catalog-pSISfJ4O.png) [quick pack](performance.baseline.md) | Accelerates compressed data-pack and resource-pack loading. | No separate item search |
+| ![Sodium](images/catalog-AANobbMI.png) [Sodium](performance.baseline.md) | Replaces the terrain rendering engine. | No separate item search |
+| ![Structure Layout Optimizer](images/catalog-ayPU0OHc.png) [Structure Layout Optimizer](performance.baseline.md) | Optimizes jigsaw structure layout processing. | No separate item search |

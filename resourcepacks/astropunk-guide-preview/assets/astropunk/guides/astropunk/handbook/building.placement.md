@@ -54,7 +54,7 @@ Prepare a hotbar mix for quick placement, or open the palette manager to create 
 | <ItemLink id="mechtrowel:variant_conversion_template" /> | Converts available base blocks to supported Chipped or Rechiseled variants. Chipped is installed here. |
 | <ItemLink id="mechtrowel:reach_upgrade_template" /> | Extends placement reach. |
 
-Upgrade recipes are controlled by server settings. The shipped default requires the wand upgrade for wand mode. Integration templates for Applied Energistics 2 and Refined Storage are not useful storage paths in this pack because those providers are not installed.
+Upgrade recipes are controlled by server settings. The shipped default requires the wand upgrade for wand mode. Applied Energistics 2 and Refined Storage integration templates require their corresponding storage mods.
 
 ### Wand template
 
@@ -127,9 +127,9 @@ Pattern Schematics supplies empty patterns, captured patterns and the quill capt
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | Repeats schematic patterns when building with Create schematics. | Baseline, installed | <EmiSearch query="@create_pattern_schematics" /> |
-| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | Lets Create deployers place randomized blocks from a selected palette. | Baseline, installed | <EmiSearch query="@createshufflefilter" /> |
-| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | Displays building schematics to guide block placement and construction. | Baseline, installed | No separate item search |
-| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | Places randomized blocks from custom palettes and supports building-wand placement. | Baseline, installed | <EmiSearch query="@mechtrowel" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | Repeats schematic patterns when building with Create schematics. | <EmiSearch query="@create_pattern_schematics" /> |
+| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | Lets Create deployers place randomized blocks from a selected palette. | <EmiSearch query="@createshufflefilter" /> |
+| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | Displays building schematics to guide block placement and construction. | No separate item search |
+| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | Places randomized blocks from custom palettes and supports building-wand placement. | <EmiSearch query="@mechtrowel" /> |

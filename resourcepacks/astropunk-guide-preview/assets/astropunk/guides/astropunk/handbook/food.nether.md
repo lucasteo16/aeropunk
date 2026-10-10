@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Nether food"
-  position: 0
+  position: 2
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---
@@ -223,6 +223,6 @@ Egg dishes depend on the egg type accepted by the recipe. Bread portions and toa
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | Baseline, installed | <EmiSearch query="@mynethersdelight" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | <EmiSearch query="@mynethersdelight" /> |

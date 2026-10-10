@@ -42,20 +42,20 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 在物品提示与饥饿条中显示食物恢复量及饱和度。 | 已安装基准版 | 无独立物品查询 |
-| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | 增加自动进行 Farmer's Delight 食材处理的机械动力机器。 | 已安装基准版 | <EmiSearch query="@sliceanddice" /> |
-| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | 将其他烹饪模组接入机械动力机器，实现食物自动加工。 | 已安装基准版 | 无独立物品查询 |
-| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | 为机械动力增加自动收割、渔网与家禽产物自动收集。 | 已安装基准版 | <EmiSearch query="@create_integrated_farming" /> |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | 已安装基准版 | <EmiSearch query="@ends_delight" /> |
-| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | 已安装基准版 | <EmiSearch query="@farmersdelight" /> |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。 | 已安装基准版 | <EmiSearch query="@lendersdelight" /> |
-| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | 让树木被砍后失去支撑的树叶快速凋落。 | 已安装基准版 | 无独立物品查询 |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | 为 Farmer's Delight 增加采矿主题的食物与烹饪工具。 | 已安装基准版 | <EmiSearch query="@minersdelight" /> |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | 已安装基准版 | <EmiSearch query="@mynethersdelight" /> |
-| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | 右键即可收获成熟作物，无需手动破坏再补种。 | 已安装基准版 | 无独立物品查询 |
-| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 调整食物堆叠上限，改变每格物品栏可携带的食物数量。 | 已安装基准版 | 无独立物品查询 |
-| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 让农民村民正确补种作物，也支持部分模组种子。 | 已安装基准版 | 无独立物品查询 |
-| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 根据近期饮食的滚动记录奖励食物多样性。 | 已安装基准版 | <EmiSearch query="@solonion" /> |
-| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | 让骨粉可用于原本不接受骨粉的植物。 | 已安装基准版 | 无独立物品查询 |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | 在物品提示与饥饿条中显示食物恢复量及饱和度。 | 无独立物品查询 |
+| ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | 增加自动进行 Farmer's Delight 食材处理的机械动力机器。 | <EmiSearch query="@sliceanddice" /> |
+| ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | 将其他烹饪模组接入机械动力机器，实现食物自动加工。 | 无独立物品查询 |
+| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | 为机械动力增加自动收割、渔网与家禽产物自动收集。 | <EmiSearch query="@create_integrated_farming" /> |
+| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | <EmiSearch query="@ends_delight" /> |
+| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | <EmiSearch query="@farmersdelight" /> |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。 | <EmiSearch query="@lendersdelight" /> |
+| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | 让树木被砍后失去支撑的树叶快速凋落。 | 无独立物品查询 |
+| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | 为 Farmer's Delight 增加采矿主题的食物与烹饪工具。 | <EmiSearch query="@minersdelight" /> |
+| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | <EmiSearch query="@mynethersdelight" /> |
+| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | 右键即可收获成熟作物，无需手动破坏再补种。 | 无独立物品查询 |
+| <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 调整食物堆叠上限，改变每格物品栏可携带的食物数量。 | 无独立物品查询 |
+| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 让农民村民正确补种作物，也支持部分模组种子。 | 无独立物品查询 |
+| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | 根据近期饮食的滚动记录奖励食物多样性。 | <EmiSearch query="@solonion" /> |
+| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | 让骨粉可用于原本不接受骨粉的植物。 | 无独立物品查询 |

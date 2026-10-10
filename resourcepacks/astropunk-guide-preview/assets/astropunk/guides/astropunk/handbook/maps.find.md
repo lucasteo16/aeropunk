@@ -55,7 +55,7 @@ Search limits and server restrictions can affect results. Use Dimensions to choo
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | Locates structures, including supported modded structures. | Baseline, installed | <EmiSearch query="@explorerscompass" /> |
-| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | Locates biomes, including supported modded biomes. | Baseline, installed | <EmiSearch query="@naturescompass" /> |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | Locates structures, including supported modded structures. | <EmiSearch query="@explorerscompass" /> |
+| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | Locates biomes, including supported modded biomes. | <EmiSearch query="@naturescompass" /> |

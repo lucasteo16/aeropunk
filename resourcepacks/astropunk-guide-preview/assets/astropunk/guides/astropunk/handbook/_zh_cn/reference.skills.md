@@ -90,32 +90,32 @@ navigation:
 
 ## 相关模组
 
-| 模组或内容 | 用途 | 状态 | 物品查询 |
-| --- | --- | --- | --- |
-| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加首饰。 | 已安装基准版 | <EmiSearch query="@additional_rpg_jewelry" /> |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | 增加围绕弓箭与远程能力设计的弓箭手职业。 | 已安装基准版 | <EmiSearch query="@archers" /> |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。 | 已安装基准版 | <EmiSearch query="@archers_expansion" /> |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 增加面向不同职业的盔甲套装与套装加成。 | 已安装基准版 | <EmiSearch query="@armory_rpgs" /> |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 增加通过战斗遭遇而非合成获取的传奇武器。 | 已安装基准版 | <EmiSearch query="@arsenal" /> |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 增加以歌曲与歌谣支援队友的吟游诗人职业。 | 已安装基准版 | <EmiSearch query="@bards_rpg" /> |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | 增加持斧狂战士，利用狂怒在低生命值时提高伤害。 | 已安装基准版 | <EmiSearch query="@berserker_rpg" /> |
-| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 通过武器攻击动画与更流畅的攻击机制改进近战。 | 已安装基准版 | 无独立物品查询 |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 增加闪避翻滚及相关属性与附魔。 | 已安装基准版 | 无独立物品查询 |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 为近战与远程攻击增加概率触发的暴击。 | 已安装基准版 | 无独立物品查询 |
-| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 提供可扩展的饰品装备栏。 | 已安装基准版 | 无独立物品查询 |
-| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 在盔甲状态条中显示更多护甲信息。 | 已安装基准版 | 无独立物品查询 |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 为 Wizards 增加大地、水与风元素施法分支职业。 | 已安装基准版 | <EmiSearch query="@elemental_wizards_rpg" /> |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 增加使用拳套的武术职业，以奥术力量强化攻击。 | 已安装基准版 | <EmiSearch query="@forcemaster_rpg" /> |
-| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 增加可开采宝石与可制作首饰，用于提升战斗属性。 | 已安装基准版 | <EmiSearch query="@jewelry" /> |
-| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加 Relics 饰品。 | 已安装基准版 | <EmiSearch query="@more_relics" /> |
-| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 为 More RPG Classes 的扩展职业增加职业技能树支持。 | 已安装基准版 | 无独立物品查询 |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 增加专注防护与治疗的圣骑士及牧师职业。 | 已安装基准版 | <EmiSearch query="@paladins" /> |
-| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 提供可自定义的技能系统与技能树界面。 | 已安装基准版 | 无独立物品查询 |
-| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 为 RPG Series 角色搭配增加强化战斗能力的饰品。 | 已安装基准版 | <EmiSearch query="@relics_rpgs" /> |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 增加拥有不同近战能力的游荡者与战士职业。 | 已安装基准版 | <EmiSearch query="@rogues" /> |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 增加可制作的符文，作为施法消耗的弹药。 | 已安装基准版 | <EmiSearch query="@runes" /> |
-| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 为 RPG Series 角色增加职业技能树。 | 已安装基准版 | <EmiSearch query="@skill_tree_rpgs" /> |
-| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 以可自定义进度条显示状态效果剩余时间。 | 已安装基准版 | 无独立物品查询 |
-| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 将状态效果显示整理成紧凑且可调整的界面布局。 | 已安装基准版 | 无独立物品查询 |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 增加以猎杀怪物为主题的猎魔人职业与战斗能力。 | 已安装基准版 | <EmiSearch query="@witcher_rpg" /> |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 增加使用奥术、火焰与冰霜法术的巫师战斗体系。 | 已安装基准版 | <EmiSearch query="@wizards" /> |
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加首饰。 | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | 增加围绕弓箭与远程能力设计的弓箭手职业。 | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。 | <EmiSearch query="@archers_expansion" /> |
+| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 增加面向不同职业的盔甲套装与套装加成。 | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 增加通过战斗遭遇而非合成获取的传奇武器。 | <EmiSearch query="@arsenal" /> |
+| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 增加以歌曲与歌谣支援队友的吟游诗人职业。 | <EmiSearch query="@bards_rpg" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | 增加持斧狂战士，利用狂怒在低生命值时提高伤害。 | <EmiSearch query="@berserker_rpg" /> |
+| ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | 通过武器攻击动画与更流畅的攻击机制改进近战。 | 无独立物品查询 |
+| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | 增加闪避翻滚及相关属性与附魔。 | 无独立物品查询 |
+| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | 为近战与远程攻击增加概率触发的暴击。 | 无独立物品查询 |
+| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | 提供可扩展的饰品装备栏。 | 无独立物品查询 |
+| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | 在盔甲状态条中显示更多护甲信息。 | 无独立物品查询 |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 为 Wizards 增加大地、水与风元素施法分支职业。 | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 增加使用拳套的武术职业，以奥术力量强化攻击。 | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | 增加可开采宝石与可制作首饰，用于提升战斗属性。 | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | 为 More RPG Classes 的扩展职业增加 Relics 饰品。 | <EmiSearch query="@more_relics" /> |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | 为 More RPG Classes 的扩展职业增加职业技能树支持。 | 无独立物品查询 |
+| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 增加专注防护与治疗的圣骑士及牧师职业。 | <EmiSearch query="@paladins" /> |
+| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | 提供可自定义的技能系统与技能树界面。 | 无独立物品查询 |
+| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | 为 RPG Series 角色搭配增加强化战斗能力的饰品。 | <EmiSearch query="@relics_rpgs" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 增加拥有不同近战能力的游荡者与战士职业。 | <EmiSearch query="@rogues" /> |
+| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 增加可制作的符文，作为施法消耗的弹药。 | <EmiSearch query="@runes" /> |
+| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | 为 RPG Series 角色增加职业技能树。 | <EmiSearch query="@skill_tree_rpgs" /> |
+| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | 以可自定义进度条显示状态效果剩余时间。 | 无独立物品查询 |
+| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | 将状态效果显示整理成紧凑且可调整的界面布局。 | 无独立物品查询 |
+| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 增加以猎杀怪物为主题的猎魔人职业与战斗能力。 | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 增加使用奥术、火焰与冰霜法术的巫师战斗体系。 | <EmiSearch query="@wizards" /> |

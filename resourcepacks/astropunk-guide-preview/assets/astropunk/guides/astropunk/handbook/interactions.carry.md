@@ -8,7 +8,7 @@ navigation:
 
 # Carry On
 
-## Overview
+## Carry blocks & creatures
 
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />
@@ -17,7 +17,7 @@ navigation:
 
 Carry On moves supported placed blocks and creatures.
 
-Your carry key is <KeyBind id="key.carry.desc" />.
+Hold X while right-clicking a supported target to pick it up, then right-click to place it. X is the pack default. Your current carry key is <KeyBind id="key.carry.desc" />.
 
 - [Controls](help.controls.md)
 
@@ -29,6 +29,6 @@ Test the interaction on an ordinary target before moving a valuable machine.
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | Lets players pick up and carry supported containers and creatures. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | Lets players pick up and carry supported containers and creatures. | No separate item search |

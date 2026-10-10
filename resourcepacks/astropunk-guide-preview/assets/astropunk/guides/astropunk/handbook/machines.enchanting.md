@@ -10,44 +10,42 @@ navigation:
 
 ## Experience & enchanting
 
-<EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_enchantment_industry" />
 
 <ItemGrid>
   <ItemIcon id="create_enchantment_industry:mechanical_grindstone" />
   <ItemIcon id="create_enchantment_industry:grindstone_drain" />
   <ItemIcon id="create_enchantment_industry:blaze_enchanter" />
   <ItemIcon id="create_enchantment_industry:enchanting_template" />
-  <ItemIcon id="create_enchantment_industry:blaze_composer" />
   <ItemIcon id="create_enchantment_industry:blaze_forger" />
   <ItemIcon id="create_enchantment_industry:printer" />
   <ItemIcon id="create_enchantment_industry:experience_hatch" />
   <ItemIcon id="create_enchantment_industry:experience_lantern" />
-  <ItemIcon id="create_enchantment_industry:brass_bookshelf" />
 </ItemGrid>
 
 | Items & families | Use |
 | --- | --- |
-| <ItemLink id="create_enchantment_industry:mechanical_grindstone" />, <ItemLink id="create_enchantment_industry:grindstone_drain" /> | Create: Enchantment Industry converts experience items to liquid experience through a grindstone drain. |
-| <ItemLink id="create_enchantment_industry:blaze_enchanter" />, <ItemLink id="create_enchantment_industry:enchanting_template" /> | Blaze Enchanter uses liquid experience and templates. |
-| <ItemLink id="create_enchantment_industry:blaze_composer" />, <ItemLink id="create_enchantment_industry:blaze_forger" />, <ItemLink id="create_enchantment_industry:printer" /> | Composer, forger and printer families for enchantment work and copying. |
-| <ItemLink id="create_enchantment_industry:experience_hatch" />, <ItemLink id="create_enchantment_industry:experience_lantern" />, <ItemLink id="create_enchantment_industry:brass_bookshelf" /> | Experience access, display and bookshelf components. |
+| <ItemLink id="create_enchantment_industry:mechanical_grindstone" />, <ItemLink id="create_enchantment_industry:grindstone_drain" /> | Converts experience items into liquid experience with a Mechanical Grindstone over an Item Drain. |
+| <ItemLink id="create_enchantment_industry:blaze_enchanter" />, <ItemLink id="create_enchantment_industry:enchanting_template" /> | Blaze Enchanter processes equipment using liquid experience and enchanting templates. |
+| <ItemLink id="create_enchantment_industry:blaze_forger" />, <ItemLink id="create_enchantment_industry:printer" /> | Blaze Forger handles forging work. Printer copies supported books and other printable items. |
+| <ItemLink id="create_enchantment_industry:experience_hatch" />, <ItemLink id="create_enchantment_industry:experience_lantern" /> | Experience Hatch provides experience access. Experience Lantern provides an experience display. |
 
 ***
 
-## Anvils & integration
+## Anvils
 
 <ItemGrid>
   <ItemIcon id="minecraft:anvil" />
   <ItemIcon id="minecraft:name_tag" />
-  <ItemIcon id="create_enchantment_industry:infuser" />
-  <ItemIcon id="create_enchantment_industry:affix_augmentor" />
-  <ItemIcon id="create_enchantment_industry:gem_cutter" />
 </ItemGrid>
 
-| Items & families | Use |
-| --- | --- |
-| <ItemLink id="minecraft:anvil" />, <ItemLink id="minecraft:name_tag" /> | Easy Anvils improves manual anvil use and includes name-tag editing. It is not a powered factory machine. |
-| <ItemLink id="create_enchantment_industry:infuser" />, <ItemLink id="create_enchantment_industry:affix_augmentor" />, <ItemLink id="create_enchantment_industry:gem_cutter" /> | Optional integration components. They are available only when the corresponding integration registers them. Do not assume their presence or recipes in this pack. |
+<ItemLink id="minecraft:anvil" /> and <ItemLink id="minecraft:name_tag" /> support manual anvil work and name-tag editing with Easy Anvils. They are not powered factory machines.
+
+***
+
+## Integration scope
+
+Brass Bookshelf and Infuser require Apothic Enchanting. Blaze Composer, Affix Augmentor and Gem Cutter require Apotheosis. Neither prerequisite is included in the light or heavy edition, so these integration machines are not part of their enchanting catalog.
 
 ***
 
@@ -59,13 +57,13 @@ Make a Mechanical Grindstone first. Its Ponder entry shows the Item Drain conver
 
 ## Related items
 
+<EmiSearch query="@create" />
+
 <ItemGrid>
   <ItemIcon id="create:item_drain" />
 </ItemGrid>
 
-| Shown items |
-| --- |
-| <ItemLink id="create:item_drain" /> |
+<ItemLink id="create:item_drain" />
 
 ## Related topics
 
@@ -76,7 +74,7 @@ Make a Mechanical Grindstone first. Its Ponder entry shows the Item Drain conver
 
 ## Related mods
 
-| Mod or content | Purpose | Status | Item search |
-| --- | --- | --- | --- |
-| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Automates experience handling and enchanting with Create machinery. | Baseline, installed | <EmiSearch query="@create_enchantment_industry" /> |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Improves anvil item storage and costs while removing escalating repair penalties. | Baseline, installed | No separate item search |
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Automates experience handling and enchanting with Create machinery. | <EmiSearch query="@create_enchantment_industry" /> |
+| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Improves anvil item storage and costs while removing escalating repair penalties. | No separate item search |

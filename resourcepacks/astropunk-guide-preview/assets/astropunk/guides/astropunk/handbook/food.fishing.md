@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Fishing"
-  position: 0
+  position: 8
   parent: reference.food.md
   icon: minecraft:cod
 ---
