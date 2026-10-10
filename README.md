@@ -6,9 +6,9 @@ The split follows Lucas’s disabled screenshot selections. Heavy adds Fancy Cro
 
 Spawn Animations and Spawn Animations Compats are excluded from both editions. Spark is server-only in both, which excludes client profiling and profiling local single-player through a bundled spark installation. Rendering optimizations and gameplay animation libraries are retained. Better Leaves, shaders, Distant Horizons, audio additions, Mandala’s dark interface and Hide Experimental Warning are retained; they were not part of this screenshot-defined removal batch. Shader and Distant Horizons rendering preferences remain initially disabled, not restrictions on player choices.
 
-Northstar remains experimental and on hold. Retired optimizer and isolation branches have been removed after promotion or supersession. Packaging checks do not establish runtime compatibility or measured frame rates. Lucas reported a large improvement after disabling the screenshot group; no individual cost is established.
+Cosmonautics, Deep Air and Cosmonautics Expansion are promoted in 0.6.0 as optional space activities, not mandatory progression. Northstar's superseded trial is retired with its history preserved. Retired optimizer and isolation branches have been removed after promotion or supersession. Packaging checks do not establish runtime compatibility or measured frame rates. Lucas reported a large improvement after disabling the screenshot group; no individual cost is established.
 
-The optimizer trial was manually tested by Lucas and promoted to both editions. Shared additions are Async Logger, Jasione and ServerCore. Northstar remains on hold because of its rendering issue.
+The optimizer trial was manually tested by Lucas and promoted to both editions. Shared additions are Async Logger, Jasione and ServerCore. The retired Northstar trial had unresolved rendering issues.
 
 ## Ship teleportation additions in 0.5.0
 

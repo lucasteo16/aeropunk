@@ -1408,6 +1408,11 @@ hash = "8e671fbd3a5460a61073cced391ec08efc6b67d765e49015eea45a1f1db159a0"
 metafile = true
 
 [[files]]
+file = "mods/cosmonautics-deep-air.pw.toml"
+hash = "ee0fdf638745dfff92320b76eceef0ada67b2ac1a270dcbb70bc1b309a999d5c"
+metafile = true
+
+[[files]]
 file = "mods/create-additional-logistics.pw.toml"
 hash = "ba904d5c6a361b648fa7df9ecb8133ef6d1cdc596edb0be128b5562ebbdc14ae"
 metafile = true
@@ -1455,6 +1460,16 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "6ac362d60bc8b13e03a5b6b9cdf9c7676f65d3e89e87c66f18514e7ee164cdb0"
+metafile = true
+
+[[files]]
+file = "mods/create-cosmonatics.pw.toml"
+hash = "1f2d7a0dbc88261f7849be33a7418e5f59ac8408580fbce27b972e2021d87596"
+metafile = true
+
+[[files]]
+file = "mods/create-cosmonautics-expansion.pw.toml"
+hash = "f4d05348f1bfd9b7db937a5572e2ef36caa1ad1c35ef451c973d7fc1ddf534a8"
 metafile = true
 
 [[files]]
