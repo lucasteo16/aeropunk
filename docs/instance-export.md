@@ -1,6 +1,8 @@
 # Uncompressed instance export
 
-`just export-instance` produces a copyable client game folder using only indexed pack files and the existing native packwiz cache. It does not download anything, refresh the index, compress files, register a launcher instance, or modify a live instance.
+`just export-instance` now creates a fresh game folder and automatically registers a new installation in the official Minecraft Launcher. See [Official instance export](official-instance-export.md) for that workflow. The launcher must remain closed during export.
+
+The underlying `scripts/export_instance.py` remains the launcher-independent folder exporter described below. It uses only indexed pack files and the existing native packwiz cache. It does not download anything, refresh the index, compress files, register a launcher installation, or modify an existing game folder.
 
 Minecraft, NeoForge, Java, authentication, and their supporting libraries remain launcher managed. This is not a complete offline Minecraft installation. The current pack requires Minecraft 1.21.1 and NeoForge 21.1.255, read directly from `pack.toml` rather than inferred from a launcher installation.
 
@@ -9,13 +11,13 @@ Minecraft, NeoForge, Java, authentication, and their supporting libraries remain
 Run from the pack directory with Python 3.11 or newer on Linux. Atomic publication requires the Linux `renameat2` operation.
 
 ```sh
-just export-instance
-just export-instance /path/to/new-export
-just export-instance /path/to/new-export /path/to/durable-template
+python scripts/export_instance.py dist/astropunk-unregistered-instance
+python scripts/export_instance.py /path/to/new-export
+python scripts/export_instance.py /path/to/new-export --template /path/to/durable-template
 python scripts/export_instance.py /path/to/new-export --template ""
 ```
 
-The default destination is `dist/astropunk-` followed by the exact pack version and `-instance`. The optional second recipe argument is a template directory. An empty template string means no template, so the exporter starts with an empty game directory.
+The underlying exporter requires an explicit new destination. Its optional template argument is a template directory. An empty template string means no template, so the exporter starts with an empty game directory. The official launcher wrapper instead chooses a unique destination automatically.
 
 The script also accepts `--source` and `--cache` for isolated testing or an explicit alternate source. The normal cache is `~/.cache/packwiz/cache`. No alternate cache is searched automatically.
 
