@@ -2,7 +2,7 @@
 
 This independent trial branches from lightweight main at a08434f. Main, heavy and the held Northstar branch remain unchanged.
 
-Pack version: `0.5.0-test.cosmonautics.2`.
+Pack version: `0.5.0-cosmonautics`. Trial editions use the base version followed only by the subject suffix. Git commits distinguish changes; there is no separate trial revision counter.
 
 Additional selections:
 

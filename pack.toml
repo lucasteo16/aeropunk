@@ -1,6 +1,6 @@
 name = "Astropunk Cosmonautics"
 author = "Lucas"
-version = "0.5.0-test.cosmonautics.2"
+version = "0.5.0-cosmonautics"
 pack-format = "packwiz:1.1.0"
 
 [index]
