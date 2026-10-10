@@ -67,7 +67,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.astropunk_handbook_access.open:key.keyboard.period
+key_key.astropunk_handbook_access.open:key.keyboard.comma
 key_key.guideme.guide:key.keyboard.semicolon
 key_key.puffish_skills.open:key.keyboard.k
 key_key.modernfix.config:key.keyboard.unknown

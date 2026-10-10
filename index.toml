@@ -1122,7 +1122,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "a000648cb6a13e28ded48f07b53b77926882ce6db88ab0d761daa97f79b9f3c5"
+hash = "fb199778bc0228ac3e876741b8786de88e915883a270e44d893516af6d412f9c"
 
 [[files]]
 file = "icon.png"
@@ -1205,7 +1205,7 @@ metafile = true
 
 [[files]]
 file = "mods/astropunk-handbook-access-1.0.0.jar"
-hash = "a34cccccb5672399edb92c4591f9a26dfc5317dc89b1db01f21ff922575fed77"
+hash = "b2191a226d5d3a4e7a36ba6fa3a089d32095c0b6c0e3f3f3bfd5dfddc1ec7bdc"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"

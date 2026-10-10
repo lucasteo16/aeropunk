@@ -39,7 +39,7 @@ public final class HandbookAccess {
         // Register now so that first pass discovers the static guide and its pages.
         HandbookQueryGuide.register();
         shortcut = new KeyMapping("key.astropunk_handbook_access.open", KeyConflictContext.UNIVERSAL,
-                InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_PERIOD, "key.categories.astropunk_handbook_access");
+                InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_COMMA, "key.categories.astropunk_handbook_access");
         modBus.addListener(this::registerKeys);
         NeoForge.EVENT_BUS.addListener(this::addInventoryButton);
         NeoForge.EVENT_BUS.addListener(this::onClientTick);
