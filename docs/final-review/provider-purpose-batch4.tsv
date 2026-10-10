@@ -1,0 +1,31 @@
+mods/team-capes.pw.toml|Shows capes colored to match players' vanilla teams.|显示与玩家原版队伍颜色一致的披风。
+mods/servercore.pw.toml|Optimizes server chunk ticking and creature spawning, with configurable workload controls.|优化服务器区块刻处理与生物生成，并提供可调整的负载控制。
+mods/archers-expansion.pw.toml|Adds archer subclasses with cold, status-inflicting and explosive arrow abilities.|增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。
+mods/berserker-rpg-class.pw.toml|Adds an axe-wielding berserker whose rage increases damage at low health.|增加持斧狂战士，利用狂怒在低生命值时提高伤害。
+mods/elemental-wizards-rpg.pw.toml|Expands Wizards with earth, water and wind spellcasting subclasses.|为 Wizards 增加大地、水与风元素施法分支职业。
+mods/forcemaster-rpg-class.pw.toml|Adds a knuckle-wielding martial class that strengthens attacks with arcane force.|增加使用拳套的武术职业，以奥术力量强化攻击。
+mods/create-additional-logistics.pw.toml|Expands Create package handling with shop registers and improved factory stock controls.|扩展机械动力包裹处理，增加商店收银设备并改进工厂库存控制。
+mods/create-bits-n-bobs.pw.toml|Adds cogwheel chain drives and customizable industrial decoration to Create.|为机械动力增加齿轮链传动与可自定义的工业装饰。
+mods/create-connected.pw.toml|Adds Create transmission components and flexible storage arrangements.|为机械动力增加传动部件与更灵活的存储布置方式。
+mods/more-rpg-library.pw.toml|Provides shared attributes and status effects for More RPG class addons.|为 More RPG 职业附加模组提供共享属性与状态效果。
+mods/sable_beyond.pw.toml|Extends Sable with Create machine interactions and configurable mass and fluid physics.|为 Sable 扩展机械动力机器交互及可调整的质量与流体物理机制。
+mods/athena-ctm.pw.toml|Provides cross-loader connected block texture support.|提供跨加载器的方块连接纹理支持。
+mods/balm.pw.toml|Shares loader-independent systems so dependent mods can run on multiple loaders.|共享独立于加载器的系统，让依赖模组可用于多种加载器。
+mods/bundle-api.pw.toml|Controls which items bundles can hold through item tags.|通过物品标签控制收纳袋可容纳的物品。
+mods/collective.pw.toml|Provides shared functionality for Serilum's utility mods.|为 Serilum 实用模组提供共享功能。
+mods/iceberg.pw.toml|Provides extra events and utility functions for dependent mods.|为依赖模组提供额外事件与工具函数。
+mods/lionfish-api.pw.toml|Provides lightweight animation support for dependent mods.|为依赖模组提供轻量动画支持。
+mods/placebo.pw.toml|Provides shared code required by Shadows' mods without adding standalone gameplay.|提供 Shadows 模组所需的共享代码，不增加独立玩法。
+mods/puzzles-lib.pw.toml|Provides shared support systems required by Fuzss' mods.|提供 Fuzss 模组所需的共享支持系统。
+mods/resourceful-config.pw.toml|Provides cross-platform configuration files and settings interfaces.|提供跨平台设置文件与设置界面。
+mods/rpl.pw.toml|Provides projectile behavior support for mods such as Create Big Cannons.|为 Create Big Cannons 等模组提供弹射物行为支持。
+mods/sophisticated-core.pw.toml|Provides shared systems used by Sophisticated inventory and storage mods.|为 Sophisticated 物品栏与存储模组提供共享系统。
+mods/spawn-animations-compats.pw.toml|Extends Spawn Animations compatibility to supported modded creatures.|让 Spawn Animations 的生成动画适配受支持的模组生物。
+mods/northstar-redux.pw.toml|Adds space destinations and Create-based equipment for exploring them.|增加太空目的地与用于探索的机械动力设备。
+mods/create-aerowarptics.pw.toml|Adds relocation tools for physical Aeronautics vehicles.|增加用于转移 Aeronautics 物理载具的工具。
+mods/create-northstar-aeronautics-compatibility.pw.toml|Connects Northstar space travel to Aeronautics physical vehicle transfers.|将 Northstar 太空旅行与 Aeronautics 物理载具转移衔接。
+mods/not-enough-animations-emf-compat.pw.toml|Adapts Not Enough Animations player actions to custom Entity Model Features models.|让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。
+mods/create-sable-dynamic-lights.pw.toml|Adds dynamic light support for lights on Create and Sable moving structures.|为机械动力与 Sable 移动结构上的光源增加动态光照支持。
+mods/northstar-sable-iris-horizons-bridge.pw.toml|Bridges Northstar sky rendering with shaders, distant terrain and Sable structures.|衔接 Northstar 天空渲染、光影、远景与 Sable 移动结构。
+mods/prickle.pw.toml|Provides structured configuration file handling for dependent mods.|为依赖模组提供结构化设置文件处理。
+mods/guideme.pw.toml|Renders in-game guide pages with formatted text, item displays and interactive scenes.|以排版文本、物品展示与交互场景呈现游戏内指南页面。

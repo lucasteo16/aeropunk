@@ -1,0 +1,60 @@
+mods/rogues-and-warriors.pw.toml|Adds rogue and warrior classes with distinct melee combat abilities.|增加拥有不同近战能力的游荡者与战士职业。
+mods/runes.pw.toml|Adds craftable runes consumed as ammunition for spells.|增加可制作的符文，作为施法消耗的弹药。
+mods/short-stacks.pw.toml|Changes food stack limits to alter how much food fits in each inventory slot.|调整食物堆叠上限，改变每格物品栏可携带的食物数量。
+mods/shulker-drops-two.pw.toml|Changes shulker shell drop counts and chances, including two-shell drops.|调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。
+mods/skill-tree.pw.toml|Adds class-oriented skill trees for RPG Series characters.|为 RPG Series 角色增加职业技能树。
+mods/skills.pw.toml|Provides a configurable skill system and skill-tree interface.|提供可自定义的技能系统与技能树界面。
+mods/slice-and-dice.pw.toml|Adds Create machinery for automated Farmer's Delight food preparation.|增加自动进行 Farmer's Delight 食材处理的机械动力机器。
+mods/smarter-farmers-farmers-replant.pw.toml|Helps farmer villagers replant the correct crops, including supported modded seeds.|让农民村民正确补种作物，也支持部分模组种子。
+mods/sophisticated-inventory-interactions.pw.toml|Adds sorting, searching and transfer controls to supported inventory screens.|为受支持的物品栏界面增加整理、搜索与转移操作。
+mods/spawn-mod.pw.toml|Expands Overworld wilderness with animals, biomes and ambient life.|通过动物、生物群系与环境生态扩展主世界荒野。
+mods/spice-of-life-onion.pw.toml|Rewards dietary variety using a rolling history of recently eaten foods.|根据近期饮食的滚动记录奖励食物多样性。
+mods/status-effect-bars-reforged.pw.toml|Shows remaining status-effect duration with customizable bars.|以可自定义进度条显示状态效果剩余时间。
+mods/stone-zone.pw.toml|Creates supported decorative block variants from other mods' stone types.|用其他模组的石材种类补齐受支持的装饰方块变体。
+mods/straw-statues.pw.toml|Adds poseable player-look statues for decorating builds.|增加可调整姿势的玩家外观雕像，用于建筑装饰。
+mods/streams-reflowing.pw.toml|Generates flowing streams in world terrain.|在世界地形中生成流动的溪流。
+mods/stylish-effects.pw.toml|Reorganizes status-effect displays into compact, configurable interface layouts.|将状态效果显示整理成紧凑且可调整的界面布局。
+mods/team-capes.pw.toml|Adds capes to distinguish player teams.|增加用于区分玩家队伍的披风。
+mods/tectonic.pw.toml|Reshapes terrain with larger mountains and varied landforms.|通过更高大的山脉与多样地貌重塑地形。
+mods/tempad.pw.toml|Creates travel portals to saved locations using portable and stationary devices.|用便携及固定设备开启通往已保存地点的传送门。
+mods/terralith.pw.toml|Adds surface and cave biomes built from vanilla blocks.|使用原版方块增加地表与洞穴生物群系。
+mods/tfmg-community-edition.pw.toml|Expands Create with heavy industry and oil processing in a community-maintained fork.|以社区维护版本为机械动力扩展重工业与石油加工。
+mods/tooltipfix.pw.toml|Keeps long item tooltips from running beyond the screen.|防止过长物品提示超出屏幕。
+mods/torchmaster.pw.toml|Adds blocks that control hostile or other creature spawning in an area.|增加用于控制区域内敌对或其他生物生成的方块。
+mods/trade-refresh.pw.toml|Adds a shortcut for refreshing eligible villager trades from the trading interface.|在交易界面增加刷新符合条件的村民交易的快捷操作。
+mods/trashslot.pw.toml|Adds an inventory trash slot for discarding unwanted items.|在物品栏增加垃圾格，用于丢弃不需要的物品。
+mods/universal-bone-meal.pw.toml|Extends bone meal use to plants that normally do not accept it.|让骨粉可用于原本不接受骨粉的植物。
+mods/vanilla-backpacks.pw.toml|Adds dyeable, upgradeable backpacks for portable storage.|增加可染色、可升级的背包，提供便携存储。
+mods/variants-and-ventures.pw.toml|Adds new variants of familiar creatures to world encounters.|为世界遭遇增加常见生物的新变体。
+mods/village-taverns.pw.toml|Adds village taverns where travelers can find drinks and rest.|增加村庄酒馆，让旅人找到饮品与休息处。
+mods/villager-names-serilum.pw.toml|Gives villagers default or custom names.|为村民赋予默认或自定义名字。
+mods/waystones-sable.pw.toml|Fixes Waystones teleportation and destination handling on Sable moving structures.|修复 Sable 移动结构上的 Waystones 传送与目的地处理。
+mods/waystones.pw.toml|Adds activated destination stones and portable items for travel between locations.|增加需激活的目的地石碑与便携传送物品，支持地点间旅行。
+mods/when-dungeons-arise.pw.toml|Adds large hostile dungeons and exploration structures.|增加大型敌对地下城与探索建筑。
+mods/witcher-rpg-class.pw.toml|Adds a monster-hunting witcher class and associated combat abilities.|增加以猎杀怪物为主题的猎魔人职业与战斗能力。
+mods/wizards.pw.toml|Adds wizard combat using arcane, fire and frost spells.|增加使用奥术、火焰与冰霜法术的巫师战斗体系。
+mods/xaeros-maps-multiplayer-plus.pw.toml|Adds multiplayer map features, including world-map synchronization, to Xaero's maps.|为 Xaero 地图增加多人功能，包括世界地图同步。
+mods/xaeros-minimap.pw.toml|Shows nearby terrain and entities on a minimap with saved waypoints.|用小地图显示附近地形与实体，并支持保存路标。
+mods/xaeros-world-map.pw.toml|Shows explored terrain in a full-screen world map.|用全屏世界地图显示已探索地形。
+mods/yungs-better-desert-temples.pw.toml|Rebuilds desert temples with expanded rooms and exploration layouts.|以更多房间与探索布局重建沙漠神殿。
+mods/yungs-better-dungeons.pw.toml|Replaces small vanilla dungeons with larger dungeon layouts.|将原版小型地牢替换为更大的地下城布局。
+mods/yungs-better-jungle-temples.pw.toml|Redesigns jungle temples into more elaborate exploration structures.|将丛林神庙重新设计为更丰富的探索建筑。
+mods/yungs-better-mineshafts.pw.toml|Overhauls abandoned mineshafts with expanded underground layouts.|以更丰富的地下布局重塑废弃矿井。
+mods/yungs-better-nether-fortresses.pw.toml|Redesigns Nether fortresses with expanded fortress layouts.|以更丰富的堡垒布局重新设计下界要塞。
+mods/yungs-better-ocean-monuments.pw.toml|Redesigns ocean monuments with more elaborate underwater interiors.|以更丰富的水下内部结构重新设计海底神殿。
+mods/yungs-better-strongholds.pw.toml|Rebuilds strongholds with larger and more varied room layouts.|以更大且更多样的房间布局重建要塞。
+mods/yungs-better-witch-huts.pw.toml|Replaces swamp witch huts with redesigned hut structures.|用重新设计的建筑替换沼泽女巫小屋。
+mods/guideme.pw.toml|Renders in-game guide pages with Markdown, item displays and interactive scenes.|以 Markdown、物品展示与交互场景呈现游戏内指南页面。
+mods/astropunk-handbook-access-1.0.0.jar|Provides the Astropunk handbook opening shortcut and inventory access button.|提供 Astropunk 手册打开快捷键与物品栏入口按钮。
+mods/explorers-compass.pw.toml|Locates structures, including supported modded structures.|定位结构，包括受支持的模组结构。
+mods/natures-compass.pw.toml|Locates biomes, including supported modded biomes.|定位生物群系，包括受支持的模组生物群系。
+mods/supplementaries.pw.toml|Adds practical decorations and utility blocks for building, storage and automation.|增加用于建筑、存储与自动化的实用装饰及功能方块。
+mods/almanac.pw.toml|Shares loader-independent code and fixes item stacking issues caused by empty tags.|共享跨加载器代码，并修复空标签导致的物品无法堆叠问题。
+mods/bookshelf-lib.pw.toml|Provides shared serialization, data-pack features and debugging tools for dependent mods.|为依赖模组提供共享数据序列化、数据包功能与调试工具。
+mods/creativecore.pw.toml|Provides shared interface, configuration and network systems for CreativeMD's mods.|为 CreativeMD 模组提供共享界面、设置与网络系统。
+mods/dragonlib.pw.toml|Provides cross-loader abstractions and shared systems for MisterJulsen's mods.|为 MisterJulsen 模组提供跨加载器抽象层与共享系统。
+mods/jamlib.pw.toml|Provides platform abstractions and configuration support for JamCore mods.|为 JamCore 模组提供平台抽象层与设置支持。
+mods/mru.pw.toml|Shares cross-version utilities used by Cassian and IMB11's mods.|共享 Cassian 与 IMB11 模组使用的跨版本工具。
+mods/resourceful-lib.pw.toml|Provides shared networking, data encoding and interface utilities for dependent mods.|为依赖模组提供共享网络通信、数据编码与界面工具。
+mods/teallib.pw.toml|Provides shared animation and data-driven creature variant systems.|提供共享动画与数据驱动的生物变体系统。
+mods/prickle.pw.toml|Provides JSON-based configuration file handling for dependent mods.|为依赖模组提供基于 JSON 的设置文件处理。

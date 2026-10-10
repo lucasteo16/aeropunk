@@ -1,0 +1,854 @@
+{
+  "mods/advancement-plaques.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/ai-improvements.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/almanac.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/apollib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/architectury-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/armor-model-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/asynclogger.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.deferred",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/asyncparticles.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/athena-ctm.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/attributefix.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges",
+    "availability": "baseline",
+    "reason": "Attribute-limit repair is a compatibility fix, not a general-purpose library."
+  },
+  "mods/badoptimizations.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/baguettelib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/balm.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/bbrb.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "baseline",
+    "reason": "Biome color blending is appearance, not weather."
+  },
+  "mods/better-modlist.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/betterf3.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/bundle-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/chunky.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/cloth-config.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/clumps.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/collective.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/configured-defaults.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/connector.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/continuity.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "baseline",
+    "reason": "Provides resource-pack texture or color support, not a weather effect generator."
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/create-aerowarptics.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.vehicle-transfer",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "baseline",
+    "reason": "Animation compatibility or visible model repair belongs with models and animation."
+  },
+  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.vehicle-transfer",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/create-sable-dynamic-lights.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting",
+    "availability": "heavy",
+    "reason": "Moving-structure dynamic-light bridge belongs with lighting. Absent from this edition."
+  },
+  "mods/createbetterfps.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/createlazytick.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/creativecore.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.camera",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/cull-leaves.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/distanthorizons.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/dragonlib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/eating-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Shared framework for animation compatibility modules, not a standalone visual feature."
+  },
+  "mods/entity-model-features.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/entityculling.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/explosive-enhancement-forge.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/ferrite-core.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/flerovium.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/freecam.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.camera",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/fwa.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/fzzy-config.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/geckolib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/gml.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/iceberg.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/iris.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/ixeris.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/jamlib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/jasione.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.deferred",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/kerria-opt.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/lionfish-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/lithium.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/lithostitched.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/lmd.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/lodestonelib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/mafglib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/midnightlib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/modelfix.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "baseline",
+    "reason": "Animation compatibility or visible model repair belongs with models and animation."
+  },
+  "mods/modernfix.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/moonlight.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/more-sounds.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/moreculling.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/mru.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges",
+    "availability": "baseline",
+    "reason": "Automatic bee behavior repair, not an administrator or diagnostic tool."
+  },
+  "mods/northstar-redux.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.destinations",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.space-bridge",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/not-enough-animations-emf-compat.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "heavy",
+    "reason": "Animation compatibility or visible model repair belongs with models and animation."
+  },
+  "mods/not-enough-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/observable.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.camera",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/owo-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/particle-effects.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/particular-reforged.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/paxi.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.deferred-pack-loading",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/placebo.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/playeranimator.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/polytone.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "baseline",
+    "reason": "Provides resource-pack texture or color support, not a weather effect generator."
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Audio compatibility belongs with the sound feature it supplies, not general technical reference."
+  },
+  "mods/prickle.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/progresspeek.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/quick-pack.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Video options interface and appearance controls are distinct from shader loading and dynamic lighting."
+  },
+  "mods/resourceful-config.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/ripple.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/rpl.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Audio compatibility belongs with the sound feature it supplies, not general technical reference."
+  },
+  "mods/sable.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sable_beyond.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sablecompat.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/searchables.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/servercore.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.deferred",
+    "availability": "deferred",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/shield-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sodium-dynamic-lights.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sodium-extra.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Video options interface and appearance controls are distinct from shader loading and dynamic lighting."
+  },
+  "mods/sodium.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/sound.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "sounds.ambience",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/spark.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/spawn-animations-compats.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "heavy",
+    "reason": "Animation compatibility or visible model repair belongs with models and animation."
+  },
+  "mods/spawn-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/spell-engine.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/spell-power.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/teallib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/toast-control.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/travelers-titles.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface",
+    "availability": "baseline",
+    "reason": "Biome and dimension title overlay is an interface feature."
+  },
+  "mods/yacl.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "mods/yungs-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/fa-player-extension.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/fancy-crops.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/fresh-animations-objects.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/fresh-animations-quivers.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/fresh-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/simple-grass-flowers.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "resourcepacks/visual-effects-plus.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs",
+    "availability": "heavy",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.shader-packs",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.shader-packs",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.shader-packs",
+    "availability": "baseline",
+    "reason": "Retains functional inventory home, confirmed against publisher purpose."
+  }
+}

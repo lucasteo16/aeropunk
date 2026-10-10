@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "retrieved_at_utc": "2026-10-09T16:20:06.044082+00:00",
+  "asset_path": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/home-aeronautics-ship.png",
+  "source": {
+    "title": "Cloud Skipper",
+    "description": "An airship flying near a cliff",
+    "publisher": "The Creators of Aeronautics, official Create Aeronautics project gallery",
+    "image_author": "Not identified by gallery metadata. Do not infer an individual author from project credits.",
+    "project_id": "oWaK0Q19",
+    "project_url": "https://modrinth.com/mod/create-aeronautics",
+    "gallery_url": "https://modrinth.com/mod/create-aeronautics/gallery",
+    "metadata_url": "https://api.modrinth.com/v2/project/create-aeronautics",
+    "image_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/b0f37794880f9da33cb27db1f8782ef40a6611df.png",
+    "gallery_publication_timestamp_utc": "2026-04-02T01:50:44.659659Z",
+    "publication_timestamp_note": "Gallery creation timestamp reported by Modrinth, not a verified original screenshot capture date.",
+    "local_download": "/home/tsb/.hermes/cache/scratch/home-ship-research/aeronautics-0.png",
+    "dimensions_pixels": [
+      1920,
+      1080
+    ],
+    "sha256": "c5a8dd00e7d934c2cf2c017874d18bd8bed1937222e80ed30f52107a3fd2a847"
+  },
+  "derived": {
+    "dimensions_pixels": [
+      1920,
+      720
+    ],
+    "format": "PNG",
+    "mode": "RGBA",
+    "sha256": "fcddcd12cbf6ba8bc554c24f91d0a0aac0f81896a3a897ce19df2589da2943e6",
+    "crop_box_source_pixels": [
+      0,
+      80,
+      1920,
+      1000
+    ],
+    "crop_box_convention": "Left and top inclusive, right and bottom exclusive.",
+    "cropped_dimensions_pixels": [
+      1920,
+      920
+    ],
+    "resized_content_dimensions_pixels": [
+      1503,
+      720
+    ],
+    "resize_filter": "Pillow LANCZOS",
+    "transparent_padding_pixels": {
+      "left": 208,
+      "right": 209,
+      "top": 0,
+      "bottom": 0
+    },
+    "transformation_note": "Crop empty upper sky and lower scenery, resize without material aspect distortion, and add transparent side padding. No generated scenery, paint, object replacement, or watermark removal. Transparent padding is necessary because the complete ship is too tall for a direct 1920 by 720 crop.",
+    "expected_guideme_quarter_scale_logical_pixels": [
+      480,
+      180
+    ],
+    "content_quarter_scale_logical_pixels": [
+      375.75,
+      180
+    ],
+    "guide_render_verified": false
+  },
+  "visual_verification": {
+    "original_and_final_inspected": true,
+    "contact_sheet_inspected": true,
+    "single_primary_ship": true,
+    "entire_ship_preserved": true,
+    "text_present": false,
+    "watermark_present": false,
+    "game_interface_present": false,
+    "ship_details": "White segmented balloon, wooden hull and deck, left propellers, bottom mechanisms, and forward projecting beam remain intact.",
+    "authenticity_basis": "The official Create Aeronautics gallery explicitly describes this image as an airship flying near a cliff. It is not a generic Minecraft airship inferred from appearance.",
+    "scope_warning": "Promotional project screenshot only. Not captured from this Astropunk instance, and not verified against any selected installed release.",
+    "contact_sheet_path": "/home/tsb/.hermes/cache/scratch/home-ship-research/gallery-contact.png",
+    "derived_preview_path": "/home/tsb/.hermes/cache/scratch/home-ship-research/hero-on-dark.png"
+  },
+  "reuse_rights": {
+    "status": "unknown",
+    "permission_verified": false,
+    "license_metadata_id": "LicenseRef-Simulated-Project-License",
+    "project_license_url": "https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/main/LICENSE.md",
+    "retrieved_license_local_path": "/home/tsb/.hermes/cache/scratch/home-ship-research/LICENSE.md",
+    "license_observation": "Project license reserves rights to bundled resource assets in specified source directories and applies MIT to other files. No explicit license or permission for this externally published gallery screenshot was found. Do not treat the code license as screenshot reuse authorization.",
+    "publication_caution": "Obtain permission or confirm screenshot reuse terms before redistribution."
+  },
+  "candidate_review": [
+    {
+      "title": "Cloud Skipper",
+      "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/b0f37794880f9da33cb27db1f8782ef40a6611df.png",
+      "disposition": "Selected. Clear single airship, high quality, no overlay."
+    },
+    {
+      "title": "Airships",
+      "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/4d2be5fad52002a4ef36b467c1a31e7bb2004f58.png",
+      "disposition": "Rejected. Multiple aircraft, not a single ship hero."
+    },
+    {
+      "title": "Lonely Dock",
+      "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/8199681a301f225783138ed090fecf9b68e5d220.png",
+      "disposition": "Rejected. Floating dock and house, not an identifying airship."
+    },
+    {
+      "title": "Big Car",
+      "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/a3b751e7c974d096f2c4f837f6d09d3bb1f5a9f5.png",
+      "disposition": "Rejected. Land vehicle, not an airship."
+    },
+    {
+      "title": "Blue Plane",
+      "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/4a77ec3e139def2f64b2c8399f2334baa5c4fcdf.png",
+      "disposition": "Rejected. Plane in hangar, not an airship."
+    }
+  ],
+  "additional_official_source_review": {
+    "sable_metadata_url": "https://api.modrinth.com/v2/project/sable",
+    "sable_gallery_ship_candidates": 0,
+    "note": "Reviewed all six Sable gallery metadata entries and description embed. They show physics demonstrations, Jenga, house decorations, buoyancy, chest storage, and Create compatibility rather than a named ship. Aeronautics description embeds an official trailer and badges, no additional static ship image."
+  }
+}

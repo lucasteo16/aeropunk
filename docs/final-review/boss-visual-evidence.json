@@ -1,0 +1,177 @@
+{
+  "scope": "Five requested boss appearance images only",
+  "base_commit": "c69044dee347d4d655f8d4b69bc61b17847ab6d9",
+  "created_at_utc": "2026-10-09T11:21:53.197881+00:00",
+  "supplied_link_retry": {
+    "url": "https://www.curseforge.com/minecraft/mc-mods/illager-invasion",
+    "direct_http": "403 Forbidden",
+    "real_browser": "Cloudflare security verification interstitial, title Just a moment, Ray ID a47cf3e40fa55e2b. Only favicon exposed. Main description did not load.",
+    "extractor": "Returned older description, including February 2025 project metadata, without useful image addresses. Not treated as fresh live HTML."
+  },
+  "official_description_extraction": {
+    "illager_invasion": {
+      "api_url": "https://api.modrinth.com/v2/project/illager-invasion",
+      "status": 200,
+      "body_format": "HTML in JSON body field, not markdown",
+      "all_image_embeds": [
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://img.shields.io/static/v1?label=&amp;message=Discord&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=discord&amp;logoColor=white",
+        "https://img.shields.io/static/v1?label=&amp;message=Twitter&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=x&amp;logoColor=white",
+        "https://img.shields.io/static/v1?label=&amp;message=YouTube&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=youtube&amp;logoColor=white",
+        "https://img.shields.io/static/v1?label=&amp;message=GitHub&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=github&amp;logoColor=white",
+        "https://img.shields.io/static/v1?label=&amp;message=CurseForge&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=curseforge&amp;logoColor=white",
+        "https://img.shields.io/static/v1?label=&amp;message=Modrinth&amp;color=ECEBE6&amp;labelColor=2F4858&amp;style=for-the-badge&amp;logo=modrinth&amp;logoColor=white",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/about.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/features.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/media.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/1.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/2.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/3.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/4.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/5.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/installation.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/configuration.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/headers/credits.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/shroomcraft/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/opentogether/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/eternalnether/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/diagonalfences/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/overflowingbars/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/easyshulkerboxes/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/vehicleupgrade/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/bundleupgrade/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/magnumtorch/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/nametagupgrade/banner.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/commons/studio.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/strip.png"
+      ],
+      "media_embeds": [
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/1.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/2.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/3.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/4.png",
+        "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/5.png"
+      ],
+      "gallery_raw_urls": [
+        "https://cdn.modrinth.com/data/jSV9w0J5/images/94f1d8fac334d28fc9667c16c8fd03471d8adfaa.png"
+      ],
+      "publisher_github_readme": "https://raw.githubusercontent.com/Fuzss/illagerinvasion/main/README.md",
+      "readme_status": 200,
+      "readme_finding": "Version and branch navigation only; no entity portrait embeds.",
+      "author_resource_directory": "https://api.github.com/repos/Fuzss/modresources/contents/pages/data/illagerinvasion",
+      "author_media_finding": "Current description and historical e4d608da80d6ad1e0f07743a622c5e4189d0fd55 media directory expose the same five numbered marketing panels. All five were downloaded and visually inspected."
+    },
+    "bossesrise": {
+      "api_url": "https://api.modrinth.com/v2/project/bossesrise",
+      "status": 200,
+      "all_image_embeds": [
+        "https://media.forgecdn.net/attachments/1745/823/icon-website-png.png",
+        "https://media.forgecdn.net/attachments/1745/821/icon-youtube-png.png",
+        "https://media.forgecdn.net/attachments/1745/822/icon-x-png.png",
+        "https://media.forgecdn.net/attachments/1745/820/icon-discord-png.png",
+        "https://media.forgecdn.net/attachments/1745/824/icon-tiktok-png.png",
+        "https://media.forgecdn.net/attachments/1745/826/icon-instagram-png.png",
+        "https://media.forgecdn.net/attachments/1745/825/icon-pinterest-png.png",
+        "https://media.forgecdn.net/attachments/description/1314084/description_def74001-37f3-44e4-873d-db139e74f454.png"
+      ],
+      "gallery": [
+        {
+          "title": "Underworld Knight",
+          "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/840954c088e9cd516339daf976afec3de8d69cf3.png"
+        },
+        {
+          "title": "Yeti",
+          "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/a19d014bb9b41dda473188669c422d869df01deb.png"
+        },
+        {
+          "title": "Infernal Dragon",
+          "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/b8a55442c5008a2079d033cd81aa10198f286a01.png"
+        }
+      ],
+      "description_finding": "Description image is a publisher Bedrock-coming-soon banner showing Underworld Knight, not Kraken or Sandworm. Official current gallery lists Underworld Knight, Yeti and Infernal Dragon only.",
+      "curseforge_direct_http": "403 Forbidden",
+      "curseforge_real_browser": "Cloudflare security verification interstitial, Ray ID a47cf9ca98195e2b. Main HTML description unavailable."
+    }
+  },
+  "fallbacks": [
+    {
+      "subject": "Invoker",
+      "route": "Targeted visual search after official embed and historical publisher asset inspection",
+      "result": "Found clean compatibility author screenshot embedded in its project description. Not attributed to Fuzs."
+    },
+    {
+      "subject": "Wither and Ender Dragon",
+      "route": "Official minecraft.net article requests timed out; wiki direct requests returned 403; actual browser loaded both wiki pages and exposed named infobox render addresses. Browser same-origin fetch downloaded original images with HTTP 200 image/png.",
+      "result": "Clean native renders obtained and inspected."
+    },
+    {
+      "subject": "Kraken",
+      "route": "Targeted official trailer search after current description extraction",
+      "result": "Block Factory official trailer thumbnail, inspected then cropped to isolate creature."
+    },
+    {
+      "subject": "Sandworm",
+      "route": "Original publisher montage downloaded at native 1634 by 577 resolution",
+      "result": "Large right-hand model cropped, not fictional reconstruction. Alternative central screenshot crop rejected due other-view overlap and weak head identification."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/1.png",
+      "reason": "Raid crowd and marketing text, no clean individual Invoker."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/2.png",
+      "reason": "Fort screenshot depicts another illager, marketing text."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/3.png",
+      "reason": "Named Illusioner, not Invoker."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/4.png",
+      "reason": "Firecaller, not Invoker."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/media/5.png",
+      "reason": "Invoker fight obstructed by foreground skulls and summons, too small to isolate cleanly."
+    },
+    {
+      "url": "https://cdn.modrinth.com/data/jSV9w0J5/images/94f1d8fac334d28fc9667c16c8fd03471d8adfaa.png",
+      "reason": "Marketing banner with three other illagers, not a clean Invoker portrait."
+    },
+    {
+      "url": "https://media.forgecdn.net/attachments/description/1314084/description_def74001-37f3-44e4-873d-db139e74f454.png",
+      "reason": "Underworld Knight promotional banner, not requested sea or worm boss."
+    }
+  ],
+  "prepared_images": 5,
+  "reviewed_final_images": 5,
+  "unresolved_requested_images": [],
+  "verification": {
+    "en_us": {
+      "boss_count": 17,
+      "illustrated_boss_count_after_operations": 17,
+      "non_image_prose_unchanged": true,
+      "all_image_resources_exist": true,
+      "operations_applied_in_memory_only": true
+    },
+    "zh_cn": {
+      "boss_count": 17,
+      "illustrated_boss_count_after_operations": 17,
+      "non_image_prose_unchanged": true,
+      "all_image_resources_exist": true,
+      "operations_applied_in_memory_only": true
+    }
+  },
+  "boundary": "No shared JSON, generator, profiles, helper, game, launcher, installed mods, gameplay prose or handbook pages modified. No public upload. Operations only proposed for parent integration."
+}

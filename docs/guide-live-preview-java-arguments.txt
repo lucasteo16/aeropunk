@@ -1,0 +1,2 @@
+-Dguideme.astropunk.handbook.sources=/home/tsb/Projects/lucas/astropunk-guide/resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook
+-Dguideme.astropunk.handbook.sourcesNamespace=astropunk

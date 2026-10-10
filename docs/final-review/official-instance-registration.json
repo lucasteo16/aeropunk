@@ -1,0 +1,12 @@
+{
+  "pack_version": "0.3.1-guide.light.1",
+  "profile_name": "Astropunk Guide Test 0.3.1-guide.light.1 20261010T105106646900Z dbc399f6",
+  "profile_id": "dbc399f6d7704f0b84c5f794ede1baa6",
+  "game_directory": "/home/tsb/Projects/lucas/instance-runs/astropunk-0.3.1-guide.light.1-20261010T105106646900Z-dbc399f6/game",
+  "verified_files": 1154,
+  "previous_profiles_preserved": 4,
+  "backup_permissions": "owner read and write only",
+  "tests_passed": 112,
+  "minecraft_launched": false,
+  "main_merged": false
+}

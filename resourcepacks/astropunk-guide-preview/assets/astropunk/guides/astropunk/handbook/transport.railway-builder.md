@@ -1,0 +1,61 @@
+---
+navigation:
+  title: "Railways"
+  position: 0
+  parent: reference.vehicles.md
+  icon: create:track
+---
+
+# Railways
+
+## Tracks & stations
+
+<EmiSearch query="@create" />
+
+<ItemGrid>
+  <ItemIcon id="create:track" />
+  <ItemIcon id="create:railway_casing" />
+  <ItemIcon id="create:track_station" />
+  <ItemIcon id="create:controls" />
+  <ItemIcon id="create:schedule" />
+</ItemGrid>
+
+| Shown items |
+| --- |
+| <ItemLink id="create:track" /> |
+| <ItemLink id="create:railway_casing" /> |
+| <ItemLink id="create:track_station" /> |
+| <ItemLink id="create:controls" /> |
+| <ItemLink id="create:schedule" /> |
+
+Create supplies track, Railway Casing, Train Stations, Train Controls and schedules. Steam 'n' Rails extends track families, gauges, switches, signals and conductor equipment. Use Train Station Ponder for train assembly and the chosen track recipe for its gauge and material.
+
+### Train station
+
+<Recipe id="create:crafting/kinetics/track_station" />
+
+One Railway Casing and one compass make two <ItemLink id="create:track_station" />. Use Train Station Ponder for assembly.
+
+### Train controls
+
+<Recipe id="create:crafting/kinetics/controls" />
+
+Craft <ItemLink id="create:controls" /> for the train control position. The Precision Mechanism is a separate intermediate craft.
+
+***
+
+## Bogie styles
+
+Blocks & Bogies adds a Bogie Customisation interface, not a separate set of bogie items. Choose the driver or truck role, then the axle count, size and length offered by the menu. Valve-gear styles are additional interface choices. The menu can switch to Steam 'n' Rails. Not every axle, size and style combination is interchangeable. Train fittings covers decorative bodywork.
+
+- [Train fittings](building.factory.md)
+
+
+***
+
+## Related mods
+
+| Mod or content | Purpose | Item search |
+| --- | --- | --- |
+| ![Create: Blocks & Bogies](images/catalog-j4arnqwy.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Adds larger Create train bogies, including visible valve gear variants. | No separate item search |
+| ![Steam 'n' Rails Neoforge](images/catalog-l3jv0qzi.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Expands Create railways with additional track and train components. | <EmiSearch query="@railways" /> |

@@ -1,0 +1,61 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  is_enabled = true
+  render_custom_elements_behind_vanilla = true
+  layout_index = 0
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = astropunk_ship_background
+  image_path = [source:local]/config/fancymenu/assets/home-merun173-airship.png
+  show_background = true
+  slide = false
+  parallax = false
+}
+
+element {
+  element_type = image
+  instance_identifier = astropunk_readability_shade
+  source = [source:local]/config/fancymenu/assets/menu-shade.png
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = %guiwidth%
+  height = %guiheight%
+  auto_sizing = false
+  enable_parallax = false
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+}
+
+element {
+  element_type = image
+  instance_identifier = astropunk_transparent_title
+  source = [source:local]/config/fancymenu/assets/astropunk-title-transparent.png
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 30
+  width = 280
+  height = 52
+  auto_sizing = false
+  enable_parallax = false
+}

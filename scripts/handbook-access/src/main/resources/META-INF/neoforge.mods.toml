@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="astropunk_handbook_access"
+version="1.0.0"
+displayName="Astropunk Handbook Access"
+description="Client inventory access and a configurable shortcut for the Astropunk handbook."
+
+[[dependencies.astropunk_handbook_access]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.255,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.astropunk_handbook_access]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.astropunk_handbook_access]]
+modId="guideme"
+type="required"
+versionRange="[21.1.19]"
+ordering="AFTER"
+side="CLIENT"

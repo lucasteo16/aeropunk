@@ -1,0 +1,12 @@
+{
+  "decorative_title": "images/astropunk-title-transparent.png",
+  "composited_home": "images/home-astropunk-title.png",
+  "title_alpha_verified": true,
+  "original_ship_retained": "images/home-merun173-airship.png",
+  "original_ship_preserved_in_header": true,
+  "visual_runtime_tested": false,
+  "helper_sha256": "a34cccccb5672399edb92c4591f9a26dfc5317dc89b1db01f21ff922575fed77",
+  "previous_helper_backup": "/home/tsb/Projects/lucas/.archive/handbook-startup-fix/astropunk-handbook-access-1.0.0-cc1360ccb805.jar",
+  "startup_registration": "Synchronous registration in mod constructor before first resource-reload preparation, instead of queued client setup. Focused artifact test failed before fix and passes after rebuild.",
+  "runtime_boundary": "Resource reload was confirmed by Lucas to restore pages in previous artifact. Revised startup ordering passed artifact and integration checks, but fresh game startup has not been rerun. No launcher instance edited."
+}

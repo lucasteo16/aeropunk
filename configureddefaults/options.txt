@@ -30,7 +30,7 @@ directionalAudio:false
 bobView:true
 hideLightningFlashes:false
 damageTiltStrength:1.0
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/RPG_Series_Icons-1.4.0+1.21.1.zip","continuity:glass_pane_culling_fix","file/Better-Leaves-9.5.zip","mod/cullleaves:resourcepacks/smartleaves","file/MandalasGUI+Dakmode_1.21.6_v2.1.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/RPG_Series_Icons-1.4.0+1.21.1.zip","continuity:glass_pane_culling_fix","file/Better-Leaves-9.5.zip","mod/cullleaves:resourcepacks/smartleaves","file/MandalasGUI+Dakmode_1.21.6_v2.1.zip","file/astropunk-guide-preview"]
 incompatibleResourcePacks:["file/MandalasGUI+Dakmode_1.21.6_v2.1.zip"]
 menuBackgroundBlurriness:5
 key_key.attack:key.mouse.left
@@ -67,6 +67,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.astropunk_handbook_access.open:key.keyboard.comma
+key_key.guideme.guide:key.keyboard.unknown
 key_key.puffish_skills.open:key.keyboard.k
 key_key.modernfix.config:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.f12

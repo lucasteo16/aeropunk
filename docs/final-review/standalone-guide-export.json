@@ -1,0 +1,21 @@
+{
+  "version": "0.3.1-guide.light.1",
+  "upstream_main_commit": "77b4453",
+  "archive": "/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.3.1-guide.light.1-standalone.mrpack",
+  "sha256": "5546c0ba171e9207da5f2fad4f2e18d1c34680c2908153066acb7025bd507759",
+  "bytes": 670048760,
+  "bundled_manifest_artifacts": 295,
+  "artifact_groups": {
+    "mods": 289,
+    "resourcepacks": 3,
+    "shaderpacks": 3
+  },
+  "preserved_native_overrides": 860,
+  "excluded_server_only": [
+    "mods/spark-1.10.124-neoforge.jar"
+  ],
+  "download_entries_remaining": 0,
+  "handbook_pages": 226,
+  "client_runtime_tested": false,
+  "main_merged_from_guide": false
+}

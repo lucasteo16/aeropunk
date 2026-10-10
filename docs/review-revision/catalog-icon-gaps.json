@@ -1,0 +1,126 @@
+[
+  {
+    "metadata_path": "mods/badoptimizations.pw.toml",
+    "reason": "No provider icon supplied"
+  },
+  {
+    "metadata_path": "mods/playeranimator.pw.toml",
+    "reason": "No provider icon supplied"
+  },
+  {
+    "metadata_path": "mods/asynclogger.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/create-aerowarptics.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/create-northstar-aeronautics-compatibility.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/create-sable-dynamic-lights.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/eating-animations.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/explosive-enhancement-forge.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/fwa.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/jasione.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/northstar-redux.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/not-enough-animations-emf-compat.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/not-enough-animations.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/particle-effects.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/particular-reforged.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/paxi.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/ripple.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/servercore.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/short-stacks.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/sodium-dynamic-lights.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/spawn-animations-compats.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/spawn-animations.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "mods/team-capes.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/fa-player-extension.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/fancy-crops.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/fresh-animations-objects.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/fresh-animations-quivers.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/fresh-animations.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/simple-grass-flowers.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  },
+  {
+    "metadata_path": "resourcepacks/visual-effects-plus.pw.toml",
+    "reason": "No Modrinth project identifier found"
+  }
+]

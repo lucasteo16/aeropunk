@@ -1,0 +1,570 @@
+{
+  "mods/advancement-plaques.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/ai-improvements.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/almanac.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/apollib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/architectury-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/armor-model-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/asynclogger.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.deferred"
+  },
+  "mods/asyncparticles.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/athena-ctm.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/attributefix.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges"
+  },
+  "mods/badoptimizations.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/baguettelib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/balm.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/bbrb.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "mods/better-modlist.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/betterf3.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/bundle-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/chunky.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools"
+  },
+  "mods/cloth-config.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/clumps.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/collective.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/configured-defaults.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools"
+  },
+  "mods/connector.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/continuity.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/create-aerowarptics.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.vehicle-transfer"
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.vehicle-transfer"
+  },
+  "mods/create-sable-dynamic-lights.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting"
+  },
+  "mods/createbetterfps.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/createlazytick.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/creativecore.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.camera"
+  },
+  "mods/cull-leaves.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/distanthorizons.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting"
+  },
+  "mods/dragonlib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/eating-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/entity-model-features.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/entityculling.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/explosive-enhancement-forge.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather"
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/ferrite-core.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/flerovium.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/freecam.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.camera"
+  },
+  "mods/fwa.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/fzzy-config.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/geckolib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/gml.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather"
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/iceberg.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/iris.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting"
+  },
+  "mods/ixeris.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/jamlib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/jasione.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.deferred"
+  },
+  "mods/kerria-opt.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/lionfish-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/lithium.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/lithostitched.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/lmd.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/lodestonelib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/mafglib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/midnightlib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/modelfix.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/modernfix.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/moonlight.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/more-sounds.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/moreculling.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/mru.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges"
+  },
+  "mods/northstar-redux.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.destinations"
+  },
+  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.space-bridge"
+  },
+  "mods/not-enough-animations-emf-compat.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/not-enough-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/observable.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools"
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.camera"
+  },
+  "mods/owo-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/particle-effects.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather"
+  },
+  "mods/particular-reforged.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather"
+  },
+  "mods/paxi.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.deferred-pack-loading"
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/placebo.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/playeranimator.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/polytone.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/prickle.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/progresspeek.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/quick-pack.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/resourceful-config.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/ripple.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.weather"
+  },
+  "mods/rpl.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/sable.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/sable_beyond.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges"
+  },
+  "mods/sablecompat.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges"
+  },
+  "mods/searchables.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/servercore.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.deferred"
+  },
+  "mods/shield-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/sodium-dynamic-lights.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting"
+  },
+  "mods/sodium-extra.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/sodium.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/sound.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "reference.audio"
+  },
+  "mods/spark.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools"
+  },
+  "mods/spawn-animations-compats.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/spawn-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.models"
+  },
+  "mods/spell-engine.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/spell-power.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "category": "Technical reference",
+    "topic": "performance.baseline"
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/teallib.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/toast-control.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/travelers-titles.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.interface"
+  },
+  "mods/yacl.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/yungs-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fa-player-extension.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fancy-crops.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fresh-animations-objects.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fresh-animations-quivers.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/fresh-animations.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/simple-grass-flowers.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "resourcepacks/visual-effects-plus.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.resource-packs"
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.shader-packs"
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.shader-packs"
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.shader-packs"
+  }
+}

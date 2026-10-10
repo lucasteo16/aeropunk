@@ -1,0 +1,16 @@
+{
+  "revised_fragment_topics": 62,
+  "boss_identifying_images": 7,
+  "source_archive_installed_resource_files": 538,
+  "profile_processes": [
+    "85125"
+  ],
+  "installed_helper_sha256": "946027c72b8f99e6fb2e8c09d01b6d19e94254f4c4a3541f887721abd4910b8e",
+  "packaged_helper_sha256": "5e3dc4a719f0166ed6456a3d762966d772a50bb851e1cc7004fa81cc47697d98",
+  "resource_backup": "/home/tsb/Projects/lucas/.archive/handbook-review-resources/20261009-153617",
+  "archive_sha256": "a5f958a956b178599cdba6d13307c4c7900475fb64ef9c7b1c5d2f5596733311",
+  "publicly_pushed": false,
+  "runtime_rendered": false,
+  "selected_mod_boss_definition_records": 13,
+  "individual_boss_sections": 17
+}

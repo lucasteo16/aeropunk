@@ -1,0 +1,65 @@
+{
+  "status": "built_and_headless_verified_not_installed",
+  "implementation": {
+    "label_en": "Guide",
+    "label_zh_cn": "指南",
+    "gap_logical_units": 4,
+    "width": "max(48, localized Minecraft font width + 12)",
+    "height": 20,
+    "anchor": "actual EmiScreenManager.search AbstractWidget bounds",
+    "placement": "left adjacency, vertical center",
+    "refresh": [
+      "ScreenEvent.Render.Pre",
+      "ClientTickEvent.Post"
+    ],
+    "screens": [
+      "InventoryScreen",
+      "CreativeModeInventoryScreen",
+      "native query subclasses through instanceof"
+    ],
+    "duplicate_removal": "single mapped button per native screen, previous listener removed on reinitialization",
+    "fallback": "bounded bottom-first nonoverlapping full-label placement; invisible and inactive if no free area",
+    "shortcut_default": "GLFW_KEY_PERIOD",
+    "action_id": "key.astropunk_handbook_access.open",
+    "existing_user_remapping": "preserved",
+    "contextual_semicolon": "parent owns configureddefaults options.txt"
+  },
+  "selected_emi": {
+    "filename": "emi-1.1.24+1.21.1+neoforge.jar",
+    "sha512": "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd",
+    "metadata_sha512_match": true,
+    "source_url": "https://raw.githubusercontent.com/emilyploszaj/emi/1.1.24%2B1.21.1/xplat/src/main/java/dev/emi/emi/screen/EmiScreenManager.java",
+    "source_sha256": "d276eaea8e6a0541ac720e102e1227a51fc416fe630b0fb5871f72b95d04e2dd",
+    "public_api_limitation": "EmiApi exposes search text and focus, not search widget bounds. Isolated direct optional compatibility reads selected internal manager fields. No reflection, new search widget, layout mutation, screenshot pixel constants or global EMI configuration changes.",
+    "native_source_behavior": "addWidgets sets real search x and y, variable width and visibility. Center/right search at screen height minus 21, left sidebar at height minus 42. Search may remain visible when EMI disabled; actual visible flag governs adjacency."
+  },
+  "verification": {
+    "clean_build_command": "bash scripts/handbook-access/build.sh",
+    "clean_build_exit_code": 0,
+    "junit_tests": 15,
+    "junit_failures": 0,
+    "junit_errors": 0,
+    "query_integration_tests": 8,
+    "open_endpoint_tests": 3,
+    "access_wiring_tests": 6,
+    "negative_control": "disconnected inventory listener rejected with 5 != 6",
+    "regression_red_log": "To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.\nDaemon will be stopped at the end of the build \n> Task :createMinecraftArtifacts UP-TO-DATE\n> Task :compileJava UP-TO-DATE\n> Task :processResources UP-TO-DATE\n> Task :classes UP-TO-DATE\n> Task :compileTestJava\n> Task :processTestResources NO-SOURCE\n> Task :testClasses\n\n> Task :test FAILED\n\nButtonPlacementTest > guideFitsImmediatelyLeftOfNativeSearch() FAILED\n    org.opentest4j.AssertionFailedError at ButtonPlacementTest.java:12\n\n1 test completed, 1 failed\n\nFAILURE: Build failed with an exception.\n\n* What went wrong:\nExecution failed for task ':test'.\n> There were failing tests. See the report at: file:///home/tsb/Projects/lucas/astropunk-guide/scripts/handbook-access/build/reports/tests/test/index.html\n\n* Try:\n> Run with --scan to generate a Build Scan (powered by Develocity).\n\nBUILD FAILED in 16s\n5 actionable tasks: 2 executed, 3 up-to-date\n",
+    "period_regression_red": "verify_artifact.py rejected previous built F9 jar with AssertionError: The compiled default must be GLFW period",
+    "geometry_boundary": "Compiled real helper geometry tests with logical fixtures, selected EMI source and bytecode checks. No rendered client test.",
+    "build_log": "/home/tsb/.hermes/cache/scratch/guide-placement-build.log"
+  },
+  "artifact": {
+    "path": "/home/tsb/Projects/lucas/astropunk-guide/scripts/handbook-access/build/libs/astropunk-handbook-access-1.0.0.jar",
+    "size_bytes": 20166,
+    "sha256": "cc1360ccb80566c39e2770cf0fdd5b99aaaf3c501f83f71891000784cc1c41b2"
+  },
+  "remaining": [
+    "User-controlled restart and rendered inventory review needed after parent packaging.",
+    "Unknown custom overlays are not covered by headless widget and EMI-panel reservation.",
+    "Adjacency is explicitly impossible when native search has insufficient left space or colliding controls; bounded fallback is a requirement exception."
+  ],
+  "scope": [
+    "No generator or content edits by this worker.",
+    "No installed or packaged helper replacement, pack metadata edits, game launch, installation or push."
+  ]
+}

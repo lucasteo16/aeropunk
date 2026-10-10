@@ -1,0 +1,2 @@
+pluginManagement { repositories { gradlePluginPortal() } }
+rootProject.name = 'astropunk-handbook-access'
