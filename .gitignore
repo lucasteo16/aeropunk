@@ -10,6 +10,8 @@
 # Local installations, runtime output, and world data.
 /.minecraft/
 /instances/
+/instance-runs/
+/instance-templates/
 /client/
 /server/
 /run/

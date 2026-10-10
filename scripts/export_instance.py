@@ -140,8 +140,9 @@ def publish(stage, output):
 def export(output: Path, *, source: Path = SOURCE, cache: Path = CACHE, template=None):
     source, cache, output = (checked_path(path) for path in (source, cache, output))
     template = checked_path(template) if template else None
-    # dist is the dedicated generated-output subtree, never an indexed input.
-    in_dist = source / "dist" in output.parents
+    # Only dedicated generated-output subtrees may sit inside the source.
+    generated_roots = (source / "dist", source / "instance-runs")
+    in_dist = any(root in output.parents for root in generated_roots)
     if (overlaps(output, source) and not in_dist) or overlaps(output, cache):
         raise ValueError("Source or cache and output overlap")
     if template and overlaps(output, template):
@@ -169,7 +170,7 @@ def export(output: Path, *, source: Path = SOURCE, cache: Path = CACHE, template
             raise ValueError(f"Duplicate indexed file: {relative}")
         indexed.add(relative)
         path = source / relative
-        if overlaps(path, output) or source / "dist" in path.parents:
+        if overlaps(path, output) or any(root in path.parents for root in (*generated_roots, source / "instance-templates")):
             raise ValueError(f"Indexed source and output overlap: {relative}")
         if entry.get("metafile", False):
             if not str(relative).endswith(".pw.toml"):

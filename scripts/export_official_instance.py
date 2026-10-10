@@ -70,14 +70,14 @@ def export(output=None, *, source=instance.SOURCE, cache=instance.CACHE, templat
         raise ValueError("Installed runtime manifest must be an object")
     if runtime.get("id") != runtime_id or runtime.get("inheritsFrom") != pack["versions"]["minecraft"]:
         raise ValueError("Installed runtime identifier or Minecraft inheritance does not match source pack")
-    default_template = home / "Projects/lucas/instance-templates" / f"official-neoforge-{pack['versions']['minecraft']}"
+    default_template = Path(source) / "instance-templates" / f"official-neoforge-{pack['versions']['minecraft']}"
     template = instance.checked_path(template) if template else default_template if (default_template / "template.json").exists() else None
     requirements = {"minecraft": pack["versions"]["minecraft"], "loader": "neoforge", "loader_version": pack["versions"]["neoforge"]}
     template_fields = saved_profile(template, requirements) if template else {}
     timestamp = datetime.now(timezone.utc)
     stamp = timestamp.strftime("%Y%m%dT%H%M%S%fZ")
     identifier = uuid.uuid4().hex
-    output = instance.checked_path(output or home / "Projects/lucas/instance-runs" / f"astropunk-{version}-{stamp}-{identifier[:8]}")
+    output = instance.checked_path(output or Path(source) / "instance-runs" / f"astropunk-{version}-{stamp}-{identifier[:8]}")
     profiles_path = instance.regular(home / ".minecraft/launcher_profiles.json")
     ensure_closed()
     original_bytes = profiles_path.read_bytes()
@@ -95,7 +95,7 @@ def export(output=None, *, source=instance.SOURCE, cache=instance.CACHE, templat
         if identifier in updated["profiles"]:
             raise RuntimeError("New launcher profile identifier already exists")
         updated["profiles"][identifier] = profile
-        backups = instance.checked_path(home / "Projects/lucas/instance-templates" / f"official-neoforge-{pack['versions']['minecraft']}" / "backups")
+        backups = instance.checked_path(Path(source) / "instance-templates" / f"official-neoforge-{pack['versions']['minecraft']}" / "backups")
         backups.mkdir(parents=True, exist_ok=True, mode=0o700)
         os.chmod(backups, 0o700)
         backup = backups / f"launcher_profiles-{stamp}-{identifier}.json"
