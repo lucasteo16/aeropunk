@@ -33,7 +33,7 @@ navigation:
 | ![Apollib](images/catalog-vdi2ytax.png) [Apollib](technical.libraries.md) | Shared configuration and registry utilities. | No separate item search |
 | ![Architectury API](images/catalog-lhga9tyq.png) [Architectury API](technical.libraries.md) | Shared cross-loader development interfaces. | No separate item search |
 | ![Armor Model API](images/catalog-onz2nn2n.png) [Armor Model API](technical.libraries.md) | Renders custom armor geometry through the vanilla armor pipeline. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) (deferred addition) | Asynchronous log processing. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | Asynchronous log processing. | No separate item search |
 | ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | Particle processing and rendering optimization. | No separate item search |
 | ![Athena](images/catalog-b1zv3dij.png) [Athena](technical.libraries.md) | Provides cross-loader connected block texture support. | No separate item search |
 | ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | Removes built-in attribute limits that can restrict modded values. | No separate item search |
@@ -68,7 +68,7 @@ navigation:
 | ![ImmediatelyFast](images/catalog-5zwdcrci.png) [ImmediatelyFast](performance.baseline.md) | Optimizes immediate-mode rendering. | No separate item search |
 | ![Ixeris](images/catalog-p8rjpjic.png) [Ixeris](performance.baseline.md) | Buffered raw input and threaded event polling. | No separate item search |
 | ![JamLib](images/catalog-iyy9siz8.png) [JamLib](technical.libraries.md) | Provides platform abstractions and configuration support for JamCore mods. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) (deferred addition) | Reduces repeated enumeration-array allocations. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | Reduces repeated enumeration-array allocations. | No separate item search |
 | ![Kerria](images/catalog-f0ruqtf7.png) [Kerria](performance.baseline.md) | Accelerates animated texture processing. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [Konkrete](technical.libraries.md) | Provides the utility and configuration library required by FancyMenu. | No separate item search |
 | ![Kotlin for Forge](images/catalog-ordspcfz.png) [Kotlin for Forge](technical.libraries.md) | Kotlin language provider and utilities. | No separate item search |
@@ -104,7 +104,7 @@ navigation:
 | ![Sable Beyond](images/catalog-prw3b4fh.png) [Sable Beyond](technical.bridges.md) | Extends Sable with Create machine interactions and configurable mass and fluid physics. | No separate item search |
 | ![Sable: Physics Compat](images/catalog-szbcirjb.png) [Sable: Physics Compat](technical.bridges.md) | Adds physics property tags to supported modded blocks. | No separate item search |
 | ![Searchables](images/catalog-fuuu3xnx.png) [Searchables](technical.libraries.md) | Search, filtering and completion support for interfaces. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) (deferred addition) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | No separate item search |
 | ![Shield API](images/catalog-y9clify4.png) [Shield API](technical.libraries.md) | Custom shield model support. | No separate item search |
 | ![Sinytra Connector](images/catalog-u58r1tmw.png) [Sinytra Connector](technical.libraries.md) | Compatibility layer for selected Fabric mods on NeoForge. | No separate item search |
 | ![Sodium](images/catalog-aanobbmi.png) [Sodium](performance.baseline.md) | Replaces the terrain rendering engine. | No separate item search |

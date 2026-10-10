@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "baseline_count": 313,
+  "baseline_count": 316,
   "union_count": 321,
   "categories": [
     "Automation and industry",
@@ -213,9 +213,9 @@
     {
       "metadata_path": "mods/asynclogger.pw.toml",
       "name": "Async Logger",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Technical reference",
-      "topic": "performance.deferred",
+      "topic": "performance.baseline",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2111,9 +2111,9 @@
     {
       "metadata_path": "mods/jasione.pw.toml",
       "name": "Jasione",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Technical reference",
-      "topic": "performance.deferred",
+      "topic": "performance.baseline",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3138,9 +3138,9 @@
     {
       "metadata_path": "mods/servercore.pw.toml",
       "name": "ServerCore",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Technical reference",
-      "topic": "performance.deferred",
+      "topic": "performance.baseline",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,

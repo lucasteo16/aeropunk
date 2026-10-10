@@ -74,6 +74,15 @@ navigation:
 - [光照与远景](visuals.lighting.md)
 
 
+## 共用优化模组
+
+| 内容 | 作用 |
+| --- | --- |
+| Async Logger | 异步处理日志。 |
+| Jasione | 减少重复的枚举数组分配。 |
+| ServerCore | 优化服务器处理，包括单人游戏的内置服务器。 |
+
+
 ***
 
 ## 相关模组

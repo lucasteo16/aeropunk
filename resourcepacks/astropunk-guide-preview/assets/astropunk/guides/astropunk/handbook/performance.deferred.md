@@ -8,15 +8,11 @@ navigation:
 
 # Deferred optimizers
 
-## Deferred additions
+## Separate trials
 
-These optimizer candidates are deferred and are not part of either edition.
+Experimental optimizers are tested on separate branches before adoption. Async Logger, Jasione and ServerCore have now been promoted to the shared pack.
 
-| Component | Function |
-| --- | --- |
-| Async Logger (deferred) | Asynchronous log processing. |
-| Jasione (deferred) | Reduces repeated enumeration-array allocations. |
-| ServerCore (deferred) | Server optimization. |
+- [Shared optimizers](performance.baseline.md)
 
 
 ***
@@ -25,6 +21,6 @@ These optimizer candidates are deferred and are not part of either edition.
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) (deferred addition) | Asynchronous log processing. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) (deferred addition) | Reduces repeated enumeration-array allocations. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) (deferred addition) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | Asynchronous log processing. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | Reduces repeated enumeration-array allocations. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | No separate item search |

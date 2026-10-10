@@ -1208,6 +1208,11 @@ file = "mods/astropunk-handbook-access-1.0.0.jar"
 hash = "a34cccccb5672399edb92c4591f9a26dfc5317dc89b1db01f21ff922575fed77"
 
 [[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "00164cb8596bbeffb1c05bc29df93655320a13db96caf656544a3e004998b8e6"
+metafile = true
+
+[[files]]
 file = "mods/asyncparticles.pw.toml"
 hash = "2747b1ea22aabf4d64a5f313a9b0379c5864224600fbf9ffd19a6cc13bf55b8c"
 metafile = true
@@ -1913,6 +1918,11 @@ hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
 
 [[files]]
+file = "mods/jasione.pw.toml"
+hash = "f85e238f07782d2ba3c79d1e55636e1ed58e7da91052c6c6b6c79183035ddc8b"
+metafile = true
+
+[[files]]
 file = "mods/jewelry.pw.toml"
 hash = "720e12b39f4689c6d05fd6bf4661b8e54f7b80f6316bf9db5f3c54f8faf58484"
 metafile = true
@@ -2270,6 +2280,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
 metafile = true
 
 [[files]]
@@ -2850,11 +2865,11 @@ hash = "840e4a0d66a8ed78ef5b3a69e42bb0e34301004e54b29e10f8bee6f271471e40"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.baseline.md"
-hash = "44827c611484bfcf19e61ad64cdd74a8e3d42b86cb4fb4009ed547f500753c0f"
+hash = "d9721e4085b95d763d3647304d9e6e50898fbb7219e00a9e28d4fd1c7d29ef01"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.deferred.md"
-hash = "dafa50ad9ae50c21c3adc151bc93d2ae3037788412996ff0f301987eaafa94ed"
+hash = "eb84492f510b16e42d9cb6ff383f1f6e44f8d881155987780834e7b88521c164"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.burners.md"
@@ -2902,7 +2917,7 @@ hash = "8386f99ceeeb2cb011c0866eb2cd42f2d2c90df64790a383c43c0a2a8c9f6fdc"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.technical.md"
-hash = "fca7d16480b4147ec7ad3cfd4334b3aaf921e86d48a2fb1e879485965d8fc601"
+hash = "7da3953b8cdc873427bc1c5151f325d14b70bf7251d8c76d1d44a87dda2338f1"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.utilities.md"
@@ -4690,11 +4705,11 @@ hash = "3a63c8662f181958ecff585c3e29ac9879d9e02bdc7ea6f2a1f3d0121b9fa92c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.baseline.md"
-hash = "86f3c753792a39e3ace1eccf3d13799651b9316ec37fb90eaeee0407b4a06d11"
+hash = "bc0e44d8a523b7b2f8f967366461d293db74866db0ace91e59d8d79947fdd55c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.deferred.md"
-hash = "553c837e2c6e142fcf21c8a794d04542b9675f8e9ef14c80c33db65eff2b397a"
+hash = "b06a7b3a3f0d1349712dcfd88cd1c76e2cf507e9c654017bf6b5e8ff38cb6f47"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.burners.md"
@@ -4742,7 +4757,7 @@ hash = "05807fc92d44bbc2a78640e0b1a15acd07e8aea0226ca97cc043f0039ce07673"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.technical.md"
-hash = "4b09f4f07d7f9f41f2b8575acc0a7f885990f086d4fe7f131be86c685b5a602e"
+hash = "079ef8d59c5fa25d7b181a5a584d661436a4ad24dc8f4467ce931c53e74aae23"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.utilities.md"

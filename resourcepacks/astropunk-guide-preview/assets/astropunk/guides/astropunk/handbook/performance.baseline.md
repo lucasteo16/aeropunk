@@ -76,6 +76,15 @@ Input processing and background resource use are separate from active-world simu
 - [Lighting & distance](visuals.lighting.md)
 
 
+## Shared optimizers
+
+| Component | Function |
+| --- | --- |
+| Async Logger | Processes logging asynchronously. |
+| Jasione | Reduces repeated enumeration-array allocations. |
+| ServerCore | Optimizes server processing, including the integrated single-player server. |
+
+
 ***
 
 ## Related mods

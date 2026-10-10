@@ -147,9 +147,9 @@ with zipfile.ZipFile(export) as archive:
         assert entry["env"]["server"] == "unsupported"
     assert archive.read("overrides/configureddefaults/options.txt").decode() == options
     assert not any(n.startswith(("overrides/docs/", "overrides/scripts/", "overrides/build/", "overrides/dist/")) for n in names)
-    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "34cb006", "mods"], cwd=root, text=True).splitlines()
+    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "77b4453", "mods"], cwd=root, text=True).splitlines()
     for name in base:
-        previous = subprocess.check_output(["git", "show", f"34cb006:{name}"], cwd=root)
+        previous = subprocess.check_output(["git", "show", f"77b4453:{name}"], cwd=root)
         assert (root / name).read_bytes() == previous, name
     additions = {p.relative_to(root).as_posix() for p in (root / "mods").glob("*.pw.toml")} - set(base)
     assert additions == {"mods/guideme.pw.toml", "mods/fancymenu.pw.toml", "mods/konkrete.pw.toml", "mods/melody.pw.toml"}, additions

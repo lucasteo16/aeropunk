@@ -6,10 +6,10 @@
   "root_page_count": 17,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 295,
+  "installed_content_count": 298,
   "heavy_content_count": 20,
-  "baseline_commit": "34cb006",
-  "deferred_content_count": 8,
+  "baseline_commit": "77b4453",
+  "deferred_content_count": 5,
   "pages": [
     {
       "topic": "help.search",
@@ -999,7 +999,7 @@
       "filename": "performance.deferred.md",
       "drafted": true,
       "page_type": "article",
-      "deferred": true,
+      "deferred": false,
       "metadata_paths": [
         "mods/asynclogger.pw.toml",
         "mods/jasione.pw.toml",
@@ -1624,7 +1624,7 @@
     {
       "metadata_path": "mods/asynclogger.pw.toml",
       "name": "Async Logger",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Technical reference",
       "topic": "performance.deferred",
       "indexed": true,
@@ -3522,7 +3522,7 @@
     {
       "metadata_path": "mods/jasione.pw.toml",
       "name": "Jasione",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Technical reference",
       "topic": "performance.deferred",
       "indexed": true,
@@ -4549,7 +4549,7 @@
     {
       "metadata_path": "mods/servercore.pw.toml",
       "name": "ServerCore",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Technical reference",
       "topic": "performance.deferred",
       "indexed": true,
