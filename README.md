@@ -8,7 +8,7 @@ Spawn Animations and Spawn Animations Compats are excluded from both editions. S
 
 Cosmonautics, Deep Air and Cosmonautics Expansion are promoted in 0.6.0 as optional space activities, not mandatory progression. Northstar's superseded trial is retired with its history preserved. Retired optimizer and isolation branches have been removed after promotion or supersession. Packaging checks do not establish runtime compatibility or measured frame rates. Lucas reported a large improvement after disabling the screenshot group; no individual cost is established.
 
-The optimizer trial was manually tested by Lucas and promoted to both editions. Shared additions are Async Logger, Jasione and ServerCore. The retired Northstar trial had unresolved rendering issues.
+The optimizer trial was manually tested by Lucas and promoted to both editions. Shared additions are Async Logger, Jasione and ServerCore. The retired Northstar trial had unresolved rendering issues; its unique selections were Create: Northstar Redux, Expansion and Aeronautics.
 
 ## Ship teleportation additions in 0.5.0
 
