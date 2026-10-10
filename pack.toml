@@ -1,6 +1,6 @@
 name = "Astropunk Heavy"
 author = "Lucas"
-version = "0.5.0-heavy.1"
+version = "0.5.0-h"
 pack-format = "packwiz:1.1.0"
 
 [index]
