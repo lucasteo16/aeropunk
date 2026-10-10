@@ -1,0 +1,19 @@
+{
+  "sable_aeronautics_method_references_checked": 94,
+  "unresolved_methods": [],
+  "missing_sable_classes": [],
+  "cross_dimension_handler_callers_in_release": [],
+  "fuel_target_class": "com.cxw.aeroengineering.registry.ModFluids",
+  "fuel_target_method": "isAviationKerosene",
+  "fuel_target_descriptor": "(Lnet/neoforged/neoforge/fluids/FluidStack;)Z",
+  "fuel_tags": [
+    "c:kerosene",
+    "c:fuel",
+    "c:gasoline",
+    "c:plantoil",
+    "c:ethanol"
+  ],
+  "tfmg_kerosene_tag_verified": true,
+  "baseline_binaries_sha512_verified": true,
+  "runtime_tested": false
+}
