@@ -76,7 +76,7 @@ class OfficialExport(unittest.TestCase):
         self.assertEqual(profile["type"], "custom")
         self.assertIn("Astropunk Guide Test fixture.1", profile["name"])
         self.assertEqual(profile["created"], profile["lastUsed"])
-        self.assertNotIn("javaArgs", profile)
+        self.assertEqual(profile["javaArgs"], "-Xmx6G")
         self.assertNotIn("javaDir", profile)
         self.assertEqual(registration["profiles_path"], str(self.profiles))
         self.assertEqual(json.loads((self.output / "instance-export.json").read_text()), result)

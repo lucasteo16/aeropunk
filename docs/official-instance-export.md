@@ -23,7 +23,7 @@ The template is optional. Its `template.json` declares matching `game_version`, 
 
 The template also contains a `game` directory with empty directory layout only. Regular files, special files and symbolic links are forbidden. The wrapper uses the existing pure exporter's template validation and directory copying. It never copies personal options, saves or account data from a template.
 
-Do not put old creation times, last-used times, identifiers, game directories, Java arguments or Java paths in the template. Unsupported fields are rejected. Every new profile receives a new identifier and current timestamps, the source pack's native NeoForge runtime identifier, and its own absolute game directory. The wrapper does not copy the live vanilla Template installation or modify it. It leaves Java arguments, memory settings and Java selection unspecified for the new profile, so normal launcher defaults apply. Existing installations keep their settings.
+Do not put old creation times, last-used times, identifiers, game directories, Java arguments or Java paths in the template. Unsupported fields are rejected. Every new profile receives a new identifier and current timestamps, the source pack's native NeoForge runtime identifier, and its own absolute game directory. The wrapper does not copy the live vanilla Template installation or modify it. It sets the maximum Java heap to six gibibytes with `-Xmx6G`, as requested by Lucas. Java selection remains launcher managed. Existing installations keep their settings.
 
 ## Registration safety and recovery
 

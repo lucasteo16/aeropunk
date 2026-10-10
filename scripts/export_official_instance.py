@@ -89,7 +89,7 @@ def export(output=None, *, source=instance.SOURCE, cache=instance.CACHE, templat
         iso = timestamp.isoformat(timespec="milliseconds").replace("+00:00", "Z")
         profile = {"name": f"Astropunk Guide Test {version} {stamp} {identifier[:8]}",
                    "type": "custom", "gameDir": str(output / "game"), "lastVersionId": runtime_id,
-                   "created": iso, "lastUsed": iso}
+                   "created": iso, "lastUsed": iso, "javaArgs": "-Xmx6G"}
         profile.update(template_fields)
         updated = json.loads(original_bytes)
         if identifier in updated["profiles"]:
