@@ -63,11 +63,11 @@ EMF Compat: Create 使机械动力动画适配动态玩家模型，其共享框�
 | --- | --- | --- |
 | ![[EMF] Entity Model Features](images/catalog-4i1xuqiy.png) [[EMF] Entity Model Features](visuals.models.md) | 加载兼容资源包中的自定义实体模型。 | 无独立物品查询 |
 | ![[ETF] Entity Texture Features](images/catalog-bvzzftc1.png) [[ETF] Entity Texture Features](visuals.models.md) | 支持随机、自定义与发光实体纹理。 | 无独立物品查询 |
-| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) （仅重型版） | 增加进食动画。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) | 增加进食动画。 | 无独立物品查询 |
 | ![EMF Compat: Create](images/catalog-j9mcodzy.png) [EMF Compat: Create](visuals.models.md) | 使机械动力玩家动画适配自定义动态模型。 | 无独立物品查询 |
-| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) （仅重型版） | 让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。 | 无独立物品查询 |
-| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) （仅重型版） | 为门、拉杆等可交互方块增加动画。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) | 让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) | 为门、拉杆等可交互方块增加动画。 | 无独立物品查询 |
 | ![Model Gap Fix](images/catalog-qdg47oki.png) [Model Gap Fix](visuals.models.md) | 修复方块与物品模型的缝隙。 | 无独立物品查询 |
-| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) （仅重型版） | 在第三人称显示更多玩家动作。 | 无独立物品查询 |
+| <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) | 在第三人称显示更多玩家动作。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) （仅重型版） | 为敌对生物生成增加动画。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) （仅重型版） | 让 Spawn Animations 的生成动画适配受支持的模组生物。 | 无独立物品查询 |

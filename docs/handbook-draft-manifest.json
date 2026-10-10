@@ -6,8 +6,8 @@
   "root_page_count": 17,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 298,
-  "heavy_content_count": 20,
+  "installed_content_count": 316,
+  "heavy_content_count": 2,
   "baseline_commit": "77b4453",
   "deferred_content_count": 5,
   "pages": [
@@ -2508,7 +2508,7 @@
     {
       "metadata_path": "mods/create-sable-dynamic-lights.pw.toml",
       "name": "Create Sable Dynamic Lights",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.lighting",
       "indexed": true,
@@ -2898,7 +2898,7 @@
     {
       "metadata_path": "mods/eating-animations.pw.toml",
       "name": "Eating Animations",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -3093,7 +3093,7 @@
     {
       "metadata_path": "mods/explosive-enhancement-forge.pw.toml",
       "name": "Explosive Enhancement: Reforged",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -3223,7 +3223,7 @@
     {
       "metadata_path": "mods/fwa.pw.toml",
       "name": "Fancy World Animations [FWA]",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -4042,7 +4042,7 @@
     {
       "metadata_path": "mods/not-enough-animations-emf-compat.pw.toml",
       "name": "EMF Compat: Not Enough Animations",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -4055,7 +4055,7 @@
     {
       "metadata_path": "mods/not-enough-animations.pw.toml",
       "name": "Not Enough Animations",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -4133,7 +4133,7 @@
     {
       "metadata_path": "mods/particle-effects.pw.toml",
       "name": "Particle Effects",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -4146,7 +4146,7 @@
     {
       "metadata_path": "mods/particular-reforged.pw.toml",
       "name": "Particular ✨ Reforged",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -4432,7 +4432,7 @@
     {
       "metadata_path": "mods/ripple.pw.toml",
       "name": "Ripple",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -4653,7 +4653,7 @@
     {
       "metadata_path": "mods/sodium-dynamic-lights.pw.toml",
       "name": "Sodium Dynamic Lights",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.lighting",
       "indexed": true,
@@ -4952,7 +4952,7 @@
     {
       "metadata_path": "mods/team-capes.pw.toml",
       "name": "Team Capes",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Exploration and adventure",
       "topic": "maps.shared",
       "indexed": true,
@@ -5420,7 +5420,7 @@
     {
       "metadata_path": "resourcepacks/fa-player-extension.pw.toml",
       "name": "Fresh Animations: Player Extension",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -5433,7 +5433,7 @@
     {
       "metadata_path": "resourcepacks/fancy-crops.pw.toml",
       "name": "(Bee's) Fancy Crops",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -5446,7 +5446,7 @@
     {
       "metadata_path": "resourcepacks/fresh-animations-objects.pw.toml",
       "name": "Fresh Animations: Objects",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -5459,7 +5459,7 @@
     {
       "metadata_path": "resourcepacks/fresh-animations-quivers.pw.toml",
       "name": "Fresh Animations: Quivers",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -5472,7 +5472,7 @@
     {
       "metadata_path": "resourcepacks/fresh-animations.pw.toml",
       "name": "Fresh Animations",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -5498,7 +5498,7 @@
     {
       "metadata_path": "resourcepacks/simple-grass-flowers.pw.toml",
       "name": "Simple Grass Flowers",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -5511,7 +5511,7 @@
     {
       "metadata_path": "resourcepacks/visual-effects-plus.pw.toml",
       "name": "Visual Effects+",
-      "availability": "heavy",
+      "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
