@@ -77,7 +77,7 @@ def export(output=None, *, source=instance.SOURCE, cache=instance.CACHE, templat
     timestamp = datetime.now(timezone.utc)
     stamp = timestamp.strftime("%Y%m%dT%H%M%S%fZ")
     identifier = uuid.uuid4().hex
-    output = instance.checked_path(output or Path(source) / "instance-runs" / f"astropunk-{version}-{stamp}-{identifier[:8]}")
+    output = instance.checked_path(output or home / ".minecraft/instances" / f"astropunk-{version}-{stamp}-{identifier[:8]}")
     profiles_path = instance.regular(home / ".minecraft/launcher_profiles.json")
     ensure_closed()
     original_bytes = profiles_path.read_bytes()
@@ -87,7 +87,7 @@ def export(output=None, *, source=instance.SOURCE, cache=instance.CACHE, templat
     manifest = instance.export(output, source=source, cache=cache, template=template)
     try:
         iso = timestamp.isoformat(timespec="milliseconds").replace("+00:00", "Z")
-        profile = {"name": f"Astropunk Guide Test {version} {stamp} {identifier[:8]}",
+        profile = {"name": f"{pack['name']} Test {version} {stamp} {identifier[:8]}",
                    "type": "custom", "gameDir": str(output / "game"), "lastVersionId": runtime_id,
                    "created": iso, "lastUsed": iso, "javaArgs": "-Xmx6G"}
         profile.update(template_fields)
@@ -130,7 +130,7 @@ def export(output=None, *, source=instance.SOURCE, cache=instance.CACHE, templat
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("output", nargs="?", default="", help="Empty means a unique instance-runs destination")
+    parser.add_argument("output", nargs="?", default="", help="Empty means a unique destination beneath ~/.minecraft/instances")
     parser.add_argument("--template", default="", help="Optional durable official template directory")
     parser.add_argument("--source", type=Path, default=instance.SOURCE)
     parser.add_argument("--cache", type=Path, default=instance.CACHE)

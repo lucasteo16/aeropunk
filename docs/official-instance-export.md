@@ -11,7 +11,7 @@
 
 ## Commands and destinations
 
-Run `just export-instance` for a unique destination beneath the source repository's ignored `instance-runs` folder. Its folder name starts with `astropunk-`, followed by the exact source pack version, a universal coordinated time timestamp, and a short random suffix. Repeated exports never overwrite earlier runs or reuse their launcher installation.
+Run `just export-instance` for a unique destination beneath `~/.minecraft/instances`. Its folder name starts with `astropunk-`, followed by the exact source pack version, a universal coordinated time timestamp, and a short random suffix. Repeated exports never overwrite earlier runs or reuse their launcher installation.
 
 Provide an unused explicit destination with `just export-instance '/absolute/path/to/new-instance'`. The pure exporter's existing path, checksum, overlap and existing-output validation still applies. The launcher uses the absolute `game` directory inside that destination.
 
@@ -29,7 +29,7 @@ Do not put old creation times, last-used times, identifiers, game directories, J
 
 The wrapper captures the exact launcher profile bytes before exporting. Before registration, it saves those bytes beneath the durable default template's `backups` directory, outside `.minecraft`. Backup files permit only their owner to read and write them; the backups directory permits only its owner to access it. The wrapper uses this default backup location even when another template is selected.
 
-Registration adds one new profile named `Astropunk Guide Test`, followed by the exact source pack version and a unique timestamp and suffix. Every existing profile, unrelated top-level field and selected profile remains unchanged. JSON formatting may change, but existing field values do not.
+Registration adds one new profile named after the source pack, followed by Test, the exact source pack version and a unique timestamp and suffix. Every existing profile, unrelated top-level field and selected profile remains unchanged. JSON formatting may change, but existing field values do not.
 
 Before replacing the profile file, the wrapper checks again that the launcher and game remain closed and that the original bytes have not changed. It refuses concurrent edits instead of overwriting them. Replacement uses a temporary file in the same directory and an atomic rename. Keep the launcher closed throughout: byte comparison and rename are separate operating-system operations, not a lock respected by other programs.
 
