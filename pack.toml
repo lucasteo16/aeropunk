@@ -1,12 +1,12 @@
 name = "Astropunk Heavy"
 author = "Lucas"
-version = "0.5.0-h"
+version = "0.5.1-h"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e797416c8d954bfdf5f9002f848101f98050f9068d79f68901925985b5fa526d"
+hash = "338b0a874dc79ddd337402a266012ef5daecf24eddb673b3a36c471d992dbbe8"
 
 [versions]
 minecraft = "1.21.1"
