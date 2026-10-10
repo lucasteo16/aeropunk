@@ -209,7 +209,7 @@ for topic in ('maps.shared', 'maps.find'):
     reference_parents[topic] = 'maps.personal.md'
 for topic in ('adventure.settlements', 'adventure.loot'):
     reference_parents[topic] = 'adventure.structures.md'
-reference_parents['help.credits'] = 'index.md'
+reference_parents['help.credits'] = None
 
 
 raw_zh_titles = '''help.search|查找物品、配方与用途
@@ -469,7 +469,7 @@ for page in page_defs:
         if related:
             body += '\n\n***\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(related, chinese, linked=True)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
-        write_page(topic+'.md', title, body, chinese, reference_parents[topic], icon=reference_icons.get(topic, reference_icons.get((reference_parents.get(topic) or '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), next((i for i, child in enumerate(reference_hubs['reference.food'][1]) if child == topic), 0)))
+        write_page(topic+'.md', title, body, chinese, reference_parents[topic], icon=reference_icons.get(topic, reference_icons.get((reference_parents.get(topic) or '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=10000 if topic == 'help.credits' else next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), next((i for i, child in enumerate(reference_hubs['reference.food'][1]) if child == topic), 0)))
     assigned_paths += [e['metadata_path'] for e in members]
 
 # Retire generated navigation reversibly, outside the authoring repository.

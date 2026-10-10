@@ -20,7 +20,7 @@ class ReleasedNavigation(unittest.TestCase):
         self.assertEqual({row['locale'] for row in report['tests']}, {'en_us', '_zh_cn'})
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         for row in report['tests']:
-            self.assertIn(f"{len(manifest['pages']) + 1} nodes, seventeen ordered roots, direct Audio article", row['output'])
+            self.assertIn(f"{len(manifest['pages']) + 1} nodes, eighteen ordered roots, direct Audio article", row['output'])
             self.assertIn('obsolete Quick reference and Sound resurrection and repair controls', row['output'])
         self.assertFalse(report['rendered_verified'])
 

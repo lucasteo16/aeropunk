@@ -1001,7 +1001,7 @@
     },
     {
       "id": "help.credits",
-      "parent": "index.md",
+      "parent": null,
       "labels": {
         "en_us": "Credits",
         "zh_cn": "鸣谢"

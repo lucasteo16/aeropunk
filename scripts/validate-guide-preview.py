@@ -77,7 +77,7 @@ for language in ('', '_zh_cn'):
     locale_root = pages / language
     page_texts = {p.name: p.read_text() for p in locale_root.glob('*.md')}
     roots = {name for name, text in page_texts.items() if not re.search(r'^  parent:', text, re.M)}
-    assert roots == section_roots | {'index.md'}, (language, roots)
+    assert roots == section_roots | {'index.md', 'help.credits.md'}, (language, roots)
     assert not {'quick-reference.md', 'mod-catalogs.md', 'sounds.ambience.md', 'audio.sound.md'} & expected
     assert not list(locale_root.glob('category-*.md'))
     home_links = set(re.findall(r'\]\(([^)]+\.md)\)', page_texts['index.md']))
@@ -109,7 +109,7 @@ for language in ('', '_zh_cn'):
             assert current not in seen, article['filename']
             seen.add(current)
             depth += 1
-        assert current in section_roots | {'index.md'}, article['filename']
+        assert current in section_roots | {'index.md', 'help.credits.md'}, article['filename']
         assert depth <= 2, article['filename']
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options

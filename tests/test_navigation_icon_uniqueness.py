@@ -66,7 +66,7 @@ class NavigationIconUniqueness(unittest.TestCase):
 
     def test_credits_is_an_intro_child_with_a_unique_book_icon(self):
         definitions = generator_definitions()
-        self.assertEqual(definitions['reference_parents']['help.credits'], 'index.md')
+        self.assertIsNone(definitions['reference_parents']['help.credits'])
         self.assertEqual(definitions['titles']['help.credits'], 'Credits')
         self.assertEqual(definitions['zh_titles']['help.credits'], '鸣谢')
         self.assertEqual(definitions['reference_icons']['help.credits'], 'minecraft:written_book')

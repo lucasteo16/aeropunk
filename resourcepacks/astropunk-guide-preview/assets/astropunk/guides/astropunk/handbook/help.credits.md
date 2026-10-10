@@ -1,8 +1,7 @@
 ---
 navigation:
   title: "Credits"
-  position: 0
-  parent: index.md
+  position: 10000
   icon: minecraft:written_book
 ---
 

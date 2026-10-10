@@ -16,7 +16,7 @@ class FlatSidebar(unittest.TestCase):
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
             roots = {path.name for path in base.glob('*.md') if not re.search(r'^  parent:', path.read_text(), re.M)}
-            self.assertEqual(roots, {'index.md'} | {topic + '.md' for topic in SECTIONS})
+            self.assertEqual(roots, {'index.md', 'help.credits.md'} | {topic + '.md' for topic in SECTIONS})
             self.assertFalse((base / 'quick-reference.md').exists())
             for position, topic in enumerate(SECTIONS):
                 self.assertIn(f'  position: {position}\n', (base / (topic + '.md')).read_text())

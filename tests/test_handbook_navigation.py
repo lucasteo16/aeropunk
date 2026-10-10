@@ -35,7 +35,7 @@ class NavigationSkeleton(unittest.TestCase):
                     current = base / name
                     self.assertTrue(current.is_file())
                     depth += 1
-                self.assertIn(current.name, {topic + '.md' for topic in SECTIONS} | {'index.md'}, path.name)
+                self.assertIn(current.name, {topic + '.md' for topic in SECTIONS} | {'index.md', 'help.credits.md'}, path.name)
                 self.assertLessEqual(depth, 2, path.name)
 
     def test_home_and_sidebar_reference_directory_match(self):
