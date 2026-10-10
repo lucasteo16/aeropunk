@@ -127,9 +127,9 @@ Supplementaries 提供遮阳篷、罐子、基座、黑板与小型摆设。Amen
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Amendments](images/catalog-6iTJugQR.png) [Amendments](building.furniture.md) | 扩展已有方块功能，例如炼药锅混合药水与灯笼壁挂。 | <EmiSearch query="@amendments" /> |
-| ![Beautify: ReFoxed](images/catalog-ZQCyyWBM.png) [Beautify: ReFoxed](building.furniture.md) | 增加贴近原版风格的家居与庭院装饰。 | <EmiSearch query="@beautify" /> |
-| ![Create: Interiors](images/catalog-r4Knci2k.png) [Create: Interiors](building.furniture.md) | 增加适合列车内饰与其他建筑的机械动力风格家具。 | <EmiSearch query="@interiors" /> |
-| ![Handcrafted](images/catalog-pJmCFF0p.png) [Handcrafted](building.furniture.md) | 增加细致的家具与家居装饰。 | <EmiSearch query="@handcrafted" /> |
-| ![Supplementaries](images/catalog-fFEIiSDQ.png) [Supplementaries](building.furniture.md) | 增加用于建筑、存储与自动化的实用装饰及功能方块。 | <EmiSearch query="@supplementaries" /> |
-| ![TW‘s  Decorative Food](images/catalog-656seq5J.png) [TW‘s  Decorative Food](building.furniture.md) | 让食物物品可摆放在世界中作为装饰。 | 无独立物品查询 |
+| ![Amendments](images/catalog-6itjugqr.png) [Amendments](building.furniture.md) | 扩展已有方块功能，例如炼药锅混合药水与灯笼壁挂。 | <EmiSearch query="@amendments" /> |
+| ![Beautify: ReFoxed](images/catalog-zqcyywbm.png) [Beautify: ReFoxed](building.furniture.md) | 增加贴近原版风格的家居与庭院装饰。 | <EmiSearch query="@beautify" /> |
+| ![Create: Interiors](images/catalog-r4knci2k.png) [Create: Interiors](building.furniture.md) | 增加适合列车内饰与其他建筑的机械动力风格家具。 | <EmiSearch query="@interiors" /> |
+| ![Handcrafted](images/catalog-pjmcff0p.png) [Handcrafted](building.furniture.md) | 增加细致的家具与家居装饰。 | <EmiSearch query="@handcrafted" /> |
+| ![Supplementaries](images/catalog-ffeiisdq.png) [Supplementaries](building.furniture.md) | 增加用于建筑、存储与自动化的实用装饰及功能方块。 | <EmiSearch query="@supplementaries" /> |
+| ![TW‘s  Decorative Food](images/catalog-656seq5j.png) [TW‘s  Decorative Food](building.furniture.md) | 让食物物品可摆放在世界中作为装饰。 | 无独立物品查询 |

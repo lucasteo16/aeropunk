@@ -47,8 +47,8 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | 增加围绕弓箭与远程能力设计的弓箭手职业。 | <EmiSearch query="@archers" /> |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。 | <EmiSearch query="@archers_expansion" /> |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | 增加持斧狂战士，利用狂怒在低生命值时提高伤害。 | <EmiSearch query="@berserker_rpg" /> |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 增加使用拳套的武术职业，以奥术力量强化攻击。 | <EmiSearch query="@forcemaster_rpg" /> |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 增加拥有不同近战能力的游荡者与战士职业。 | <EmiSearch query="@rogues" /> |
+| ![Archers (RPG Series)](images/catalog-qgoouxaj.png) [Archers (RPG Series)](combat.martial.md) | 增加围绕弓箭与远程能力设计的弓箭手职业。 | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1bhiim4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | 增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。 | <EmiSearch query="@archers_expansion" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqozzxm.png) [Berserker (RPG Series Plus)](combat.martial.md) | 增加持斧狂战士，利用狂怒在低生命值时提高伤害。 | <EmiSearch query="@berserker_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-k3yhebfl.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | 增加使用拳套的武术职业，以奥术力量强化攻击。 | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3mkqogup.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | 增加拥有不同近战能力的游荡者与战士职业。 | <EmiSearch query="@rogues" /> |

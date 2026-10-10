@@ -92,30 +92,30 @@ Match your weapon or focus, armor bonuses and accessories to the attributes used
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Adds jewelry for the additional More RPG Classes professions. | <EmiSearch query="@additional_rpg_jewelry" /> |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Adds an archer combat class built around bows and ranged abilities. | <EmiSearch query="@archers" /> |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Adds archer subclasses with cold, status-inflicting and explosive arrow abilities. | <EmiSearch query="@archers_expansion" /> |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Adds class-oriented armor sets with set bonuses. | <EmiSearch query="@armory_rpgs" /> |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Adds legendary weapons obtained through encounters rather than crafting. | <EmiSearch query="@arsenal" /> |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Adds a bard class that supports allies through songs and ballads. | <EmiSearch query="@bards_rpg" /> |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Adds an axe-wielding berserker whose rage increases damage at low health. | <EmiSearch query="@berserker_rpg" /> |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rulzjh3o.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Adds jewelry for the additional More RPG Classes professions. | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Archers (RPG Series)](images/catalog-qgoouxaj.png) [Archers (RPG Series)](combat.martial.md) | Adds an archer combat class built around bows and ranged abilities. | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1bhiim4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Adds archer subclasses with cold, status-inflicting and explosive arrow abilities. | <EmiSearch query="@archers_expansion" /> |
+| ![Armory (RPG Series)](images/catalog-pjvjudgw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Adds class-oriented armor sets with set bonuses. | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-lip9q3kv.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Adds legendary weapons obtained through encounters rather than crafting. | <EmiSearch query="@arsenal" /> |
+| ![Bard (RPG Series Plus)](images/catalog-kl7bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | Adds a bard class that supports allies through songs and ballads. | <EmiSearch query="@bards_rpg" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqozzxm.png) [Berserker (RPG Series Plus)](combat.martial.md) | Adds an axe-wielding berserker whose rage increases damage at low health. | <EmiSearch query="@berserker_rpg" /> |
 | ![Better Combat](images/catalog-5sy6g3kz.png) [Better Combat](combat.handling.md) | Reworks melee attacks with weapon animations and a more fluid combat system. | No separate item search |
-| ![Combat Roll](images/catalog-wGKYL7st.png) [Combat Roll](combat.handling.md) | Adds a dodge roll with related attributes and enchantments. | No separate item search |
-| ![Critical Strike](images/catalog-ilvNBzFn.png) [Critical Strike](combat.handling.md) | Adds chance-based critical hits to melee and ranged attacks. | No separate item search |
-| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | Provides expandable equipment slots for wearable accessories. | No separate item search |
-| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Shows additional armor information in the armor status bar. | No separate item search |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Expands Wizards with earth, water and wind spellcasting subclasses. | <EmiSearch query="@elemental_wizards_rpg" /> |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Adds a knuckle-wielding martial class that strengthens attacks with arcane force. | <EmiSearch query="@forcemaster_rpg" /> |
-| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | Adds mineable gems and craftable jewelry that improves combat attributes. | <EmiSearch query="@jewelry" /> |
-| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Adds Relics accessories for the additional More RPG Classes professions. | <EmiSearch query="@more_relics" /> |
-| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Adds class skill-tree support for the additional More RPG Classes professions. | No separate item search |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Adds paladin and priest classes focused on protection and healing. | <EmiSearch query="@paladins" /> |
-| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Provides a configurable skill system and skill-tree interface. | No separate item search |
-| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | Adds combat-enhancing trinkets for RPG Series character builds. | <EmiSearch query="@relics_rpgs" /> |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Adds rogue and warrior classes with distinct melee combat abilities. | <EmiSearch query="@rogues" /> |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | Adds craftable runes consumed as ammunition for spells. | <EmiSearch query="@runes" /> |
-| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | Adds class-oriented skill trees for RPG Series characters. | <EmiSearch query="@skill_tree_rpgs" /> |
-| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | Shows remaining status-effect duration with customizable bars. | No separate item search |
-| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | Reorganizes status-effect displays into compact, configurable interface layouts. | No separate item search |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Adds a monster-hunting witcher class and associated combat abilities. | <EmiSearch query="@witcher_rpg" /> |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | Adds wizard combat using arcane, fire and frost spells. | <EmiSearch query="@wizards" /> |
+| ![Combat Roll](images/catalog-wgkyl7st.png) [Combat Roll](combat.handling.md) | Adds a dodge roll with related attributes and enchantments. | No separate item search |
+| ![Critical Strike](images/catalog-ilvnbzfn.png) [Critical Strike](combat.handling.md) | Adds chance-based critical hits to melee and ranged attacks. | No separate item search |
+| ![Curios API](images/catalog-vvuo3imh.png) [Curios API](equipment.accessories.md) | Provides expandable equipment slots for wearable accessories. | No separate item search |
+| ![Detail Armor Bar Reconstructed](images/catalog-si9uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Shows additional armor information in the armor status bar. | No separate item search |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-pez4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | Expands Wizards with earth, water and wind spellcasting subclasses. | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-k3yhebfl.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Adds a knuckle-wielding martial class that strengthens attacks with arcane force. | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Jewelry (RPG Series)](images/catalog-snjaijum.png) [Jewelry (RPG Series)](equipment.accessories.md) | Adds mineable gems and craftable jewelry that improves combat attributes. | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-iz3b4kea.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Adds Relics accessories for the additional More RPG Classes professions. | <EmiSearch query="@more_relics" /> |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3oymnudq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Adds class skill-tree support for the additional More RPG Classes professions. | No separate item search |
+| ![Paladins & Priests (RPG Series)](images/catalog-fxxkhale.png) [Paladins & Priests (RPG Series)](combat.magic.md) | Adds paladin and priest classes focused on protection and healing. | <EmiSearch query="@paladins" /> |
+| ![Pufferfish's Skills](images/catalog-hqqqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Provides a configurable skill system and skill-tree interface. | No separate item search |
+| ![Relics (RPG Series)](images/catalog-bdqucwf0.png) [Relics (RPG Series)](equipment.accessories.md) | Adds combat-enhancing trinkets for RPG Series character builds. | <EmiSearch query="@relics_rpgs" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3mkqogup.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Adds rogue and warrior classes with distinct melee combat abilities. | <EmiSearch query="@rogues" /> |
+| ![Runes](images/catalog-lp9yrr1e.png) [Runes](combat.magic.md) | Adds craftable runes consumed as ammunition for spells. | <EmiSearch query="@runes" /> |
+| ![Skill Tree (RPG Series)](images/catalog-pjdhrusc.png) [Skill Tree (RPG Series)](combat.skills.md) | Adds class-oriented skill trees for RPG Series characters. | <EmiSearch query="@skill_tree_rpgs" /> |
+| ![Status Effect Bars Reforged](images/catalog-txiuhifo.png) [Status Effect Bars Reforged](equipment.display.md) | Shows remaining status-effect duration with customizable bars. | No separate item search |
+| ![Stylish Effects](images/catalog-onduqf5e.png) [Stylish Effects](equipment.display.md) | Reorganizes status-effect displays into compact, configurable interface layouts. | No separate item search |
+| ![Witcher (RPG Series Plus)](images/catalog-4ew1c7gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | Adds a monster-hunting witcher class and associated combat abilities. | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-nkgaqmda.png) [Wizards (RPG Series)](combat.magic.md) | Adds wizard combat using arcane, fire and frost spells. | <EmiSearch query="@wizards" /> |

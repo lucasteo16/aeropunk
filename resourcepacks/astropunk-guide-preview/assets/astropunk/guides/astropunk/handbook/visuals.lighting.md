@@ -46,6 +46,6 @@ Sodium Dynamic Lights and its Create and Sable bridge are heavy edition only. Dy
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) (heavy edition only) | Adds dynamic light support for lights on Create and Sable moving structures. | No separate item search |
-| ![Distant Horizons](images/catalog-uCdwusMi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | No separate item search |
-| ![Iris Shaders](images/catalog-YL57xq9U.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | No separate item search |
+| ![Distant Horizons](images/catalog-ucdwusmi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | No separate item search |
+| ![Iris Shaders](images/catalog-yl57xq9u.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) (heavy edition only) | Provides dynamic lighting with Sodium settings integration. | No separate item search |

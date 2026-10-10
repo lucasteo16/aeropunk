@@ -1710,5 +1710,17 @@
   "mods/astropunk-handbook-access-1.0.0.jar": {
     "en_us": [],
     "zh_cn": []
+  },
+  "mods/fancymenu.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/konkrete.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/melody.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
   }
 }

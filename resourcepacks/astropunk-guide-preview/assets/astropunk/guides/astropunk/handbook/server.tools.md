@@ -50,7 +50,7 @@ Configured Defaults provides initial files when they are missing. Existing playe
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Chunky](images/catalog-fALzjamp.png) [Chunky](server.tools.md) | Generates terrain ahead of exploration. | No separate item search |
-| ![Configured Defaults](images/catalog-SISoSFPP.png) [Configured Defaults](server.tools.md) | Supplies packaged defaults for missing files. | No separate item search |
-| ![Observable](images/catalog-VYRu7qmG.png) [Observable](server.tools.md) | Identifies expensive server processing. | No separate item search |
-| ![spark](images/catalog-l6YH9Als.png) [spark](server.tools.md) | Profiles client and server performance. | No separate item search |
+| ![Chunky](images/catalog-falzjamp.png) [Chunky](server.tools.md) | Generates terrain ahead of exploration. | No separate item search |
+| ![Configured Defaults](images/catalog-sisosfpp.png) [Configured Defaults](server.tools.md) | Supplies packaged defaults for missing files. | No separate item search |
+| ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | Identifies expensive server processing. | No separate item search |
+| ![spark](images/catalog-l6yh9als.png) [spark](server.tools.md) | Profiles client and server performance. | No separate item search |

@@ -77,4 +77,4 @@ Make a Mechanical Grindstone first. Its Ponder entry shows the Item Drain conver
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | Automates experience handling and enchanting with Create machinery. | <EmiSearch query="@create_enchantment_industry" /> |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | Improves anvil item storage and costs while removing escalating repair penalties. | No separate item search |
+| ![Easy Anvils](images/catalog-ozbr5jt5.png) [Easy Anvils](machines.enchanting.md) | Improves anvil item storage and costs while removing escalating repair penalties. | No separate item search |

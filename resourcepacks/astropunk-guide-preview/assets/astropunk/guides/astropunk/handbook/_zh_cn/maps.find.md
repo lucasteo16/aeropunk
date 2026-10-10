@@ -57,5 +57,5 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | 定位结构，包括受支持的模组结构。 | <EmiSearch query="@explorerscompass" /> |
-| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | 定位生物群系，包括受支持的模组生物群系。 | <EmiSearch query="@naturescompass" /> |
+| ![Explorer's Compass](images/catalog-rv1qfvq8.png) [Explorer's Compass](maps.find.md) | 定位结构，包括受支持的模组结构。 | <EmiSearch query="@explorerscompass" /> |
+| ![Nature's Compass](images/catalog-fpetb5kh.png) [Nature's Compass](maps.find.md) | 定位生物群系，包括受支持的模组生物群系。 | <EmiSearch query="@naturescompass" /> |

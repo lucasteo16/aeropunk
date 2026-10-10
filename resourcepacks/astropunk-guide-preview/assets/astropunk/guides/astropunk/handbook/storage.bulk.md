@@ -66,4 +66,4 @@ Start with an Item Vault and its Ponder entry. Add an Inventory Access Port when
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | Adds more color and material variants of Create item vaults. | <EmiSearch query="@create_vibrant_vaults" /> |
+| ![Create: Vibrant Vaults](images/catalog-hddn8ksr.png) [Create: Vibrant Vaults](storage.bulk.md) | Adds more color and material variants of Create item vaults. | <EmiSearch query="@create_vibrant_vaults" /> |

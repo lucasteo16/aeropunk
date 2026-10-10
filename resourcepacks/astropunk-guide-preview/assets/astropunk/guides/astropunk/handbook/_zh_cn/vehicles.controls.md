@@ -119,5 +119,5 @@ Aeroworks 控制台支持方向盘、操纵杆、油门、踏板、拉杆、键�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create: Aeroworks](images/catalog-P26k79kP.png) [Create: Aeroworks](vehicles.controls.md) | 为 Aeronautics 载具增加陀螺仪与操纵杆等飞行控制部件。 | <EmiSearch query="@aeroworks" /> |
-| ![Create: Tweaked Controllers](images/catalog-H6bJ8Ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | 为机械动力运动结构增加高级手持控制器。 | <EmiSearch query="@create_tweaked_controllers" /> |
+| ![Create: Aeroworks](images/catalog-p26k79kp.png) [Create: Aeroworks](vehicles.controls.md) | 为 Aeronautics 载具增加陀螺仪与操纵杆等飞行控制部件。 | <EmiSearch query="@aeroworks" /> |
+| ![Create: Tweaked Controllers](images/catalog-h6bj8ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | 为机械动力运动结构增加高级手持控制器。 | <EmiSearch query="@create_tweaked_controllers" /> |

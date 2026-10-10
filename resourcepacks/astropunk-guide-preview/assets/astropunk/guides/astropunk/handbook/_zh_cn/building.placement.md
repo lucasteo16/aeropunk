@@ -127,7 +127,7 @@ Pattern Schematics 提供空白样式、已记录样式和样式蓝图与笔。F
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | 让机械动力蓝图建造重复铺设指定图案。 | <EmiSearch query="@create_pattern_schematics" /> |
-| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | 让机械动力机械手从指定材料组中随机选块放置。 | <EmiSearch query="@createshufflefilter" /> |
-| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | 显示建筑蓝图，辅助方块摆放与施工。 | 无独立物品查询 |
-| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | 从自定义材料组随机放置方块，并支持建筑魔杖式摆放。 | <EmiSearch query="@mechtrowel" /> |
+| ![Create: Pattern Schematics](images/catalog-cpqkg67r.png) [Create: Pattern Schematics](building.placement.md) | 让机械动力蓝图建造重复铺设指定图案。 | <EmiSearch query="@create_pattern_schematics" /> |
+| ![Create: Shuffle Filter](images/catalog-gv5rravc.png) [Create: Shuffle Filter](building.placement.md) | 让机械动力机械手从指定材料组中随机选块放置。 | <EmiSearch query="@createshufflefilter" /> |
+| ![Forgematica](images/catalog-dckraebc.png) [Forgematica](building.placement.md) | 显示建筑蓝图，辅助方块摆放与施工。 | 无独立物品查询 |
+| ![Mech Trowel](images/catalog-nqfnrals.png) [Mech Trowel](building.placement.md) | 从自定义材料组随机放置方块，并支持建筑魔杖式摆放。 | <EmiSearch query="@mechtrowel" /> |

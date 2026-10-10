@@ -211,4 +211,4 @@ Miner's Delight 用野生洞穴胡萝卜组成地下作物菜单。烘烤可做�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | 为 Farmer's Delight 增加采矿主题的食物与烹饪工具。 | <EmiSearch query="@minersdelight" /> |
+| ![Miner's Delight](images/catalog-qmxbm4bq.png) [Miner's Delight](food.underground.md) | 为 Farmer's Delight 增加采矿主题的食物与烹饪工具。 | <EmiSearch query="@minersdelight" /> |

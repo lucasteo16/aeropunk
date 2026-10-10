@@ -46,5 +46,5 @@ Open a Lootr container for your own loot. Use the item browser’s loot displays
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | No separate item search |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | <EmiSearch query="@lootr" /> |
+| ![EMI Loot](images/catalog-qbbo7jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | No separate item search |
+| ![Lootr](images/catalog-eltpo5cn.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | <EmiSearch query="@lootr" /> |

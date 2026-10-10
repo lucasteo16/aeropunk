@@ -6,7 +6,7 @@
   "root_page_count": 17,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 292,
+  "installed_content_count": 295,
   "heavy_content_count": 20,
   "baseline_commit": "34cb006",
   "deferred_content_count": 8,
@@ -934,7 +934,8 @@
         "mods/reeses-sodium-options.pw.toml",
         "mods/sodium-extra.pw.toml",
         "mods/toast-control.pw.toml",
-        "mods/travelers-titles.pw.toml"
+        "mods/travelers-titles.pw.toml",
+        "mods/fancymenu.pw.toml"
       ]
     },
     {
@@ -1112,7 +1113,9 @@
         "mods/structure-pool-api.pw.toml",
         "mods/teallib.pw.toml",
         "mods/yacl.pw.toml",
-        "mods/yungs-api.pw.toml"
+        "mods/yungs-api.pw.toml",
+        "mods/konkrete.pw.toml",
+        "mods/melody.pw.toml"
       ]
     },
     {
@@ -5556,6 +5559,45 @@
       "english_written": false,
       "simplified_chinese_written": false,
       "links_checked": false
+    },
+    {
+      "metadata_path": "mods/fancymenu.pw.toml",
+      "name": "FancyMenu",
+      "availability": "baseline",
+      "category": "Visuals and sound",
+      "topic": "visuals.interface",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/konkrete.pw.toml",
+      "name": "Konkrete",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/melody.pw.toml",
+      "name": "Melody",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
     },
     {
       "metadata_path": "mods/guideme.pw.toml",

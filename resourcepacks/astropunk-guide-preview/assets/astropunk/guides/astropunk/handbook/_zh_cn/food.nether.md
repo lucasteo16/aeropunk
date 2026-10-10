@@ -225,4 +225,4 @@ My Nether's Delight 把下界狩猎食材用于香肠、炖菜和盘餐。猎杀
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | <EmiSearch query="@mynethersdelight" /> |
+| ![My Nether's Delight](images/catalog-o53vhqoz.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | <EmiSearch query="@mynethersdelight" /> |

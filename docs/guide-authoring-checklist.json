@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "baseline_count": 310,
-  "union_count": 318,
+  "baseline_count": 313,
+  "union_count": 321,
   "categories": [
     "Automation and industry",
     "Storage and logistics",
@@ -1382,7 +1382,7 @@
     },
     {
       "metadata_path": "mods/decorative-food.pw.toml",
-      "name": "TW\u2018s  Decorative Food",
+      "name": "TW‘s  Decorative Food",
       "availability": "baseline",
       "category": "Building and decoration",
       "topic": "building.furniture",
@@ -2084,7 +2084,7 @@
     },
     {
       "metadata_path": "mods/jade.pw.toml",
-      "name": "Jade \ud83d\udd0d",
+      "name": "Jade 🔍",
       "availability": "baseline",
       "category": "Player utilities and quality of life",
       "topic": "help.inspect",
@@ -2695,7 +2695,7 @@
     },
     {
       "metadata_path": "mods/owo-lib.pw.toml",
-      "name": "o\u03c9o (owo-lib)",
+      "name": "oωo (owo-lib)",
       "availability": "baseline",
       "category": "Technical reference",
       "topic": "technical.libraries",
@@ -2734,7 +2734,7 @@
     },
     {
       "metadata_path": "mods/particular-reforged.pw.toml",
-      "name": "Particular \u2728 Reforged",
+      "name": "Particular ✨ Reforged",
       "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
@@ -4148,6 +4148,45 @@
       "english_written": false,
       "simplified_chinese_written": false,
       "links_checked": false
+    },
+    {
+      "metadata_path": "mods/fancymenu.pw.toml",
+      "name": "FancyMenu",
+      "availability": "baseline",
+      "category": "Visuals and sound",
+      "topic": "visuals.interface",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/konkrete.pw.toml",
+      "name": "Konkrete",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/melody.pw.toml",
+      "name": "Melody",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
     }
   ]
 }

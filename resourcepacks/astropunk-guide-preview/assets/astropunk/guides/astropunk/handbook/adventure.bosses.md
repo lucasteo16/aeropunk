@@ -262,7 +262,7 @@ Dangerous changes existing enemy health and equipment. It does not add a separat
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Bosses'Rise](images/catalog-q2bV1Tm1.png) [Bosses'Rise](adventure.bosses.md) | Adds challenging bosses with dedicated encounter structures. | <EmiSearch query="@block_factorys_bosses" /> |
-| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wVW.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | Adds configurable difficulty balancing for powerful modded player builds. | No separate item search |
-| ![Illager Invasion](images/catalog-jSV9w0J5.png) [Illager Invasion](adventure.bosses.md) | Adds new illager enemies and related encounters. | <EmiSearch query="@illagerinvasion" /> |
-| ![L_Ender's Cataclysm](images/catalog-46KJle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | Adds dangerous dungeons, challenging bosses and powerful equipment rewards. | <EmiSearch query="@cataclysm" /> |
+| ![Bosses'Rise](images/catalog-q2bv1tm1.png) [Bosses'Rise](adventure.bosses.md) | Adds challenging bosses with dedicated encounter structures. | <EmiSearch query="@block_factorys_bosses" /> |
+| ![Dangerous - Just A Difficulty Mod](images/catalog-nsri5wvw.png) [Dangerous - Just A Difficulty Mod](adventure.bosses.md) | Adds configurable difficulty balancing for powerful modded player builds. | No separate item search |
+| ![Illager Invasion](images/catalog-jsv9w0j5.png) [Illager Invasion](adventure.bosses.md) | Adds new illager enemies and related encounters. | <EmiSearch query="@illagerinvasion" /> |
+| ![L_Ender's Cataclysm](images/catalog-46kjle7n.png) [L_Ender's Cataclysm](adventure.bosses.md) | Adds dangerous dungeons, challenging bosses and powerful equipment rewards. | <EmiSearch query="@cataclysm" /> |

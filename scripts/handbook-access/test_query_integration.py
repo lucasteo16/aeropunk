@@ -132,9 +132,9 @@ class QueryIntegrationTest(unittest.TestCase):
     def test_registration_is_wired_and_test_boundary_not_shipped(self):
         jar = ROOT / 'build/libs/astropunk-handbook-access-1.0.0.jar'
         client = bytecode(jar, 'dev.astropunk.handbook.HandbookAccess')
-        self.assertIn('FMLClientSetupEvent', client)
+        self.assertNotIn('FMLClientSetupEvent', client)
         self.assertIn('HandbookQueryGuide.register:', client)
-        self.assertIn('FMLClientSetupEvent.enqueueWork:', client)
+        self.assertNotIn('enqueueWork:', client)
         released = bytecode(ROOT / 'guideme-21.1.19.jar', 'guideme.GuideBuilder', 'guideme.document.flow.LytFlowLink')
         self.assertIn('public <T extends guideme.extensions.Extension> guideme.GuideBuilder extension', released)
         self.assertIn('public void setClickCallback(java.util.function.Consumer<guideme.ui.GuideUiHost>);', released)

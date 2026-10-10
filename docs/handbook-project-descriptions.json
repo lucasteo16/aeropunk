@@ -1738,5 +1738,23 @@
     "description": "A gameplay-focused shader pack with a semi-realistic style",
     "url": "https://modrinth.com/project/lLqFfGNs",
     "source": "Modrinth publisher description"
+  },
+  "mods/fancymenu.pw.toml": {
+    "name": "FancyMenu",
+    "description": "Customizes the Astropunk title screen while retaining native menu controls.",
+    "url": "https://modrinth.com/project/Wq5SjeWM",
+    "source": "Selected-release main-menu integration evidence in docs/main-menu.md"
+  },
+  "mods/konkrete.pw.toml": {
+    "name": "Konkrete",
+    "description": "Provides the utility and configuration library required by FancyMenu.",
+    "url": "https://modrinth.com/project/J81TRJWm",
+    "source": "Selected-release main-menu integration evidence in docs/main-menu.md"
+  },
+  "mods/melody.pw.toml": {
+    "name": "Melody",
+    "description": "Provides the audio library required by FancyMenu. This menu adds no custom music.",
+    "url": "https://modrinth.com/project/CVT4pFB2",
+    "source": "Selected-release main-menu integration evidence in docs/main-menu.md"
   }
 }

@@ -57,5 +57,5 @@ Lighty 显示方块光照与天空光照，支持数字、地毯与叉形模式�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Lighty](images/catalog-yjvKidNM.png) [Lighty](building.safety.md) | 叠加显示光照等级，帮助寻找暗处与可生成生物的地面。 | 无独立物品查询 |
-| ![TorchMaster](images/catalog-Tl8ESrhX.png) [TorchMaster](building.safety.md) | 增加用于控制区域内敌对或其他生物生成的方块。 | <EmiSearch query="@torchmaster" /> |
+| ![Lighty](images/catalog-yjvkidnm.png) [Lighty](building.safety.md) | 叠加显示光照等级，帮助寻找暗处与可生成生物的地面。 | 无独立物品查询 |
+| ![TorchMaster](images/catalog-tl8esrhx.png) [TorchMaster](building.safety.md) | 增加用于控制区域内敌对或其他生物生成的方块。 | <EmiSearch query="@torchmaster" /> |

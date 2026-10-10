@@ -135,6 +135,16 @@ with zipfile.ZipFile(export) as archive:
             name = "overrides/" + p.relative_to(root).as_posix()
             assert archive.read(name) == p.read_bytes(), name
             checked += 1
+    for menu_file in (root / "config/fancymenu").rglob("*"):
+        if menu_file.is_file():
+            assert archive.read("overrides/" + menu_file.relative_to(root).as_posix()) == menu_file.read_bytes()
+    menu_defaults = root / "configureddefaults/config/fancymenu/options.txt"
+    assert archive.read("overrides/" + menu_defaults.relative_to(root).as_posix()) == menu_defaults.read_bytes()
+    for slug in ("fancymenu", "konkrete", "melody"):
+        metadata = tomllib.loads((root / "mods" / (slug + ".pw.toml")).read_text())
+        assert metadata["side"] == "client"
+        entry = next(f for f in manifest["files"] if f["path"] == "mods/" + metadata["filename"])
+        assert entry["env"]["server"] == "unsupported"
     assert archive.read("overrides/configureddefaults/options.txt").decode() == options
     assert not any(n.startswith(("overrides/docs/", "overrides/scripts/", "overrides/build/", "overrides/dist/")) for n in names)
     base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "34cb006", "mods"], cwd=root, text=True).splitlines()
@@ -142,5 +152,5 @@ with zipfile.ZipFile(export) as archive:
         previous = subprocess.check_output(["git", "show", f"34cb006:{name}"], cwd=root)
         assert (root / name).read_bytes() == previous, name
     additions = {p.relative_to(root).as_posix() for p in (root / "mods").glob("*.pw.toml")} - set(base)
-    assert additions == {"mods/guideme.pw.toml"}, additions
+    assert additions == {"mods/guideme.pw.toml", "mods/fancymenu.pw.toml", "mods/konkrete.pw.toml", "mods/melody.pw.toml"}, additions
 print(json.dumps({"pages": len(list(pages.rglob('*.md'))), "draft_articles": handbook['draft_articles'], "article_count": handbook['article_count'], "installed_content_count": handbook['installed_content_count'], "links": links, "resource_files_verified": checked, "baseline_mod_files_unchanged": len(base), "additional_mods": sorted(additions), "archive": str(export), "sha256": hashlib.sha256(export.read_bytes()).hexdigest(), "client_runtime_tested": False}, indent=2))

@@ -238,4 +238,4 @@ item_ids:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | <EmiSearch query="@farmersdelight" /> |
+| ![Farmer's Delight](images/catalog-r2oftaxm.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | <EmiSearch query="@farmersdelight" /> |

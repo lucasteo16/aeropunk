@@ -90,25 +90,25 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | <EmiSearch query="背包" /> |
+| ![Backpacks!](images/catalog-mgcd6ktf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | <EmiSearch query="背包" /> |
 | ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 增加用于加工、运输与自动建造的旋转动力机器。 | <EmiSearch query="@create" /> |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
-| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | 扩展机械动力包裹处理，增加商店收银设备并改进工厂库存控制。 | <EmiSearch query="@createadditionallogistics" /> |
+| ![Create Stuff 'N Additions](images/catalog-aq9quuqg.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
+| ![Create: Additional Logistics](images/catalog-czaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | 扩展机械动力包裹处理，增加商店收银设备并改进工厂库存控制。 | <EmiSearch query="@createadditionallogistics" /> |
 | ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | 为机械动力增加传动部件与更灵活的存储布置方式。 | <EmiSearch query="@create_connected" /> |
 | ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | 增加发电、输配电与电动机器，包括电力列车。 | <EmiSearch query="@electroenergetics" /> |
 | ![Create: Enchantment Industry](images/create-enchantment-industry-icon.png) [Create: Enchantment Industry](machines.enchanting.md) | 用机械动力机器自动处理经验与附魔。 | <EmiSearch query="@create_enchantment_industry" /> |
 | ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | 让机械动力烈焰人燃烧室使用泵入的液体燃料。 | 无独立物品查询 |
 | ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | 通过熔融喷口提供可再生的机械动力含矿石材。 | <EmiSearch query="@molten_vents" /> |
 | ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | 将旋转动力存入弹簧，供之后释放使用。 | <EmiSearch query="@createsprings" /> |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 无独立物品查询 |
+| ![Create: Stam1o Tweaks](images/catalog-46rgf8h2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 无独立物品查询 |
 | ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 以社区维护版本为机械动力扩展重工业与石油加工。 | <EmiSearch query="@tfmg" /> |
 | ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 通过机械动力机器自动进行村民交易。 | <EmiSearch query="@trading_floor" /> |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | <EmiSearch query="@create_vibrant_vaults" /> |
-| ![Easy Anvils](images/catalog-OZBR5JT5.png) [Easy Anvils](machines.enchanting.md) | 改进铁砧物品存放与费用，移除不断累积的维修惩罚。 | 无独立物品查询 |
-| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 无独立物品查询 |
-| ![Interactic Renewed](images/catalog-BM12h14f.png) [Interactic Renewed](storage.handling.md) | 改进玩家与世界中掉落物品的交互方式。 | <EmiSearch query="@interactic" /> |
-| ![Mouse Tweaks](images/catalog-aC3cM3Vq.png) [Mouse Tweaks](storage.handling.md) | 增加鼠标拖动与滚轮快捷操作，便于移动物品栏中的物品堆。 | 无独立物品查询 |
-| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | <EmiSearch query="@reinfshulker" /> |
-| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 无独立物品查询 |
-| ![Sophisticated Inventory Interactions](images/catalog-orgY0JIo.png) [Sophisticated Inventory Interactions](storage.handling.md) | 为受支持的物品栏界面增加整理、搜索与转移操作。 | 无独立物品查询 |
-| ![TrashSlot](images/catalog-vRYk0bv7.png) [TrashSlot](storage.handling.md) | 在物品栏增加垃圾格，用于丢弃不需要的物品。 | 无独立物品查询 |
+| ![Create: Vibrant Vaults](images/catalog-hddn8ksr.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | <EmiSearch query="@create_vibrant_vaults" /> |
+| ![Easy Anvils](images/catalog-ozbr5jt5.png) [Easy Anvils](machines.enchanting.md) | 改进铁砧物品存放与费用，移除不断累积的维修惩罚。 | 无独立物品查询 |
+| ![Easy Shulker Boxes](images/catalog-ga5eun8s.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 无独立物品查询 |
+| ![Interactic Renewed](images/catalog-bm12h14f.png) [Interactic Renewed](storage.handling.md) | 改进玩家与世界中掉落物品的交互方式。 | <EmiSearch query="@interactic" /> |
+| ![Mouse Tweaks](images/catalog-ac3cm3vq.png) [Mouse Tweaks](storage.handling.md) | 增加鼠标拖动与滚轮快捷操作，便于移动物品栏中的物品堆。 | 无独立物品查询 |
+| ![Reinforced Shulker Boxes](images/catalog-xlowusdn.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | <EmiSearch query="@reinfshulker" /> |
+| ![Shulker Drops Two](images/catalog-ujxiyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 无独立物品查询 |
+| ![Sophisticated Inventory Interactions](images/catalog-orgy0jio.png) [Sophisticated Inventory Interactions](storage.handling.md) | 为受支持的物品栏界面增加整理、搜索与转移操作。 | 无独立物品查询 |
+| ![TrashSlot](images/catalog-vryk0bv7.png) [TrashSlot](storage.handling.md) | 在物品栏增加垃圾格，用于丢弃不需要的物品。 | 无独立物品查询 |

@@ -148,7 +148,7 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Chipped](images/catalog-BAscRYKm.png) [Chipped](building.palette.md) | 增加装饰方块变体，并通过各类材料专用工作台制作。 | <EmiSearch query="@chipped" /> |
-| ![Chipped Express](images/catalog-dQIcJONI.png) [Chipped Express](building.palette.md) | 让 Chipped 的装饰方块配方可在切石机中使用。 | 无独立物品查询 |
-| ![Every Compat (Stone Zone)](images/catalog-uYwn8IP5.png) [Every Compat (Stone Zone)](building.palette.md) | 用其他模组的石材种类补齐受支持的装饰方块变体。 | <EmiSearch query="@stonezone" /> |
-| ![Every Compat (Wood Good)](images/catalog-eiktJyw1.png) [Every Compat (Wood Good)](building.palette.md) | 用其他模组的木材种类补齐受支持的建筑与家具变体。 | <EmiSearch query="@everycomp" /> |
+| ![Chipped](images/catalog-bascrykm.png) [Chipped](building.palette.md) | 增加装饰方块变体，并通过各类材料专用工作台制作。 | <EmiSearch query="@chipped" /> |
+| ![Chipped Express](images/catalog-dqicjoni.png) [Chipped Express](building.palette.md) | 让 Chipped 的装饰方块配方可在切石机中使用。 | 无独立物品查询 |
+| ![Every Compat (Stone Zone)](images/catalog-uywn8ip5.png) [Every Compat (Stone Zone)](building.palette.md) | 用其他模组的石材种类补齐受支持的装饰方块变体。 | <EmiSearch query="@stonezone" /> |
+| ![Every Compat (Wood Good)](images/catalog-eiktjyw1.png) [Every Compat (Wood Good)](building.palette.md) | 用其他模组的木材种类补齐受支持的建筑与家具变体。 | <EmiSearch query="@everycomp" /> |

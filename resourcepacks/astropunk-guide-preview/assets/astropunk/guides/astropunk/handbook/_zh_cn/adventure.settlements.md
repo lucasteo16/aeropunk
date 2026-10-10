@@ -101,6 +101,6 @@ Village Taverns (RPG Series)。
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 重新设计村庄与掠夺者前哨站，使其适合不同生物群系。 | 无独立物品查询 |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 增加藏有小型法术图书馆的村庄凉亭。 | 无独立物品查询 |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 增加村庄酒馆，让旅人找到饮品与休息处。 | <EmiSearch query="@village_taverns" /> |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhi8kh.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 重新设计村庄与掠夺者前哨站，使其适合不同生物群系。 | 无独立物品查询 |
+| ![Gazebos (RPG Series)](images/catalog-xipmgi6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 增加藏有小型法术图书馆的村庄凉亭。 | 无独立物品查询 |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8njj.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 增加村庄酒馆，让旅人找到饮品与休息处。 | <EmiSearch query="@village_taverns" /> |

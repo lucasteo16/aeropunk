@@ -277,8 +277,8 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | 增加随生物群系变化、外观与行为各异的苦力怕变体。 | <EmiSearch query="@creeperoverhaul" /> |
-| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | 增加具有独特模型、声音与动画的末影人变体。 | <EmiSearch query="@endermanoverhaul" /> |
-| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | 加入生物投票中落选或未实现的生物，并扩展其功能。 | <EmiSearch query="@friendsandfoes" /> |
+| ![Creeper Overhaul](images/catalog-mi1lwe93.png) [Creeper Overhaul](adventure.creatures.md) | 增加随生物群系变化、外观与行为各异的苦力怕变体。 | <EmiSearch query="@creeperoverhaul" /> |
+| ![Enderman Overhaul](images/catalog-lq6ojcwv.png) [Enderman Overhaul](adventure.creatures.md) | 增加具有独特模型、声音与动画的末影人变体。 | <EmiSearch query="@endermanoverhaul" /> |
+| ![Friends&Foes (Forge/NeoForge)](images/catalog-bocjkd49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | 加入生物投票中落选或未实现的生物，并扩展其功能。 | <EmiSearch query="@friendsandfoes" /> |
 | ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | 通过动物、生物群系与环境生态扩展主世界荒野。 | <EmiSearch query="@spawn" /> |
-| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | 为世界遭遇增加常见生物的新变体。 | <EmiSearch query="@variantsandventures" /> |
+| ![Variants&Ventures](images/catalog-lndrixky.png) [Variants&Ventures](adventure.creatures.md) | 为世界遭遇增加常见生物的新变体。 | <EmiSearch query="@variantsandventures" /> |

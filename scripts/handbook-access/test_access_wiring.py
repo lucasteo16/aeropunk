@@ -44,10 +44,10 @@ class AccessWiringTest(unittest.TestCase):
 
     def test_constructor_connects_each_typed_event_to_correct_bus(self):
         constructor = method(self.code, 'dev.astropunk.handbook.HandbookAccess')
-        # Key mappings and query-guide setup use the injected mod bus.
+        # Key mappings use the injected mod bus. Guide registration is synchronous.
         # The four screen and tick listeners use NeoForge.EVENT_BUS.
-        self.assertEqual(constructor.count('IEventBus.addListener:'), 6)
-        self.assertIn('FMLClientSetupEvent', constructor)
+        self.assertEqual(constructor.count('IEventBus.addListener:'), 5)
+        self.assertNotIn('FMLClientSetupEvent', constructor)
         self.assertEqual(constructor.count('NeoForge.EVENT_BUS:'), 4)
         for name, event in [
             ('registerKeys', 'RegisterKeyMappingsEvent'),
@@ -57,6 +57,12 @@ class AccessWiringTest(unittest.TestCase):
             ('onInventoryKey', 'ScreenEvent$KeyPressed$Post'),
         ]:
             self.assertIn('HandbookAccess.' + name + ':(Lnet/neoforged/neoforge/client/event/' + event + ';)V', self.code)
+
+    def test_guide_is_registered_before_initial_reload_can_start(self):
+        constructor = method(self.code, 'dev.astropunk.handbook.HandbookAccess')
+        self.assertIn('HandbookQueryGuide.register:', constructor)
+        self.assertLess(constructor.index('HandbookQueryGuide.register:'), constructor.index('IEventBus.addListener:'))
+        self.assertNotIn('FMLClientSetupEvent', constructor)
 
     def test_inventory_widget_is_added_as_renderable_listener(self):
         self.assertIn('ScreenEvent$Init$Post.addListener:', self.code)
@@ -135,7 +141,7 @@ def negative_control():
     env = dict(os.environ, ACCESS_HELPER_JAR=str(jar))
     result = subprocess.run([sys.executable, __file__, 'AccessWiringTest.test_constructor_connects_each_typed_event_to_correct_bus'], env=env, text=True, capture_output=True)
     print(result.stdout + result.stderr)
-    assert result.returncode != 0 and '5 != 6' in result.stderr, 'Expected disconnected-listener assertion to fail'
+    assert result.returncode != 0 and '4 != 5' in result.stderr, 'Expected disconnected-listener assertion to fail'
     print('Negative control rejected disconnected inventory listener.')
 
 

@@ -275,8 +275,8 @@ Find these creatures around the corresponding ruins and boss structures. Some co
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Creeper Overhaul](images/catalog-MI1LWe93.png) [Creeper Overhaul](adventure.creatures.md) | Adds biome-specific creeper variants with distinct appearances and behavior. | <EmiSearch query="@creeperoverhaul" /> |
-| ![Enderman Overhaul](images/catalog-Lq6ojcWv.png) [Enderman Overhaul](adventure.creatures.md) | Adds enderman variants with distinctive models, sounds and animations. | <EmiSearch query="@endermanoverhaul" /> |
-| ![Friends&Foes (Forge/NeoForge)](images/catalog-BOCJKD49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | Adds expanded versions of creatures omitted from Minecraft mob votes. | <EmiSearch query="@friendsandfoes" /> |
+| ![Creeper Overhaul](images/catalog-mi1lwe93.png) [Creeper Overhaul](adventure.creatures.md) | Adds biome-specific creeper variants with distinct appearances and behavior. | <EmiSearch query="@creeperoverhaul" /> |
+| ![Enderman Overhaul](images/catalog-lq6ojcwv.png) [Enderman Overhaul](adventure.creatures.md) | Adds enderman variants with distinctive models, sounds and animations. | <EmiSearch query="@endermanoverhaul" /> |
+| ![Friends&Foes (Forge/NeoForge)](images/catalog-bocjkd49.png) [Friends&Foes (Forge/NeoForge)](adventure.creatures.md) | Adds expanded versions of creatures omitted from Minecraft mob votes. | <EmiSearch query="@friendsandfoes" /> |
 | ![Spawn](images/catalog-rex9wwpz.png) [Spawn](adventure.creatures.md) | Expands Overworld wilderness with animals, biomes and ambient life. | <EmiSearch query="@spawn" /> |
-| ![Variants&Ventures](images/catalog-lNDRiXkY.png) [Variants&Ventures](adventure.creatures.md) | Adds new variants of familiar creatures to world encounters. | <EmiSearch query="@variantsandventures" /> |
+| ![Variants&Ventures](images/catalog-lndrixky.png) [Variants&Ventures](adventure.creatures.md) | Adds new variants of familiar creatures to world encounters. | <EmiSearch query="@variantsandventures" /> |

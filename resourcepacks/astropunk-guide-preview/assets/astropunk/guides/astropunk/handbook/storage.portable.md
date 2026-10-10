@@ -83,7 +83,7 @@ Craft a Small Backpack with eight leather around a chest. Its first upgrade uses
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | Adds dyeable, upgradeable backpacks for portable storage. | <EmiSearch query="backpack" /> |
-| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | Lets players browse and move shulker box contents directly from the inventory. | No separate item search |
-| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | Adds upgraded shulker boxes with larger storage capacity. | <EmiSearch query="@reinfshulker" /> |
-| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | Changes shulker shell drop counts and chances, including two-shell drops. | No separate item search |
+| ![Backpacks!](images/catalog-mgcd6ktf.png) [Backpacks!](storage.portable.md) | Adds dyeable, upgradeable backpacks for portable storage. | <EmiSearch query="backpack" /> |
+| ![Easy Shulker Boxes](images/catalog-ga5eun8s.png) [Easy Shulker Boxes](storage.portable.md) | Lets players browse and move shulker box contents directly from the inventory. | No separate item search |
+| ![Reinforced Shulker Boxes](images/catalog-xlowusdn.png) [Reinforced Shulker Boxes](storage.portable.md) | Adds upgraded shulker boxes with larger storage capacity. | <EmiSearch query="@reinfshulker" /> |
+| ![Shulker Drops Two](images/catalog-ujxiyw47.png) [Shulker Drops Two](storage.portable.md) | Changes shulker shell drop counts and chances, including two-shell drops. | No separate item search |

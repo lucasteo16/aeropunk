@@ -584,8 +584,8 @@ Compare the attribute used by your ability, its trigger condition and the slot i
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Additional Jewelry (RPG Series Plus)](images/catalog-rULzJh3O.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Adds jewelry for the additional More RPG Classes professions. | <EmiSearch query="@additional_rpg_jewelry" /> |
-| ![Curios API](images/catalog-vvuO3ImH.png) [Curios API](equipment.accessories.md) | Provides expandable equipment slots for wearable accessories. | No separate item search |
-| ![Jewelry (RPG Series)](images/catalog-sNJAIjUm.png) [Jewelry (RPG Series)](equipment.accessories.md) | Adds mineable gems and craftable jewelry that improves combat attributes. | <EmiSearch query="@jewelry" /> |
-| ![More Relics (RPG Series Plus)](images/catalog-IZ3b4kEa.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Adds Relics accessories for the additional More RPG Classes professions. | <EmiSearch query="@more_relics" /> |
-| ![Relics (RPG Series)](images/catalog-BDQucwF0.png) [Relics (RPG Series)](equipment.accessories.md) | Adds combat-enhancing trinkets for RPG Series character builds. | <EmiSearch query="@relics_rpgs" /> |
+| ![Additional Jewelry (RPG Series Plus)](images/catalog-rulzjh3o.png) [Additional Jewelry (RPG Series Plus)](equipment.accessories.md) | Adds jewelry for the additional More RPG Classes professions. | <EmiSearch query="@additional_rpg_jewelry" /> |
+| ![Curios API](images/catalog-vvuo3imh.png) [Curios API](equipment.accessories.md) | Provides expandable equipment slots for wearable accessories. | No separate item search |
+| ![Jewelry (RPG Series)](images/catalog-snjaijum.png) [Jewelry (RPG Series)](equipment.accessories.md) | Adds mineable gems and craftable jewelry that improves combat attributes. | <EmiSearch query="@jewelry" /> |
+| ![More Relics (RPG Series Plus)](images/catalog-iz3b4kea.png) [More Relics (RPG Series Plus)](equipment.accessories.md) | Adds Relics accessories for the additional More RPG Classes professions. | <EmiSearch query="@more_relics" /> |
+| ![Relics (RPG Series)](images/catalog-bdqucwf0.png) [Relics (RPG Series)](equipment.accessories.md) | Adds combat-enhancing trinkets for RPG Series character builds. | <EmiSearch query="@relics_rpgs" /> |

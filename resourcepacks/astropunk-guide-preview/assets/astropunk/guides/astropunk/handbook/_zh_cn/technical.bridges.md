@@ -51,7 +51,7 @@ AttributeFix 修复属性限制，Neo Bee Fix 修复蜜蜂行为。这些属于�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | 移除可能限制模组数值的内置属性上限。 | 无独立物品查询 |
-| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | 修复原版蜜蜂行为。 | 无独立物品查询 |
-| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | 为 Sable 扩展机械动力机器交互及可调整的质量与流体物理机制。 | 无独立物品查询 |
-| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | 为受支持的模组方块补充物理属性标签。 | 无独立物品查询 |
+| ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | 移除可能限制模组数值的内置属性上限。 | 无独立物品查询 |
+| ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | 修复原版蜜蜂行为。 | 无独立物品查询 |
+| ![Sable Beyond](images/catalog-prw3b4fh.png) [Sable Beyond](technical.bridges.md) | 为 Sable 扩展机械动力机器交互及可调整的质量与流体物理机制。 | 无独立物品查询 |
+| ![Sable: Physics Compat](images/catalog-szbcirjb.png) [Sable: Physics Compat](technical.bridges.md) | 为受支持的模组方块补充物理属性标签。 | 无独立物品查询 |

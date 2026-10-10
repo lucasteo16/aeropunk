@@ -110,4 +110,4 @@ Simulated supplies mechanical connections and tools for moving builds. Create Pr
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | Turns block-built vehicles into controllable physical moving structures. | No separate item search |
+| ![Create Aeronautics](images/catalog-owak0q19.png) [Create Aeronautics](vehicles.assembly.md) | Turns block-built vehicles into controllable physical moving structures. | No separate item search |

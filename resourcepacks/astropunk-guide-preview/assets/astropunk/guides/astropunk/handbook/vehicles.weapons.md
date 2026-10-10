@@ -75,4 +75,4 @@ Shells, solid shot, grapeshot, cartridges, autocannon rounds and fuzes are separ
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Big Cannons](images/catalog-GWp4jCJj.png) [Create Big Cannons](vehicles.weapons.md) | Adds buildable large cannons and their ammunition to Create. | <EmiSearch query="@createbigcannons" /> |
+| ![Create Big Cannons](images/catalog-gwp4jcjj.png) [Create Big Cannons](vehicles.weapons.md) | Adds buildable large cannons and their ammunition to Create. | <EmiSearch query="@createbigcannons" /> |

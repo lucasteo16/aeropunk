@@ -93,4 +93,4 @@ Connect one input container and one output container to a belt or chute before a
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create: Additional Logistics](images/catalog-CZaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Expands Create package handling with shop registers and improved factory stock controls. | <EmiSearch query="@createadditionallogistics" /> |
+| ![Create: Additional Logistics](images/catalog-czaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Expands Create package handling with shop registers and improved factory stock controls. | <EmiSearch query="@createadditionallogistics" /> |

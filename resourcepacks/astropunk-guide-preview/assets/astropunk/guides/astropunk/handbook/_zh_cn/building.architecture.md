@@ -169,11 +169,11 @@ Reconnectible Chains 使用原版锁链构成连接的悬挂跨度。建筑组�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | 让栅栏斜向连接，便于搭建更灵活的围栏。 | 无独立物品查询 |
-| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | 增加桥梁建筑部件，用于跨越空隙与水面。 | <EmiSearch query="@mcwbridges" /> |
-| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | 增加门的样式，并扩展可用木材变体。 | <EmiSearch query="@mcwdoors" /> |
-| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | 增加用于建筑围界的装饰栅栏、墙与门。 | <EmiSearch query="@mcwfences" /> |
-| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | 增加专用屋顶方块，无需只用楼梯搭屋顶。 | <EmiSearch query="@mcwroofs" /> |
-| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | 增加建筑楼梯及配套扶手与阳台部件。 | <EmiSearch query="@mcwstairs" /> |
-| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | 增加窗户样式与配套百叶窗、遮帘及窗帘。 | <EmiSearch query="@mcwwindows" /> |
-| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | 用装饰性悬挂铁链连接栅栏与墙。 | 无独立物品查询 |
+| ![Diagonal Fences](images/catalog-ikargfld.png) [Diagonal Fences](building.architecture.md) | 让栅栏斜向连接，便于搭建更灵活的围栏。 | 无独立物品查询 |
+| ![Macaw's Bridges](images/catalog-gurcjz8o.png) [Macaw's Bridges](building.architecture.md) | 增加桥梁建筑部件，用于跨越空隙与水面。 | <EmiSearch query="@mcwbridges" /> |
+| ![Macaw's Doors](images/catalog-knxa8z3e.png) [Macaw's Doors](building.architecture.md) | 增加门的样式，并扩展可用木材变体。 | <EmiSearch query="@mcwdoors" /> |
+| ![Macaw's Fences and Walls](images/catalog-gmwlse2i.png) [Macaw's Fences and Walls](building.architecture.md) | 增加用于建筑围界的装饰栅栏、墙与门。 | <EmiSearch query="@mcwfences" /> |
+| ![Macaw's Roofs](images/catalog-b8jah3p1.png) [Macaw's Roofs](building.architecture.md) | 增加专用屋顶方块，无需只用楼梯搭屋顶。 | <EmiSearch query="@mcwroofs" /> |
+| ![Macaw's Stairs](images/catalog-ip3wh1ha.png) [Macaw's Stairs](building.architecture.md) | 增加建筑楼梯及配套扶手与阳台部件。 | <EmiSearch query="@mcwstairs" /> |
+| ![Macaw's Windows](images/catalog-c7i0bcni.png) [Macaw's Windows](building.architecture.md) | 增加窗户样式与配套百叶窗、遮帘及窗帘。 | <EmiSearch query="@mcwwindows" /> |
+| ![Reconnectible Chains](images/catalog-5pzbxds3.png) [Reconnectible Chains](building.architecture.md) | 用装饰性悬挂铁链连接栅栏与墙。 | 无独立物品查询 |

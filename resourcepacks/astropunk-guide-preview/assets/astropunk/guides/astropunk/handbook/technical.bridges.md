@@ -51,7 +51,7 @@ Sound and animation bridges are listed with the feature they change. Shared fram
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![AttributeFix](images/catalog-lOOpEntO.png) [AttributeFix](technical.bridges.md) | Removes built-in attribute limits that can restrict modded values. | No separate item search |
-| ![Neo Bee Fix](images/catalog-DzSY371i.png) [Neo Bee Fix](technical.bridges.md) | Repairs vanilla bee behavior. | No separate item search |
-| ![Sable Beyond](images/catalog-PrW3B4fH.png) [Sable Beyond](technical.bridges.md) | Extends Sable with Create machine interactions and configurable mass and fluid physics. | No separate item search |
-| ![Sable: Physics Compat](images/catalog-sZbcIrJb.png) [Sable: Physics Compat](technical.bridges.md) | Adds physics property tags to supported modded blocks. | No separate item search |
+| ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | Removes built-in attribute limits that can restrict modded values. | No separate item search |
+| ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | Repairs vanilla bee behavior. | No separate item search |
+| ![Sable Beyond](images/catalog-prw3b4fh.png) [Sable Beyond](technical.bridges.md) | Extends Sable with Create machine interactions and configurable mass and fluid physics. | No separate item search |
+| ![Sable: Physics Compat](images/catalog-szbcirjb.png) [Sable: Physics Compat](technical.bridges.md) | Adds physics property tags to supported modded blocks. | No separate item search |

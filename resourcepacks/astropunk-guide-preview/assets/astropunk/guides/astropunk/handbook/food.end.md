@@ -183,4 +183,4 @@ End ingredients also combine with ordinary pantry items for prepared meals. Use 
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | <EmiSearch query="@ends_delight" /> |
+| ![End's Delight](images/catalog-yhn0njmr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | <EmiSearch query="@ends_delight" /> |

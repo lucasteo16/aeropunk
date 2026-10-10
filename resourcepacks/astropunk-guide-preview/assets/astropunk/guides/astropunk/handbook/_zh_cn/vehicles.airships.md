@@ -77,5 +77,5 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 允许用 Aeronautics 热气囊包覆机械动力流体管道。 | <EmiSearch query="@aeroencasedpipe" /> |
-| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | 增加可叠层压载方块，用于调整载具质量与平衡。 | <EmiSearch query="@ballastmod" /> |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 允许用 Aeronautics 热气囊包覆机械动力流体管道。 | <EmiSearch query="@aeroencasedpipe" /> |
+| ![Create: Ballast](images/catalog-5ypxyrfg.png) [Create: Ballast](vehicles.airships.md) | 增加可叠层压载方块，用于调整载具质量与平衡。 | <EmiSearch query="@ballastmod" /> |

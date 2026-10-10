@@ -201,12 +201,12 @@ Create Oxidized 提供注水配方，制作斑驳、锈蚀与氧化铜材，包�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | 为工厂与基础设施增加机械动力风格的工业装饰。 | <EmiSearch query="@createdeco" /> |
-| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | 扩展机械动力轴、齿轮与管道可用的机壳种类。 | <EmiSearch query="@createcasing" /> |
-| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | 为机械动力列车与铁路建筑增加装饰细节。 | <EmiSearch query="@bellsandwhistles" /> |
-| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | 为机械动力增加齿轮链传动与可自定义的工业装饰。 | <EmiSearch query="@bits_n_bobs" /> |
+| ![Create Deco](images/catalog-smvub4rb.png) [Create Deco](building.factory.md) | 为工厂与基础设施增加机械动力风格的工业装饰。 | <EmiSearch query="@createdeco" /> |
+| ![Create Encased](images/catalog-hssqdyu1.png) [Create Encased](building.factory.md) | 扩展机械动力轴、齿轮与管道可用的机壳种类。 | <EmiSearch query="@createcasing" /> |
+| ![Create: Bells & Whistles](images/catalog-gj5afkvv.png) [Create: Bells & Whistles](building.factory.md) | 为机械动力列车与铁路建筑增加装饰细节。 | <EmiSearch query="@bellsandwhistles" /> |
+| ![Create: Bits 'n' Bobs](images/catalog-t8bvmqvz.png) [Create: Bits 'n' Bobs](building.factory.md) | 为机械动力增加齿轮链传动与可自定义的工业装饰。 | <EmiSearch query="@bits_n_bobs" /> |
 | ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | 增加与机械动力机器风格相配的工厂装饰方块。 | <EmiSearch query="@dndecor" /> |
-| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | 增加用于机械动力风格建筑的框架玻璃变体。 | <EmiSearch query="@createframed" /> |
-| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | 为机械动力建筑增加结构梁变体。 | <EmiSearch query="@createmoregirder" /> |
-| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | 增加通过机械动力加工氧化铜方块的配方。 | 无独立物品查询 |
-| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | 为机械动力机器增加玻璃机壳与发光机壳。 | <EmiSearch query="@createprism" /> |
+| ![Create: Framed](images/catalog-15ffz3f4.png) [Create: Framed](building.factory.md) | 增加用于机械动力风格建筑的框架玻璃变体。 | <EmiSearch query="@createframed" /> |
+| ![Create: More Girder](images/catalog-spg2lvad.png) [Create: More Girder](building.factory.md) | 为机械动力建筑增加结构梁变体。 | <EmiSearch query="@createmoregirder" /> |
+| ![Create: Oxidized](images/catalog-x9kjrzex.png) [Create: Oxidized](building.factory.md) | 增加通过机械动力加工氧化铜方块的配方。 | 无独立物品查询 |
+| ![Create: Prismatic Shine](images/catalog-udett0b2.png) [Create: Prismatic Shine](building.factory.md) | 为机械动力机器增加玻璃机壳与发光机壳。 | <EmiSearch query="@createprism" /> |

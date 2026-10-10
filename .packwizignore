@@ -39,6 +39,7 @@ tools/
 *.key
 options.txt
 !configureddefaults/options.txt
+!configureddefaults/config/fancymenu/options.txt
 servers.dat
 servers.dat_old
 .DS_Store

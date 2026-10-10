@@ -7,7 +7,7 @@ navigation:
 
 # Astropunk
 
-![Merun173 建造的蒸汽朋克飞艇](images/home-merun173-airship.png)
+![Merun173 建造的蒸汽朋克飞艇](images/home-astropunk-title.png)
 
 建造飞艇，选择战斗职业，挑战一个随时间推移变得更加危险的世界。Astropunk 是自由发展的生存沙盒，你可以经营工坊与家园，也可以带上装备出门探险。
 
@@ -15,4 +15,4 @@ navigation:
 
 这里没有规定下一步目标的任务链。侧栏提供各个主题的快捷入口，选择你感兴趣的玩法，按自己的想法发展。
 
-- [图片鸣谢](help.credits.md)
+- [鸣谢](help.credits.md)

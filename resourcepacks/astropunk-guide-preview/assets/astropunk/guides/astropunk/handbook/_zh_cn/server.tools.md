@@ -50,7 +50,7 @@ Configured Defaults 在文件缺失时提供初始文件。已有玩家设置与
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Chunky](images/catalog-fALzjamp.png) [Chunky](server.tools.md) | 在探索前预先生成地形。 | 无独立物品查询 |
-| ![Configured Defaults](images/catalog-SISoSFPP.png) [Configured Defaults](server.tools.md) | 为缺失文件提供整合包默认设置。 | 无独立物品查询 |
-| ![Observable](images/catalog-VYRu7qmG.png) [Observable](server.tools.md) | 用于定位服务器耗时处理。 | 无独立物品查询 |
-| ![spark](images/catalog-l6YH9Als.png) [spark](server.tools.md) | 分析客户端与服务器性能。 | 无独立物品查询 |
+| ![Chunky](images/catalog-falzjamp.png) [Chunky](server.tools.md) | 在探索前预先生成地形。 | 无独立物品查询 |
+| ![Configured Defaults](images/catalog-sisosfpp.png) [Configured Defaults](server.tools.md) | 为缺失文件提供整合包默认设置。 | 无独立物品查询 |
+| ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | 用于定位服务器耗时处理。 | 无独立物品查询 |
+| ![spark](images/catalog-l6yh9als.png) [spark](server.tools.md) | 分析客户端与服务器性能。 | 无独立物品查询 |

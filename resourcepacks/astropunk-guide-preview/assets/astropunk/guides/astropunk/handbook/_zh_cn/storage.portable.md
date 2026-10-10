@@ -83,7 +83,7 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Backpacks!](images/catalog-MGcd6kTf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | <EmiSearch query="背包" /> |
-| ![Easy Shulker Boxes](images/catalog-gA5euN8S.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 无独立物品查询 |
-| ![Reinforced Shulker Boxes](images/catalog-xlOwuSdN.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | <EmiSearch query="@reinfshulker" /> |
-| ![Shulker Drops Two](images/catalog-UjXIyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 无独立物品查询 |
+| ![Backpacks!](images/catalog-mgcd6ktf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | <EmiSearch query="背包" /> |
+| ![Easy Shulker Boxes](images/catalog-ga5eun8s.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 无独立物品查询 |
+| ![Reinforced Shulker Boxes](images/catalog-xlowusdn.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | <EmiSearch query="@reinfshulker" /> |
+| ![Shulker Drops Two](images/catalog-ujxiyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 无独立物品查询 |

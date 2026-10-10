@@ -169,11 +169,11 @@ Reconnectible Chains uses vanilla chains for connected hanging spans. Choose you
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Diagonal Fences](images/catalog-IKARgflD.png) [Diagonal Fences](building.architecture.md) | Lets fences connect diagonally for more flexible boundaries. | No separate item search |
-| ![Macaw's Bridges](images/catalog-GURcjz8O.png) [Macaw's Bridges](building.architecture.md) | Adds bridge building pieces for paths across gaps and water. | <EmiSearch query="@mcwbridges" /> |
-| ![Macaw's Doors](images/catalog-kNxa8z3e.png) [Macaw's Doors](building.architecture.md) | Adds door designs and expands available wood variants. | <EmiSearch query="@mcwdoors" /> |
-| ![Macaw's Fences and Walls](images/catalog-GmwLse2I.png) [Macaw's Fences and Walls](building.architecture.md) | Adds decorative fences, walls and gates for building boundaries. | <EmiSearch query="@mcwfences" /> |
-| ![Macaw's Roofs](images/catalog-B8jaH3P1.png) [Macaw's Roofs](building.architecture.md) | Adds dedicated roof blocks instead of relying on stair-shaped roofs. | <EmiSearch query="@mcwroofs" /> |
-| ![Macaw's Stairs](images/catalog-iP3wH1ha.png) [Macaw's Stairs](building.architecture.md) | Adds building stairs and matching handrails and balcony pieces. | <EmiSearch query="@mcwstairs" /> |
-| ![Macaw's Windows](images/catalog-C7I0BCni.png) [Macaw's Windows](building.architecture.md) | Adds window designs and matching shutters, blinds and curtains. | <EmiSearch query="@mcwwindows" /> |
-| ![Reconnectible Chains](images/catalog-5pzBXDS3.png) [Reconnectible Chains](building.architecture.md) | Connects fences and walls with decorative hanging chains. | No separate item search |
+| ![Diagonal Fences](images/catalog-ikargfld.png) [Diagonal Fences](building.architecture.md) | Lets fences connect diagonally for more flexible boundaries. | No separate item search |
+| ![Macaw's Bridges](images/catalog-gurcjz8o.png) [Macaw's Bridges](building.architecture.md) | Adds bridge building pieces for paths across gaps and water. | <EmiSearch query="@mcwbridges" /> |
+| ![Macaw's Doors](images/catalog-knxa8z3e.png) [Macaw's Doors](building.architecture.md) | Adds door designs and expands available wood variants. | <EmiSearch query="@mcwdoors" /> |
+| ![Macaw's Fences and Walls](images/catalog-gmwlse2i.png) [Macaw's Fences and Walls](building.architecture.md) | Adds decorative fences, walls and gates for building boundaries. | <EmiSearch query="@mcwfences" /> |
+| ![Macaw's Roofs](images/catalog-b8jah3p1.png) [Macaw's Roofs](building.architecture.md) | Adds dedicated roof blocks instead of relying on stair-shaped roofs. | <EmiSearch query="@mcwroofs" /> |
+| ![Macaw's Stairs](images/catalog-ip3wh1ha.png) [Macaw's Stairs](building.architecture.md) | Adds building stairs and matching handrails and balcony pieces. | <EmiSearch query="@mcwstairs" /> |
+| ![Macaw's Windows](images/catalog-c7i0bcni.png) [Macaw's Windows](building.architecture.md) | Adds window designs and matching shutters, blinds and curtains. | <EmiSearch query="@mcwwindows" /> |
+| ![Reconnectible Chains](images/catalog-5pzbxds3.png) [Reconnectible Chains](building.architecture.md) | Connects fences and walls with decorative hanging chains. | No separate item search |

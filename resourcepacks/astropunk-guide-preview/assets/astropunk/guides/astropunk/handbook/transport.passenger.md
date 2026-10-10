@@ -77,4 +77,4 @@ Passenger displays use different block shapes for the available space. Configure
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | Adds train route search, passenger information displays and schedule features. | <EmiSearch query="@createrailwaysnavigator" /> |
+| ![Create Railways Navigator](images/catalog-dq3stxps.png) [Create Railways Navigator](transport.passenger.md) | Adds train route search, passenger information displays and schedule features. | <EmiSearch query="@createrailwaysnavigator" /> |

@@ -66,4 +66,4 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create: Vibrant Vaults](images/catalog-hddN8ksR.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | <EmiSearch query="@create_vibrant_vaults" /> |
+| ![Create: Vibrant Vaults](images/catalog-hddn8ksr.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | <EmiSearch query="@create_vibrant_vaults" /> |

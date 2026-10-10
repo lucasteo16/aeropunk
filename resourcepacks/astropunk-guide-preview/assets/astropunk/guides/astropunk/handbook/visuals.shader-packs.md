@@ -31,6 +31,6 @@ Choose one shader style through Iris rather than treating three shader packs as 
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Complementary Shaders - Reimagined](images/catalog-HVnmMxH1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | A shader style that preserves Minecraft's visual character. | No separate item search |
-| ![Complementary Shaders - Unbound](images/catalog-R6NEzAwj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | A shader style with a more transformed appearance. | No separate item search |
-| ![Photon Shaders](images/catalog-lLqFfGNs.png) [Photon Shaders](visuals.shader-packs.md) | A gameplay-focused, semi-realistic shader style. | No separate item search |
+| ![Complementary Shaders - Reimagined](images/catalog-hvnmmxh1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | A shader style that preserves Minecraft's visual character. | No separate item search |
+| ![Complementary Shaders - Unbound](images/catalog-r6nezawj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | A shader style with a more transformed appearance. | No separate item search |
+| ![Photon Shaders](images/catalog-llqffgns.png) [Photon Shaders](visuals.shader-packs.md) | A gameplay-focused, semi-realistic shader style. | No separate item search |

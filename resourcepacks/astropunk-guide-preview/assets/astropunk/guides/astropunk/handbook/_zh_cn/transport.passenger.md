@@ -77,4 +77,4 @@ Create Railways Navigator 查询车站之间已有的列车连接，显示中途
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create Railways Navigator](images/catalog-Dq3STxps.png) [Create Railways Navigator](transport.passenger.md) | 增加列车路线搜索、乘客信息显示与时刻表功能。 | <EmiSearch query="@createrailwaysnavigator" /> |
+| ![Create Railways Navigator](images/catalog-dq3stxps.png) [Create Railways Navigator](transport.passenger.md) | 增加列车路线搜索、乘客信息显示与时刻表功能。 | <EmiSearch query="@createrailwaysnavigator" /> |

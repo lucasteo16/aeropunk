@@ -71,8 +71,8 @@ Armor Poser edits armor stand limbs, position, rotation and presets. Sneak and r
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Armor Poser](images/catalog-PFwYNrHb.png) [Armor Poser](building.displays.md) | Provides an interface for adjusting armor stand poses and properties. | No separate item search |
-| ![Big Sign Writer](images/catalog-UCpxwAAu.png) [Big Sign Writer](building.displays.md) | Writes large characters and symbols across multiple lines of signs. | No separate item search |
-| ![Immersive Paintings](images/catalog-6txNkua3.png) [Immersive Paintings](building.displays.md) | Imports images as placeable paintings, including on multiplayer servers. | <EmiSearch query="@immersive_paintings" /> |
-| ![Items Displayed [NeoForge]](images/catalog-PuR4vDBo.png) [Items Displayed [NeoForge]](building.displays.md) | Lets players place inventory items in the world for display. | <EmiSearch query="@items_displayed" /> |
-| ![Straw Statues](images/catalog-2fltysAl.png) [Straw Statues](building.displays.md) | Adds poseable player-look statues for decorating builds. | <EmiSearch query="@strawstatues" /> |
+| ![Armor Poser](images/catalog-pfwynrhb.png) [Armor Poser](building.displays.md) | Provides an interface for adjusting armor stand poses and properties. | No separate item search |
+| ![Big Sign Writer](images/catalog-ucpxwaau.png) [Big Sign Writer](building.displays.md) | Writes large characters and symbols across multiple lines of signs. | No separate item search |
+| ![Immersive Paintings](images/catalog-6txnkua3.png) [Immersive Paintings](building.displays.md) | Imports images as placeable paintings, including on multiplayer servers. | <EmiSearch query="@immersive_paintings" /> |
+| ![Items Displayed [NeoForge]](images/catalog-pur4vdbo.png) [Items Displayed [NeoForge]](building.displays.md) | Lets players place inventory items in the world for display. | <EmiSearch query="@items_displayed" /> |
+| ![Straw Statues](images/catalog-2fltysal.png) [Straw Statues](building.displays.md) | Adds poseable player-look statues for decorating builds. | <EmiSearch query="@strawstatues" /> |

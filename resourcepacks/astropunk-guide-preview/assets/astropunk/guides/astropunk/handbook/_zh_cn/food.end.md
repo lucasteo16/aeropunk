@@ -183,4 +183,4 @@ End's Delight 用紫颂作物制作饮品和甜点。进入末地外岛后可采
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | <EmiSearch query="@ends_delight" /> |
+| ![End's Delight](images/catalog-yhn0njmr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | <EmiSearch query="@ends_delight" /> |

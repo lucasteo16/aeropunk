@@ -148,7 +148,7 @@ Craft the matching Chipped workstation, insert its base material and choose a te
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Chipped](images/catalog-BAscRYKm.png) [Chipped](building.palette.md) | Adds decorative block variants crafted at material-specific workbenches. | <EmiSearch query="@chipped" /> |
-| ![Chipped Express](images/catalog-dQIcJONI.png) [Chipped Express](building.palette.md) | Makes Chipped decorative block recipes available through the stonecutter. | No separate item search |
-| ![Every Compat (Stone Zone)](images/catalog-uYwn8IP5.png) [Every Compat (Stone Zone)](building.palette.md) | Creates supported decorative block variants from other mods' stone types. | <EmiSearch query="@stonezone" /> |
-| ![Every Compat (Wood Good)](images/catalog-eiktJyw1.png) [Every Compat (Wood Good)](building.palette.md) | Creates supported building and furniture variants using other mods' wood types. | <EmiSearch query="@everycomp" /> |
+| ![Chipped](images/catalog-bascrykm.png) [Chipped](building.palette.md) | Adds decorative block variants crafted at material-specific workbenches. | <EmiSearch query="@chipped" /> |
+| ![Chipped Express](images/catalog-dqicjoni.png) [Chipped Express](building.palette.md) | Makes Chipped decorative block recipes available through the stonecutter. | No separate item search |
+| ![Every Compat (Stone Zone)](images/catalog-uywn8ip5.png) [Every Compat (Stone Zone)](building.palette.md) | Creates supported decorative block variants from other mods' stone types. | <EmiSearch query="@stonezone" /> |
+| ![Every Compat (Wood Good)](images/catalog-eiktjyw1.png) [Every Compat (Wood Good)](building.palette.md) | Creates supported building and furniture variants using other mods' wood types. | <EmiSearch query="@everycomp" /> |

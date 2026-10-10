@@ -173,8 +173,8 @@ Create: AeroWarptics（独立飞艇补丁）用于在同一维度内移动已组
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | 修改 Waystones 配方，改用机械动力材料与制作方式。 | 无独立物品查询 |
-| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | 修正玩家往返下界传送门时的返回目的地。 | 无独立物品查询 |
-| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | 用便携及固定设备开启通往已保存地点的传送门。 | <EmiSearch query="@tempad" /> |
-| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | 增加需激活的目的地石碑与便携传送物品，支持地点间旅行。 | <EmiSearch query="@waystones" /> |
-| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.destinations.md) | 修复 Sable 移动结构上的 Waystones 传送与目的地处理。 | 无独立物品查询 |
+| ![Create Waystones Recipes](images/catalog-wqpkgqnj.png) [Create Waystones Recipes](travel.destinations.md) | 修改 Waystones 配方，改用机械动力材料与制作方式。 | 无独立物品查询 |
+| ![NetherPortalFix](images/catalog-npzr02et.png) [NetherPortalFix](travel.destinations.md) | 修正玩家往返下界传送门时的返回目的地。 | 无独立物品查询 |
+| ![Tempad](images/catalog-gknwt7xu.png) [Tempad](travel.destinations.md) | 用便携及固定设备开启通往已保存地点的传送门。 | <EmiSearch query="@tempad" /> |
+| ![Waystones](images/catalog-lopkhb2a.png) [Waystones](travel.destinations.md) | 增加需激活的目的地石碑与便携传送物品，支持地点间旅行。 | <EmiSearch query="@waystones" /> |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-bxhpgfck.png) [Waystones: Sable (Create Aeronautics Addon)](travel.destinations.md) | 修复 Sable 移动结构上的 Waystones 传送与目的地处理。 | 无独立物品查询 |

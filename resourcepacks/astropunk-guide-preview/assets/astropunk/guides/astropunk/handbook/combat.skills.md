@@ -108,6 +108,6 @@ Read the Orb of Oblivion tooltip before resetting. Improved-spell nodes modify n
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3OYmNUDq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Adds class skill-tree support for the additional More RPG Classes professions. | No separate item search |
-| ![Pufferfish's Skills](images/catalog-hqQqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Provides a configurable skill system and skill-tree interface. | No separate item search |
-| ![Skill Tree (RPG Series)](images/catalog-PjDhruSC.png) [Skill Tree (RPG Series)](combat.skills.md) | Adds class-oriented skill trees for RPG Series characters. | <EmiSearch query="@skill_tree_rpgs" /> |
+| ![More RPG Classes - Skill Tree (RPG Series Plus)](images/catalog-3oymnudq.png) [More RPG Classes - Skill Tree (RPG Series Plus)](combat.skills.md) | Adds class skill-tree support for the additional More RPG Classes professions. | No separate item search |
+| ![Pufferfish's Skills](images/catalog-hqqqvaa4.png) [Pufferfish's Skills](combat.skills.md) | Provides a configurable skill system and skill-tree interface. | No separate item search |
+| ![Skill Tree (RPG Series)](images/catalog-pjdhrusc.png) [Skill Tree (RPG Series)](combat.skills.md) | Adds class-oriented skill trees for RPG Series characters. | <EmiSearch query="@skill_tree_rpgs" /> |

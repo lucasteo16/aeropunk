@@ -53,11 +53,11 @@ Sound Physics Remastered 改变声音在环境中的传播方式。Extreme sound
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Cool Rain Reforged](images/catalog-IgftU6Mn.png) [Cool Rain Reforged](reference.audio.md) | 为特定方块表面增加雨声。 | 无独立物品查询 |
-| ![Extreme sound muffler](images/catalog-5IIKsxiL.png) [Extreme sound muffler](reference.audio.md) | 允许客户端选择性降低不想听到的声音。 | 无独立物品查询 |
-| ![More Sounds](images/catalog-8jvcOd6S.png) [More Sounds](reference.audio.md) | 为 Sounds 增加声音内容与模组兼容。 | 无独立物品查询 |
-| ![Presence Footsteps (NeoForge)](images/catalog-JIEwmDVI.png) [Presence Footsteps (NeoForge)](reference.audio.md) | 增加随踩踏表面变化的脚步声。 | 无独立物品查询 |
-| ![Presence Footsteps x Sable (Aeronautics Compat)](images/catalog-ZAhKrMSS.png) [Presence Footsteps x Sable (Aeronautics Compat)](reference.audio.md) | 让 Presence Footsteps 适配 Sable 移动结构。 | 无独立物品查询 |
-| ![Sable: Cool Rain](images/catalog-nUwwB5kx.png) [Sable: Cool Rain](reference.audio.md) | 将雨声扩展到 Sable 移动结构与受支持的伪装材质。 | 无独立物品查询 |
-| ![Sound Physics Remastered](images/catalog-qyVF9oeo.png) [Sound Physics Remastered](reference.audio.md) | 增加声音衰减、混响与方块吸音。 | 无独立物品查询 |
-| ![Sounds](images/catalog-ZouiUX7t.png) [Sounds](reference.audio.md) | 为界面、物品、方块及其他交互增加音效。 | 无独立物品查询 |
+| ![Cool Rain Reforged](images/catalog-igftu6mn.png) [Cool Rain Reforged](reference.audio.md) | 为特定方块表面增加雨声。 | 无独立物品查询 |
+| ![Extreme sound muffler](images/catalog-5iiksxil.png) [Extreme sound muffler](reference.audio.md) | 允许客户端选择性降低不想听到的声音。 | 无独立物品查询 |
+| ![More Sounds](images/catalog-8jvcod6s.png) [More Sounds](reference.audio.md) | 为 Sounds 增加声音内容与模组兼容。 | 无独立物品查询 |
+| ![Presence Footsteps (NeoForge)](images/catalog-jiewmdvi.png) [Presence Footsteps (NeoForge)](reference.audio.md) | 增加随踩踏表面变化的脚步声。 | 无独立物品查询 |
+| ![Presence Footsteps x Sable (Aeronautics Compat)](images/catalog-zahkrmss.png) [Presence Footsteps x Sable (Aeronautics Compat)](reference.audio.md) | 让 Presence Footsteps 适配 Sable 移动结构。 | 无独立物品查询 |
+| ![Sable: Cool Rain](images/catalog-nuwwb5kx.png) [Sable: Cool Rain](reference.audio.md) | 将雨声扩展到 Sable 移动结构与受支持的伪装材质。 | 无独立物品查询 |
+| ![Sound Physics Remastered](images/catalog-qyvf9oeo.png) [Sound Physics Remastered](reference.audio.md) | 增加声音衰减、混响与方块吸音。 | 无独立物品查询 |
+| ![Sounds](images/catalog-zouiux7t.png) [Sounds](reference.audio.md) | 为界面、物品、方块及其他交互增加音效。 | 无独立物品查询 |

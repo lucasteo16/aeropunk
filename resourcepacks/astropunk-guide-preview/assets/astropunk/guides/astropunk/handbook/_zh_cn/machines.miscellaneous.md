@@ -79,5 +79,5 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 无独立物品查询 |
+| ![Create Stuff 'N Additions](images/catalog-aq9quuqg.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46rgf8h2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 无独立物品查询 |

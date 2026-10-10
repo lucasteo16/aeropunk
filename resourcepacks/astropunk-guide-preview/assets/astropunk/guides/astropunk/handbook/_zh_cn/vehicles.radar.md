@@ -103,4 +103,4 @@ Create Radars 将探测组件、接收器与显示器分开。先选择雷达系
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | 为机械动力建筑增加探测与追踪目标的雷达设备。 | <EmiSearch query="@create_radar" /> |
+| ![Create: Radars](images/catalog-blu2yqfq.png) [Create: Radars](vehicles.radar.md) | 为机械动力建筑增加探测与追踪目标的雷达设备。 | <EmiSearch query="@create_radar" /> |

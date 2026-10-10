@@ -31,6 +31,6 @@ Zoom, detached viewing and borderless fullscreen solve different viewing needs. 
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Cubes Without Borders](images/catalog-ETlrkaYF.png) [Cubes Without Borders](visuals.camera.md) | Provides borderless fullscreen windows. | No separate item search |
-| ![Freecam](images/catalog-XeEZ3fK2.png) [Freecam](visuals.camera.md) | Provides a detached viewing camera. | No separate item search |
-| ![Ok Zoomer - It's Zoom!](images/catalog-aXf2OSFU.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | Provides adjustable camera zoom. | No separate item search |
+| ![Cubes Without Borders](images/catalog-etlrkayf.png) [Cubes Without Borders](visuals.camera.md) | Provides borderless fullscreen windows. | No separate item search |
+| ![Freecam](images/catalog-xeez3fk2.png) [Freecam](visuals.camera.md) | Provides a detached viewing camera. | No separate item search |
+| ![Ok Zoomer - It's Zoom!](images/catalog-axf2osfu.png) [Ok Zoomer - It's Zoom!](visuals.camera.md) | Provides adjustable camera zoom. | No separate item search |

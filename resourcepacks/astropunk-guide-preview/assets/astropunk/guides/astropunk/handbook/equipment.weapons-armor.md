@@ -292,5 +292,5 @@ Better Nether ruby weapons, Better End crystal and aeternium weapons, and Aether
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Adds class-oriented armor sets with set bonuses. | <EmiSearch query="@armory_rpgs" /> |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Adds legendary weapons obtained through encounters rather than crafting. | <EmiSearch query="@arsenal" /> |
+| ![Armory (RPG Series)](images/catalog-pjvjudgw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | Adds class-oriented armor sets with set bonuses. | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-lip9q3kv.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | Adds legendary weapons obtained through encounters rather than crafting. | <EmiSearch query="@arsenal" /> |

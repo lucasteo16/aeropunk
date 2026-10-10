@@ -127,9 +127,9 @@ Supplementaries supplies awnings, jars, pedestals, blackboards and small furnish
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Amendments](images/catalog-6iTJugQR.png) [Amendments](building.furniture.md) | Expands existing blocks with features such as potion-mixing cauldrons and wall-mounted lanterns. | <EmiSearch query="@amendments" /> |
-| ![Beautify: ReFoxed](images/catalog-ZQCyyWBM.png) [Beautify: ReFoxed](building.furniture.md) | Adds vanilla-styled decorative furnishings for homes and gardens. | <EmiSearch query="@beautify" /> |
-| ![Create: Interiors](images/catalog-r4Knci2k.png) [Create: Interiors](building.furniture.md) | Adds Create-styled furniture for train interiors and other builds. | <EmiSearch query="@interiors" /> |
-| ![Handcrafted](images/catalog-pJmCFF0p.png) [Handcrafted](building.furniture.md) | Adds detailed furniture and household decorations. | <EmiSearch query="@handcrafted" /> |
-| ![Supplementaries](images/catalog-fFEIiSDQ.png) [Supplementaries](building.furniture.md) | Adds practical decorations and utility blocks for building, storage and automation. | <EmiSearch query="@supplementaries" /> |
-| ![TW‘s  Decorative Food](images/catalog-656seq5J.png) [TW‘s  Decorative Food](building.furniture.md) | Lets food items be placed in the world as decorations. | No separate item search |
+| ![Amendments](images/catalog-6itjugqr.png) [Amendments](building.furniture.md) | Expands existing blocks with features such as potion-mixing cauldrons and wall-mounted lanterns. | <EmiSearch query="@amendments" /> |
+| ![Beautify: ReFoxed](images/catalog-zqcyywbm.png) [Beautify: ReFoxed](building.furniture.md) | Adds vanilla-styled decorative furnishings for homes and gardens. | <EmiSearch query="@beautify" /> |
+| ![Create: Interiors](images/catalog-r4knci2k.png) [Create: Interiors](building.furniture.md) | Adds Create-styled furniture for train interiors and other builds. | <EmiSearch query="@interiors" /> |
+| ![Handcrafted](images/catalog-pjmcff0p.png) [Handcrafted](building.furniture.md) | Adds detailed furniture and household decorations. | <EmiSearch query="@handcrafted" /> |
+| ![Supplementaries](images/catalog-ffeiisdq.png) [Supplementaries](building.furniture.md) | Adds practical decorations and utility blocks for building, storage and automation. | <EmiSearch query="@supplementaries" /> |
+| ![TW‘s  Decorative Food](images/catalog-656seq5j.png) [TW‘s  Decorative Food](building.furniture.md) | Lets food items be placed in the world as decorations. | No separate item search |

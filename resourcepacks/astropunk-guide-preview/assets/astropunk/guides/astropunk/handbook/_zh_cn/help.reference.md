@@ -34,4 +34,4 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Reliable Advancements](images/catalog-xVwaUG1g.png) [Reliable Advancements](help.reference.md) | 改进进度浏览，并支持在游戏内编辑进度。 | 无独立物品查询 |
+| ![Reliable Advancements](images/catalog-xvwaug1g.png) [Reliable Advancements](help.reference.md) | 改进进度浏览，并支持在游戏内编辑进度。 | 无独立物品查询 |

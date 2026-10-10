@@ -77,5 +77,5 @@ Wooden, Andesite and Smart Propellers have dedicated bearings. Symmetric sails p
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-DdAlVT8M.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | <EmiSearch query="@aeroencasedpipe" /> |
-| ![Create: Ballast](images/catalog-5ypXYrfG.png) [Create: Ballast](vehicles.airships.md) | Adds layered ballast blocks for adjusting vehicle mass and balance. | <EmiSearch query="@ballastmod" /> |
+| ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | <EmiSearch query="@aeroencasedpipe" /> |
+| ![Create: Ballast](images/catalog-5ypxyrfg.png) [Create: Ballast](vehicles.airships.md) | Adds layered ballast blocks for adjusting vehicle mass and balance. | <EmiSearch query="@ballastmod" /> |

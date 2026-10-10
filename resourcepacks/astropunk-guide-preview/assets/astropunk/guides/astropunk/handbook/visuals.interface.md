@@ -47,12 +47,13 @@ These components change information displays and notifications rather than gamep
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Advancement Plaques](images/catalog-9NM0dXub.png) [Advancement Plaques](visuals.interface.md) | Replaces advancement notifications with plaques. | No separate item search |
-| ![Better ModList](images/catalog-sbpqhzIG.png) [Better ModList](visuals.interface.md) | Changes the mod list display and filtering. | No separate item search |
-| ![BetterF3](images/catalog-8shC1gFX.png) [BetterF3](visuals.interface.md) | Reorganizes the debug information display. | No separate item search |
-| ![Hide Experimental Warning](images/catalog-Rm4OOdHd.png) [Hide Experimental Warning](visuals.interface.md) | Hides the experimental-world warning. | No separate item search |
-| ![Progress Peek](images/catalog-1A2XNzUB.png) [Progress Peek](visuals.interface.md) | Shows loading progress on the desktop taskbar. | No separate item search |
-| ![Reese's Sodium Options](images/catalog-Bh37bMuy.png) [Reese's Sodium Options](visuals.interface.md) | Reorganizes Sodium video options. | No separate item search |
-| ![Sodium Extra](images/catalog-PtjYWJkn.png) [Sodium Extra](visuals.interface.md) | Adds appearance, particle, animation and display controls. | No separate item search |
-| ![Toast Control](images/catalog-CnOG2wlS.png) [Toast Control](visuals.interface.md) | Controls toast notifications. | No separate item search |
-| ![Traveler's Titles](images/catalog-JtifUr64.png) [Traveler's Titles](visuals.interface.md) | Shows biome and dimension entry titles. | No separate item search |
+| ![Advancement Plaques](images/catalog-9nm0dxub.png) [Advancement Plaques](visuals.interface.md) | Replaces advancement notifications with plaques. | No separate item search |
+| ![Better ModList](images/catalog-sbpqhzig.png) [Better ModList](visuals.interface.md) | Changes the mod list display and filtering. | No separate item search |
+| ![BetterF3](images/catalog-8shc1gfx.png) [BetterF3](visuals.interface.md) | Reorganizes the debug information display. | No separate item search |
+| <ItemImage id="minecraft:painting" /> [FancyMenu](visuals.interface.md) | Customizes the Astropunk title screen while retaining native menu controls. | No separate item search |
+| ![Hide Experimental Warning](images/catalog-rm4oodhd.png) [Hide Experimental Warning](visuals.interface.md) | Hides the experimental-world warning. | No separate item search |
+| ![Progress Peek](images/catalog-1a2xnzub.png) [Progress Peek](visuals.interface.md) | Shows loading progress on the desktop taskbar. | No separate item search |
+| ![Reese's Sodium Options](images/catalog-bh37bmuy.png) [Reese's Sodium Options](visuals.interface.md) | Reorganizes Sodium video options. | No separate item search |
+| ![Sodium Extra](images/catalog-ptjywjkn.png) [Sodium Extra](visuals.interface.md) | Adds appearance, particle, animation and display controls. | No separate item search |
+| ![Toast Control](images/catalog-cnog2wls.png) [Toast Control](visuals.interface.md) | Controls toast notifications. | No separate item search |
+| ![Traveler's Titles](images/catalog-jtifur64.png) [Traveler's Titles](visuals.interface.md) | Shows biome and dimension entry titles. | No separate item search |

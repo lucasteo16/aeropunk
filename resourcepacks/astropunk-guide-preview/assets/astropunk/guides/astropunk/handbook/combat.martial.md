@@ -47,8 +47,8 @@ The class pages list every active ability assigned to their supported martial cl
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Archers (RPG Series)](images/catalog-QgooUXAJ.png) [Archers (RPG Series)](combat.martial.md) | Adds an archer combat class built around bows and ranged abilities. | <EmiSearch query="@archers" /> |
-| ![Archers Expansion (RPG Series Plus)](images/catalog-1BHIIm4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Adds archer subclasses with cold, status-inflicting and explosive arrow abilities. | <EmiSearch query="@archers_expansion" /> |
-| ![Berserker (RPG Series Plus)](images/catalog-8hqOZzxM.png) [Berserker (RPG Series Plus)](combat.martial.md) | Adds an axe-wielding berserker whose rage increases damage at low health. | <EmiSearch query="@berserker_rpg" /> |
-| ![Forcemaster (RPG Series Plus)](images/catalog-K3yHebFL.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Adds a knuckle-wielding martial class that strengthens attacks with arcane force. | <EmiSearch query="@forcemaster_rpg" /> |
-| ![Rogues & Warriors (RPG Series)](images/catalog-3MKqoGuP.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Adds rogue and warrior classes with distinct melee combat abilities. | <EmiSearch query="@rogues" /> |
+| ![Archers (RPG Series)](images/catalog-qgoouxaj.png) [Archers (RPG Series)](combat.martial.md) | Adds an archer combat class built around bows and ranged abilities. | <EmiSearch query="@archers" /> |
+| ![Archers Expansion (RPG Series Plus)](images/catalog-1bhiim4m.png) [Archers Expansion (RPG Series Plus)](combat.martial.md) | Adds archer subclasses with cold, status-inflicting and explosive arrow abilities. | <EmiSearch query="@archers_expansion" /> |
+| ![Berserker (RPG Series Plus)](images/catalog-8hqozzxm.png) [Berserker (RPG Series Plus)](combat.martial.md) | Adds an axe-wielding berserker whose rage increases damage at low health. | <EmiSearch query="@berserker_rpg" /> |
+| ![Forcemaster (RPG Series Plus)](images/catalog-k3yhebfl.png) [Forcemaster (RPG Series Plus)](combat.martial.md) | Adds a knuckle-wielding martial class that strengthens attacks with arcane force. | <EmiSearch query="@forcemaster_rpg" /> |
+| ![Rogues & Warriors (RPG Series)](images/catalog-3mkqogup.png) [Rogues & Warriors (RPG Series)](combat.martial.md) | Adds rogue and warrior classes with distinct melee combat abilities. | <EmiSearch query="@rogues" /> |

@@ -110,4 +110,4 @@ Simulated 提供移动结构的机械连接件与工具。Create Propulsion 增�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create Aeronautics](images/catalog-oWaK0Q19.png) [Create Aeronautics](vehicles.assembly.md) | 将方块搭建的载具变成可操控的物理移动结构。 | 无独立物品查询 |
+| ![Create Aeronautics](images/catalog-owak0q19.png) [Create Aeronautics](vehicles.assembly.md) | 将方块搭建的载具变成可操控的物理移动结构。 | 无独立物品查询 |

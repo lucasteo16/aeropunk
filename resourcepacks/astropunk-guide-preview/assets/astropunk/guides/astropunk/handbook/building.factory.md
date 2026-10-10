@@ -201,12 +201,12 @@ Create Oxidized supplies water filling recipes for exposed, weathered and oxidiz
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Deco](images/catalog-sMvUb4Rb.png) [Create Deco](building.factory.md) | Adds Create-styled industrial decoration for factories and infrastructure. | <EmiSearch query="@createdeco" /> |
-| ![Create Encased](images/catalog-hSSqdyU1.png) [Create Encased](building.factory.md) | Expands casing choices for Create shafts, cogwheels and pipes. | <EmiSearch query="@createcasing" /> |
-| ![Create: Bells & Whistles](images/catalog-gJ5afkVv.png) [Create: Bells & Whistles](building.factory.md) | Adds decorative details for Create trains and railway builds. | <EmiSearch query="@bellsandwhistles" /> |
-| ![Create: Bits 'n' Bobs](images/catalog-T8bvmqVZ.png) [Create: Bits 'n' Bobs](building.factory.md) | Adds cogwheel chain drives and customizable industrial decoration to Create. | <EmiSearch query="@bits_n_bobs" /> |
+| ![Create Deco](images/catalog-smvub4rb.png) [Create Deco](building.factory.md) | Adds Create-styled industrial decoration for factories and infrastructure. | <EmiSearch query="@createdeco" /> |
+| ![Create Encased](images/catalog-hssqdyu1.png) [Create Encased](building.factory.md) | Expands casing choices for Create shafts, cogwheels and pipes. | <EmiSearch query="@createcasing" /> |
+| ![Create: Bells & Whistles](images/catalog-gj5afkvv.png) [Create: Bells & Whistles](building.factory.md) | Adds decorative details for Create trains and railway builds. | <EmiSearch query="@bellsandwhistles" /> |
+| ![Create: Bits 'n' Bobs](images/catalog-t8bvmqvz.png) [Create: Bits 'n' Bobs](building.factory.md) | Adds cogwheel chain drives and customizable industrial decoration to Create. | <EmiSearch query="@bits_n_bobs" /> |
 | ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | Adds factory decoration blocks styled to match Create machinery. | <EmiSearch query="@dndecor" /> |
-| ![Create: Framed](images/catalog-15fFZ3f4.png) [Create: Framed](building.factory.md) | Adds more framed glass variants for Create-style construction. | <EmiSearch query="@createframed" /> |
-| ![Create: More Girder](images/catalog-sPg2LVAd.png) [Create: More Girder](building.factory.md) | Adds structural girder variants for Create builds. | <EmiSearch query="@createmoregirder" /> |
-| ![Create: Oxidized](images/catalog-X9kjRZeX.png) [Create: Oxidized](building.factory.md) | Adds Create processing recipes for oxidizing copper blocks. | No separate item search |
-| ![Create: Prismatic Shine](images/catalog-udEtt0b2.png) [Create: Prismatic Shine](building.factory.md) | Adds glass and illuminated casings for Create machinery. | <EmiSearch query="@createprism" /> |
+| ![Create: Framed](images/catalog-15ffz3f4.png) [Create: Framed](building.factory.md) | Adds more framed glass variants for Create-style construction. | <EmiSearch query="@createframed" /> |
+| ![Create: More Girder](images/catalog-spg2lvad.png) [Create: More Girder](building.factory.md) | Adds structural girder variants for Create builds. | <EmiSearch query="@createmoregirder" /> |
+| ![Create: Oxidized](images/catalog-x9kjrzex.png) [Create: Oxidized](building.factory.md) | Adds Create processing recipes for oxidizing copper blocks. | No separate item search |
+| ![Create: Prismatic Shine](images/catalog-udett0b2.png) [Create: Prismatic Shine](building.factory.md) | Adds glass and illuminated casings for Create machinery. | <EmiSearch query="@createprism" /> |

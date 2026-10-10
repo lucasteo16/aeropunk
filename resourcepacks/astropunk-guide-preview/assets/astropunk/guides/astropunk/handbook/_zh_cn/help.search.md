@@ -46,9 +46,9 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![EMI](images/catalog-fRiHVvU7.png) [EMI](help.search.md) | 提供物品搜索、配方查询、用途查询与合成树。 | <EmiSearch query="@emi" /> |
-| ![EMI Enchanting](images/catalog-wbWoo11W.png) [EMI Enchanting](help.search.md) | 在 EMI 中显示附魔适用物品与互斥关系。 | 无独立物品查询 |
-| ![EMI professions (EMIP)](images/catalog-LGVihYcz.png) [EMI professions (EMIP)](help.search.md) | 在 EMI 中显示村民职业对应的工作站。 | 无独立物品查询 |
-| ![Polymorph](images/catalog-tagwiZkJ.png) [Polymorph](help.search.md) | 合成配方冲突时允许玩家选择产物。 | 无独立物品查询 |
-| ![Reliable EMI (REMI)](images/catalog-N9WucjHL.png) [Reliable EMI (REMI)](help.search.md) | 为 EMI 物品与配方浏览器增加可调整的便利功能。 | 无独立物品查询 |
-| ![ToolTipFix](images/catalog-2RKFTmiB.png) [ToolTipFix](help.search.md) | 防止过长物品提示超出屏幕。 | 无独立物品查询 |
+| ![EMI](images/catalog-frihvvu7.png) [EMI](help.search.md) | 提供物品搜索、配方查询、用途查询与合成树。 | <EmiSearch query="@emi" /> |
+| ![EMI Enchanting](images/catalog-wbwoo11w.png) [EMI Enchanting](help.search.md) | 在 EMI 中显示附魔适用物品与互斥关系。 | 无独立物品查询 |
+| ![EMI professions (EMIP)](images/catalog-lgvihycz.png) [EMI professions (EMIP)](help.search.md) | 在 EMI 中显示村民职业对应的工作站。 | 无独立物品查询 |
+| ![Polymorph](images/catalog-tagwizkj.png) [Polymorph](help.search.md) | 合成配方冲突时允许玩家选择产物。 | 无独立物品查询 |
+| ![Reliable EMI (REMI)](images/catalog-n9wucjhl.png) [Reliable EMI (REMI)](help.search.md) | 为 EMI 物品与配方浏览器增加可调整的便利功能。 | 无独立物品查询 |
+| ![ToolTipFix](images/catalog-2rkftmib.png) [ToolTipFix](help.search.md) | 防止过长物品提示超出屏幕。 | 无独立物品查询 |

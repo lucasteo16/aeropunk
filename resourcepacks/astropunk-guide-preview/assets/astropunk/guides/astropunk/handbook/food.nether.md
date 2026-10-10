@@ -225,4 +225,4 @@ Egg dishes depend on the egg type accepted by the recipe. Bread portions and toa
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | <EmiSearch query="@mynethersdelight" /> |
+| ![My Nether's Delight](images/catalog-o53vhqoz.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | <EmiSearch query="@mynethersdelight" /> |

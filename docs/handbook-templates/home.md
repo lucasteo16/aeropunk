@@ -7,7 +7,7 @@ navigation:
 
 # Astropunk
 
-![Steampunk Airship by Merun173](images/home-merun173-airship.png)
+![Steampunk Airship by Merun173](images/home-astropunk-title.png)
 
 Build an airship, choose your combat class and take on a world that grows more dangerous as you play. Astropunk is a survival sandbox where your workshop, your home and your adventures all have room to grow.
 
@@ -15,4 +15,4 @@ Explore dungeons and fight bosses with weapons, spells and trinkets that suit yo
 
 There is no quest chain telling you what to do next. The sidebar gives you quick entry points into each topic. Choose what interests you and make it your own.
 
-- [Image credits](help.credits.md)
+- [Credits](help.credits.md)

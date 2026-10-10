@@ -77,8 +77,8 @@ RightClickHarvest 加入收获交互。Smarter Farmers 扩展农民补种。Univ
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | 为机械动力增加自动收割、渔网与家禽产物自动收集。 | <EmiSearch query="@create_integrated_farming" /> |
-| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | 让树木被砍后失去支撑的树叶快速凋落。 | 无独立物品查询 |
-| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | 右键即可收获成熟作物，无需手动破坏再补种。 | 无独立物品查询 |
-| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 让农民村民正确补种作物，也支持部分模组种子。 | 无独立物品查询 |
-| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | 让骨粉可用于原本不接受骨粉的植物。 | 无独立物品查询 |
+| ![Create: Integrated Farming](images/catalog-9k1pasfr.png) [Create: Integrated Farming](food.growing.md) | 为机械动力增加自动收割、渔网与家禽产物自动收集。 | <EmiSearch query="@create_integrated_farming" /> |
+| ![Leaves Be Gone](images/catalog-avq17pqv.png) [Leaves Be Gone](food.growing.md) | 让树木被砍后失去支撑的树叶快速凋落。 | 无独立物品查询 |
+| ![RightClickHarvest](images/catalog-cnejf5xm.png) [RightClickHarvest](food.growing.md) | 右键即可收获成熟作物，无需手动破坏再补种。 | 无独立物品查询 |
+| ![Smarter Farmers (farmers replant)](images/catalog-bh6zomvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 让农民村民正确补种作物，也支持部分模组种子。 | 无独立物品查询 |
+| ![Universal Bone Meal](images/catalog-66viit1y.png) [Universal Bone Meal](food.growing.md) | 让骨粉可用于原本不接受骨粉的植物。 | 无独立物品查询 |

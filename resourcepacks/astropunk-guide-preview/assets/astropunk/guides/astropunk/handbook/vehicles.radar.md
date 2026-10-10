@@ -103,4 +103,4 @@ Detection, targeting and identification use separate filters. Observation tools 
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create: Radars](images/catalog-BLu2Yqfq.png) [Create: Radars](vehicles.radar.md) | Adds radar equipment to detect and track targets in Create builds. | <EmiSearch query="@create_radar" /> |
+| ![Create: Radars](images/catalog-blu2yqfq.png) [Create: Radars](vehicles.radar.md) | Adds radar equipment to detect and track targets in Create builds. | <EmiSearch query="@create_radar" /> |

@@ -35,6 +35,6 @@ Read equipment tooltips for permanent attributes while the item is equipped. Rea
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Detail Armor Bar Reconstructed](images/catalog-Si9Uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Shows additional armor information in the armor status bar. | No separate item search |
-| ![Status Effect Bars Reforged](images/catalog-TxIuhIFo.png) [Status Effect Bars Reforged](equipment.display.md) | Shows remaining status-effect duration with customizable bars. | No separate item search |
-| ![Stylish Effects](images/catalog-onDuQF5e.png) [Stylish Effects](equipment.display.md) | Reorganizes status-effect displays into compact, configurable interface layouts. | No separate item search |
+| ![Detail Armor Bar Reconstructed](images/catalog-si9uim4y.png) [Detail Armor Bar Reconstructed](equipment.display.md) | Shows additional armor information in the armor status bar. | No separate item search |
+| ![Status Effect Bars Reforged](images/catalog-txiuhifo.png) [Status Effect Bars Reforged](equipment.display.md) | Shows remaining status-effect duration with customizable bars. | No separate item search |
+| ![Stylish Effects](images/catalog-onduqf5e.png) [Stylish Effects](equipment.display.md) | Reorganizes status-effect displays into compact, configurable interface layouts. | No separate item search |

@@ -109,5 +109,5 @@ AeroEngine fuel compat (separate ship patch) lets AeroEngine accept common fuel 
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | <EmiSearch query="@aeroengineering" /> |
-| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | <EmiSearch query="@createpropulsion" /> |
+| ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | <EmiSearch query="@aeroengineering" /> |
+| ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | <EmiSearch query="@createpropulsion" /> |

@@ -57,5 +57,5 @@ Blocks & Bogies 提供转向架自定义界面，而非一套独立转向架物�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | 增加更大的机械动力列车转向架，含带可见阀动机构的款式。 | 无独立物品查询 |
-| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | 为机械动力铁路增加轨道与列车部件。 | <EmiSearch query="@railways" /> |
+| ![Create: Blocks & Bogies](images/catalog-j4arnqwy.png) [Create: Blocks & Bogies](transport.railway-builder.md) | 增加更大的机械动力列车转向架，含带可见阀动机构的款式。 | 无独立物品查询 |
+| ![Steam 'n' Rails Neoforge](images/catalog-l3jv0qzi.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | 为机械动力铁路增加轨道与列车部件。 | <EmiSearch query="@railways" /> |

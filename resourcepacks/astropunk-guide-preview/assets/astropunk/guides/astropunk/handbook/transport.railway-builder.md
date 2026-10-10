@@ -57,5 +57,5 @@ Blocks & Bogies adds a Bogie Customisation interface, not a separate set of bogi
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create: Blocks & Bogies](images/catalog-j4ARnQwY.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Adds larger Create train bogies, including visible valve gear variants. | No separate item search |
-| ![Steam 'n' Rails Neoforge](images/catalog-L3Jv0QZI.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Expands Create railways with additional track and train components. | <EmiSearch query="@railways" /> |
+| ![Create: Blocks & Bogies](images/catalog-j4arnqwy.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Adds larger Create train bogies, including visible valve gear variants. | No separate item search |
+| ![Steam 'n' Rails Neoforge](images/catalog-l3jv0qzi.png) [Steam 'n' Rails Neoforge](transport.railway-builder.md) | Expands Create railways with additional track and train components. | <EmiSearch query="@railways" /> |

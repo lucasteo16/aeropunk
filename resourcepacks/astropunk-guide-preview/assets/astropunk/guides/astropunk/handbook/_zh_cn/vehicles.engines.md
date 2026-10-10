@@ -109,5 +109,5 @@ AeroEngine fuel compat（独立飞艇补丁）让 AeroEngine 接受通用燃料�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![AeroEngine](images/catalog-CRh10iJF.png) [AeroEngine](vehicles.engines.md) | 为机械动力增加模块化航空发动机与飞行控制仪表。 | <EmiSearch query="@aeroengineering" /> |
-| ![Create Propulsion: Simulated](images/catalog-ApkoHNO9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。 | <EmiSearch query="@createpropulsion" /> |
+| ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | 为机械动力增加模块化航空发动机与飞行控制仪表。 | <EmiSearch query="@aeroengineering" /> |
+| ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。 | <EmiSearch query="@createpropulsion" /> |

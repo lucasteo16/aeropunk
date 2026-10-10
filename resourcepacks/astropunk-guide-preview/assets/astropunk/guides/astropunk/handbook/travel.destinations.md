@@ -173,8 +173,8 @@ Create: AeroWarptics (separate ship patch) relocates an assembled Aeronautics sh
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Waystones Recipes](images/catalog-wQpKGqNJ.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | No separate item search |
-| ![NetherPortalFix](images/catalog-nPZr02ET.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | No separate item search |
-| ![Tempad](images/catalog-gKNwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | <EmiSearch query="@tempad" /> |
-| ![Waystones](images/catalog-LOpKHB2A.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | <EmiSearch query="@waystones" /> |
-| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-BxhPGfcK.png) [Waystones: Sable (Create Aeronautics Addon)](travel.destinations.md) | Fixes Waystones teleportation and destination handling on Sable moving structures. | No separate item search |
+| ![Create Waystones Recipes](images/catalog-wqpkgqnj.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | No separate item search |
+| ![NetherPortalFix](images/catalog-npzr02et.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | No separate item search |
+| ![Tempad](images/catalog-gknwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | <EmiSearch query="@tempad" /> |
+| ![Waystones](images/catalog-lopkhb2a.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | <EmiSearch query="@waystones" /> |
+| ![Waystones: Sable (Create Aeronautics Addon)](images/catalog-bxhpgfck.png) [Waystones: Sable (Create Aeronautics Addon)](travel.destinations.md) | Fixes Waystones teleportation and destination handling on Sable moving structures. | No separate item search |

@@ -111,4 +111,4 @@ These devices are marked unfinished by their tooltips, not working survival syst
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Deep Seas](images/catalog-mva5q4qZ.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | <EmiSearch query="@create_submarine" /> |
+| ![Create Deep Seas](images/catalog-mva5q4qz.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | <EmiSearch query="@create_submarine" /> |

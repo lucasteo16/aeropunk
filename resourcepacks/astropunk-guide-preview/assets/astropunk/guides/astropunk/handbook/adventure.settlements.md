@@ -99,6 +99,6 @@ These buildings extend village house pools, rather than creating standalone dung
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhI8kH.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | No separate item search |
-| ![Gazebos (RPG Series)](images/catalog-XIpMGI6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | No separate item search |
-| ![Village Taverns (RPG Series)](images/catalog-bj4a8NjJ.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | <EmiSearch query="@village_taverns" /> |
+| ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhi8kh.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | No separate item search |
+| ![Gazebos (RPG Series)](images/catalog-xipmgi6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | No separate item search |
+| ![Village Taverns (RPG Series)](images/catalog-bj4a8njj.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | <EmiSearch query="@village_taverns" /> |

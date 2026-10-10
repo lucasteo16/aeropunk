@@ -161,4 +161,4 @@ L_Ender 's Cataclysm Delight 把 Cataclysm 遭遇食材用于海鲜料理。先�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。 | <EmiSearch query="@lendersdelight" /> |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48r8agk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。 | <EmiSearch query="@lendersdelight" /> |

@@ -31,4 +31,4 @@ Carry On 用于搬运受支持的已放置方块和生物。
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | 允许玩家抱起并搬运受支持的容器与生物。 | 无独立物品查询 |
+| ![Carry On](images/catalog-joefvgkn.png) [Carry On](interactions.carry.md) | 允许玩家抱起并搬运受支持的容器与生物。 | 无独立物品查询 |

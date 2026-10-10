@@ -61,13 +61,13 @@ The heavy edition adds eating, block-interaction, third-person action and hostil
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![[EMF] Entity Model Features](images/catalog-4I1XuqiY.png) [[EMF] Entity Model Features](visuals.models.md) | Loads custom entity models from compatible resource packs. | No separate item search |
-| ![[ETF] Entity Texture Features](images/catalog-BVzZfTc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Supports random, custom and emissive entity textures. | No separate item search |
+| ![[EMF] Entity Model Features](images/catalog-4i1xuqiy.png) [[EMF] Entity Model Features](visuals.models.md) | Loads custom entity models from compatible resource packs. | No separate item search |
+| ![[ETF] Entity Texture Features](images/catalog-bvzzftc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Supports random, custom and emissive entity textures. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) (heavy edition only) | Animates eating. | No separate item search |
-| ![EMF Compat: Create](images/catalog-J9McOdzy.png) [EMF Compat: Create](visuals.models.md) | Connects Create player animations to custom animated models. | No separate item search |
+| ![EMF Compat: Create](images/catalog-j9mcodzy.png) [EMF Compat: Create](visuals.models.md) | Connects Create player animations to custom animated models. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) (heavy edition only) | Adapts Not Enough Animations player actions to custom Entity Model Features models. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) (heavy edition only) | Animates interactive blocks such as doors and levers. | No separate item search |
-| ![Model Gap Fix](images/catalog-QdG47OkI.png) [Model Gap Fix](visuals.models.md) | Repairs gaps in block and item models. | No separate item search |
+| ![Model Gap Fix](images/catalog-qdg47oki.png) [Model Gap Fix](visuals.models.md) | Repairs gaps in block and item models. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Not Enough Animations](visuals.models.md) (heavy edition only) | Shows more player actions in third-person. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Spawn Animations](visuals.models.md) (heavy edition only) | Animates hostile creature spawning. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Spawn Animations Compats](visuals.models.md) (heavy edition only) | Extends Spawn Animations compatibility to supported modded creatures. | No separate item search |

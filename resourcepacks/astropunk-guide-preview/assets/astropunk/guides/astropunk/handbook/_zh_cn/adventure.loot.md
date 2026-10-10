@@ -46,5 +46,5 @@ Lootr 为转换后的战利品表箱子、陷阱箱、木桶、潜影盒与矿�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![EMI Loot](images/catalog-qbbO7Jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 无独立物品查询 |
-| ![Lootr](images/catalog-EltpO5cN.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | <EmiSearch query="@lootr" /> |
+| ![EMI Loot](images/catalog-qbbo7jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 无独立物品查询 |
+| ![Lootr](images/catalog-eltpo5cn.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | <EmiSearch query="@lootr" /> |

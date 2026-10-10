@@ -79,5 +79,5 @@ These portable engine components are not interchangeable with Create's placed St
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create Stuff 'N Additions](images/catalog-aq9qUUQG.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Adds Create-themed powered equipment and wearable tools. | <EmiSearch query="@create_sa" /> |
-| ![Create: Stam1o Tweaks](images/catalog-46RgF8H2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Adjusts Create recipes and lets diving boots counter levitation. | No separate item search |
+| ![Create Stuff 'N Additions](images/catalog-aq9quuqg.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Adds Create-themed powered equipment and wearable tools. | <EmiSearch query="@create_sa" /> |
+| ![Create: Stam1o Tweaks](images/catalog-46rgf8h2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Adjusts Create recipes and lets diving boots counter levitation. | No separate item search |

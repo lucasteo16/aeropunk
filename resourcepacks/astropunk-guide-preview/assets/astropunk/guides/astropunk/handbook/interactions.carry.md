@@ -31,4 +31,4 @@ Test the interaction on an ordinary target before moving a valuable machine.
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Carry On](images/catalog-joEfVgkn.png) [Carry On](interactions.carry.md) | Lets players pick up and carry supported containers and creatures. | No separate item search |
+| ![Carry On](images/catalog-joefvgkn.png) [Carry On](interactions.carry.md) | Lets players pick up and carry supported containers and creatures. | No separate item search |

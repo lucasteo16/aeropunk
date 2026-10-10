@@ -211,4 +211,4 @@ The Copper Pot and Copper Cup form the copper kitchen branch. Equipment and empt
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | <EmiSearch query="@minersdelight" /> |
+| ![Miner's Delight](images/catalog-qmxbm4bq.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | <EmiSearch query="@minersdelight" /> |

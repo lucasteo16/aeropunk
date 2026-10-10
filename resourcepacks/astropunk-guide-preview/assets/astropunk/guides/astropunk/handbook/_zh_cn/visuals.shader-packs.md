@@ -31,6 +31,6 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Complementary Shaders - Reimagined](images/catalog-HVnmMxH1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | 保留 Minecraft 原有视觉风格的光影。 | 无独立物品查询 |
-| ![Complementary Shaders - Unbound](images/catalog-R6NEzAwj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | 更明显改变画面风格的光影。 | 无独立物品查询 |
-| ![Photon Shaders](images/catalog-lLqFfGNs.png) [Photon Shaders](visuals.shader-packs.md) | 注重游戏体验的半写实光影风格。 | 无独立物品查询 |
+| ![Complementary Shaders - Reimagined](images/catalog-hvnmmxh1.png) [Complementary Shaders - Reimagined](visuals.shader-packs.md) | 保留 Minecraft 原有视觉风格的光影。 | 无独立物品查询 |
+| ![Complementary Shaders - Unbound](images/catalog-r6nezawj.png) [Complementary Shaders - Unbound](visuals.shader-packs.md) | 更明显改变画面风格的光影。 | 无独立物品查询 |
+| ![Photon Shaders](images/catalog-llqffgns.png) [Photon Shaders](visuals.shader-packs.md) | 注重游戏体验的半写实光影风格。 | 无独立物品查询 |

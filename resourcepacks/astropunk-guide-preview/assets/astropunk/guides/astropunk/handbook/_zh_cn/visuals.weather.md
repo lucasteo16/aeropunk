@@ -44,7 +44,7 @@ GrandTeleport 改变传送时的镜头过渡，不会创建生存旅行目的地
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) （仅重型版） | 改变爆炸动画效果。 | 无独立物品查询 |
-| ![GrandTeleport NeoForge](images/catalog-PsllFHj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 为传送增加电影式镜头过渡。 | 无独立物品查询 |
+| ![GrandTeleport NeoForge](images/catalog-psllfhj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 为传送增加电影式镜头过渡。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Particle Effects](visuals.weather.md) （仅重型版） | 为原版状态效果提供不同纹理的粒子。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Particular ✨ Reforged](visuals.weather.md) （仅重型版） | 增加环境视觉效果。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Ripple](visuals.weather.md) （仅重型版） | 让粒子对实体作出反应。 | 无独立物品查询 |

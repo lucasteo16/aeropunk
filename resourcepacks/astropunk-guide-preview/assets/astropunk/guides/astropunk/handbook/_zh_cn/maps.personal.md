@@ -36,9 +36,9 @@ Xaero's World Map 记录已探索地形。按 <KeyBind id="gui.xaero_open_map" /
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Explorer's Compass](images/catalog-RV1qfVQ8.png) [Explorer's Compass](maps.find.md) | 定位结构，包括受支持的模组结构。 | <EmiSearch query="@explorerscompass" /> |
-| ![Nature's Compass](images/catalog-fPetb5Kh.png) [Nature's Compass](maps.find.md) | 定位生物群系，包括受支持的模组生物群系。 | <EmiSearch query="@naturescompass" /> |
+| ![Explorer's Compass](images/catalog-rv1qfvq8.png) [Explorer's Compass](maps.find.md) | 定位结构，包括受支持的模组结构。 | <EmiSearch query="@explorerscompass" /> |
+| ![Nature's Compass](images/catalog-fpetb5kh.png) [Nature's Compass](maps.find.md) | 定位生物群系，包括受支持的模组生物群系。 | <EmiSearch query="@naturescompass" /> |
 | <ItemImage id="minecraft:compass" /> [Team Capes](maps.shared.md) （仅重型版） | 显示与玩家原版队伍颜色一致的披风。 | 无独立物品查询 |
-| ![Xaero's Maps: Multiplayer+](images/catalog-stTaMuWa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 为 Xaero 地图增加多人功能，包括世界地图同步。 | 无独立物品查询 |
-| ![Xaero's Minimap](images/catalog-1bokaNcj.png) [Xaero's Minimap](maps.personal.md) | 用小地图显示附近地形与实体，并支持保存路标。 | 无独立物品查询 |
-| ![Xaero's World Map](images/catalog-NcUtCpym.png) [Xaero's World Map](maps.personal.md) | 用全屏世界地图显示已探索地形。 | 无独立物品查询 |
+| ![Xaero's Maps: Multiplayer+](images/catalog-sttamuwa.png) [Xaero's Maps: Multiplayer+](maps.shared.md) | 为 Xaero 地图增加多人功能，包括世界地图同步。 | 无独立物品查询 |
+| ![Xaero's Minimap](images/catalog-1bokancj.png) [Xaero's Minimap](maps.personal.md) | 用小地图显示附近地形与实体，并支持保存路标。 | 无独立物品查询 |
+| ![Xaero's World Map](images/catalog-ncutcpym.png) [Xaero's World Map](maps.personal.md) | 用全屏世界地图显示已探索地形。 | 无独立物品查询 |

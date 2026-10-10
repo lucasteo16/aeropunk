@@ -292,5 +292,5 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Armory (RPG Series)](images/catalog-PJvJUdGw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 增加面向不同职业的盔甲套装与套装加成。 | <EmiSearch query="@armory_rpgs" /> |
-| ![Arsenal (RPG Series)](images/catalog-LiP9Q3KV.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 增加通过战斗遭遇而非合成获取的传奇武器。 | <EmiSearch query="@arsenal" /> |
+| ![Armory (RPG Series)](images/catalog-pjvjudgw.png) [Armory (RPG Series)](equipment.weapons-armor.md) | 增加面向不同职业的盔甲套装与套装加成。 | <EmiSearch query="@armory_rpgs" /> |
+| ![Arsenal (RPG Series)](images/catalog-lip9q3kv.png) [Arsenal (RPG Series)](equipment.weapons-armor.md) | 增加通过战斗遭遇而非合成获取的传奇武器。 | <EmiSearch query="@arsenal" /> |

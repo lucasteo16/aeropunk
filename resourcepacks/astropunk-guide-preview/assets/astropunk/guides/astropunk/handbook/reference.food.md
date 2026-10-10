@@ -44,18 +44,18 @@ Farmer’s Delight covers everyday cooking from prepared portions to shared feas
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | Shows food hunger restoration and saturation in tooltips and the hunger display. | No separate item search |
+| ![AppleSkin](images/catalog-esafcjcv.png) [AppleSkin](food.hunger.md) | Shows food hunger restoration and saturation in tooltips and the hunger display. | No separate item search |
 | ![Create Slice & Dice](images/slice-and-dice-icon.png) [Create Slice & Dice](food.machine-cooking.md) | Adds Create machinery for automated Farmer's Delight food preparation. | <EmiSearch query="@sliceanddice" /> |
 | ![Create: Central Kitchen](images/create-central-kitchen-icon.png) [Create: Central Kitchen](food.machine-cooking.md) | Connects other cooking mods to Create machines for automated food processing. | No separate item search |
-| ![Create: Integrated Farming](images/catalog-9k1pAsfR.png) [Create: Integrated Farming](food.growing.md) | Adds automatic crop harvesting, fishing nets and poultry production to Create. | <EmiSearch query="@create_integrated_farming" /> |
-| ![End's Delight](images/catalog-yHN0njMr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | <EmiSearch query="@ends_delight" /> |
-| ![Farmer's Delight](images/catalog-R2OftAxM.png) [Farmer's Delight](food.utensils.md) | Adds crops, cooking utensils and meal preparation with cutting boards and cooking pots. | <EmiSearch query="@farmersdelight" /> |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | <EmiSearch query="@lendersdelight" /> |
-| ![Leaves Be Gone](images/catalog-AVq17PqV.png) [Leaves Be Gone](food.growing.md) | Makes unsupported leaves decay quickly after trees are cut. | No separate item search |
-| ![Miner's Delight](images/catalog-qMxbM4BQ.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | <EmiSearch query="@minersdelight" /> |
-| ![My Nether's Delight](images/catalog-O53VhQoZ.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | <EmiSearch query="@mynethersdelight" /> |
-| ![RightClickHarvest](images/catalog-Cnejf5xM.png) [RightClickHarvest](food.growing.md) | Harvests mature crops with a right click instead of breaking and replanting manually. | No separate item search |
+| ![Create: Integrated Farming](images/catalog-9k1pasfr.png) [Create: Integrated Farming](food.growing.md) | Adds automatic crop harvesting, fishing nets and poultry production to Create. | <EmiSearch query="@create_integrated_farming" /> |
+| ![End's Delight](images/catalog-yhn0njmr.png) [End's Delight](food.end.md) | Adds End-themed ingredients and dishes to Farmer's Delight. | <EmiSearch query="@ends_delight" /> |
+| ![Farmer's Delight](images/catalog-r2oftaxm.png) [Farmer's Delight](food.utensils.md) | Adds crops, cooking utensils and meal preparation with cutting boards and cooking pots. | <EmiSearch query="@farmersdelight" /> |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48r8agk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | <EmiSearch query="@lendersdelight" /> |
+| ![Leaves Be Gone](images/catalog-avq17pqv.png) [Leaves Be Gone](food.growing.md) | Makes unsupported leaves decay quickly after trees are cut. | No separate item search |
+| ![Miner's Delight](images/catalog-qmxbm4bq.png) [Miner's Delight](food.underground.md) | Adds mining-themed food and cooking tools to Farmer's Delight. | <EmiSearch query="@minersdelight" /> |
+| ![My Nether's Delight](images/catalog-o53vhqoz.png) [My Nether's Delight](food.nether.md) | Adds Nether crops, ingredients and cooking recipes to Farmer's Delight. | <EmiSearch query="@mynethersdelight" /> |
+| ![RightClickHarvest](images/catalog-cnejf5xm.png) [RightClickHarvest](food.growing.md) | Harvests mature crops with a right click instead of breaking and replanting manually. | No separate item search |
 | <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | Changes food stack limits to alter how much food fits in each inventory slot. | No separate item search |
-| ![Smarter Farmers (farmers replant)](images/catalog-Bh6ZOMvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | Helps farmer villagers replant the correct crops, including supported modded seeds. | No separate item search |
-| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | Rewards dietary variety using a rolling history of recently eaten foods. | <EmiSearch query="@solonion" /> |
-| ![Universal Bone Meal](images/catalog-66VIiT1y.png) [Universal Bone Meal](food.growing.md) | Extends bone meal use to plants that normally do not accept it. | No separate item search |
+| ![Smarter Farmers (farmers replant)](images/catalog-bh6zomvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | Helps farmer villagers replant the correct crops, including supported modded seeds. | No separate item search |
+| ![Spice of Life Onion](images/catalog-ehgygkjz.png) [Spice of Life Onion](food.hunger.md) | Rewards dietary variety using a rolling history of recently eaten foods. | <EmiSearch query="@solonion" /> |
+| ![Universal Bone Meal](images/catalog-66viit1y.png) [Universal Bone Meal](food.growing.md) | Extends bone meal use to plants that normally do not accept it. | No separate item search |

@@ -129,7 +129,7 @@ Pattern Schematics supplies empty patterns, captured patterns and the quill capt
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Create: Pattern Schematics](images/catalog-cpqKG67r.png) [Create: Pattern Schematics](building.placement.md) | Repeats schematic patterns when building with Create schematics. | <EmiSearch query="@create_pattern_schematics" /> |
-| ![Create: Shuffle Filter](images/catalog-gv5RRavC.png) [Create: Shuffle Filter](building.placement.md) | Lets Create deployers place randomized blocks from a selected palette. | <EmiSearch query="@createshufflefilter" /> |
-| ![Forgematica](images/catalog-dCKRaeBC.png) [Forgematica](building.placement.md) | Displays building schematics to guide block placement and construction. | No separate item search |
-| ![Mech Trowel](images/catalog-nqFNRALS.png) [Mech Trowel](building.placement.md) | Places randomized blocks from custom palettes and supports building-wand placement. | <EmiSearch query="@mechtrowel" /> |
+| ![Create: Pattern Schematics](images/catalog-cpqkg67r.png) [Create: Pattern Schematics](building.placement.md) | Repeats schematic patterns when building with Create schematics. | <EmiSearch query="@create_pattern_schematics" /> |
+| ![Create: Shuffle Filter](images/catalog-gv5rravc.png) [Create: Shuffle Filter](building.placement.md) | Lets Create deployers place randomized blocks from a selected palette. | <EmiSearch query="@createshufflefilter" /> |
+| ![Forgematica](images/catalog-dckraebc.png) [Forgematica](building.placement.md) | Displays building schematics to guide block placement and construction. | No separate item search |
+| ![Mech Trowel](images/catalog-nqfnrals.png) [Mech Trowel](building.placement.md) | Places randomized blocks from custom palettes and supports building-wand placement. | <EmiSearch query="@mechtrowel" /> |

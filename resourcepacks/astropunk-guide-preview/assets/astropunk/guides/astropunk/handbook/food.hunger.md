@@ -57,6 +57,6 @@ Use <ItemLink id="solonion:lunchbag" /> or <ItemLink id="solonion:lunchbox" /> f
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![AppleSkin](images/catalog-EsAfCjCV.png) [AppleSkin](food.hunger.md) | Shows food hunger restoration and saturation in tooltips and the hunger display. | No separate item search |
+| ![AppleSkin](images/catalog-esafcjcv.png) [AppleSkin](food.hunger.md) | Shows food hunger restoration and saturation in tooltips and the hunger display. | No separate item search |
 | <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | Changes food stack limits to alter how much food fits in each inventory slot. | No separate item search |
-| ![Spice of Life Onion](images/catalog-eHGYGKJz.png) [Spice of Life Onion](food.hunger.md) | Rewards dietary variety using a rolling history of recently eaten foods. | <EmiSearch query="@solonion" /> |
+| ![Spice of Life Onion](images/catalog-ehgygkjz.png) [Spice of Life Onion](food.hunger.md) | Rewards dietary variety using a rolling history of recently eaten foods. | <EmiSearch query="@solonion" /> |

@@ -35,11 +35,12 @@ public final class HandbookAccess {
     public HandbookAccess(IEventBus modBus) {
         // GuideBuilder reads these properties during the later first resource reload.
         LiveEditing.configure(FMLPaths.GAMEDIR.get(), System.getProperties());
+        // First resource-reload preparation can precede queued client setup.
+        // Register now so that first pass discovers the static guide and its pages.
+        HandbookQueryGuide.register();
         shortcut = new KeyMapping("key.astropunk_handbook_access.open", KeyConflictContext.UNIVERSAL,
                 InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_PERIOD, "key.categories.astropunk_handbook_access");
         modBus.addListener(this::registerKeys);
-        modBus.addListener(net.neoforged.fml.event.lifecycle.FMLClientSetupEvent.class,
-                event -> event.enqueueWork(HandbookQueryGuide::register));
         NeoForge.EVENT_BUS.addListener(this::addInventoryButton);
         NeoForge.EVENT_BUS.addListener(this::onClientTick);
         NeoForge.EVENT_BUS.addListener(this::onInventoryRender);

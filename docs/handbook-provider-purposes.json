@@ -1278,5 +1278,17 @@
   "mods/astropunk-handbook-access-1.0.0.jar": {
     "en_us": "Adds handbook access and clickable item searches.",
     "zh_cn": "提供手册入口与可点击的物品查询。"
+  },
+  "mods/fancymenu.pw.toml": {
+    "en_us": "Customizes the Astropunk title screen while retaining native menu controls.",
+    "zh_cn": "定制 Astropunk 标题界面，保留原生菜单操作。"
+  },
+  "mods/konkrete.pw.toml": {
+    "en_us": "Provides the utility and configuration library required by FancyMenu.",
+    "zh_cn": "提供 FancyMenu 所需的工具与配置支持库。"
+  },
+  "mods/melody.pw.toml": {
+    "en_us": "Provides the audio library required by FancyMenu. This menu adds no custom music.",
+    "zh_cn": "提供 FancyMenu 所需的音频支持库。本菜单没有添加自定义音乐。"
   }
 }

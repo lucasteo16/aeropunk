@@ -36,5 +36,5 @@ Access restrictions and corpse expiry can depend on server settings. Do not trea
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![Corpse](images/catalog-WrpuIfhw.png) [Corpse](adventure.recovery.md) | Stores a dead player's inventory in a recoverable corpse. | No separate item search |
-| ![Corpse x Curios API Compat](images/catalog-pJGcKPh1.png) [Corpse x Curios API Compat](adventure.recovery.md) | Lets recovered corpse accessories return directly to their Curios equipment slots. | No separate item search |
+| ![Corpse](images/catalog-wrpuifhw.png) [Corpse](adventure.recovery.md) | Stores a dead player's inventory in a recoverable corpse. | No separate item search |
+| ![Corpse x Curios API Compat](images/catalog-pjgckph1.png) [Corpse x Curios API Compat](adventure.recovery.md) | Lets recovered corpse accessories return directly to their Curios equipment slots. | No separate item search |

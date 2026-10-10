@@ -40,6 +40,6 @@ Villager Names 为村民添加便于辨认的名字。名字仅用于辨认村�
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Jade Addons (Neo/Forge)](images/catalog-xuDOzCLy.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 为 Jade 观察提示增加其他模组的专属信息支持。 | 无独立物品查询 |
-| ![Jade 🔍](images/catalog-nvQzSEkH.png) [Jade 🔍](help.inspect.md) | 显示当前观察的方块或生物的信息。 | 无独立物品查询 |
-| ![Villager Names](images/catalog-gqRXDo8B.png) [Villager Names](help.inspect.md) | 为村民赋予默认或自定义名字。 | 无独立物品查询 |
+| ![Jade Addons (Neo/Forge)](images/catalog-xudozcly.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 为 Jade 观察提示增加其他模组的专属信息支持。 | 无独立物品查询 |
+| ![Jade 🔍](images/catalog-nvqzsekh.png) [Jade 🔍](help.inspect.md) | 显示当前观察的方块或生物的信息。 | 无独立物品查询 |
+| ![Villager Names](images/catalog-gqrxdo8b.png) [Villager Names](help.inspect.md) | 为村民赋予默认或自定义名字。 | 无独立物品查询 |

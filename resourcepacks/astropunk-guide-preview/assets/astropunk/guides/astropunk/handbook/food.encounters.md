@@ -161,4 +161,4 @@ Improved Dog Food belongs to feeding animals, not the player’s dietary variety
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| ![L_Ender 's Cataclysm Delight](images/catalog-a48R8AGk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | <EmiSearch query="@lendersdelight" /> |
+| ![L_Ender 's Cataclysm Delight](images/catalog-a48r8agk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | Turns Cataclysm ingredients into Farmer's Delight-style dishes. | <EmiSearch query="@lendersdelight" /> |

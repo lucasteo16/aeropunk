@@ -128,53 +128,55 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Almanac](images/catalog-Gi02250Z.png) [Almanac](technical.libraries.md) | 共享跨加载器代码，并修复空标签导致的物品无法堆叠问题。 | 无独立物品查询 |
-| ![Apollib](images/catalog-VDI2Ytax.png) [Apollib](technical.libraries.md) | 共享设置与注册工具。 | 无独立物品查询 |
-| ![Architectury API](images/catalog-lhGA9TYQ.png) [Architectury API](technical.libraries.md) | 共享跨加载器开发接口。 | 无独立物品查询 |
-| ![Armor Model API](images/catalog-onz2NN2n.png) [Armor Model API](technical.libraries.md) | 通过原版盔甲流程渲染自定义盔甲几何模型。 | 无独立物品查询 |
-| ![Athena](images/catalog-b1ZV3DIJ.png) [Athena](technical.libraries.md) | 提供跨加载器的方块连接纹理支持。 | 无独立物品查询 |
-| ![BaguetteLib](images/catalog-OfKzpbRU.png) [BaguetteLib](technical.libraries.md) | 死亡处理与物品栏追踪支持。 | 无独立物品查询 |
-| ![Balm](images/catalog-MBAkmtvl.png) [Balm](technical.libraries.md) | 共享独立于加载器的系统，让依赖模组可用于多种加载器。 | 无独立物品查询 |
-| ![Bookshelf](images/catalog-uy4Cnpcm.png) [Bookshelf](technical.libraries.md) | 为依赖模组提供共享数据序列化、数据包功能与调试工具。 | 无独立物品查询 |
-| ![Bundle API](images/catalog-n8QN6Z1a.png) [Bundle API](technical.libraries.md) | 提供更大容量的收纳袋，并用标签限定可收纳物品。 | 无独立物品查询 |
+| ![Almanac](images/catalog-gi02250z.png) [Almanac](technical.libraries.md) | 共享跨加载器代码，并修复空标签导致的物品无法堆叠问题。 | 无独立物品查询 |
+| ![Apollib](images/catalog-vdi2ytax.png) [Apollib](technical.libraries.md) | 共享设置与注册工具。 | 无独立物品查询 |
+| ![Architectury API](images/catalog-lhga9tyq.png) [Architectury API](technical.libraries.md) | 共享跨加载器开发接口。 | 无独立物品查询 |
+| ![Armor Model API](images/catalog-onz2nn2n.png) [Armor Model API](technical.libraries.md) | 通过原版盔甲流程渲染自定义盔甲几何模型。 | 无独立物品查询 |
+| ![Athena](images/catalog-b1zv3dij.png) [Athena](technical.libraries.md) | 提供跨加载器的方块连接纹理支持。 | 无独立物品查询 |
+| ![BaguetteLib](images/catalog-ofkzpbru.png) [BaguetteLib](technical.libraries.md) | 死亡处理与物品栏追踪支持。 | 无独立物品查询 |
+| ![Balm](images/catalog-mbakmtvl.png) [Balm](technical.libraries.md) | 共享独立于加载器的系统，让依赖模组可用于多种加载器。 | 无独立物品查询 |
+| ![Bookshelf](images/catalog-uy4cnpcm.png) [Bookshelf](technical.libraries.md) | 为依赖模组提供共享数据序列化、数据包功能与调试工具。 | 无独立物品查询 |
+| ![Bundle API](images/catalog-n8qn6z1a.png) [Bundle API](technical.libraries.md) | 提供更大容量的收纳袋，并用标签限定可收纳物品。 | 无独立物品查询 |
 | ![Cloth Config API](images/catalog-9s6osm5g.png) [Cloth Config API](technical.libraries.md) | 设置界面库。 | 无独立物品查询 |
-| ![Collective](images/catalog-e0M1UDsY.png) [Collective](technical.libraries.md) | 为 Serilum 实用模组提供共享功能。 | 无独立物品查询 |
-| ![Create: Dragons Plus](images/catalog-dzb1a5WV.png) [Create: Dragons Plus](technical.libraries.md) | 增加风扇批量加工与储液罐存取工具，并提供机械动力附加模组共享工具。 | <EmiSearch query="@create_dragons_plus" /> |
-| ![CreativeCore](images/catalog-OsZiaDHq.png) [CreativeCore](technical.libraries.md) | 为 CreativeMD 模组提供共享界面、设置与网络系统。 | 无独立物品查询 |
-| ![DragonLib](images/catalog-sbIsGaOV.png) [DragonLib](technical.libraries.md) | 为 MisterJulsen 模组提供跨加载器抽象层与共享系统。 | <EmiSearch query="@dragonlib" /> |
-| ![EMF Compat: Core](images/catalog-hbGct5uU.png) [EMF Compat: Core](technical.libraries.md) | EMF 兼容组件共享框架。 | 无独立物品查询 |
-| ![Forgified Fabric API](images/catalog-Aqlf1Shp.png) [Forgified Fabric API](technical.libraries.md) | 在 NeoForge 上实现的 Fabric 接口。 | 无独立物品查询 |
-| ![Fzzy Config](images/catalog-hYykXjDp.png) [Fzzy Config](technical.libraries.md) | 设置、校验与同步支持。 | 无独立物品查询 |
-| ![Geckolib](images/catalog-8BmcQJ2H.png) [Geckolib](technical.libraries.md) | 实体、方块、物品与盔甲动画库。 | 无独立物品查询 |
-| ![GroovyModLoader (GML)](images/catalog-zg2tT2Vu.png) [GroovyModLoader (GML)](technical.libraries.md) | Groovy 语言支持。 | 无独立物品查询 |
-| ![Iceberg](images/catalog-5faXoLqX.png) [Iceberg](technical.libraries.md) | 为依赖模组提供额外事件与工具函数。 | 无独立物品查询 |
-| ![JamLib](images/catalog-IYY9Siz8.png) [JamLib](technical.libraries.md) | 为 JamCore 模组提供平台抽象层与设置支持。 | 无独立物品查询 |
-| ![Kotlin for Forge](images/catalog-ordsPcFz.png) [Kotlin for Forge](technical.libraries.md) | Kotlin 语言支持与工具。 | 无独立物品查询 |
-| ![Lionfish-API](images/catalog-FoVacERa.png) [Lionfish-API](technical.libraries.md) | 为依赖模组提供轻量动画支持。 | 无独立物品查询 |
-| ![Lithostitched](images/catalog-XaDC71GB.png) [Lithostitched](technical.libraries.md) | 世界生成设置与兼容支持。 | 无独立物品查询 |
-| ![Lodestone](images/catalog-bN3xUWdo.png) [Lodestone](technical.libraries.md) | 依赖模组使用的共享渲染与功能代码。 | 无独立物品查询 |
-| ![MaFgLib](images/catalog-SKI34J7B.png) [MaFgLib](technical.libraries.md) | masa 模组 Forge 移植版使用的共享代码。 | 无独立物品查询 |
-| ![MidnightLib](images/catalog-codAaoxh.png) [MidnightLib](technical.libraries.md) | 轻量设置系统。 | 无独立物品查询 |
-| ![Moonlight Lib](images/catalog-twkfQtEc.png) [Moonlight Lib](technical.libraries.md) | 共享注册与动态内容工具。 | <EmiSearch query="@moonlight" /> |
-| ![More RPG Library](images/catalog-Wkc3lwHo.png) [More RPG Library](technical.libraries.md) | 为 More RPG 职业附加模组提供共享属性与状态效果。 | <EmiSearch query="@more_rpg_classes" /> |
-| ![MRU](images/catalog-SNVQ2c0g.png) [MRU](technical.libraries.md) | 共享 Cassian 与 IMB11 模组使用的跨版本工具。 | 无独立物品查询 |
-| ![oωo (owo-lib)](images/catalog-ccKDOlHs.png) [oωo (owo-lib)](technical.libraries.md) | 通用工具、界面与设置支持。 | 无独立物品查询 |
-| ![Placebo](images/catalog-tCkE8p2N.png) [Placebo](technical.libraries.md) | 提供 Shadows 模组所需的共享代码，不增加独立玩法。 | 无独立物品查询 |
+| ![Collective](images/catalog-e0m1udsy.png) [Collective](technical.libraries.md) | 为 Serilum 实用模组提供共享功能。 | 无独立物品查询 |
+| ![Create: Dragons Plus](images/catalog-dzb1a5wv.png) [Create: Dragons Plus](technical.libraries.md) | 增加风扇批量加工与储液罐存取工具，并提供机械动力附加模组共享工具。 | <EmiSearch query="@create_dragons_plus" /> |
+| ![CreativeCore](images/catalog-osziadhq.png) [CreativeCore](technical.libraries.md) | 为 CreativeMD 模组提供共享界面、设置与网络系统。 | 无独立物品查询 |
+| ![DragonLib](images/catalog-sbisgaov.png) [DragonLib](technical.libraries.md) | 为 MisterJulsen 模组提供跨加载器抽象层与共享系统。 | <EmiSearch query="@dragonlib" /> |
+| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) | EMF 兼容组件共享框架。 | 无独立物品查询 |
+| ![Forgified Fabric API](images/catalog-aqlf1shp.png) [Forgified Fabric API](technical.libraries.md) | 在 NeoForge 上实现的 Fabric 接口。 | 无独立物品查询 |
+| ![Fzzy Config](images/catalog-hyykxjdp.png) [Fzzy Config](technical.libraries.md) | 设置、校验与同步支持。 | 无独立物品查询 |
+| ![Geckolib](images/catalog-8bmcqj2h.png) [Geckolib](technical.libraries.md) | 实体、方块、物品与盔甲动画库。 | 无独立物品查询 |
+| ![GroovyModLoader (GML)](images/catalog-zg2tt2vu.png) [GroovyModLoader (GML)](technical.libraries.md) | Groovy 语言支持。 | 无独立物品查询 |
+| ![Iceberg](images/catalog-5faxolqx.png) [Iceberg](technical.libraries.md) | 为依赖模组提供额外事件与工具函数。 | 无独立物品查询 |
+| ![JamLib](images/catalog-iyy9siz8.png) [JamLib](technical.libraries.md) | 为 JamCore 模组提供平台抽象层与设置支持。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [Konkrete](technical.libraries.md) | 提供 FancyMenu 所需的工具与配置支持库。 | 无独立物品查询 |
+| ![Kotlin for Forge](images/catalog-ordspcfz.png) [Kotlin for Forge](technical.libraries.md) | Kotlin 语言支持与工具。 | 无独立物品查询 |
+| ![Lionfish-API](images/catalog-fovacera.png) [Lionfish-API](technical.libraries.md) | 为依赖模组提供轻量动画支持。 | 无独立物品查询 |
+| ![Lithostitched](images/catalog-xadc71gb.png) [Lithostitched](technical.libraries.md) | 世界生成设置与兼容支持。 | 无独立物品查询 |
+| ![Lodestone](images/catalog-bn3xuwdo.png) [Lodestone](technical.libraries.md) | 依赖模组使用的共享渲染与功能代码。 | 无独立物品查询 |
+| ![MaFgLib](images/catalog-ski34j7b.png) [MaFgLib](technical.libraries.md) | masa 模组 Forge 移植版使用的共享代码。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [Melody](technical.libraries.md) | 提供 FancyMenu 所需的音频支持库。本菜单没有添加自定义音乐。 | 无独立物品查询 |
+| ![MidnightLib](images/catalog-codaaoxh.png) [MidnightLib](technical.libraries.md) | 轻量设置系统。 | 无独立物品查询 |
+| ![Moonlight Lib](images/catalog-twkfqtec.png) [Moonlight Lib](technical.libraries.md) | 共享注册与动态内容工具。 | <EmiSearch query="@moonlight" /> |
+| ![More RPG Library](images/catalog-wkc3lwho.png) [More RPG Library](technical.libraries.md) | 为 More RPG 职业附加模组提供共享属性与状态效果。 | <EmiSearch query="@more_rpg_classes" /> |
+| ![MRU](images/catalog-snvq2c0g.png) [MRU](technical.libraries.md) | 共享 Cassian 与 IMB11 模组使用的跨版本工具。 | 无独立物品查询 |
+| ![oωo (owo-lib)](images/catalog-cckdolhs.png) [oωo (owo-lib)](technical.libraries.md) | 通用工具、界面与设置支持。 | 无独立物品查询 |
+| ![Placebo](images/catalog-tcke8p2n.png) [Placebo](technical.libraries.md) | 提供 Shadows 模组所需的共享代码，不增加独立玩法。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [playerAnimator](technical.libraries.md) | 玩家动画库。 | 无独立物品查询 |
-| ![Prickle](images/catalog-aaRl8GiW.png) [Prickle](technical.libraries.md) | 为依赖模组提供结构化设置文件处理。 | 无独立物品查询 |
-| ![Puzzles Lib](images/catalog-QAGBst4M.png) [Puzzles Lib](technical.libraries.md) | 提供 Fuzss 模组所需的共享支持系统。 | 无独立物品查询 |
-| ![Ranged Weapon API](images/catalog-AqaIIO6D.png) [Ranged Weapon API](technical.libraries.md) | 弓与弩开发支持。 | 无独立物品查询 |
-| ![Resourceful Config](images/catalog-M1953qlQ.png) [Resourceful Config](technical.libraries.md) | 提供跨平台设置文件与设置界面。 | 无独立物品查询 |
-| ![Resourceful Lib](images/catalog-G1hIVOrD.png) [Resourceful Lib](technical.libraries.md) | 为依赖模组提供共享网络通信、数据编码与界面工具。 | 无独立物品查询 |
-| ![Ritchie's Projectile Library](images/catalog-B3pb093D.png) [Ritchie's Projectile Library](technical.libraries.md) | 提供远程弹射物同步与弹射物区块加载支持。 | 无独立物品查询 |
-| ![Sable](images/catalog-T9PomCSv.png) [Sable](technical.libraries.md) | 可交互移动方块结构框架。 | 无独立物品查询 |
+| ![Prickle](images/catalog-aarl8giw.png) [Prickle](technical.libraries.md) | 为依赖模组提供结构化设置文件处理。 | 无独立物品查询 |
+| ![Puzzles Lib](images/catalog-qagbst4m.png) [Puzzles Lib](technical.libraries.md) | 提供 Fuzss 模组所需的共享支持系统。 | 无独立物品查询 |
+| ![Ranged Weapon API](images/catalog-aqaiio6d.png) [Ranged Weapon API](technical.libraries.md) | 弓与弩开发支持。 | 无独立物品查询 |
+| ![Resourceful Config](images/catalog-m1953qlq.png) [Resourceful Config](technical.libraries.md) | 提供跨平台设置文件与设置界面。 | 无独立物品查询 |
+| ![Resourceful Lib](images/catalog-g1hivord.png) [Resourceful Lib](technical.libraries.md) | 为依赖模组提供共享网络通信、数据编码与界面工具。 | 无独立物品查询 |
+| ![Ritchie's Projectile Library](images/catalog-b3pb093d.png) [Ritchie's Projectile Library](technical.libraries.md) | 提供远程弹射物同步与弹射物区块加载支持。 | 无独立物品查询 |
+| ![Sable](images/catalog-t9pomcsv.png) [Sable](technical.libraries.md) | 可交互移动方块结构框架。 | 无独立物品查询 |
 | ![Searchables](images/catalog-fuuu3xnx.png) [Searchables](technical.libraries.md) | 界面搜索、筛选与补全支持。 | 无独立物品查询 |
-| ![Shield API](images/catalog-y9clIFY4.png) [Shield API](technical.libraries.md) | 自定义盾牌模型支持。 | 无独立物品查询 |
-| ![Sinytra Connector](images/catalog-u58R1TMW.png) [Sinytra Connector](technical.libraries.md) | 让部分选定的 Fabric 模组在 NeoForge 上运行的兼容层。 | 无独立物品查询 |
-| ![Sophisticated Core](images/catalog-nmoqTijg.png) [Sophisticated Core](technical.libraries.md) | 为 Sophisticated 物品栏与存储模组提供共享系统。 | <EmiSearch query="@sophisticatedcore" /> |
-| ![Spell Engine](images/catalog-XvoWJaA2.png) [Spell Engine](technical.libraries.md) | 数据驱动法术框架。 | <EmiSearch query="@spell_engine" /> |
-| ![Spell Power Attributes](images/catalog-8ooWzSQP.png) [Spell Power Attributes](technical.libraries.md) | 法术相关属性、效果与附魔支持。 | 无独立物品查询 |
-| ![Structure Pool API](images/catalog-LrYZi08Q.png) [Structure Pool API](technical.libraries.md) | 结构池扩展支持。 | 无独立物品查询 |
-| ![Teal Lib](images/catalog-rLJ1qF79.png) [Teal Lib](technical.libraries.md) | 提供共享动画与数据驱动的生物变体系统。 | <EmiSearch query="@teallib" /> |
-| ![YetAnotherConfigLib (YACL)](images/catalog-1eAoo2KR.png) [YetAnotherConfigLib (YACL)](technical.libraries.md) | 设置界面构建库。 | 无独立物品查询 |
-| ![YUNG's API](images/catalog-Ua7DFN59.png) [YUNG's API](technical.libraries.md) | YUNG 模组共享代码。 | 无独立物品查询 |
+| ![Shield API](images/catalog-y9clify4.png) [Shield API](technical.libraries.md) | 自定义盾牌模型支持。 | 无独立物品查询 |
+| ![Sinytra Connector](images/catalog-u58r1tmw.png) [Sinytra Connector](technical.libraries.md) | 让部分选定的 Fabric 模组在 NeoForge 上运行的兼容层。 | 无独立物品查询 |
+| ![Sophisticated Core](images/catalog-nmoqtijg.png) [Sophisticated Core](technical.libraries.md) | 为 Sophisticated 物品栏与存储模组提供共享系统。 | <EmiSearch query="@sophisticatedcore" /> |
+| ![Spell Engine](images/catalog-xvowjaa2.png) [Spell Engine](technical.libraries.md) | 数据驱动法术框架。 | <EmiSearch query="@spell_engine" /> |
+| ![Spell Power Attributes](images/catalog-8oowzsqp.png) [Spell Power Attributes](technical.libraries.md) | 法术相关属性、效果与附魔支持。 | 无独立物品查询 |
+| ![Structure Pool API](images/catalog-lryzi08q.png) [Structure Pool API](technical.libraries.md) | 结构池扩展支持。 | 无独立物品查询 |
+| ![Teal Lib](images/catalog-rlj1qf79.png) [Teal Lib](technical.libraries.md) | 提供共享动画与数据驱动的生物变体系统。 | <EmiSearch query="@teallib" /> |
+| ![YetAnotherConfigLib (YACL)](images/catalog-1eaoo2kr.png) [YetAnotherConfigLib (YACL)](technical.libraries.md) | 设置界面构建库。 | 无独立物品查询 |
+| ![YUNG's API](images/catalog-ua7dfn59.png) [YUNG's API](technical.libraries.md) | YUNG 模组共享代码。 | 无独立物品查询 |

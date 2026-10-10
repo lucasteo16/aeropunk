@@ -119,9 +119,9 @@ item_ids:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
-| ![Bard (RPG Series Plus)](images/catalog-kL7Bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 增加以歌曲与歌谣支援队友的吟游诗人职业。 | <EmiSearch query="@bards_rpg" /> |
-| ![Elemental Wizards (RPG Series Plus)](images/catalog-PeZ4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 为 Wizards 增加大地、水与风元素施法分支职业。 | <EmiSearch query="@elemental_wizards_rpg" /> |
-| ![Paladins & Priests (RPG Series)](images/catalog-FxXkHaLe.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 增加专注防护与治疗的圣骑士及牧师职业。 | <EmiSearch query="@paladins" /> |
-| ![Runes](images/catalog-lP9Yrr1E.png) [Runes](combat.magic.md) | 增加可制作的符文，作为施法消耗的弹药。 | <EmiSearch query="@runes" /> |
-| ![Witcher (RPG Series Plus)](images/catalog-4eW1c7Gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 增加以猎杀怪物为主题的猎魔人职业与战斗能力。 | <EmiSearch query="@witcher_rpg" /> |
-| ![Wizards (RPG Series)](images/catalog-NkGaQMDA.png) [Wizards (RPG Series)](combat.magic.md) | 增加使用奥术、火焰与冰霜法术的巫师战斗体系。 | <EmiSearch query="@wizards" /> |
+| ![Bard (RPG Series Plus)](images/catalog-kl7bjgmw.png) [Bard (RPG Series Plus)](combat.magic.md) | 增加以歌曲与歌谣支援队友的吟游诗人职业。 | <EmiSearch query="@bards_rpg" /> |
+| ![Elemental Wizards (RPG Series Plus)](images/catalog-pez4h4i0.png) [Elemental Wizards (RPG Series Plus)](combat.magic.md) | 为 Wizards 增加大地、水与风元素施法分支职业。 | <EmiSearch query="@elemental_wizards_rpg" /> |
+| ![Paladins & Priests (RPG Series)](images/catalog-fxxkhale.png) [Paladins & Priests (RPG Series)](combat.magic.md) | 增加专注防护与治疗的圣骑士及牧师职业。 | <EmiSearch query="@paladins" /> |
+| ![Runes](images/catalog-lp9yrr1e.png) [Runes](combat.magic.md) | 增加可制作的符文，作为施法消耗的弹药。 | <EmiSearch query="@runes" /> |
+| ![Witcher (RPG Series Plus)](images/catalog-4ew1c7gj.png) [Witcher (RPG Series Plus)](combat.magic.md) | 增加以猎杀怪物为主题的猎魔人职业与战斗能力。 | <EmiSearch query="@witcher_rpg" /> |
+| ![Wizards (RPG Series)](images/catalog-nkgaqmda.png) [Wizards (RPG Series)](combat.magic.md) | 增加使用奥术、火焰与冰霜法术的巫师战斗体系。 | <EmiSearch query="@wizards" /> |
