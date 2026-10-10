@@ -1111,6 +1111,11 @@ hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
 metafile = true
 
 [[files]]
+file = "mods/aeroengine-fuel-compat.pw.toml"
+hash = "df52e0b6a8ff45b37f66aae58fd3e4d3043d8937a2898c562ea5ed9991730206"
+metafile = true
+
+[[files]]
 file = "mods/aeroengine.pw.toml"
 hash = "3637f8c7e237525c908ef902ab13765be9b7c885e22a5ec0532561a13af7ba48"
 metafile = true
@@ -1378,6 +1383,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
+metafile = true
+
+[[files]]
+file = "mods/create-aerowarptics.pw.toml"
+hash = "5b7b705d191d48c80f01917e6d0a2676176fab130a8fa775049320aa8f289c26"
 metafile = true
 
 [[files]]
