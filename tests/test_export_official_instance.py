@@ -74,7 +74,7 @@ class OfficialExport(unittest.TestCase):
         self.assertEqual(profile["gameDir"], str(self.output / "game"))
         self.assertEqual(profile["lastVersionId"], "neoforge-21.1.255")
         self.assertEqual(profile["type"], "custom")
-        self.assertIn("Astropunk Guide Test fixture.1", profile["name"])
+        self.assertIn("Fixture Test fixture.1", profile["name"])
         self.assertEqual(profile["created"], profile["lastUsed"])
         self.assertEqual(profile["javaArgs"], "-Xmx6G")
         self.assertNotIn("javaDir", profile)
@@ -101,7 +101,7 @@ class OfficialExport(unittest.TestCase):
         paths = [Path(saved[result["official_launcher"]["profile_id"]]["gameDir"]).parent for result in (first, second)]
         self.assertNotEqual(paths[0], paths[1])
         for path in paths:
-            self.assertEqual(path.parent, self.source / "instance-runs")
+            self.assertEqual(path.parent, self.home / ".minecraft/instances")
             self.assertTrue(path.name.startswith("astropunk-fixture.1-"))
 
     def test_missing_installed_runtime_refused_before_export(self):
