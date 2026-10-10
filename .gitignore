@@ -18,6 +18,7 @@
 /world_the_end/
 /backups/
 /logs/
+/scripts/handbook-access/logs/
 /crash-reports/
 *.log
 
