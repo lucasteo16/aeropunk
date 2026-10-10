@@ -111,6 +111,42 @@ class AccessWiringTest(unittest.TestCase):
         self.assertIn('KeyMapping.isActiveAndMatches:', key)
         self.assertIn('openHandbook:', key)
 
+    def test_compiled_shortcut_is_comma_and_registered_independently_of_button(self):
+        constructor = method(self.code, 'dev.astropunk.handbook.HandbookAccess')
+        self.assertRegex(constructor, r'bipush\s+44\b', 'Whole handbook default must be GLFW comma')
+        self.assertNotRegex(constructor, r'bipush\s+46\b', 'Period belongs to shader toggle, not handbook')
+        self.assertIn('KeyConflictContext.UNIVERSAL:', constructor)
+        registration = method(self.code, 'registerKeys')
+        self.assertIn('Field shortcut:', registration)
+        self.assertIn('RegisterKeyMappingsEvent.register:', registration)
+        self.assertNotIn('Field buttons:', registration)
+        for name in ('onClientTick', 'onInventoryKey', 'openHandbook'):
+            handler = method(self.code, name)
+            self.assertNotIn('Button.visible:', handler)
+            self.assertNotIn('Button.active:', handler)
+            self.assertNotIn('Field buttons:', handler)
+        inventory = method(self.code, 'onInventoryKey')
+        self.assertIn('ScreenEvent$KeyPressed$Post.setCanceled:', inventory)
+        self.assertIn('inventory/InventoryScreen', inventory)
+        self.assertIn('inventory/CreativeModeInventoryScreen', inventory)
+
+    def test_handbook_controls_have_distinct_localized_category_and_action(self):
+        import json
+        with zipfile.ZipFile(HELPER) as archive:
+            for locale, word in [('en_us', 'Handbook'), ('zh_cn', '手册')]:
+                strings = json.loads(archive.read(f'assets/astropunk_handbook_access/lang/{locale}.json'))
+                for key in ('key.categories.astropunk_handbook_access', 'key.astropunk_handbook_access.open'):
+                    self.assertIn(word, strings[key])
+                    self.assertIn('Astropunk', strings[key])
+                    self.assertIn(key, self.code)
+
+    def test_native_guideme_key_is_contextual_item_help_not_whole_handbook(self):
+        native = bytecode(ROOT / 'guideme-21.1.19.jar', 'guideme.internal.hotkey.OpenGuideHotkey')
+        self.assertIn('key.guideme.guide', native)
+        self.assertIn('key.guideme.category', native)
+        self.assertIn('ItemStack', native)
+        self.assertIn('PageAnchor', native)
+
     def test_selected_engine_polls_watcher_and_reloads_visible_page(self):
         engine = ROOT / 'guideme-21.1.19.jar'
         client = bytecode(engine, 'guideme.internal.GuideMEClient')

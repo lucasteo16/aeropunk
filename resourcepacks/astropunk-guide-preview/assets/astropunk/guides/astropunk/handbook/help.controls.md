@@ -23,9 +23,8 @@ navigation:
 | Access | Your key |
 | --- | --- |
 | Open handbook | <KeyBind id="key.astropunk_handbook_access.open" /> |
-| Item guide | <KeyBind id="key.guideme.guide" /> |
 
-The item guide is contextual. It needs a hovered item associated with a guide page, it is not a whole-handbook shortcut.
+Press comma to open the handbook, or use the Guide button beside the recipe search bar. The contextual item-guide shortcut is unbound by default.
 
 Open chat and enter <Color color="#F28CBD">/guidemec astropunk:handbook open</Color> to use the command entry point.
 

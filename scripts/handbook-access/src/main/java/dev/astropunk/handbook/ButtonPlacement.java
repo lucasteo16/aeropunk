@@ -15,7 +15,7 @@ final class ButtonPlacement {
 
     static Optional<Rect> findGuide(int screenWidth, int screenHeight, int width, Rect search, List<Rect> occupied) {
         if (search != null) {
-            var left = new Rect(search.x() - width - 4, search.y() + search.height() / 2 - 10, width, 20);
+            var left = new Rect(search.x() - width - 8, search.y() + search.height() / 2 - 10, width, 20);
             if (fits(left, screenWidth, screenHeight, occupied)) return Optional.of(left);
         }
         // Bounded bottom-first fallback when left adjacency is impossible or EMI is absent.

@@ -8,8 +8,8 @@ class HandbookDefaults(unittest.TestCase):
     def test_requested_pack_keybindings_are_unique_and_exact(self):
         lines = (ROOT / 'configureddefaults/options.txt').read_text().splitlines()
         for identifier, value in {
-            'key_key.astropunk_handbook_access.open': 'key.keyboard.period',
-            'key_key.guideme.guide': 'key.keyboard.comma',
+            'key_key.astropunk_handbook_access.open': 'key.keyboard.comma',
+            'key_key.guideme.guide': 'key.keyboard.unknown',
         }.items():
             matching = [line for line in lines if line.startswith(identifier + ':')]
             self.assertEqual(matching, [identifier + ':' + value])

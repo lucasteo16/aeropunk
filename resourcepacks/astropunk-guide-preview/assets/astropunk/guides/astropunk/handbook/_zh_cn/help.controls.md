@@ -23,9 +23,8 @@ navigation:
 | 入口 | 当前按键 |
 | --- | --- |
 | 打开手册 | <KeyBind id="key.astropunk_handbook_access.open" /> |
-| 物品指南 | <KeyBind id="key.guideme.guide" /> |
 
-物品指南是悬停物品的上下文帮助，并不是整本手册的快捷键。
+按逗号键打开手册，或点击配方搜索栏旁的指南按钮。物品上下文指南默认不绑定按键。
 
 若快捷键无法打开手册，可输入 <Color color="#F28CBD">/guidemec astropunk:handbook open</Color>。
 

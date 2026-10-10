@@ -1122,7 +1122,7 @@ hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "bff3b044a836d7e65311cd43125121759a25861555eb35d68b82a116f3a7d986"
+hash = "69726497fedec9622ae54cb4b202fff6dd6eef44953f3bedef2ca2a56e14a145"
 
 [[files]]
 file = "icon.png"
@@ -1205,7 +1205,7 @@ metafile = true
 
 [[files]]
 file = "mods/astropunk-handbook-access-1.0.0.jar"
-hash = "a34cccccb5672399edb92c4591f9a26dfc5317dc89b1db01f21ff922575fed77"
+hash = "7b03e513886b1a0f4f809fb9bd2376e1fe3be432918e45bbf8250c1fc07d339c"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
@@ -2793,11 +2793,11 @@ hash = "575ec6698f75691e73b8b8b80c7815b17b6f26cc0ac2f17e73b951e7e7c4f6c0"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.controls.md"
-hash = "0710eca3629dc03f6c2e9ed69a9bd67b0f7956cd78cb2450d87d406ef0541469"
+hash = "da35e83e41d056ae50d40efee13c26ad95eb3c81bb87a24cdff819b625f4792f"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.credits.md"
-hash = "9681c26869e7c5e481cc831e169de6e6e5ad41565b4b4d19cbec9273ea770dca"
+hash = "d72bc00965a4b86ff60d040d312e22c67b2f23a064b08432a507ced290cda2eb"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/help.handbook.md"
@@ -3245,11 +3245,11 @@ hash = "6ac5512271e9b5474af66f162ac92285f9e5b15cd05d6eee279669593613611a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.controls.md"
-hash = "62bb110576ce30580619f552027755ba0546f6b488a9ff3d35c44ff2588151de"
+hash = "71714113c996d924a24e4291fd093f67b31f31134027da138781e666fe305bac"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.credits.md"
-hash = "830e1ef59bdfe4451ccb7ae9e46edd9dfcb93a835675a2b685c25d740b8b42fb"
+hash = "94239f0ad429de138ae39275546b4ea9c278351bab53479c5bebb07deb0d9f28"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/help.handbook.md"

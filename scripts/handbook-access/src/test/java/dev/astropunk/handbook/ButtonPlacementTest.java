@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class ButtonPlacementTest {
     @Test void guideFitsImmediatelyLeftOfNativeSearch() {
         var search = new ButtonPlacement.Rect(350, 410, 160, 18);
-        // The current top-right placement is the regression.
+        // Reserve eight logical pixels to the right, independent of display scale.
         var button = ButtonPlacement.findGuide(900, 440, 48, search, List.of(search)).orElseThrow();
-        assertEquals(search.x() - 4, button.x() + button.width());
+        assertEquals(search.x() - 8, button.x() + button.width());
         assertEquals(search.y() + search.height() / 2, button.y() + button.height() / 2);
     }
 
@@ -17,7 +17,7 @@ class ButtonPlacementTest {
         for (var search : List.of(new ButtonPlacement.Rect(90, 173, 160, 18),
                 new ButtonPlacement.Rect(500, 410, 220, 18))) {
             var button = ButtonPlacement.findGuide(900, 440, 48, search, List.of(search)).orElseThrow();
-            assertEquals(search.x() - 4, button.x() + button.width());
+            assertEquals(search.x() - 8, button.x() + button.width());
             assertFalse(button.overlaps(search));
         }
     }
