@@ -16,8 +16,8 @@ import tempfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-ENGINE = ROOT / 'scripts/handbook-access/guideme-21.1.19.jar'
-JAVA = ROOT / 'scripts/handbook-access/toolchain/jdk-21.0.12.1+1/bin'
+ENGINE = Path(os.environ.get('GUIDEME_JAR', str(ROOT / 'scripts/handbook-access/guideme-21.1.19.jar')))
+JAVA = Path(os.environ.get('JAVA_HOME', str(ROOT / 'scripts/handbook-access/toolchain/jdk-21.0.12.1+1'))) / 'bin'
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
 STUBS = {
 'net/minecraft/resources/ResourceLocation.java': '''package net.minecraft.resources; public record ResourceLocation(String id) { public String toString(){return id;} }''',
