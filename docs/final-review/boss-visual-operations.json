@@ -1,0 +1,139 @@
+{
+  "scope": "adventure.bosses appearance images only",
+  "application_status": "Not applied to shared content or handbook pages. Ready for parent integration.",
+  "base_commit": "c69044dee347d4d655f8d4b69bc61b17847ab6d9",
+  "base_topic_sha256": {
+    "en_us": "90e5df704b73075d1be79345c5dc01a1532c853484fefbe7d05ce510cbab7ff2",
+    "zh_cn": "50d77ce8d1372e74e5e8ebdcb53d56e6db038535b1d27fa978a121b2bec3f815"
+  },
+  "operations": [
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "entity_identifier": "illagerinvasion:invoker",
+      "heading": "Invoker",
+      "resource": "images/final-boss-review-invoker.png",
+      "operation": "insert_after",
+      "after": "## Invoker\n\n",
+      "insert": "![Invoker](images/final-boss-review-invoker.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "entity_identifier": "illagerinvasion:invoker",
+      "heading": "祈灵师",
+      "resource": "images/final-boss-review-invoker.png",
+      "operation": "insert_after",
+      "after": "## 祈灵师\n\n",
+      "insert": "![祈灵师](images/final-boss-review-invoker.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "entity_identifier": "minecraft:wither",
+      "heading": "Wither",
+      "resource": "images/final-boss-review-wither.png",
+      "operation": "insert_after",
+      "after": "## Wither\n\n",
+      "insert": "![Wither](images/final-boss-review-wither.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "entity_identifier": "minecraft:wither",
+      "heading": "凋灵",
+      "resource": "images/final-boss-review-wither.png",
+      "operation": "insert_after",
+      "after": "## 凋灵\n\n",
+      "insert": "![凋灵](images/final-boss-review-wither.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "entity_identifier": "minecraft:ender_dragon",
+      "heading": "Ender Dragon",
+      "resource": "images/final-boss-review-ender-dragon.png",
+      "operation": "insert_after",
+      "after": "## Ender Dragon\n\n",
+      "insert": "![Ender Dragon](images/final-boss-review-ender-dragon.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "entity_identifier": "minecraft:ender_dragon",
+      "heading": "末影龙",
+      "resource": "images/final-boss-review-ender-dragon.png",
+      "operation": "insert_after",
+      "after": "## 末影龙\n\n",
+      "insert": "![末影龙](images/final-boss-review-ender-dragon.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "entity_identifier": "block_factorys_bosses:kraken",
+      "heading": "Kraken",
+      "resource": "images/final-boss-review-kraken.png",
+      "operation": "insert_after",
+      "after": "## Kraken\n\n",
+      "insert": "![Kraken](images/final-boss-review-kraken.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "entity_identifier": "block_factorys_bosses:kraken",
+      "heading": "海怪",
+      "resource": "images/final-boss-review-kraken.png",
+      "operation": "insert_after",
+      "after": "## 海怪\n\n",
+      "insert": "![海怪](images/final-boss-review-kraken.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "en_us",
+      "entity_identifier": "block_factorys_bosses:sandworm",
+      "heading": "Sandworm",
+      "resource": "images/final-boss-review-sandworm.png",
+      "operation": "replace_exact",
+      "old": "![Sandworm](images/nav-visual-block-factorys-bosses-sandworm.png)\n\n",
+      "new": "![Sandworm](images/final-boss-review-sandworm.png)\n\n"
+    },
+    {
+      "topic": "adventure.bosses",
+      "locale": "zh_cn",
+      "entity_identifier": "block_factorys_bosses:sandworm",
+      "heading": "巨型沙虫",
+      "resource": "images/final-boss-review-sandworm.png",
+      "operation": "replace_exact",
+      "old": "![巨型沙虫](images/nav-visual-block-factorys-bosses-sandworm.png)\n\n",
+      "new": "![巨型沙虫](images/final-boss-review-sandworm.png)\n\n"
+    }
+  ],
+  "summary": {
+    "unique_boss_images": 5,
+    "insertions": 8,
+    "replacements": 2,
+    "locales": [
+      "en_us",
+      "zh_cn"
+    ],
+    "current_illustrated_bosses": 13,
+    "expected_illustrated_bosses_after_application": 17
+  },
+  "apply_policy": "Apply exact operations to authoritative content, then rebuild through existing generator. Do not overwrite full topic snapshots. Anchors must match exactly once. Preserve gameplay prose and native item grids.",
+  "verification": {
+    "en_us": {
+      "boss_count": 17,
+      "illustrated_boss_count_after_operations": 17,
+      "non_image_prose_unchanged": true,
+      "all_image_resources_exist": true,
+      "operations_applied_in_memory_only": true
+    },
+    "zh_cn": {
+      "boss_count": 17,
+      "illustrated_boss_count_after_operations": 17,
+      "non_image_prose_unchanged": true,
+      "all_image_resources_exist": true,
+      "operations_applied_in_memory_only": true
+    }
+  }
+}

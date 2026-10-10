@@ -1,0 +1,1294 @@
+{
+  "mods/additional-rpg-jewelry.pw.toml": {
+    "en_us": "Adds jewelry for the additional More RPG Classes professions.",
+    "zh_cn": "为 More RPG Classes 的扩展职业增加首饰。"
+  },
+  "mods/advancement-plaques.pw.toml": {
+    "en_us": "Replaces advancement notifications with plaques.",
+    "zh_cn": "将进度通知替换为牌匾样式。"
+  },
+  "mods/aeroengine.pw.toml": {
+    "en_us": "Adds modular aircraft engines and flight control instruments to Create.",
+    "zh_cn": "为机械动力增加模块化航空发动机与飞行控制仪表。"
+  },
+  "mods/ai-improvements.pw.toml": {
+    "en_us": "Vanilla creature behavior optimization.",
+    "zh_cn": "优化原版生物行为处理。"
+  },
+  "mods/almanac.pw.toml": {
+    "en_us": "Shares loader-independent code and fixes item stacking issues caused by empty tags.",
+    "zh_cn": "共享跨加载器代码，并修复空标签导致的物品无法堆叠问题。"
+  },
+  "mods/amendments.pw.toml": {
+    "en_us": "Expands existing blocks with features such as potion-mixing cauldrons and wall-mounted lanterns.",
+    "zh_cn": "扩展已有方块功能，例如炼药锅混合药水与灯笼壁挂。"
+  },
+  "mods/apollib.pw.toml": {
+    "en_us": "Shared configuration and registry utilities.",
+    "zh_cn": "共享设置与注册工具。"
+  },
+  "mods/appleskin.pw.toml": {
+    "en_us": "Shows food hunger restoration and saturation in tooltips and the hunger display.",
+    "zh_cn": "在物品提示与饥饿条中显示食物恢复量及饱和度。"
+  },
+  "mods/archers-expansion.pw.toml": {
+    "en_us": "Adds archer subclasses with cold, status-inflicting and explosive arrow abilities.",
+    "zh_cn": "增加弓箭手分支职业，提供冰冻、施加状态效果与爆炸箭能力。"
+  },
+  "mods/archers.pw.toml": {
+    "en_us": "Adds an archer combat class built around bows and ranged abilities.",
+    "zh_cn": "增加围绕弓箭与远程能力设计的弓箭手职业。"
+  },
+  "mods/architectury-api.pw.toml": {
+    "en_us": "Shared cross-loader development interfaces.",
+    "zh_cn": "共享跨加载器开发接口。"
+  },
+  "mods/armor-model-api.pw.toml": {
+    "en_us": "Renders custom armor geometry through the vanilla armor pipeline.",
+    "zh_cn": "通过原版盔甲流程渲染自定义盔甲几何模型。"
+  },
+  "mods/armor-poser.pw.toml": {
+    "en_us": "Provides an interface for adjusting armor stand poses and properties.",
+    "zh_cn": "提供调整盔甲架姿势与属性的界面。"
+  },
+  "mods/armory-rpg-series.pw.toml": {
+    "en_us": "Adds class-oriented armor sets with set bonuses.",
+    "zh_cn": "增加面向不同职业的盔甲套装与套装加成。"
+  },
+  "mods/arsenal-rpg-series.pw.toml": {
+    "en_us": "Adds legendary weapons obtained through encounters rather than crafting.",
+    "zh_cn": "增加通过战斗遭遇而非合成获取的传奇武器。"
+  },
+  "mods/asynclogger.pw.toml": {
+    "en_us": "Asynchronous log processing.",
+    "zh_cn": "异步日志处理。"
+  },
+  "mods/asyncparticles.pw.toml": {
+    "en_us": "Particle processing and rendering optimization.",
+    "zh_cn": "优化粒子运算与渲染。"
+  },
+  "mods/athena-ctm.pw.toml": {
+    "en_us": "Provides cross-loader connected block texture support.",
+    "zh_cn": "提供跨加载器的方块连接纹理支持。"
+  },
+  "mods/attributefix.pw.toml": {
+    "en_us": "Removes built-in attribute limits that can restrict modded values.",
+    "zh_cn": "移除可能限制模组数值的内置属性上限。"
+  },
+  "mods/badoptimizations.pw.toml": {
+    "en_us": "Optimizations outside the main terrain renderer.",
+    "zh_cn": "优化主地形渲染器以外的处理。"
+  },
+  "mods/baguettelib.pw.toml": {
+    "en_us": "Death-handling and inventory-tracking support.",
+    "zh_cn": "死亡处理与物品栏追踪支持。"
+  },
+  "mods/balm.pw.toml": {
+    "en_us": "Shares loader-independent systems so dependent mods can run on multiple loaders.",
+    "zh_cn": "共享独立于加载器的系统，让依赖模组可用于多种加载器。"
+  },
+  "mods/bard-more-rpg-classes.pw.toml": {
+    "en_us": "Adds a bard class that supports allies through songs and ballads.",
+    "zh_cn": "增加以歌曲与歌谣支援队友的吟游诗人职业。"
+  },
+  "mods/bbrb.pw.toml": {
+    "en_us": "Improves blending between biome colors.",
+    "zh_cn": "改善生物群系颜色之间的混合。"
+  },
+  "mods/beautify-refoxed.pw.toml": {
+    "en_us": "Adds vanilla-styled decorative furnishings for homes and gardens.",
+    "zh_cn": "增加贴近原版风格的家居与庭院装饰。"
+  },
+  "mods/bellsandwhistles.pw.toml": {
+    "en_us": "Adds decorative details for Create trains and railway builds.",
+    "zh_cn": "为机械动力列车与铁路建筑增加装饰细节。"
+  },
+  "mods/berserker-rpg-class.pw.toml": {
+    "en_us": "Adds an axe-wielding berserker whose rage increases damage at low health.",
+    "zh_cn": "增加持斧狂战士，利用狂怒在低生命值时提高伤害。"
+  },
+  "mods/better-combat.pw.toml": {
+    "en_us": "Reworks melee attacks with weapon animations and a more fluid combat system.",
+    "zh_cn": "通过武器攻击动画与更流畅的攻击机制改进近战。"
+  },
+  "mods/better-modlist.pw.toml": {
+    "en_us": "Changes the mod list display and filtering.",
+    "zh_cn": "调整模组列表显示与筛选。"
+  },
+  "mods/betterdays.pw.toml": {
+    "en_us": "Customizes day and night duration and advances time while players sleep.",
+    "zh_cn": "自定义昼夜长度，并在玩家睡眠时加快时间流逝。"
+  },
+  "mods/betterf3.pw.toml": {
+    "en_us": "Reorganizes the debug information display.",
+    "zh_cn": "重新组织调试信息显示。"
+  },
+  "mods/bigsignwriter.pw.toml": {
+    "en_us": "Writes large characters and symbols across multiple lines of signs.",
+    "zh_cn": "在告示牌多行之间绘制大号文字与符号。"
+  },
+  "mods/blocks-bogies.pw.toml": {
+    "en_us": "Adds larger Create train bogies, including visible valve gear variants.",
+    "zh_cn": "增加更大的机械动力列车转向架，含带可见阀动机构的款式。"
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "en_us": "Provides shared serialization, data-pack features and debugging tools for dependent mods.",
+    "zh_cn": "为依赖模组提供共享数据序列化、数据包功能与调试工具。"
+  },
+  "mods/bossesrise.pw.toml": {
+    "en_us": "Adds challenging bosses with dedicated encounter structures.",
+    "zh_cn": "增加高难度首领与专属遭遇建筑。"
+  },
+  "mods/bundle-api.pw.toml": {
+    "en_us": "Provides larger bundles restricted to items selected by tags.",
+    "zh_cn": "提供更大容量的收纳袋，并用标签限定可收纳物品。"
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "en_us": "Chunk management and generation optimization.",
+    "zh_cn": "优化区块管理与生成。"
+  },
+  "mods/carry-on.pw.toml": {
+    "en_us": "Lets players pick up and carry supported containers and creatures.",
+    "zh_cn": "允许玩家抱起并搬运受支持的容器与生物。"
+  },
+  "mods/chipped-express.pw.toml": {
+    "en_us": "Makes Chipped decorative block recipes available through the stonecutter.",
+    "zh_cn": "让 Chipped 的装饰方块配方可在切石机中使用。"
+  },
+  "mods/chipped.pw.toml": {
+    "en_us": "Adds decorative block variants crafted at material-specific workbenches.",
+    "zh_cn": "增加装饰方块变体，并通过各类材料专用工作台制作。"
+  },
+  "mods/chunky.pw.toml": {
+    "en_us": "Generates terrain ahead of exploration.",
+    "zh_cn": "在探索前预先生成地形。"
+  },
+  "mods/cloth-config.pw.toml": {
+    "en_us": "Configuration screen library.",
+    "zh_cn": "设置界面库。"
+  },
+  "mods/clumps.pw.toml": {
+    "en_us": "Combines experience orbs to reduce separate orb processing.",
+    "zh_cn": "合并经验球，减少独立经验球的处理。"
+  },
+  "mods/collective.pw.toml": {
+    "en_us": "Provides shared functionality for Serilum's utility mods.",
+    "zh_cn": "为 Serilum 实用模组提供共享功能。"
+  },
+  "mods/combat-roll.pw.toml": {
+    "en_us": "Adds a dodge roll with related attributes and enchantments.",
+    "zh_cn": "增加闪避翻滚及相关属性与附魔。"
+  },
+  "mods/comforts.pw.toml": {
+    "en_us": "Adds sleeping bags and hammocks for resting without changing the respawn point.",
+    "zh_cn": "增加睡袋与吊床，让玩家休息而不改变重生点。"
+  },
+  "mods/configured-defaults.pw.toml": {
+    "en_us": "Supplies packaged defaults for missing files.",
+    "zh_cn": "为缺失文件提供整合包默认设置。"
+  },
+  "mods/connector.pw.toml": {
+    "en_us": "Compatibility layer for selected Fabric mods on NeoForge.",
+    "zh_cn": "让部分选定的 Fabric 模组在 NeoForge 上运行的兼容层。"
+  },
+  "mods/continuity.pw.toml": {
+    "en_us": "Supports connected block textures from resource packs.",
+    "zh_cn": "支持资源包的方块连接纹理。"
+  },
+  "mods/controlling.pw.toml": {
+    "en_us": "Adds searching and conflict filtering to the keybinding screen.",
+    "zh_cn": "为按键绑定界面增加搜索与冲突筛选。"
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "en_us": "Adds rain sounds for particular block surfaces.",
+    "zh_cn": "为特定方块表面增加雨声。"
+  },
+  "mods/copycats.pw.toml": {
+    "en_us": "Adds Create copycat building shapes that imitate other blocks' materials.",
+    "zh_cn": "增加可模仿其他方块材质的机械动力伪装建筑形状。"
+  },
+  "mods/corpse-x-curios-api-compat.pw.toml": {
+    "en_us": "Lets recovered corpse accessories return directly to their Curios equipment slots.",
+    "zh_cn": "让尸体中取回的饰品直接回到对应的 Curios 装备栏。"
+  },
+  "mods/corpse.pw.toml": {
+    "en_us": "Stores a dead player's inventory in a recoverable corpse.",
+    "zh_cn": "将死亡玩家的物品保存在可取回的尸体中。"
+  },
+  "mods/create-additional-logistics.pw.toml": {
+    "en_us": "Expands Create package handling with shop registers and improved factory stock controls.",
+    "zh_cn": "扩展机械动力包裹处理，增加商店收银设备并改进工厂库存控制。"
+  },
+  "mods/create-aeronautics-encased-fluid-pipes.pw.toml": {
+    "en_us": "Lets Aeronautics hot air envelopes encase Create fluid pipes.",
+    "zh_cn": "允许用 Aeronautics 热气囊包覆机械动力流体管道。"
+  },
+  "mods/create-aeronautics.pw.toml": {
+    "en_us": "Turns block-built vehicles into controllable physical moving structures.",
+    "zh_cn": "将方块搭建的载具变成可操控的物理移动结构。"
+  },
+  "mods/create-aerowarptics.pw.toml": {
+    "en_us": "Adds relocation tools for physical Aeronautics vehicles.",
+    "zh_cn": "增加用于转移 Aeronautics 物理载具的工具。"
+  },
+  "mods/create-aeroworks.pw.toml": {
+    "en_us": "Adds flight controls such as gyroscopes and joysticks for Aeronautics vehicles.",
+    "zh_cn": "为 Aeronautics 载具增加陀螺仪与操纵杆等飞行控制部件。"
+  },
+  "mods/create-ballast.pw.toml": {
+    "en_us": "Adds layered ballast blocks for adjusting vehicle mass and balance.",
+    "zh_cn": "增加可叠层压载方块，用于调整载具质量与平衡。"
+  },
+  "mods/create-big-cannons.pw.toml": {
+    "en_us": "Adds buildable large cannons and their ammunition to Create.",
+    "zh_cn": "为机械动力增加可组装的大炮与弹药。"
+  },
+  "mods/create-bits-n-bobs.pw.toml": {
+    "en_us": "Adds cogwheel chain drives and customizable industrial decoration to Create.",
+    "zh_cn": "为机械动力增加齿轮链传动与可自定义的工业装饰。"
+  },
+  "mods/create-central-kitchen.pw.toml": {
+    "en_us": "Connects other cooking mods to Create machines for automated food processing.",
+    "zh_cn": "将其他烹饪模组接入机械动力机器，实现食物自动加工。"
+  },
+  "mods/create-connected.pw.toml": {
+    "en_us": "Adds Create transmission components and flexible storage arrangements.",
+    "zh_cn": "为机械动力增加传动部件与更灵活的存储布置方式。"
+  },
+  "mods/create-deco.pw.toml": {
+    "en_us": "Adds Create-styled industrial decoration for factories and infrastructure.",
+    "zh_cn": "为工厂与基础设施增加机械动力风格的工业装饰。"
+  },
+  "mods/create-deep-seas.pw.toml": {
+    "en_us": "Adds marine vehicle components for Aeronautics boats and submarines.",
+    "zh_cn": "为 Aeronautics 船只与潜艇增加水上及水下航行部件。"
+  },
+  "mods/create-design-n-decor.pw.toml": {
+    "en_us": "Adds factory decoration blocks styled to match Create machinery.",
+    "zh_cn": "增加与机械动力机器风格相配的工厂装饰方块。"
+  },
+  "mods/create-dragons-plus.pw.toml": {
+    "en_us": "Adds bulk fan processing and fluid tank access tools, plus shared Create addon utilities.",
+    "zh_cn": "增加风扇批量加工与储液罐存取工具，并提供机械动力附加模组共享工具。"
+  },
+  "mods/create-electro-energetics.pw.toml": {
+    "en_us": "Adds electricity generation, transmission and powered machinery, including electric trains.",
+    "zh_cn": "增加发电、输配电与电动机器，包括电力列车。"
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "en_us": "Connects Create player animations to custom animated models.",
+    "zh_cn": "使机械动力玩家动画适配自定义动态模型。"
+  },
+  "mods/create-encased.pw.toml": {
+    "en_us": "Expands casing choices for Create shafts, cogwheels and pipes.",
+    "zh_cn": "扩展机械动力轴、齿轮与管道可用的机壳种类。"
+  },
+  "mods/create-enchantment-industry.pw.toml": {
+    "en_us": "Automates experience handling and enchanting with Create machinery.",
+    "zh_cn": "用机械动力机器自动处理经验与附魔。"
+  },
+  "mods/create-framed.pw.toml": {
+    "en_us": "Adds more framed glass variants for Create-style construction.",
+    "zh_cn": "增加用于机械动力风格建筑的框架玻璃变体。"
+  },
+  "mods/create-integrated-farming.pw.toml": {
+    "en_us": "Adds automatic crop harvesting, fishing nets and poultry production to Create.",
+    "zh_cn": "为机械动力增加自动收割、渔网与家禽产物自动收集。"
+  },
+  "mods/create-liquid-fuel.pw.toml": {
+    "en_us": "Lets Create blaze burners consume pumped liquid fuel.",
+    "zh_cn": "让机械动力烈焰人燃烧室使用泵入的液体燃料。"
+  },
+  "mods/create-molten-vents.pw.toml": {
+    "en_us": "Provides renewable Create ore-bearing stones through molten vents.",
+    "zh_cn": "通过熔融喷口提供可再生的机械动力含矿石材。"
+  },
+  "mods/create-more-girder.pw.toml": {
+    "en_us": "Adds structural girder variants for Create builds.",
+    "zh_cn": "为机械动力建筑增加结构梁变体。"
+  },
+  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
+    "en_us": "Connects Northstar space travel to Aeronautics physical vehicle transfers.",
+    "zh_cn": "将 Northstar 太空旅行与 Aeronautics 物理载具转移衔接。"
+  },
+  "mods/create-pattern-schematics.pw.toml": {
+    "en_us": "Repeats schematic patterns when building with Create schematics.",
+    "zh_cn": "让机械动力蓝图建造重复铺设指定图案。"
+  },
+  "mods/create-prismatic-shine.pw.toml": {
+    "en_us": "Adds glass and illuminated casings for Create machinery.",
+    "zh_cn": "为机械动力机器增加玻璃机壳与发光机壳。"
+  },
+  "mods/create-propulsion-simulated.pw.toml": {
+    "en_us": "Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles.",
+    "zh_cn": "增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。"
+  },
+  "mods/create-radars.pw.toml": {
+    "en_us": "Adds radar equipment to detect and track targets in Create builds.",
+    "zh_cn": "为机械动力建筑增加探测与追踪目标的雷达设备。"
+  },
+  "mods/create-railways-navigator.pw.toml": {
+    "en_us": "Adds train route search, passenger information displays and schedule features.",
+    "zh_cn": "增加列车路线搜索、乘客信息显示与时刻表功能。"
+  },
+  "mods/create-sable-dynamic-lights.pw.toml": {
+    "en_us": "Adds dynamic light support for lights on Create and Sable moving structures.",
+    "zh_cn": "为机械动力与 Sable 移动结构上的光源增加动态光照支持。"
+  },
+  "mods/create-shuffle-filter.pw.toml": {
+    "en_us": "Lets Create deployers place randomized blocks from a selected palette.",
+    "zh_cn": "让机械动力机械手从指定材料组中随机选块放置。"
+  },
+  "mods/create-springs.pw.toml": {
+    "en_us": "Stores rotational energy in springs for later use.",
+    "zh_cn": "将旋转动力存入弹簧，供之后释放使用。"
+  },
+  "mods/create-stam1o-tweaks.pw.toml": {
+    "en_us": "Adjusts Create recipes and lets diving boots counter levitation.",
+    "zh_cn": "调整机械动力配方，并让潜水靴抵消漂浮效果。"
+  },
+  "mods/create-steam-n-rails-1.21.1.pw.toml": {
+    "en_us": "Expands Create railways with additional track and train components.",
+    "zh_cn": "为机械动力铁路增加轨道与列车部件。"
+  },
+  "mods/create-stuff-additions.pw.toml": {
+    "en_us": "Adds Create-themed powered equipment and wearable tools.",
+    "zh_cn": "增加机械动力主题的动力装备与可穿戴工具。"
+  },
+  "mods/create-trading-floor.pw.toml": {
+    "en_us": "Automates villager trading through Create machinery.",
+    "zh_cn": "通过机械动力机器自动进行村民交易。"
+  },
+  "mods/create-tweaked-controllers.pw.toml": {
+    "en_us": "Adds advanced handheld controls for Create contraptions.",
+    "zh_cn": "为机械动力运动结构增加高级手持控制器。"
+  },
+  "mods/create-vibrant-vaults.pw.toml": {
+    "en_us": "Adds more color and material variants of Create item vaults.",
+    "zh_cn": "增加机械动力物品仓库的颜色与材料变体。"
+  },
+  "mods/create-waystones-recipes.pw.toml": {
+    "en_us": "Reworks Waystones recipes to use Create materials and crafting.",
+    "zh_cn": "修改 Waystones 配方，改用机械动力材料与制作方式。"
+  },
+  "mods/create.pw.toml": {
+    "en_us": "Adds rotational machines for processing, transport and automated construction.",
+    "zh_cn": "增加用于加工、运输与自动建造的旋转动力机器。"
+  },
+  "mods/create_oxidized.pw.toml": {
+    "en_us": "Adds Create processing recipes for oxidizing copper blocks.",
+    "zh_cn": "增加通过机械动力加工氧化铜方块的配方。"
+  },
+  "mods/createbetterfps.pw.toml": {
+    "en_us": "Create rendering optimization for shader use.",
+    "zh_cn": "优化使用光影时的机械动力渲染。"
+  },
+  "mods/createlazytick.pw.toml": {
+    "en_us": "Create machine tick optimization.",
+    "zh_cn": "优化机械动力机器的刻处理。"
+  },
+  "mods/creativecore.pw.toml": {
+    "en_us": "Provides shared interface, configuration and network systems for CreativeMD's mods.",
+    "zh_cn": "为 CreativeMD 模组提供共享界面、设置与网络系统。"
+  },
+  "mods/creeper-overhaul.pw.toml": {
+    "en_us": "Adds biome-specific creeper variants with distinct appearances and behavior.",
+    "zh_cn": "增加随生物群系变化、外观与行为各异的苦力怕变体。"
+  },
+  "mods/critical-strike.pw.toml": {
+    "en_us": "Adds chance-based critical hits to melee and ranged attacks.",
+    "zh_cn": "为近战与远程攻击增加概率触发的暴击。"
+  },
+  "mods/ct-overhaul-village.pw.toml": {
+    "en_us": "Redesigns villages and pillager outposts to fit different biomes.",
+    "zh_cn": "重新设计村庄与掠夺者前哨站，使其适合不同生物群系。"
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "en_us": "Provides borderless fullscreen windows.",
+    "zh_cn": "提供无边框全屏窗口。"
+  },
+  "mods/cull-leaves.pw.toml": {
+    "en_us": "Skips selected hidden leaf geometry.",
+    "zh_cn": "跳过部分不可见的树叶几何面。"
+  },
+  "mods/curios.pw.toml": {
+    "en_us": "Provides expandable equipment slots for wearable accessories.",
+    "zh_cn": "提供可扩展的饰品装备栏。"
+  },
+  "mods/dangerous.pw.toml": {
+    "en_us": "Adds configurable difficulty balancing for powerful modded player builds.",
+    "zh_cn": "提供可调整的难度平衡机制，适应强力的模组玩家装备与能力。"
+  },
+  "mods/decorative-food.pw.toml": {
+    "en_us": "Lets food items be placed in the world as decorations.",
+    "zh_cn": "让食物物品可摆放在世界中作为装饰。"
+  },
+  "mods/detail-armor-bar-reconstructed.pw.toml": {
+    "en_us": "Shows additional armor information in the armor status bar.",
+    "zh_cn": "在盔甲状态条中显示更多护甲信息。"
+  },
+  "mods/diagonal-fences.pw.toml": {
+    "en_us": "Lets fences connect diagonally for more flexible boundaries.",
+    "zh_cn": "让栅栏斜向连接，便于搭建更灵活的围栏。"
+  },
+  "mods/distanthorizons.pw.toml": {
+    "en_us": "Displays simplified terrain beyond ordinary render distance.",
+    "zh_cn": "在普通渲染距离之外显示简化地形。"
+  },
+  "mods/dragonlib.pw.toml": {
+    "en_us": "Provides cross-loader abstractions and shared systems for MisterJulsen's mods.",
+    "zh_cn": "为 MisterJulsen 模组提供跨加载器抽象层与共享系统。"
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "en_us": "Reduces resource use in the background or while idle.",
+    "zh_cn": "降低后台或空闲时的资源使用。"
+  },
+  "mods/easy-anvils.pw.toml": {
+    "en_us": "Improves anvil item storage and costs while removing escalating repair penalties.",
+    "zh_cn": "改进铁砧物品存放与费用，移除不断累积的维修惩罚。"
+  },
+  "mods/easy-shulker-boxes.pw.toml": {
+    "en_us": "Lets players browse and move shulker box contents directly from the inventory.",
+    "zh_cn": "让玩家直接在物品栏中查看与存取潜影盒内容。"
+  },
+  "mods/eating-animations.pw.toml": {
+    "en_us": "Animates eating.",
+    "zh_cn": "增加进食动画。"
+  },
+  "mods/elemental-wizards-rpg.pw.toml": {
+    "en_us": "Expands Wizards with earth, water and wind spellcasting subclasses.",
+    "zh_cn": "为 Wizards 增加大地、水与风元素施法分支职业。"
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "en_us": "Shared framework for EMF compatibility modules.",
+    "zh_cn": "EMF 兼容组件共享框架。"
+  },
+  "mods/emi-enchanting.pw.toml": {
+    "en_us": "Shows enchantment applicability and exclusions in EMI.",
+    "zh_cn": "在 EMI 中显示附魔适用物品与互斥关系。"
+  },
+  "mods/emi-loot.pw.toml": {
+    "en_us": "Shows chest, block and creature loot sources in EMI.",
+    "zh_cn": "在 EMI 中显示箱子、方块与生物的战利品来源。"
+  },
+  "mods/emi-professions-(emip).pw.toml": {
+    "en_us": "Shows villager profession workstations in EMI.",
+    "zh_cn": "在 EMI 中显示村民职业对应的工作站。"
+  },
+  "mods/emi.pw.toml": {
+    "en_us": "Provides searchable items, recipes, uses and crafting trees.",
+    "zh_cn": "提供物品搜索、配方查询、用途查询与合成树。"
+  },
+  "mods/enderman-overhaul.pw.toml": {
+    "en_us": "Adds enderman variants with distinctive models, sounds and animations.",
+    "zh_cn": "增加具有独特模型、声音与动画的末影人变体。"
+  },
+  "mods/ends-delight.pw.toml": {
+    "en_us": "Adds End-themed ingredients and dishes to Farmer's Delight.",
+    "zh_cn": "为 Farmer's Delight 增加末地主题的食材与菜肴。"
+  },
+  "mods/entity-model-features.pw.toml": {
+    "en_us": "Loads custom entity models from compatible resource packs.",
+    "zh_cn": "加载兼容资源包中的自定义实体模型。"
+  },
+  "mods/entityculling.pw.toml": {
+    "en_us": "Avoids rendering hidden entities and block entities.",
+    "zh_cn": "避免渲染被遮挡的实体与方块实体。"
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "en_us": "Supports random, custom and emissive entity textures.",
+    "zh_cn": "支持随机、自定义与发光实体纹理。"
+  },
+  "mods/escalated.pw.toml": {
+    "en_us": "Adds rotation-powered escalators for Create buildings.",
+    "zh_cn": "为机械动力建筑增加旋转动力驱动的自动扶梯。"
+  },
+  "mods/every-compat.pw.toml": {
+    "en_us": "Creates supported building and furniture variants using other mods' wood types.",
+    "zh_cn": "用其他模组的木材种类补齐受支持的建筑与家具变体。"
+  },
+  "mods/explorers-compass.pw.toml": {
+    "en_us": "Locates structures, including supported modded structures.",
+    "zh_cn": "定位结构，包括受支持的模组结构。"
+  },
+  "mods/explosive-enhancement-forge.pw.toml": {
+    "en_us": "Changes explosion animation effects.",
+    "zh_cn": "改变爆炸动画效果。"
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "en_us": "Lets the client selectively quiet unwanted sounds.",
+    "zh_cn": "允许客户端选择性降低不想听到的声音。"
+  },
+  "mods/farmers-delight.pw.toml": {
+    "en_us": "Adds crops, cooking utensils and meal preparation with cutting boards and cooking pots.",
+    "zh_cn": "增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。"
+  },
+  "mods/ferrite-core.pw.toml": {
+    "en_us": "Reduces memory use.",
+    "zh_cn": "减少内存占用。"
+  },
+  "mods/flerovium.pw.toml": {
+    "en_us": "Optimizes item, particle and entity rendering.",
+    "zh_cn": "优化物品、粒子与实体渲染。"
+  },
+  "mods/forcemaster-rpg-class.pw.toml": {
+    "en_us": "Adds a knuckle-wielding martial class that strengthens attacks with arcane force.",
+    "zh_cn": "增加使用拳套的武术职业，以奥术力量强化攻击。"
+  },
+  "mods/forgematica.pw.toml": {
+    "en_us": "Displays building schematics to guide block placement and construction.",
+    "zh_cn": "显示建筑蓝图，辅助方块摆放与施工。"
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "en_us": "Fabric interfaces implemented on NeoForge.",
+    "zh_cn": "在 NeoForge 上实现的 Fabric 接口。"
+  },
+  "mods/freecam.pw.toml": {
+    "en_us": "Provides a detached viewing camera.",
+    "zh_cn": "提供独立观察镜头。"
+  },
+  "mods/friends-and-foes-forge.pw.toml": {
+    "en_us": "Adds expanded versions of creatures omitted from Minecraft mob votes.",
+    "zh_cn": "加入生物投票中落选或未实现的生物，并扩展其功能。"
+  },
+  "mods/fwa.pw.toml": {
+    "en_us": "Animates interactive blocks such as doors and levers.",
+    "zh_cn": "为门、拉杆等可交互方块增加动画。"
+  },
+  "mods/fzzy-config.pw.toml": {
+    "en_us": "Configuration, validation and synchronization support.",
+    "zh_cn": "设置、校验与同步支持。"
+  },
+  "mods/gazebos.pw.toml": {
+    "en_us": "Adds village gazebos containing small spell libraries.",
+    "zh_cn": "增加藏有小型法术图书馆的村庄凉亭。"
+  },
+  "mods/geckolib.pw.toml": {
+    "en_us": "Animation library for entities, blocks, items and armor.",
+    "zh_cn": "实体、方块、物品与盔甲动画库。"
+  },
+  "mods/gml.pw.toml": {
+    "en_us": "Groovy language provider.",
+    "zh_cn": "Groovy 语言支持。"
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "en_us": "Adds a cinematic camera transition during teleportation.",
+    "zh_cn": "为传送增加电影式镜头过渡。"
+  },
+  "mods/handcrafted.pw.toml": {
+    "en_us": "Adds detailed furniture and household decorations.",
+    "zh_cn": "增加细致的家具与家居装饰。"
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "en_us": "Hides the experimental-world warning.",
+    "zh_cn": "隐藏实验性世界警告。"
+  },
+  "mods/hypertube.pw.toml": {
+    "en_us": "Adds tube transport for moving players around Create builds.",
+    "zh_cn": "增加管道交通，让玩家在机械动力建筑之间穿行。"
+  },
+  "mods/ibo.pw.toml": {
+    "en_us": "Keeps Incendium terrain and biomes while removing its structures, creatures and items.",
+    "zh_cn": "保留 Incendium 地形与生物群系，移除其建筑、生物与物品内容。"
+  },
+  "mods/iceberg.pw.toml": {
+    "en_us": "Provides extra events and utility functions for dependent mods.",
+    "zh_cn": "为依赖模组提供额外事件与工具函数。"
+  },
+  "mods/illager-invasion.pw.toml": {
+    "en_us": "Adds new illager enemies and related encounters.",
+    "zh_cn": "增加新的灾厄村民敌人与相关遭遇内容。"
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "en_us": "Optimizes immediate-mode rendering.",
+    "zh_cn": "优化即时模式渲染。"
+  },
+  "mods/immersive-paintings.pw.toml": {
+    "en_us": "Imports images as placeable paintings, including on multiplayer servers.",
+    "zh_cn": "将图片导入为可摆放的画作，也支持多人服务器。"
+  },
+  "mods/incendium.pw.toml": {
+    "en_us": "Overhauls Nether biomes and adds structures, enemies and unique equipment.",
+    "zh_cn": "重塑下界生物群系，并增加建筑、敌人与独特装备。"
+  },
+  "mods/interactic-renewed.pw.toml": {
+    "en_us": "Improves interaction with dropped items in the world.",
+    "zh_cn": "改进玩家与世界中掉落物品的交互方式。"
+  },
+  "mods/interiors.pw.toml": {
+    "en_us": "Adds Create-styled furniture for train interiors and other builds.",
+    "zh_cn": "增加适合列车内饰与其他建筑的机械动力风格家具。"
+  },
+  "mods/iris.pw.toml": {
+    "en_us": "Loads shader packs.",
+    "zh_cn": "加载光影包。"
+  },
+  "mods/items-displayed-forge.pw.toml": {
+    "en_us": "Lets players place inventory items in the world for display.",
+    "zh_cn": "让玩家将物品栏中的物品摆放在世界中展示。"
+  },
+  "mods/ixeris.pw.toml": {
+    "en_us": "Buffered raw input and threaded event polling.",
+    "zh_cn": "提供缓冲原始输入与独立线程事件轮询。"
+  },
+  "mods/jade-addons-forge.pw.toml": {
+    "en_us": "Adds mod-specific information support to Jade's inspection overlay.",
+    "zh_cn": "为 Jade 观察提示增加其他模组的专属信息支持。"
+  },
+  "mods/jade.pw.toml": {
+    "en_us": "Shows information about the block or creature being looked at.",
+    "zh_cn": "显示当前观察的方块或生物的信息。"
+  },
+  "mods/jamlib.pw.toml": {
+    "en_us": "Provides platform abstractions and configuration support for JamCore mods.",
+    "zh_cn": "为 JamCore 模组提供平台抽象层与设置支持。"
+  },
+  "mods/jasione.pw.toml": {
+    "en_us": "Reduces repeated enumeration-array allocations.",
+    "zh_cn": "减少重复的枚举数组分配。"
+  },
+  "mods/jewelry.pw.toml": {
+    "en_us": "Adds mineable gems and craftable jewelry that improves combat attributes.",
+    "zh_cn": "增加可开采宝石与可制作首饰，用于提升战斗属性。"
+  },
+  "mods/kerria-opt.pw.toml": {
+    "en_us": "Accelerates animated texture processing.",
+    "zh_cn": "加速动态纹理处理。"
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "en_us": "Kotlin language provider and utilities.",
+    "zh_cn": "Kotlin 语言支持与工具。"
+  },
+  "mods/l_enders-cataclysm-delight.pw.toml": {
+    "en_us": "Turns Cataclysm ingredients into Farmer's Delight-style dishes.",
+    "zh_cn": "将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。"
+  },
+  "mods/l_enders-cataclysm.pw.toml": {
+    "en_us": "Adds dangerous dungeons, challenging bosses and powerful equipment rewards.",
+    "zh_cn": "增加危险地下城、高难度首领与强力装备奖励。"
+  },
+  "mods/leaves-be-gone.pw.toml": {
+    "en_us": "Makes unsupported leaves decay quickly after trees are cut.",
+    "zh_cn": "让树木被砍后失去支撑的树叶快速凋落。"
+  },
+  "mods/lighty.pw.toml": {
+    "en_us": "Overlays light levels to help find dark areas and spawnable surfaces.",
+    "zh_cn": "叠加显示光照等级，帮助寻找暗处与可生成生物的地面。"
+  },
+  "mods/lionfish-api.pw.toml": {
+    "en_us": "Provides lightweight animation support for dependent mods.",
+    "zh_cn": "为依赖模组提供轻量动画支持。"
+  },
+  "mods/lithium.pw.toml": {
+    "en_us": "Optimizes game logic in single-player and servers.",
+    "zh_cn": "优化单人游戏与服务器的游戏逻辑。"
+  },
+  "mods/lithostitched.pw.toml": {
+    "en_us": "World-generation configuration and compatibility support.",
+    "zh_cn": "世界生成设置与兼容支持。"
+  },
+  "mods/lmd.pw.toml": {
+    "en_us": "Adjusts creature despawn rules to reduce unintended persistent creatures.",
+    "zh_cn": "调整生物消失规则，减少意外永久保留的生物。"
+  },
+  "mods/lodestonelib.pw.toml": {
+    "en_us": "Shared rendering and feature code for dependent mods.",
+    "zh_cn": "依赖模组使用的共享渲染与功能代码。"
+  },
+  "mods/lootr.pw.toml": {
+    "en_us": "Gives each player separate loot in supported world-generated containers.",
+    "zh_cn": "让每位玩家在受支持的世界生成容器中获得独立战利品。"
+  },
+  "mods/macaws-bridges.pw.toml": {
+    "en_us": "Adds bridge building pieces for paths across gaps and water.",
+    "zh_cn": "增加桥梁建筑部件，用于跨越空隙与水面。"
+  },
+  "mods/macaws-doors.pw.toml": {
+    "en_us": "Adds door designs and expands available wood variants.",
+    "zh_cn": "增加门的样式，并扩展可用木材变体。"
+  },
+  "mods/macaws-fences-and-walls.pw.toml": {
+    "en_us": "Adds decorative fences, walls and gates for building boundaries.",
+    "zh_cn": "增加用于建筑围界的装饰栅栏、墙与门。"
+  },
+  "mods/macaws-roofs.pw.toml": {
+    "en_us": "Adds dedicated roof blocks instead of relying on stair-shaped roofs.",
+    "zh_cn": "增加专用屋顶方块，无需只用楼梯搭屋顶。"
+  },
+  "mods/macaws-stairs.pw.toml": {
+    "en_us": "Adds building stairs and matching handrails and balcony pieces.",
+    "zh_cn": "增加建筑楼梯及配套扶手与阳台部件。"
+  },
+  "mods/macaws-windows.pw.toml": {
+    "en_us": "Adds window designs and matching shutters, blinds and curtains.",
+    "zh_cn": "增加窗户样式与配套百叶窗、遮帘及窗帘。"
+  },
+  "mods/mafglib.pw.toml": {
+    "en_us": "Shared code for Forge ports of masa's mods.",
+    "zh_cn": "masa 模组 Forge 移植版使用的共享代码。"
+  },
+  "mods/mech-trowel.pw.toml": {
+    "en_us": "Places randomized blocks from custom palettes and supports building-wand placement.",
+    "zh_cn": "从自定义材料组随机放置方块，并支持建筑魔杖式摆放。"
+  },
+  "mods/midnightlib.pw.toml": {
+    "en_us": "Lightweight configuration system.",
+    "zh_cn": "轻量设置系统。"
+  },
+  "mods/miners-delight.pw.toml": {
+    "en_us": "Adds mining-themed food and cooking tools to Farmer's Delight.",
+    "zh_cn": "为 Farmer's Delight 增加采矿主题的食物与烹饪工具。"
+  },
+  "mods/modelfix.pw.toml": {
+    "en_us": "Repairs gaps in block and item models.",
+    "zh_cn": "修复方块与物品模型的缝隙。"
+  },
+  "mods/modernfix.pw.toml": {
+    "en_us": "Performance, memory and bug-fix changes.",
+    "zh_cn": "提供性能、内存与错误修复改进。"
+  },
+  "mods/moonlight.pw.toml": {
+    "en_us": "Shared registration and dynamic content utilities.",
+    "zh_cn": "共享注册与动态内容工具。"
+  },
+  "mods/more-relics-rpg.pw.toml": {
+    "en_us": "Adds Relics accessories for the additional More RPG Classes professions.",
+    "zh_cn": "为 More RPG Classes 的扩展职业增加 Relics 饰品。"
+  },
+  "mods/more-rpg-classes-skill-tree.pw.toml": {
+    "en_us": "Adds class skill-tree support for the additional More RPG Classes professions.",
+    "zh_cn": "为 More RPG Classes 的扩展职业增加职业技能树支持。"
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "en_us": "Provides shared attributes and status effects for More RPG class addons.",
+    "zh_cn": "为 More RPG 职业附加模组提供共享属性与状态效果。"
+  },
+  "mods/more-sounds.pw.toml": {
+    "en_us": "Adds sound content and mod compatibility to Sounds.",
+    "zh_cn": "为 Sounds 增加声音内容与模组兼容。"
+  },
+  "mods/moreculling.pw.toml": {
+    "en_us": "Skips selected hidden rendering faces.",
+    "zh_cn": "跳过部分不可见的渲染面。"
+  },
+  "mods/mouse-tweaks.pw.toml": {
+    "en_us": "Adds mouse-drag and scrolling shortcuts for moving inventory stacks.",
+    "zh_cn": "增加鼠标拖动与滚轮快捷操作，便于移动物品栏中的物品堆。"
+  },
+  "mods/mru.pw.toml": {
+    "en_us": "Shares cross-version utilities used by Cassian and IMB11's mods.",
+    "zh_cn": "共享 Cassian 与 IMB11 模组使用的跨版本工具。"
+  },
+  "mods/my-nethers-delight.pw.toml": {
+    "en_us": "Adds Nether crops, ingredients and cooking recipes to Farmer's Delight.",
+    "zh_cn": "为 Farmer's Delight 增加下界作物、食材与烹饪配方。"
+  },
+  "mods/natures-compass.pw.toml": {
+    "en_us": "Locates biomes, including supported modded biomes.",
+    "zh_cn": "定位生物群系，包括受支持的模组生物群系。"
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "en_us": "Repairs vanilla bee behavior.",
+    "zh_cn": "修复原版蜜蜂行为。"
+  },
+  "mods/netherportalfix.pw.toml": {
+    "en_us": "Corrects return destinations when players travel through Nether portals.",
+    "zh_cn": "修正玩家往返下界传送门时的返回目的地。"
+  },
+  "mods/northstar-redux.pw.toml": {
+    "en_us": "Adds space destinations and Create-based equipment for exploring them.",
+    "zh_cn": "增加太空目的地与用于探索的机械动力设备。"
+  },
+  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
+    "en_us": "Bridges Northstar sky rendering with shaders, distant terrain and Sable structures.",
+    "zh_cn": "衔接 Northstar 天空渲染、光影、远景与 Sable 移动结构。"
+  },
+  "mods/not-enough-animations-emf-compat.pw.toml": {
+    "en_us": "Adapts Not Enough Animations player actions to custom Entity Model Features models.",
+    "zh_cn": "让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。"
+  },
+  "mods/not-enough-animations.pw.toml": {
+    "en_us": "Shows more player actions in third-person.",
+    "zh_cn": "在第三人称显示更多玩家动作。"
+  },
+  "mods/nullscape.pw.toml": {
+    "en_us": "Reshapes the End with alien terrain and additional biomes.",
+    "zh_cn": "以异域地形与新增生物群系重塑末地。"
+  },
+  "mods/observable.pw.toml": {
+    "en_us": "Identifies expensive server processing.",
+    "zh_cn": "用于定位服务器耗时处理。"
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "en_us": "Provides adjustable camera zoom.",
+    "zh_cn": "提供可调整的镜头缩放。"
+  },
+  "mods/owo-lib.pw.toml": {
+    "en_us": "General utilities, interfaces and configuration support.",
+    "zh_cn": "通用工具、界面与设置支持。"
+  },
+  "mods/paladins-and-priests.pw.toml": {
+    "en_us": "Adds paladin and priest classes focused on protection and healing.",
+    "zh_cn": "增加专注防护与治疗的圣骑士及牧师职业。"
+  },
+  "mods/particle-effects.pw.toml": {
+    "en_us": "Gives vanilla status effects distinct textured particles.",
+    "zh_cn": "为原版状态效果提供不同纹理的粒子。"
+  },
+  "mods/particular-reforged.pw.toml": {
+    "en_us": "Adds ambient visual effects.",
+    "zh_cn": "增加环境视觉效果。"
+  },
+  "mods/paxi.pw.toml": {
+    "en_us": "Automatic data-pack and resource-pack loading.",
+    "zh_cn": "自动加载数据包与资源包。"
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "en_us": "Adds surface-sensitive footstep sounds.",
+    "zh_cn": "增加随踩踏表面变化的脚步声。"
+  },
+  "mods/placebo.pw.toml": {
+    "en_us": "Provides shared code required by Shadows' mods without adding standalone gameplay.",
+    "zh_cn": "提供 Shadows 模组所需的共享代码，不增加独立玩法。"
+  },
+  "mods/playeranimator.pw.toml": {
+    "en_us": "Player animation library.",
+    "zh_cn": "玩家动画库。"
+  },
+  "mods/polymorph.pw.toml": {
+    "en_us": "Lets players choose the output when crafting recipes conflict.",
+    "zh_cn": "合成配方冲突时允许玩家选择产物。"
+  },
+  "mods/polytone.pw.toml": {
+    "en_us": "Supports resource-pack colors, colormaps and block sound customization.",
+    "zh_cn": "支持资源包颜色、颜色映射与方块声音自定义。"
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "en_us": "Extends Presence Footsteps to Sable moving structures.",
+    "zh_cn": "让 Presence Footsteps 适配 Sable 移动结构。"
+  },
+  "mods/prickle.pw.toml": {
+    "en_us": "Provides structured configuration file handling for dependent mods.",
+    "zh_cn": "为依赖模组提供结构化设置文件处理。"
+  },
+  "mods/progresspeek.pw.toml": {
+    "en_us": "Shows loading progress on the desktop taskbar.",
+    "zh_cn": "在桌面任务栏显示加载进度。"
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "en_us": "Provides shared support systems required by Fuzss' mods.",
+    "zh_cn": "提供 Fuzss 模组所需的共享支持系统。"
+  },
+  "mods/quick-pack.pw.toml": {
+    "en_us": "Accelerates compressed data-pack and resource-pack loading.",
+    "zh_cn": "加速压缩数据包与资源包加载。"
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "en_us": "Bow and crossbow development support.",
+    "zh_cn": "弓与弩开发支持。"
+  },
+  "mods/reconnectible-chains.pw.toml": {
+    "en_us": "Connects fences and walls with decorative hanging chains.",
+    "zh_cn": "用装饰性悬挂铁链连接栅栏与墙。"
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "en_us": "Reorganizes Sodium video options.",
+    "zh_cn": "重新组织 Sodium 视频选项。"
+  },
+  "mods/reinforced-shulker-boxes.pw.toml": {
+    "en_us": "Adds upgraded shulker boxes with larger storage capacity.",
+    "zh_cn": "增加存储容量更大的升级潜影盒。"
+  },
+  "mods/reliable-advancements.pw.toml": {
+    "en_us": "Improves advancement browsing and supports editing advancements in game.",
+    "zh_cn": "改进进度浏览，并支持在游戏内编辑进度。"
+  },
+  "mods/reliable-emi.pw.toml": {
+    "en_us": "Adds configurable usability features to EMI's item and recipe browser.",
+    "zh_cn": "为 EMI 物品与配方浏览器增加可调整的便利功能。"
+  },
+  "mods/relics-rpg.pw.toml": {
+    "en_us": "Adds combat-enhancing trinkets for RPG Series character builds.",
+    "zh_cn": "为 RPG Series 角色搭配增加强化战斗能力的饰品。"
+  },
+  "mods/resourceful-config.pw.toml": {
+    "en_us": "Provides cross-platform configuration files and settings interfaces.",
+    "zh_cn": "提供跨平台设置文件与设置界面。"
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "en_us": "Provides shared networking, data encoding and interface utilities for dependent mods.",
+    "zh_cn": "为依赖模组提供共享网络通信、数据编码与界面工具。"
+  },
+  "mods/rightclickharvest.pw.toml": {
+    "en_us": "Harvests mature crops with a right click instead of breaking and replanting manually.",
+    "zh_cn": "右键即可收获成熟作物，无需手动破坏再补种。"
+  },
+  "mods/ripple.pw.toml": {
+    "en_us": "Makes particles respond to entities.",
+    "zh_cn": "让粒子对实体作出反应。"
+  },
+  "mods/rogues-and-warriors.pw.toml": {
+    "en_us": "Adds rogue and warrior classes with distinct melee combat abilities.",
+    "zh_cn": "增加拥有不同近战能力的游荡者与战士职业。"
+  },
+  "mods/rpl.pw.toml": {
+    "en_us": "Supports long-range projectile synchronization and projectile chunk loading.",
+    "zh_cn": "提供远程弹射物同步与弹射物区块加载支持。"
+  },
+  "mods/runes.pw.toml": {
+    "en_us": "Adds craftable runes consumed as ammunition for spells.",
+    "zh_cn": "增加可制作的符文，作为施法消耗的弹药。"
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "en_us": "Extends rain sounds to Sable moving structures and supported copycat materials.",
+    "zh_cn": "将雨声扩展到 Sable 移动结构与受支持的伪装材质。"
+  },
+  "mods/sable.pw.toml": {
+    "en_us": "Framework for interactive moving block structures.",
+    "zh_cn": "可交互移动方块结构框架。"
+  },
+  "mods/sable_beyond.pw.toml": {
+    "en_us": "Extends Sable with Create machine interactions and configurable mass and fluid physics.",
+    "zh_cn": "为 Sable 扩展机械动力机器交互及可调整的质量与流体物理机制。"
+  },
+  "mods/sablecompat.pw.toml": {
+    "en_us": "Adds physics property tags to supported modded blocks.",
+    "zh_cn": "为受支持的模组方块补充物理属性标签。"
+  },
+  "mods/searchables.pw.toml": {
+    "en_us": "Search, filtering and completion support for interfaces.",
+    "zh_cn": "界面搜索、筛选与补全支持。"
+  },
+  "mods/servercore.pw.toml": {
+    "en_us": "Optimizes server chunk ticking and creature spawning, with configurable workload controls.",
+    "zh_cn": "优化服务器区块刻处理与生物生成，并提供可调整的负载控制。"
+  },
+  "mods/shield-api.pw.toml": {
+    "en_us": "Custom shield model support.",
+    "zh_cn": "自定义盾牌模型支持。"
+  },
+  "mods/short-stacks.pw.toml": {
+    "en_us": "Changes food stack limits to alter how much food fits in each inventory slot.",
+    "zh_cn": "调整食物堆叠上限，改变每格物品栏可携带的食物数量。"
+  },
+  "mods/shulker-drops-two.pw.toml": {
+    "en_us": "Changes shulker shell drop counts and chances, including two-shell drops.",
+    "zh_cn": "调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。"
+  },
+  "mods/skill-tree.pw.toml": {
+    "en_us": "Adds class-oriented skill trees for RPG Series characters.",
+    "zh_cn": "为 RPG Series 角色增加职业技能树。"
+  },
+  "mods/skills.pw.toml": {
+    "en_us": "Provides a configurable skill system and skill-tree interface.",
+    "zh_cn": "提供可自定义的技能系统与技能树界面。"
+  },
+  "mods/slice-and-dice.pw.toml": {
+    "en_us": "Adds Create machinery for automated Farmer's Delight food preparation.",
+    "zh_cn": "增加自动进行 Farmer's Delight 食材处理的机械动力机器。"
+  },
+  "mods/smarter-farmers-farmers-replant.pw.toml": {
+    "en_us": "Helps farmer villagers replant the correct crops, including supported modded seeds.",
+    "zh_cn": "让农民村民正确补种作物，也支持部分模组种子。"
+  },
+  "mods/sodium-dynamic-lights.pw.toml": {
+    "en_us": "Provides dynamic lighting with Sodium settings integration.",
+    "zh_cn": "提供动态光源与 Sodium 设置整合。"
+  },
+  "mods/sodium-extra.pw.toml": {
+    "en_us": "Adds appearance, particle, animation and display controls.",
+    "zh_cn": "增加外观、粒子、动画与信息显示控制。"
+  },
+  "mods/sodium.pw.toml": {
+    "en_us": "Replaces the terrain rendering engine.",
+    "zh_cn": "替换地形渲染引擎。"
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "en_us": "Provides shared systems used by Sophisticated inventory and storage mods.",
+    "zh_cn": "为 Sophisticated 物品栏与存储模组提供共享系统。"
+  },
+  "mods/sophisticated-inventory-interactions.pw.toml": {
+    "en_us": "Adds sorting, searching and transfer controls to supported inventory screens.",
+    "zh_cn": "为受支持的物品栏界面增加整理、搜索与转移操作。"
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "en_us": "Adds sound attenuation, reverberation and absorption through blocks.",
+    "zh_cn": "增加声音衰减、混响与方块吸音。"
+  },
+  "mods/sound.pw.toml": {
+    "en_us": "Adds sounds for interfaces, items, blocks and other interactions.",
+    "zh_cn": "为界面、物品、方块及其他交互增加音效。"
+  },
+  "mods/spark.pw.toml": {
+    "en_us": "Profiles client and server performance.",
+    "zh_cn": "分析客户端与服务器性能。"
+  },
+  "mods/spawn-animations-compats.pw.toml": {
+    "en_us": "Extends Spawn Animations compatibility to supported modded creatures.",
+    "zh_cn": "让 Spawn Animations 的生成动画适配受支持的模组生物。"
+  },
+  "mods/spawn-animations.pw.toml": {
+    "en_us": "Animates hostile creature spawning.",
+    "zh_cn": "为敌对生物生成增加动画。"
+  },
+  "mods/spawn-mod.pw.toml": {
+    "en_us": "Expands Overworld wilderness with animals, biomes and ambient life.",
+    "zh_cn": "通过动物、生物群系与环境生态扩展主世界荒野。"
+  },
+  "mods/spell-engine.pw.toml": {
+    "en_us": "Data-driven spell framework.",
+    "zh_cn": "数据驱动法术框架。"
+  },
+  "mods/spell-power.pw.toml": {
+    "en_us": "Spell-related attributes, effects and enchantment support.",
+    "zh_cn": "法术相关属性、效果与附魔支持。"
+  },
+  "mods/spice-of-life-onion.pw.toml": {
+    "en_us": "Rewards dietary variety using a rolling history of recently eaten foods.",
+    "zh_cn": "根据近期饮食的滚动记录奖励食物多样性。"
+  },
+  "mods/status-effect-bars-reforged.pw.toml": {
+    "en_us": "Shows remaining status-effect duration with customizable bars.",
+    "zh_cn": "以可自定义进度条显示状态效果剩余时间。"
+  },
+  "mods/stone-zone.pw.toml": {
+    "en_us": "Creates supported decorative block variants from other mods' stone types.",
+    "zh_cn": "用其他模组的石材种类补齐受支持的装饰方块变体。"
+  },
+  "mods/straw-statues.pw.toml": {
+    "en_us": "Adds poseable player-look statues for decorating builds.",
+    "zh_cn": "增加可调整姿势的玩家外观雕像，用于建筑装饰。"
+  },
+  "mods/streams-reflowing.pw.toml": {
+    "en_us": "Generates flowing streams in world terrain.",
+    "zh_cn": "在世界地形中生成流动的溪流。"
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "en_us": "Optimizes jigsaw structure layout processing.",
+    "zh_cn": "优化拼图结构布局处理。"
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "en_us": "Structure pool injection support.",
+    "zh_cn": "结构池扩展支持。"
+  },
+  "mods/stylish-effects.pw.toml": {
+    "en_us": "Reorganizes status-effect displays into compact, configurable interface layouts.",
+    "zh_cn": "将状态效果显示整理成紧凑且可调整的界面布局。"
+  },
+  "mods/supplementaries.pw.toml": {
+    "en_us": "Adds practical decorations and utility blocks for building, storage and automation.",
+    "zh_cn": "增加用于建筑、存储与自动化的实用装饰及功能方块。"
+  },
+  "mods/teallib.pw.toml": {
+    "en_us": "Provides shared animation and data-driven creature variant systems.",
+    "zh_cn": "提供共享动画与数据驱动的生物变体系统。"
+  },
+  "mods/team-capes.pw.toml": {
+    "en_us": "Shows capes colored to match players' vanilla teams.",
+    "zh_cn": "显示与玩家原版队伍颜色一致的披风。"
+  },
+  "mods/tectonic.pw.toml": {
+    "en_us": "Reshapes terrain with larger mountains and varied landforms.",
+    "zh_cn": "通过更高大的山脉与多样地貌重塑地形。"
+  },
+  "mods/tempad.pw.toml": {
+    "en_us": "Creates travel portals to saved locations using portable and stationary devices.",
+    "zh_cn": "用便携及固定设备开启通往已保存地点的传送门。"
+  },
+  "mods/terralith.pw.toml": {
+    "en_us": "Adds surface and cave biomes built from vanilla blocks.",
+    "zh_cn": "使用原版方块增加地表与洞穴生物群系。"
+  },
+  "mods/tfmg-community-edition.pw.toml": {
+    "en_us": "Expands Create with heavy industry and oil processing in a community-maintained fork.",
+    "zh_cn": "以社区维护版本为机械动力扩展重工业与石油加工。"
+  },
+  "mods/toast-control.pw.toml": {
+    "en_us": "Controls toast notifications.",
+    "zh_cn": "控制弹出通知。"
+  },
+  "mods/tooltipfix.pw.toml": {
+    "en_us": "Keeps long item tooltips from running beyond the screen.",
+    "zh_cn": "防止过长物品提示超出屏幕。"
+  },
+  "mods/torchmaster.pw.toml": {
+    "en_us": "Adds blocks that control hostile or other creature spawning in an area.",
+    "zh_cn": "增加用于控制区域内敌对或其他生物生成的方块。"
+  },
+  "mods/trade-refresh.pw.toml": {
+    "en_us": "Adds a shortcut for refreshing eligible villager trades from the trading interface.",
+    "zh_cn": "在交易界面增加刷新符合条件的村民交易的快捷操作。"
+  },
+  "mods/trashslot.pw.toml": {
+    "en_us": "Adds an inventory trash slot for discarding unwanted items.",
+    "zh_cn": "在物品栏增加垃圾格，用于丢弃不需要的物品。"
+  },
+  "mods/travelers-titles.pw.toml": {
+    "en_us": "Shows biome and dimension entry titles.",
+    "zh_cn": "显示进入生物群系与维度的标题。"
+  },
+  "mods/universal-bone-meal.pw.toml": {
+    "en_us": "Extends bone meal use to plants that normally do not accept it.",
+    "zh_cn": "让骨粉可用于原本不接受骨粉的植物。"
+  },
+  "mods/vanilla-backpacks.pw.toml": {
+    "en_us": "Adds dyeable, upgradeable backpacks for portable storage.",
+    "zh_cn": "增加可染色、可升级的背包，提供便携存储。"
+  },
+  "mods/variants-and-ventures.pw.toml": {
+    "en_us": "Adds new variants of familiar creatures to world encounters.",
+    "zh_cn": "为世界遭遇增加常见生物的新变体。"
+  },
+  "mods/village-taverns.pw.toml": {
+    "en_us": "Adds village taverns where travelers can find drinks and rest.",
+    "zh_cn": "增加村庄酒馆，让旅人找到饮品与休息处。"
+  },
+  "mods/villager-names-serilum.pw.toml": {
+    "en_us": "Gives villagers default or custom names.",
+    "zh_cn": "为村民赋予默认或自定义名字。"
+  },
+  "mods/waystones-sable.pw.toml": {
+    "en_us": "Fixes Waystones teleportation and destination handling on Sable moving structures.",
+    "zh_cn": "修复 Sable 移动结构上的 Waystones 传送与目的地处理。"
+  },
+  "mods/waystones.pw.toml": {
+    "en_us": "Adds activated destination stones and portable items for travel between locations.",
+    "zh_cn": "增加需激活的目的地石碑与便携传送物品，支持地点间旅行。"
+  },
+  "mods/when-dungeons-arise.pw.toml": {
+    "en_us": "Adds large hostile dungeons and exploration structures.",
+    "zh_cn": "增加大型敌对地下城与探索建筑。"
+  },
+  "mods/witcher-rpg-class.pw.toml": {
+    "en_us": "Adds a monster-hunting witcher class and associated combat abilities.",
+    "zh_cn": "增加以猎杀怪物为主题的猎魔人职业与战斗能力。"
+  },
+  "mods/wizards.pw.toml": {
+    "en_us": "Adds wizard combat using arcane, fire and frost spells.",
+    "zh_cn": "增加使用奥术、火焰与冰霜法术的巫师战斗体系。"
+  },
+  "mods/xaeros-maps-multiplayer-plus.pw.toml": {
+    "en_us": "Adds multiplayer map features, including world-map synchronization, to Xaero's maps.",
+    "zh_cn": "为 Xaero 地图增加多人功能，包括世界地图同步。"
+  },
+  "mods/xaeros-minimap.pw.toml": {
+    "en_us": "Shows nearby terrain and entities on a minimap with saved waypoints.",
+    "zh_cn": "用小地图显示附近地形与实体，并支持保存路标。"
+  },
+  "mods/xaeros-world-map.pw.toml": {
+    "en_us": "Shows explored terrain in a full-screen world map.",
+    "zh_cn": "用全屏世界地图显示已探索地形。"
+  },
+  "mods/yacl.pw.toml": {
+    "en_us": "Configuration screen construction library.",
+    "zh_cn": "设置界面构建库。"
+  },
+  "mods/yungs-api.pw.toml": {
+    "en_us": "Shared code for YUNG's mods.",
+    "zh_cn": "YUNG 模组共享代码。"
+  },
+  "mods/yungs-better-desert-temples.pw.toml": {
+    "en_us": "Rebuilds desert temples with expanded rooms and exploration layouts.",
+    "zh_cn": "以更多房间与探索布局重建沙漠神殿。"
+  },
+  "mods/yungs-better-dungeons.pw.toml": {
+    "en_us": "Replaces small vanilla dungeons with larger dungeon layouts.",
+    "zh_cn": "将原版小型地牢替换为更大的地下城布局。"
+  },
+  "mods/yungs-better-jungle-temples.pw.toml": {
+    "en_us": "Redesigns jungle temples into more elaborate exploration structures.",
+    "zh_cn": "将丛林神庙重新设计为更丰富的探索建筑。"
+  },
+  "mods/yungs-better-mineshafts.pw.toml": {
+    "en_us": "Overhauls abandoned mineshafts with expanded underground layouts.",
+    "zh_cn": "以更丰富的地下布局重塑废弃矿井。"
+  },
+  "mods/yungs-better-nether-fortresses.pw.toml": {
+    "en_us": "Redesigns Nether fortresses with expanded fortress layouts.",
+    "zh_cn": "以更丰富的堡垒布局重新设计下界要塞。"
+  },
+  "mods/yungs-better-ocean-monuments.pw.toml": {
+    "en_us": "Redesigns ocean monuments with more elaborate underwater interiors.",
+    "zh_cn": "以更丰富的水下内部结构重新设计海底神殿。"
+  },
+  "mods/yungs-better-strongholds.pw.toml": {
+    "en_us": "Rebuilds strongholds with larger and more varied room layouts.",
+    "zh_cn": "以更大且更多样的房间布局重建要塞。"
+  },
+  "mods/yungs-better-witch-huts.pw.toml": {
+    "en_us": "Replaces swamp witch huts with redesigned hut structures.",
+    "zh_cn": "用重新设计的建筑替换沼泽女巫小屋。"
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "en_us": "Adds icons to attribute translations.",
+    "zh_cn": "为属性翻译增加图标。"
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "en_us": "Changes the appearance of leaf blocks.",
+    "zh_cn": "改变树叶方块外观。"
+  },
+  "resourcepacks/fa-player-extension.pw.toml": {
+    "en_us": "Adds Fresh Animations style player animation.",
+    "zh_cn": "增加 Fresh Animations 风格的玩家动画。"
+  },
+  "resourcepacks/fancy-crops.pw.toml": {
+    "en_us": "Changes crop appearance.",
+    "zh_cn": "改变作物外观。"
+  },
+  "resourcepacks/fresh-animations-objects.pw.toml": {
+    "en_us": "Animates non-creature entities.",
+    "zh_cn": "为非生物实体增加动画。"
+  },
+  "resourcepacks/fresh-animations-quivers.pw.toml": {
+    "en_us": "Adds skeleton quiver visuals.",
+    "zh_cn": "为骷髅增加箭袋外观。"
+  },
+  "resourcepacks/fresh-animations.pw.toml": {
+    "en_us": "Adds animated entity models.",
+    "zh_cn": "增加动态实体模型。"
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "en_us": "Changes interface appearance without replacing item or block textures.",
+    "zh_cn": "改变界面外观，不替换物品或方块纹理。"
+  },
+  "resourcepacks/simple-grass-flowers.pw.toml": {
+    "en_us": "Adds small surface decorations to grass and related ground textures.",
+    "zh_cn": "为草地及相关地表增加小型外观装饰。"
+  },
+  "resourcepacks/visual-effects-plus.pw.toml": {
+    "en_us": "Adds biome-based fog, particles and weather appearance.",
+    "zh_cn": "增加随生物群系变化的雾、粒子与天气外观。"
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "en_us": "A shader style that preserves Minecraft's visual character.",
+    "zh_cn": "保留 Minecraft 原有视觉风格的光影。"
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "en_us": "A shader style with a more transformed appearance.",
+    "zh_cn": "更明显改变画面风格的光影。"
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "en_us": "A gameplay-focused, semi-realistic shader style.",
+    "zh_cn": "注重游戏体验的半写实光影风格。"
+  },
+  "mods/guideme.pw.toml": {
+    "en_us": "Renders in-game guide pages with formatted text, item displays and interactive scenes.",
+    "zh_cn": "以排版文本、物品展示与交互场景呈现游戏内指南页面。"
+  },
+  "mods/astropunk-handbook-access-1.0.0.jar": {
+    "en_us": "Adds handbook access and clickable item searches.",
+    "zh_cn": "提供手册入口与可点击的物品查询。"
+  },
+  "mods/fancymenu.pw.toml": {
+    "en_us": "Customizes the Astropunk title screen while retaining native menu controls.",
+    "zh_cn": "定制 Astropunk 标题界面，保留原生菜单操作。"
+  },
+  "mods/konkrete.pw.toml": {
+    "en_us": "Provides the utility and configuration library required by FancyMenu.",
+    "zh_cn": "提供 FancyMenu 所需的工具与配置支持库。"
+  },
+  "mods/melody.pw.toml": {
+    "en_us": "Provides the audio library required by FancyMenu. This menu adds no custom music.",
+    "zh_cn": "提供 FancyMenu 所需的音频支持库。本菜单没有添加自定义音乐。"
+  }
+}

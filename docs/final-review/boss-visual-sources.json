@@ -1,0 +1,165 @@
+{
+  "scope": "adventure.bosses",
+  "visuals": [
+    {
+      "name": "Invoker",
+      "entity": "illagerinvasion:invoker",
+      "page": "https://www.curseforge.com/minecraft/data-packs/repurposed-structures-illager-invasion-compat",
+      "url": "https://media.forgecdn.net/attachments/description/1235742/description_3c3bdc4a-f26b-47c4-bf70-d2a23f5ae3db.png",
+      "publisher": "Glitchtopher, compatibility datapack author",
+      "kind": "Authentic game screenshot",
+      "identity": "Compatibility project description names Invokers. Screenshot shows a single gray-headed illager with luminous yellow eyes and black robe with gold trim, matching the Invoker visible in the original publisher fight panel.",
+      "transform": "None. Original 850 by 478 screenshot preserved.",
+      "inspection": "Single unobstructed full-body Invoker. No text, interface, watermark or added armor. This is a compatibility author screenshot, not a Fuzs-authored portrait.",
+      "resource": "images/final-boss-review-invoker.png",
+      "original_dimensions": [
+        850,
+        478
+      ],
+      "prepared_dimensions": [
+        850,
+        478
+      ],
+      "original_sha256": "4818b9860beaaa51b7dfbf4642725bc7f5672dc6f557fc6f9c10cce051c684c8",
+      "prepared_sha256": "4818b9860beaaa51b7dfbf4642725bc7f5672dc6f557fc6f9c10cce051c684c8",
+      "original_file": "/home/tsb/Hermes/downloaded-images/boss-final-review/invoker-repurposed-structures-illager-invasion-compat-minecraft-data-s1-3.png",
+      "prepared_path": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/final-boss-review-invoker.png",
+      "reviewed": true,
+      "license": {
+        "id": "unknown",
+        "name": "Image reuse rights not independently established"
+      },
+      "license_scope": "Local preparation only. Public availability is not permission. No public upload performed.",
+      "selected_release_match": "Appearance illustration only. Current webpages do not establish selected-release mechanics or model equivalence.",
+      "source_caveat": "Project software licenses are not assumed to license promotional images or screenshots."
+    },
+    {
+      "name": "Wither",
+      "entity": "minecraft:wither",
+      "page": "https://minecraft.wiki/w/Wither",
+      "url": "https://minecraft.wiki/images/Wither_JE2_BE2.png?18bf8",
+      "publisher": "Minecraft Wiki",
+      "kind": "Native textured Minecraft entity render",
+      "identity": "Browser infobox image alt explicitly identifies Wither. Three heads and floating rib cage visible.",
+      "transform": "Transparent background composited onto neutral #ded8ce for contrast, then aspect-preserving downscale from 1080 by 1080 to 960 by 960. No subject retouching.",
+      "inspection": "Whole individual native Wither visible. No text or watermark.",
+      "resource": "images/final-boss-review-wither.png",
+      "original_dimensions": [
+        1080,
+        1080
+      ],
+      "prepared_dimensions": [
+        960,
+        960
+      ],
+      "original_sha256": "8a532ab4c08fe2cc245a0bc515f47df5c81fdf59dae024b545bdaa2690816e84",
+      "prepared_sha256": "9233b38c3a6457d64f4590360a19c17ba9259d80e06c013aeac4b80ad6998858",
+      "original_file": "/home/tsb/.hermes/cache/scratch/boss-visual-retry/wither-native.png",
+      "prepared_path": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/final-boss-review-wither.png",
+      "reviewed": true,
+      "license": {
+        "id": "unknown",
+        "name": "Image reuse rights not independently established"
+      },
+      "license_scope": "Local preparation only. Public availability is not permission. No public upload performed.",
+      "selected_release_match": "Appearance illustration only. Current webpages do not establish selected-release mechanics or model equivalence.",
+      "source_caveat": "Project software licenses are not assumed to license promotional images or screenshots."
+    },
+    {
+      "name": "Ender Dragon",
+      "entity": "minecraft:ender_dragon",
+      "page": "https://minecraft.wiki/w/Ender_Dragon",
+      "url": "https://minecraft.wiki/images/Ender_Dragon_JE1_BE1.png?69608",
+      "publisher": "Minecraft Wiki",
+      "kind": "Native textured Minecraft entity render",
+      "identity": "Browser infobox image alt explicitly identifies Ender Dragon. Black dragon with purple eyes, outstretched wings and segmented tail.",
+      "transform": "Transparent background composited onto neutral #ded8ce for contrast, then aspect-preserving downscale from 1839 by 1118 to 960 by 584. No subject retouching.",
+      "inspection": "Whole individual native Ender Dragon visible. No text or watermark.",
+      "resource": "images/final-boss-review-ender-dragon.png",
+      "original_dimensions": [
+        1839,
+        1118
+      ],
+      "prepared_dimensions": [
+        960,
+        584
+      ],
+      "original_sha256": "1ad2037507f2d1cc74d57eb4160d4d4e622eff125783d1ebd98b7f80662d4e3d",
+      "prepared_sha256": "2e4cd5b7bcfc80990c49a3f64bf9d837719ab30ff38434d9a375cf58c34f8319",
+      "original_file": "/home/tsb/.hermes/cache/scratch/boss-visual-retry/dragon-native.png",
+      "prepared_path": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/final-boss-review-ender-dragon.png",
+      "reviewed": true,
+      "license": {
+        "id": "unknown",
+        "name": "Image reuse rights not independently established"
+      },
+      "license_scope": "Local preparation only. Public availability is not permission. No public upload performed.",
+      "selected_release_match": "Appearance illustration only. Current webpages do not establish selected-release mechanics or model equivalence.",
+      "source_caveat": "Project software licenses are not assumed to license promotional images or screenshots."
+    },
+    {
+      "name": "Kraken",
+      "entity": "block_factorys_bosses:kraken",
+      "page": "https://www.youtube.com/watch?v=ZUk2s0-QL0A",
+      "url": "https://i.ytimg.com/vi/ZUk2s0-QL0A/maxresdefault.jpg",
+      "publisher": "Block Factory",
+      "kind": "Official publisher textured model promotional render",
+      "identity": "Official Block Factory trailer is titled Bosses Rise KRAKEN UPDATE, its description links the mod and publisher website. Native red and cream Kraken model with yellow eyes and suckered tentacles visible.",
+      "transform": "Crop only from 1280 by 720 original, rectangle [560,70,1280,720], producing 720 by 650. Excludes the contextual player. Peripheral tentacles are clipped, core face and body preserved. No retouching or watermark removal.",
+      "inspection": "Single recognizable Kraken face and body fill the image. No text or watermark. Stylized publisher thumbnail, not an in-game screenshot. Crop does not imply full-body view.",
+      "resource": "images/final-boss-review-kraken.png",
+      "original_dimensions": [
+        1280,
+        720
+      ],
+      "prepared_dimensions": [
+        720,
+        650
+      ],
+      "original_sha256": "536e9ca0cecfc7e8311fa830bf27ad5b7120cc7f907638c211c5c754aeb17cd3",
+      "prepared_sha256": "bd79edb619d5cc6515cac3340789b3eafce203be784d15c9732c49e269b6830e",
+      "original_file": "/home/tsb/.hermes/cache/scratch/boss-visual-retry/kraken-thumbnail.jpg",
+      "prepared_path": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/final-boss-review-kraken.png",
+      "reviewed": true,
+      "license": {
+        "id": "unknown",
+        "name": "Image reuse rights not independently established"
+      },
+      "license_scope": "Local preparation only. Public availability is not permission. No public upload performed.",
+      "selected_release_match": "Appearance illustration only. Current webpages do not establish selected-release mechanics or model equivalence.",
+      "source_caveat": "Project software licenses are not assumed to license promotional images or screenshots."
+    },
+    {
+      "name": "Sandworm",
+      "entity": "block_factorys_bosses:sandworm",
+      "page": "https://www.curseforge.com/minecraft/mc-mods/bossesrise",
+      "url": "https://media.forgecdn.net/attachments/1345/245/bf_image_4-png.png",
+      "publisher": "Block Factory Studio",
+      "kind": "Single publisher textured model view cropped from original montage",
+      "identity": "Previously verified official description embed. Original montage depicts this creature alongside matching gameplay. Crop retains only the large right-hand worm model with toothed mouth and segmented body.",
+      "transform": "Crop only from native 1634 by 577 original, rectangle [804,10,1534,567], producing 730 by 557. No enlargement or retouching. The single model remains on its original mixed black and sandy background; thin pink decorative lines remain.",
+      "inspection": "One large worm depiction, not multiple creature panels. Teeth, mouth, ridged body and underside are readily identifiable. No blocking text or watermark. Decorative background lines remain; not a newly rendered game screenshot.",
+      "resource": "images/final-boss-review-sandworm.png",
+      "original_dimensions": [
+        1634,
+        577
+      ],
+      "prepared_dimensions": [
+        730,
+        557
+      ],
+      "original_sha256": "7432ef24469bf748181101e683eb59bc4544a30ff2f4fb68c616c906b26c16c0",
+      "prepared_sha256": "956ba43b398a4111af1947751363ef4d20839ca8853d1886e7327fc4be55a71d",
+      "original_file": "/home/tsb/.hermes/cache/scratch/boss-visual-retry/sandworm-original.png",
+      "prepared_path": "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/images/final-boss-review-sandworm.png",
+      "reviewed": true,
+      "license": {
+        "id": "unknown",
+        "name": "Image reuse rights not independently established"
+      },
+      "license_scope": "Local preparation only. Public availability is not permission. No public upload performed.",
+      "selected_release_match": "Appearance illustration only. Current webpages do not establish selected-release mechanics or model equivalence.",
+      "source_caveat": "Project software licenses are not assumed to license promotional images or screenshots."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.3.1-guide.light.1",
+  "export": "/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.3.1-guide.light.1-instance",
+  "template": "/home/tsb/Projects/lucas/instance-templates/neoforge-1.21.1",
+  "deployed_to": "/home/tsb/.local/share/ModrinthApp/profiles/NeoForge 1.21.1",
+  "verified_files": 1154,
+  "existing_personal_files_preserved": [
+    "command_history.txt",
+    "hotbar.nbt",
+    "servers.dat"
+  ],
+  "independent_file_copies": true,
+  "launcher_database_written": false,
+  "minecraft_launched": false,
+  "copy_and_verification_seconds": 1.93
+}

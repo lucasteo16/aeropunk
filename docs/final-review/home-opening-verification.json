@@ -1,0 +1,21 @@
+{
+  "source_tests": 41,
+  "pages": 190,
+  "template_parse_count": 6,
+  "native_structural_compiler_passed": true,
+  "archive_integrity": true,
+  "resource_files_compared": 535,
+  "source_resource_archive_parity": true,
+  "helper_changed": false,
+  "live_installation_performed": false,
+  "live_viewport_fit_verified": false,
+  "independent_font_size_supported": false,
+  "font_size_choice": "retain native font, no global interface change",
+  "english_intro_word_count": 159,
+  "export": "/home/tsb/.hermes/cache/scratch/astropunk-handbook-opening.mrpack",
+  "canonical": "/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.3.0-guide.light.2-modrinth.mrpack",
+  "sha256": "f0fafab426e6abd7c79e22fcb0cc1f50b25bb61be2587747a6210d9eb171d1c2",
+  "difficulty_basis": "Selected Dangerous 1.5.2 day-based Monster maximum health scaling with shipped defaults, not existing world settings",
+  "image_provenance": "docs/final-review/home-ship-image-evidence.json",
+  "screenshot_reuse_permission_verified": false
+}

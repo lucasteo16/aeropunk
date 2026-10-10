@@ -1,0 +1,3859 @@
+{
+  "mods/additional-rpg-jewelry.pw.toml": {
+    "name": "Additional Jewelry (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@additional_rpg_jewelry"
+    ],
+    "declared_mod_ids": [
+      "additional_rpg_jewelry"
+    ],
+    "item_model_namespaces": [
+      "additional_rpg_jewelry"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "af9f5188c831c49a2fdcd098958e42a8607982304a9af89f57ddf2aae184c50f"
+  },
+  "mods/advancement-plaques.pw.toml": {
+    "name": "Advancement Plaques",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "advancementplaques"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a24674330b8de59a02e0ebe4dd81fcff15d90e8c1cdcc32980d73c1cab050933"
+  },
+  "mods/aeroengine.pw.toml": {
+    "name": "AeroEngine",
+    "availability": "baseline",
+    "queries": [
+      "@aeroengineering"
+    ],
+    "declared_mod_ids": [
+      "aeroengineering"
+    ],
+    "item_model_namespaces": [
+      "aeroengineering"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "5d9f86d8345beb25189e21044ecd19c9140c77c6e9010fb1a7f2250fde775e05"
+  },
+  "mods/ai-improvements.pw.toml": {
+    "name": "AI Improvements: Performance Tuning",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "aiimprovements"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "795618769ff1ac782750be9e8faaf3e3d212f1687c3baab98c1282a98a63a41e"
+  },
+  "mods/almanac.pw.toml": {
+    "name": "Almanac",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "almanac"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "379893246c33aaa6dd8e4a8711e349cd6835e08c2bd5b8bd7b7e81be9822aacb"
+  },
+  "mods/amendments.pw.toml": {
+    "name": "Amendments",
+    "availability": "baseline",
+    "queries": [
+      "@amendments"
+    ],
+    "declared_mod_ids": [
+      "amendments"
+    ],
+    "item_model_namespaces": [
+      "amendments"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "e44e67d5c2eb5a73ee8ca3d1e9099ed20ccbf8167022bc407df8434b1bf362b5"
+  },
+  "mods/apollib.pw.toml": {
+    "name": "Apollib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "apollib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d8ca42902cc4fe7c6c39917bdc2a9ec86c32c5bee3e3c3a551513f601968498b"
+  },
+  "mods/appleskin.pw.toml": {
+    "name": "AppleSkin",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "appleskin"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "38b48dd6231341c9f964ce6e42c57ec866c6cc8f72bec938390a59bafb3922df"
+  },
+  "mods/archers-expansion.pw.toml": {
+    "name": "Archers Expansion (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@archers_expansion"
+    ],
+    "declared_mod_ids": [
+      "archers_expansion"
+    ],
+    "item_model_namespaces": [
+      "archers_expansion"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a60dcf29e4e3243aeffc0ad9105d157ae891a3052c8257854b631054757ec5c2"
+  },
+  "mods/archers.pw.toml": {
+    "name": "Archers (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@archers"
+    ],
+    "declared_mod_ids": [
+      "archers"
+    ],
+    "item_model_namespaces": [
+      "archers"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "907952e612fb58d816594738569a1bf7ce544a03e6e877572f7b319293757712"
+  },
+  "mods/architectury-api.pw.toml": {
+    "name": "Architectury API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "architectury"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb"
+  },
+  "mods/armor-model-api.pw.toml": {
+    "name": "Armor Model API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "armor_model_api"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "f3776a0bea29ec48774cf510b98bb3874e41e5edb3dc88bef1a3ff53a57ebccb"
+  },
+  "mods/armor-poser.pw.toml": {
+    "name": "Armor Poser",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "armorposer"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "956173fcb08f00fc3842dc5fca7608bb681f9155288c4ac127c7b59ff6c9b788"
+  },
+  "mods/armory-rpg-series.pw.toml": {
+    "name": "Armory (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@armory_rpgs"
+    ],
+    "declared_mod_ids": [
+      "armory_rpgs"
+    ],
+    "item_model_namespaces": [
+      "armory_rpgs"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a5761d15b87b1e7b286fb4dd7c965623173147f89e457a5a3803e5646d51e478"
+  },
+  "mods/arsenal-rpg-series.pw.toml": {
+    "name": "Arsenal (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@arsenal"
+    ],
+    "declared_mod_ids": [
+      "arsenal"
+    ],
+    "item_model_namespaces": [
+      "arsenal"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6f70f8c6e1753ac2171c0ac52577ce0258f2dfbc1606dcceb4cd8a7cad81e0f2"
+  },
+  "mods/asynclogger.pw.toml": {
+    "name": "Async Logger",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/asyncparticles.pw.toml": {
+    "name": "AsyncParticles",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "asyncparticles"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "f05de554a606f12d721468b17f63a95218232ddfac659551e58214715752857d"
+  },
+  "mods/athena-ctm.pw.toml": {
+    "name": "Athena",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "athena"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5"
+  },
+  "mods/attributefix.pw.toml": {
+    "name": "AttributeFix",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "attributefix"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "b2b20f3d44e824071284c14de3f4d3323d420e1c450040b339a5c37d2c382ad4"
+  },
+  "mods/badoptimizations.pw.toml": {
+    "name": "BadOptimizations",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "badoptimizations"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "22e2467892d3706f43d1cf2aa637785bb8601c20b0098a82ab956e6a8fc4d2ba"
+  },
+  "mods/baguettelib.pw.toml": {
+    "name": "BaguetteLib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "baguettelib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a1af3ae5c2945240bff3afa779621d9d8e21fb23bb6b1433f584e746735bae24"
+  },
+  "mods/balm.pw.toml": {
+    "name": "Balm",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "balm"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34"
+  },
+  "mods/bard-more-rpg-classes.pw.toml": {
+    "name": "Bard (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@bards_rpg"
+    ],
+    "declared_mod_ids": [
+      "bards_rpg"
+    ],
+    "item_model_namespaces": [
+      "bards_rpg"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "32a958e27d726a89ec84f670b9d30d3c18cac551ad1eef3f7ed8bb50b3bb8184"
+  },
+  "mods/bbrb.pw.toml": {
+    "name": "Better Biome Reblend",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterbiomereblend"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "5f632bf837b9b3c28eeaa4182fef6b24634a492e793ca98e7ba1ec0ffbb11083"
+  },
+  "mods/beautify-refoxed.pw.toml": {
+    "name": "Beautify: ReFoxed",
+    "availability": "baseline",
+    "queries": [
+      "@beautify"
+    ],
+    "declared_mod_ids": [
+      "beautify"
+    ],
+    "item_model_namespaces": [
+      "beautify"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "b4a019f7e91a57830a2b0db2b540afaa28dbce7ff4c7c32809e521d0dbd421a7"
+  },
+  "mods/bellsandwhistles.pw.toml": {
+    "name": "Create: Bells & Whistles",
+    "availability": "baseline",
+    "queries": [
+      "@bellsandwhistles"
+    ],
+    "declared_mod_ids": [
+      "bellsandwhistles"
+    ],
+    "item_model_namespaces": [
+      "bellsandwhistles"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a438cf2ea3a05120e12342484f1e12ca11526fbf4195d259ce1d7df8a9b3ffca"
+  },
+  "mods/berserker-rpg-class.pw.toml": {
+    "name": "Berserker (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@berserker_rpg"
+    ],
+    "declared_mod_ids": [
+      "berserker_rpg"
+    ],
+    "item_model_namespaces": [
+      "berserker_rpg"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "b61499538a2f5bc1766adb896c0e22f8ba73e93d582864f702b4c7e12b287e32"
+  },
+  "mods/better-combat.pw.toml": {
+    "name": "Better Combat",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "bettercombat"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "0446e9faa98b764ba010ac31e337d14ac96bbb2fbfeff9b599e1efd510dfde5a"
+  },
+  "mods/better-modlist.pw.toml": {
+    "name": "Better ModList",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "mod_menu"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ac201907777fc3478362c1b5acc87eb3b8e24872c758b6db8be2b34bee03168d"
+  },
+  "mods/betterdays.pw.toml": {
+    "name": "Better Days",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterdays"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "03acad0637dd5d86361178eb3e87ad8f2ed965e9c84514df4dc4228bb24aa2aa"
+  },
+  "mods/betterf3.pw.toml": {
+    "name": "BetterF3",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterf3"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "1a97b6ca5c81b3b18d653f403929908e3b48bb1bdb6e8bd8559f89cf0294dc26"
+  },
+  "mods/bigsignwriter.pw.toml": {
+    "name": "Big Sign Writer",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "bigsignwriter"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "27a09ad567cd2ff6903c6cfa389f657f9471ba2e14c72f815c69a81a7ab3b32c"
+  },
+  "mods/blocks-bogies.pw.toml": {
+    "name": "Create: Blocks & Bogies",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "create_bb"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "68833088a56a2e160df7b23ce9703cde0da974b35ba41f5d86bbb758acd1ec79"
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "name": "Bookshelf",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "bookshelf"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76"
+  },
+  "mods/bossesrise.pw.toml": {
+    "name": "Bosses'Rise",
+    "availability": "baseline",
+    "queries": [
+      "@block_factorys_bosses"
+    ],
+    "declared_mod_ids": [
+      "block_factorys_bosses"
+    ],
+    "item_model_namespaces": [
+      "block_factorys_bosses"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "9e230bd509e7aeb3af4c08125db0340734c0179d83483649a16e45c0ea085e8c"
+  },
+  "mods/bundle-api.pw.toml": {
+    "name": "Bundle API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "bundleapi"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "73328888d1dede4c121974a0914f5a35cb857283223217a59de7b5b697e43771"
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "name": "Concurrent Chunk Management Engine (NeoForge)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "c2me"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "672bd9a7dc3fae20817f3563e140d82be90845ef50ce26f57698082d4b2918c0"
+  },
+  "mods/carry-on.pw.toml": {
+    "name": "Carry On",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "carryon"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d4f9576b6593db9486a89d35c1d84c31ee89141d99dbae2aa470350ab53c4e09"
+  },
+  "mods/chipped-express.pw.toml": {
+    "name": "Chipped Express",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "chipped_express"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "0e00cac10cebbb42b17f6178352c885eb0404fd58b63aa9c1c40a85d6cae20f9"
+  },
+  "mods/chipped.pw.toml": {
+    "name": "Chipped",
+    "availability": "baseline",
+    "queries": [
+      "@chipped"
+    ],
+    "declared_mod_ids": [
+      "chipped"
+    ],
+    "item_model_namespaces": [
+      "chipped"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "18ac6fd6b30db4922ccc6ee8bea5b113f69587505b7529834f37ace506427291"
+  },
+  "mods/chunky.pw.toml": {
+    "name": "Chunky",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "chunky"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d72f235cf1f56f2c374f52c00bdda5034524b28142305a84cfc123a3f92ad274"
+  },
+  "mods/cloth-config.pw.toml": {
+    "name": "Cloth Config API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "cloth_config"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4"
+  },
+  "mods/clumps.pw.toml": {
+    "name": "Clumps",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "clumps"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e"
+  },
+  "mods/collective.pw.toml": {
+    "name": "Collective",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "collective"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "19c35b0fea7d815566fb25f9f8d3ea6cc3594225d2146cbca387bac584ec7add"
+  },
+  "mods/combat-roll.pw.toml": {
+    "name": "Combat Roll",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "combat_roll"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "4904ae4c392d51c431c915822d817de608fd524632021ce417a17ce1a0185f17"
+  },
+  "mods/comforts.pw.toml": {
+    "name": "Comforts",
+    "availability": "baseline",
+    "queries": [
+      "@comforts"
+    ],
+    "declared_mod_ids": [
+      "comforts"
+    ],
+    "item_model_namespaces": [
+      "comforts"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615"
+  },
+  "mods/configured-defaults.pw.toml": {
+    "name": "Configured Defaults",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "configureddefaults"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "48b97dada951826b4abf9b2dcab79c0e701bb2980c5bca4977bac7ca0c264ea7"
+  },
+  "mods/connector.pw.toml": {
+    "name": "Sinytra Connector",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ca70b57df3a7a4e8d211fea7ff3ae77e768482af374f26bf953ff5fd755564f0"
+  },
+  "mods/continuity.pw.toml": {
+    "name": "Continuity",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "continuity"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "4cc0a4a09ae09c64bb567e42381652b700f9cade5067a75e83115662cc475f0a"
+  },
+  "mods/controlling.pw.toml": {
+    "name": "Controlling",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "controlling"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "cc525fb6b030d9e4d33176983f278919e17b33935e2ca568929bdfa98f2b44a0"
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "name": "Cool Rain Reforged",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "coolrain"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "8c2c6070b41509b68a5b32fe0881a9d21393bd737d58aa6b45c7d96e2ae66fec"
+  },
+  "mods/copycats.pw.toml": {
+    "name": "Create: Copycats+",
+    "availability": "baseline",
+    "queries": [
+      "@copycats"
+    ],
+    "declared_mod_ids": [
+      "copycats"
+    ],
+    "item_model_namespaces": [
+      "copycats"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "d1efdd8688af6603dff9425299ac4547ef56a7d5cfee757716ead7853276694e"
+  },
+  "mods/corpse-x-curios-api-compat.pw.toml": {
+    "name": "Corpse x Curios API Compat",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "corpsecurioscompat"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "4fc4702868b51cbb94717f2c209373f2823fb1383a45c77ffdbeb6df96440d51"
+  },
+  "mods/corpse.pw.toml": {
+    "name": "Corpse",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "corpse"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "80d984f0a17d968220129cc58edd5c9f28a5f61a84ec67dcc41228a46dfa4bb1"
+  },
+  "mods/create-additional-logistics.pw.toml": {
+    "name": "Create: Additional Logistics",
+    "availability": "baseline",
+    "queries": [
+      "@createadditionallogistics"
+    ],
+    "declared_mod_ids": [
+      "createadditionallogistics"
+    ],
+    "item_model_namespaces": [
+      "createadditionallogistics"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "f7bf95504c3bf293464b883c989354dd643d559de5bfcad4a23fed4144592d6a"
+  },
+  "mods/create-aeronautics-encased-fluid-pipes.pw.toml": {
+    "name": "Create Aeronautics: Encased Fluid Pipes",
+    "availability": "baseline",
+    "queries": [
+      "@aeroencasedpipe"
+    ],
+    "declared_mod_ids": [
+      "aeroencasedpipe"
+    ],
+    "item_model_namespaces": [
+      "aeroencasedpipe"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "1791aa8ca581a0bbfaec604ca4ac1acd4cccb77345adfad5660e86aa3f11ccb4"
+  },
+  "mods/create-aeronautics.pw.toml": {
+    "name": "Create Aeronautics",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "aeronautics_bundled"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e"
+  },
+  "mods/create-aerowarptics.pw.toml": {
+    "name": "Create: AeroWarptics",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/create-aeroworks.pw.toml": {
+    "name": "Create: Aeroworks",
+    "availability": "baseline",
+    "queries": [
+      "@aeroworks"
+    ],
+    "declared_mod_ids": [
+      "aeroworks"
+    ],
+    "item_model_namespaces": [
+      "aeroworks"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "7e9745569a75eb613a9f75c9308aa2c806d3f0fab3a272d98647a13d3fa41641"
+  },
+  "mods/create-ballast.pw.toml": {
+    "name": "Create: Ballast",
+    "availability": "baseline",
+    "queries": [
+      "@ballastmod"
+    ],
+    "declared_mod_ids": [
+      "ballastmod"
+    ],
+    "item_model_namespaces": [
+      "ballastmod"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "10f91211ebdf9b76bd11415f3c10306c350f2209e1c816e38730644a950970b4"
+  },
+  "mods/create-big-cannons.pw.toml": {
+    "name": "Create Big Cannons",
+    "availability": "baseline",
+    "queries": [
+      "@createbigcannons"
+    ],
+    "declared_mod_ids": [
+      "createbigcannons"
+    ],
+    "item_model_namespaces": [
+      "createbigcannons"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ea017ab94637032d039899d88404838d173fa0e6286657cae6a6c3af459e87ca"
+  },
+  "mods/create-bits-n-bobs.pw.toml": {
+    "name": "Create: Bits 'n' Bobs",
+    "availability": "baseline",
+    "queries": [
+      "@bits_n_bobs"
+    ],
+    "declared_mod_ids": [
+      "bits_n_bobs"
+    ],
+    "item_model_namespaces": [
+      "bits_n_bobs"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6d8268d82cc6e38dd13f5247b28f37b7a35d66cb476c6e0632f4e9ba5570f5d8"
+  },
+  "mods/create-central-kitchen.pw.toml": {
+    "name": "Create: Central Kitchen",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "create_central_kitchen"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "dde34f2104c2d1bf366d66a6612de33e8ccf7d64a63208ff89bcec8c4a8c175d"
+  },
+  "mods/create-connected.pw.toml": {
+    "name": "Create: Connected",
+    "availability": "baseline",
+    "queries": [
+      "@create_connected"
+    ],
+    "declared_mod_ids": [
+      "create_connected"
+    ],
+    "item_model_namespaces": [
+      "create_connected"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "0c5eb9ffb5c8d71e6e2a39023feb85c51adfb10d38949bc47c4abbd53b351a4f"
+  },
+  "mods/create-deco.pw.toml": {
+    "name": "Create Deco",
+    "availability": "baseline",
+    "queries": [
+      "@createdeco"
+    ],
+    "declared_mod_ids": [
+      "createdeco"
+    ],
+    "item_model_namespaces": [
+      "createdeco"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e"
+  },
+  "mods/create-deep-seas.pw.toml": {
+    "name": "Create Deep Seas",
+    "availability": "baseline",
+    "queries": [
+      "@create_submarine"
+    ],
+    "declared_mod_ids": [
+      "create_submarine",
+      "create_abyss",
+      "create_high_seas"
+    ],
+    "item_model_namespaces": [
+      "create_abyss",
+      "create_submarine"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "87a20bb20ae3c90e6838073d3a84839e251c8794f409ade8cab79f51d1de0c66",
+    "excluded_namespace_reason": {
+      "create_abyss": "Selected ConfigCondition blocks the Abyss in production, evidenced in docs/quick-reference-work and navigation-integration."
+    }
+  },
+  "mods/create-design-n-decor.pw.toml": {
+    "name": "Create: Design n' Decor",
+    "availability": "baseline",
+    "queries": [
+      "@dndecor"
+    ],
+    "declared_mod_ids": [
+      "dndecor"
+    ],
+    "item_model_namespaces": [
+      "dndecor"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "af0264e8ba44b77744d9a6173b79fcc39758c5b975fbb377d4000e85bfcd2c8f"
+  },
+  "mods/create-dragons-plus.pw.toml": {
+    "name": "Create: Dragons Plus",
+    "availability": "baseline",
+    "queries": [
+      "@create_dragons_plus"
+    ],
+    "declared_mod_ids": [
+      "create_dragons_plus"
+    ],
+    "item_model_namespaces": [
+      "create_dragons_plus"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "37f05a6775bbe811fe8c2833fa6289a1c704d0b25bdd5f239d343a5c6f62ed8a"
+  },
+  "mods/create-electro-energetics.pw.toml": {
+    "name": "Create: Electro Energetics",
+    "availability": "baseline",
+    "queries": [
+      "@electroenergetics"
+    ],
+    "declared_mod_ids": [
+      "electroenergetics"
+    ],
+    "item_model_namespaces": [
+      "electroenergetics"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ae7ea74b7b00f175daa5a60a953a6d57f7f775aed0b642a1e9f80c3865cf8be7"
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "name": "EMF Compat: Create",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "emf_compat_create"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2400dc93cbdc30db19fe384eb1671d403d9bc0d4bda54fa31cd0b6fe5462e287"
+  },
+  "mods/create-encased.pw.toml": {
+    "name": "Create Encased",
+    "availability": "baseline",
+    "queries": [
+      "@createcasing"
+    ],
+    "declared_mod_ids": [
+      "createcasing"
+    ],
+    "item_model_namespaces": [
+      "createcasing"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "e93bb110241ab8283c6238590eb04f1fb37199815623f53f3e981ee650f344a3"
+  },
+  "mods/create-enchantment-industry.pw.toml": {
+    "name": "Create: Enchantment Industry",
+    "availability": "baseline",
+    "queries": [
+      "@create_enchantment_industry"
+    ],
+    "declared_mod_ids": [
+      "create_enchantment_industry"
+    ],
+    "item_model_namespaces": [
+      "create_enchantment_industry"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6e68d68eb0619fb092861d981ae998b1fcf3757d5ca72636103a24bcdb89d1ad"
+  },
+  "mods/create-framed.pw.toml": {
+    "name": "Create: Framed",
+    "availability": "baseline",
+    "queries": [
+      "@createframed"
+    ],
+    "declared_mod_ids": [
+      "createframed"
+    ],
+    "item_model_namespaces": [
+      "create",
+      "createframed"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a1f0434f5485de5ba5683320ebca7b71841488421a5249641ae357dbeeb35283"
+  },
+  "mods/create-integrated-farming.pw.toml": {
+    "name": "Create: Integrated Farming",
+    "availability": "baseline",
+    "queries": [
+      "@create_integrated_farming"
+    ],
+    "declared_mod_ids": [
+      "create_integrated_farming"
+    ],
+    "item_model_namespaces": [
+      "create_integrated_farming"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "0618c6bc3280d8d18d8a8931e1e76d3e084a21a0aab96244e5698c1cfb0f46fe"
+  },
+  "mods/create-liquid-fuel.pw.toml": {
+    "name": "Create: Liquid Fuel",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "createliquidfuel"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ccd44b069962890352dfee442508880a37eecd3c5625d74d668dd6eb7d39ee3d"
+  },
+  "mods/create-molten-vents.pw.toml": {
+    "name": "Create: Molten Vents",
+    "availability": "baseline",
+    "queries": [
+      "@molten_vents"
+    ],
+    "declared_mod_ids": [
+      "molten_vents"
+    ],
+    "item_model_namespaces": [
+      "molten_vents"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "62aa307741ae10c3df3bd364dfe2e706413a1b428601ff61e4aeb5049cc40b5c"
+  },
+  "mods/create-more-girder.pw.toml": {
+    "name": "Create: More Girder",
+    "availability": "baseline",
+    "queries": [
+      "@createmoregirder"
+    ],
+    "declared_mod_ids": [
+      "createmoregirder"
+    ],
+    "item_model_namespaces": [
+      "createmoregirder"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "69a0efee89806369b6f14ac808b5fbe04a79fe3e4cf371c4026c94d16083bd38"
+  },
+  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
+    "name": "Create: Northstar-Aeronautics Compatibility",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/create-pattern-schematics.pw.toml": {
+    "name": "Create: Pattern Schematics",
+    "availability": "baseline",
+    "queries": [
+      "@create_pattern_schematics"
+    ],
+    "declared_mod_ids": [
+      "create_pattern_schematics"
+    ],
+    "item_model_namespaces": [
+      "create_pattern_schematics"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "d6525b9ab9914a194ca5aa00e6605f5977d8ac28722cdccce018da44f62bc5c5"
+  },
+  "mods/create-prismatic-shine.pw.toml": {
+    "name": "Create: Prismatic Shine",
+    "availability": "baseline",
+    "queries": [
+      "@createprism"
+    ],
+    "declared_mod_ids": [
+      "createprism"
+    ],
+    "item_model_namespaces": [
+      "createprism"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "3b9c80f8a0104a2cee1af2b0a17b5a500f5600c55bccc441a34063154587a8fa"
+  },
+  "mods/create-propulsion-simulated.pw.toml": {
+    "name": "Create Propulsion: Simulated",
+    "availability": "baseline",
+    "queries": [
+      "@createpropulsion"
+    ],
+    "declared_mod_ids": [
+      "createpropulsion"
+    ],
+    "item_model_namespaces": [
+      "createpropulsion"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "5525a3a0c8b1c476cbc467d021e9d1492b58c78de31ed269eb04f169d42db0a1"
+  },
+  "mods/create-radars.pw.toml": {
+    "name": "Create: Radars",
+    "availability": "baseline",
+    "queries": [
+      "@create_radar"
+    ],
+    "declared_mod_ids": [
+      "create_radar"
+    ],
+    "item_model_namespaces": [
+      "create_radar"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "4554359fee389b1c255b4cef23ac41e978b2a371cec9e952185f4ec0a90ee930"
+  },
+  "mods/create-railways-navigator.pw.toml": {
+    "name": "Create Railways Navigator",
+    "availability": "baseline",
+    "queries": [
+      "@createrailwaysnavigator"
+    ],
+    "declared_mod_ids": [
+      "createrailwaysnavigator"
+    ],
+    "item_model_namespaces": [
+      "createrailwaysnavigator"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "336536a181faf6db7f756393248e786382fdd0c1c2760ff2dfc4b265859321b7"
+  },
+  "mods/create-sable-dynamic-lights.pw.toml": {
+    "name": "Create Sable Dynamic Lights",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/create-shuffle-filter.pw.toml": {
+    "name": "Create: Shuffle Filter",
+    "availability": "baseline",
+    "queries": [
+      "@createshufflefilter"
+    ],
+    "declared_mod_ids": [
+      "createshufflefilter"
+    ],
+    "item_model_namespaces": [
+      "createshufflefilter"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6e2b27c015936f61b3ba3271477b09032162239945491d09815518ebff7d76bf"
+  },
+  "mods/create-springs.pw.toml": {
+    "name": "Create: Springs",
+    "availability": "baseline",
+    "queries": [
+      "@createsprings"
+    ],
+    "declared_mod_ids": [
+      "createsprings"
+    ],
+    "item_model_namespaces": [
+      "createsprings"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "3f9dc9c20110a6e64962da2d0cb1cf96ba8582e0216b97839910544d91520a96"
+  },
+  "mods/create-stam1o-tweaks.pw.toml": {
+    "name": "Create: Stam1o Tweaks",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "stam1ocreatetweaks"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ac6732ba61c05b1bb7a68d77e6d12e76a1edc31b0dc53d568dcc2ab7c7865986"
+  },
+  "mods/create-steam-n-rails-1.21.1.pw.toml": {
+    "name": "Steam 'n' Rails Neoforge",
+    "availability": "baseline",
+    "queries": [
+      "@railways"
+    ],
+    "declared_mod_ids": [
+      "railways"
+    ],
+    "item_model_namespaces": [
+      "railways"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "64b74ddad661deae1cfe7e8334cfa3d39bb8ef7b761f83595ba0476c4a9bb1d5"
+  },
+  "mods/create-stuff-additions.pw.toml": {
+    "name": "Create Stuff 'N Additions",
+    "availability": "baseline",
+    "queries": [
+      "@create_sa"
+    ],
+    "declared_mod_ids": [
+      "create_sa"
+    ],
+    "item_model_namespaces": [
+      "create_sa"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "4aee9a1af2754609ab31bfebf13dc0d7d648e61e440232dbf9bb3459941e23d5"
+  },
+  "mods/create-trading-floor.pw.toml": {
+    "name": "Create: Trading floor",
+    "availability": "baseline",
+    "queries": [
+      "@trading_floor"
+    ],
+    "declared_mod_ids": [
+      "trading_floor"
+    ],
+    "item_model_namespaces": [
+      "trading_floor"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "f0aacddb1f8f191f13b79c603e52bd49a6d1cb918078d8a3bdcb2621c88b8d40"
+  },
+  "mods/create-tweaked-controllers.pw.toml": {
+    "name": "Create: Tweaked Controllers",
+    "availability": "baseline",
+    "queries": [
+      "@create_tweaked_controllers"
+    ],
+    "declared_mod_ids": [
+      "create_tweaked_controllers"
+    ],
+    "item_model_namespaces": [
+      "create_tweaked_controllers"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "eda56263fabfcf4064dbaa8950a7f469775d4457dc807ee84ba29169690fda34"
+  },
+  "mods/create-vibrant-vaults.pw.toml": {
+    "name": "Create: Vibrant Vaults",
+    "availability": "baseline",
+    "queries": [
+      "@create_vibrant_vaults"
+    ],
+    "declared_mod_ids": [
+      "create_vibrant_vaults"
+    ],
+    "item_model_namespaces": [
+      "create_vibrant_vaults"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "cebf5d1d1793fbfc2ee25b63d6f929910ad04ff72da5c1a6987d33961708cff1"
+  },
+  "mods/create-waystones-recipes.pw.toml": {
+    "name": "Create Waystones Recipes",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "create_waystones_recipes"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2d9c6b2398e113e3b0de7006d0fa6b24b044fa10913ffb6504dfb65d24c1c1b8"
+  },
+  "mods/create.pw.toml": {
+    "name": "Create",
+    "availability": "baseline",
+    "queries": [
+      "@create"
+    ],
+    "declared_mod_ids": [
+      "create"
+    ],
+    "item_model_namespaces": [
+      "create"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+  },
+  "mods/create_oxidized.pw.toml": {
+    "name": "Create: Oxidized",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "create_oxidized"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "9221f4caa70036d05a04e83e6b57844fa03b60cdef6ade1491c37c0f7800d063"
+  },
+  "mods/createbetterfps.pw.toml": {
+    "name": "CreateBetterFps",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "createbetterfps"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "f0080f5cb186bf9f785dc5510babab94d97adc7918952cff780d2c5fadf2ac9a"
+  },
+  "mods/createlazytick.pw.toml": {
+    "name": "Create: LazyTick",
+    "availability": "baseline",
+    "queries": [
+      "@createlazytick"
+    ],
+    "declared_mod_ids": [
+      "createlazytick"
+    ],
+    "item_model_namespaces": [
+      "createlazytick"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "5650aaf4b01c500844048d58e8c0ff21dc63e32809867588efb4ef60d9638c62"
+  },
+  "mods/creativecore.pw.toml": {
+    "name": "CreativeCore",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "creativecore"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d07f802239ab6b9b7fb1c7cc0ce607540d34efb4584bc27eebb9d6bd153522d6"
+  },
+  "mods/creeper-overhaul.pw.toml": {
+    "name": "Creeper Overhaul",
+    "availability": "baseline",
+    "queries": [
+      "@creeperoverhaul"
+    ],
+    "declared_mod_ids": [
+      "creeperoverhaul"
+    ],
+    "item_model_namespaces": [
+      "creeperoverhaul"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9"
+  },
+  "mods/critical-strike.pw.toml": {
+    "name": "Critical Strike",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "critical_strike"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "67c86b107ccf150e4cc2f9267a83550c795d34635ed7550ab3e04ee62b30bd3c"
+  },
+  "mods/ct-overhaul-village.pw.toml": {
+    "name": "ChoiceTheorem's Overhauled Village",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ctov"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "4815b19b83541f09cba556e222612bc5ddcc31f7c4ba2198f4b4d6376cca8b2e"
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "name": "Cubes Without Borders",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "cubes_without_borders"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "be7144647bc160858e659f6793fcce993914443b9256c2df0369b1c616a2a5d4"
+  },
+  "mods/cull-leaves.pw.toml": {
+    "name": "Cull Leaves",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "cullleaves"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "6e860e8aa56dbc8bfdad0d2d3591bbc2e491bbf38fae5e19892460d54bac0df3"
+  },
+  "mods/curios.pw.toml": {
+    "name": "Curios API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "curios"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde"
+  },
+  "mods/dangerous.pw.toml": {
+    "name": "Dangerous - Just A Difficulty Mod",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "dangerous"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "689212c0bd6ee8e02ab5084ffe70b463b3dc0846786c59020a648da14647fad4"
+  },
+  "mods/decorative-food.pw.toml": {
+    "name": "TW‘s  Decorative Food",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "dfood"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "4695cb79d17cdc2d98f068b996cae18c1debb2fd5fe6b1a281f1c6e9dc244728"
+  },
+  "mods/detail-armor-bar-reconstructed.pw.toml": {
+    "name": "Detail Armor Bar Reconstructed",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "detailab"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "53f3de151a266e17937bdde0d08c7c27b9db4c6bde3a36754f54b224f0feebf1"
+  },
+  "mods/diagonal-fences.pw.toml": {
+    "name": "Diagonal Fences",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "diagonalfences"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "361d1025a8a81f8e77d21da5332bd8390c80c316bae256f8513de97c9f6c9970"
+  },
+  "mods/distanthorizons.pw.toml": {
+    "name": "Distant Horizons",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "distanthorizons"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "864e70def5b0d54d619b940b66bb2784e91d3f3fc253064fdc1b3fc5786cbfab"
+  },
+  "mods/dragonlib.pw.toml": {
+    "name": "DragonLib",
+    "availability": "baseline",
+    "queries": [
+      "@dragonlib"
+    ],
+    "declared_mod_ids": [
+      "dragonlib"
+    ],
+    "item_model_namespaces": [
+      "dragonlib"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ba127947220504d1410716e422ef6a9a387d818a922ad5fdb3be044f9f7556f7"
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "name": "Dynamic FPS",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "dynamic_fps"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e"
+  },
+  "mods/easy-anvils.pw.toml": {
+    "name": "Easy Anvils",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "easyanvils"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc"
+  },
+  "mods/easy-shulker-boxes.pw.toml": {
+    "name": "Easy Shulker Boxes",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "easyshulkerboxes"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "9976385a5993fd1c5d8b029aad5ac100e67a218c28fc7c9eb0ba59557f860ed8"
+  },
+  "mods/eating-animations.pw.toml": {
+    "name": "Eating Animations",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/elemental-wizards-rpg.pw.toml": {
+    "name": "Elemental Wizards (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@elemental_wizards_rpg"
+    ],
+    "declared_mod_ids": [
+      "elemental_wizards_rpg"
+    ],
+    "item_model_namespaces": [
+      "elemental_wizards_rpg"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6bc033ff51b1c1d347f645e8c12cefc197882c7905bfa7fd8f0f959e997fd5a9"
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "name": "EMF Compat: Core",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "emf_compat_core"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "0bf16c45550896381f732e4c3348e8e1d8e9457c355d616536d6cf8982c66eb0"
+  },
+  "mods/emi-enchanting.pw.toml": {
+    "name": "EMI Enchanting",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "emi_enchanting"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "c22dd7b46acb67e83dcba71b50ced95fe0fb9f2f75b9c0e8ce66f338fda301ca"
+  },
+  "mods/emi-loot.pw.toml": {
+    "name": "EMI Loot",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "emi_loot"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a89805cdcb2e11734624d7239112643ee6b8f95e6b71b3a720530df6a5c18980"
+  },
+  "mods/emi-professions-(emip).pw.toml": {
+    "name": "EMI professions (EMIP)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "emiprofessions"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "69e11dce3193422e0b6edb27d7d50d36e30bec3e85e1a515bf81ca0d69baa44e"
+  },
+  "mods/emi.pw.toml": {
+    "name": "EMI",
+    "availability": "baseline",
+    "queries": [
+      "@emi"
+    ],
+    "declared_mod_ids": [
+      "emi"
+    ],
+    "item_model_namespaces": [
+      "emi"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "b68691f94f0727fc517cac2ab55bd6658d1179cc8cc715fe610b60c37469bc4c"
+  },
+  "mods/enderman-overhaul.pw.toml": {
+    "name": "Enderman Overhaul",
+    "availability": "baseline",
+    "queries": [
+      "@endermanoverhaul"
+    ],
+    "declared_mod_ids": [
+      "endermanoverhaul"
+    ],
+    "item_model_namespaces": [
+      "endermanoverhaul"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248"
+  },
+  "mods/ends-delight.pw.toml": {
+    "name": "End's Delight",
+    "availability": "baseline",
+    "queries": [
+      "@ends_delight"
+    ],
+    "declared_mod_ids": [
+      "ends_delight"
+    ],
+    "item_model_namespaces": [
+      "ends_delight"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "65277056eb9ee9e1025633b83cb1b2568ec846dacd16507a35698244f4196881"
+  },
+  "mods/entity-model-features.pw.toml": {
+    "name": "[EMF] Entity Model Features",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "entity_model_features"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "8337d6b71c8e026efef852a5905f46631cbeb2620ae16fd200264a9230932296"
+  },
+  "mods/entityculling.pw.toml": {
+    "name": "Entity Culling",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "entityculling"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "3983b981da4a0583c7e58184a8631a23e56cc3b81f4cb53491ca600382879b82"
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "name": "[ETF] Entity Texture Features",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "entity_texture_features"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2276e6c23e4ebb0c26aac68e5c7b547bc31bdaff0ee60beb9b5060de878fe91c"
+  },
+  "mods/escalated.pw.toml": {
+    "name": "Create: Escalated",
+    "availability": "baseline",
+    "queries": [
+      "@escalated"
+    ],
+    "declared_mod_ids": [
+      "escalated"
+    ],
+    "item_model_namespaces": [
+      "escalated"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "c25ee54ebec01dcf5d471853f862391e3636c185daa88dba519d66326d60b1be"
+  },
+  "mods/every-compat.pw.toml": {
+    "name": "Every Compat (Wood Good)",
+    "availability": "baseline",
+    "queries": [
+      "@everycomp"
+    ],
+    "declared_mod_ids": [
+      "everycomp"
+    ],
+    "item_model_namespaces": [
+      "everycomp"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "9364bd08e9f0e557ceea9b9d40e2adfbf31270db7a8e8928f305fb395f645345"
+  },
+  "mods/explorers-compass.pw.toml": {
+    "name": "Explorer's Compass",
+    "availability": "baseline",
+    "queries": [
+      "@explorerscompass"
+    ],
+    "declared_mod_ids": [
+      "explorerscompass"
+    ],
+    "item_model_namespaces": [
+      "explorerscompass"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "71e7b47bd88c9c210d7c06fe5276736fc2e225e869778216537d584e6d1faf24"
+  },
+  "mods/explosive-enhancement-forge.pw.toml": {
+    "name": "Explosive Enhancement: Reforged",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "name": "Extreme sound muffler",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "extremesoundmuffler"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "3c4152461540e3cce8fe25c3e1a1fa8ce6982bbad44dca6d3b7e30a05ab2d531"
+  },
+  "mods/farmers-delight.pw.toml": {
+    "name": "Farmer's Delight",
+    "availability": "baseline",
+    "queries": [
+      "@farmersdelight"
+    ],
+    "declared_mod_ids": [
+      "farmersdelight"
+    ],
+    "item_model_namespaces": [
+      "farmersdelight"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "8ff438d62e1fce61542945faae45975d823e04bd6e73a07a121ea05ce2f03de7"
+  },
+  "mods/ferrite-core.pw.toml": {
+    "name": "FerriteCore",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ferritecore"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d87ea28262715ebff45b8a82d493e6b468e7a4521bc021df5d88302196d030a8"
+  },
+  "mods/flerovium.pw.toml": {
+    "name": "Flerovium",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "flerovium"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "653914a858dabd05bfa271b5605ac65aca8abe22d034bd2672c08a28c52691cb"
+  },
+  "mods/forcemaster-rpg-class.pw.toml": {
+    "name": "Forcemaster (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@forcemaster_rpg"
+    ],
+    "declared_mod_ids": [
+      "forcemaster_rpg"
+    ],
+    "item_model_namespaces": [
+      "forcemaster_rpg"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "5d2f31e335865cd6c36d10524557cd4c524f86d5c65fbaf3c333df873d570364"
+  },
+  "mods/forgematica.pw.toml": {
+    "name": "Forgematica",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "forgematica",
+      "litematica"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "e19f1653c2f72c771bca2c21519620b71cb32511e25698ba70d5654d50e96c2d"
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "name": "Forgified Fabric API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "fabric_api",
+      "forgified_fabric_api"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "96f8b489f401c64e87343daf57a030ccd1b58be40fc0aad701278ba58a0fadaf"
+  },
+  "mods/freecam.pw.toml": {
+    "name": "Freecam",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "freecam"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "09b865a3987a0f1c87bcc9430550ccc4107729f29bff53a1cd5ab1e9c3d82376"
+  },
+  "mods/friends-and-foes-forge.pw.toml": {
+    "name": "Friends&Foes (Forge/NeoForge)",
+    "availability": "baseline",
+    "queries": [
+      "@friendsandfoes"
+    ],
+    "declared_mod_ids": [
+      "friendsandfoes"
+    ],
+    "item_model_namespaces": [
+      "friendsandfoes"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "40f6129d9124bcd0052a348813425fc223b7b6ef16b81928f5edcb89ea62cfd1"
+  },
+  "mods/fwa.pw.toml": {
+    "name": "Fancy World Animations [FWA]",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/fzzy-config.pw.toml": {
+    "name": "Fzzy Config",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "fzzy_config"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "26af871cacd134ce52610384bbdd362a018707444eb2d498e4833063f378cf85"
+  },
+  "mods/gazebos.pw.toml": {
+    "name": "Gazebos (RPG Series)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "gazebo"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "7cca42528d6432c7979c56a0340b8a2b0af672411c03668beaa95d663fd03c48"
+  },
+  "mods/geckolib.pw.toml": {
+    "name": "Geckolib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "geckolib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47"
+  },
+  "mods/gml.pw.toml": {
+    "name": "GroovyModLoader (GML)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "gml"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "c508464433fc7739c1aa6a7208c5dbf2c02038fe9813f98187b3fb10e457d2bd"
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "name": "GrandTeleport NeoForge",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "gtalike_teleport"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d3494f75249c6953953803c4c19627cd8fbbe5707f8704c4b80f13dbff243718"
+  },
+  "mods/handcrafted.pw.toml": {
+    "name": "Handcrafted",
+    "availability": "baseline",
+    "queries": [
+      "@handcrafted"
+    ],
+    "declared_mod_ids": [
+      "handcrafted"
+    ],
+    "item_model_namespaces": [
+      "handcrafted"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "6f2a776fb28ed07d370899814e5e711fbeebe31396097d78a3b550439b364948"
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "name": "Hide Experimental Warning",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "hideexperimentalwarning"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "fd1bd754251823a48b80014f7f9f198e5f496bd9d8de2658be368990a0c60b52"
+  },
+  "mods/hypertube.pw.toml": {
+    "name": "Create: Hypertubes",
+    "availability": "baseline",
+    "queries": [
+      "@create_hypertube"
+    ],
+    "declared_mod_ids": [
+      "create_hypertube"
+    ],
+    "item_model_namespaces": [
+      "create_hypertube"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "7bdb8979c7ff7d3b29f7a23771b6ae4870a6dcb7ce2e4a3214fdd6059aacace8"
+  },
+  "mods/ibo.pw.toml": {
+    "name": "Incendium Biomes Only",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ibo"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "1c5f13c0a8393c95f7b2f112e4088afbbd9664313b948fcbb8249f6edbb614e6"
+  },
+  "mods/iceberg.pw.toml": {
+    "name": "Iceberg",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "iceberg"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c"
+  },
+  "mods/illager-invasion.pw.toml": {
+    "name": "Illager Invasion",
+    "availability": "baseline",
+    "queries": [
+      "@illagerinvasion"
+    ],
+    "declared_mod_ids": [
+      "illagerinvasion"
+    ],
+    "item_model_namespaces": [
+      "illagerinvasion"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "5adfdd0df0c5dbe81e4458da50442b58863f9db9f22abc182f81e487eef0e6db"
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "name": "ImmediatelyFast",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "immediatelyfast"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "15bf9bd6d8e3ae8ad35c5a4d90680424b534d9762d698c0a466965afcab5dd78"
+  },
+  "mods/immersive-paintings.pw.toml": {
+    "name": "Immersive Paintings",
+    "availability": "baseline",
+    "queries": [
+      "@immersive_paintings"
+    ],
+    "declared_mod_ids": [
+      "immersive_paintings"
+    ],
+    "item_model_namespaces": [
+      "immersive_paintings"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "c377f6dfaf5be5022761f6e3d6310ef90e59e10bd00bb252d78cff5381b2520c"
+  },
+  "mods/incendium.pw.toml": {
+    "name": "Incendium Legacy",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "incendium"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "285a4f69fe2391f2175f7fc9316d727a39c79bdd214923c59284d569bce656f4"
+  },
+  "mods/interactic-renewed.pw.toml": {
+    "name": "Interactic Renewed",
+    "availability": "baseline",
+    "queries": [
+      "@interactic"
+    ],
+    "declared_mod_ids": [
+      "interactic"
+    ],
+    "item_model_namespaces": [
+      "interactic"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a74bb995a0b0d2444c196facc47440a8596b313e7c501c74024c211dfca7e7a5"
+  },
+  "mods/interiors.pw.toml": {
+    "name": "Create: Interiors",
+    "availability": "baseline",
+    "queries": [
+      "@interiors"
+    ],
+    "declared_mod_ids": [
+      "interiors"
+    ],
+    "item_model_namespaces": [
+      "interiors"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "0d1326fb8b67623ae1c69a63b788dcdcecaf8df400c7d8e5e55ace79a5166fe5"
+  },
+  "mods/iris.pw.toml": {
+    "name": "Iris Shaders",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "iris"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314"
+  },
+  "mods/items-displayed-forge.pw.toml": {
+    "name": "Items Displayed [NeoForge]",
+    "availability": "baseline",
+    "queries": [
+      "@items_displayed"
+    ],
+    "declared_mod_ids": [
+      "items_displayed"
+    ],
+    "item_model_namespaces": [
+      "items_displayed"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a0a691e050778fc18120f8ba87d8ac9619db84ad229ff3ebafe53a0da6f28a4a"
+  },
+  "mods/ixeris.pw.toml": {
+    "name": "Ixeris",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ixeris_dummy"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "6f0e58055dbf1fefa486c44a4d00b7cff0ca9d70bc9eb8f089fe870cf15a87b1"
+  },
+  "mods/jade-addons-forge.pw.toml": {
+    "name": "Jade Addons (Neo/Forge)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "jadeaddons"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "1e7ce561f66c90446797e57f836c4459bb0dbc408b6bd551e5e18038774641ae"
+  },
+  "mods/jade.pw.toml": {
+    "name": "Jade 🔍",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "jade"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "276f1f65a20d04f536989c4f311949d770b52c440c23c2b904a08860f3c93810"
+  },
+  "mods/jamlib.pw.toml": {
+    "name": "JamLib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "jamlib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "911afdfe717a2375a651253e282ac9e769f8bead381d33c2167955c25eefe514"
+  },
+  "mods/jasione.pw.toml": {
+    "name": "Jasione",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/jewelry.pw.toml": {
+    "name": "Jewelry (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@jewelry"
+    ],
+    "declared_mod_ids": [
+      "jewelry"
+    ],
+    "item_model_namespaces": [
+      "jewelry"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "7f8d4ffab55a981607fd3b27dfe6c08d8bea43a8ab3c31afbdcba27a6765ceaa"
+  },
+  "mods/kerria-opt.pw.toml": {
+    "name": "Kerria",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "kerria"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "b36fd0225f3bbad8abe7e410ee7c77c726c3642d1815ce0892aeca2bc9136330"
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "name": "Kotlin for Forge",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139"
+  },
+  "mods/l_enders-cataclysm-delight.pw.toml": {
+    "name": "L_Ender 's Cataclysm Delight",
+    "availability": "baseline",
+    "queries": [
+      "@lendersdelight"
+    ],
+    "declared_mod_ids": [
+      "lendersdelight"
+    ],
+    "item_model_namespaces": [
+      "lendersdelight"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ddbc62c912d84205e09d9107ac3dd0c0e460fd554a965beebb2df26c55d6e43f"
+  },
+  "mods/l_enders-cataclysm.pw.toml": {
+    "name": "L_Ender's Cataclysm",
+    "availability": "baseline",
+    "queries": [
+      "@cataclysm"
+    ],
+    "declared_mod_ids": [
+      "cataclysm"
+    ],
+    "item_model_namespaces": [
+      "cataclysm"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875"
+  },
+  "mods/leaves-be-gone.pw.toml": {
+    "name": "Leaves Be Gone",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "leavesbegone"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ea85ad07672f7c2199c28fe58a80c354ef2f2c60bfb0315e3730c344068526e0"
+  },
+  "mods/lighty.pw.toml": {
+    "name": "Lighty",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "lighty"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "81875bb4128b7481cbaed480ff76f59eb176723e4b93070a733db8d7e10eec11"
+  },
+  "mods/lionfish-api.pw.toml": {
+    "name": "Lionfish-API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "lionfishapi"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6"
+  },
+  "mods/lithium.pw.toml": {
+    "name": "Lithium",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "lithium"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "488f33216030c1cb0baa33e59de3d657d08d5795a6c2080c8c8bbbc133fc8757"
+  },
+  "mods/lithostitched.pw.toml": {
+    "name": "Lithostitched",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "lithostitched"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "204699b4e3aa3176e2da5b145c6c66887363821f2bd671ba77bd94750036e169"
+  },
+  "mods/lmd.pw.toml": {
+    "name": "Let Me Despawn",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "letmedespawn"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "074ffdbe34bf97b7d15fa4db7cfff547578a9c2f547479128a43d184c4ca642a"
+  },
+  "mods/lodestonelib.pw.toml": {
+    "name": "Lodestone",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "lodestone"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "cc961af6a77391628378c1c838e521415fa895062b13def493d27234ca527f3e"
+  },
+  "mods/lootr.pw.toml": {
+    "name": "Lootr",
+    "availability": "baseline",
+    "queries": [
+      "@lootr"
+    ],
+    "declared_mod_ids": [
+      "lootr"
+    ],
+    "item_model_namespaces": [
+      "lootr"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "f7b80bf86e02a1107fb1600aa6a02608ebcddb140b123a42d5ee199e5db65c8d"
+  },
+  "mods/macaws-bridges.pw.toml": {
+    "name": "Macaw's Bridges",
+    "availability": "baseline",
+    "queries": [
+      "@mcwbridges"
+    ],
+    "declared_mod_ids": [
+      "mcwbridges"
+    ],
+    "item_model_namespaces": [
+      "mcwbridges"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "070b817d3282760d9789b22ce13779613c8b558e02012fd5884d343175d88fd9"
+  },
+  "mods/macaws-doors.pw.toml": {
+    "name": "Macaw's Doors",
+    "availability": "baseline",
+    "queries": [
+      "@mcwdoors"
+    ],
+    "declared_mod_ids": [
+      "mcwdoors"
+    ],
+    "item_model_namespaces": [
+      "mcwdoors"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "87261e309f5e10c9910169d5acbba613cab3a2d2270698b0bd47e657a45b0518"
+  },
+  "mods/macaws-fences-and-walls.pw.toml": {
+    "name": "Macaw's Fences and Walls",
+    "availability": "baseline",
+    "queries": [
+      "@mcwfences"
+    ],
+    "declared_mod_ids": [
+      "mcwfences"
+    ],
+    "item_model_namespaces": [
+      "mcwfences"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "e4b0e5a5b67decc2285e71f017fb4f60284796fa0838de3edeaf6b7cb0395735"
+  },
+  "mods/macaws-roofs.pw.toml": {
+    "name": "Macaw's Roofs",
+    "availability": "baseline",
+    "queries": [
+      "@mcwroofs"
+    ],
+    "declared_mod_ids": [
+      "mcwroofs"
+    ],
+    "item_model_namespaces": [
+      "mcwroofs"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "25c79def993a24b05b0f8494ee9417717d469bc000d5ed7c219b47dcc3b3e9c8"
+  },
+  "mods/macaws-stairs.pw.toml": {
+    "name": "Macaw's Stairs",
+    "availability": "baseline",
+    "queries": [
+      "@mcwstairs"
+    ],
+    "declared_mod_ids": [
+      "mcwstairs"
+    ],
+    "item_model_namespaces": [
+      "mcwstairs"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "177fe382ff22caa14983d862ead2717321315a5e4afa778d245e9acd2f61608d"
+  },
+  "mods/macaws-windows.pw.toml": {
+    "name": "Macaw's Windows",
+    "availability": "baseline",
+    "queries": [
+      "@mcwwindows"
+    ],
+    "declared_mod_ids": [
+      "mcwwindows"
+    ],
+    "item_model_namespaces": [
+      "mcwwindows"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "8970c40ec622edd34c9b055226b403af08ab441c77303a6dc625ae18005f8184"
+  },
+  "mods/mafglib.pw.toml": {
+    "name": "MaFgLib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "mafglib",
+      "malilib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d40789ad40e5643ae232a07b4535135fe56585c12538bc30158076f956aab081"
+  },
+  "mods/mech-trowel.pw.toml": {
+    "name": "Mech Trowel",
+    "availability": "baseline",
+    "queries": [
+      "@mechtrowel"
+    ],
+    "declared_mod_ids": [
+      "mechtrowel"
+    ],
+    "item_model_namespaces": [
+      "mechtrowel"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "fb3dcec678374060da7249b0fdce88d89a6e05a26299594fe2cf5edc16fac2c9"
+  },
+  "mods/midnightlib.pw.toml": {
+    "name": "MidnightLib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "midnightlib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "76775d3a3f3a6a0304330cdd6a810944babc9bd7ebbdefa24ec3346a7c62a703"
+  },
+  "mods/miners-delight.pw.toml": {
+    "name": "Miner's Delight",
+    "availability": "baseline",
+    "queries": [
+      "@minersdelight"
+    ],
+    "declared_mod_ids": [
+      "minersdelight"
+    ],
+    "item_model_namespaces": [
+      "minersdelight"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "616881ef219807f24962a461afa1fe10eab7989099779b4650bbceca48213344"
+  },
+  "mods/modelfix.pw.toml": {
+    "name": "Model Gap Fix",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "modelfix"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ee774b72135450ef9db1c7a75837304f30d05c3541e3a348c4f5769ab0f04912"
+  },
+  "mods/modernfix.pw.toml": {
+    "name": "ModernFix",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "modernfix"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "e6e9446890f0feb3aab3f6e73ae18cb17575c370f232179fef7baa30e61538fe"
+  },
+  "mods/moonlight.pw.toml": {
+    "name": "Moonlight Lib",
+    "availability": "baseline",
+    "queries": [
+      "@moonlight"
+    ],
+    "declared_mod_ids": [
+      "moonlight"
+    ],
+    "item_model_namespaces": [
+      "moonlight"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "0a755b1f5bfc40e1553c55471ebe42096eb537d5c7fa5fb6b5a5f145656604db"
+  },
+  "mods/more-relics-rpg.pw.toml": {
+    "name": "More Relics (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@more_relics"
+    ],
+    "declared_mod_ids": [
+      "more_relics"
+    ],
+    "item_model_namespaces": [
+      "more_relics"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "bf0b45653354547db8b003eea16962f53b67a86e878cabcba016c505f700dd7f"
+  },
+  "mods/more-rpg-classes-skill-tree.pw.toml": {
+    "name": "More RPG Classes - Skill Tree (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "mrpgc_skill_tree"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2832041eee9f25fa80a59f2798971b201816efc4014e6380b0c8078be1fc3184"
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "name": "More RPG Library",
+    "availability": "baseline",
+    "queries": [
+      "@more_rpg_classes"
+    ],
+    "declared_mod_ids": [
+      "more_rpg_classes"
+    ],
+    "item_model_namespaces": [
+      "more_rpg_classes"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "c2d0c4d5acd62912bc6fe428fedfd642588e03d98f6fa4902591e1cbfc165ce2"
+  },
+  "mods/more-sounds.pw.toml": {
+    "name": "More Sounds",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "more_sounds"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ebd468ed4c3b0b6f29bb21e3f43df15975c4e471d5581b14438f0dc48801b92b"
+  },
+  "mods/moreculling.pw.toml": {
+    "name": "More Culling",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "moreculling"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a086b2157458e8e1214232a52a2a92924481fd3fd6620a61a4f23373b557e791"
+  },
+  "mods/mouse-tweaks.pw.toml": {
+    "name": "Mouse Tweaks",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "mousetweaks"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b"
+  },
+  "mods/mru.pw.toml": {
+    "name": "MRU",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "mru"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ed025100de31f5635d48a5a0cc4bc9c701d885bf3777e0c2ad8af5f2cad4601a"
+  },
+  "mods/my-nethers-delight.pw.toml": {
+    "name": "My Nether's Delight",
+    "availability": "baseline",
+    "queries": [
+      "@mynethersdelight"
+    ],
+    "declared_mod_ids": [
+      "mynethersdelight"
+    ],
+    "item_model_namespaces": [
+      "minersdelight",
+      "mynethersdelight"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "002678f15ae0e61805d3bbd0bc8c7d7f683d63e6ab479ff8fb2518514134c4c2"
+  },
+  "mods/natures-compass.pw.toml": {
+    "name": "Nature's Compass",
+    "availability": "baseline",
+    "queries": [
+      "@naturescompass"
+    ],
+    "declared_mod_ids": [
+      "naturescompass"
+    ],
+    "item_model_namespaces": [
+      "naturescompass"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c"
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "name": "Neo Bee Fix",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "neobeefix"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "b89e14e18a572c69596cdefdd4a680426e8fb5dbfebbfe9153656c101e4449f1"
+  },
+  "mods/netherportalfix.pw.toml": {
+    "name": "NetherPortalFix",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "netherportalfix"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "242267afa324352130adb2263a5667e421c6f4c573ad0dfe0565971255ea5a1e"
+  },
+  "mods/northstar-redux.pw.toml": {
+    "name": "Create: Northstar - Redux",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
+    "name": "Northstar Sable Iris Horizons Bridge",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/not-enough-animations-emf-compat.pw.toml": {
+    "name": "EMF Compat: Not Enough Animations",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/not-enough-animations.pw.toml": {
+    "name": "Not Enough Animations",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/nullscape.pw.toml": {
+    "name": "Nullscape",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "nullscape"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "8749c6fdda659335e50116c18e012cdf8699b3789859c82559af2c6f425c93ae"
+  },
+  "mods/observable.pw.toml": {
+    "name": "Observable",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "observable"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "f344b47b58f4fd48d1aa95ee4d5c16252b5e5bd39f829fabc96b27097202d2e5"
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "name": "Ok Zoomer - It's Zoom!",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ok_zoomer"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "61da322358127329d40b36a028faa7d91c370a3708e08becf1f1b8b242c5eb61"
+  },
+  "mods/owo-lib.pw.toml": {
+    "name": "oωo (owo-lib)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "owo"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "de6ed336bd80154b7241a7b3276694befc1c94550add8bcdfe7f82e5172fd13d"
+  },
+  "mods/paladins-and-priests.pw.toml": {
+    "name": "Paladins & Priests (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@paladins"
+    ],
+    "declared_mod_ids": [
+      "paladins"
+    ],
+    "item_model_namespaces": [
+      "paladins"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "d5846395649e455aaa2882478066adf63cd268b48c270ac401347b5a556802d8"
+  },
+  "mods/particle-effects.pw.toml": {
+    "name": "Particle Effects",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/particular-reforged.pw.toml": {
+    "name": "Particular ✨ Reforged",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/paxi.pw.toml": {
+    "name": "Paxi",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "name": "Presence Footsteps (NeoForge)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "presencefootsteps"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ded9ea8677f407cbf280b0ee33866ae70859a7c476ef0f60fd35a9be2ee9b91a"
+  },
+  "mods/placebo.pw.toml": {
+    "name": "Placebo",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "placebo"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "1a844a5b081813b1edb82656329e54d38389ed470f6a6516a5887f5303d7daad"
+  },
+  "mods/playeranimator.pw.toml": {
+    "name": "playerAnimator",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "playeranimator"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92"
+  },
+  "mods/polymorph.pw.toml": {
+    "name": "Polymorph",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "polymorph"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "bec8118978adeb052de9c4eaf9a595830621d82515a764f32f9c8a4dd52ab94b"
+  },
+  "mods/polytone.pw.toml": {
+    "name": "Polytone",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "polytone"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "1a5684cb6deae400cd5b204770bd01dec009c6450c01dc7775873971f9318fb6"
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "name": "Presence Footsteps x Sable (Aeronautics Compat)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "pfsable"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "4a57106efa03a7003da97685be58d0cd415565446111e06ccc6678530c376231"
+  },
+  "mods/prickle.pw.toml": {
+    "name": "Prickle",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "prickle"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
+  },
+  "mods/progresspeek.pw.toml": {
+    "name": "Progress Peek",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "progresspeek"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "7f2a31ae41087b9dd06fa401e4669400e3780b585694dd92cf814cc0fff88a44"
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "name": "Puzzles Lib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "puzzleslib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "db5d694d964f2feb7029406be99237f080242fd1b6d075a6a042e1195731a469"
+  },
+  "mods/quick-pack.pw.toml": {
+    "name": "quick pack",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "quick_pack"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "1c3e963bdbf829bee1fe6dee29fdc5792890c09e67134849d54cf87b9ce3d431"
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "name": "Ranged Weapon API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ranged_weapon_api"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "3011f512bdcc231778a225941187a70e4282b0b526d7d93f2b0896cde9b796c5"
+  },
+  "mods/reconnectible-chains.pw.toml": {
+    "name": "Reconnectible Chains",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "connectiblechains"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "34439f67ac12465635e075ef50c0a5050c0a532442835ba8a840dbfd29a32039"
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "name": "Reese's Sodium Options",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "reeses_sodium_options"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "e4c86cad7c86c3601261441c0282571dc6b1ebeb41b694c11eb58b2becb90b51"
+  },
+  "mods/reinforced-shulker-boxes.pw.toml": {
+    "name": "Reinforced Shulker Boxes",
+    "availability": "baseline",
+    "queries": [
+      "@reinfshulker"
+    ],
+    "declared_mod_ids": [
+      "reinfshulker"
+    ],
+    "item_model_namespaces": [
+      "reinfshulker"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "88efbc64ec091b4ffc7842113fb7371b66e1664f0ac10b0739bec806f7d0e485"
+  },
+  "mods/reliable-advancements.pw.toml": {
+    "name": "Reliable Advancements",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "reliable_advancements"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "841b252a2313529ad55ea093d7147caa363a4fc87cf5bafbc8e54dcd883e2c80"
+  },
+  "mods/reliable-emi.pw.toml": {
+    "name": "Reliable EMI (REMI)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "remi"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "e1e50350750dd824cbb179d458d24fffad076ff3d7957099810a566bcfca0efe"
+  },
+  "mods/relics-rpg.pw.toml": {
+    "name": "Relics (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@relics_rpgs"
+    ],
+    "declared_mod_ids": [
+      "relics_rpgs"
+    ],
+    "item_model_namespaces": [
+      "relics_rpgs"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "25a4671e5a40ad4e050ce33773c3929b4842b672be3b09a752113e821855c577"
+  },
+  "mods/resourceful-config.pw.toml": {
+    "name": "Resourceful Config",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "resourcefulconfig"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "25b4f3502d25c535004acd4a9420272fff01d2f1e2df352239fec93fdab005d4"
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "name": "Resourceful Lib",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "resourcefullib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261"
+  },
+  "mods/rightclickharvest.pw.toml": {
+    "name": "RightClickHarvest",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "rightclickharvest"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "b5d597ed361964ba9530a848fe8987715f40af2390dfa1a6adb70a2a74076d52"
+  },
+  "mods/ripple.pw.toml": {
+    "name": "Ripple",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/rogues-and-warriors.pw.toml": {
+    "name": "Rogues & Warriors (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@rogues"
+    ],
+    "declared_mod_ids": [
+      "rogues"
+    ],
+    "item_model_namespaces": [
+      "rogues"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "676efe0bd4ea9bef5d9aa4dfe28e28515d56f6c69f6d81cc7a3ef01b8ee17f59"
+  },
+  "mods/rpl.pw.toml": {
+    "name": "Ritchie's Projectile Library",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "ritchiesprojectilelib"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24"
+  },
+  "mods/runes.pw.toml": {
+    "name": "Runes",
+    "availability": "baseline",
+    "queries": [
+      "@runes"
+    ],
+    "declared_mod_ids": [
+      "runes"
+    ],
+    "item_model_namespaces": [
+      "runes"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "51fee4d0f16ddb705c8cac116050834c74f5dc05f695dcf203689bad72cd6ba6"
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "name": "Sable: Cool Rain",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sable_cool_rain"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "f177526f730bd0b6400e0217ca718857bbedfd5099ce4f08210a11da588d456b"
+  },
+  "mods/sable.pw.toml": {
+    "name": "Sable",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sable"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "9c199157843bf953a47dff625fc5bb41c01a90538d35ad18e6996bbcb8a617c2"
+  },
+  "mods/sable_beyond.pw.toml": {
+    "name": "Sable Beyond",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sable_beyond"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "8522993e9804e83535c3d975a24a4ca7032ec68f1fd565802e65c1eec6e8fe46"
+  },
+  "mods/sablecompat.pw.toml": {
+    "name": "Sable: Physics Compat",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sablephysicscompat"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d5dbff984a89f63ac76ad9b9bedafbced87b0092f6d8ae90e30142e8427642c6"
+  },
+  "mods/searchables.pw.toml": {
+    "name": "Searchables",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "searchables"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ca193f0c69033d8f709f9e073a7c1ef4ea46714e5c2f94eb23ace12781c6aa68"
+  },
+  "mods/servercore.pw.toml": {
+    "name": "ServerCore",
+    "availability": "deferred",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/shield-api.pw.toml": {
+    "name": "Shield API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "shield_api"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "adbd8facfcaf318956d670ff3f0341c0d8e15e136ae9c00749a255e25a9c0194"
+  },
+  "mods/short-stacks.pw.toml": {
+    "name": "Short Stacks",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "shortstacks"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "14ec86e210d165b11e8f6f32a58a5c8bd24058e8dafe692e537ab090cb04b884"
+  },
+  "mods/shulker-drops-two.pw.toml": {
+    "name": "Shulker Drops Two",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "shulkerdropstwo"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "beadd6f6b7cd425bd5cfbb732516452ffb6ff8d87b5764b112f89e05fdab41ca"
+  },
+  "mods/skill-tree.pw.toml": {
+    "name": "Skill Tree (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@skill_tree_rpgs"
+    ],
+    "declared_mod_ids": [
+      "skill_tree_rpgs"
+    ],
+    "item_model_namespaces": [
+      "skill_tree_rpgs"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "059150f9dfd3b97ddbf00eab2774abb260c5276e4932d4fb61be2dc77baa6cae"
+  },
+  "mods/skills.pw.toml": {
+    "name": "Pufferfish's Skills",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "puffish_skills"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "e37b27e89d997ad39a0d85aae9cfdaa65cfb367f3e13a99013c9d314dd828e87"
+  },
+  "mods/slice-and-dice.pw.toml": {
+    "name": "Create Slice & Dice",
+    "availability": "baseline",
+    "queries": [
+      "@sliceanddice"
+    ],
+    "declared_mod_ids": [
+      "sliceanddice"
+    ],
+    "item_model_namespaces": [
+      "sliceanddice"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "f887f70d8a5892c0cffb4fcac59dd189c76aef64e2f2d4771743ca8721d6ee48"
+  },
+  "mods/smarter-farmers-farmers-replant.pw.toml": {
+    "name": "Smarter Farmers (farmers replant)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "smarterfarmers"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "96cd9c5cb6e358798de09c5de13a1201a01da680cad8ec5a0d5a309106293d13"
+  },
+  "mods/sodium-dynamic-lights.pw.toml": {
+    "name": "Sodium Dynamic Lights",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/sodium-extra.pw.toml": {
+    "name": "Sodium Extra",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sodium_extra"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "655b4a25d3d1ccc0f53d0589c676f0a86e46843ae537749048b4b0edc33a0f6f"
+  },
+  "mods/sodium.pw.toml": {
+    "name": "Sodium",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sodium"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d"
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "name": "Sophisticated Core",
+    "availability": "baseline",
+    "queries": [
+      "@sophisticatedcore"
+    ],
+    "declared_mod_ids": [
+      "sophisticatedcore"
+    ],
+    "item_model_namespaces": [
+      "sophisticatedcore"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "a24fa6b250d6ea576016afaecdea5481fdf77159a7d94a0ce3f35be16e0d3520"
+  },
+  "mods/sophisticated-inventory-interactions.pw.toml": {
+    "name": "Sophisticated Inventory Interactions",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sophisticatedinventoryinteractions"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "acc295a6c0b2521633bdd689fc658349cef99093205a3c3e0843932cfb55c10a"
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "name": "Sound Physics Remastered",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sound_physics_remastered"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "bddc71ecd4f074a101eb3785599d13c69e64025e1029aa0fd0a28fcf9bccf2ea"
+  },
+  "mods/sound.pw.toml": {
+    "name": "Sounds",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "sounds"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d3bda0a7a5b1f267747da182e788139da380f625eaf96a5c2a8fa5bcb8d908b7"
+  },
+  "mods/spark.pw.toml": {
+    "name": "spark",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "spark"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db"
+  },
+  "mods/spawn-animations-compats.pw.toml": {
+    "name": "Spawn Animations Compats",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/spawn-animations.pw.toml": {
+    "name": "Spawn Animations",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/spawn-mod.pw.toml": {
+    "name": "Spawn",
+    "availability": "baseline",
+    "queries": [
+      "@spawn"
+    ],
+    "declared_mod_ids": [
+      "spawn"
+    ],
+    "item_model_namespaces": [
+      "spawn"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "705dabdfb29b163500334a08c095b51ea8800db08b6c96ec430c52b30d6d9842"
+  },
+  "mods/spell-engine.pw.toml": {
+    "name": "Spell Engine",
+    "availability": "baseline",
+    "queries": [
+      "@spell_engine"
+    ],
+    "declared_mod_ids": [
+      "spell_engine"
+    ],
+    "item_model_namespaces": [
+      "spell_engine"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "fb63732cfc9868c684524240ec022fea139326b7f66c66323f8e249e261f2014"
+  },
+  "mods/spell-power.pw.toml": {
+    "name": "Spell Power Attributes",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "spell_power"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a57cd041be1bee86640861588ad9b4a3a032d2dedff8d44abf5305136e2f5854"
+  },
+  "mods/spice-of-life-onion.pw.toml": {
+    "name": "Spice of Life Onion",
+    "availability": "baseline",
+    "queries": [
+      "@solonion"
+    ],
+    "declared_mod_ids": [
+      "solonion"
+    ],
+    "item_model_namespaces": [
+      "solonion"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "11605cfec2ac2e6385fc119d01bb6633b8a9ce8fdf0614cd272254630d56c0a7"
+  },
+  "mods/status-effect-bars-reforged.pw.toml": {
+    "name": "Status Effect Bars Reforged",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "statuseffectbars"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a631cd09277147bd40aac0392d3b3abe686b07db58cdac0833b16111e0c05ddf"
+  },
+  "mods/stone-zone.pw.toml": {
+    "name": "Every Compat (Stone Zone)",
+    "availability": "baseline",
+    "queries": [
+      "@stonezone"
+    ],
+    "declared_mod_ids": [
+      "stonezone"
+    ],
+    "item_model_namespaces": [
+      "stonezone"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "de953ccfecdf35bf5c65c2626ad3c2259407d634c957f51b24ef3b21d3ef24c5"
+  },
+  "mods/straw-statues.pw.toml": {
+    "name": "Straw Statues",
+    "availability": "baseline",
+    "queries": [
+      "@strawstatues"
+    ],
+    "declared_mod_ids": [
+      "strawstatues"
+    ],
+    "item_model_namespaces": [
+      "strawstatues"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "46b10676fa5cf3d472119e38537a912e656832fd784f9343f853fc1b571d3f2e"
+  },
+  "mods/streams-reflowing.pw.toml": {
+    "name": "Streams Reflowing",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "streamsreflowing"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "bf44eb2231d9f4c506cf1c54ff5a857895198e599bc06639b5e3667616022bf1"
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "name": "Structure Layout Optimizer",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "structure_layout_optimizer"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ef8eb29c5c4f111c74a49d379843e4c2f51d11b28c8116a49be13636c83f4385"
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "name": "Structure Pool API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "structure_pool_api"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "c18460025b07bc05fdc95bf62621c6b56f45e4eeb1c319f12787f39eb9315ea9"
+  },
+  "mods/stylish-effects.pw.toml": {
+    "name": "Stylish Effects",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "stylisheffects"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "ee312720bf882c688f15b156d33b2194faf8b5e1b94ba112b2c841ac1d9f0501"
+  },
+  "mods/supplementaries.pw.toml": {
+    "name": "Supplementaries",
+    "availability": "baseline",
+    "queries": [
+      "@supplementaries"
+    ],
+    "declared_mod_ids": [
+      "supplementaries"
+    ],
+    "item_model_namespaces": [
+      "minecraft",
+      "supplementaries"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "d6876ad959d0da4bab0ba182839a0af0e38ef3571345e5e7aea0be572f958e05"
+  },
+  "mods/teallib.pw.toml": {
+    "name": "Teal Lib",
+    "availability": "baseline",
+    "queries": [
+      "@teallib"
+    ],
+    "declared_mod_ids": [
+      "teallib"
+    ],
+    "item_model_namespaces": [
+      "teallib"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "297004b131df16839a09f97ecd703ea20e89937289e5613d3711e385f9377218"
+  },
+  "mods/team-capes.pw.toml": {
+    "name": "Team Capes",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "mods/tectonic.pw.toml": {
+    "name": "Tectonic",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "tectonic"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "cf188c70e7dd94f6e3a81cef9fe99f1151f13217809f7576aaedb0c3e6547ae1"
+  },
+  "mods/tempad.pw.toml": {
+    "name": "Tempad",
+    "availability": "baseline",
+    "queries": [
+      "@tempad"
+    ],
+    "declared_mod_ids": [
+      "tempad"
+    ],
+    "item_model_namespaces": [
+      "tempad"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "932dd8a1cbb86d7632330ee3b9da43211b7c7a2fb6246443fd8207f74a74eba3"
+  },
+  "mods/terralith.pw.toml": {
+    "name": "Terralith",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "terralith"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d38bd304897731b42f6c013cdc07e082e74411e80c74aabcee385251beb3b546"
+  },
+  "mods/tfmg-community-edition.pw.toml": {
+    "name": "Create: TFMG Community Edition",
+    "availability": "baseline",
+    "queries": [
+      "@tfmg"
+    ],
+    "declared_mod_ids": [
+      "tfmg"
+    ],
+    "item_model_namespaces": [
+      "tfmg"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "34713689a6265bc7644027bdcd6d319ea72286444cb371560fadf7d9445ba7ad"
+  },
+  "mods/toast-control.pw.toml": {
+    "name": "Toast Control",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "toastcontrol"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "5eff88812f7f6d1130fddc0f704127664d979954e80c76ca12fc22a83d15cfb2"
+  },
+  "mods/tooltipfix.pw.toml": {
+    "name": "ToolTipFix",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "tooltipfix"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "50c6c45d16c62b0d9a832692b7f6250d5561f0b28bf7729d8ab25fe1162c90d2"
+  },
+  "mods/torchmaster.pw.toml": {
+    "name": "TorchMaster",
+    "availability": "baseline",
+    "queries": [
+      "@torchmaster"
+    ],
+    "declared_mod_ids": [
+      "torchmaster"
+    ],
+    "item_model_namespaces": [
+      "torchmaster"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "db9a2fa385757656797a5a14ffad1777fbe596e2e443f1deba5f7534706eb806"
+  },
+  "mods/trade-refresh.pw.toml": {
+    "name": "Trade Refresh",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "traderefresh"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d1401c5f1286dd668767074407eb9363abe86e37709979ab0c68aca589cea33c"
+  },
+  "mods/trashslot.pw.toml": {
+    "name": "TrashSlot",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "trashslot"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "61fdb5de0fc3d36db0e5dd82c2e03341e449bbc47ce13eeab834b05596b7bb5b"
+  },
+  "mods/travelers-titles.pw.toml": {
+    "name": "Traveler's Titles",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "travelerstitles"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "f7d6811b58a432e4d7f0e80bfcc48210f7a8da251d1c3e528a73c26d0f2a56ed"
+  },
+  "mods/universal-bone-meal.pw.toml": {
+    "name": "Universal Bone Meal",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "universalbonemeal"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "18bcaeffe41f50babd00211d81e072a0986437b55780cc978a8ae10a53974cbc"
+  },
+  "mods/vanilla-backpacks.pw.toml": {
+    "name": "Backpacks!",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "mr_vanilla_backpacks"
+    ],
+    "item_model_namespaces": [
+      "minecraft"
+    ],
+    "status": "component-backed vanilla recipe outputs require localized name search, not the wrapper mod namespace",
+    "selected_archive_sha256": "eecbcf2632f4fd7058e1e38019341817cf154e6f079e2db1c2b18f793d4cc417",
+    "localized_name_queries": {
+      "en_us": "backpack",
+      "zh_cn": "背包"
+    }
+  },
+  "mods/variants-and-ventures.pw.toml": {
+    "name": "Variants&Ventures",
+    "availability": "baseline",
+    "queries": [
+      "@variantsandventures"
+    ],
+    "declared_mod_ids": [
+      "variantsandventures"
+    ],
+    "item_model_namespaces": [
+      "variantsandventures"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "de4621576e220c775a67472030cd86bd9280af69151b01f6b74f012d56e0898b"
+  },
+  "mods/village-taverns.pw.toml": {
+    "name": "Village Taverns (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@village_taverns"
+    ],
+    "declared_mod_ids": [
+      "village_taverns"
+    ],
+    "item_model_namespaces": [
+      "village_taverns"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "d253da1816c49494d916be389c67ae4102ae5a1f00922f3a7fc66c53fae01133"
+  },
+  "mods/villager-names-serilum.pw.toml": {
+    "name": "Villager Names",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "villagernames"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d254360090c0409b2b85b4af8168012c40745af846140cf760a35a8589504f31"
+  },
+  "mods/waystones-sable.pw.toml": {
+    "name": "Waystones: Sable (Create Aeronautics Addon)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "waystonessable"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "617af6cffce9f5a939e1e376972ccba6da6b6eca89edfb92cf98e9e62b3e3c45"
+  },
+  "mods/waystones.pw.toml": {
+    "name": "Waystones",
+    "availability": "baseline",
+    "queries": [
+      "@waystones"
+    ],
+    "declared_mod_ids": [
+      "waystones"
+    ],
+    "item_model_namespaces": [
+      "waystones"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "ca76a4457160e8353b1f013a21ab377b264141f466d84ec8952a123058b8af78"
+  },
+  "mods/when-dungeons-arise.pw.toml": {
+    "name": "When Dungeons Arise",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "dungeons_arise"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4"
+  },
+  "mods/witcher-rpg-class.pw.toml": {
+    "name": "Witcher (RPG Series Plus)",
+    "availability": "baseline",
+    "queries": [
+      "@witcher_rpg"
+    ],
+    "declared_mod_ids": [
+      "witcher_rpg"
+    ],
+    "item_model_namespaces": [
+      "witcher_rpg"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "74698eb43b0e2b34059f28c0ecea6876d829f4ec74d5abb2e1f2d9619efef46b"
+  },
+  "mods/wizards.pw.toml": {
+    "name": "Wizards (RPG Series)",
+    "availability": "baseline",
+    "queries": [
+      "@wizards"
+    ],
+    "declared_mod_ids": [
+      "wizards"
+    ],
+    "item_model_namespaces": [
+      "wizards"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "14356642c4b6e863362804082f97d6a88eb0d3360f7b23c1ee35224cd804ac79"
+  },
+  "mods/xaeros-maps-multiplayer-plus.pw.toml": {
+    "name": "Xaero's Maps: Multiplayer+",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "xmmp"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2396d7a992b27461503f13ca74261b51961e571c575c72eb70e1bfb385d04254"
+  },
+  "mods/xaeros-minimap.pw.toml": {
+    "name": "Xaero's Minimap",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "xaerominimap"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "d3398221b2262abfe2d394b588122e5b3fd2e4d8c4bf66a5fd357352fcf51b2e"
+  },
+  "mods/xaeros-world-map.pw.toml": {
+    "name": "Xaero's World Map",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "xaeroworldmap"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "6a42b6f01bd96b496e5fcc07d4541bad1a699d9ec8ad58ad40d5dcfe23a7d4c7"
+  },
+  "mods/yacl.pw.toml": {
+    "name": "YetAnotherConfigLib (YACL)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "yet_another_config_lib_v3"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f"
+  },
+  "mods/yungs-api.pw.toml": {
+    "name": "YUNG's API",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "yungsapi"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "375e0b2f988ab4f5bde182166c0f0b102377adc8f823660c24ade08b0b3cde56"
+  },
+  "mods/yungs-better-desert-temples.pw.toml": {
+    "name": "YUNG's Better Desert Temples",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterdeserttemples"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "2c3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6"
+  },
+  "mods/yungs-better-dungeons.pw.toml": {
+    "name": "YUNG's Better Dungeons",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterdungeons"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04"
+  },
+  "mods/yungs-better-jungle-temples.pw.toml": {
+    "name": "YUNG's Better Jungle Temples",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterjungletemples"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a0d57b78c7a1891796f342b1f09c214bc27bedf0a3a894f029dfdb2db9f813d0"
+  },
+  "mods/yungs-better-mineshafts.pw.toml": {
+    "name": "YUNG's Better Mineshafts",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "bettermineshafts"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0"
+  },
+  "mods/yungs-better-nether-fortresses.pw.toml": {
+    "name": "YUNG's Better Nether Fortresses",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterfortresses"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff"
+  },
+  "mods/yungs-better-ocean-monuments.pw.toml": {
+    "name": "YUNG's Better Ocean Monuments",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betteroceanmonuments"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "cdcf8fe0e08c75261048d43c6ed4898972d23e096dd04a2524c136f06416ab02"
+  },
+  "mods/yungs-better-strongholds.pw.toml": {
+    "name": "YUNG's Better Strongholds",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterstrongholds"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58"
+  },
+  "mods/yungs-better-witch-huts.pw.toml": {
+    "name": "YUNG's Better Witch Huts",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [
+      "betterwitchhuts"
+    ],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated",
+    "selected_archive_sha256": "888b1e6d1ada21982a75abfb4afb040c9bc2cc68777ec5fcd1199b978e3d4f8d"
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "name": "Attribute Icons (RPG Series)",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "name": "Motschen's Better Leaves",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  },
+  "resourcepacks/fa-player-extension.pw.toml": {
+    "name": "Fresh Animations: Player Extension",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "resourcepacks/fancy-crops.pw.toml": {
+    "name": "(Bee's) Fancy Crops",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "resourcepacks/fresh-animations-objects.pw.toml": {
+    "name": "Fresh Animations: Objects",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "resourcepacks/fresh-animations-quivers.pw.toml": {
+    "name": "Fresh Animations: Quivers",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "resourcepacks/fresh-animations.pw.toml": {
+    "name": "Fresh Animations",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "name": "Mandala's GUI - Dark mode",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  },
+  "resourcepacks/simple-grass-flowers.pw.toml": {
+    "name": "Simple Grass Flowers",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "resourcepacks/visual-effects-plus.pw.toml": {
+    "name": "Visual Effects+",
+    "availability": "heavy",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "not installed in baseline"
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "name": "Complementary Shaders - Reimagined",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "name": "Complementary Shaders - Unbound",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "name": "Photon Shaders",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  },
+  "mods/guideme.pw.toml": {
+    "name": "GuideME",
+    "availability": "baseline",
+    "queries": [
+      "@guideme"
+    ],
+    "declared_mod_ids": [
+      "guideme"
+    ],
+    "item_model_namespaces": [
+      "guideme"
+    ],
+    "status": "selected item-model namespace, search matching and runtime registration not yet validated",
+    "selected_archive_sha256": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a"
+  },
+  "mods/astropunk-handbook-access-1.0.0.jar": {
+    "name": "Astropunk Handbook Access",
+    "availability": "baseline",
+    "queries": [],
+    "declared_mod_ids": [],
+    "item_model_namespaces": [],
+    "status": "no standalone item catalog demonstrated"
+  }
+}

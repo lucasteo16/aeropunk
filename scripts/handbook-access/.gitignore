@@ -1,0 +1,8 @@
+build/
+.gradle/
+.gradle-user-home
+toolchain
+guideme-21.1.19.jar
+emi-1.1.24.jar
+syntax-validation/classes/
+build-tmp/

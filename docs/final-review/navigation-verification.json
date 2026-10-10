@@ -1,0 +1,34 @@
+{
+  "engine": "21.1.19",
+  "navigation_class_sha256": "f8c85113f5912abd54a2e9c5a6525986761aff274f523e478a60784b3652efd1",
+  "tests": [
+    {
+      "locale": "en_us",
+      "output": "PASS released NavigationTree, 97 nodes, two roots, Combat siblings, depth, fallback merge, watched deletion and repair controls"
+    },
+    {
+      "locale": "_zh_cn",
+      "output": "PASS released NavigationTree, 97 nodes, two roots, Combat siblings, depth, fallback merge, watched deletion and repair controls"
+    }
+  ],
+  "minecraft_boundaries_stubbed": true,
+  "rendered_verified": false,
+  "source_validation": {
+    "pages": 194,
+    "links": 1746,
+    "installed": 292,
+    "all_providers": 320
+  },
+  "unittest_passed": {
+    "navigation": 8,
+    "native_and_fallback": 3,
+    "review_layout": 6,
+    "unified_content": 5
+  },
+  "released_parser": {
+    "pages": 194,
+    "failures": 0,
+    "malformed_tag_rejected": true
+  },
+  "remaining": "Merge content fragments into authoritative source before re-running authored-source preservation and generating normally. Selected installed fallback and running client not verified."
+}

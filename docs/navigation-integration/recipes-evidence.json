@@ -1,0 +1,1531 @@
+{
+  "scope": "Non-character first-use crafting additions only. food.utensils excluded. Shared authoring source and generator unchanged.",
+  "repository": "/home/tsb/Projects/lucas/astropunk-guide",
+  "source_sha256": "e7ff4339a1bea65d1efbc34dbbe253f5541a988ff039e0ebb5e0d9d29d46ce72",
+  "source_topic_sha256": {
+    "maps.find": {
+      "en_us": "c5d1563494ec1a4fbbc4b4975f3338347f24d4f9f8bdc13452a232e6c8c3e3e9",
+      "zh_cn": "6945137ace8943a504d494d11e091223c3167f5dca8589e6f478868b00ac3e75"
+    },
+    "machines.rotation": {
+      "en_us": "542fae77ebab0bf4c257ed0ead0fcca9b3861e292991e42afa66c8e1fcca4508",
+      "zh_cn": "bb58acad5bb6c7dcda922cbe9b92d5097eea8cefa0ffb32e520528025746c313"
+    },
+    "machines.logistics": {
+      "en_us": "411fafdc0e0be8425a1356d89167dcec297ad855ae03d90cd5848c3919fbac65",
+      "zh_cn": "b5d4517030bfded2965ff246c082118e082521536612f4e554530eec7a91df1d"
+    },
+    "storage.bulk": {
+      "en_us": "33182ba3f3e44b08c46bc8f1b447033fdca080c7a153158ccdde4c8484b63180",
+      "zh_cn": "8fd7bc9d4ad9f612da574016a81742729af1c9b87f4cdf530c1c7e084151c7e3"
+    },
+    "vehicles.assembly": {
+      "en_us": "e30f2bd33dc9dcb3a41f6432750bfea7de84ddc5548cadfd178e6b1c51547755",
+      "zh_cn": "dd466e783bbc7e614e3993aefa38c4cef7668cb5ad3dbd4072b54b47f6534e72"
+    },
+    "vehicles.airships": {
+      "en_us": "7c6614e74b4e6a824b766b99b792f1984cf04fd6aed68a5869cd0cdc1ebd236b",
+      "zh_cn": "6d614181c61bcd188bd753c1457b4bce206664b59960c9eb8449789f7cae7881"
+    },
+    "transport.railway-builder": {
+      "en_us": "dea641ee738dcb63f195c6cafe668ec838a1bf04da829ac23d2f718a5fb03648",
+      "zh_cn": "b096e8a91e7f84f0f9fa5ef2ac9188746962cdafaa18c6724246b23433bb7dd3"
+    },
+    "food.machine-cooking": {
+      "en_us": "4425f13deaa157e9ef9ef37e07d63b80db6c4ad8db83cde1f9ff706b830224f2",
+      "zh_cn": "ade49f5e502d364d9c4f9b707cdd7271e0549b8b00be8427cb42778e840f0b45"
+    },
+    "building.safety": {
+      "en_us": "669d0e3bfeeed74cd7439b3b6f9f49c25badda36e08cb85d244709b4f521ee94",
+      "zh_cn": "fcc8200d3736173a7dfe953d558c068eeb403e0d5019c313b81933b311a90661"
+    },
+    "power.burners": {
+      "en_us": "ef0bad20570902c2fad1fbd701d9d1715791a4abfa60cc9d6b32964592623217",
+      "zh_cn": "33ffdf4bd2f64d30dbbc21078a5de635d92521cbca714d1185023959137bc3ed"
+    }
+  },
+  "artifacts": {
+    "create": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/create.pw.toml",
+      "filename": "create-1.21.1-6.0.10.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+        "hash-format": "sha512",
+        "hash": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b"
+      },
+      "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "path": "/home/tsb/.cache/packwiz/cache/ef/87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a"
+    },
+    "create-aeronautics": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/create-aeronautics.pw.toml",
+      "filename": "create-aeronautics-bundled-1.21.1-1.3.2.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/oWaK0Q19/versions/44pLdPGg/create-aeronautics-bundled-1.21.1-1.3.2.jar",
+        "hash-format": "sha512",
+        "hash": "dc7e8e1148fa442243889ba29412207137e1bb86206e6c92bc0a589f1374a466e93de22bdbf14f753984d86c29308fbbdc0f14a4b9618b14c0ac1666a36b46f5"
+      },
+      "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+      "path": "/home/tsb/.cache/packwiz/cache/a3/f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e"
+    },
+    "natures-compass": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/natures-compass.pw.toml",
+      "filename": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/nFniEtJV/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+        "hash-format": "sha512",
+        "hash": "5314b536bcb9a594a9cf2bbd46c82468d17e1559bd6c00da9d91e96c0814f50416799a011705f0d184bd731dac3f03dec009c76fea3d02b3556a6013f9649014"
+      },
+      "sha256": "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c",
+      "path": "/home/tsb/.cache/packwiz/cache/0e/249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c"
+    },
+    "explorers-compass": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/explorers-compass.pw.toml",
+      "filename": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/RV1qfVQ8/versions/hIJ2Ev1Q/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+        "hash-format": "sha512",
+        "hash": "a1b2e385aaacb547763441fc23e9a33a0b1d67bd32094cd605ded3fbdd1c7a0e5fc4520fdfa090c29d2d3384b685e3ead91b32d20030e45632c94145ee3ec668"
+      },
+      "sha256": "71e7b47bd88c9c210d7c06fe5276736fc2e225e869778216537d584e6d1faf24",
+      "path": "/home/tsb/.cache/packwiz/cache/71/e7b47bd88c9c210d7c06fe5276736fc2e225e869778216537d584e6d1faf24"
+    },
+    "slice-and-dice": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/slice-and-dice.pw.toml",
+      "filename": "sliceanddice-4.3.3-neoforge.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/GmjmRQ0A/versions/N67LJgrN/sliceanddice-4.3.3-neoforge.jar",
+        "hash-format": "sha512",
+        "hash": "3bdbd282ae5aa11ef6c186b752497541730b50fb400c4962230bcd7734cfe4e8daa2ee565387450dfe0eb6deaa0fa44bf81f99c788bac09b1a60d8f1991db37f"
+      },
+      "sha256": "f887f70d8a5892c0cffb4fcac59dd189c76aef64e2f2d4771743ca8721d6ee48",
+      "path": "/home/tsb/.cache/packwiz/cache/f8/87f70d8a5892c0cffb4fcac59dd189c76aef64e2f2d4771743ca8721d6ee48"
+    },
+    "torchmaster": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/torchmaster.pw.toml",
+      "filename": "torchmaster-neoforge-1.21.1-21.1.9.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/Tl8ESrhX/versions/PhWXajPC/torchmaster-neoforge-1.21.1-21.1.9.jar",
+        "hash-format": "sha512",
+        "hash": "855dd7f37a01c617dddcb5fe569b14a14cff4d5ea7f53a958bec4a694eb4b82677160a2509a84a03e41adea2d44617434667f56f2191e6427811ddbdc63e48fc"
+      },
+      "sha256": "db9a2fa385757656797a5a14ffad1777fbe596e2e443f1deba5f7534706eb806",
+      "path": "/home/tsb/.cache/packwiz/cache/db/9a2fa385757656797a5a14ffad1777fbe596e2e443f1deba5f7534706eb806"
+    },
+    "guideme": {
+      "metadata": "/home/tsb/Projects/lucas/astropunk-guide/mods/guideme.pw.toml",
+      "filename": "guideme-21.1.19.jar",
+      "download": {
+        "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/hFpGwC6q/guideme-21.1.19.jar",
+        "hash-format": "sha512",
+        "hash": "4dfa132e5cfd69a86c958867067f1c5ab39bb69ae35b2a62c24bb9924e9c688f1a4930ab75d335b22378d9f98cd7fceae8d030812b8f90c9aa282de8ea129f5a"
+      },
+      "sha256": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a",
+      "path": "/home/tsb/.cache/packwiz/cache/2c/e254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a"
+    }
+  },
+  "renderer": {
+    "selected_version": "21.1.19",
+    "released_class": "guideme/internal/extensions/DefaultExtensions.class",
+    "mapping": "RecipeType.CRAFTING uses VanillaRecipes.createCrafting",
+    "supported_types": [
+      "minecraft:crafting_shaped",
+      "minecraft:crafting_shapeless"
+    ],
+    "unsupported_processing": "No invented Create machinery renderer added. Existing item ingredient and output fallbacks retained."
+  },
+  "recipes": [
+    {
+      "topic": "maps.find",
+      "id": "naturescompass:natures_compass",
+      "provider": "natures-compass",
+      "archive_entry": "data/naturescompass/recipe/natures_compass.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "crafting_shaped",
+        "group": "tools",
+        "pattern": [
+          "SLS",
+          "LCL",
+          "SLS"
+        ],
+        "key": {
+          "S": {
+            "tag": "saplings"
+          },
+          "L": {
+            "tag": "logs"
+          },
+          "C": {
+            "item": "minecraft:compass"
+          }
+        },
+        "result": {
+          "id": "naturescompass:naturescompass"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "id": "naturescompass:naturescompass"
+      },
+      "registration_source": "natures-compass_NaturesCompassRegistry.txt",
+      "registration_lines": [
+        {
+          "line": 30,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"naturescompass\"), (Object)NaturesCompass.naturesCompass);"
+        },
+        {
+          "line": 33,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"biome_id\"), (Object)NaturesCompass.BIOME_ID);"
+        },
+        {
+          "line": 34,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"compass_state\"), (Object)NaturesCompass.COMPASS_STATE);"
+        },
+        {
+          "line": 35,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"found_x\"), (Object)NaturesCompass.FOUND_X);"
+        },
+        {
+          "line": 36,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"found_z\"), (Object)NaturesCompass.FOUND_Z);"
+        },
+        {
+          "line": 37,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"search_radius\"), (Object)NaturesCompass.SEARCH_RADIUS);"
+        },
+        {
+          "line": 38,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"samples\"), (Object)NaturesCompass.SAMPLES);"
+        },
+        {
+          "line": 39,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"display_coords\"), (Object)NaturesCompass.DISPLAY_COORDS);"
+        },
+        {
+          "line": 40,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"prev_pos\"), (Object)NaturesCompass.PREV_POS);"
+        },
+        {
+          "line": 41,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"naturescompass\", (String)\"damage\"), (Object)NaturesCompass.DAMAGE);"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/chaosthedude/naturescompass/registry/NaturesCompassRegistry.class",
+        "nested_archive": "",
+        "sha256": "558cad3825a885dc55a6a9cc4780a6df5410d53f93cf76482e7c3b5e7df8d228"
+      }
+    },
+    {
+      "topic": "maps.find",
+      "id": "explorerscompass:explorers_compass",
+      "provider": "explorers-compass",
+      "archive_entry": "data/explorerscompass/recipe/explorers_compass.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "crafting_shaped",
+        "group": "tools",
+        "pattern": [
+          "WSW",
+          "SCS",
+          "WSW"
+        ],
+        "key": {
+          "W": {
+            "item": "minecraft:cobweb"
+          },
+          "S": {
+            "item": "minecraft:cracked_stone_bricks"
+          },
+          "C": {
+            "item": "minecraft:compass"
+          }
+        },
+        "result": {
+          "id": "explorerscompass:explorerscompass"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "id": "explorerscompass:explorerscompass"
+      },
+      "registration_source": "explorers-compass_ExplorersCompassRegistry.txt",
+      "registration_lines": [
+        {
+          "line": 30,
+          "text": "            helper.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"explorerscompass\"), (Object)ExplorersCompass.explorersCompass);"
+        },
+        {
+          "line": 33,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"structure_id\"), (Object)ExplorersCompass.STRUCTURE_ID_COMPONENT);"
+        },
+        {
+          "line": 34,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"compass_state\"), (Object)ExplorersCompass.COMPASS_STATE_COMPONENT);"
+        },
+        {
+          "line": 35,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"found_x\"), (Object)ExplorersCompass.FOUND_X_COMPONENT);"
+        },
+        {
+          "line": 36,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"found_z\"), (Object)ExplorersCompass.FOUND_Z_COMPONENT);"
+        },
+        {
+          "line": 37,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"search_radius\"), (Object)ExplorersCompass.SEARCH_RADIUS_COMPONENT);"
+        },
+        {
+          "line": 38,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"samples\"), (Object)ExplorersCompass.SAMPLES_COMPONENT);"
+        },
+        {
+          "line": 39,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"display_coords\"), (Object)ExplorersCompass.DISPLAY_COORDS_COMPONENT);"
+        },
+        {
+          "line": 40,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"is_group\"), (Object)ExplorersCompass.IS_GROUP_COMPONENT);"
+        },
+        {
+          "line": 41,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"prev_pos\"), (Object)ExplorersCompass.PREV_POS_COMPONENT);"
+        },
+        {
+          "line": 42,
+          "text": "            registry.register(ResourceLocation.fromNamespaceAndPath((String)\"explorerscompass\", (String)\"damage\"), (Object)ExplorersCompass.DAMAGE_COMPONENT);"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/chaosthedude/explorerscompass/registry/ExplorersCompassRegistry.class",
+        "nested_archive": "",
+        "sha256": "560933cc7dbbdf78cce1d5f1396f42e694c0e777377a71e0708e5a9a8e7039e8"
+      }
+    },
+    {
+      "topic": "machines.rotation",
+      "id": "create:crafting/kinetics/shaft",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/shaft.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "create:andesite_alloy"
+          }
+        },
+        "pattern": [
+          "A",
+          "A"
+        ],
+        "result": {
+          "count": 8,
+          "id": "create:shaft"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 8,
+        "id": "create:shaft"
+      },
+      "registration_source": "create_AllBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 915,
+          "text": "        SHAFT = ((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"shaft\", ShaftBlock::new).initialProperties(SharedProperties::stone).properties(p -> p.mapColor(MapColor.METAL).forceSolidOff()).transform((NonNullFunction)CStress.setNoImpact())).transform(TagGen.pickaxeOnly())).blockstate(BlockStateGen.axisBlockProvider((boolean)false)).onRegister(CreateRegistrate.blockModel(() -> BracketedKineticBlockModel::new))).simpleItem().register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllBlocks.class",
+        "nested_archive": "",
+        "sha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0"
+      }
+    },
+    {
+      "topic": "machines.rotation",
+      "id": "create:crafting/kinetics/water_wheel",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/water_wheel.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "C": {
+            "item": "create:shaft"
+          },
+          "S": {
+            "tag": "minecraft:planks"
+          }
+        },
+        "pattern": [
+          "SSS",
+          "SCS",
+          "SSS"
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:water_wheel"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "create:water_wheel"
+      },
+      "registration_source": "create_AllBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 935,
+          "text": "        WATER_WHEEL = ((BlockBuilder)((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"water_wheel\", WaterWheelBlock::new).initialProperties(SharedProperties::wooden).properties(p -> p.noOcclusion().mapColor(MapColor.DIRT)).transform(TagGen.axeOrPickaxe())).blockstate((c, p) -> BlockStateGen.directionalBlockIgnoresWaterlogged((DataGenContext)c, (RegistrateBlockstateProvider)p, s -> AssetLookup.partialBaseModel((DataGenContext)c, (RegistrateBlockstateProvider)p, (String[])new String[0]))).addLayer(() -> RenderType::cutoutMipped).transform((NonNullFunction)CStress.setCapacity((double)32.0))).onRegister(BlockStressValues.setGeneratorSpeed((int)8))).item().transform(ModelGen.customItemModel())).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllBlocks.class",
+        "nested_archive": "",
+        "sha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0"
+      }
+    },
+    {
+      "topic": "machines.rotation",
+      "id": "create:crafting/kinetics/wrench",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/wrench.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "G": {
+            "tag": "c:plates/gold"
+          },
+          "P": {
+            "item": "create:cogwheel"
+          },
+          "S": {
+            "tag": "c:rods/wooden"
+          }
+        },
+        "pattern": [
+          "GG",
+          "GP",
+          " S"
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:wrench"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "create:wrench"
+      },
+      "registration_source": "create_AllItems.txt",
+      "registration_lines": [
+        {
+          "line": 357,
+          "text": "        WRENCH = REGISTRATE.item(\"wrench\", WrenchItem::new).properties(p -> p.stacksTo(1)).model(AssetLookup.itemModelWithPartials()).tag(new TagKey[]{Tags.Items.TOOLS_WRENCH}).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllItems.class",
+        "nested_archive": "",
+        "sha256": "6fa7e62e361ef7afd4fba4148eabacde0dc21ec2cfbb6b83e3041508db119f6b"
+      }
+    },
+    {
+      "topic": "machines.logistics",
+      "id": "create:crafting/logistics/andesite_funnel",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/logistics/andesite_funnel.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "create:andesite_alloy"
+          },
+          "K": {
+            "item": "minecraft:dried_kelp"
+          }
+        },
+        "pattern": [
+          "A",
+          "K"
+        ],
+        "result": {
+          "count": 2,
+          "id": "create:andesite_funnel"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 2,
+        "id": "create:andesite_funnel"
+      },
+      "registration_source": "create_AllBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 1060,
+          "text": "        ANDESITE_FUNNEL = ((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"andesite_funnel\", AndesiteFunnelBlock::new).addLayer(() -> RenderType::cutoutMipped).initialProperties(SharedProperties::stone).properties(p -> p.mapColor(MapColor.STONE)).transform(TagGen.pickaxeOnly())).tag(new TagKey[]{AllTags.AllBlockTags.SAFE_NBT.tag}).clientExtension(() -> () -> new ReducedDestroyEffects()).onRegister(MovementBehaviour.movementBehaviour((MovementBehaviour)FunnelMovementBehaviour.andesite()))).blockstate((arg_0, arg_1) -> ((FunnelGenerator)new FunnelGenerator(\"andesite\", false)).generate(arg_0, arg_1)).item(FunnelItem::new).tag(new TagKey[]{AllTags.AllItemTags.CONTRAPTION_CONTROLLED.tag}).model(FunnelGenerator.itemModel((String)\"andesite\")).build()).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllBlocks.class",
+        "nested_archive": "",
+        "sha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0"
+      }
+    },
+    {
+      "topic": "storage.bulk",
+      "id": "create:crafting/kinetics/item_vault",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/item_vault.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "tag": "c:plates/iron"
+          },
+          "C": {
+            "tag": "c:barrels/wooden"
+          }
+        },
+        "pattern": [
+          "B",
+          "C",
+          "B"
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:item_vault"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "create:item_vault"
+      },
+      "registration_source": "create_AllBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 1069,
+          "text": "        ITEM_VAULT = ((BlockBuilder)((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"item_vault\", ItemVaultBlock::new).initialProperties(SharedProperties::softMetal).properties(p -> p.mapColor(MapColor.TERRACOTTA_BLUE).sound(SoundType.NETHERITE_BLOCK).explosionResistance(1200.0f)).transform(TagGen.pickaxeOnly())).blockstate((c, p) -> p.getVariantBuilder((Block)c.get()).forAllStates(s -> ConfiguredModel.builder().modelFile(AssetLookup.standardModel((DataGenContext)c, (RegistrateBlockstateProvider)p)).rotationY(s.getValue(ItemVaultBlock.HORIZONTAL_AXIS) == Direction.Axis.X ? 90 : 0).build())).onRegister(CreateRegistrate.connectedTextures(ItemVaultCTBehaviour::new))).transform((NonNullFunction)MountedItemStorageType.mountedItemStorage((RegistryEntry)AllMountedStorageTypes.VAULT))).item(ItemVaultItem::new).build()).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllBlocks.class",
+        "nested_archive": "",
+        "sha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0"
+      }
+    },
+    {
+      "topic": "vehicles.assembly",
+      "id": "simulated:physics_assembler",
+      "provider": "create-aeronautics",
+      "archive_entry": "data/simulated/recipe/physics_assembler.json",
+      "nested_archive": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "create:andesite_alloy"
+          },
+          "N": {
+            "item": "minecraft:lever"
+          },
+          "R": {
+            "item": "create:andesite_casing"
+          }
+        },
+        "pattern": [
+          "   ",
+          " N ",
+          "ARA"
+        ],
+        "result": {
+          "count": 1,
+          "id": "simulated:physics_assembler"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "simulated:physics_assembler"
+      },
+      "registration_source": "create-aeronautics_SimBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 224,
+          "text": "    public static final BlockEntry<PhysicsAssemblerBlock> PHYSICS_ASSEMBLER = ((BlockBuilder)REGISTRATE.block(\"physics_assembler\", PhysicsAssemblerBlock::new).initialProperties(SharedProperties::wooden).tag(new TagKey[]{BlockTags.MINEABLE_WITH_PICKAXE}).tag(new TagKey[]{BlockTags.MINEABLE_WITH_AXE}).blockstate((c, p) -> p.horizontalFaceBlock((Block)c.get(), AssetLookup.partialBaseModel((DataGenContext)c, (RegistrateBlockstateProvider)p, (String[])new String[0]))).item().transform(ModelGen.customItemModel())).recipe((c, p) -> ShapedRecipeBuilder.shaped((RecipeCategory)RecipeCategory.MISC, (ItemLike)((ItemLike)c.get()), (int)1).pattern(\"   \").pattern(\" N \").pattern(\"ARA\").define(Character.valueOf('A'), (ItemLike)AllItems.ANDESITE_ALLOY).define(Character.valueOf('N'), (ItemLike)Items.LEVER).define(Character.valueOf('R'), (ItemLike)AllBlocks.ANDESITE_CASING).unlockedBy(\"has_ingredient\", RegistrateRecipeProvider.has((ItemLike)AllBlocks.ANDESITE_CASING)).save((RecipeOutput)p)).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "dev/simulated_team/simulated/index/SimBlocks.class",
+        "nested_archive": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar",
+        "sha256": "381e64ff0c7a95e33fd92fc86fd7f8b81385c6cf9ed44efe417e16759f1b74d3"
+      }
+    },
+    {
+      "topic": "vehicles.airships",
+      "id": "aeronautics:white_envelope",
+      "provider": "create-aeronautics",
+      "archive_entry": "data/aeronautics/recipe/white_envelope.json",
+      "nested_archive": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "group": "aeronautics:envelope",
+        "key": {
+          "S": {
+            "item": "minecraft:stick"
+          },
+          "W": {
+            "item": "minecraft:white_wool"
+          }
+        },
+        "pattern": [
+          "WS",
+          "SW"
+        ],
+        "result": {
+          "count": 4,
+          "id": "aeronautics:white_envelope"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 4,
+        "id": "aeronautics:white_envelope"
+      },
+      "registration_source": "create-aeronautics_AeroBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 184,
+          "text": "    public static final BlockEntry<EnvelopeBlock> WHITE_ENVELOPE_BLOCK = ((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"white_envelope\", p -> new EnvelopeBlock(p, DyeColor.WHITE)).lang(\"Hot Air Envelope\").initialProperties(SharedProperties::wooden).properties(p -> p.isValidSpawn(AeroBlocks::neverSpawn)).properties(p -> p.sound((SoundType)new SimLazySoundType(1.0f, 1.0f, () -> ((SimSoundEntry)AeroSoundEvents.ENVELOPE_BREAK).event(), () -> SoundEvents.WOOL_STEP, () -> ((SimSoundEntry)AeroSoundEvents.ENVELOPE_PLACE).event(), () -> ((SimSoundEntry)AeroSoundEvents.ENVELOPE_HIT).event(), () -> SoundEvents.WOOL_FALL))).properties(p -> p.mapColor(DyeColor.WHITE)).blockstate((c, p) -> p.simpleBlock((Block)c.get(), (ModelFile)p.models().cubeAll(c.getName(), p.modLoc(\"block/envelope_block/envelope_\" + DyeColor.WHITE.getName())))).recipe((c, p) -> ShapedRecipeBuilder.shaped((RecipeCategory)RecipeCategory.MISC, (ItemLike)((ItemLike)c.get()), (int)4).pattern(\"WS\").pattern(\"SW\").define(Character.valueOf('W'), DyeHelper.getWoolOfDye((DyeColor)DyeColor.WHITE)).define(Character.valueOf('S'), (ItemLike)Items.STICK).group(\"aeronautics:envelope\").unlockedBy(\"has_ingredient\", RegistrateRecipeProvider.has((TagKey)ItemTags.WOOL)).save((RecipeOutput)p)).tag(new TagKey[]{AeroTags.BlockTags.ENVELOPE}).tag(new TagKey[]{BlockTags.MINEABLE_WITH_AXE}).transform(AeroBlocks.flammable(30, 60))).item().tag(new TagKey[]{AeroTags.ItemTags.ENVELOPE}).tag(new TagKey[]{AeroTags.ItemTags.SHAFTLESS_ENVELOPE}).build()).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "dev/eriksonn/aeronautics/index/AeroBlocks.class",
+        "nested_archive": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+        "sha256": "8899d01e980828845e648cdf91e6b970deee2d6dc5e3533c28822c5544a99698"
+      }
+    },
+    {
+      "topic": "vehicles.airships",
+      "id": "aeronautics:adjustable_burner",
+      "provider": "create-aeronautics",
+      "archive_entry": "data/aeronautics/recipe/adjustable_burner.json",
+      "nested_archive": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "create:andesite_alloy"
+          },
+          "C": {
+            "tag": "aeronautics:burner_fire"
+          },
+          "R": {
+            "tag": "c:dusts/redstone"
+          },
+          "S": {
+            "tag": "c:plates/iron"
+          }
+        },
+        "pattern": [
+          "S S",
+          "SCS",
+          "ARA"
+        ],
+        "result": {
+          "count": 1,
+          "id": "aeronautics:adjustable_burner"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "aeronautics:adjustable_burner"
+      },
+      "registration_source": "create-aeronautics_AeroBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 196,
+          "text": "    public static final BlockEntry<HotAirBurnerBlock> HOT_AIR_BURNER = ((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"adjustable_burner\", HotAirBurnerBlock::new).lang(\"Hot Air Burner\").initialProperties(SharedProperties::stone).properties(p -> p.sound(SoundType.NETHERITE_BLOCK)).properties(BlockBehaviour.Properties::noOcclusion).properties(p -> p.lightLevel(HotAirBurnerBlock::getLightPower)).blockstate((ctx, prov) -> BlockStateGen.simpleBlock((DataGenContext)ctx, (RegistrateBlockstateProvider)prov, blockState -> prov.models().getExistingFile(prov.modLoc(\"block/\" + ctx.getName() + \"/block_\" + ((HotAirBurnerBlock.Variant)blockState.getValue((Property)HotAirBurnerBlock.VARIANT)).getSerializedName())))).transform((NonNullFunction)DisplaySource.displaySource((RegistryEntry)AeroDisplaySources.GAS_DISPLAY))).transform(TagGen.pickaxeOnly())).item().transform(ModelGen.customItemModel())).recipe((c, p) -> ShapedRecipeBuilder.shaped((RecipeCategory)RecipeCategory.MISC, (ItemLike)((ItemLike)c.get()), (int)1).pattern(\"S S\").pattern(\"SCS\").pattern(\"ARA\").define(Character.valueOf('S'), CommonMetal.IRON.plates).define(Character.valueOf('A'), (ItemLike)AllItems.ANDESITE_ALLOY).define(Character.valueOf('C'), AeroTags.ItemTags.BURNER_FIRE).define(Character.valueOf('R'), Tags.Items.DUSTS_REDSTONE).unlockedBy(\"has_ingredient\", RegistrateRecipeProvider.has((TagKey)Tags.Items.DUSTS_REDSTONE)).save((RecipeOutput)p)).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "dev/eriksonn/aeronautics/index/AeroBlocks.class",
+        "nested_archive": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar",
+        "sha256": "8899d01e980828845e648cdf91e6b970deee2d6dc5e3533c28822c5544a99698"
+      }
+    },
+    {
+      "topic": "transport.railway-builder",
+      "id": "create:crafting/kinetics/track_station",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/track_station.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "category": "misc",
+        "ingredients": [
+          {
+            "item": "create:railway_casing"
+          },
+          {
+            "item": "minecraft:compass"
+          }
+        ],
+        "result": {
+          "count": 2,
+          "id": "create:track_station"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shapeless",
+      "recipe_conditions": [],
+      "output": {
+        "count": 2,
+        "id": "create:track_station"
+      },
+      "registration_source": "create_AllBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 1054,
+          "text": "        TRACK_STATION = ((BlockBuilder)((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"track_station\", StationBlock::new).initialProperties(SharedProperties::softMetal).properties(p -> p.mapColor(MapColor.PODZOL).sound(SoundType.NETHERITE_BLOCK)).transform(TagGen.pickaxeOnly())).blockstate((c, p) -> p.simpleBlock((Block)c.get(), AssetLookup.partialBaseModel((DataGenContext)c, (RegistrateBlockstateProvider)p, (String[])new String[0]))).transform((NonNullFunction)DisplaySource.displaySource((RegistryEntry)AllDisplaySources.STATION_SUMMARY))).transform((NonNullFunction)DisplaySource.displaySource((RegistryEntry)AllDisplaySources.TRAIN_STATUS))).lang(\"Train Station\").item(TrackTargetingBlockItem.ofType((EdgePointType)EdgePointType.STATION)).transform(ModelGen.customItemModel())).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllBlocks.class",
+        "nested_archive": "",
+        "sha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0"
+      }
+    },
+    {
+      "topic": "transport.railway-builder",
+      "id": "create:crafting/kinetics/controls",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/controls.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "B": {
+            "item": "minecraft:lever"
+          },
+          "C": {
+            "item": "create:railway_casing"
+          },
+          "I": {
+            "item": "create:precision_mechanism"
+          }
+        },
+        "pattern": [
+          "B",
+          "C",
+          "I"
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:controls"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "create:controls"
+      },
+      "registration_source": "create_AllBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 1059,
+          "text": "        TRAIN_CONTROLS = ((BlockBuilder)((BlockBuilder)((BlockBuilder)((BlockBuilder)REGISTRATE.block(\"controls\", ControlsBlock::new).initialProperties(SharedProperties::softMetal).properties(p -> p.mapColor(MapColor.TERRACOTTA_BROWN).sound(SoundType.NETHERITE_BLOCK)).addLayer(() -> RenderType::cutoutMipped).transform(TagGen.pickaxeOnly())).blockstate((c, p) -> p.horizontalBlock((Block)c.get(), s -> AssetLookup.partialBaseModel((DataGenContext)c, (RegistrateBlockstateProvider)p, (String[])new String[]{(Boolean)s.getValue((Property)ControlsBlock.VIRTUAL) != false ? \"virtual\" : ((Boolean)s.getValue((Property)ControlsBlock.OPEN) != false ? \"open\" : \"closed\")}))).onRegister(MovementBehaviour.movementBehaviour((MovementBehaviour)new ControlsMovementBehaviour()))).onRegister(MovingInteractionBehaviour.interactionBehaviour((MovingInteractionBehaviour)new ControlsInteractionBehaviour()))).lang(\"Train Controls\").item().transform(ModelGen.customItemModel())).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllBlocks.class",
+        "nested_archive": "",
+        "sha256": "052f8be9dbdaf4464630c03cf7be78b8c683673515163963fb8f95077175daf0"
+      }
+    },
+    {
+      "topic": "food.machine-cooking",
+      "id": "sliceanddice:slicer",
+      "provider": "slice-and-dice",
+      "archive_entry": "data/sliceanddice/recipe/slicer.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "item": "create:cogwheel"
+          },
+          "B": {
+            "item": "create:andesite_casing"
+          },
+          "C": {
+            "item": "create:turntable"
+          }
+        },
+        "pattern": [
+          "A",
+          "B",
+          "C"
+        ],
+        "result": {
+          "count": 1,
+          "id": "sliceanddice:slicer"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "sliceanddice:slicer"
+      },
+      "registration_source": "slice-and-dice_SDBlocks.txt",
+      "registration_lines": [
+        {
+          "line": 176,
+          "text": "        ItemBuilder itemBuilder = ((BlockBuilder)((BlockBuilder)ForgeEntrypoint.Companion.getREGISTRATE().block(\"slicer\", SlicerBlock::new).initialProperties(SharedProperties::stone).properties(BlockBehaviour.Properties::noOcclusion).transform(TagGen.axeOrPickaxe())).onRegister(arg_0 -> SDBlocks.SLICER$lambda$1(SDBlocks::SLICER$lambda$0, arg_0))).blockstate(SDBlocks::SLICER$lambda$2).item((arg_0, arg_1) -> SDBlocks.SLICER$lambda$3((Function2)SLICER.6.INSTANCE, arg_0, arg_1));"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/possible_triangle/sliceanddice/index/SDBlocks.class",
+        "nested_archive": "",
+        "sha256": "88d9b81b83072b32e7d22e9a9d63b0ee3cbd81b68f4a4e204ef68997b9713f4d"
+      },
+      "registration_completion": {
+        "source": "slice-and-dice_SDBlocks.txt",
+        "line": 179,
+        "text": "        SLICER = ((BlockBuilder)itemBuilder.tab(resourceKey).transform(ModelGen.customItemModel())).recipe(SDBlocks::SLICER$lambda$4).register();"
+      }
+    },
+    {
+      "topic": "building.safety",
+      "id": "torchmaster:megatorch",
+      "provider": "torchmaster",
+      "archive_entry": "data/torchmaster/recipe/megatorch.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "TTT",
+          "DLD",
+          "GLG"
+        ],
+        "key": {
+          "T": {
+            "item": "minecraft:torch"
+          },
+          "D": {
+            "tag": "c:gems/diamond"
+          },
+          "G": {
+            "tag": "c:storage_blocks/gold"
+          },
+          "L": {
+            "tag": "minecraft:logs"
+          }
+        },
+        "result": {
+          "id": "torchmaster:megatorch"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "id": "torchmaster:megatorch"
+      },
+      "registration_source": "torchmaster_ModRegistry.txt",
+      "registration_lines": [
+        {
+          "line": 72,
+          "text": "        blockMegaTorch = BLOCKS.register(\"megatorch\", () -> new EntityBlockingLightBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.WOOD).strength(1.0f, 1.0f).lightLevel(state -> 15), LightType.MegaTorch));"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "net/xalcon/torchmaster/ModRegistry.class",
+        "nested_archive": "",
+        "sha256": "c7ef43856dc0714b96f27bf933da7d2fdf53a8b31230bcc2cc6634344965ab09"
+      }
+    },
+    {
+      "topic": "power.burners",
+      "id": "create:crafting/kinetics/empty_blaze_burner",
+      "provider": "create",
+      "archive_entry": "data/create/recipe/crafting/kinetics/empty_blaze_burner.json",
+      "nested_archive": "",
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "A": {
+            "tag": "c:netherracks"
+          },
+          "I": {
+            "tag": "c:plates/iron"
+          }
+        },
+        "pattern": [
+          " I ",
+          "IAI",
+          " I "
+        ],
+        "result": {
+          "count": 1,
+          "id": "create:empty_blaze_burner"
+        }
+      },
+      "normalized_serializer": "minecraft:crafting_shaped",
+      "recipe_conditions": [],
+      "output": {
+        "count": 1,
+        "id": "create:empty_blaze_burner"
+      },
+      "registration_source": "create_AllItems.txt",
+      "registration_lines": [
+        {
+          "line": 338,
+          "text": "        EMPTY_BLAZE_BURNER = REGISTRATE.item(\"empty_blaze_burner\", BlazeBurnerBlockItem::empty).model(AssetLookup.customBlockItemModel((String[])new String[]{\"blaze_burner\", \"block\"})).register();"
+        }
+      ],
+      "availability": "Unconditional native declaration in the selected production artifact. Static verification, not a live RecipeManager query.",
+      "registration_class": {
+        "entry": "com/simibubi/create/AllItems.class",
+        "nested_archive": "",
+        "sha256": "6fa7e62e361ef7afd4fba4148eabacde0dc21ec2cfbb6b83e3041508db119f6b"
+      }
+    }
+  ],
+  "production_registration_excerpts": {
+    "create_Create.txt": {
+      "sha256": "400b7cfcbbe2161c4599a50183e60727f922fab5079920a689d376c12cf5e01a",
+      "excerpts": [
+        {
+          "line": 206,
+          "text": "        AllBlocks.register();"
+        },
+        {
+          "line": 207,
+          "text": "        AllItems.register();"
+        }
+      ]
+    },
+    "create-aeronautics_Simulated.txt": {
+      "sha256": "f596409236e9a6f980e17eef962a69b8dcf65b5d53deae1906c21dc3773c9284",
+      "excerpts": [
+        {
+          "line": 95,
+          "text": "        SimBlocks.register();"
+        }
+      ]
+    },
+    "create-aeronautics_Aeronautics.txt": {
+      "sha256": "f480312a295487895fdeb498b3e969f988bcd70f3ff15e6db487673cc0ec0800",
+      "excerpts": [
+        {
+          "line": 79,
+          "text": "        AeroBlocks.init();"
+        }
+      ]
+    },
+    "natures-compass_NaturesCompassRegistry.txt": {
+      "sha256": "b83976f3d4e5ba24c8763741dc1b8a8646b92e984af296b6e7e94c80593f70d8",
+      "excerpts": [
+        {
+          "line": 10,
+          "text": " *  net.neoforged.fml.common.EventBusSubscriber"
+        },
+        {
+          "line": 11,
+          "text": " *  net.neoforged.fml.common.EventBusSubscriber$Bus"
+        },
+        {
+          "line": 21,
+          "text": "import net.neoforged.fml.common.EventBusSubscriber;"
+        },
+        {
+          "line": 24,
+          "text": "@EventBusSubscriber(modid=\"naturescompass\", bus=EventBusSubscriber.Bus.MOD)"
+        },
+        {
+          "line": 25,
+          "text": "public class NaturesCompassRegistry {"
+        }
+      ]
+    },
+    "explorers-compass_ExplorersCompassRegistry.txt": {
+      "sha256": "93190a5de6a668aa881f3f62f4eec1adc34c5002e4c6d0074d4c642865065237",
+      "excerpts": [
+        {
+          "line": 10,
+          "text": " *  net.neoforged.fml.common.EventBusSubscriber"
+        },
+        {
+          "line": 11,
+          "text": " *  net.neoforged.fml.common.EventBusSubscriber$Bus"
+        },
+        {
+          "line": 21,
+          "text": "import net.neoforged.fml.common.EventBusSubscriber;"
+        },
+        {
+          "line": 24,
+          "text": "@EventBusSubscriber(modid=\"explorerscompass\", bus=EventBusSubscriber.Bus.MOD)"
+        },
+        {
+          "line": 25,
+          "text": "public class ExplorersCompassRegistry {"
+        }
+      ]
+    },
+    "slice-and-dice_SDBlocks.txt": {
+      "sha256": "340dc7c9538e2307204e96bde303e3df427f51d8775c27303279a7d261edf050",
+      "excerpts": [
+        {
+          "line": 179,
+          "text": "        SLICER = ((BlockBuilder)itemBuilder.tab(resourceKey).transform(ModelGen.customItemModel())).recipe(SDBlocks::SLICER$lambda$4).register();"
+        }
+      ]
+    },
+    "torchmaster_TorchmasterNeoforge.txt": {
+      "sha256": "8b571b101e78cecb91f7d67029188a8ada6934e549d8060099bdd2507e2af8f5",
+      "excerpts": [
+        {
+          "line": 42,
+          "text": "        Torchmaster.init();"
+        }
+      ]
+    },
+    "guideme_DefaultExtensions.txt": {
+      "sha256": "cf55c4835bf7d46859feb1fdee685436ee4e604f1199d3d65be4306f7e428b4e",
+      "excerpts": [
+        {
+          "line": 117,
+          "text": "            mappings.add(RecipeType.CRAFTING, VanillaRecipes::createCrafting);"
+        },
+        {
+          "line": 118,
+          "text": "            mappings.add(RecipeType.BLASTING, VanillaRecipes::createBlasting);"
+        },
+        {
+          "line": 119,
+          "text": "            mappings.add(RecipeType.SMELTING, VanillaRecipes::createSmelting);"
+        },
+        {
+          "line": 120,
+          "text": "            mappings.add(RecipeType.SMITHING, VanillaRecipes::createSmithing);"
+        }
+      ]
+    },
+    "create-aeronautics_AeronauticsNeoForge.txt": {
+      "sha256": "34280898a376c55ec33b108c0f6221ca0cec70b91fb22e1796e4338d45d96869",
+      "excerpts": [
+        {
+          "line": 35,
+          "text": "        Aeronautics.init();"
+        }
+      ]
+    },
+    "create-aeronautics_SimulatedNeoForge.txt": {
+      "sha256": "b4731b532e709a2a65538ae99364cfddb267a5153131bb9e61df36d75877b6c1",
+      "excerpts": [
+        {
+          "line": 72,
+          "text": "        Simulated.init();"
+        }
+      ]
+    },
+    "slice-and-dice_ForgeEntrypoint.txt": {
+      "sha256": "6813fb6769328665f4984415459066bbdd9f436137ffba9f176b36559dd7fedc",
+      "excerpts": [
+        {
+          "line": 91,
+          "text": "        ExtensionsKt.load((Object)SDBlocks.INSTANCE);"
+        }
+      ]
+    },
+    "slice-and-dice_DataEntrypoint.txt": {
+      "sha256": "f0d9aff5c6bf56505b40afa8b450687b1c8c362951e700c7a4676e20926afcde",
+      "excerpts": [
+        {
+          "line": 16,
+          "text": " *  net.neoforged.fml.common.EventBusSubscriber"
+        },
+        {
+          "line": 33,
+          "text": "import net.neoforged.fml.common.EventBusSubscriber;"
+        },
+        {
+          "line": 37,
+          "text": "@EventBusSubscriber"
+        }
+      ]
+    },
+    "slice-and-dice_NeoForgeEntrypoint.txt": {
+      "sha256": "544edb5f1a6bf89747d777b47f640bfcff17f70fa1f78880dccab04429fc7431",
+      "excerpts": [
+        {
+          "line": 23,
+          "text": " *  net.neoforged.fml.common.EventBusSubscriber"
+        },
+        {
+          "line": 49,
+          "text": "import net.neoforged.fml.common.EventBusSubscriber;"
+        },
+        {
+          "line": 56,
+          "text": "@EventBusSubscriber"
+        }
+      ]
+    },
+    "torchmaster_Torchmaster.txt": {
+      "sha256": "8e5272f8d3cf2f4682628cf9aee7e8112b9ed3f166ffd7d4bc377cba9df5b57a",
+      "excerpts": [
+        {
+          "line": 55,
+          "text": "        ModRegistry.initialize();"
+        }
+      ]
+    }
+  },
+  "archive_recipe_namespace_collision_check": {
+    "data/sliceanddice/recipe/slicer.json": [
+      {
+        "metadata": "mods/slice-and-dice.pw.toml",
+        "sha256": "f887f70d8a5892c0cffb4fcac59dd189c76aef64e2f2d4771743ca8721d6ee48",
+        "nested_archive": ""
+      }
+    ],
+    "data/aeronautics/recipe/white_envelope.json": [
+      {
+        "metadata": "mods/create-aeronautics.pw.toml",
+        "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "nested_archive": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar"
+      }
+    ],
+    "data/aeronautics/recipe/adjustable_burner.json": [
+      {
+        "metadata": "mods/create-aeronautics.pw.toml",
+        "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "nested_archive": "META-INF/jarjar/dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.2.jar"
+      }
+    ],
+    "data/naturescompass/recipe/natures_compass.json": [
+      {
+        "metadata": "mods/natures-compass.pw.toml",
+        "sha256": "0e249ac11b2f916c5570d9679e188da652fa5664ba9cdb7be5dc9ff69497539c",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/logistics/andesite_funnel.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/item_vault.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/empty_blaze_burner.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/shaft.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/controls.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/explorerscompass/recipe/explorers_compass.json": [
+      {
+        "metadata": "mods/explorers-compass.pw.toml",
+        "sha256": "71e7b47bd88c9c210d7c06fe5276736fc2e225e869778216537d584e6d1faf24",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/wrench.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/water_wheel.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ],
+    "data/simulated/recipe/physics_assembler.json": [
+      {
+        "metadata": "mods/create-aeronautics.pw.toml",
+        "sha256": "a3f330d4757640f8715d991a43eedb826e4d0e51558d859c843ae6693bd35f1e",
+        "nested_archive": "META-INF/jarjar/dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.2.jar"
+      }
+    ],
+    "data/torchmaster/recipe/megatorch.json": [
+      {
+        "metadata": "mods/torchmaster.pw.toml",
+        "sha256": "db9a2fa385757656797a5a14ffad1777fbe596e2e443f1deba5f7534706eb806",
+        "nested_archive": ""
+      }
+    ],
+    "data/create/recipe/crafting/kinetics/track_station.json": [
+      {
+        "metadata": "mods/create.pw.toml",
+        "sha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+        "nested_archive": ""
+      }
+    ]
+  },
+  "uncached_metadata_excluded_from_collision_scan": [],
+  "local_recipe_overrides": [],
+  "audit": {
+    "machines.ore-processing": {
+      "changed": false,
+      "existing_recipes": [
+        "create:crafting/kinetics/millstone"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "food.hunger": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "maps.find": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "storage.portable": {
+      "changed": false,
+      "existing_recipes": [
+        "backpacks:crafting_table/small",
+        "backpacks:crafting_table/ender"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "travel.destinations": {
+      "changed": false,
+      "existing_recipes": [
+        "waystones:orange_sharestone_recolor"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.copycats": {
+      "changed": false,
+      "existing_recipes": [
+        "copycats:crafting/copycat_block_from_slabs"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "maps.personal": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Interface or compatibility topic. No new workstation craft required for its primary interaction, existing cross-links retained."
+    },
+    "maps.shared": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Interface or compatibility topic. No new workstation craft required for its primary interaction, existing cross-links retained."
+    },
+    "food.nether": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "food.end": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "food.underground": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "food.encounters": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "food.machine-cooking": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "food.growing": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "food.fishing": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Food inventory and ingredient guidance retained. Manual workstation first crafts belong to food.utensils, owned separately. Do not turn every dish into a duplicated recipe catalog."
+    },
+    "building.palette": {
+      "changed": false,
+      "existing_recipes": [
+        "minecraft:workbench/alchemy_bench"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.factory": {
+      "changed": false,
+      "existing_recipes": [
+        "bellsandwhistles:bogie_steps/brass_bogie_steps"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.architecture": {
+      "changed": false,
+      "existing_recipes": [
+        "mcwbridges:oak_bridge_pier"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.furniture": {
+      "changed": false,
+      "existing_recipes": [
+        "beautify:bookstack"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.displays": {
+      "changed": false,
+      "existing_recipes": [
+        "immersive_paintings:graffiti"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.placement": {
+      "changed": false,
+      "existing_recipes": [
+        "create_pattern_schematics:pattern_schematic"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "building.safety": {
+      "changed": true,
+      "existing_recipes": [
+        "torchmaster:frozen_pearl"
+      ],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "vehicles.assembly": {
+      "changed": true,
+      "existing_recipes": [
+        "offroad:borehead_bearing"
+      ],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "vehicles.airships": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "vehicles.engines": {
+      "changed": false,
+      "existing_recipes": [
+        "aeroengineering:compressor_component"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "vehicles.controls": {
+      "changed": false,
+      "existing_recipes": [
+        "aeroworks:throttle_quadrant_module"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "vehicles.radar": {
+      "changed": false,
+      "existing_recipes": [
+        "create_radar:crafting/auto_pitch_controller"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "vehicles.weapons": {
+      "changed": false,
+      "existing_recipes": [
+        "createbigcannons:ap_shot"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "vehicles.water": {
+      "changed": false,
+      "existing_recipes": [
+        "create_submarine:ballast_tank"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "transport.passenger": {
+      "changed": false,
+      "existing_recipes": [
+        "createrailwaysnavigator:advanced_display"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "transport.railway-builder": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "transport.local": {
+      "changed": false,
+      "existing_recipes": [
+        "escalated:metal_walkway_steps"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "travel.moving-destinations": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Interface or compatibility topic. No new workstation craft required for its primary interaction, existing cross-links retained."
+    },
+    "storage.bulk": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "storage.handling": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Interface or compatibility topic. No new workstation craft required for its primary interaction, existing cross-links retained."
+    },
+    "machines.rotation": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "machines.logistics": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "machines.renewables": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "World-found vent activation, not a workstation craft. Existing native item instruction retained."
+    },
+    "machines.enchanting": {
+      "changed": false,
+      "existing_recipes": [
+        "create_enchantment_industry:crafting/mechanical_grindstone"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "machines.trading": {
+      "changed": false,
+      "existing_recipes": [
+        "trading_floor:trading_depot"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "machines.miscellaneous": {
+      "changed": false,
+      "existing_recipes": [
+        "stam1ocreatetweaks:blasting/blue_dye"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "power.electricity": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Existing family visuals and native help retained. No additional production-verified supported first-use craft selected in this batch."
+    },
+    "power.industry": {
+      "changed": false,
+      "existing_recipes": [
+        "tfmg:crafting/materials/coke_oven"
+      ],
+      "reason": "Existing native recipe visual retained. Additional catalog variants would add clutter rather than first-use guidance."
+    },
+    "power.burners": {
+      "changed": true,
+      "existing_recipes": [],
+      "reason": "Added first-use prerequisite crafting visual, native Ponder operation guidance retained."
+    },
+    "power.stored-rotation": {
+      "changed": false,
+      "existing_recipes": [],
+      "reason": "Existing family visuals and native help retained. No additional production-verified supported first-use craft selected in this batch."
+    }
+  },
+  "checks": {
+    "changed_topics": 10,
+    "new_recipe_displays_per_locale": 15,
+    "bilingual_pages": 20,
+    "guide_parser_output": "Negative control rejected: Expected a closing tag for `<ItemLink>` (1:1-1:32) before the end of `paragraph`\nPASS building.safety-en_us.md\nPASS building.safety-zh_cn.md\nPASS food.machine-cooking-en_us.md\nPASS food.machine-cooking-zh_cn.md\nPASS machines.logistics-en_us.md\nPASS machines.logistics-zh_cn.md\nPASS machines.rotation-en_us.md\nPASS machines.rotation-zh_cn.md\nPASS maps.find-en_us.md\nPASS maps.find-zh_cn.md\nPASS power.burners-en_us.md\nPASS power.burners-zh_cn.md\nPASS storage.bulk-en_us.md\nPASS storage.bulk-zh_cn.md\nPASS transport.railway-builder-en_us.md\nPASS transport.railway-builder-zh_cn.md\nPASS vehicles.airships-en_us.md\nPASS vehicles.airships-zh_cn.md\nPASS vehicles.assembly-en_us.md\nPASS vehicles.assembly-zh_cn.md\nGuideME 21.1.19 MdAst syntax: 20 pages, 0 parse failures.\nSLF4J: No SLF4J providers were found.\nSLF4J: Defaulting to no-operation (NOP) logger implementation\nSLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.\n",
+    "locale_visual_identifier_parity": true,
+    "links_preserved_and_standalone": true,
+    "no_semicolons": true,
+    "no_duplicate_recipe_displays": true,
+    "runtime_recipe_manager_queried": false,
+    "rendered_in_game": false,
+    "parser_binary_matches_selected_metadata_sha256": true,
+    "fragment_sha256": "e4cf0c42b19f9320ab6c9c72aa33e63389d7cfd4b6067dbc316905159bc18304"
+  },
+  "limits": [
+    "Native renderer and static production registration verified, not live RecipeManager loading or layout.",
+    "The mixed context path ending in test/guide8e2499a does not exist. Resolved the existing repository at the explicit lucas astropunk-guide directory.",
+    "Full topic bodies form a disjoint merge fragment. Compare source_topic_sha256 before merging to avoid overwriting later edits."
+  ]
+}

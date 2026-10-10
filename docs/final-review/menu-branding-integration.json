@@ -1,0 +1,27 @@
+{
+  "version": "0.3.0-guide.light.4",
+  "archive": "/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.3.0-guide.light.4-modrinth.mrpack",
+  "sha256": "6f42b37378e61d34be55f997666fe106d81f6727cc1263684f888a2089fbe030",
+  "source_tests": 57,
+  "native_parser_pages": 226,
+  "resource_files_verified": 574,
+  "renamed_icon_assets": 263,
+  "baseline_mod_metadata_unchanged": 284,
+  "exact_new_menu_metadata": [
+    "mods/fancymenu.pw.toml",
+    "mods/konkrete.pw.toml",
+    "mods/melody.pw.toml"
+  ],
+  "menu_parser": "PASS actual selected FancyMenu parser, round trip, malformed negative control, menu scope and native Konkrete options parser",
+  "helper_tests": {
+    "java": 15,
+    "query_integration": 8,
+    "opening_endpoint": 3,
+    "wiring": 7
+  },
+  "helper_sha256": "a34cccccb5672399edb92c4591f9a26dfc5317dc89b1db01f21ff922575fed77",
+  "main_merged": false,
+  "live_instances_changed": false,
+  "client_runtime_tested": false,
+  "runtime_boundary": "New helper registration order and menu configuration were compiled and statically exercised, not rendered or fresh-start tested in Minecraft."
+}

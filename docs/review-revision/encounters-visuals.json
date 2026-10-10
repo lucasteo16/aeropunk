@@ -1,0 +1,944 @@
+{
+  "visuals": [
+    {
+      "resource": "images/encounters-bossesrise-infernal-dragon.png",
+      "source_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/b8a55442c5008a2079d033cd81aa10198f286a01.png",
+      "project_url": "https://modrinth.com/mod/bossesrise",
+      "publisher": "Bosses'Rise",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/b8a55442c5008a2079d033cd81aa10198f286a01_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/b8a55442c5008a2079d033cd81aa10198f286a01.png",
+        "featured": false,
+        "title": "Infernal Dragon",
+        "description": null,
+        "created": "2025-07-28T22:47:53.611281Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "2ce3153111f51f3cb5136d3ba66e70b03b03faab6a9a52309de0768549682178",
+      "resized_sha256": "155982634c5517f7329bb34d410cd50c63903c752fa4e7c3402fbe6dbe7bcefb",
+      "original_dimensions": [
+        1920,
+        1080
+      ],
+      "resized_dimensions": [
+        960,
+        540
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-bossesrise-underworld-knight.png",
+      "source_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/840954c088e9cd516339daf976afec3de8d69cf3.png",
+      "project_url": "https://modrinth.com/mod/bossesrise",
+      "publisher": "Bosses'Rise",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/840954c088e9cd516339daf976afec3de8d69cf3_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/840954c088e9cd516339daf976afec3de8d69cf3.png",
+        "featured": false,
+        "title": "Underworld Knight",
+        "description": null,
+        "created": "2025-07-28T22:47:42.181138Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "f022022d1dbdaee61e6b71cf9525373231f4da5373e0fb41b319f0aa659ca9c0",
+      "resized_sha256": "ff9037a3b6c704c31b09965431c14e1d7f06c32c205b613c30ff9a8a85761ac9",
+      "original_dimensions": [
+        1920,
+        1080
+      ],
+      "resized_dimensions": [
+        960,
+        540
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-bossesrise-yeti.png",
+      "source_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/a19d014bb9b41dda473188669c422d869df01deb.png",
+      "project_url": "https://modrinth.com/mod/bossesrise",
+      "publisher": "Bosses'Rise",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/a19d014bb9b41dda473188669c422d869df01deb_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/q2bV1Tm1/images/a19d014bb9b41dda473188669c422d869df01deb.png",
+        "featured": false,
+        "title": "Yeti",
+        "description": null,
+        "created": "2025-07-28T22:48:27.862552Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "4763a904eb1ada878c46ca0b5ae62e2b80aa17b32a08f6d7e4ae71bb9f323c33",
+      "resized_sha256": "38825737d23ebe545bd73e9653c8716b7bdfdac26a96ccae9007958b97b86658",
+      "original_dimensions": [
+        1920,
+        1080
+      ],
+      "resized_dimensions": [
+        960,
+        540
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-cataclysm-ender-guardian-publisher.png",
+      "source_url": "https://media.forgecdn.net/attachments/411/938/2021-12-02_10.png",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/lendercataclysm",
+      "publisher": "mcl_ender",
+      "publisher_caption": {
+        "title": "Ender Guardian",
+        "description": "Official publisher description binds this image to the named boss. Visual inspection confirms the boss is present, not only an empty arena."
+      },
+      "license": {
+        "id": "custom",
+        "url": "https://github.com/lender544/new1.20.1/blob/master/README.md"
+      },
+      "license_scope": "Publisher screenshot redistribution permissions not independently established.",
+      "original_sha256": "6be9d451285a4d43ef0f8115e6c3a4dc157184cbe386e5a3dc6d0e65c5b287cb",
+      "resized_sha256": "09e025ef47ad6340a799a433db23d32523b03c41f225915c6c197a3ee83527d5",
+      "original_dimensions": [
+        1680,
+        987
+      ],
+      "resized_dimensions": [
+        960,
+        564
+      ],
+      "entity_identifier": "cataclysm:ender_guardian",
+      "retrieval": "Official source snippet recovered by web search; direct publisher HTML and browser blocked.",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-cataclysm-the-harbinger-publisher.png",
+      "source_url": "https://media.forgecdn.net/attachments/626/376/2023-02-24_17.png",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/lendercataclysm",
+      "publisher": "mcl_ender",
+      "publisher_caption": {
+        "title": "The Harbinger",
+        "description": "Official publisher description binds this image to the named boss. Visual inspection confirms the boss is present, not only an empty arena."
+      },
+      "license": {
+        "id": "custom",
+        "url": "https://github.com/lender544/new1.20.1/blob/master/README.md"
+      },
+      "license_scope": "Publisher screenshot redistribution permissions not independently established.",
+      "original_sha256": "0f4f0eddb6b7c81a6f13bd94dbd87c974057e49d18bedc6fc97d284dc1f1c73a",
+      "resized_sha256": "f0754e01dd53694d8afc2032b702c409dc52132360640ac11973d203f1cc8dbf",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "entity_identifier": "cataclysm:the_harbinger",
+      "retrieval": "Official source snippet recovered by web search; direct publisher HTML and browser blocked.",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-creeper-overhaul-spruce-creeper.png",
+      "source_url": "https://cdn.modrinth.com/data/MI1LWe93/images/086fb5d867a9383cf044529f2fce0eec7817735d.png",
+      "project_url": "https://modrinth.com/mod/creeper-overhaul",
+      "publisher": "Creeper Overhaul",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/MI1LWe93/images/0fea7cf4b914d31a838eae629f84633fccadb4d8_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/MI1LWe93/images/086fb5d867a9383cf044529f2fce0eec7817735d.png",
+        "featured": false,
+        "title": "Spruce Creeper",
+        "description": "Just little lads :)",
+        "created": "2023-03-03T15:45:53.063057Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "72dd7e2ec1b724966dcc9435c408876318aa61b54f3a94022ee7907031789306",
+      "resized_sha256": "6f7142e2ae6d3684e9cc59de5b62f32a5e6a944fb9a43b2ce04233760244d1e6",
+      "original_dimensions": [
+        1920,
+        1057
+      ],
+      "resized_dimensions": [
+        960,
+        529
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-enderman-overhaul-flower-fields-enderman.png",
+      "source_url": "https://cdn.modrinth.com/data/Lq6ojcWv/images/95af16482d7717f7c0371c44bce4f12330c0948d.png",
+      "project_url": "https://modrinth.com/mod/enderman-overhaul",
+      "publisher": "Enderman Overhaul",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/Lq6ojcWv/images/02165223332e62239708f8e0630767b070843750_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/Lq6ojcWv/images/95af16482d7717f7c0371c44bce4f12330c0948d.png",
+        "featured": false,
+        "title": "Flower Fields Enderman",
+        "description": null,
+        "created": "2023-10-08T20:58:43.214813Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "76aa1121112659f49fe2963847c80b2fa055c45cddf4bd79f60eb70a223d7e69",
+      "resized_sha256": "060c2646662e4c11ed7a0bca15553791116b6b1737dd95127aa154cd586fd8b0",
+      "original_dimensions": [
+        1920,
+        1080
+      ],
+      "resized_dimensions": [
+        960,
+        540
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-friends-and-foes-forge-waving-crab.png",
+      "source_url": "https://cdn.modrinth.com/data/BOCJKD49/images/e82a9ac0080130093b637ebcf6d754c684103eb0.webp",
+      "project_url": "https://modrinth.com/mod/friends-and-foes-forge",
+      "publisher": "Friends&Foes (Forge/NeoForge)",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/BOCJKD49/images/e82a9ac0080130093b637ebcf6d754c684103eb0_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/BOCJKD49/images/e82a9ac0080130093b637ebcf6d754c684103eb0.webp",
+        "featured": true,
+        "title": "Waving Crab",
+        "description": "Waving Crab in the magrove swamp biome",
+        "created": "2024-09-29T12:35:27.577020Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "19cb6705c619e03e96e06c550e320503baf22a5d7a7d483cc108c2fd3f7ab82f",
+      "resized_sha256": "f5cf4f13a498b99289cf9d48ce5a80a9b269caebc3a339367b8ba593bee6222b",
+      "original_dimensions": [
+        1920,
+        1012
+      ],
+      "resized_dimensions": [
+        960,
+        506
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-friends-and-foes-forge-wildfire.png",
+      "source_url": "https://cdn.modrinth.com/data/BOCJKD49/images/3265740c52749c655071ec4b7662431a9cfebb9e.webp",
+      "project_url": "https://modrinth.com/mod/friends-and-foes-forge",
+      "publisher": "Friends&Foes (Forge/NeoForge)",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/BOCJKD49/images/3265740c52749c655071ec4b7662431a9cfebb9e_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/BOCJKD49/images/3265740c52749c655071ec4b7662431a9cfebb9e.webp",
+        "featured": false,
+        "title": "Wildfire",
+        "description": "Wildfire in the Citadel structure in the nether",
+        "created": "2024-09-29T12:45:05.571910Z",
+        "ordering": 14
+      },
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "8565f417054990f610b3fd418a57b19482a36389988a42dc00d5991f6bbf8a30",
+      "resized_sha256": "8fa4769166197690867f5abb02444d2408e4e1e7accb6b25899fd77c524563e5",
+      "original_dimensions": [
+        1920,
+        1012
+      ],
+      "resized_dimensions": [
+        960,
+        506
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-l_enders-cataclysm-ignis.png",
+      "source_url": "https://cdn.modrinth.com/data/46KJle7n/images/848feafcef53993ecfc3e663179e9ef1cb8fa187.png",
+      "project_url": "https://modrinth.com/mod/l_enders-cataclysm",
+      "publisher": "L_Ender's Cataclysm",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/46KJle7n/images/04cc6a87394c250a764687524c40f07013ece1de_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/46KJle7n/images/848feafcef53993ecfc3e663179e9ef1cb8fa187.png",
+        "featured": false,
+        "title": "Ignis",
+        "description": "Ignis",
+        "created": "2023-11-07T09:28:53.843971Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "7370ec2fb35d9b7703ce2b6cf257f894e9ffba6d24295993d19849277a04e7cb",
+      "resized_sha256": "e09b1346c7a812165ad20c8f9697df3f319ee19c11711e04aba2cccf5c8f7f66",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-spawn-mod-deep-coral-reef-giant-clams-and-barracuda.png",
+      "source_url": "https://cdn.modrinth.com/data/rex9wwpz/images/1de1bc8d2fe7a1a6721e9b0aea0b6b12681f333a.png",
+      "project_url": "https://modrinth.com/mod/spawn-mod",
+      "publisher": "Spawn",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/rex9wwpz/images/1de1bc8d2fe7a1a6721e9b0aea0b6b12681f333a_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/rex9wwpz/images/1de1bc8d2fe7a1a6721e9b0aea0b6b12681f333a.png",
+        "featured": false,
+        "title": "Deep Coral Reef, Giant Clams and Barracuda",
+        "description": null,
+        "created": "2025-11-26T16:30:29.387609Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": "https://github.com/N1nn1/spawn/blob/main/LICENSE"
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "071f110b1b4fdde23012bd2a7cfa8336f8b7dc3f809e4e0ede08e9c80d2c467f",
+      "resized_sha256": "f00bcecd38830cf28203c8c392d6cc279bbc1d664b35457d2a5b8844ebf6e965",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-spawn-mod-snail.png",
+      "source_url": "https://cdn.modrinth.com/data/rex9wwpz/images/07488ba60906672c5d534a0a714c514b6053c4ff.png",
+      "project_url": "https://modrinth.com/mod/spawn-mod",
+      "publisher": "Spawn",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/rex9wwpz/images/07488ba60906672c5d534a0a714c514b6053c4ff_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/rex9wwpz/images/07488ba60906672c5d534a0a714c514b6053c4ff.png",
+        "featured": false,
+        "title": "Snail",
+        "description": null,
+        "created": "2025-11-26T16:31:12.839441Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": "https://github.com/N1nn1/spawn/blob/main/LICENSE"
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "a48be0310c5a105b95f21977b9427e8bfa8c1121c2f261ec34923d14eea0cae2",
+      "resized_sha256": "b207706cd870413ef8a7c15376c9e7e66e147218b1fec4532cf035d3165c009c",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-variants-and-ventures-gelid-frozen-zombie.png",
+      "source_url": "https://cdn.modrinth.com/data/lNDRiXkY/images/573856f9556b416528b00236f99a2a47014b0072.webp",
+      "project_url": "https://modrinth.com/mod/variants-and-ventures",
+      "publisher": "Variants&Ventures",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/lNDRiXkY/images/573856f9556b416528b00236f99a2a47014b0072_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/lNDRiXkY/images/573856f9556b416528b00236f99a2a47014b0072.webp",
+        "featured": true,
+        "title": "Gelid (Frozen Zombie)",
+        "description": null,
+        "created": "2024-03-07T19:52:06.844001Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-CC-BY-NC-ND-4.0",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/Faboslav/variants-and-ventures/master/LICENSE.txt"
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "608dc1cfa4e29d6506670c86ae8008a358d43d49fd03b6ea8ab2e12eaec98dba",
+      "resized_sha256": "4ded225869cb6cc48a9c7eed94536df2e55c472cf3556a6132e2c711d01c9800",
+      "original_dimensions": [
+        1920,
+        1012
+      ],
+      "resized_dimensions": [
+        960,
+        506
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-when-dungeons-arise-mechanical-nest.png",
+      "source_url": "https://cdn.modrinth.com/data/8DfbfASn/images/4b0f2db6ccbc181fad6ade3e1d4bff043dc7807e.png",
+      "project_url": "https://modrinth.com/mod/when-dungeons-arise",
+      "publisher": "When Dungeons Arise",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/8DfbfASn/images/36111ea1f6d2ed5417267f8094ba476c7a76771e_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/8DfbfASn/images/4b0f2db6ccbc181fad6ade3e1d4bff043dc7807e.png",
+        "featured": false,
+        "title": "Mechanical Nest",
+        "description": null,
+        "created": "2023-10-15T05:42:16.605769Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "bcc55d12f23e8afe50f21fd657fdab65f7bbb135e9c419910281982945bd1cb4",
+      "resized_sha256": "2c190044af0121760866a7880d3fac98544bbf52eb81eff01a95dee49501859f",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-desert-temples-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/XNlO7sBv/images/4666a27bbc0b4b8bf1eb32993c739b4fae5dab5e.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-desert-temples",
+      "publisher": "YUNG's Better Desert Temples",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/XNlO7sBv/images/1b5d96197b21ed82af083695330c579e12e40d25_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/XNlO7sBv/images/4666a27bbc0b4b8bf1eb32993c739b4fae5dab5e.png",
+        "featured": false,
+        "title": null,
+        "description": null,
+        "created": "2022-11-29T00:27:46.045032Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "1e6bef2097502ab108c0d4e95e5268ae2f90a8636f0aa493affd3f6ca46d008e",
+      "resized_sha256": "3139aed0f253dd58290951d3614aa8e168e2be62ad6bf90ac2af969aa2e39bad",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-dungeons-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/o1C1Dkj5/images/430a7b3df92615ef65e3e4d948f47d30c08a301d.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-dungeons",
+      "publisher": "YUNG's Better Dungeons",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/o1C1Dkj5/images/1a3ee86e7269bd3703d8ece03cf897b70d2188df_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/o1C1Dkj5/images/430a7b3df92615ef65e3e4d948f47d30c08a301d.png",
+        "featured": true,
+        "title": "Fortress of the Undead",
+        "description": null,
+        "created": "2022-11-28T18:50:31.432404Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "644cf8a215fa4b1b1a795dfca886d6e0e96e79ed8f8ac8e17ebff38a1aaff351",
+      "resized_sha256": "e91d6b544d750595cf8203efc9d5b8d10b760f13cb701844c175121ae09bdebe",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-jungle-temples-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/z9Ve58Ih/images/2a01851de68dbd1580254ae2cfaf2ad123d1ca6e.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-jungle-temples",
+      "publisher": "YUNG's Better Jungle Temples",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/z9Ve58Ih/images/a117c045615cda0771d7fa6729be69528c6c6150_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/z9Ve58Ih/images/2a01851de68dbd1580254ae2cfaf2ad123d1ca6e.png",
+        "featured": true,
+        "title": "YUNG's Better Jungle Temples",
+        "description": null,
+        "created": "2023-08-01T22:41:10.421566Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "36730a7c64fc218cc088d49bc712015b72dac5df9da542e430ec347b5d4a4095",
+      "resized_sha256": "e9bd7ccff483cf684d8a37a6317e1354465f89411e7baf26a8bce20a1bc2895e",
+      "original_dimensions": [
+        1920,
+        1009
+      ],
+      "resized_dimensions": [
+        960,
+        505
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-mineshafts-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/HjmxVlSr/images/34a44aa5af1f4b20fe959fbb90a2299c8496a000.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-mineshafts",
+      "publisher": "YUNG's Better Mineshafts",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/HjmxVlSr/images/8f3cca2d498dabf7dc01e11bcb7652a77e40e74e_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/HjmxVlSr/images/34a44aa5af1f4b20fe959fbb90a2299c8496a000.png",
+        "featured": false,
+        "title": null,
+        "description": null,
+        "created": "2022-11-28T18:10:07.243676Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "decaa6fcc1a7d2762da2bedea6c34d25df9e7ecdc34f1b943c99fa7297d5a088",
+      "resized_sha256": "dd43167a00ae8aad23f9e7ce60aa4acc366b24ace9324d4b75f1e4c199de1dfe",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-nether-fortresses-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/Z2mXHnxP/images/df4f72afa15c0a7161b712b7bdaa8707e1c502d3.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-nether-fortresses",
+      "publisher": "YUNG's Better Nether Fortresses",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/Z2mXHnxP/images/40817bd0e6fcbc93590e29d808ecd2a3b3d55fe1_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/Z2mXHnxP/images/df4f72afa15c0a7161b712b7bdaa8707e1c502d3.png",
+        "featured": true,
+        "title": "YUNG's Better Nether Fortresses",
+        "description": null,
+        "created": "2023-02-19T23:51:40.557007Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "fd51e13ac8e80699d4755aa94500fa503c99746c29ba7f32a9ddc70dab4439bb",
+      "resized_sha256": "162f3b680830f2ea74930d49bbda32c92eea3df7192c7d62447ece025c41a893",
+      "original_dimensions": [
+        1920,
+        1080
+      ],
+      "resized_dimensions": [
+        960,
+        540
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-ocean-monuments-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/3dT9sgt4/images/2391636af9661c98c7818bb5d3e5a78ee4fbebbe.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-ocean-monuments",
+      "publisher": "YUNG's Better Ocean Monuments",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/3dT9sgt4/images/27999ea23da185b04447ede57466f2fabbffda82_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/3dT9sgt4/images/2391636af9661c98c7818bb5d3e5a78ee4fbebbe.png",
+        "featured": false,
+        "title": null,
+        "description": null,
+        "created": "2022-11-29T00:25:45.022829Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "1e8f99e1e3910baa4e71a6fe09d4516f2af7150ac9f899bda3bfaefca07978cd",
+      "resized_sha256": "905218cabd9b440c7aa50d2f86bdca764a8e571f8a6844d6f0d8e0255021123b",
+      "original_dimensions": [
+        1920,
+        1009
+      ],
+      "resized_dimensions": [
+        960,
+        505
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-strongholds-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/kidLKymU/images/050aa0d8f566091b387eb44817f40d59808a9a25.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-strongholds",
+      "publisher": "YUNG's Better Strongholds",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/kidLKymU/images/050aa0d8f566091b387eb44817f40d59808a9a25_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/kidLKymU/images/050aa0d8f566091b387eb44817f40d59808a9a25.png",
+        "featured": false,
+        "title": null,
+        "description": null,
+        "created": "2022-11-29T00:30:03.084323Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "6bdea9020a61034a0e48588911eba0fd64e5c8427a525627625f1f05e324ed99",
+      "resized_sha256": "50eb3413e0896e13898b3d6c78953afd5a4c0582b74a9ee3970f35a8c0ad01a9",
+      "original_dimensions": [
+        1920,
+        1017
+      ],
+      "resized_dimensions": [
+        960,
+        509
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/encounters-yungs-better-witch-huts-catalog.png",
+      "source_url": "https://cdn.modrinth.com/data/t5FRdP87/images/cfd3722b525a373c7ad5b4d7bd30d796e4946635.png",
+      "project_url": "https://modrinth.com/mod/yungs-better-witch-huts",
+      "publisher": "YUNG's Better Witch Huts",
+      "publisher_caption": {
+        "url": "https://cdn.modrinth.com/data/t5FRdP87/images/0599db63b022dc4846edee86de9807d25bf96813_350.webp",
+        "raw_url": "https://cdn.modrinth.com/data/t5FRdP87/images/cfd3722b525a373c7ad5b4d7bd30d796e4946635.png",
+        "featured": false,
+        "title": null,
+        "description": "Large witch hut",
+        "created": "2022-11-29T00:31:06.937600Z",
+        "ordering": 0
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "license_scope": "Project license metadata. Gallery image reuse rights not independently licensed.",
+      "original_sha256": "3bdb807bf41ea7c48823511acb4161b1af869894705b5711c3e8daedaa2b76b7",
+      "resized_sha256": "a678c910830510c37edcde92c118efa63c45fec6cb1dbd6ed771b5e81b151b1b",
+      "original_dimensions": [
+        1920,
+        1009
+      ],
+      "resized_dimensions": [
+        960,
+        505
+      ],
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-bossesrise-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/q2bV1Tm1/41d0f94487ef4a65de01026a13cc0932a7daf56f_96.webp",
+      "project_url": "https://modrinth.com/mod/bossesrise",
+      "publisher": "QDiIvV9m",
+      "project_title": "Bosses'Rise",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "fa1576a94aa2b909beb3b1b3b4a964a0248dec770cd1b6f1a8c078be63996ef7",
+      "resized_sha256": "bb816cbeda7b59a35fe0ca892ae8336900efce262d8f45158d55ac539191b8fe",
+      "original_dimensions": [
+        96,
+        96
+      ],
+      "resized_dimensions": [
+        96,
+        96
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-illager-invasion-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/jSV9w0J5/03f8cea7f5184d88454f7bf63f2b3c3a85577b1e_96.webp",
+      "project_url": "https://modrinth.com/mod/illager-invasion",
+      "publisher": "ve2dVKWJ",
+      "project_title": "Illager Invasion",
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "43f3ef4db468c2bf02430f4780d1e7fa2d173cad2ff133e3eed012c63ad31f42",
+      "resized_sha256": "8843821e9a9f5c0a42e78b86fac256579fa665f5a301892828bdabecbc1ee820",
+      "original_dimensions": [
+        96,
+        96
+      ],
+      "resized_dimensions": [
+        96,
+        96
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-l_enders-cataclysm-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/46KJle7n/4de43b519c4b4ce09c5a3155e908da446dbf455a_96.webp",
+      "project_url": "https://modrinth.com/mod/l_enders-cataclysm",
+      "publisher": "PcWIWwFS",
+      "project_title": "L_Ender's Cataclysm",
+      "license": {
+        "id": "CC-BY-NC-ND-4.0",
+        "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+        "url": null
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "4613fa67b677a6e097fbaa4deacd821e26a52b095c25d65ddc93c640a5732cf5",
+      "resized_sha256": "ca727be78220ed27552e7b0b909d551866ef34eefec4178e1d601bfaa2f6b876",
+      "original_dimensions": [
+        96,
+        96
+      ],
+      "resized_dimensions": [
+        96,
+        96
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-nullscape-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/LPjGiSO4/30249e0548b8643b1559889eab585683cb397f3a_96.webp",
+      "project_url": "https://modrinth.com/mod/nullscape",
+      "publisher": "oJIBNZ9Y",
+      "project_title": "Nullscape",
+      "license": {
+        "id": "LicenseRef-Stardust-Labs-License",
+        "name": "",
+        "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "7dd4735ee5e54e08fb1847437d4b6986e9aa363e6669dab04d6bbff3a94c8a16",
+      "resized_sha256": "fd8c1e4c022f549867f5ddbeff4a3f614fd41eb905dbdde387f97dbf732820da",
+      "original_dimensions": [
+        96,
+        96
+      ],
+      "resized_dimensions": [
+        96,
+        96
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-supplementaries-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/fFEIiSDQ/e9f5f66fa3b67e54acb91258a1428d68311c58bc_96.webp",
+      "project_url": "https://modrinth.com/mod/supplementaries",
+      "publisher": "GgWB22vK",
+      "project_title": "Supplementaries",
+      "license": {
+        "id": "LicenseRef-Supplementaries-Team-License",
+        "name": "",
+        "url": "https://github.com/MehVahdJukaar/Supplementaries-Team-License/blob/main/LICENSE.md"
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "79f0832d84a4b3b9e5798e94b05903c055ebf139beefdfefa795961d622c52dc",
+      "resized_sha256": "40a61bb4c64e6a979b8e79269b88ef995198d787526000d8a2404502ed0e1dc6",
+      "original_dimensions": [
+        96,
+        94
+      ],
+      "resized_dimensions": [
+        96,
+        94
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-terralith-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp",
+      "project_url": "https://modrinth.com/mod/terralith",
+      "publisher": "L2q5L80c",
+      "project_title": "Terralith",
+      "license": {
+        "id": "LicenseRef-Stardust-Labs-License",
+        "name": "",
+        "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "81442f5a90c08750fd07aba08c2f7207ba18a054e75be3cc61a5dce9448370d6",
+      "resized_sha256": "73a0144f3ab90cfc97893be8a3c6598d693aec1ebbfcba4b95f43bfa00b43166",
+      "original_dimensions": [
+        96,
+        96
+      ],
+      "resized_dimensions": [
+        96,
+        96
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    },
+    {
+      "resource": "images/revision-encounters-witcher-rpg-class-provider-art.png",
+      "source_url": "https://cdn.modrinth.com/data/4eW1c7Gj/ebf3e3df15df4da143269bfccdee55319cf25c6d_96.webp",
+      "project_url": "https://modrinth.com/mod/witcher-rpg-class",
+      "publisher": "ddxNGVUC",
+      "project_title": "Witcher (RPG Series Plus)",
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "license_scope": "Project license. Image reuse permission not independently established.",
+      "original_sha256": "a3e3e9d41d82b81045063139bf843228a619a4444acd425d1c20e24dd3ec24b2",
+      "resized_sha256": "ac14f365052790620b9016e2516f1f8991acae09150d83b80bc7d404c59b0a08",
+      "original_dimensions": [
+        96,
+        96
+      ],
+      "resized_dimensions": [
+        96,
+        96
+      ],
+      "subject": "Provider project artwork, not a structure screenshot",
+      "reviewed": true,
+      "used": true
+    }
+  ],
+  "new_image_resources": [
+    "images/revision-encounters-l_enders-cataclysm-provider-art.png",
+    "images/revision-encounters-terralith-provider-art.png",
+    "images/revision-encounters-supplementaries-provider-art.png",
+    "images/revision-encounters-witcher-rpg-class-provider-art.png",
+    "images/revision-encounters-illager-invasion-provider-art.png",
+    "images/revision-encounters-bossesrise-provider-art.png",
+    "images/revision-encounters-nullscape-provider-art.png"
+  ],
+  "verification": {
+    "topics": 3,
+    "locales_per_topic": 2,
+    "boss_entries": 17,
+    "boss_sections_with_identified_images": 7,
+    "boss_sections_without_identified_images": 10,
+    "creature_table_rows": 137,
+    "structure_table_rows": 142,
+    "unique_item_identifiers": 13,
+    "referenced_images": 29,
+    "new_provider_artwork_images": 7,
+    "section_counts": {
+      "adventure.bosses": 19,
+      "adventure.creatures": 11,
+      "adventure.structures": 20
+    },
+    "source_checks": {
+      "h2_first": true,
+      "locale_section_parity": true,
+      "english_headings_at_most_24_characters": true,
+      "no_semicolons": true,
+      "markdown_navigation_links_on_standalone_bullets": true,
+      "all_visual_files_exist_and_hash_match": true
+    },
+    "native_parser": "not_run",
+    "rendered_layout": "not_observed",
+    "runtime_item_registry": "not_observed",
+    "game_launch": false,
+    "generator_run": false,
+    "shared_sources_written": false
+  }
+}

@@ -1,0 +1,89 @@
+---
+navigation:
+  title: "建筑"
+  position: 8
+  icon: create:schematicannon
+---
+
+# 建筑
+
+## 材料与形状
+
+<EmiSearch query="@chipped" /> <EmiSearch query="@copycats" /> <EmiSearch query="@mcwroofs" />
+
+<ItemGrid>
+  <ItemIcon id="chipped:mason_table" />
+  <ItemIcon id="copycats:copycat_slope" />
+  <ItemIcon id="mcwroofs:oak_roof" />
+</ItemGrid>
+
+- [材料](building.palette.md) 选择装饰材料并查找制作它们的工作台。
+- [工厂装饰](building.factory.md) 为工业建筑选择配套的表面材料与结构装饰。
+- [模仿形状](building.copycats.md) 让不同形状的方块采用另一种材料的外观。
+- [建筑组件](building.architecture.md) 选择适合房间或建筑外部的组件。
+
+***
+
+## 房间与工具
+
+<EmiSearch query="@handcrafted" /> <EmiSearch query="@immersive_paintings" /> <EmiSearch query="@mechtrowel" /> <EmiSearch query="@torchmaster" />
+
+<ItemGrid>
+  <ItemIcon id="handcrafted:oak_chair" />
+  <ItemIcon id="immersive_paintings:painting" />
+  <ItemIcon id="mechtrowel:mech_trowel" />
+  <ItemIcon id="torchmaster:megatorch" />
+</ItemGrid>
+
+- [家具](building.furniture.md) 用实用和装饰家具布置房间。
+- [展示](building.displays.md) 在建筑中布置画作和展示物。
+<ItemLink id="mechtrowel:mech_trowel" /> 让随机材料组与渐变摆放更实用。升级可以提供建筑魔杖式摆放、更远触及范围以及支持的方块变体转换。搭建重复表面时，可以使用材料组工具，不必逐一摆放所有装饰变体。
+
+- [摆放工具](building.placement.md) 机械泥铲制作、材料组、升级与投影工具。
+- [照明与生物生成](building.safety.md) 检查照明并控制敌对生物生成。
+
+***
+
+## 相关模组
+
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Amendments](images/catalog-6itjugqr.png) [Amendments](building.furniture.md) | 扩展已有方块功能，例如炼药锅混合药水与灯笼壁挂。 | <EmiSearch query="@amendments" /> |
+| ![Armor Poser](images/catalog-pfwynrhb.png) [Armor Poser](building.displays.md) | 提供调整盔甲架姿势与属性的界面。 | 无独立物品查询 |
+| ![Beautify: ReFoxed](images/catalog-zqcyywbm.png) [Beautify: ReFoxed](building.furniture.md) | 增加贴近原版风格的家居与庭院装饰。 | <EmiSearch query="@beautify" /> |
+| ![Big Sign Writer](images/catalog-ucpxwaau.png) [Big Sign Writer](building.displays.md) | 在告示牌多行之间绘制大号文字与符号。 | 无独立物品查询 |
+| ![Chipped](images/catalog-bascrykm.png) [Chipped](building.palette.md) | 增加装饰方块变体，并通过各类材料专用工作台制作。 | <EmiSearch query="@chipped" /> |
+| ![Chipped Express](images/catalog-dqicjoni.png) [Chipped Express](building.palette.md) | 让 Chipped 的装饰方块配方可在切石机中使用。 | 无独立物品查询 |
+| ![Create Deco](images/catalog-smvub4rb.png) [Create Deco](building.factory.md) | 为工厂与基础设施增加机械动力风格的工业装饰。 | <EmiSearch query="@createdeco" /> |
+| ![Create Encased](images/catalog-hssqdyu1.png) [Create Encased](building.factory.md) | 扩展机械动力轴、齿轮与管道可用的机壳种类。 | <EmiSearch query="@createcasing" /> |
+| ![Create: Bells & Whistles](images/catalog-gj5afkvv.png) [Create: Bells & Whistles](building.factory.md) | 为机械动力列车与铁路建筑增加装饰细节。 | <EmiSearch query="@bellsandwhistles" /> |
+| ![Create: Bits 'n' Bobs](images/catalog-t8bvmqvz.png) [Create: Bits 'n' Bobs](building.factory.md) | 为机械动力增加齿轮链传动与可自定义的工业装饰。 | <EmiSearch query="@bits_n_bobs" /> |
+| ![Create: Copycats+](images/catalog-ut2m39wf.png) [Create: Copycats+](building.copycats.md) | 增加可模仿其他方块材质的机械动力伪装建筑形状。 | <EmiSearch query="@copycats" /> |
+| ![Create: Design n' Decor](images/catalog-x49wilh8.png) [Create: Design n' Decor](building.factory.md) | 增加与机械动力机器风格相配的工厂装饰方块。 | <EmiSearch query="@dndecor" /> |
+| ![Create: Framed](images/catalog-15ffz3f4.png) [Create: Framed](building.factory.md) | 增加用于机械动力风格建筑的框架玻璃变体。 | <EmiSearch query="@createframed" /> |
+| ![Create: Interiors](images/catalog-r4knci2k.png) [Create: Interiors](building.furniture.md) | 增加适合列车内饰与其他建筑的机械动力风格家具。 | <EmiSearch query="@interiors" /> |
+| ![Create: More Girder](images/catalog-spg2lvad.png) [Create: More Girder](building.factory.md) | 为机械动力建筑增加结构梁变体。 | <EmiSearch query="@createmoregirder" /> |
+| ![Create: Oxidized](images/catalog-x9kjrzex.png) [Create: Oxidized](building.factory.md) | 增加通过机械动力加工氧化铜方块的配方。 | 无独立物品查询 |
+| ![Create: Pattern Schematics](images/catalog-cpqkg67r.png) [Create: Pattern Schematics](building.placement.md) | 让机械动力蓝图建造重复铺设指定图案。 | <EmiSearch query="@create_pattern_schematics" /> |
+| ![Create: Prismatic Shine](images/catalog-udett0b2.png) [Create: Prismatic Shine](building.factory.md) | 为机械动力机器增加玻璃机壳与发光机壳。 | <EmiSearch query="@createprism" /> |
+| ![Create: Shuffle Filter](images/catalog-gv5rravc.png) [Create: Shuffle Filter](building.placement.md) | 让机械动力机械手从指定材料组中随机选块放置。 | <EmiSearch query="@createshufflefilter" /> |
+| ![Diagonal Fences](images/catalog-ikargfld.png) [Diagonal Fences](building.architecture.md) | 让栅栏斜向连接，便于搭建更灵活的围栏。 | 无独立物品查询 |
+| ![Every Compat (Stone Zone)](images/catalog-uywn8ip5.png) [Every Compat (Stone Zone)](building.palette.md) | 用其他模组的石材种类补齐受支持的装饰方块变体。 | <EmiSearch query="@stonezone" /> |
+| ![Every Compat (Wood Good)](images/catalog-eiktjyw1.png) [Every Compat (Wood Good)](building.palette.md) | 用其他模组的木材种类补齐受支持的建筑与家具变体。 | <EmiSearch query="@everycomp" /> |
+| ![Forgematica](images/catalog-dckraebc.png) [Forgematica](building.placement.md) | 显示建筑蓝图，辅助方块摆放与施工。 | 无独立物品查询 |
+| ![Handcrafted](images/catalog-pjmcff0p.png) [Handcrafted](building.furniture.md) | 增加细致的家具与家居装饰。 | <EmiSearch query="@handcrafted" /> |
+| ![Immersive Paintings](images/catalog-6txnkua3.png) [Immersive Paintings](building.displays.md) | 将图片导入为可摆放的画作，也支持多人服务器。 | <EmiSearch query="@immersive_paintings" /> |
+| ![Items Displayed [NeoForge]](images/catalog-pur4vdbo.png) [Items Displayed [NeoForge]](building.displays.md) | 让玩家将物品栏中的物品摆放在世界中展示。 | <EmiSearch query="@items_displayed" /> |
+| ![Lighty](images/catalog-yjvkidnm.png) [Lighty](building.safety.md) | 叠加显示光照等级，帮助寻找暗处与可生成生物的地面。 | 无独立物品查询 |
+| ![Macaw's Bridges](images/catalog-gurcjz8o.png) [Macaw's Bridges](building.architecture.md) | 增加桥梁建筑部件，用于跨越空隙与水面。 | <EmiSearch query="@mcwbridges" /> |
+| ![Macaw's Doors](images/catalog-knxa8z3e.png) [Macaw's Doors](building.architecture.md) | 增加门的样式，并扩展可用木材变体。 | <EmiSearch query="@mcwdoors" /> |
+| ![Macaw's Fences and Walls](images/catalog-gmwlse2i.png) [Macaw's Fences and Walls](building.architecture.md) | 增加用于建筑围界的装饰栅栏、墙与门。 | <EmiSearch query="@mcwfences" /> |
+| ![Macaw's Roofs](images/catalog-b8jah3p1.png) [Macaw's Roofs](building.architecture.md) | 增加专用屋顶方块，无需只用楼梯搭屋顶。 | <EmiSearch query="@mcwroofs" /> |
+| ![Macaw's Stairs](images/catalog-ip3wh1ha.png) [Macaw's Stairs](building.architecture.md) | 增加建筑楼梯及配套扶手与阳台部件。 | <EmiSearch query="@mcwstairs" /> |
+| ![Macaw's Windows](images/catalog-c7i0bcni.png) [Macaw's Windows](building.architecture.md) | 增加窗户样式与配套百叶窗、遮帘及窗帘。 | <EmiSearch query="@mcwwindows" /> |
+| ![Mech Trowel](images/catalog-nqfnrals.png) [Mech Trowel](building.placement.md) | 从自定义材料组随机放置方块，并支持建筑魔杖式摆放。 | <EmiSearch query="@mechtrowel" /> |
+| ![Reconnectible Chains](images/catalog-5pzbxds3.png) [Reconnectible Chains](building.architecture.md) | 用装饰性悬挂铁链连接栅栏与墙。 | 无独立物品查询 |
+| ![Straw Statues](images/catalog-2fltysal.png) [Straw Statues](building.displays.md) | 增加可调整姿势的玩家外观雕像，用于建筑装饰。 | <EmiSearch query="@strawstatues" /> |
+| ![Supplementaries](images/catalog-ffeiisdq.png) [Supplementaries](building.furniture.md) | 增加用于建筑、存储与自动化的实用装饰及功能方块。 | <EmiSearch query="@supplementaries" /> |
+| ![TorchMaster](images/catalog-tl8esrhx.png) [TorchMaster](building.safety.md) | 增加用于控制区域内敌对或其他生物生成的方块。 | <EmiSearch query="@torchmaster" /> |
+| ![TW‘s  Decorative Food](images/catalog-656seq5j.png) [TW‘s  Decorative Food](building.furniture.md) | 让食物物品可摆放在世界中作为装饰。 | 无独立物品查询 |

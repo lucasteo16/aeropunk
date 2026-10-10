@@ -1,0 +1,67 @@
+{
+  "en_us": {
+    "settlement_style_count": 21,
+    "grouped_rows": 12,
+    "styles": [
+      "Beach",
+      "Christmas",
+      "Desert",
+      "Desert Oasis",
+      "Dark Forest",
+      "Jungle",
+      "Jungle Tree",
+      "Mesa",
+      "Mesa Fortified",
+      "Mountain",
+      "Mountain Alpine",
+      "Mushroom",
+      "Plains",
+      "Plains Fortified",
+      "Savanna",
+      "Savanna Na",
+      "Snowy Igloo",
+      "Swamp",
+      "Swamp Fortified",
+      "Taiga",
+      "Taiga Fortified"
+    ]
+  },
+  "zh_cn": {
+    "settlement_style_count": 21,
+    "grouped_rows": 12,
+    "styles": [
+      "Beach",
+      "Christmas",
+      "Desert",
+      "Desert Oasis",
+      "Dark Forest",
+      "Jungle",
+      "Jungle Tree",
+      "Mesa",
+      "Mesa Fortified",
+      "Mountain",
+      "Mountain Alpine",
+      "Mushroom",
+      "Plains",
+      "Plains Fortified",
+      "Savanna",
+      "Savanna Na",
+      "Snowy Igloo",
+      "Swamp",
+      "Swamp Fortified",
+      "Taiga",
+      "Taiga Fortified"
+    ]
+  },
+  "retired_topic": "travel.moving-destinations",
+  "replacement_topic": "travel.destinations",
+  "retirement_action": "Parent removes inventory topic and bilingual generated pages, archives previous bodies, moves item associations and provider mappings, and rewrites all crosslinks. No redirect page.",
+  "remaining_crosslink_sources": [
+    "travel.destinations",
+    "reference.vehicles"
+  ],
+  "boundaries": [
+    "Fragment checks only, native parser and rendering belong to parent validation.",
+    "Guide metadata unchanged, additions only in isolated main-based ship patch."
+  ]
+}

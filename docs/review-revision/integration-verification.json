@@ -1,0 +1,17 @@
+{
+  "revised_fragment_topics": 62,
+  "source_pages": 206,
+  "runtime_rendering_verified": false,
+  "missing_archers_items_removed": [
+    "archers:ruby_rapid_crossbow",
+    "archers:ruby_heavy_crossbow",
+    "archers:ruby_spear"
+  ],
+  "typed_input_color": "native symbolic gold",
+  "paragraph_navigation_links": 0,
+  "semicolons_in_authored_bodies": 0,
+  "inventory_placement_fix": "Full label falls back to 20 by 20 entry when available, compiled regression passed",
+  "shortcut_failure_resolved": false,
+  "helper_installed": false,
+  "public_image_reuse_permissions_cleared": false
+}

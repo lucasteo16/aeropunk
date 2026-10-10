@@ -1,0 +1,2195 @@
+{
+  "scope": "Navigation icon mapping only. No content, installed instance, game launch, or pack metadata changes.",
+  "engine": {
+    "version": "21.1.19",
+    "sha256": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a",
+    "evidence": "Selected Frontmatter.parse reads navigation.icon as a string and resolves it through IdUtils.resolveId. FrontmatterNavigation stores iconItemId. NavigationUtil.createNavigationIcon looks up BuiltInRegistries.ITEM.getHolder and creates an ItemStack. Mod namespaces are supported without a separate decorative-icon registry.",
+    "source_commit": "52334ccacf15d763ffe318281d38dca8ec7aaeb8"
+  },
+  "counts": {
+    "entries_per_locale": 113,
+    "locales": [
+      "en_us",
+      "zh_cn"
+    ],
+    "total_locale_entries": 226,
+    "unique_icons_per_locale": 113,
+    "duplicate_icons": [],
+    "modded_icons_per_locale": 37,
+    "building_entries": 9,
+    "building_modded_icons": 6,
+    "expected_articles": 104,
+    "expected_roots": 17
+  },
+  "verification_boundary": "Static selected-binary registration, not a rendered or live-registry claim. Full generator executed with only output paths redirected to scratch, producing 96 English and 96 Chinese pages, 87 authored articles and 17 roots. All five navigation icon tests pass against those generated pages, including locale titles, parent parity and global uniqueness. Parent must regenerate repository pages and run the whole test suite and native export. Class icons reuse native identifiers from the original handbook, checked for exact source presence, not an additional live registry test.",
+  "selected_artifacts": {
+    "create": {
+      "metadata_path": "mods/create.pw.toml",
+      "filename": "create-1.21.1-6.0.10.jar",
+      "selected_download": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "hash_format": "sha512",
+      "hash": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b",
+      "matches_selected_hash": true
+    },
+    "chipped": {
+      "metadata_path": "mods/chipped.pw.toml",
+      "filename": "chipped-neoforge-1.21.1-4.0.2.jar",
+      "selected_download": "https://cdn.modrinth.com/data/BAscRYKm/versions/eqVowbGc/chipped-neoforge-1.21.1-4.0.2.jar",
+      "hash_format": "sha512",
+      "hash": "f3083b01267e7c674c4b42f45a317c93ee7723443cba2051fe5bc593638b533b0fe90699e2101661c934dff458eab693cce4e188533bfe977778c249563a2fa5",
+      "matches_selected_hash": true
+    },
+    "copycats": {
+      "metadata_path": "mods/copycats.pw.toml",
+      "filename": "copycats-3.0.9+mc.1.21.1-neoforge.jar",
+      "selected_download": "https://cdn.modrinth.com/data/UT2M39wf/versions/bPYeUWZx/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar",
+      "hash_format": "sha512",
+      "hash": "432b5cde473976476b0729172710d32805576d0c3a5fd66d21f882d96cef0c4eef1b85e4e3a1a316e2adc473784b11e156b0265b0f62bcfd5b035a6ff7dfcc6e",
+      "matches_selected_hash": true
+    },
+    "handcrafted": {
+      "metadata_path": "mods/handcrafted.pw.toml",
+      "filename": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "selected_download": "https://cdn.modrinth.com/data/pJmCFF0p/versions/JfqnpP2Z/handcrafted-neoforge-1.21.1-4.0.3.jar",
+      "hash_format": "sha512",
+      "hash": "4ff5fb2aa9582b886d03f647fe9b8c12a828d29a1787e9c9b463be18192ea798e6a4ac83479623042791bce0bacbf6e3e2c2e9ef086640aeeb6970d3404e7ee4",
+      "matches_selected_hash": true
+    },
+    "mechtrowel": {
+      "metadata_path": "mods/mech-trowel.pw.toml",
+      "filename": "mechtrowel-1.3.2.1.jar",
+      "selected_download": "https://cdn.modrinth.com/data/nqFNRALS/versions/nCXGFcYp/mechtrowel-1.3.2.1.jar",
+      "hash_format": "sha512",
+      "hash": "7e7dcccde6e4c37483ad6a9958635833503f7fdb647e4e8369484d7e416ec08b02ae1a597fcd6386bdb9bc7b4109900e42b8077617116111827fec617e5a37f2",
+      "matches_selected_hash": true
+    },
+    "farmersdelight": {
+      "metadata_path": "mods/farmers-delight.pw.toml",
+      "filename": "FarmersDelight-1.21.1-1.3.2.jar",
+      "selected_download": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
+      "hash_format": "sha512",
+      "hash": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
+      "matches_selected_hash": true
+    }
+  },
+  "rejected_candidates": [
+    {
+      "icon": "create:seat",
+      "reason": "No exact uncolored seat registration literal in the selected release. Used vanilla rail for train travel instead."
+    }
+  ],
+  "topics": [
+    {
+      "id": "adventure.bosses",
+      "parent": null,
+      "labels": {
+        "en_us": "Bosses",
+        "zh_cn": "首领"
+      },
+      "icon": "minecraft:dragon_head",
+      "rationale": "Dragon head is a thematic representative for Bosses.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "dragon_head"
+      }
+    },
+    {
+      "id": "adventure.creatures",
+      "parent": null,
+      "labels": {
+        "en_us": "Creatures",
+        "zh_cn": "生物"
+      },
+      "icon": "minecraft:egg",
+      "rationale": "Egg is a thematic representative for Creatures.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "egg"
+      }
+    },
+    {
+      "id": "adventure.loot",
+      "parent": "adventure.structures.md",
+      "labels": {
+        "en_us": "Loot",
+        "zh_cn": "分享与查看探险战利品"
+      },
+      "icon": "minecraft:gold_ingot",
+      "rationale": "Gold represents treasure and loot.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "gold_ingot"
+      }
+    },
+    {
+      "id": "adventure.recovery",
+      "parent": "reference.utilities.md",
+      "labels": {
+        "en_us": "Death & recovery",
+        "zh_cn": "死亡后取回物品"
+      },
+      "icon": "minecraft:recovery_compass",
+      "rationale": "Recovery compass is a thematic representative for Death & recovery.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "recovery_compass"
+      }
+    },
+    {
+      "id": "adventure.settlements",
+      "parent": "adventure.structures.md",
+      "labels": {
+        "en_us": "Settlements",
+        "zh_cn": "探索聚落与法术图书馆"
+      },
+      "icon": "minecraft:bell",
+      "rationale": "Bell is a thematic representative for Settlements.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "bell"
+      }
+    },
+    {
+      "id": "adventure.sleep",
+      "parent": "reference.utilities.md",
+      "labels": {
+        "en_us": "Sleep",
+        "zh_cn": "睡眠与时间安排"
+      },
+      "icon": "minecraft:white_bed",
+      "rationale": "White bed is a thematic representative for Sleep.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "white_bed"
+      }
+    },
+    {
+      "id": "adventure.structures",
+      "parent": null,
+      "labels": {
+        "en_us": "Structures",
+        "zh_cn": "结构与地牢"
+      },
+      "icon": "minecraft:stone_bricks",
+      "rationale": "Stone bricks is a thematic representative for Structures.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "stone_bricks"
+      }
+    },
+    {
+      "id": "building.architecture",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Architecture",
+        "zh_cn": "建造桥梁、屋顶与围栏"
+      },
+      "icon": "minecraft:oak_stairs",
+      "rationale": "Stairs represent architectural shapes without inventing an unverified roof identifier.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "oak_stairs"
+      }
+    },
+    {
+      "id": "building.copycats",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Copycat shapes",
+        "zh_cn": "使用模仿材料的建筑形状"
+      },
+      "icon": "copycats:copycat_block",
+      "rationale": "The registered Copycats block directly represents material-mimicking shapes.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "copycats",
+        "registered_literal": "copycat_block",
+        "item_registration_calls": [
+          "135: invokestatic  #1081               // Method com/copycatsplus/copycats/config/FeatureToggle.register:()Lcom/tterrag/registrate/util/nullness/NonNullUnaryOperator;",
+          "158: invokevirtual #1096               // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "183: invokestatic  #1113               // Method com/copycatsplus/copycats/foundation/tooltip/CopycatDescription.register:([Lcom/copycatsplus/copycats/foundation/tooltip/CopycatCharacteristics;)Lcom/tterrag/registrate/util/nullness/NonNullConsumer;",
+          "233: invokevirtual #984                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "CopycatsImpl constructor registers Registrate listeners and calls Copycats.init; CCBlocks static initializer calls item and register. FeatureToggle is a transform, not a mod-presence guard around this registration."
+      }
+    },
+    {
+      "id": "building.displays",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Displays",
+        "zh_cn": "制作展示、画作、标牌与雕像"
+      },
+      "icon": "minecraft:item_frame",
+      "rationale": "An item frame represents display and presentation.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "item_frame"
+      }
+    },
+    {
+      "id": "building.factory",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Factory decor",
+        "zh_cn": "装饰工厂与车站"
+      },
+      "icon": "create:industrial_iron_block",
+      "rationale": "Create industrial iron is a factory surface material.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "industrial_iron_block",
+        "item_registration_calls": [
+          "14785: invokestatic  #3950              // Method com/simibubi/create/foundation/data/BuilderTransformers.palettesIronBlock:()Lcom/tterrag/registrate/util/nullness/NonNullUnaryOperator;",
+          "14800: invokevirtual #565               // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;",
+          "BuilderTransformers.lambda$palettesIronBlock$120 calls BlockBuilder.simpleItem"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "building.furniture",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Furniture",
+        "zh_cn": "布置住宅与公共空间"
+      },
+      "icon": "handcrafted:oak_chair",
+      "rationale": "An installed Handcrafted oak chair represents furniture.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "handcrafted",
+        "registered_literal": "oak_chair",
+        "item_registration_calls": [
+          "1646: invokeinterface #1300,  3         // InterfaceMethod com/teamresourceful/resourcefullib/common/registry/ResourcefulRegistry.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lcom/teamresourceful/resourcefullib/common/registry/RegistryEntry;"
+        ],
+        "registration_scope": "Handcrafted.init initializes ModBlocks.BLOCKS and ModItems.ITEMS; oak_chair is explicitly registered in both chair registries."
+      }
+    },
+    {
+      "id": "building.palette",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Materials",
+        "zh_cn": "选择装饰材料"
+      },
+      "icon": "chipped:mason_table",
+      "rationale": "The Chipped mason table makes decorative material variants.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "chipped",
+        "registered_literal": "mason_table",
+        "item_registration_calls": [
+          "133: invokeinterface #123,  3          // InterfaceMethod com/teamresourceful/resourcefullib/common/registry/ResourcefulRegistry.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lcom/teamresourceful/resourcefullib/common/registry/RegistryEntry;"
+        ],
+        "registration_scope": "Chipped.init initializes ModBlocks.BLOCKS and ModItems.ITEMS; mason_table is explicitly registered in both bench registries."
+      }
+    },
+    {
+      "id": "building.placement",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Placement tools",
+        "zh_cn": "使用随机放置与蓝图工具"
+      },
+      "icon": "mechtrowel:mech_trowel",
+      "rationale": "Mechanical Trowel is the installed palette-based placement tool.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "mechtrowel",
+        "registered_literal": "mech_trowel",
+        "item_registration_calls": [
+          "44: invokevirtual #267                // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;"
+        ],
+        "registration_scope": "MechTrowel constructor calls ModRegistry.init; ITEMS is bound to the mod event bus. Base mech_trowel is unconditional; optional upgrade visibility is not evidence used here."
+      }
+    },
+    {
+      "id": "building.safety",
+      "parent": "reference.building.md",
+      "labels": {
+        "en_us": "Lighting & safety",
+        "zh_cn": "查看照明与管理刷怪"
+      },
+      "icon": "minecraft:torch",
+      "rationale": "A torch represents lighting and spawn safety.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "torch"
+      }
+    },
+    {
+      "id": "class.aqua",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "elemental_wizards_rpg:wand_aqua",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Aqua Wizard",
+        "zh_cn": "水系法师"
+      }
+    },
+    {
+      "id": "class.arcane",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "wizards:wand_arcane",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Arcane Wizard",
+        "zh_cn": "奥秘法师"
+      }
+    },
+    {
+      "id": "class.archer",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers:composite_longbow",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Archer",
+        "zh_cn": "弓箭手"
+      }
+    },
+    {
+      "id": "class.bard",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "bards_rpg:wooden_lute",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Bard",
+        "zh_cn": "吟游诗人"
+      }
+    },
+    {
+      "id": "class.berserker",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "berserker_rpg:iron_berserker_axe",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Berserker",
+        "zh_cn": "狂战士"
+      }
+    },
+    {
+      "id": "class.deadeye",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers:rapid_crossbow",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Deadeye",
+        "zh_cn": "神射手"
+      }
+    },
+    {
+      "id": "class.fire",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "wizards:wand_fire",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Fire Wizard",
+        "zh_cn": "火焰法师"
+      }
+    },
+    {
+      "id": "class.forcemaster",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "forcemaster_rpg:iron_knuckle",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Forcemaster",
+        "zh_cn": "气功师"
+      }
+    },
+    {
+      "id": "class.frost",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "wizards:wand_frost",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Frost Wizard",
+        "zh_cn": "冰霜法师"
+      }
+    },
+    {
+      "id": "class.paladin",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "paladins:iron_mace",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Paladin",
+        "zh_cn": "圣骑士"
+      }
+    },
+    {
+      "id": "class.priest",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "paladins:holy_wand",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Priest",
+        "zh_cn": "牧师"
+      }
+    },
+    {
+      "id": "class.rogue",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "rogues:iron_dagger",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Rogue",
+        "zh_cn": "盗贼"
+      }
+    },
+    {
+      "id": "class.terra",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "elemental_wizards_rpg:wand_terra",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Terra Wizard",
+        "zh_cn": "土系法师"
+      }
+    },
+    {
+      "id": "class.tundra-hunter",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers_expansion:tundra_hunter_chest",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Tundra Hunter",
+        "zh_cn": "冻原猎手"
+      }
+    },
+    {
+      "id": "class.war-archer",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "archers_expansion:war_archer_chest",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "War Archer",
+        "zh_cn": "战争弓手"
+      }
+    },
+    {
+      "id": "class.warrior",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "rogues:iron_double_axe",
+      "parent": "combat.martial.md",
+      "labels": {
+        "en_us": "Warrior",
+        "zh_cn": "战士"
+      }
+    },
+    {
+      "id": "class.wind",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "elemental_wizards_rpg:wand_wind",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Wind Wizard",
+        "zh_cn": "风系法师"
+      }
+    },
+    {
+      "id": "class.witcher",
+      "rationale": "Class-specific starting equipment from existing handbook native references",
+      "provenance": {
+        "class_reference_evidence": "docs/handbook-class-navigation.json",
+        "original_native_reference_present": true,
+        "original_content_commit": "01a83a6",
+        "boundary": "Existing selected-release reference, not a running item-registry verification"
+      },
+      "icon": "witcher_rpg:iron_witcher_sword",
+      "parent": "combat.magic.md",
+      "labels": {
+        "en_us": "Witcher",
+        "zh_cn": "猎魔人"
+      }
+    },
+    {
+      "id": "combat.abilities",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Spells & abilities",
+        "zh_cn": "法术与招式"
+      },
+      "icon": "minecraft:enchanted_book",
+      "rationale": "Enchanted book is a thematic representative for Spells & abilities.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "enchanted_book"
+      }
+    },
+    {
+      "id": "combat.handling",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Weapons & dodging",
+        "zh_cn": "使用武器与闪避"
+      },
+      "icon": "minecraft:feather",
+      "rationale": "Feather is a thematic representative for Weapons & dodging.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "feather"
+      }
+    },
+    {
+      "id": "combat.magic",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Magic & support classes",
+        "zh_cn": "法术与支援职业"
+      },
+      "icon": "minecraft:blaze_rod",
+      "rationale": "Blaze rod is a thematic representative for Magic classes.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "blaze_rod"
+      }
+    },
+    {
+      "id": "combat.martial",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Martial classes",
+        "zh_cn": "武技职业"
+      },
+      "icon": "minecraft:bow",
+      "rationale": "Bow is a thematic representative for Martial classes.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "bow"
+      }
+    },
+    {
+      "id": "combat.skills",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Character skills",
+        "zh_cn": "通过技能培养角色"
+      },
+      "icon": "minecraft:experience_bottle",
+      "rationale": "Experience bottle is a thematic representative for Character skills.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "experience_bottle"
+      }
+    },
+    {
+      "id": "equipment.accessories",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Accessories",
+        "zh_cn": "使用饰品、遗物与饰品栏"
+      },
+      "icon": "minecraft:emerald",
+      "rationale": "Emerald is a thematic representative for Accessories.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "emerald"
+      }
+    },
+    {
+      "id": "equipment.display",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Armor & status",
+        "zh_cn": "阅读护甲与状态信息"
+      },
+      "icon": "minecraft:potion",
+      "rationale": "Potion is a thematic representative for Armor & status.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "potion"
+      }
+    },
+    {
+      "id": "equipment.weapons-armor",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Weapons & armor",
+        "zh_cn": "选择武器与护甲"
+      },
+      "icon": "minecraft:trident",
+      "rationale": "Trident is a thematic representative for Weapons & armor.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "trident"
+      }
+    },
+    {
+      "id": "food.encounters",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Encounter food",
+        "zh_cn": "用特殊遭遇获得的食材烹饪"
+      },
+      "icon": "minecraft:rotten_flesh",
+      "rationale": "Rotten flesh is a thematic representative for Encounter food.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "rotten_flesh"
+      }
+    },
+    {
+      "id": "food.end",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "End food",
+        "zh_cn": "用末地食材烹饪"
+      },
+      "icon": "minecraft:chorus_fruit",
+      "rationale": "Chorus fruit is a thematic representative for End food.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "chorus_fruit"
+      }
+    },
+    {
+      "id": "food.fishing",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Fishing",
+        "zh_cn": "钓鱼与水产食材"
+      },
+      "icon": "minecraft:cod",
+      "rationale": "Cod is a thematic representative for Fishing.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "cod"
+      }
+    },
+    {
+      "id": "food.growing",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Farming",
+        "zh_cn": "种植与收获食材"
+      },
+      "icon": "minecraft:wheat",
+      "rationale": "Wheat is a thematic representative for Farming.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "wheat"
+      }
+    },
+    {
+      "id": "food.hunger",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Hunger & variety",
+        "zh_cn": "饥饿、饮食多样性与食物携带"
+      },
+      "icon": "minecraft:apple",
+      "rationale": "Apple is a thematic representative for Hunger & variety.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "apple"
+      }
+    },
+    {
+      "id": "food.machine-cooking",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Machine cooking",
+        "zh_cn": "用机器制作食物"
+      },
+      "icon": "minecraft:smoker",
+      "rationale": "Smoker is a thematic representative for Machine cooking.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "smoker"
+      }
+    },
+    {
+      "id": "food.nether",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Nether food",
+        "zh_cn": "用下界食材烹饪"
+      },
+      "icon": "minecraft:crimson_fungus",
+      "rationale": "Crimson fungus is a thematic representative for Nether food.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "crimson_fungus"
+      }
+    },
+    {
+      "id": "food.underground",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Underground food",
+        "zh_cn": "用地下食材烹饪"
+      },
+      "icon": "minecraft:brown_mushroom",
+      "rationale": "Brown mushroom is a thematic representative for Underground food.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "brown_mushroom"
+      }
+    },
+    {
+      "id": "food.utensils",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Cooking tools",
+        "zh_cn": "用烹饪工具准备食物"
+      },
+      "icon": "farmersdelight:cooking_pot",
+      "rationale": "Cooking pot is a thematic representative for Cooking tools.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "farmersdelight",
+        "registered_literal": "cooking_pot",
+        "item_registration_calls": [
+          "40: invokevirtual #616                // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;"
+        ],
+        "registration_scope": "FarmersDelight constructor registers ModItems.ITEMS on the mod event bus. cooking_pot is a direct unconditional block-item DeferredRegister entry."
+      }
+    },
+    {
+      "id": "help.controls",
+      "parent": null,
+      "labels": {
+        "en_us": "Controls",
+        "zh_cn": "操作与按键"
+      },
+      "icon": "minecraft:lever",
+      "rationale": "Lever is a thematic representative for Controls.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "lever"
+      }
+    },
+    {
+      "id": "help.credits",
+      "parent": null,
+      "labels": {
+        "en_us": "Credits",
+        "zh_cn": "鸣谢"
+      },
+      "icon": "minecraft:written_book",
+      "rationale": "Written book is a thematic representative for Credits.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "written_book"
+      }
+    },
+    {
+      "id": "help.handbook",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Handbook",
+        "zh_cn": "Astropunk 手册"
+      },
+      "icon": "minecraft:writable_book",
+      "rationale": "Writable book is a thematic representative for Handbook.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "writable_book"
+      }
+    },
+    {
+      "id": "help.inspect",
+      "parent": "reference.utilities.md",
+      "labels": {
+        "en_us": "Block & mob info",
+        "zh_cn": "查看方块与生物信息"
+      },
+      "icon": "minecraft:debug_stick",
+      "rationale": "Debug stick represents inspecting block state, not a claim that players need this operator item to use the information overlay.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "debug_stick"
+      }
+    },
+    {
+      "id": "help.reference",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Advancements",
+        "zh_cn": "进度"
+      },
+      "icon": "minecraft:book",
+      "rationale": "Book is a thematic representative for Existing help.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "book"
+      }
+    },
+    {
+      "id": "help.search",
+      "parent": null,
+      "labels": {
+        "en_us": "Browse recipe",
+        "zh_cn": "浏览配方"
+      },
+      "icon": "minecraft:crafting_table",
+      "rationale": "Crafting table is a thematic representative for Browse recipe.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "crafting_table"
+      }
+    },
+    {
+      "id": "index",
+      "parent": null,
+      "labels": {
+        "en_us": "Astropunk",
+        "zh_cn": "Astropunk"
+      },
+      "icon": "minecraft:compass",
+      "rationale": "Compass is a thematic representative for Astropunk.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "compass"
+      }
+    },
+    {
+      "id": "interactions.carry",
+      "parent": "reference.utilities.md",
+      "labels": {
+        "en_us": "Carry On",
+        "zh_cn": "搬运方块与生物"
+      },
+      "icon": "minecraft:barrel",
+      "rationale": "A barrel represents carrying storage blocks.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "barrel"
+      }
+    },
+    {
+      "id": "machines.enchanting",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Enchanting",
+        "zh_cn": "附魔、修理与查看装备"
+      },
+      "icon": "minecraft:enchanting_table",
+      "rationale": "Enchanting table is a thematic representative for Enchanting.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "enchanting_table"
+      }
+    },
+    {
+      "id": "machines.logistics",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Item routing",
+        "zh_cn": "输送、筛选与分配物品"
+      },
+      "icon": "create:brass_funnel",
+      "rationale": "Brass funnel is a thematic representative for Item routing.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "brass_funnel",
+        "item_registration_calls": [
+          "9997: invokevirtual #778                // Method com/tterrag/registrate/builders/BlockBuilder.item:(Lcom/tterrag/registrate/util/nullness/NonNullBiFunction;)Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "10031: invokevirtual #565               // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "machines.miscellaneous",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Workshop tools",
+        "zh_cn": "寻找其他工厂工具"
+      },
+      "icon": "create:wrench",
+      "rationale": "Wrench is a thematic representative for Workshop tools.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "wrench",
+        "item_registration_calls": [
+          "2382: invokevirtual #17                 // Method com/simibubi/create/foundation/data/CreateRegistrate.item:(Ljava/lang/String;Lcom/tterrag/registrate/util/nullness/NonNullFunction;)Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "2412: invokevirtual #23                 // Method com/tterrag/registrate/builders/ItemBuilder.register:()Lcom/tterrag/registrate/util/entry/ItemEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "machines.ore-processing",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Ore processing",
+        "zh_cn": "加工矿石与原料"
+      },
+      "icon": "create:millstone",
+      "rationale": "Millstone is a thematic representative for Ore processing.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "millstone",
+        "item_registration_calls": [
+          "2357: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "2369: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "machines.renewables",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Renewable resources",
+        "zh_cn": "生产可再生原料"
+      },
+      "icon": "create:mechanical_drill",
+      "rationale": "Mechanical drill represents automated renewable cobblestone processing.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "mechanical_drill",
+        "item_registration_calls": [
+          "7101: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "7129: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "machines.rotation",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Rotational power",
+        "zh_cn": "为机器提供旋转动力"
+      },
+      "icon": "create:cogwheel",
+      "rationale": "Cogwheel is a thematic representative for Rotational power.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "cogwheel",
+        "item_registration_calls": [
+          "297: invokevirtual #778                // Method com/tterrag/registrate/builders/BlockBuilder.item:(Lcom/tterrag/registrate/util/nullness/NonNullBiFunction;)Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "306: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "machines.trading",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Trading",
+        "zh_cn": "手动交易与自动交易"
+      },
+      "icon": "minecraft:emerald_block",
+      "rationale": "An emerald block represents large-scale trading, distinct from wearable accessories.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "emerald_block"
+      }
+    },
+    {
+      "id": "maps.find",
+      "parent": "maps.personal.md",
+      "labels": {
+        "en_us": "Location finders",
+        "zh_cn": "寻找生物群系与结构"
+      },
+      "icon": "minecraft:spyglass",
+      "rationale": "A spyglass represents finding and inspecting distant locations.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "spyglass"
+      }
+    },
+    {
+      "id": "maps.personal",
+      "parent": null,
+      "labels": {
+        "en_us": "Maps",
+        "zh_cn": "地图"
+      },
+      "icon": "minecraft:map",
+      "rationale": "Map is a thematic representative for Maps.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "map"
+      }
+    },
+    {
+      "id": "maps.shared",
+      "parent": "maps.personal.md",
+      "labels": {
+        "en_us": "Shared maps",
+        "zh_cn": "共享地图信息"
+      },
+      "icon": "minecraft:cartography_table",
+      "rationale": "Cartography table is a thematic representative for Shared maps.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "cartography_table"
+      }
+    },
+    {
+      "id": "performance.baseline",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Performance",
+        "zh_cn": "了解当前性能优化系统"
+      },
+      "icon": "minecraft:clock",
+      "rationale": "A clock represents frame timing and performance.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "clock"
+      }
+    },
+    {
+      "id": "performance.deferred",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Deferred optimizers",
+        "zh_cn": "了解暂缓加入的优化模组"
+      },
+      "icon": "minecraft:repeater",
+      "rationale": "A repeater represents timing optimization, using vanilla rather than absent optimizer identifiers.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "repeater"
+      }
+    },
+    {
+      "id": "power.burners",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Liquid fuels",
+        "zh_cn": "提供液体燃烧燃料"
+      },
+      "icon": "minecraft:lava_bucket",
+      "rationale": "Lava bucket is a thematic representative for Liquid fuels.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "lava_bucket"
+      }
+    },
+    {
+      "id": "power.electricity",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Electricity",
+        "zh_cn": "发电、配电与用电"
+      },
+      "icon": "minecraft:lightning_rod",
+      "rationale": "A lightning rod is a vanilla electrical metaphor, not an asserted mod generator.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "lightning_rod"
+      }
+    },
+    {
+      "id": "power.industry",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Materials & fuels",
+        "zh_cn": "工业材料与燃料系统"
+      },
+      "icon": "minecraft:iron_ingot",
+      "rationale": "An iron ingot represents industrial materials.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "iron_ingot"
+      }
+    },
+    {
+      "id": "power.stored-rotation",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Stored rotation",
+        "zh_cn": "储存旋转动力"
+      },
+      "icon": "create:flywheel",
+      "rationale": "The flywheel is a kinetic-energy metaphor, not a claim that Create flywheels provide the separate rotational-storage mechanic.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "flywheel",
+        "item_registration_calls": [
+          "8701: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "8713: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "reference.appearance",
+      "parent": null,
+      "labels": {
+        "en_us": "Appearance",
+        "zh_cn": "外观"
+      },
+      "icon": "minecraft:painting",
+      "rationale": "Painting is a thematic representative for Appearance.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "painting"
+      }
+    },
+    {
+      "id": "reference.audio",
+      "parent": null,
+      "labels": {
+        "en_us": "Audio",
+        "zh_cn": "音效"
+      },
+      "icon": "minecraft:note_block",
+      "rationale": "Note block is a thematic representative for Audio.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "note_block"
+      }
+    },
+    {
+      "id": "reference.building",
+      "parent": null,
+      "labels": {
+        "en_us": "Building",
+        "zh_cn": "建筑"
+      },
+      "icon": "create:schematicannon",
+      "rationale": "Schematicannon is an installed Create building tool, representing construction rather than another brick.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "schematicannon",
+        "item_registration_calls": [
+          "71: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "83: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "reference.equipment",
+      "parent": "reference.skills.md",
+      "labels": {
+        "en_us": "Equipment",
+        "zh_cn": "装备"
+      },
+      "icon": "minecraft:iron_chestplate",
+      "rationale": "Iron chestplate is a thematic representative for Equipment.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "iron_chestplate"
+      }
+    },
+    {
+      "id": "reference.food",
+      "parent": null,
+      "labels": {
+        "en_us": "Food & farming",
+        "zh_cn": "食物与农业"
+      },
+      "icon": "minecraft:bread",
+      "rationale": "Bread is a thematic representative for Food & farming.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "bread"
+      }
+    },
+    {
+      "id": "reference.machines-storage",
+      "parent": null,
+      "labels": {
+        "en_us": "Machines & storage",
+        "zh_cn": "机器与储存"
+      },
+      "icon": "create:crushing_wheel",
+      "rationale": "Crushing wheel is a thematic representative for Machines & storage.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "crushing_wheel",
+        "item_registration_calls": [
+          "2450: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "2462: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "reference.skills",
+      "parent": null,
+      "labels": {
+        "en_us": "Combat",
+        "zh_cn": "战斗"
+      },
+      "icon": "minecraft:iron_sword",
+      "rationale": "Iron sword is a thematic representative for Combat.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "iron_sword"
+      }
+    },
+    {
+      "id": "reference.technical",
+      "parent": null,
+      "labels": {
+        "en_us": "Technical",
+        "zh_cn": "技术"
+      },
+      "icon": "minecraft:redstone",
+      "rationale": "Redstone is a thematic representative for Technical.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "redstone"
+      }
+    },
+    {
+      "id": "reference.utilities",
+      "parent": null,
+      "labels": {
+        "en_us": "Utilities",
+        "zh_cn": "实用工具"
+      },
+      "icon": "minecraft:chest",
+      "rationale": "A chest represents everyday inventory and interaction conveniences.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "chest"
+      }
+    },
+    {
+      "id": "reference.vehicles",
+      "parent": null,
+      "labels": {
+        "en_us": "Transport",
+        "zh_cn": "交通"
+      },
+      "icon": "minecraft:minecart",
+      "rationale": "Minecart is a thematic representative for Transport.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "minecart"
+      }
+    },
+    {
+      "id": "server.deferred-pack-loading",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Deferred loading",
+        "zh_cn": "了解暂缓加入的内容加载工具"
+      },
+      "icon": "minecraft:hopper",
+      "rationale": "A hopper represents a loading pipeline, using vanilla for explicitly deferred content.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "hopper"
+      }
+    },
+    {
+      "id": "server.tools",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Server tools",
+        "zh_cn": "了解管理员与诊断工具"
+      },
+      "icon": "minecraft:command_block",
+      "rationale": "A command block represents administrative tools, not a player access requirement.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "command_block"
+      }
+    },
+    {
+      "id": "space.destinations",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Space (not installed)",
+        "zh_cn": "了解规划中的太空目的地"
+      },
+      "icon": "minecraft:end_stone",
+      "rationale": "End stone is a vanilla alien-world metaphor for explicitly uninstalled space content.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "end_stone"
+      }
+    },
+    {
+      "id": "space.vehicle-transfer",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Space transport",
+        "zh_cn": "了解整台载具的跨维度移动"
+      },
+      "icon": "minecraft:end_portal_frame",
+      "rationale": "An End portal frame represents cross-dimensional transfer, not an installed space vehicle.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "end_portal_frame"
+      }
+    },
+    {
+      "id": "storage.bulk",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Bulk storage",
+        "zh_cn": "储存工厂的大批原料"
+      },
+      "icon": "create:item_vault",
+      "rationale": "Item vault is a thematic representative for Bulk storage.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "item_vault",
+        "item_registration_calls": [
+          "10700: invokevirtual #778               // Method com/tterrag/registrate/builders/BlockBuilder.item:(Lcom/tterrag/registrate/util/nullness/NonNullBiFunction;)Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "10709: invokevirtual #565               // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "storage.handling",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Inventory tools",
+        "zh_cn": "整理、转移与丢弃物品"
+      },
+      "icon": "minecraft:bundle",
+      "rationale": "A bundle represents arranging and managing an inventory.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "bundle"
+      }
+    },
+    {
+      "id": "storage.portable",
+      "parent": "reference.machines-storage.md",
+      "labels": {
+        "en_us": "Portable storage",
+        "zh_cn": "携带便携储存装备"
+      },
+      "icon": "minecraft:shulker_box",
+      "rationale": "Shulker box is a thematic representative for Portable storage.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "shulker_box"
+      }
+    },
+    {
+      "id": "technical.bridges",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Compatibility",
+        "zh_cn": "查询移动建筑与视觉兼容组件"
+      },
+      "icon": "minecraft:chain",
+      "rationale": "A chain represents compatibility connections.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "chain"
+      }
+    },
+    {
+      "id": "technical.libraries",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Libraries",
+        "zh_cn": "查询支持库与框架"
+      },
+      "icon": "minecraft:bookshelf",
+      "rationale": "A bookshelf represents supporting libraries.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "bookshelf"
+      }
+    },
+    {
+      "id": "technical.space-bridge",
+      "parent": "reference.technical.md",
+      "labels": {
+        "en_us": "Space compatibility",
+        "zh_cn": "查询暂缓加入的太空渲染组件"
+      },
+      "icon": "minecraft:end_rod",
+      "rationale": "An End rod represents an alien-world connection, using vanilla for explicitly deferred compatibility.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "end_rod"
+      }
+    },
+    {
+      "id": "transport.local",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Local transport",
+        "zh_cn": "在基地内移动"
+      },
+      "icon": "minecraft:powered_rail",
+      "rationale": "Powered rail represents local transport.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "powered_rail"
+      }
+    },
+    {
+      "id": "transport.passenger",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Train travel",
+        "zh_cn": "乘坐列车出行"
+      },
+      "icon": "minecraft:rail",
+      "rationale": "Vanilla rail represents train journeys, distinct from the registered Create track used for railway building.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "rail"
+      }
+    },
+    {
+      "id": "transport.railway-builder",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Railways",
+        "zh_cn": "建造列车、轨道与车站"
+      },
+      "icon": "create:track",
+      "rationale": "Track is a thematic representative for Railways.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "track",
+        "item_registration_calls": [
+          "9038: invokevirtual #778                // Method com/tterrag/registrate/builders/BlockBuilder.item:(Lcom/tterrag/registrate/util/nullness/NonNullBiFunction;)Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "9071: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "travel.destinations",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Teleportation",
+        "zh_cn": "使用固定与便携传送点"
+      },
+      "icon": "minecraft:ender_pearl",
+      "rationale": "Ender pearl is a thematic representative for Teleportation.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "ender_pearl"
+      }
+    },
+    {
+      "id": "vehicles.airships",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Airships",
+        "zh_cn": "建造与平衡飞行船"
+      },
+      "icon": "minecraft:elytra",
+      "rationale": "Elytra represents flight without relying on an unverified airship addon item.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "elytra"
+      }
+    },
+    {
+      "id": "vehicles.assembly",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Vehicle assembly",
+        "zh_cn": "组装和操作移动载具"
+      },
+      "icon": "create:mechanical_bearing",
+      "rationale": "Mechanical bearing represents assembling a moving contraption, not a required airship component.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "mechanical_bearing",
+        "item_registration_calls": [
+          "5906: invokestatic  #2590               // Method com/simibubi/create/foundation/data/BuilderTransformers.bearing:(Ljava/lang/String;Ljava/lang/String;)Lcom/tterrag/registrate/util/nullness/NonNullUnaryOperator;",
+          "5959: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;",
+          "BuilderTransformers.lambda$bearing$86 calls BlockBuilder.item and ItemBuilder.build"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "vehicles.controls",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Vehicle controls",
+        "zh_cn": "控制与稳定载具"
+      },
+      "icon": "create:controls",
+      "rationale": "Create controls is a registered control block.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "controls",
+        "item_registration_calls": [
+          "9622: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "9634: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "vehicles.engines",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Engines",
+        "zh_cn": "选择引擎与推进装置"
+      },
+      "icon": "create:steam_engine",
+      "rationale": "Steam engine represents propulsion and power machinery, not a universal vehicle-engine recipe.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "create",
+        "registered_literal": "steam_engine",
+        "item_registration_calls": [
+          "5177: invokevirtual #547                // Method com/tterrag/registrate/builders/BlockBuilder.item:()Lcom/tterrag/registrate/builders/ItemBuilder;",
+          "5189: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
+        ],
+        "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
+      }
+    },
+    {
+      "id": "vehicles.radar",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Radar",
+        "zh_cn": "读取雷达信息"
+      },
+      "icon": "minecraft:sculk_sensor",
+      "rationale": "A sculk sensor represents detection, not a claim that it implements vehicle radar.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "sculk_sensor"
+      }
+    },
+    {
+      "id": "vehicles.water",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Boats & submarines",
+        "zh_cn": "操作船只与潜艇"
+      },
+      "icon": "minecraft:oak_boat",
+      "rationale": "Oak boat is a thematic representative for Boats & submarines.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "oak_boat"
+      }
+    },
+    {
+      "id": "vehicles.weapons",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Mounted weapons",
+        "zh_cn": "安装和操作载具武器"
+      },
+      "icon": "minecraft:dispenser",
+      "rationale": "A dispenser represents a mounted launcher.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "dispenser"
+      }
+    },
+    {
+      "id": "visuals.camera",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Camera",
+        "zh_cn": "调整视角与窗口"
+      },
+      "icon": "minecraft:ender_eye",
+      "rationale": "An Ender eye represents the viewing eye and camera, not a camera-control item.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "ender_eye"
+      }
+    },
+    {
+      "id": "visuals.interface",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Interface",
+        "zh_cn": "调整通知与信息界面"
+      },
+      "icon": "minecraft:oak_sign",
+      "rationale": "A sign represents visible information labels.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "oak_sign"
+      }
+    },
+    {
+      "id": "visuals.lighting",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Lighting & distance",
+        "zh_cn": "选择光影、动态光源与远景"
+      },
+      "icon": "minecraft:lantern",
+      "rationale": "Lantern is a thematic representative for Lighting & distance.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "lantern"
+      }
+    },
+    {
+      "id": "visuals.models",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Models & animations",
+        "zh_cn": "调整模型与动画"
+      },
+      "icon": "minecraft:armor_stand",
+      "rationale": "Armor stand represents visible models and poses.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "armor_stand"
+      }
+    },
+    {
+      "id": "visuals.resource-packs",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Resource packs",
+        "zh_cn": "选择资源包外观"
+      },
+      "icon": "minecraft:loom",
+      "rationale": "A loom represents texture and appearance customization.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "loom"
+      }
+    },
+    {
+      "id": "visuals.shader-packs",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Shaders",
+        "zh_cn": "比较光影风格"
+      },
+      "icon": "minecraft:prismarine_crystals",
+      "rationale": "Prismarine crystals represent color and refracted lighting.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "prismarine_crystals"
+      }
+    },
+    {
+      "id": "visuals.weather",
+      "parent": "reference.appearance.md",
+      "labels": {
+        "en_us": "Weather & particles",
+        "zh_cn": "调整天气、粒子与过渡效果"
+      },
+      "icon": "minecraft:snowball",
+      "rationale": "Snowball is a thematic representative for Weather & particles.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "snowball"
+      }
+    },
+    {
+      "id": "world.dimensions",
+      "parent": null,
+      "labels": {
+        "en_us": "Dimensions",
+        "zh_cn": "维度"
+      },
+      "icon": "minecraft:grass_block",
+      "rationale": "Grass block is a thematic representative for Dimensions.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "classes": [
+          "net.minecraft.world.item.Items",
+          "net.minecraft.world.level.block.Blocks"
+        ],
+        "registered_literal": "grass_block"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source_tests": 35,
+  "semantic_regressions": 3,
+  "native_structural_compiler": "SUMMARY pages 194 failing_pages 0 grids 814 slots 4398 tooltip_labels 4422 tags {Color=2, EmiSearch=927, ItemGrid=814, ItemIcon=4398, ItemImage=214, ItemLink=4422, KeyBind=52, Recipe=182}",
+  "explicit_compiler_boundaries": [
+    "Item identifiers normalized to vanilla stone only in headless parsed tree",
+    "Recipe and KeyBind remain client-runtime boundaries",
+    "No game rendering or live item registry verification"
+  ],
+  "query_integration_tests": 5,
+  "helper_junit_tests": 10,
+  "native_query_component_registered": true,
+  "resource_guide_override_removed": true,
+  "source_pages": 194,
+  "authored_articles": 86,
+  "articles": 86,
+  "provider_inventory": {
+    "baseline": 292,
+    "deferred": 8,
+    "heavy": 20
+  },
+  "bosses_illustrated": 17,
+  "bosses_total": 17,
+  "full_width_packaged_default": true,
+  "full_width_active": true,
+  "unchanged_selected_mods_except_local_helper": true,
+  "live_helper_sha256": "c8cd97f9e2e5725bfed68b71f5d71795dde75d9a39cbadbbd3ae3ade3f535921",
+  "live_resources_readback_verified": true,
+  "installed_profile": "/home/tsb/.local/share/ModrinthApp/profiles/astropunk-0.3.0-guide.light.1-modrinth",
+  "helper_backup": "/home/tsb/Projects/lucas/.archive/handbook-final-review/20261009-193324/live-helper.jar",
+  "resource_backup": "/home/tsb/Projects/lucas/.archive/handbook-final-installed-resources",
+  "export": "/home/tsb/.hermes/cache/scratch/astropunk-handbook-final-review.mrpack",
+  "export_sha256": "ae0a17159ef124e3152c37401048b722da873ccaa3f001cb1953f0115a9069e6",
+  "export_resource_parity": true,
+  "manifest_downloads": 290,
+  "public_upload_performed": false,
+  "runtime_rendered": false
+}

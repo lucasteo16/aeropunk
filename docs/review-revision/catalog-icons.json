@@ -1,0 +1,5083 @@
+{
+  "mods/additional-rpg-jewelry.pw.toml": {
+    "resource": "images/catalog-rULzJh3O.png",
+    "source_url": "https://cdn.modrinth.com/data/rULzJh3O/b5a9c338747c88ace26813dd125432f9bea39069_96.webp",
+    "project_url": "https://modrinth.com/project/rULzJh3O",
+    "project_id": "rULzJh3O",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "54d7ee471c4244cc8693612dc09e3ee4df8394237bbb2d0c14bb607f2b767864",
+    "resource_sha256": "eec96a31375aa3bcf82ecc63da49ec9854fc8e8f1ef2b5e91b4a29ed9e250c1e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/advancement-plaques.pw.toml": {
+    "resource": "images/catalog-9NM0dXub.png",
+    "source_url": "https://cdn.modrinth.com/data/9NM0dXub/bb63f53585dd34679781c9964874dce8acdf6d26_96.webp",
+    "project_url": "https://modrinth.com/project/9NM0dXub",
+    "project_id": "9NM0dXub",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-ND-4.0",
+      "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": null
+    },
+    "original_sha256": "60c5c5ebc16f0bedb389f601dc3d9c0fd0cecc590423337cf8fc7ed9c9a8f337",
+    "resource_sha256": "ff890fdd9c604193ebd9082aa6ef33755128cae0f645580ee1c838abc176e9df",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/aeroengine.pw.toml": {
+    "resource": "images/catalog-CRh10iJF.png",
+    "source_url": "https://cdn.modrinth.com/data/CRh10iJF/63695d0911804503f4416a4396a926602aa3f986_96.webp",
+    "project_url": "https://modrinth.com/project/CRh10iJF",
+    "project_id": "CRh10iJF",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "4c627824bd4ee512a2ca58fc3f9b0374d7aab58a0ac99d31594efd1743eada95",
+    "resource_sha256": "a9091cb09b0abf98bc722c64b25eb31b31cf0c9c472d93743113cf150ce8d8aa",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ai-improvements.pw.toml": {
+    "resource": "images/catalog-DSVgwcji.png",
+    "source_url": "https://cdn.modrinth.com/data/DSVgwcji/819dbaeb9b0dac8250a1403d1db7e7646f9a9b8f.png",
+    "project_url": "https://modrinth.com/project/DSVgwcji",
+    "project_id": "DSVgwcji",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "63f2432377a143eafae46a599e0983064560b93093cbeacf0bfb12d335e8825a",
+    "resource_sha256": "45c6db7daea041f6b08141bbdb340467aefbc257144fe5bf8f9c9e5ad17424c5",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/almanac.pw.toml": {
+    "resource": "images/catalog-Gi02250Z.png",
+    "source_url": "https://cdn.modrinth.com/data/Gi02250Z/f0bb3148fcb735bb989ef5723d199114e1f24542.png",
+    "project_url": "https://modrinth.com/project/Gi02250Z",
+    "project_id": "Gi02250Z",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "6f07e9e3533446763c155daa15a8d088dfef383fb31914b7daf96151b449cf2b",
+    "resource_sha256": "100cb8a9f1e6e3e1635dc52512dd4d21a16e0cf007cbe22a55922bb99118bd50",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/amendments.pw.toml": {
+    "resource": "images/catalog-6iTJugQR.png",
+    "source_url": "https://cdn.modrinth.com/data/6iTJugQR/46e156f1c798bfc3c18bd2a55567af1086674f02_96.webp",
+    "project_url": "https://modrinth.com/project/6iTJugQR",
+    "project_id": "6iTJugQR",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Supplementaries-Team-License-1.1",
+      "name": "",
+      "url": "https://github.com/MehVahdJukaar/Supplementaries-Team-License/blob/main/LICENSE.md"
+    },
+    "original_sha256": "466452cfe83c3f220c4e1cc0b15cc479b68a987b6dad8e498dd2aa98c0b6c293",
+    "resource_sha256": "05fe30fc46e69fbab56ebe1c217d85664b32c02b147bbb1582c89df8b6797020",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/apollib.pw.toml": {
+    "resource": "images/catalog-VDI2Ytax.png",
+    "source_url": "https://cdn.modrinth.com/data/VDI2Ytax/bc584723fdfd7c67c4fd1ce56a57ee59b8d2cabe.png",
+    "project_url": "https://modrinth.com/project/VDI2Ytax",
+    "project_id": "VDI2Ytax",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1c3c3389fed0c376539bbff591fd15b7cf9a3b9f1a03ed882649ff13df37ba74",
+    "resource_sha256": "a7aaf32bdd2fa07633ee4f0a8a088f9c540a05f14dfc7626845a47249098b43b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/appleskin.pw.toml": {
+    "resource": "images/catalog-EsAfCjCV.png",
+    "source_url": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
+    "project_url": "https://modrinth.com/project/EsAfCjCV",
+    "project_id": "EsAfCjCV",
+    "kind": "publisher icon",
+    "license": {
+      "id": "Unlicense",
+      "name": "The Unlicense",
+      "url": null
+    },
+    "original_sha256": "e95c230cf1e850de619cf2bf09822490642ef57fc50211d86768437ab32d6538",
+    "resource_sha256": "76294885efe4fd81f936407ff37e07041499cfddb4e264fe1837383c75ff32dd",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/archers-expansion.pw.toml": {
+    "resource": "images/catalog-1BHIIm4m.png",
+    "source_url": "https://cdn.modrinth.com/data/1BHIIm4m/ee3cb6f8317592481745f157f9f21f67740b5e96_96.webp",
+    "project_url": "https://modrinth.com/project/1BHIIm4m",
+    "project_id": "1BHIIm4m",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "5a2c8fd6d732f8311d69a04e7b9b3038ef5c951764c6193e0f8cc91577f66163",
+    "resource_sha256": "ad0cc7dc52dffdffa42e632096691dfad4a3d05da8d995981859794cfecdba3f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/archers.pw.toml": {
+    "resource": "images/catalog-QgooUXAJ.png",
+    "source_url": "https://cdn.modrinth.com/data/QgooUXAJ/cd623d827366323dd4d604a25c4b7f74cfda353d_96.webp",
+    "project_url": "https://modrinth.com/project/QgooUXAJ",
+    "project_id": "QgooUXAJ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "9e0766185e7a1b85b57e2d02c85b9304fe10caca88b6eb9c63843c0e3a2cae4e",
+    "resource_sha256": "04756d819a8ffe7dcf5673fc7b9069e941fc982d80dd911fa1426ce843f0e3b6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/architectury-api.pw.toml": {
+    "resource": "images/catalog-lhGA9TYQ.png",
+    "source_url": "https://cdn.modrinth.com/data/lhGA9TYQ/05fe3a61c28faaccaec3533b92e1b321edde7bf6_96.webp",
+    "project_url": "https://modrinth.com/project/lhGA9TYQ",
+    "project_id": "lhGA9TYQ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "2597500a7984f15b0735cd44be58d10d8ca2fa139e34fc4763c074549efff2f8",
+    "resource_sha256": "bc229233822ece1a82862fa906529e14e95abf30536eb84f65e004055ef3cc93",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/armor-model-api.pw.toml": {
+    "resource": "images/catalog-onz2NN2n.png",
+    "source_url": "https://cdn.modrinth.com/data/onz2NN2n/7e1e6fabf1d2241be986d564d0cced008b028214_96.webp",
+    "project_url": "https://modrinth.com/project/onz2NN2n",
+    "project_id": "onz2NN2n",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1cbfe6dd38cca868e8f173791b8eb11bafc72a9cb23903335918bf75aa74363a",
+    "resource_sha256": "65ce32ca045160abdbe9272eef5941493bb2b236b4d40508e947236b9993672f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/armor-poser.pw.toml": {
+    "resource": "images/catalog-PFwYNrHb.png",
+    "source_url": "https://cdn.modrinth.com/data/PFwYNrHb/8a003f5e07dbb38c9df552f398cb771dc6216b79_96.webp",
+    "project_url": "https://modrinth.com/project/PFwYNrHb",
+    "project_id": "PFwYNrHb",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8505184546e80f0fed51ae2438841ac5fe248a84a5705f90e83339bfaaf83d56",
+    "resource_sha256": "94db15d5ae601395d0b58c4b373f567b6d5c7c9e8755a3878949d44bacd50b4a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/armory-rpg-series.pw.toml": {
+    "resource": "images/catalog-PJvJUdGw.png",
+    "source_url": "https://cdn.modrinth.com/data/PJvJUdGw/176c39adcee3e73c06265dd02e09a41b03cab9f6_96.webp",
+    "project_url": "https://modrinth.com/project/PJvJUdGw",
+    "project_id": "PJvJUdGw",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "f1045164070d02ed25ef76c4ccfc369cfda48bfe5282d419d21969e576805940",
+    "resource_sha256": "f0a4d5d922920602a251f767a4378cb24649e680dc3ca5b116bafae819ec0f49",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/arsenal-rpg-series.pw.toml": {
+    "resource": "images/catalog-LiP9Q3KV.png",
+    "source_url": "https://cdn.modrinth.com/data/LiP9Q3KV/522a5c3cd60cca6637599eff5ececf33276029ba_96.webp",
+    "project_url": "https://modrinth.com/project/LiP9Q3KV",
+    "project_id": "LiP9Q3KV",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "768d2314f85d2a4d7545cbd7bd2fc9fd1e58d4461b940d9952a76bbb0a99ce0d",
+    "resource_sha256": "3643bd914d23e74187a65c8070aa4437b1476d79e8ba084efae9fd4fab47775a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/asyncparticles.pw.toml": {
+    "resource": "images/catalog-c3onkd5k.png",
+    "source_url": "https://cdn.modrinth.com/data/c3onkd5k/5d159d5d5067cee28e5a73709321bebc0e47a265.png",
+    "project_url": "https://modrinth.com/project/c3onkd5k",
+    "project_id": "c3onkd5k",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "d74fcc5bddb00e3efa9adba12a4db02bf730928806dad9cb77567b54f1bffb97",
+    "resource_sha256": "64a79eac9f28a7f2d97fefc346cf667d7604881a7ece1fd898a79760010196d7",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/athena-ctm.pw.toml": {
+    "resource": "images/catalog-b1ZV3DIJ.png",
+    "source_url": "https://cdn.modrinth.com/data/b1ZV3DIJ/3dec7dd828894a4c5c6d98eaf960e9a418647b55_96.webp",
+    "project_url": "https://modrinth.com/project/b1ZV3DIJ",
+    "project_id": "b1ZV3DIJ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "aa757cba78ea9afc121fb21cc6272ed34463d68d8fbe3f4abb36e53930215411",
+    "resource_sha256": "f61320dec0b3f77223bba9351a2742a154c14e6c9396dd9dd04314c6b0049758",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/attributefix.pw.toml": {
+    "resource": "images/catalog-lOOpEntO.png",
+    "source_url": "https://cdn.modrinth.com/data/lOOpEntO/68a2de475417c87817e11f49beaa903e4774ca20_96.webp",
+    "project_url": "https://modrinth.com/project/lOOpEntO",
+    "project_id": "lOOpEntO",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-2.1-only",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "url": null
+    },
+    "original_sha256": "b1d7a1ebb53412edc2e65d77e0f20ab7ba2a2eed5bef86f0ab9d91e8022cfe10",
+    "resource_sha256": "0f32c9f54581302af649e5b4a0ad857cdfaabd4658917cfdb8d12ab19754ef0c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/baguettelib.pw.toml": {
+    "resource": "images/catalog-OfKzpbRU.png",
+    "source_url": "https://cdn.modrinth.com/data/OfKzpbRU/d007c3afd229b8e796f41174ceacd7c8f0f436cc_96.webp",
+    "project_url": "https://modrinth.com/project/OfKzpbRU",
+    "project_id": "OfKzpbRU",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "ab383cce1f70b5a8847180dc4984abecd465b43c1574a42f864365a0980c9c3c",
+    "resource_sha256": "0e25703b9a35b0ab990420dae56d3dc56b71bbb1fe0da10a6bae78828f225c87",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  "mods/balm.pw.toml": {
+    "resource": "images/catalog-MBAkmtvl.png",
+    "source_url": "https://cdn.modrinth.com/data/MBAkmtvl/285b7bcfd6e525c043e640b08f3efc0cde90f7dd_96.webp",
+    "project_url": "https://modrinth.com/project/MBAkmtvl",
+    "project_id": "MBAkmtvl",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://mods.twelveiterations.com/permissions"
+    },
+    "original_sha256": "1a41f9d4985d3b7fb8bb0f1c479246e6263a40fd4e5765a949ffad10c6f6f9d4",
+    "resource_sha256": "7a37cc4a9fc8f83a3cc42f6a3260e2495590b5719f2caf12b18f0f275c3f3bef",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/bard-more-rpg-classes.pw.toml": {
+    "resource": "images/catalog-kL7Bjgmw.png",
+    "source_url": "https://cdn.modrinth.com/data/kL7Bjgmw/4477330d02e77a4c3971989dd7b860d9fb3f9777_96.webp",
+    "project_url": "https://modrinth.com/project/kL7Bjgmw",
+    "project_id": "kL7Bjgmw",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "41172a36b774a35b7fd5a6047a087f48b1eeba4f27a1cadeaeead62a35ac52e1",
+    "resource_sha256": "6fc99b47b78de81282916d0954a745a208a89b918879629e5117925d0f86e7a0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/bbrb.pw.toml": {
+    "resource": "images/catalog-Xh8hkQmD.png",
+    "source_url": "https://cdn.modrinth.com/data/Xh8hkQmD/83bbb48fd905dceeac6b781017c7dbd35a6bf957_96.webp",
+    "project_url": "https://modrinth.com/project/Xh8hkQmD",
+    "project_id": "Xh8hkQmD",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "a5f0dd9b43c1e82b81f2b34fb5269ad0a9837aac4c6b076f2de2906e45e7ec32",
+    "resource_sha256": "3a0a66edc6ab494c30c3b49a8b882d90fdedf15a7845dea2db84640e4348bc7d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/beautify-refoxed.pw.toml": {
+    "resource": "images/catalog-ZQCyyWBM.png",
+    "source_url": "https://cdn.modrinth.com/data/ZQCyyWBM/c13d3f6a8ea281ecea904e10daa7d4de7147c22c.png",
+    "project_url": "https://modrinth.com/project/ZQCyyWBM",
+    "project_id": "ZQCyyWBM",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "994a3d0d5fb14656b185d0d71e92fcc6722a686e78a94a11d16a8e6834b52614",
+    "resource_sha256": "6c2383484a918eb9be20225111a8b96ef6a390719f310d3acbaf1e5a70036dbb",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/bellsandwhistles.pw.toml": {
+    "resource": "images/catalog-gJ5afkVv.png",
+    "source_url": "https://cdn.modrinth.com/data/gJ5afkVv/56ec1e3caca241855a19b65ad391aa20a79259f5_96.webp",
+    "project_url": "https://modrinth.com/project/gJ5afkVv",
+    "project_id": "gJ5afkVv",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "66c322a8b7a75e4489edd5d7dc6c3a9b1f041848d915ec38fd8b3baa5c2a9d91",
+    "resource_sha256": "1393b95669e7e538043d52a96001b7be2dafdb2b7b5d5d95ba2d59461c21c7d0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/berserker-rpg-class.pw.toml": {
+    "resource": "images/catalog-8hqOZzxM.png",
+    "source_url": "https://cdn.modrinth.com/data/8hqOZzxM/24ee2067fb65321dd26c1bc86ac1cf38c4d6d2b9_96.webp",
+    "project_url": "https://modrinth.com/project/8hqOZzxM",
+    "project_id": "8hqOZzxM",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Custom-License",
+      "name": "",
+      "url": "https://github.com/ProfessorFichte/Berserker/blob/1.21.1/LICENSE"
+    },
+    "original_sha256": "fadcbd65c90ba2e6ec9909ccc4915458007ce056457a7b1991bab01196ba0fa0",
+    "resource_sha256": "c8009deb9dd073c23b50d52931d989b6432e2458246fe575cc278b0139509b2f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/better-combat.pw.toml": {
+    "resource": "images/catalog-5sy6g3kz.png",
+    "source_url": "https://cdn.modrinth.com/data/5sy6g3kz/4d59a2a1ddd25f977b39c89e391edc4cdc7c71ba_96.webp",
+    "project_url": "https://modrinth.com/project/5sy6g3kz",
+    "project_id": "5sy6g3kz",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "f31fafb179af022c2596f36ed96be48c1dc54431b68fd5fd0767661e57368d47",
+    "resource_sha256": "0ee708033ccf131bd426a1cc74bc7ea9aa1cfcb8574d99ad72c52615a92cf7fc",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/better-modlist.pw.toml": {
+    "resource": "images/catalog-sbpqhzIG.png",
+    "source_url": "https://cdn.modrinth.com/data/sbpqhzIG/b60d32326b6cd09159b9a67d470ec4310527d9e6_96.webp",
+    "project_url": "https://modrinth.com/project/sbpqhzIG",
+    "project_id": "sbpqhzIG",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8938ef9a335d9bdf930926bf605f90e7526dbd05176a0dcce47503161551efc9",
+    "resource_sha256": "667b2da3b3b070d7228b5692109959ff5196b2101da4e788a358fd670d3d674f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/betterdays.pw.toml": {
+    "resource": "images/catalog-tPLE214j.png",
+    "source_url": "https://cdn.modrinth.com/data/tPLE214j/a808b6d89eddc9acc0f9c99c67f47643502afa34_96.webp",
+    "project_url": "https://modrinth.com/project/tPLE214j",
+    "project_id": "tPLE214j",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": "https://github.com/wendall911/BetterDays/blob/1.19.2/LICENSE"
+    },
+    "original_sha256": "d7f88b42e896112e8ac94e27a05e30d6fbba353ebd8cd9bb532c54e357532148",
+    "resource_sha256": "4f8a15d42872fbe1242e894fe97a90f381a4bae77850b0af3edc4f5fe67b573b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/betterf3.pw.toml": {
+    "resource": "images/catalog-8shC1gFX.png",
+    "source_url": "https://cdn.modrinth.com/data/8shC1gFX/icon.png",
+    "project_url": "https://modrinth.com/project/8shC1gFX",
+    "project_id": "8shC1gFX",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "4d734edba83a40d4293efdebfe9e6f440e2d68b018f1f907a8052b9dc5c3ca87",
+    "resource_sha256": "8aeb087793a2437c9b8bc1921d55347c30e4e021bc34b2e8d64e90d3081ac593",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  "mods/bigsignwriter.pw.toml": {
+    "resource": "images/catalog-UCpxwAAu.png",
+    "source_url": "https://cdn.modrinth.com/data/UCpxwAAu/f2e874b7eac4d6fd990612688e7f857df3bfb3af_96.webp",
+    "project_url": "https://modrinth.com/project/UCpxwAAu",
+    "project_id": "UCpxwAAu",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "2f4678cfe70381f2167565667ac09c0f8e1c00ce9fde97ae9bf420a9f5a33710",
+    "resource_sha256": "e259853939dc37ac54d0f48f52d954ed2a0673560dc49b5a77c101e6b25f4460",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/blocks-bogies.pw.toml": {
+    "resource": "images/catalog-j4ARnQwY.png",
+    "source_url": "https://cdn.modrinth.com/data/j4ARnQwY/e727df07d9036cc08a12342901b4364b741df8c2_96.webp",
+    "project_url": "https://modrinth.com/project/j4ARnQwY",
+    "project_id": "j4ARnQwY",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "5d261bbcc4d20bc35e0d7f4e2d5949a378c176b1ec99732bae0ef113c11ac60a",
+    "resource_sha256": "f40c26f4ec102ea5733ace682726c4195929d6cbf2c3e782956dd0dc2620cb8f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/bookshelf-lib.pw.toml": {
+    "resource": "images/catalog-uy4Cnpcm.png",
+    "source_url": "https://cdn.modrinth.com/data/uy4Cnpcm/002e73d916fb63c9c85e212ac47fde4ef9c4a65f.png",
+    "project_url": "https://modrinth.com/project/uy4Cnpcm",
+    "project_id": "uy4Cnpcm",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-2.1-only",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "url": null
+    },
+    "original_sha256": "f2e36a799b7a7d6696c117727a2afe0cbd22c5548402719e0dc8a4c9b26c3c51",
+    "resource_sha256": "2120522c96462e2c20bf2da8cdb98fe02c8d941f7ed159017ffd7bdb87c7e060",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/bossesrise.pw.toml": {
+    "resource": "images/catalog-q2bV1Tm1.png",
+    "source_url": "https://cdn.modrinth.com/data/q2bV1Tm1/41d0f94487ef4a65de01026a13cc0932a7daf56f_96.webp",
+    "project_url": "https://modrinth.com/project/q2bV1Tm1",
+    "project_id": "q2bV1Tm1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "fa1576a94aa2b909beb3b1b3b4a964a0248dec770cd1b6f1a8c078be63996ef7",
+    "resource_sha256": "bb816cbeda7b59a35fe0ca892ae8336900efce262d8f45158d55ac539191b8fe",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/bundle-api.pw.toml": {
+    "resource": "images/catalog-n8QN6Z1a.png",
+    "source_url": "https://cdn.modrinth.com/data/n8QN6Z1a/2a66ccc6b5b3e58c1484a411660b81590f356980_96.webp",
+    "project_url": "https://modrinth.com/project/n8QN6Z1a",
+    "project_id": "n8QN6Z1a",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "424ebc5f454f030b1c95f4ca1327b8f4f4cd008751c8a1801f204f650435c53c",
+    "resource_sha256": "29deba86704ec20ae082d5bd3084373894ae414a3437556cfe7c0454597c9c9a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/c2me-neoforge.pw.toml": {
+    "resource": "images/catalog-COlSi5iR.png",
+    "source_url": "https://cdn.modrinth.com/data/COlSi5iR/3c2ce471054466712a44c8758a03e03bb868f93b_96.webp",
+    "project_url": "https://modrinth.com/project/COlSi5iR",
+    "project_id": "COlSi5iR",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "6a10b558646849e6cf09e5b65085c92bdf2f4baf3a205f749c35d43eb1197f66",
+    "resource_sha256": "259df6b4d4d587fa90fceb8ed2c3eca0da94b45629764e66a811a15fc1971e12",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/carry-on.pw.toml": {
+    "resource": "images/catalog-joEfVgkn.png",
+    "source_url": "https://cdn.modrinth.com/data/joEfVgkn/d7750a532cd45c9020bf4d07f304191de6e98c19_96.webp",
+    "project_url": "https://modrinth.com/project/joEfVgkn",
+    "project_id": "joEfVgkn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "ba549300995495c663b543655e540e16064839e3b26d2be3c5dc027618357dab",
+    "resource_sha256": "3dd035b04a8d8cb0b2903f89f64941a663ed4eb13bf0d943ae1b6c28ed4c072e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/chipped-express.pw.toml": {
+    "resource": "images/catalog-dQIcJONI.png",
+    "source_url": "https://cdn.modrinth.com/data/dQIcJONI/aac48ffc6135d2184914dc8c97f897bf09025c0f.gif",
+    "project_url": "https://modrinth.com/project/dQIcJONI",
+    "project_id": "dQIcJONI",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "b4b532c480f54f3fcf36dbdbd477432f7409b218c7a152088dc3f14a31d171e4",
+    "resource_sha256": "5203972232a8a95a19ddc7753d0480092e7dc080f0e55e7d09ef976702fdc713",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/chipped.pw.toml": {
+    "resource": "images/catalog-BAscRYKm.png",
+    "source_url": "https://cdn.modrinth.com/data/BAscRYKm/4faa514b4824672a0877d026bcd5a94bc8aad985_96.webp",
+    "project_url": "https://modrinth.com/project/BAscRYKm",
+    "project_id": "BAscRYKm",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "bd81f496a247c833ec7e5d6f0f26cb8d491f1adfb70a9f3ae6b4c76d977212bf",
+    "resource_sha256": "5549c161d4e1eaebfc2682657a08db561934cc2b198d9bcfc6757348c364ca60",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  "mods/chunky.pw.toml": {
+    "resource": "images/catalog-fALzjamp.png",
+    "source_url": "https://cdn.modrinth.com/data/fALzjamp/e1954413665e57b7bae1feef44eda530270c7d47_96.webp",
+    "project_url": "https://modrinth.com/project/fALzjamp",
+    "project_id": "fALzjamp",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "8e6443442ebbdd7c6a68b9b63adb29de12d57b1eb91fab5bd48f806bca6a65e6",
+    "resource_sha256": "40d904943c300de0bcbd3b553e2427062dc3aa78b4707c0497afc9099d30d1a6",
+    "dimensions": [
+      96,
+      92
+    ]
+  },
+  "mods/cloth-config.pw.toml": {
+    "resource": "images/catalog-9s6osm5g.png",
+    "source_url": "https://cdn.modrinth.com/data/9s6osm5g/ed8a2316cbb6f4fc5f510e8e13a59a85cbbbff4d_96.webp",
+    "project_url": "https://modrinth.com/project/9s6osm5g",
+    "project_id": "9s6osm5g",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "eb22adfb84f343128cb498140bf0274565015663711aaacafebf42fae77d213b",
+    "resource_sha256": "377af16a01eca3991484683b93e718df5be4e5e70a77ea17238d3eb0a3f64a23",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/clumps.pw.toml": {
+    "resource": "images/catalog-Wnxd13zP.png",
+    "source_url": "https://cdn.modrinth.com/data/Wnxd13zP/6a965bb7974c3e759a53a1c89c35de4acd4cf86a_96.webp",
+    "project_url": "https://modrinth.com/project/Wnxd13zP",
+    "project_id": "Wnxd13zP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "897a8d92cc637274222809f9ff5564c61a737c52501d976305e7eb68af34e394",
+    "resource_sha256": "34290683640e108e3fcb3e54f15ded1b3382c7e3f548bf4a9d5046fe6eda5e3a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/collective.pw.toml": {
+    "resource": "images/catalog-e0M1UDsY.png",
+    "source_url": "https://cdn.modrinth.com/data/e0M1UDsY/f5e4fe9ac298e2c14591920d6bda937c566accd0_96.webp",
+    "project_url": "https://modrinth.com/project/e0M1UDsY",
+    "project_id": "e0M1UDsY",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "1f2a7b8aefb463f5fc4fa208b15c33b06a9cceaa75c86ed5fd5c4c9c6821aa32",
+    "resource_sha256": "e2a6517b3b393952dda0afaf036a7694a49e1eda1f5852cfd0e8d81a6d567ca7",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/combat-roll.pw.toml": {
+    "resource": "images/catalog-wGKYL7st.png",
+    "source_url": "https://cdn.modrinth.com/data/wGKYL7st/0958df960eca663066fa1cd821e75ff9c44ab716_96.webp",
+    "project_url": "https://modrinth.com/project/wGKYL7st",
+    "project_id": "wGKYL7st",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "c3bf03a18f1f794bf67693fed61686a73f365761aa3f802f31506bb872d7e06c",
+    "resource_sha256": "adfa7c5385d2c35f784568e58c011a8f4dd9af7808a33806a976a5010abea7e1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/comforts.pw.toml": {
+    "resource": "images/catalog-SaCpeal4.png",
+    "source_url": "https://cdn.modrinth.com/data/SaCpeal4/ed4840f0c9a30e04ad88413bd82cd762dd6ec95d.png",
+    "project_url": "https://modrinth.com/project/SaCpeal4",
+    "project_id": "SaCpeal4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "ed8fa9d5b0f55c0d377c48aef575cb662771d6890e6834346dc7e95f987a238f",
+    "resource_sha256": "923af14b0f088b78d7702fb1b98c68ebe7feb9f38e25dc4938c52a59571c49b6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/configured-defaults.pw.toml": {
+    "resource": "images/catalog-SISoSFPP.png",
+    "source_url": "https://cdn.modrinth.com/data/SISoSFPP/978124ac801a3082e91ccad13dd6e8fd2d5f599f_96.webp",
+    "project_url": "https://modrinth.com/project/SISoSFPP",
+    "project_id": "SISoSFPP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "e82c7df6eea84e8463e5c0bc0f4bc1fbeba94f1d115d730afa39f81156c2c610",
+    "resource_sha256": "0de7c2aa8af3ae02155bfef2bd1e8571206c081ea981cd6a3ca7a98f73fefb89",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/connector.pw.toml": {
+    "resource": "images/catalog-u58R1TMW.png",
+    "source_url": "https://cdn.modrinth.com/data/u58R1TMW/cc0775e1d038b26b7c91144fe4c5ee3b21d3a6a3_96.webp",
+    "project_url": "https://modrinth.com/project/u58R1TMW",
+    "project_id": "u58R1TMW",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/Sinytra/Connector/blob/master/LICENSE"
+    },
+    "original_sha256": "412e7fbf927fa5ed69c142eef0c9c4b23cfaffaa48e3b47244a5db8d5aff390b",
+    "resource_sha256": "0b9fca5d59f1f430055cc2c6a23785bad98063ef73471d1835b4edbfb2a993a4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/continuity.pw.toml": {
+    "resource": "images/catalog-1IjD5062.png",
+    "source_url": "https://cdn.modrinth.com/data/1IjD5062/icon.png",
+    "project_url": "https://modrinth.com/project/1IjD5062",
+    "project_id": "1IjD5062",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "26616d08894402ab7b1a2a3a9b8e9262c9fa5c4deca56a05014bb087eb1a592e",
+    "resource_sha256": "2439a0785b46e8ce72c5c54711051997623137bcbd0ac79a0dd83a61a735d841",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/controlling.pw.toml": {
+    "resource": "images/catalog-xv94TkTM.png",
+    "source_url": "https://cdn.modrinth.com/data/xv94TkTM/bdb6feb3d04ca37da4ed5aa73fef062a39d8b3e5_96.webp",
+    "project_url": "https://modrinth.com/project/xv94TkTM",
+    "project_id": "xv94TkTM",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "27b51c9e050b67ed0b5bf6a1c6380e8eb106b2f615711d3f302ce41ca56d44a2",
+    "resource_sha256": "0acbac02777a428c8e675775423edcc76a95053ebcc9f782dfbdbdf3700e5ed1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/cool-rain-reforged.pw.toml": {
+    "resource": "images/catalog-IgftU6Mn.png",
+    "source_url": "https://cdn.modrinth.com/data/IgftU6Mn/e6362a84e41d1db70cbd88e61c40ae62af085a31_96.webp",
+    "project_url": "https://modrinth.com/project/IgftU6Mn",
+    "project_id": "IgftU6Mn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "dd3e5d6790ca9e10c64842872ef05524a402e16cbec5bebf281849796da09374",
+    "resource_sha256": "af3bcc2ea2d05e70665df7bb53923adf7d9fbb14ae5fb328880a3c855c45ad18",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/copycats.pw.toml": {
+    "resource": "images/catalog-UT2M39wf.png",
+    "source_url": "https://cdn.modrinth.com/data/UT2M39wf/17960b56556c644249686a22172eda0924f8bbe0_96.webp",
+    "project_url": "https://modrinth.com/project/UT2M39wf",
+    "project_id": "UT2M39wf",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "16bf3fa69d76d3aeca41dce8d269d1e46bafb6bf9791e3ea176de11bbb2a8774",
+    "resource_sha256": "539488759bb4bcedc078246b1500ab4ddef6bceaf4d37eb476a2234aff29f187",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/corpse-x-curios-api-compat.pw.toml": {
+    "resource": "images/catalog-pJGcKPh1.png",
+    "source_url": "https://cdn.modrinth.com/data/pJGcKPh1/5e2a59a14b112aa7814260b71adb09617cc4e4bf_96.webp",
+    "project_url": "https://modrinth.com/project/pJGcKPh1",
+    "project_id": "pJGcKPh1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "c985af3df72c497eb38829540d41c97e726741775d60079071c6c0cb9ea60e43",
+    "resource_sha256": "76f853fc5163b3d27f2ab1f76f4a23100cc226910cbfd0bc8b8ad64ab88f71a9",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/corpse.pw.toml": {
+    "resource": "images/catalog-WrpuIfhw.png",
+    "source_url": "https://cdn.modrinth.com/data/WrpuIfhw/032925a79197e9e23be2c6a07d994b17e3363912.png",
+    "project_url": "https://modrinth.com/project/WrpuIfhw",
+    "project_id": "WrpuIfhw",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "a6e166b31ecaf94d9d697d03cc63b2e6b85e91b96483837617b38f6088bf08d3",
+    "resource_sha256": "a804736d3f949a135acdddf467d8ee9fc67aa6f2bdff3b5074c1ff368bb144e6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-additional-logistics.pw.toml": {
+    "resource": "images/catalog-CZaz7aje.png",
+    "source_url": "https://cdn.modrinth.com/data/CZaz7aje/eaf5aad19df76864e150534da6e69794c65a9c0c_96.webp",
+    "project_url": "https://modrinth.com/project/CZaz7aje",
+    "project_id": "CZaz7aje",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/KhloeLeclair/CreateAdditionalLogistics/blob/main/LICENSE.txt"
+    },
+    "original_sha256": "d093097bb2e03179f58a5acd03f147ae8eb0b834c58f39dd99cdc977cbda5013",
+    "resource_sha256": "4ea610b2e5045bd41ead476feb74738fe029a1eb3631f7179e5e563d443ef3ec",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-aeronautics-encased-fluid-pipes.pw.toml": {
+    "resource": "images/catalog-DdAlVT8M.png",
+    "source_url": "https://cdn.modrinth.com/data/DdAlVT8M/06bdfc1a65d93a5cf71e3a3ff8a6c4a63874dbe6_96.webp",
+    "project_url": "https://modrinth.com/project/DdAlVT8M",
+    "project_id": "DdAlVT8M",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "bdfd1863982bffb4cd9c5808e6ad44bf2659b96ca1cf58abce2bbcdd7020da37",
+    "resource_sha256": "cdd29071acb687ed43b8c4ac684cd403e2e5a6ec9d860ba516a7a5ad2b83dc4f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-aeronautics.pw.toml": {
+    "resource": "images/catalog-oWaK0Q19.png",
+    "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/f66b5589924884ffd81acb27f3ccb775867a962e_96.webp",
+    "project_url": "https://modrinth.com/project/oWaK0Q19",
+    "project_id": "oWaK0Q19",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Simulated-Project-License",
+      "name": "",
+      "url": "https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/main/LICENSE.md"
+    },
+    "original_sha256": "652344c922746ab5b39ff6a35db9f46fadbf24194e63d60a67c5d978cc717354",
+    "resource_sha256": "a30ec17b5ffdfb1d639ebe03d1e39f5bc7be508346989ac748075bd20b0d3dfb",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-aeroworks.pw.toml": {
+    "resource": "images/catalog-P26k79kP.png",
+    "source_url": "https://cdn.modrinth.com/data/P26k79kP/2ca24db2d19baa1569bcb7050a6c4b1376c37682_96.webp",
+    "project_url": "https://modrinth.com/project/P26k79kP",
+    "project_id": "P26k79kP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Create-Aeroworks-License",
+      "name": "",
+      "url": "https://github.com/aeroworks-hangar/aeroworks-license/blob/main/LICENSE.md"
+    },
+    "original_sha256": "e75aaa5f5fadd074b61fb3ccbd2f2ffe3b1f210537c07f5226ac127437a23928",
+    "resource_sha256": "ee1cef0bdae5b33d304aa2bb6dd25a01a85377f3ce742f630408ab266e0df283",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-ballast.pw.toml": {
+    "resource": "images/catalog-5ypXYrfG.png",
+    "source_url": "https://cdn.modrinth.com/data/5ypXYrfG/a159589df7a58390bae58a364a94568e54661819_96.webp",
+    "project_url": "https://modrinth.com/project/5ypXYrfG",
+    "project_id": "5ypXYrfG",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "31bc09ecbffa8761693da1f18bc514809f313e8a6a620dabc72c505699dd7ad0",
+    "resource_sha256": "3416c7d06615d59749a6486baed58c7b32125b6ffd17875662a6fc3a039e5bad",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-big-cannons.pw.toml": {
+    "resource": "images/catalog-GWp4jCJj.png",
+    "source_url": "https://cdn.modrinth.com/data/GWp4jCJj/39d228c7abac7bb782db7d3f203a24beb164455f_96.webp",
+    "project_url": "https://modrinth.com/project/GWp4jCJj",
+    "project_id": "GWp4jCJj",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Create-Big-Cannons-License",
+      "name": "",
+      "url": "https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/0b3e23456f38bac359112d82d6aad1b5430c04d1/LICENSE.md"
+    },
+    "original_sha256": "8a1ffad0317e9cbeb96319664c31d21f7a43564042453aab607c7a5542355973",
+    "resource_sha256": "fa5ab51c2d2b633925f26b4551645dfc17882bcf5bc393e4a6bc103eb17d893a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-bits-n-bobs.pw.toml": {
+    "resource": "images/catalog-T8bvmqVZ.png",
+    "source_url": "https://cdn.modrinth.com/data/T8bvmqVZ/f7f35471f0a411deb04f91158254e8177be332b7_96.webp",
+    "project_url": "https://modrinth.com/project/T8bvmqVZ",
+    "project_id": "T8bvmqVZ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "7968980756f897cef956e955d57d1487937968ccfa586faf2482aa4d1f9690db",
+    "resource_sha256": "196d7d3177d60e52cd74c1a2aa6d5dfdd4f0500a7fa316e1a9f62969a165666f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-central-kitchen.pw.toml": {
+    "resource": "images/create-central-kitchen-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/btq68HMO/d5c04195d567b0d7314bfadd993eb1ba44dd9c38_96.webp",
+    "project_url": "https://modrinth.com/project/btq68HMO",
+    "project_id": "btq68HMO",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "8f2d9bc1ddc32553ca2e2dd7a57f0c23ffd30a627624706bade7f47f4c3f177e"
+  },
+  "mods/create-connected.pw.toml": {
+    "resource": "images/create-connected-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/Vg5TIO6d/2e69151b9664c7f03f0568c5fdf1d44aa98db452_96.webp",
+    "project_url": "https://modrinth.com/project/Vg5TIO6d",
+    "project_id": "Vg5TIO6d",
+    "kind": "publisher icon",
+    "license": {
+      "id": "AGPL-3.0-or-later",
+      "name": "GNU Affero General Public License v3.0 or later",
+      "url": "https://github.com/hlysine/create_connected/blob/main/LICENSE"
+    },
+    "original_sha256": "74a81e962e0385ee40b2660f37ec01ec9073e8940699b17e56c95a2597584888"
+  },
+  "mods/create-deco.pw.toml": {
+    "resource": "images/catalog-sMvUb4Rb.png",
+    "source_url": "https://cdn.modrinth.com/data/sMvUb4Rb/b60e1330b10bd1d7b1f2c0b7337a25f73b0eb555_96.webp",
+    "project_url": "https://modrinth.com/project/sMvUb4Rb",
+    "project_id": "sMvUb4Rb",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "7500bfa553aaacc253b5030490caf8daa1925afb257a0bc45f726c4d64170780",
+    "resource_sha256": "cd6155fb0f77b0a90701d4752cd3344053bdcbb48cea44391fd11f4788a95887",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-deep-seas.pw.toml": {
+    "resource": "images/catalog-mva5q4qZ.png",
+    "source_url": "https://cdn.modrinth.com/data/mva5q4qZ/f165f28003c4dfe2b3d0a1d98592d197832757a5_96.webp",
+    "project_url": "https://modrinth.com/project/mva5q4qZ",
+    "project_id": "mva5q4qZ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "18d89610eb5e0829323e6d444a20496f2667cc377e3b5a94858d7d51c7370fc8",
+    "resource_sha256": "cd092a37eb803b6013d96b7878fadb8673d7b1da733dfd25751f821b3b55659a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-design-n-decor.pw.toml": {
+    "resource": "images/catalog-x49wilh8.png",
+    "source_url": "https://cdn.modrinth.com/data/x49wilh8/c52e15692d7911bd7a74413ca97d4e98ece0cefb_96.webp",
+    "project_url": "https://modrinth.com/project/x49wilh8",
+    "project_id": "x49wilh8",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-MIT-Code-AND-ARR-Art",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "73fb9f54c47813d1ae13d3e14c3312df93f9c6b44c0d969dbfaeb351165b49e5",
+    "resource_sha256": "e510b8a610e011f88a3f34b44597149808d3f2911d8ae2a18ab1a9430aab1afc",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-dragons-plus.pw.toml": {
+    "resource": "images/catalog-dzb1a5WV.png",
+    "source_url": "https://cdn.modrinth.com/data/dzb1a5WV/b31b508ca740a1f8eadc18c753190f2605cb6651_96.webp",
+    "project_url": "https://modrinth.com/project/dzb1a5WV",
+    "project_id": "dzb1a5WV",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "070d5d65a820b24da289bc1384db40a36ead79798af0ec6ae636ceb425d9ac8a",
+    "resource_sha256": "aa8c10901557c8524a88c9e79eb76b005cc4b6646fd3d397d4eb069a294d3d07",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-electro-energetics.pw.toml": {
+    "resource": "images/create-electro-energetics-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/qYJdIoAx/2afc143d45e36e7adb76a963083fba0d516b8461_96.webp",
+    "project_url": "https://modrinth.com/project/qYJdIoAx",
+    "project_id": "qYJdIoAx",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "6945007be0381149357c0ab86a59cdaa83327d67fef84f7294b13a5ddfada129"
+  },
+  "mods/create-emf-compat-skyhook.pw.toml": {
+    "resource": "images/catalog-J9McOdzy.png",
+    "source_url": "https://cdn.modrinth.com/data/J9McOdzy/1191f950280ef450d4d496d80d1731a68bd45ecf_96.webp",
+    "project_url": "https://modrinth.com/project/J9McOdzy",
+    "project_id": "J9McOdzy",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "f9f55f5c0e1ef09574b2463b7c2b975ebe1ef7b21c11e404adc9f3d4f82488d1",
+    "resource_sha256": "f742b79d572af8f33f36944470d443fdb0927bf1910a84f6806d82e30ac29a80",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-encased.pw.toml": {
+    "resource": "images/catalog-hSSqdyU1.png",
+    "source_url": "https://cdn.modrinth.com/data/hSSqdyU1/e7229e03d0795915092cdab361ee4406e0b27153_96.webp",
+    "project_url": "https://modrinth.com/project/hSSqdyU1",
+    "project_id": "hSSqdyU1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/iglee42/CreateCasing/blob/1.20.1/main/LICENSE"
+    },
+    "original_sha256": "3cf6d5f9e78876f4ba606eae85a80739d4f5bc5124454dfbf271fbc8c85d93ca",
+    "resource_sha256": "6d9149480006427d8cc1d8049406d810b8a786f031050ae5e4385d254c1e62e0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-enchantment-industry.pw.toml": {
+    "resource": "images/create-enchantment-industry-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/JWGBpFUP/9571cd419c5eee9f2017f0b6f7cf6e81c665723b_96.webp",
+    "project_url": "https://modrinth.com/project/JWGBpFUP",
+    "project_id": "JWGBpFUP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "5da64bf4b1e10e4976dc513d44a297e5ae2bdb1122655f45979309e36a2feebb"
+  },
+  "mods/create-framed.pw.toml": {
+    "resource": "images/catalog-15fFZ3f4.png",
+    "source_url": "https://cdn.modrinth.com/data/15fFZ3f4/a74ff994ba01da0df3ac9f751bd4c27b11708233_96.webp",
+    "project_url": "https://modrinth.com/project/15fFZ3f4",
+    "project_id": "15fFZ3f4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "94f7a9011353ab126fbfd6e52de1e761d6ac7dc2fcf161863213b14d88a0bd9d",
+    "resource_sha256": "5dcd296652c893097008679402e520c486e0930a4defb96f87489204ce79855d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-integrated-farming.pw.toml": {
+    "resource": "images/catalog-9k1pAsfR.png",
+    "source_url": "https://cdn.modrinth.com/data/9k1pAsfR/904e6311ef61f595854d872a7248a43fcbc9140d_96.webp",
+    "project_url": "https://modrinth.com/project/9k1pAsfR",
+    "project_id": "9k1pAsfR",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": "https://github.com/DragonsPlusMinecraft/CreateIntegratedFarming/blob/main/LICENSE.txt"
+    },
+    "original_sha256": "410433d2aaf7ddc3918a8f943547d99133a20f82a0f13d155f51a890111af35e",
+    "resource_sha256": "2d63002e3b1b0e109c462007e4af8184b65502f9beef7faf940312ae98fe605e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-liquid-fuel.pw.toml": {
+    "resource": "images/create-liquid-fuel-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/sH9tXU9f/ce091b34acb542debae4a075ec4c1cec31e083f9_96.webp",
+    "project_url": "https://modrinth.com/project/sH9tXU9f",
+    "project_id": "sH9tXU9f",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "d3fdafddc5ebc635e64fad2310dd53b72bc0b22a3c8a9eb735af5b6b46b083a2"
+  },
+  "mods/create-molten-vents.pw.toml": {
+    "resource": "images/create-molten-vents-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/uuVy6k1s/a95ed1753aaf0c3841723e2fc6a318d2d35a8b69_96.webp",
+    "project_url": "https://modrinth.com/project/uuVy6k1s",
+    "project_id": "uuVy6k1s",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "32565968320edfe55ba717f0b9b7aa1ad8a6cdc4be1b2e0ab09be4ac8f4d8934"
+  },
+  "mods/create-more-girder.pw.toml": {
+    "resource": "images/catalog-sPg2LVAd.png",
+    "source_url": "https://cdn.modrinth.com/data/sPg2LVAd/d31dd79a0a81470617e07f3ff48858214f809881_96.webp",
+    "project_url": "https://modrinth.com/project/sPg2LVAd",
+    "project_id": "sPg2LVAd",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "509473e755eccb9cd7e5dc7251d3789016be29d7dd8d6ea4fc6f20ffa2296475",
+    "resource_sha256": "36408436d3f80579b32b25d50a0f2f50321d4cb1e286c2e845614e1e7a7c7d04",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-pattern-schematics.pw.toml": {
+    "resource": "images/catalog-cpqKG67r.png",
+    "source_url": "https://cdn.modrinth.com/data/cpqKG67r/31f1d6d6ea7036ef303af5b401944c94c38045de_96.webp",
+    "project_url": "https://modrinth.com/project/cpqKG67r",
+    "project_id": "cpqKG67r",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "f82dcb9ea6d0fe6e64454b7a66f67f8ad4c607a1e61b64473c657e80c48a60e2",
+    "resource_sha256": "923ea8be12ba0314a29ce11b4de38085faddfa4bf690384607e06db06b799e1e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-prismatic-shine.pw.toml": {
+    "resource": "images/catalog-udEtt0b2.png",
+    "source_url": "https://cdn.modrinth.com/data/udEtt0b2/8e7b38e2717be23c3b92237d6243cd25dcff0db4_96.webp",
+    "project_url": "https://modrinth.com/project/udEtt0b2",
+    "project_id": "udEtt0b2",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "46d78d435e5dedcda5d0925dc8ca63c4ecdb432c86b609fd7b0d7e1b77bdf49d",
+    "resource_sha256": "c278fdd39d17aa1b924a30e41c0016279e38fb110525af4da6c659879ddecd73",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-propulsion-simulated.pw.toml": {
+    "resource": "images/catalog-ApkoHNO9.png",
+    "source_url": "https://cdn.modrinth.com/data/ApkoHNO9/3db5f942d7d2b02a157ec62e9cbfb24a2d9d1f30_96.webp",
+    "project_url": "https://modrinth.com/project/ApkoHNO9",
+    "project_id": "ApkoHNO9",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "ee8c4985856c4c5400aede77b0e66d068ec2bf192890abbc61a23ec005e83d92",
+    "resource_sha256": "b9c3337b5efb5515e3066fee1d9727e693b739b6f5d749680ba1518ce3b9a48d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-radars.pw.toml": {
+    "resource": "images/catalog-BLu2Yqfq.png",
+    "source_url": "https://cdn.modrinth.com/data/BLu2Yqfq/d2e206a0bbee73647a9ebf99607abbae5a8960c7_96.webp",
+    "project_url": "https://modrinth.com/project/BLu2Yqfq",
+    "project_id": "BLu2Yqfq",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Arsenalists-of-Create-Source-Available-License",
+      "name": "",
+      "url": "https://github.com/Arsenalists-of-Create/Create-Radar/blob/master/LICENSE"
+    },
+    "original_sha256": "7064f7524bc9a8cdd82a04ca15d0246c855b234f6652976476d1fd8a442bc1f1",
+    "resource_sha256": "5579a983d64ae341b99202bf4ce2bbbc391550d440c6354db2d3a027fc647e21",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-railways-navigator.pw.toml": {
+    "resource": "images/catalog-Dq3STxps.png",
+    "source_url": "https://cdn.modrinth.com/data/Dq3STxps/10e1b3796f2fcf5b70bb77110e68b59c750310ac_96.webp",
+    "project_url": "https://modrinth.com/project/Dq3STxps",
+    "project_id": "Dq3STxps",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "e91e9320c25310a2ff175dce471029ed0b19178382da6119ce6c74f5f24d0f14",
+    "resource_sha256": "541972749a98e0540dd11d3323cdbecef89e08c52f30e31294aad44829d4896a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-shuffle-filter.pw.toml": {
+    "resource": "images/catalog-gv5RRavC.png",
+    "source_url": "https://cdn.modrinth.com/data/gv5RRavC/6addfe9f66010b7b44ff8f94b04f113fa3797e1d_96.webp",
+    "project_url": "https://modrinth.com/project/gv5RRavC",
+    "project_id": "gv5RRavC",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "70bc41491797fee96b3a517ec17c240b6327cb99c0b7b851786220cd15b315b5",
+    "resource_sha256": "a6b2bab3b745054222ce73f0af377a5285fe677dfd7bd6007b2236388f890520",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-springs.pw.toml": {
+    "resource": "images/create-springs-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/wDCqub60/a812e7638e7906d03f8f5ef3c8159ef83d3311e8_96.webp",
+    "project_url": "https://modrinth.com/project/wDCqub60",
+    "project_id": "wDCqub60",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "91847bbd466e588fd6d24dec61ad064f520b766c2ff38a90d0d35ff1ec5a5df6"
+  },
+  "mods/create-stam1o-tweaks.pw.toml": {
+    "resource": "images/catalog-46RgF8H2.png",
+    "source_url": "https://cdn.modrinth.com/data/46RgF8H2/44014fe0c55d4ad57235372de4dc9149175e3ac0_96.webp",
+    "project_url": "https://modrinth.com/project/46RgF8H2",
+    "project_id": "46RgF8H2",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "0e685d90b153b8f17b4d34b032bfd58d5a6154fbc2ab0f5db66f7b28ec8f663e",
+    "resource_sha256": "46c162e3796fe17302b03cdff7285addeaee0b7e7b5ef18b56b5bebb26292514",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-steam-n-rails-1.21.1.pw.toml": {
+    "resource": "images/catalog-L3Jv0QZI.png",
+    "source_url": "https://cdn.modrinth.com/data/L3Jv0QZI/179182a054901029eecf4ec5b15d414ed5bfddc6_96.webp",
+    "project_url": "https://modrinth.com/project/L3Jv0QZI",
+    "project_id": "L3Jv0QZI",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "17670bb9a2a12f94c2a710f4fb0eaee3807a6ff1f5fd0a61a2fc380812ef396e",
+    "resource_sha256": "8a15a1e25c2e6d8822f57466e9c7eb2952851026f64cc94dd1d2f60f8e470555",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-stuff-additions.pw.toml": {
+    "resource": "images/catalog-aq9qUUQG.png",
+    "source_url": "https://cdn.modrinth.com/data/aq9qUUQG/5bdb5c6598670bae17d6295757066d43c7364d61_96.webp",
+    "project_url": "https://modrinth.com/project/aq9qUUQG",
+    "project_id": "aq9qUUQG",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "d21a9fdce1736befd93526c12f679e16cc0c6a30ff9c616b9452332729ad73d4",
+    "resource_sha256": "da681c42bc842c7a92c56ba3a839c7c84b43ae156075c56f2fa3d918a7201c24",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-trading-floor.pw.toml": {
+    "resource": "images/create-trading-floor-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/WROfLLvn/4573807702d15fb8529af62a393c85fd5b62b486_96.webp",
+    "project_url": "https://modrinth.com/project/WROfLLvn",
+    "project_id": "WROfLLvn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "ba7ad508783f386c5bc18aaa30a6c6be15c9469caf642f8330c2683f3a814e25"
+  },
+  "mods/create-tweaked-controllers.pw.toml": {
+    "resource": "images/catalog-H6bJ8Ju4.png",
+    "source_url": "https://cdn.modrinth.com/data/H6bJ8Ju4/4be0c8e0ca42f40e51e13ce4ec2d0640d2beaa70_96.webp",
+    "project_url": "https://modrinth.com/project/H6bJ8Ju4",
+    "project_id": "H6bJ8Ju4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "c62d5d595dd0912cd345f0a6858ff156b4de1019bb6666cd92635b26597bfae4",
+    "resource_sha256": "070f5f83a0a0e0c173cdfaaf0cc2cabb19d54864c62720ad70b082f5381f1fe9",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-vibrant-vaults.pw.toml": {
+    "resource": "images/catalog-hddN8ksR.png",
+    "source_url": "https://cdn.modrinth.com/data/hddN8ksR/105d3ab0a1f101ba6b34685501d6df6bb4ab5fa4_96.webp",
+    "project_url": "https://modrinth.com/project/hddN8ksR",
+    "project_id": "hddN8ksR",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/ZLT9/create-vibrant-vaults/blob/master/LICENSE"
+    },
+    "original_sha256": "1d1e3ae732c4dddf9b604162c51ccede8cc02e9e50ac3061c376a07547ff6534",
+    "resource_sha256": "2446e68acc1c596e88cd2ca2713ee8ee39e41a9840b25a62a4eea27b2a9d50f9",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-waystones-recipes.pw.toml": {
+    "resource": "images/catalog-wQpKGqNJ.png",
+    "source_url": "https://cdn.modrinth.com/data/wQpKGqNJ/bd7daa6946af59e7dfb95aae6f3ace98b78570fd_96.webp",
+    "project_url": "https://modrinth.com/project/wQpKGqNJ",
+    "project_id": "wQpKGqNJ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "aa7ac00ddd2c699d6655debabd0a16285bdb7b9397dbca423a4468bd5b4a3969",
+    "resource_sha256": "5d979d7e8dfec1ef6a45783a6ce3716d329b8a2e45a6f592e585b8c69a4773a0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create.pw.toml": {
+    "resource": "images/create-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/LNytGWDc/61d716699bcf1ec42ed4926a9e1c7311be6087e2_96.webp",
+    "project_url": "https://modrinth.com/project/LNytGWDc",
+    "project_id": "LNytGWDc",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Create-Mod-License",
+      "name": "",
+      "url": "https://github.com/Creators-of-Create/Create/blob/HEAD/LICENSE.md"
+    },
+    "original_sha256": "7f896d09714143de40d14725358ce3bf6861459dfb5a7820b6db398733ec7306"
+  },
+  "mods/create_oxidized.pw.toml": {
+    "resource": "images/catalog-X9kjRZeX.png",
+    "source_url": "https://cdn.modrinth.com/data/X9kjRZeX/7372ab0b418331c1c08d5387ec636ecf955ee37c_96.webp",
+    "project_url": "https://modrinth.com/project/X9kjRZeX",
+    "project_id": "X9kjRZeX",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "4bbd0024ef6d85a0af16d299d84a07b51522cd8ba16fff4f9a54e5a5caab62c1",
+    "resource_sha256": "85a753c67292f6550b62c1ed24b02475e712b7916fd23dfe3fce3e86b8234d6a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/createbetterfps.pw.toml": {
+    "resource": "images/catalog-lMYIHZNH.png",
+    "source_url": "https://cdn.modrinth.com/data/lMYIHZNH/4f72dc6090f7cc20ebe314103151f86101bf4691_96.webp",
+    "project_url": "https://modrinth.com/project/lMYIHZNH",
+    "project_id": "lMYIHZNH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "c09a682ea08fdf1a569becf0d5e81a0b060b1720b3e20bfeecc28e1af3d03ad6",
+    "resource_sha256": "00a2cdd47a0995f1f9331a4c2a1881b4e854a2c6d7619f50edfd9e6cc94a7e92",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/createlazytick.pw.toml": {
+    "resource": "images/catalog-Z0d7hFh4.png",
+    "source_url": "https://cdn.modrinth.com/data/Z0d7hFh4/376da0269331a8a612ef49ec264021fcea2b46d3_96.webp",
+    "project_url": "https://modrinth.com/project/Z0d7hFh4",
+    "project_id": "Z0d7hFh4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-PolyForm-Noncommercial-License-1.0.0",
+      "name": "",
+      "url": "https://github.com/duckgun13476/Create-LazyTick/blob/1.20.1-6.0.x-forge/LICENSE"
+    },
+    "original_sha256": "080b2d85f9f6ea0dc4c9c4994e56e8c38804ad4bfd724840500ba5adefabe6a7",
+    "resource_sha256": "6cb7d89cef666c540712f70094e712950620c98358c605ab183a463e64a1f73b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/creativecore.pw.toml": {
+    "resource": "images/catalog-OsZiaDHq.png",
+    "source_url": "https://cdn.modrinth.com/data/OsZiaDHq/4953ecd3c0c8b185b2a56d64cdb104b03f3e5038_96.webp",
+    "project_url": "https://modrinth.com/project/OsZiaDHq",
+    "project_id": "OsZiaDHq",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "8cca17f23151c423088b2ccf38f344ef84f7366e831824d58d44bbc02ab47d2b",
+    "resource_sha256": "3d7b2c77de6f47d9be2ee0abf013a361265ca243a64189ef823caeab1beeff27",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/creeper-overhaul.pw.toml": {
+    "resource": "images/catalog-MI1LWe93.png",
+    "source_url": "https://cdn.modrinth.com/data/MI1LWe93/d42fb7a69f1e7a86584fa1ed43520af98acec065.png",
+    "project_url": "https://modrinth.com/project/MI1LWe93",
+    "project_id": "MI1LWe93",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "0a103339e46b0520361eed77c51369bffb68848f2351afdb0e56e28dde19f21d",
+    "resource_sha256": "05ec090ca311b4be38bc39eb5a0e84554ec14da0e331d12c50a82d0f1799383e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/critical-strike.pw.toml": {
+    "resource": "images/catalog-ilvNBzFn.png",
+    "source_url": "https://cdn.modrinth.com/data/ilvNBzFn/105a93920143c5f87703a7db10f0edb3e4ca4a75_96.webp",
+    "project_url": "https://modrinth.com/project/ilvNBzFn",
+    "project_id": "ilvNBzFn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "c02839b09738eee56971e945c257eca0a6ff3e1d07ff724eb01ff46c53a816fb",
+    "resource_sha256": "376f9fc486ca8e9e55a0f3fd045772b69ae5378fa8fc9e2c9930b30f61ae781e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ct-overhaul-village.pw.toml": {
+    "resource": "images/catalog-fgmhI8kH.png",
+    "source_url": "https://cdn.modrinth.com/data/fgmhI8kH/9c616710df27b0bc60281a7ad69a2a6f77ea2d72_96.webp",
+    "project_url": "https://modrinth.com/project/fgmhI8kH",
+    "project_id": "fgmhI8kH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-ND-4.0",
+      "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": null
+    },
+    "original_sha256": "8b6414e270682f4bc12b535600e21f8bf8cfc09c2ddaffbeef6fa702766f5f15",
+    "resource_sha256": "aed60d785d4e7b22b8f4e4c6a1ec9ae64b5685e82146d6ba8a5cd651930eb712",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/cubes-without-borders.pw.toml": {
+    "resource": "images/catalog-ETlrkaYF.png",
+    "source_url": "https://cdn.modrinth.com/data/ETlrkaYF/6c1711b4b788b5f25cc1e99ed8805aea94d9e167_96.webp",
+    "project_url": "https://modrinth.com/project/ETlrkaYF",
+    "project_id": "ETlrkaYF",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/Kira-NT/cubes-without-borders/blob/main/LICENSE.md"
+    },
+    "original_sha256": "ed107d1bcb6c0cc6b4485c11290d7dcccb26219bade8b7448a46c98398bdd83e",
+    "resource_sha256": "b49fa31d47de875909f25fa6d5f444aa66f585f22dc005435068a5c9dc10977e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/cull-leaves.pw.toml": {
+    "resource": "images/catalog-GNxdLCoP.png",
+    "source_url": "https://cdn.modrinth.com/data/GNxdLCoP/icon.png",
+    "project_url": "https://modrinth.com/project/GNxdLCoP",
+    "project_id": "GNxdLCoP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1abed9c35d52d6d775e0732ad84583c2c5326e41a81020df621323cc1f5a7a41",
+    "resource_sha256": "069604280b12d050d8655d0fd3fa71be51fe14309a2c8d144d33bcfff6231d40",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/curios.pw.toml": {
+    "resource": "images/catalog-vvuO3ImH.png",
+    "source_url": "https://cdn.modrinth.com/data/vvuO3ImH/2a7323ca80849de0bcb50299e18acdf8bf394682.png",
+    "project_url": "https://modrinth.com/project/vvuO3ImH",
+    "project_id": "vvuO3ImH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "bfbf68cecb3a33282d88a623406777cb87d42e9dc54d189c50380a5e6e0ffc0f",
+    "resource_sha256": "40de504e9a5560abd95b2ded99349681aeb93f613da71ac82b8c6c8758569684",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/dangerous.pw.toml": {
+    "resource": "images/catalog-nsri5wVW.png",
+    "source_url": "https://cdn.modrinth.com/data/nsri5wVW/09547b4488789f155eaba9b8dbd77d71a6074785_96.webp",
+    "project_url": "https://modrinth.com/project/nsri5wVW",
+    "project_id": "nsri5wVW",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "0aa1d9c355844a3bc7d9193b0e4d57df9d1a6060b0768172955e85578be37765",
+    "resource_sha256": "499d379466c25cac2af281681ce11506f3ebb59007d73a09ae87839435f5b456",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/decorative-food.pw.toml": {
+    "resource": "images/catalog-656seq5J.png",
+    "source_url": "https://cdn.modrinth.com/data/656seq5J/d0bf98eb27722c1cef5f0a6a09fea8c6829b2fa5_96.webp",
+    "project_url": "https://modrinth.com/project/656seq5J",
+    "project_id": "656seq5J",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "9bfad82ff27173aec8401d0679a0107cbc9f43d9535a0c1fbbd4e5646aad1208",
+    "resource_sha256": "8d8afd148acd1a6b741481d408f41aa1a5fe1294054998449a45a2a4fed6daf2",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/detail-armor-bar-reconstructed.pw.toml": {
+    "resource": "images/catalog-Si9Uim4y.png",
+    "source_url": "https://cdn.modrinth.com/data/Si9Uim4y/01f8bfb3455a5c13bdd8bc3402e4779ecf3b7bbe_96.webp",
+    "project_url": "https://modrinth.com/project/Si9Uim4y",
+    "project_id": "Si9Uim4y",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "40623bb41208a977039a272a67e1528c5d4340e060b3e97e8dcc363c20a76387",
+    "resource_sha256": "008de9ba47ff73d6a3a65848bdd48d83b0376ee7236f1fe2cc85587711acc4b3",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/diagonal-fences.pw.toml": {
+    "resource": "images/catalog-IKARgflD.png",
+    "source_url": "https://cdn.modrinth.com/data/IKARgflD/c72c104166bb80db7a19926d12989eeaacadaae5_96.webp",
+    "project_url": "https://modrinth.com/project/IKARgflD",
+    "project_id": "IKARgflD",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "5e790518e9b1941bd8cbc5815f78cf561996900513a2654cbd811c9e2326e92f",
+    "resource_sha256": "999e271ce2abddb2ba11044d5720b1ab9b5b3e28b0f4567cdaf2cb74def85212",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/distanthorizons.pw.toml": {
+    "resource": "images/catalog-uCdwusMi.png",
+    "source_url": "https://cdn.modrinth.com/data/uCdwusMi/e716cda9bb568b5373ff76e363fb4c6d7278fba6_96.webp",
+    "project_url": "https://modrinth.com/project/uCdwusMi",
+    "project_id": "uCdwusMi",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "2e2f089b3e60f22555085e32b3e13283a4ed201f35dee381d82a80aa8ca76e68",
+    "resource_sha256": "7fd9f007aa108e2addd663e792256f7e4a6739b3388a5997c8809d2a8b892da3",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/dragonlib.pw.toml": {
+    "resource": "images/catalog-sbIsGaOV.png",
+    "source_url": "https://cdn.modrinth.com/data/sbIsGaOV/46976dc21a3c0995e763739e763109019a05bb2f_96.webp",
+    "project_url": "https://modrinth.com/project/sbIsGaOV",
+    "project_id": "sbIsGaOV",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "7561badd0b458ddb4f12a6d8a61de6cd536c205ff20689c8bf91f8dd022a4147",
+    "resource_sha256": "b0250818c99236e5ea26ea7ef77f187761925c0025005cc45b27c2e11cf219b3",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/dynamic-fps.pw.toml": {
+    "resource": "images/catalog-LQ3K71Q1.png",
+    "source_url": "https://cdn.modrinth.com/data/LQ3K71Q1/5056368d0d87c1a9f3efead0cb48ab39a4ea87bf_96.webp",
+    "project_url": "https://modrinth.com/project/LQ3K71Q1",
+    "project_id": "LQ3K71Q1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "93730514c0c63b8161127b057e3f7bdc3f46a319240ec48e6edac1adac70663c",
+    "resource_sha256": "de97eb65ff51fbbe51d8dc3758035a77ff5244b9e031bd08f8071adbb757390f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/easy-anvils.pw.toml": {
+    "resource": "images/catalog-OZBR5JT5.png",
+    "source_url": "https://cdn.modrinth.com/data/OZBR5JT5/6d18be3377180e9afe80da0551934b29bdd2bacb_96.webp",
+    "project_url": "https://modrinth.com/project/OZBR5JT5",
+    "project_id": "OZBR5JT5",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "d44595ed7d7751aa8035e465e2acf39fd07b930beff6612a26380b306a5cc805",
+    "resource_sha256": "04950642214c0a8de24146bd31fb091b98df434741ede97f7d080ab9918a5e5d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/easy-shulker-boxes.pw.toml": {
+    "resource": "images/catalog-gA5euN8S.png",
+    "source_url": "https://cdn.modrinth.com/data/gA5euN8S/b317f8c98e0f5c3ad1c53ee5690c0c55c0de8fad_96.webp",
+    "project_url": "https://modrinth.com/project/gA5euN8S",
+    "project_id": "gA5euN8S",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "68b0b30599c7af7eaaed37f2b21616ac5a6991a3888454fb7b1aec9d8fcdaa99",
+    "resource_sha256": "a93696cd0fc75fff20302d817205d65cfc32e68ff6ff2c7944bb5c81156a3caa",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/elemental-wizards-rpg.pw.toml": {
+    "resource": "images/catalog-PeZ4h4i0.png",
+    "source_url": "https://cdn.modrinth.com/data/PeZ4h4i0/4855d9a8568e003a065187127946e12e9968b3f5_96.webp",
+    "project_url": "https://modrinth.com/project/PeZ4h4i0",
+    "project_id": "PeZ4h4i0",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "a9a64a2606d90885be0e3859de4b24eb1f9baf9bb00dd5a1d6c61d710fbe966a",
+    "resource_sha256": "e334bc5eaaa194822fa2ff635b253cb5af123be7606becb25b3243afb03726d2",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/emf-compat-core.pw.toml": {
+    "resource": "images/catalog-hbGct5uU.png",
+    "source_url": "https://cdn.modrinth.com/data/hbGct5uU/e7956dddcb266c091c03b04435edd8f9bd80581f_96.webp",
+    "project_url": "https://modrinth.com/project/hbGct5uU",
+    "project_id": "hbGct5uU",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "1b70b4d22daf7f893c1cd9cd9027bc29f0afeae62dcfebb31bd5ae959cebb021",
+    "resource_sha256": "884139837e0b973ee02ca80388b42050059b8d3c90f1031e9d311f34873b21eb",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/emi-enchanting.pw.toml": {
+    "resource": "images/catalog-wbWoo11W.png",
+    "source_url": "https://cdn.modrinth.com/data/wbWoo11W/67f7bec961dee33edd40f0578d952b31302606e7.png",
+    "project_url": "https://modrinth.com/project/wbWoo11W",
+    "project_id": "wbWoo11W",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "d80c05b3b7b4185ed4ef144fbf56566974a99215f486c09a5f79326d5f18cfec",
+    "resource_sha256": "3849ba32784c79e16d641709d57a7c8c8638c3f6977cf8145e9559c628df9c05",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/emi-loot.pw.toml": {
+    "resource": "images/catalog-qbbO7Jns.png",
+    "source_url": "https://cdn.modrinth.com/data/qbbO7Jns/dec44ad1547e774b6fce97a5268f6ff6309ec40a.png",
+    "project_url": "https://modrinth.com/project/qbbO7Jns",
+    "project_id": "qbbO7Jns",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "3fad4528a1ca313189d2d7d482e1819285953de5b614c559b703e5b63a1bfc58",
+    "resource_sha256": "19a91a784984073a65054ecb9eecd061a7676e482b873dab0d0534a59b71e527",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/emi-professions-(emip).pw.toml": {
+    "resource": "images/catalog-LGVihYcz.png",
+    "source_url": "https://cdn.modrinth.com/data/LGVihYcz/1930d0194a058809f86947696fe9552862011e3c_96.webp",
+    "project_url": "https://modrinth.com/project/LGVihYcz",
+    "project_id": "LGVihYcz",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "e2ef6a9e3b259dc1e6355135149febda613fe975fc367fae0c8702b970d0522a",
+    "resource_sha256": "16ecde4bb04ab87525f60d20b6b5a2e234227ae02e495e77a07bf4b5594b4d2e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/emi.pw.toml": {
+    "resource": "images/catalog-fRiHVvU7.png",
+    "source_url": "https://cdn.modrinth.com/data/fRiHVvU7/395fe5302b2bab612ef0623509f768f3c5a5ee0f.webp",
+    "project_url": "https://modrinth.com/project/fRiHVvU7",
+    "project_id": "fRiHVvU7",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "a0ec7f24d0c572d36d0d2e4e1fc22ea78b18a7162583d3d79a2249281636f955",
+    "resource_sha256": "25d0f04c5d1b0c27acd1eeaf4a9319f1d6dcbfb525322264bd9aa6bf22c6f7b5",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/enderman-overhaul.pw.toml": {
+    "resource": "images/catalog-Lq6ojcWv.png",
+    "source_url": "https://cdn.modrinth.com/data/Lq6ojcWv/bd2b1e2cc0a730dbefcb1604638e34b9bed21d85.png",
+    "project_url": "https://modrinth.com/project/Lq6ojcWv",
+    "project_id": "Lq6ojcWv",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "9397f70441cff56a389c14a879ce06d6e48f9cbee615b49d80a68cc9ac843e9d",
+    "resource_sha256": "36c20a5ff01aa2c01a3203f61ad27aa4dbd0cd12df4f1a23c2f5ed2ed6c07ef1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ends-delight.pw.toml": {
+    "resource": "images/catalog-yHN0njMr.png",
+    "source_url": "https://cdn.modrinth.com/data/yHN0njMr/bc333fa34161b1e4d3c2e185210bb558aa1d480a.png",
+    "project_url": "https://modrinth.com/project/yHN0njMr",
+    "project_id": "yHN0njMr",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "a66d4ebb70b2826e55313f01fb52bfbb597f50a64672478418027a05e4aba90d",
+    "resource_sha256": "2d24d4c5d9cd4c9b95cbd1ea750622cfeca49636a9bffca7dd7fbe0f7a2b3940",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/entity-model-features.pw.toml": {
+    "resource": "images/catalog-4I1XuqiY.png",
+    "source_url": "https://cdn.modrinth.com/data/4I1XuqiY/6e5bbd0d06b1741bfdab6c0cfab6de8fdaf0064c_96.webp",
+    "project_url": "https://modrinth.com/project/4I1XuqiY",
+    "project_id": "4I1XuqiY",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "003befec64413e9fd966aaebbb5cad1bd2e1c4575a89bafd47f0d96990147097",
+    "resource_sha256": "db0587d69ac471d45f042745456b690ece2deee3f49031e69953a22b99b789ae",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/entityculling.pw.toml": {
+    "resource": "images/catalog-NNAgCjsB.png",
+    "source_url": "https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp",
+    "project_url": "https://modrinth.com/project/NNAgCjsB",
+    "project_id": "NNAgCjsB",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-tr7zw-Protective-License",
+      "name": "",
+      "url": "https://github.com/tr7zw/EntityCulling/blob/1.18/LICENSE-EntityCulling"
+    },
+    "original_sha256": "2ff42395aa41a7e01e33a2b0427e89ab1f3d82764a33de8d3be52a503dd57a61",
+    "resource_sha256": "6f4098bc04457735f3881633ed49dbb8249a026bf3eeaded1d1c85207c72b505",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/entitytexturefeatures.pw.toml": {
+    "resource": "images/catalog-BVzZfTc1.png",
+    "source_url": "https://cdn.modrinth.com/data/BVzZfTc1/af683d206d50b05258d865b0d6e4aa2f2cee12f2_96.webp",
+    "project_url": "https://modrinth.com/project/BVzZfTc1",
+    "project_id": "BVzZfTc1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "1476ffa006bce135a1d999893644a7f742147e0a12ce99a1bec749f78f0efa93",
+    "resource_sha256": "942eab407f6df9de6881a8411d6879dbdf159996852e383bfc07bc9d42023b87",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/escalated.pw.toml": {
+    "resource": "images/catalog-LyOBYG8Q.png",
+    "source_url": "https://cdn.modrinth.com/data/LyOBYG8Q/9a5e3618450f536f5ae32a3c024f969c6b240f7c_96.webp",
+    "project_url": "https://modrinth.com/project/LyOBYG8Q",
+    "project_id": "LyOBYG8Q",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "981b31ab44a41ba00e667fac2c1973f532241ceda4b0bdd64febbf6f44377808",
+    "resource_sha256": "ed6682768e389022eb12c1063492ab26f0c7e3d01c24423449b3f6d33ab7feb0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/every-compat.pw.toml": {
+    "resource": "images/catalog-eiktJyw1.png",
+    "source_url": "https://cdn.modrinth.com/data/eiktJyw1/393215399922d463680b679eacd27ea924b628a9_96.webp",
+    "project_url": "https://modrinth.com/project/eiktJyw1",
+    "project_id": "eiktJyw1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "de6d9bd0c3ac55c6c4851de6564d7a7245c79a140f4efcdc9e6d2177ab162307",
+    "resource_sha256": "890a60c72cb224ceb44b479a7f1a81650b169192a0f0b1be1f99e1f39e2fd768",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/explorers-compass.pw.toml": {
+    "resource": "images/catalog-RV1qfVQ8.png",
+    "source_url": "https://cdn.modrinth.com/data/RV1qfVQ8/8f36254e98a4caa95684fcf4dbe72c2264c98cfc.png",
+    "project_url": "https://modrinth.com/project/RV1qfVQ8",
+    "project_id": "RV1qfVQ8",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": null
+    },
+    "original_sha256": "979233887a93216bc9bd490ebbb2987e8a8f2543b06d75982d8a699aab6336e6",
+    "resource_sha256": "3e410453c231a92bcdd52773c0f0ad24eb074bb94c8ab1526392eef46bd2e10f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/extreme_sound_muffler.pw.toml": {
+    "resource": "images/catalog-5IIKsxiL.png",
+    "source_url": "https://cdn.modrinth.com/data/5IIKsxiL/16e3fd2ee3296e4fc9503df05b73b42011f5505c_96.webp",
+    "project_url": "https://modrinth.com/project/5IIKsxiL",
+    "project_id": "5IIKsxiL",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "513269cb5b5e66696e56599fb46421f84008fbc032c1377e712de722843411c7",
+    "resource_sha256": "c018d2d579e2260e47670c01ed6fea26623cb8846b1d23dc7efbe9a56de6db1b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/farmers-delight.pw.toml": {
+    "resource": "images/catalog-R2OftAxM.png",
+    "source_url": "https://cdn.modrinth.com/data/R2OftAxM/8e7aa38ab94d94bb0a2894a218b69beb49002b34.png",
+    "project_url": "https://modrinth.com/project/R2OftAxM",
+    "project_id": "R2OftAxM",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "3fde0c230f0538e952ca96be3de0483cca355c39d13652a79218f5f302e1dedb",
+    "resource_sha256": "7a01e1fc86e53cfb9e715aca9a0f5113be4f563167726efbfeed11c77ebabff0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ferrite-core.pw.toml": {
+    "resource": "images/catalog-uXXizFIs.png",
+    "source_url": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
+    "project_url": "https://modrinth.com/project/uXXizFIs",
+    "project_id": "uXXizFIs",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "fb5b76f9b1c153abf85040188bd155b5d499821ea2dd4df46770e7d41d6f2960",
+    "resource_sha256": "10995d36f9ac87bb38bb957aeb1220b60faf85e0e14f6e362602f2cf4f9546fe",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/flerovium.pw.toml": {
+    "resource": "images/catalog-4Rh1Mobu.png",
+    "source_url": "https://cdn.modrinth.com/data/4Rh1Mobu/a0e1ac73558191a743458c0254ba3fc73a242e4a_96.webp",
+    "project_url": "https://modrinth.com/project/4Rh1Mobu",
+    "project_id": "4Rh1Mobu",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "a2bea770950046bed6138b9961ef420cdf697603606bb5ca8ff5ee6890d17888",
+    "resource_sha256": "04e27eaae85ac4b60ebc2405568b25811fcef6d0ba40fe6d7613b2612f7adaa8",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/forcemaster-rpg-class.pw.toml": {
+    "resource": "images/catalog-K3yHebFL.png",
+    "source_url": "https://cdn.modrinth.com/data/K3yHebFL/11ec8985032c8b274cd5c22c3a1a55d699870b56_96.webp",
+    "project_url": "https://modrinth.com/project/K3yHebFL",
+    "project_id": "K3yHebFL",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://github.com/ProfessorFichte/Forcemaster/blob/1.21.1/LICENSE"
+    },
+    "original_sha256": "2e81e189700fd951d6fcab1b1863d0638890fc07f6dc8badc21db7b59ec10b9d",
+    "resource_sha256": "f92517a9086b61bc916e2e89ab9b57b993db5667501c0163da36b6d65011ac82",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/forgematica.pw.toml": {
+    "resource": "images/catalog-dCKRaeBC.png",
+    "source_url": "https://cdn.modrinth.com/data/dCKRaeBC/06d4e5a628094cfd307e0cdc0eba4fb007d7987f_96.webp",
+    "project_url": "https://modrinth.com/project/dCKRaeBC",
+    "project_id": "dCKRaeBC",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "ee06af9d7de2b7bb0451d21856dda904df4111c62996d024fca2267ed703ce71",
+    "resource_sha256": "3968d6ad9af380001737c923f4d5ed4d3cc189b0d16bd13bf5df95370b62a448",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/forgified-fabric-api.pw.toml": {
+    "resource": "images/catalog-Aqlf1Shp.png",
+    "source_url": "https://cdn.modrinth.com/data/Aqlf1Shp/bcdcfed483b0365807f75181eea89b7960cd3b1b_96.webp",
+    "project_url": "https://modrinth.com/project/Aqlf1Shp",
+    "project_id": "Aqlf1Shp",
+    "kind": "publisher icon",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://github.com/Sinytra/ForgifiedFabricAPI/blob/1.20.1/LICENSE"
+    },
+    "original_sha256": "81d47c46980b98f696f104dfb61c395db06c37cb59ea7e1b59c6eed1f1517cc7",
+    "resource_sha256": "d45faa6d2c421c7169be32b2494d409014431a72c2c0554270569dfd1dd4f9b6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/freecam.pw.toml": {
+    "resource": "images/catalog-XeEZ3fK2.png",
+    "source_url": "https://cdn.modrinth.com/data/XeEZ3fK2/9529a900a2aa6ed56c1b3167f165bac91b3acd6e_96.webp",
+    "project_url": "https://modrinth.com/project/XeEZ3fK2",
+    "project_id": "XeEZ3fK2",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "c305f51ea984e116ac358ed642e28edb1eb41707a9dd9ccc533d918d97dfe0d7",
+    "resource_sha256": "5177fc95714fe9a7a228cdf700673a1c425c20a763e73056c85a84657193cb6d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/friends-and-foes-forge.pw.toml": {
+    "resource": "images/catalog-BOCJKD49.png",
+    "source_url": "https://cdn.modrinth.com/data/BOCJKD49/0d5db692d86ca2f99935ebc01123d4c55a714122_96.webp",
+    "project_url": "https://modrinth.com/project/BOCJKD49",
+    "project_id": "BOCJKD49",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-ND-4.0",
+      "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": null
+    },
+    "original_sha256": "75c37fed0dd73acfb6e802eefd789b19925fdaf3544c28957a6501d5a010343d",
+    "resource_sha256": "23163d78e1f23ae5c867bde0f903e373762409b24ff19236797232117dbae47f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/fzzy-config.pw.toml": {
+    "resource": "images/catalog-hYykXjDp.png",
+    "source_url": "https://cdn.modrinth.com/data/hYykXjDp/11f469b1bf1f201a95c2e3ddc09ca47d85c3ed53.png",
+    "project_url": "https://modrinth.com/project/hYykXjDp",
+    "project_id": "hYykXjDp",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-TDL-M",
+      "name": "",
+      "url": "https://github.com/fzzyhmstrs/Timefall-Development-Licence-Modified"
+    },
+    "original_sha256": "c5c5f5d01599f6081e04044dd816807d22af4f74efdea15f383adc8bcfc45e2e",
+    "resource_sha256": "1bc963d4ca2d4871124dd254239d8b528906f27bac1c2b39e00c5e7dafa40a82",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/gazebos.pw.toml": {
+    "resource": "images/catalog-XIpMGI6r.png",
+    "source_url": "https://cdn.modrinth.com/data/XIpMGI6r/4194614b15b1c9286bd7e2e3f41110a2e790da5d_96.webp",
+    "project_url": "https://modrinth.com/project/XIpMGI6r",
+    "project_id": "XIpMGI6r",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "6179ea3804869911b08ff797e7adb5106f409d5be269f6426cd28bc4c81e3a7c",
+    "resource_sha256": "f87e7137a51f372bdb0ac436f21eeade663cde281a36369922ec7bf4bbcc4f51",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/geckolib.pw.toml": {
+    "resource": "images/catalog-8BmcQJ2H.png",
+    "source_url": "https://cdn.modrinth.com/data/8BmcQJ2H/012d1aadbc754995de66e8c149a56aa10b63fe05_96.webp",
+    "project_url": "https://modrinth.com/project/8BmcQJ2H",
+    "project_id": "8BmcQJ2H",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8d70b79046ccd4b84ab6304bde0a562c02fb11935b60b6c670d0780b97ee762d",
+    "resource_sha256": "07da8b1f906600d687c62a4221960522c44d7aff6e19be2caa2e6bb26d56633c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/gml.pw.toml": {
+    "resource": "images/catalog-zg2tT2Vu.png",
+    "source_url": "https://cdn.modrinth.com/data/zg2tT2Vu/b3698adafc21c0ab62c8e514bcdbd4f6d799569f_96.webp",
+    "project_url": "https://modrinth.com/project/zg2tT2Vu",
+    "project_id": "zg2tT2Vu",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/GroovyMC/GroovyModLoader/blob/1.19.x/LICENSE"
+    },
+    "original_sha256": "47604ce3916d25f003aeb3a5c07aec442f2d721388c24becf003058eee70853c",
+    "resource_sha256": "6a52e3be8b8d85f578c0946c534f19855474a29dbe9189e0d9683297fc05e65c",
+    "dimensions": [
+      96,
+      48
+    ]
+  },
+  "mods/grandteleport-neoforge.pw.toml": {
+    "resource": "images/catalog-PsllFHj8.png",
+    "source_url": "https://cdn.modrinth.com/data/PsllFHj8/cd4468e5521dfd65601d823788d6d5f6688364a9_96.webp",
+    "project_url": "https://modrinth.com/project/PsllFHj8",
+    "project_id": "PsllFHj8",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "a0716b207a8432a909955a3ad05f5c3c4d855829215df970ccd0bbad9cc1646c",
+    "resource_sha256": "4c27ffa7693ea6cbb6c594ce8918fab18139ed07358e4b8057522f69fcfdccba",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/handcrafted.pw.toml": {
+    "resource": "images/catalog-pJmCFF0p.png",
+    "source_url": "https://cdn.modrinth.com/data/pJmCFF0p/e89faefc522d601db2a5fd70136f37ef7ce18569.png",
+    "project_url": "https://modrinth.com/project/pJmCFF0p",
+    "project_id": "pJmCFF0p",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Terrarium-Licence",
+      "name": "",
+      "url": "https://github.com/terrarium-earth/Handcrafted/blob/1.19.2/LICENSE"
+    },
+    "original_sha256": "6042833921ddfebaf3c0d36f0ebb86a9f6155c506af98ebdfe619e74116efbc5",
+    "resource_sha256": "3c82cf549db83c8dbb97d225080f14d14cd9bb08ef9455f2dbf9d53705c5449e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/hide-experimental-warning.pw.toml": {
+    "resource": "images/catalog-Rm4OOdHd.png",
+    "source_url": "https://cdn.modrinth.com/data/Rm4OOdHd/5b8f8ce544079bceea65d17f603e65bc6eaa168b.png",
+    "project_url": "https://modrinth.com/project/Rm4OOdHd",
+    "project_id": "Rm4OOdHd",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "df68a59c53c378380bd1b8ae2337f86347a7ce9c7f217023f0123586572dfe79",
+    "resource_sha256": "9720d501650dfaa5d4ba055e1f7ec9e610670d10553d8cd7c8df60336b0cc12d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/hypertube.pw.toml": {
+    "resource": "images/catalog-ATDdrG1y.png",
+    "source_url": "https://cdn.modrinth.com/data/ATDdrG1y/622fba3a3de39a3e9cfc09fdb0c3c94132ae0fd8_96.webp",
+    "project_url": "https://modrinth.com/project/ATDdrG1y",
+    "project_id": "ATDdrG1y",
+    "kind": "publisher icon",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://github.com/PedroRok/CreateHypertubes/blob/ver/1.21.1/LICENSE"
+    },
+    "original_sha256": "58a8ea2529c9fc88eb0f7c252364d200dc71e638a01bb4bfce14e3f7fa26c352",
+    "resource_sha256": "2044d4e743a8bef96794c579a7ecd225ed27c395cd78231ae46bc90027ad3dac",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ibo.pw.toml": {
+    "resource": "images/ibo-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/gmUU3UdW/db9475fd4146cbcca8aeef062e4d4c19873f7182_96.webp",
+    "project_url": "https://modrinth.com/project/gmUU3UdW",
+    "project_id": "gmUU3UdW",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": "https://tangled.org/lesbian.skin/ibo#licensing"
+    },
+    "original_sha256": "b723fb9fbb7370612cd4ff3323f34c7b0e295f70cd6d633d8f3fd3133cea18e6"
+  },
+  "mods/iceberg.pw.toml": {
+    "resource": "images/catalog-5faXoLqX.png",
+    "source_url": "https://cdn.modrinth.com/data/5faXoLqX/88c9b9918841470dad995049244ef7a3cb2f34f5_96.webp",
+    "project_url": "https://modrinth.com/project/5faXoLqX",
+    "project_id": "5faXoLqX",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-ND-4.0",
+      "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": null
+    },
+    "original_sha256": "b2aace36720ad2bf0c4823b2183e33be3c16b5e35b9067e02af8392487ff0ce2",
+    "resource_sha256": "827808a13531a18e0684b0c8463cae6f8334b3523875fe3f8eb5c25508684c54",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/illager-invasion.pw.toml": {
+    "resource": "images/catalog-jSV9w0J5.png",
+    "source_url": "https://cdn.modrinth.com/data/jSV9w0J5/03f8cea7f5184d88454f7bf63f2b3c3a85577b1e_96.webp",
+    "project_url": "https://modrinth.com/project/jSV9w0J5",
+    "project_id": "jSV9w0J5",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "43f3ef4db468c2bf02430f4780d1e7fa2d173cad2ff133e3eed012c63ad31f42",
+    "resource_sha256": "8843821e9a9f5c0a42e78b86fac256579fa665f5a301892828bdabecbc1ee820",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/immediatelyfast.pw.toml": {
+    "resource": "images/catalog-5ZwdcRci.png",
+    "source_url": "https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp",
+    "project_url": "https://modrinth.com/project/5ZwdcRci",
+    "project_id": "5ZwdcRci",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "46efee0f765f0c38ba3781346bf8287b23ae3eb8fa9f7dc27581b61cc43176c2",
+    "resource_sha256": "0db7738b5e013d7cfc2cce8c49dad018d568710b9d76c0d4d79dad0f7f9b2d0b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/immersive-paintings.pw.toml": {
+    "resource": "images/catalog-6txNkua3.png",
+    "source_url": "https://cdn.modrinth.com/data/6txNkua3/8c7abdd0a185dace29d4c4a0476f2d8af29475a9_96.webp",
+    "project_url": "https://modrinth.com/project/6txNkua3",
+    "project_id": "6txNkua3",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "30a4971661b061d15b10682efa9e17a97a4f87adc71b058e2d5a43e033296f4c",
+    "resource_sha256": "1408614f82eab4d01dfcdd8d42b440972144c97d642a6efcc2bf3e4adbbaa9b1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/incendium.pw.toml": {
+    "resource": "images/incendium-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/ZVzW5oNS/65c8dcaaf260e5b2182c228a1a442c792a7c4782.jpeg",
+    "project_url": "https://modrinth.com/project/ZVzW5oNS",
+    "project_id": "ZVzW5oNS",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Stardust-Labs-License",
+      "name": "",
+      "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+    },
+    "original_sha256": "311276bf444e1d25a264082d1f6f967f85e9d8ab7fc3d9267424b5f753b66db1"
+  },
+  "mods/interactic-renewed.pw.toml": {
+    "resource": "images/catalog-BM12h14f.png",
+    "source_url": "https://cdn.modrinth.com/data/BM12h14f/c86e4ffd86837f66657fc83f21f46abbbdbeae66_96.webp",
+    "project_url": "https://modrinth.com/project/BM12h14f",
+    "project_id": "BM12h14f",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "f0cce752749d9020d9db41e8f67832ff58e33a9499dfec68a7a0f367acb82692",
+    "resource_sha256": "c579b7326a46aae7c323dee1b13f498aa833cea64d0fd03f75bb28295e0b5f8a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/interiors.pw.toml": {
+    "resource": "images/catalog-r4Knci2k.png",
+    "source_url": "https://cdn.modrinth.com/data/r4Knci2k/d0dd0604c63c68eaaf9ab5aa0a7166e9904412a8_96.webp",
+    "project_url": "https://modrinth.com/project/r4Knci2k",
+    "project_id": "r4Knci2k",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "188cef47307e5ad09e6ccdbc9b1f3c64590ed1fe34c357852dbdfef55a5a2dea",
+    "resource_sha256": "80132d11f306133375e5543dcf931e9eb98b5b31942c1a8699b13a6bbcfcd64d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/iris.pw.toml": {
+    "resource": "images/catalog-YL57xq9U.png",
+    "source_url": "https://cdn.modrinth.com/data/YL57xq9U/18d0e7f076d3d6ed5bedd472b853909aac5da202_96.webp",
+    "project_url": "https://modrinth.com/project/YL57xq9U",
+    "project_id": "YL57xq9U",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "0c75be3385e43039b0d1d48a10634bf8bad29726cef3b40a953d01344b99af24",
+    "resource_sha256": "37e0efaa80c8fb602b0f056012b68db13bb544d1491b194a6a15c288aeba9f01",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/items-displayed-forge.pw.toml": {
+    "resource": "images/catalog-PuR4vDBo.png",
+    "source_url": "https://cdn.modrinth.com/data/PuR4vDBo/4e0b7b16f5b60457717af63acbf4e3cfd91e41fc_96.webp",
+    "project_url": "https://modrinth.com/project/PuR4vDBo",
+    "project_id": "PuR4vDBo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "4d5da4c78d524b78060e19868f89977eb9b3a6887b4c52399b0e8cf7a0edbeb6",
+    "resource_sha256": "9a91999b915faa558783bbb67bb90cfbdbb8ba0f569743a3be1375250bd8f4fc",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ixeris.pw.toml": {
+    "resource": "images/catalog-p8RJPJIC.png",
+    "source_url": "https://cdn.modrinth.com/data/p8RJPJIC/4ca312df105cb246a91f5b782bfd863930d8888f_96.webp",
+    "project_url": "https://modrinth.com/project/p8RJPJIC",
+    "project_id": "p8RJPJIC",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": "https://github.com/decce6/Ixeris/blob/master/LICENSE"
+    },
+    "original_sha256": "fc5900a2487aa4aaa2ae007671a3a16766c34454c5594c74bdcdaaa3e0f494b8",
+    "resource_sha256": "fa439b016d8576b99b7e900d61c5c55dd79be3076d4d1f57f2054fb0f2cef6cb",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/jade-addons-forge.pw.toml": {
+    "resource": "images/catalog-xuDOzCLy.png",
+    "source_url": "https://cdn.modrinth.com/data/xuDOzCLy/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+    "project_url": "https://modrinth.com/project/xuDOzCLy",
+    "project_id": "xuDOzCLy",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "892e43a16a756f2adfb6b3728d9f164975a40ecaf9acedf524efcec1c43e16d6",
+    "resource_sha256": "7dedcad63097cda4ff81562f7dbf9c0c2be35ea9eb2955a89c33580744fb0a1f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/jade.pw.toml": {
+    "resource": "images/catalog-nvQzSEkH.png",
+    "source_url": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
+    "project_url": "https://modrinth.com/project/nvQzSEkH",
+    "project_id": "nvQzSEkH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": null
+    },
+    "original_sha256": "892e43a16a756f2adfb6b3728d9f164975a40ecaf9acedf524efcec1c43e16d6",
+    "resource_sha256": "7dedcad63097cda4ff81562f7dbf9c0c2be35ea9eb2955a89c33580744fb0a1f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/jamlib.pw.toml": {
+    "resource": "images/catalog-IYY9Siz8.png",
+    "source_url": "https://cdn.modrinth.com/data/IYY9Siz8/7585f4d35b18467c2d0d9c496e3b7cd4919c413a_96.webp",
+    "project_url": "https://modrinth.com/project/IYY9Siz8",
+    "project_id": "IYY9Siz8",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "e6be236cff9c82b408a3fa047118f7819259cd8a39c8442e740ccf90d7cee8c7",
+    "resource_sha256": "d8feffbc8e443213d50d92505d0cd5636044656f2fd9b5fe99a54eba2da2a4f7",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/jewelry.pw.toml": {
+    "resource": "images/catalog-sNJAIjUm.png",
+    "source_url": "https://cdn.modrinth.com/data/sNJAIjUm/2eece212d22ebb4387f0b64df55d945e496d6e8c_96.webp",
+    "project_url": "https://modrinth.com/project/sNJAIjUm",
+    "project_id": "sNJAIjUm",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "065fc1c4800fbba37a9ea09f0cfcbcfe81c7cd2ef7233f9000cbbcf65cbeee56",
+    "resource_sha256": "e3486fd469f45cf9f33680cabdf8c23739521f3c6e63cebe5736f510454a89c8",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/kerria-opt.pw.toml": {
+    "resource": "images/catalog-f0ruQTF7.png",
+    "source_url": "https://cdn.modrinth.com/data/f0ruQTF7/d132a2ccda634343a95e7f3b81e796e9c0f297b4_96.webp",
+    "project_url": "https://modrinth.com/project/f0ruQTF7",
+    "project_id": "f0ruQTF7",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "fe4646add080eeb14eef66b11c4f3aa184de7d3052c4d4b8659475eea8d2c0b7",
+    "resource_sha256": "b0a410f6f8814bcaa585b181bc6fcc3b23e01aceacde1771da1315581da0acc0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/kotlin-for-forge.pw.toml": {
+    "resource": "images/catalog-ordsPcFz.png",
+    "source_url": "https://cdn.modrinth.com/data/ordsPcFz/064b8f129b776eb303f7f8b1a610e21d153c74b9_96.webp",
+    "project_url": "https://modrinth.com/project/ordsPcFz",
+    "project_id": "ordsPcFz",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-2.1-only",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "url": null
+    },
+    "original_sha256": "17714fa52d1e4e1686487b71120e0ca299a138a87bf104a10804e9f160794cef",
+    "resource_sha256": "cef7ed2b305d63431366c60ee4ca515cc51f895905f17bd227e5d2a7ef8c48a3",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/l_enders-cataclysm-delight.pw.toml": {
+    "resource": "images/catalog-a48R8AGk.png",
+    "source_url": "https://cdn.modrinth.com/data/a48R8AGk/995821dbc453458e83fe9dc7dfcd962cc9073701.png",
+    "project_url": "https://modrinth.com/project/a48R8AGk",
+    "project_id": "a48R8AGk",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8d88dfa5be2073d650819db69fc2c516e64376141c9c9d3229ae59003d0b99d4",
+    "resource_sha256": "f7d8aa848bc682ec7dbddc893488785e0e06999c86ed2a59a1ecc7d2db526c43",
+    "dimensions": [
+      96,
+      76
+    ]
+  },
+  "mods/l_enders-cataclysm.pw.toml": {
+    "resource": "images/catalog-46KJle7n.png",
+    "source_url": "https://cdn.modrinth.com/data/46KJle7n/4de43b519c4b4ce09c5a3155e908da446dbf455a_96.webp",
+    "project_url": "https://modrinth.com/project/46KJle7n",
+    "project_id": "46KJle7n",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-ND-4.0",
+      "name": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": null
+    },
+    "original_sha256": "4613fa67b677a6e097fbaa4deacd821e26a52b095c25d65ddc93c640a5732cf5",
+    "resource_sha256": "ca727be78220ed27552e7b0b909d551866ef34eefec4178e1d601bfaa2f6b876",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/leaves-be-gone.pw.toml": {
+    "resource": "images/catalog-AVq17PqV.png",
+    "source_url": "https://cdn.modrinth.com/data/AVq17PqV/72915db87281bf57b62cc4ec7dc9ea75865b2f5f_96.webp",
+    "project_url": "https://modrinth.com/project/AVq17PqV",
+    "project_id": "AVq17PqV",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "3efd33a49f74d55f7745bd3912fd07f3604ecf3c5ccd4eb02aea2eeeb7a9f6a0",
+    "resource_sha256": "c6e4ca1065c415c72c693b03deaff7e33c1ed9db71698696128800dbdb0141cf",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lighty.pw.toml": {
+    "resource": "images/catalog-yjvKidNM.png",
+    "source_url": "https://cdn.modrinth.com/data/yjvKidNM/aee2a3e0b3c10c82f76597edfef48d31966b2459.png",
+    "project_url": "https://modrinth.com/project/yjvKidNM",
+    "project_id": "yjvKidNM",
+    "kind": "publisher icon",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "original_sha256": "b40b43c89a565a807ef6e327a8b1770f2e2390d975f95cc02903ec04a413c5d6",
+    "resource_sha256": "2044c60df72f980c2dfc0c00e5df77fb6b9de1afad71ae146e84f2a551d5f88e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lionfish-api.pw.toml": {
+    "resource": "images/catalog-FoVacERa.png",
+    "source_url": "https://cdn.modrinth.com/data/FoVacERa/7b51d905c1cb378b9fa99327107b9d518effe54e.png",
+    "project_url": "https://modrinth.com/project/FoVacERa",
+    "project_id": "FoVacERa",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "51812e55b432c0c7863d545d88ef22e01e4128964005f072b4d40392ecdf3c54",
+    "resource_sha256": "3c041939b558ebbd57ec3a4dfb4cb85ef7fac0e2437ee858f374a125da612938",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lithium.pw.toml": {
+    "resource": "images/catalog-gvQqBUqZ.png",
+    "source_url": "https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp",
+    "project_url": "https://modrinth.com/project/gvQqBUqZ",
+    "project_id": "gvQqBUqZ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "99b358c11c3e94b69b4ab9bdfe437519c334cb6d3948701c6613dd121abed150",
+    "resource_sha256": "c750486188e666077e6916d8d3198c3d914314be0dae3363370811bd4429ba7c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lithostitched.pw.toml": {
+    "resource": "images/catalog-XaDC71GB.png",
+    "source_url": "https://cdn.modrinth.com/data/XaDC71GB/bc3425bcb318176adc7da99b6eec48787eed98d3.png",
+    "project_url": "https://modrinth.com/project/XaDC71GB",
+    "project_id": "XaDC71GB",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "2db7cd70218defb83018e38ebbe9b1ff4a91a5955bfaa8db0401101fa3f81516",
+    "resource_sha256": "b44a6b6890b29dc82bc282e7a295ffa8e70c37ff6b902c27321518f10dc67736",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lmd.pw.toml": {
+    "resource": "images/catalog-vE2FN5qn.png",
+    "source_url": "https://cdn.modrinth.com/data/vE2FN5qn/2609f745e46bd92e57a67e1da07319eb2154c6f7.png",
+    "project_url": "https://modrinth.com/project/vE2FN5qn",
+    "project_id": "vE2FN5qn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "4caa39c384d40283dc132ec11530e3b92a90929c8db72cd89e552558c73f223d",
+    "resource_sha256": "ed67d7ce3832ae781c18bfe64bf8fd03924c32c5f2800d29472e4c4006891de6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lodestonelib.pw.toml": {
+    "resource": "images/catalog-bN3xUWdo.png",
+    "source_url": "https://cdn.modrinth.com/data/bN3xUWdo/30bc21dd6229186e231fd3b28d64619912354ccf_96.webp",
+    "project_url": "https://modrinth.com/project/bN3xUWdo",
+    "project_id": "bN3xUWdo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "dccb9dc682c33f787e8f4819b923042975daec70767502c26e39c44a5b17a7e0",
+    "resource_sha256": "98b226962cc6c95357cc07660f1385cc31e5f4f6d0db848f94999ec7d7be8940",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/lootr.pw.toml": {
+    "resource": "images/catalog-EltpO5cN.png",
+    "source_url": "https://cdn.modrinth.com/data/EltpO5cN/3dc915eb1bbcd65654c17eb3870de4aba055d0c6_96.webp",
+    "project_url": "https://modrinth.com/project/EltpO5cN",
+    "project_id": "EltpO5cN",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "0f883bf028937264fde6b650fb2d7fe523da0384eced1d1788ee81ffb617a5b0",
+    "resource_sha256": "e245fded9937c3d1db800a98dc678333e921ca9d7062c4b0254b6c340adb0c5a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/macaws-bridges.pw.toml": {
+    "resource": "images/catalog-GURcjz8O.png",
+    "source_url": "https://cdn.modrinth.com/data/GURcjz8O/5cd0895fdcde03f1d970ef910dd9287fb881bdc6_96.webp",
+    "project_url": "https://modrinth.com/project/GURcjz8O",
+    "project_id": "GURcjz8O",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "758f043a92e9c102c79daaa26751dbacc707c6052eaf732a0f53502d9486175e",
+    "resource_sha256": "fe559fbea24956823987c5881084fc54292f8709b49d5b4e43b6332fffc7721b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/macaws-doors.pw.toml": {
+    "resource": "images/catalog-kNxa8z3e.png",
+    "source_url": "https://cdn.modrinth.com/data/kNxa8z3e/ced8fa00264400cbe06d622b92a6d1106cedc65d_96.webp",
+    "project_url": "https://modrinth.com/project/kNxa8z3e",
+    "project_id": "kNxa8z3e",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "f488e3defa0815b62e38a5b05a4563d10b4cc2e1d45908a091ae08e53706acf7",
+    "resource_sha256": "3557e31678c6e4b6397ad3ed715065c6e5619b134f525e6f1825df8945ea7446",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/macaws-fences-and-walls.pw.toml": {
+    "resource": "images/catalog-GmwLse2I.png",
+    "source_url": "https://cdn.modrinth.com/data/GmwLse2I/ebe4d2375e0a402e5587665ba9da5eb50f37422a_96.webp",
+    "project_url": "https://modrinth.com/project/GmwLse2I",
+    "project_id": "GmwLse2I",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "bc7110b6364ee26d363f216f47330cd4553f63ce3434adcf8d1c083ec1687353",
+    "resource_sha256": "1931163bb171f0de0721f682bada0b05cc31fdcc50748f09a1703cb77c4fad2e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/macaws-roofs.pw.toml": {
+    "resource": "images/catalog-B8jaH3P1.png",
+    "source_url": "https://cdn.modrinth.com/data/B8jaH3P1/e6652e3ddfe1cc21188c7bf354a4570292791864_96.webp",
+    "project_url": "https://modrinth.com/project/B8jaH3P1",
+    "project_id": "B8jaH3P1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "dd4038d4b3c82799667f50271c05716bdff02fc994131c4c350ad535ec7c8024",
+    "resource_sha256": "4546ec1fe5afaee1753d4e171f08c4e020d4ff45b192c53ee8527e46f1542449",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/macaws-stairs.pw.toml": {
+    "resource": "images/catalog-iP3wH1ha.png",
+    "source_url": "https://cdn.modrinth.com/data/iP3wH1ha/7760df8839c395ee42099387cd9cb0fe34b2626e_96.webp",
+    "project_url": "https://modrinth.com/project/iP3wH1ha",
+    "project_id": "iP3wH1ha",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "2f59448b5ec3ad78cf6dd6a3daf03be321b9a9c4771574eaf6c9d1871dbe5a2d",
+    "resource_sha256": "4e5aa04699573ec2f43218842abb08d40470014d3d52ffd37c74882b238ebae4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/macaws-windows.pw.toml": {
+    "resource": "images/catalog-C7I0BCni.png",
+    "source_url": "https://cdn.modrinth.com/data/C7I0BCni/7eb5e7816f887154e69a4001bee5bcc143242b32_96.webp",
+    "project_url": "https://modrinth.com/project/C7I0BCni",
+    "project_id": "C7I0BCni",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "7a8c777074e6ef56ca5ce42baa4ab3627e2d001a3397be1f952645a852887173",
+    "resource_sha256": "daf42ac7d3951ceca6fabd1b4ded6eb2c6a3abcdf5ad3598611098e689483bc7",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/mafglib.pw.toml": {
+    "resource": "images/catalog-SKI34J7B.png",
+    "source_url": "https://cdn.modrinth.com/data/SKI34J7B/a73f6cb616d0454dfd26a13746fb4f964cf3b021_96.webp",
+    "project_url": "https://modrinth.com/project/SKI34J7B",
+    "project_id": "SKI34J7B",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "153db17aac8ba17a8aa1df09deb52c86266ff0b8656b6541acfd076d6cd588e5",
+    "resource_sha256": "bb70d95f71824bc24222e756e973c640e82af509cc5701dc3d5081394bf96d7e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/mech-trowel.pw.toml": {
+    "resource": "images/catalog-nqFNRALS.png",
+    "source_url": "https://cdn.modrinth.com/data/nqFNRALS/3ba385a3d88d4e4e714e8c68e4834241a70aaf99_96.webp",
+    "project_url": "https://modrinth.com/project/nqFNRALS",
+    "project_id": "nqFNRALS",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "ca9a94745618e42d81102253d3172fa88c2304fa6cdd91ba0164b0105c7311ca",
+    "resource_sha256": "9379c7b7b5385fd9a6c1dc2cb282b3d4c9a8e07efdc7a1c322e38258ad476750",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/midnightlib.pw.toml": {
+    "resource": "images/catalog-codAaoxh.png",
+    "source_url": "https://cdn.modrinth.com/data/codAaoxh/76ce92742fea39dadbf9a68a389b4690f10ebd52_96.webp",
+    "project_url": "https://modrinth.com/project/codAaoxh",
+    "project_id": "codAaoxh",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "b8d57eb309b31437f207223482d5c8221cd3b53b1d1fadf559187c7a3985ac94",
+    "resource_sha256": "717a7e76a78e579fa18e31f55e63d096effb1647272210ffb18161c589893559",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/miners-delight.pw.toml": {
+    "resource": "images/catalog-qMxbM4BQ.png",
+    "source_url": "https://cdn.modrinth.com/data/qMxbM4BQ/0d6f967d3ad184dd296c62a9891e2b2b7d45f61d.png",
+    "project_url": "https://modrinth.com/project/qMxbM4BQ",
+    "project_id": "qMxbM4BQ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "42a0bb7715baaa745733f3072f9735431490547be8036f0706a9fcbd87e4f6ce",
+    "resource_sha256": "41e2a98dee6a5816681ab7620a453d978205ed9c0b2379ab1924f8a81d6350bf",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/modelfix.pw.toml": {
+    "resource": "images/catalog-QdG47OkI.png",
+    "source_url": "https://cdn.modrinth.com/data/QdG47OkI/5a8203e120985d11616614e11ad7b888997000d8.png",
+    "project_url": "https://modrinth.com/project/QdG47OkI",
+    "project_id": "QdG47OkI",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "1fbeb425ad43b954833f214c0301fbfe22f3ec515f052078a48be82c52848131",
+    "resource_sha256": "07f7f7ce9cab7ab59a3df403362d4eca09d7f01654556a53bc37f7c25de274a6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/modernfix.pw.toml": {
+    "resource": "images/catalog-nmDcB62a.png",
+    "source_url": "https://cdn.modrinth.com/data/nmDcB62a/2af94de5e08ae54567ee86b968fc7ce076d9fee5_96.webp",
+    "project_url": "https://modrinth.com/project/nmDcB62a",
+    "project_id": "nmDcB62a",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "7ccc52bf9e4dfd7212ff6656645bb799434cfa73da8a619586c1f8c656a7a3d9",
+    "resource_sha256": "c72e252444824abc09d452e7fa9817c2d9d5cf7f456e8db77e68da8a584675a1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/moonlight.pw.toml": {
+    "resource": "images/catalog-twkfQtEc.png",
+    "source_url": "https://cdn.modrinth.com/data/twkfQtEc/icon.png",
+    "project_url": "https://modrinth.com/project/twkfQtEc",
+    "project_id": "twkfQtEc",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-LGPL-with-additional-dependency-clause",
+      "name": "",
+      "url": "https://github.com/MehVahdJukaar/Moonlight/blob/1.20/license.md"
+    },
+    "original_sha256": "5c47f0c110aa1dc8df451c30d89e99ccd44072b4c7bf92bee91888814609b221",
+    "resource_sha256": "3e9d5093469e27597f55740390ee8592030f404a61773f6ff696e0d918ea5ae0",
+    "dimensions": [
+      36,
+      36
+    ]
+  },
+  "mods/more-relics-rpg.pw.toml": {
+    "resource": "images/catalog-IZ3b4kEa.png",
+    "source_url": "https://cdn.modrinth.com/data/IZ3b4kEa/b8127477bb66a617b304e94234c0507588d2e95c_96.webp",
+    "project_url": "https://modrinth.com/project/IZ3b4kEa",
+    "project_id": "IZ3b4kEa",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "7a6ba5d5396a92e30272cf6380791f76f9655b17bc161a8238d26a5b4b123e17",
+    "resource_sha256": "b035706681751bcd00482d5ede44dd26f120e67a8dae81bce809c6b32eef1895",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/more-rpg-classes-skill-tree.pw.toml": {
+    "resource": "images/catalog-3OYmNUDq.png",
+    "source_url": "https://cdn.modrinth.com/data/3OYmNUDq/74c08c979c520288a81549c8020ed5b4c9b8cb7d_96.webp",
+    "project_url": "https://modrinth.com/project/3OYmNUDq",
+    "project_id": "3OYmNUDq",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "dc2c7ef9e4277fff816d6fc7ec603aeb6df28c9af48fef2f0caf578e3d9cf826",
+    "resource_sha256": "cb799ac56b3847bdf10c6aae26e4b60c9c3b6ef8f64ed8b2481876d1115751ad",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/more-rpg-library.pw.toml": {
+    "resource": "images/catalog-Wkc3lwHo.png",
+    "source_url": "https://cdn.modrinth.com/data/Wkc3lwHo/9f1378cb7da3aa61082a91ac43218519e4c0dbc0_96.webp",
+    "project_url": "https://modrinth.com/project/Wkc3lwHo",
+    "project_id": "Wkc3lwHo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1863a1cf9de78ea7842bb4ac408ba3e0b4545c3199334345dd3d5d2eaaee010c",
+    "resource_sha256": "4ce9686bdeabdd51345ee314135b296f358cd7bf564764539cc0c9b663be6162",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/more-sounds.pw.toml": {
+    "resource": "images/catalog-8jvcOd6S.png",
+    "source_url": "https://cdn.modrinth.com/data/8jvcOd6S/86c114526a9c73fe085a5450488b309c9cdbc7ce_96.webp",
+    "project_url": "https://modrinth.com/project/8jvcOd6S",
+    "project_id": "8jvcOd6S",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": "https://github.com/DVOA1/More-Sounds/blob/main/LICENSE"
+    },
+    "original_sha256": "09cff596764e330e4289927a259465fc8dafd0d39bca142d93712c15feab3715",
+    "resource_sha256": "cad9189442dde609668af30bd7033a07a467fb71c364377335d9c2ee9eb7aac2",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/moreculling.pw.toml": {
+    "resource": "images/catalog-51shyZVL.png",
+    "source_url": "https://cdn.modrinth.com/data/51shyZVL/c51b07193b56e952269ef50101d12aecba2b4747_96.webp",
+    "project_url": "https://modrinth.com/project/51shyZVL",
+    "project_id": "51shyZVL",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "44c5552925c8015632ffb8a0ab0a65dc91fe2e81f3c17a32317edd1471c0b101",
+    "resource_sha256": "08110b82e85c195bfed4d7a00a34d66afa862df947f2a1d1ac7f2c664b433236",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/mouse-tweaks.pw.toml": {
+    "resource": "images/catalog-aC3cM3Vq.png",
+    "source_url": "https://cdn.modrinth.com/data/aC3cM3Vq/6c0eaa4e60a9c87f4766f222ff63286f09da32c0_96.webp",
+    "project_url": "https://modrinth.com/project/aC3cM3Vq",
+    "project_id": "aC3cM3Vq",
+    "kind": "publisher icon",
+    "license": {
+      "id": "BSD-3-Clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "url": null
+    },
+    "original_sha256": "751338636d4c276fe2405e0d623cf5ef950514c620a8c0c8e6ceb7a0bd4ccea1",
+    "resource_sha256": "80b9004506cbeb2aeeda0b571eb31a1a2e8d970b0d866762d947450dda40464d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/mru.pw.toml": {
+    "resource": "images/catalog-SNVQ2c0g.png",
+    "source_url": "https://cdn.modrinth.com/data/SNVQ2c0g/82339bfc8a0a3a6a3c376f5c29555a378379cfa0_96.webp",
+    "project_url": "https://modrinth.com/project/SNVQ2c0g",
+    "project_id": "SNVQ2c0g",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "78df8ddf76ceefb742e6f9214f17f961667cff370424e354000d4ba6be84cbd1",
+    "resource_sha256": "42dbcb10300da1402390edfc7abb8f1e5500fb8e21f9423b1905f606ee2dc84e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/my-nethers-delight.pw.toml": {
+    "resource": "images/catalog-O53VhQoZ.png",
+    "source_url": "https://cdn.modrinth.com/data/O53VhQoZ/184e0171d3c0b308ea6e6abd766e60eaa22af652.png",
+    "project_url": "https://modrinth.com/project/O53VhQoZ",
+    "project_id": "O53VhQoZ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "00a338ad0660e712da370253aecec9a247acb27cde2ba28b3164aa3a0a23cda2",
+    "resource_sha256": "185db0ae790aeaf3a8bfb5985632a764210330ea8a68b1fac8eb99fa9f201d52",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/natures-compass.pw.toml": {
+    "resource": "images/catalog-fPetb5Kh.png",
+    "source_url": "https://cdn.modrinth.com/data/fPetb5Kh/95e4110a4cf600843c4ba9d545cc1b60e2c00eaa.png",
+    "project_url": "https://modrinth.com/project/fPetb5Kh",
+    "project_id": "fPetb5Kh",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": null
+    },
+    "original_sha256": "75b16d9bd0cba554a1c15b567ef17414b62fdc5d4141609c750ad6426ce21310",
+    "resource_sha256": "f6b92795b66abc8630d8046da9dcbe709a033e2efd976f5b03ecb7002bf4387c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/neo-bee-fix.pw.toml": {
+    "resource": "images/catalog-DzSY371i.png",
+    "source_url": "https://cdn.modrinth.com/data/DzSY371i/bbd07a8d1fbec132db80d6ccc43d32bad0135992_96.webp",
+    "project_url": "https://modrinth.com/project/DzSY371i",
+    "project_id": "DzSY371i",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "32b82b168c8715fb2d3ec0fbca8bd4fbdcafa522eb851c1cce753a5f82398dcb",
+    "resource_sha256": "a08eb8147ecfac75eea95918f30758b05719d80472a111d3b5003c27daa05bf5",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/netherportalfix.pw.toml": {
+    "resource": "images/catalog-nPZr02ET.png",
+    "source_url": "https://cdn.modrinth.com/data/nPZr02ET/1496de70af297897258b7520aafc0886fa0ad918_96.webp",
+    "project_url": "https://modrinth.com/project/nPZr02ET",
+    "project_id": "nPZr02ET",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://mods.twelveiterations.com/permissions"
+    },
+    "original_sha256": "3f8d422f488aef65b1497c19eb474fd036393c277ba7e1ddf1294c9529bfe83a",
+    "resource_sha256": "b5496bf33af47b8fced8baad2c6a029ac447ce13152e00c7ca2786b0e6652d45",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/nullscape.pw.toml": {
+    "resource": "images/nullscape-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/LPjGiSO4/30249e0548b8643b1559889eab585683cb397f3a_96.webp",
+    "project_url": "https://modrinth.com/project/LPjGiSO4",
+    "project_id": "LPjGiSO4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Stardust-Labs-License",
+      "name": "",
+      "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+    },
+    "original_sha256": "7dd4735ee5e54e08fb1847437d4b6986e9aa363e6669dab04d6bbff3a94c8a16"
+  },
+  "mods/observable.pw.toml": {
+    "resource": "images/catalog-VYRu7qmG.png",
+    "source_url": "https://cdn.modrinth.com/data/VYRu7qmG/icon.png",
+    "project_url": "https://modrinth.com/project/VYRu7qmG",
+    "project_id": "VYRu7qmG",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "66a7c5e8908d06189f99d7f454303c3c1a82d1a801816317a583c2cbed01f3d8",
+    "resource_sha256": "c84e6cd053882b71f8e990defe3b2790beb8841546ff9e98f67970eddca29c2d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ok-zoomer.pw.toml": {
+    "resource": "images/catalog-aXf2OSFU.png",
+    "source_url": "https://cdn.modrinth.com/data/aXf2OSFU/6bb42db9ff3dba778257ccc33452c338a7690aba_96.webp",
+    "project_url": "https://modrinth.com/project/aXf2OSFU",
+    "project_id": "aXf2OSFU",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "c296bf46044549d8ec378da678a1edfc42b1008413ccffee43b75aa07df0e797",
+    "resource_sha256": "3d90d11862763dd6337ceb5014713c31be752d9b0303c5885f168a318e71cd3d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/owo-lib.pw.toml": {
+    "resource": "images/catalog-ccKDOlHs.png",
+    "source_url": "https://cdn.modrinth.com/data/ccKDOlHs/42c9fe358c72dd5afda078271c574c325e963d19_96.webp",
+    "project_url": "https://modrinth.com/project/ccKDOlHs",
+    "project_id": "ccKDOlHs",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "5dbfc9e841e7f7b3af3a410a84b6f4ecd644622de83e305de62d2ee6776f0cad",
+    "resource_sha256": "e0704161f008ab8cda8f662af5087eb69e33f529ce450f3b81329a08f0a5609a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/paladins-and-priests.pw.toml": {
+    "resource": "images/catalog-FxXkHaLe.png",
+    "source_url": "https://cdn.modrinth.com/data/FxXkHaLe/0d64c2fad819691a42c9b6e436c4914c6ce4b413_96.webp",
+    "project_url": "https://modrinth.com/project/FxXkHaLe",
+    "project_id": "FxXkHaLe",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "e9894f9efa0cf41e517038f85916e424efeeee788c7f26e0468be3ef295bf1dd",
+    "resource_sha256": "7ba93e71d800740d9f14380d9a1881b4abb16cd80eaa0cc24a317d04997f95b4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/pf-neoforge.pw.toml": {
+    "resource": "images/catalog-JIEwmDVI.png",
+    "source_url": "https://cdn.modrinth.com/data/JIEwmDVI/48f0596d42ae2d4f31d3490a8ed5c777dbaf957f_96.webp",
+    "project_url": "https://modrinth.com/project/JIEwmDVI",
+    "project_id": "JIEwmDVI",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "f2c694e4b6f395573faa464fc264c9588b5a37c079109391d92037069e849827",
+    "resource_sha256": "d79ea6f3d0b4d75e21b9045122e7a6446ace9040c1f699a2c3614d881eb2ba77",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/placebo.pw.toml": {
+    "resource": "images/catalog-tCkE8p2N.png",
+    "source_url": "https://cdn.modrinth.com/data/tCkE8p2N/f5a71de378c2cc940efaa812da151c480cfdbbb6_96.webp",
+    "project_url": "https://modrinth.com/project/tCkE8p2N",
+    "project_id": "tCkE8p2N",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "0a816ebade1593f9348b1806d1e3724c5c6b7805f1931ba974999afafe28ade6",
+    "resource_sha256": "e19b6cd919f5c5394200f9e2d7fe00cae2ccb130f5bcd13ad8a0c0a426f40aa4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/polymorph.pw.toml": {
+    "resource": "images/catalog-tagwiZkJ.png",
+    "source_url": "https://cdn.modrinth.com/data/tagwiZkJ/ed244c5829bde539763c7fffb55cb3194a349d66.png",
+    "project_url": "https://modrinth.com/project/tagwiZkJ",
+    "project_id": "tagwiZkJ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "c2c910a06ffa99a9da546a67d62779f1db883811dcf3e131b61dfc737781cbee",
+    "resource_sha256": "cf845b4b0af9a78f5555bbdc4b0e075ec54e36490c2cdf7ab7b48fe11089b3ff",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/polytone.pw.toml": {
+    "resource": "images/catalog-3qAYkBMB.png",
+    "source_url": "https://cdn.modrinth.com/data/3qAYkBMB/828636188cd2427eb1158dd1e0bddd42d318ccbf_96.webp",
+    "project_url": "https://modrinth.com/project/3qAYkBMB",
+    "project_id": "3qAYkBMB",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "8a3f76074e5ede443d4d7526ab143c48bd86f01619307ecd22684eef00b3cce8",
+    "resource_sha256": "38fc7899e92f9dcbb4fe6ef7aa7a9915f66802c49099234c0f6748cd1c4c2fc4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/presence-footsteps-x-sable.pw.toml": {
+    "resource": "images/catalog-ZAhKrMSS.png",
+    "source_url": "https://cdn.modrinth.com/data/ZAhKrMSS/933e963ba3a9d01b26889545bab3b9f060bacd3d_96.webp",
+    "project_url": "https://modrinth.com/project/ZAhKrMSS",
+    "project_id": "ZAhKrMSS",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "4a019d40c9471266ff4c50450062ce603db23dbdc9bc213e9324dead801a139c",
+    "resource_sha256": "3a60f6ec32c35a708eada20f4383842402cbf64c85b933cbfbf001ee2470046f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/prickle.pw.toml": {
+    "resource": "images/catalog-aaRl8GiW.png",
+    "source_url": "https://cdn.modrinth.com/data/aaRl8GiW/36749d1d2d87d14d7f703b18e8726c7b78057abb.png",
+    "project_url": "https://modrinth.com/project/aaRl8GiW",
+    "project_id": "aaRl8GiW",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-2.1-only",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "url": null
+    },
+    "original_sha256": "d0bd3a4b9d2189bcd3ec20dbba020ac849b0a938aead5c21d864375d3335c5c5",
+    "resource_sha256": "ce1171e2944810a6d003f3b3ae61266e79a8495e1eabc8ba0456762b4f3fdfec",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/progresspeek.pw.toml": {
+    "resource": "images/catalog-1A2XNzUB.png",
+    "source_url": "https://cdn.modrinth.com/data/1A2XNzUB/d52531a75375a6aad0240b118d0dcf98adc006b5.png",
+    "project_url": "https://modrinth.com/project/1A2XNzUB",
+    "project_id": "1A2XNzUB",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "5105d7364c498fabaf319ddaf6a4dd99377a74ba2e955ed46eb8b4ccc0c5a788",
+    "resource_sha256": "b9362a2f52fe85d91b4bd7d2650fd39f5e8509cafc9745d0fcb0e861931c962a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/puzzles-lib.pw.toml": {
+    "resource": "images/catalog-QAGBst4M.png",
+    "source_url": "https://cdn.modrinth.com/data/QAGBst4M/c78216c61f65b6ce82593e4e92e9c358402bb524_96.webp",
+    "project_url": "https://modrinth.com/project/QAGBst4M",
+    "project_id": "QAGBst4M",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "b49d7a492ecf08746659242343d011f869fa38af6b2d3e6aba8df29f83eabc7d",
+    "resource_sha256": "2163b1d2ea1b879bf5d7fa3aacbe9352ef80863122217cfa4d5a305b40fe1714",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/quick-pack.pw.toml": {
+    "resource": "images/catalog-pSISfJ4O.png",
+    "source_url": "https://cdn.modrinth.com/data/pSISfJ4O/fa5672b029c13f52a4c767724539a955548b97f2.png",
+    "project_url": "https://modrinth.com/project/pSISfJ4O",
+    "project_id": "pSISfJ4O",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "949ac7be6e675abdeaa611f894f961b6f74dfe0b422b4a9aa9250620122c4916",
+    "resource_sha256": "70d42df641f9a53170be105b23d2d1c1370c39e8e38eefb25308770fa0758527",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/ranged-weapon-api.pw.toml": {
+    "resource": "images/catalog-AqaIIO6D.png",
+    "source_url": "https://cdn.modrinth.com/data/AqaIIO6D/cf4d822d2fa89e72d37eebcfb1113a6389a0abe6_96.webp",
+    "project_url": "https://modrinth.com/project/AqaIIO6D",
+    "project_id": "AqaIIO6D",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "347b11246d6f41ee9f189beebbd2c90945d00d8dc865511d88682822b81383e4",
+    "resource_sha256": "421b7e4d0982bf685502e0c8e9c3eaf2465ad9165e30912869ac58f1ea484bdd",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/reconnectible-chains.pw.toml": {
+    "resource": "images/catalog-5pzBXDS3.png",
+    "source_url": "https://cdn.modrinth.com/data/5pzBXDS3/4b39899334d0cc0a7270ae178da42e6aa9444c6a_96.webp",
+    "project_url": "https://modrinth.com/project/5pzBXDS3",
+    "project_id": "5pzBXDS3",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "73028953268b625faaae29f3e1fe7c4f767e3b3e2db435659d07de5ca2fff9aa",
+    "resource_sha256": "571a2c292d126a7328ab1f41cbf3557a630d43abe1ce6ec10c2604f55756de93",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/reeses-sodium-options.pw.toml": {
+    "resource": "images/catalog-Bh37bMuy.png",
+    "source_url": "https://cdn.modrinth.com/data/Bh37bMuy/icon.png",
+    "project_url": "https://modrinth.com/project/Bh37bMuy",
+    "project_id": "Bh37bMuy",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "5f9480ac80578115af08964ac1da022a32f26e12e435c6630edc36a80d6abfc0",
+    "resource_sha256": "d285465202179979a35ffcfa978f7e3978ee520c756083292d4587585cb0d5ac",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/reinforced-shulker-boxes.pw.toml": {
+    "resource": "images/catalog-xlOwuSdN.png",
+    "source_url": "https://cdn.modrinth.com/data/xlOwuSdN/c4e04eb9e8174cfdbed5e1b72e34cd3a0dc9ce8a_96.webp",
+    "project_url": "https://modrinth.com/project/xlOwuSdN",
+    "project_id": "xlOwuSdN",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "f95e0a9c7de707894a321dddae60872dd8d4cc5ed2a1b457c48a3f0cbc2f2d41",
+    "resource_sha256": "a978af79a29b69941cd290eb5309b10377961d954a1bcdfddbd515cc12231582",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/reliable-advancements.pw.toml": {
+    "resource": "images/catalog-xVwaUG1g.png",
+    "source_url": "https://cdn.modrinth.com/data/xVwaUG1g/35dbeafe7957c2c56699e42484b62dfc62e954a7.png",
+    "project_url": "https://modrinth.com/project/xVwaUG1g",
+    "project_id": "xVwaUG1g",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "2565864dca94c7955cb003d642f9d21f211fc6baaeccacfc48109a7e81e6ed79",
+    "resource_sha256": "7ddf7cfa8325dd722481fa891a460464c1761618a0b06b7cfb58d838efcdd73b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/reliable-emi.pw.toml": {
+    "resource": "images/catalog-N9WucjHL.png",
+    "source_url": "https://cdn.modrinth.com/data/N9WucjHL/57861773d6606669a41671a60934781f1dc36e87.png",
+    "project_url": "https://modrinth.com/project/N9WucjHL",
+    "project_id": "N9WucjHL",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1b3fb9df0c911162907dfb7147444191d8afe42388ff18ba8570ff6a7c1eca20",
+    "resource_sha256": "e9d5d0adc8f3ff22076e2904f0b795bc91493578eb2d4803fcc3d44ff7c67fc4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/relics-rpg.pw.toml": {
+    "resource": "images/catalog-BDQucwF0.png",
+    "source_url": "https://cdn.modrinth.com/data/BDQucwF0/6aac428c17df067875dfff8a37b6f2a3535ea2cc_96.webp",
+    "project_url": "https://modrinth.com/project/BDQucwF0",
+    "project_id": "BDQucwF0",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "776b77998887207d5a098f4497fa4144b3762e09b762f863044509eee12f0a97",
+    "resource_sha256": "4b9f81858db1cfec048107d524d66b8b7745162112c3d865c9dfc675c987913a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/resourceful-config.pw.toml": {
+    "resource": "images/catalog-M1953qlQ.png",
+    "source_url": "https://cdn.modrinth.com/data/M1953qlQ/cadcab644905f7e9ee92220d29f5c27113eb167b_96.webp",
+    "project_url": "https://modrinth.com/project/M1953qlQ",
+    "project_id": "M1953qlQ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "cb129eab2699e2278b6336b4cb02fcfd86ebf7418007c694c5298a7a4e62020a",
+    "resource_sha256": "c109c77db0074c55b4d9e2f756ede4a2d756cb2d25148254c18ef7392044e856",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/resourceful-lib.pw.toml": {
+    "resource": "images/catalog-G1hIVOrD.png",
+    "source_url": "https://cdn.modrinth.com/data/G1hIVOrD/52130f41d05162ce6d7d1832a47d3c238d102632_96.webp",
+    "project_url": "https://modrinth.com/project/G1hIVOrD",
+    "project_id": "G1hIVOrD",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "aad02bc0f17ee710d1ba3591003ace6145fa0faf5c5f774821d27288740607be",
+    "resource_sha256": "ab4a29b8882b88a860843754b3a216ae4c9b060aaa91849635609bc9662f043a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/rightclickharvest.pw.toml": {
+    "resource": "images/catalog-Cnejf5xM.png",
+    "source_url": "https://cdn.modrinth.com/data/Cnejf5xM/b6e535989217836c2adc49b06f4b3c8f429afda3_96.webp",
+    "project_url": "https://modrinth.com/project/Cnejf5xM",
+    "project_id": "Cnejf5xM",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1208499a4773255af3d038fb7ab41797557ca4782cd03c5e68cc2b0d60e58367",
+    "resource_sha256": "c45b4f10f5f9415bc9594f9ef5e9e365cc20aa65c6541d1565554f0937379cbc",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/rogues-and-warriors.pw.toml": {
+    "resource": "images/catalog-3MKqoGuP.png",
+    "source_url": "https://cdn.modrinth.com/data/3MKqoGuP/5dc4e73e3a2fa08fdcba074961b28bd842847037_96.webp",
+    "project_url": "https://modrinth.com/project/3MKqoGuP",
+    "project_id": "3MKqoGuP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "a05f7610dda89aebf4935010b7bfdc914ccac75a9cb5c562b9df64ccda34151c",
+    "resource_sha256": "28c0f22a8adfdeaa561436fff26f533599674fc1de8b561d3c367fc1a7acb490",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/rpl.pw.toml": {
+    "resource": "images/catalog-B3pb093D.png",
+    "source_url": "https://cdn.modrinth.com/data/B3pb093D/4ce6318148468d8052271da2257230632e5e6847_96.webp",
+    "project_url": "https://modrinth.com/project/B3pb093D",
+    "project_id": "B3pb093D",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "02df53f71087c9a556c5fe8efd5210b12ef8d2afb0164a6e579ce2bb8b4c992e",
+    "resource_sha256": "3c7982641071a68577b1605a7fa04dc47b1bfb3acbd9aa289175f06e63b88021",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/runes.pw.toml": {
+    "resource": "images/catalog-lP9Yrr1E.png",
+    "source_url": "https://cdn.modrinth.com/data/lP9Yrr1E/d80117583d3b45e7e8d902e3e7e27ef15ee9b4dd_96.webp",
+    "project_url": "https://modrinth.com/project/lP9Yrr1E",
+    "project_id": "lP9Yrr1E",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "1a526a1a7adc555e97b7b4cb63228549597a914fd20dbfc444394062f59ccff1",
+    "resource_sha256": "fdfe1756291656996747ce7a0c8b4b2c7255b3b7768121733bdc343e842c47ad",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sable-cool-rain.pw.toml": {
+    "resource": "images/catalog-nUwwB5kx.png",
+    "source_url": "https://cdn.modrinth.com/data/nUwwB5kx/4813c6895ac7a84eb15ea20f535f26450dd92c80_96.webp",
+    "project_url": "https://modrinth.com/project/nUwwB5kx",
+    "project_id": "nUwwB5kx",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "05088ed11177ea78a3fd9c6bf477b125be5cc1787c0414995fe6591d609ba286",
+    "resource_sha256": "9d3b3d39eb34ec536ddcf5ad93563c7e9b0bc22e42483f2b4234d125f9db5ebc",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sable.pw.toml": {
+    "resource": "images/catalog-T9PomCSv.png",
+    "source_url": "https://cdn.modrinth.com/data/T9PomCSv/8c0a8c64c9a5a8d446d0aa23d244cb9b52314a1d.png",
+    "project_url": "https://modrinth.com/project/T9PomCSv",
+    "project_id": "T9PomCSv",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-PolyForm-Shield-License-1.0.0",
+      "name": "",
+      "url": "https://github.com/ryanhcode/sable/blob/main/LICENSE.md"
+    },
+    "original_sha256": "b8bd9cd4649a8330d6ebc70afec7017ed0e36f131825bcdcc13f2f57459e0a53",
+    "resource_sha256": "26c062a9bdc0e0898865704c64ecb6d1e5e1c172dbb05c7e12d713ecba22f54d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sable_beyond.pw.toml": {
+    "resource": "images/catalog-PrW3B4fH.png",
+    "source_url": "https://cdn.modrinth.com/data/PrW3B4fH/95de6b9643362bc8b8c90ff3fc727f8ace578b3a.png",
+    "project_url": "https://modrinth.com/project/PrW3B4fH",
+    "project_id": "PrW3B4fH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "96dd237e72c51514924cca4fed185de1fd119a19766cfef9ef106bf2e004179d",
+    "resource_sha256": "14b7a52eb568d7420cbca5260a7f7100f3da0c468350a0e88013176d31fe1fa8",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sablecompat.pw.toml": {
+    "resource": "images/catalog-sZbcIrJb.png",
+    "source_url": "https://cdn.modrinth.com/data/sZbcIrJb/70f6096cebaaf322bf8aa5fb8a67ba4f3274440d.png",
+    "project_url": "https://modrinth.com/project/sZbcIrJb",
+    "project_id": "sZbcIrJb",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "7e0c9d2e1277a881d1d6dc13e3f756eb3dff8d53159939fdd397945286c12a34",
+    "resource_sha256": "3bca22d9a6b6c064c16b3d5399d2d30c73a0c06e13834a8d721b6c03d2114a4d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/searchables.pw.toml": {
+    "resource": "images/catalog-fuuu3xnx.png",
+    "source_url": "https://cdn.modrinth.com/data/fuuu3xnx/206971d54b37b30a2e728b1c194f7f096963d05a_96.webp",
+    "project_url": "https://modrinth.com/project/fuuu3xnx",
+    "project_id": "fuuu3xnx",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "aee107093fd9379a1d3ecc8e750d80ab03d6bc68e272e58f62440caa2f63f783",
+    "resource_sha256": "0082a1b7bc76401bd399693bb75c1528fd9020300346f5c5b1c45ac41a2d3aa0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/shield-api.pw.toml": {
+    "resource": "images/catalog-y9clIFY4.png",
+    "source_url": "https://cdn.modrinth.com/data/y9clIFY4/438bf2a19d553b14314b5384974e2e32f224c711_96.webp",
+    "project_url": "https://modrinth.com/project/y9clIFY4",
+    "project_id": "y9clIFY4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "fdb2870f38e30d7e8f078a1a14480f2048d8d2c7828d45406487f8b03c1452a6",
+    "resource_sha256": "d5b74bae71150000f18edb22f8222eca0c5f1a5ffa16ffc9f9042fed72a16291",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/shulker-drops-two.pw.toml": {
+    "resource": "images/catalog-UjXIyw47.png",
+    "source_url": "https://cdn.modrinth.com/data/UjXIyw47/a93abd8f006590e9bedbf8ffda5849c136a8e39e_96.webp",
+    "project_url": "https://modrinth.com/project/UjXIyw47",
+    "project_id": "UjXIyw47",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "1723ff68cc6730fd99cd4cb672393cb631fa9384e89a5b8235e2c5fc6a8ea6b2",
+    "resource_sha256": "774c8dde041d36fa0a05cee922f4b4a3ea1f0a65586ebdc609580ae4c27c8e89",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/skill-tree.pw.toml": {
+    "resource": "images/catalog-PjDhruSC.png",
+    "source_url": "https://cdn.modrinth.com/data/PjDhruSC/bace75ef00b3f21b8a1bba68ba7888702c233067_96.webp",
+    "project_url": "https://modrinth.com/project/PjDhruSC",
+    "project_id": "PjDhruSC",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "113f496d8382d91a2a240c81a2e1872655c738bb9eaa5eff7286ec392228c87a",
+    "resource_sha256": "ea2a7ffa4249b668d7aa206454ce75a9b2c27a87fb127e879389fa26857d2fd4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/skills.pw.toml": {
+    "resource": "images/catalog-hqQqvaa4.png",
+    "source_url": "https://cdn.modrinth.com/data/hqQqvaa4/03ee8cc78c05ab021cfc96664741dd66fc69e515.png",
+    "project_url": "https://modrinth.com/project/hqQqvaa4",
+    "project_id": "hqQqvaa4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/pufmat/skillsmod/wiki/License"
+    },
+    "original_sha256": "e57e8305c85b0b0f04c79fef49b9590e6c58bca8c83b5ec131ac11f1e73218ad",
+    "resource_sha256": "51e2d60b94bd3af0b7ca9298b4d93270fb16da11230f3666fbdf924f819ef410",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/slice-and-dice.pw.toml": {
+    "resource": "images/slice-and-dice-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/GmjmRQ0A/d2d4a1a5cfc7f1ececf50dc977021c62654ccdc8_96.webp",
+    "project_url": "https://modrinth.com/project/GmjmRQ0A",
+    "project_id": "GmjmRQ0A",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/PssbleTrngle/SliceAndDice/blob/1.19.x/LICENSE.txt"
+    },
+    "original_sha256": "ab502d33d6c8144a18c6ee35ff473098af71cb59fa80e4014e224c3746dc0cd9"
+  },
+  "mods/smarter-farmers-farmers-replant.pw.toml": {
+    "resource": "images/catalog-Bh6ZOMvp.png",
+    "source_url": "https://cdn.modrinth.com/data/Bh6ZOMvp/b2ae7d685a0e2e2d8cce0a1e8e103b5583b8bc53_96.webp",
+    "project_url": "https://modrinth.com/project/Bh6ZOMvp",
+    "project_id": "Bh6ZOMvp",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "10fd2b73e70a06db200f5ce5f6a13250efa5e8906bd00c56ffa50213d8fcbebf",
+    "resource_sha256": "59dc91e94f7974de39c936a81f3b03b62c9c41d3ce2cd21e737648e2216bf70a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sodium-extra.pw.toml": {
+    "resource": "images/catalog-PtjYWJkn.png",
+    "source_url": "https://cdn.modrinth.com/data/PtjYWJkn/0df4fb22a11e1dcb5e83cb0aadd275b571aca7a9_96.webp",
+    "project_url": "https://modrinth.com/project/PtjYWJkn",
+    "project_id": "PtjYWJkn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "2d8686efe218a003d3df4b44fce8b511c80be5124e3fde61009f61dd6cb70dee",
+    "resource_sha256": "50ba388b27894859031093e754b121b71be40fa4e10d08ef3cf932c271c410f0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sodium.pw.toml": {
+    "resource": "images/catalog-AANobbMI.png",
+    "source_url": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
+    "project_url": "https://modrinth.com/project/AANobbMI",
+    "project_id": "AANobbMI",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Polyform-Shield-1.0.0",
+      "name": "",
+      "url": "https://github.com/CaffeineMC/sodium/blob/dev/LICENSE.md"
+    },
+    "original_sha256": "6577355a9d1f994edea64342f01f2b2f4f37f2dcd068f2aa35dc5b42cd241adf",
+    "resource_sha256": "8d82f8d83acf48c4ae24ab83d9c57895c4979ea7ed7d5a624eb0a834d7e7a993",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sophisticated-core.pw.toml": {
+    "resource": "images/catalog-nmoqTijg.png",
+    "source_url": "https://cdn.modrinth.com/data/nmoqTijg/83f980596761b59f5c3e4e4d2c90d031d9d69ff6.png",
+    "project_url": "https://modrinth.com/project/nmoqTijg",
+    "project_id": "nmoqTijg",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "a58485dfd19f1982ea4f1104ccddea1780de05bda6cf3282b67a9c15d95315b1",
+    "resource_sha256": "eb86ca529ab6b5ea47f586ea220575e6a1d5680a98721be22f4ca6a60a571bae",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sophisticated-inventory-interactions.pw.toml": {
+    "resource": "images/catalog-orgY0JIo.png",
+    "source_url": "https://cdn.modrinth.com/data/orgY0JIo/b0e2509740988a72c698b03db32ef428be33fffa_96.webp",
+    "project_url": "https://modrinth.com/project/orgY0JIo",
+    "project_id": "orgY0JIo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "cbcffd9918a77d463e788b1a074522377324d50789e907adc3685b3020bf1ff5",
+    "resource_sha256": "96c8c87005cf08534c2423226a530d5958dfee67fd6cdfb601676f7153c5967a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sound-physics-remastered.pw.toml": {
+    "resource": "images/catalog-qyVF9oeo.png",
+    "source_url": "https://cdn.modrinth.com/data/qyVF9oeo/798fbfae58ec95ad51f3e1d522b43227306c326c.png",
+    "project_url": "https://modrinth.com/project/qyVF9oeo",
+    "project_id": "qyVF9oeo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "b1bfc1e8f81409ec025cd07accb074086aacdcd35ba77708a02d56ce3ea6731d",
+    "resource_sha256": "21a3cbf84b1e90778d8d6061e9a71c207a88ee15cc892b53e27c36380b5f02c8",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/sound.pw.toml": {
+    "resource": "images/catalog-ZouiUX7t.png",
+    "source_url": "https://cdn.modrinth.com/data/ZouiUX7t/b6ae84ea14654245f58856722473afeddf72360c_96.webp",
+    "project_url": "https://modrinth.com/project/ZouiUX7t",
+    "project_id": "ZouiUX7t",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "ba143cd8eda60207b4af85f7ae01308f07dd5540faeb082ec0b6579b37d2e1c1",
+    "resource_sha256": "1d4097b0d64cbae2ba111f78d17c8549b52913cf4c87b5d7cfa3bc2afe8cf396",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/spark.pw.toml": {
+    "resource": "images/catalog-l6YH9Als.png",
+    "source_url": "https://cdn.modrinth.com/data/l6YH9Als/61a777dd08a8447ac93e8b6372e6d27d48cd1e1a_96.webp",
+    "project_url": "https://modrinth.com/project/l6YH9Als",
+    "project_id": "l6YH9Als",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": "https://github.com/lucko/spark/blob/master/LICENSE.txt"
+    },
+    "original_sha256": "adc177668bb47b95a74eb44e93d12627fc0dcce9db11523932fcd43955d04fd4",
+    "resource_sha256": "e944644534a6b7dd2fe85a07e55de4c652a51e2eead409ed6445c4867f20c539",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/spawn-mod.pw.toml": {
+    "resource": "images/catalog-rex9wwpz.png",
+    "source_url": "https://cdn.modrinth.com/data/rex9wwpz/845dbdbe493800e066610b99fea47372cdb25879_96.webp",
+    "project_url": "https://modrinth.com/project/rex9wwpz",
+    "project_id": "rex9wwpz",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://github.com/N1nn1/spawn/blob/main/LICENSE"
+    },
+    "original_sha256": "5080c2a41ba7abec866be6f5305eb9a67fea7ec63782d95450da420d673c7665",
+    "resource_sha256": "7c09e3a5040fbdeab729812590056d1cf9d7fe0b9dc1b955948522a9071076ec",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/spell-engine.pw.toml": {
+    "resource": "images/catalog-XvoWJaA2.png",
+    "source_url": "https://cdn.modrinth.com/data/XvoWJaA2/9f3d222d82aebadd5325ae53a927463f1e20abd0.png",
+    "project_url": "https://modrinth.com/project/XvoWJaA2",
+    "project_id": "XvoWJaA2",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "03722a97b13e7529a62dad4c6b8165e71988725c606dce41b7358a8834e48e77",
+    "resource_sha256": "3e0f6b709eb75a34be8be5825219a178fdb651650b40de1488c048c602a103c0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/spell-power.pw.toml": {
+    "resource": "images/catalog-8ooWzSQP.png",
+    "source_url": "https://cdn.modrinth.com/data/8ooWzSQP/fb6ef3214dcfddc7d0062f5642e30eb45de6df32_96.webp",
+    "project_url": "https://modrinth.com/project/8ooWzSQP",
+    "project_id": "8ooWzSQP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "ae130b53959de26e66b3d39c953fd68fb958d88c30b03df131249a697027c3f5",
+    "resource_sha256": "ca7df15645c6f950fee1d89ef79ff48e6d14c2580e8360220ca1169dbc4441e4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/spice-of-life-onion.pw.toml": {
+    "resource": "images/catalog-eHGYGKJz.png",
+    "source_url": "https://cdn.modrinth.com/data/eHGYGKJz/062dfd177016cc6d990e2040bb7f345378a36783_96.webp",
+    "project_url": "https://modrinth.com/project/eHGYGKJz",
+    "project_id": "eHGYGKJz",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "d4f77d0b52f0d7153fd6c3b16c80d72b6578cca154ea0d64b9a24e8486643187",
+    "resource_sha256": "55fb37722228e119ad4c651e7099e3c97144260af7509559be9ce7d28ccbf6ee",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/status-effect-bars-reforged.pw.toml": {
+    "resource": "images/catalog-TxIuhIFo.png",
+    "source_url": "https://cdn.modrinth.com/data/TxIuhIFo/cfe592c40df79128198cb79d3a43b78acb82d9ac.png",
+    "project_url": "https://modrinth.com/project/TxIuhIFo",
+    "project_id": "TxIuhIFo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "5d23f926f8a23af9e32d0689bd07ff2df2e205abf5e0d6c24eb5d536eb9768cc",
+    "resource_sha256": "33580585d47088bd5265d2d8fd69cfb6dd7197461e86fc5b92fe8506842c485f",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/stone-zone.pw.toml": {
+    "resource": "images/catalog-uYwn8IP5.png",
+    "source_url": "https://cdn.modrinth.com/data/uYwn8IP5/8c86c0aee0d9432c1f07f2b37412b988631aedf9.gif",
+    "project_url": "https://modrinth.com/project/uYwn8IP5",
+    "project_id": "uYwn8IP5",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "369f36af418b1d9f2400c13d51fb9cbe555b7192929072b63c4a12296f06f9fe",
+    "resource_sha256": "53b2904aafb868f7bc07e7afe5ebb94cbe39b0f59181cbd99ffb67d001733803",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/straw-statues.pw.toml": {
+    "resource": "images/catalog-2fltysAl.png",
+    "source_url": "https://cdn.modrinth.com/data/2fltysAl/b0e955683f2e8e88e1cb7c7347c6550cbdd983d0_96.webp",
+    "project_url": "https://modrinth.com/project/2fltysAl",
+    "project_id": "2fltysAl",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "bf70559e6ea1ae7159c6d9fb7bad0de0576e44ecef3bde256dff70a7b33a1396",
+    "resource_sha256": "fe7b953b5c4972ce3f46eb7ae4c5ea7e6a76d15e3ebf8b1ee1baa1b7685602e0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/streams-reflowing.pw.toml": {
+    "resource": "images/streams-reflowing-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/oLS8HdJ1/0486c1c7025e0fe7d82a2f2219bb735227f66089.png",
+    "project_url": "https://modrinth.com/project/oLS8HdJ1",
+    "project_id": "oLS8HdJ1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "4c5a636923838ec40d8c6e161dc7fbc7c267cf1429c9ee918bd102b1a61468d2"
+  },
+  "mods/structure-layout-optimizer.pw.toml": {
+    "resource": "images/catalog-ayPU0OHc.png",
+    "source_url": "https://cdn.modrinth.com/data/ayPU0OHc/0e99f63cf0ba0080df6c35ca50731a849a9decbb_96.webp",
+    "project_url": "https://modrinth.com/project/ayPU0OHc",
+    "project_id": "ayPU0OHc",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8b376296b2b817357a9688bf99fa647fe97bd1035426287993157c043f8ce19b",
+    "resource_sha256": "d39831b66c283263dad246125957889c5b9a9a46c6b111ce09b55736d3280f50",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/structure-pool-api.pw.toml": {
+    "resource": "images/catalog-LrYZi08Q.png",
+    "source_url": "https://cdn.modrinth.com/data/LrYZi08Q/90488ffba720db0ac727047e5e1ebc9213f53627_96.webp",
+    "project_url": "https://modrinth.com/project/LrYZi08Q",
+    "project_id": "LrYZi08Q",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "aecb6b280571e8b68f1b14a80b61baa55eddb117140c6df98a12afa001f0d07e",
+    "resource_sha256": "980dc5f1694fed4d22cca46e01ade431984d4af19f70dfe7df3cc225401e2ed1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/stylish-effects.pw.toml": {
+    "resource": "images/catalog-onDuQF5e.png",
+    "source_url": "https://cdn.modrinth.com/data/onDuQF5e/226645048035534b158244c93ba3a7996aa8e780_96.webp",
+    "project_url": "https://modrinth.com/project/onDuQF5e",
+    "project_id": "onDuQF5e",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "fc88e80f55d0159359f63acd6a2cf13de6f0f04ddb27126730d7e136133ad660",
+    "resource_sha256": "ce86f5d340bced1d6bba7a1677faef8267c68163355b2675f01506b58ead740d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/supplementaries.pw.toml": {
+    "resource": "images/catalog-fFEIiSDQ.png",
+    "source_url": "https://cdn.modrinth.com/data/fFEIiSDQ/e9f5f66fa3b67e54acb91258a1428d68311c58bc_96.webp",
+    "project_url": "https://modrinth.com/project/fFEIiSDQ",
+    "project_id": "fFEIiSDQ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Supplementaries-Team-License",
+      "name": "",
+      "url": "https://github.com/MehVahdJukaar/Supplementaries-Team-License/blob/main/LICENSE.md"
+    },
+    "original_sha256": "79f0832d84a4b3b9e5798e94b05903c055ebf139beefdfefa795961d622c52dc",
+    "resource_sha256": "40a61bb4c64e6a979b8e79269b88ef995198d787526000d8a2404502ed0e1dc6",
+    "dimensions": [
+      96,
+      94
+    ]
+  },
+  "mods/teallib.pw.toml": {
+    "resource": "images/catalog-rLJ1qF79.png",
+    "source_url": "https://cdn.modrinth.com/data/rLJ1qF79/a8032d47c47d3465b526eeac34f32f4784c497ca_96.webp",
+    "project_url": "https://modrinth.com/project/rLJ1qF79",
+    "project_id": "rLJ1qF79",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Teal-License",
+      "name": "",
+      "url": "https://github.com/N1nn1/TealLib/blob/main/LICENSE.txt"
+    },
+    "original_sha256": "1ca3e0577c51fb0d4668fefbc710fbd4c1b536c3453ba0085a75e9900dd05504",
+    "resource_sha256": "6e15e26121c704e216293d018088512b08571ff7ab5484b16cff95ad80897ff9",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/tectonic.pw.toml": {
+    "resource": "images/tectonic-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/lWDHr9jE/d8b3413f797479dcc0d8764756613e449a358a2e_96.webp",
+    "project_url": "https://modrinth.com/project/lWDHr9jE",
+    "project_id": "lWDHr9jE",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8259c6ed5fccc5a44f9ef931516bc4266ad22708a0a112ce04a040e4e2084bc9"
+  },
+  "mods/tempad.pw.toml": {
+    "resource": "images/catalog-gKNwt7xu.png",
+    "source_url": "https://cdn.modrinth.com/data/gKNwt7xu/e432887182e7aae2bca00df4b940d142d74caf9e_96.webp",
+    "project_url": "https://modrinth.com/project/gKNwt7xu",
+    "project_id": "gKNwt7xu",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Terrarium-License",
+      "name": "",
+      "url": "https://github.com/terrarium-earth/Tempad/blob/1.20.x/LICENSE"
+    },
+    "original_sha256": "01c38820baa373715f3e2855bdc2115612425f5ad1f423929738c38d64ea8eb9",
+    "resource_sha256": "3daebeee9f8f7dce6c5ea9f935ee88a9202707c291c2e957f52a5148f76f0410",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/terralith.pw.toml": {
+    "resource": "images/terralith-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/8oi3bsk5/1959d924a1088944bbf07a06ba523726112d7e7a_96.webp",
+    "project_url": "https://modrinth.com/project/8oi3bsk5",
+    "project_id": "8oi3bsk5",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Stardust-Labs-License",
+      "name": "",
+      "url": "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt"
+    },
+    "original_sha256": "81442f5a90c08750fd07aba08c2f7207ba18a054e75be3cc61a5dce9448370d6"
+  },
+  "mods/tfmg-community-edition.pw.toml": {
+    "resource": "images/tfmg-community-edition-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/hC1xYvnS/d3a8fb2ed43776c214a33bff66837939d7123d5c_96.webp",
+    "project_url": "https://modrinth.com/project/hC1xYvnS",
+    "project_id": "hC1xYvnS",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-MIT-NON-AI",
+      "name": "",
+      "url": "https://metallurgists-of-create.github.io/about-us/licence"
+    },
+    "original_sha256": "f49578c02a42db6a71b772dc2f62631ba28edfe91d31df311e1a7210ba07ede4"
+  },
+  "mods/toast-control.pw.toml": {
+    "resource": "images/catalog-CnOG2wlS.png",
+    "source_url": "https://cdn.modrinth.com/data/CnOG2wlS/96e00b18b5a80990af46c4c02c9ea9a36e61a61b_96.webp",
+    "project_url": "https://modrinth.com/project/CnOG2wlS",
+    "project_id": "CnOG2wlS",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "0de1b6d1b57ad591d3fe62c6907a3bc7e9f59b0486b2800d73c701d23beef099",
+    "resource_sha256": "41e341d1ef803ed2025c10371ab8c60fae87d054aaf2325fff51cc49735bd348",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/tooltipfix.pw.toml": {
+    "resource": "images/catalog-2RKFTmiB.png",
+    "source_url": "https://cdn.modrinth.com/data/2RKFTmiB/37917b544806c3e959be5b42bec64842f795d185_96.webp",
+    "project_url": "https://modrinth.com/project/2RKFTmiB",
+    "project_id": "2RKFTmiB",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "11d4d15f1ebe4a3a5486d21fbf8b73bfa4e000909a8d14c0d8595b8c7ac339d1",
+    "resource_sha256": "25572e57d92eef1d6975f422c6279e00468af4710c1235136393cc1a3787f52c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/torchmaster.pw.toml": {
+    "resource": "images/catalog-Tl8ESrhX.png",
+    "source_url": "https://cdn.modrinth.com/data/Tl8ESrhX/icon.png",
+    "project_url": "https://modrinth.com/project/Tl8ESrhX",
+    "project_id": "Tl8ESrhX",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "b91d94476a8a3cdfb452ae254c74fef8865a77b3f0b837c2a35e17f15bda0198",
+    "resource_sha256": "754e1ee6039007e8bb9888f4cb8d67c5bf9a157d417a2ee0e5b390d68969c249",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/trade-refresh.pw.toml": {
+    "resource": "images/catalog-OlAQOlqx.png",
+    "source_url": "https://cdn.modrinth.com/data/OlAQOlqx/b36525504c46059764ab710f8a15b88e5139036f_96.webp",
+    "project_url": "https://modrinth.com/project/OlAQOlqx",
+    "project_id": "OlAQOlqx",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-2.1-only",
+      "name": "GNU Lesser General Public License v2.1 only",
+      "url": null
+    },
+    "original_sha256": "b2dd3fcddfcecbb959ed67acaffac662cba7bd55f54d44618f268c8ead1ac04e",
+    "resource_sha256": "f7de5af85238756a1deb072af96674c2e4056f6e5228343c4b91b3258f20a8da",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/trashslot.pw.toml": {
+    "resource": "images/catalog-vRYk0bv7.png",
+    "source_url": "https://cdn.modrinth.com/data/vRYk0bv7/f700e747710e4d485c79617fe993cc53887a3da6.png",
+    "project_url": "https://modrinth.com/project/vRYk0bv7",
+    "project_id": "vRYk0bv7",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://mods.twelveiterations.com/permissions"
+    },
+    "original_sha256": "dd2deba68155012a43f19c5af89e3289c768c7175cd3a5b075155622a752b67e",
+    "resource_sha256": "d17cf1eb9c0e60810c87dcb2c082158b1f13f958e251996a1fdb39a5784274ac",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/travelers-titles.pw.toml": {
+    "resource": "images/catalog-JtifUr64.png",
+    "source_url": "https://cdn.modrinth.com/data/JtifUr64/e7743f2d78a52a1af0ebe5aacbfa940094c63dff_96.webp",
+    "project_url": "https://modrinth.com/project/JtifUr64",
+    "project_id": "JtifUr64",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "cb07d5381386bbd30e2642fa713c791f00649c54136773345c90b76d45305d1f",
+    "resource_sha256": "0587d8a7c7911bc3caa1f118a3a8ff99fc21caab9d947f252c795c22a457f6ad",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/universal-bone-meal.pw.toml": {
+    "resource": "images/catalog-66VIiT1y.png",
+    "source_url": "https://cdn.modrinth.com/data/66VIiT1y/a9044e7055e9822c0582170dfe69a2e2664a06d2_96.webp",
+    "project_url": "https://modrinth.com/project/66VIiT1y",
+    "project_id": "66VIiT1y",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MPL-2.0",
+      "name": "Mozilla Public License 2.0",
+      "url": null
+    },
+    "original_sha256": "33fd1e0887b0d65c3a4b96cee49c6aceb254dd073db3f8cf94627e5e7cb9d8a5",
+    "resource_sha256": "1fdeacf0dbe4c356e30326c97a298950881c7ab8dda1261da2e17cdfdd2fd845",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/vanilla-backpacks.pw.toml": {
+    "resource": "images/catalog-MGcd6kTf.png",
+    "source_url": "https://cdn.modrinth.com/data/MGcd6kTf/92c378c17ca08571527577fa73309a6e962cbebd_96.webp",
+    "project_url": "https://modrinth.com/project/MGcd6kTf",
+    "project_id": "MGcd6kTf",
+    "kind": "publisher icon",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://choosealicense.com/licenses/apache-2.0/"
+    },
+    "original_sha256": "6eb1f5e8728f5323889cf05c6cdf21344b256d94a79862f7cf43d2616c1a4833",
+    "resource_sha256": "c92b9b2adc9a7cbd171c3aeadd3c6a4b2b462a695b3d205b7b8c11281161abd9",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/variants-and-ventures.pw.toml": {
+    "resource": "images/catalog-lNDRiXkY.png",
+    "source_url": "https://cdn.modrinth.com/data/lNDRiXkY/bd6e91737946cf99c155c94108e98df8248e3078_96.webp",
+    "project_url": "https://modrinth.com/project/lNDRiXkY",
+    "project_id": "lNDRiXkY",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-CC-BY-NC-ND-4.0",
+      "name": "",
+      "url": "https://raw.githubusercontent.com/Faboslav/variants-and-ventures/master/LICENSE.txt"
+    },
+    "original_sha256": "3020bafe46631ecd7a9a683c3cc5d26700280f36ca5e135aaef4ca6417e6e0f9",
+    "resource_sha256": "327088342b47cc54b336fb04ecc2249a815479438f3a2a6aa737efe190cad2aa",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/village-taverns.pw.toml": {
+    "resource": "images/catalog-bj4a8NjJ.png",
+    "source_url": "https://cdn.modrinth.com/data/bj4a8NjJ/da775ea634b9344ebd926119e77dfed6ded71928_96.webp",
+    "project_url": "https://modrinth.com/project/bj4a8NjJ",
+    "project_id": "bj4a8NjJ",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "942ab1f55953547e89e41f8ce4509e2b3f3d9001d86ee0a457d5a5d54122fecf",
+    "resource_sha256": "0e9f3b0ffdb02053966e636ded1dfbed5967c7b8c7f123f1d186813805cd2b49",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/villager-names-serilum.pw.toml": {
+    "resource": "images/catalog-gqRXDo8B.png",
+    "source_url": "https://cdn.modrinth.com/data/gqRXDo8B/44a24693e277ae99295054691d0acbbbf0d56774_96.webp",
+    "project_url": "https://modrinth.com/project/gqRXDo8B",
+    "project_id": "gqRXDo8B",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "7c058ce4f4889d11817491fc88c9a96050816dcb2c50895fc065c5b59138f3e3",
+    "resource_sha256": "d574a1e66614ffd4a58106c8d7f2f10d10d12bf61d3758da9b860dce74486b1e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/waystones-sable.pw.toml": {
+    "resource": "images/catalog-BxhPGfcK.png",
+    "source_url": "https://cdn.modrinth.com/data/BxhPGfcK/0ac6ec70794e0be2f74b36ca14e50ae8e4753c59_96.webp",
+    "project_url": "https://modrinth.com/project/BxhPGfcK",
+    "project_id": "BxhPGfcK",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/SShakusora/WaystonesSable/blob/1.21.1/LICENSE"
+    },
+    "original_sha256": "de18064c77845da1daa881ece551f2d1235a84d4d7325c75cbe11e9a27d87030",
+    "resource_sha256": "81e4083058d6ad7621194598fe0644a367745f908818a10eaa980c61ac45db5a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/waystones.pw.toml": {
+    "resource": "images/catalog-LOpKHB2A.png",
+    "source_url": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp",
+    "project_url": "https://modrinth.com/project/LOpKHB2A",
+    "project_id": "LOpKHB2A",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://mods.twelveiterations.com/permissions"
+    },
+    "original_sha256": "45ac21f5fd420c7b077e16252e892ab5a5ece635809b0ceb1a6cbd0fa932aea1",
+    "resource_sha256": "8c96ce0348a74c95f22e5981828dfecafbc82165eca10a9d02e6e6c35ec91966",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/when-dungeons-arise.pw.toml": {
+    "resource": "images/catalog-8DfbfASn.png",
+    "source_url": "https://cdn.modrinth.com/data/8DfbfASn/4240773f6aa5f8c69f44a5e2e0ff313f98ff3389_96.webp",
+    "project_url": "https://modrinth.com/project/8DfbfASn",
+    "project_id": "8DfbfASn",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "8790ff46e3bfac07d7f6097203f210e049b3a582098a779fb061b258cafdf351",
+    "resource_sha256": "1b41850815729e80e0db6f84d14dc263c8d533db7bd59c619c3e4eb2b2ba5c60",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/witcher-rpg-class.pw.toml": {
+    "resource": "images/catalog-4eW1c7Gj.png",
+    "source_url": "https://cdn.modrinth.com/data/4eW1c7Gj/ebf3e3df15df4da143269bfccdee55319cf25c6d_96.webp",
+    "project_url": "https://modrinth.com/project/4eW1c7Gj",
+    "project_id": "4eW1c7Gj",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "a3e3e9d41d82b81045063139bf843228a619a4444acd425d1c20e24dd3ec24b2",
+    "resource_sha256": "ac14f365052790620b9016e2516f1f8991acae09150d83b80bc7d404c59b0a08",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/wizards.pw.toml": {
+    "resource": "images/catalog-NkGaQMDA.png",
+    "source_url": "https://cdn.modrinth.com/data/NkGaQMDA/06c5350c207bddffefdfea0b6fc80269d683bbd7_96.webp",
+    "project_url": "https://modrinth.com/project/NkGaQMDA",
+    "project_id": "NkGaQMDA",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "d0f27b50804827946d2de2f3754ea65239133e77cb0a423e6dd30bae4033125e",
+    "resource_sha256": "5de72224b59f6d67733d939d8398fbbe99d001e4b4644135d100467e2e6f07b6",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/xaeros-maps-multiplayer-plus.pw.toml": {
+    "resource": "images/catalog-stTaMuWa.png",
+    "source_url": "https://cdn.modrinth.com/data/stTaMuWa/6b8193504f0cdcdca775bcc897866afb99efa6ad_96.webp",
+    "project_url": "https://modrinth.com/project/stTaMuWa",
+    "project_id": "stTaMuWa",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "abaa6a53fc33964e3fc4649b340d06d2c4706e7cf7f32c58f0a135bec0bc208c",
+    "resource_sha256": "e8a850507f78e7767a24752ecc4d589d46d6f0054025176bf57dda01bc3bde59",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/xaeros-minimap.pw.toml": {
+    "resource": "images/catalog-1bokaNcj.png",
+    "source_url": "https://cdn.modrinth.com/data/1bokaNcj/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+    "project_url": "https://modrinth.com/project/1bokaNcj",
+    "project_id": "1bokaNcj",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "13232c4850db3285b4224c9c8b6e4b5cd176de7a857444129d0725bfab3353d7",
+    "resource_sha256": "dc2b2ec58e9e6f9004512d38806c8bce44e4f2ddba3aac1d3edb7c590de0d344",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/xaeros-world-map.pw.toml": {
+    "resource": "images/catalog-NcUtCpym.png",
+    "source_url": "https://cdn.modrinth.com/data/NcUtCpym/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+    "project_url": "https://modrinth.com/project/NcUtCpym",
+    "project_id": "NcUtCpym",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "13232c4850db3285b4224c9c8b6e4b5cd176de7a857444129d0725bfab3353d7",
+    "resource_sha256": "dc2b2ec58e9e6f9004512d38806c8bce44e4f2ddba3aac1d3edb7c590de0d344",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yacl.pw.toml": {
+    "resource": "images/catalog-1eAoo2KR.png",
+    "source_url": "https://cdn.modrinth.com/data/1eAoo2KR/08c0cd32515e260f4bb20bbc0696510041523f9a_96.webp",
+    "project_url": "https://modrinth.com/project/1eAoo2KR",
+    "project_id": "1eAoo2KR",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-or-later",
+      "name": "GNU Lesser General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "bba20ffd857c2db1a17bdb018cc56ca94a74cd7876eb94b2350b612fac8a4c29",
+    "resource_sha256": "4766eb09b7a21acb5ed8faf6b0bfebdfef59b9a2f468a0ee4a60e10f808975d8",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-api.pw.toml": {
+    "resource": "images/catalog-Ua7DFN59.png",
+    "source_url": "https://cdn.modrinth.com/data/Ua7DFN59/0fab1c351bf00926a8e1c91dc64b7c88832c3e1f_96.webp",
+    "project_url": "https://modrinth.com/project/Ua7DFN59",
+    "project_id": "Ua7DFN59",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "79dfa53adabfe644e87980b59c36316ecdf801a94932f9825bc804d94cf1a7d5",
+    "resource_sha256": "950109a6e89395c3c990b4aff79f6669674cdfae0db5f680a00e2dc8b057c1a2",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-desert-temples.pw.toml": {
+    "resource": "images/catalog-XNlO7sBv.png",
+    "source_url": "https://cdn.modrinth.com/data/XNlO7sBv/32fc82949e922ad9281ac9a8fe965afc04261848_96.webp",
+    "project_url": "https://modrinth.com/project/XNlO7sBv",
+    "project_id": "XNlO7sBv",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "93ab3492e7a8408c9b62aa2d1ffe2a12f38899ef88741d7d928dfc0b7a6b5133",
+    "resource_sha256": "e0a435ac3591d7aa013f481fc0bed94c2888afd0ab4ff637bd4326638a8161f8",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-dungeons.pw.toml": {
+    "resource": "images/catalog-o1C1Dkj5.png",
+    "source_url": "https://cdn.modrinth.com/data/o1C1Dkj5/9b54b2d932a5a5b6565c93814935c04902f3179b_96.webp",
+    "project_url": "https://modrinth.com/project/o1C1Dkj5",
+    "project_id": "o1C1Dkj5",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "afd2ff7581ed05ea7b49e8cd32d88def3be2da8cb58d1cc9cd062619cf03e380",
+    "resource_sha256": "a9cf275e44e4204e9481cb9f9ce12cc97e5802754e6e143e1624f123f02922f1",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-jungle-temples.pw.toml": {
+    "resource": "images/catalog-z9Ve58Ih.png",
+    "source_url": "https://cdn.modrinth.com/data/z9Ve58Ih/a142b7d112fe6812592de7db2d2badb1398100a7_96.webp",
+    "project_url": "https://modrinth.com/project/z9Ve58Ih",
+    "project_id": "z9Ve58Ih",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "d487056b1079b05d8beeed91783b79f03f11e0cf4c9b5feebcc5c9c892edba66",
+    "resource_sha256": "cb022a6c277ddfc3ffbbf59776bf55b5778725b59192c535ab2ec721d139aef4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-mineshafts.pw.toml": {
+    "resource": "images/catalog-HjmxVlSr.png",
+    "source_url": "https://cdn.modrinth.com/data/HjmxVlSr/4e41ef8344db48b8368cd3d6f35844c8a619f446_96.webp",
+    "project_url": "https://modrinth.com/project/HjmxVlSr",
+    "project_id": "HjmxVlSr",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "48b1ddd521161b6140e9984ff93ede37af17e2511e0b23465a6a207e0ae00c7b",
+    "resource_sha256": "beb47b4bd964983a9f4be6e537701ece006dbe01412377d30875a32e72925c28",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-nether-fortresses.pw.toml": {
+    "resource": "images/catalog-Z2mXHnxP.png",
+    "source_url": "https://cdn.modrinth.com/data/Z2mXHnxP/3c88dd70c00b5e47addd9fdeba53a7c96076088d_96.webp",
+    "project_url": "https://modrinth.com/project/Z2mXHnxP",
+    "project_id": "Z2mXHnxP",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "334062f92622996704556f5d4c55ac21843114bea7ed575726f6a1cf2e9dd3a8",
+    "resource_sha256": "96895bcce91d5a91f9d6ee92f615baf92cf6db295d8501eb56d856e09118c381",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-ocean-monuments.pw.toml": {
+    "resource": "images/catalog-3dT9sgt4.png",
+    "source_url": "https://cdn.modrinth.com/data/3dT9sgt4/05c04c64ab9e5bf523701fa7bc0ac54adec25337_96.webp",
+    "project_url": "https://modrinth.com/project/3dT9sgt4",
+    "project_id": "3dT9sgt4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "9dbeb6acce89d1a8bc5937d3acd905ae5f758bfa3fec98bfa7d5c2739479e4d6",
+    "resource_sha256": "84179195eba0d4d93de544b37dc19d3fc2b07d42a16cd2f3c923a3c3e61a0f83",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-strongholds.pw.toml": {
+    "resource": "images/catalog-kidLKymU.png",
+    "source_url": "https://cdn.modrinth.com/data/kidLKymU/bfb3cac4ca4d7d891fbbcb34a1d61eaa1d6f3e9a_96.webp",
+    "project_url": "https://modrinth.com/project/kidLKymU",
+    "project_id": "kidLKymU",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "423b65625cbfcfca58e204a1096d51b3bf73a8f8a2359313e8a8ba8e41eb7753",
+    "resource_sha256": "64b6be85602bb7803919375145a92c1d4297299097eb641779c3224a583bc039",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/yungs-better-witch-huts.pw.toml": {
+    "resource": "images/catalog-t5FRdP87.png",
+    "source_url": "https://cdn.modrinth.com/data/t5FRdP87/20d3e930ec0a010723df61df091160104294e0b0_96.webp",
+    "project_url": "https://modrinth.com/project/t5FRdP87",
+    "project_id": "t5FRdP87",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "33b6a921a616921bb2833a48a3337c6326f17291b155101a924d94d7ab95a182",
+    "resource_sha256": "462e669eeb2f19d9220bec501af0c3de16b2a6cf4a44f1361d3e0f1883c5ac57",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "resourcepacks/attribute-icons-rpg-series.pw.toml": {
+    "resource": "images/catalog-73QpzsIN.png",
+    "source_url": "https://cdn.modrinth.com/data/73QpzsIN/1e6b9b63f3704f161b46add276c37bd563391f5c_96.webp",
+    "project_url": "https://modrinth.com/project/73QpzsIN",
+    "project_id": "73QpzsIN",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "bf0f39196e03dfa4eee0a5e4f0afc5bf4b04d2b84ea2cdcf80c4054955df4b0f",
+    "resource_sha256": "efe42e4cc9671496f69b524210bc2a5691a325d23e6788fcedded6760f28a6f0",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "resourcepacks/better-leaves.pw.toml": {
+    "resource": "images/catalog-uvpymuxq.png",
+    "source_url": "https://cdn.modrinth.com/data/uvpymuxq/fe1a61998ae57dc6ad1a4bb028334c3c3925d22f_96.webp",
+    "project_url": "https://modrinth.com/project/uvpymuxq",
+    "project_id": "uvpymuxq",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "3d61d86e453ec227fffb5b23b21234991bd4cfd8b109407356f3b0944e593d1c",
+    "resource_sha256": "ef1e445a3753ded2b6b71a4c15777ac933ceee39ea42785d58799b1bc8e758fb",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "resourcepacks/mandalas-gui-dark-mode.pw.toml": {
+    "resource": "images/catalog-h6zxsNVF.png",
+    "source_url": "https://cdn.modrinth.com/data/h6zxsNVF/458fb1c1a7c10c19f7a4a58e99defb73e54fbc93.png",
+    "project_url": "https://modrinth.com/project/h6zxsNVF",
+    "project_id": "h6zxsNVF",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "9926d7486326d4144fb9ab159c5450df0d71793c9b9f485bdebb81ffe550942c",
+    "resource_sha256": "26a5bcf51582896b2582bc0ba2ab5ccc94f68a405015be37b625625afcf1344c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "shaderpacks/complementary-reimagined.pw.toml": {
+    "resource": "images/catalog-HVnmMxH1.png",
+    "source_url": "https://cdn.modrinth.com/data/HVnmMxH1/79cb7c8123bbc54945305b2ebad6b8881efdf5f8_96.webp",
+    "project_url": "https://modrinth.com/project/HVnmMxH1",
+    "project_id": "HVnmMxH1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt"
+    },
+    "original_sha256": "a669e709e8ec92aab985a98a659d2c7c69bbbb63d0713549f1c4c624f6b8ef7e",
+    "resource_sha256": "0a952e584efa22264d4ae575f6436ab910d140cab41b2a4350efbd6596f0638c",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "shaderpacks/complementary-unbound.pw.toml": {
+    "resource": "images/catalog-R6NEzAwj.png",
+    "source_url": "https://cdn.modrinth.com/data/R6NEzAwj/c85ce4049aac76360d2cd24fd9a7003de01ef312_96.webp",
+    "project_url": "https://modrinth.com/project/R6NEzAwj",
+    "project_id": "R6NEzAwj",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/ComplementaryDevelopment/ComplementaryShadersV4/blob/main/License.txt"
+    },
+    "original_sha256": "1cd28dc5bab1be7918db3c1ed9bb6f7ce3319f7b87bac928b38983f0af84de5c",
+    "resource_sha256": "b1ca9d887c940fb73e9438eb05b6754a6ab41039324791ac1981d689704b5618",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "shaderpacks/photon-shader.pw.toml": {
+    "resource": "images/catalog-lLqFfGNs.png",
+    "source_url": "https://cdn.modrinth.com/data/lLqFfGNs/39cb5f12e7dcc68d6cb666f225fcb2b801dd70fb_96.webp",
+    "project_url": "https://modrinth.com/project/lLqFfGNs",
+    "project_id": "lLqFfGNs",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-",
+      "name": "",
+      "url": "https://github.com/sixthsurge/photon/blob/main/LICENSE"
+    },
+    "original_sha256": "c6f53501ccc9d91672d68c213380ea2684dfff63bce5e9f951077b403baec010",
+    "resource_sha256": "9247e9b0223bd4c3ab23ce72e9f4815670543dc9a93d3cb790a523081bfbca06",
+    "dimensions": [
+      96,
+      96
+    ]
+  }
+}

@@ -1,0 +1,2124 @@
+{
+  "provider_count": 320,
+  "availability_counts": {
+    "baseline": 292,
+    "heavy": 20,
+    "deferred": 8
+  },
+  "providers": [
+    {
+      "metadata_path": "mods/additional-rpg-jewelry.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.accessories",
+      "primary_page": "equipment.accessories.md"
+    },
+    {
+      "metadata_path": "mods/advancement-plaques.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/aeroengine.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.engines",
+      "primary_page": "vehicles.engines.md"
+    },
+    {
+      "metadata_path": "mods/ai-improvements.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/almanac.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/amendments.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.furniture",
+      "primary_page": "building.furniture.md"
+    },
+    {
+      "metadata_path": "mods/apollib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/appleskin.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.hunger",
+      "primary_page": "food.hunger.md"
+    },
+    {
+      "metadata_path": "mods/archers-expansion.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.martial",
+      "primary_page": "combat.martial.md"
+    },
+    {
+      "metadata_path": "mods/archers.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.martial",
+      "primary_page": "combat.martial.md"
+    },
+    {
+      "metadata_path": "mods/architectury-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/armor-model-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/armor-poser.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.displays",
+      "primary_page": "building.displays.md"
+    },
+    {
+      "metadata_path": "mods/armory-rpg-series.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.weapons-armor",
+      "primary_page": "equipment.weapons-armor.md"
+    },
+    {
+      "metadata_path": "mods/arsenal-rpg-series.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.weapons-armor",
+      "primary_page": "equipment.weapons-armor.md"
+    },
+    {
+      "metadata_path": "mods/astropunk-handbook-access-1.0.0.jar",
+      "availability": "baseline",
+      "primary_topic": "help.controls",
+      "primary_page": "help.controls.md"
+    },
+    {
+      "metadata_path": "mods/asynclogger.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "performance.deferred",
+      "primary_page": "performance.deferred.md"
+    },
+    {
+      "metadata_path": "mods/asyncparticles.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/athena-ctm.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/attributefix.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.bridges",
+      "primary_page": "technical.bridges.md"
+    },
+    {
+      "metadata_path": "mods/badoptimizations.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/baguettelib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/balm.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/bard-more-rpg-classes.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.magic",
+      "primary_page": "combat.magic.md"
+    },
+    {
+      "metadata_path": "mods/bbrb.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "mods/beautify-refoxed.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.furniture",
+      "primary_page": "building.furniture.md"
+    },
+    {
+      "metadata_path": "mods/bellsandwhistles.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/berserker-rpg-class.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.martial",
+      "primary_page": "combat.martial.md"
+    },
+    {
+      "metadata_path": "mods/better-combat.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.handling",
+      "primary_page": "combat.handling.md"
+    },
+    {
+      "metadata_path": "mods/better-modlist.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/betterdays.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.sleep",
+      "primary_page": "adventure.sleep.md"
+    },
+    {
+      "metadata_path": "mods/betterf3.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/bigsignwriter.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.displays",
+      "primary_page": "building.displays.md"
+    },
+    {
+      "metadata_path": "mods/blocks-bogies.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "transport.railway-builder",
+      "primary_page": "transport.railway-builder.md"
+    },
+    {
+      "metadata_path": "mods/bookshelf-lib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/bossesrise.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.bosses",
+      "primary_page": "adventure.bosses.md"
+    },
+    {
+      "metadata_path": "mods/bundle-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/c2me-neoforge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/carry-on.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "interactions.carry",
+      "primary_page": "interactions.carry.md"
+    },
+    {
+      "metadata_path": "mods/chipped-express.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.palette",
+      "primary_page": "building.palette.md"
+    },
+    {
+      "metadata_path": "mods/chipped.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.palette",
+      "primary_page": "building.palette.md"
+    },
+    {
+      "metadata_path": "mods/chunky.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "server.tools",
+      "primary_page": "server.tools.md"
+    },
+    {
+      "metadata_path": "mods/cloth-config.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/clumps.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/collective.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/combat-roll.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.handling",
+      "primary_page": "combat.handling.md"
+    },
+    {
+      "metadata_path": "mods/comforts.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.sleep",
+      "primary_page": "adventure.sleep.md"
+    },
+    {
+      "metadata_path": "mods/configured-defaults.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "server.tools",
+      "primary_page": "server.tools.md"
+    },
+    {
+      "metadata_path": "mods/connector.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/continuity.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "mods/controlling.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.controls",
+      "primary_page": "help.controls.md"
+    },
+    {
+      "metadata_path": "mods/cool-rain-reforged.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/copycats.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.copycats",
+      "primary_page": "building.copycats.md"
+    },
+    {
+      "metadata_path": "mods/corpse-x-curios-api-compat.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.recovery",
+      "primary_page": "adventure.recovery.md"
+    },
+    {
+      "metadata_path": "mods/corpse.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.recovery",
+      "primary_page": "adventure.recovery.md"
+    },
+    {
+      "metadata_path": "mods/create-additional-logistics.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.logistics",
+      "primary_page": "machines.logistics.md"
+    },
+    {
+      "metadata_path": "mods/create-aeronautics-encased-fluid-pipes.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.airships",
+      "primary_page": "vehicles.airships.md"
+    },
+    {
+      "metadata_path": "mods/create-aeronautics.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.assembly",
+      "primary_page": "vehicles.assembly.md"
+    },
+    {
+      "metadata_path": "mods/create-aerowarptics.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "space.vehicle-transfer",
+      "primary_page": "space.vehicle-transfer.md"
+    },
+    {
+      "metadata_path": "mods/create-aeroworks.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.controls",
+      "primary_page": "vehicles.controls.md"
+    },
+    {
+      "metadata_path": "mods/create-ballast.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.airships",
+      "primary_page": "vehicles.airships.md"
+    },
+    {
+      "metadata_path": "mods/create-big-cannons.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.weapons",
+      "primary_page": "vehicles.weapons.md"
+    },
+    {
+      "metadata_path": "mods/create-bits-n-bobs.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-central-kitchen.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.machine-cooking",
+      "primary_page": "food.machine-cooking.md"
+    },
+    {
+      "metadata_path": "mods/create-connected.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.rotation",
+      "primary_page": "machines.rotation.md"
+    },
+    {
+      "metadata_path": "mods/create-deco.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-deep-seas.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.water",
+      "primary_page": "vehicles.water.md"
+    },
+    {
+      "metadata_path": "mods/create-design-n-decor.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-dragons-plus.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/create-electro-energetics.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "power.electricity",
+      "primary_page": "power.electricity.md"
+    },
+    {
+      "metadata_path": "mods/create-emf-compat-skyhook.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/create-encased.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-enchantment-industry.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.enchanting",
+      "primary_page": "machines.enchanting.md"
+    },
+    {
+      "metadata_path": "mods/create-framed.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-integrated-farming.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.growing",
+      "primary_page": "food.growing.md"
+    },
+    {
+      "metadata_path": "mods/create-liquid-fuel.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "power.burners",
+      "primary_page": "power.burners.md"
+    },
+    {
+      "metadata_path": "mods/create-molten-vents.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.renewables",
+      "primary_page": "machines.renewables.md"
+    },
+    {
+      "metadata_path": "mods/create-more-girder.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-northstar-aeronautics-compatibility.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "space.vehicle-transfer",
+      "primary_page": "space.vehicle-transfer.md"
+    },
+    {
+      "metadata_path": "mods/create-pattern-schematics.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.placement",
+      "primary_page": "building.placement.md"
+    },
+    {
+      "metadata_path": "mods/create-prismatic-shine.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/create-propulsion-simulated.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.engines",
+      "primary_page": "vehicles.engines.md"
+    },
+    {
+      "metadata_path": "mods/create-radars.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.radar",
+      "primary_page": "vehicles.radar.md"
+    },
+    {
+      "metadata_path": "mods/create-railways-navigator.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "transport.passenger",
+      "primary_page": "transport.passenger.md"
+    },
+    {
+      "metadata_path": "mods/create-sable-dynamic-lights.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.lighting",
+      "primary_page": "visuals.lighting.md"
+    },
+    {
+      "metadata_path": "mods/create-shuffle-filter.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.placement",
+      "primary_page": "building.placement.md"
+    },
+    {
+      "metadata_path": "mods/create-springs.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "power.stored-rotation",
+      "primary_page": "power.stored-rotation.md"
+    },
+    {
+      "metadata_path": "mods/create-stam1o-tweaks.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.miscellaneous",
+      "primary_page": "machines.miscellaneous.md"
+    },
+    {
+      "metadata_path": "mods/create-steam-n-rails-1.21.1.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "transport.railway-builder",
+      "primary_page": "transport.railway-builder.md"
+    },
+    {
+      "metadata_path": "mods/create-stuff-additions.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.miscellaneous",
+      "primary_page": "machines.miscellaneous.md"
+    },
+    {
+      "metadata_path": "mods/create-trading-floor.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.trading",
+      "primary_page": "machines.trading.md"
+    },
+    {
+      "metadata_path": "mods/create-tweaked-controllers.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "vehicles.controls",
+      "primary_page": "vehicles.controls.md"
+    },
+    {
+      "metadata_path": "mods/create-vibrant-vaults.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.bulk",
+      "primary_page": "storage.bulk.md"
+    },
+    {
+      "metadata_path": "mods/create-waystones-recipes.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "travel.destinations",
+      "primary_page": "travel.destinations.md"
+    },
+    {
+      "metadata_path": "mods/create.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.ore-processing",
+      "primary_page": "machines.ore-processing.md"
+    },
+    {
+      "metadata_path": "mods/create_oxidized.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.factory",
+      "primary_page": "building.factory.md"
+    },
+    {
+      "metadata_path": "mods/createbetterfps.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/createlazytick.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/creativecore.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/creeper-overhaul.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.creatures",
+      "primary_page": "adventure.creatures.md"
+    },
+    {
+      "metadata_path": "mods/critical-strike.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.handling",
+      "primary_page": "combat.handling.md"
+    },
+    {
+      "metadata_path": "mods/ct-overhaul-village.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.settlements",
+      "primary_page": "adventure.settlements.md"
+    },
+    {
+      "metadata_path": "mods/cubes-without-borders.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.camera",
+      "primary_page": "visuals.camera.md"
+    },
+    {
+      "metadata_path": "mods/cull-leaves.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/curios.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.accessories",
+      "primary_page": "equipment.accessories.md"
+    },
+    {
+      "metadata_path": "mods/dangerous.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.bosses",
+      "primary_page": "adventure.bosses.md"
+    },
+    {
+      "metadata_path": "mods/decorative-food.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.furniture",
+      "primary_page": "building.furniture.md"
+    },
+    {
+      "metadata_path": "mods/detail-armor-bar-reconstructed.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.display",
+      "primary_page": "equipment.display.md"
+    },
+    {
+      "metadata_path": "mods/diagonal-fences.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/distanthorizons.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.lighting",
+      "primary_page": "visuals.lighting.md"
+    },
+    {
+      "metadata_path": "mods/dragonlib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/dynamic-fps.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/easy-anvils.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "machines.enchanting",
+      "primary_page": "machines.enchanting.md"
+    },
+    {
+      "metadata_path": "mods/easy-shulker-boxes.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.portable",
+      "primary_page": "storage.portable.md"
+    },
+    {
+      "metadata_path": "mods/eating-animations.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/elemental-wizards-rpg.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.magic",
+      "primary_page": "combat.magic.md"
+    },
+    {
+      "metadata_path": "mods/emf-compat-core.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/emi-enchanting.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.search",
+      "primary_page": "help.search.md"
+    },
+    {
+      "metadata_path": "mods/emi-loot.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.loot",
+      "primary_page": "adventure.loot.md"
+    },
+    {
+      "metadata_path": "mods/emi-professions-(emip).pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.search",
+      "primary_page": "help.search.md"
+    },
+    {
+      "metadata_path": "mods/emi.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.search",
+      "primary_page": "help.search.md"
+    },
+    {
+      "metadata_path": "mods/enderman-overhaul.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.creatures",
+      "primary_page": "adventure.creatures.md"
+    },
+    {
+      "metadata_path": "mods/ends-delight.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.end",
+      "primary_page": "food.end.md"
+    },
+    {
+      "metadata_path": "mods/entity-model-features.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/entityculling.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/entitytexturefeatures.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/escalated.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "transport.local",
+      "primary_page": "transport.local.md"
+    },
+    {
+      "metadata_path": "mods/every-compat.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.palette",
+      "primary_page": "building.palette.md"
+    },
+    {
+      "metadata_path": "mods/explorers-compass.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "maps.find",
+      "primary_page": "maps.find.md"
+    },
+    {
+      "metadata_path": "mods/explosive-enhancement-forge.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.weather",
+      "primary_page": "visuals.weather.md"
+    },
+    {
+      "metadata_path": "mods/extreme_sound_muffler.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/farmers-delight.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.utensils",
+      "primary_page": "food.utensils.md"
+    },
+    {
+      "metadata_path": "mods/ferrite-core.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/flerovium.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/forcemaster-rpg-class.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.martial",
+      "primary_page": "combat.martial.md"
+    },
+    {
+      "metadata_path": "mods/forgematica.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.placement",
+      "primary_page": "building.placement.md"
+    },
+    {
+      "metadata_path": "mods/forgified-fabric-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/freecam.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.camera",
+      "primary_page": "visuals.camera.md"
+    },
+    {
+      "metadata_path": "mods/friends-and-foes-forge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.creatures",
+      "primary_page": "adventure.creatures.md"
+    },
+    {
+      "metadata_path": "mods/fwa.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/fzzy-config.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/gazebos.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.settlements",
+      "primary_page": "adventure.settlements.md"
+    },
+    {
+      "metadata_path": "mods/geckolib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/gml.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/grandteleport-neoforge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.weather",
+      "primary_page": "visuals.weather.md"
+    },
+    {
+      "metadata_path": "mods/guideme.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.handbook",
+      "primary_page": "help.handbook.md"
+    },
+    {
+      "metadata_path": "mods/handcrafted.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.furniture",
+      "primary_page": "building.furniture.md"
+    },
+    {
+      "metadata_path": "mods/hide-experimental-warning.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/hypertube.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "transport.local",
+      "primary_page": "transport.local.md"
+    },
+    {
+      "metadata_path": "mods/ibo.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "world.dimensions",
+      "primary_page": "world.dimensions.md"
+    },
+    {
+      "metadata_path": "mods/iceberg.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/illager-invasion.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.bosses",
+      "primary_page": "adventure.bosses.md"
+    },
+    {
+      "metadata_path": "mods/immediatelyfast.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/immersive-paintings.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.displays",
+      "primary_page": "building.displays.md"
+    },
+    {
+      "metadata_path": "mods/incendium.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "world.dimensions",
+      "primary_page": "world.dimensions.md"
+    },
+    {
+      "metadata_path": "mods/interactic-renewed.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.handling",
+      "primary_page": "storage.handling.md"
+    },
+    {
+      "metadata_path": "mods/interiors.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.furniture",
+      "primary_page": "building.furniture.md"
+    },
+    {
+      "metadata_path": "mods/iris.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.lighting",
+      "primary_page": "visuals.lighting.md"
+    },
+    {
+      "metadata_path": "mods/items-displayed-forge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.displays",
+      "primary_page": "building.displays.md"
+    },
+    {
+      "metadata_path": "mods/ixeris.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/jade-addons-forge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.inspect",
+      "primary_page": "help.inspect.md"
+    },
+    {
+      "metadata_path": "mods/jade.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.inspect",
+      "primary_page": "help.inspect.md"
+    },
+    {
+      "metadata_path": "mods/jamlib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/jasione.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "performance.deferred",
+      "primary_page": "performance.deferred.md"
+    },
+    {
+      "metadata_path": "mods/jewelry.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.accessories",
+      "primary_page": "equipment.accessories.md"
+    },
+    {
+      "metadata_path": "mods/kerria-opt.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/kotlin-for-forge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/l_enders-cataclysm-delight.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.encounters",
+      "primary_page": "food.encounters.md"
+    },
+    {
+      "metadata_path": "mods/l_enders-cataclysm.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.bosses",
+      "primary_page": "adventure.bosses.md"
+    },
+    {
+      "metadata_path": "mods/leaves-be-gone.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.growing",
+      "primary_page": "food.growing.md"
+    },
+    {
+      "metadata_path": "mods/lighty.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.safety",
+      "primary_page": "building.safety.md"
+    },
+    {
+      "metadata_path": "mods/lionfish-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/lithium.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/lithostitched.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/lmd.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/lodestonelib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/lootr.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.loot",
+      "primary_page": "adventure.loot.md"
+    },
+    {
+      "metadata_path": "mods/macaws-bridges.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/macaws-doors.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/macaws-fences-and-walls.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/macaws-roofs.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/macaws-stairs.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/macaws-windows.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/mafglib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/mech-trowel.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.placement",
+      "primary_page": "building.placement.md"
+    },
+    {
+      "metadata_path": "mods/midnightlib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/miners-delight.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.underground",
+      "primary_page": "food.underground.md"
+    },
+    {
+      "metadata_path": "mods/modelfix.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/modernfix.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/moonlight.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/more-relics-rpg.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.accessories",
+      "primary_page": "equipment.accessories.md"
+    },
+    {
+      "metadata_path": "mods/more-rpg-classes-skill-tree.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.skills",
+      "primary_page": "combat.skills.md"
+    },
+    {
+      "metadata_path": "mods/more-rpg-library.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/more-sounds.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/moreculling.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/mouse-tweaks.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.handling",
+      "primary_page": "storage.handling.md"
+    },
+    {
+      "metadata_path": "mods/mru.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/my-nethers-delight.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.nether",
+      "primary_page": "food.nether.md"
+    },
+    {
+      "metadata_path": "mods/natures-compass.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "maps.find",
+      "primary_page": "maps.find.md"
+    },
+    {
+      "metadata_path": "mods/neo-bee-fix.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.bridges",
+      "primary_page": "technical.bridges.md"
+    },
+    {
+      "metadata_path": "mods/netherportalfix.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "travel.destinations",
+      "primary_page": "travel.destinations.md"
+    },
+    {
+      "metadata_path": "mods/northstar-redux.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "space.destinations",
+      "primary_page": "space.destinations.md"
+    },
+    {
+      "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "technical.space-bridge",
+      "primary_page": "technical.space-bridge.md"
+    },
+    {
+      "metadata_path": "mods/not-enough-animations-emf-compat.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/not-enough-animations.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/nullscape.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "world.dimensions",
+      "primary_page": "world.dimensions.md"
+    },
+    {
+      "metadata_path": "mods/observable.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "server.tools",
+      "primary_page": "server.tools.md"
+    },
+    {
+      "metadata_path": "mods/ok-zoomer.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.camera",
+      "primary_page": "visuals.camera.md"
+    },
+    {
+      "metadata_path": "mods/owo-lib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/paladins-and-priests.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.magic",
+      "primary_page": "combat.magic.md"
+    },
+    {
+      "metadata_path": "mods/particle-effects.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.weather",
+      "primary_page": "visuals.weather.md"
+    },
+    {
+      "metadata_path": "mods/particular-reforged.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.weather",
+      "primary_page": "visuals.weather.md"
+    },
+    {
+      "metadata_path": "mods/paxi.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "server.deferred-pack-loading",
+      "primary_page": "server.deferred-pack-loading.md"
+    },
+    {
+      "metadata_path": "mods/pf-neoforge.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/placebo.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/playeranimator.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/polymorph.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.search",
+      "primary_page": "help.search.md"
+    },
+    {
+      "metadata_path": "mods/polytone.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "mods/presence-footsteps-x-sable.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/prickle.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/progresspeek.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/puzzles-lib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/quick-pack.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/ranged-weapon-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/reconnectible-chains.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.architecture",
+      "primary_page": "building.architecture.md"
+    },
+    {
+      "metadata_path": "mods/reeses-sodium-options.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/reinforced-shulker-boxes.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.portable",
+      "primary_page": "storage.portable.md"
+    },
+    {
+      "metadata_path": "mods/reliable-advancements.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.reference",
+      "primary_page": "help.reference.md"
+    },
+    {
+      "metadata_path": "mods/reliable-emi.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.search",
+      "primary_page": "help.search.md"
+    },
+    {
+      "metadata_path": "mods/relics-rpg.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.accessories",
+      "primary_page": "equipment.accessories.md"
+    },
+    {
+      "metadata_path": "mods/resourceful-config.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/resourceful-lib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/rightclickharvest.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.growing",
+      "primary_page": "food.growing.md"
+    },
+    {
+      "metadata_path": "mods/ripple.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.weather",
+      "primary_page": "visuals.weather.md"
+    },
+    {
+      "metadata_path": "mods/rogues-and-warriors.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.martial",
+      "primary_page": "combat.martial.md"
+    },
+    {
+      "metadata_path": "mods/rpl.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/runes.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.magic",
+      "primary_page": "combat.magic.md"
+    },
+    {
+      "metadata_path": "mods/sable-cool-rain.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/sable.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/sable_beyond.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.bridges",
+      "primary_page": "technical.bridges.md"
+    },
+    {
+      "metadata_path": "mods/sablecompat.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.bridges",
+      "primary_page": "technical.bridges.md"
+    },
+    {
+      "metadata_path": "mods/searchables.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/servercore.pw.toml",
+      "availability": "deferred",
+      "primary_topic": "performance.deferred",
+      "primary_page": "performance.deferred.md"
+    },
+    {
+      "metadata_path": "mods/shield-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/short-stacks.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.hunger",
+      "primary_page": "food.hunger.md"
+    },
+    {
+      "metadata_path": "mods/shulker-drops-two.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.portable",
+      "primary_page": "storage.portable.md"
+    },
+    {
+      "metadata_path": "mods/skill-tree.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.skills",
+      "primary_page": "combat.skills.md"
+    },
+    {
+      "metadata_path": "mods/skills.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.skills",
+      "primary_page": "combat.skills.md"
+    },
+    {
+      "metadata_path": "mods/slice-and-dice.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.machine-cooking",
+      "primary_page": "food.machine-cooking.md"
+    },
+    {
+      "metadata_path": "mods/smarter-farmers-farmers-replant.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.growing",
+      "primary_page": "food.growing.md"
+    },
+    {
+      "metadata_path": "mods/sodium-dynamic-lights.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.lighting",
+      "primary_page": "visuals.lighting.md"
+    },
+    {
+      "metadata_path": "mods/sodium-extra.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/sodium.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/sophisticated-core.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/sophisticated-inventory-interactions.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.handling",
+      "primary_page": "storage.handling.md"
+    },
+    {
+      "metadata_path": "mods/sound-physics-remastered.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/sound.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "sounds.ambience",
+      "primary_page": "sounds.ambience.md"
+    },
+    {
+      "metadata_path": "mods/spark.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "server.tools",
+      "primary_page": "server.tools.md"
+    },
+    {
+      "metadata_path": "mods/spawn-animations-compats.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/spawn-animations.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.models",
+      "primary_page": "visuals.models.md"
+    },
+    {
+      "metadata_path": "mods/spawn-mod.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.creatures",
+      "primary_page": "adventure.creatures.md"
+    },
+    {
+      "metadata_path": "mods/spell-engine.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/spell-power.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/spice-of-life-onion.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.hunger",
+      "primary_page": "food.hunger.md"
+    },
+    {
+      "metadata_path": "mods/status-effect-bars-reforged.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.display",
+      "primary_page": "equipment.display.md"
+    },
+    {
+      "metadata_path": "mods/stone-zone.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.palette",
+      "primary_page": "building.palette.md"
+    },
+    {
+      "metadata_path": "mods/straw-statues.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.displays",
+      "primary_page": "building.displays.md"
+    },
+    {
+      "metadata_path": "mods/streams-reflowing.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "world.dimensions",
+      "primary_page": "world.dimensions.md"
+    },
+    {
+      "metadata_path": "mods/structure-layout-optimizer.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "performance.baseline",
+      "primary_page": "performance.baseline.md"
+    },
+    {
+      "metadata_path": "mods/structure-pool-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/stylish-effects.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "equipment.display",
+      "primary_page": "equipment.display.md"
+    },
+    {
+      "metadata_path": "mods/supplementaries.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.furniture",
+      "primary_page": "building.furniture.md"
+    },
+    {
+      "metadata_path": "mods/teallib.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/team-capes.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "maps.shared",
+      "primary_page": "maps.shared.md"
+    },
+    {
+      "metadata_path": "mods/tectonic.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "world.dimensions",
+      "primary_page": "world.dimensions.md"
+    },
+    {
+      "metadata_path": "mods/tempad.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "travel.destinations",
+      "primary_page": "travel.destinations.md"
+    },
+    {
+      "metadata_path": "mods/terralith.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "world.dimensions",
+      "primary_page": "world.dimensions.md"
+    },
+    {
+      "metadata_path": "mods/tfmg-community-edition.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "power.industry",
+      "primary_page": "power.industry.md"
+    },
+    {
+      "metadata_path": "mods/toast-control.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/tooltipfix.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.search",
+      "primary_page": "help.search.md"
+    },
+    {
+      "metadata_path": "mods/torchmaster.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "building.safety",
+      "primary_page": "building.safety.md"
+    },
+    {
+      "metadata_path": "mods/trade-refresh.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.controls",
+      "primary_page": "help.controls.md"
+    },
+    {
+      "metadata_path": "mods/trashslot.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.handling",
+      "primary_page": "storage.handling.md"
+    },
+    {
+      "metadata_path": "mods/travelers-titles.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.interface",
+      "primary_page": "visuals.interface.md"
+    },
+    {
+      "metadata_path": "mods/universal-bone-meal.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "food.growing",
+      "primary_page": "food.growing.md"
+    },
+    {
+      "metadata_path": "mods/vanilla-backpacks.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "storage.portable",
+      "primary_page": "storage.portable.md"
+    },
+    {
+      "metadata_path": "mods/variants-and-ventures.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.creatures",
+      "primary_page": "adventure.creatures.md"
+    },
+    {
+      "metadata_path": "mods/village-taverns.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.settlements",
+      "primary_page": "adventure.settlements.md"
+    },
+    {
+      "metadata_path": "mods/villager-names-serilum.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "help.inspect",
+      "primary_page": "help.inspect.md"
+    },
+    {
+      "metadata_path": "mods/waystones-sable.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "travel.moving-destinations",
+      "primary_page": "travel.moving-destinations.md"
+    },
+    {
+      "metadata_path": "mods/waystones.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "travel.destinations",
+      "primary_page": "travel.destinations.md"
+    },
+    {
+      "metadata_path": "mods/when-dungeons-arise.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/witcher-rpg-class.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.magic",
+      "primary_page": "combat.magic.md"
+    },
+    {
+      "metadata_path": "mods/wizards.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "combat.magic",
+      "primary_page": "combat.magic.md"
+    },
+    {
+      "metadata_path": "mods/xaeros-maps-multiplayer-plus.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "maps.shared",
+      "primary_page": "maps.shared.md"
+    },
+    {
+      "metadata_path": "mods/xaeros-minimap.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "maps.personal",
+      "primary_page": "maps.personal.md"
+    },
+    {
+      "metadata_path": "mods/xaeros-world-map.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "maps.personal",
+      "primary_page": "maps.personal.md"
+    },
+    {
+      "metadata_path": "mods/yacl.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/yungs-api.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "technical.libraries",
+      "primary_page": "technical.libraries.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-desert-temples.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-dungeons.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-jungle-temples.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-mineshafts.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-nether-fortresses.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-ocean-monuments.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-strongholds.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "mods/yungs-better-witch-huts.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "adventure.structures",
+      "primary_page": "adventure.structures.md"
+    },
+    {
+      "metadata_path": "resourcepacks/attribute-icons-rpg-series.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/better-leaves.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/fa-player-extension.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/fancy-crops.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/fresh-animations-objects.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/fresh-animations-quivers.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/fresh-animations.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/mandalas-gui-dark-mode.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/simple-grass-flowers.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "resourcepacks/visual-effects-plus.pw.toml",
+      "availability": "heavy",
+      "primary_topic": "visuals.resource-packs",
+      "primary_page": "visuals.resource-packs.md"
+    },
+    {
+      "metadata_path": "shaderpacks/complementary-reimagined.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.shader-packs",
+      "primary_page": "visuals.shader-packs.md"
+    },
+    {
+      "metadata_path": "shaderpacks/complementary-unbound.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.shader-packs",
+      "primary_page": "visuals.shader-packs.md"
+    },
+    {
+      "metadata_path": "shaderpacks/photon-shader.pw.toml",
+      "availability": "baseline",
+      "primary_topic": "visuals.shader-packs",
+      "primary_page": "visuals.shader-packs.md"
+    }
+  ],
+  "historical_categories": [
+    {
+      "historical_category": "category-automation.md",
+      "retained_destinations": [
+        "food.machine-cooking.md",
+        "machines.enchanting.md",
+        "machines.ore-processing.md",
+        "machines.renewables.md",
+        "machines.rotation.md",
+        "machines.trading.md",
+        "power.burners.md",
+        "power.electricity.md",
+        "power.industry.md",
+        "power.stored-rotation.md",
+        "reference.machines-storage.md"
+      ],
+      "heading_inventory": [
+        "Automation Mods",
+        "Machines and processing",
+        "Power and industrial materials",
+        "Production automation",
+        "Mechanics"
+      ]
+    },
+    {
+      "historical_category": "category-building.md",
+      "retained_destinations": [
+        "building.architecture.md",
+        "building.copycats.md",
+        "building.displays.md",
+        "building.factory.md",
+        "building.furniture.md",
+        "building.palette.md",
+        "building.placement.md",
+        "building.safety.md",
+        "reference.building.md"
+      ],
+      "heading_inventory": [
+        "Building Mods",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-combat.md",
+      "retained_destinations": [
+        "combat.handling.md",
+        "combat.magic.md",
+        "combat.martial.md",
+        "combat.skills.md",
+        "equipment.accessories.md",
+        "equipment.display.md",
+        "equipment.weapons-armor.md",
+        "reference.equipment.md",
+        "reference.skills.md"
+      ],
+      "heading_inventory": [
+        "Combat and Character Mods",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-exploration.md",
+      "retained_destinations": [
+        "adventure.bosses.md",
+        "adventure.creatures.md",
+        "adventure.loot.md",
+        "adventure.settlements.md",
+        "adventure.structures.md",
+        "maps.find.md",
+        "maps.personal.md",
+        "maps.shared.md",
+        "world.dimensions.md"
+      ],
+      "heading_inventory": [
+        "Exploration Mods",
+        "Other editions and uninstalled content",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-food.md",
+      "retained_destinations": [
+        "food.encounters.md",
+        "food.end.md",
+        "food.fishing.md",
+        "food.growing.md",
+        "food.hunger.md",
+        "food.nether.md",
+        "food.underground.md",
+        "food.utensils.md",
+        "reference.food.md"
+      ],
+      "heading_inventory": [
+        "Food and Farming Mods",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-storage.md",
+      "retained_destinations": [
+        "machines.logistics.md",
+        "storage.bulk.md",
+        "storage.handling.md",
+        "storage.portable.md"
+      ],
+      "heading_inventory": [
+        "Storage Mods",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-technical.md",
+      "retained_destinations": [
+        "help.handbook.md",
+        "performance.baseline.md",
+        "performance.deferred.md",
+        "server.deferred-pack-loading.md",
+        "server.tools.md",
+        "technical.bridges.md",
+        "technical.libraries.md",
+        "technical.space-bridge.md"
+      ],
+      "heading_inventory": [
+        "Technical Components",
+        "Other editions and uninstalled content",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-travel.md",
+      "retained_destinations": [
+        "reference.vehicles.md",
+        "space.destinations.md",
+        "space.vehicle-transfer.md",
+        "transport.local.md",
+        "transport.passenger.md",
+        "transport.railway-builder.md",
+        "travel.destinations.md",
+        "travel.moving-destinations.md",
+        "vehicles.airships.md",
+        "vehicles.assembly.md",
+        "vehicles.controls.md",
+        "vehicles.engines.md",
+        "vehicles.radar.md",
+        "vehicles.water.md",
+        "vehicles.weapons.md"
+      ],
+      "heading_inventory": [
+        "Vehicle and Travel Mods",
+        "Other editions and uninstalled content",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-utilities.md",
+      "retained_destinations": [
+        "adventure.recovery.md",
+        "adventure.sleep.md",
+        "help.controls.md",
+        "help.inspect.md",
+        "help.reference.md",
+        "help.search.md",
+        "interactions.carry.md",
+        "machines.enchanting.md",
+        "machines.miscellaneous.md"
+      ],
+      "heading_inventory": [
+        "Player Utility Mods",
+        "Topics"
+      ]
+    },
+    {
+      "historical_category": "category-visuals.md",
+      "retained_destinations": [
+        "sounds.ambience.md",
+        "visuals.camera.md",
+        "visuals.interface.md",
+        "visuals.lighting.md",
+        "visuals.models.md",
+        "visuals.resource-packs.md",
+        "visuals.shader-packs.md",
+        "visuals.weather.md"
+      ],
+      "heading_inventory": [
+        "Visual and Sound Mods",
+        "Other editions and uninstalled content",
+        "Topics"
+      ]
+    }
+  ],
+  "historical_distinct_destinations": 90,
+  "missing_destinations": [],
+  "explicit_navigation_in_repository_registration": false,
+  "rendered_verified": false
+}

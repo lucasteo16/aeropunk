@@ -1,0 +1,107 @@
+{
+  "export": "/home/tsb/.hermes/cache/scratch/astropunk-handbook-unified-review.mrpack",
+  "export_sha256": "582024f0ca61f03205e62d96d944362b6177a205f37ce75ed0f9c7157a2fd254",
+  "zip_integrity": true,
+  "resource_override_parity": true,
+  "resource_files": 532,
+  "localized_pages": 192,
+  "selected_manifest_downloads": 290,
+  "source_provider_inventory": 320,
+  "runtime_tested": false,
+  "new_recipe_displays": 45,
+  "recipe_additions": {
+    "maps.find": [
+      "explorerscompass:explorers_compass",
+      "naturescompass:natures_compass"
+    ],
+    "food.machine-cooking": [
+      "sliceanddice:slicer"
+    ],
+    "combat.martial": [
+      "archers:composite_longbow",
+      "archers:rapid_crossbow",
+      "berserker_rpg:iron_berserker_axe",
+      "forcemaster_rpg:iron_knuckle",
+      "rogues:iron_dagger",
+      "rogues:iron_double_axe"
+    ],
+    "combat.magic": [
+      "bards_rpg:wooden_lute",
+      "elemental_wizards_rpg:wand_clay",
+      "elemental_wizards_rpg:wand_feather",
+      "elemental_wizards_rpg:wand_kelp",
+      "paladins:acolyte_wand",
+      "paladins:iron_mace",
+      "witcher_rpg:iron_witcher_sword",
+      "wizards:wand_arcane",
+      "wizards:wand_frost",
+      "wizards:wand_novice"
+    ],
+    "equipment.weapons-armor": [
+      "archers:rapid_crossbow",
+      "elemental_wizards_rpg:wand_clay",
+      "elemental_wizards_rpg:wand_feather",
+      "paladins:acolyte_wand",
+      "paladins:iron_mace",
+      "wizards:wand_arcane",
+      "wizards:wand_frost"
+    ],
+    "equipment.accessories": [
+      "jewelry:copper_ring",
+      "jewelry:iron_ring"
+    ],
+    "reference.equipment": [
+      "jewelry:copper_ring"
+    ],
+    "reference.skills": [
+      "paladins:acolyte_wand",
+      "spell_engine:spell_binding_table",
+      "wizards:wand_novice"
+    ],
+    "building.safety": [
+      "torchmaster:megatorch"
+    ],
+    "vehicles.assembly": [
+      "simulated:physics_assembler"
+    ],
+    "vehicles.airships": [
+      "aeronautics:adjustable_burner",
+      "aeronautics:white_envelope"
+    ],
+    "transport.railway-builder": [
+      "create:crafting/kinetics/controls",
+      "create:crafting/kinetics/track_station"
+    ],
+    "storage.bulk": [
+      "create:crafting/kinetics/item_vault"
+    ],
+    "machines.rotation": [
+      "create:crafting/kinetics/shaft",
+      "create:crafting/kinetics/water_wheel",
+      "create:crafting/kinetics/wrench"
+    ],
+    "machines.logistics": [
+      "create:crafting/logistics/andesite_funnel"
+    ],
+    "power.burners": [
+      "create:crafting/kinetics/empty_blaze_burner"
+    ],
+    "adventure.sleep": [
+      "comforts:sleeping_bag_white"
+    ]
+  },
+  "boss_images": 13,
+  "boss_sections": 17,
+  "live_resource_target": "/home/tsb/.local/share/ModrinthApp/profiles/astropunk-0.3.0-guide.light.1-modrinth/resourcepacks/astropunk-guide-preview",
+  "live_backup": "/home/tsb/Projects/lucas/.archive/handbook-unified-resources/20261009-184029",
+  "retired_live_catalog_files": 22,
+  "live_resource_readback_parity": true,
+  "helper_live_changed": false,
+  "selected_mod_configuration_changes": "",
+  "unwritten_nontechnical_topics": [],
+  "article_bodies_authored": 84,
+  "article_bodies_total": 84,
+  "test_count": 28,
+  "template_parser_count": 6,
+  "native_color_compiler_passed": true
+}
