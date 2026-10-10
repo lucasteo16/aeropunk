@@ -31,7 +31,7 @@ bobView:true
 hideLightningFlashes:false
 damageTiltStrength:1.0
 resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/RPG_Series_Icons-1.4.0+1.21.1.zip","continuity:glass_pane_culling_fix","file/Better-Leaves-9.5.zip","mod/cullleaves:resourcepacks/smartleaves","file/MandalasGUI+Dakmode_1.21.6_v2.1.zip"]
-incompatibleResourcePacks:[]
+incompatibleResourcePacks:["file/MandalasGUI+Dakmode_1.21.6_v2.1.zip"]
 menuBackgroundBlurriness:5
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
