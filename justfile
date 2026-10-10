@@ -21,6 +21,10 @@ export-modrinth output=("dist/astropunk-" + PACK_VERSION + "-modrinth.mrpack"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz modrinth export --output {{quote(output)}}
 
+# Self-contained client pack, with all client artifacts bundled.
+export-standalone output=("dist/astropunk-" + PACK_VERSION + "-standalone.mrpack"):
+    python scripts/export_standalone.py {{quote(output)}}
+
 # Update external files, respecting documented compatibility holds.
 update:
     packwiz update --all
