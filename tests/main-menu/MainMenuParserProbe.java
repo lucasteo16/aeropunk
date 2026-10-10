@@ -38,6 +38,7 @@ public class MainMenuParserProbe {
         require(PropertiesParser.deserializeSetFromFancyString("missing type") == null, "negative control");
         var options = new Config(root.resolve("configureddefaults/config/fancymenu/options.txt").toString());
         require(!options.getBoolean("show_customization_overlay"), "hide editor toolbar by default");
+        require(!options.getBoolean("show_welcome_screen"), "hide welcome dialog on every fresh instance");
         System.out.println("PASS released FancyMenu 3.9.14 parser, round trip, negative control, menu scope, local assets and Konkrete 1.9.9 options parser");
     }
 }

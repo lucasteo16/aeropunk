@@ -1026,7 +1026,7 @@ hash = "13dbc96f13757679e9723a28f1e6a287468514249fd876fc2de4745e2d9cb5bb"
 
 [[files]]
 file = "configureddefaults/config/fancymenu/options.txt"
-hash = "1d15adbaa92d52dcbf8b51029ed0b9a5ee3f3958d68ac3f714531365c18b11b3"
+hash = "5c86b00a002facb491581832d07a4ec4b2473cbf56289a9044956921abe51245"
 
 [[files]]
 file = "configureddefaults/config/guideme.toml"
