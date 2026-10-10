@@ -25,6 +25,10 @@ export-modrinth output=("dist/astropunk-" + PACK_VERSION + "-modrinth.mrpack"):
 export-standalone output=("dist/astropunk-" + PACK_VERSION + "-standalone.mrpack"):
     python scripts/export_standalone.py {{quote(output)}}
 
+# Cache-only uncompressed client game folder, with an optional empty template.
+export-instance output=("dist/astropunk-" + PACK_VERSION + "-instance") template="":
+    python scripts/export_instance.py {{quote(output)}} --template {{quote(template)}}
+
 # Update external files, respecting documented compatibility holds.
 update:
     packwiz update --all
