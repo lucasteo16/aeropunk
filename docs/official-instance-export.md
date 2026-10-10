@@ -11,11 +11,11 @@
 
 ## Commands and destinations
 
-Run `just export-instance` for a unique destination beneath `~/Projects/lucas/instance-runs`. Its folder name starts with `astropunk-`, followed by the exact source pack version, a universal coordinated time timestamp, and a short random suffix. Repeated exports never overwrite earlier runs or reuse their launcher installation.
+Run `just export-instance` for a unique destination beneath the source repository's ignored `instance-runs` folder. Its folder name starts with `astropunk-`, followed by the exact source pack version, a universal coordinated time timestamp, and a short random suffix. Repeated exports never overwrite earlier runs or reuse their launcher installation.
 
 Provide an unused explicit destination with `just export-instance '/absolute/path/to/new-instance'`. The pure exporter's existing path, checksum, overlap and existing-output validation still applies. The launcher uses the absolute `game` directory inside that destination.
 
-Provide an explicit template directory as the second argument, such as `just export-instance '' '/absolute/path/to/template'`. An omitted or empty template argument uses the durable default template when its metadata exists. For Minecraft 1.21.1 that directory is `~/Projects/lucas/instance-templates/official-neoforge-1.21.1`. If the default metadata is absent, export proceeds without template directories or a saved icon. An explicitly supplied template must exist and validate.
+Provide an explicit template directory as the second argument, such as `just export-instance '' '/absolute/path/to/template'`. An omitted or empty template argument uses the durable default template when its metadata exists. For Minecraft 1.21.1 that directory is `instance-templates/official-neoforge-1.21.1` inside the source repository, excluded from both Git and pack exports. If the default metadata is absent, export proceeds without template directories or a saved icon. An explicitly supplied template must exist and validate.
 
 ## Durable template
 

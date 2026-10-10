@@ -80,7 +80,7 @@ class OfficialExport(unittest.TestCase):
         self.assertNotIn("javaDir", profile)
         self.assertEqual(registration["profiles_path"], str(self.profiles))
         self.assertEqual(json.loads((self.output / "instance-export.json").read_text()), result)
-        backups = list((self.home / "Projects/lucas/instance-templates/official-neoforge-1.21.1/backups").glob("*.json"))
+        backups = list((self.source / "instance-templates/official-neoforge-1.21.1/backups").glob("*.json"))
         self.assertEqual(len(backups), 1)
         self.assertEqual(backups[0].read_bytes(), self.original_bytes)
         self.assertEqual(backups[0].stat().st_mode & 0o777, 0o600)
@@ -101,7 +101,7 @@ class OfficialExport(unittest.TestCase):
         paths = [Path(saved[result["official_launcher"]["profile_id"]]["gameDir"]).parent for result in (first, second)]
         self.assertNotEqual(paths[0], paths[1])
         for path in paths:
-            self.assertEqual(path.parent, self.home / "Projects/lucas/instance-runs")
+            self.assertEqual(path.parent, self.source / "instance-runs")
             self.assertTrue(path.name.startswith("astropunk-fixture.1-"))
 
     def test_missing_installed_runtime_refused_before_export(self):
@@ -122,7 +122,7 @@ class OfficialExport(unittest.TestCase):
 
 
     def make_template(self, **profile_fields):
-        template = self.home / "Projects/lucas/instance-templates/official-neoforge-1.21.1"
+        template = self.source / "instance-templates/official-neoforge-1.21.1"
         (template / "game/resourcepacks").mkdir(parents=True)
         (template / "template.json").write_text(json.dumps({"game_version": "1.21.1", "loader": "neoforge",
             "loader_version": "21.1.255", "launcher_profile": {"icon": "Grass", "type": "custom", **profile_fields}}))
