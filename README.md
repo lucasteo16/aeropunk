@@ -1,8 +1,12 @@
 # Astropunk editions
 
+## Grand Teleport server inclusion in 0.6.5
+
+Grand Teleport 1.0.0 is included on both clients and servers because its NeoForge port requires matching teleport network channels. The client artifact is unchanged from 0.6.4. Dedicated-server startup and a player reconnection are separate validation steps.
+
 ## Interactic networking in 0.6.4
 
-Main selects Interactic Renewed 0.2.3 for both clients and servers. The released archive moves filter-mode response registration into shared initialization, addressing the missing channel in 0.2.2. Multiplayer reconnection remains unverified. Grand Teleport's separate missing server channels remain unresolved.
+Main selects Interactic Renewed 0.2.3 for both clients and servers. The released archive moves filter-mode response registration into shared initialization, addressing the missing channel in 0.2.2. Lucas's subsequent connection screenshot no longer listed the Interactic mismatch; Grand Teleport still blocked that attempt.
 
 ## Typing sounds in 0.6.3
 
