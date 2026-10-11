@@ -1862,7 +1862,7 @@ metafile = true
 
 [[files]]
 file = "mods/grandteleport-neoforge.pw.toml"
-hash = "1ea57a7cbe6ed79d00ffce8b85d7654a6c3c171d49b62dc8b31b5cc5e3da2f5b"
+hash = "dc650ccbf87b6390fa0a596b111167a1d6f9d557ebf0d764be7209654429b39d"
 metafile = true
 
 [[files]]

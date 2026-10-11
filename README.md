@@ -4,6 +4,10 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.7.3-dev GrandTeleport rollback
+
+The global update changed GrandTeleport from 1.0.0 to 1.0.1. Lucas's client rejected 1.0.1 as an invalid mod file, so development restores the original both-side 1.0.0 selection and holds it pending a verified replacement. This rollback does not establish the exact cause of the invalid-file error. The separately reported missing Struts and Azimuth dependencies remain unresolved in this checkpoint; this export is not yet expected to pass startup. Spell Engine and Xaero's compatibility trials remain unchanged.
+
 ### 0.7.2-dev compatibility trial
 
 Spell Engine is updated from 1.10.7 to 1.10.9 and Xaero's Maps Multiplayer Plus from 1.1.0 to 1.1.2 for Lucas's fresh-client test. Their development holds are removed; stable branches retain their previous selections and holds. Neither candidate is yet runtime-verified. Test startup and disposable single-player world entry first, watching for the former Witcher loot-function failure and Xaero's bundled Java module-descriptor failure. The retained server still runs the stable pack, so it is not a matching target for this development client's multiplayer test.
