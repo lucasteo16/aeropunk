@@ -4,9 +4,11 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
-### 0.7.0-dev update checkpoint
+### 0.7.1-dev update checkpoint
 
-The native global update changed 65 mods and Better Leaves. Spell Engine and Xaero's Maps Multiplayer+ remain held. The updater could not resolve compatible updates for Reinforced Shulker Boxes, ToolTipFix or GroovyModLoader; their existing selections remain unchanged. Its release-date ordering selected Terralith 2.5.8 instead of 2.6.2, so this development checkpoint includes a terrain-provider downgrade requiring review before promotion. Updated selections are experimental, not gameplay-certified.
+NeoForge is updated from 21.1.255 to 21.1.259 without changing Minecraft 1.21.1. The previous global update changed 65 mods and Better Leaves, including an unintended Terralith downgrade. Terralith's NeoForge 2.6.2 selection is now restored through native packwiz. Its older multi-loader release includes Fabric, which packwiz prefers during its loader-list comparison; this was not a compatibility-driven downgrade. Review this selection after future global updates.
+
+Spell Engine and Xaero's Maps Multiplayer+ remain held. Reinforced Shulker Boxes and ToolTipFix publish Fabric releases, excluded by the NeoForge updater filter despite Connector support. GroovyModLoader's selected release is tagged Minecraft 1.21 rather than 1.21.1. Their existing selections remain unchanged; updater lookup failures do not establish runtime incompatibility. Updated selections are experimental, not gameplay-certified.
 
 ## Shader selection in 0.6.7
 
