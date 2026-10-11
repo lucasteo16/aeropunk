@@ -4,6 +4,10 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.7.4-dev missing dependencies
+
+Added Struts 1.3.1 and Azimuth 1.4.10 on both sides through native packwiz. These satisfy the released dependency declarations for Bits 'n' Bobs 2.3.5 and More Girder 2.3.0; their Minecraft and NeoForge requirements match this development pack. GrandTeleport remains held at 1.0.0, and Spell Engine 1.10.9 and Xaero's Maps Multiplayer Plus 1.1.2 remain compatibility trials. Export verification does not establish successful game startup; Lucas's fresh-client test is pending.
+
 ### 0.7.3-dev GrandTeleport rollback
 
 The global update changed GrandTeleport from 1.0.0 to 1.0.1. Lucas's client rejected 1.0.1 as an invalid mod file, so development restores the original both-side 1.0.0 selection and holds it pending a verified replacement. This rollback does not establish the exact cause of the invalid-file error. The separately reported missing Struts and Azimuth dependencies remain unresolved in this checkpoint; this export is not yet expected to pass startup. Spell Engine and Xaero's compatibility trials remain unchanged.
