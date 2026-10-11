@@ -1,5 +1,9 @@
 # Astropunk editions
 
+## Typing sounds in 0.6.3
+
+Fresh installations disable chat and inventory typing sounds from Sounds. Other sound effects remain unchanged. Configured Defaults preserves existing player settings, so existing installations need these two effects disabled manually in the Sounds settings.
+
 The default main branch is the lean gameplay baseline. The main-heavy branch independently inherits main and adds the optional client visual stack. Apply shared gameplay, fixes and updates to main first, then merge main into main-heavy. Do not merge heavy-only visuals back into main. Both have separate Git workspaces and use native packwiz and Just exports.
 
 The split follows Lucas’s disabled screenshot selections. Heavy adds Fancy Crops, all four Fresh Animations packs, Simple Grass Flowers, Visual Effects+, Create Sable Dynamic Lights, Eating Animations, Not Enough Animations and its Entity Model Features compatibility addon, Explosive Enhancement, Fancy World Animations, Particle Effects, Particular Reforged, Ripple, Sodium Dynamic Lights and Team Capes. Heavy also initializes Interactic fancy item rendering as enabled; lean initializes it as disabled. Interactic gameplay settings and artifact remain identical. Configured Defaults preserves existing ordinary configuration files, so use fresh imports to compare the presets.

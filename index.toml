@@ -1082,7 +1082,7 @@ hash = "a881cf8361b13fcf1a3f0521eab0915bc9533a2111db7ad1ac34214ba158187b"
 
 [[files]]
 file = "configureddefaults/config/sounds/chat.json"
-hash = "95676e10b355b88492b147dc7bfb483c9eb8d9f97c9de41ab609cdeb7e864fdf"
+hash = "5debeafa5e4a2e686c5c18f5f37dc1200aa6ac59dfe3b8cd4cd3960144ad5061"
 
 [[files]]
 file = "configureddefaults/config/sounds/event.json"
@@ -1094,7 +1094,7 @@ hash = "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132"
 
 [[files]]
 file = "configureddefaults/config/sounds/ui.json"
-hash = "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56"
+hash = "3bdf7ecfb1ed1552c879a0fb5521fd42023ecf6a9c6d6aa95ce4a62b2004b537"
 
 [[files]]
 file = "configureddefaults/config/sounds/world.json"
