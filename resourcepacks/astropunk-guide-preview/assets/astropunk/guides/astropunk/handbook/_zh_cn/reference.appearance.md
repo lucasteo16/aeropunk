@@ -11,13 +11,13 @@ navigation:
 
 | 主题 | 状态 |
 | --- | --- |
+| [调整通知与信息界面](visuals.interface.md) | 参考 |
 | [调整视角与窗口](visuals.camera.md) | 参考 |
+| [选择资源包外观](visuals.resource-packs.md) | 参考 |
 | [调整模型与动画](visuals.models.md) | 参考 |
 | [调整天气、粒子与过渡效果](visuals.weather.md) | 参考 |
 | [选择光影、动态光源与远景](visuals.lighting.md) | 参考 |
-| [选择资源包外观](visuals.resource-packs.md) | 参考 |
 | [比较光影风格](visuals.shader-packs.md) | 参考 |
-| [调整通知与信息界面](visuals.interface.md) | 参考 |
 
 
 ***

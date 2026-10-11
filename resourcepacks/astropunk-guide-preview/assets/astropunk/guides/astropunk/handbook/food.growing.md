@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Farming"
-  position: 7
+  position: 2
   parent: reference.food.md
   icon: minecraft:wheat
 ---

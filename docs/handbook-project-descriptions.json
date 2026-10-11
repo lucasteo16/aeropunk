@@ -1,4 +1,5 @@
 {
+  "mods/paxi.pw.toml": {"name": "Paxi", "description": "Loads shared data packs and resource packs from configured directories.", "url": "https://modrinth.com/project/CU0PAyzb", "source": "Selected pack configuration and Paxi loader purpose"},
   "mods/additional-rpg-jewelry.pw.toml": {
     "name": "Additional Jewelry (RPG Series Plus)",
     "description": "Jewelry Add-On for the More RPG Classes Mods.",
@@ -1756,5 +1757,33 @@
     "description": "Provides the audio library required by FancyMenu. This menu adds no custom music.",
     "url": "https://modrinth.com/project/CVT4pFB2",
     "source": "Selected-release main-menu integration evidence in docs/main-menu.md"
+  },
+  "mods/create-cosmonatics.pw.toml": {
+    "name": "Create Cosmonautics",
+    "description": "Space addon for Create Aeronautics!",
+    "url": "https://modrinth.com/project/micg1iTH",
+    "source": "Selected release META-INF/neoforge.mods.toml publisher description",
+    "version_id": "HuCMavv8"
+  },
+  "mods/create-cosmonautics-expansion.pw.toml": {
+    "name": "Create Cosmonautics Expansion",
+    "description": "Explore new planets, discover new items, and experience more adventures in space. This addon expands the game with extra worlds, new content, and more things to explore, making every journey feel bigger and more exciting.",
+    "url": "https://modrinth.com/project/gD7M0IgY",
+    "source": "Selected release META-INF/neoforge.mods.toml publisher description",
+    "version_id": "48ItKoZ3"
+  },
+  "mods/cosmonautics-deep-air.pw.toml": {
+    "name": "Cosmonautics: Deep Air",
+    "description": "Standalone compatibility bridge between Create: Deep Seas\nand Cosmonautics. Lets entities breathe normally\nwhile inside a sealed, unbreached, oxygenated sable sublevel.",
+    "url": "https://modrinth.com/project/rzqxJXfo",
+    "source": "Selected release META-INF/neoforge.mods.toml publisher description",
+    "version_id": "IxjdMVIp"
+  },
+  "mods/aeroengine-fuel-compat.pw.toml": {
+    "name": "AeroEngine fuel compat",
+    "description": "A small compatability mod between AeroEngines and other mod fuels (TFMG's kerosene for now).",
+    "url": "https://modrinth.com/project/RNUSzf19",
+    "source": "Selected release META-INF/neoforge.mods.toml publisher description",
+    "version_id": "iQWqNLQY"
   }
 }

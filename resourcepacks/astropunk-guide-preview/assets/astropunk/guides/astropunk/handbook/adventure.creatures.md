@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Creatures"
-  position: 3
+  position: 6
   icon: minecraft:egg
 ---
 

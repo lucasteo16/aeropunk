@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Libraries"
-  position: 0
+  position: 5
   parent: reference.technical.md
   icon: minecraft:bookshelf
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Deadeye"
-  position: 0
+  position: 5
   parent: combat.martial.md
   icon: archers:rapid_crossbow
 item_ids:

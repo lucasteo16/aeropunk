@@ -1,32 +1,57 @@
 ---
 navigation:
-  title: "Space transport"
-  position: 0
+  title: "Orbital flight"
+  position: 10
   parent: reference.vehicles.md
-  icon: minecraft:end_portal_frame
+  icon: rocketnautics:rocket_thruster
+item_ids:
+  - rocketnautics:rocket_thruster
 ---
 
-# Space transport
+# Orbital flight
 
-## Deferred content
+## Rocket propulsion
 
-<EmiSearch query="@create" />
+<EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
-These space vehicle-transfer addons are deferred. Do not assume they supply an installed survival crafting path or working whole-vehicle transfer in this edition.
+<ItemGrid>
+  <ItemIcon id="rocketnautics:rocket_thruster" />
+  <ItemIcon id="create:mechanical_crafter" />
+  <ItemIcon id="minecraft:lava_bucket" />
+</ItemGrid>
 
-| Component | Function |
+| Equipment | Use |
 | --- | --- |
-| Create: Northstar-Aeronautics Compatibility (deferred addition) | A bridge between Northstar destinations and physical vehicles. |
+| <ItemLink id="rocketnautics:rocket_thruster" /> | Liquid-fuel propulsion for an assembled physical ship. |
+| <ItemLink id="create:mechanical_crafter" /> | Crafts the thruster. Find its mechanical crafting layout in the recipe browser. |
+| <ItemLink id="minecraft:lava_bucket" /> | Represents Lava fuel. Supply the fluid through the ship's fluid system, rather than inserting a bucket as a crafting ingredient. |
+
+The thruster burns rocket fuel, not rotational power. Lava is a supported starting fuel. Its Ponder scene shows the engine and tank arrangement.
+
+***
+
+## Leaving the Overworld
+
+Assemble a physical spacecraft with Sable, fit the thruster and keep its fuel supply running. Crossing above world Y 20,000 transfers the ship and nearby passengers into Deep Space. This height is a world coordinate, not a distance above the launch pad.
+
+Deep Space is the orbital route to planetary surfaces. A change in sky appearance alone does not indicate a dimension transition.
+
+***
+
+## Surface entry
+
+Approach the current linked planet in Deep Space. Crossing inward to within 20,000 blocks of its surface transfers the ship into that planet's dimension at world Y 19,000. The Overworld, Moon and Mars use these boundaries. Surface entry leaves the ship high above the terrain, not landed or under automatic control.
+
+Slow descent before world Y 2,500. Between Y 1,000 and Y 2,500, downward speeds above 60 blocks per second cause heating. Stronger heating can damage nearby passengers.
 
 ***
 
 ## Related topics
 
+- [Assembly](vehicles.assembly.md)
 - [Dimensions](world.dimensions.md)
-
-Whole-airship relocation within a dimension is a separate transport feature, not space exploration.
-
-- [Teleportation](travel.destinations.md)
+- [Space life support](space.life-support.md)
+- [Space navigation](space.navigation.md)
 
 
 ***
@@ -35,5 +60,6 @@ Whole-airship relocation within a dimension is a separate transport feature, not
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) (deferred addition) | Adds relocation tools for physical Aeronautics vehicles. | No separate item search |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) (deferred addition) | Connects Northstar space travel to Aeronautics physical vehicle transfers. | No separate item search |
+| ![Create Cosmonautics](images/cosmo-micg1ith-icon.png) [Create Cosmonautics](world.dimensions.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
+| ![Create Cosmonautics Expansion](images/cosmo-gd7m0igy-icon.png) [Create Cosmonautics Expansion](world.dimensions.md) | Adds Mars terrain with plains, frostlands and underground caves. | <EmiSearch query="@rocketnautics_addon" /> |
+| ![Sable](images/catalog-t9pomcsv.png) [Sable](technical.libraries.md) | Framework for interactive moving block structures. | No separate item search |

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "查看照明与管理刷怪"
-  position: 0
+  position: 7
   parent: reference.building.md
   icon: minecraft:torch
 ---

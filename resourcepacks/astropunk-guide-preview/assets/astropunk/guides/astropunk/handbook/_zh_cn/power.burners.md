@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "提供液体燃烧燃料"
-  position: 0
+  position: 9
   parent: reference.machines-storage.md
   icon: minecraft:lava_bucket
 ---

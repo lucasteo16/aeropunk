@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "武技职业"
-  position: 0
+  position: 5
   parent: reference.skills.md
   icon: minecraft:bow
 ---

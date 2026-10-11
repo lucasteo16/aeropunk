@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Death & recovery"
-  position: 0
+  position: 3
   parent: reference.utilities.md
   icon: minecraft:recovery_compass
 ---

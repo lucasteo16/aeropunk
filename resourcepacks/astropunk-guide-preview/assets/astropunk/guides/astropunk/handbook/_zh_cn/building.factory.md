@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "装饰工厂与车站"
-  position: 0
+  position: 6
   parent: reference.building.md
   icon: create:industrial_iron_block
 ---

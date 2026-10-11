@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Radar"
-  position: 0
+  position: 8
   parent: reference.vehicles.md
   icon: minecraft:sculk_sensor
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Frost Wizard"
-  position: 0
+  position: 2
   parent: combat.magic.md
   icon: wizards:wand_frost
 item_ids:

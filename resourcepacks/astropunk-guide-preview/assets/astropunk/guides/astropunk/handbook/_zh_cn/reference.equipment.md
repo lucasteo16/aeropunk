@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "装备"
-  position: 0
+  position: 1
   parent: reference.skills.md
   icon: minecraft:iron_chestplate
 ---

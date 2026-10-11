@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "冻原猎手"
-  position: 0
+  position: 7
   parent: combat.martial.md
   icon: archers_expansion:tundra_hunter_chest
 item_ids:

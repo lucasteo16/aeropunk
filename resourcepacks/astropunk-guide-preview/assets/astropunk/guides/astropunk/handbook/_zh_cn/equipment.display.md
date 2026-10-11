@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "阅读护甲与状态信息"
-  position: 0
+  position: 4
   parent: reference.skills.md
   icon: minecraft:potion
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "调整天气、粒子与过渡效果"
-  position: 0
+  position: 4
   parent: reference.appearance.md
   icon: minecraft:snowball
 ---

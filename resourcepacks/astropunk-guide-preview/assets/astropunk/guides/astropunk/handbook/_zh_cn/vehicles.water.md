@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "操作船只与潜艇"
-  position: 0
+  position: 3
   parent: reference.vehicles.md
   icon: minecraft:oak_boat
 ---

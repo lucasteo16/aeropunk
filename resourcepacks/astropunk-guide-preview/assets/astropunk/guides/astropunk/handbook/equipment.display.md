@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Armor & status"
-  position: 0
+  position: 4
   parent: reference.skills.md
   icon: minecraft:potion
 ---

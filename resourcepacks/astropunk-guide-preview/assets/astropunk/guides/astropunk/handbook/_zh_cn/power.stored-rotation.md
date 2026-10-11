@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "储存旋转动力"
-  position: 0
+  position: 8
   parent: reference.machines-storage.md
   icon: create:flywheel
 ---

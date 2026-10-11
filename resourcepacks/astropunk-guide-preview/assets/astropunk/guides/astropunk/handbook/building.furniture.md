@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Furniture"
-  position: 0
+  position: 4
   parent: reference.building.md
   icon: handcrafted:oak_chair
 ---

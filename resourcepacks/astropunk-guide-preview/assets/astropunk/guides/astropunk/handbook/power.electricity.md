@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Electricity"
-  position: 0
+  position: 11
   parent: reference.machines-storage.md
   icon: minecraft:lightning_rod
 ---

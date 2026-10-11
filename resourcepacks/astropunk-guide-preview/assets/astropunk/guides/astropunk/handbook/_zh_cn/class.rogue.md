@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "盗贼"
-  position: 0
+  position: 2
   parent: combat.martial.md
   icon: rogues:iron_dagger
 item_ids:

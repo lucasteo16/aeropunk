@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Paladin"
-  position: 0
+  position: 7
   parent: combat.magic.md
   icon: paladins:iron_mace
 item_ids:

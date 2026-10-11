@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Boats & submarines"
-  position: 0
+  position: 3
   parent: reference.vehicles.md
   icon: minecraft:oak_boat
 ---

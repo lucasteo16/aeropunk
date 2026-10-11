@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Engines"
-  position: 0
+  position: 6
   parent: reference.vehicles.md
   icon: create:steam_engine
 ---
@@ -99,9 +99,19 @@ Aviation materials supply the engine core parts. Create Propulsion has a separat
 
 ***
 
-## Shared fuel addon
+## Shared engine fuel
 
-AeroEngine fuel compat (separate ship patch) lets AeroEngine accept common fuel tags. TFMG Community Edition kerosene has a matching tag. The addon also accepts broader fuel tags, including other liquids and gases, without assigning different energy values to each fuel. This is fuel acceptance compatibility, not a balanced shared refinery system.
+<EmiSearch query="@tfmg" />
+
+<ItemGrid>
+  <ItemIcon id="aeroengineering:aviation_kerosene_bucket" />
+</ItemGrid>
+
+<ItemLink id="aeroengineering:aviation_kerosene_bucket" /> represents the engine's original fuel. AeroEngine fuel compat also lets AeroEngine use kerosene from Create: The Factory Must Grow, Community Edition. Supply the fluid through the engine's fuel system. The addon changes accepted fuel tags, not the energy value of each fuel.
+
+- [Oil & industry](power.industry.md)
+- [Orbital flight](space.vehicle-transfer.md)
+
 
 ***
 
@@ -110,4 +120,5 @@ AeroEngine fuel compat (separate ship patch) lets AeroEngine accept common fuel 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | <EmiSearch query="@aeroengineering" /> |
+| ![AeroEngine fuel compat](images/cosmo-rnuszf19-icon.png) [AeroEngine fuel compat](vehicles.engines.md) | Allows AeroEngine to use kerosene from Create: The Factory Must Grow. | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
 | ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | <EmiSearch query="@createpropulsion" /> |

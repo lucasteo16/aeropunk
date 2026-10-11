@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Loot"
-  position: 0
+  position: 1
   parent: adventure.structures.md
   icon: minecraft:gold_ingot
 ---

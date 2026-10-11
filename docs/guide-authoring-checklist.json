@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "baseline_count": 316,
-  "union_count": 321,
+  "baseline_count": 302,
+  "union_count": 322,
   "categories": [
     "Automation and industry",
     "Storage and logistics",
@@ -34,6 +34,19 @@
       "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.interface",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/aeroengine-fuel-compat.pw.toml",
+      "name": "AeroEngine fuel compat",
+      "availability": "baseline",
+      "category": "Vehicles and travel",
+      "topic": "vehicles.engines",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -718,6 +731,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/cosmonautics-deep-air.pw.toml",
+      "name": "Cosmonautics: Deep Air",
+      "availability": "baseline",
+      "category": "Vehicles and travel",
+      "topic": "space.life-support",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
       "metadata_path": "mods/create-additional-logistics.pw.toml",
       "name": "Create: Additional Logistics",
       "availability": "baseline",
@@ -759,9 +785,9 @@
     {
       "metadata_path": "mods/create-aerowarptics.pw.toml",
       "name": "Create: AeroWarptics",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Vehicles and travel",
-      "topic": "space.vehicle-transfer",
+      "topic": "travel.destinations",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -840,6 +866,32 @@
       "availability": "baseline",
       "category": "Automation and industry",
       "topic": "machines.rotation",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/create-cosmonatics.pw.toml",
+      "name": "Create Cosmonautics",
+      "availability": "baseline",
+      "category": "Exploration and adventure",
+      "topic": "world.dimensions",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/create-cosmonautics-expansion.pw.toml",
+      "name": "Create Cosmonautics Expansion",
+      "availability": "baseline",
+      "category": "Exploration and adventure",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -1017,19 +1069,6 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/create-northstar-aeronautics-compatibility.pw.toml",
-      "name": "Create: Northstar-Aeronautics Compatibility",
-      "availability": "deferred",
-      "category": "Vehicles and travel",
-      "topic": "space.vehicle-transfer",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
       "metadata_path": "mods/create-pattern-schematics.pw.toml",
       "name": "Create: Pattern Schematics",
       "availability": "baseline",
@@ -1097,7 +1136,7 @@
     {
       "metadata_path": "mods/create-sable-dynamic-lights.pw.toml",
       "name": "Create Sable Dynamic Lights",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Technical reference",
       "topic": "technical.bridges",
       "indexed": true,
@@ -1487,7 +1526,7 @@
     {
       "metadata_path": "mods/eating-animations.pw.toml",
       "name": "Eating Animations",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -1682,7 +1721,7 @@
     {
       "metadata_path": "mods/explosive-enhancement-forge.pw.toml",
       "name": "Explosive Enhancement: Reforged",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -1704,6 +1743,19 @@
       "english_written": false,
       "simplified_chinese_written": false,
       "links_checked": false
+    },
+    {
+      "metadata_path": "mods/fancymenu.pw.toml",
+      "name": "FancyMenu",
+      "availability": "baseline",
+      "category": "Visuals and sound",
+      "topic": "visuals.interface",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
     },
     {
       "metadata_path": "mods/farmers-delight.pw.toml",
@@ -1812,7 +1864,7 @@
     {
       "metadata_path": "mods/fwa.pw.toml",
       "name": "Fancy World Animations [FWA]",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -2148,6 +2200,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/konkrete.pw.toml",
+      "name": "Konkrete",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
       "metadata_path": "mods/kotlin-for-forge.pw.toml",
       "name": "Kotlin for Forge",
       "availability": "baseline",
@@ -2395,6 +2460,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/melody.pw.toml",
+      "name": "Melody",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
       "metadata_path": "mods/midnightlib.pw.toml",
       "name": "MidnightLib",
       "availability": "baseline",
@@ -2603,35 +2681,9 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/northstar-redux.pw.toml",
-      "name": "Create: Northstar - Redux",
-      "availability": "deferred",
-      "category": "Vehicles and travel",
-      "topic": "space.destinations",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
-      "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
-      "name": "Northstar Sable Iris Horizons Bridge",
-      "availability": "deferred",
-      "category": "Technical reference",
-      "topic": "technical.space-bridge",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
       "metadata_path": "mods/not-enough-animations-emf-compat.pw.toml",
       "name": "EMF Compat: Not Enough Animations",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Technical reference",
       "topic": "technical.bridges",
       "indexed": true,
@@ -2644,7 +2696,7 @@
     {
       "metadata_path": "mods/not-enough-animations.pw.toml",
       "name": "Not Enough Animations",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -2722,7 +2774,7 @@
     {
       "metadata_path": "mods/particle-effects.pw.toml",
       "name": "Particle Effects",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -2735,22 +2787,9 @@
     {
       "metadata_path": "mods/particular-reforged.pw.toml",
       "name": "Particular ✨ Reforged",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
-      "metadata_path": "mods/paxi.pw.toml",
-      "name": "Paxi",
-      "availability": "deferred",
-      "category": "Technical reference",
-      "topic": "server.deferred-pack-loading",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3021,7 +3060,7 @@
     {
       "metadata_path": "mods/ripple.pw.toml",
       "name": "Ripple",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
       "indexed": true,
@@ -3242,7 +3281,7 @@
     {
       "metadata_path": "mods/sodium-dynamic-lights.pw.toml",
       "name": "Sodium Dynamic Lights",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.lighting",
       "indexed": true,
@@ -3346,7 +3385,7 @@
     {
       "metadata_path": "mods/spawn-animations-compats.pw.toml",
       "name": "Spawn Animations Compats",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Technical reference",
       "topic": "technical.bridges",
       "indexed": true,
@@ -3359,7 +3398,7 @@
     {
       "metadata_path": "mods/spawn-animations.pw.toml",
       "name": "Spawn Animations",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -3541,7 +3580,7 @@
     {
       "metadata_path": "mods/team-capes.pw.toml",
       "name": "Team Capes",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Exploration and adventure",
       "topic": "maps.shared",
       "indexed": true,
@@ -4009,7 +4048,7 @@
     {
       "metadata_path": "resourcepacks/fa-player-extension.pw.toml",
       "name": "Fresh Animations: Player Extension",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4022,7 +4061,7 @@
     {
       "metadata_path": "resourcepacks/fancy-crops.pw.toml",
       "name": "(Bee's) Fancy Crops",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4035,7 +4074,7 @@
     {
       "metadata_path": "resourcepacks/fresh-animations-objects.pw.toml",
       "name": "Fresh Animations: Objects",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4048,7 +4087,7 @@
     {
       "metadata_path": "resourcepacks/fresh-animations-quivers.pw.toml",
       "name": "Fresh Animations: Quivers",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4061,7 +4100,7 @@
     {
       "metadata_path": "resourcepacks/fresh-animations.pw.toml",
       "name": "Fresh Animations",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4087,7 +4126,7 @@
     {
       "metadata_path": "resourcepacks/simple-grass-flowers.pw.toml",
       "name": "Simple Grass Flowers",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4100,7 +4139,7 @@
     {
       "metadata_path": "resourcepacks/visual-effects-plus.pw.toml",
       "name": "Visual Effects+",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.resource-packs",
       "indexed": true,
@@ -4150,43 +4189,17 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/fancymenu.pw.toml",
-      "name": "FancyMenu",
-      "availability": "baseline",
-      "category": "Visuals and sound",
-      "topic": "visuals.interface",
-      "indexed": true,
-      "player_mention_written": true,
-      "instructions_verified": false,
-      "english_written": true,
-      "simplified_chinese_written": true,
-      "links_checked": true
-    },
-    {
-      "metadata_path": "mods/konkrete.pw.toml",
-      "name": "Konkrete",
+      "metadata_path": "mods/paxi.pw.toml",
+      "name": "Paxi",
       "availability": "baseline",
       "category": "Technical reference",
-      "topic": "technical.libraries",
+      "topic": "server.tools",
       "indexed": true,
-      "player_mention_written": true,
+      "player_mention_written": false,
       "instructions_verified": false,
-      "english_written": true,
-      "simplified_chinese_written": true,
-      "links_checked": true
-    },
-    {
-      "metadata_path": "mods/melody.pw.toml",
-      "name": "Melody",
-      "availability": "baseline",
-      "category": "Technical reference",
-      "topic": "technical.libraries",
-      "indexed": true,
-      "player_mention_written": true,
-      "instructions_verified": false,
-      "english_written": true,
-      "simplified_chinese_written": true,
-      "links_checked": true
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
     }
   ]
 }

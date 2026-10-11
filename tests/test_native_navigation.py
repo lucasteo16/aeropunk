@@ -22,6 +22,7 @@ class ReleasedNavigation(unittest.TestCase):
         for row in report['tests']:
             self.assertIn(f"{len(manifest['pages']) + 1} nodes, eighteen ordered roots, direct Audio article", row['output'])
             self.assertIn('obsolete Quick reference and Sound resurrection and repair controls', row['output'])
+            self.assertIn('all sibling orders and semantic reorder negative control', row['output'])
         self.assertFalse(report['rendered_verified'])
 
     def test_registration_does_not_reintroduce_catalog_or_unsupported_nodes(self):

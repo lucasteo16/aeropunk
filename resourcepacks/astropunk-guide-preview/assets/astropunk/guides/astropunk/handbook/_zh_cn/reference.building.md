@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "建筑"
-  position: 8
+  position: 10
   icon: create:schematicannon
 ---
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "了解当前性能优化系统"
-  position: 0
+  position: 2
   parent: reference.technical.md
   icon: minecraft:clock
 ---
@@ -68,12 +68,6 @@ navigation:
 
 ***
 
-## 相关页面
-
-- [诊断工具](server.tools.md)
-- [光照与远景](visuals.lighting.md)
-
-
 ## 共用优化模组
 
 | 内容 | 作用 |
@@ -81,6 +75,13 @@ navigation:
 | Async Logger | 异步处理日志。 |
 | Jasione | 减少重复的枚举数组分配。 |
 | ServerCore | 优化服务器处理，包括单人游戏的内置服务器。 |
+
+***
+
+## 相关页面
+
+- [诊断工具](server.tools.md)
+- [光照与远景](visuals.lighting.md)
 
 
 ***
@@ -90,6 +91,7 @@ navigation:
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![AI Improvements: Performance Tuning](images/catalog-dsvgwcji.png) [AI Improvements: Performance Tuning](performance.baseline.md) | 优化原版生物行为处理。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.baseline.md) | 异步日志处理。 | 无独立物品查询 |
 | ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | 优化粒子运算与渲染。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | 优化主地形渲染器以外的处理。 | 无独立物品查询 |
 | ![Clumps](images/catalog-wnxd13zp.png) [Clumps](performance.baseline.md) | 合并经验球，减少独立经验球的处理。 | 无独立物品查询 |
@@ -103,11 +105,13 @@ navigation:
 | ![Flerovium](images/catalog-4rh1mobu.png) [Flerovium](performance.baseline.md) | 优化物品、粒子与实体渲染。 | 无独立物品查询 |
 | ![ImmediatelyFast](images/catalog-5zwdcrci.png) [ImmediatelyFast](performance.baseline.md) | 优化即时模式渲染。 | 无独立物品查询 |
 | ![Ixeris](images/catalog-p8rjpjic.png) [Ixeris](performance.baseline.md) | 提供缓冲原始输入与独立线程事件轮询。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.baseline.md) | 减少重复的枚举数组分配。 | 无独立物品查询 |
 | ![Kerria](images/catalog-f0ruqtf7.png) [Kerria](performance.baseline.md) | 加速动态纹理处理。 | 无独立物品查询 |
 | ![Let Me Despawn](images/catalog-ve2fn5qn.png) [Let Me Despawn](performance.baseline.md) | 调整生物消失规则，减少意外永久保留的生物。 | 无独立物品查询 |
 | ![Lithium](images/catalog-gvqqbuqz.png) [Lithium](performance.baseline.md) | 优化单人游戏与服务器的游戏逻辑。 | 无独立物品查询 |
 | ![ModernFix](images/catalog-nmdcb62a.png) [ModernFix](performance.baseline.md) | 提供性能、内存与错误修复改进。 | 无独立物品查询 |
 | ![More Culling](images/catalog-51shyzvl.png) [More Culling](performance.baseline.md) | 跳过部分不可见的渲染面。 | 无独立物品查询 |
 | ![quick pack](images/catalog-psisfj4o.png) [quick pack](performance.baseline.md) | 加速压缩数据包与资源包加载。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.baseline.md) | 优化服务器区块刻处理与生物生成，并提供可调整的负载控制。 | 无独立物品查询 |
 | ![Sodium](images/catalog-aanobbmi.png) [Sodium](performance.baseline.md) | 替换地形渲染引擎。 | 无独立物品查询 |
 | ![Structure Layout Optimizer](images/catalog-aypu0ohc.png) [Structure Layout Optimizer](performance.baseline.md) | 优化拼图结构布局处理。 | 无独立物品查询 |

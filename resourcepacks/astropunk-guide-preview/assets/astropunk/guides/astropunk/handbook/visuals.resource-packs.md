@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Resource packs"
-  position: 0
+  position: 2
   parent: reference.appearance.md
   icon: minecraft:loom
 ---

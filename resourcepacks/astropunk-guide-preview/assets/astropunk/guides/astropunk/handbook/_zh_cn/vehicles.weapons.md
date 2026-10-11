@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "安装和操作载具武器"
-  position: 0
+  position: 9
   parent: reference.vehicles.md
   icon: minecraft:dispenser
 ---

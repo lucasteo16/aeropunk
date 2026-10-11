@@ -1,15 +1,15 @@
 {
-  "draft_articles": 104,
-  "article_count": 104,
+  "draft_articles": 102,
+  "article_count": 102,
   "category_count": 0,
   "navigation_page_count": 0,
-  "root_page_count": 17,
+  "root_page_count": 18,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 298,
+  "installed_content_count": 304,
   "heavy_content_count": 20,
-  "baseline_commit": "77b4453",
-  "deferred_content_count": 5,
+  "baseline_commit": "f5c24f3",
+  "deferred_content_count": 0,
   "pages": [
     {
       "topic": "help.search",
@@ -361,6 +361,7 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/aeroengine-fuel-compat.pw.toml",
         "mods/aeroengine.pw.toml",
         "mods/create-propulsion-simulated.pw.toml"
       ]
@@ -453,6 +454,7 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/create-aerowarptics.pw.toml",
         "mods/create-waystones-recipes.pw.toml",
         "mods/netherportalfix.pw.toml",
         "mods/tempad.pw.toml",
@@ -929,37 +931,23 @@
         "mods/advancement-plaques.pw.toml",
         "mods/better-modlist.pw.toml",
         "mods/betterf3.pw.toml",
+        "mods/fancymenu.pw.toml",
         "mods/hide-experimental-warning.pw.toml",
         "mods/progresspeek.pw.toml",
         "mods/reeses-sodium-options.pw.toml",
         "mods/sodium-extra.pw.toml",
         "mods/toast-control.pw.toml",
-        "mods/travelers-titles.pw.toml",
-        "mods/fancymenu.pw.toml"
-      ]
-    },
-    {
-      "topic": "space.destinations",
-      "category": "Vehicles and travel",
-      "filename": "space.destinations.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": true,
-      "metadata_paths": [
-        "mods/northstar-redux.pw.toml"
+        "mods/travelers-titles.pw.toml"
       ]
     },
     {
       "topic": "space.vehicle-transfer",
-      "category": "Vehicles and travel",
+      "category": "Technical reference",
       "filename": "space.vehicle-transfer.md",
       "drafted": true,
       "page_type": "article",
-      "deferred": true,
-      "metadata_paths": [
-        "mods/create-aerowarptics.pw.toml",
-        "mods/create-northstar-aeronautics-compatibility.pw.toml"
-      ]
+      "deferred": false,
+      "metadata_paths": []
     },
     {
       "topic": "performance.baseline",
@@ -970,6 +958,7 @@
       "deferred": false,
       "metadata_paths": [
         "mods/ai-improvements.pw.toml",
+        "mods/asynclogger.pw.toml",
         "mods/asyncparticles.pw.toml",
         "mods/badoptimizations.pw.toml",
         "mods/c2me-neoforge.pw.toml",
@@ -983,27 +972,16 @@
         "mods/flerovium.pw.toml",
         "mods/immediatelyfast.pw.toml",
         "mods/ixeris.pw.toml",
+        "mods/jasione.pw.toml",
         "mods/kerria-opt.pw.toml",
         "mods/lithium.pw.toml",
         "mods/lmd.pw.toml",
         "mods/modernfix.pw.toml",
         "mods/moreculling.pw.toml",
         "mods/quick-pack.pw.toml",
+        "mods/servercore.pw.toml",
         "mods/sodium.pw.toml",
         "mods/structure-layout-optimizer.pw.toml"
-      ]
-    },
-    {
-      "topic": "performance.deferred",
-      "category": "Technical reference",
-      "filename": "performance.deferred.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": [
-        "mods/asynclogger.pw.toml",
-        "mods/jasione.pw.toml",
-        "mods/servercore.pw.toml"
       ]
     },
     {
@@ -1017,17 +995,7 @@
         "mods/chunky.pw.toml",
         "mods/configured-defaults.pw.toml",
         "mods/observable.pw.toml",
-        "mods/spark.pw.toml"
-      ]
-    },
-    {
-      "topic": "server.deferred-pack-loading",
-      "category": "Technical reference",
-      "filename": "server.deferred-pack-loading.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": true,
-      "metadata_paths": [
+        "mods/spark.pw.toml",
         "mods/paxi.pw.toml"
       ]
     },
@@ -1043,17 +1011,6 @@
         "mods/neo-bee-fix.pw.toml",
         "mods/sable_beyond.pw.toml",
         "mods/sablecompat.pw.toml"
-      ]
-    },
-    {
-      "topic": "technical.space-bridge",
-      "category": "Technical reference",
-      "filename": "technical.space-bridge.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": true,
-      "metadata_paths": [
-        "mods/northstar-sable-iris-horizons-bridge.pw.toml"
       ]
     },
     {
@@ -1086,11 +1043,13 @@
         "mods/gml.pw.toml",
         "mods/iceberg.pw.toml",
         "mods/jamlib.pw.toml",
+        "mods/konkrete.pw.toml",
         "mods/kotlin-for-forge.pw.toml",
         "mods/lionfish-api.pw.toml",
         "mods/lithostitched.pw.toml",
         "mods/lodestonelib.pw.toml",
         "mods/mafglib.pw.toml",
+        "mods/melody.pw.toml",
         "mods/midnightlib.pw.toml",
         "mods/moonlight.pw.toml",
         "mods/more-rpg-library.pw.toml",
@@ -1113,10 +1072,28 @@
         "mods/structure-pool-api.pw.toml",
         "mods/teallib.pw.toml",
         "mods/yacl.pw.toml",
-        "mods/yungs-api.pw.toml",
-        "mods/konkrete.pw.toml",
-        "mods/melody.pw.toml"
+        "mods/yungs-api.pw.toml"
       ]
+    },
+    {
+      "topic": "space.life-support",
+      "category": "Vehicles and travel",
+      "filename": "space.life-support.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/cosmonautics-deep-air.pw.toml"
+      ]
+    },
+    {
+      "topic": "space.navigation",
+      "category": "Technical reference",
+      "filename": "space.navigation.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
     },
     {
       "topic": "help.handbook",
@@ -1137,6 +1114,8 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/create-cosmonatics.pw.toml",
+        "mods/create-cosmonautics-expansion.pw.toml",
         "mods/ibo.pw.toml",
         "mods/incendium.pw.toml",
         "mods/nullscape.pw.toml",
@@ -1173,6 +1152,15 @@
       "metadata_paths": []
     },
     {
+      "topic": "reference.utilities",
+      "category": "Player utilities and quality of life",
+      "filename": "reference.utilities.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
       "topic": "reference.skills",
       "category": "Combat and character",
       "filename": "reference.skills.md",
@@ -1200,15 +1188,6 @@
       "metadata_paths": []
     },
     {
-      "topic": "reference.vehicles",
-      "category": "Vehicles and travel",
-      "filename": "reference.vehicles.md",
-      "drafted": true,
-      "page_type": "directory",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
       "topic": "reference.machines-storage",
       "category": "Automation and industry",
       "filename": "reference.machines-storage.md",
@@ -1218,9 +1197,9 @@
       "metadata_paths": []
     },
     {
-      "topic": "reference.utilities",
-      "category": "Player utilities and quality of life",
-      "filename": "reference.utilities.md",
+      "topic": "reference.vehicles",
+      "category": "Vehicles and travel",
+      "filename": "reference.vehicles.md",
       "drafted": true,
       "page_type": "directory",
       "deferred": false,
@@ -1453,6 +1432,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/aeroengine-fuel-compat.pw.toml",
+      "name": "AeroEngine fuel compat",
+      "availability": "baseline",
+      "category": "Vehicles and travel",
+      "topic": "vehicles.engines",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
       "metadata_path": "mods/aeroengine.pw.toml",
       "name": "AeroEngine",
       "availability": "baseline",
@@ -1626,7 +1618,7 @@
       "name": "Async Logger",
       "availability": "baseline",
       "category": "Technical reference",
-      "topic": "performance.deferred",
+      "topic": "performance.baseline",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2129,6 +2121,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/cosmonautics-deep-air.pw.toml",
+      "name": "Cosmonautics: Deep Air",
+      "availability": "baseline",
+      "category": "Vehicles and travel",
+      "topic": "space.life-support",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
       "metadata_path": "mods/create-additional-logistics.pw.toml",
       "name": "Create: Additional Logistics",
       "availability": "baseline",
@@ -2170,9 +2175,9 @@
     {
       "metadata_path": "mods/create-aerowarptics.pw.toml",
       "name": "Create: AeroWarptics",
-      "availability": "deferred",
+      "availability": "baseline",
       "category": "Vehicles and travel",
-      "topic": "space.vehicle-transfer",
+      "topic": "travel.destinations",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2251,6 +2256,32 @@
       "availability": "baseline",
       "category": "Automation and industry",
       "topic": "machines.rotation",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/create-cosmonatics.pw.toml",
+      "name": "Create Cosmonautics",
+      "availability": "baseline",
+      "category": "Exploration and adventure",
+      "topic": "world.dimensions",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/create-cosmonautics-expansion.pw.toml",
+      "name": "Create Cosmonautics Expansion",
+      "availability": "baseline",
+      "category": "Exploration and adventure",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2420,19 +2451,6 @@
       "availability": "baseline",
       "category": "Building and decoration",
       "topic": "building.factory",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
-      "metadata_path": "mods/create-northstar-aeronautics-compatibility.pw.toml",
-      "name": "Create: Northstar-Aeronautics Compatibility",
-      "availability": "deferred",
-      "category": "Vehicles and travel",
-      "topic": "space.vehicle-transfer",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3117,6 +3135,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/fancymenu.pw.toml",
+      "name": "FancyMenu",
+      "availability": "baseline",
+      "category": "Visuals and sound",
+      "topic": "visuals.interface",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
       "metadata_path": "mods/farmers-delight.pw.toml",
       "name": "Farmer's Delight",
       "availability": "baseline",
@@ -3524,7 +3555,7 @@
       "name": "Jasione",
       "availability": "baseline",
       "category": "Technical reference",
-      "topic": "performance.deferred",
+      "topic": "performance.baseline",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3557,6 +3588,19 @@
       "english_written": false,
       "simplified_chinese_written": false,
       "links_checked": false
+    },
+    {
+      "metadata_path": "mods/konkrete.pw.toml",
+      "name": "Konkrete",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
     },
     {
       "metadata_path": "mods/kotlin-for-forge.pw.toml",
@@ -3806,6 +3850,19 @@
       "links_checked": false
     },
     {
+      "metadata_path": "mods/melody.pw.toml",
+      "name": "Melody",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
       "metadata_path": "mods/midnightlib.pw.toml",
       "name": "MidnightLib",
       "availability": "baseline",
@@ -4014,32 +4071,6 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/northstar-redux.pw.toml",
-      "name": "Create: Northstar - Redux",
-      "availability": "deferred",
-      "category": "Vehicles and travel",
-      "topic": "space.destinations",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
-      "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
-      "name": "Northstar Sable Iris Horizons Bridge",
-      "availability": "deferred",
-      "category": "Technical reference",
-      "topic": "technical.space-bridge",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
       "metadata_path": "mods/not-enough-animations-emf-compat.pw.toml",
       "name": "EMF Compat: Not Enough Animations",
       "availability": "heavy",
@@ -4149,19 +4180,6 @@
       "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.weather",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
-      "metadata_path": "mods/paxi.pw.toml",
-      "name": "Paxi",
-      "availability": "deferred",
-      "category": "Technical reference",
-      "topic": "server.deferred-pack-loading",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4551,7 +4569,7 @@
       "name": "ServerCore",
       "availability": "baseline",
       "category": "Technical reference",
-      "topic": "performance.deferred",
+      "topic": "performance.baseline",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -5561,43 +5579,17 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/fancymenu.pw.toml",
-      "name": "FancyMenu",
-      "availability": "baseline",
-      "category": "Visuals and sound",
-      "topic": "visuals.interface",
-      "indexed": true,
-      "player_mention_written": true,
-      "instructions_verified": false,
-      "english_written": true,
-      "simplified_chinese_written": true,
-      "links_checked": true
-    },
-    {
-      "metadata_path": "mods/konkrete.pw.toml",
-      "name": "Konkrete",
+      "metadata_path": "mods/paxi.pw.toml",
+      "name": "Paxi",
       "availability": "baseline",
       "category": "Technical reference",
-      "topic": "technical.libraries",
+      "topic": "server.tools",
       "indexed": true,
-      "player_mention_written": true,
+      "player_mention_written": false,
       "instructions_verified": false,
-      "english_written": true,
-      "simplified_chinese_written": true,
-      "links_checked": true
-    },
-    {
-      "metadata_path": "mods/melody.pw.toml",
-      "name": "Melody",
-      "availability": "baseline",
-      "category": "Technical reference",
-      "topic": "technical.libraries",
-      "indexed": true,
-      "player_mention_written": true,
-      "instructions_verified": false,
-      "english_written": true,
-      "simplified_chinese_written": true,
-      "links_checked": true
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
     },
     {
       "metadata_path": "mods/guideme.pw.toml",

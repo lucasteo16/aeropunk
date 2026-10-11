@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "工业材料与燃料系统"
-  position: 0
+  position: 10
   parent: reference.machines-storage.md
   icon: minecraft:iron_ingot
 ---
@@ -10,7 +10,7 @@ navigation:
 
 ## 冶金与化工
 
-<EmiSearch query="@create" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@tfmg" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />
@@ -85,6 +85,8 @@ navigation:
 先查看焦炉配方及煤炭加工思索演示。高炉需要独立的热风与加固结构。石油开采从矿藏和工业管道开始，再查看抽油机思索演示。该工业电力系统使用自己的电压分组与配置扳手，不等同于 Electro Energetics 的网络。
 
 <Recipe id="tfmg:crafting/materials/coke_oven" />
+
+***
 
 ## 相关页面
 

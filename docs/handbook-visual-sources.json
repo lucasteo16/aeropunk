@@ -7502,5 +7502,199 @@
     "derived_sha256": "4351f50ee47403ad84546e27eed6a3f440f026b2d65ac1f8784d4d3fd47f5613",
     "evidence": "docs/final-review/branding-and-startup-verification.json",
     "rights": "Generated title is separate from screenshot. Merun173 build attribution retained; screenshot reuse permission not independently established."
+  },
+  "mods/create-cosmonatics.pw.toml": {
+    "resource": "images/cosmo-micg1ith-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/micg1iTH/182f2424eb3d642846cebdd615e80413e5a63919_96.webp",
+    "project_url": "https://modrinth.com/project/micg1iTH",
+    "project_id": "micg1iTH",
+    "publisher": "Create Cosmonautics",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Separate artwork reuse permission not independently established.",
+    "original_sha256": "aa426c185ad995bc0fdc7d0fb6707e5924dfcc35e7ebe6fc02d244e6e304f4f8",
+    "resource_sha256": "b94db8b6ec6431ed5d65b798cb9ce31a9ce56dc101602efbad40638bc11b6d1b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-cosmonautics-expansion.pw.toml": {
+    "resource": "images/cosmo-gd7m0igy-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/gD7M0IgY/b957e2c35d69daa7e949653e9bf4d8a844ed213c_96.webp",
+    "project_url": "https://modrinth.com/project/gD7M0IgY",
+    "project_id": "gD7M0IgY",
+    "publisher": "Create Cosmonautics Expansion",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Separate artwork reuse permission not independently established.",
+    "original_sha256": "0c6230153ebf0db38767ffc840a323d37153e63864884db65d303f2b82def6ef",
+    "resource_sha256": "37795b10b066b72e3dfc8cc5bdd60acbd6fdceedcd086850a9fbb363b31b4c25",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/cosmonautics-deep-air.pw.toml": {
+    "resource": "images/cosmo-rzqxjxfo-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/rzqxJXfo/c84c8be45740992399f41bc02ddb53c62cb340ca_96.webp",
+    "project_url": "https://modrinth.com/project/rzqxJXfo",
+    "project_id": "rzqxJXfo",
+    "publisher": "Cosmonautics: Deep Air",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Separate artwork reuse permission not independently established.",
+    "original_sha256": "d7b4a28867385440377acf8fde609758732daaf36ee29fe3e13d72cc399b875a",
+    "resource_sha256": "f751b4a118263684b20725b494cd9c900c9d094da0d3444c51ba31ad66b8de4a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/aeroengine-fuel-compat.pw.toml": {
+    "resource": "images/cosmo-rnuszf19-icon.png",
+    "source_url": "https://cdn.modrinth.com/data/RNUSzf19/eee4faf19d0869a6d8902cae133e3ec32ad04515_96.webp",
+    "project_url": "https://modrinth.com/project/RNUSzf19",
+    "project_id": "RNUSzf19",
+    "publisher": "AeroEngine fuel compat",
+    "kind": "publisher icon",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Separate artwork reuse permission not independently established.",
+    "original_sha256": "c0291f3f08a753d2416170c926c85e9b12ce615a5302ce2fcb9871c970784f5c",
+    "resource_sha256": "b42ca3e8afd7957c5a00af7e72efeb36a6c88e3c6bd4b7d7406292fdd68fc090",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "handbook:cosmo-mars-terrain": {
+    "resource": "images/cosmo-mars-terrain.png",
+    "source_url": "https://cdn.modrinth.com/data/gD7M0IgY/images/a28af212a5ad25d483dc325ea3a5f05d4f8d56ed.png",
+    "project_url": "https://modrinth.com/project/gD7M0IgY",
+    "project_id": "gD7M0IgY",
+    "publisher": "Create Cosmonautics Expansion",
+    "kind": "publisher game capture",
+    "subject": "Mars Ravines + Mountains",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Gallery image reuse permission not separately established.",
+    "original_sha256": "b870f1edcb476bb984b7228ff16bdb7e3826631d363169a44f84f501580136cd",
+    "resource_sha256": "70ff06ad565234dacd8058bfcb3b45ddbc3856abf1b2023d26efbe356c8ec7b4",
+    "dimensions": [
+      960,
+      496
+    ],
+    "derivation": "Proportional downscale only. No generated or retouched gameplay.",
+    "qualification": "Mars Ravines + Mountains + Photon Shader"
+  },
+  "handbook:cosmo-deep-space": {
+    "resource": "images/cosmo-deep-space.png",
+    "source_url": "https://cdn.modrinth.com/data/micg1iTH/images/0e32ecbff19477b057ad3bb967d17c2095e7da53.png",
+    "project_url": "https://modrinth.com/project/micg1iTH",
+    "project_id": "micg1iTH",
+    "publisher": "Create Cosmonautics",
+    "kind": "publisher game capture",
+    "subject": "Starry cosmic sky!",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Gallery image reuse permission not separately established.",
+    "original_sha256": "8b7c26d784ec5294e02749407660e8ace8118fb8bcdb1ca2327b04e7bb7eceb6",
+    "resource_sha256": "b34b94710ba98c1897d6aff578ead44e7678d724632ae6f3c0b90d083d72e141",
+    "dimensions": [
+      960,
+      511
+    ],
+    "derivation": "Proportional downscale only. No generated or retouched gameplay.",
+    "qualification": "Starry cosmic sky!"
+  },
+  "handbook:cosmo-hologram": {
+    "resource": "images/cosmo-hologram.png",
+    "source_url": "https://cdn.modrinth.com/data/micg1iTH/images/ca7f5bd471050340aaf663894fc8c20b81cd248d.png",
+    "project_url": "https://modrinth.com/project/micg1iTH",
+    "project_id": "micg1iTH",
+    "publisher": "Create Cosmonautics",
+    "kind": "publisher game capture",
+    "subject": "Hologram Table UI",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Gallery image reuse permission not separately established.",
+    "original_sha256": "61b487ce01ccd52286c1a24c92ea91b98e1c8b6442588d4ce46556e8326a1b50",
+    "resource_sha256": "445f82cc1caaeac9ceee6cac50ce5daead94a2e172cb25b4265d21ed8e65c9e4",
+    "dimensions": [
+      769,
+      640
+    ],
+    "derivation": "Proportional downscale only. No generated or retouched gameplay.",
+    "qualification": "Hologram Table UI"
+  },
+  "handbook:cosmo-gravity-room": {
+    "resource": "images/cosmo-gravity-room.png",
+    "source_url": "https://cdn.modrinth.com/data/rzqxJXfo/images/c4786451733ed095669ea9725f43f6d7d80c6af7.png",
+    "project_url": "https://modrinth.com/project/rzqxJXfo",
+    "project_id": "rzqxJXfo",
+    "publisher": "Cosmonautics: Deep Air",
+    "kind": "publisher game capture",
+    "subject": "Gravity System 2",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "rights": "Project license reported by Modrinth. Gallery image reuse permission not separately established.",
+    "original_sha256": "6c59a468a453f4634d882504cd23eb45b33d934f260ed881c380c58d2a7b5584",
+    "resource_sha256": "4688d660e97542734ba4d0be35214e5b808e58b0a635612e8bbc305a3b0e64be",
+    "dimensions": [
+      960,
+      378
+    ],
+    "derivation": "Proportional downscale only. No generated or retouched gameplay.",
+    "qualification": null
+  },
+  "handbook:cosmo-moon-terrain": {
+    "resource": "images/cosmo-moon-terrain.png",
+    "source_url": "https://i.ytimg.com/vi/NUahPAvniKw/maxresdefault.jpg",
+    "project_url": "https://www.youtube.com/watch?v=NUahPAvniKw",
+    "publisher": "web, https://www.youtube.com/@webyepq",
+    "kind": "identified video thumbnail terrain crop",
+    "subject": "Moon terrain",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "YouTube standard video license, image reuse permission not established",
+      "url": null
+    },
+    "rights": "Attribution retained. Redistribution permission not independently established.",
+    "original_sha256": "8f44701c75eb5e5c718976c47dac3143bb4c742297c1a14cb1719249e0f99075",
+    "resource_sha256": "2501da7f888278e16a98d6bc19b333d84143a887a5f28c16666b350de8a5c4f0",
+    "dimensions": [
+      500,
+      300
+    ],
+    "derivation": "Crop x 780, y 220, width 500, height 300. Removes interface and foreground machine. No retouching.",
+    "qualification": "Cosmonautics Moon preview by web. Relationship of this channel to the Modrinth publisher and exact-release appearance are not independently established. Not a capture of this pack."
   }
 }

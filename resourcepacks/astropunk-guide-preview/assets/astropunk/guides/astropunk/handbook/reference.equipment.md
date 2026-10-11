@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Equipment"
-  position: 0
+  position: 1
   parent: reference.skills.md
   icon: minecraft:iron_chestplate
 ---

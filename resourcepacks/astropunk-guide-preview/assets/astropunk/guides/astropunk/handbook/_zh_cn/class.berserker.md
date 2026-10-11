@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "狂战士"
-  position: 0
+  position: 1
   parent: combat.martial.md
   icon: berserker_rpg:iron_berserker_axe
 item_ids:

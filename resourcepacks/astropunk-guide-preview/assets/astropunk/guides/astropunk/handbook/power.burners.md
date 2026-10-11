@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Liquid fuels"
-  position: 0
+  position: 9
   parent: reference.machines-storage.md
   icon: minecraft:lava_bucket
 ---

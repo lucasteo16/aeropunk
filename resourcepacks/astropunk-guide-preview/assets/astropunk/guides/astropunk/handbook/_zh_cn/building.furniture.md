@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "布置住宅与公共空间"
-  position: 0
+  position: 4
   parent: reference.building.md
   icon: handcrafted:oak_chair
 ---

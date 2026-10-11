@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "弓箭手"
-  position: 0
+  position: 4
   parent: combat.martial.md
   icon: archers:composite_longbow
 item_ids:

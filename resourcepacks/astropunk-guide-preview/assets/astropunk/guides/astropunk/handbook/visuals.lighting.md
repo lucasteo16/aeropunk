@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Lighting & distance"
-  position: 0
+  position: 5
   parent: reference.appearance.md
   icon: minecraft:lantern
 ---

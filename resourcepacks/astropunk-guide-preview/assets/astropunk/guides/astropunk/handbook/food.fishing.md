@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Fishing"
-  position: 8
+  position: 3
   parent: reference.food.md
   icon: minecraft:cod
 ---
@@ -82,7 +82,7 @@ Materials & containers
   <ItemIcon id="minecraft:string" />
 </ItemGrid>
 
-Clams supply shellfish meals and Coastal Crab Claws supply crab dishes. With Farmer’s Delight installed, <ItemLink id="spawn:clam_chowder" /> uses the heated-pot route and a serving bowl. The fallback crafting recipe without Farmer’s Delight is not the selected route. Nets and fish buckets are capture equipment rather than meals.
+Clams supply shellfish meals and Coastal Crab Claws supply crab dishes. Prepare <ItemLink id="spawn:clam_chowder" /> in a heated cooking pot and serve it in a bowl. Nets and fish buckets are capture equipment rather than meals.
 ***
 
 ## Related topics

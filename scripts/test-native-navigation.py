@@ -14,6 +14,9 @@ import re
 import subprocess
 import tempfile
 import zipfile
+import argparse
+import sys
+from handbook_navigation import navigation_metadata, assert_semantic_navigation
 
 ROOT = Path(__file__).resolve().parents[1]
 ENGINE = Path(os.environ.get('GUIDEME_JAR', str(ROOT / 'scripts/handbook-access/guideme-21.1.19.jar')))
@@ -38,11 +41,28 @@ public class NativeNavigationProbe {
  }
  static Set<String> roots(NavigationTree t){Set<String>s=new TreeSet<>();for(var n:t.getRootNodes())s.add(n.pageId().toString());return s;}
  static int walk(NavigationNode n,int depth,Set<String>seen){if(!seen.add(n.pageId().toString()))throw new AssertionError("Duplicate or cyclic node"); if(depth>2)throw new AssertionError("Unexpected fourth navigation level");int count=1; for(var c:n.children())count+=walk(c,depth+1,seen);return count;}
+ static void assertOrder(NavigationTree tree, Map<ResourceLocation,ParsedGuidePage> expected) {
+  Map<String,List<ParsedGuidePage>> groups=new HashMap<>();
+  for(var page:expected.values()) {var nav=page.getFrontmatter().navigationEntry();String parent=nav.parent()==null?"":nav.parent().toString();groups.computeIfAbsent(parent,k->new ArrayList<>()).add(page);}
+  for(var entry:groups.entrySet()) {
+   entry.getValue().sort(Comparator.comparingInt(p->p.getFrontmatter().navigationEntry().position()));
+   var want=new ArrayList<String>();for(var p:entry.getValue())want.add(p.getId().toString());
+   var nodes=entry.getKey().isEmpty()?tree.getRootNodes():tree.getNodeById(id(entry.getKey())).children();
+   var actual=new ArrayList<String>();for(var n:nodes)actual.add(n.pageId().toString());
+   if(!actual.equals(want))throw new AssertionError("Semantic sibling order "+entry.getKey()+" "+actual+" expected "+want);
+  }
+ }
  public static void main(String[]args)throws Exception{
   var watched=load(Path.of(args[0]));var fallback=new HashMap<>(watched); var clean=NavigationTree.build(watched.values());
-  if(!roots(clean).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Unexpected source roots "+roots(clean));
+  if(!roots(clean).equals(Set.of("index.md","help.controls.md","help.search.md","reference.utilities.md","maps.personal.md","world.dimensions.md","adventure.structures.md","adventure.creatures.md","adventure.bosses.md","reference.skills.md","reference.food.md","reference.building.md","reference.machines-storage.md","reference.vehicles.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Unexpected source roots "+roots(clean));
   var ordered=new ArrayList<String>();for(var n:clean.getRootNodes())ordered.add(n.pageId().toString());
-  if(!ordered.equals(List.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Unexpected native root order "+ordered);
+  if(!ordered.equals(List.of("index.md","help.controls.md","help.search.md","reference.utilities.md","maps.personal.md","world.dimensions.md","adventure.structures.md","adventure.creatures.md","adventure.bosses.md","reference.skills.md","reference.food.md","reference.building.md","reference.machines-storage.md","reference.vehicles.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Unexpected native root order "+ordered);
+  var expected=load(Path.of(args[1]));assertOrder(clean,expected);
+  // Negative control changes native positions, not only the source assertion.
+  var reordered=new HashMap<>(watched);var first=id("transport.local.md");var page=reordered.get(first);
+  reordered.put(first,new ParsedGuidePage(first,new Frontmatter(new FrontmatterNavigation(page.getFrontmatter().navigationEntry().title(),id("reference.vehicles.md"),999))));
+  boolean rejected=false;try{assertOrder(NavigationTree.build(reordered.values()),expected);}catch(AssertionError e){rejected=true;}
+  if(!rejected)throw new AssertionError("Semantic reorder negative control failed");
   var combat=clean.getNodeById(id("reference.skills.md"));var children=new HashSet<String>();for(var n:combat.children())children.add(n.pageId().toString());
   if(!children.containsAll(Set.of("reference.equipment.md","combat.abilities.md","equipment.weapons-armor.md","combat.magic.md")))throw new AssertionError("Combat siblings missing");
   if(clean.getNodeById(id("reference.equipment.md")).children().size()!=0)throw new AssertionError("Equipment inserted third level");
@@ -57,22 +77,27 @@ public class NativeNavigationProbe {
   watched.remove(oldId);merged=new HashMap<>(fallback);merged.putAll(watched);
   if(roots(NavigationTree.build(merged.values())).size()!=28)throw new AssertionError("Deletion resurrection control failed");
   for(int i=0;i<10;i++)fallback.remove(id("category-old-"+i+".md"));merged=new HashMap<>(fallback);merged.putAll(watched);
-  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Fallback repair failed");
+  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","help.controls.md","help.search.md","reference.utilities.md","maps.personal.md","world.dimensions.md","adventure.structures.md","adventure.creatures.md","adventure.bosses.md","reference.skills.md","reference.food.md","reference.building.md","reference.machines-storage.md","reference.vehicles.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Fallback repair failed");
   var obsolete=new ParsedGuidePage(id("quick-reference.md"),new Frontmatter(new FrontmatterNavigation("Quick reference",null,0)));fallback.put(obsolete.getId(),obsolete);merged=new HashMap<>(fallback);merged.putAll(watched);
   if(!roots(NavigationTree.build(merged.values())).contains("quick-reference.md"))throw new AssertionError("Quick reference fallback resurrection control failed");
   fallback.remove(obsolete.getId());merged=new HashMap<>(fallback);merged.putAll(watched);
-  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","help.controls.md","help.search.md","adventure.bosses.md","adventure.creatures.md","adventure.structures.md","world.dimensions.md","reference.skills.md","reference.food.md","reference.building.md","reference.vehicles.md","reference.machines-storage.md","maps.personal.md","reference.utilities.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Quick reference fallback reconciliation failed");
+  if(!roots(NavigationTree.build(merged.values())).equals(Set.of("index.md","help.controls.md","help.search.md","reference.utilities.md","maps.personal.md","world.dimensions.md","adventure.structures.md","adventure.creatures.md","adventure.bosses.md","reference.skills.md","reference.food.md","reference.building.md","reference.machines-storage.md","reference.vehicles.md","reference.appearance.md","reference.audio.md","reference.technical.md","help.credits.md")))throw new AssertionError("Quick reference fallback reconciliation failed");
   if(!clean.getNodeById(id("reference.audio.md")).children().isEmpty())throw new AssertionError("Audio wrapper remains");
   var sound=new ParsedGuidePage(id("sounds.ambience.md"),new Frontmatter(new FrontmatterNavigation("Sound",id("reference.audio.md"),0)));fallback.put(sound.getId(),sound);merged=new HashMap<>(fallback);merged.putAll(watched);
   if(NavigationTree.build(merged.values()).getNodeById(id("reference.audio.md")).children().size()!=1)throw new AssertionError("Sound fallback resurrection control failed");
   fallback.remove(sound.getId());merged=new HashMap<>(fallback);merged.putAll(watched);
   if(!NavigationTree.build(merged.values()).getNodeById(id("reference.audio.md")).children().isEmpty())throw new AssertionError("Sound fallback reconciliation failed");
-  System.out.println("PASS released NavigationTree, "+count+" nodes, eighteen ordered roots, direct Audio article, Combat siblings, depth, fallback merge, watched deletion, obsolete Quick reference and Sound resurrection and repair controls");
+  var space=new ParsedGuidePage(id("space.destinations.md"),new Frontmatter(new FrontmatterNavigation("Space destinations",id("reference.vehicles.md"),99)));fallback.put(space.getId(),space);merged=new HashMap<>(fallback);merged.putAll(watched);
+  if(NavigationTree.build(merged.values()).getNodeById(space.getId())==null)throw new AssertionError("Space destinations fallback resurrection control failed");
+  fallback.remove(space.getId());merged=new HashMap<>(fallback);merged.putAll(watched);
+  assertOrder(NavigationTree.build(merged.values()),expected);
+  if(NavigationTree.build(merged.values()).getNodeById(space.getId())!=null)throw new AssertionError("Space destinations fallback reconciliation failed");
+  System.out.println("PASS released NavigationTree, "+count+" nodes, eighteen ordered roots, direct Audio article, Combat siblings, all sibling orders and semantic reorder negative control, depth, fallback merge, watched deletion, obsolete Quick reference and Sound resurrection and repair controls, Space destinations resurrection and repair controls");
  }
 }'''
 }
 
-def run():
+def run(metadata_only=False):
     with tempfile.TemporaryDirectory(prefix='native-navigation-', dir=os.environ.get('TMPDIR', '/home/tsb/.hermes/cache/scratch')) as folder:
         base = Path(folder)
         sources = []
@@ -85,6 +110,10 @@ def run():
         classes.mkdir()
         subprocess.run([str(JAVA / 'javac'), '-cp', str(ENGINE), '-d', str(classes), *sources], check=True)
         outputs = []
+        definitions = json.loads(subprocess.check_output([sys.executable, str(ROOT / 'scripts/build-handbook-draft.py'), '--check-navigation'], text=True))
+        canonical = navigation_metadata()
+        expected_data = base / 'expected.tsv'
+        expected_data.write_text('\n'.join('\t'.join((topic + '.md', topic, row['parent'] or '', str(row['position']))) for topic, row in canonical.items()) + '\n')
         for locale in ('', '_zh_cn'):
             rows = []
             for path in sorted((PAGES / locale).glob('*.md')):
@@ -95,13 +124,22 @@ def run():
                 parent = re.search(r'^  parent: (.+)$', front, re.M)
                 position = re.search(r'^  position: (.+)$', front, re.M)
                 rows.append('\t'.join((path.name, json.loads(title[1]), parent[1] if parent else '', position[1] if position else '0')))
+            if metadata_only:
+                rows = ['\t'.join((topic + '.md', row['title_zh_cn'] if locale else row['title'], row['parent'] or '', str(row['position']))) for topic, row in definitions.items()]
+            actual = {}
+            for row in rows:
+                name, title, parent, position = row.split('\t')
+                actual[name.removesuffix('.md')] = {'parent': parent or None, 'position': int(position)}
+            assert_semantic_navigation(actual)
             data = base / 'pages.tsv'
             data.write_text('\n'.join(rows) + '\n')
-            result = subprocess.run([str(JAVA / 'java'), '-cp', str(classes) + ':' + str(ENGINE), 'NativeNavigationProbe', str(data)], check=True, capture_output=True, text=True)
+            result = subprocess.run([str(JAVA / 'java'), '-cp', str(classes) + ':' + str(ENGINE), 'NativeNavigationProbe', str(data), str(expected_data)], check=True, capture_output=True, text=True)
             outputs.append({'locale': locale or 'en_us', 'output': result.stdout.strip()})
         with zipfile.ZipFile(ENGINE) as archive:
             digest = hashlib.sha256(archive.read('guideme/navigation/NavigationTree.class')).hexdigest()
-        print(json.dumps({'engine': '21.1.19', 'navigation_class_sha256': digest, 'tests': outputs, 'minecraft_boundaries_stubbed': True, 'rendered_verified': False}, indent=2))
+        print(json.dumps({'mode': 'metadata-only' if metadata_only else 'generated-pages', 'engine': '21.1.19', 'navigation_class_sha256': digest, 'tests': outputs, 'minecraft_boundaries_stubbed': True, 'rendered_verified': False}, indent=2))
 
 if __name__ == '__main__':
-    run()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--metadata-only', action='store_true', help='Probe authoring metadata without generating pages')
+    run(parser.parse_args().metadata_only)

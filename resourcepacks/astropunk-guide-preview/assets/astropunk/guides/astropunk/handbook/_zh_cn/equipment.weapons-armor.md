@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "选择武器与护甲"
-  position: 0
+  position: 2
   parent: reference.skills.md
   icon: minecraft:trident
 ---

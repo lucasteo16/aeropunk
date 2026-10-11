@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "机器与储存"
-  position: 10
+  position: 11
   icon: create:crushing_wheel
 ---
 
@@ -37,7 +37,7 @@ navigation:
 
 ## 电力与工业
 
-<EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@tfmg" /> <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" />
 
 | 目录 | 内容 |
 | --- | --- |

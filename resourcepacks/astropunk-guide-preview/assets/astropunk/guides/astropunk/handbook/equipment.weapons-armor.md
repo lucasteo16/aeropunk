@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Weapons & armor"
-  position: 0
+  position: 2
   parent: reference.skills.md
   icon: minecraft:trident
 ---

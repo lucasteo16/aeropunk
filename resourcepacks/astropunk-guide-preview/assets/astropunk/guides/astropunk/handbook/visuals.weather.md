@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Weather & particles"
-  position: 0
+  position: 4
   parent: reference.appearance.md
   icon: minecraft:snowball
 ---

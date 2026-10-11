@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Dimensions"
-  position: 5
+  position: 4
   icon: minecraft:grass_block
 ---
 
@@ -9,14 +9,14 @@ navigation:
 
 ## Overworld
 
-![Tectonic mountains](images/tectonic-mountain-range.png)
+![Tectonic mountain range](images/tectonic-mountain-range.png)
 
-Tectonic mountain ranges.
+Tectonic shapes larger landforms, Terralith adds surface and cave biomes built from vanilla blocks, and Streams Reflowing adds flowing streams.
 
-| Terrain | Adds |
+| Terrain | Contribution |
 | --- | --- |
-| ![Tectonic](images/tectonic-icon.png) Tectonic | Mountains, larger landforms and terrain shaping |
-| ![Terralith](images/terralith-icon.png) Terralith | Surface and cave biomes built from vanilla blocks |
+| ![Tectonic](images/tectonic-icon.png) Tectonic | Mountain ranges and large landforms |
+| ![Terralith](images/terralith-icon.png) Terralith | Surface and cave biomes |
 | ![Streams Reflowing](images/streams-reflowing-icon.png) Streams Reflowing | Flowing streams |
 
 ### Terralith biomes
@@ -62,9 +62,7 @@ Tectonic mountain ranges.
 
 ![Incendium terrain](images/parent-incendium-terrain.png)
 
-Incendium cavern terrain.
-
-Incendium Legacy reshapes the Nether. Incendium Biomes Only keeps its terrain and biomes, but removes its added structures, items, mobs and bosses.
+Incendium Legacy reshapes the Nether. Incendium Biomes Only keeps its terrain and biomes but removes its added structures, items, creatures and bosses.
 
 ### Incendium biomes
 
@@ -80,8 +78,6 @@ Incendium Legacy reshapes the Nether. Incendium Biomes Only keeps its terrain an
 
 ![Nullscape islands](images/parent-nullscape-terrain.png)
 
-Nullscape islands and spires.
-
 Nullscape reshapes the End's outer islands. It changes an existing dimension rather than adding another portal destination.
 
 ### Nullscape biomes
@@ -92,15 +88,51 @@ Nullscape reshapes the End's outer islands. It changes an existing dimension rat
 
 ***
 
-## Deep Seas
 
-![Deep Seas submarine](images/parent-deep-seas-submarine.png)
+## Moon
 
-Copper submarine from Deep Seas.
+<EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
-The selected Deep Seas release contains an Abyss prototype, but disables that dimension outside development environments. It is not an accessible destination in this pack.
+![Lunar terrain](images/cosmo-moon-terrain.png)
 
-- [Vehicles](reference.vehicles.md)
+Create Cosmonautics adds the Moon, with lunar highlands, maria, regolith fields and rocky chasms.
+
+### Lunar biomes
+
+| Biome | Biome |
+| --- | --- |
+| Lunar Highlands | Lunar Maria |
+| Lunar Megaregolith | Lunar Aged Chasm |
+| Lunar Basalt Chasm | Lunar Aged Spikes |
+| Lunar Basalt Spikes | |
+
+***
+
+## Mars
+
+<EmiSearch query="@rocketnautics_addon" />
+
+![Mars ravines and mountains](images/cosmo-mars-terrain.png)
+
+Create Cosmonautics Expansion adds Mars, with plains, frostlands and underground caves.
+
+### Mars biomes
+
+| Biome | Biome | Biome |
+| --- | --- | --- |
+| Mars Plains | Mars Frostlands | Mars Underground Caves |
+
+***
+
+## Deep Space
+
+![Deep Space sky](images/cosmo-deep-space.png)
+
+Deep Space is the orbital dimension used by physical spacecraft, rather than a planetary surface. The Moon and Mars have surface worlds. The gas giant and ice world are visible celestial bodies without landable surfaces.
+
+- [Orbital flight](space.vehicle-transfer.md)
+- [Space life support](space.life-support.md)
+- [Space navigation](space.navigation.md)
 
 ***
 
@@ -110,19 +142,13 @@ The selected Deep Seas release contains an Abyss prototype, but disables that di
 | --- | --- |
 | Overworld | The starting world |
 | Nether | Light an obsidian portal |
-| End | Activate a stronghold's End portal with Eyes of Ender |
+| End | Activate a stronghold's End portal with <ItemLink id="minecraft:ender_eye" /> |
+| Moon and Mars | Travel by physical spacecraft through Deep Space |
 
-Terrain changes appear in newly generated areas, existing terrain is not rebuilt by opening this guide.
+Terrain changes appear in newly generated areas. Opening this guide does not rebuild existing terrain.
 
 - [Location finders](maps.find.md)
 
-***
-
-## Other editions
-
-Northstar space content is a deferred addition.
-
-- [Space](space.destinations.md)
 
 ***
 
@@ -130,6 +156,8 @@ Northstar space content is a deferred addition.
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
+| ![Create Cosmonautics](images/cosmo-micg1ith-icon.png) [Create Cosmonautics](world.dimensions.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
+| ![Create Cosmonautics Expansion](images/cosmo-gd7m0igy-icon.png) [Create Cosmonautics Expansion](world.dimensions.md) | Adds Mars terrain with plains, frostlands and underground caves. | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | Keeps Incendium terrain and biomes while removing its structures, creatures and items. | No separate item search |
 | ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | Overhauls Nether biomes and adds structures, enemies and unique equipment. | No separate item search |
 | ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | Reshapes the End with alien terrain and additional biomes. | No separate item search |

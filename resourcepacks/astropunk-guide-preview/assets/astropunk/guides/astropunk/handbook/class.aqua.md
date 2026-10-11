@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Aqua Wizard"
-  position: 0
+  position: 3
   parent: combat.magic.md
   icon: elemental_wizards_rpg:wand_aqua
 item_ids:

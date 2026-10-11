@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "组装和操作移动载具"
-  position: 0
+  position: 4
   parent: reference.vehicles.md
   icon: create:mechanical_bearing
 ---
