@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "使用随机放置与蓝图工具"
-  position: 0
+  position: 1
   parent: reference.building.md
   icon: mechtrowel:mech_trowel
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Space life support"
-  position: 0
+  position: 11
   parent: reference.vehicles.md
   icon: rocketnautics:space_helmet
 item_ids:
@@ -16,64 +16,86 @@ item_ids:
 
 # Space life support
 
-## Breathing in space
+## Breathing equipment
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
-The Space Helmet has no crafting recipe. A craftable breathing setup uses <ItemLink id="create:copper_diving_helmet" /> with a charged <ItemLink id="create:copper_backtank" /> in the head and chest slots. Charge the backtank before wearing it, using its Ponder instructions. A charged <ItemLink id="create:netherite_backtank" /> is another air source. The Jetpack supplies air from fuel instead of stored compressed air.
+<ItemGrid>
+  <ItemIcon id="create:copper_diving_helmet" />
+  <ItemIcon id="create:copper_backtank" />
+  <ItemIcon id="create:netherite_backtank" />
+  <ItemIcon id="rocketnautics:space_helmet" />
+  <ItemIcon id="rocketnautics:jetpack" />
+</ItemGrid>
+
+| Equipment | Role |
+| --- | --- |
+| <ItemLink id="create:copper_diving_helmet" /> | Craftable helmet for breathing with a pressurized air source. Wear it in the head slot. |
+| <ItemLink id="create:copper_backtank" />, <ItemLink id="create:netherite_backtank" /> | Stored air for breathing. Charge the backtank before wearing it in the chest slot. Use its Ponder entry for charging. |
+| <ItemLink id="rocketnautics:space_helmet" /> | Breathing helmet with an orbital display. It has no crafting recipe. |
+| <ItemLink id="rocketnautics:jetpack" /> | Fuel-powered chestplate that supplies pressurized air and personal flight. |
+
+Start with a Copper Diving Helmet and charged Copper Backtank. A fueled Jetpack is an alternative air source, rather than a required replacement for the backtank.
 
 <Recipe id="create:crafting/appliances/copper_diving_helmet" />
 
 <Recipe id="create:crafting/appliances/copper_backtank" />
 
+***
+
+## Jetpack fuel & flight
+
 <ItemGrid>
-  <ItemIcon id="rocketnautics:space_helmet" />
   <ItemIcon id="rocketnautics:jetpack" />
+  <ItemIcon id="minecraft:lava_bucket" />
+  <ItemIcon id="create:spout" />
 </ItemGrid>
 
-<ItemLink id="rocketnautics:space_helmet" />
-
-A Space Helmet allows breathing in space when paired with a pressurized air source. The Cosmonautics Jetpack is a pressurized source as well as a powered flying chestplate. Wear the helmet in the head slot and the Jetpack in the chest slot. The Jetpack supplies pressurized air by slowly consuming its fuel. Its systems also need to be enabled for personal flight.
+Refill the Jetpack with Lava using <ItemLink id="minecraft:lava_bucket" /> or a <ItemLink id="create:spout" />. Toggle flight with <KeyBind id="key.rocketnautics.toggle_jetpack" />, whose default is G. Disable flight when you do not need it to conserve fuel. The Jetpack's air supply continues to consume fuel independently of that flight switch.
 
 <Recipe id="rocketnautics:crafting/equipment/jetpack" />
 
-The Jetpack holds Lava. Its tooltip describes refilling with a <ItemLink id="minecraft:lava_bucket" /> and filling beneath a <ItemLink id="create:spout" />. Use <KeyBind id="key.rocketnautics.toggle_jetpack" /> to toggle personal flight. The mod default is G. Disable flight when it is not needed to conserve fuel, without disabling the pressurized air supply.
-
-<ItemLink id="rocketnautics:jetpack" />
-
 ***
 
-## Sealed spacecraft rooms
+## Oxygenated rooms
 
-<EmiSearch query="@cosmonauticsdeepair" /> <EmiSearch query="@create_submarine" />
+<EmiSearch query="@create_submarine" />
 
 <ItemGrid>
   <ItemIcon id="create_submarine:electrolyzer" />
   <ItemIcon id="create_submarine:oxygene_diffuser" />
-  <ItemIcon id="cosmonauticsdeepair:gravity_generator" />
 </ItemGrid>
 
-<ItemLink id="create_submarine:electrolyzer" />
+Build an intact sealed compartment inside a Sable ship using Deep Seas compartment tools. Deep Air restores breathing inside an oxygenated compartment while the ship remains unbreached. It does not seal the hull or produce oxygen.
+
+| Machine | Requirements |
+| --- | --- |
+| <ItemLink id="create_submarine:electrolyzer" /> | Water and Forge Energy to produce oxygen. |
+| <ItemLink id="create_submarine:oxygene_diffuser" /> | Oxygen in its tank and a redstone signal, inside the sealed room. |
+
+Connect the oxygen supply to the diffuser and keep it running. Their Ponder entries explain power, fluid supply and redstone.
 
 <Recipe id="create_submarine:electrolyzer" />
 
-Use Deep Seas compartment tools to make an intact, sealed room inside a Sable ship. The Electrolyzer needs water and Forge Energy to make oxygen. Connect that oxygen supply to an Oxygen Diffuser inside the sealed room. The diffuser needs oxygen in its tank and a redstone signal. Deep Air restores breathing for entities in that sealed, unbreached, oxygenated compartment. It does not make oxygen or seal the hull.
-
-<ItemLink id="create_submarine:oxygene_diffuser" />
-
 <Recipe id="create_submarine:oxygen_diffuser" />
 
-To restore gravity in that compartment, place a Gravity Generator within it, provide Forge Energy and give it a neighboring redstone signal. It is active when it is inside a Sable sublevel and both its signal and energy conditions are met. Oxygen supplies breathing. Gravity requires the separate active Gravity Generator, but does not require an oxygen supply.
+***
 
-<ItemLink id="cosmonauticsdeepair:gravity_generator" />
+## Room gravity
+
+<EmiSearch query="@cosmonauticsdeepair" />
+
+![Gravity equipment in a ship compartment](images/cosmo-gravity-room.png)
+
+<ItemGrid>
+  <ItemIcon id="cosmonauticsdeepair:gravity_generator" />
+</ItemGrid>
+
+<ItemLink id="cosmonauticsdeepair:gravity_generator" /> provides local gravity inside an intact sealed compartment. Supply Forge Energy and a neighboring redstone signal. The generator must be in an assembled Sable ship.
+
+Gravity and breathing are separate room functions. The gravity room itself does not need a diffuser, but keep at least one room on the ship oxygenated to retain Deep Seas compartment tracking. The generator does not change the ship's orbital gravity.
 
 <Recipe id="cosmonauticsdeepair:gravity_generator" />
-
-
-Deep Air reads sealed compartments and oxygen diffuser state from Deep Seas. Keep the compartment unbreached and the oxygen supply running. Ponder lessons for the Electrolyzer and Oxygen Diffuser show their power, oxygen and redstone requirements.
-
-- [Orbital flight](space.vehicle-transfer.md) Build and fly the physical spacecraft.
-- [Space destinations](space.destinations.md) Moon and Mars destination information.
 
 ***
 
@@ -84,13 +106,22 @@ Deep Air reads sealed compartments and oxygen diffuser state from Deep Seas. Kee
   <ItemIcon id="rocketnautics:copper_anchor_boots" />
 </ItemGrid>
 
-<ItemLink id="rocketnautics:copper_leg_thrusters" /> use pressurized air for flight and inertial damping. Toggle damping with <KeyBind id="key.rocketnautics.toggle_dampeners" />. The mod default is Z.
+| Equipment | Role |
+| --- | --- |
+| <ItemLink id="rocketnautics:copper_leg_thrusters" /> | Uses pressurized air for flight and inertial damping. Toggle damping with <KeyBind id="key.rocketnautics.toggle_dampeners" />, whose default is Z. |
+| <ItemLink id="rocketnautics:copper_anchor_boots" /> | Keeps you grounded near a supporting floor, except while actively flying. It does not create room gravity. |
 
 <Recipe id="rocketnautics:crafting/equipment/copper_leg_thrusters" />
 
-<ItemLink id="rocketnautics:copper_anchor_boots" /> help keep you grounded near a supporting floor. They do not create gravity throughout a room and do not ground an actively flying player.
-
 <Recipe id="rocketnautics:crafting/equipment/copper_anchor_boots" />
+
+***
+
+## Related topics
+
+- [Water vehicles](vehicles.water.md)
+- [Orbital flight](space.vehicle-transfer.md)
+- [Dimensions](world.dimensions.md)
 
 
 ***
@@ -99,6 +130,6 @@ Deep Air reads sealed compartments and oxygen diffuser state from Deep Seas. Kee
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
-| <ItemImage id="minecraft:minecart" /> [Cosmonautics: Deep Air](space.life-support.md) | Connects sealed Deep Seas compartments to space breathing and powered artificial gravity. | <EmiSearch query="@cosmonauticsdeepair" /> |
-| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics](space.destinations.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
+| ![Cosmonautics: Deep Air](images/cosmo-rzqxjxfo-icon.png) [Cosmonautics: Deep Air](space.life-support.md) | Connects sealed Deep Seas compartments to space breathing and powered artificial gravity. | <EmiSearch query="@cosmonauticsdeepair" /> |
+| ![Create Cosmonautics](images/cosmo-micg1ith-icon.png) [Create Cosmonautics](world.dimensions.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
 | ![Create Deep Seas](images/catalog-mva5q4qz.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | <EmiSearch query="@create_submarine" /> |

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Accessories"
-  position: 0
+  position: 3
   parent: reference.skills.md
   icon: minecraft:emerald
 ---

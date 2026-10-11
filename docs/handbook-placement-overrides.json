@@ -555,16 +555,20 @@
     "category": "Vehicles and travel",
     "topic": "vehicles.engines"
   },
+  "mods/paxi.pw.toml": {
+    "category": "Technical reference",
+    "topic": "server.tools"
+  },
   "mods/create-cosmonatics.pw.toml": {
-    "category": "Vehicles and travel",
-    "topic": "space.destinations"
+    "category": "Exploration and adventure",
+    "topic": "world.dimensions"
   },
   "mods/cosmonautics-deep-air.pw.toml": {
     "category": "Vehicles and travel",
     "topic": "space.life-support"
   },
   "mods/create-cosmonautics-expansion.pw.toml": {
-    "category": "Vehicles and travel",
-    "topic": "space.navigation"
+    "category": "Exploration and adventure",
+    "topic": "world.dimensions"
   }
 }

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "查询支持库与框架"
-  position: 0
+  position: 5
   parent: reference.technical.md
   icon: minecraft:bookshelf
 ---

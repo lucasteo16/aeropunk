@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Copycat shapes"
-  position: 0
+  position: 3
   parent: reference.building.md
   icon: copycats:copycat_block
 ---

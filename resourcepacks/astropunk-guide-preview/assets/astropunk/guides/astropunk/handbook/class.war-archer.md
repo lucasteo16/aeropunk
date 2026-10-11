@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "War Archer"
-  position: 0
+  position: 6
   parent: combat.martial.md
   icon: archers_expansion:war_archer_chest
 item_ids:

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Trading"
-  position: 0
+  position: 13
   parent: reference.machines-storage.md
   icon: minecraft:emerald_block
 ---

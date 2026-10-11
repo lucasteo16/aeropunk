@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Materials & fuels"
-  position: 0
+  position: 10
   parent: reference.machines-storage.md
   icon: minecraft:iron_ingot
 ---
@@ -85,6 +85,8 @@ navigation:
 Start by checking the Coke Oven recipe and its coal-processing Ponder entry. The Blast Furnace needs its own hot-air and reinforcement arrangement. Oil extraction starts with a deposit and industrial pipes, then the Pumpjack Ponder entry. This industrial electrical system has its own voltage groups and Configuration Wrench. It is not the same network as Electro Energetics.
 
 <Recipe id="tfmg:crafting/materials/coke_oven" />
+
+***
 
 ## Related topics
 

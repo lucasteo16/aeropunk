@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "比较光影风格"
-  position: 0
+  position: 6
   parent: reference.appearance.md
   icon: minecraft:prismarine_crystals
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Item routing"
-  position: 0
+  position: 5
   parent: reference.machines-storage.md
   icon: create:brass_funnel
 ---

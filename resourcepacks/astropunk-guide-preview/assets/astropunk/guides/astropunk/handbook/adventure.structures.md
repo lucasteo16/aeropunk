@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Structures"
-  position: 4
+  position: 5
   icon: minecraft:stone_bricks
 ---
 

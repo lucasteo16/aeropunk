@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Bosses"
-  position: 2
+  position: 7
   icon: minecraft:dragon_head
 item_ids:
   - cataclysm:abyssal_sacrifice

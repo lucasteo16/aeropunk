@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Stored rotation"
-  position: 0
+  position: 8
   parent: reference.machines-storage.md
   icon: create:flywheel
 ---

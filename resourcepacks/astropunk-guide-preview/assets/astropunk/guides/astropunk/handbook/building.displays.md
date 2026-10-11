@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Displays"
-  position: 0
+  position: 5
   parent: reference.building.md
   icon: minecraft:item_frame
 ---

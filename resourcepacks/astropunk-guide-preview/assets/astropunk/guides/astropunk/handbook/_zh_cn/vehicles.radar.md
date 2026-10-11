@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "读取雷达信息"
-  position: 0
+  position: 8
   parent: reference.vehicles.md
   icon: minecraft:sculk_sensor
 ---

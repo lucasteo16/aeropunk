@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Bard"
-  position: 0
+  position: 8
   parent: combat.magic.md
   icon: bards_rpg:wooden_lute
 item_ids:

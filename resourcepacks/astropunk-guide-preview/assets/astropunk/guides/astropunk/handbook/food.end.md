@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "End food"
-  position: 3
+  position: 6
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---

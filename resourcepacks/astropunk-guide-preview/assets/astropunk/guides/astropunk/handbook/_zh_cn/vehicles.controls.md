@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "控制与稳定载具"
-  position: 0
+  position: 5
   parent: reference.vehicles.md
   icon: create:controls
 ---

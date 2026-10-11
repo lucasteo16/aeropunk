@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "结构与地牢"
-  position: 4
+  position: 5
   icon: minecraft:stone_bricks
 ---
 

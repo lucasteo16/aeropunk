@@ -85,6 +85,7 @@ navigation:
 | ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | 修复原版蜜蜂行为。 | 无独立物品查询 |
 | ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | 用于定位服务器耗时处理。 | 无独立物品查询 |
 | ![oωo (owo-lib)](images/catalog-cckdolhs.png) [oωo (owo-lib)](technical.libraries.md) | 通用工具、界面与设置支持。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.tools.md) | 加载共享数据包，包括自动设置太空世界边界的数据包。 | 无独立物品查询 |
 | ![Placebo](images/catalog-tcke8p2n.png) [Placebo](technical.libraries.md) | 提供 Shadows 模组所需的共享代码，不增加独立玩法。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [playerAnimator](technical.libraries.md) | 玩家动画库。 | 无独立物品查询 |
 | ![Prickle](images/catalog-aarl8giw.png) [Prickle](technical.libraries.md) | 为依赖模组提供结构化设置文件处理。 | 无独立物品查询 |

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "发电、配电与用电"
-  position: 0
+  position: 11
   parent: reference.machines-storage.md
   icon: minecraft:lightning_rod
 ---

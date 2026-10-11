@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Mounted weapons"
-  position: 0
+  position: 9
   parent: reference.vehicles.md
   icon: minecraft:dispenser
 ---

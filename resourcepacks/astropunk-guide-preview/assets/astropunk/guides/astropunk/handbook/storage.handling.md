@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Inventory tools"
-  position: 0
+  position: 1
   parent: reference.machines-storage.md
   icon: minecraft:bundle
 ---

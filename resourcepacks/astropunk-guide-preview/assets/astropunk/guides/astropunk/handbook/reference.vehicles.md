@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Transport"
-  position: 9
+  position: 12
   icon: minecraft:minecart
 ---
 
@@ -63,7 +63,6 @@ navigation:
 
 ## Space
 
-- [Space destinations](space.destinations.md)
 - [Orbital flight](space.vehicle-transfer.md)
 - [Space life support](space.life-support.md)
 - [Space navigation](space.navigation.md)
@@ -76,13 +75,11 @@ navigation:
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | <EmiSearch query="@aeroengineering" /> |
-| <ItemImage id="minecraft:minecart" /> [AeroEngine fuel compat](vehicles.engines.md) | Allows AeroEngine to use kerosene from Create: The Factory Must Grow. | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
-| <ItemImage id="minecraft:minecart" /> [Cosmonautics: Deep Air](space.life-support.md) | Connects sealed Deep Seas compartments to space breathing and powered artificial gravity. | <EmiSearch query="@cosmonauticsdeepair" /> |
+| ![AeroEngine fuel compat](images/cosmo-rnuszf19-icon.png) [AeroEngine fuel compat](vehicles.engines.md) | Allows AeroEngine to use kerosene from Create: The Factory Must Grow. | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
+| ![Cosmonautics: Deep Air](images/cosmo-rzqxjxfo-icon.png) [Cosmonautics: Deep Air](space.life-support.md) | Connects sealed Deep Seas compartments to space breathing and powered artificial gravity. | <EmiSearch query="@cosmonauticsdeepair" /> |
 | ![Create Aeronautics](images/catalog-owak0q19.png) [Create Aeronautics](vehicles.assembly.md) | Turns block-built vehicles into controllable physical moving structures. | No separate item search |
 | ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | <EmiSearch query="@aeroencasedpipe" /> |
 | ![Create Big Cannons](images/catalog-gwp4jcjj.png) [Create Big Cannons](vehicles.weapons.md) | Adds buildable large cannons and their ammunition to Create. | <EmiSearch query="@createbigcannons" /> |
-| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics](space.destinations.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
-| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics Expansion](space.navigation.md) | Adds the landable Mars dimension, terrain and planetary record. | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Create Deep Seas](images/catalog-mva5q4qz.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | <EmiSearch query="@create_submarine" /> |
 | ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | <EmiSearch query="@createpropulsion" /> |
 | ![Create Railways Navigator](images/catalog-dq3stxps.png) [Create Railways Navigator](transport.passenger.md) | Adds train route search, passenger information displays and schedule features. | <EmiSearch query="@createrailwaysnavigator" /> |

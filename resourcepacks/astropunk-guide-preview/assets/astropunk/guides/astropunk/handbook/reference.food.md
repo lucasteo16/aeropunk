@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Food & farming"
-  position: 7
+  position: 9
   icon: minecraft:bread
 ---
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Performance"
-  position: 0
+  position: 2
   parent: reference.technical.md
   icon: minecraft:clock
 ---
@@ -70,12 +70,6 @@ Input processing and background resource use are separate from active-world simu
 
 ***
 
-## Related topics
-
-- [Diagnostics](server.tools.md)
-- [Lighting & distance](visuals.lighting.md)
-
-
 ## Shared optimizers
 
 | Component | Function |
@@ -83,6 +77,13 @@ Input processing and background resource use are separate from active-world simu
 | Async Logger | Processes logging asynchronously. |
 | Jasione | Reduces repeated enumeration-array allocations. |
 | ServerCore | Optimizes server processing, including the integrated single-player server. |
+
+***
+
+## Related topics
+
+- [Diagnostics](server.tools.md)
+- [Lighting & distance](visuals.lighting.md)
 
 
 ***

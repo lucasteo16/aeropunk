@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用机器制作食物"
-  position: 6
+  position: 8
   parent: reference.food.md
   icon: minecraft:smoker
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "寻找其他工厂工具"
-  position: 0
+  position: 7
   parent: reference.machines-storage.md
   icon: create:wrench
 ---

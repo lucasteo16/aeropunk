@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "土系法师"
-  position: 0
+  position: 4
   parent: combat.magic.md
   icon: elemental_wizards_rpg:wand_terra
 item_ids:

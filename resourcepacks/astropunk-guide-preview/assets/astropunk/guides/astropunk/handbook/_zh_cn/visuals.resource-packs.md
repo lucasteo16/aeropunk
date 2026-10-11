@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "选择资源包外观"
-  position: 0
+  position: 2
   parent: reference.appearance.md
   icon: minecraft:loom
 ---

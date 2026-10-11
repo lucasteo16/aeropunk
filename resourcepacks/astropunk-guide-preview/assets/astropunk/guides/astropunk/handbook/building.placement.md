@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Placement tools"
-  position: 0
+  position: 1
   parent: reference.building.md
   icon: mechtrowel:mech_trowel
 ---

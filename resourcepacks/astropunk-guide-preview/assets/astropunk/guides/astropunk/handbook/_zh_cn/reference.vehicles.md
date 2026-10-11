@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "交通"
-  position: 9
+  position: 12
   icon: minecraft:minecart
 ---
 
@@ -63,7 +63,6 @@ navigation:
 
 ## 太空
 
-- [太空目的地](space.destinations.md)
 - [轨道飞行](space.vehicle-transfer.md)
 - [太空生命支持](space.life-support.md)
 - [太空导航](space.navigation.md)
@@ -76,13 +75,11 @@ navigation:
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | 为机械动力增加模块化航空发动机与飞行控制仪表。 | <EmiSearch query="@aeroengineering" /> |
-| <ItemImage id="minecraft:minecart" /> [AeroEngine fuel compat](vehicles.engines.md) | 让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。 | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
-| <ItemImage id="minecraft:minecart" /> [Cosmonautics: Deep Air](space.life-support.md) | 将 Deep Seas 密封舱室连接到太空呼吸与供能人工重力功能。 | <EmiSearch query="@cosmonauticsdeepair" /> |
+| ![AeroEngine fuel compat](images/cosmo-rnuszf19-icon.png) [AeroEngine fuel compat](vehicles.engines.md) | 让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。 | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
+| ![Cosmonautics: Deep Air](images/cosmo-rzqxjxfo-icon.png) [Cosmonautics: Deep Air](space.life-support.md) | 将 Deep Seas 密封舱室连接到太空呼吸与供能人工重力功能。 | <EmiSearch query="@cosmonauticsdeepair" /> |
 | ![Create Aeronautics](images/catalog-owak0q19.png) [Create Aeronautics](vehicles.assembly.md) | 将方块搭建的载具变成可操控的物理移动结构。 | 无独立物品查询 |
 | ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 允许用 Aeronautics 热气囊包覆机械动力流体管道。 | <EmiSearch query="@aeroencasedpipe" /> |
 | ![Create Big Cannons](images/catalog-gwp4jcjj.png) [Create Big Cannons](vehicles.weapons.md) | 为机械动力增加可组装的大炮与弹药。 | <EmiSearch query="@createbigcannons" /> |
-| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics](space.destinations.md) | 新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。 | <EmiSearch query="@rocketnautics" /> |
-| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics Expansion](space.navigation.md) | 新增可登陆的火星维度、地貌与行星数据。 | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Create Deep Seas](images/catalog-mva5q4qz.png) [Create Deep Seas](vehicles.water.md) | 为 Aeronautics 船只与潜艇增加水上及水下航行部件。 | <EmiSearch query="@create_submarine" /> |
 | ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。 | <EmiSearch query="@createpropulsion" /> |
 | ![Create Railways Navigator](images/catalog-dq3stxps.png) [Create Railways Navigator](transport.passenger.md) | 增加列车路线搜索、乘客信息显示与时刻表功能。 | <EmiSearch query="@createrailwaysnavigator" /> |

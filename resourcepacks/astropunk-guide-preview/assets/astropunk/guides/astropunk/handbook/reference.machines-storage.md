@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Machines & storage"
-  position: 10
+  position: 11
   icon: create:crushing_wheel
 ---
 

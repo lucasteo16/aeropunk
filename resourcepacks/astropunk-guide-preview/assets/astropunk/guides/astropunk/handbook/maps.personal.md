@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Maps"
-  position: 11
+  position: 3
   icon: minecraft:map
 ---
 

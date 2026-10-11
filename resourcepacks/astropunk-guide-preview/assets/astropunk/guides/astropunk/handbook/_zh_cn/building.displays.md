@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "制作展示、画作、标牌与雕像"
-  position: 0
+  position: 5
   parent: reference.building.md
   icon: minecraft:item_frame
 ---

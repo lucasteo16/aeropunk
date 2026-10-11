@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "查询移动建筑与视觉兼容组件"
-  position: 0
+  position: 4
   parent: reference.technical.md
   icon: minecraft:chain
 ---

@@ -43,7 +43,7 @@ class ReferenceVisuals(unittest.TestCase):
         self.assertNotIn('Abyss', text)
         self.assertIn('Moon', text)
         self.assertIn('Mars', text)
-        self.assertIn('Deep Space is the transit dimension', text)
+        self.assertIn('Deep Space is the orbital dimension used by physical spacecraft', text)
 
     def test_recipe_reference_illustrates_interface_and_tree(self):
         for locale in ('', '_zh_cn'):

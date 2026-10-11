@@ -1,6 +1,7 @@
 """Selected Cosmonautics handbook integration regressions."""
 import json
 import re
+import subprocess
 from pathlib import Path
 import unittest
 
@@ -16,11 +17,27 @@ class CosmonauticsHandbook(unittest.TestCase):
         self.assertEqual(coverage['verification']['baseline_total'], manifest['installed_content_count'])
         self.assertEqual(coverage['verification']['union_metadata_total'], len(manifest['content']))
 
-    def test_five_pages_have_identical_native_references_in_both_locales(self):
+    def test_four_pages_have_identical_native_references_in_both_locales(self):
         source = json.loads((ROOT / 'docs/handbook-content.json').read_text())
-        for topic in ('world.dimensions', 'space.destinations', 'space.vehicle-transfer', 'space.life-support', 'space.navigation'):
+        for topic in ('world.dimensions', 'space.vehicle-transfer', 'space.life-support', 'space.navigation'):
             references = lambda body: set(re.findall(r'<(?:ItemIcon|ItemLink|Recipe|KeyBind)[^>]*?id="([^"]+)"', body))
             self.assertEqual(references(source[topic]['en_us']), references(source[topic]['zh_cn']), topic)
+
+    def test_destinations_are_folded_into_dimensions_without_losing_native_items(self):
+        source = json.loads((ROOT / 'docs/handbook-content.json').read_text())
+        previous = json.loads(subprocess.check_output(['git', 'show', 'f5c24f3:docs/handbook-content.json'], cwd=ROOT, text=True))
+        self.assertNotIn('space.destinations', source)
+        references = lambda body: set(re.findall(r'<(?:ItemIcon|ItemLink|Recipe|KeyBind)[^>]*?id="([^"]+)"', body))
+        for locale in ('en_us', 'zh_cn'):
+            self.assertTrue(references(previous['space.destinations'][locale]) <= references(source['world.dimensions'][locale]))
+            for topic, row in source.items():
+                self.assertNotIn('](space.destinations.md)', row[locale], topic)
+
+    def test_retired_destination_page_is_absent_from_generated_locales(self):
+        for locale in ('', '_zh_cn'):
+            self.assertFalse((PAGES / locale / 'space.destinations.md').exists())
+            for page in (PAGES / locale).glob('*.md'):
+                self.assertNotIn('](space.destinations.md)', page.read_text())
 
     def test_orbital_article_names_fuel_without_unsupported_recipe_renderer(self):
         source = json.loads((ROOT / 'docs/handbook-content.json').read_text())

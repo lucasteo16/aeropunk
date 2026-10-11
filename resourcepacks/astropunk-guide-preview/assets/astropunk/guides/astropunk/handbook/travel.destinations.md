@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Teleportation"
-  position: 0
+  position: 13
   parent: reference.vehicles.md
   icon: minecraft:ender_pearl
 ---
@@ -165,6 +165,8 @@ A moving waystone destination is different from a Tempad coordinate or a map way
 ## Ship teleportation
 
 Create: AeroWarptics relocates an assembled Aeronautics ship within a dimension. Waystones Sable teleports players to moving destinations, not the entire ship. Space flight uses a separate propulsion and navigation system.
+
+- [Orbital flight](space.vehicle-transfer.md)
 
 
 ***

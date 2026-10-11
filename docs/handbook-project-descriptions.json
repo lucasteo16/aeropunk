@@ -1,4 +1,5 @@
 {
+  "mods/paxi.pw.toml": {"name": "Paxi", "description": "Loads shared data packs and resource packs from configured directories.", "url": "https://modrinth.com/project/CU0PAyzb", "source": "Selected pack configuration and Paxi loader purpose"},
   "mods/additional-rpg-jewelry.pw.toml": {
     "name": "Additional Jewelry (RPG Series Plus)",
     "description": "Jewelry Add-On for the More RPG Classes Mods.",

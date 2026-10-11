@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "附魔、修理与查看装备"
-  position: 0
+  position: 12
   parent: reference.machines-storage.md
   icon: minecraft:enchanting_table
 ---

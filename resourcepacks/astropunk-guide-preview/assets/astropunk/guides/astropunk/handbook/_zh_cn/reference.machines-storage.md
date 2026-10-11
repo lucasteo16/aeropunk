@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "机器与储存"
-  position: 10
+  position: 11
   icon: create:crushing_wheel
 ---
 

@@ -1,5 +1,7 @@
 # Guide authoring checklist
 
+The structured companion is authoritative for the current f5c24f3 inventory and semantic topic order. The older milestone prose and unchecked rows below are historical authoring tracking, not claims that the current handbook is incomplete. See docs/review-revision/navigation-quality-review.md for the current navigation contract.
+
 ## Design contract
 
 Keep the categories in guide-navigation-revision.md. Every selected mod must be named in at least one discoverable guide or reference entry. Cross-links may repeat a mod, but this checklist owns one tracking row per selected metadata path. Libraries receive brief searchable reference entries, not invisible omissions. Deferred content is clearly marked absent from the baseline.
@@ -150,11 +152,12 @@ Indexed means assigned for tracking, not finished or tested. Every unchecked ent
 
 ## Vehicles and travel
 
-- space.destinations
-  - [ ] Create: Northstar - Redux (deferred); `mods/northstar-redux.pw.toml`
-- space.vehicle-transfer
-  - [ ] Create: AeroWarptics (deferred); `mods/create-aerowarptics.pw.toml`
-  - [ ] Create: Northstar-Aeronautics Compatibility (deferred); `mods/create-northstar-aeronautics-compatibility.pw.toml`
+- space.life-support
+  - [ ] Cosmonautics: Deep Air; `mods/cosmonautics-deep-air.pw.toml`
+- space.navigation
+  - [ ] Create Cosmonautics Expansion; `mods/create-cosmonautics-expansion.pw.toml`
+
+Create Cosmonautics belongs to world.dimensions under Exploration and adventure. Orbital flight, life support and navigation remain adjacent Transport mechanics.
 - transport.local
   - [ ] Create: Escalated; `mods/escalated.pw.toml`
   - [ ] Create: Hypertubes; `mods/hypertube.pw.toml`
@@ -386,8 +389,8 @@ Indexed means assigned for tracking, not finished or tested. Every unchecked ent
   - [ ] Jasione (deferred); `mods/jasione.pw.toml`
   - [ ] ServerCore (deferred); `mods/servercore.pw.toml`
 - server.deferred-pack-loading
-  - [ ] Paxi (deferred); `mods/paxi.pw.toml`
 - server.tools
+  - [ ] Paxi; `mods/paxi.pw.toml`
   - [ ] Chunky; `mods/chunky.pw.toml`
   - [ ] Configured Defaults; `mods/configured-defaults.pw.toml`
   - [ ] Neo Bee Fix; `mods/neo-bee-fix.pw.toml`

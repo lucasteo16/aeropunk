@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "使用固定与便携传送点"
-  position: 0
+  position: 13
   parent: reference.vehicles.md
   icon: minecraft:ender_pearl
 ---
@@ -165,6 +165,8 @@ Waystones Sable 为 Sable 移动建筑上的 Waystones 目的地提供兼容。�
 ## 整艘飞行船传送
 
 Create: AeroWarptics（独立飞艇补丁）用于在同一维度内移动已组装的 Aeronautics 飞艇。Waystones Sable 将玩家传送到移动目的地，而非传送整艘船。太空飞行使用独立的推进与导航系统。
+
+- [轨道飞行](space.vehicle-transfer.md)
 
 
 ***

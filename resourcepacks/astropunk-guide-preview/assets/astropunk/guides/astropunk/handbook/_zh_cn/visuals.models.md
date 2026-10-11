@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "调整模型与动画"
-  position: 0
+  position: 3
   parent: reference.appearance.md
   icon: minecraft:armor_stand
 ---

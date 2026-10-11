@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "钓鱼与水产食材"
-  position: 8
+  position: 3
   parent: reference.food.md
   icon: minecraft:cod
 ---
@@ -82,7 +82,7 @@ Spawn 加入作为食材来源的水生生物。金枪鱼小份可制作卷物�
   <ItemIcon id="minecraft:string" />
 </ItemGrid>
 
-蛤蜊提供贝类料理，滨海蟹钳用于蟹料理。安装 Farmer’s Delight 时，<ItemLink id="spawn:clam_chowder" /> 使用受热烹饪锅，并用碗盛装。渔网与鱼桶是捕捉用品，并非料理。
+蛤蜊提供贝类料理，滨海蟹钳用于蟹料理。用受热烹饪锅制作 <ItemLink id="spawn:clam_chowder" />，并用碗盛装。渔网与鱼桶是捕捉用品，并非料理。
 ***
 
 ## 相关主题

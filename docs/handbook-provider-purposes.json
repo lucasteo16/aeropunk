@@ -1,4 +1,5 @@
 {
+  "mods/paxi.pw.toml": {"en_us": "Loads shared data packs, including the automatic space world border.", "zh_cn": "加载共享数据包，包括自动设置太空世界边界的数据包。"},
   "mods/additional-rpg-jewelry.pw.toml": {
     "en_us": "Adds jewelry for the additional More RPG Classes professions.",
     "zh_cn": "为 More RPG Classes 的扩展职业增加首饰。"
@@ -1280,8 +1281,8 @@
     "zh_cn": "新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。"
   },
   "mods/create-cosmonautics-expansion.pw.toml": {
-    "en_us": "Adds the landable Mars dimension, terrain and planetary record.",
-    "zh_cn": "新增可登陆的火星维度、地貌与行星数据。"
+    "en_us": "Adds Mars terrain with plains, frostlands and underground caves.",
+    "zh_cn": "新增火星地貌，包括平原、冻原与地下洞穴。"
   },
   "mods/cosmonautics-deep-air.pw.toml": {
     "en_us": "Connects sealed Deep Seas compartments to space breathing and powered artificial gravity.",

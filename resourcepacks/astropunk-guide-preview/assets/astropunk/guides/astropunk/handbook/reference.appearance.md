@@ -11,13 +11,13 @@ navigation:
 
 | Topic | Status |
 | --- | --- |
+| [Interface](visuals.interface.md) | Reference |
 | [Camera](visuals.camera.md) | Reference |
+| [Resource packs](visuals.resource-packs.md) | Reference |
 | [Models & animations](visuals.models.md) | Reference |
 | [Weather & particles](visuals.weather.md) | Reference |
 | [Lighting & distance](visuals.lighting.md) | Reference |
-| [Resource packs](visuals.resource-packs.md) | Reference |
 | [Shaders](visuals.shader-packs.md) | Reference |
-| [Interface](visuals.interface.md) | Reference |
 
 
 ***

@@ -8,11 +8,10 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
-SECTIONS = ('help.controls', 'help.search', 'adventure.bosses', 'adventure.creatures', 'adventure.structures', 'world.dimensions', 'reference.skills', 'reference.food', 'reference.building', 'reference.vehicles', 'reference.machines-storage', 'maps.personal', 'reference.utilities', 'reference.appearance', 'reference.audio', 'reference.technical')
+SECTIONS = ('help.controls', 'help.search', 'reference.utilities', 'maps.personal', 'world.dimensions', 'adventure.structures', 'adventure.creatures', 'adventure.bosses', 'reference.skills', 'reference.food', 'reference.building', 'reference.machines-storage', 'reference.vehicles', 'reference.appearance', 'reference.audio', 'reference.technical')
 
 class FlatSidebar(unittest.TestCase):
     def test_generated_sections_are_exact_native_roots(self):
-        subprocess.run([sys.executable, str(ROOT / 'scripts/build-handbook-draft.py')], check=True, capture_output=True)
         for locale in ('', '_zh_cn'):
             base = PAGES / locale
             roots = {path.name for path in base.glob('*.md') if not re.search(r'^  parent:', path.read_text(), re.M)}

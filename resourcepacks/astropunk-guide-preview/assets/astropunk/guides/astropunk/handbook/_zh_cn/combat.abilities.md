@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "法术与招式"
-  position: 0
+  position: 7
   parent: reference.skills.md
   icon: minecraft:enchanted_book
 ---

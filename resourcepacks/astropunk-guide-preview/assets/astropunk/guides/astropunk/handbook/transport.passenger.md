@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Train travel"
-  position: 0
+  position: 1
   parent: reference.vehicles.md
   icon: minecraft:rail
 ---

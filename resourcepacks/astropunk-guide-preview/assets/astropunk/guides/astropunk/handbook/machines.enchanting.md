@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Enchanting"
-  position: 0
+  position: 12
   parent: reference.machines-storage.md
   icon: minecraft:enchanting_table
 ---

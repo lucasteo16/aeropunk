@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "进度"
-  position: 0
+  position: 1
   parent: reference.technical.md
   icon: minecraft:book
 ---

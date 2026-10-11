@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "储存工厂的大批原料"
-  position: 0
+  position: 2
   parent: reference.machines-storage.md
   icon: create:item_vault
 ---

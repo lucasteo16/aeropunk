@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "选择引擎与推进装置"
-  position: 0
+  position: 6
   parent: reference.vehicles.md
   icon: create:steam_engine
 ---
@@ -99,11 +99,19 @@ Create Propulsion 提供燃料或动力要求不同的推进器，另有独立�
 
 ***
 
-## 共用燃料扩展
+## 共用引擎燃料
 
 <EmiSearch query="@tfmg" />
 
-AeroEngine fuel compat（独立飞艇补丁）让 AeroEngine 接受通用燃料标签。TFMG Community Edition 的煤油具有相应标签。扩展也接受更广的燃料标签，包括其他液体和气体，不会为每种燃料分别设置能量值。这属于燃料接受兼容，不是统一平衡的炼油系统。
+<ItemGrid>
+  <ItemIcon id="aeroengineering:aviation_kerosene_bucket" />
+</ItemGrid>
+
+<ItemLink id="aeroengineering:aviation_kerosene_bucket" /> 代表引擎原本使用的燃料。AeroEngine fuel compat 也让 AeroEngine 使用 Create: The Factory Must Grow, Community Edition 的煤油。通过引擎的流体系统供给燃料。此扩展改变可接受的燃料标签，不会为每种燃料分别设置能量值。
+
+- [石油与工业](power.industry.md)
+- [轨道飞行](space.vehicle-transfer.md)
+
 
 ***
 
@@ -112,5 +120,5 @@ AeroEngine fuel compat（独立飞艇补丁）让 AeroEngine 接受通用燃料�
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | 为机械动力增加模块化航空发动机与飞行控制仪表。 | <EmiSearch query="@aeroengineering" /> |
-| <ItemImage id="minecraft:minecart" /> [AeroEngine fuel compat](vehicles.engines.md) | 让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。 | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
+| ![AeroEngine fuel compat](images/cosmo-rnuszf19-icon.png) [AeroEngine fuel compat](vehicles.engines.md) | 让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。 | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
 | ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | 增加推动 Sable 与 Aeronautics 载具的燃料推进器及电力推进器。 | <EmiSearch query="@createpropulsion" /> |

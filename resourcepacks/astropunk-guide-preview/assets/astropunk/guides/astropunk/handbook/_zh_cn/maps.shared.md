@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "共享地图信息"
-  position: 0
+  position: 1
   parent: maps.personal.md
   icon: minecraft:cartography_table
 ---

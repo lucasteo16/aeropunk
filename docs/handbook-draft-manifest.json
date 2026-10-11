@@ -1,14 +1,14 @@
 {
-  "draft_articles": 103,
-  "article_count": 103,
+  "draft_articles": 102,
+  "article_count": 102,
   "category_count": 0,
   "navigation_page_count": 0,
   "root_page_count": 18,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 303,
+  "installed_content_count": 304,
   "heavy_content_count": 20,
-  "baseline_commit": "0b44216",
+  "baseline_commit": "f5c24f3",
   "deferred_content_count": 0,
   "pages": [
     {
@@ -941,17 +941,6 @@
       ]
     },
     {
-      "topic": "space.destinations",
-      "category": "Vehicles and travel",
-      "filename": "space.destinations.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": [
-        "mods/create-cosmonatics.pw.toml"
-      ]
-    },
-    {
       "topic": "space.vehicle-transfer",
       "category": "Technical reference",
       "filename": "space.vehicle-transfer.md",
@@ -1006,7 +995,8 @@
         "mods/chunky.pw.toml",
         "mods/configured-defaults.pw.toml",
         "mods/observable.pw.toml",
-        "mods/spark.pw.toml"
+        "mods/spark.pw.toml",
+        "mods/paxi.pw.toml"
       ]
     },
     {
@@ -1098,14 +1088,12 @@
     },
     {
       "topic": "space.navigation",
-      "category": "Vehicles and travel",
+      "category": "Technical reference",
       "filename": "space.navigation.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
-      "metadata_paths": [
-        "mods/create-cosmonautics-expansion.pw.toml"
-      ]
+      "metadata_paths": []
     },
     {
       "topic": "help.handbook",
@@ -1126,6 +1114,8 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/create-cosmonatics.pw.toml",
+        "mods/create-cosmonautics-expansion.pw.toml",
         "mods/ibo.pw.toml",
         "mods/incendium.pw.toml",
         "mods/nullscape.pw.toml",
@@ -1162,6 +1152,15 @@
       "metadata_paths": []
     },
     {
+      "topic": "reference.utilities",
+      "category": "Player utilities and quality of life",
+      "filename": "reference.utilities.md",
+      "drafted": true,
+      "page_type": "directory",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
       "topic": "reference.skills",
       "category": "Combat and character",
       "filename": "reference.skills.md",
@@ -1189,15 +1188,6 @@
       "metadata_paths": []
     },
     {
-      "topic": "reference.vehicles",
-      "category": "Vehicles and travel",
-      "filename": "reference.vehicles.md",
-      "drafted": true,
-      "page_type": "directory",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
       "topic": "reference.machines-storage",
       "category": "Automation and industry",
       "filename": "reference.machines-storage.md",
@@ -1207,9 +1197,9 @@
       "metadata_paths": []
     },
     {
-      "topic": "reference.utilities",
-      "category": "Player utilities and quality of life",
-      "filename": "reference.utilities.md",
+      "topic": "reference.vehicles",
+      "category": "Vehicles and travel",
+      "filename": "reference.vehicles.md",
       "drafted": true,
       "page_type": "directory",
       "deferred": false,
@@ -2277,8 +2267,8 @@
       "metadata_path": "mods/create-cosmonatics.pw.toml",
       "name": "Create Cosmonautics",
       "availability": "baseline",
-      "category": "Vehicles and travel",
-      "topic": "space.destinations",
+      "category": "Exploration and adventure",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -2290,8 +2280,8 @@
       "metadata_path": "mods/create-cosmonautics-expansion.pw.toml",
       "name": "Create Cosmonautics Expansion",
       "availability": "baseline",
-      "category": "Vehicles and travel",
-      "topic": "space.navigation",
+      "category": "Exploration and adventure",
+      "topic": "world.dimensions",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -5581,6 +5571,19 @@
       "availability": "baseline",
       "category": "Visuals and sound",
       "topic": "visuals.shader-packs",
+      "indexed": true,
+      "player_mention_written": false,
+      "instructions_verified": false,
+      "english_written": false,
+      "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/paxi.pw.toml",
+      "name": "Paxi",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "server.tools",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,

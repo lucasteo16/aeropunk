@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "建造与平衡飞行船"
-  position: 0
+  position: 7
   parent: reference.vehicles.md
   icon: minecraft:elytra
 ---

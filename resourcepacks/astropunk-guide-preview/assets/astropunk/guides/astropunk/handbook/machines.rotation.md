@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Rotational power"
-  position: 0
+  position: 3
   parent: reference.machines-storage.md
   icon: create:cogwheel
 ---

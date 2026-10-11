@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Building"
-  position: 8
+  position: 10
   icon: create:schematicannon
 ---
 

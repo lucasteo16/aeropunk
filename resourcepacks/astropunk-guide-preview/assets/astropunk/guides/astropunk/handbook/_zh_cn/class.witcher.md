@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "猎魔人"
-  position: 0
+  position: 9
   parent: combat.magic.md
   icon: witcher_rpg:iron_witcher_sword
 item_ids:

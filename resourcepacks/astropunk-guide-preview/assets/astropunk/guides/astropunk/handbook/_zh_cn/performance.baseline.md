@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "了解当前性能优化系统"
-  position: 0
+  position: 2
   parent: reference.technical.md
   icon: minecraft:clock
 ---
@@ -68,12 +68,6 @@ navigation:
 
 ***
 
-## 相关页面
-
-- [诊断工具](server.tools.md)
-- [光照与远景](visuals.lighting.md)
-
-
 ## 共用优化模组
 
 | 内容 | 作用 |
@@ -81,6 +75,13 @@ navigation:
 | Async Logger | 异步处理日志。 |
 | Jasione | 减少重复的枚举数组分配。 |
 | ServerCore | 优化服务器处理，包括单人游戏的内置服务器。 |
+
+***
+
+## 相关页面
+
+- [诊断工具](server.tools.md)
+- [光照与远景](visuals.lighting.md)
 
 
 ***

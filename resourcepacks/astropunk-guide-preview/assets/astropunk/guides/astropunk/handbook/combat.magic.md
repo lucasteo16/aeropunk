@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Magic & support classes"
-  position: 0
+  position: 6
   parent: reference.skills.md
   icon: minecraft:blaze_rod
 item_ids:

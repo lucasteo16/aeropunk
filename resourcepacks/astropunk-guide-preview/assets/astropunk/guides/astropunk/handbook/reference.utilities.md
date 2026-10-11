@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Utilities"
-  position: 12
+  position: 2
   icon: minecraft:chest
 ---
 
@@ -13,8 +13,8 @@ navigation:
 | --- | --- |
 | [Block & mob info](help.inspect.md) | Reference |
 | [Carry On](interactions.carry.md) | Reference |
-| [Death & recovery](adventure.recovery.md) | Reference |
 | [Sleep](adventure.sleep.md) | Reference |
+| [Death & recovery](adventure.recovery.md) | Reference |
 
 
 ***

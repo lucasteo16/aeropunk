@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Forcemaster"
-  position: 0
+  position: 3
   parent: combat.martial.md
   icon: forcemaster_rpg:iron_knuckle
 item_ids:

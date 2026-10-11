@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Renewable resources"
-  position: 0
+  position: 6
   parent: reference.machines-storage.md
   icon: create:mechanical_drill
 ---

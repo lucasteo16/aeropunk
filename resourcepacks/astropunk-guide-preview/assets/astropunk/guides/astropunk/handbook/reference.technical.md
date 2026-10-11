@@ -85,6 +85,7 @@ navigation:
 | ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | Repairs vanilla bee behavior. | No separate item search |
 | ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | Identifies expensive server processing. | No separate item search |
 | ![oωo (owo-lib)](images/catalog-cckdolhs.png) [oωo (owo-lib)](technical.libraries.md) | General utilities, interfaces and configuration support. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.tools.md) | Loads shared data packs, including the automatic space world border. | No separate item search |
 | ![Placebo](images/catalog-tcke8p2n.png) [Placebo](technical.libraries.md) | Provides shared code required by Shadows' mods without adding standalone gameplay. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [playerAnimator](technical.libraries.md) | Player animation library. | No separate item search |
 | ![Prickle](images/catalog-aarl8giw.png) [Prickle](technical.libraries.md) | Provides structured configuration file handling for dependent mods. | No separate item search |
