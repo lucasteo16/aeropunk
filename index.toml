@@ -1046,7 +1046,7 @@ hash = "f6b49eca2ecab5d9602fffe2acb34eb5d9775ef53114c1f08bb1ade952c78742"
 
 [[files]]
 file = "configureddefaults/config/iris.properties"
-hash = "7b58916b3d2acdb836397e2b2c5a6bf0ecbac0df3ebd634e6187ab8026cba168"
+hash = "be046d330e32963f4f2a17a8b425bf55804554fa474055b094f9b2ff53322768"
 
 [[files]]
 file = "configureddefaults/config/kerria.json"

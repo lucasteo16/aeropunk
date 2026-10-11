@@ -1,5 +1,9 @@
 # Astropunk editions
 
+## Shader selection in 0.6.7
+
+Fresh installations select Complementary Reimagined r5.9.3 while leaving shaders disabled. Configured Defaults preserves existing player settings. No rendering mods or server deployment were changed.
+
 ## Multiplayer compatibility in 0.6.6
 
 Better Advancements 0.4.3.21 replaces Reliable Advancements as a client-only advancement screen improvement. The unused editor settings and saved layout are archived outside the distributed pack. Existing Minecraft and content-mod advancements are unchanged; no custom advancements were authored.
