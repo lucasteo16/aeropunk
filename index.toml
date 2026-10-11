@@ -1021,7 +1021,7 @@ file = "configureddefaults/config/combat_roll/client.json5"
 hash = "5f5c3c0cfdcf590cc0f0b491e0de90e3bb028f0ca4cb7dbe56c5661a9145dd5c"
 
 [[files]]
-file = "configureddefaults/config/create_submarine-common.toml"
+file = "configureddefaults/config/create_submarine-client.toml"
 hash = "17b01fac7598ae0894995492df6d8b0c5d69b892a8110eb19ae195ef9e1e1cd9"
 
 [[files]]

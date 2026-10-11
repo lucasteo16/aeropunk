@@ -4,6 +4,10 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.7.5-dev Deep Seas notification defaults
+
+Moved the startup-screen suppression preset from create_submarine-common.toml to create_submarine-client.toml for Deep Seas 3.3.0. The client.disableStartupScreens setting remains true, suppressing welcome and update prompts on fresh installations without changing gameplay settings or existing player choices. Lucas reported that 0.7.4-dev seemed to work, with the Deep Seas prompt reappearing; exact test coverage was not specified. The corrected notification default still requires a fresh-client check.
+
 ### 0.7.4-dev missing dependencies
 
 Added Struts 1.3.1 and Azimuth 1.4.10 on both sides through native packwiz. These satisfy the released dependency declarations for Bits 'n' Bobs 2.3.5 and More Girder 2.3.0; their Minecraft and NeoForge requirements match this development pack. GrandTeleport remains held at 1.0.0, and Spell Engine 1.10.9 and Xaero's Maps Multiplayer Plus 1.1.2 remain compatibility trials. Export verification does not establish successful game startup; Lucas's fresh-client test is pending.
