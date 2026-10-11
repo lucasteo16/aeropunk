@@ -1,5 +1,9 @@
 # Astropunk editions
 
+## Interactic networking in 0.6.4
+
+Main selects Interactic Renewed 0.2.3 for both clients and servers. The released archive moves filter-mode response registration into shared initialization, addressing the missing channel in 0.2.2. Multiplayer reconnection remains unverified. Grand Teleport's separate missing server channels remain unresolved.
+
 ## Typing sounds in 0.6.3
 
 Fresh installations disable chat and inventory typing sounds from Sounds. Other sound effects remain unchanged. Configured Defaults preserves existing player settings, so existing installations need these two effects disabled manually in the Sounds settings.
