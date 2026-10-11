@@ -2402,7 +2402,7 @@ metafile = true
 
 [[files]]
 file = "mods/spell-engine.pw.toml"
-hash = "c968c08522f92dee47b15da6aec12747ef4a9843b9fc70aa64029a09270d24d0"
+hash = "7e383589313c596e8256e6e0a3f24c1751560ce86708c1fb3d45ac5860b8658a"
 metafile = true
 
 [[files]]
@@ -2562,7 +2562,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-maps-multiplayer-plus.pw.toml"
-hash = "222f8d604aadfd5c14f359b9138052346219d8a20b25eea9455e65248e340500"
+hash = "dae23df612ac521f33326eda2d221bfb104e4be605e11aa3884c6a2555b60b7d"
 metafile = true
 
 [[files]]
