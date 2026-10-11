@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Berserker"
-  position: 0
+  position: 1
   parent: combat.martial.md
   icon: berserker_rpg:iron_berserker_axe
 item_ids:

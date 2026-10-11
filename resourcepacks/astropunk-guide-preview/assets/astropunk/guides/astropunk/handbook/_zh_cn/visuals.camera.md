@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "调整视角与窗口"
-  position: 0
+  position: 1
   parent: reference.appearance.md
   icon: minecraft:ender_eye
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Nether food"
-  position: 2
+  position: 5
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Martial classes"
-  position: 0
+  position: 5
   parent: reference.skills.md
   icon: minecraft:bow
 ---

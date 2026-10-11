@@ -6,9 +6,11 @@ import tomllib
 import argparse
 import re
 import html
+from handbook_navigation import ROOT_ORDER, CHILD_ORDER, navigation_metadata, assert_semantic_navigation
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--content-source', type=Path, help='Read a staged content source without modifying authoritative JSON')
+parser.add_argument('--check-navigation', action='store_true', help='Validate and print navigation metadata without writing pages')
 args = parser.parse_args()
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -50,6 +52,8 @@ for entry in entries:
         entry.update(category=placement['category'], topic=placement['topic'])
 # Consolidate the former Sound article into the first-level Audio page.
 for entry in entries:
+    if entry['topic'] == 'space.destinations':
+        entry.update(category='Exploration and adventure', topic='world.dimensions')
     if entry['topic'] in {'sounds.ambience', 'audio.sound'}:
         entry['topic'] = 'reference.audio'
 by_topic = defaultdict(list)
@@ -94,10 +98,14 @@ reference_sections += [
 reference_hubs.update({
     'reference.utilities': ('Player utilities and quality of life', ['help.inspect', 'interactions.carry', 'adventure.recovery', 'adventure.sleep']),
     'reference.appearance': ('Visuals and sound', ['visuals.camera', 'visuals.models', 'visuals.weather', 'visuals.lighting', 'visuals.resource-packs', 'visuals.shader-packs', 'visuals.interface']),
-    'reference.technical': ('Technical reference', ['help.handbook', 'help.reference', 'performance.baseline', 'performance.deferred', 'server.tools', 'server.deferred-pack-loading', 'technical.bridges', 'technical.space-bridge', 'technical.libraries']),
+    'reference.technical': ('Technical reference', ['help.handbook', 'help.reference', 'performance.baseline', 'server.tools', 'technical.bridges', 'technical.libraries']),
 })
 reference_hubs['reference.vehicles'] = (reference_hubs['reference.vehicles'][0], [topic for topic in reference_hubs['reference.vehicles'][1] if topic != 'travel.moving-destinations'])
-reference_hubs['reference.vehicles'][1].extend(['space.destinations', 'space.vehicle-transfer'])
+reference_hubs['reference.vehicles'][1].extend(['space.vehicle-transfer', 'space.life-support', 'space.navigation'])
+# One explicit sibling order controls native navigation and generated directory rows.
+reference_sections.sort(key=lambda row: ROOT_ORDER.index(row[0]))
+for hub, (category, _) in list(reference_hubs.items()):
+    reference_hubs[hub] = (category, list(CHILD_ORDER[hub]))
 reference_icons.update({topic: icon for topic, _, _, icon, *_ in reference_sections})
 # Explicit whole-tree icons: never inherit a parent's icon for a topic.
 # Selected binary registration evidence and topic rationale are recorded in
@@ -173,8 +181,9 @@ reference_icons = {
     'transport.local': 'minecraft:powered_rail',
     'travel.destinations': 'minecraft:ender_pearl',
     'travel.moving-destinations': 'minecraft:lodestone',
-    'space.destinations': 'minecraft:end_stone',
-    'space.vehicle-transfer': 'minecraft:end_portal_frame',
+    'space.vehicle-transfer': 'rocketnautics:rocket_thruster',
+    'space.life-support': 'rocketnautics:space_helmet',
+    'space.navigation': 'rocketnautics:hologram_block',
     'maps.shared': 'minecraft:cartography_table',
     'maps.find': 'minecraft:spyglass',
     'adventure.settlements': 'minecraft:bell',
@@ -194,11 +203,8 @@ reference_icons = {
     'help.handbook': 'minecraft:writable_book',
     'help.credits': 'minecraft:written_book',
     'performance.baseline': 'minecraft:clock',
-    'performance.deferred': 'minecraft:repeater',
     'server.tools': 'minecraft:command_block',
-    'server.deferred-pack-loading': 'minecraft:hopper',
     'technical.bridges': 'minecraft:chain',
-    'technical.space-bridge': 'minecraft:end_rod',
     'technical.libraries': 'minecraft:bookshelf',
 }
 reference_parents: dict[str, str | None] = {topic: None for topic, *_ in reference_sections}
@@ -289,14 +295,12 @@ visuals.interface|调整通知与信息界面
 landscapes.overworld|探索主世界地形与河流
 landscapes.nether|探索下界地形
 landscapes.end|探索末地地形
-space.destinations|了解规划中的太空目的地
-space.vehicle-transfer|了解整台载具的跨维度移动
+space.vehicle-transfer|轨道飞行
+space.life-support|太空生命支持
+space.navigation|太空导航
 performance.baseline|了解当前性能优化系统
-performance.deferred|了解暂缓加入的优化模组
 server.tools|了解管理员与诊断工具
-server.deferred-pack-loading|了解暂缓加入的内容加载工具
 technical.bridges|查询移动建筑与视觉兼容组件
-technical.space-bridge|查询暂缓加入的太空渲染组件
 technical.libraries|查询支持库与框架'''
 zh_titles: dict[str, str] = {line.split('|', 1)[0]: line.split('|', 1)[1] for line in raw_zh_titles.splitlines()}
 
@@ -305,7 +309,7 @@ written = json.loads((args.content_source or ROOT / 'docs/handbook-content.json'
 descriptions = json.loads((ROOT / 'docs/handbook-project-descriptions.json').read_text())
 visual_sources = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_text())
 zh_titles['world.dimensions'] = '维度目录'
-page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') and p['page_id'] not in {'sounds.ambience', 'audio.sound', 'travel.moving-destinations'} ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
+page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') and p['page_id'] not in {'sounds.ambience', 'audio.sound', 'travel.moving-destinations', 'performance.deferred', 'server.deferred-pack-loading', 'technical.space-bridge', 'space.destinations', 'world.dimensions'} ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
 page_defs += [dict(page_id='reference.equipment', title='Equipment', player_questions=[]), dict(page_id='combat.abilities', title='Spells & abilities', player_questions=[])]
 page_defs += [dict(page_id='help.credits', title='Credits', player_questions=[])]
 zh_titles['help.credits'] = '鸣谢'
@@ -323,9 +327,10 @@ for topic, title in titles.items():
             break
     titles[topic] = title[:1].upper() + title[1:]
 
-titles.update({'help.inspect': 'Block & mob info', 'help.reference': 'Mod documentation', 'help.handbook': 'Handbook', 'food.hunger': 'Hunger & variety', 'food.utensils': 'Cooking tools', 'food.nether': 'Nether food', 'food.end': 'End food', 'food.underground': 'Underground food', 'food.encounters': 'Encounter food', 'food.machine-cooking': 'Machine cooking', 'food.growing': 'Farming', 'food.fishing': 'Fishing', 'storage.portable': 'Portable storage', 'storage.bulk': 'Bulk storage', 'storage.handling': 'Inventory tools', 'machines.ore-processing': 'Ore processing', 'machines.rotation': 'Rotational power', 'machines.logistics': 'Item routing', 'machines.renewables': 'Renewable resources', 'machines.enchanting': 'Enchanting', 'machines.trading': 'Trading', 'machines.miscellaneous': 'Workshop tools', 'power.electricity': 'Electricity', 'power.industry': 'Materials & fuels', 'power.burners': 'Liquid fuels', 'power.stored-rotation': 'Stored rotation', 'vehicles.assembly': 'Vehicle assembly', 'vehicles.airships': 'Airships', 'vehicles.engines': 'Engines', 'vehicles.controls': 'Vehicle controls', 'vehicles.radar': 'Radar', 'vehicles.weapons': 'Mounted weapons', 'vehicles.water': 'Boats & submarines', 'transport.passenger': 'Train travel', 'transport.railway-builder': 'Railways', 'transport.local': 'Local transport', 'travel.destinations': 'Teleportation', 'travel.moving-destinations': 'Moving destinations', 'maps.shared': 'Shared maps', 'maps.find': 'Location finders', 'adventure.loot': 'Loot', 'adventure.recovery': 'Death & recovery', 'adventure.sleep': 'Sleep', 'adventure.settlements': 'Settlements', 'combat.handling': 'Weapons & dodging', 'combat.martial': 'Martial classes', 'combat.magic': 'Magic classes', 'combat.skills': 'Character skills', 'equipment.weapons-armor': 'Weapons & armor', 'equipment.accessories': 'Accessories', 'equipment.display': 'Armor & status', 'building.palette': 'Materials', 'building.factory': 'Factory decor', 'building.copycats': 'Copycat shapes', 'building.architecture': 'Architecture', 'building.furniture': 'Furniture', 'building.displays': 'Displays', 'building.placement': 'Placement tools', 'building.safety': 'Lighting & safety', 'interactions.carry': 'Carry On', 'visuals.camera': 'Camera', 'visuals.models': 'Models & animations', 'visuals.weather': 'Weather & particles', 'visuals.lighting': 'Lighting & distance', 'visuals.resource-packs': 'Resource packs', 'visuals.shader-packs': 'Shaders', 'sounds.ambience': 'Sound', 'visuals.interface': 'Interface', 'space.destinations': 'Space (not installed)', 'space.vehicle-transfer': 'Space transport', 'performance.baseline': 'Performance', 'performance.deferred': 'Deferred optimizers', 'server.tools': 'Server tools', 'server.deferred-pack-loading': 'Deferred loading', 'technical.bridges': 'Compatibility', 'technical.space-bridge': 'Space compatibility', 'technical.libraries': 'Libraries'})
+titles.update({'help.inspect': 'Block & mob info', 'help.reference': 'Mod documentation', 'help.handbook': 'Handbook', 'food.hunger': 'Hunger & variety', 'food.utensils': 'Cooking tools', 'food.nether': 'Nether food', 'food.end': 'End food', 'food.underground': 'Underground food', 'food.encounters': 'Encounter food', 'food.machine-cooking': 'Machine cooking', 'food.growing': 'Farming', 'food.fishing': 'Fishing', 'storage.portable': 'Portable storage', 'storage.bulk': 'Bulk storage', 'storage.handling': 'Inventory tools', 'machines.ore-processing': 'Ore processing', 'machines.rotation': 'Rotational power', 'machines.logistics': 'Item routing', 'machines.renewables': 'Renewable resources', 'machines.enchanting': 'Enchanting', 'machines.trading': 'Trading', 'machines.miscellaneous': 'Workshop tools', 'power.electricity': 'Electricity', 'power.industry': 'Materials & fuels', 'power.burners': 'Liquid fuels', 'power.stored-rotation': 'Stored rotation', 'vehicles.assembly': 'Vehicle assembly', 'vehicles.airships': 'Airships', 'vehicles.engines': 'Engines', 'vehicles.controls': 'Vehicle controls', 'vehicles.radar': 'Radar', 'vehicles.weapons': 'Mounted weapons', 'vehicles.water': 'Boats & submarines', 'transport.passenger': 'Train travel', 'transport.railway-builder': 'Railways', 'transport.local': 'Local transport', 'travel.destinations': 'Teleportation', 'travel.moving-destinations': 'Moving destinations', 'maps.shared': 'Shared maps', 'maps.find': 'Location finders', 'adventure.loot': 'Loot', 'adventure.recovery': 'Death & recovery', 'adventure.sleep': 'Sleep', 'adventure.settlements': 'Settlements', 'combat.handling': 'Weapons & dodging', 'combat.martial': 'Martial classes', 'combat.magic': 'Magic classes', 'combat.skills': 'Character skills', 'equipment.weapons-armor': 'Weapons & armor', 'equipment.accessories': 'Accessories', 'equipment.display': 'Armor & status', 'building.palette': 'Materials', 'building.factory': 'Factory decor', 'building.copycats': 'Copycat shapes', 'building.architecture': 'Architecture', 'building.furniture': 'Furniture', 'building.displays': 'Displays', 'building.placement': 'Placement tools', 'building.safety': 'Lighting & safety', 'interactions.carry': 'Carry On', 'visuals.camera': 'Camera', 'visuals.models': 'Models & animations', 'visuals.weather': 'Weather & particles', 'visuals.lighting': 'Lighting & distance', 'visuals.resource-packs': 'Resource packs', 'visuals.shader-packs': 'Shaders', 'sounds.ambience': 'Sound', 'visuals.interface': 'Interface', 'space.destinations': 'Space destinations', 'space.vehicle-transfer': 'Orbital flight', 'performance.baseline': 'Performance', 'performance.deferred': 'Deferred optimizers', 'server.tools': 'Server tools', 'server.deferred-pack-loading': 'Deferred loading', 'technical.bridges': 'Compatibility', 'technical.space-bridge': 'Space compatibility', 'technical.libraries': 'Libraries'})
 
 zh_titles['help.search'] = '浏览配方'
+titles.update({'space.vehicle-transfer': 'Orbital flight', 'space.life-support': 'Space life support', 'space.navigation': 'Space navigation'})
 titles['help.reference'] = 'Advancements'
 zh_titles['help.reference'] = '进度'
 reference_icons.pop('travel.moving-destinations', None)
@@ -338,6 +343,20 @@ for topic, definition in class_navigation.items():
     zh_titles[topic] = definition['title']['zh_cn']
     reference_parents[topic] = definition['parent'] + '.md'
     reference_icons[topic] = definition['icon']
+
+navigation = navigation_metadata()
+assert_semantic_navigation(navigation)
+assert set(navigation) == {page['page_id'] for page in page_defs} | {'index'}
+assert set(reference_icons) == set(navigation)
+assert len(set(reference_icons.values())) == len(reference_icons), 'Duplicate sidebar icon'
+for topic, row in navigation.items():
+    assert reference_parents.get(topic) == row['parent'], ('Unexpected primary parent', topic)
+if args.check_navigation:
+    print(json.dumps({topic: dict(row, title=titles.get(topic, 'Astropunk'),
+                                 title_zh_cn=zh_titles.get(topic, 'Astropunk'), icon=reference_icons[topic])
+                      for topic, row in navigation.items()}, ensure_ascii=False, indent=2))
+    raise SystemExit(0)
+
 
 def clean(value):
     return value.replace('|', ',').replace('\n', ' ').replace('—', ', ').replace('–', ' to ').replace(';', ',').replace('；', '，')
@@ -427,11 +446,20 @@ def write_page(filename, title, body, chinese, parent=None, icon=None, associati
 
 status = []
 assigned_paths = []
+related_provider_paths = {
+    'world.dimensions': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml'},
+    'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml', 'mods/sable.pw.toml'},
+    'space.life-support': {'mods/create-cosmonatics.pw.toml', 'mods/create-deep-seas.pw.toml'},
+    'space.navigation': {'mods/create-cosmonatics.pw.toml'},
+}
 associations = {
     'adventure.bosses': ['cataclysm:abyssal_sacrifice', 'cataclysm:altar_of_abyss', 'cataclysm:altar_of_fire', 'cataclysm:altar_of_void', 'cataclysm:burning_ashes', 'cataclysm:cursed_tombstone', 'cataclysm:door_of_seal', 'cataclysm:necklace_of_the_desert', 'cataclysm:strange_key'],
     'combat.magic': ['spell_engine:spell_binding', 'spell_engine:spell_book', 'spell_engine:spell_scroll'],
     'machines.ore-processing': ['create:millstone', 'create:crushing_wheel', 'create:encased_fan', 'create:crushed_raw_iron'],
     'food.utensils': ['farmersdelight:cooking_pot', 'farmersdelight:cutting_board', 'farmersdelight:skillet', 'farmersdelight:stove'],
+    'space.vehicle-transfer': ['rocketnautics:rocket_thruster'],
+    'space.life-support': ['rocketnautics:space_helmet', 'rocketnautics:jetpack', 'rocketnautics:copper_leg_thrusters', 'rocketnautics:copper_anchor_boots', 'cosmonauticsdeepair:gravity_generator', 'create_submarine:electrolyzer', 'create_submarine:oxygene_diffuser'],
+    'space.navigation': ['rocketnautics:hologram_block', 'rocketnautics:sputnik'],
 }
 for topic, definition in class_navigation.items():
     if 'item_ids' in definition:
@@ -452,7 +480,9 @@ for page in page_defs:
     status.append(dict(topic=topic, category=category_name, filename=topic+'.md', drafted=authored, page_type='directory' if topic in reference_hubs else 'article', deferred=deferred, metadata_paths=[e['metadata_path'] for e in members]))
     for chinese in (False, True):
         title = zh_titles[topic] if chinese else titles[topic]
-        body = written[topic]['zh_cn' if chinese else 'en_us'] if topic in written else '编写中（WIP）。' if chinese else 'Work in progress (WIP).'
+        if topic not in written and topic not in reference_hubs:
+            raise ValueError(f'Missing authored handbook page: {topic}')
+        body = written[topic]['zh_cn' if chinese else 'en_us'] if topic in written else ''
         if topic in reference_hubs and topic not in written:
             body = '## ' + ('内容目录' if chinese else 'Contents') + '\n\n'
             body += '| 主题 | 状态 |\n| --- | --- |\n' if chinese else '| Topic | Status |\n| --- | --- |\n'
@@ -462,23 +492,23 @@ for page in page_defs:
                 body += '| [' + label + '](' + child + '.md) | ' + state + ' |\n'
         # A directory summarizes providers from its descendant topic pages.
         # This does not create a second inventory assignment or duplicate articles.
-        related = [e for e in entries if e['topic'] == topic or reference_parents[e['topic']] == topic + '.md']
+        related = [e for e in entries if e['topic'] == topic or reference_parents[e['topic']] == topic + '.md' or e['metadata_path'] in related_provider_paths.get(topic, set())]
         # Search lessons already explain example queries, they are not mod catalog sections.
         if topic not in {'help.controls', 'help.search'}:
             body = decorate_queries(body, chinese)
         if related:
             body += '\n\n***\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(related, chinese, linked=True)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
-        write_page(topic+'.md', title, body, chinese, reference_parents[topic], icon=reference_icons.get(topic, reference_icons.get((reference_parents.get(topic) or '').removesuffix('.md'), cat[3])), associations=associations.get(topic), position=10000 if topic == 'help.credits' else next((i for i, ref in enumerate(reference_sections) if ref[0] == topic), next((i for i, child in enumerate(reference_hubs['reference.food'][1]) if child == topic), 0)))
+        write_page(topic+'.md', title, body, chinese, navigation[topic]['parent'], icon=reference_icons[topic], associations=associations.get(topic), position=navigation[topic]['position'])
     assigned_paths += [e['metadata_path'] for e in members]
 
 # Retire generated navigation reversibly, outside the authoring repository.
 # Repeated builds do not create further archives unless obsolete files reappear.
-archive_root = ROOT.parent / '.archive' / 'handbook-sidebar-flat'
+archive_root = ROOT / '.archive' / 'handbook-sidebar-flat'
 for chinese in (False, True):
     locale = '_zh_cn' if chinese else ''
     base = PAGES / locale
-    obsolete = sorted(base.glob('category-*.md')) + [base / name for name in ('mod-catalogs.md', 'quick-reference.md', 'sounds.ambience.md', 'audio.sound.md', 'travel.moving-destinations.md')]
+    obsolete = sorted(base.glob('category-*.md')) + [base / name for name in ('mod-catalogs.md', 'quick-reference.md', 'sounds.ambience.md', 'audio.sound.md', 'travel.moving-destinations.md', 'performance.deferred.md', 'server.deferred-pack-loading.md', 'technical.space-bridge.md', 'space.destinations.md')]
     for old in obsolete:
         if old.is_file():
             import hashlib
@@ -495,6 +525,6 @@ assert len(assigned_paths) == len(set(assigned_paths)), 'Duplicate primary cover
 covered = {e['metadata_path'] for e in entries if e['availability'] == 'baseline'}
 assert actual == covered, {'missing': sorted(actual - covered), 'unexpected': sorted(covered - actual)}
 assert set(assigned_paths) == {e['metadata_path'] for e in entries}
-manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 0, 'root_page_count': len(reference_sections) + 1, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': '77b4453', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
+manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 0, 'root_page_count': len(reference_sections) + 2, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': 'f5c24f3', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
 (ROOT / 'docs/handbook-draft-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ('pages','content')}, indent=2))

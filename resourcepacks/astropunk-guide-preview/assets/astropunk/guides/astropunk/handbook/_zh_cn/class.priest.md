@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "牧师"
-  position: 0
+  position: 6
   parent: combat.magic.md
   icon: paladins:holy_wand
 item_ids:

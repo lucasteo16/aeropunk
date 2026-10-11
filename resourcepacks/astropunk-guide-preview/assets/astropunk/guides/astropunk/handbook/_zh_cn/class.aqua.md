@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "水系法师"
-  position: 0
+  position: 3
   parent: combat.magic.md
   icon: elemental_wizards_rpg:wand_aqua
 item_ids:

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "整理、转移与丢弃物品"
-  position: 0
+  position: 1
   parent: reference.machines-storage.md
   icon: minecraft:bundle
 ---

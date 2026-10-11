@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "实用工具"
-  position: 12
+  position: 2
   icon: minecraft:chest
 ---
 
@@ -13,8 +13,8 @@ navigation:
 | --- | --- |
 | [查看方块与生物信息](help.inspect.md) | 参考 |
 | [搬运方块与生物](interactions.carry.md) | 参考 |
-| [死亡后取回物品](adventure.recovery.md) | 参考 |
 | [睡眠与时间安排](adventure.sleep.md) | 参考 |
+| [死亡后取回物品](adventure.recovery.md) | 参考 |
 
 
 ***

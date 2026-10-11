@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Vehicle controls"
-  position: 0
+  position: 5
   parent: reference.vehicles.md
   icon: create:controls
 ---

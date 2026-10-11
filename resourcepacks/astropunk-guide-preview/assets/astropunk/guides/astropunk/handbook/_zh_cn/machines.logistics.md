@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "输送、筛选与分配物品"
-  position: 0
+  position: 5
   parent: reference.machines-storage.md
   icon: create:brass_funnel
 ---

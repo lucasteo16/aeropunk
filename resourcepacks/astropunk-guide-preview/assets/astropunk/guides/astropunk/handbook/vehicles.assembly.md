@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Vehicle assembly"
-  position: 0
+  position: 4
   parent: reference.vehicles.md
   icon: create:mechanical_bearing
 ---

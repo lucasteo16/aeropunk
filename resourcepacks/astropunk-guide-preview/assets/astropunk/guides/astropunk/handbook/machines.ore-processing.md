@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Ore processing"
-  position: 0
+  position: 4
   parent: reference.machines-storage.md
   icon: create:millstone
 item_ids:

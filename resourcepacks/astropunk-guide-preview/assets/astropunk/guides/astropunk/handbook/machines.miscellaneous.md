@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Workshop tools"
-  position: 0
+  position: 7
   parent: reference.machines-storage.md
   icon: create:wrench
 ---

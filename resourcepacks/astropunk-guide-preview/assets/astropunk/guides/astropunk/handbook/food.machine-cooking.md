@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Machine cooking"
-  position: 6
+  position: 8
   parent: reference.food.md
   icon: minecraft:smoker
 ---

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Advancements"
-  position: 0
+  position: 1
   parent: reference.technical.md
   icon: minecraft:book
 ---

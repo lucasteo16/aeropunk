@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Compatibility"
-  position: 0
+  position: 4
   parent: reference.technical.md
   icon: minecraft:chain
 ---

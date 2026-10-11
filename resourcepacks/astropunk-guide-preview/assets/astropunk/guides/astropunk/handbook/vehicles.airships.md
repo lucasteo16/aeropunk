@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Airships"
-  position: 0
+  position: 7
   parent: reference.vehicles.md
   icon: minecraft:elytra
 ---

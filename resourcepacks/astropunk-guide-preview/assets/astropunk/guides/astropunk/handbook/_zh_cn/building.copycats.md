@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "使用模仿材料的建筑形状"
-  position: 0
+  position: 3
   parent: reference.building.md
   icon: copycats:copycat_block
 ---

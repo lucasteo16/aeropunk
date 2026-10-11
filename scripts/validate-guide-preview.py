@@ -12,6 +12,7 @@ import re
 import subprocess
 import tomllib
 import zipfile
+from handbook_navigation import assert_semantic_navigation
 
 root = Path(__file__).resolve().parents[1]
 pack = tomllib.loads((root / "pack.toml").read_text())
@@ -32,8 +33,7 @@ for article in handbook['pages']:
     assert article['filename'] in expected
     for language in ('', '_zh_cn'):
         article_text = (pages / language / article['filename']).read_text()
-        if not article['drafted']:
-            assert 'WIP' in article_text
+        assert article['drafted'], article['filename']
         for entry in handbook['content']:
             if entry['metadata_path'] in article['metadata_paths']:
                 heading = '## 相关模组' if language else '## Related mods'
@@ -72,13 +72,21 @@ for p in pages.rglob("*.md"):
 # Native roots are the introduction and sixteen directly accessible sections.
 section_roots = {'help.controls.md', 'help.search.md', 'adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'maps.personal.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'}
 assert handbook['navigation_page_count'] == 0
-assert handbook['root_page_count'] == len(section_roots) + 1
+assert handbook['root_page_count'] == len(section_roots) + 2
 for language in ('', '_zh_cn'):
     locale_root = pages / language
     page_texts = {p.name: p.read_text() for p in locale_root.glob('*.md')}
+    actual_navigation = {}
+    for name, text in page_texts.items():
+        front = text.split('---', 2)[1]
+        position = re.search(r'^  position: (-?\d+)$', front, re.M)
+        assert position, ('Missing explicit native position', language, name)
+        parent = re.search(r'^  parent: (.+)$', front, re.M)
+        actual_navigation[name.removesuffix('.md')] = {'parent': parent[1] if parent else None, 'position': int(position[1])}
+    assert_semantic_navigation(actual_navigation)
     roots = {name for name, text in page_texts.items() if not re.search(r'^  parent:', text, re.M)}
     assert roots == section_roots | {'index.md', 'help.credits.md'}, (language, roots)
-    assert not {'quick-reference.md', 'mod-catalogs.md', 'sounds.ambience.md', 'audio.sound.md'} & expected
+    assert not {'quick-reference.md', 'mod-catalogs.md', 'sounds.ambience.md', 'audio.sound.md', 'space.destinations.md'} & expected
     assert not list(locale_root.glob('category-*.md'))
     home_links = set(re.findall(r'\]\(([^)]+\.md)\)', page_texts['index.md']))
     assert home_links == {'help.credits.md'}, language
@@ -111,6 +119,14 @@ for language in ('', '_zh_cn'):
             depth += 1
         assert current in section_roots | {'index.md', 'help.credits.md'}, article['filename']
         assert depth <= 2, article['filename']
+# Selected main metadata and its mandatory world-border data pack stay byte-identical.
+baseline_paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', 'f5c24f3', 'mods', 'resourcepacks', 'shaderpacks', 'config/paxi'], cwd=root, text=True).splitlines()
+baseline_paths = [name for name in baseline_paths if name.endswith('.pw.toml') or name.startswith('config/paxi/')]
+actual_metadata = {path.relative_to(root).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks') for path in (root / folder).glob('*.pw.toml')}
+assert actual_metadata == {name for name in baseline_paths if name.endswith('.pw.toml')}, 'Selected main inventory drift'
+for name in baseline_paths:
+    assert (root / name).read_bytes() == subprocess.check_output(['git', 'show', f'f5c24f3:{name}'], cwd=root), ('Selected main byte drift', name)
+assert handbook['baseline_commit'] == 'f5c24f3'
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options
 if args.source_only:
@@ -145,12 +161,16 @@ with zipfile.ZipFile(export) as archive:
         assert metadata["side"] == "client"
         entry = next(f for f in manifest["files"] if f["path"] == "mods/" + metadata["filename"])
         assert entry["env"]["server"] == "unsupported"
+    for name in baseline_paths:
+        if name.startswith("config/paxi/"):
+            assert archive.read("overrides/" + name) == (root / name).read_bytes(), name
     assert archive.read("overrides/configureddefaults/options.txt").decode() == options
     assert not any(n.startswith(("overrides/docs/", "overrides/scripts/", "overrides/build/", "overrides/dist/")) for n in names)
-    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "77b4453", "mods"], cwd=root, text=True).splitlines()
+    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "f5c24f3", "mods"], cwd=root, text=True).splitlines()
+    base = [name for name in base if name.endswith('.pw.toml')]
     for name in base:
-        previous = subprocess.check_output(["git", "show", f"77b4453:{name}"], cwd=root)
+        previous = subprocess.check_output(["git", "show", f"f5c24f3:{name}"], cwd=root)
         assert (root / name).read_bytes() == previous, name
     additions = {p.relative_to(root).as_posix() for p in (root / "mods").glob("*.pw.toml")} - set(base)
-    assert additions == {"mods/guideme.pw.toml", "mods/fancymenu.pw.toml", "mods/konkrete.pw.toml", "mods/melody.pw.toml"}, additions
+    assert not additions, additions
 print(json.dumps({"pages": len(list(pages.rglob('*.md'))), "draft_articles": handbook['draft_articles'], "article_count": handbook['article_count'], "installed_content_count": handbook['installed_content_count'], "links": links, "resource_files_verified": checked, "baseline_mod_files_unchanged": len(base), "additional_mods": sorted(additions), "archive": str(export), "sha256": hashlib.sha256(export.read_bytes()).hexdigest(), "client_runtime_tested": False}, indent=2))

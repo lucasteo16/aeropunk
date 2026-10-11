@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "手动交易与自动交易"
-  position: 0
+  position: 13
   parent: reference.machines-storage.md
   icon: minecraft:emerald_block
 ---

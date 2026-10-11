@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Combat"
-  position: 6
+  position: 8
   icon: minecraft:iron_sword
 ---
 

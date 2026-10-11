@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "使用饰品、遗物与饰品栏"
-  position: 0
+  position: 3
   parent: reference.skills.md
   icon: minecraft:emerald
 ---

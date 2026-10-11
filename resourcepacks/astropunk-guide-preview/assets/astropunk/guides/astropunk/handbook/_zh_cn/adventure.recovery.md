@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "死亡后取回物品"
-  position: 0
+  position: 3
   parent: reference.utilities.md
   icon: minecraft:recovery_compass
 ---

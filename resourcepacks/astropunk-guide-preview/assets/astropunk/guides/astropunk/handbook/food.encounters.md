@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Encounter food"
-  position: 5
+  position: 7
   parent: reference.food.md
   icon: minecraft:rotten_flesh
 ---

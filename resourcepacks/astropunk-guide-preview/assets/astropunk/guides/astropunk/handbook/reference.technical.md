@@ -14,11 +14,8 @@ navigation:
 | [Handbook](help.handbook.md) | Reference |
 | [Advancements](help.reference.md) | Reference |
 | [Performance](performance.baseline.md) | Reference |
-| [Deferred optimizers](performance.deferred.md) | Reference |
 | [Server tools](server.tools.md) | Reference |
-| [Deferred loading](server.deferred-pack-loading.md) | Reference |
 | [Compatibility](technical.bridges.md) | Reference |
-| [Space compatibility](technical.space-bridge.md) | Reference |
 | [Libraries](technical.libraries.md) | Reference |
 
 
@@ -33,7 +30,7 @@ navigation:
 | ![Apollib](images/catalog-vdi2ytax.png) [Apollib](technical.libraries.md) | Shared configuration and registry utilities. | No separate item search |
 | ![Architectury API](images/catalog-lhga9tyq.png) [Architectury API](technical.libraries.md) | Shared cross-loader development interfaces. | No separate item search |
 | ![Armor Model API](images/catalog-onz2nn2n.png) [Armor Model API](technical.libraries.md) | Renders custom armor geometry through the vanilla armor pipeline. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.deferred.md) | Asynchronous log processing. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Async Logger](performance.baseline.md) | Asynchronous log processing. | No separate item search |
 | ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | Particle processing and rendering optimization. | No separate item search |
 | ![Athena](images/catalog-b1zv3dij.png) [Athena](technical.libraries.md) | Provides cross-loader connected block texture support. | No separate item search |
 | ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | Removes built-in attribute limits that can restrict modded values. | No separate item search |
@@ -68,7 +65,7 @@ navigation:
 | ![ImmediatelyFast](images/catalog-5zwdcrci.png) [ImmediatelyFast](performance.baseline.md) | Optimizes immediate-mode rendering. | No separate item search |
 | ![Ixeris](images/catalog-p8rjpjic.png) [Ixeris](performance.baseline.md) | Buffered raw input and threaded event polling. | No separate item search |
 | ![JamLib](images/catalog-iyy9siz8.png) [JamLib](technical.libraries.md) | Provides platform abstractions and configuration support for JamCore mods. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Jasione](performance.deferred.md) | Reduces repeated enumeration-array allocations. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Jasione](performance.baseline.md) | Reduces repeated enumeration-array allocations. | No separate item search |
 | ![Kerria](images/catalog-f0ruqtf7.png) [Kerria](performance.baseline.md) | Accelerates animated texture processing. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [Konkrete](technical.libraries.md) | Provides the utility and configuration library required by FancyMenu. | No separate item search |
 | ![Kotlin for Forge](images/catalog-ordspcfz.png) [Kotlin for Forge](technical.libraries.md) | Kotlin language provider and utilities. | No separate item search |
@@ -86,10 +83,9 @@ navigation:
 | ![More RPG Library](images/catalog-wkc3lwho.png) [More RPG Library](technical.libraries.md) | Provides shared attributes and status effects for More RPG class addons. | <EmiSearch query="@more_rpg_classes" /> |
 | ![MRU](images/catalog-snvq2c0g.png) [MRU](technical.libraries.md) | Shares cross-version utilities used by Cassian and IMB11's mods. | No separate item search |
 | ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | Repairs vanilla bee behavior. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Northstar Sable Iris Horizons Bridge](technical.space-bridge.md) (deferred addition) | Bridges Northstar sky rendering with shaders, distant terrain and Sable structures. | No separate item search |
 | ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | Identifies expensive server processing. | No separate item search |
 | ![oωo (owo-lib)](images/catalog-cckdolhs.png) [oωo (owo-lib)](technical.libraries.md) | General utilities, interfaces and configuration support. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [Paxi](server.deferred-pack-loading.md) (deferred addition) | Automatic data-pack and resource-pack loading. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Paxi](server.tools.md) | Loads shared data packs, including the automatic space world border. | No separate item search |
 | ![Placebo](images/catalog-tcke8p2n.png) [Placebo](technical.libraries.md) | Provides shared code required by Shadows' mods without adding standalone gameplay. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [playerAnimator](technical.libraries.md) | Player animation library. | No separate item search |
 | ![Prickle](images/catalog-aarl8giw.png) [Prickle](technical.libraries.md) | Provides structured configuration file handling for dependent mods. | No separate item search |
@@ -104,7 +100,7 @@ navigation:
 | ![Sable Beyond](images/catalog-prw3b4fh.png) [Sable Beyond](technical.bridges.md) | Extends Sable with Create machine interactions and configurable mass and fluid physics. | No separate item search |
 | ![Sable: Physics Compat](images/catalog-szbcirjb.png) [Sable: Physics Compat](technical.bridges.md) | Adds physics property tags to supported modded blocks. | No separate item search |
 | ![Searchables](images/catalog-fuuu3xnx.png) [Searchables](technical.libraries.md) | Search, filtering and completion support for interfaces. | No separate item search |
-| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.deferred.md) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [ServerCore](performance.baseline.md) | Optimizes server chunk ticking and creature spawning, with configurable workload controls. | No separate item search |
 | ![Shield API](images/catalog-y9clify4.png) [Shield API](technical.libraries.md) | Custom shield model support. | No separate item search |
 | ![Sinytra Connector](images/catalog-u58r1tmw.png) [Sinytra Connector](technical.libraries.md) | Compatibility layer for selected Fabric mods on NeoForge. | No separate item search |
 | ![Sodium](images/catalog-aanobbmi.png) [Sodium](performance.baseline.md) | Replaces the terrain rendering engine. | No separate item search |

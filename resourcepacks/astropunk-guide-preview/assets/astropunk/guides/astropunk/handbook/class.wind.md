@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Wind Wizard"
-  position: 0
+  position: 5
   parent: combat.magic.md
   icon: elemental_wizards_rpg:wand_wind
 item_ids:

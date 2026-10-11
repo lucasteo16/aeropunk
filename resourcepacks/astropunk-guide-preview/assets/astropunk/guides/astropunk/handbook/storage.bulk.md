@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Bulk storage"
-  position: 0
+  position: 2
   parent: reference.machines-storage.md
   icon: create:item_vault
 ---

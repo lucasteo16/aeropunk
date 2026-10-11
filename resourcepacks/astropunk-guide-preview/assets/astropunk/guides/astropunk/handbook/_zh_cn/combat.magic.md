@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "法术与支援职业"
-  position: 0
+  position: 6
   parent: reference.skills.md
   icon: minecraft:blaze_rod
 item_ids:

@@ -7,21 +7,21 @@
     "source_commit": "52334ccacf15d763ffe318281d38dca8ec7aaeb8"
   },
   "counts": {
-    "entries_per_locale": 113,
+    "entries_per_locale": 111,
     "locales": [
       "en_us",
       "zh_cn"
     ],
-    "total_locale_entries": 226,
-    "unique_icons_per_locale": 113,
+    "total_locale_entries": 222,
+    "unique_icons_per_locale": 111,
     "duplicate_icons": [],
-    "modded_icons_per_locale": 37,
+    "modded_icons_per_locale": 40,
     "building_entries": 9,
     "building_modded_icons": 6,
-    "expected_articles": 104,
-    "expected_roots": 17
+    "expected_articles": 102,
+    "expected_roots": 18
   },
-  "verification_boundary": "Static selected-binary registration, not a rendered or live-registry claim. Full generator executed with only output paths redirected to scratch, producing 96 English and 96 Chinese pages, 87 authored articles and 17 roots. All five navigation icon tests pass against those generated pages, including locale titles, parent parity and global uniqueness. Parent must regenerate repository pages and run the whole test suite and native export. Class icons reuse native identifiers from the original handbook, checked for exact source presence, not an additional live registry test.",
+  "verification_boundary": "Existing selected-binary icon provenance preserved. Semantic ordering executed against the released NavigationTree for both locales using authoring metadata, without generating pages or launching Minecraft. Generated resource and rendering validation remain parent handoff work.",
   "selected_artifacts": {
     "create": {
       "metadata_path": "mods/create.pw.toml",
@@ -70,6 +70,14 @@
       "hash_format": "sha512",
       "hash": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
       "matches_selected_hash": true
+    },
+    "rocketnautics": {
+      "metadata_path": "mods/create-cosmonatics.pw.toml",
+      "filename": "cosmonautics-26.08.307.jar",
+      "selected_download": "https://cdn.modrinth.com/data/micg1iTH/versions/HuCMavv8/cosmonautics-26.08.307.jar",
+      "hash_format": "sha512",
+      "hash": "72ff1be7f31767eb64635a5fd827428410b0899fe5431f951bb4ab2a006ed105bf1cae24b803d51a5b18b067f5f956c493bb827573b22567e204b6b2d84a0de8",
+      "matches_selected_hash": true
     }
   },
   "rejected_candidates": [
@@ -96,7 +104,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "dragon_head"
-      }
+      },
+      "position": 7
     },
     {
       "id": "adventure.creatures",
@@ -115,7 +124,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "egg"
-      }
+      },
+      "position": 6
     },
     {
       "id": "adventure.loot",
@@ -134,7 +144,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "gold_ingot"
-      }
+      },
+      "position": 1
     },
     {
       "id": "adventure.recovery",
@@ -153,7 +164,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "recovery_compass"
-      }
+      },
+      "position": 3
     },
     {
       "id": "adventure.settlements",
@@ -172,7 +184,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "bell"
-      }
+      },
+      "position": 0
     },
     {
       "id": "adventure.sleep",
@@ -191,7 +204,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "white_bed"
-      }
+      },
+      "position": 2
     },
     {
       "id": "adventure.structures",
@@ -210,7 +224,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "stone_bricks"
-      }
+      },
+      "position": 5
     },
     {
       "id": "building.architecture",
@@ -229,7 +244,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "oak_stairs"
-      }
+      },
+      "position": 2
     },
     {
       "id": "building.copycats",
@@ -251,7 +267,8 @@
           "233: invokevirtual #984                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "CopycatsImpl constructor registers Registrate listeners and calls Copycats.init; CCBlocks static initializer calls item and register. FeatureToggle is a transform, not a mod-presence guard around this registration."
-      }
+      },
+      "position": 3
     },
     {
       "id": "building.displays",
@@ -270,7 +287,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "item_frame"
-      }
+      },
+      "position": 5
     },
     {
       "id": "building.factory",
@@ -291,7 +309,8 @@
           "BuilderTransformers.lambda$palettesIronBlock$120 calls BlockBuilder.simpleItem"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 6
     },
     {
       "id": "building.furniture",
@@ -310,7 +329,8 @@
           "1646: invokeinterface #1300,  3         // InterfaceMethod com/teamresourceful/resourcefullib/common/registry/ResourcefulRegistry.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lcom/teamresourceful/resourcefullib/common/registry/RegistryEntry;"
         ],
         "registration_scope": "Handcrafted.init initializes ModBlocks.BLOCKS and ModItems.ITEMS; oak_chair is explicitly registered in both chair registries."
-      }
+      },
+      "position": 4
     },
     {
       "id": "building.palette",
@@ -329,7 +349,8 @@
           "133: invokeinterface #123,  3          // InterfaceMethod com/teamresourceful/resourcefullib/common/registry/ResourcefulRegistry.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lcom/teamresourceful/resourcefullib/common/registry/RegistryEntry;"
         ],
         "registration_scope": "Chipped.init initializes ModBlocks.BLOCKS and ModItems.ITEMS; mason_table is explicitly registered in both bench registries."
-      }
+      },
+      "position": 0
     },
     {
       "id": "building.placement",
@@ -348,7 +369,8 @@
           "44: invokevirtual #267                // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;"
         ],
         "registration_scope": "MechTrowel constructor calls ModRegistry.init; ITEMS is bound to the mod event bus. Base mech_trowel is unconditional; optional upgrade visibility is not evidence used here."
-      }
+      },
+      "position": 1
     },
     {
       "id": "building.safety",
@@ -367,7 +389,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "torch"
-      }
+      },
+      "position": 7
     },
     {
       "id": "class.aqua",
@@ -383,7 +406,8 @@
       "labels": {
         "en_us": "Aqua Wizard",
         "zh_cn": "水系法师"
-      }
+      },
+      "position": 3
     },
     {
       "id": "class.arcane",
@@ -399,7 +423,8 @@
       "labels": {
         "en_us": "Arcane Wizard",
         "zh_cn": "奥秘法师"
-      }
+      },
+      "position": 0
     },
     {
       "id": "class.archer",
@@ -415,7 +440,8 @@
       "labels": {
         "en_us": "Archer",
         "zh_cn": "弓箭手"
-      }
+      },
+      "position": 4
     },
     {
       "id": "class.bard",
@@ -431,7 +457,8 @@
       "labels": {
         "en_us": "Bard",
         "zh_cn": "吟游诗人"
-      }
+      },
+      "position": 8
     },
     {
       "id": "class.berserker",
@@ -447,7 +474,8 @@
       "labels": {
         "en_us": "Berserker",
         "zh_cn": "狂战士"
-      }
+      },
+      "position": 1
     },
     {
       "id": "class.deadeye",
@@ -463,7 +491,8 @@
       "labels": {
         "en_us": "Deadeye",
         "zh_cn": "神射手"
-      }
+      },
+      "position": 5
     },
     {
       "id": "class.fire",
@@ -479,7 +508,8 @@
       "labels": {
         "en_us": "Fire Wizard",
         "zh_cn": "火焰法师"
-      }
+      },
+      "position": 1
     },
     {
       "id": "class.forcemaster",
@@ -495,7 +525,8 @@
       "labels": {
         "en_us": "Forcemaster",
         "zh_cn": "气功师"
-      }
+      },
+      "position": 3
     },
     {
       "id": "class.frost",
@@ -511,7 +542,8 @@
       "labels": {
         "en_us": "Frost Wizard",
         "zh_cn": "冰霜法师"
-      }
+      },
+      "position": 2
     },
     {
       "id": "class.paladin",
@@ -527,7 +559,8 @@
       "labels": {
         "en_us": "Paladin",
         "zh_cn": "圣骑士"
-      }
+      },
+      "position": 7
     },
     {
       "id": "class.priest",
@@ -543,7 +576,8 @@
       "labels": {
         "en_us": "Priest",
         "zh_cn": "牧师"
-      }
+      },
+      "position": 6
     },
     {
       "id": "class.rogue",
@@ -559,7 +593,8 @@
       "labels": {
         "en_us": "Rogue",
         "zh_cn": "盗贼"
-      }
+      },
+      "position": 2
     },
     {
       "id": "class.terra",
@@ -575,7 +610,8 @@
       "labels": {
         "en_us": "Terra Wizard",
         "zh_cn": "土系法师"
-      }
+      },
+      "position": 4
     },
     {
       "id": "class.tundra-hunter",
@@ -591,7 +627,8 @@
       "labels": {
         "en_us": "Tundra Hunter",
         "zh_cn": "冻原猎手"
-      }
+      },
+      "position": 7
     },
     {
       "id": "class.war-archer",
@@ -607,7 +644,8 @@
       "labels": {
         "en_us": "War Archer",
         "zh_cn": "战争弓手"
-      }
+      },
+      "position": 6
     },
     {
       "id": "class.warrior",
@@ -623,7 +661,8 @@
       "labels": {
         "en_us": "Warrior",
         "zh_cn": "战士"
-      }
+      },
+      "position": 0
     },
     {
       "id": "class.wind",
@@ -639,7 +678,8 @@
       "labels": {
         "en_us": "Wind Wizard",
         "zh_cn": "风系法师"
-      }
+      },
+      "position": 5
     },
     {
       "id": "class.witcher",
@@ -655,7 +695,8 @@
       "labels": {
         "en_us": "Witcher",
         "zh_cn": "猎魔人"
-      }
+      },
+      "position": 9
     },
     {
       "id": "combat.abilities",
@@ -674,7 +715,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "enchanted_book"
-      }
+      },
+      "position": 7
     },
     {
       "id": "combat.handling",
@@ -693,7 +735,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "feather"
-      }
+      },
+      "position": 0
     },
     {
       "id": "combat.magic",
@@ -712,7 +755,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "blaze_rod"
-      }
+      },
+      "position": 6
     },
     {
       "id": "combat.martial",
@@ -731,7 +775,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "bow"
-      }
+      },
+      "position": 5
     },
     {
       "id": "combat.skills",
@@ -750,7 +795,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "experience_bottle"
-      }
+      },
+      "position": 8
     },
     {
       "id": "equipment.accessories",
@@ -769,7 +815,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "emerald"
-      }
+      },
+      "position": 3
     },
     {
       "id": "equipment.display",
@@ -788,7 +835,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "potion"
-      }
+      },
+      "position": 4
     },
     {
       "id": "equipment.weapons-armor",
@@ -807,7 +855,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "trident"
-      }
+      },
+      "position": 2
     },
     {
       "id": "food.encounters",
@@ -826,7 +875,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "rotten_flesh"
-      }
+      },
+      "position": 7
     },
     {
       "id": "food.end",
@@ -845,7 +895,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "chorus_fruit"
-      }
+      },
+      "position": 6
     },
     {
       "id": "food.fishing",
@@ -864,7 +915,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "cod"
-      }
+      },
+      "position": 3
     },
     {
       "id": "food.growing",
@@ -883,7 +935,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "wheat"
-      }
+      },
+      "position": 2
     },
     {
       "id": "food.hunger",
@@ -902,7 +955,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "apple"
-      }
+      },
+      "position": 1
     },
     {
       "id": "food.machine-cooking",
@@ -921,7 +975,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "smoker"
-      }
+      },
+      "position": 8
     },
     {
       "id": "food.nether",
@@ -940,7 +995,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "crimson_fungus"
-      }
+      },
+      "position": 5
     },
     {
       "id": "food.underground",
@@ -959,7 +1015,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "brown_mushroom"
-      }
+      },
+      "position": 4
     },
     {
       "id": "food.utensils",
@@ -978,7 +1035,8 @@
           "40: invokevirtual #616                // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;"
         ],
         "registration_scope": "FarmersDelight constructor registers ModItems.ITEMS on the mod event bus. cooking_pot is a direct unconditional block-item DeferredRegister entry."
-      }
+      },
+      "position": 0
     },
     {
       "id": "help.controls",
@@ -997,7 +1055,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "lever"
-      }
+      },
+      "position": 0
     },
     {
       "id": "help.credits",
@@ -1016,7 +1075,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "written_book"
-      }
+      },
+      "position": 10000
     },
     {
       "id": "help.handbook",
@@ -1035,7 +1095,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "writable_book"
-      }
+      },
+      "position": 0
     },
     {
       "id": "help.inspect",
@@ -1054,7 +1115,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "debug_stick"
-      }
+      },
+      "position": 0
     },
     {
       "id": "help.reference",
@@ -1073,7 +1135,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "book"
-      }
+      },
+      "position": 1
     },
     {
       "id": "help.search",
@@ -1092,7 +1155,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "crafting_table"
-      }
+      },
+      "position": 1
     },
     {
       "id": "index",
@@ -1111,7 +1175,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "compass"
-      }
+      },
+      "position": -100
     },
     {
       "id": "interactions.carry",
@@ -1130,7 +1195,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "barrel"
-      }
+      },
+      "position": 1
     },
     {
       "id": "machines.enchanting",
@@ -1149,7 +1215,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "enchanting_table"
-      }
+      },
+      "position": 12
     },
     {
       "id": "machines.logistics",
@@ -1169,7 +1236,8 @@
           "10031: invokevirtual #565               // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 5
     },
     {
       "id": "machines.miscellaneous",
@@ -1189,7 +1257,8 @@
           "2412: invokevirtual #23                 // Method com/tterrag/registrate/builders/ItemBuilder.register:()Lcom/tterrag/registrate/util/entry/ItemEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 7
     },
     {
       "id": "machines.ore-processing",
@@ -1209,7 +1278,8 @@
           "2369: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 4
     },
     {
       "id": "machines.renewables",
@@ -1229,7 +1299,8 @@
           "7129: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 6
     },
     {
       "id": "machines.rotation",
@@ -1249,7 +1320,8 @@
           "306: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 3
     },
     {
       "id": "machines.trading",
@@ -1268,7 +1340,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "emerald_block"
-      }
+      },
+      "position": 13
     },
     {
       "id": "maps.find",
@@ -1287,7 +1360,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "spyglass"
-      }
+      },
+      "position": 0
     },
     {
       "id": "maps.personal",
@@ -1306,7 +1380,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "map"
-      }
+      },
+      "position": 3
     },
     {
       "id": "maps.shared",
@@ -1325,7 +1400,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "cartography_table"
-      }
+      },
+      "position": 1
     },
     {
       "id": "performance.baseline",
@@ -1344,26 +1420,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "clock"
-      }
-    },
-    {
-      "id": "performance.deferred",
-      "parent": "reference.technical.md",
-      "labels": {
-        "en_us": "Deferred optimizers",
-        "zh_cn": "了解暂缓加入的优化模组"
       },
-      "icon": "minecraft:repeater",
-      "rationale": "A repeater represents timing optimization, using vanilla rather than absent optimizer identifiers.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "repeater"
-      }
+      "position": 2
     },
     {
       "id": "power.burners",
@@ -1382,7 +1440,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "lava_bucket"
-      }
+      },
+      "position": 9
     },
     {
       "id": "power.electricity",
@@ -1401,7 +1460,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "lightning_rod"
-      }
+      },
+      "position": 11
     },
     {
       "id": "power.industry",
@@ -1420,7 +1480,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "iron_ingot"
-      }
+      },
+      "position": 10
     },
     {
       "id": "power.stored-rotation",
@@ -1440,7 +1501,8 @@
           "8713: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 8
     },
     {
       "id": "reference.appearance",
@@ -1459,7 +1521,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "painting"
-      }
+      },
+      "position": 13
     },
     {
       "id": "reference.audio",
@@ -1478,7 +1541,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "note_block"
-      }
+      },
+      "position": 14
     },
     {
       "id": "reference.building",
@@ -1498,7 +1562,8 @@
           "83: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 10
     },
     {
       "id": "reference.equipment",
@@ -1517,7 +1582,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "iron_chestplate"
-      }
+      },
+      "position": 1
     },
     {
       "id": "reference.food",
@@ -1536,7 +1602,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "bread"
-      }
+      },
+      "position": 9
     },
     {
       "id": "reference.machines-storage",
@@ -1556,7 +1623,8 @@
           "2462: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 11
     },
     {
       "id": "reference.skills",
@@ -1575,7 +1643,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "iron_sword"
-      }
+      },
+      "position": 8
     },
     {
       "id": "reference.technical",
@@ -1594,7 +1663,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "redstone"
-      }
+      },
+      "position": 15
     },
     {
       "id": "reference.utilities",
@@ -1613,7 +1683,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "chest"
-      }
+      },
+      "position": 2
     },
     {
       "id": "reference.vehicles",
@@ -1632,26 +1703,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "minecart"
-      }
-    },
-    {
-      "id": "server.deferred-pack-loading",
-      "parent": "reference.technical.md",
-      "labels": {
-        "en_us": "Deferred loading",
-        "zh_cn": "了解暂缓加入的内容加载工具"
       },
-      "icon": "minecraft:hopper",
-      "rationale": "A hopper represents a loading pipeline, using vanilla for explicitly deferred content.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "hopper"
-      }
+      "position": 12
     },
     {
       "id": "server.tools",
@@ -1670,45 +1723,74 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "command_block"
-      }
+      },
+      "position": 3
     },
     {
-      "id": "space.destinations",
+      "id": "space.life-support",
       "parent": "reference.vehicles.md",
       "labels": {
-        "en_us": "Space (not installed)",
-        "zh_cn": "了解规划中的太空目的地"
+        "en_us": "Space life support",
+        "zh_cn": "太空生命支持"
       },
-      "icon": "minecraft:end_stone",
-      "rationale": "End stone is a vanilla alien-world metaphor for explicitly uninstalled space content.",
+      "icon": "rocketnautics:space_helmet",
+      "rationale": "Selected Cosmonautics space helmet represents this space topic.",
       "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "kind": "selected release registration bytecode",
         "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
+          "dev.devce.rocketnautics.registry.RocketItems"
         ],
-        "registered_literal": "end_stone"
-      }
+        "registered_literal": "space_helmet",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketItems.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
+      },
+      "position": 11
+    },
+    {
+      "id": "space.navigation",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Space navigation",
+        "zh_cn": "太空导航"
+      },
+      "icon": "rocketnautics:hologram_block",
+      "rationale": "Selected Cosmonautics hologram block represents this space topic.",
+      "provenance": {
+        "kind": "selected release registration bytecode",
+        "classes": [
+          "dev.devce.rocketnautics.registry.RocketBlocks"
+        ],
+        "registered_literal": "hologram_block",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketBlocks.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
+      },
+      "position": 12
     },
     {
       "id": "space.vehicle-transfer",
       "parent": "reference.vehicles.md",
       "labels": {
-        "en_us": "Space transport",
-        "zh_cn": "了解整台载具的跨维度移动"
+        "en_us": "Orbital flight",
+        "zh_cn": "轨道飞行"
       },
-      "icon": "minecraft:end_portal_frame",
-      "rationale": "An End portal frame represents cross-dimensional transfer, not an installed space vehicle.",
+      "icon": "rocketnautics:rocket_thruster",
+      "rationale": "Selected Cosmonautics rocket thruster represents this space topic.",
       "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "kind": "selected release registration bytecode",
         "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
+          "dev.devce.rocketnautics.registry.RocketBlocks"
         ],
-        "registered_literal": "end_portal_frame"
-      }
+        "registered_literal": "rocket_thruster",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketBlocks.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
+      },
+      "position": 10
     },
     {
       "id": "storage.bulk",
@@ -1728,7 +1810,8 @@
           "10709: invokevirtual #565               // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 2
     },
     {
       "id": "storage.handling",
@@ -1747,7 +1830,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "bundle"
-      }
+      },
+      "position": 1
     },
     {
       "id": "storage.portable",
@@ -1766,7 +1850,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "shulker_box"
-      }
+      },
+      "position": 0
     },
     {
       "id": "technical.bridges",
@@ -1785,7 +1870,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "chain"
-      }
+      },
+      "position": 4
     },
     {
       "id": "technical.libraries",
@@ -1804,26 +1890,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "bookshelf"
-      }
-    },
-    {
-      "id": "technical.space-bridge",
-      "parent": "reference.technical.md",
-      "labels": {
-        "en_us": "Space compatibility",
-        "zh_cn": "查询暂缓加入的太空渲染组件"
       },
-      "icon": "minecraft:end_rod",
-      "rationale": "An End rod represents an alien-world connection, using vanilla for explicitly deferred compatibility.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "end_rod"
-      }
+      "position": 5
     },
     {
       "id": "transport.local",
@@ -1842,7 +1910,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "powered_rail"
-      }
+      },
+      "position": 0
     },
     {
       "id": "transport.passenger",
@@ -1861,7 +1930,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "rail"
-      }
+      },
+      "position": 1
     },
     {
       "id": "transport.railway-builder",
@@ -1881,7 +1951,8 @@
           "9071: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 2
     },
     {
       "id": "travel.destinations",
@@ -1900,7 +1971,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "ender_pearl"
-      }
+      },
+      "position": 13
     },
     {
       "id": "vehicles.airships",
@@ -1919,7 +1991,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "elytra"
-      }
+      },
+      "position": 7
     },
     {
       "id": "vehicles.assembly",
@@ -1940,7 +2013,8 @@
           "BuilderTransformers.lambda$bearing$86 calls BlockBuilder.item and ItemBuilder.build"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 4
     },
     {
       "id": "vehicles.controls",
@@ -1960,7 +2034,8 @@
           "9634: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 5
     },
     {
       "id": "vehicles.engines",
@@ -1980,7 +2055,8 @@
           "5189: invokevirtual #565                // Method com/tterrag/registrate/builders/BlockBuilder.register:()Lcom/tterrag/registrate/util/entry/BlockEntry;"
         ],
         "registration_scope": "Create constructor registers Registrate event listeners and initializes AllBlocks and AllItems. Core items have unconditional static registration; helper transforms also create block items."
-      }
+      },
+      "position": 6
     },
     {
       "id": "vehicles.radar",
@@ -1999,7 +2075,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "sculk_sensor"
-      }
+      },
+      "position": 8
     },
     {
       "id": "vehicles.water",
@@ -2018,7 +2095,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "oak_boat"
-      }
+      },
+      "position": 3
     },
     {
       "id": "vehicles.weapons",
@@ -2037,7 +2115,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "dispenser"
-      }
+      },
+      "position": 9
     },
     {
       "id": "visuals.camera",
@@ -2056,7 +2135,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "ender_eye"
-      }
+      },
+      "position": 1
     },
     {
       "id": "visuals.interface",
@@ -2075,7 +2155,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "oak_sign"
-      }
+      },
+      "position": 0
     },
     {
       "id": "visuals.lighting",
@@ -2094,7 +2175,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "lantern"
-      }
+      },
+      "position": 5
     },
     {
       "id": "visuals.models",
@@ -2113,7 +2195,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "armor_stand"
-      }
+      },
+      "position": 3
     },
     {
       "id": "visuals.resource-packs",
@@ -2132,7 +2215,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "loom"
-      }
+      },
+      "position": 2
     },
     {
       "id": "visuals.shader-packs",
@@ -2151,7 +2235,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "prismarine_crystals"
-      }
+      },
+      "position": 6
     },
     {
       "id": "visuals.weather",
@@ -2170,7 +2255,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "snowball"
-      }
+      },
+      "position": 4
     },
     {
       "id": "world.dimensions",
@@ -2189,7 +2275,8 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "grass_block"
-      }
+      },
+      "position": 4
     }
   ]
 }

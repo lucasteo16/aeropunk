@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用末地食材烹饪"
-  position: 3
+  position: 6
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---

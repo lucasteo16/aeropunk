@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "火焰法师"
-  position: 0
+  position: 1
   parent: combat.magic.md
   icon: wizards:wand_fire
 item_ids:

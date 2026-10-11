@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "建造列车、轨道与车站"
-  position: 0
+  position: 2
   parent: reference.vehicles.md
   icon: create:track
 ---

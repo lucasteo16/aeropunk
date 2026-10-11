@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "使用固定与便携传送点"
-  position: 0
+  position: 13
   parent: reference.vehicles.md
   icon: minecraft:ender_pearl
 ---
@@ -164,7 +164,9 @@ Waystones Sable 为 Sable 移动建筑上的 Waystones 目的地提供兼容。�
 
 ## 整艘飞行船传送
 
-Create: AeroWarptics（独立飞艇补丁）用于在同一维度内移动已组装的 Aeronautics 飞艇。Waystones Sable 将玩家传送到移动目的地，而非传送整艘船。AeroWarptics 不提供 Northstar 行星或其他太空目的地。
+Create: AeroWarptics（独立飞艇补丁）用于在同一维度内移动已组装的 Aeronautics 飞艇。Waystones Sable 将玩家传送到移动目的地，而非传送整艘船。太空飞行使用独立的推进与导航系统。
+
+- [轨道飞行](space.vehicle-transfer.md)
 
 
 ***
@@ -174,6 +176,7 @@ Create: AeroWarptics（独立飞艇补丁）用于在同一维度内移动已组
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![Create Waystones Recipes](images/catalog-wqpkgqnj.png) [Create Waystones Recipes](travel.destinations.md) | 修改 Waystones 配方，改用机械动力材料与制作方式。 | 无独立物品查询 |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](travel.destinations.md) | 增加用于转移 Aeronautics 物理载具的工具。 | 无独立物品查询 |
 | ![NetherPortalFix](images/catalog-npzr02et.png) [NetherPortalFix](travel.destinations.md) | 修正玩家往返下界传送门时的返回目的地。 | 无独立物品查询 |
 | ![Tempad](images/catalog-gknwt7xu.png) [Tempad](travel.destinations.md) | 用便携及固定设备开启通往已保存地点的传送门。 | <EmiSearch query="@tempad" /> |
 | ![Waystones](images/catalog-lopkhb2a.png) [Waystones](travel.destinations.md) | 增加需激活的目的地石碑与便携传送物品，支持地点间旅行。 | <EmiSearch query="@waystones" /> |

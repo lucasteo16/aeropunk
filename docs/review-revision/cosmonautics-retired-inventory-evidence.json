@@ -1,0 +1,1197 @@
+{
+  "scope": "Historical planning snapshot preserved for evidence only. These branches and retired entries are not active handbook coverage.",
+  "previous_verification": {
+    "baseline_by_kind": {
+      "mods": 297,
+      "resourcepacks": 10,
+      "shaderpacks": 3
+    },
+    "baseline_total": 310,
+    "deferred_by_branch": {
+      "grouped/northstar": 5,
+      "grouped/optimizers": 3
+    },
+    "union_metadata_total": 318,
+    "unique_primary_assignments": 318,
+    "duplicate_primary_paths": [],
+    "unassigned_metadata_paths": [],
+    "extra_unknown_paths": [],
+    "proposed_page_count": 85,
+    "page_status_counts": {
+      "planned": 79,
+      "provisional": 1,
+      "deferred": 5
+    },
+    "baseline_primary_category_counts": {
+      "Adventures and recovery": 27,
+      "Building and decoration": 39,
+      "Combat and character builds": 17,
+      "Electricity and fuel": 4,
+      "Enchanting and repair": 3,
+      "Equipment and accessories": 10,
+      "Finding things and help": 8,
+      "Food and farming": 15,
+      "Handy interactions": 1,
+      "Landscapes and dimensions": 6,
+      "Libraries and compatibility": 59,
+      "Maps and multiplayer": 6,
+      "Mechanical automation": 7,
+      "Performance and optimization": 22,
+      "Server utilities and diagnostics": 5,
+      "Storage and inventory": 9,
+      "Teleportation and destinations": 5,
+      "Trading": 4,
+      "Vehicles and transport": 15,
+      "Visuals and sound": 48
+    },
+    "home_card_count": 8,
+    "maximum_navigation_category_levels": 2,
+    "baseline_primary_home_counts": {
+      "appearance-comfort": 48,
+      "automation-industry": 19,
+      "building-decoration": 39,
+      "combat-equipment": 27,
+      "everyday-help": 103,
+      "exploration-recovery": 39,
+      "food-farming": 15,
+      "vehicles-travel": 20
+    },
+    "deferred_primary_category_counts": {
+      "Libraries and compatibility": 1,
+      "Performance and optimization": 3,
+      "Server utilities and diagnostics": 1,
+      "Space, deferred": 3
+    },
+    "all_checks_passed": true,
+    "scope": "Static selection, path reconciliation, page membership and document checks only. No installation, export or gameplay test."
+  },
+  "previous_branches": [
+    {
+      "branch": "grouped/northstar",
+      "commit": "bb7575a079fafec9899e97bd26d981526a35f386",
+      "totals": {
+        "mods": 301,
+        "resourcepacks": 9,
+        "shaderpacks": 3
+      },
+      "added_paths": [
+        "mods/create-aerowarptics.pw.toml",
+        "mods/create-northstar-aeronautics-compatibility.pw.toml",
+        "mods/northstar-redux.pw.toml",
+        "mods/northstar-sable-iris-horizons-bridge.pw.toml",
+        "mods/paxi.pw.toml"
+      ],
+      "absent_baseline_paths": [
+        "mods/hide-experimental-warning.pw.toml",
+        "resourcepacks/mandalas-gui-dark-mode.pw.toml"
+      ],
+      "changed_baseline_paths": []
+    },
+    {
+      "branch": "grouped/optimizers",
+      "commit": "ba3fe12fa90d474cb1308f0a6030d759455ea99d",
+      "totals": {
+        "mods": 299,
+        "resourcepacks": 9,
+        "shaderpacks": 3
+      },
+      "added_paths": [
+        "mods/asynclogger.pw.toml",
+        "mods/jasione.pw.toml",
+        "mods/servercore.pw.toml"
+      ],
+      "absent_baseline_paths": [
+        "mods/hide-experimental-warning.pw.toml",
+        "resourcepacks/mandalas-gui-dark-mode.pw.toml"
+      ],
+      "changed_baseline_paths": []
+    }
+  ],
+  "retired_provider_entries": [
+    {
+      "metadata_path": "mods/create-northstar-aeronautics-compatibility.pw.toml",
+      "content_kind": "mods",
+      "name": "Create: Northstar-Aeronautics Compatibility",
+      "filename": "cnbridge-1.0.0.jar",
+      "side": "both",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "Mit4b2tJ",
+        "version": "Y91G3nhq"
+      },
+      "availability": "deferred",
+      "source_branch": "grouped/northstar",
+      "source_commit": "bb7575a079fafec9899e97bd26d981526a35f386",
+      "primary_function": "space.vehicle-transfer",
+      "primary_category": "Space, deferred",
+      "primary_home": "exploration-recovery",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "A Dimensional Drive that selects a Northstar planet and transfers a physics contraption with its player. The current project summary says no crafting recipe is provided.",
+      "project_source": "https://modrinth.com/project/Mit4b2tJ",
+      "selected_release_source": "https://modrinth.com/project/Mit4b2tJ/version/Y91G3nhq",
+      "evidence_level": "Publisher-grounded planning description from earlier inventory; selected metadata parsed here; mechanics not tested.",
+      "instruction_verification": "pending selected-release and settings review"
+    },
+    {
+      "metadata_path": "mods/northstar-redux.pw.toml",
+      "content_kind": "mods",
+      "name": "Create: Northstar - Redux",
+      "filename": "Northstar-0.6.6+1.21.1.jar",
+      "side": "both",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "UZiq3QVW",
+        "version": "2xMVbJcV"
+      },
+      "availability": "deferred",
+      "source_branch": "grouped/northstar",
+      "source_commit": "bb7575a079fafec9899e97bd26d981526a35f386",
+      "primary_function": "space.destinations",
+      "primary_category": "Space, deferred",
+      "primary_home": "exploration-recovery",
+      "secondary_functions": [
+        "space.vehicle-transfer"
+      ],
+      "secondary_categories": [],
+      "purpose_evidence": "Space-exploration content for Create.",
+      "project_source": "https://modrinth.com/project/UZiq3QVW",
+      "selected_release_source": "https://modrinth.com/project/UZiq3QVW/version/2xMVbJcV",
+      "evidence_level": "Publisher-grounded planning description from earlier inventory; selected metadata parsed here; mechanics not tested.",
+      "instruction_verification": "pending selected-release and settings review"
+    },
+    {
+      "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
+      "content_kind": "mods",
+      "name": "Northstar Sable Iris Horizons Bridge",
+      "filename": "northstar-sable-iris-horizon-bridge-0.6.4+1.21.1.jar",
+      "side": "both",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "MSoLk54A",
+        "version": "kaxeIMPF"
+      },
+      "availability": "deferred",
+      "source_branch": "grouped/northstar",
+      "source_commit": "bb7575a079fafec9899e97bd26d981526a35f386",
+      "primary_function": "technical.space-bridge",
+      "primary_category": "Libraries and compatibility",
+      "primary_home": "everyday-help",
+      "secondary_functions": [
+        "space.destinations",
+        "space.vehicle-transfer"
+      ],
+      "secondary_categories": [
+        "Space, deferred"
+      ],
+      "purpose_evidence": "Northstar sky and distant-terrain rendering compatibility, plus advertised Sable transfers between planets and orbit.",
+      "project_source": "https://modrinth.com/project/MSoLk54A",
+      "selected_release_source": "https://modrinth.com/project/MSoLk54A/version/kaxeIMPF",
+      "evidence_level": "Publisher-grounded planning description from earlier inventory; selected metadata parsed here; mechanics not tested.",
+      "instruction_verification": "pending selected-release and settings review"
+    },
+    {
+      "metadata_path": "mods/paxi.pw.toml",
+      "content_kind": "mods",
+      "name": "Paxi",
+      "filename": "Paxi-1.21.1-NeoForge-5.1.3.jar",
+      "side": "both",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "CU0PAyzb",
+        "version": "CLZfFbCx"
+      },
+      "availability": "deferred",
+      "source_branch": "grouped/northstar",
+      "source_commit": "bb7575a079fafec9899e97bd26d981526a35f386",
+      "primary_function": "server.deferred-pack-loading",
+      "primary_category": "Server utilities and diagnostics",
+      "primary_home": "everyday-help",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "Automatic loading of data packs and resource packs.",
+      "project_source": "https://modrinth.com/project/CU0PAyzb",
+      "selected_release_source": "https://modrinth.com/project/CU0PAyzb/version/CLZfFbCx",
+      "evidence_level": "Publisher-grounded planning description from earlier inventory; selected metadata parsed here; mechanics not tested.",
+      "instruction_verification": "pending selected-release and settings review"
+    }
+  ],
+  "previous_navigation": {
+    "layout": "visual home dashboard or independent activity map",
+    "maximum_category_levels": 2,
+    "third_level": "article content only, never a folder",
+    "home_cards": [
+      {
+        "home_id": "automation-industry",
+        "title": "Automate a workshop",
+        "category_name": "Automation and industry",
+        "task_labels": [
+          "Process ore",
+          "Power machines",
+          "Move materials",
+          "Store bulk supplies",
+          "Enchant equipment",
+          "Trade with villagers"
+        ],
+        "search_synonyms": [
+          "automation",
+          "industry",
+          "factory",
+          "ore processing",
+          "ore",
+          "crushing",
+          "washing",
+          "smelting",
+          "power",
+          "fuel",
+          "logistics",
+          "storage",
+          "enchanting",
+          "trading"
+        ],
+        "visual_direction": "An ore-to-workshop scene with six task cards; ore processing stays visible without search.",
+        "topics": [
+          "Electricity and fuel",
+          "Enchanting and repair",
+          "Mechanical automation",
+          "Storage and inventory",
+          "Trading"
+        ],
+        "article_ids": [
+          "storage.bulk",
+          "machines.ore-processing",
+          "machines.rotation",
+          "machines.logistics",
+          "machines.renewables",
+          "machines.enchanting",
+          "machines.trading",
+          "machines.miscellaneous",
+          "power.electricity",
+          "power.industry",
+          "power.burners",
+          "power.stored-rotation"
+        ]
+      },
+      {
+        "home_id": "vehicles-travel",
+        "title": "Build a vehicle or take a trip",
+        "category_name": "Vehicles and travel",
+        "task_labels": [
+          "Fly a vehicle",
+          "Balance an airship",
+          "Operate a submarine",
+          "Take a train",
+          "Build a railway",
+          "Use a destination"
+        ],
+        "search_synonyms": [
+          "vehicles",
+          "transport",
+          "flight",
+          "airship",
+          "plane",
+          "boat",
+          "submarine",
+          "train",
+          "passenger",
+          "railway",
+          "radar",
+          "cannon",
+          "teleport"
+        ],
+        "visual_direction": "Parallel passenger and builder cards using a train, flying vessel and submarine image.",
+        "topics": [
+          "Teleportation and destinations",
+          "Vehicles and transport"
+        ],
+        "article_ids": [
+          "vehicles.assembly",
+          "vehicles.airships",
+          "vehicles.engines",
+          "vehicles.controls",
+          "vehicles.radar",
+          "vehicles.weapons",
+          "vehicles.water",
+          "transport.passenger",
+          "transport.railway-builder",
+          "transport.local",
+          "travel.destinations",
+          "travel.moving-destinations"
+        ]
+      },
+      {
+        "home_id": "food-farming",
+        "title": "Grow ingredients and cook meals",
+        "category_name": "Food and farming",
+        "task_labels": [
+          "Understand hunger",
+          "Use cooking utensils",
+          "Cook regional ingredients",
+          "Automate a kitchen",
+          "Harvest crops"
+        ],
+        "search_synonyms": [
+          "food",
+          "farming",
+          "cooking",
+          "hunger",
+          "saturation",
+          "diet",
+          "utensils",
+          "kitchen",
+          "Nether food",
+          "End food",
+          "fishing"
+        ],
+        "visual_direction": "Manual kitchen and machine kitchen shown side by side, with hunger information as a small card.",
+        "topics": [
+          "Food and farming"
+        ],
+        "article_ids": [
+          "food.hunger",
+          "food.utensils",
+          "food.nether",
+          "food.end",
+          "food.underground",
+          "food.encounters",
+          "food.machine-cooking",
+          "food.growing",
+          "food.fishing"
+        ]
+      },
+      {
+        "home_id": "building-decoration",
+        "title": "Build and decorate a place",
+        "category_name": "Building and decoration",
+        "task_labels": [
+          "Choose a palette",
+          "Furnish a room",
+          "Decorate a factory",
+          "Place a schematic",
+          "Make a display"
+        ],
+        "search_synonyms": [
+          "building",
+          "decoration",
+          "home",
+          "furniture",
+          "palette",
+          "copycat",
+          "schematic",
+          "sign",
+          "painting",
+          "bridge",
+          "roof"
+        ],
+        "visual_direction": "A furnished room and industrial station with clickable task labels, not mod logos.",
+        "topics": [
+          "Building and decoration"
+        ],
+        "article_ids": [
+          "building.palette",
+          "building.factory",
+          "building.copycats",
+          "building.architecture",
+          "building.furniture",
+          "building.displays",
+          "building.placement",
+          "building.safety"
+        ]
+      },
+      {
+        "home_id": "combat-equipment",
+        "title": "Choose equipment and a combat style",
+        "category_name": "Combat and equipment",
+        "task_labels": [
+          "Handle weapons",
+          "Try martial roles",
+          "Use magic or support",
+          "Choose skills",
+          "Equip accessories",
+          "Repair equipment"
+        ],
+        "search_synonyms": [
+          "combat",
+          "weapon",
+          "armor",
+          "armour",
+          "magic",
+          "spell",
+          "role",
+          "class",
+          "skills",
+          "jewelry",
+          "jewellery",
+          "relic",
+          "accessory",
+          "repair"
+        ],
+        "visual_direction": "Equipment and role comparisons with no prescribed class or progression route.",
+        "topics": [
+          "Combat and character builds",
+          "Equipment and accessories"
+        ],
+        "article_ids": [
+          "combat.handling",
+          "combat.martial",
+          "combat.magic",
+          "combat.skills",
+          "equipment.weapons-armor",
+          "equipment.accessories",
+          "equipment.display"
+        ]
+      },
+      {
+        "home_id": "exploration-recovery",
+        "title": "Explore together and recover safely",
+        "category_name": "Exploration and recovery",
+        "task_labels": [
+          "Read maps",
+          "Share discoveries",
+          "Find a biome",
+          "Explore a dungeon",
+          "Share loot",
+          "Sleep away from home",
+          "Recover items"
+        ],
+        "search_synonyms": [
+          "exploration",
+          "adventure",
+          "map",
+          "waypoint",
+          "multiplayer",
+          "loot",
+          "sleep",
+          "corpse",
+          "death",
+          "recovery",
+          "biome",
+          "dimension",
+          "space",
+          "boss"
+        ],
+        "visual_direction": "A destination map with independent preparation, discovery and recovery cards; space has an absent-from-baseline badge.",
+        "topics": [
+          "Adventures and recovery",
+          "Landscapes and dimensions",
+          "Maps and multiplayer",
+          "Space, deferred"
+        ],
+        "article_ids": [
+          "maps.personal",
+          "maps.shared",
+          "maps.find",
+          "adventure.loot",
+          "adventure.recovery",
+          "adventure.sleep",
+          "adventure.settlements",
+          "adventure.structures",
+          "adventure.creatures",
+          "adventure.bosses",
+          "landscapes.overworld",
+          "landscapes.nether",
+          "landscapes.end",
+          "space.destinations",
+          "space.vehicle-transfer"
+        ]
+      },
+      {
+        "home_id": "appearance-comfort",
+        "title": "Adjust how the game looks and sounds",
+        "category_name": "Appearance and comfort",
+        "task_labels": [
+          "Choose resource packs",
+          "Compare shaders",
+          "Adjust sound",
+          "Change camera comfort",
+          "Reduce distracting effects"
+        ],
+        "search_synonyms": [
+          "visuals",
+          "appearance",
+          "sound",
+          "audio",
+          "shader",
+          "resource pack",
+          "animation",
+          "particles",
+          "weather",
+          "camera",
+          "zoom",
+          "interface"
+        ],
+        "visual_direction": "Comparison stills with separate resource-pack, shader and sound cards; nothing is presented as mandatory.",
+        "topics": [
+          "Visuals and sound"
+        ],
+        "article_ids": [
+          "visuals.camera",
+          "visuals.models",
+          "visuals.weather",
+          "visuals.lighting",
+          "visuals.resource-packs",
+          "visuals.shader-packs",
+          "sounds.ambience",
+          "visuals.interface"
+        ]
+      },
+      {
+        "home_id": "everyday-help",
+        "title": "Find help and manage everyday tools",
+        "category_name": "Everyday tools and technical help",
+        "task_labels": [
+          "Find a recipe",
+          "Change controls",
+          "Pack storage",
+          "Sort items",
+          "Carry a block",
+          "Report poor performance",
+          "Look up a dependency"
+        ],
+        "search_synonyms": [
+          "help",
+          "recipe",
+          "uses",
+          "controls",
+          "inventory",
+          "backpack",
+          "shulker",
+          "sorting",
+          "carrying",
+          "performance",
+          "lag",
+          "server",
+          "library",
+          "compatibility"
+        ],
+        "visual_direction": "Useful actions first; technical topics sit in a clearly labeled reference area, not in the opening activity grid.",
+        "topics": [
+          "Finding things and help",
+          "Handy interactions",
+          "Libraries and compatibility",
+          "Performance and optimization",
+          "Server utilities and diagnostics",
+          "Storage and inventory"
+        ],
+        "article_ids": [
+          "help.search",
+          "help.inspect",
+          "help.controls",
+          "help.reference",
+          "storage.portable",
+          "storage.handling",
+          "interactions.carry",
+          "performance.baseline",
+          "performance.deferred",
+          "server.tools",
+          "server.deferred-pack-loading",
+          "technical.bridges",
+          "technical.space-bridge",
+          "technical.libraries"
+        ]
+      }
+    ],
+    "technical_reference": "Libraries, optimization and server utilities remain separate subordinate topics."
+  },
+  "previous_ambiguous_placements": [
+    {
+      "scope": "Create platform",
+      "chosen_home": "automation-industry",
+      "reason": "Primary ownership is ore and workshop processing; rotation, logistics, storage and vehicles link to the same platform rather than duplicating its inventory identity.",
+      "review": "Verify feature-level scope and whether separate fluid logistics articles are needed."
+    },
+    {
+      "scope": "Fuel and powered vehicles",
+      "chosen_home": "automation-industry",
+      "reason": "Fuel and electricity are workshop supply systems with vehicle cross-links, not competing fuel homes.",
+      "review": "Verify exact consumer compatibility."
+    },
+    {
+      "scope": "Machine cooking and farming",
+      "chosen_home": "food-farming",
+      "reason": "The player goal is producing ingredients or meals; material logistics links to the workshop.",
+      "review": "Verify recipes and supported regional integrations."
+    },
+    {
+      "scope": "Bulk and portable storage",
+      "chosen_home": "automation-industry for bulk, everyday-help for portable",
+      "reason": "The bulk article serves workshop storage; backpacks and shulker access serve packing and everyday handling. Each article has one home.",
+      "review": "Check whether dashboard task labels make the distinction clear."
+    },
+    {
+      "scope": "Enchanting and repair",
+      "chosen_home": "automation-industry",
+      "reason": "Machine enchanting owns the combined article; equipment includes a direct repair and enchanting link.",
+      "review": "Consider splitting manual repair into an equipment article after evidence review, without changing path totals."
+    },
+    {
+      "scope": "Trading",
+      "chosen_home": "automation-industry",
+      "reason": "A subordinate topic for manual and automated trading, never a ninth home card.",
+      "review": "Verify whether profession discovery warrants a cross-link from settlements."
+    },
+    {
+      "scope": "Transport and exploration",
+      "chosen_home": "vehicles-travel",
+      "reason": "Operation and construction stay with travel; maps, regional discovery, sleep and recovery stay with exploration.",
+      "review": "Verify passenger navigation and destination costs."
+    },
+    {
+      "scope": "Mounted weapons and combat",
+      "chosen_home": "vehicles-travel",
+      "reason": "Cannon assembly and vehicle operation own the weapon article; character combat can link to it.",
+      "review": "Verify stationary and moving-build limits."
+    },
+    {
+      "scope": "Regional cooking and dimensions",
+      "chosen_home": "food-farming",
+      "reason": "Dishes live in cooking; ingredient regions link to exploration.",
+      "review": "Verify actual ingredient availability."
+    },
+    {
+      "scope": "Mixed addons and bridges",
+      "chosen_home": "everyday-help for compatibility, workshop or storage for visible tools",
+      "reason": "Dragons Plus, Sable Beyond, Stam1o Tweaks, Interactic Renewed and the space rendering bridge have incomplete or mixed summaries.",
+      "review": "Inspect selected visible functions before settling article boundaries."
+    },
+    {
+      "scope": "Fishing and aquatic travel",
+      "chosen_home": "food-farming",
+      "reason": "Fishing is provisional; submarines are travel, not evidence of a fishing overhaul.",
+      "review": "Inspect fishing loot and aquatic ingredients before publication."
+    },
+    {
+      "scope": "Deferred space",
+      "chosen_home": "exploration-recovery",
+      "reason": "Space is a visibly deferred subordinate topic, not a baseline activity promise. Transfer articles link to travel.",
+      "review": "Resolve survival acquisition and overlapping transfer ownership."
+    }
+  ],
+  "retired_page_plans": [
+    {
+      "page_id": "travel.moving-destinations",
+      "functional_category": "Teleportation and destinations",
+      "title": "Reach a destination aboard a moving build",
+      "status": "planned",
+      "primary_metadata_paths": [
+        "mods/waystones-sable.pw.toml"
+      ],
+      "secondary_metadata_paths": [
+        "mods/waystones.pw.toml",
+        "mods/sable.pw.toml"
+      ],
+      "player_questions": [
+        "Can I teleport to a moving destination?",
+        "How does that differ from transferring an entire vehicle?"
+      ],
+      "existing_help": "EMI recipes and uses plus publisher documentation from the inventory. No dedicated handbook or selected-release screen has been verified.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions",
+        "Verify moving destination validity, distances and synchronization"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of reach a destination aboard a moving build. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "vehicles-travel",
+      "navigation_topic": "Teleportation and destinations",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Reach a destination aboard a moving build",
+      "search_synonyms": [
+        "reach",
+        "a",
+        "destination",
+        "aboard",
+        "moving",
+        "build",
+        "travel",
+        "destinations"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [
+        "space.vehicle-transfer"
+      ],
+      "included_projects": [
+        {
+          "metadata_path": "mods/waystones-sable.pw.toml",
+          "name": "Waystones: Sable (Create Aeronautics Addon)",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/waystones.pw.toml",
+          "name": "Waystones",
+          "role": "secondary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/sable.pw.toml",
+          "name": "Sable",
+          "role": "secondary",
+          "availability": "baseline"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/BxhPGfcK",
+        "https://modrinth.com/project/LOpKHB2A",
+        "https://modrinth.com/project/T9PomCSv"
+      ]
+    },
+    {
+      "page_id": "sounds.ambience",
+      "functional_category": "Visuals and sound",
+      "title": "Adjust sounds and acoustic effects",
+      "status": "planned",
+      "primary_metadata_paths": [
+        "mods/cool-rain-reforged.pw.toml",
+        "mods/more-sounds.pw.toml",
+        "mods/pf-neoforge.pw.toml",
+        "mods/sound-physics-remastered.pw.toml",
+        "mods/sound.pw.toml",
+        "mods/extreme_sound_muffler.pw.toml"
+      ],
+      "secondary_metadata_paths": [
+        "mods/presence-footsteps-x-sable.pw.toml",
+        "mods/sable-cool-rain.pw.toml"
+      ],
+      "player_questions": [
+        "Which sounds and acoustic effects are added?",
+        "How do I mute an intrusive sound?"
+      ],
+      "existing_help": "EMI recipes and uses plus publisher documentation from the inventory. No dedicated handbook or selected-release screen has been verified.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions",
+        "Verify sound identifiers, settings and moving-build acoustic behavior"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of adjust sounds and acoustic effects. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "appearance-comfort",
+      "navigation_topic": "Visuals and sound",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Adjust sounds and acoustic effects",
+      "search_synonyms": [
+        "adjust",
+        "sounds",
+        "and",
+        "acoustic",
+        "effects",
+        "ambience"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [],
+      "included_projects": [
+        {
+          "metadata_path": "mods/cool-rain-reforged.pw.toml",
+          "name": "Cool Rain Reforged",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/more-sounds.pw.toml",
+          "name": "More Sounds",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/pf-neoforge.pw.toml",
+          "name": "Presence Footsteps (NeoForge)",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/sound-physics-remastered.pw.toml",
+          "name": "Sound Physics Remastered",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/sound.pw.toml",
+          "name": "Sounds",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/extreme_sound_muffler.pw.toml",
+          "name": "Extreme sound muffler",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/presence-footsteps-x-sable.pw.toml",
+          "name": "Presence Footsteps x Sable (Aeronautics Compat)",
+          "role": "secondary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/sable-cool-rain.pw.toml",
+          "name": "Sable: Cool Rain",
+          "role": "secondary",
+          "availability": "baseline"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/5IIKsxiL",
+        "https://modrinth.com/project/8jvcOd6S",
+        "https://modrinth.com/project/IgftU6Mn",
+        "https://modrinth.com/project/JIEwmDVI",
+        "https://modrinth.com/project/ZAhKrMSS",
+        "https://modrinth.com/project/ZouiUX7t",
+        "https://modrinth.com/project/nUwwB5kx",
+        "https://modrinth.com/project/qyVF9oeo"
+      ]
+    },
+    {
+      "page_id": "landscapes.overworld",
+      "functional_category": "Landscapes and dimensions",
+      "title": "Explore Overworld landscapes and rivers",
+      "status": "planned",
+      "primary_metadata_paths": [
+        "mods/terralith.pw.toml",
+        "mods/tectonic.pw.toml",
+        "mods/streams-reflowing.pw.toml"
+      ],
+      "secondary_metadata_paths": [],
+      "player_questions": [
+        "Which landscapes and streams change?",
+        "How do I recognize the terrain without a checklist?"
+      ],
+      "existing_help": "EMI recipes and uses plus publisher documentation from the inventory. No dedicated handbook or selected-release screen has been verified.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions",
+        "Verify configured terrain combinations and avoid promising specific generation locations"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of explore overworld landscapes and rivers. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "exploration-recovery",
+      "navigation_topic": "Landscapes and dimensions",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Explore Overworld landscapes and rivers",
+      "search_synonyms": [
+        "explore",
+        "overworld",
+        "landscapes",
+        "and",
+        "rivers"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [],
+      "included_projects": [
+        {
+          "metadata_path": "mods/terralith.pw.toml",
+          "name": "Terralith",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/tectonic.pw.toml",
+          "name": "Tectonic",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/streams-reflowing.pw.toml",
+          "name": "Streams Reflowing",
+          "role": "primary",
+          "availability": "baseline"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/8oi3bsk5",
+        "https://modrinth.com/project/lWDHr9jE",
+        "https://modrinth.com/project/oLS8HdJ1"
+      ]
+    },
+    {
+      "page_id": "landscapes.nether",
+      "functional_category": "Landscapes and dimensions",
+      "title": "Explore the selected Nether terrain",
+      "status": "planned",
+      "primary_metadata_paths": [
+        "mods/incendium.pw.toml",
+        "mods/ibo.pw.toml"
+      ],
+      "secondary_metadata_paths": [],
+      "player_questions": [
+        "What Nether terrain remains selected?",
+        "Which upstream features are intentionally absent?"
+      ],
+      "existing_help": "Prior inventory describes Incendium Biomes Only removing Incendium structures, items, creatures and bosses. Verify the selected artifacts before making release instructions.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions",
+        "Preserve the selected terrain-only limitation instead of advertising removed content"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of explore the selected nether terrain. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "exploration-recovery",
+      "navigation_topic": "Landscapes and dimensions",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Explore the selected Nether terrain",
+      "search_synonyms": [
+        "explore",
+        "the",
+        "selected",
+        "nether",
+        "terrain",
+        "landscapes"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [],
+      "included_projects": [
+        {
+          "metadata_path": "mods/incendium.pw.toml",
+          "name": "Incendium Legacy",
+          "role": "primary",
+          "availability": "baseline"
+        },
+        {
+          "metadata_path": "mods/ibo.pw.toml",
+          "name": "Incendium Biomes Only",
+          "role": "primary",
+          "availability": "baseline"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/ZVzW5oNS",
+        "https://modrinth.com/project/gmUU3UdW"
+      ]
+    },
+    {
+      "page_id": "landscapes.end",
+      "functional_category": "Landscapes and dimensions",
+      "title": "Explore End landscapes",
+      "status": "planned",
+      "primary_metadata_paths": [
+        "mods/nullscape.pw.toml"
+      ],
+      "secondary_metadata_paths": [],
+      "player_questions": [
+        "How does End terrain differ?",
+        "What supplies and travel references help?"
+      ],
+      "existing_help": "EMI recipes and uses plus publisher documentation from the inventory. No dedicated handbook or selected-release screen has been verified.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of explore end landscapes. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "exploration-recovery",
+      "navigation_topic": "Landscapes and dimensions",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Explore End landscapes",
+      "search_synonyms": [
+        "explore",
+        "end",
+        "landscapes"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [],
+      "included_projects": [
+        {
+          "metadata_path": "mods/nullscape.pw.toml",
+          "name": "Nullscape",
+          "role": "primary",
+          "availability": "baseline"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/LPjGiSO4"
+      ]
+    },
+    {
+      "page_id": "space.destinations",
+      "functional_category": "Space, deferred",
+      "title": "Space destinations",
+      "status": "authored",
+      "primary_metadata_paths": [
+        "mods/create-cosmonatics.pw.toml"
+      ],
+      "secondary_metadata_paths": [
+        "mods/northstar-sable-iris-horizons-bridge.pw.toml"
+      ],
+      "player_questions": [
+        "Which space destinations exist in the deferred selection?",
+        "What environmental requirements apply?"
+      ],
+      "existing_help": "EMI recipes and uses plus publisher documentation from the inventory. No dedicated handbook or selected-release screen has been verified.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions",
+        "Verify selected space content, environmental survival and actual ascent and landing systems; do not invent rockets"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of compare future space destinations. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "exploration-recovery",
+      "navigation_topic": "Space, deferred",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Compare future space destinations",
+      "search_synonyms": [
+        "compare",
+        "future",
+        "space",
+        "destinations"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [],
+      "included_projects": [
+        {
+          "metadata_path": "mods/northstar-redux.pw.toml",
+          "name": "Create: Northstar - Redux",
+          "role": "primary",
+          "availability": "deferred"
+        },
+        {
+          "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
+          "name": "Northstar Sable Iris Horizons Bridge",
+          "role": "secondary",
+          "availability": "deferred"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/MSoLk54A",
+        "https://modrinth.com/project/UZiq3QVW"
+      ]
+    },
+    {
+      "page_id": "space.vehicle-transfer",
+      "functional_category": "Space, deferred",
+      "title": "Orbital flight",
+      "status": "authored",
+      "primary_metadata_paths": [
+        "mods/create-cosmonatics.pw.toml",
+        "mods/create-cosmonautics-expansion.pw.toml"
+      ],
+      "secondary_metadata_paths": [
+        "mods/northstar-redux.pw.toml",
+        "mods/northstar-sable-iris-horizons-bridge.pw.toml"
+      ],
+      "player_questions": [
+        "Which system transfers a whole vehicle?",
+        "How does this differ from moving waystones?",
+        "Is the transfer block available in survival?"
+      ],
+      "existing_help": "CurseForge AeroWarptics description and Modrinth compatibility description in the prior inventory. The latter says its Dimensional Drive has no crafting recipe. Neither is a selected-release runtime test.",
+      "locale_scope": [
+        "en_us",
+        "zh_cn"
+      ],
+      "verification_needs": [
+        "Verify selected-release recipes, item identifiers and searchable display names",
+        "Inspect relevant pack settings",
+        "Check controls, survival availability and cross-system behavior before writing instructions",
+        "Resolve ownership between overlapping transfer systems",
+        "Check transfer persistence, passenger handling and survival acquisition before publishing"
+      ],
+      "visual_plan": "One verified screenshot, item icon comparison or annotated still scene of compare whole-vehicle dimension transfer. Exact assets remain to be selected.",
+      "guide_access": "Always open; no quests, locks, completion requirements or rewards.",
+      "navigation_home": "exploration-recovery",
+      "navigation_topic": "Space, deferred",
+      "navigation_role": "article, never a third navigation folder",
+      "task_label": "Compare whole-vehicle dimension transfer",
+      "search_synonyms": [
+        "compare",
+        "whole-vehicle",
+        "dimension",
+        "transfer",
+        "space",
+        "vehicle"
+      ],
+      "locale_verification_needs": [
+        "Verify English labels and Simplified Chinese body and captions",
+        "Verify Chinese glyph rendering and visible fallback",
+        "English-only search is acceptable only after verifying the selected guide search and query behavior"
+      ],
+      "related_page_ids": [
+        "travel.moving-destinations"
+      ],
+      "included_projects": [
+        {
+          "metadata_path": "mods/create-aerowarptics.pw.toml",
+          "name": "Create: AeroWarptics",
+          "role": "primary",
+          "availability": "deferred"
+        },
+        {
+          "metadata_path": "mods/create-northstar-aeronautics-compatibility.pw.toml",
+          "name": "Create: Northstar-Aeronautics Compatibility",
+          "role": "primary",
+          "availability": "deferred"
+        },
+        {
+          "metadata_path": "mods/northstar-redux.pw.toml",
+          "name": "Create: Northstar - Redux",
+          "role": "secondary",
+          "availability": "deferred"
+        },
+        {
+          "metadata_path": "mods/northstar-sable-iris-horizons-bridge.pw.toml",
+          "name": "Northstar Sable Iris Horizons Bridge",
+          "role": "secondary",
+          "availability": "deferred"
+        }
+      ],
+      "existing_help_sources": [
+        "https://modrinth.com/project/MSoLk54A",
+        "https://modrinth.com/project/Mit4b2tJ",
+        "https://modrinth.com/project/UZiq3QVW",
+        "https://www.curseforge.com/minecraft/mc-mods/create-aerowarptics"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "生物"
-  position: 3
+  position: 6
   icon: minecraft:egg
 ---
 

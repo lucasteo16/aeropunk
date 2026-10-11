@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Architecture"
-  position: 0
+  position: 2
   parent: reference.building.md
   icon: minecraft:oak_stairs
 ---

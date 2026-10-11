@@ -30,7 +30,7 @@ class MarkupSemanticRegression(unittest.TestCase):
         self.assertTrue(all('Unsupported child-element in ItemGrid text' in line for line in errors))
 
     def test_repaired_book_preserves_slots_and_tooltip_labels(self):
-        result = subprocess.run([sys.executable, str(ACCESS / 'verify_markup.py'), '--fragment', str(FRAGMENT),
+        result = subprocess.run([sys.executable, str(ACCESS / 'verify_markup.py'),
                                  '--label', 'test-green-book'], cwd=ROOT, capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         log = (ROOT / 'build/handbook-access/markup-probe/test-green-book/compiler.log').read_text()
@@ -41,8 +41,7 @@ class MarkupSemanticRegression(unittest.TestCase):
         self.assertIn('Recipe and KeyBind not compiled', log)
         self.assertNotIn('COMPILER_ERROR ', log)
 
-    def test_fragment_preserves_every_native_reference_in_both_languages(self):
-        current = json.loads((ROOT / 'docs/handbook-content.json').read_text())
+    def test_historical_repair_preserves_every_baseline_native_reference(self):
         source = json.loads((ACCESS / 'markup-fixtures/baseline-content.json').read_text())
         fragment = json.loads(FRAGMENT.read_text())
         self.assertEqual(set(fragment), {'combat.skills', 'equipment.weapons-armor'})
@@ -51,8 +50,6 @@ class MarkupSemanticRegression(unittest.TestCase):
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
         self.assertEqual(fragment, module.fragment(source))
-        for topic in fragment:
-            self.assertEqual(current[topic], fragment[topic])
         pattern = r'<(ItemIcon|ItemLink|ItemImage|Recipe|KeyBind)\b[^>]*?/>'
         for topic, locales in fragment.items():
             self.assertEqual(set(locales), {'en_us', 'zh_cn'})

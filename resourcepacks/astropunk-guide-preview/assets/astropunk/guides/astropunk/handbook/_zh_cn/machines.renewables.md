@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "生产可再生原料"
-  position: 0
+  position: 6
   parent: reference.machines-storage.md
   icon: create:mechanical_drill
 ---

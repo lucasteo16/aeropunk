@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Sleep"
-  position: 0
+  position: 2
   parent: reference.utilities.md
   icon: minecraft:white_bed
 ---

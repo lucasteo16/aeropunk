@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "种植与收获食材"
-  position: 7
+  position: 2
   parent: reference.food.md
   icon: minecraft:wheat
 ---

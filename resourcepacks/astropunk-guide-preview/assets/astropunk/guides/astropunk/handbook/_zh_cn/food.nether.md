@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用下界食材烹饪"
-  position: 2
+  position: 5
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---

@@ -1,0 +1,3 @@
+# The pack applies the recommended border through its global safety data pack.
+# Fresh installations need no separate acknowledgement prompt.
+hasShownWorldBorderWarning = true

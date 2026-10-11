@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "睡眠与时间安排"
-  position: 0
+  position: 2
   parent: reference.utilities.md
   icon: minecraft:white_bed
 ---

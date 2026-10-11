@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Character skills"
-  position: 0
+  position: 8
   parent: reference.skills.md
   icon: minecraft:experience_bottle
 ---
