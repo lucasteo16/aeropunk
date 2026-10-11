@@ -1,5 +1,13 @@
 # Astropunk editions
 
+## Multiplayer compatibility in 0.6.6
+
+Better Advancements 0.4.3.21 replaces Reliable Advancements as a client-only advancement screen improvement. The unused editor settings and saved layout are archived outside the distributed pack. Existing Minecraft and content-mod advancements are unchanged; no custom advancements were authored.
+
+Sinytra Connector and Forgified Fabric support are included on both clients and servers so NeoForge can load the selected Fabric gameplay content, including Reinforced Shulker Boxes. The previous server skipped that archive despite having it installed. Client reconnection and reinforced storage gameplay still require player verification after deployment. Use a fresh 0.6.6 client import because Reliable Advancements must no longer be loaded.
+
+The retained local server reached healthy startup with Reinforced Core and Reinforced Shulker Boxes loaded. Connector also exposes a Moonlight compatibility warning and a Tectonic Fabric overlay metadata error about its configuration resource condition. These are nonfatal startup findings, not verified terrain compatibility; no terrain settings or gameplay content were changed to suppress them.
+
 ## Grand Teleport server inclusion in 0.6.5
 
 Grand Teleport 1.0.0 is included on both clients and servers because its NeoForge port requires matching teleport network channels. The client artifact is unchanged from 0.6.4. Dedicated-server startup and a player reconnection are separate validation steps.

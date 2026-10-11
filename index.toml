@@ -841,14 +841,6 @@ file = "config/railways-server.toml"
 hash = "ffa9360afd80c2952b87b6892d6f782a3e9e82dbba98613a728d4fc4ecd647c1"
 
 [[files]]
-file = "config/reliable_advancements.json"
-hash = "a179df1c87364e35add2dba3994e06f372217ef3ab1d297d4b112fbb4a3d19bc"
-
-[[files]]
-file = "config/reliable_advancements_layout.json"
-hash = "2a9987bece8881f469884a9ed423d9036997df2b3d4447326a34c1e26b931a36"
-
-[[files]]
 file = "config/rightclickharvest.json5"
 hash = "6eb5169563472ae96184c94e9f42ff7d76fdba403ed3190ffb308e817ea0a21e"
 
@@ -1293,6 +1285,11 @@ hash = "6b2126b01063e2a2f9ae4912234723a1efa429abaaa559014945456fa7902aba"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
+metafile = true
+
+[[files]]
 file = "mods/better-combat.pw.toml"
 hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
@@ -1394,7 +1391,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "127ef479277e6156f1f53c6c11955076d64d38a947efb1745efe3285eb447b31"
+hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
 metafile = true
 
 [[files]]
@@ -1834,7 +1831,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "b0faf39468b193ee8c710ef30b095b6a9883362de0df1ccc5c00e72b4d188005"
+hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
 metafile = true
 
 [[files]]
@@ -2260,11 +2257,6 @@ metafile = true
 [[files]]
 file = "mods/reinforced-shulker-boxes.pw.toml"
 hash = "f148571405f9b41e4a41ab64091ab61d7496ddfdc3fdaada374776d8273d4690"
-metafile = true
-
-[[files]]
-file = "mods/reliable-advancements.pw.toml"
-hash = "47eadf7c62316bb3c436d9c622e54d58b224462cbe960bac65daed193dd2a3ca"
 metafile = true
 
 [[files]]
