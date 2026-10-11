@@ -4,6 +4,10 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.8.0-dev shader bridge trial
+
+Added client-only Iris Flywheel Compat 2.4.0 and Iris Veil Compat 0.4.0 alpha for Lucas's shader test. The former integrates optimized Flywheel rendering with Iris; the latter bridges Veil effects used by Aeronautics and Sable. Their released Minecraft, NeoForge, Iris and Sodium requirements fit the selected stack. Shader rendering and visual correctness remain unverified. Test ordinary rendering with shaders disabled, then Reimagined with shaders enabled, including Create machinery and Aeronautics effects. Keep the existing Distant Horizons activation-order workaround and disabled shader defaults. Stable branches, played instances and the retained server are unchanged; remove only the relevant bridge if the trial reveals a regression.
+
 ### 0.7.5-dev Deep Seas notification defaults
 
 Moved the startup-screen suppression preset from create_submarine-common.toml to create_submarine-client.toml for Deep Seas 3.3.0. The client.disableStartupScreens setting remains true, suppressing welcome and update prompts on fresh installations without changing gameplay settings or existing player choices. Lucas reported that 0.7.4-dev seemed to work, with the Deep Seas prompt reappearing; exact test coverage was not specified. The corrected notification default still requires a fresh-client check.
