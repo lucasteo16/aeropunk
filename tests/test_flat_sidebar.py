@@ -26,7 +26,7 @@ class FlatSidebar(unittest.TestCase):
             self.assertEqual(re.findall(r'\]\(([^)]+\.md)\)', home), ['help.credits.md'])
         manifest = json.loads((ROOT / 'docs/handbook-draft-manifest.json').read_text())
         self.assertEqual(manifest['navigation_page_count'], 0)
-        self.assertEqual(manifest['root_page_count'], 17)
+        self.assertEqual(manifest['root_page_count'], 18)
 
 class ConsolidatedAudio(unittest.TestCase):
     def test_audio_is_complete_single_article_with_eight_providers(self):

@@ -7,19 +7,19 @@
     "source_commit": "52334ccacf15d763ffe318281d38dca8ec7aaeb8"
   },
   "counts": {
-    "entries_per_locale": 113,
+    "entries_per_locale": 112,
     "locales": [
       "en_us",
       "zh_cn"
     ],
-    "total_locale_entries": 226,
-    "unique_icons_per_locale": 113,
+    "total_locale_entries": 224,
+    "unique_icons_per_locale": 112,
     "duplicate_icons": [],
-    "modded_icons_per_locale": 37,
+    "modded_icons_per_locale": 41,
     "building_entries": 9,
     "building_modded_icons": 6,
-    "expected_articles": 104,
-    "expected_roots": 17
+    "expected_articles": 103,
+    "expected_roots": 18
   },
   "verification_boundary": "Static selected-binary registration, not a rendered or live-registry claim. Full generator executed with only output paths redirected to scratch, producing 96 English and 96 Chinese pages, 87 authored articles and 17 roots. All five navigation icon tests pass against those generated pages, including locale titles, parent parity and global uniqueness. Parent must regenerate repository pages and run the whole test suite and native export. Class icons reuse native identifiers from the original handbook, checked for exact source presence, not an additional live registry test.",
   "selected_artifacts": {
@@ -69,6 +69,14 @@
       "selected_download": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
       "hash_format": "sha512",
       "hash": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
+      "matches_selected_hash": true
+    },
+    "rocketnautics": {
+      "metadata_path": "mods/create-cosmonatics.pw.toml",
+      "filename": "cosmonautics-26.08.307.jar",
+      "selected_download": "https://cdn.modrinth.com/data/micg1iTH/versions/HuCMavv8/cosmonautics-26.08.307.jar",
+      "hash_format": "sha512",
+      "hash": "72ff1be7f31767eb64635a5fd827428410b0899fe5431f951bb4ab2a006ed105bf1cae24b803d51a5b18b067f5f956c493bb827573b22567e204b6b2d84a0de8",
       "matches_selected_hash": true
     }
   },
@@ -1347,25 +1355,6 @@
       }
     },
     {
-      "id": "performance.deferred",
-      "parent": "reference.technical.md",
-      "labels": {
-        "en_us": "Deferred optimizers",
-        "zh_cn": "了解暂缓加入的优化模组"
-      },
-      "icon": "minecraft:repeater",
-      "rationale": "A repeater represents timing optimization, using vanilla rather than absent optimizer identifiers.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "repeater"
-      }
-    },
-    {
       "id": "power.burners",
       "parent": "reference.machines-storage.md",
       "labels": {
@@ -1635,25 +1624,6 @@
       }
     },
     {
-      "id": "server.deferred-pack-loading",
-      "parent": "reference.technical.md",
-      "labels": {
-        "en_us": "Deferred loading",
-        "zh_cn": "了解暂缓加入的内容加载工具"
-      },
-      "icon": "minecraft:hopper",
-      "rationale": "A hopper represents a loading pipeline, using vanilla for explicitly deferred content.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "hopper"
-      }
-    },
-    {
       "id": "server.tools",
       "parent": "reference.technical.md",
       "labels": {
@@ -1676,38 +1646,84 @@
       "id": "space.destinations",
       "parent": "reference.vehicles.md",
       "labels": {
-        "en_us": "Space (not installed)",
-        "zh_cn": "了解规划中的太空目的地"
+        "en_us": "Space destinations",
+        "zh_cn": "太空目的地"
       },
-      "icon": "minecraft:end_stone",
-      "rationale": "End stone is a vanilla alien-world metaphor for explicitly uninstalled space content.",
+      "icon": "rocketnautics:lunar_rock",
+      "rationale": "Selected Cosmonautics lunar rock represents this space topic.",
       "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "kind": "selected release registration bytecode",
         "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
+          "dev.devce.rocketnautics.registry.RocketBlocks"
         ],
-        "registered_literal": "end_stone"
+        "registered_literal": "lunar_rock",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketBlocks.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
+      }
+    },
+    {
+      "id": "space.life-support",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Space life support",
+        "zh_cn": "太空生命支持"
+      },
+      "icon": "rocketnautics:space_helmet",
+      "rationale": "Selected Cosmonautics space helmet represents this space topic.",
+      "provenance": {
+        "kind": "selected release registration bytecode",
+        "classes": [
+          "dev.devce.rocketnautics.registry.RocketItems"
+        ],
+        "registered_literal": "space_helmet",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketItems.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
+      }
+    },
+    {
+      "id": "space.navigation",
+      "parent": "reference.vehicles.md",
+      "labels": {
+        "en_us": "Space navigation",
+        "zh_cn": "太空导航"
+      },
+      "icon": "rocketnautics:hologram_block",
+      "rationale": "Selected Cosmonautics hologram block represents this space topic.",
+      "provenance": {
+        "kind": "selected release registration bytecode",
+        "classes": [
+          "dev.devce.rocketnautics.registry.RocketBlocks"
+        ],
+        "registered_literal": "hologram_block",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketBlocks.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
       }
     },
     {
       "id": "space.vehicle-transfer",
       "parent": "reference.vehicles.md",
       "labels": {
-        "en_us": "Space transport",
-        "zh_cn": "了解整台载具的跨维度移动"
+        "en_us": "Orbital flight",
+        "zh_cn": "轨道飞行"
       },
-      "icon": "minecraft:end_portal_frame",
-      "rationale": "An End portal frame represents cross-dimensional transfer, not an installed space vehicle.",
+      "icon": "rocketnautics:rocket_thruster",
+      "rationale": "Selected Cosmonautics rocket thruster represents this space topic.",
       "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
+        "kind": "selected release registration bytecode",
         "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
+          "dev.devce.rocketnautics.registry.RocketBlocks"
         ],
-        "registered_literal": "end_portal_frame"
+        "registered_literal": "rocket_thruster",
+        "item_registration_calls": [
+          "dev.devce.rocketnautics.registry.RocketBlocks.static initializer Registrate item registration"
+        ],
+        "evidence": "docs/review-revision/cosmonautics-evidence.json"
       }
     },
     {
@@ -1804,25 +1820,6 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "bookshelf"
-      }
-    },
-    {
-      "id": "technical.space-bridge",
-      "parent": "reference.technical.md",
-      "labels": {
-        "en_us": "Space compatibility",
-        "zh_cn": "查询暂缓加入的太空渲染组件"
-      },
-      "icon": "minecraft:end_rod",
-      "rationale": "An End rod represents an alien-world connection, using vanilla for explicitly deferred compatibility.",
-      "provenance": {
-        "kind": "vanilla registration bytecode",
-        "artifact": "Minecraft 1.21.1 client-1.21.1-20240808.144430-srg.jar",
-        "classes": [
-          "net.minecraft.world.item.Items",
-          "net.minecraft.world.level.block.Blocks"
-        ],
-        "registered_literal": "end_rod"
       }
     },
     {

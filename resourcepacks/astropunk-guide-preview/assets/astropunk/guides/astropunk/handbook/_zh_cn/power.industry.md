@@ -10,7 +10,7 @@ navigation:
 
 ## 冶金与化工
 
-<EmiSearch query="@create" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@tfmg" /> <EmiSearch query="@create" />
 
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />

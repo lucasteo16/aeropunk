@@ -25,7 +25,7 @@
   },
   "mods/asynclogger.pw.toml": {
     "category": "Technical reference",
-    "topic": "performance.deferred"
+    "topic": "performance.baseline"
   },
   "mods/asyncparticles.pw.toml": {
     "category": "Technical reference",
@@ -109,15 +109,11 @@
   },
   "mods/create-aerowarptics.pw.toml": {
     "category": "Vehicles and travel",
-    "topic": "space.vehicle-transfer"
+    "topic": "travel.destinations"
   },
   "mods/create-emf-compat-skyhook.pw.toml": {
     "category": "Visuals and sound",
     "topic": "visuals.models"
-  },
-  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
-    "category": "Vehicles and travel",
-    "topic": "space.vehicle-transfer"
   },
   "mods/create-sable-dynamic-lights.pw.toml": {
     "category": "Visuals and sound",
@@ -245,7 +241,7 @@
   },
   "mods/jasione.pw.toml": {
     "category": "Technical reference",
-    "topic": "performance.deferred"
+    "topic": "performance.baseline"
   },
   "mods/kerria-opt.pw.toml": {
     "category": "Technical reference",
@@ -315,14 +311,6 @@
     "category": "Technical reference",
     "topic": "technical.bridges"
   },
-  "mods/northstar-redux.pw.toml": {
-    "category": "Vehicles and travel",
-    "topic": "space.destinations"
-  },
-  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
-    "category": "Technical reference",
-    "topic": "technical.space-bridge"
-  },
   "mods/not-enough-animations-emf-compat.pw.toml": {
     "category": "Visuals and sound",
     "topic": "visuals.models"
@@ -350,10 +338,6 @@
   "mods/particular-reforged.pw.toml": {
     "category": "Visuals and sound",
     "topic": "visuals.weather"
-  },
-  "mods/paxi.pw.toml": {
-    "category": "Technical reference",
-    "topic": "server.deferred-pack-loading"
   },
   "mods/pf-neoforge.pw.toml": {
     "category": "Visuals and sound",
@@ -437,7 +421,7 @@
   },
   "mods/servercore.pw.toml": {
     "category": "Technical reference",
-    "topic": "performance.deferred"
+    "topic": "performance.baseline"
   },
   "mods/shield-api.pw.toml": {
     "category": "Technical reference",
@@ -566,5 +550,21 @@
   "shaderpacks/photon-shader.pw.toml": {
     "category": "Visuals and sound",
     "topic": "visuals.shader-packs"
+  },
+  "mods/aeroengine-fuel-compat.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "vehicles.engines"
+  },
+  "mods/create-cosmonatics.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.destinations"
+  },
+  "mods/cosmonautics-deep-air.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.life-support"
+  },
+  "mods/create-cosmonautics-expansion.pw.toml": {
+    "category": "Vehicles and travel",
+    "topic": "space.navigation"
   }
 }

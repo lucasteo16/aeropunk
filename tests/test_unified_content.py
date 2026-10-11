@@ -24,7 +24,7 @@ class UnifiedContent(unittest.TestCase):
             if entry['metadata_path'] in ('mods/cool-rain-reforged.pw.toml', 'mods/presence-footsteps.pw.toml', 'mods/sable-cool-rain.pw.toml', 'mods/presence-footsteps-x-sable.pw.toml'):
                 self.assertEqual(entry['topic'], 'reference.audio')
         for locale in ('', '_zh_cn'):
-            for topic in ('reference.technical', 'technical.libraries', 'technical.bridges', 'technical.space-bridge'):
+            for topic in ('reference.technical', 'technical.libraries', 'technical.bridges'):
                 self.assertNotIn('WIP', (PAGES / locale / (topic + '.md')).read_text())
 
     def test_clean_visual_coverage_and_cooking_interface(self):

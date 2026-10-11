@@ -61,26 +61,38 @@ navigation:
 
 ***
 
+## Space
+
+- [Space destinations](space.destinations.md)
+- [Orbital flight](space.vehicle-transfer.md)
+- [Space life support](space.life-support.md)
+- [Space navigation](space.navigation.md)
+
+
+***
+
 ## Related mods
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | Adds modular aircraft engines and flight control instruments to Create. | <EmiSearch query="@aeroengineering" /> |
+| <ItemImage id="minecraft:minecart" /> [AeroEngine fuel compat](vehicles.engines.md) | Allows AeroEngine to use kerosene from Create: The Factory Must Grow. | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
+| <ItemImage id="minecraft:minecart" /> [Cosmonautics: Deep Air](space.life-support.md) | Connects sealed Deep Seas compartments to space breathing and powered artificial gravity. | <EmiSearch query="@cosmonauticsdeepair" /> |
 | ![Create Aeronautics](images/catalog-owak0q19.png) [Create Aeronautics](vehicles.assembly.md) | Turns block-built vehicles into controllable physical moving structures. | No separate item search |
 | ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | <EmiSearch query="@aeroencasedpipe" /> |
 | ![Create Big Cannons](images/catalog-gwp4jcjj.png) [Create Big Cannons](vehicles.weapons.md) | Adds buildable large cannons and their ammunition to Create. | <EmiSearch query="@createbigcannons" /> |
+| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics](space.destinations.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
+| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics Expansion](space.navigation.md) | Adds the landable Mars dimension, terrain and planetary record. | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Create Deep Seas](images/catalog-mva5q4qz.png) [Create Deep Seas](vehicles.water.md) | Adds marine vehicle components for Aeronautics boats and submarines. | <EmiSearch query="@create_submarine" /> |
 | ![Create Propulsion: Simulated](images/catalog-apkohno9.png) [Create Propulsion: Simulated](vehicles.engines.md) | Adds fuel and electric thrusters that propel Sable and Aeronautics vehicles. | <EmiSearch query="@createpropulsion" /> |
 | ![Create Railways Navigator](images/catalog-dq3stxps.png) [Create Railways Navigator](transport.passenger.md) | Adds train route search, passenger information displays and schedule features. | <EmiSearch query="@createrailwaysnavigator" /> |
 | ![Create Waystones Recipes](images/catalog-wqpkgqnj.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | No separate item search |
-| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](space.vehicle-transfer.md) (deferred addition) | Adds relocation tools for physical Aeronautics vehicles. | No separate item search |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](travel.destinations.md) | Adds relocation tools for physical Aeronautics vehicles. | No separate item search |
 | ![Create: Aeroworks](images/catalog-p26k79kp.png) [Create: Aeroworks](vehicles.controls.md) | Adds flight controls such as gyroscopes and joysticks for Aeronautics vehicles. | <EmiSearch query="@aeroworks" /> |
 | ![Create: Ballast](images/catalog-5ypxyrfg.png) [Create: Ballast](vehicles.airships.md) | Adds layered ballast blocks for adjusting vehicle mass and balance. | <EmiSearch query="@ballastmod" /> |
 | ![Create: Blocks & Bogies](images/catalog-j4arnqwy.png) [Create: Blocks & Bogies](transport.railway-builder.md) | Adds larger Create train bogies, including visible valve gear variants. | No separate item search |
 | ![Create: Escalated](images/catalog-lyobyg8q.png) [Create: Escalated](transport.local.md) | Adds rotation-powered escalators for Create buildings. | <EmiSearch query="@escalated" /> |
 | ![Create: Hypertubes](images/catalog-atddrg1y.png) [Create: Hypertubes](transport.local.md) | Adds tube transport for moving players around Create builds. | <EmiSearch query="@create_hypertube" /> |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar - Redux](space.destinations.md) (deferred addition) | Adds space destinations and Create-based equipment for exploring them. | No separate item search |
-| <ItemImage id="minecraft:minecart" /> [Create: Northstar-Aeronautics Compatibility](space.vehicle-transfer.md) (deferred addition) | Connects Northstar space travel to Aeronautics physical vehicle transfers. | No separate item search |
 | ![Create: Radars](images/catalog-blu2yqfq.png) [Create: Radars](vehicles.radar.md) | Adds radar equipment to detect and track targets in Create builds. | <EmiSearch query="@create_radar" /> |
 | ![Create: Tweaked Controllers](images/catalog-h6bj8ju4.png) [Create: Tweaked Controllers](vehicles.controls.md) | Adds advanced handheld controls for Create contraptions. | <EmiSearch query="@create_tweaked_controllers" /> |
 | ![NetherPortalFix](images/catalog-npzr02et.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | No separate item search |

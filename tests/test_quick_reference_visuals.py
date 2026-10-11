@@ -40,8 +40,10 @@ class ReferenceVisuals(unittest.TestCase):
             self.assertNotIn('模组发布者截图', text)
             self.assertNotIn('<ItemGrid>', text)
         text = (PAGES / 'world.dimensions.md').read_text()
-        self.assertIn('Abyss', text)
-        self.assertIn('disables that dimension outside development', text)
+        self.assertNotIn('Abyss', text)
+        self.assertIn('Moon', text)
+        self.assertIn('Mars', text)
+        self.assertIn('Deep Space is the transit dimension', text)
 
     def test_recipe_reference_illustrates_interface_and_tree(self):
         for locale in ('', '_zh_cn'):

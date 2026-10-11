@@ -11,12 +11,12 @@ navigation:
 
 ![Tectonic 山脉](images/tectonic-mountain-range.png)
 
-Tectonic 山脉。
+Tectonic 塑造大尺度地貌，Terralith 使用原版方块新增地表与洞穴生物群系，Streams Reflowing 则加入流动溪流。
 
 | 地形模组 | 内容 |
 | --- | --- |
-| ![Tectonic](images/tectonic-icon.png) Tectonic | 山脉、大尺度地貌与地形塑造 |
-| ![Terralith](images/terralith-icon.png) Terralith | 使用原版方块构成的地表与洞穴生物群系 |
+| ![Tectonic](images/tectonic-icon.png) Tectonic | 山脉与大尺度地貌 |
+| ![Terralith](images/terralith-icon.png) Terralith | 地表与洞穴生物群系 |
 | ![Streams Reflowing](images/streams-reflowing-icon.png) Streams Reflowing | 流动溪流 |
 
 ### Terralith 生物群系
@@ -62,9 +62,7 @@ Tectonic 山脉。
 
 ![Incendium 地形](images/parent-incendium-terrain.png)
 
-Incendium 洞窟地形。
-
-Incendium Legacy 改造下界。Incendium Biomes Only 保留地形与生物群系，但移除其新增结构、物品、生物与首领。
+Incendium Legacy 改造下界。Incendium Biomes Only 保留其地形与生物群系，但移除新增结构、物品、生物与首领。
 
 ### Incendium 生物群系
 
@@ -80,9 +78,7 @@ Incendium Legacy 改造下界。Incendium Biomes Only 保留地形与生物群�
 
 ![Nullscape 岛屿](images/parent-nullscape-terrain.png)
 
-Nullscape 岛屿与尖塔。
-
-Nullscape 改造末地外围岛屿。它改变已有维度，不会新增一个传送门目的地。
+Nullscape 改造末地外围岛屿。它改变已有维度，不会新增传送门目的地。
 
 ### Nullscape 生物群系
 
@@ -92,15 +88,22 @@ Nullscape 改造末地外围岛屿。它改变已有维度，不会新增一个�
 
 ***
 
-## 深海
 
-![Deep Seas 潜艇](images/parent-deep-seas-submarine.png)
+## 太空目的地
 
-Deep Seas 铜制潜艇。
+<EmiSearch query="@rocketnautics" /> <EmiSearch query="@rocketnautics_addon" /> <EmiSearch query="@create" />
 
-当前 Deep Seas 版本包含渊海原型，但在开发环境之外禁用该维度。它不是此整合包中可进入的目的地。
+Cosmonautics 新增可登陆的月球维度。Create Cosmonautics Expansion 新增可登陆的火星维度，包含平原、冻原与地下洞穴。两个星球都有与可游玩维度相连的行星数据。
 
-- [载具](reference.vehicles.md)
+| 目的地 | 地貌 |
+| --- | --- |
+| 月球 | 月球高地、月海与峡谷 |
+| 火星 | 平原、冻原与地下洞穴 |
+
+深空是轨道飞船经过的中转维度，并非行星地表。基础模组中的气态巨行星与冰世界数据只描述天体，没有连接到可登陆维度。
+
+- [太空目的地](space.destinations.md) 查看可登陆星球，以及它们与轨道航线的关系。
+- [轨道飞行](space.vehicle-transfer.md) 建造并驾驶物理飞船进入太空。
 
 ***
 
@@ -108,21 +111,15 @@ Deep Seas 铜制潜艇。
 
 | 目的地 | 进入方式 |
 | --- | --- |
-| 主世界 | 游戏的起始世界 |
+| 主世界 | 游戏起始世界 |
 | 下界 | 点燃黑曜石传送门 |
-| 末地 | 用末影之眼激活要塞中的末地传送门 |
+| 末地 | 用 <ItemLink id="minecraft:ender_eye" />激活要塞中的末地传送门 |
+| 月球与火星 | 按照[轨道飞行](space.vehicle-transfer.md)中的说明使用轨道飞行系统 |
 
-地形改造体现在新生成区域，打开手册不会重建已有地形。
+地形改造会出现在新生成的区域。打开手册不会重建已有地形。
 
 - [地点查找](maps.find.md)
 
-***
-
-## 其他版本
-
-Northstar 太空内容暂缓加入。
-
-- [太空](space.destinations.md)
 
 ***
 
@@ -130,6 +127,8 @@ Northstar 太空内容暂缓加入。
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics](space.destinations.md) | 新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。 | <EmiSearch query="@rocketnautics" /> |
+| <ItemImage id="minecraft:minecart" /> [Create Cosmonautics Expansion](space.navigation.md) | 新增可登陆的火星维度、地貌与行星数据。 | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | 保留 Incendium 地形与生物群系，移除其建筑、生物与物品内容。 | 无独立物品查询 |
 | ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | 重塑下界生物群系，并增加建筑、敌人与独特装备。 | 无独立物品查询 |
 | ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | 以异域地形与新增生物群系重塑末地。 | 无独立物品查询 |

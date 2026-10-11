@@ -37,7 +37,7 @@ navigation:
 
 ## Power & industry
 
-<EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@tfmg" /> <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" />
 
 | Reference | Contents |
 | --- | --- |

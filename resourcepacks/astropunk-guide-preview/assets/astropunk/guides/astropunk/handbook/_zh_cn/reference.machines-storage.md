@@ -37,7 +37,7 @@ navigation:
 
 ## 电力与工业
 
-<EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@tfmg" />
+<EmiSearch query="@tfmg" /> <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" />
 
 | 目录 | 内容 |
 | --- | --- |

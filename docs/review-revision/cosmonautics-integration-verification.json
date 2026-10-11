@@ -1,0 +1,168 @@
+{
+  "scope": "Completed handbook integration on test/guide at HEAD 6564ca0, retaining existing partial cleanup. No version changes, exports, commits, pushes, merges, game launches, server launches or live launcher edits.",
+  "authored_pages": [
+    "world.dimensions",
+    "space.destinations",
+    "space.vehicle-transfer",
+    "space.life-support",
+    "space.navigation"
+  ],
+  "commands": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python scripts/build-handbook-draft.py",
+      "exit_code": 0,
+      "result": {
+        "articles": 103,
+        "directories": 8,
+        "roots": 18,
+        "selected_providers": 303,
+        "heavy_providers": 20,
+        "deferred_providers": 0
+      }
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests",
+      "exit_code": 0,
+      "tests": 122
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s scripts/handbook-access -p 'test_*.py' -v",
+      "exit_code": 0,
+      "tests": 24
+    },
+    {
+      "command": "JAVA_HOME=\"$PWD/toolchain/jdk-21.0.12.1+1\" GRADLE_USER_HOME=\"$PWD/.gradle-user-home\" ./gradlew test --rerun --offline --console=plain",
+      "working_directory": "scripts/handbook-access",
+      "exit_code": 0,
+      "tests": 15,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python scripts/handbook-access/validate_syntax.py",
+      "exit_code": 0,
+      "pages": 224,
+      "parse_failures": 0,
+      "negative_control": "Malformed ItemLink rejected"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python scripts/test-native-navigation.py",
+      "exit_code": 0,
+      "nodes_per_locale": 112,
+      "ordered_roots": 18,
+      "negative_controls": "Stale fallback, deletion resurrection and obsolete navigation checks passed"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python scripts/handbook-access/verify_markup.py",
+      "execution": "Executed by the passing helper semantic suite against current generated pages",
+      "exit_code": 0,
+      "pages": 224,
+      "compiler_errors": 0,
+      "negative_controls": "Illegal ItemGrid children, missing identifiers, malformed markup and Color checks passed",
+      "log": "build/handbook-access/markup-probe/test-green-book/compiler.log",
+      "boundaries": [
+        "Item identifiers normalized to vanilla stone",
+        "Empty item index",
+        "Images absent from fixture",
+        "Recipe and KeyBind not compiled",
+        "No rendering or live registry claims"
+      ]
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python scripts/validate-guide-preview.py --source-only",
+      "exit_code": 0,
+      "pages": 224,
+      "links": 2016
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "changed_files": [
+    "docs/final-review/navigation-icon-audit.json",
+    "docs/guide-authoring-checklist.json",
+    "docs/guide-coverage.json",
+    "docs/handbook-content.json",
+    "docs/handbook-draft-manifest.json",
+    "docs/handbook-item-queries.json",
+    "docs/handbook-placement-overrides.json",
+    "docs/handbook-project-descriptions.json",
+    "docs/handbook-provider-purposes.json",
+    "docs/review-revision/cosmonautics-authored-pages.json",
+    "docs/review-revision/cosmonautics-evidence.json",
+    "docs/review-revision/cosmonautics-integration-verification.json",
+    "docs/review-revision/cosmonautics-retired-inventory-evidence.json",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/food.fishing.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.baseline.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.deferred.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.industry.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.machines-storage.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.technical.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.vehicles.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/server.deferred-pack-loading.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.destinations.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.life-support.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.navigation.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.vehicle-transfer.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/technical.space-bridge.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/travel.destinations.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.engines.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/world.dimensions.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.baseline.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.deferred.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.industry.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.machines-storage.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.technical.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.vehicles.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/server.deferred-pack-loading.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.destinations.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.life-support.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.navigation.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.vehicle-transfer.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/technical.space-bridge.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/travel.destinations.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.engines.md",
+    "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/world.dimensions.md",
+    "scripts/build-handbook-draft.py",
+    "scripts/handbook-access/test_markup_semantics.py",
+    "scripts/validate-guide-preview.py",
+    "tests/test_cosmonautics_handbook.py",
+    "tests/test_flat_sidebar.py",
+    "tests/test_navigation_icon_uniqueness.py",
+    "tests/test_quick_reference_visuals.py",
+    "tests/test_unified_content.py"
+  ],
+  "existing_partial_files_completed": [
+    "docs/guide-authoring-checklist.json",
+    "docs/guide-coverage.json",
+    "docs/handbook-content.json",
+    "docs/handbook-placement-overrides.json",
+    "scripts/build-handbook-draft.py",
+    "scripts/validate-guide-preview.py"
+  ],
+  "retired_generated_pages_per_locale": [
+    "performance.deferred.md",
+    "server.deferred-pack-loading.md",
+    "technical.space-bridge.md"
+  ],
+  "retired_resource_archive": ".archive/handbook-sidebar-flat",
+  "unresolved": [
+    "Expansion has equal-priority conflicting Mars radius and texture records, so effective orbital approach geometry is unverified.",
+    "Rocket Ponder text_1 through text_6 keys are absent from selected packaged locale files. Lesson registration and arrangement exist, readable lesson text needs runtime checking.",
+    "Space Helmet has no recipe reference across 296 selected mod archives or repository recipe overrides. The article supplies craftable Create diving equipment as an alternative.",
+    "Deep Air optional dependency identifier differs from selected base identifier. This is not proof of a runtime failure.",
+    "Transfer, landing, passenger and inventory preservation, breathing, gravity, saved ships and cross-mod behavior were not exercised.",
+    "No dedicated station, docking or station persistence mechanics were established.",
+    "Expansion redistribution permission remains outside this documentation task."
+  ],
+  "issues_resolved": [
+    "Invented kinetic operation of Rocket Thruster removed",
+    "Lava supply, strict departure, automatic surface entry and descent heat documented",
+    "Artificial gravity separated from oxygen",
+    "Unsupported mechanical crafting Recipe component replaced with native item and recipe-browser guidance",
+    "Retired provider inventory and planning records removed from authoritative coverage and preserved in separate historical evidence",
+    "Historical markup regression fixture separated from the current authored equipment reference"
+  ],
+  "issue_outside_scope": "Export-mode validator initially failed because the expected distribution archive was absent. Source-only validation passed. No export was created."
+}

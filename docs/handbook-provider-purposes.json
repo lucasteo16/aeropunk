@@ -307,10 +307,6 @@
     "en_us": "Adds structural girder variants for Create builds.",
     "zh_cn": "为机械动力建筑增加结构梁变体。"
   },
-  "mods/create-northstar-aeronautics-compatibility.pw.toml": {
-    "en_us": "Connects Northstar space travel to Aeronautics physical vehicle transfers.",
-    "zh_cn": "将 Northstar 太空旅行与 Aeronautics 物理载具转移衔接。"
-  },
   "mods/create-pattern-schematics.pw.toml": {
     "en_us": "Repeats schematic patterns when building with Create schematics.",
     "zh_cn": "让机械动力蓝图建造重复铺设指定图案。"
@@ -795,14 +791,6 @@
     "en_us": "Corrects return destinations when players travel through Nether portals.",
     "zh_cn": "修正玩家往返下界传送门时的返回目的地。"
   },
-  "mods/northstar-redux.pw.toml": {
-    "en_us": "Adds space destinations and Create-based equipment for exploring them.",
-    "zh_cn": "增加太空目的地与用于探索的机械动力设备。"
-  },
-  "mods/northstar-sable-iris-horizons-bridge.pw.toml": {
-    "en_us": "Bridges Northstar sky rendering with shaders, distant terrain and Sable structures.",
-    "zh_cn": "衔接 Northstar 天空渲染、光影、远景与 Sable 移动结构。"
-  },
   "mods/not-enough-animations-emf-compat.pw.toml": {
     "en_us": "Adapts Not Enough Animations player actions to custom Entity Model Features models.",
     "zh_cn": "让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。"
@@ -838,10 +826,6 @@
   "mods/particular-reforged.pw.toml": {
     "en_us": "Adds ambient visual effects.",
     "zh_cn": "增加环境视觉效果。"
-  },
-  "mods/paxi.pw.toml": {
-    "en_us": "Automatic data-pack and resource-pack loading.",
-    "zh_cn": "自动加载数据包与资源包。"
   },
   "mods/pf-neoforge.pw.toml": {
     "en_us": "Adds surface-sensitive footstep sounds.",
@@ -1290,5 +1274,21 @@
   "mods/melody.pw.toml": {
     "en_us": "Provides the audio library required by FancyMenu. This menu adds no custom music.",
     "zh_cn": "提供 FancyMenu 所需的音频支持库。本菜单没有添加自定义音乐。"
+  },
+  "mods/create-cosmonatics.pw.toml": {
+    "en_us": "Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display.",
+    "zh_cn": "新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。"
+  },
+  "mods/create-cosmonautics-expansion.pw.toml": {
+    "en_us": "Adds the landable Mars dimension, terrain and planetary record.",
+    "zh_cn": "新增可登陆的火星维度、地貌与行星数据。"
+  },
+  "mods/cosmonautics-deep-air.pw.toml": {
+    "en_us": "Connects sealed Deep Seas compartments to space breathing and powered artificial gravity.",
+    "zh_cn": "将 Deep Seas 密封舱室连接到太空呼吸与供能人工重力功能。"
+  },
+  "mods/aeroengine-fuel-compat.pw.toml": {
+    "en_us": "Allows AeroEngine to use kerosene from Create: The Factory Must Grow.",
+    "zh_cn": "让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。"
   }
 }

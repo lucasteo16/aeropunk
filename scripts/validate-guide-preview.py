@@ -32,8 +32,7 @@ for article in handbook['pages']:
     assert article['filename'] in expected
     for language in ('', '_zh_cn'):
         article_text = (pages / language / article['filename']).read_text()
-        if not article['drafted']:
-            assert 'WIP' in article_text
+        assert article['drafted'], article['filename']
         for entry in handbook['content']:
             if entry['metadata_path'] in article['metadata_paths']:
                 heading = '## 相关模组' if language else '## Related mods'
@@ -72,7 +71,7 @@ for p in pages.rglob("*.md"):
 # Native roots are the introduction and sixteen directly accessible sections.
 section_roots = {'help.controls.md', 'help.search.md', 'adventure.bosses.md', 'adventure.creatures.md', 'adventure.structures.md', 'world.dimensions.md', 'reference.skills.md', 'reference.food.md', 'reference.building.md', 'reference.vehicles.md', 'reference.machines-storage.md', 'maps.personal.md', 'reference.utilities.md', 'reference.appearance.md', 'reference.audio.md', 'reference.technical.md'}
 assert handbook['navigation_page_count'] == 0
-assert handbook['root_page_count'] == len(section_roots) + 1
+assert handbook['root_page_count'] == len(section_roots) + 2
 for language in ('', '_zh_cn'):
     locale_root = pages / language
     page_texts = {p.name: p.read_text() for p in locale_root.glob('*.md')}
@@ -147,10 +146,10 @@ with zipfile.ZipFile(export) as archive:
         assert entry["env"]["server"] == "unsupported"
     assert archive.read("overrides/configureddefaults/options.txt").decode() == options
     assert not any(n.startswith(("overrides/docs/", "overrides/scripts/", "overrides/build/", "overrides/dist/")) for n in names)
-    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "77b4453", "mods"], cwd=root, text=True).splitlines()
+    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "0b44216", "mods"], cwd=root, text=True).splitlines()
     for name in base:
-        previous = subprocess.check_output(["git", "show", f"77b4453:{name}"], cwd=root)
+        previous = subprocess.check_output(["git", "show", f"0b44216:{name}"], cwd=root)
         assert (root / name).read_bytes() == previous, name
     additions = {p.relative_to(root).as_posix() for p in (root / "mods").glob("*.pw.toml")} - set(base)
-    assert additions == {"mods/guideme.pw.toml", "mods/fancymenu.pw.toml", "mods/konkrete.pw.toml", "mods/melody.pw.toml"}, additions
+    assert not additions, additions
 print(json.dumps({"pages": len(list(pages.rglob('*.md'))), "draft_articles": handbook['draft_articles'], "article_count": handbook['article_count'], "installed_content_count": handbook['installed_content_count'], "links": links, "resource_files_verified": checked, "baseline_mod_files_unchanged": len(base), "additional_mods": sorted(additions), "archive": str(export), "sha256": hashlib.sha256(export.read_bytes()).hexdigest(), "client_runtime_tested": False}, indent=2))

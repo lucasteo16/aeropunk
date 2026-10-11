@@ -164,7 +164,7 @@ A moving waystone destination is different from a Tempad coordinate or a map way
 
 ## Ship teleportation
 
-Create: AeroWarptics (separate ship patch) relocates an assembled Aeronautics ship within a dimension. Waystones Sable teleports players to moving destinations, not the entire ship. AeroWarptics does not supply Northstar planets or other space destinations.
+Create: AeroWarptics relocates an assembled Aeronautics ship within a dimension. Waystones Sable teleports players to moving destinations, not the entire ship. Space flight uses a separate propulsion and navigation system.
 
 
 ***
@@ -174,6 +174,7 @@ Create: AeroWarptics (separate ship patch) relocates an assembled Aeronautics sh
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![Create Waystones Recipes](images/catalog-wqpkgqnj.png) [Create Waystones Recipes](travel.destinations.md) | Reworks Waystones recipes to use Create materials and crafting. | No separate item search |
+| <ItemImage id="minecraft:minecart" /> [Create: AeroWarptics](travel.destinations.md) | Adds relocation tools for physical Aeronautics vehicles. | No separate item search |
 | ![NetherPortalFix](images/catalog-npzr02et.png) [NetherPortalFix](travel.destinations.md) | Corrects return destinations when players travel through Nether portals. | No separate item search |
 | ![Tempad](images/catalog-gknwt7xu.png) [Tempad](travel.destinations.md) | Creates travel portals to saved locations using portable and stationary devices. | <EmiSearch query="@tempad" /> |
 | ![Waystones](images/catalog-lopkhb2a.png) [Waystones](travel.destinations.md) | Adds activated destination stones and portable items for travel between locations. | <EmiSearch query="@waystones" /> |
