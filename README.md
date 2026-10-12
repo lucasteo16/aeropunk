@@ -4,6 +4,12 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.9.0-dev material and fuel integration trial
+
+Added Almost Unified 1.4.2 and Create: Unified Fuels 1.0.4 on both sides, unpinned. Almost Unified is restricted to the existing shared andesite alloy and zinc sheet tags, preferring Create Deco outputs. Witcher items are excluded, loot unification is disabled, and recipe-browser hiding is disabled while the trial is reviewed. Platinum and other materials remain unchanged. This is an authoritative recipe configuration, not a player preference preset.
+
+Unified Fuels retains its published defaults. Its released dependency requirements accept Create 6.0.10 and NeoForge 21.1.259; the current project description discusses additional 1.1.0 capabilities that are not assumed present in 1.0.4. Industrial fuel acceptance and balance, preferred press outputs and exact-item recipe consumers remain unverified in game. Stable branches, held candidates, played instances and the retained server are unchanged. If the trial causes a regression, remove the implicated addon and its configuration rather than reverting unrelated development changes.
+
 ### 0.8.0-dev shader bridge trial
 
 Added client-only Iris Flywheel Compat 2.4.0 and Iris Veil Compat 0.4.0 alpha for Lucas's shader test. The former integrates optimized Flywheel rendering with Iris; the latter bridges Veil effects used by Aeronautics and Sable. Their released Minecraft, NeoForge, Iris and Sodium requirements fit the selected stack. Shader rendering and visual correctness remain unverified. Test ordinary rendering with shaders disabled, then Reimagined with shaders enabled, including Create machinery and Aeronautics effects. Keep the existing Distant Horizons activation-order workaround and disabled shader defaults. Stable branches, played instances and the retained server are unchanged; remove only the relevant bridge if the trial reveals a regression.
