@@ -813,6 +813,182 @@ file = "config/paxi/datapacks/astropunk-border/pack.mcmeta"
 hash = "14f3e6c183b8686a0cc67598531f2d844208d8dbc0ae18bef6316d4bf5ab720a"
 
 [[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/deep_warm_oceans.json"
+hash = "7afc82d2fa02c51321981420fb2a4699bf05e305a3d0ebd8b9151887839d47fe"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_deep_dark.json"
+hash = "815a97a4f6570a90ff30bd531af1cfd611594247805222726967e673a460a8a0"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_dripstone_caves.json"
+hash = "91e11a82d0210c32262070d92b3fb3d2d48395b2bacb5f48018f8611914a4353"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_flower_forest.json"
+hash = "d60e1b5ea94005f9ac0f2fee64c11bb9007b5c940929f076f27491afcd756c46"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_ice_spikes.json"
+hash = "2856fe4719263d33671457023e5aadbf9cf935edac6fa208e708ce0876668ccb"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_lush_caves.json"
+hash = "f7de42f581c207585cc8d646f47f2ed571ba5d55735b011f2fa42b22623033cc"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_sunflower_plains.json"
+hash = "ba6c53416824c39ecd1e803a6196536a0722820e68ddcfd99aba423cb4c84d79"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/flying_fish.json"
+hash = "5dd319e1789eff0b0609f6af3fc1f8e7d2934d411e9a323413251bc585a00124"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/mackerel.json"
+hash = "05e1f074f04b573e326845d6f7051ee88985f05b1cf6956e8ef2351d98388a81"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/mahi.json"
+hash = "148fbc25f6a7c61cd88491b78689dd5c12a9c6f682c4edc7efeccfdcb66524bb"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/ocean_sunfish.json"
+hash = "0a15e91ae437d0e67521d2f0042dbdf29328b3506f97ca5404f97d81f332ed20"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/opah.json"
+hash = "c322b7b6a10a3c8e86510acf1cc9b06e59425b5e78db8c6ed9488a6382c4046e"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/sea_bass.json"
+hash = "062ff514fc49a0b466e49ced1bcad41e7402302889c8d1fa59b90d1d22fc11b4"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/stingray.json"
+hash = "4956ecb1f210f078fc4031fa2f48265eb15418d71fa5172d3999b490f17a33fc"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/tetra.json"
+hash = "467662cdf68dbbfa0a03bf2145f362033af4eb53c0b38077c7302ff38d419386"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/trevally.json"
+hash = "f2e4501af9fed33fad5c557910a436433e6697f98f437caae306c2f0e3ca3d69"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/tuna.json"
+hash = "7e6c53006ee4cffbc51f6768c650336f2b41c75a1123b0e1cb010b3eb5ecdf87"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/aurora.json"
+hash = "a89c39878cf50dcc022065b53b6cb83fc2acc130d3cb0c88df3580519965970f"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/dripfin.json"
+hash = "7a48d7e3880b105dff6c04823ccc17ff3527ac2e36925f73562e0ab1d922f60e"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/fossilized_angelfish.json"
+hash = "a8e5fe35e0064360801501403f24ba746905e1c29ae0604182810113fec4b886"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/glowing_dark.json"
+hash = "937ff89eec1f05c7e17ef3e6e2457c35eb8880598ac3b41c619d7734b55ead2e"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/iceborn_skin_smithing_template.json"
+hash = "0f844045f6df2a1dbb148c915d8b75fca626fa50d7480b9ad5321fa9f47ade12"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/lush_pike.json"
+hash = "59008b52e9590b6499224d8068e7f05f090a660c3a737f75451fdb990c018829"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/mossfin.json"
+hash = "01b0fe50e59f5d6e71e9e9f533f414a9167bbb0648aefa7b504256f66bdb8d6f"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/petal_bass.json"
+hash = "3b1b09346a090703b9aa5ed8a92c72f968002dbbeafc2fd075fcdd80f12c845e"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/sculkfish.json"
+hash = "6ac7313fc34f495ec51f8e0b31d59905b5b59a53540e5ae24f1851e02dd285c3"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/shadowfin.json"
+hash = "14907fa00197ae67340c99b6c55986592b1866b392994a06fb58d5c87f807821"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/sunflower_carp.json"
+hash = "3fb690b83ccf0bc3545558bd4af32253a6dbb124eeb8fb7e67af4bdbb522bba3"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/the_quarrish.json"
+hash = "e6492e89cf746748652bfadcbe079743f335e1a69e03d458edb95fbdc0c1388b"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/vivid_moss.json"
+hash = "dcf3eba8d56b62447a083ae0b931829c78324840590dc881863cf6c7a5190252"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/ward.json"
+hash = "19930377638384bf9c5991b5a57877e1eb468a539d596a1c7a36bff219f04a95"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/yellowstone_fish.json"
+hash = "e8d8277de7967d135862d0fd9bd54bdfac93f6d8fec33583a1bc68efd03348f5"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_beach.json"
+hash = "bec8141c1ed294be6eef72eab1fc7a731ec9c0c8286c28f99c386955db0c237e"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_birch_forest.json"
+hash = "699f71e2f57a2109f462883eb1d4b8cd16a5550334ffd00bbe79e3e714520f94"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_cherry_grove.json"
+hash = "d71cdfd9e66553e907ea36c58451732c38410ec9c3c97b441efde8443c47afcd"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_cold_lake.json"
+hash = "a10b981665feef473284bc6cd331f5203363b7c07851e5782fa87f17548400c1"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_dark_forest.json"
+hash = "0084b00f9f1ad0ed77cd2806ac989519722aa9290046868a61376891fadc2b61"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_deep_ocean.json"
+hash = "5e64a05bea59e5214b36c1803b5bf4473f31cf425d5e59afeaa6ec276e91bdc9"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_ocean.json"
+hash = "5e64a05bea59e5214b36c1803b5bf4473f31cf425d5e59afeaa6ec276e91bdc9"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_swamp.json"
+hash = "359656d412841b84094795d22a97dc07388be7bca422f281d0749005145e3ef0"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_warm_lake.json"
+hash = "c08d589966b871a755dd091b159bba52582f264ce8e557b2e97236b8042784ce"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_warm_ocean.json"
+hash = "5e64a05bea59e5214b36c1803b5bf4473f31cf425d5e59afeaa6ec276e91bdc9"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_warm_river.json"
+hash = "109fa7250423ae16323b454b0c361343b34ad533be206c93930e5c4b1530ce74"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/pack.mcmeta"
+hash = "ec2b30d4705328f68ad280318aa113dae582959b9f26bf7bd90f16a576bd7348"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
 
@@ -1615,6 +1791,11 @@ hash = "2244c6c580c41f432e02bc82a6f78af0b1777de42400d1e5b702208376c56c6f"
 metafile = true
 
 [[files]]
+file = "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml"
+hash = "f14ab00e7678ba29914b0d1a45a9e200ced324886dc41f2a3f1001a7a80ae67d"
+metafile = true
+
+[[files]]
 file = "mods/create-trading-floor.pw.toml"
 hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
 metafile = true
@@ -1900,6 +2081,26 @@ hash = "34ef1114d0ccd97d1f518abe0522e7d195a2ad40108654b6513f247724df2e0a"
 metafile = true
 
 [[files]]
+file = "mods/hybrid-api.pw.toml"
+hash = "fdc55b26800127cafd9a88b2bd03615fc49ced589cffb036145d98c029af437f"
+metafile = true
+
+[[files]]
+file = "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml"
+hash = "9e3b47e02296fb307995903451c5edae4918fb7ca22e892598addbb1289dde8d"
+metafile = true
+
+[[files]]
+file = "mods/hybrid-aquatic.pw.toml"
+hash = "af60f4cd6512a46528cc606f854354c6a261a79bdf2ced261b89b42905bbd7c0"
+metafile = true
+
+[[files]]
+file = "mods/hybrid-delights.pw.toml"
+hash = "02a90079b7689e27d6a6a827e2571edb0dd27742766edc819da7ef917465e115"
+metafile = true
+
+[[files]]
 file = "mods/hypertube.pw.toml"
 hash = "672fe2518a1795814efc943c3e3cf8dc1b993bc7d838cc62950acfaba348c2c7"
 metafile = true
@@ -1972,6 +2173,11 @@ metafile = true
 [[files]]
 file = "mods/jade-addons-forge.pw.toml"
 hash = "24d27cb3caf022e154386e473bcca80e15d6ce18fa8e1367b6f9b4dc1594b446"
+metafile = true
+
+[[files]]
+file = "mods/jade-sable-compat.pw.toml"
+hash = "673bc79f4d42c7de3343a8e2933a3fbd355ba34e8a7ca06ffdae659bd57a8231"
 metafile = true
 
 [[files]]
@@ -2192,6 +2398,11 @@ metafile = true
 [[files]]
 file = "mods/observable.pw.toml"
 hash = "3e477c97729015ac6184c0b56cb148947b7c0dc5cca764336ee96719f05f05e6"
+metafile = true
+
+[[files]]
+file = "mods/oceans-delight.pw.toml"
+hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
 
 [[files]]
@@ -2445,6 +2656,16 @@ hash = "4ce7b2b172bcaa1e82f43362f12ebfa791612432351912f7c47ed3993033ddc0"
 metafile = true
 
 [[files]]
+file = "mods/starcatcher.pw.toml"
+hash = "568918da3fe5ac2d2b3c53e88c26d469129f4f764f718ba255b4c22588dfd045"
+metafile = true
+
+[[files]]
+file = "mods/starcatchers-delight.pw.toml"
+hash = "efc4b14f73dfbb271c11822faca511777fab8eacb66e644788e190ae6c23c174"
+metafile = true
+
+[[files]]
 file = "mods/status-effect-bars-reforged.pw.toml"
 hash = "96e36c447f00cf42622a78091883f054ec8ff708b285ef1351668cb00f081804"
 metafile = true
@@ -2512,6 +2733,11 @@ metafile = true
 [[files]]
 file = "mods/tfmg-community-edition.pw.toml"
 hash = "8f0cba8a87fd4fd749a95a02e41a4754f6db3d3c96da921f4c1cbaa8a191b293"
+metafile = true
+
+[[files]]
+file = "mods/tidal-towns.pw.toml"
+hash = "5a0719402e805df315bc797564e637434d3f08450c056a571aa5284d9f2d549e"
 metafile = true
 
 [[files]]

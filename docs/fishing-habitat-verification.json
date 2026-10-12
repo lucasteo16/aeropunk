@@ -1,0 +1,395 @@
+{
+  "biomes": {
+    "terralith:alpha_islands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:alpha_islands_winter": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:alpine_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:alpine_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:amethyst_canyon": {
+      "elevation": 70,
+      "eligible_habitat_entries": 34
+    },
+    "terralith:amethyst_rainforest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 34
+    },
+    "terralith:ancient_sands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:arid_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:ashen_savanna": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:basalt_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:birch_taiga": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:blooming_plateau": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:blooming_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:brushland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:bryce_canyon": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:caldera": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:cave/andesite_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 30
+    },
+    "terralith:cave/deep_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 27
+    },
+    "terralith:cave/diorite_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 30
+    },
+    "terralith:cave/frostfire_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:cave/fungal_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 28
+    },
+    "terralith:cave/granite_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 30
+    },
+    "terralith:cave/infested_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 27
+    },
+    "terralith:cave/mantle_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 27
+    },
+    "terralith:cave/thermal_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 30
+    },
+    "terralith:cave/tuff_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 30
+    },
+    "terralith:cave/underground_jungle": {
+      "elevation": -20,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:cloud_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:cold_shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:deep_warm_ocean": {
+      "elevation": 70,
+      "eligible_habitat_entries": 43
+    },
+    "terralith:desert_canyon": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:desert_oasis": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:desert_spires": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:emerald_peaks": {
+      "elevation": 70,
+      "eligible_habitat_entries": 26
+    },
+    "terralith:forested_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:fractured_savanna": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:frozen_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 26
+    },
+    "terralith:glacial_chasm": {
+      "elevation": 70,
+      "eligible_habitat_entries": 26
+    },
+    "terralith:granite_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:gravel_beach": {
+      "elevation": 70,
+      "eligible_habitat_entries": 34
+    },
+    "terralith:gravel_desert": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:haze_mountain": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:hot_shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:ice_marsh": {
+      "elevation": 70,
+      "eligible_habitat_entries": 29
+    },
+    "terralith:jungle_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 34
+    },
+    "terralith:lavender_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:lavender_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:lush_desert": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:lush_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:mirage_isles": {
+      "elevation": 70,
+      "eligible_habitat_entries": 19
+    },
+    "terralith:moonlight_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 28
+    },
+    "terralith:moonlight_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 28
+    },
+    "terralith:orchid_swamp": {
+      "elevation": 70,
+      "eligible_habitat_entries": 36
+    },
+    "terralith:painted_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:red_oasis": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:rocky_jungle": {
+      "elevation": 70,
+      "eligible_habitat_entries": 34
+    },
+    "terralith:rocky_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:rocky_shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:sakura_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22
+    },
+    "terralith:sakura_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22
+    },
+    "terralith:sandstone_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:savanna_badlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:savanna_slopes": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:scarlet_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:shield": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:shield_clearing": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:siberian_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:siberian_taiga": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:skylands_autumn": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:skylands_spring": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:skylands_summer": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:skylands_winter": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:snowy_badlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 31
+    },
+    "terralith:snowy_cherry_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30
+    },
+    "terralith:snowy_maple_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:snowy_shield": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:steppe": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:stony_spires": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:temperate_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:tropical_jungle": {
+      "elevation": 70,
+      "eligible_habitat_entries": 34
+    },
+    "terralith:valley_clearing": {
+      "elevation": 70,
+      "eligible_habitat_entries": 33
+    },
+    "terralith:volcanic_crater": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:volcanic_peaks": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:warm_river": {
+      "elevation": 70,
+      "eligible_habitat_entries": 42
+    },
+    "terralith:warped_mesa": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:white_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:white_mesa": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23
+    },
+    "terralith:windswept_spires": {
+      "elevation": 70,
+      "eligible_habitat_entries": 32
+    },
+    "terralith:wintry_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:wintry_lowlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:yellowstone": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:yosemite_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    },
+    "terralith:yosemite_lowlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 25
+    }
+  },
+  "override_count": 25,
+  "files": 44,
+  "checks": [
+    "registry coverage",
+    "non-biome field preservation",
+    "vanilla tag preservation",
+    "water habitat and elevation eligibility",
+    "positive and negative cherry controls",
+    "spawn-tag isolation"
+  ],
+  "runtime_tested": false
+}

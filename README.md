@@ -4,6 +4,16 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.10.0-dev ocean and fishing integration
+
+Added Starcatcher 3.3.7, Starcatcher's Delight 3.2, Hybrid Aquatic 1.7.4, Hybrid Delights 1.3.3, Hybrid Aquatic Starcatcher Compatibility 0.6.1, Tidal Towns 2.0 and Ocean's Delight 1.0.4. Hybrid API 1.1.3 is included as a required dependency. Jade Sable Compat 1.3.0 and the Stuff and Additions ship compatibility addon 1.0.4 are also included. These additions are unpinned; existing selections are preserved.
+
+The approved Xaero's Maps with Waystones addon is not installed: its released metadata rejects Xaero's Minimap 26.2.0 and newer, including our 26.6.0 selection. The publisher describes this integration as built into newer maps. No map downgrade or dependency bypass was applied. Nether Depths Upgrade, Fishing Real and Deep Seas Lava Fix are excluded.
+
+Paxi loads the Astropunk fishing habitats datapack on both sides. It extends appropriate Terralith habitat groups and replaces exact vanilla habitat selectors with equivalent groups where necessary. Original catch rarity, bait, time, weather, elevation, fluid, difficulty and rewards remain unchanged. The full 95-biome coverage record and maintenance notes are in docs/fishing-habitat-integration.md and docs/fishing-habitat-coverage.csv. This changes catch availability, not natural creature spawning or terrain generation.
+
+Packaging and static habitat checks are separate from gameplay verification. No Minecraft client or server was launched, and stable branches, played installations, the retained server and handbook resources are unchanged.
+
 ### 0.9.0-dev material and fuel integration trial
 
 Added Almost Unified 1.4.2 and Create: Unified Fuels 1.0.4 on both sides, unpinned. Almost Unified is restricted to the existing shared andesite alloy and zinc sheet tags, preferring Create Deco outputs. Witcher items are excluded, loot unification is disabled, and recipe-browser hiding is disabled while the trial is reviewed. Platinum and other materials remain unchanged. This is an authoritative recipe configuration, not a player preference preset.
