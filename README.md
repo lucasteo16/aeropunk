@@ -1,5 +1,85 @@
 # Astropunk editions
 
+## Development branch
+
+`dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
+
+### 0.10.2-dev fishing habitat names
+
+Added readable English and Simplified Chinese names for all seven custom fishing habitat tags. Paxi automatically loads the small fishing-label resource pack. This fixes raw translation keys in Starcatcher's guide without changing fish availability or catch conditions. The normal multiple-habitat hover prompt remains unchanged.
+
+### 0.10.1-dev fishing habitat review
+
+Corrected Snowy Badlands inheriting warm desert fish through the upstream badlands tag. Extended flower fish through Terralith's native flower-forest classification, cherry fish to Spring Skylands, cold freshwater to Birch Taiga and Windswept Spires, and warm freshwater to Granite Cliffs. Only fishing habitat requirements change; natural spawns and all other catch conditions are preserved. See docs/fishing-habitat-review.md for the review and verified coverage.
+
+### 0.10.0-dev ocean and fishing integration
+
+Added Starcatcher 3.3.7, Starcatcher's Delight 3.2, Hybrid Aquatic 1.7.4, Hybrid Delights 1.3.3, Hybrid Aquatic Starcatcher Compatibility 0.6.1, Tidal Towns 2.0 and Ocean's Delight 1.0.4. Hybrid API 1.1.3 is included as a required dependency. Jade Sable Compat 1.3.0 and the Stuff and Additions ship compatibility addon 1.0.4 are also included. These additions are unpinned; existing selections are preserved.
+
+The approved Xaero's Maps with Waystones addon is not installed: its released metadata rejects Xaero's Minimap 26.2.0 and newer, including our 26.6.0 selection. The publisher describes this integration as built into newer maps. No map downgrade or dependency bypass was applied. Nether Depths Upgrade, Fishing Real and Deep Seas Lava Fix are excluded.
+
+Paxi loads the Astropunk fishing habitats datapack on both sides. It extends appropriate Terralith habitat groups and replaces exact vanilla habitat selectors with equivalent groups where necessary. Original catch rarity, bait, time, weather, elevation, fluid, difficulty and rewards remain unchanged. The full 95-biome coverage record and maintenance notes are in docs/fishing-habitat-integration.md and docs/fishing-habitat-coverage.csv. This changes catch availability, not natural creature spawning or terrain generation.
+
+Packaging and static habitat checks are separate from gameplay verification. No Minecraft client or server was launched, and stable branches, played installations, the retained server and handbook resources are unchanged.
+
+### 0.9.0-dev material and fuel integration trial
+
+Added Almost Unified 1.4.2 and Create: Unified Fuels 1.0.4 on both sides, unpinned. Almost Unified is restricted to the existing shared andesite alloy and zinc sheet tags, preferring Create Deco outputs. Witcher items are excluded, loot unification is disabled, and recipe-browser hiding is disabled while the trial is reviewed. Platinum and other materials remain unchanged. This is an authoritative recipe configuration, not a player preference preset.
+
+Unified Fuels retains its published defaults. Its released dependency requirements accept Create 6.0.10 and NeoForge 21.1.259; the current project description discusses additional 1.1.0 capabilities that are not assumed present in 1.0.4. Industrial fuel acceptance and balance, preferred press outputs and exact-item recipe consumers remain unverified in game. Stable branches, held candidates, played instances and the retained server are unchanged. If the trial causes a regression, remove the implicated addon and its configuration rather than reverting unrelated development changes.
+
+### 0.8.0-dev shader bridge trial
+
+Added client-only Iris Flywheel Compat 2.4.0 and Iris Veil Compat 0.4.0 alpha for Lucas's shader test. The former integrates optimized Flywheel rendering with Iris; the latter bridges Veil effects used by Aeronautics and Sable. Their released Minecraft, NeoForge, Iris and Sodium requirements fit the selected stack. Shader rendering and visual correctness remain unverified. Test ordinary rendering with shaders disabled, then Reimagined with shaders enabled, including Create machinery and Aeronautics effects. Keep the existing Distant Horizons activation-order workaround and disabled shader defaults. Stable branches, played instances and the retained server are unchanged; remove only the relevant bridge if the trial reveals a regression.
+
+### 0.7.5-dev Deep Seas notification defaults
+
+Moved the startup-screen suppression preset from create_submarine-common.toml to create_submarine-client.toml for Deep Seas 3.3.0. The client.disableStartupScreens setting remains true, suppressing welcome and update prompts on fresh installations without changing gameplay settings or existing player choices. Lucas reported that 0.7.4-dev seemed to work, with the Deep Seas prompt reappearing; exact test coverage was not specified. The corrected notification default still requires a fresh-client check.
+
+### 0.7.4-dev missing dependencies
+
+Added Struts 1.3.1 and Azimuth 1.4.10 on both sides through native packwiz. These satisfy the released dependency declarations for Bits 'n' Bobs 2.3.5 and More Girder 2.3.0; their Minecraft and NeoForge requirements match this development pack. GrandTeleport remains held at 1.0.0, and Spell Engine 1.10.9 and Xaero's Maps Multiplayer Plus 1.1.2 remain compatibility trials. Export verification does not establish successful game startup; Lucas's fresh-client test is pending.
+
+### 0.7.3-dev GrandTeleport rollback
+
+The global update changed GrandTeleport from 1.0.0 to 1.0.1. Lucas's client rejected 1.0.1 as an invalid mod file, so development restores the original both-side 1.0.0 selection and holds it pending a verified replacement. This rollback does not establish the exact cause of the invalid-file error. The separately reported missing Struts and Azimuth dependencies remain unresolved in this checkpoint; this export is not yet expected to pass startup. Spell Engine and Xaero's compatibility trials remain unchanged.
+
+### 0.7.2-dev compatibility trial
+
+Spell Engine is updated from 1.10.7 to 1.10.9 and Xaero's Maps Multiplayer Plus from 1.1.0 to 1.1.2 for Lucas's fresh-client test. Their development holds are removed; stable branches retain their previous selections and holds. Neither candidate is yet runtime-verified. Test startup and disposable single-player world entry first, watching for the former Witcher loot-function failure and Xaero's bundled Java module-descriptor failure. The retained server still runs the stable pack, so it is not a matching target for this development client's multiplayer test.
+
+If the relevant failure recurs, revert only the implicated selection to its previous version and restore its compatibility hold. Commit 34ce59f and the retained 0.7.1-dev export preserve the pre-trial baseline. Do not revert unrelated development updates or modify played instances implicitly.
+
+### 0.7.1-dev update checkpoint
+
+NeoForge is updated from 21.1.255 to 21.1.259 without changing Minecraft 1.21.1. The previous global update changed 65 mods and Better Leaves, including an unintended Terralith downgrade. Terralith's NeoForge 2.6.2 selection is now restored through native packwiz. Its older multi-loader release includes Fabric, which packwiz prefers during its loader-list comparison; this was not a compatibility-driven downgrade. Review this selection after future global updates.
+
+Spell Engine and Xaero's Maps Multiplayer+ remained held at this checkpoint. Reinforced Shulker Boxes and ToolTipFix publish Fabric releases, excluded by the NeoForge updater filter despite Connector support. GroovyModLoader's selected release is tagged Minecraft 1.21 rather than 1.21.1. Their existing selections remain unchanged; updater lookup failures do not establish runtime incompatibility. Updated selections are experimental, not gameplay-certified.
+
+## Shader selection in 0.6.7
+
+Fresh installations select Complementary Reimagined r5.9.3 while leaving shaders disabled. Configured Defaults preserves existing player settings. No rendering mods or server deployment were changed.
+
+## Multiplayer compatibility in 0.6.6
+
+Better Advancements 0.4.3.21 replaces Reliable Advancements as a client-only advancement screen improvement. The unused editor settings and saved layout are archived outside the distributed pack. Existing Minecraft and content-mod advancements are unchanged; no custom advancements were authored.
+
+Sinytra Connector and Forgified Fabric support are included on both clients and servers so NeoForge can load the selected Fabric gameplay content, including Reinforced Shulker Boxes. The previous server skipped that archive despite having it installed. Client reconnection and reinforced storage gameplay still require player verification after deployment. Use a fresh 0.6.6 client import because Reliable Advancements must no longer be loaded.
+
+The retained local server reached healthy startup with Reinforced Core and Reinforced Shulker Boxes loaded. Connector also exposes a Moonlight compatibility warning and a Tectonic Fabric overlay metadata error about its configuration resource condition. These are nonfatal startup findings, not verified terrain compatibility; no terrain settings or gameplay content were changed to suppress them.
+
+## Grand Teleport server inclusion in 0.6.5
+
+Grand Teleport 1.0.0 is included on both clients and servers because its NeoForge port requires matching teleport network channels. The client artifact is unchanged from 0.6.4. Dedicated-server startup and a player reconnection are separate validation steps.
+
+## Interactic networking in 0.6.4
+
+Main selects Interactic Renewed 0.2.3 for both clients and servers. The released archive moves filter-mode response registration into shared initialization, addressing the missing channel in 0.2.2. Lucas's subsequent connection screenshot no longer listed the Interactic mismatch; Grand Teleport still blocked that attempt.
+
+## Typing sounds in 0.6.3
+
+Fresh installations disable chat and inventory typing sounds from Sounds. Other sound effects remain unchanged. Configured Defaults preserves existing player settings, so existing installations need these two effects disabled manually in the Sounds settings.
+
 The default main branch is the lean gameplay baseline. The main-heavy branch independently inherits main and adds the optional client visual stack. Apply shared gameplay, fixes and updates to main first, then merge main into main-heavy. Do not merge heavy-only visuals back into main. Both have separate Git workspaces and use native packwiz and Just exports.
 
 The split follows Lucas’s disabled screenshot selections. Heavy adds Fancy Crops, all four Fresh Animations packs, Simple Grass Flowers, Visual Effects+, Create Sable Dynamic Lights, Eating Animations, Not Enough Animations and its Entity Model Features compatibility addon, Explosive Enhancement, Fancy World Animations, Particle Effects, Particular Reforged, Ripple, Sodium Dynamic Lights and Team Capes. Heavy also initializes Interactic fancy item rendering as enabled; lean initializes it as disabled. Interactic gameplay settings and artifact remain identical. Configured Defaults preserves existing ordinary configuration files, so use fresh imports to compare the presets.

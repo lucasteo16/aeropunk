@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:lush_caves",
+      "required": false
+    },
+    {
+      "id": "terralith:cave/fungal_caves",
+      "required": false
+    },
+    {
+      "id": "terralith:cave/underground_jungle",
+      "required": false
+    }
+  ]
+}

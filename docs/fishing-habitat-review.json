@@ -1,0 +1,1122 @@
+{
+  "source_version": "0.10.1-dev",
+  "reviewed_terralith_biomes": 95,
+  "source_versions": {
+    "starcatcher": "3.3.7",
+    "terralith": "2.6.2",
+    "hybrid_aquatic": "1.7.4",
+    "hybrid_bridge": "0.6.1",
+    "neoforge": "21.1.259"
+  },
+  "themed_live_fish_biomes": 86,
+  "themed_live_fish_percent": 90.5,
+  "themed_aquatic_catch_biomes": 87,
+  "themed_aquatic_catch_percent": 91.6,
+  "override_count": 33,
+  "datapack_files": 52,
+  "water_eligibility_scope": "Base Starcatcher and Hybrid bridge definitions, biome, dimension, fluid and elevation only; not probability or all simultaneous gameplay conditions. Bundled Create catches are separately checked for the warm-lake blacklist.",
+  "biomes": {
+    "terralith:alpha_islands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": []
+    },
+    "terralith:alpha_islands_winter": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:alpine_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:alpine_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:amethyst_canyon": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "tetra"
+      ]
+    },
+    "terralith:amethyst_rainforest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "tetra"
+      ]
+    },
+    "terralith:ancient_sands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:arid_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:ashen_savanna": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:basalt_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:birch_taiga": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:blooming_plateau": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "petal_bass"
+      ]
+    },
+    "terralith:blooming_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 31,
+      "themed_live_fish": [
+        "petal_bass"
+      ]
+    },
+    "terralith:brushland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:bryce_canyon": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:caldera": {
+      "elevation": 70,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": []
+    },
+    "terralith:cave/andesite_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 26,
+      "themed_live_fish": [
+        "dripfin",
+        "fossilized_angelfish",
+        "yellowstone_fish"
+      ]
+    },
+    "terralith:cave/deep_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 23,
+      "themed_live_fish": []
+    },
+    "terralith:cave/diorite_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 26,
+      "themed_live_fish": [
+        "dripfin",
+        "fossilized_angelfish",
+        "yellowstone_fish"
+      ]
+    },
+    "terralith:cave/frostfire_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": [
+        "dripfin",
+        "fossilized_angelfish",
+        "glowing_dark",
+        "sculkfish",
+        "ward",
+        "yellowstone_fish"
+      ]
+    },
+    "terralith:cave/fungal_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 24,
+      "themed_live_fish": [
+        "lush_pike",
+        "mossfin",
+        "shadowfin",
+        "shroomfish",
+        "sporefish",
+        "the_quarrish",
+        "vivid_moss",
+        "tetra"
+      ]
+    },
+    "terralith:cave/granite_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 26,
+      "themed_live_fish": [
+        "dripfin",
+        "fossilized_angelfish",
+        "yellowstone_fish"
+      ]
+    },
+    "terralith:cave/infested_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 23,
+      "themed_live_fish": []
+    },
+    "terralith:cave/mantle_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 23,
+      "themed_live_fish": []
+    },
+    "terralith:cave/thermal_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 26,
+      "themed_live_fish": [
+        "dripfin",
+        "fossilized_angelfish",
+        "yellowstone_fish"
+      ]
+    },
+    "terralith:cave/tuff_caves": {
+      "elevation": -20,
+      "eligible_habitat_entries": 26,
+      "themed_live_fish": [
+        "dripfin",
+        "fossilized_angelfish",
+        "yellowstone_fish"
+      ]
+    },
+    "terralith:cave/underground_jungle": {
+      "elevation": -20,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": [
+        "lush_pike",
+        "mossfin",
+        "shadowfin",
+        "the_quarrish",
+        "vivid_moss",
+        "tetra"
+      ]
+    },
+    "terralith:cloud_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 24,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "petal_bass",
+        "wintery_pike"
+      ]
+    },
+    "terralith:cold_shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:deep_warm_ocean": {
+      "elevation": 70,
+      "eligible_habitat_entries": 39,
+      "themed_live_fish": [
+        "sea_bass",
+        "blobfish",
+        "blowfish",
+        "boxfish",
+        "flying_fish",
+        "hagfish",
+        "mackerel",
+        "mahi",
+        "needlefish",
+        "ocean_sunfish",
+        "opah",
+        "pearlfish",
+        "sea_bass",
+        "stingray",
+        "trevally",
+        "tuna"
+      ]
+    },
+    "terralith:desert_canyon": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:desert_oasis": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:desert_spires": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:emerald_peaks": {
+      "elevation": 70,
+      "eligible_habitat_entries": 24,
+      "themed_live_fish": [
+        "aurora",
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:forested_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:fractured_savanna": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:frozen_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 24,
+      "themed_live_fish": [
+        "aurora",
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:glacial_chasm": {
+      "elevation": 70,
+      "eligible_habitat_entries": 24,
+      "themed_live_fish": [
+        "aurora",
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:granite_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:gravel_beach": {
+      "elevation": 70,
+      "eligible_habitat_entries": 31,
+      "themed_live_fish": []
+    },
+    "terralith:gravel_desert": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:haze_mountain": {
+      "elevation": 70,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": []
+    },
+    "terralith:highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:hot_shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:ice_marsh": {
+      "elevation": 70,
+      "eligible_habitat_entries": 28,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "lily_snapper",
+        "sage_catfish",
+        "sludge_catfish",
+        "wintery_pike"
+      ]
+    },
+    "terralith:jungle_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "tetra"
+      ]
+    },
+    "terralith:lavender_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 31,
+      "themed_live_fish": [
+        "petal_bass"
+      ]
+    },
+    "terralith:lavender_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 31,
+      "themed_live_fish": [
+        "petal_bass"
+      ]
+    },
+    "terralith:lush_desert": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:lush_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:mirage_isles": {
+      "elevation": 70,
+      "eligible_habitat_entries": 16,
+      "themed_live_fish": [
+        "shroomfish",
+        "sporefish"
+      ]
+    },
+    "terralith:moonlight_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 27,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "pale_carp",
+        "pale_pinfish",
+        "petal_bass",
+        "pinfish",
+        "wintery_pike"
+      ]
+    },
+    "terralith:moonlight_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 27,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "pale_carp",
+        "pale_pinfish",
+        "petal_bass",
+        "pinfish",
+        "wintery_pike"
+      ]
+    },
+    "terralith:orchid_swamp": {
+      "elevation": 70,
+      "eligible_habitat_entries": 35,
+      "themed_live_fish": [
+        "lily_snapper",
+        "sage_catfish",
+        "sludge_catfish"
+      ]
+    },
+    "terralith:painted_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:red_oasis": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:rocky_jungle": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "tetra"
+      ]
+    },
+    "terralith:rocky_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:rocky_shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:sakura_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 21,
+      "themed_live_fish": [
+        "blossomfish",
+        "petal_bass",
+        "petaldrift_carp",
+        "pink_koi",
+        "rose_siamese_fish",
+        "vesani"
+      ]
+    },
+    "terralith:sakura_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 21,
+      "themed_live_fish": [
+        "blossomfish",
+        "petal_bass",
+        "petaldrift_carp",
+        "pink_koi",
+        "rose_siamese_fish",
+        "vesani"
+      ]
+    },
+    "terralith:sandstone_valley": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:savanna_badlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:savanna_slopes": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:scarlet_mountains": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:shield": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:shield_clearing": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:shrubland": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:siberian_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:siberian_taiga": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:skylands_autumn": {
+      "elevation": 70,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": []
+    },
+    "terralith:skylands_spring": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "blossomfish",
+        "petal_bass",
+        "petaldrift_carp",
+        "pink_koi",
+        "rose_siamese_fish",
+        "vesani"
+      ]
+    },
+    "terralith:skylands_summer": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:skylands_winter": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:snowy_badlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:snowy_cherry_grove": {
+      "elevation": 70,
+      "eligible_habitat_entries": 28,
+      "themed_live_fish": [
+        "blossomfish",
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "petaldrift_carp",
+        "pink_koi",
+        "rose_siamese_fish",
+        "vesani",
+        "wintery_pike"
+      ]
+    },
+    "terralith:snowy_maple_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:snowy_shield": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:steppe": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:stony_spires": {
+      "elevation": 70,
+      "eligible_habitat_entries": 29,
+      "themed_live_fish": []
+    },
+    "terralith:temperate_highlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 31,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:tropical_jungle": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "tetra"
+      ]
+    },
+    "terralith:valley_clearing": {
+      "elevation": 70,
+      "eligible_habitat_entries": 30,
+      "themed_live_fish": [
+        "sunflower_carp"
+      ]
+    },
+    "terralith:volcanic_crater": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:volcanic_peaks": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:warm_river": {
+      "elevation": 70,
+      "eligible_habitat_entries": 39,
+      "themed_live_fish": [
+        "bluegigi",
+        "carpenjoe",
+        "downfall_bream",
+        "drifting_bream",
+        "hollowbelly_darter",
+        "mistback_chub",
+        "silverfin_pike",
+        "willow_bream",
+        "african_butterflyfish",
+        "betta",
+        "carp",
+        "cichlid",
+        "danio",
+        "discus",
+        "golden_dorado",
+        "goldfish",
+        "gourami",
+        "piranha",
+        "pleco",
+        "tetra",
+        "tiger_barb",
+        "trout"
+      ]
+    },
+    "terralith:warped_mesa": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:white_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:white_mesa": {
+      "elevation": 70,
+      "eligible_habitat_entries": 20,
+      "themed_live_fish": [
+        "agave_bream",
+        "cactifish",
+        "mirage_carp",
+        "oasis_sturgeon",
+        "sandtail",
+        "scorchfish"
+      ]
+    },
+    "terralith:windswept_spires": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:wintry_forest": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:wintry_lowlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:yellowstone": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:yosemite_cliffs": {
+      "elevation": 70,
+      "eligible_habitat_entries": 22,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    },
+    "terralith:yosemite_lowlands": {
+      "elevation": 70,
+      "eligible_habitat_entries": 23,
+      "themed_live_fish": [
+        "blue_ice_pike",
+        "boreal",
+        "crystalback_boreal",
+        "crystalback_sturgeon",
+        "crystalback_trout",
+        "frostjaw_trout",
+        "icetooth_sturgeon",
+        "wintery_pike"
+      ]
+    }
+  },
+  "checks": [
+    "95 unique coverage rows match the released Terralith registry",
+    "33 overridden definitions preserve every non-biome field",
+    "Snowy Badlands excludes all six warm-lake Starcatcher fish and both Create counterparts",
+    "Spring Skylands cherry-tree placement matches cherry fish",
+    "Petal Bass covers all native Terralith flower-forest biomes",
+    "warm Granite Cliffs and cool Birch Taiga and Windswept Spires gain matching freshwater pools",
+    "positive and negative habitat controls",
+    "natural spawning tags unchanged"
+  ],
+  "runtime_tested": false
+}
