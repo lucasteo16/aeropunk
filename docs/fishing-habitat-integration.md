@@ -24,6 +24,8 @@ No global Minecraft or Hybrid spawning tags are broadened. The custom deep warm 
 
 ## Verification and maintenance
 
+The fishing-label resource pack under Paxi's resourcepacks folder supplies English and Simplified Chinese names for all seven custom habitat tags. Language keys use Starcatcher's tag namespace convention, including tag.astropunk.is_ice_spikes. Paxi loads this resource pack automatically on clients; no player resource-pack preferences are rewritten. Multiple biome selectors still use Starcatcher's normal hover prompt. This is a display-only correction in development release 0.10.2.
+
 Static verification checks all 95 coverage rows against the released registry, resolves habitat tags, verifies that every biome admits at least one water-fish entry at an appropriate surface or underground elevation, preserves vanilla tag entries, and compares every overridden definition with its publisher original. Archive verification checks native exports, mod metadata checksums and identical datapack bytes in client and server outputs.
 
 The current review and per-biome results are in fishing-habitat-review.md and fishing-habitat-review.json. The earlier fishing-habitat-verification.json is retained as the 0.10.0 development snapshot. This is not a Minecraft startup or gameplay test. Fresh-world fishing, moving-boat fishing, underwater wildlife density, structure placement and the beta bridge remain untested. Recheck the thirty-three copied definitions after updating Starcatcher or the bridge, because replacement resources do not automatically inherit upstream changes. Prefer additive tag updates when a later upstream release exposes additional habitat tags.

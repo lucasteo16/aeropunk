@@ -1021,6 +1021,18 @@ file = "config/paxi/datapacks/astropunk-fishing-habitats/pack.mcmeta"
 hash = "ec2b30d4705328f68ad280318aa113dae582959b9f26bf7bd90f16a576bd7348"
 
 [[files]]
+file = "config/paxi/resourcepacks/astropunk-fishing-labels/assets/astropunk/lang/en_us.json"
+hash = "1d546034f0d080621ab3eb6f22ba92dfd2f877abdf0ae1aea9f456c37cc8baa9"
+
+[[files]]
+file = "config/paxi/resourcepacks/astropunk-fishing-labels/assets/astropunk/lang/zh_cn.json"
+hash = "ada37c20ae400a7b21296843f7af3b6cb12f9ac46142e123519585e396cd43cb"
+
+[[files]]
+file = "config/paxi/resourcepacks/astropunk-fishing-labels/pack.mcmeta"
+hash = "99556d90ece90883e17d8bfed582958e0c8923692aa8ccd3a3d3c2976709f7d6"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
 

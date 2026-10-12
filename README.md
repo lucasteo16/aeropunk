@@ -4,6 +4,10 @@
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
+### 0.10.2-dev fishing habitat names
+
+Added readable English and Simplified Chinese names for all seven custom fishing habitat tags. Paxi automatically loads the small fishing-label resource pack. This fixes raw translation keys in Starcatcher's guide without changing fish availability or catch conditions. The normal multiple-habitat hover prompt remains unchanged.
+
 ### 0.10.1-dev fishing habitat review
 
 Corrected Snowy Badlands inheriting warm desert fish through the upstream badlands tag. Extended flower fish through Terralith's native flower-forest classification, cherry fish to Spring Skylands, cold freshwater to Birch Taiga and Windswept Spires, and warm freshwater to Granite Cliffs. Only fishing habitat requirements change; natural spawns and all other catch conditions are preserved. See docs/fishing-habitat-review.md for the review and verified coverage.
