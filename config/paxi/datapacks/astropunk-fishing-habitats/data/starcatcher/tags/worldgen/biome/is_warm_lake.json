@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "terralith:granite_cliffs",
+      "required": false
+    },
+    {
       "id": "terralith:ancient_sands",
       "required": false
     },

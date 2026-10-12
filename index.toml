@@ -826,7 +826,7 @@ hash = "91e11a82d0210c32262070d92b3fb3d2d48395b2bacb5f48018f8611914a4353"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_flower_forest.json"
-hash = "d60e1b5ea94005f9ac0f2fee64c11bb9007b5c940929f076f27491afcd756c46"
+hash = "2177a32acae90402f8670dc3fb618bf69f0ecb772f027c0a9b8a698b5aa2fffd"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_ice_spikes.json"
@@ -839,6 +839,14 @@ hash = "f7de42f581c207585cc8d646f47f2ed571ba5d55735b011f2fa42b22623033cc"
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/astropunk/tags/worldgen/biome/is_sunflower_plains.json"
 hash = "ba6c53416824c39ecd1e803a6196536a0722820e68ddcfd99aba423cb4c84d79"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/create/starcatcher/fish/coggill.json"
+hash = "ff671a2064f25f1504956428aae5574182dd2fb3efa4ef99a85e2fe86af34e00"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/create/starcatcher/fish/meka_agave_bream.json"
+hash = "8a01a01663a7b1f82c40cf5ba7747b66270c62d011e21fb426c088296c1c67ca"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/starcatcher/fish/flying_fish.json"
@@ -881,8 +889,16 @@ file = "config/paxi/datapacks/astropunk-fishing-habitats/data/hybrid_aquatic/sta
 hash = "7e6c53006ee4cffbc51f6768c650336f2b41c75a1123b0e1cb010b3eb5ecdf87"
 
 [[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/agave_bream.json"
+hash = "9ba7b7f591a5aa44f3326421daa0035d15566c7ed8a11aabdc909b52d2efc81f"
+
+[[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/aurora.json"
 hash = "a89c39878cf50dcc022065b53b6cb83fc2acc130d3cb0c88df3580519965970f"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/cactifish.json"
+hash = "b44a5fe3ca3468affd33c77e84de66d7981dc0da1d71771c492d17da022c8ebf"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/dripfin.json"
@@ -905,12 +921,28 @@ file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starca
 hash = "59008b52e9590b6499224d8068e7f05f090a660c3a737f75451fdb990c018829"
 
 [[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/mirage_carp.json"
+hash = "a59a3d4464d9520b7d1f0954e644613371dca8442824625a2c2bc4b8ae118125"
+
+[[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/mossfin.json"
 hash = "01b0fe50e59f5d6e71e9e9f533f414a9167bbb0648aefa7b504256f66bdb8d6f"
 
 [[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/oasis_sturgeon.json"
+hash = "35426de6a905acae909c38fd7b366b00b30e56d3ce35f5bda87ee1c3d8666f61"
+
+[[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/petal_bass.json"
 hash = "3b1b09346a090703b9aa5ed8a92c72f968002dbbeafc2fd075fcdd80f12c845e"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/sandtail.json"
+hash = "09cc2eaf4f11817e807da05489741fc5b8df61f1552aaec6ae4e0063e175b07a"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/scorchfish.json"
+hash = "618074600a19050ed20024ef472cfa65b33aee443e86eda3567300c837df453d"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/starcatcher/fish/sculkfish.json"
@@ -950,11 +982,11 @@ hash = "699f71e2f57a2109f462883eb1d4b8cd16a5550334ffd00bbe79e3e714520f94"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_cherry_grove.json"
-hash = "d71cdfd9e66553e907ea36c58451732c38410ec9c3c97b441efde8443c47afcd"
+hash = "9033ebabde248f9c9ea7eb00a9efa6ccc522089a2d99ad7cf7bec60f242599dc"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_cold_lake.json"
-hash = "a10b981665feef473284bc6cd331f5203363b7c07851e5782fa87f17548400c1"
+hash = "45e807aabfecf109d44f58a7a8506b0a8153f519e17fd67c797e3f0c183aab72"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_dark_forest.json"
@@ -974,7 +1006,7 @@ hash = "359656d412841b84094795d22a97dc07388be7bca422f281d0749005145e3ef0"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_warm_lake.json"
-hash = "c08d589966b871a755dd091b159bba52582f264ce8e557b2e97236b8042784ce"
+hash = "f10433c0a6cb41cd18e7d06f6fe4422f20adbd0cd861c6d0138f9aac06a58a85"
 
 [[files]]
 file = "config/paxi/datapacks/astropunk-fishing-habitats/data/starcatcher/tags/worldgen/biome/is_warm_ocean.json"

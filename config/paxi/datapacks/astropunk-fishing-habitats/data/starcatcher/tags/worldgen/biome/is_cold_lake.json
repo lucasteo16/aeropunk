@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     {
+      "id": "terralith:birch_taiga",
+      "required": false
+    },
+    {
+      "id": "terralith:windswept_spires",
+      "required": false
+    },
+    {
       "id": "terralith:alpha_islands_winter",
       "required": false
     },

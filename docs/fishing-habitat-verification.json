@@ -1,4 +1,6 @@
 {
+  "source_version": "0.10.0-dev",
+  "superseded_by": "fishing-habitat-review.json",
   "biomes": {
     "terralith:alpha_islands": {
       "elevation": 70,
