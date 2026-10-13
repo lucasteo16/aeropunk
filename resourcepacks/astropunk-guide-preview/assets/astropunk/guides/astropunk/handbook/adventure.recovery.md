@@ -10,6 +10,10 @@ navigation:
 
 ## Recover equipment
 
+![A corpse holding dropped equipment](images/visual-corpse-recovery.png)
+
+A corpse holding dropped equipment
+
 Corpse leaves a body at your death location containing your carried items. Return to that location and interact with the body to open its inventory. Recovering items still requires reaching the site safely, prepare replacement equipment before returning to a dangerous encounter.
 
 Corpse x Curios compatibility restores supported accessories to their equipment slots when transferring them. Check your slots after recovery rather than assuming every accessory is equipped.

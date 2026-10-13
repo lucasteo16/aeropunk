@@ -36,6 +36,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Berserker armor](images/visual-berserker-armor.png)
+
+Berserker armor
+
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>

@@ -6,7 +6,7 @@ This is the authoring contract for every handbook update. It belongs to reposito
 
 The same handbook resources serve the light and heavy editions. Populate heavy-edition references even when authoring against the light pack, and label their scope with (heavy edition only), or （仅重型版）. Do not describe common content as baseline or installed, and do not claim edition-specific content is absent from whichever instance reads the guide. Keep truly deferred additions distinct from heavy-edition content. Optional-mod native item references must not cause missing-item errors in the light edition.
 
-Combat may use three sidebar levels: the Combat root, a class grouping, and a focused class article. Keep the Combat overview concise and move class-specific equipment, abilities and starter recipes into those articles. Preserve native references and meaningful shared mechanics, without duplicating all class recipes on Weapons and armor. Keep all sidebar item identifiers globally unique.
+Combat and Creatures may use three sidebar levels when a grouping keeps a large catalog readable. Combat uses the Combat root, a class grouping and a focused class article. Creatures uses the Creatures root, Aquatic wildlife and its focused family articles. Other creature families remain direct Creatures children. Keep landing pages concise and retain each species in one primary catalog. Preserve native references and meaningful shared mechanics without duplicating all class recipes on Weapons and armor. Keep all sidebar item identifiers globally unique.
 
 Place Cooking tools first and Hunger and variety second within Food and farming. Keep help about the handbook and other documentation under Technical, not gameplay Utilities. Consolidate Moving destinations into Teleportation. Keep image-source qualifications and artwork provenance in authoring records rather than verbose player-facing captions.
 
@@ -41,6 +41,8 @@ Use native item slots for actual item instruction, with item names and hover too
 Use native recipes only for types the selected renderer supports. For unsupported processing types, show verified item visuals and concise output data. State quantities and chances exactly. Record the source artifact and recipe identifier in authoring evidence, not as an intrusive player-facing disclaimer. Never substitute an illustrative scene for a working arrangement without identifying what it depicts.
 
 Keep an introduction to one sentence when possible. Prefer short labels, comparison tables and brief instructions. Explain one mechanic per section. Add numbered steps only when order matters. Avoid dense prose, repeated warnings, large icon-title-description stacks and unqualified claims that all machines or containers behave identically.
+
+Most substantial subpages should have at least one useful authentic scene, equipment illustration or interface image. Item grids and small provider logos do not replace a gameplay visual. Review both publisher main-description embeds and galleries, then suitable identifiable online sources when needed. Place the image beside the subject it explains, retain concise captions and keep native item references for interaction. Top-level directories may remain text-led. Do not fill technical or administrative articles with unrelated images merely to meet a quota.
 
 Reuse Create Ponder for supported assembly and operation. Identify the relevant item and its help entry rather than rebuilding an existing demonstration. Write bespoke explanation when existing help does not cover the mechanic or interaction.
 

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@rogues" /> <EmiSearch query="@skill_tree_rpgs" /> <EmiSearch query="@wizards" />
 
+![Connected class skill paths](images/visual-class-skill-tree.png)
+
+Connected class skill paths
+
 <ItemGrid>
   <ItemIcon id="skill_tree_rpgs:orb_of_oblivion" />
   <ItemIcon id="rogues:iron_dagger" />

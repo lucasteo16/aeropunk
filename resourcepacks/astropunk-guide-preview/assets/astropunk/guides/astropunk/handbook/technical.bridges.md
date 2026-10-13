@@ -8,6 +8,14 @@ navigation:
 
 # Compatibility
 
+## Equipment on ships
+
+<EmiSearch query="@create_sa" /> <EmiSearch query="@create" />
+
+The Create Stuff 'N Additions Sable and Aeronautics compatibility addon adapts that equipment to moving ships. It is a compatibility layer, not a new vehicle family. Use the equipment's own recipes and controls, and do not assume it makes every interaction on a moving build interchangeable with a stationary one.
+
+***
+
 ## Moving structures
 
 Sable: Physics Compat supplies block physics properties. Sable Beyond extends moving-structure behavior. Neither is a catalogue of craftable vehicles. Compatibility support does not mean every block interaction works on a moving build.
@@ -52,6 +60,7 @@ Sound and animation bridges are listed with the feature they change. Shared fram
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | Removes built-in attribute limits that can restrict modded values. | No separate item search |
+| ![Create Stuff 'N Additions x Sable & Aeronautics Compat](images/catalog-gsaqdfou.png) [Create Stuff 'N Additions x Sable & Aeronautics Compat](technical.bridges.md) | Connects Create Stuff additions with Sable and Aeronautics ships. | No separate item search |
 | ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | Repairs vanilla bee behavior. | No separate item search |
 | ![Sable Beyond](images/catalog-prw3b4fh.png) [Sable Beyond](technical.bridges.md) | Extends Sable with Create machine interactions and configurable mass and fluid physics. | No separate item search |
 | ![Sable: Physics Compat](images/catalog-szbcirjb.png) [Sable: Physics Compat](technical.bridges.md) | Adds physics property tags to supported modded blocks. | No separate item search |

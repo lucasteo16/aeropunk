@@ -12,6 +12,14 @@ navigation:
 
 <EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
 
+![Radar monitor display](images/feedback-radar-monitor.png)
+
+Radar monitor display
+
+![Radar antenna assemblies](images/feedback-radar-dish.png)
+
+Radar antenna assemblies
+
 <ItemGrid>
   <ItemIcon id="create_radar:radar_bearing" />
   <ItemIcon id="create_radar:radar_dish_block" />

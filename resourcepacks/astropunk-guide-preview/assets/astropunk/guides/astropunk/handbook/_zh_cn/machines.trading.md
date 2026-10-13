@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
 
+![交易平台大厅](images/visual-trading-hall.png)
+
+交易平台大厅
+
 <ItemGrid>
   <ItemIcon id="trading_floor:trading_depot" />
   <ItemIcon id="minecraft:lectern" />

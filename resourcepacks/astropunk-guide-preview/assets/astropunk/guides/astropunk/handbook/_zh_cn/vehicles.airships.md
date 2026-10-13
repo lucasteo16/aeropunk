@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
 
+![不同船体与升力布局的飞空船](images/visual-airship-designs.png)
+
+不同船体与升力布局的飞空船
+
 <ItemGrid>
   <ItemIcon id="aeronautics:white_envelope" />
   <ItemIcon id="aeronautics:adjustable_burner" />

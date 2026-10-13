@@ -10,6 +10,10 @@ navigation:
 
 ## Martial classes
 
+![Berserker armor](images/visual-berserker-armor.png)
+
+Berserker armor
+
 Choose a class for its role, starter recipe, books, full ability list, skills and equipment.
 
 - [Archer](class.archer.md)

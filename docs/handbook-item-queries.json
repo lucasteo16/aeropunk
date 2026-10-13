@@ -1,5 +1,8 @@
 {
-  "mods/paxi.pw.toml": {"en_us": [], "zh_cn": []},
+  "mods/paxi.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
   "mods/additional-rpg-jewelry.pw.toml": {
     "en_us": [
       "@additional_rpg_jewelry"
@@ -1224,10 +1227,6 @@
       "@reinfshulker"
     ]
   },
-  "mods/reliable-advancements.pw.toml": {
-    "en_us": [],
-    "zh_cn": []
-  },
   "mods/reliable-emi.pw.toml": {
     "en_us": [],
     "zh_cn": []
@@ -1741,5 +1740,97 @@
       "@aeroengineering",
       "@tfmg"
     ]
+  },
+  "mods/almostunified.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/azimuth-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/better-advancements.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/create-unified-fuels.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/hybrid-api.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml": {
+    "en_us": [
+      "@hybrid_aquatic"
+    ],
+    "zh_cn": [
+      "@hybrid_aquatic"
+    ]
+  },
+  "mods/hybrid-aquatic.pw.toml": {
+    "en_us": [
+      "@hybrid_aquatic"
+    ],
+    "zh_cn": [
+      "@hybrid_aquatic"
+    ]
+  },
+  "mods/hybrid-delights.pw.toml": {
+    "en_us": [
+      "@hybrid_delights"
+    ],
+    "zh_cn": [
+      "@hybrid_delights"
+    ]
+  },
+  "mods/iris-flw-compat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/iris-veil-compat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/jade-sable-compat.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/oceans-delight.pw.toml": {
+    "en_us": [
+      "@oceansdelight"
+    ],
+    "zh_cn": [
+      "@oceansdelight"
+    ]
+  },
+  "mods/starcatcher.pw.toml": {
+    "en_us": [
+      "@starcatcher"
+    ],
+    "zh_cn": [
+      "@starcatcher"
+    ]
+  },
+  "mods/starcatchers-delight.pw.toml": {
+    "en_us": [
+      "@starcatcher_delight"
+    ],
+    "zh_cn": [
+      "@starcatcher_delight"
+    ]
+  },
+  "mods/strut-your-stuff.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/tidal-towns.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
   }
 }

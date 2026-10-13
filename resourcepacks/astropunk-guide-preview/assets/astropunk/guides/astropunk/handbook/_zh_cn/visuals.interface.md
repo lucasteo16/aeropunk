@@ -10,6 +10,10 @@ navigation:
 
 ## 视频选项
 
+![重新整理的视频设置](images/feedback-video-options.png)
+
+重新整理的视频设置
+
 Reese's Sodium Options 重新组织视频菜单。Sodium Extra 增加外观、粒子、动画与信息显示控制。两者都不是地形渲染器本身。
 
 | 内容 | 作用 |

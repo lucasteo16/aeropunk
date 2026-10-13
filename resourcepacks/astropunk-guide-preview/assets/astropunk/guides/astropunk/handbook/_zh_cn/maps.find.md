@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@explorerscompass" /> <EmiSearch query="@naturescompass" />
 
+![Nature’s Compass 生物群系选择界面](images/visual-biome-finder.png)
+
+Nature’s Compass 生物群系选择界面
+
 <ItemGrid><ItemIcon id="naturescompass:naturescompass" /><ItemIcon id="explorerscompass:explorerscompass" /></ItemGrid>
 
 | 图示物品 |

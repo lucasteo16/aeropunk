@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@farmersdelight" />
 
+![厨房食材菜园](images/visual-garden-crops.png)
+
+厨房食材菜园
+
 <ItemGrid>
   <ItemIcon id="minecraft:wheat" />
   <ItemIcon id="minecraft:carrot" />

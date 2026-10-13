@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@chipped" />
 
+![Chipped 石工台与不同石材外观](images/visual-mason-workbench.png)
+
+Chipped 石工台与不同石材外观
+
 <ItemGrid>
   <ItemIcon id="chipped:carpenters_table" />
   <ItemIcon id="chipped:basket_woven_oak_planks" />

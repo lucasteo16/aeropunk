@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@tfmg" /> <EmiSearch query="@create" />
 
+![Oil extraction machinery](images/feedback-oil-extraction.png)
+
+Oil extraction machinery
+
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />
   <ItemIcon id="tfmg:coal_coke" />

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
 
+![地牢战利品中的遗物](images/visual-relic-collection.png)
+
+地牢战利品中的遗物
+
 <ItemGrid>
   <ItemIcon id="jewelry:jewelers_kit" />
   <ItemIcon id="jewelry:copper_ring" />

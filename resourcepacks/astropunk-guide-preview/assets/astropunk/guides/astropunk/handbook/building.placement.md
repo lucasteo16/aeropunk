@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@mechtrowel" />
 
+![The Mechanical Trowel palette manager](images/visual-trowel-palette.png)
+
+The Mechanical Trowel palette manager
+
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
   <ItemIcon id="mechtrowel:wand_template" />

@@ -34,9 +34,11 @@ navigation:
 | ![AsyncParticles](images/catalog-c3onkd5k.png) [AsyncParticles](performance.baseline.md) | 优化粒子运算与渲染。 | 无独立物品查询 |
 | ![Athena](images/catalog-b1zv3dij.png) [Athena](technical.libraries.md) | 提供跨加载器的方块连接纹理支持。 | 无独立物品查询 |
 | ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | 移除可能限制模组数值的内置属性上限。 | 无独立物品查询 |
+| ![Azimuth API](images/catalog-rph8tmt1.png) [Azimuth API](technical.libraries.md) | 为所选 Create 扩展提供支持。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [BadOptimizations](performance.baseline.md) | 优化主地形渲染器以外的处理。 | 无独立物品查询 |
 | ![BaguetteLib](images/catalog-ofkzpbru.png) [BaguetteLib](technical.libraries.md) | 死亡处理与物品栏追踪支持。 | 无独立物品查询 |
 | ![Balm](images/catalog-mbakmtvl.png) [Balm](technical.libraries.md) | 共享独立于加载器的系统，让依赖模组可用于多种加载器。 | 无独立物品查询 |
+| ![Better Advancements](images/catalog-q2oqkxdg.png) [Better Advancements](help.reference.md) | 改善进度界面，不增加发展条件。 | 无独立物品查询 |
 | ![Bookshelf](images/catalog-uy4cnpcm.png) [Bookshelf](technical.libraries.md) | 为依赖模组提供共享数据序列化、数据包功能与调试工具。 | 无独立物品查询 |
 | ![Bundle API](images/catalog-n8qn6z1a.png) [Bundle API](technical.libraries.md) | 提供更大容量的收纳袋，并用标签限定可收纳物品。 | 无独立物品查询 |
 | ![Chunky](images/catalog-falzjamp.png) [Chunky](server.tools.md) | 在探索前预先生成地形。 | 无独立物品查询 |
@@ -45,6 +47,7 @@ navigation:
 | ![Collective](images/catalog-e0m1udsy.png) [Collective](technical.libraries.md) | 为 Serilum 实用模组提供共享功能。 | 无独立物品查询 |
 | ![Concurrent Chunk Management Engine (NeoForge)](images/catalog-colsi5ir.png) [Concurrent Chunk Management Engine (NeoForge)](performance.baseline.md) | 优化区块管理与生成。 | 无独立物品查询 |
 | ![Configured Defaults](images/catalog-sisosfpp.png) [Configured Defaults](server.tools.md) | 为缺失文件提供整合包默认设置。 | 无独立物品查询 |
+| ![Create Stuff 'N Additions x Sable & Aeronautics Compat](images/catalog-gsaqdfou.png) [Create Stuff 'N Additions x Sable & Aeronautics Compat](technical.bridges.md) | 让 Create Stuff 扩展与 Sable、Aeronautics 船体兼容。 | 无独立物品查询 |
 | ![Create: Dragons Plus](images/catalog-dzb1a5wv.png) [Create: Dragons Plus](technical.libraries.md) | 增加风扇批量加工与储液罐存取工具，并提供机械动力附加模组共享工具。 | <EmiSearch query="@create_dragons_plus" /> |
 | ![Create: LazyTick](images/catalog-z0d7hfh4.png) [Create: LazyTick](performance.baseline.md) | 优化机械动力机器的刻处理。 | <EmiSearch query="@createlazytick" /> |
 | ![CreateBetterFps](images/catalog-lmyihznh.png) [CreateBetterFps](performance.baseline.md) | 优化使用光影时的机械动力渲染。 | 无独立物品查询 |
@@ -61,6 +64,7 @@ navigation:
 | ![Geckolib](images/catalog-8bmcqj2h.png) [Geckolib](technical.libraries.md) | 实体、方块、物品与盔甲动画库。 | 无独立物品查询 |
 | ![GroovyModLoader (GML)](images/catalog-zg2tt2vu.png) [GroovyModLoader (GML)](technical.libraries.md) | Groovy 语言支持。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [GuideME](help.handbook.md) | 以排版文本、物品展示与交互场景呈现游戏内指南页面。 | <EmiSearch query="@guideme" /> |
+| ![Hybrid API [HAPI]](images/catalog-yv9f5eag.png) [Hybrid API [HAPI]](technical.libraries.md) | 提供 Hybrid Aquatic 所需的基础框架。 | 无独立物品查询 |
 | ![Iceberg](images/catalog-5faxolqx.png) [Iceberg](technical.libraries.md) | 为依赖模组提供额外事件与工具函数。 | 无独立物品查询 |
 | ![ImmediatelyFast](images/catalog-5zwdcrci.png) [ImmediatelyFast](performance.baseline.md) | 优化即时模式渲染。 | 无独立物品查询 |
 | ![Ixeris](images/catalog-p8rjpjic.png) [Ixeris](performance.baseline.md) | 提供缓冲原始输入与独立线程事件轮询。 | 无独立物品查询 |
@@ -92,7 +96,6 @@ navigation:
 | ![Puzzles Lib](images/catalog-qagbst4m.png) [Puzzles Lib](technical.libraries.md) | 提供 Fuzss 模组所需的共享支持系统。 | 无独立物品查询 |
 | ![quick pack](images/catalog-psisfj4o.png) [quick pack](performance.baseline.md) | 加速压缩数据包与资源包加载。 | 无独立物品查询 |
 | ![Ranged Weapon API](images/catalog-aqaiio6d.png) [Ranged Weapon API](technical.libraries.md) | 弓与弩开发支持。 | 无独立物品查询 |
-| ![Reliable Advancements](images/catalog-xvwaug1g.png) [Reliable Advancements](help.reference.md) | 改进进度浏览，并支持在游戏内编辑进度。 | 无独立物品查询 |
 | ![Resourceful Config](images/catalog-m1953qlq.png) [Resourceful Config](technical.libraries.md) | 提供跨平台设置文件与设置界面。 | 无独立物品查询 |
 | ![Resourceful Lib](images/catalog-g1hivord.png) [Resourceful Lib](technical.libraries.md) | 为依赖模组提供共享网络通信、数据编码与界面工具。 | 无独立物品查询 |
 | ![Ritchie's Projectile Library](images/catalog-b3pb093d.png) [Ritchie's Projectile Library](technical.libraries.md) | 提供远程弹射物同步与弹射物区块加载支持。 | 无独立物品查询 |
@@ -110,6 +113,7 @@ navigation:
 | ![Spell Power Attributes](images/catalog-8oowzsqp.png) [Spell Power Attributes](technical.libraries.md) | 法术相关属性、效果与附魔支持。 | 无独立物品查询 |
 | ![Structure Layout Optimizer](images/catalog-aypu0ohc.png) [Structure Layout Optimizer](performance.baseline.md) | 优化拼图结构布局处理。 | 无独立物品查询 |
 | ![Structure Pool API](images/catalog-lryzi08q.png) [Structure Pool API](technical.libraries.md) | 结构池扩展支持。 | 无独立物品查询 |
+| ![Strut Your Stuff (Struts)](images/catalog-sho3mhqx.png) [Strut Your Stuff (Struts)](technical.libraries.md) | 为 Create 扩展提供梁柱支撑功能，没有独立物品目录。 | 无独立物品查询 |
 | ![Teal Lib](images/catalog-rlj1qf79.png) [Teal Lib](technical.libraries.md) | 提供共享动画与数据驱动的生物变体系统。 | <EmiSearch query="@teallib" /> |
 | ![YetAnotherConfigLib (YACL)](images/catalog-1eaoo2kr.png) [YetAnotherConfigLib (YACL)](technical.libraries.md) | 设置界面构建库。 | 无独立物品查询 |
 | ![YUNG's API](images/catalog-ua7dfn59.png) [YUNG's API](technical.libraries.md) | YUNG 模组共享代码。 | 无独立物品查询 |

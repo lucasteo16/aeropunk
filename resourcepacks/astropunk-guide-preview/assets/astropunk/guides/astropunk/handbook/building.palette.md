@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@chipped" />
 
+![Chipped's Mason's Workbench and stone finishes](images/visual-mason-workbench.png)
+
+Chipped's Mason's Workbench and stone finishes
+
 <ItemGrid>
   <ItemIcon id="chipped:carpenters_table" />
   <ItemIcon id="chipped:basket_woven_oak_planks" />

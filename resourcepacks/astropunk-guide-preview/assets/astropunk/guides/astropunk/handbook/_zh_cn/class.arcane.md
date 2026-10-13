@@ -28,6 +28,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![使用法杖施展奥术](images/visual-arcane-casting.png)
+
+使用法杖施展奥术
+
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
 </ItemGrid>

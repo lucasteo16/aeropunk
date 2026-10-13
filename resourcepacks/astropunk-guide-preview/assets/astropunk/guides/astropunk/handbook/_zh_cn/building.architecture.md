@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@mcwbridges" />
 
+![木制绳索桥](images/visual-rope-bridge.png)
+
+木制绳索桥
+
 <ItemGrid>
   <ItemIcon id="mcwbridges:oak_log_bridge_middle" />
   <ItemIcon id="mcwbridges:oak_rail_bridge" />

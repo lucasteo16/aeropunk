@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_hypertube" />
 
+![超级管道区段与支撑](images/visual-local-hypertubes.png)
+
+超级管道区段与支撑
+
 <ItemGrid>
   <ItemIcon id="create_hypertube:hypertube" />
   <ItemIcon id="create_hypertube:hypertube_entrance" />

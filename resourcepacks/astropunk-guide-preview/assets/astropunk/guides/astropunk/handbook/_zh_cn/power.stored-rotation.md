@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
 
+![Create: Springs 弹簧设备](images/visual-spring-storage.png)
+
+Create: Springs 弹簧设备
+
 <ItemGrid>
   <ItemIcon id="create_connected:kinetic_battery" />
   <ItemIcon id="createsprings:spring" />

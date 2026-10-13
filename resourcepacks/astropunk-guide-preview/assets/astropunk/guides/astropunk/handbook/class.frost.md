@@ -23,6 +23,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Frost spell effects](images/visual-frost-magic.png)
+
+Frost spell effects
+
 <ItemGrid>
   <ItemIcon id="wizards:wand_frost" />
 </ItemGrid>

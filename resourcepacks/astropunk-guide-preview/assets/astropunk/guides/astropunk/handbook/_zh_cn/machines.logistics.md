@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
+![输送带旁的包裹加速器](images/visual-package-routing.png)
+
+输送带旁的包裹加速器
+
 <ItemGrid>
   <ItemIcon id="create:belt_connector" />
   <ItemIcon id="create:andesite_funnel" />

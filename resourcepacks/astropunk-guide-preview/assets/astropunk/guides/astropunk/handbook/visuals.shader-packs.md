@@ -10,6 +10,14 @@ navigation:
 
 ## Shader styles
 
+![Complementary Unbound landscape](images/feedback-shader-unbound.png)
+
+Complementary Unbound landscape
+
+![Complementary Reimagined landscape](images/feedback-shader-reimagined.png)
+
+Complementary Reimagined landscape
+
 Choose one shader style through Iris rather than treating three shader packs as three simultaneous rendering effects. Shader performance depends on the selected preset, scene and computer.
 
 | Component | Function |

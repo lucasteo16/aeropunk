@@ -32,6 +32,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![盗贼与战士装备](images/visual-martial-equipment.png)
+
+盗贼与战士装备
+
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
 </ItemGrid>

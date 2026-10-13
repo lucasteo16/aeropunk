@@ -1,5 +1,11 @@
 # Astropunk editions
 
+## Handbook visual review
+
+The retained guide branch has a local `0.11.1-g` review package based on development commit `43ffb9f`. Fishing and most substantial subpages now use authentic subject images from publisher descriptions and galleries. Creatures has focused family pages, and Aquatic wildlife has separate fish, shark, jellyfish, cephalopod, seafloor and mammal catalogs. The latest image feedback adds twenty assets across nineteen topics, including orbital flight above Earth, Tempad, cannons, radar, enchanting, materials, fluid supply, rotation, Jade, Carry On and every Appearance subpage. Martial classes and Aquatic wildlife reuse existing family images. Native item references and recipe searches are retained. The handbook authoring standard now records the visual-first subpage rule.
+
+See `docs/handbook-visual-review.md` for the exact changed-page list, image provenance, automated verification and player acceptance checklist. These are local handbook changes, not a gameplay deployment or permission to merge back into development. Image appearance, readability and actual game interactions still require Lucas's review.
+
 ## Development branch
 
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.

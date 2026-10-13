@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
 
+![Train bodywork with Bells & Whistles fittings](images/visual-train-fittings.png)
+
+Train bodywork with Bells & Whistles fittings
+
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />
   <ItemIcon id="createrailwaysnavigator:train_station_clock" />

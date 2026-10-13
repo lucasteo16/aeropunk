@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
 
+![Close combat with class equipment](images/visual-melee-combat.png)
+
+Close combat with class equipment
+
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
   <ItemIcon id="rogues:iron_dagger" />

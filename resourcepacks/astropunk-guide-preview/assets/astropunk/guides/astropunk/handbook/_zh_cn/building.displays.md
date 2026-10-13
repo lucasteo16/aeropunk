@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@immersive_paintings" />
 
+![陈列的金属块与锭](images/visual-displayed-materials.png)
+
+陈列的金属块与锭
+
 <ItemGrid>
   <ItemIcon id="immersive_paintings:painting" />
   <ItemIcon id="immersive_paintings:glow_painting" />

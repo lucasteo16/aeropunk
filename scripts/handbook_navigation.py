@@ -8,6 +8,13 @@ ROOT_ORDER = (
 )
 CHILD_ORDER = {
     'adventure.structures': ('adventure.settlements', 'adventure.loot'),
+    'adventure.creatures': ('creatures.wilderness', 'creatures.friends', 'adventure.aquatic',
+                           'creatures.creepers', 'creatures.endermen', 'creatures.variants',
+                           'creatures.guards', 'creatures.cataclysm', 'creatures.illagers',
+                           'creatures.summons'),
+    'adventure.aquatic': ('aquatic.freshwater', 'aquatic.marine', 'aquatic.deepwater',
+                         'aquatic.sharks', 'aquatic.jellyfish', 'aquatic.cephalopods',
+                         'aquatic.seafloor', 'aquatic.mammals'),
     'maps.personal': ('maps.find', 'maps.shared'),
     'reference.utilities': ('help.inspect', 'interactions.carry', 'adventure.sleep', 'adventure.recovery'),
     'reference.skills': ('combat.handling', 'reference.equipment', 'equipment.weapons-armor',
@@ -18,6 +25,7 @@ CHILD_ORDER = {
     'combat.magic': ('class.arcane', 'class.fire', 'class.frost', 'class.aqua', 'class.terra',
                      'class.wind', 'class.priest', 'class.paladin', 'class.bard', 'class.witcher'),
     'reference.food': ('food.utensils', 'food.hunger', 'food.growing', 'food.fishing',
+                       'fishing.habitats', 'food.seafood',
                        'food.underground', 'food.nether', 'food.end', 'food.encounters', 'food.machine-cooking'),
     'reference.building': ('building.palette', 'building.placement', 'building.architecture',
                            'building.copycats', 'building.furniture', 'building.displays',

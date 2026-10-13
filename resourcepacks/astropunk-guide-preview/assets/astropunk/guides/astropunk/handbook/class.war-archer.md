@@ -23,6 +23,10 @@ item_ids:
 
 ## Role & first weapon
 
+![War Archer combat](images/visual-war-archer-combat.png)
+
+War Archer combat
+
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>

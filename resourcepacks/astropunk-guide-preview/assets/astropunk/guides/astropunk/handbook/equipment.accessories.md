@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@jewelry" /> <EmiSearch query="@relics_rpgs" />
 
+![Relics among dungeon loot](images/visual-relic-collection.png)
+
+Relics among dungeon loot
+
 <ItemGrid>
   <ItemIcon id="jewelry:jewelers_kit" />
   <ItemIcon id="jewelry:copper_ring" />

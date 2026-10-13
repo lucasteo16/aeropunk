@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
 
+![Train bodywork with Bells & Whistles fittings](images/visual-train-fittings.png)
+
+Train bodywork with Bells & Whistles fittings
+
 <ItemGrid>
   <ItemIcon id="bellsandwhistles:brass_pilot" />
   <ItemIcon id="bellsandwhistles:brass_grab_rails" />
@@ -55,6 +59,10 @@ Create: Bits 'n' Bobs combines stone tile families with seating and lighting. Th
 ## Bricks & catwalks
 
 <EmiSearch query="@createdeco" />
+
+![Factory walkways and industrial finishes](images/visual-factory-interior.png)
+
+Factory walkways and industrial finishes
 
 <ItemGrid>
   <ItemIcon id="createdeco:iron_catwalk" />

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
 
+![使用 Bells & Whistles 配件的列车车体](images/visual-train-fittings.png)
+
+使用 Bells & Whistles 配件的列车车体
+
 <ItemGrid>
   <ItemIcon id="createrailwaysnavigator:navigator" />
   <ItemIcon id="createrailwaysnavigator:train_station_clock" />

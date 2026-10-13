@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用末地食材烹饪"
-  position: 6
+  position: 8
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---
@@ -11,6 +11,10 @@ navigation:
 ## 紫颂料理
 
 <EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+
+![末地建材中的厨房](images/visual-end-kitchen.png)
+
+末地建材中的厨房
 
 <ItemGrid>
   <ItemIcon id="ends_delight:chorus_fruit_grain" />

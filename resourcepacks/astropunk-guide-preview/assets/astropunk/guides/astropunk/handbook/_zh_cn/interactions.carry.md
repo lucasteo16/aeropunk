@@ -10,6 +10,10 @@ navigation:
 
 ## 搬运方块与生物
 
+![搬运箱子](images/feedback-carry-chest.png)
+
+搬运箱子
+
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />
   <ItemIcon id="minecraft:furnace" />

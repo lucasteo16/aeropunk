@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
 
+![Airships with different hulls and lift arrangements](images/visual-airship-designs.png)
+
+Airships with different hulls and lift arrangements
+
 <ItemGrid>
   <ItemIcon id="aeronautics:white_envelope" />
   <ItemIcon id="aeronautics:adjustable_burner" />

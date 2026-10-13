@@ -10,6 +10,10 @@ navigation:
 
 ## 模型支持
 
+![自定义掠夺者动画模型](images/feedback-entity-models.png)
+
+自定义掠夺者动画模型
+
 Entity Model Features 与 Entity Texture Features 提供自定义模型与纹理支持。Model Gap Fix 修复可见模型缝隙。自定义动画外观也取决于已启用资源包。
 
 | 内容 | 作用 |

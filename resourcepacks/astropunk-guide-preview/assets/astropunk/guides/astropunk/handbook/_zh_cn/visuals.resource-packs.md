@@ -10,6 +10,10 @@ navigation:
 
 ## 纹理支持
 
+![Better Leaves 的树叶外观](images/feedback-resource-leaves.png)
+
+Better Leaves 的树叶外观
+
 这些模组实现连接纹理、资源包颜色或生物群系颜色混合。实际外观取决于已启用内容与设置。
 
 | 内容 | 作用 |

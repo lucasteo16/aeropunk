@@ -48,6 +48,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Bard music in combat](images/visual-bard-music.png)
+
+Bard music in combat
+
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>

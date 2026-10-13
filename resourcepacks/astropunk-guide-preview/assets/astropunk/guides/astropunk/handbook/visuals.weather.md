@@ -22,6 +22,10 @@ GrandTeleport changes the camera transition during teleportation. It does not cr
 
 ## Particles & explosions
 
+![Explosion particle effects (heavy edition only)](images/feedback-explosion-particles.png)
+
+Explosion particle effects (heavy edition only)
+
 The heavy edition adds explosion, status-particle and ambient visual effects. Particle optimizers are separate from visual effect generators.
 
 | Component | Function |

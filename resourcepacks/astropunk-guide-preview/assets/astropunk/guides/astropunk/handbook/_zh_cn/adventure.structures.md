@@ -7,6 +7,14 @@ navigation:
 
 # 结构与地牢
 
+## 海洋聚落
+
+Tidal Towns 在主世界的深海生物群系提供海上村庄。
+
+- [海上村庄建筑与出行](adventure.settlements.md)
+
+***
+
 ## When Dungeons Arise
 
 ![Mechanical Nest](images/encounters-when-dungeons-arise-mechanical-nest.png)
@@ -417,6 +425,7 @@ Incendium Biomes Only 移除了 Incendium 的建筑、特殊生物、首领与�
 | ![EMI Loot](images/catalog-qbbo7jns.png) [EMI Loot](adventure.loot.md) | 在 EMI 中显示箱子、方块与生物的战利品来源。 | 无独立物品查询 |
 | ![Gazebos (RPG Series)](images/catalog-xipmgi6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 增加藏有小型法术图书馆的村庄凉亭。 | 无独立物品查询 |
 | ![Lootr](images/catalog-eltpo5cn.png) [Lootr](adventure.loot.md) | 让每位玩家在受支持的世界生成容器中获得独立战利品。 | <EmiSearch query="@lootr" /> |
+| ![Tidal Towns](images/catalog-eeiwvqvo.png) [Tidal Towns](adventure.settlements.md) | 加入海洋聚落与不同建筑变体。 | 无独立物品查询 |
 | ![Village Taverns (RPG Series)](images/catalog-bj4a8njj.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 增加村庄酒馆，让旅人找到饮品与休息处。 | <EmiSearch query="@village_taverns" /> |
 | ![When Dungeons Arise](images/catalog-8dfbfasn.png) [When Dungeons Arise](adventure.structures.md) | 增加大型敌对地下城与探索建筑。 | 无独立物品查询 |
 | ![YUNG's Better Desert Temples](images/catalog-xnlo7sbv.png) [YUNG's Better Desert Temples](adventure.structures.md) | 以更多房间与探索布局重建沙漠神殿。 | 无独立物品查询 |

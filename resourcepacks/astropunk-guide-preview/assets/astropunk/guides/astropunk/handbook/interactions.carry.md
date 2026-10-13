@@ -10,6 +10,10 @@ navigation:
 
 ## Carry blocks & creatures
 
+![Carrying a chest](images/feedback-carry-chest.png)
+
+Carrying a chest
+
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />
   <ItemIcon id="minecraft:furnace" />

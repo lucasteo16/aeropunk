@@ -10,6 +10,10 @@ navigation:
 
 ## 饥饿值与饱和度
 
+![餐桌上的多种料理](images/visual-shared-feast.png)
+
+餐桌上的多种料理
+
 <ItemGrid>
   <ItemIcon id="minecraft:apple" />
   <ItemIcon id="minecraft:bread" />
@@ -37,7 +41,29 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 
 ***
 
+## 食物堆叠上限
+
+Short Stacks 按恢复的饥饿值限制可食用物品，不按饱和度或稀有度计算。更能填饱肚子的食物通常每格装得更少，模组不会提高物品原有的堆叠上限。
+
+| 恢复的饥饿值点数 | 按营养计算的上限 |
+| --- | --- |
+| 2 | 32 |
+| 4 | 16 |
+| 5 | 12 |
+| 6 | 10 |
+| 8 | 8 |
+
+上表是物品自身限制生效前的上限。原本只能堆叠一个的料理仍只能放一个。生鱼、熟鱼与海鲜料理恢复的饥饿值不同，因此堆叠限制也可能不同。食物容器不是可食用料理。
+
+- [海鲜选择](food.seafood.md)
+
+***
+
 ## 准备口粮
+
+![食物手册、餐袋与餐盒](images/visual-diet-containers.png)
+
+食物手册、餐袋与餐盒
 
 <ItemGrid>
   <ItemIcon id="solonion:lunchbag" />
@@ -49,7 +75,7 @@ AppleSkin 在食物提示中同时显示饥饿值恢复量与饱和度。饥饿�
 
 - [厨房料理](food.utensils.md)
 - [作物食材](food.growing.md)
-- [鱼类料理](food.fishing.md)
+- [鱼类料理](food.seafood.md)
 
 ***
 
