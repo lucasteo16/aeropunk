@@ -53,7 +53,9 @@ navigation:
 | <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) (heavy edition only) | Adds skeleton quiver visuals. | No separate item search |
 | ![GrandTeleport NeoForge](images/catalog-psllfhj8.png) [GrandTeleport NeoForge](visuals.weather.md) | Adds a cinematic camera transition during teleportation. | No separate item search |
 | ![Hide Experimental Warning](images/catalog-rm4oodhd.png) [Hide Experimental Warning](visuals.interface.md) | Hides the experimental-world warning. | No separate item search |
+| ![Iris & Oculus Flywheel Compat](images/catalog-ndhymy2k.png) [Iris & Oculus Flywheel Compat](visuals.lighting.md) | Bridges Iris shaders and Flywheel machine rendering. | No separate item search |
 | ![Iris Shaders](images/catalog-yl57xq9u.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | No separate item search |
+| ![Iris Veil Compat](images/catalog-owqycho4.png) [Iris Veil Compat](visuals.lighting.md) | Bridges Iris shaders and Veil rendering effects. | No separate item search |
 | ![Mandala's GUI - Dark mode](images/catalog-h6zxsnvf.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | Changes interface appearance without replacing item or block textures. | No separate item search |
 | ![Model Gap Fix](images/catalog-qdg47oki.png) [Model Gap Fix](visuals.models.md) | Repairs gaps in block and item models. | No separate item search |
 | ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | Changes the appearance of leaf blocks. | No separate item search |

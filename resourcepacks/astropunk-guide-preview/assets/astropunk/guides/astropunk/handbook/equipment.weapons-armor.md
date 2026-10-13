@@ -10,6 +10,10 @@ navigation:
 
 ## Equipment families
 
+![Rogue and Warrior equipment](images/visual-martial-equipment.png)
+
+Rogue and Warrior equipment
+
 Class pages contain starter recipes and class-specific weapons and armor. This reference keeps shared named sets, Arsenal weapons and Cataclysm equipment. Compare spell-school bonuses and item effects, not only damage or material.
 
 - [Archer](class.archer.md)

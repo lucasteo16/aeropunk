@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@bellsandwhistles" /> <EmiSearch query="@create" />
 
+![使用 Bells & Whistles 配件的列车车体](images/visual-train-fittings.png)
+
+使用 Bells & Whistles 配件的列车车体
+
 <ItemGrid>
   <ItemIcon id="bellsandwhistles:brass_pilot" />
   <ItemIcon id="bellsandwhistles:brass_grab_rails" />
@@ -55,6 +59,10 @@ Create: Bits 'n' Bobs 将石材瓷砖系列与座椅、照明组合。下列物�
 ## 砖材与走道
 
 <EmiSearch query="@createdeco" />
+
+![工厂走道与工业装饰](images/visual-factory-interior.png)
+
+工厂走道与工业装饰
 
 <ItemGrid>
   <ItemIcon id="createdeco:iron_catwalk" />

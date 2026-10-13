@@ -570,5 +570,93 @@
   "mods/create-cosmonautics-expansion.pw.toml": {
     "category": "Exploration and adventure",
     "topic": "world.dimensions"
+  },
+  "mods/almostunified.pw.toml": {
+    "category": "Automation and industry",
+    "topic": "machines.ore-processing"
+  },
+  "mods/azimuth-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/better-advancements.pw.toml": {
+    "category": "Player utilities and quality of life",
+    "topic": "help.reference"
+  },
+  "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.bridges"
+  },
+  "mods/create-unified-fuels.pw.toml": {
+    "category": "Automation and industry",
+    "topic": "power.burners"
+  },
+  "mods/hybrid-api.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml": {
+    "category": "Food and farming",
+    "topic": "food.fishing"
+  },
+  "mods/hybrid-aquatic.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "adventure.aquatic"
+  },
+  "mods/hybrid-delights.pw.toml": {
+    "category": "Food and farming",
+    "topic": "food.seafood"
+  },
+  "mods/iris-flw-compat.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting"
+  },
+  "mods/iris-veil-compat.pw.toml": {
+    "category": "Visuals and sound",
+    "topic": "visuals.lighting"
+  },
+  "mods/jade-sable-compat.pw.toml": {
+    "category": "Player utilities and quality of life",
+    "topic": "help.inspect"
+  },
+  "mods/oceans-delight.pw.toml": {
+    "category": "Food and farming",
+    "topic": "food.seafood"
+  },
+  "mods/starcatcher.pw.toml": {
+    "category": "Food and farming",
+    "topic": "food.fishing"
+  },
+  "mods/starcatchers-delight.pw.toml": {
+    "category": "Food and farming",
+    "topic": "food.seafood"
+  },
+  "mods/strut-your-stuff.pw.toml": {
+    "category": "Technical reference",
+    "topic": "technical.libraries"
+  },
+  "mods/tidal-towns.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "adventure.settlements"
+  },
+  "mods/spawn-mod.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "creatures.wilderness"
+  },
+  "mods/friends-and-foes-forge.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "creatures.friends"
+  },
+  "mods/creeper-overhaul.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "creatures.creepers"
+  },
+  "mods/enderman-overhaul.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "creatures.endermen"
+  },
+  "mods/variants-and-ventures.pw.toml": {
+    "category": "Exploration and adventure",
+    "topic": "creatures.variants"
   }
 }

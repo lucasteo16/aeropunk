@@ -8,6 +8,20 @@ navigation:
 
 # Libraries
 
+## Aquatic & Create support
+
+<EmiSearch query="@create" /> <EmiSearch query="@hybrid_aquatic" />
+
+| Component | Function |
+| --- | --- |
+| Hybrid API | Shared framework required by Hybrid Aquatic. |
+| Azimuth | Extends Create systems for addons such as More Girder. |
+| Strut Your Stuff | Girder-strut library used by Create addons such as Bits 'n' Bobs. It has no independent item catalog. |
+
+Use the parent content mod's recipes and Ponder entries. These dependencies do not require a separate survival setup.
+
+***
+
 ## Loaders & languages
 
 These components supply shared interfaces or language support. Connector supports selected Fabric mods on NeoForge, not every Fabric release.
@@ -133,6 +147,7 @@ Other supporting libraries are listed below. Keep required dependencies with the
 | ![Architectury API](images/catalog-lhga9tyq.png) [Architectury API](technical.libraries.md) | Shared cross-loader development interfaces. | No separate item search |
 | ![Armor Model API](images/catalog-onz2nn2n.png) [Armor Model API](technical.libraries.md) | Renders custom armor geometry through the vanilla armor pipeline. | No separate item search |
 | ![Athena](images/catalog-b1zv3dij.png) [Athena](technical.libraries.md) | Provides cross-loader connected block texture support. | No separate item search |
+| ![Azimuth API](images/catalog-rph8tmt1.png) [Azimuth API](technical.libraries.md) | Supports the selected Create addons. | No separate item search |
 | ![BaguetteLib](images/catalog-ofkzpbru.png) [BaguetteLib](technical.libraries.md) | Death-handling and inventory-tracking support. | No separate item search |
 | ![Balm](images/catalog-mbakmtvl.png) [Balm](technical.libraries.md) | Shares loader-independent systems so dependent mods can run on multiple loaders. | No separate item search |
 | ![Bookshelf](images/catalog-uy4cnpcm.png) [Bookshelf](technical.libraries.md) | Provides shared serialization, data-pack features and debugging tools for dependent mods. | No separate item search |
@@ -147,6 +162,7 @@ Other supporting libraries are listed below. Keep required dependencies with the
 | ![Fzzy Config](images/catalog-hyykxjdp.png) [Fzzy Config](technical.libraries.md) | Configuration, validation and synchronization support. | No separate item search |
 | ![Geckolib](images/catalog-8bmcqj2h.png) [Geckolib](technical.libraries.md) | Animation library for entities, blocks, items and armor. | No separate item search |
 | ![GroovyModLoader (GML)](images/catalog-zg2tt2vu.png) [GroovyModLoader (GML)](technical.libraries.md) | Groovy language provider. | No separate item search |
+| ![Hybrid API [HAPI]](images/catalog-yv9f5eag.png) [Hybrid API [HAPI]](technical.libraries.md) | Provides the framework required by Hybrid Aquatic. | No separate item search |
 | ![Iceberg](images/catalog-5faxolqx.png) [Iceberg](technical.libraries.md) | Provides extra events and utility functions for dependent mods. | No separate item search |
 | ![JamLib](images/catalog-iyy9siz8.png) [JamLib](technical.libraries.md) | Provides platform abstractions and configuration support for JamCore mods. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [Konkrete](technical.libraries.md) | Provides the utility and configuration library required by FancyMenu. | No separate item search |
@@ -177,6 +193,7 @@ Other supporting libraries are listed below. Keep required dependencies with the
 | ![Spell Engine](images/catalog-xvowjaa2.png) [Spell Engine](technical.libraries.md) | Data-driven spell framework. | <EmiSearch query="@spell_engine" /> |
 | ![Spell Power Attributes](images/catalog-8oowzsqp.png) [Spell Power Attributes](technical.libraries.md) | Spell-related attributes, effects and enchantment support. | No separate item search |
 | ![Structure Pool API](images/catalog-lryzi08q.png) [Structure Pool API](technical.libraries.md) | Structure pool injection support. | No separate item search |
+| ![Strut Your Stuff (Struts)](images/catalog-sho3mhqx.png) [Strut Your Stuff (Struts)](technical.libraries.md) | Provides girder-strut support for Create addons without a separate item catalog. | No separate item search |
 | ![Teal Lib](images/catalog-rlj1qf79.png) [Teal Lib](technical.libraries.md) | Provides shared animation and data-driven creature variant systems. | <EmiSearch query="@teallib" /> |
 | ![YetAnotherConfigLib (YACL)](images/catalog-1eaoo2kr.png) [YetAnotherConfigLib (YACL)](technical.libraries.md) | Configuration screen construction library. | No separate item search |
 | ![YUNG's API](images/catalog-ua7dfn59.png) [YUNG's API](technical.libraries.md) | Shared code for YUNG's mods. | No separate item search |

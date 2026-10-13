@@ -28,6 +28,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Elemental Wizard robes](images/visual-elemental-robes.png)
+
+Elemental Wizard robes
+
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_feather" />
 </ItemGrid>

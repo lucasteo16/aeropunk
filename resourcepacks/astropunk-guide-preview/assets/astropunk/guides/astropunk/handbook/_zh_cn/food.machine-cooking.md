@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用机器制作食物"
-  position: 8
+  position: 10
   parent: reference.food.md
   icon: minecraft:smoker
 ---
@@ -11,6 +11,10 @@ navigation:
 ## 切片
 
 <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+
+![受热烹饪锅旁的机械加工](images/visual-automatic-cooking.png)
+
+受热烹饪锅旁的机械加工
 
 <ItemGrid>
   <ItemIcon id="sliceanddice:slicer" />

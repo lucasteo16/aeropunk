@@ -42,6 +42,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Holy protective effects](images/visual-holy-protection.png)
+
+Holy protective effects
+
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>

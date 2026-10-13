@@ -10,6 +10,10 @@ navigation:
 
 ## Video options
 
+![Reorganized video options](images/feedback-video-options.png)
+
+Reorganized video options
+
 Reese's Sodium Options reorganizes the video menu. Sodium Extra adds controls for appearance, particles, animation and information displays. Neither is the terrain renderer itself.
 
 | Component | Function |

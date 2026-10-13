@@ -90,6 +90,7 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
+| ![Almost Unified](images/catalog-sdasaqez.png) [Almost Unified](machines.ore-processing.md) | 仅统一共享的安山合金与锌板配方材料。 | 无独立物品查询 |
 | ![Backpacks!](images/catalog-mgcd6ktf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | <EmiSearch query="背包" /> |
 | ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 增加用于加工、运输与自动建造的旋转动力机器。 | <EmiSearch query="@create" /> |
 | ![Create Stuff 'N Additions](images/catalog-aq9quuqg.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
@@ -103,6 +104,7 @@ navigation:
 | ![Create: Stam1o Tweaks](images/catalog-46rgf8h2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | 调整机械动力配方，并让潜水靴抵消漂浮效果。 | 无独立物品查询 |
 | ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | 以社区维护版本为机械动力扩展重工业与石油加工。 | <EmiSearch query="@tfmg" /> |
 | ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | 通过机械动力机器自动进行村民交易。 | <EmiSearch query="@trading_floor" /> |
+| <ItemImage id="create:crushing_wheel" /> [Create: Unified Fuels](power.burners.md) | 连接支持的 Create 燃料系统，不增加独立物品系列。 | 无独立物品查询 |
 | ![Create: Vibrant Vaults](images/catalog-hddn8ksr.png) [Create: Vibrant Vaults](storage.bulk.md) | 增加机械动力物品仓库的颜色与材料变体。 | <EmiSearch query="@create_vibrant_vaults" /> |
 | ![Easy Anvils](images/catalog-ozbr5jt5.png) [Easy Anvils](machines.enchanting.md) | 改进铁砧物品存放与费用，移除不断累积的维修惩罚。 | 无独立物品查询 |
 | ![Easy Shulker Boxes](images/catalog-ga5eun8s.png) [Easy Shulker Boxes](storage.portable.md) | 让玩家直接在物品栏中查看与存取潜影盒内容。 | 无独立物品查询 |

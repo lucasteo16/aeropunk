@@ -10,6 +10,10 @@ navigation:
 
 ## Model support
 
+![Custom animated pillager model](images/feedback-entity-models.png)
+
+Custom animated pillager model
+
 Entity Model Features and Entity Texture Features provide custom model and texture support. Model Gap Fix repairs visible model gaps. Custom animation appearance also depends on enabled resource packs.
 
 | Component | Function |

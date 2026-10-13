@@ -12,6 +12,14 @@ navigation:
 
 <EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
 
+![雷达显示器](images/feedback-radar-monitor.png)
+
+雷达显示器
+
+![雷达天线组件](images/feedback-radar-dish.png)
+
+雷达天线组件
+
 <ItemGrid>
   <ItemIcon id="create_radar:radar_bearing" />
   <ItemIcon id="create_radar:radar_dish_block" />

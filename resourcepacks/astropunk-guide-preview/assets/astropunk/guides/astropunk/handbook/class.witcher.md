@@ -111,6 +111,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Witcher equipment sets](images/visual-witcher-equipment.png)
+
+Witcher equipment sets
+
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
 </ItemGrid>

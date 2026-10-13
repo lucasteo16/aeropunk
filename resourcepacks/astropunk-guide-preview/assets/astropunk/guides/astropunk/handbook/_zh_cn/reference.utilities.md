@@ -29,5 +29,6 @@ navigation:
 | ![Corpse](images/catalog-wrpuifhw.png) [Corpse](adventure.recovery.md) | 将死亡玩家的物品保存在可取回的尸体中。 | 无独立物品查询 |
 | ![Corpse x Curios API Compat](images/catalog-pjgckph1.png) [Corpse x Curios API Compat](adventure.recovery.md) | 让尸体中取回的饰品直接回到对应的 Curios 装备栏。 | 无独立物品查询 |
 | ![Jade Addons (Neo/Forge)](images/catalog-xudozcly.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 为 Jade 观察提示增加其他模组的专属信息支持。 | 无独立物品查询 |
+| ![Jade Sable Compat](images/catalog-jcrj4igh.png) [Jade Sable Compat](help.inspect.md) | 让 Jade 信息查看适配 Sable 船体。 | 无独立物品查询 |
 | ![Jade 🔍](images/catalog-nvqzsekh.png) [Jade 🔍](help.inspect.md) | 显示当前观察的方块或生物的信息。 | 无独立物品查询 |
 | ![Villager Names](images/catalog-gqrxdo8b.png) [Villager Names](help.inspect.md) | 为村民赋予默认或自定义名字。 | 无独立物品查询 |

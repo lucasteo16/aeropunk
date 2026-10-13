@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create" />
 
+![Cloud Skipper airship build](images/visual-assembled-airship.png)
+
+Cloud Skipper airship build
+
 <ItemGrid>
   <ItemIcon id="simulated:physics_assembler" />
   <ItemIcon id="simulated:honey_glue" />

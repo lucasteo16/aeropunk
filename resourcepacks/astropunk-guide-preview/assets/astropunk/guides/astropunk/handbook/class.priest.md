@@ -30,6 +30,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Holy casting effects](images/visual-holy-casting.png)
+
+Holy casting effects
+
 <ItemGrid>
   <ItemIcon id="paladins:acolyte_wand" />
 </ItemGrid>

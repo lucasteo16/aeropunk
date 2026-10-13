@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
+![Create 风车建筑](images/feedback-windmill.png)
+
+Create 风车建筑
+
 <ItemGrid>
   <ItemIcon id="create:water_wheel" />
   <ItemIcon id="create:large_water_wheel" />

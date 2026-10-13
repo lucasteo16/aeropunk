@@ -24,6 +24,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![火焰法术效果](images/visual-fire-magic.png)
+
+火焰法术效果
+
 <ItemGrid>
   <ItemIcon id="wizards:wand_novice" />
 </ItemGrid>

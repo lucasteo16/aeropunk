@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@mcwbridges" />
 
+![A wooden rope bridge](images/visual-rope-bridge.png)
+
+A wooden rope bridge
+
 <ItemGrid>
   <ItemIcon id="mcwbridges:oak_log_bridge_middle" />
   <ItemIcon id="mcwbridges:oak_rail_bridge" />

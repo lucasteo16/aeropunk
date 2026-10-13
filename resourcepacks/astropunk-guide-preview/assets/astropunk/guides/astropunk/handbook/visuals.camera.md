@@ -10,6 +10,10 @@ navigation:
 
 ## Camera & window
 
+![Camera zoom across a landscape](images/feedback-camera-zoom.png)
+
+Camera zoom across a landscape
+
 Zoom, detached viewing and borderless fullscreen solve different viewing needs. A free camera changes the viewpoint, not the player location. Multiplayer rules may restrict camera tools.
 
 | Component | Function |

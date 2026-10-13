@@ -56,6 +56,32 @@ Tectonic 塑造大尺度地貌，Terralith 使用原版方块新增地表与洞�
 | Wintry Forest | Wintry Lowlands | Yellowstone |
 | Yosemite Cliffs | Yosemite Lowlands |  |
 
+### Hybrid Aquatic 栖息地
+
+<EmiSearch query="@hybrid_aquatic" />
+
+Hybrid Aquatic 在 Terralith 地形之外加入海洋、河流、海岸与洞穴栖息地。这些地形名称不能代替钓鱼竿渔获本身的条件。
+
+| 栖息地 |
+| --- |
+| 珊瑚礁 |
+| 深水珊瑚礁 |
+| 热带深水珊瑚礁 |
+| 海草床 |
+| 红色海洋草甸 |
+| 暖水深海 |
+| 海沟 |
+| 冷水海沟 |
+| 冰冻海沟 |
+| 温水海沟 |
+| 暖水海沟 |
+| 热带河流 |
+| 潮池 |
+| 硫磺洞穴 |
+
+- [水生生物](adventure.aquatic.md)
+- [钓鱼栖息地](fishing.habitats.md)
+
 ***
 
 ## 下界

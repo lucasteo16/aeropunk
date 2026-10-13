@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@interactic" />
 
+![An inventory with a separate Trash Slot](images/visual-inventory-trash.png)
+
+An inventory with a separate Trash Slot
+
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />
   <ItemIcon id="minecraft:hopper" />

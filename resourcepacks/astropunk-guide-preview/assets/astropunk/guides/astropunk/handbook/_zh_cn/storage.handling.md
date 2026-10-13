@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@interactic" />
 
+![设有独立垃圾槽的物品栏](images/visual-inventory-trash.png)
+
+设有独立垃圾槽的物品栏
+
 <ItemGrid>
   <ItemIcon id="minecraft:chest" />
   <ItemIcon id="minecraft:hopper" />

@@ -30,6 +30,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![神圣法术效果](images/visual-holy-casting.png)
+
+神圣法术效果
+
 <ItemGrid>
   <ItemIcon id="paladins:acolyte_wand" />
 </ItemGrid>

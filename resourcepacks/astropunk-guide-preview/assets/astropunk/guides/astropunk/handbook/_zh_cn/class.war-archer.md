@@ -23,6 +23,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![战争弓箭手战斗](images/visual-war-archer-combat.png)
+
+战争弓箭手战斗
+
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>

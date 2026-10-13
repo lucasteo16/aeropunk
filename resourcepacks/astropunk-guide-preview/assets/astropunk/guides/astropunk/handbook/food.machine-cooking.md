@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Machine cooking"
-  position: 8
+  position: 10
   parent: reference.food.md
   icon: minecraft:smoker
 ---
@@ -11,6 +11,10 @@ navigation:
 ## Slicing
 
 <EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+
+![Mechanical preparation beside a heated cooking pot](images/visual-automatic-cooking.png)
+
+Mechanical preparation beside a heated cooking pot
 
 <ItemGrid>
   <ItemIcon id="sliceanddice:slicer" />

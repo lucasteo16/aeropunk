@@ -111,6 +111,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![猎魔人装备套装](images/visual-witcher-equipment.png)
+
+猎魔人装备套装
+
 <ItemGrid>
   <ItemIcon id="witcher_rpg:iron_witcher_sword" />
 </ItemGrid>

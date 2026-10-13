@@ -36,6 +36,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![狂战士护甲](images/visual-berserker-armor.png)
+
+狂战士护甲
+
 <ItemGrid>
   <ItemIcon id="berserker_rpg:iron_berserker_axe" />
 </ItemGrid>

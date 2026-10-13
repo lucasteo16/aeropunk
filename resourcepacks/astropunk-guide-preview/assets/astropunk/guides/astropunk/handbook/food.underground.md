@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Underground food"
-  position: 4
+  position: 6
   parent: reference.food.md
   icon: minecraft:brown_mushroom
 ---
@@ -11,6 +11,10 @@ navigation:
 ## Cave crops & bars
 
 <EmiSearch query="@minersdelight" />
+
+![A kitchen in the caves](images/visual-cavern-kitchen.png)
+
+A kitchen in the caves
 
 <ItemGrid>
   <ItemIcon id="minersdelight:wild_cave_carrots" />

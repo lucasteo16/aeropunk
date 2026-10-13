@@ -1,0 +1,182 @@
+{
+  "creatures.wilderness": {
+    "title": {
+      "en_us": "Wildlife",
+      "zh_cn": "野生动物"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:fox_spawn_egg",
+    "providers": []
+  },
+  "creatures.friends": {
+    "title": {
+      "en_us": "Friends & foes",
+      "zh_cn": "友好与敌对生物"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:allay_spawn_egg",
+    "providers": []
+  },
+  "creatures.creepers": {
+    "title": {
+      "en_us": "Creeper variants",
+      "zh_cn": "苦力怕变种"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:creeper_spawn_egg",
+    "providers": []
+  },
+  "creatures.endermen": {
+    "title": {
+      "en_us": "Enderman variants",
+      "zh_cn": "末影人变种"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:enderman_spawn_egg",
+    "providers": []
+  },
+  "creatures.variants": {
+    "title": {
+      "en_us": "Hostile variants",
+      "zh_cn": "敌对生物变种"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:zombie_spawn_egg",
+    "providers": []
+  },
+  "creatures.guards": {
+    "title": {
+      "en_us": "Dungeon guards",
+      "zh_cn": "地牢守卫"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:skeleton_spawn_egg",
+    "providers": [
+      "mods/bossesrise.pw.toml"
+    ]
+  },
+  "creatures.cataclysm": {
+    "title": {
+      "en_us": "Cataclysm creatures",
+      "zh_cn": "Cataclysm 生物"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:spider_spawn_egg",
+    "providers": [
+      "mods/l_enders-cataclysm.pw.toml"
+    ]
+  },
+  "creatures.illagers": {
+    "title": {
+      "en_us": "Illagers",
+      "zh_cn": "灾厄村民"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:pillager_spawn_egg",
+    "providers": [
+      "mods/illager-invasion.pw.toml"
+    ]
+  },
+  "creatures.summons": {
+    "title": {
+      "en_us": "Summons",
+      "zh_cn": "召唤生物"
+    },
+    "parent": "adventure.creatures",
+    "icon": "minecraft:blaze_spawn_egg",
+    "providers": [
+      "mods/archers.pw.toml",
+      "mods/archers-expansion.pw.toml",
+      "mods/wizards.pw.toml",
+      "mods/elemental-wizards-rpg.pw.toml"
+    ]
+  },
+  "aquatic.freshwater": {
+    "title": {
+      "en_us": "Freshwater fish",
+      "zh_cn": "淡水鱼"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "minecraft:cod_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.marine": {
+    "title": {
+      "en_us": "Marine fish & rays",
+      "zh_cn": "海鱼与鳐鱼"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "minecraft:tropical_fish_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.deepwater": {
+    "title": {
+      "en_us": "Deepwater fish",
+      "zh_cn": "深水鱼"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "minecraft:pufferfish_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.sharks": {
+    "title": {
+      "en_us": "Sharks",
+      "zh_cn": "鲨鱼"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "hybrid_aquatic:great_white_shark_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.jellyfish": {
+    "title": {
+      "en_us": "Jellyfish",
+      "zh_cn": "水母"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "hybrid_aquatic:barrel_jellyfish_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.cephalopods": {
+    "title": {
+      "en_us": "Squid & octopuses",
+      "zh_cn": "鱿鱼与章鱼"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "minecraft:squid_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.seafloor": {
+    "title": {
+      "en_us": "Seafloor wildlife",
+      "zh_cn": "海底生物"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "hybrid_aquatic:starfish_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  },
+  "aquatic.mammals": {
+    "title": {
+      "en_us": "Aquatic mammals",
+      "zh_cn": "水生哺乳动物"
+    },
+    "parent": "adventure.aquatic",
+    "icon": "minecraft:dolphin_spawn_egg",
+    "providers": [
+      "mods/hybrid-aquatic.pw.toml"
+    ]
+  }
+}

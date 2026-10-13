@@ -4,89 +4,121 @@ navigation:
   position: 3
   parent: reference.food.md
   icon: minecraft:cod
+item_ids:
+  - starcatcher:starcatcher_rod
+  - starcatcher:starcatcher_guide
+  - starcatcher:tackle_box_cyan
+  - starcatcher:fish_radar
 ---
 
 # 钓鱼与水产食材
 
-## 原版渔获
+## Starcatcher
+
+<EmiSearch query="@starcatcher" />
+
+![收竿中的 Starcatcher 渔获](images/visual-fishing-reeling.png)
+
+收竿中的 Starcatcher 渔获
 
 <ItemGrid>
-  <ItemIcon id="minecraft:cod" />
-  <ItemIcon id="minecraft:salmon" />
-  <ItemIcon id="minecraft:tropical_fish" />
-  <ItemIcon id="minecraft:pufferfish" />
+  <ItemIcon id="starcatcher:starcatcher_rod" />
+  <ItemIcon id="starcatcher:starcatcher_guide" />
+  <ItemIcon id="starcatcher:hook" />
+  <ItemIcon id="starcatcher:bobber" />
+  <ItemIcon id="starcatcher:tackle_box_cyan" />
 </ItemGrid>
 
-钓鱼竿可获得原版渔获。<ItemLink id="minecraft:cod" /> 与 <ItemLink id="minecraft:salmon" /> 也可通过猎取鱼类获得，既能整条烹制，也能加工成小份。<ItemLink id="minecraft:tropical_fish" /> 没有普通熟鱼版本。<ItemLink id="minecraft:pufferfish" /> 不适合作为普通口粮，应查看具体食材用途。
+Starcatcher 加入随栖息地变化的渔获与收竿小游戏。使用 <ItemLink id="starcatcher:starcatcher_rod" /> 获取这些渔获。普通 Minecraft 钓鱼竿提供基础渔获，不能取得完整的 Starcatcher 收藏。
+
+| 钓具 | 用途 |
+| --- | --- |
+| <ItemLink id="starcatcher:starcatcher_guide" /> | 记录渔获、查看鱼种条件，以及模组自带的钓鱼说明。 |
+| <ItemLink id="starcatcher:hook" /> 与 <ItemLink id="starcatcher:bobber" /> | 鱼竿必需的配件，不同种类改变钓鱼属性。 |
+| <ItemLink id="starcatcher:tackle_box_cyan" /> | 收纳渔获与钓具，并更换鱼竿配件。不同颜色用途相同。 |
+
 ***
 
-## Spawn 鱼类料理
+## 初次使用
 
-<EmiSearch query="@farmersdelight" /> <EmiSearch query="@spawn" />
+![钓具箱与鱼竿配件](images/visual-fishing-tackle.png)
 
-<ItemGrid>
-  <ItemIcon id="spawn:tuna_chunk" />
-  <ItemIcon id="spawn:cooked_tuna_chunk" />
-  <ItemIcon id="spawn:tuna_slice" />
-  <ItemIcon id="spawn:tuna_roll" />
-  <ItemIcon id="spawn:tuna_sandwich" />
-  <ItemIcon id="spawn:herring" />
-  <ItemIcon id="spawn:cooked_herring" />
-  <ItemIcon id="spawn:herring_roll" />
-  <ItemIcon id="spawn:canned_herring" />
-  <ItemIcon id="spawn:bluefish" />
-  <ItemIcon id="spawn:cooked_bluefish" />
-  <ItemIcon id="spawn:bluefish_roll" />
-</ItemGrid>
+钓具箱与鱼竿配件
 
-材料与容器
+<Recipe id="starcatcher:starcatcher_rod" />
 
-<ItemGrid>
-  <ItemIcon id="minecraft:dried_kelp" />
-  <ItemIcon id="farmersdelight:cooked_rice" />
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="farmersdelight:cabbage" />
-  <ItemIcon id="spawn:herring_slice" />
-  <ItemIcon id="spawn:cooked_herring_slice" />
-  <ItemIcon id="spawn:bluefish_slice" />
-</ItemGrid>
+<Recipe id="starcatcher:starcatcher_guide" />
 
-Spawn 加入作为食材来源的水生生物。金枪鱼小份可制作卷物和三明治，鲱鱼和蓝鱼各有熟食与卷物。水桶捕捉、生物收获和钓鱼竿渔获不同。菜单中有一道料理，不代表其原料可用钓鱼竿获得。
+1. 制作鱼竿并保留装好的鱼钩与浮标，更换配件时使用钓具箱。
+
+2. 在合适的水域抛竿，鱼咬钩后收竿。
+
+3. 小游戏中使用 <KeyBind id="key.starcatcher.minigame_hit" /> 击中鱼的判定区。
+
+冰冻与宝藏判定区作用不同，可通过图鉴中的判定区类型与小游戏设置学习和练习。
+
+选择钓点前先查看图鉴中的鱼种条件。仅生物群系匹配还不够，流体、维度、高度、时间、天气、光照与鱼饵也可能限制渔获。
+
 ***
 
-## 贝类与捕捉
+## 鱼饵与特殊渔获
 
 <ItemGrid>
-  <ItemIcon id="spawn:clam" />
-  <ItemIcon id="spawn:cooked_clam" />
-  <ItemIcon id="spawn:steamed_clams" />
-  <ItemIcon id="spawn:clam_chowder" />
-  <ItemIcon id="spawn:coastal_crab_claw" />
-  <ItemIcon id="spawn:crab_boil" />
-  <ItemIcon id="spawn:casting_net" />
-  <ItemIcon id="spawn:herring_bucket" />
-  <ItemIcon id="spawn:bluefish_bucket" />
+  <ItemIcon id="starcatcher:worm" />
+  <ItemIcon id="starcatcher:cherry_bait" />
+  <ItemIcon id="starcatcher:amethyst_hook" />
+  <ItemIcon id="starcatcher:vanilla_hook" />
+  <ItemIcon id="starcatcher:vanilla_bobber" />
+  <ItemIcon id="minecraft:bucket" />
 </ItemGrid>
 
-材料与容器
+蚯蚓与专用鱼饵改变咬钩等待时间或渔获选择。樱花鱼饵偏向樱花林鱼类。偏好的鱼饵提高入选机会，必需的鱼饵则是必须满足的条件。
+
+同时装上原版风味鱼钩与原版风味浮标可跳过小游戏。熔岩钓鱼需要紫水晶鱼钩或下界合金升级鱼竿。下界与末地渔获仍要求对应维度与流体。
+
+只有图鉴注明支持装桶的鱼种，才能用桶作为鱼饵取得活鱼桶。支持活体渔获的鱼种可使用万能蚯蚓取得活体。并非每种渔获都有可召唤模型或装桶形态。
+
+***
+
+## Hybrid Aquatic 渔获
+
+<EmiSearch query="@hybrid_aquatic" />
+
+Hybrid Aquatic 兼容组件将其鱼类加入 Starcatcher 渔获定义。它们共用图鉴与小游戏，但保留各自的垂钓条件。自然游动的生物与钓鱼竿渔获使用不同规则，在附近看到某种动物，不代表当前钓点一定能钓到它。
+
+***
+
+## 收纳与收藏
+
+![水族箱中的活体渔获](images/visual-fishing-aquariums.png)
+
+水族箱中的活体渔获
 
 <ItemGrid>
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="farmersdelight:cabbage" />
-  <ItemIcon id="farmersdelight:tomato" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="minecraft:potato" />
-  <ItemIcon id="farmersdelight:milk_bottle" />
-  <ItemIcon id="minecraft:bowl" />
-  <ItemIcon id="spawn:shell_fragments" />
-  <ItemIcon id="minecraft:string" />
+  <ItemIcon id="starcatcher:oak_tackle_box_boat" />
+  <ItemIcon id="starcatcher:aquarium" />
+  <ItemIcon id="starcatcher:oak_fish_plaque" />
+  <ItemIcon id="starcatcher:tournament_stand" />
+  <ItemIcon id="starcatcher:fish_radar" />
 </ItemGrid>
 
-蛤蜊提供贝类料理，滨海蟹钳用于蟹料理。用受热烹饪锅制作 <ItemLink id="spawn:clam_chowder" />，并用碗盛装。渔网与鱼桶是捕捉用品，并非料理。
+钓具箱船结合水上出行与钓鱼收纳。水族箱容纳装桶的活鱼，鱼类标本牌展示渔获。比赛台用于自愿参加的钓鱼比赛。鱼类雷达用于查看附近垂钓机会，是后续工具，并非第一次钓鱼的前提。
+
 ***
 
 ## 相关主题
 
-- [食物与饥饿](food.hunger.md)
-- [作物食材](food.growing.md)
-- [烹饪工具](food.utensils.md)
+- [钓鱼栖息地](fishing.habitats.md)
+- [海鲜与加工](food.seafood.md)
+- [水生生物](adventure.aquatic.md)
+- [食物堆叠与多样性](food.hunger.md)
+
+
+***
+
+## 相关模组
+
+| 模组或内容 | 用途 | 物品查询 |
+| --- | --- | --- |
+| ![Hybrid Aquatic + Starcatcher Compatibility](images/catalog-onrvj8th.png) [Hybrid Aquatic + Starcatcher Compatibility](food.fishing.md) | 把 Hybrid Aquatic 渔获加入 Starcatcher 钓鱼系统。 | <EmiSearch query="@hybrid_aquatic" /> |
+| ![Starcatcher](images/catalog-h2jxvxnr.png) [Starcatcher](food.fishing.md) | 加入依栖息地变化的渔获、钓具与钓鱼图鉴。 | <EmiSearch query="@starcatcher" /> |

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@torchmaster" />
 
+![建筑内直接显示的光照等级](images/visual-light-overlay.png)
+
+建筑内直接显示的光照等级
+
 <ItemGrid>
   <ItemIcon id="torchmaster:megatorch" />
   <ItemIcon id="torchmaster:dreadlamp" />

@@ -23,6 +23,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Tundra Hunter combat](images/visual-tundra-hunter-combat.png)
+
+Tundra Hunter combat
+
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>

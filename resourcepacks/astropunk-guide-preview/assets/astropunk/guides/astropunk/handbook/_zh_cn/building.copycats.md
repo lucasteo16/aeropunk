@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@copycats" />
 
+![使用同一材质的模仿方块形状](images/visual-copycat-shapes.png)
+
+使用同一材质的模仿方块形状
+
 <ItemGrid>
   <ItemIcon id="copycats:copycat_block" />
   <ItemIcon id="copycats:copycat_slab" />

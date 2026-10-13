@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create" /> <EmiSearch query="@waystones" />
 
+![A Waystone above the landscape](images/visual-mountaintop-waystone.png)
+
+A Waystone above the landscape
+
 <ItemGrid>
   <ItemIcon id="waystones:blackstone_waystone" />
   <ItemIcon id="waystones:deepslate_waystone" />
@@ -71,6 +75,10 @@ Sharestones connect to others of the same color. Portstones provide departure ac
 ## Tempad & portals
 
 <EmiSearch query="@tempad" />
+
+![Tempad destination equipment](images/feedback-tempad.png)
+
+Tempad destination equipment
 
 <ItemGrid>
   <ItemIcon id="tempad:tempad" />

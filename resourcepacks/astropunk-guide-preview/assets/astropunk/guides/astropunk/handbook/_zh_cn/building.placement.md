@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@mechtrowel" />
 
+![机械抹刀配色管理界面](images/visual-trowel-palette.png)
+
+机械抹刀配色管理界面
+
 <ItemGrid>
   <ItemIcon id="mechtrowel:mech_trowel" />
   <ItemIcon id="mechtrowel:wand_template" />

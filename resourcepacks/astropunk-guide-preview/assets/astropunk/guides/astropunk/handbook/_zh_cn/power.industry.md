@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@tfmg" /> <EmiSearch query="@create" />
 
+![石油开采机械](images/feedback-oil-extraction.png)
+
+石油开采机械
+
 <ItemGrid>
   <ItemIcon id="tfmg:coke_oven" />
   <ItemIcon id="tfmg:coal_coke" />

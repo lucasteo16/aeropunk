@@ -1,0 +1,333 @@
+{
+  "generated_topics": 131,
+  "authored_topics": 128,
+  "subpages": 113,
+  "illustrated_subpages": 82,
+  "illustrated_subpage_percent": 72.6,
+  "new_images": 67,
+  "changed_authored_topics": 80,
+  "existing_topics_changed": 63,
+  "new_creature_topics": 17,
+  "native_images_by_topic": {
+    "adventure.settlements": [
+      "images/visual-ocean-village.png",
+      "images/encounters-ct-overhaul-village-catalog.png",
+      "images/encounters-village-taverns-catalog.png"
+    ],
+    "adventure.loot": [
+      "images/encounters-lootr-catalog.png"
+    ],
+    "creatures.wilderness": [
+      "images/encounters-spawn-mod-snail.png"
+    ],
+    "creatures.friends": [
+      "images/encounters-friends-and-foes-forge-waving-crab.png"
+    ],
+    "adventure.aquatic": [],
+    "creatures.creepers": [
+      "images/encounters-creeper-overhaul-spruce-creeper.png"
+    ],
+    "creatures.endermen": [
+      "images/encounters-enderman-overhaul-flower-fields-enderman.png"
+    ],
+    "creatures.variants": [
+      "images/encounters-variants-and-ventures-gelid-frozen-zombie.png"
+    ],
+    "creatures.guards": [],
+    "creatures.cataclysm": [],
+    "creatures.illagers": [
+      "images/visual-illager-designs.png"
+    ],
+    "creatures.summons": [
+      "images/visual-fire-magic.png"
+    ],
+    "aquatic.freshwater": [
+      "images/visual-tropical-freshwater.png"
+    ],
+    "aquatic.marine": [
+      "images/visual-marine-school.png"
+    ],
+    "aquatic.deepwater": [
+      "images/visual-trench-habitat.png"
+    ],
+    "aquatic.sharks": [
+      "images/visual-great-white-shark.png"
+    ],
+    "aquatic.jellyfish": [
+      "images/visual-barrel-jellyfish.png"
+    ],
+    "aquatic.cephalopods": [
+      "images/visual-trench-habitat.png"
+    ],
+    "aquatic.seafloor": [
+      "images/visual-seafloor-starfish.png"
+    ],
+    "aquatic.mammals": [
+      "images/visual-dugong-family.png"
+    ],
+    "maps.find": [
+      "images/visual-biome-finder.png"
+    ],
+    "maps.shared": [
+      "images/parent-world-map.png"
+    ],
+    "help.inspect": [],
+    "interactions.carry": [],
+    "adventure.sleep": [],
+    "adventure.recovery": [
+      "images/visual-corpse-recovery.png"
+    ],
+    "combat.handling": [
+      "images/visual-melee-combat.png"
+    ],
+    "reference.equipment": [
+      "images/visual-martial-equipment.png"
+    ],
+    "equipment.weapons-armor": [
+      "images/visual-martial-equipment.png"
+    ],
+    "equipment.accessories": [
+      "images/visual-relic-collection.png"
+    ],
+    "equipment.display": [],
+    "combat.martial": [],
+    "combat.magic": [
+      "images/visual-arcane-casting.png"
+    ],
+    "combat.abilities": [
+      "images/visual-spell-binding.png"
+    ],
+    "combat.skills": [
+      "images/visual-class-skill-tree.png"
+    ],
+    "class.warrior": [
+      "images/visual-martial-equipment.png"
+    ],
+    "class.berserker": [
+      "images/visual-berserker-armor.png"
+    ],
+    "class.rogue": [
+      "images/visual-martial-equipment.png"
+    ],
+    "class.forcemaster": [
+      "images/visual-forcemaster-armor.png"
+    ],
+    "class.archer": [
+      "images/visual-archer-equipment.png"
+    ],
+    "class.deadeye": [
+      "images/visual-deadeye-combat.png"
+    ],
+    "class.war-archer": [
+      "images/visual-war-archer-combat.png"
+    ],
+    "class.tundra-hunter": [
+      "images/visual-tundra-hunter-combat.png"
+    ],
+    "class.arcane": [
+      "images/visual-arcane-casting.png"
+    ],
+    "class.fire": [
+      "images/visual-fire-magic.png"
+    ],
+    "class.frost": [
+      "images/visual-frost-magic.png"
+    ],
+    "class.aqua": [
+      "images/visual-elemental-robes.png"
+    ],
+    "class.terra": [
+      "images/visual-elemental-robes.png"
+    ],
+    "class.wind": [
+      "images/visual-elemental-robes.png"
+    ],
+    "class.priest": [
+      "images/visual-holy-casting.png"
+    ],
+    "class.paladin": [
+      "images/visual-holy-protection.png"
+    ],
+    "class.bard": [
+      "images/visual-bard-music.png"
+    ],
+    "class.witcher": [
+      "images/visual-witcher-equipment.png"
+    ],
+    "food.utensils": [
+      "images/visual-kitchen-tools.png",
+      "images/nav-visual-farmers-delight-pot-campfire.png",
+      "images/nav-visual-farmers-delight-pot-interface.png"
+    ],
+    "food.hunger": [
+      "images/visual-shared-feast.png",
+      "images/visual-diet-containers.png"
+    ],
+    "food.growing": [
+      "images/visual-garden-crops.png"
+    ],
+    "food.fishing": [
+      "images/visual-fishing-reeling.png",
+      "images/visual-fishing-tackle.png",
+      "images/visual-fishing-aquariums.png"
+    ],
+    "fishing.habitats": [
+      "images/visual-fishing-guide.png"
+    ],
+    "food.seafood": [
+      "images/visual-starcatcher-cuisine.png",
+      "images/visual-hybrid-cuisine.png",
+      "images/visual-ocean-cuisine.png"
+    ],
+    "food.underground": [
+      "images/visual-cavern-kitchen.png"
+    ],
+    "food.nether": [
+      "images/visual-nether-kitchen.png"
+    ],
+    "food.end": [
+      "images/visual-end-kitchen.png"
+    ],
+    "food.encounters": [],
+    "food.machine-cooking": [
+      "images/visual-automatic-cooking.png"
+    ],
+    "building.palette": [
+      "images/visual-mason-workbench.png"
+    ],
+    "building.placement": [
+      "images/visual-trowel-palette.png"
+    ],
+    "building.architecture": [
+      "images/visual-rope-bridge.png"
+    ],
+    "building.copycats": [
+      "images/visual-copycat-shapes.png"
+    ],
+    "building.furniture": [
+      "images/building-travel-furniture.png"
+    ],
+    "building.displays": [
+      "images/visual-displayed-materials.png"
+    ],
+    "building.factory": [
+      "images/visual-train-fittings.png",
+      "images/visual-factory-interior.png"
+    ],
+    "building.safety": [
+      "images/visual-light-overlay.png"
+    ],
+    "storage.portable": [
+      "images/visual-worn-backpacks.png"
+    ],
+    "storage.handling": [
+      "images/visual-inventory-trash.png"
+    ],
+    "storage.bulk": [
+      "images/visual-colored-vaults.png"
+    ],
+    "machines.rotation": [],
+    "machines.ore-processing": [],
+    "machines.logistics": [
+      "images/visual-package-routing.png"
+    ],
+    "machines.renewables": [
+      "images/visual-dormant-vent.png"
+    ],
+    "machines.miscellaneous": [],
+    "power.stored-rotation": [
+      "images/visual-spring-storage.png"
+    ],
+    "power.burners": [],
+    "power.industry": [],
+    "power.electricity": [
+      "images/visual-electric-transmission.png"
+    ],
+    "machines.enchanting": [],
+    "machines.trading": [
+      "images/visual-trading-hall.png"
+    ],
+    "transport.local": [
+      "images/visual-local-hypertubes.png"
+    ],
+    "transport.passenger": [
+      "images/visual-train-fittings.png"
+    ],
+    "transport.railway-builder": [
+      "images/visual-train-fittings.png"
+    ],
+    "vehicles.water": [
+      "images/building-travel-submarine.png"
+    ],
+    "vehicles.assembly": [
+      "images/visual-assembled-airship.png"
+    ],
+    "vehicles.controls": [
+      "images/visual-cockpit-controls.png"
+    ],
+    "vehicles.engines": [
+      "images/visual-engine-workshop.png"
+    ],
+    "vehicles.airships": [
+      "images/visual-airship-designs.png"
+    ],
+    "vehicles.radar": [],
+    "vehicles.weapons": [],
+    "space.vehicle-transfer": [],
+    "space.life-support": [
+      "images/cosmo-gravity-room.png"
+    ],
+    "space.navigation": [
+      "images/cosmo-hologram.png"
+    ],
+    "travel.destinations": [
+      "images/visual-mountaintop-waystone.png"
+    ],
+    "visuals.interface": [],
+    "visuals.camera": [],
+    "visuals.resource-packs": [],
+    "visuals.models": [],
+    "visuals.weather": [],
+    "visuals.lighting": [],
+    "visuals.shader-packs": [],
+    "help.handbook": [],
+    "help.reference": [],
+    "performance.baseline": [],
+    "server.tools": [],
+    "technical.bridges": [],
+    "technical.libraries": []
+  },
+  "without_subject_image": [
+    "adventure.aquatic",
+    "creatures.guards",
+    "creatures.cataclysm",
+    "help.inspect",
+    "interactions.carry",
+    "adventure.sleep",
+    "equipment.display",
+    "combat.martial",
+    "food.encounters",
+    "machines.rotation",
+    "machines.ore-processing",
+    "machines.miscellaneous",
+    "power.burners",
+    "power.industry",
+    "machines.enchanting",
+    "vehicles.radar",
+    "vehicles.weapons",
+    "space.vehicle-transfer",
+    "visuals.interface",
+    "visuals.camera",
+    "visuals.resource-packs",
+    "visuals.models",
+    "visuals.weather",
+    "visuals.lighting",
+    "visuals.shader-packs",
+    "help.handbook",
+    "help.reference",
+    "performance.baseline",
+    "server.tools",
+    "technical.bridges",
+    "technical.libraries"
+  ]
+}

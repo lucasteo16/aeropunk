@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@reinfshulker" />
 
+![Backpacks worn during exploration](images/visual-worn-backpacks.png)
+
+Backpacks worn during exploration
+
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />
   <ItemIcon id="reinfshulker:copper_shulker_box" />

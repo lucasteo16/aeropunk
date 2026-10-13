@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_hypertube" />
 
+![Hypertube sections and supports](images/visual-local-hypertubes.png)
+
+Hypertube sections and supports
+
 <ItemGrid>
   <ItemIcon id="create_hypertube:hypertube" />
   <ItemIcon id="create_hypertube:hypertube_entrance" />

@@ -1,5 +1,10 @@
 {
-  "mods/paxi.pw.toml": {"name": "Paxi", "description": "Loads shared data packs and resource packs from configured directories.", "url": "https://modrinth.com/project/CU0PAyzb", "source": "Selected pack configuration and Paxi loader purpose"},
+  "mods/paxi.pw.toml": {
+    "name": "Paxi",
+    "description": "Loads shared data packs and resource packs from configured directories.",
+    "url": "https://modrinth.com/project/CU0PAyzb",
+    "source": "Selected pack configuration and Paxi loader purpose"
+  },
   "mods/additional-rpg-jewelry.pw.toml": {
     "name": "Additional Jewelry (RPG Series Plus)",
     "description": "Jewelry Add-On for the More RPG Classes Mods.",
@@ -1260,12 +1265,6 @@
     "url": "https://modrinth.com/project/xlOwuSdN",
     "source": "Modrinth publisher description"
   },
-  "mods/reliable-advancements.pw.toml": {
-    "name": "Reliable Advancements",
-    "description": "In-game advancement editing and improvements to the advancement screen!",
-    "url": "https://modrinth.com/project/xVwaUG1g",
-    "source": "Modrinth publisher description"
-  },
   "mods/reliable-emi.pw.toml": {
     "name": "Reliable EMI (REMI)",
     "description": "A mod adding many configurable features to EMI!",
@@ -1785,5 +1784,107 @@
     "url": "https://modrinth.com/project/RNUSzf19",
     "source": "Selected release META-INF/neoforge.mods.toml publisher description",
     "version_id": "iQWqNLQY"
+  },
+  "mods/almostunified.pw.toml": {
+    "name": "Almost Unified",
+    "description": "Unify all resources.",
+    "url": "https://modrinth.com/project/sdaSaQEz",
+    "source": "Modrinth publisher description"
+  },
+  "mods/azimuth-api.pw.toml": {
+    "name": "Azimuth API",
+    "description": "Create addon API focused on extending capabilities and improving accessibility to Create's systems",
+    "url": "https://modrinth.com/project/RpH8tmT1",
+    "source": "Modrinth publisher description"
+  },
+  "mods/better-advancements.pw.toml": {
+    "name": "Better Advancements",
+    "description": "Better Advancements tries to improve the UI and UX for the advancements system in minecraft 1.12+ in a modded environment",
+    "url": "https://modrinth.com/project/Q2OqKxDG",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml": {
+    "name": "Create Stuff 'N Additions x Sable & Aeronautics Compat",
+    "description": "Makes Create: Stuff and additions fully compatible with sable/simulated/aeronautics. Also patches some bugs.",
+    "url": "https://modrinth.com/project/gsAqDfOu",
+    "source": "Modrinth publisher description"
+  },
+  "mods/create-unified-fuels.pw.toml": {
+    "name": "Create: Unified Fuels",
+    "description": "Connects supported Create fuel systems without adding a separate item catalog.",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/create-unified-fuels",
+    "source": "Selected release and repository authoring evidence"
+  },
+  "mods/hybrid-api.pw.toml": {
+    "name": "Hybrid API [HAPI]",
+    "description": "A library mod that helps integrate all Hybrid Labs mods with each other and allows the creation of addons",
+    "url": "https://modrinth.com/project/yv9f5EAG",
+    "source": "Modrinth publisher description"
+  },
+  "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml": {
+    "name": "Hybrid Aquatic + Starcatcher Compatibility",
+    "description": "Adds Compatibility Between Starcatcher v3 and Hybrid Aquatic",
+    "url": "https://modrinth.com/project/onrvj8TH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/hybrid-aquatic.pw.toml": {
+    "name": "Hybrid Aquatic",
+    "description": "Hybrid Aquatic is a mod that enhances your underwater Minecraft experience! Explore improved rivers, swamps, oceans, and undersea caves containing a variety of new creatures and blocks to liven up your world!",
+    "url": "https://modrinth.com/project/HH4FjUqN",
+    "source": "Modrinth publisher description"
+  },
+  "mods/hybrid-delights.pw.toml": {
+    "name": "Hybrid Delights",
+    "description": "An addon mod between Hybrid Aquatic and Farmer's Delight",
+    "url": "https://modrinth.com/project/WR49BBCu",
+    "source": "Modrinth publisher description"
+  },
+  "mods/iris-flw-compat.pw.toml": {
+    "name": "Iris & Oculus Flywheel Compat",
+    "description": "Enable Flywheel's optimizations when using shaderpacks.",
+    "url": "https://modrinth.com/project/ndHYMY2K",
+    "source": "Modrinth publisher description"
+  },
+  "mods/iris-veil-compat.pw.toml": {
+    "name": "Iris Veil Compat",
+    "description": "Bridges Veil shader rendering through Iris shaderpacks so that mods using Veil's shader infrastructure\nsuch as Create Aeronautics render correctly when a shaderpack is active",
+    "url": "https://modrinth.com/project/owQyCHo4",
+    "source": "Modrinth publisher description"
+  },
+  "mods/jade-sable-compat.pw.toml": {
+    "name": "Jade Sable Compat",
+    "description": "Jade Sable Compat (Create Aeronautics) is a NeoForge client compatibility mod for Minecraft 1.21.1.",
+    "url": "https://modrinth.com/project/jCrJ4iGH",
+    "source": "Modrinth publisher description"
+  },
+  "mods/oceans-delight.pw.toml": {
+    "name": "Ocean's Delight",
+    "description": "Ocean's Delight is an addon mod for Farmer's Delight based around adding culinary content to the ocean!",
+    "url": "https://modrinth.com/project/DGiq4ZSW",
+    "source": "Modrinth publisher description"
+  },
+  "mods/starcatcher.pw.toml": {
+    "name": "Starcatcher",
+    "description": "A fishing mod with lots of fishes and secrets!",
+    "url": "https://modrinth.com/project/h2jXvxNR",
+    "source": "Modrinth publisher description"
+  },
+  "mods/starcatchers-delight.pw.toml": {
+    "name": "Starcatcher's Delight - Let's Do: Kaleidoscope edition",
+    "description": "A Starcatcher addon adding food using Starcaught fish",
+    "url": "https://modrinth.com/project/NCXwQVxD",
+    "source": "Modrinth publisher description"
+  },
+  "mods/strut-your-stuff.pw.toml": {
+    "name": "Strut Your Stuff (Struts)",
+    "description": "Minecraft mod library for \"strut\" blocks, that span between two positions. Provides polished rendering, collision and interaction systems.",
+    "url": "https://modrinth.com/project/sHO3MhQx",
+    "source": "Modrinth publisher description"
+  },
+  "mods/tidal-towns.pw.toml": {
+    "name": "Tidal Towns",
+    "description": "Several pieces of driftwood have been gathered to form a village that floats on the waves.",
+    "url": "https://modrinth.com/project/EEIwvQVo",
+    "source": "Modrinth publisher description"
   }
 }

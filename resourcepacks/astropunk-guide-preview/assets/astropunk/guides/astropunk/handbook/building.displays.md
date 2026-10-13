@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@immersive_paintings" />
 
+![Displayed metal blocks and ingots](images/visual-displayed-materials.png)
+
+Displayed metal blocks and ingots
+
 <ItemGrid>
   <ItemIcon id="immersive_paintings:painting" />
   <ItemIcon id="immersive_paintings:glow_painting" />

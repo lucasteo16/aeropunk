@@ -23,6 +23,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Deadeye combat](images/visual-deadeye-combat.png)
+
+Deadeye combat
+
 <ItemGrid>
   <ItemIcon id="archers:rapid_crossbow" />
 </ItemGrid>

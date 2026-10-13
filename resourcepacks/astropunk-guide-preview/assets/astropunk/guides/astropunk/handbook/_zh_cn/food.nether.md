@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用下界食材烹饪"
-  position: 5
+  position: 7
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---
@@ -11,6 +11,10 @@ navigation:
 ## 疣猪兽与炽足兽
 
 <EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+
+![疣猪兽食材与下界厨房](images/visual-nether-kitchen.png)
+
+疣猪兽食材与下界厨房
 
 <ItemGrid>
   <ItemIcon id="minersdelight:spicy_hoglin_stew_cup" />
