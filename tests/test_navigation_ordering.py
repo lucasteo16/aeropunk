@@ -109,8 +109,11 @@ class SemanticOrdering(unittest.TestCase):
         if pack['name'] == 'Astropunk Heavy':
             original_heavy = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
                 '3366e71', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
-            heavy_metadata = {p for p in original_heavy if p.endswith('.pw.toml')} - baseline_metadata
-            self.assertEqual(len(heavy_metadata), 20)
+            original_shared = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
+                'f5c24f3', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
+            # Retired shared providers are not Heavy additions to preserve.
+            heavy_metadata = {p for p in original_heavy if p.endswith('.pw.toml')} - set(original_shared)
+            self.assertEqual(len(heavy_metadata), 18)
         actual = {p.relative_to(ROOT).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks')
                   for p in (ROOT / folder).glob('*.pw.toml')}
         self.assertEqual(actual, baseline_metadata | heavy_metadata)
