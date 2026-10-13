@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@explorerscompass" /> <EmiSearch query="@naturescompass" />
 
+![Biome selection in Nature’s Compass](images/visual-biome-finder.png)
+
+Biome selection in Nature’s Compass
+
 <ItemGrid><ItemIcon id="naturescompass:naturescompass" /><ItemIcon id="explorerscompass:explorerscompass" /></ItemGrid>
 
 | Shown items |

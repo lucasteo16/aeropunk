@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@reinfshulker" />
 
+![探索时背负的背包](images/visual-worn-backpacks.png)
+
+探索时背负的背包
+
 <ItemGrid>
   <ItemIcon id="minecraft:shulker_box" />
   <ItemIcon id="reinfshulker:copper_shulker_box" />

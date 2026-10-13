@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "Nether food"
-  position: 5
+  position: 7
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---
@@ -11,6 +11,10 @@ navigation:
 ## Hoglin & strider
 
 <EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+
+![Hoglin ingredients and a Nether kitchen](images/visual-nether-kitchen.png)
+
+Hoglin ingredients and a Nether kitchen
 
 <ItemGrid>
   <ItemIcon id="minersdelight:spicy_hoglin_stew_cup" />

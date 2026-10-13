@@ -17,6 +17,10 @@ item_ids:
 
 <EmiSearch query="@farmersdelight" />
 
+![烹饪工具与盛装空间组成的厨房](images/visual-kitchen-tools.png)
+
+烹饪工具与盛装空间组成的厨房
+
 ![营火上的烹饪锅](images/nav-visual-farmers-delight-pot-campfire.png)
 
 ![烹饪锅界面](images/nav-visual-farmers-delight-pot-interface.png)

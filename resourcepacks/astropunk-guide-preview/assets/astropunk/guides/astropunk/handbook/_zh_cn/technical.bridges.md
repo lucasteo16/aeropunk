@@ -8,6 +8,14 @@ navigation:
 
 # 查询移动建筑与视觉兼容组件
 
+## 船上装备
+
+<EmiSearch query="@create_sa" /> <EmiSearch query="@create" />
+
+Create Stuff 'N Additions 的 Sable 与 Aeronautics 兼容组件让对应装备适配移动船体。它是兼容层，并非新的载具系列。使用装备本身的配方与操作，不要假定它让移动建筑上的每种交互都与静止建筑完全相同。
+
+***
+
 ## 移动结构
 
 Sable: Physics Compat 补充方块物理属性，Sable Beyond 扩展移动结构行为。两者都不是可制作载具目录。兼容支持不代表移动建筑上的每种方块交互都能正常运作。
@@ -52,6 +60,7 @@ AttributeFix 修复属性限制，Neo Bee Fix 修复蜜蜂行为。这些属于�
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![AttributeFix](images/catalog-loopento.png) [AttributeFix](technical.bridges.md) | 移除可能限制模组数值的内置属性上限。 | 无独立物品查询 |
+| ![Create Stuff 'N Additions x Sable & Aeronautics Compat](images/catalog-gsaqdfou.png) [Create Stuff 'N Additions x Sable & Aeronautics Compat](technical.bridges.md) | 让 Create Stuff 扩展与 Sable、Aeronautics 船体兼容。 | 无独立物品查询 |
 | ![Neo Bee Fix](images/catalog-dzsy371i.png) [Neo Bee Fix](technical.bridges.md) | 修复原版蜜蜂行为。 | 无独立物品查询 |
 | ![Sable Beyond](images/catalog-prw3b4fh.png) [Sable Beyond](technical.bridges.md) | 为 Sable 扩展机械动力机器交互及可调整的质量与流体物理机制。 | 无独立物品查询 |
 | ![Sable: Physics Compat](images/catalog-szbcirjb.png) [Sable: Physics Compat](technical.bridges.md) | 为受支持的模组方块补充物理属性标签。 | 无独立物品查询 |

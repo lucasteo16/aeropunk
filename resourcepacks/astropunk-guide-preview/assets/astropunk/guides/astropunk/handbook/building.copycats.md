@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@copycats" />
 
+![Copycat shapes using a shared material](images/visual-copycat-shapes.png)
+
+Copycat shapes using a shared material
+
 <ItemGrid>
   <ItemIcon id="copycats:copycat_block" />
   <ItemIcon id="copycats:copycat_slab" />

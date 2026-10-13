@@ -10,6 +10,10 @@ navigation:
 
 ## 经验与附魔
 
+![经验与附魔机械](images/feedback-enchanting-workshop.png)
+
+经验与附魔机械
+
 <EmiSearch query="@create_enchantment_industry" />
 
 <ItemGrid>

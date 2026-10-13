@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
+![Package Accelerators beside conveyors](images/visual-package-routing.png)
+
+Package Accelerators beside conveyors
+
 <ItemGrid>
   <ItemIcon id="create:belt_connector" />
   <ItemIcon id="create:andesite_funnel" />

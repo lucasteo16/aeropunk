@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
+![Rogue and Warrior equipment](images/visual-martial-equipment.png)
+
+Rogue and Warrior equipment
+
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
   <ItemIcon id="archers:composite_longbow" />

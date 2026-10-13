@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@aeroengineering" />
 
+![An aircraft engine workshop](images/visual-engine-workshop.png)
+
+An aircraft engine workshop
+
 <ItemGrid>
   <ItemIcon id="aeroengineering:engine_fan" />
   <ItemIcon id="aeroengineering:engine_compressor" />

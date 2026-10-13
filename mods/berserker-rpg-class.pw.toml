@@ -1,13 +1,13 @@
 name = "Berserker (RPG Series Plus)"
-filename = "berserker_rpg-neoforge-3.1.1+1.21.1.jar"
+filename = "berserker_rpg-neoforge-3.2.0+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8hqOZzxM/versions/Z169ob2G/berserker_rpg-neoforge-3.1.1%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/8hqOZzxM/versions/val86kc4/berserker_rpg-neoforge-3.2.0%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "a6161568a534c565b9719df43ea7c3201672f0fbf9e5672a657b18456532b337e98330384e0026b5654918e358a82320e81f06ce890fed336e71debe45fe3be7"
+hash = "3cfee68ae14121e17706bbeaf6afa5b8278ad4d1fd8a678a4075bb07e9d84aae5e67390bca410e9903292de5e065159bd94198d5489f5a534d22d53aa7c79a6a"
 
 [update]
 [update.modrinth]
 mod-id = "8hqOZzxM"
-version = "Z169ob2G"
+version = "val86kc4"

@@ -10,6 +10,10 @@ navigation:
 
 ## Hunger & saturation
 
+![Different dishes at a shared table](images/visual-shared-feast.png)
+
+Different dishes at a shared table
+
 <ItemGrid>
   <ItemIcon id="minecraft:apple" />
   <ItemIcon id="minecraft:bread" />
@@ -37,7 +41,29 @@ Use the inventory diet button or <ItemLink id="solonion:food_book" /> to inspect
 
 ***
 
+## Food stack limits
+
+Short Stacks limits edible items by hunger restoration, not by saturation or rarity. More filling food generally fits fewer items in one slot. It never raises an item's existing maximum stack size.
+
+| Hunger restored in points | Nutrition-based maximum |
+| --- | --- |
+| 2 | 32 |
+| 4 | 16 |
+| 5 | 12 |
+| 6 | 10 |
+| 8 | 8 |
+
+These are upper limits before an item's own smaller limit. A dish already limited to one stays at one. Fish, cooked fish and seafood dishes can have different limits because they restore different hunger values. Food containers are not edible dishes.
+
+- [Seafood choices](food.seafood.md)
+
+***
+
 ## Packing meals
+
+![Food Book, Lunchbag and Lunchboxes](images/visual-diet-containers.png)
+
+Food Book, Lunchbag and Lunchboxes
 
 <ItemGrid>
   <ItemIcon id="solonion:lunchbag" />
@@ -49,7 +75,7 @@ Use <ItemLink id="solonion:lunchbag" /> or <ItemLink id="solonion:lunchbox" /> f
 
 - [Kitchen meals](food.utensils.md)
 - [Crop ingredients](food.growing.md)
-- [Fish meals](food.fishing.md)
+- [Fish meals](food.seafood.md)
 
 ***
 

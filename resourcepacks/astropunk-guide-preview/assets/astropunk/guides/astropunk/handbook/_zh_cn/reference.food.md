@@ -17,6 +17,23 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 
 ***
 
+## 饥饿与多样性
+
+- <ItemImage id="minecraft:apple" /> [饥饿、堆叠与多样性](food.hunger.md) 介绍饥饿值、饱和度、滚动饮食、Short Stacks 限制与口粮收纳。
+
+***
+
+## 种植与钓鱼
+
+<EmiSearch query="@spawn" /> <EmiSearch query="@hybrid_delights" /> <EmiSearch query="@oceansdelight" /> <EmiSearch query="@starcatcher" />
+
+- <ItemImage id="minecraft:wheat" /> [作物食材](food.growing.md) 介绍野生作物来源、种子、稻米加工与收获辅助。
+- <ItemImage id="minecraft:cod" /> [钓鱼](food.fishing.md) 介绍 Starcatcher 鱼竿、钓具、鱼饵与收藏。
+- <ItemImage id="minecraft:salmon" /> [钓鱼栖息地](fishing.habitats.md) 连接鱼种条件与 Terralith 地形。
+- <ItemImage id="oceansdelight:cooked_stuffed_squid" /> [海鲜料理](food.seafood.md) 介绍 Starcatcher's Delight、Hybrid Delights、Ocean's Delight 与 Spawn 食材系列。
+
+***
+
 ## 地区食材
 
 - <ItemImage id="minecraft:crimson_fungus" /> [下界食物](food.nether.md) 把下界狩猎与辣椒原料连接到香肠、炖菜和恶魂面团。
@@ -26,16 +43,8 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 
 ***
 
-## 种植与海鲜
+## 机器烹饪
 
-- <ItemImage id="minecraft:wheat" /> [作物食材](food.growing.md) 介绍野生作物来源、种子、稻米加工与收获辅助。
-- <ItemImage id="minecraft:cod" /> [鱼类与贝类](food.fishing.md) 区分普通钓鱼竿渔获、水生生物、加工小份与贝类料理。
-
-***
-
-## 饮食与生产
-
-- <ItemImage id="minecraft:apple" /> [饥饿与多样性](food.hunger.md) 介绍饥饿值、饱和度、滚动饮食与远行口粮收纳。
 - <ItemImage id="minecraft:smoker" /> [机器厨房](food.machine-cooking.md) 区分切片、饮品流体、作物生产与成品料理配方。
 
 ***
@@ -50,12 +59,17 @@ Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选�
 | ![Create: Integrated Farming](images/catalog-9k1pasfr.png) [Create: Integrated Farming](food.growing.md) | 为机械动力增加自动收割、渔网与家禽产物自动收集。 | <EmiSearch query="@create_integrated_farming" /> |
 | ![End's Delight](images/catalog-yhn0njmr.png) [End's Delight](food.end.md) | 为 Farmer's Delight 增加末地主题的食材与菜肴。 | <EmiSearch query="@ends_delight" /> |
 | ![Farmer's Delight](images/catalog-r2oftaxm.png) [Farmer's Delight](food.utensils.md) | 增加作物与厨具，可用砧板和烹饪锅处理食材及制作菜肴。 | <EmiSearch query="@farmersdelight" /> |
+| ![Hybrid Aquatic + Starcatcher Compatibility](images/catalog-onrvj8th.png) [Hybrid Aquatic + Starcatcher Compatibility](food.fishing.md) | 把 Hybrid Aquatic 渔获加入 Starcatcher 钓鱼系统。 | <EmiSearch query="@hybrid_aquatic" /> |
+| ![Hybrid Delights](images/catalog-wr49bbcu.png) [Hybrid Delights](food.seafood.md) | 用 Farmer's Delight 工具加工 Hybrid Aquatic 食材。 | <EmiSearch query="@hybrid_delights" /> |
 | ![L_Ender 's Cataclysm Delight](images/catalog-a48r8agk.png) [L_Ender 's Cataclysm Delight](food.encounters.md) | 将 Cataclysm 食材扩展为 Farmer's Delight 风格的菜肴。 | <EmiSearch query="@lendersdelight" /> |
 | ![Leaves Be Gone](images/catalog-avq17pqv.png) [Leaves Be Gone](food.growing.md) | 让树木被砍后失去支撑的树叶快速凋落。 | 无独立物品查询 |
 | ![Miner's Delight](images/catalog-qmxbm4bq.png) [Miner's Delight](food.underground.md) | 为 Farmer's Delight 增加采矿主题的食物与烹饪工具。 | <EmiSearch query="@minersdelight" /> |
 | ![My Nether's Delight](images/catalog-o53vhqoz.png) [My Nether's Delight](food.nether.md) | 为 Farmer's Delight 增加下界作物、食材与烹饪配方。 | <EmiSearch query="@mynethersdelight" /> |
+| ![Ocean's Delight](images/catalog-dgiq4zsw.png) [Ocean's Delight](food.seafood.md) | 用海洋食材制作海鲜料理。 | <EmiSearch query="@oceansdelight" /> |
 | ![RightClickHarvest](images/catalog-cnejf5xm.png) [RightClickHarvest](food.growing.md) | 右键即可收获成熟作物，无需手动破坏再补种。 | 无独立物品查询 |
 | <ItemImage id="minecraft:wheat" /> [Short Stacks](food.hunger.md) | 调整食物堆叠上限，改变每格物品栏可携带的食物数量。 | 无独立物品查询 |
 | ![Smarter Farmers (farmers replant)](images/catalog-bh6zomvp.png) [Smarter Farmers (farmers replant)](food.growing.md) | 让农民村民正确补种作物，也支持部分模组种子。 | 无独立物品查询 |
 | ![Spice of Life Onion](images/catalog-ehgygkjz.png) [Spice of Life Onion](food.hunger.md) | 根据近期饮食的滚动记录奖励食物多样性。 | <EmiSearch query="@solonion" /> |
+| ![Starcatcher](images/catalog-h2jxvxnr.png) [Starcatcher](food.fishing.md) | 加入依栖息地变化的渔获、钓具与钓鱼图鉴。 | <EmiSearch query="@starcatcher" /> |
+| ![Starcatcher's Delight - Let's Do: Kaleidoscope edition](images/catalog-ncxwqvxd.png) [Starcatcher's Delight - Let's Do: Kaleidoscope edition](food.seafood.md) | 为 Starcatcher 渔获加入料理与加工方式。 | <EmiSearch query="@starcatcher_delight" /> |
 | ![Universal Bone Meal](images/catalog-66viit1y.png) [Universal Bone Meal](food.growing.md) | 让骨粉可用于原本不接受骨粉的植物。 | 无独立物品查询 |

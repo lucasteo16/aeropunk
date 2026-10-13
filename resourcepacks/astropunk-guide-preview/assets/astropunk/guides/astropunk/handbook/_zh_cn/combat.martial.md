@@ -10,6 +10,10 @@ navigation:
 
 ## 武技职业
 
+![狂战士护甲](images/visual-berserker-armor.png)
+
+狂战士护甲
+
 选择职业，查看定位、入门配方、法术书、完整招式、技能与装备。
 
 - [弓箭手](class.archer.md)

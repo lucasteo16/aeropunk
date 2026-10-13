@@ -24,6 +24,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Fire spell effects](images/visual-fire-magic.png)
+
+Fire spell effects
+
 <ItemGrid>
   <ItemIcon id="wizards:wand_novice" />
 </ItemGrid>

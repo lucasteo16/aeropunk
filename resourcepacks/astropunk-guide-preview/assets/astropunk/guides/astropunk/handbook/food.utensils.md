@@ -17,6 +17,10 @@ item_ids:
 
 <EmiSearch query="@farmersdelight" />
 
+![A kitchen with cooking tools and serving space](images/visual-kitchen-tools.png)
+
+A kitchen with cooking tools and serving space
+
 ![Cooking pot over a campfire](images/nav-visual-farmers-delight-pot-campfire.png)
 
 ![Cooking pot interface](images/nav-visual-farmers-delight-pot-interface.png)

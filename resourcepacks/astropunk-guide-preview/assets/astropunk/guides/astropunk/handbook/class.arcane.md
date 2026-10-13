@@ -28,6 +28,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Arcane casting with a staff](images/visual-arcane-casting.png)
+
+Arcane casting with a staff
+
 <ItemGrid>
   <ItemIcon id="wizards:wand_arcane" />
 </ItemGrid>

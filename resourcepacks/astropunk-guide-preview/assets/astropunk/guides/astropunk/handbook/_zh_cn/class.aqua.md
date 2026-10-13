@@ -34,6 +34,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![元素巫师长袍](images/visual-elemental-robes.png)
+
+元素巫师长袍
+
 <ItemGrid>
   <ItemIcon id="elemental_wizards_rpg:wand_kelp" />
 </ItemGrid>

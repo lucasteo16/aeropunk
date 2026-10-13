@@ -13,9 +13,17 @@ item_ids:
 
 # Ore processing
 
-## Processing machines
+## Shared material outputs
 
-<EmiSearch query="@create" />
+<EmiSearch query="@createdeco" /> <EmiSearch query="@create" />
+
+Almost Unified only unifies the shared andesite alloy plate and zinc plate recipe tags in this pack, preferring Create Deco outputs. It does not unify every metal, platinum or Witcher equipment.
+
+Existing items remain visible in the recipe browser, and loot is not unified. Check the resulting recipe and its accepted ingredient before building an exact-item filter. A matching material name does not guarantee that two items satisfy an exact-item recipe.
+
+***
+
+## Processing machines
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />
@@ -120,4 +128,5 @@ Water is the fan's processing medium, not a consumed bucket. Material routing co
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
+| ![Almost Unified](images/catalog-sdasaqez.png) [Almost Unified](machines.ore-processing.md) | Unifies only shared andesite alloy and zinc sheet recipe materials. | No separate item search |
 | ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Adds rotational machines for processing, transport and automated construction. | <EmiSearch query="@create" /> |

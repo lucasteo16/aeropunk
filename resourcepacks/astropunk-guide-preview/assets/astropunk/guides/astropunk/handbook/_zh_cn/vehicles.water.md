@@ -8,6 +8,22 @@ navigation:
 
 # 操作船只与潜艇
 
+## 钓鱼船
+
+<EmiSearch query="@starcatcher" />
+
+<ItemGrid>
+  <ItemIcon id="minecraft:oak_boat" />
+  <ItemIcon id="starcatcher:oak_tackle_box_boat" />
+</ItemGrid>
+
+普通船足以到达海洋钓点。钓具箱船增加 Starcatcher 收纳空间，有不同木材变体，包括竹制钓具箱筏。这些是小型普通船，不是组装式 Sable 潜艇。通过配方浏览器查看钓具箱船配方。
+
+- [钓鱼装备](food.fishing.md)
+- [水生生物](adventure.aquatic.md)
+
+***
+
 ## 船壳
 
 ![发布者铜潜艇](images/building-travel-submarine.png)

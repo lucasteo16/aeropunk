@@ -32,6 +32,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Rogue and Warrior equipment](images/visual-martial-equipment.png)
+
+Rogue and Warrior equipment
+
 <ItemGrid>
   <ItemIcon id="rogues:iron_double_axe" />
 </ItemGrid>

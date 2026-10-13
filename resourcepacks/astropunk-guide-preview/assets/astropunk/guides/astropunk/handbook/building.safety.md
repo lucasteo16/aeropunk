@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@torchmaster" />
 
+![Light levels shown directly in a build](images/visual-light-overlay.png)
+
+Light levels shown directly in a build
+
 <ItemGrid>
   <ItemIcon id="torchmaster:megatorch" />
   <ItemIcon id="torchmaster:dreadlamp" />

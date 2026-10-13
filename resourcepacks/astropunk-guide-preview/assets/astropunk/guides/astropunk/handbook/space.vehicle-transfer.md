@@ -14,6 +14,10 @@ item_ids:
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
+![Spacecraft above Earth](images/feedback-earth-orbit.png)
+
+Spacecraft above Earth
+
 <ItemGrid>
   <ItemIcon id="rocketnautics:rocket_thruster" />
   <ItemIcon id="create:mechanical_crafter" />

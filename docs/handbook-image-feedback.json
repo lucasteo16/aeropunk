@@ -1,0 +1,459 @@
+{
+  "version": "0.11.1-g",
+  "before_topic_sha256": {
+    "class.witcher": "ac95212b6796bd5d9ac6ead39536f5bb318cdce1090b8fb3734b9a0b132441eb",
+    "class.bard": "463e3d066c4eb181452f08d30a8981bcc760ad17613b8ed399e14c423bece4db",
+    "class.priest": "9e7fd8db112cbc379634deec0b70e8b74de6a297635d8d70e0def85df74699af",
+    "class.paladin": "92c34ecd811d06bf7e432c4415c97535da0aa22c37767fef988fbb58e3c23154",
+    "class.wind": "4db4cc450b60ed1df48532b8a7ab10b48471a34677083b21047183f141d51887",
+    "class.terra": "b444a3a8eb1a6def39ac623fca52188c52981331565658d17970226f1a5750fc",
+    "class.aqua": "a462636cc73150f1f31fa0cbdefad04574b3e7d26282abf1e99e73d19d0d19d6",
+    "class.frost": "7579afe63b539e5b7501c96c5029617d7bb0a6e9063490d5f5763952583bb602",
+    "class.fire": "239c4312008351c5397f9f0714cbc0a9c0c09384fb84dc4d9acd27bf29e277cc",
+    "class.arcane": "d480608e4290e6c391ee083df8795e40238681bdc7b42de43a77206b2c0f2426",
+    "class.forcemaster": "f4cfe90486a0a28afb82b6fb429fe3a13fc8d4fff5ad0e1b3a9510f99a7d7302",
+    "class.berserker": "07620cd1acf332f182c70213dfb5a965f17ad29325d21e05e26c1500fc3b3fcf",
+    "class.warrior": "1ef73b2482e02b48e69caf85755c90aabafee02a5d4b0eccdf5e6a781636b2f7",
+    "class.rogue": "4c0160fe40c7d59b7c7bebcb704ec0281f0ce22ab16fa001ab5067f51236785c",
+    "class.war-archer": "82a3eb0072676c4d57e8936c2ad461285e41ad0f06e2d535f77540f074a8c170",
+    "class.tundra-hunter": "a8674c3410c794db0ebd083b843357d1e02b0e2d01bfaab1af9faff8b1fe8ff2",
+    "class.deadeye": "e71170c257fb9abe3bf6a6a2193ede825a8e0990c15aae0a361916355863052b",
+    "class.archer": "849a8531e6b2f0e3367efa61e756f7a61ec98ef12ce345b8d9202b58950bd872",
+    "help.credits": "79d01761e09d6a6ff722b2d899409ddfb81e40273a27f6bdbf5bc407ff9eede7",
+    "help.search": "5ed09c7b3ae64154c2ea042c4f0e3790e7e3cd4c923f4a570ae587efce126446",
+    "help.controls": "2fbdec3e3f36629b90392f529c7b699f099ac20194bc792f320afb5150ec6517",
+    "machines.ore-processing": "2ede2204550652a1d279cf18f322ff38cf4f2a405e756b69993cb38f1c723437",
+    "food.utensils": "3bbf948a83e2811fc187c4a7c8308d90a7c0877ef8703d9ee2bc5ce6c755d16e",
+    "food.hunger": "974c316e2fce272d4b7fa8b07bd61aad45cd8e9f2cf6e2ca86fda7fd3a0a4187",
+    "interactions.carry": "5ae834114fc501a0fed13b80b2666688aaaeb3972d9419a2b3b404baeec421a7",
+    "maps.find": "b2f43a641217355b3d9b70f789a94ada35a28ef53aa1f40728fb740bca0f77aa",
+    "help.handbook": "f228459f7ac8977ecf90c2227a66e51a8b4263ea7017c5301e275ad9a2f8307a",
+    "storage.portable": "59418b60cc88145c2ae4030b10918ef72508457c770be316b1f8c56f3c91d8bc",
+    "travel.destinations": "1c0eec90641d5dcc1a4056ee368ae3e98920b362f62807bd2952540f45126123",
+    "building.copycats": "afe2f097bdd8dab534743d115a0688325461c23959f1082cc678cd6f761c41de",
+    "combat.skills": "70dabc9c9d28b0d28ec1fc4da49c84daa006954b1d932dd4b8e7189bcff5048c",
+    "visuals.lighting": "496c2fe01e93b7c6f7865dc06304b7f53a46b638f9c499ae7b72f63d3a51a276",
+    "world.dimensions": "009eb7e2bd7cf952d6da6566b482a95de523390ac3a9205c06cf28eaa4866088",
+    "maps.personal": "e2e87182c4d4690d62ae4a0ab1a0280879e90ec561c0fa7b69def45cee1c26ec",
+    "maps.shared": "9da58b5d840d58cf980eb9cf419634e4943444d17702dde564e4a973f9db5d12",
+    "adventure.bosses": "1f9e75e0ff898cee6845817d88de30be547ec059fc5e060c045e40788c67a698",
+    "adventure.creatures": "c87b348ec8b92053f3f7a9852f78d239b0aed68f763cfb4a5000242c129c8a61",
+    "adventure.structures": "eee879d6fb60930acc4f30148b06e9bcfae7ff64d7e1cfa50350c58a87692e17",
+    "adventure.settlements": "b68e196c0a811e75eba19c982eba848d71eb4360a9b303b27086dbfc285c892a",
+    "adventure.loot": "c77a9d0f80aacd9e7e9d6c3e3316802786fda81e0cf81876923a6ce9dc721b66",
+    "food.nether": "99425abc24880957ff15312e1453fd992ba9fe3a680500fb97dd2469c2aba715",
+    "food.end": "2386902669ef345dc9aeb0e828498fa17c2e7f1dccdaf776ea57757e7d901a9a",
+    "food.underground": "a6e64ede03e82990f7b4230712a3f2a6544e15ebe60db56730ec8e6126beda50",
+    "food.encounters": "417174cda5711de1ef9f97c9b72d28f0bdee2e9d46354501f0b49e9ff0255c90",
+    "food.machine-cooking": "51e7907cb4f79e6a35bf48fdcb9f141d3982deb21f2947805a4de6c922f74961",
+    "food.growing": "e2f6fac12cf1b6b5361913f5c942f19fcf6b8a59921da255ad71c8c9b5e3b366",
+    "food.fishing": "33e46471503c88c3d035c498eb529346dcb1951c75d3b9b4c67469fb7e9dc59a",
+    "combat.martial": "9b41b88f9455d04388a0ed29743b2d8545c02442d0773a61154729c0ba27661a",
+    "combat.magic": "0b1573736ab548898e47a4d98bdd0ed52789b8dad29ed07b7d415da3c11528ae",
+    "combat.handling": "cc500a4c49517352178cfe57eee6e645363129b3e0d7cbd42a5a3d114f5ad1b7",
+    "equipment.weapons-armor": "229dceb8af65671244edd3321ab4d10e4e2b603ae732f2726392f4efea865770",
+    "equipment.accessories": "aae7205c41c0eb0e19d1e6b87113fbd18ae8ceea42ff2dc344b2b8c3a08e9b07",
+    "equipment.display": "2a5b8ad341563370dbe087f9ef68e1832e8795e7437170c113a1c4e70ad3a795",
+    "reference.equipment": "c4d3b465bbc7d4269f30106faabd5b5c689f7b19101799592de752c577c5917f",
+    "reference.skills": "72024e6e9f424e0d9c7ba8ad7e179935502d9ef84bcec19732c8de34156a61c4",
+    "reference.food": "f3cbc2c4fce3c5399cd7c8f5e80464d5fb735638924e4f791a1046f61f26ec93",
+    "building.palette": "3fb65d6c863e8b3435db29bd261c375a57356fd226cd125fdc82479a7d827aef",
+    "building.factory": "93792c6e90eb4214d7c91daebf9292deae85c9ae1f07e26a83f6dab5a3b468e7",
+    "building.architecture": "bc3689b2128ce3e774d822cd60e2e8328b91e9c2a999882e6a000c9e92fb35ae",
+    "building.furniture": "651c745051ff70e81f73b44c25e44b80781d01b371939655f8e14b7013195d7d",
+    "building.displays": "c1373427bf892dbd4bcb96aff3fb1d853badb87cf15c3beaa9341674ccb1789b",
+    "building.placement": "acee59bf2d6944a5e64cbe1bb32df136558cc5a675e33adf84506dcc6bab260b",
+    "building.safety": "ed58470e14e10f3d73222a1b11a48775dcd4d8bae8c3dabd57f3fd940fd27d9f",
+    "vehicles.assembly": "51f638415d7b00eabca28e67fc3c6d3d270f95f20d887b030a812cd2018b541e",
+    "vehicles.airships": "5784c517b117c6638060f2f826e4e21f25ace452c92e02a05dfd5c29e70ec8a0",
+    "vehicles.engines": "1a1374d8de4b1b1dacb880775a893409dbc87b783bf33ec9b20bd4bf239b4449",
+    "vehicles.controls": "54b144b3d83bc8dd767615d65e858eee0ffda6e3dd4aeb9441cfb2c9e34c9660",
+    "vehicles.radar": "ece433f17d8331e8a143bfa00eb3817c3fee594772bd05f2834c76dfa6f731cb",
+    "vehicles.weapons": "a142dc53da9a5f99b98dcde01f5080a274bcad756adb4c5b73f6ffbb09afa9f9",
+    "vehicles.water": "aa1b40bdd33a46d6fa3c8f5591f48fbb9e59dbd25de29b59749a1fc77c2bd793",
+    "transport.passenger": "6a6a14fb1ab92b98425bc88452b88aef624b669407508be69654ff065d3bf72b",
+    "transport.railway-builder": "65ac29941cd709a5ed389bbd89eef7de016fe87b653741d382f9dbff41853c63",
+    "transport.local": "4c25ed66ce59b8d46dcb1ed61a4c8022f8bace7b4767855d43cc4d17457017da",
+    "reference.building": "bc56464be13ccdf7b8df666ab71696af1b8bdb05eb3e2282b63881337479bff2",
+    "reference.vehicles": "cebcf057dc95402a4ec376be9086c69b65dcd00248dbf128fbc6fee310dc3c69",
+    "storage.bulk": "2386ad62ec986ce441b78783d4544e04aa819cc26bb536fa8b231a8845cad119",
+    "storage.handling": "c14a4424b73c53b8fa8fcbbf862370c22edac83488172340ab5013a7c3ac0c95",
+    "machines.rotation": "79c1c84a1d490facec4eecc587cce96dc7529373fb6ee572b5a3bfb73e284e31",
+    "machines.logistics": "ee371223b5824725a43124b81588ad89e3a78353320e684c0a0e8d79256537b7",
+    "machines.renewables": "6df18401c68690178f484d34d9405cc9ec81c3c0c7a76c0b3f610190f840f2e1",
+    "machines.enchanting": "a47d494f2500f386f37893e94b76c5e4e05bc15f2b26b8bcdbf5899a1de612b5",
+    "machines.trading": "a3d5d2a551458dbb7678ef659c7f9052150d76fff4299376ee2b2be0c64821f1",
+    "machines.miscellaneous": "c1a62fd47a406e2edff56b94bc4295d519fe73fba0f794b9194adaa889f8a3f8",
+    "power.electricity": "f8018792252253a544121ecda49de2ca04599f757985fed2e617496cc171b8f9",
+    "power.industry": "e57577a761178145a082acab25039c9167f60d489eec98c2cbc36ac4b9370d21",
+    "power.burners": "d076264378b606da34ee93eaf2b466cc15b4102eea81629c290f1e16e43163a6",
+    "power.stored-rotation": "ca437f1ee253eea435af1711503555af586758bde45d6993c1c3fdca81082577",
+    "reference.machines-storage": "794ffbc3caa12d5f2cd5b32a9cdc1a1f72c93da908a2d041c877025c247245a5",
+    "performance.baseline": "7ed581eb2d747c960c215a91ac47e3bf2c426883d6988902da453154f0f97382",
+    "server.tools": "bd05e6c146d1f736016db2a7dfb92c8713b62ec55f2b14a22033b6c2e91f3e57",
+    "technical.bridges": "f98161e7f38d85759603113d745d8eba5c3b4769e56a24a36192d01149021cb9",
+    "technical.libraries": "1798555e55e731c4f5a39cfc08026140988aab99b98465ed6a6010439f9a2dcf",
+    "reference.audio": "4e54a0b5240d3921c5a2ef92ab241d4ba9603a7e3b49492d33f76611430e2b4b",
+    "visuals.camera": "70a195d7b346a56bd9d43c10c4954f9e2cc5d026be1c6901cf953a781fefaeb7",
+    "visuals.models": "96c043b060d152fb2eda9b00f1dd6b7811d8ed92f7af81093a29d87f3dd7424f",
+    "visuals.weather": "4ab8796fd4be541bd4b2d7a7c75ffe514e90105c3d9bc74f2e6170e5b44dfe3e",
+    "visuals.interface": "71cc389d376e59e670aa5ba588ba24522c1ab6a1697c6db88cb1278f7e0f3348",
+    "visuals.resource-packs": "8a6fc4f4d46f2428b1097925fd4b96023473c595c306ca70b4e26b1e92555deb",
+    "visuals.shader-packs": "0c45dd37ceb16a856a90a7803b92dabcc8625755c14f5b41ba701b11e626f4db",
+    "space.vehicle-transfer": "935d833d0ae2b6cae3037f65d54e923453f062469bc6eee61863d9c1970e6324",
+    "help.inspect": "53176d7692f4e89a4794c28d20c2ae1e498bdf85d20f287564df7391247552df",
+    "help.reference": "31946856c894c934abc484b45c0b0521723222018ca37833d92cb2ff3a25a4f8",
+    "adventure.recovery": "0dbd691126ec73f7b56863b146e9d295dee92f05788c6257960fcab8192dc122",
+    "adventure.sleep": "9fc97932bc89b89c7f3ca1ed34781355cbed21a3a5c91931bab6b2c968ed3576",
+    "index": "56f0f0ca787fdd844aba86bfb844b00e4084419d1536694ab05dc410315f2a5b",
+    "combat.abilities": "21533b7b26d0e7dd941cc2c8711c1764fbfd73577b962c70c4e7198189806b08",
+    "space.life-support": "f3999e2bba44bec501c514c5a89a5b6ddcca1a6597034fa4d622920af331385e",
+    "space.navigation": "008e9be23d00c517b2c540b6c1a58a6e81f0bd12d3139764b78af0f1b4dabd08",
+    "fishing.habitats": "a8afd053053d629d92db40b0d250456a14fefd5e06b9da9c08cb96bc90b8d85a",
+    "food.seafood": "6f8ffa5a110696839f14a750929358415c3761e5cf08f0ca0c7a244022c759e2",
+    "adventure.aquatic": "86d6080a3035be86c99a4124ac81548ba0cc0c471aa59f08909bb2e5ee91c92d",
+    "creatures.wilderness": "4d025355da76fcb3a7d8b67e86273d32e3429e90631ee58064c0d832b6d200ec",
+    "creatures.friends": "0cc5912253427db72ad25bc3d16614af4ed914686a7fef6d0f1185976e54b756",
+    "creatures.creepers": "e1f8443d7931a57ea535dd7fbde9c0cccfb1e97df8f211c446bb517fa855a5e2",
+    "creatures.endermen": "4b653b929d4bd60de6e94406a6c8763a608d02d20da3112388b1e0ec56b29ce3",
+    "creatures.variants": "f93e416f7da26c8f8f2eeedd69b20f82907724b7c2edf45cfbb8fad7edb79b7b",
+    "creatures.guards": "7013e94edec40a2cffe5661d5f01eb2c5d2f9fdded3aee3fcaf24f5f69e8225d",
+    "creatures.cataclysm": "cd5a686a3c87ba80289431faf3f8ed29bd40620ae5553749354730b1e7b51634",
+    "creatures.illagers": "576544c1893345f7487114b5419031a97ae90f992b1a51ec1e5a6b9655b42e76",
+    "creatures.summons": "3f4ab9a67b129bc624d4ac344f5165a079e9c10b7f6635eedf66eac7502bdfdb",
+    "aquatic.freshwater": "46dfd6ba7c0e4378fa861bc4685aa85e8e906981b82363a65ab44198ee9b5303",
+    "aquatic.marine": "3065a9d3804d8aa9c09333bdbf3a0e5af66fad0a46a0e5642c7889524a41e9df",
+    "aquatic.deepwater": "7e42471fb3ada2e0b14fbdc2587b6f42ac4811e0a579da6ccb804f256b5bbabf",
+    "aquatic.sharks": "3417359c6f03a4bafdf184ac9940a711d411dcbfa24b242b654e08f3344135ce",
+    "aquatic.jellyfish": "0f15dd26e8633e11e6231e7dbf0c33db3627874a4620e6b32f7497da6ee6c72f",
+    "aquatic.cephalopods": "dbca0b43d8c7d6205c82157d1965c1450cec985244199f682a084f3f0a063b12",
+    "aquatic.seafloor": "01c8df7bc372b00022dfbf8251c4428e791d6e1c59e6dcd129a1d0e7b0560f4b",
+    "aquatic.mammals": "f81012937122e7af571095816828592a649c186b305ee7d38426a6c1dd9ac5a1"
+  },
+  "changed_topics": [
+    "adventure.aquatic",
+    "combat.martial",
+    "help.inspect",
+    "interactions.carry",
+    "machines.enchanting",
+    "machines.rotation",
+    "power.burners",
+    "power.industry",
+    "space.vehicle-transfer",
+    "travel.destinations",
+    "vehicles.radar",
+    "vehicles.weapons",
+    "visuals.camera",
+    "visuals.interface",
+    "visuals.lighting",
+    "visuals.models",
+    "visuals.resource-packs",
+    "visuals.shader-packs",
+    "visuals.weather"
+  ],
+  "image_resources": [
+    "images/feedback-tempad.png",
+    "images/feedback-earth-orbit.png",
+    "images/feedback-mounted-cannons.png",
+    "images/feedback-radar-dish.png",
+    "images/feedback-radar-monitor.png",
+    "images/feedback-enchanting-workshop.png",
+    "images/feedback-liquid-fuel.png",
+    "images/feedback-nether-tanks.png",
+    "images/feedback-windmill.png",
+    "images/feedback-jade-block.png",
+    "images/feedback-jade-creature.png",
+    "images/feedback-carry-chest.png",
+    "images/feedback-camera-zoom.png",
+    "images/feedback-entity-models.png",
+    "images/feedback-explosion-particles.png",
+    "images/feedback-video-options.png",
+    "images/feedback-resource-leaves.png",
+    "images/feedback-shader-reimagined.png",
+    "images/feedback-shader-unbound.png",
+    "images/feedback-oil-extraction.png"
+  ],
+  "insertions": [
+    {
+      "topic": "travel.destinations",
+      "locale": "en_us",
+      "resource": "images/feedback-tempad.png",
+      "block": "![Tempad destination equipment](images/feedback-tempad.png)\n\nTempad destination equipment\n\n"
+    },
+    {
+      "topic": "travel.destinations",
+      "locale": "zh_cn",
+      "resource": "images/feedback-tempad.png",
+      "block": "![Tempad 目的地设备](images/feedback-tempad.png)\n\nTempad 目的地设备\n\n"
+    },
+    {
+      "topic": "space.vehicle-transfer",
+      "locale": "en_us",
+      "resource": "images/feedback-earth-orbit.png",
+      "block": "![Spacecraft above Earth](images/feedback-earth-orbit.png)\n\nSpacecraft above Earth\n\n"
+    },
+    {
+      "topic": "space.vehicle-transfer",
+      "locale": "zh_cn",
+      "resource": "images/feedback-earth-orbit.png",
+      "block": "![地球上空的飞船](images/feedback-earth-orbit.png)\n\n地球上空的飞船\n\n"
+    },
+    {
+      "topic": "vehicles.weapons",
+      "locale": "en_us",
+      "resource": "images/feedback-mounted-cannons.png",
+      "block": "![Cannons mounted on a ship](images/feedback-mounted-cannons.png)\n\nCannons mounted on a ship\n\n"
+    },
+    {
+      "topic": "vehicles.weapons",
+      "locale": "zh_cn",
+      "resource": "images/feedback-mounted-cannons.png",
+      "block": "![舰船上的火炮](images/feedback-mounted-cannons.png)\n\n舰船上的火炮\n\n"
+    },
+    {
+      "topic": "vehicles.radar",
+      "locale": "en_us",
+      "resource": "images/feedback-radar-dish.png",
+      "block": "![Radar antenna assemblies](images/feedback-radar-dish.png)\n\nRadar antenna assemblies\n\n"
+    },
+    {
+      "topic": "vehicles.radar",
+      "locale": "zh_cn",
+      "resource": "images/feedback-radar-dish.png",
+      "block": "![雷达天线组件](images/feedback-radar-dish.png)\n\n雷达天线组件\n\n"
+    },
+    {
+      "topic": "vehicles.radar",
+      "locale": "en_us",
+      "resource": "images/feedback-radar-monitor.png",
+      "block": "![Radar monitor display](images/feedback-radar-monitor.png)\n\nRadar monitor display\n\n"
+    },
+    {
+      "topic": "vehicles.radar",
+      "locale": "zh_cn",
+      "resource": "images/feedback-radar-monitor.png",
+      "block": "![雷达显示器](images/feedback-radar-monitor.png)\n\n雷达显示器\n\n"
+    },
+    {
+      "topic": "machines.enchanting",
+      "locale": "en_us",
+      "resource": "images/feedback-enchanting-workshop.png",
+      "block": "![Experience and enchanting machinery](images/feedback-enchanting-workshop.png)\n\nExperience and enchanting machinery\n\n"
+    },
+    {
+      "topic": "machines.enchanting",
+      "locale": "zh_cn",
+      "resource": "images/feedback-enchanting-workshop.png",
+      "block": "![经验与附魔机械](images/feedback-enchanting-workshop.png)\n\n经验与附魔机械\n\n"
+    },
+    {
+      "topic": "power.industry",
+      "locale": "en_us",
+      "resource": "images/feedback-oil-extraction.png",
+      "block": "![Oil extraction machinery](images/feedback-oil-extraction.png)\n\nOil extraction machinery\n\n"
+    },
+    {
+      "topic": "power.industry",
+      "locale": "zh_cn",
+      "resource": "images/feedback-oil-extraction.png",
+      "block": "![石油开采机械](images/feedback-oil-extraction.png)\n\n石油开采机械\n\n"
+    },
+    {
+      "topic": "power.burners",
+      "locale": "en_us",
+      "resource": "images/feedback-liquid-fuel.png",
+      "block": "![Fluid supply to a Blaze Burner](images/feedback-liquid-fuel.png)\n\nFluid supply to a Blaze Burner\n\n"
+    },
+    {
+      "topic": "power.burners",
+      "locale": "zh_cn",
+      "resource": "images/feedback-liquid-fuel.png",
+      "block": "![烈焰燃烧室的流体供给](images/feedback-liquid-fuel.png)\n\n烈焰燃烧室的流体供给\n\n"
+    },
+    {
+      "topic": "power.burners",
+      "locale": "en_us",
+      "resource": "images/feedback-nether-tanks.png",
+      "block": "![Create fluid tanks beside a Nether portal](images/feedback-nether-tanks.png)\n\nCreate fluid tanks beside a Nether portal\n\n"
+    },
+    {
+      "topic": "power.burners",
+      "locale": "zh_cn",
+      "resource": "images/feedback-nether-tanks.png",
+      "block": "![下界传送门旁的 Create 流体储罐](images/feedback-nether-tanks.png)\n\n下界传送门旁的 Create 流体储罐\n\n"
+    },
+    {
+      "topic": "machines.rotation",
+      "locale": "en_us",
+      "resource": "images/feedback-windmill.png",
+      "block": "![Create windmill build](images/feedback-windmill.png)\n\nCreate windmill build\n\n"
+    },
+    {
+      "topic": "machines.rotation",
+      "locale": "zh_cn",
+      "resource": "images/feedback-windmill.png",
+      "block": "![Create 风车建筑](images/feedback-windmill.png)\n\nCreate 风车建筑\n\n"
+    },
+    {
+      "topic": "help.inspect",
+      "locale": "en_us",
+      "resource": "images/feedback-jade-block.png",
+      "block": "![Jade chest contents overlay](images/feedback-jade-block.png)\n\nJade chest contents overlay\n\n"
+    },
+    {
+      "topic": "help.inspect",
+      "locale": "zh_cn",
+      "resource": "images/feedback-jade-block.png",
+      "block": "![Jade 箱子内容提示](images/feedback-jade-block.png)\n\nJade 箱子内容提示\n\n"
+    },
+    {
+      "topic": "help.inspect",
+      "locale": "en_us",
+      "resource": "images/feedback-jade-creature.png",
+      "block": "![Jade horse information overlay](images/feedback-jade-creature.png)\n\nJade horse information overlay\n\n"
+    },
+    {
+      "topic": "help.inspect",
+      "locale": "zh_cn",
+      "resource": "images/feedback-jade-creature.png",
+      "block": "![Jade 马匹信息提示](images/feedback-jade-creature.png)\n\nJade 马匹信息提示\n\n"
+    },
+    {
+      "topic": "interactions.carry",
+      "locale": "en_us",
+      "resource": "images/feedback-carry-chest.png",
+      "block": "![Carrying a chest](images/feedback-carry-chest.png)\n\nCarrying a chest\n\n"
+    },
+    {
+      "topic": "interactions.carry",
+      "locale": "zh_cn",
+      "resource": "images/feedback-carry-chest.png",
+      "block": "![搬运箱子](images/feedback-carry-chest.png)\n\n搬运箱子\n\n"
+    },
+    {
+      "topic": "visuals.camera",
+      "locale": "en_us",
+      "resource": "images/feedback-camera-zoom.png",
+      "block": "![Camera zoom across a landscape](images/feedback-camera-zoom.png)\n\nCamera zoom across a landscape\n\n"
+    },
+    {
+      "topic": "visuals.camera",
+      "locale": "zh_cn",
+      "resource": "images/feedback-camera-zoom.png",
+      "block": "![放大观察远处景观](images/feedback-camera-zoom.png)\n\n放大观察远处景观\n\n"
+    },
+    {
+      "topic": "visuals.models",
+      "locale": "en_us",
+      "resource": "images/feedback-entity-models.png",
+      "block": "![Custom animated pillager model](images/feedback-entity-models.png)\n\nCustom animated pillager model\n\n"
+    },
+    {
+      "topic": "visuals.models",
+      "locale": "zh_cn",
+      "resource": "images/feedback-entity-models.png",
+      "block": "![自定义掠夺者动画模型](images/feedback-entity-models.png)\n\n自定义掠夺者动画模型\n\n"
+    },
+    {
+      "topic": "visuals.interface",
+      "locale": "en_us",
+      "resource": "images/feedback-video-options.png",
+      "block": "![Reorganized video options](images/feedback-video-options.png)\n\nReorganized video options\n\n"
+    },
+    {
+      "topic": "visuals.interface",
+      "locale": "zh_cn",
+      "resource": "images/feedback-video-options.png",
+      "block": "![重新整理的视频设置](images/feedback-video-options.png)\n\n重新整理的视频设置\n\n"
+    },
+    {
+      "topic": "visuals.resource-packs",
+      "locale": "en_us",
+      "resource": "images/feedback-resource-leaves.png",
+      "block": "![Leaf appearance with Better Leaves](images/feedback-resource-leaves.png)\n\nLeaf appearance with Better Leaves\n\n"
+    },
+    {
+      "topic": "visuals.resource-packs",
+      "locale": "zh_cn",
+      "resource": "images/feedback-resource-leaves.png",
+      "block": "![Better Leaves 的树叶外观](images/feedback-resource-leaves.png)\n\nBetter Leaves 的树叶外观\n\n"
+    },
+    {
+      "topic": "visuals.shader-packs",
+      "locale": "en_us",
+      "resource": "images/feedback-shader-reimagined.png",
+      "block": "![Complementary Reimagined landscape](images/feedback-shader-reimagined.png)\n\nComplementary Reimagined landscape\n\n"
+    },
+    {
+      "topic": "visuals.shader-packs",
+      "locale": "zh_cn",
+      "resource": "images/feedback-shader-reimagined.png",
+      "block": "![Complementary Reimagined 景观](images/feedback-shader-reimagined.png)\n\nComplementary Reimagined 景观\n\n"
+    },
+    {
+      "topic": "visuals.shader-packs",
+      "locale": "en_us",
+      "resource": "images/feedback-shader-unbound.png",
+      "block": "![Complementary Unbound landscape](images/feedback-shader-unbound.png)\n\nComplementary Unbound landscape\n\n"
+    },
+    {
+      "topic": "visuals.shader-packs",
+      "locale": "zh_cn",
+      "resource": "images/feedback-shader-unbound.png",
+      "block": "![Complementary Unbound 景观](images/feedback-shader-unbound.png)\n\nComplementary Unbound 景观\n\n"
+    },
+    {
+      "topic": "visuals.weather",
+      "locale": "en_us",
+      "resource": "images/feedback-explosion-particles.png",
+      "block": "![Explosion particle effects (heavy edition only)](images/feedback-explosion-particles.png)\n\nExplosion particle effects (heavy edition only)\n\n"
+    },
+    {
+      "topic": "visuals.weather",
+      "locale": "zh_cn",
+      "resource": "images/feedback-explosion-particles.png",
+      "block": "![爆炸粒子效果（仅重型版）](images/feedback-explosion-particles.png)\n\n爆炸粒子效果（仅重型版）\n\n"
+    },
+    {
+      "topic": "combat.martial",
+      "locale": "en_us",
+      "resource": "images/visual-berserker-armor.png",
+      "block": "![Berserker armor](images/visual-berserker-armor.png)\n\nBerserker armor\n\n"
+    },
+    {
+      "topic": "combat.martial",
+      "locale": "zh_cn",
+      "resource": "images/visual-berserker-armor.png",
+      "block": "![狂战士护甲](images/visual-berserker-armor.png)\n\n狂战士护甲\n\n"
+    },
+    {
+      "topic": "adventure.aquatic",
+      "locale": "en_us",
+      "resource": "images/visual-seafloor-starfish.png",
+      "block": "![Starfish on a coral reef](images/visual-seafloor-starfish.png)\n\nStarfish on a coral reef\n\n"
+    },
+    {
+      "topic": "adventure.aquatic",
+      "locale": "zh_cn",
+      "resource": "images/visual-seafloor-starfish.png",
+      "block": "![珊瑚礁上的海星](images/visual-seafloor-starfish.png)\n\n珊瑚礁上的海星\n\n"
+    },
+    {
+      "topic": "visuals.lighting",
+      "locale": "en_us",
+      "resource": "images/feedback-shader-reimagined.png",
+      "block": "![Complementary Reimagined landscape](images/feedback-shader-reimagined.png)\n\nComplementary Reimagined landscape\n\n"
+    },
+    {
+      "topic": "visuals.lighting",
+      "locale": "zh_cn",
+      "resource": "images/feedback-shader-reimagined.png",
+      "block": "![Complementary Reimagined 景观](images/feedback-shader-reimagined.png)\n\nComplementary Reimagined 景观\n\n"
+    }
+  ],
+  "limitations": [
+    "Original Reddit URL and creator were not supplied.",
+    "Public artwork redistribution permission remains subject to review.",
+    "Rendering and gameplay need player review."
+  ]
+}

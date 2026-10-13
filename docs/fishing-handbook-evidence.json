@@ -1,0 +1,743 @@
+{
+  "baseline_commit": "43ffb9f",
+  "artifact_evidence": {
+    "short-stacks.pw.toml": {
+      "filename": "shortstacks-1.2.2.jar",
+      "hash_matches": true,
+      "download": {
+        "hash-format": "sha1",
+        "hash": "6db25e56f8d37237721926b98c9244756fbd511d",
+        "mode": "metadata:curseforge"
+      },
+      "resources": [],
+      "implementation": "com.momosoftworks.shortstacks.mixin.MixinStackSize.getMaxStackSize, released bytecode inspected with Java 21 javap. Integer division of 64 by nutrition clamped to at least one, rounded upward to an even number except one, clamped from one to 64, then capped by original item maximum.",
+      "examples": {
+        "2": 32,
+        "4": 16,
+        "5": 12,
+        "6": 10,
+        "8": 8
+      }
+    },
+    "create-unified-fuels.pw.toml": {
+      "filename": "create_unified_fuels-1.0.4.jar",
+      "hash_matches": true,
+      "download": {
+        "hash-format": "sha1",
+        "hash": "bdcf3de514efe78434baf7ba56d1012c88bb03d1",
+        "mode": "metadata:curseforge"
+      },
+      "resources": []
+    },
+    "hybrid-aquatic-starcatcher-compatibility.pw.toml": {
+      "filename": "hybrid_aquatic_starcatcher_compat-0.6.1.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/onrvj8TH/versions/dx5fbOBU/hybrid_aquatic_starcatcher_compat-0.6.1.jar",
+        "hash-format": "sha512",
+        "hash": "7df7dcb31f42d327fdbb6650e69053487f6d6ce93171839e2eba33897b55e600928890577fe702d83c1d09d375567022cc4f7f8e82fb9233f888af0e5ba6df5a"
+      },
+      "resources": []
+    },
+    "hybrid-aquatic.pw.toml": {
+      "filename": "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/HH4FjUqN/versions/jdOU7Pzu/hybrid_aquatic-neoforge-1.21.1-1.7.4.jar",
+        "hash-format": "sha512",
+        "hash": "c71f952db5416b019007c71175c151c443a1724acce20e1a0ed7be9e4c88a68061b5cf18d57625414941928e5a21ac1f141ca922cc45ff627ecad9039e5f2a2b"
+      },
+      "resources": [],
+      "natural_spawn_species": {
+        "hybrid_aquatic:african_butterflyfish": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:anglerfish": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:arrow_squid": [
+          "#hapi:temperate_oceans",
+          "#hapi:temperate_trench"
+        ],
+        "hybrid_aquatic:barracuda": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:barrel_jellyfish": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:red_meadow",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:barreleye": [
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:basking_shark": [
+          "#hapi:deep_cold_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:frozen_oceans"
+        ],
+        "hybrid_aquatic:betta": [
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:swamp"
+        ],
+        "hybrid_aquatic:big_red_jellyfish": [
+          "#hapi:cold_trench",
+          "#hapi:frozen_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:blobfish": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:blowfish": [
+          "#hapi:coral_reef",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:blue_jellyfish": [
+          "#hapi:cold_oceans",
+          "#hapi:temperate_oceans"
+        ],
+        "hybrid_aquatic:box_jellyfish": [
+          "#hapi:coral_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:mangroves",
+          "#hapi:sandy_beaches",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:boxfish": [
+          "#hapi:coral_reef",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:bull_shark": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:warm_oceans"
+        ],
+        "hybrid_aquatic:carp": [
+          "#hapi:rivers"
+        ],
+        "hybrid_aquatic:cepheidae_jellyfish": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:cichlid": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:clownfish": [
+          "#hapi:coral_reef"
+        ],
+        "hybrid_aquatic:coconut_crab": [
+          "#hapi:sandy_beaches"
+        ],
+        "hybrid_aquatic:coelacanth": [
+          "#hapi:deep_reef",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:colossal_squid": [
+          "#hapi:cold_trench",
+          "#hapi:frozen_trench",
+          "#hapi:temperate_trench"
+        ],
+        "hybrid_aquatic:comb_jelly": [
+          "#hapi:all_trenches",
+          "#hapi:deep_reef",
+          "#minecraft:is_deep_ocean"
+        ],
+        "hybrid_aquatic:corydora": [
+          "#hapi:jungle",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:cosmic_jellyfish": [
+          "#hapi:cold_trench",
+          "#hapi:deep_reef",
+          "#hapi:frozen_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:crayfish": [
+          "#hapi:cold_rivers",
+          "#hapi:rivers",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:crown_jellyfish": [
+          "#hapi:cold_trench",
+          "#hapi:frozen_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:cuttlefish": [
+          "#hapi:coral_reef",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:damselfish": [
+          "#hapi:coral_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:danio": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:decorator_crab": [
+          "#hapi:coral_reef",
+          "#hapi:red_meadow"
+        ],
+        "hybrid_aquatic:discus": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:dragonfish": [
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:dugong": [
+          "#hapi:seagrass_bed"
+        ],
+        "hybrid_aquatic:dungeness_crab": [
+          "#hapi:sandy_beaches"
+        ],
+        "hybrid_aquatic:fangtooth": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:fiddler_crab": [
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:swamp"
+        ],
+        "hybrid_aquatic:firefly_squid": [
+          "#hapi:coral_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:lukewarm_trench",
+          "#hapi:warm_oceans",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:firework_jellyfish": [
+          "#hapi:cold_trench",
+          "#hapi:deep_reef",
+          "#hapi:frozen_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:flashlight_fish": [
+          "#hapi:coral_reef",
+          "#hapi:deep_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:flower_crab": [
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:red_meadow",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:flying_fish": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:frilled_shark": [
+          "#hapi:deep_reef",
+          "#hapi:lukewarm_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:garden_eel": [
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:ghost_crab": [
+          "#hapi:sandy_beaches"
+        ],
+        "hybrid_aquatic:giant_isopod": [
+          "#hapi:cold_oceans",
+          "#hapi:cold_trench",
+          "#hapi:deep_reef",
+          "#hapi:temperate_oceans",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:giant_squid": [
+          "#hapi:cold_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:goblin_shark": [
+          "#hapi:cold_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:golden_dorado": [
+          "#hapi:jungle",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:gourami": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:great_white_shark": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans"
+        ],
+        "hybrid_aquatic:hammerhead_shark": [
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_warm_oceans",
+          "#hapi:temperate_oceans"
+        ],
+        "hybrid_aquatic:hatchetfish": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:hermit_crab": [
+          "#hapi:red_meadow",
+          "#hapi:sandy_beaches",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans"
+        ],
+        "hybrid_aquatic:herring": [
+          "#hapi:shallow_cold_oceans",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:horseshoe_crab": [
+          "#hapi:red_meadow",
+          "#hapi:sandy_beaches",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:hound_shark": [
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:john_dory": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_reef",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:lantern_shark": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_reef",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:lightfoot_crab": [
+          "#hapi:rocky_beaches"
+        ],
+        "hybrid_aquatic:lionfish": [
+          "#hapi:coral_reef",
+          "#hapi:red_meadow"
+        ],
+        "hybrid_aquatic:lions_mane_jellyfish": [
+          "#hapi:cold_oceans",
+          "#hapi:frozen_oceans"
+        ],
+        "hybrid_aquatic:lobster": [
+          "#hapi:coral_reef",
+          "#hapi:deep_reef",
+          "#hapi:red_meadow",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:mackerel": [
+          "#hapi:cold_oceans",
+          "#hapi:temperate_oceans"
+        ],
+        "hybrid_aquatic:mahi": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_warm_oceans"
+        ],
+        "hybrid_aquatic:manatee": [
+          "#hapi:mangroves",
+          "#hapi:seagrass_bed",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:manta_ray": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:temperate_oceans",
+          "#hapi:warm_oceans"
+        ],
+        "hybrid_aquatic:mauve_stinger": [
+          "#hapi:cold_trench",
+          "#hapi:deep_reef",
+          "#hapi:frozen_trench",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:moon_jellyfish": [
+          "#hapi:coral_reef",
+          "#hapi:red_meadow",
+          "#hapi:sandy_beaches",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:moray_eel": [
+          "#hapi:coral_reef",
+          "#hapi:seagrass_bed"
+        ],
+        "hybrid_aquatic:needlefish": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:nomura_jellyfish": [
+          "#hapi:cold_oceans",
+          "#hapi:frozen_oceans"
+        ],
+        "hybrid_aquatic:oarfish": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans",
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:ocean_sunfish": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans"
+        ],
+        "hybrid_aquatic:octopus": [
+          "#hapi:coral_reef",
+          "#hapi:red_meadow",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:opah": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans"
+        ],
+        "hybrid_aquatic:orca": [
+          "#hapi:cold_oceans",
+          "#hapi:frozen_oceans",
+          "#hapi:temperate_oceans"
+        ],
+        "hybrid_aquatic:otter": [
+          "#hapi:rivers",
+          "#hapi:rocky_beaches",
+          "#hapi:sandy_beaches"
+        ],
+        "hybrid_aquatic:parrotfish": [
+          "#hapi:coral_reef",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:piranha": [
+          "#hapi:jungle",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:pleco": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:swamp",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:pupfish": [
+          "#minecraft:is_badlands"
+        ],
+        "hybrid_aquatic:ratfish": [
+          "#hapi:all_trenches",
+          "#hapi:deep_reef"
+        ],
+        "hybrid_aquatic:rockfish": [
+          "#hapi:deep_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:sand_tiger_shark": [
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:scalyfoot_snail": [
+          "#hapi:has_thermal_vents"
+        ],
+        "hybrid_aquatic:sea_angel": [
+          "#hapi:cold_trench",
+          "#hapi:frozen_trench",
+          "#hapi:temperate_trench"
+        ],
+        "hybrid_aquatic:sea_bass": [
+          "#hapi:deep_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:sea_cucumber": [
+          "#hapi:all_trenches",
+          "#hapi:red_meadow",
+          "#minecraft:is_deep_ocean",
+          "#minecraft:is_ocean"
+        ],
+        "hybrid_aquatic:sea_nettle": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:shallow_warm_oceans",
+          "#hapi:temperate_oceans"
+        ],
+        "hybrid_aquatic:sea_slug": [
+          "#hapi:coral_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:red_meadow",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_cold_oceans",
+          "#hapi:shallow_temperate_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:sea_urchin": [
+          "#hapi:all_trenches",
+          "#hapi:red_meadow",
+          "#minecraft:is_deep_ocean",
+          "#minecraft:is_ocean"
+        ],
+        "hybrid_aquatic:seadragon": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:seahorse": [
+          "#hapi:coral_reef",
+          "#hapi:seagrass_bed"
+        ],
+        "hybrid_aquatic:shiner": [
+          "#hapi:cold_rivers",
+          "#minecraft:is_river"
+        ],
+        "hybrid_aquatic:shrimp": [
+          "#hapi:coral_reef",
+          "#hapi:deep_reef",
+          "#hapi:red_meadow",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_warm_oceans",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:sixgill_shark": [
+          "#hapi:lukewarm_trench",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:sleeper_shark": [
+          "#hapi:cold_trench",
+          "#hapi:frozen_trench"
+        ],
+        "hybrid_aquatic:slickhead": [
+          "#hapi:cold_trench",
+          "#hapi:temperate_trench"
+        ],
+        "hybrid_aquatic:snailfish": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:spider_crab": [
+          "#hapi:cold_oceans",
+          "#hapi:cold_trench",
+          "#hapi:deep_reef",
+          "#hapi:temperate_oceans",
+          "#hapi:temperate_trench",
+          "#hapi:warm_trench"
+        ],
+        "hybrid_aquatic:squirrelfish": [
+          "#hapi:coral_reef",
+          "#hapi:deep_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:red_meadow",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:starfish": [
+          "#hapi:all_trenches",
+          "#hapi:sandy_beaches",
+          "#minecraft:is_deep_ocean",
+          "#minecraft:is_ocean"
+        ],
+        "hybrid_aquatic:stingray": [
+          "#hapi:coral_reef",
+          "#hapi:red_meadow",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_lukewarm_oceans",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:stonefish": [
+          "#hapi:coral_reef",
+          "#hapi:seagrass_bed"
+        ],
+        "hybrid_aquatic:sunfish": [
+          "#hapi:rivers"
+        ],
+        "hybrid_aquatic:surgeonfish": [
+          "#hapi:coral_reef",
+          "#hapi:seagrass_bed"
+        ],
+        "hybrid_aquatic:tetra": [
+          "#hapi:caves",
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:thresher_shark": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans"
+        ],
+        "hybrid_aquatic:tiger_barb": [
+          "#hapi:jungle",
+          "#hapi:mangroves",
+          "#hapi:marshes",
+          "#hapi:swamp",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:trevally": [
+          "#hapi:coral_reef",
+          "#hapi:lukewarm_oceans",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:triggerfish": [
+          "#hapi:coral_reef",
+          "#hapi:seagrass_bed",
+          "#hapi:shallow_warm_oceans"
+        ],
+        "hybrid_aquatic:tripod_fish": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:trout": [
+          "#hapi:cold_rivers",
+          "#minecraft:is_river"
+        ],
+        "hybrid_aquatic:tuna": [
+          "#hapi:deep_lukewarm_oceans",
+          "#hapi:deep_temperate_oceans",
+          "#hapi:deep_warm_oceans"
+        ],
+        "hybrid_aquatic:vampire_crab": [
+          "#hapi:jungle",
+          "#hapi:tropical_rivers"
+        ],
+        "hybrid_aquatic:viperfish": [
+          "#hapi:all_trenches"
+        ],
+        "hybrid_aquatic:whale_shark": [
+          "#hapi:lukewarm_oceans",
+          "#hapi:warm_oceans"
+        ],
+        "hybrid_aquatic:wrasse": [
+          "#hapi:shallow_temperate_oceans"
+        ],
+        "hybrid_aquatic:yeti_crab": [
+          "#hapi:cold_trench",
+          "#hapi:frozen_trench",
+          "#hapi:has_thermal_vents"
+        ]
+      },
+      "resource_basis": "data/hybrid_aquatic/neoforge/biome_modifier/*.json and packaged English and Simplified Chinese language resources"
+    },
+    "hybrid-delights.pw.toml": {
+      "filename": "hybrid_delights-neoforge-1.21.1-1.3.3.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/WR49BBCu/versions/wKUXdKVV/hybrid_delights-neoforge-1.21.1-1.3.3.jar",
+        "hash-format": "sha512",
+        "hash": "8903a42c0c1d0bc813ec52366bfeacb42b1ad0b9661e5ca12299a5fdab3cc55929411523c4903bf9cae34cb487cbd7ad6e817d00c6f3f61d460b52f9000b0a0a"
+      },
+      "resources": []
+    },
+    "oceans-delight.pw.toml": {
+      "filename": "oceansdelight-neoforge-1.0.4-1.21.1.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/DGiq4ZSW/versions/ja5Qg1xw/oceansdelight-neoforge-1.0.4-1.21.1.jar",
+        "hash-format": "sha512",
+        "hash": "8079160938175f9d0c1b8f10587c40e3c6b54210511109331f0bb37a845aa90522f60c4e668688e8a0b4023e0464b80d44f50a6af39572fe519d48c9581a9f15"
+      },
+      "resources": []
+    },
+    "starcatcher.pw.toml": {
+      "filename": "starcatcher-3.3.7-NEOFORGE-1.21.1.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/h2jXvxNR/versions/eiqihg0A/starcatcher-3.3.7-NEOFORGE-1.21.1.jar",
+        "hash-format": "sha512",
+        "hash": "9b35c3ead0f5fcb3fca87e54ae7c0f1512aabe34cbb382c7fae407e43b44273686d7412730a7b1a7a88756412e49f1a3b3f7aeaeb80e679df78023926c4c766e"
+      },
+      "resources": [
+        "assets/starcatcher/lang/en_us.json",
+        "data/starcatcher/recipe/starcatcher_rod.json",
+        "data/starcatcher/recipe/starcatcher_guide.json"
+      ]
+    },
+    "starcatchers-delight.pw.toml": {
+      "filename": "starcatcher_delight-3.2-NEOFORGE-1.21.1.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/NCXwQVxD/versions/xPr0G0XR/starcatcher_delight-3.2-NEOFORGE-1.21.1.jar",
+        "hash-format": "sha512",
+        "hash": "96321d31a5e507e07f48c2384bbb214e45b71eb7584a659d2b8ef96669daf9d6cc1c6a6df91b743c71b8b9cc233274cf9811ce67e9ae7ee8429a20d39243c39d"
+      },
+      "resources": []
+    },
+    "strut-your-stuff.pw.toml": {
+      "filename": "struts-1.3.1.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/sHO3MhQx/versions/BOTN7zzN/struts-1.3.1.jar",
+        "hash-format": "sha512",
+        "hash": "f7c9c3b66c926c163a8c747d3b50c45589f1796711bc9de0e3bb3f024cb18a552e9b7df6e667b813d12aba50377a39a1cd80a493925f164deb89c8a9dc709f49"
+      },
+      "resources": [],
+      "implementation": "Released metadata describes an extracted girder-strut library. No independent item models or gameplay item roster."
+    },
+    "tidal-towns.pw.toml": {
+      "filename": "tidal-towns-2.0.jar",
+      "hash_matches": true,
+      "download": {
+        "url": "https://cdn.modrinth.com/data/EEIwvQVo/versions/ahvrY85Y/tidal-towns-2.0.jar",
+        "hash-format": "sha512",
+        "hash": "05381c776c16a535cb2500ad062b2acd4261a0069a84c654fe2257f08adf549db198b7fe9d9cc9cf8a375e32f48108d5e3bb5691f80c57be1384f9b3d368e013"
+      },
+      "resources": [
+        "data/joshie/worldgen/structure/village_ocean.json",
+        "data/joshie/worldgen/template_pool/village/ocean/houses.json"
+      ]
+    }
+  },
+  "client_runtime_tested": false,
+  "scope": "Fishing handbook update and related development patches"
+}

@@ -29,6 +29,12 @@ class SemanticOrdering(unittest.TestCase):
     def test_every_child_list_has_practical_entry_points_and_functional_groups(self):
         expected = {
             'adventure.structures': ('adventure.settlements', 'adventure.loot'),
+            'adventure.creatures': ('creatures.wilderness', 'creatures.friends', 'adventure.aquatic',
+                'creatures.creepers', 'creatures.endermen', 'creatures.variants', 'creatures.guards',
+                'creatures.cataclysm', 'creatures.illagers', 'creatures.summons'),
+            'adventure.aquatic': ('aquatic.freshwater', 'aquatic.marine', 'aquatic.deepwater',
+                'aquatic.sharks', 'aquatic.jellyfish', 'aquatic.cephalopods', 'aquatic.seafloor',
+                'aquatic.mammals'),
             'maps.personal': ('maps.find', 'maps.shared'),
             'reference.utilities': ('help.inspect', 'interactions.carry', 'adventure.sleep', 'adventure.recovery'),
             'reference.skills': ('combat.handling', 'reference.equipment', 'equipment.weapons-armor',
@@ -38,7 +44,8 @@ class SemanticOrdering(unittest.TestCase):
             'combat.magic': ('class.arcane', 'class.fire', 'class.frost', 'class.aqua', 'class.terra',
                 'class.wind', 'class.priest', 'class.paladin', 'class.bard', 'class.witcher'),
             'reference.food': ('food.utensils', 'food.hunger', 'food.growing', 'food.fishing',
-                'food.underground', 'food.nether', 'food.end', 'food.encounters', 'food.machine-cooking'),
+                'fishing.habitats', 'food.seafood', 'food.underground', 'food.nether', 'food.end',
+                'food.encounters', 'food.machine-cooking'),
             'reference.building': ('building.palette', 'building.placement', 'building.architecture',
                 'building.copycats', 'building.furniture', 'building.displays', 'building.factory', 'building.safety'),
             'reference.machines-storage': ('storage.portable', 'storage.handling', 'storage.bulk',
@@ -57,7 +64,7 @@ class SemanticOrdering(unittest.TestCase):
     def test_generator_definitions_cover_all_pages_and_preserve_unique_icons(self):
         definitions = json.loads(subprocess.check_output([sys.executable,
             str(ROOT / 'scripts/build-handbook-draft.py'), '--check-navigation'], text=True))
-        self.assertEqual(len(definitions), 111)
+        self.assertEqual(len(definitions), 131)
         assert_semantic_navigation({k: {field: row[field] for field in ('parent', 'position')}
                                    for k, row in definitions.items()})
         self.assertEqual(len({row['icon'] for row in definitions.values()}), len(definitions))
@@ -92,28 +99,32 @@ class SemanticOrdering(unittest.TestCase):
                 assert_semantic_navigation(actual)
 
     def test_latest_main_metadata_and_world_border_remain_byte_identical(self):
-        paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', 'f5c24f3',
+        baseline_commit = '43ffb9f'
+        paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', baseline_commit,
             'mods', 'resourcepacks', 'shaderpacks', 'config/paxi'], cwd=ROOT, text=True).splitlines()
         paths = [p for p in paths if p.endswith('.pw.toml') or p.startswith('config/paxi/')]
+        baseline_metadata = {p for p in paths if p.endswith('.pw.toml')}
+        pack = tomllib.loads((ROOT / 'pack.toml').read_text())
+        heavy_metadata = set()
+        if pack['name'] == 'Astropunk Heavy':
+            original_heavy = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
+                '3366e71', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
+            original_shared = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
+                'f5c24f3', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
+            # Retired shared providers are not Heavy additions to preserve.
+            heavy_metadata = {p for p in original_heavy if p.endswith('.pw.toml')} - set(original_shared)
+            self.assertEqual(len(heavy_metadata), 18)
         actual = {p.relative_to(ROOT).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks')
                   for p in (ROOT / folder).glob('*.pw.toml')}
-        base_metadata = {p for p in paths if p.endswith('.pw.toml')}
-        pack = tomllib.loads((ROOT / 'pack.toml').read_text())
-        if pack['name'] == 'Astropunk Heavy':
-            approved_heavy = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
-                '63c9c32', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
-            additions = {p for p in approved_heavy if p.endswith('.pw.toml')} - base_metadata
-            self.assertEqual(actual, base_metadata | additions)
-            for path in additions:
-                self.assertEqual((ROOT / path).read_bytes(), subprocess.check_output(
-                    ['git', 'show', '63c9c32:' + path], cwd=ROOT), path)
-        else:
-            self.assertEqual(actual, base_metadata)
+        self.assertEqual(actual, baseline_metadata | heavy_metadata)
         for path in paths:
             self.assertEqual((ROOT / path).read_bytes(), subprocess.check_output(
-                ['git', 'show', 'f5c24f3:' + path], cwd=ROOT), path)
+                ['git', 'show', baseline_commit + ':' + path], cwd=ROOT), path)
+        for path in heavy_metadata:
+            self.assertEqual((ROOT / path).read_bytes(), subprocess.check_output(
+                ['git', 'show', '3366e71:' + path], cwd=ROOT), path)
         coverage = json.loads((ROOT / 'docs/guide-coverage.json').read_text())
-        self.assertEqual(coverage['baseline_commit'], 'f5c24f3')
+        self.assertEqual(coverage['baseline_commit'], baseline_commit)
         baseline = [e for e in coverage['inventory'] if e['availability'] == 'baseline']
         self.assertEqual(len(baseline), coverage['verification']['baseline_total'])
         self.assertEqual(len(coverage['inventory']), coverage['verification']['union_metadata_total'])
@@ -121,7 +132,7 @@ class SemanticOrdering(unittest.TestCase):
             if entry['metadata_path'].endswith('.pw.toml'):
                 selected = tomllib.loads((ROOT / entry['metadata_path']).read_text())
                 self.assertEqual(entry['selected_download'], selected['download'])
-                self.assertEqual(entry['source_commit'], 'f5c24f3')
+                self.assertEqual(entry['source_commit'], baseline_commit)
 
     def test_released_native_tree_all_orders_and_negative_controls_without_generation(self):
         report = json.loads(subprocess.check_output([sys.executable,
@@ -129,7 +140,7 @@ class SemanticOrdering(unittest.TestCase):
         self.assertEqual(report['mode'], 'metadata-only')
         self.assertEqual({row['locale'] for row in report['tests']}, {'en_us', '_zh_cn'})
         for row in report['tests']:
-            self.assertIn('111 nodes, eighteen ordered roots', row['output'])
+            self.assertIn('131 nodes, eighteen ordered roots', row['output'])
             self.assertIn('all sibling orders and semantic reorder negative control', row['output'])
             self.assertIn('Space destinations resurrection and repair controls', row['output'])
             self.assertIn('obsolete Quick reference and Sound resurrection and repair controls', row['output'])

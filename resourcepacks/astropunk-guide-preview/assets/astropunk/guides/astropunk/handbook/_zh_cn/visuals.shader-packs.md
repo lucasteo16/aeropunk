@@ -10,6 +10,14 @@ navigation:
 
 ## 光影风格
 
+![Complementary Unbound 景观](images/feedback-shader-unbound.png)
+
+Complementary Unbound 景观
+
+![Complementary Reimagined 景观](images/feedback-shader-reimagined.png)
+
+Complementary Reimagined 景观
+
 通过 Iris 选择一种光影风格，不要把三个光影包当作同时叠加的三种渲染效果。光影性能取决于预设、场景与电脑。
 
 | 内容 | 作用 |

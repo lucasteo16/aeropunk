@@ -1,0 +1,32 @@
+{
+  "source-quality": {
+    "exit_code": 0,
+    "summary": "test_acquisition_boundaries_and_short_stacks (test_fishing_handbook.FishingHandbookTest.test_acquisition_boundaries_and_short_stacks) ... ok\ntest_bilingual_native_reference_parity (test_fishing_handbook.FishingHandbookTest.test_bilingual_native_reference_parity) ... ok\ntest_selected_artifact_evidence (test_fishing_handbook.FishingHandbookTest.test_selected_artifact_evidence) ... ok\ntest_species_catalog_and_actual_library_home (test_fishing_handbook.FishingHandbookTest.test_species_catalog_and_actual_library_home) ... ok\ntest_unrelated_articles_unchanged (test_fishing_handbook.FishingHandbookTest.test_unrelated_articles_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.015s\n\nOK\ntest_authentic_assets_and_png_integrity (test_handbook_visual_pass.HandbookVisualPassTest.test_authentic_assets_and_png_integrity) ... ok\ntest_bilingual_images_links_and_references (test_handbook_visual_pass.HandbookVisualPassTest.test_bilingual_images_links_and_references) ... ok\ntest_creature_catalogs_preserved_and_shortened (test_handbook_visual_pass.HandbookVisualPassTest.test_creature_catalogs_preserved_and_shortened) ... ok\ntest_native_interactions_preserved (test_handbook_visual_pass.HandbookVisualPassTest.test_native_interactions_preserved) ... ok\ntest_scope_and_untouched_articles (test_handbook_visual_pass.HandbookVisualPassTest.test_scope_and_untouched_articles) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.304s\n\nOK",
+    "output_file": null
+  },
+  "archive": {
+    "exit_code": 0,
+    "summary": "{\n  \"pages\": 262,\n  \"draft_articles\": 122,\n  \"article_count\": 122,\n  \"installed_content_count\": 320,\n  \"links\": 2204,\n  \"resource_files_verified\": 702,\n  \"baseline_mod_files_unchanged\": 313,\n  \"additional_mods\": [],\n  \"archive\": \"/home/tsb/Projects/lucas/astropunk-guide/dist/astropunk-0.11.0-g-modrinth.mrpack\",\n  \"sha256\": \"d1e8b952363203deed6516ca5fe8011dafd12243b7c4951791873046beb40509\",\n  \"client_runtime_tested\": false\n}",
+    "output_file": null
+  },
+  "parser": {
+    "exit_code": 0,
+    "summary": "SLF4J: No SLF4J providers were found.\nSLF4J: Defaulting to no-operation (NOP) logger implementation\nSLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.\nNegative control rejected: Expected a closing tag for `<ItemLink>` (1:1-1:32) before the end of `paragraph`\nGuideME 21.1.19 MdAst syntax: 262 pages, 0 parse failures.",
+    "output_file": null
+  },
+  "navigation": {
+    "exit_code": 0,
+    "summary": "{\n  \"mode\": \"generated-pages\",\n  \"engine\": \"21.1.19\",\n  \"navigation_class_sha256\": \"f8c85113f5912abd54a2e9c5a6525986761aff274f523e478a60784b3652efd1\",\n  \"tests\": [\n    {\n      \"locale\": \"en_us\",\n      \"output\": \"PASS released NavigationTree, 131 nodes, eighteen ordered roots, direct Audio article, Combat siblings, all sibling orders and semantic reorder negative control, depth, fallback merge, watched deletion, obsolete Quick reference and Sound resurrection and repair controls, Space destinations resurrection and repair controls\"\n    },\n    {\n      \"locale\": \"_zh_cn\",\n      \"output\": \"PASS released NavigationTree, 131 nodes, eighteen ordered roots, direct Audio article, Combat siblings, all sibling orders and semantic reorder negative control, depth, fallback merge, watched deletion, obsolete Quick reference and Sound resurrection and repair controls, Space destinations resurrection and repair controls\"\n    }\n  ],\n  \"minecraft_boundaries_stubbed\": true,\n  \"rendered_verified\": false\n}",
+    "output_file": null
+  },
+  "components": {
+    "exit_code": 0,
+    "summary": "guideme.libs.micromark.ParseException: Expected a closing tag for `<ItemIcon>` (1:1-1:11)\n[02:27:14] [main/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: CONTROLS passed: multiline block, compact table, whitespace and illegal children, missing id, Color, unclosed tag\n[02:27:16] [main/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: SUMMARY pages 262 failing_pages 0 grids 654 slots 3806 tooltip_labels 3334 tags {Color=4, EmiSearch=1156, ItemGrid=654, ItemIcon=3806, ItemImage=188, ItemLink=3334, KeyBind=94, Recipe=172}\n[02:27:16] [main/INFO] [minecraft/LoggedPrintStream]: [STDOUT]: BOUNDARIES item ids normalized to vanilla stone, empty item index, absent image assets, Recipe and KeyBind not compiled, no rendering or pack registry claims\nNative compiler exit 0, 262 pages, evidence /home/tsb/Projects/lucas/astropunk-guide/build/handbook-access/markup-probe/visual-and-creatures/compiler.log",
+    "output_file": null
+  },
+  "whitespace": {
+    "exit_code": 0,
+    "summary": "",
+    "output_file": null
+  }
+}

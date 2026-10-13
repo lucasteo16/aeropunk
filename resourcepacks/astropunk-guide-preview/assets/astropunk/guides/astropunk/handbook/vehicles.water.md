@@ -8,6 +8,22 @@ navigation:
 
 # Boats & submarines
 
+## Fishing boats
+
+<EmiSearch query="@starcatcher" />
+
+<ItemGrid>
+  <ItemIcon id="minecraft:oak_boat" />
+  <ItemIcon id="starcatcher:oak_tackle_box_boat" />
+</ItemGrid>
+
+An ordinary boat is enough to reach an ocean fishing spot. A Tackle Box Boat adds Starcatcher storage, with wood variants including the Bamboo Tackle Box Raft. These are ordinary boat-scale craft, not assembled Sable submarines. Use the recipe browser for the tackle-box boat recipe.
+
+- [Fishing equipment](food.fishing.md)
+- [Aquatic wildlife](adventure.aquatic.md)
+
+***
+
 ## Hulls
 
 ![Deep Seas submarine](images/building-travel-submarine.png)

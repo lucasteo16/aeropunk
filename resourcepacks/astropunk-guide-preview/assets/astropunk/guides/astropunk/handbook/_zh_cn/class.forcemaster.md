@@ -35,6 +35,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![气功师护甲](images/visual-forcemaster-armor.png)
+
+气功师护甲
+
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>

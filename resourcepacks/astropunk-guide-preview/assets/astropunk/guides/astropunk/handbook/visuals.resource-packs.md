@@ -10,6 +10,10 @@ navigation:
 
 ## Texture support
 
+![Leaf appearance with Better Leaves](images/feedback-resource-leaves.png)
+
+Leaf appearance with Better Leaves
+
 These mods implement connected textures, resource-pack colors or biome color blending. Their visual result depends on the enabled content and settings.
 
 | Component | Function |

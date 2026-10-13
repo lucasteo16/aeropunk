@@ -37,6 +37,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![携带远程装备的弓箭手](images/visual-archer-equipment.png)
+
+携带远程装备的弓箭手
+
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>

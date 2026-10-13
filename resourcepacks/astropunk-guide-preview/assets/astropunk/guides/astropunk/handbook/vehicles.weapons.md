@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
 
+![Cannons mounted on a ship](images/feedback-mounted-cannons.png)
+
+Cannons mounted on a ship
+
 <ItemGrid>
   <ItemIcon id="createbigcannons:cannon_mount" />
   <ItemIcon id="createbigcannons:steel_cannon_barrel" />

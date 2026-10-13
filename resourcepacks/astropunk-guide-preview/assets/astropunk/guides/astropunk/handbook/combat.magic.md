@@ -14,6 +14,10 @@ item_ids:
 
 ## Magic & support classes
 
+![Arcane casting with a staff](images/visual-arcane-casting.png)
+
+Arcane casting with a staff
+
 Choose a class for its role, starter recipe, books, full ability list, skills and equipment.
 
 - [Arcane Wizard](class.arcane.md)
@@ -47,7 +51,9 @@ Choose a class for its role, starter recipe, books, full ability list, skills an
 <Recipe id="spell_engine:spell_binding_table" />
 
 1. Put a normal book in the table and select a class spell book. Book creation spends experience levels.
+
 2. Put that spell book in the table and choose abilities from its pool. Meet the displayed level requirement, level cost, lapis cost and bookshelf power requirement. Tier conflicts or a slot limit can block a choice.
+
 3. Equip the configured book in its supported spell-book slot and hold a compatible weapon or focus. The held item filters the spells you can use.
 
 Books carry learned abilities. A skill-tree point improves a build but is not a substitute for spell binding. Scroll application is a separate table mode with its own requirements. The class books are configured versions of <ItemLink id="spell_engine:spell_book" />, not separately registered item identifiers.

@@ -23,6 +23,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![神射手战斗](images/visual-deadeye-combat.png)
+
+神射手战斗
+
 <ItemGrid>
   <ItemIcon id="archers:rapid_crossbow" />
 </ItemGrid>

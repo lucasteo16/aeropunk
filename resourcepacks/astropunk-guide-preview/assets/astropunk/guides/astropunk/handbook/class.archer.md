@@ -37,6 +37,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Archers with ranged equipment](images/visual-archer-equipment.png)
+
+Archers with ranged equipment
+
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>

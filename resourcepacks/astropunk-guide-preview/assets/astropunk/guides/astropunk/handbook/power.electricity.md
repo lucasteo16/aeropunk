@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
 
+![Transmission towers and overhead lines](images/visual-electric-transmission.png)
+
+Transmission towers and overhead lines
+
 <ItemGrid>
   <ItemIcon id="electroenergetics:alternator_rotor" />
   <ItemIcon id="electroenergetics:stator" />

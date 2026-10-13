@@ -8,6 +8,31 @@ navigation:
 
 # Settlements
 
+## Tidal Towns
+
+![Tidal Towns ocean village](images/visual-ocean-village.png)
+
+Tidal Towns ocean village
+
+![Tidal Towns](images/catalog-eeiwvqvo.png)
+
+Tidal Towns adds an ocean village in the Overworld's Deep Ocean biome. Its placement does not include every deep-ocean variant or every Terralith ocean merely because the names sound similar. Look in newly generated terrain, not an already explored coast.
+
+| Building family | Variants |
+| --- | --- |
+| Village center | Central village platform. |
+| Farms | Small Farm and Large Farm. |
+| Workplaces | Weaponsmith. |
+| Towers | Tower 1 and Tower 2. |
+| Houses | Small House, with connected road pieces and village terminators. |
+
+These are building pieces used to assemble a village, not six separate village types. Bring a boat for the journey.
+
+- [Boats & submarines](vehicles.water.md)
+- [Fishing](food.fishing.md)
+
+***
+
 ## Villages
 
 ![Alpine-style mountain village](images/encounters-ct-overhaul-village-catalog.png)
@@ -101,4 +126,5 @@ These buildings extend village house pools, rather than creating standalone dung
 | --- | --- | --- |
 | ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhi8kh.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | Redesigns villages and pillager outposts to fit different biomes. | No separate item search |
 | ![Gazebos (RPG Series)](images/catalog-xipmgi6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | No separate item search |
+| ![Tidal Towns](images/catalog-eeiwvqvo.png) [Tidal Towns](adventure.settlements.md) | Adds ocean settlements and their building variants. | No separate item search |
 | ![Village Taverns (RPG Series)](images/catalog-bj4a8njj.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | <EmiSearch query="@village_taverns" /> |

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
 
+![盗贼与战士装备](images/visual-martial-equipment.png)
+
+盗贼与战士装备
+
 <ItemGrid>
   <ItemIcon id="rogues:iron_dagger" />
   <ItemIcon id="archers:composite_longbow" />

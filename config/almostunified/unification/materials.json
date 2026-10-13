@@ -1,0 +1,16 @@
+{
+  "mod_priorities": ["minecraft", "create", "createdeco", "createcasing"],
+  "priority_overrides": {
+    "c:plates/andesite_alloy": "createdeco",
+    "c:plates/zinc": "createdeco"
+  },
+  "stone_variants": [],
+  "tags": ["c:plates/andesite_alloy", "c:plates/zinc"],
+  "ignored_tags": [],
+  "ignored_items": ["witcher_rpg:.*"],
+  "ignored_recipe_types": ["cucumber:shaped_tag"],
+  "ignored_recipe_ids": [],
+  "recipe_viewer_hiding": false,
+  "loot_unification": false,
+  "ignored_loot_tables": []
+}

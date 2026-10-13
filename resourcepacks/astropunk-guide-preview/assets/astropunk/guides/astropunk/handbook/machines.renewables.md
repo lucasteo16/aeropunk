@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@molten_vents" />
 
+![A dormant vent on the seabed](images/visual-dormant-vent.png)
+
+A dormant vent on the seabed
+
 <ItemGrid>
   <ItemIcon id="molten_vents:dormant_molten_asurine" />
   <ItemIcon id="molten_vents:active_molten_asurine" />

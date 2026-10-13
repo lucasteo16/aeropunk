@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
 
+![Spell books and the Spell Binding Table](images/visual-spell-binding.png)
+
+Spell books and the Spell Binding Table
+
 <ItemGrid>
   <ItemIcon id="spell_engine:spell_binding" />
   <ItemIcon id="minecraft:book" />
@@ -23,9 +27,13 @@ navigation:
 <ItemLink id="spell_engine:spell_binding" />
 
 1. Craft a starter weapon or focus from a class row. Its built-in ability is separate from a class book.
+
 2. Put a normal book in the Spell Binding Table. Select the matching class book and pay the displayed experience levels. Witcher offers separate Fencing and Signs books.
+
 3. Put the class book back in the table with lapis lazuli. Select an ability and meet its displayed level requirement, level cost, lapis cost and bookshelf power. Add valid nearby bookshelves when an offer lacks power.
+
 4. Equip the book in its spell-book slot and hold a compatible weapon or focus. Check the spell hotbar and use <KeyBind id="keybindings.spell_engine.spell_hotbar_1" /> for its first action. Keep required ammunition or runes available.
+
 5. Open <KeyBind id="key.puffish_skills.open" /> to spend earned points on connected nodes. Read incompatible roots before spending. Class and weapon points are separate from the ordinary experience levels used for binding.
 
 The class books are configured versions of <ItemLink id="spell_engine:spell_book" />, not separate craftable item types. A weapon can grant an ability before you learn any book spells.
