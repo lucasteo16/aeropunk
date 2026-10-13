@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@aeroworks" />
 
+![安装 Aeroworks 控制模块的驾驶舱](images/visual-cockpit-controls.png)
+
+安装 Aeroworks 控制模块的驾驶舱
+
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
   <ItemIcon id="aeroworks:joystick_module" />

@@ -10,6 +10,10 @@ navigation:
 
 ## 装备分类
 
+![盗贼与战士装备](images/visual-martial-equipment.png)
+
+盗贼与战士装备
+
 职业页面包含入门配方，以及对应的武器与护甲。本页保留通用具名套装、Arsenal 武器与 Cataclysm 装备。比较法术学派加成与物品效果，不要只看伤害或材质。
 
 - [弓箭手](class.archer.md)

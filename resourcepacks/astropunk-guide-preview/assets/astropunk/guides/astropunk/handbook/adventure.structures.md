@@ -7,6 +7,14 @@ navigation:
 
 # Structures
 
+## Ocean settlements
+
+Tidal Towns supplies an ocean village in the Overworld's Deep Ocean biome.
+
+- [Ocean village buildings & access](adventure.settlements.md)
+
+***
+
 ## When Dungeons Arise
 
 ![Mechanical Nest](images/encounters-when-dungeons-arise-mechanical-nest.png)
@@ -403,6 +411,7 @@ Incendium Biomes Only removes Incendium structures, special mobs, bosses and loo
 | ![EMI Loot](images/catalog-qbbo7jns.png) [EMI Loot](adventure.loot.md) | Shows chest, block and creature loot sources in EMI. | No separate item search |
 | ![Gazebos (RPG Series)](images/catalog-xipmgi6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | Adds village gazebos containing small spell libraries. | No separate item search |
 | ![Lootr](images/catalog-eltpo5cn.png) [Lootr](adventure.loot.md) | Gives each player separate loot in supported world-generated containers. | <EmiSearch query="@lootr" /> |
+| ![Tidal Towns](images/catalog-eeiwvqvo.png) [Tidal Towns](adventure.settlements.md) | Adds ocean settlements and their building variants. | No separate item search |
 | ![Village Taverns (RPG Series)](images/catalog-bj4a8njj.png) [Village Taverns (RPG Series)](adventure.settlements.md) | Adds village taverns where travelers can find drinks and rest. | <EmiSearch query="@village_taverns" /> |
 | ![When Dungeons Arise](images/catalog-8dfbfasn.png) [When Dungeons Arise](adventure.structures.md) | Adds large hostile dungeons and exploration structures. | No separate item search |
 | ![YUNG's Better Desert Temples](images/catalog-xnlo7sbv.png) [YUNG's Better Desert Temples](adventure.structures.md) | Rebuilds desert temples with expanded rooms and exploration layouts. | No separate item search |

@@ -1,5 +1,8 @@
 {
-  "mods/paxi.pw.toml": {"en_us": "Loads shared data packs, including the automatic space world border.", "zh_cn": "加载共享数据包，包括自动设置太空世界边界的数据包。"},
+  "mods/paxi.pw.toml": {
+    "en_us": "Loads shared data packs, including the automatic space world border.",
+    "zh_cn": "加载共享数据包，包括自动设置太空世界边界的数据包。"
+  },
   "mods/additional-rpg-jewelry.pw.toml": {
     "en_us": "Adds jewelry for the additional More RPG Classes professions.",
     "zh_cn": "为 More RPG Classes 的扩展职业增加首饰。"
@@ -884,10 +887,6 @@
     "en_us": "Adds upgraded shulker boxes with larger storage capacity.",
     "zh_cn": "增加存储容量更大的升级潜影盒。"
   },
-  "mods/reliable-advancements.pw.toml": {
-    "en_us": "Improves advancement browsing and supports editing advancements in game.",
-    "zh_cn": "改进进度浏览，并支持在游戏内编辑进度。"
-  },
   "mods/reliable-emi.pw.toml": {
     "en_us": "Adds configurable usability features to EMI's item and recipe browser.",
     "zh_cn": "为 EMI 物品与配方浏览器增加可调整的便利功能。"
@@ -1291,5 +1290,73 @@
   "mods/aeroengine-fuel-compat.pw.toml": {
     "en_us": "Allows AeroEngine to use kerosene from Create: The Factory Must Grow.",
     "zh_cn": "让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。"
+  },
+  "mods/almostunified.pw.toml": {
+    "en_us": "Unifies only shared andesite alloy and zinc sheet recipe materials.",
+    "zh_cn": "仅统一共享的安山合金与锌板配方材料。"
+  },
+  "mods/azimuth-api.pw.toml": {
+    "en_us": "Supports the selected Create addons.",
+    "zh_cn": "为所选 Create 扩展提供支持。"
+  },
+  "mods/better-advancements.pw.toml": {
+    "en_us": "Improves the advancement screen without adding progression requirements.",
+    "zh_cn": "改善进度界面，不增加发展条件。"
+  },
+  "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml": {
+    "en_us": "Connects Create Stuff additions with Sable and Aeronautics ships.",
+    "zh_cn": "让 Create Stuff 扩展与 Sable、Aeronautics 船体兼容。"
+  },
+  "mods/create-unified-fuels.pw.toml": {
+    "en_us": "Connects supported Create fuel systems without adding a separate item catalog.",
+    "zh_cn": "连接支持的 Create 燃料系统，不增加独立物品系列。"
+  },
+  "mods/hybrid-api.pw.toml": {
+    "en_us": "Provides the framework required by Hybrid Aquatic.",
+    "zh_cn": "提供 Hybrid Aquatic 所需的基础框架。"
+  },
+  "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml": {
+    "en_us": "Adds Hybrid Aquatic catches to Starcatcher fishing.",
+    "zh_cn": "把 Hybrid Aquatic 渔获加入 Starcatcher 钓鱼系统。"
+  },
+  "mods/hybrid-aquatic.pw.toml": {
+    "en_us": "Adds aquatic wildlife across ocean and freshwater habitats.",
+    "zh_cn": "在海洋与淡水栖息地加入水生生物。"
+  },
+  "mods/hybrid-delights.pw.toml": {
+    "en_us": "Prepares Hybrid Aquatic ingredients with Farmer's Delight.",
+    "zh_cn": "用 Farmer's Delight 工具加工 Hybrid Aquatic 食材。"
+  },
+  "mods/iris-flw-compat.pw.toml": {
+    "en_us": "Bridges Iris shaders and Flywheel machine rendering.",
+    "zh_cn": "衔接 Iris 光影与 Flywheel 机器渲染。"
+  },
+  "mods/iris-veil-compat.pw.toml": {
+    "en_us": "Bridges Iris shaders and Veil rendering effects.",
+    "zh_cn": "衔接 Iris 光影与 Veil 渲染效果。"
+  },
+  "mods/jade-sable-compat.pw.toml": {
+    "en_us": "Adapts Jade inspection to Sable ships.",
+    "zh_cn": "让 Jade 信息查看适配 Sable 船体。"
+  },
+  "mods/oceans-delight.pw.toml": {
+    "en_us": "Adds seafood dishes using ocean ingredients.",
+    "zh_cn": "用海洋食材制作海鲜料理。"
+  },
+  "mods/starcatcher.pw.toml": {
+    "en_us": "Adds habitat-dependent fishing, equipment and a fishing guide.",
+    "zh_cn": "加入依栖息地变化的渔获、钓具与钓鱼图鉴。"
+  },
+  "mods/starcatchers-delight.pw.toml": {
+    "en_us": "Adds dishes and preparation for Starcatcher catches.",
+    "zh_cn": "为 Starcatcher 渔获加入料理与加工方式。"
+  },
+  "mods/strut-your-stuff.pw.toml": {
+    "en_us": "Provides girder-strut support for Create addons without a separate item catalog.",
+    "zh_cn": "为 Create 扩展提供梁柱支撑功能，没有独立物品目录。"
+  },
+  "mods/tidal-towns.pw.toml": {
+    "en_us": "Adds ocean settlements and their building variants.",
+    "zh_cn": "加入海洋聚落与不同建筑变体。"
   }
 }

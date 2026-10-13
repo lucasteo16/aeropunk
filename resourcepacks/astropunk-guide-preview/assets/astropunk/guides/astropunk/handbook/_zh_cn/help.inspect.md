@@ -8,6 +8,20 @@ navigation:
 
 # 查看方块与生物信息
 
+## 船体信息
+
+![Jade 马匹信息提示](images/feedback-jade-creature.png)
+
+Jade 马匹信息提示
+
+![Jade 箱子内容提示](images/feedback-jade-block.png)
+
+Jade 箱子内容提示
+
+Jade Sable Compat 让 Jade 信息查看适配 Sable 船体。通过同一个 Jade 浮层查看船上的方块，不需要独立船体信息界面。显示内容仍取决于目标方块与对应整合。
+
+***
+
 ## 查看目标
 
 Jade 显示视线所指方块或生物的信息。打开机器界面前，可以先用它确认机器类型。显示的详情取决于目标和对应联动，信息浮窗不是完整配方目录。
@@ -41,5 +55,6 @@ Villager Names 为村民添加便于辨认的名字。名字仅用于辨认村�
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![Jade Addons (Neo/Forge)](images/catalog-xudozcly.png) [Jade Addons (Neo/Forge)](help.inspect.md) | 为 Jade 观察提示增加其他模组的专属信息支持。 | 无独立物品查询 |
+| ![Jade Sable Compat](images/catalog-jcrj4igh.png) [Jade Sable Compat](help.inspect.md) | 让 Jade 信息查看适配 Sable 船体。 | 无独立物品查询 |
 | ![Jade 🔍](images/catalog-nvqzsekh.png) [Jade 🔍](help.inspect.md) | 显示当前观察的方块或生物的信息。 | 无独立物品查询 |
 | ![Villager Names](images/catalog-gqrxdo8b.png) [Villager Names](help.inspect.md) | 为村民赋予默认或自定义名字。 | 无独立物品查询 |

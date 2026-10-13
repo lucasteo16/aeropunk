@@ -48,6 +48,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![战斗中的吟游诗人乐曲](images/visual-bard-music.png)
+
+战斗中的吟游诗人乐曲
+
 <ItemGrid>
   <ItemIcon id="bards_rpg:wooden_lute" />
 </ItemGrid>

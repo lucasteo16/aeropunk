@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "End food"
-  position: 6
+  position: 8
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---
@@ -11,6 +11,10 @@ navigation:
 ## Chorus dishes
 
 <EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+
+![Cooking among End materials](images/visual-end-kitchen.png)
+
+Cooking among End materials
 
 <ItemGrid>
   <ItemIcon id="ends_delight:chorus_fruit_grain" />

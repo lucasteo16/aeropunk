@@ -42,6 +42,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![神圣防护效果](images/visual-holy-protection.png)
+
+神圣防护效果
+
 <ItemGrid>
   <ItemIcon id="paladins:iron_mace" />
 </ItemGrid>

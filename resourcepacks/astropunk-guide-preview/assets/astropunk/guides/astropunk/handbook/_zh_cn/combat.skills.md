@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@rogues" /> <EmiSearch query="@skill_tree_rpgs" /> <EmiSearch query="@wizards" />
 
+![相互连接的职业技能路线](images/visual-class-skill-tree.png)
+
+相互连接的职业技能路线
+
 <ItemGrid>
   <ItemIcon id="skill_tree_rpgs:orb_of_oblivion" />
   <ItemIcon id="rogues:iron_dagger" />

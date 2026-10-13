@@ -8,6 +8,20 @@ navigation:
 
 # 查询支持库与框架
 
+## 水生与 Create 支持
+
+<EmiSearch query="@create" /> <EmiSearch query="@hybrid_aquatic" />
+
+| 组件 | 作用 |
+| --- | --- |
+| Hybrid API | Hybrid Aquatic 所需的共享框架。 |
+| Azimuth | 为 More Girder 等扩展提供 Create 系统支持。 |
+| Strut Your Stuff | Bits 'n' Bobs 等 Create 扩展使用的梁柱支撑库，没有独立物品目录。 |
+
+使用内容模组本身的配方与思索演示，不需要为这些依赖库单独建立生存设施。
+
+***
+
 ## 加载器与语言
 
 这些组件提供共享接口或语言支持。Connector 让选定的 Fabric 模组在 NeoForge 上运行，不代表支持所有 Fabric 版本。
@@ -133,6 +147,7 @@ navigation:
 | ![Architectury API](images/catalog-lhga9tyq.png) [Architectury API](technical.libraries.md) | 共享跨加载器开发接口。 | 无独立物品查询 |
 | ![Armor Model API](images/catalog-onz2nn2n.png) [Armor Model API](technical.libraries.md) | 通过原版盔甲流程渲染自定义盔甲几何模型。 | 无独立物品查询 |
 | ![Athena](images/catalog-b1zv3dij.png) [Athena](technical.libraries.md) | 提供跨加载器的方块连接纹理支持。 | 无独立物品查询 |
+| ![Azimuth API](images/catalog-rph8tmt1.png) [Azimuth API](technical.libraries.md) | 为所选 Create 扩展提供支持。 | 无独立物品查询 |
 | ![BaguetteLib](images/catalog-ofkzpbru.png) [BaguetteLib](technical.libraries.md) | 死亡处理与物品栏追踪支持。 | 无独立物品查询 |
 | ![Balm](images/catalog-mbakmtvl.png) [Balm](technical.libraries.md) | 共享独立于加载器的系统，让依赖模组可用于多种加载器。 | 无独立物品查询 |
 | ![Bookshelf](images/catalog-uy4cnpcm.png) [Bookshelf](technical.libraries.md) | 为依赖模组提供共享数据序列化、数据包功能与调试工具。 | 无独立物品查询 |
@@ -147,6 +162,7 @@ navigation:
 | ![Fzzy Config](images/catalog-hyykxjdp.png) [Fzzy Config](technical.libraries.md) | 设置、校验与同步支持。 | 无独立物品查询 |
 | ![Geckolib](images/catalog-8bmcqj2h.png) [Geckolib](technical.libraries.md) | 实体、方块、物品与盔甲动画库。 | 无独立物品查询 |
 | ![GroovyModLoader (GML)](images/catalog-zg2tt2vu.png) [GroovyModLoader (GML)](technical.libraries.md) | Groovy 语言支持。 | 无独立物品查询 |
+| ![Hybrid API [HAPI]](images/catalog-yv9f5eag.png) [Hybrid API [HAPI]](technical.libraries.md) | 提供 Hybrid Aquatic 所需的基础框架。 | 无独立物品查询 |
 | ![Iceberg](images/catalog-5faxolqx.png) [Iceberg](technical.libraries.md) | 为依赖模组提供额外事件与工具函数。 | 无独立物品查询 |
 | ![JamLib](images/catalog-iyy9siz8.png) [JamLib](technical.libraries.md) | 为 JamCore 模组提供平台抽象层与设置支持。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [Konkrete](technical.libraries.md) | 提供 FancyMenu 所需的工具与配置支持库。 | 无独立物品查询 |
@@ -177,6 +193,7 @@ navigation:
 | ![Spell Engine](images/catalog-xvowjaa2.png) [Spell Engine](technical.libraries.md) | 数据驱动法术框架。 | <EmiSearch query="@spell_engine" /> |
 | ![Spell Power Attributes](images/catalog-8oowzsqp.png) [Spell Power Attributes](technical.libraries.md) | 法术相关属性、效果与附魔支持。 | 无独立物品查询 |
 | ![Structure Pool API](images/catalog-lryzi08q.png) [Structure Pool API](technical.libraries.md) | 结构池扩展支持。 | 无独立物品查询 |
+| ![Strut Your Stuff (Struts)](images/catalog-sho3mhqx.png) [Strut Your Stuff (Struts)](technical.libraries.md) | 为 Create 扩展提供梁柱支撑功能，没有独立物品目录。 | 无独立物品查询 |
 | ![Teal Lib](images/catalog-rlj1qf79.png) [Teal Lib](technical.libraries.md) | 提供共享动画与数据驱动的生物变体系统。 | <EmiSearch query="@teallib" /> |
 | ![YetAnotherConfigLib (YACL)](images/catalog-1eaoo2kr.png) [YetAnotherConfigLib (YACL)](technical.libraries.md) | 设置界面构建库。 | 无独立物品查询 |
 | ![YUNG's API](images/catalog-ua7dfn59.png) [YUNG's API](technical.libraries.md) | YUNG 模组共享代码。 | 无独立物品查询 |

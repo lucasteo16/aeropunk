@@ -4843,24 +4843,6 @@
       96
     ]
   },
-  "mods/reliable-advancements.pw.toml": {
-    "resource": "images/catalog-xvwaug1g.png",
-    "source_url": "https://cdn.modrinth.com/data/xVwaUG1g/35dbeafe7957c2c56699e42484b62dfc62e954a7.png",
-    "project_url": "https://modrinth.com/project/xVwaUG1g",
-    "project_id": "xVwaUG1g",
-    "kind": "publisher icon",
-    "license": {
-      "id": "MIT",
-      "name": "MIT License",
-      "url": null
-    },
-    "original_sha256": "2565864dca94c7955cb003d642f9d21f211fc6baaeccacfc48109a7e81e6ed79",
-    "resource_sha256": "7ddf7cfa8325dd722481fa891a460464c1761618a0b06b7cfb58d838efcdd73b",
-    "dimensions": [
-      96,
-      96
-    ]
-  },
   "mods/reliable-emi.pw.toml": {
     "resource": "images/catalog-n9wucjhl.png",
     "source_url": "https://cdn.modrinth.com/data/N9WucjHL/57861773d6606669a41671a60934781f1dc36e87.png",
@@ -7696,5 +7678,2658 @@
     ],
     "derivation": "Crop x 780, y 220, width 500, height 300. Removes interface and foreground machine. No retouching.",
     "qualification": "Cosmonautics Moon preview by web. Relationship of this channel to the Modrinth publisher and exact-release appearance are not independently established. Not a capture of this pack."
+  },
+  "mods/almostunified.pw.toml": {
+    "resource": "images/catalog-sdasaqez.png",
+    "source_url": "https://cdn.modrinth.com/data/sdaSaQEz/icon.png",
+    "project_url": "https://modrinth.com/project/sdaSaQEz",
+    "project_id": "sdaSaQEz",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "a65349bccddb2b54c90f1d953be0b681fe0f23719d0f3cc3b9d0e8b358c8878f",
+    "resource_sha256": "94587f38a20ace649d22885b5e935e91a55739939357b2d3a7d670fe2f87187f",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  "mods/azimuth-api.pw.toml": {
+    "resource": "images/catalog-rph8tmt1.png",
+    "source_url": "https://cdn.modrinth.com/data/RpH8tmT1/3a09926438e39b09e9af2b2a1e3585019e0bba47_96.webp",
+    "project_url": "https://modrinth.com/project/RpH8tmT1",
+    "project_id": "RpH8tmT1",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "20f97edf7b320d83f4e265cfa32854d702e09fb3da3b60a27af279ad88328a23",
+    "resource_sha256": "58f1a3d6bf4aa7b2f3b6347c9c11839d171da789e3328534ddbce1c4bd3087e3",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/better-advancements.pw.toml": {
+    "resource": "images/catalog-q2oqkxdg.png",
+    "source_url": "https://cdn.modrinth.com/data/Q2OqKxDG/b1519a191e62135647f66394d526d179ab5b598d.png",
+    "project_url": "https://modrinth.com/project/Q2OqKxDG",
+    "project_id": "Q2OqKxDG",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-Dont-Be-a-Jerk",
+      "name": "",
+      "url": "https://github.com/way2muchnoise/BetterAdvancements/blob/master/LICENSE.md"
+    },
+    "original_sha256": "9583f18ef0a9b2e4c1b4da74d04b7ddfe9385922287b672fb506da155a540b6a",
+    "resource_sha256": "0cd64286b29b51feb7982a19345ae7881a668a5169bcfabe84191ab1108932bd",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml": {
+    "resource": "images/catalog-gsaqdfou.png",
+    "source_url": "https://cdn.modrinth.com/data/gsAqDfOu/74cc43047ca28e11888851bee0a7ee375a8b1aec_96.webp",
+    "project_url": "https://modrinth.com/project/gsAqDfOu",
+    "project_id": "gsAqDfOu",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "f76f971aff7a097cc8a685d3e7c3943252c390fa20ff670d420f1b410f4c2554",
+    "resource_sha256": "ef307109507c24153a517e34bda773259641abe9382dbb1883b0cc720b7b127b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/hybrid-api.pw.toml": {
+    "resource": "images/catalog-yv9f5eag.png",
+    "source_url": "https://cdn.modrinth.com/data/yv9f5EAG/0ea26f0c99f77597e7ffb6d18caff1d485e75035_96.webp",
+    "project_url": "https://modrinth.com/project/yv9f5EAG",
+    "project_id": "yv9f5EAG",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "8d9e08e1a9f1a7462c24a8c66a04d8c4c9a9992a315f3a0e728720f661cbb26a",
+    "resource_sha256": "914a74dfb043d382268f570e0e4e9409e6bcc168e65e6c1deda8980b0d9a4dfc",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml": {
+    "resource": "images/catalog-onrvj8th.png",
+    "source_url": "https://cdn.modrinth.com/data/onrvj8TH/455a91aec6b232f6d42732b2e5e0dbb5f77740a0.png",
+    "project_url": "https://modrinth.com/project/onrvj8TH",
+    "project_id": "onrvj8TH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "eddc482752cb707b5370768c603232fa86555a096d53a4075ebf3e3474f1c6aa",
+    "resource_sha256": "c32c97e5deb4b97b79d1d1a983805513cbb7bd26b25e366bca2c8df27e18e68d",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/hybrid-aquatic.pw.toml": {
+    "resource": "images/catalog-hh4fjuqn.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/fabc8a1246571bbf44d0cb097073eafcfda2706c_96.webp",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "project_id": "HH4FjUqN",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "56301b324f36ab261b0be7a4b054cea4b7f243724a2afcc975be34ab376ddef0",
+    "resource_sha256": "76c01e3792980ade286660464bdabc5505c9f2be4dad1811b246d1174d69a7c4",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/hybrid-delights.pw.toml": {
+    "resource": "images/catalog-wr49bbcu.png",
+    "source_url": "https://cdn.modrinth.com/data/WR49BBCu/25eeb7c213aa87d083594ff34b0cf2cd70ff35d2_96.webp",
+    "project_url": "https://modrinth.com/project/WR49BBCu",
+    "project_id": "WR49BBCu",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "d29039a3567f4d6e8e87b480d6078222c07c6027cd5680beb704b729606eea4c",
+    "resource_sha256": "242e06f1578b34fc539946c9a351e43f07cec382877a75f4507f99971754a72a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/iris-flw-compat.pw.toml": {
+    "resource": "images/catalog-ndhymy2k.png",
+    "source_url": "https://cdn.modrinth.com/data/ndHYMY2K/7d3794f7fdc4974ce4386bfc3e0ec27140a33de5.png",
+    "project_url": "https://modrinth.com/project/ndHYMY2K",
+    "project_id": "ndHYMY2K",
+    "kind": "publisher icon",
+    "license": {
+      "id": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "url": null
+    },
+    "original_sha256": "02057503e15f7a13abc975a700c79063b9a8ec36963f980d2b0166d45ca7bc98",
+    "resource_sha256": "0dd9452d1d36c54c8b020865c562dc1223d78f2aac3a28a4ede7906f2e05ef40",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/iris-veil-compat.pw.toml": {
+    "resource": "images/catalog-owqycho4.png",
+    "source_url": "https://cdn.modrinth.com/data/owQyCHo4/70c8c9af36a7f28cb01d7cd68e3b4ab178b46780_96.webp",
+    "project_url": "https://modrinth.com/project/owQyCHo4",
+    "project_id": "owQyCHo4",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "38f72c9c93844f0a867c08dbe2da520e8e59f943f9f93d3e71b43fd20a2b91b5",
+    "resource_sha256": "d6b48e4d53f7422d9eab467f88241302468d572d3c299cad0f1a7ca2833e5643",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/jade-sable-compat.pw.toml": {
+    "resource": "images/catalog-jcrj4igh.png",
+    "source_url": "https://cdn.modrinth.com/data/jCrJ4iGH/8936840e90b55d0f8a1553b58320b72bbf6c87c6_96.webp",
+    "project_url": "https://modrinth.com/project/jCrJ4iGH",
+    "project_id": "jCrJ4iGH",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/Maks-gaming/Jade-Sable-Compat/blob/main/LICENSE"
+    },
+    "original_sha256": "89264aea944af6ceb994fffdcb1548bf83fe6bba0347cd7281a3273fb2cc5e59",
+    "resource_sha256": "cffdd0b37439b67c6d130be873e670e501ad554798002a3738e467253364ceaf",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/oceans-delight.pw.toml": {
+    "resource": "images/catalog-dgiq4zsw.png",
+    "source_url": "https://cdn.modrinth.com/data/DGiq4ZSW/949ba66d6fffb5a984fbb70e3ef4a51f15be3191.png",
+    "project_url": "https://modrinth.com/project/DGiq4ZSW",
+    "project_id": "DGiq4ZSW",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "68a12bf34ce11ef22149b7936ac4bdaeb1b6c4d723a29d149483e8c626ae8e24",
+    "resource_sha256": "1a3cb1b7a3d0940d5ec36a8146725d4e31a26830c293c27e73aa453d0d689dc9",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/starcatcher.pw.toml": {
+    "resource": "images/catalog-h2jxvxnr.png",
+    "source_url": "https://cdn.modrinth.com/data/h2jXvxNR/71c75fa1fb2fbd0c7d3ed6e17d6b8b96bb2810b2.png",
+    "project_url": "https://modrinth.com/project/h2jXvxNR",
+    "project_id": "h2jXvxNR",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-",
+      "name": "",
+      "url": "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license"
+    },
+    "original_sha256": "77803986c600484ef398ff43dd83b8f42c10d32808eec1077677b94c16edf2a9",
+    "resource_sha256": "bc3d932d40d55dc4a1da3dc29bf8f448aa5d40d6253578e863c96cf8a6ff6d4e",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/starcatchers-delight.pw.toml": {
+    "resource": "images/catalog-ncxwqvxd.png",
+    "source_url": "https://cdn.modrinth.com/data/NCXwQVxD/e1b42d06dafbdb634438ab4b9421413b585a84e4.png",
+    "project_url": "https://modrinth.com/project/NCXwQVxD",
+    "project_id": "NCXwQVxD",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "acf634099d1ede7ab5c2b60bb07e17308af96a64614144df9184e3ae348d9430",
+    "resource_sha256": "9b3daccc89d4f95a6d7fd9061fc87384038e90194cbafe993662d932e251b78b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/strut-your-stuff.pw.toml": {
+    "resource": "images/catalog-sho3mhqx.png",
+    "source_url": "https://cdn.modrinth.com/data/sHO3MhQx/9329eb4bb050b568ff494561bd6fac9cb92e4dc2_96.webp",
+    "project_url": "https://modrinth.com/project/sHO3MhQx",
+    "project_id": "sHO3MhQx",
+    "kind": "publisher icon",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "6f3f62d0ad79345560e1779a44d1727bc974b3e15443d654855180b7203730fe",
+    "resource_sha256": "e8ea909675759abd211af6cbe51c4cc83d36e34d72c7cb4c86c16c705cc00d5b",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "mods/tidal-towns.pw.toml": {
+    "resource": "images/catalog-eeiwvqvo.png",
+    "source_url": "https://cdn.modrinth.com/data/EEIwvQVo/196657d83f0032d6e2f733bbec409fa99dedb64f_96.webp",
+    "project_url": "https://modrinth.com/project/EEIwvQVo",
+    "project_id": "EEIwvQVo",
+    "kind": "publisher icon",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "1df288989f4301da6be77a037c2f9b5a2f96c5b64afa864a73d989673a8bcee3",
+    "resource_sha256": "06adacc010a321423098633ea2e997cebcda7b3719eace89a0474f14ed3e3d2a",
+    "dimensions": [
+      96,
+      96
+    ]
+  },
+  "handbook:visual-fishing-reeling": {
+    "resource": "images/visual-fishing-reeling.png",
+    "source_url": "https://cdn.modrinth.com/data/h2jXvxNR/images/e590c87d07d7db590a037b1b2439259cd964c865.png",
+    "project_url": "https://modrinth.com/project/h2jXvxNR",
+    "metadata_path": "mods/starcatcher.pw.toml",
+    "publisher": "Starcatcher",
+    "kind": "publisher gallery",
+    "subject": "Reeling in a Starcatcher catch",
+    "license": {
+      "id": "LicenseRef-",
+      "name": "",
+      "url": "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license"
+    },
+    "original_sha256": "d951d9ec05dca6a1276d0195f3cb21bc583602777268f37c978d131209a8ea8a",
+    "resource_sha256": "e5276c216ab0e98439d5c99c788fe5cdb0b682e49cc4ccbb5a3d99c14e16bfb7",
+    "original_dimensions": [
+      1083,
+      762
+    ],
+    "dimensions": [
+      1083,
+      762
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-fishing-tackle": {
+    "resource": "images/visual-fishing-tackle.png",
+    "source_url": "https://media.forgecdn.net/attachments/description/1357603/description_905b6815-335b-44ef-820f-a67569064093.png",
+    "project_url": "https://modrinth.com/project/h2jXvxNR",
+    "metadata_path": "mods/starcatcher.pw.toml",
+    "publisher": "Starcatcher",
+    "kind": "publisher main-description image",
+    "subject": "Tackle Boxes and fishing attachments",
+    "license": {
+      "id": "LicenseRef-",
+      "name": "",
+      "url": "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license"
+    },
+    "original_sha256": "5f77ae71d104077af192e62162401ca1e9bca79dd422a5a221f1896efbb7039e",
+    "resource_sha256": "947f5dd1aaaae323f681e05d88cb718423cd04b71e490fb64da26e5b96121061",
+    "original_dimensions": [
+      546,
+      518
+    ],
+    "dimensions": [
+      546,
+      518
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-fishing-aquariums": {
+    "resource": "images/visual-fishing-aquariums.png",
+    "source_url": "https://media.forgecdn.net/attachments/description/1357603/description_dbab7b05-e46d-47e6-9feb-a3694aa92610.png",
+    "project_url": "https://modrinth.com/project/h2jXvxNR",
+    "metadata_path": "mods/starcatcher.pw.toml",
+    "publisher": "Starcatcher",
+    "kind": "publisher main-description image",
+    "subject": "Living catches in aquariums",
+    "license": {
+      "id": "LicenseRef-",
+      "name": "",
+      "url": "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license"
+    },
+    "original_sha256": "ce02a08e3b698b902ef0b15283ae04ba2b3e370743cc0e30661c8b12d4fdc899",
+    "resource_sha256": "7521eee06269c656e60c8f05018e919522aaef65f83d88cb2fb72297f456ebdb",
+    "original_dimensions": [
+      813,
+      819
+    ],
+    "dimensions": [
+      794,
+      800
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-fishing-guide": {
+    "resource": "images/visual-fishing-guide.png",
+    "source_url": "https://media.forgecdn.net/attachments/description/1357603/description_74c2d48b-7f32-4edc-96a0-d8cc0f19d18d.png",
+    "project_url": "https://modrinth.com/project/h2jXvxNR",
+    "metadata_path": "mods/starcatcher.pw.toml",
+    "publisher": "Starcatcher",
+    "kind": "publisher main-description image",
+    "subject": "Species entries and catch requirements",
+    "license": {
+      "id": "LicenseRef-",
+      "name": "",
+      "url": "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license"
+    },
+    "original_sha256": "1187787b86a73fc6ab5425e8d87d712bf7f03cf3aaf93a8733cc31cd1edbef0c",
+    "resource_sha256": "3bf093e186b554fe162c164e4048b7f661dbd2e366b78950695e38632375d818",
+    "original_dimensions": [
+      756,
+      502
+    ],
+    "dimensions": [
+      756,
+      502
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-starcatcher-cuisine": {
+    "resource": "images/visual-starcatcher-cuisine.png",
+    "source_url": "https://cdn.modrinth.com/data/cached_images/9a4d72524778c171073dc8baa3ef6c5898e70b87.png",
+    "project_url": "https://modrinth.com/project/NCXwQVxD",
+    "metadata_path": "mods/starcatchers-delight.pw.toml",
+    "publisher": "Starcatcher's Delight - Let's Do: Kaleidoscope edition",
+    "kind": "publisher main-description image",
+    "subject": "Starcatcher dishes and rarity-tier meals",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "a6f19a2318028bc07e249351157f48c463cf156d1d1cee715cac4088398307e9",
+    "resource_sha256": "2358e2ccedff275512eea05bceb291975048260fd218256554d951e8a0c6daed",
+    "original_dimensions": [
+      517,
+      720
+    ],
+    "dimensions": [
+      517,
+      720
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-hybrid-cuisine": {
+    "resource": "images/visual-hybrid-cuisine.png",
+    "source_url": "https://cdn.modrinth.com/data/WR49BBCu/images/ad651bcb6e8244f24f100d7a52d9ceddf8979de5.png",
+    "project_url": "https://modrinth.com/project/WR49BBCu",
+    "metadata_path": "mods/hybrid-delights.pw.toml",
+    "publisher": "Hybrid Delights",
+    "kind": "publisher gallery",
+    "subject": "Hybrid Delights ingredients and meals",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "cf4f3d1bbd28000d47ecf01085427499d85434ba3e9ce68160e89806da577807",
+    "resource_sha256": "e9d27f912b3a24d8f61f4f2f4ee058bb525b139844748d636af76190c8db9034",
+    "original_dimensions": [
+      650,
+      361
+    ],
+    "dimensions": [
+      650,
+      361
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-ocean-cuisine": {
+    "resource": "images/visual-ocean-cuisine.png",
+    "source_url": "https://cdn.modrinth.com/data/DGiq4ZSW/images/e759ab0f578cb83aac3a2e51d646a4aba2d85d4f.jpeg",
+    "project_url": "https://modrinth.com/project/DGiq4ZSW",
+    "metadata_path": "mods/oceans-delight.pw.toml",
+    "publisher": "Ocean's Delight",
+    "kind": "publisher gallery",
+    "subject": "Ocean ingredients and prepared dishes",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "4eba4c5021ecc24eee0866963024147047b4e983bde822416de19f7288e512d4",
+    "resource_sha256": "07e7acd6b0d7769ca756ac2b73e1652cb48b96b2f650752edac0128446e8920c",
+    "original_dimensions": [
+      910,
+      435
+    ],
+    "dimensions": [
+      910,
+      435
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-shared-feast": {
+    "resource": "images/visual-shared-feast.png",
+    "source_url": "https://cdn.modrinth.com/data/R2OftAxM/images/814cbbb6eefd8f70af0c6f5137db8ff871ab584f.png",
+    "project_url": "https://modrinth.com/project/R2OftAxM",
+    "metadata_path": "mods/farmers-delight.pw.toml",
+    "publisher": "Farmer's Delight",
+    "kind": "publisher gallery",
+    "subject": "Different dishes at a shared table",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "ad0ee320247d298abc8b75fd5b746fc780bf188fa658ff6c87371aa7dd12caa5",
+    "resource_sha256": "a997d3bf802465ef84c9216f86f4916d56cce5c1a8bf9a4d206f823fd8900208",
+    "original_dimensions": [
+      1720,
+      900
+    ],
+    "dimensions": [
+      1120,
+      586
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-diet-containers": {
+    "resource": "images/visual-diet-containers.png",
+    "source_url": "https://i.imgur.com/A0IfaSQ.png",
+    "project_url": "https://modrinth.com/project/eHGYGKJz",
+    "metadata_path": "mods/spice-of-life-onion.pw.toml",
+    "publisher": "Spice of Life Onion",
+    "kind": "publisher main-description image",
+    "subject": "Food Book, Lunchbag and Lunchboxes",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "e1425a0bcf23d796e650d61951a45df037fe9e74c403e70bedfc5484f3e931f4",
+    "resource_sha256": "0954653ba9848fa2c06fd6fbedfbce93d374063666b4adb68e91161181bb7148",
+    "original_dimensions": [
+      1424,
+      725
+    ],
+    "dimensions": [
+      1120,
+      570
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-kitchen-tools": {
+    "resource": "images/visual-kitchen-tools.png",
+    "source_url": "https://cdn.modrinth.com/data/R2OftAxM/images/abbdd61b7ad127fdf039742363f923507cd6ddef.png",
+    "project_url": "https://modrinth.com/project/R2OftAxM",
+    "metadata_path": "mods/farmers-delight.pw.toml",
+    "publisher": "Farmer's Delight",
+    "kind": "publisher gallery",
+    "subject": "A kitchen with cooking tools and serving space",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "07f2d3cd401874c93eb29b8add2658fa04165bf235f6084cfe7b41ed11764dee",
+    "resource_sha256": "ba61d6b11112576fdf97786b887d30c65d7169d32ce52d01474e7fcafa693d1b",
+    "original_dimensions": [
+      1720,
+      900
+    ],
+    "dimensions": [
+      1120,
+      586
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-garden-crops": {
+    "resource": "images/visual-garden-crops.png",
+    "source_url": "https://cdn.modrinth.com/data/R2OftAxM/images/5116e753d281d7314e14d9c9fe9d043983861406.png",
+    "project_url": "https://modrinth.com/project/R2OftAxM",
+    "metadata_path": "mods/farmers-delight.pw.toml",
+    "publisher": "Farmer's Delight",
+    "kind": "publisher gallery",
+    "subject": "A garden of cooking ingredients",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "b86eea706177343ab6721d0e74a844dd3be34bc736aa662b001438eaa8c732e2",
+    "resource_sha256": "7c4123985dd2940661f55cfe5a97a44000e60e8cdf80851561432958546e09bb",
+    "original_dimensions": [
+      1720,
+      900
+    ],
+    "dimensions": [
+      1120,
+      586
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-nether-kitchen": {
+    "resource": "images/visual-nether-kitchen.png",
+    "source_url": "https://cdn.modrinth.com/data/O53VhQoZ/images/de0b1e70192deb85cef310c12c87e010d6f9b77f.png",
+    "project_url": "https://modrinth.com/project/O53VhQoZ",
+    "metadata_path": "mods/my-nethers-delight.pw.toml",
+    "publisher": "My Nether's Delight",
+    "kind": "publisher gallery",
+    "subject": "Hoglin ingredients and a Nether kitchen",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "830d96836be9c884ee95a9593ae398805668d3faa1c6c692712d3a455f217145",
+    "resource_sha256": "9fcab330f876601209b2b103850359f53b5a0a877d7b7857ae47ba721b286fec",
+    "original_dimensions": [
+      1600,
+      837
+    ],
+    "dimensions": [
+      1120,
+      586
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-cavern-kitchen": {
+    "resource": "images/visual-cavern-kitchen.png",
+    "source_url": "https://cdn.modrinth.com/data/qMxbM4BQ/images/57c9f2a32848615a8adf0cab92344562ced4d87a.png",
+    "project_url": "https://modrinth.com/project/qMxbM4BQ",
+    "metadata_path": "mods/miners-delight.pw.toml",
+    "publisher": "Miner's Delight",
+    "kind": "publisher gallery",
+    "subject": "A kitchen in the caves",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "c1a7bdda1719102ea0c8840a3f491dd32801c99024389964f7bc4ef96b911129",
+    "resource_sha256": "cf6a3930e8a00d638c5ee4f40d07d0832c238e37b466235b78bbb62c0847265d",
+    "original_dimensions": [
+      854,
+      480
+    ],
+    "dimensions": [
+      854,
+      480
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-end-kitchen": {
+    "resource": "images/visual-end-kitchen.png",
+    "source_url": "https://cdn.modrinth.com/data/yHN0njMr/images/e7a311ea8a249094bcb5acac8b768f331404c847.png",
+    "project_url": "https://modrinth.com/project/yHN0njMr",
+    "metadata_path": "mods/ends-delight.pw.toml",
+    "publisher": "End's Delight",
+    "kind": "publisher gallery",
+    "subject": "Cooking among End materials",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "0d278d4ac924bc59ae8b6f027affc0487915b21a5d6ba679e69a4918976ad031",
+    "resource_sha256": "e2a0db89dad3498d011a72d9db7ff05608f455831f05f65fcccf7c28d4039ff9",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-automatic-cooking": {
+    "resource": "images/visual-automatic-cooking.png",
+    "source_url": "https://cdn.modrinth.com/data/GmjmRQ0A/images/45f14b42e1cf36f1e2ffa4c78c4e7c4a1f16d01d.png",
+    "project_url": "https://modrinth.com/project/GmjmRQ0A",
+    "metadata_path": "mods/slice-and-dice.pw.toml",
+    "publisher": "Create Slice & Dice",
+    "kind": "publisher gallery",
+    "subject": "Mechanical preparation beside a heated cooking pot",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/PssbleTrngle/SliceAndDice/blob/1.19.x/LICENSE.txt"
+    },
+    "original_sha256": "5af8767b9c3602051aa665f93e34826d4a32c13cd412c101360bd44df2b77e4a",
+    "resource_sha256": "a451ae649466753ca4098abf68986fcb2e80892f25ed11293cb7fb8216d6b604",
+    "original_dimensions": [
+      1194,
+      373
+    ],
+    "dimensions": [
+      1120,
+      350
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-worn-backpacks": {
+    "resource": "images/visual-worn-backpacks.png",
+    "source_url": "https://cdn.modrinth.com/data/MGcd6kTf/images/3c711eae7bf4953725bd3ddb34ca12c210915ad3.webp",
+    "project_url": "https://modrinth.com/project/MGcd6kTf",
+    "metadata_path": "mods/vanilla-backpacks.pw.toml",
+    "publisher": "Backpacks!",
+    "kind": "publisher gallery",
+    "subject": "Backpacks worn during exploration",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://choosealicense.com/licenses/apache-2.0/"
+    },
+    "original_sha256": "bf74b3b84c1be197dc4cb7e3e089d35d0d2629457b54a1fd92827c717f11b25f",
+    "resource_sha256": "038f6ce62372831e8fe7017dd889e88741128f15040e6521af060f53aa34e34a",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-colored-vaults": {
+    "resource": "images/visual-colored-vaults.png",
+    "source_url": "https://cdn.modrinth.com/data/hddN8ksR/images/b45c21ae127473182ce6b7ec3fd98efd81139a21.png",
+    "project_url": "https://modrinth.com/project/hddN8ksR",
+    "metadata_path": "mods/create-vibrant-vaults.pw.toml",
+    "publisher": "Create: Vibrant Vaults",
+    "kind": "publisher gallery",
+    "subject": "Material and color choices for Item Vaults",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/ZLT9/create-vibrant-vaults/blob/master/LICENSE"
+    },
+    "original_sha256": "759b92b486d2be5181f51a2113ba481f3b1cf30a96602cd917f385eea048c89d",
+    "resource_sha256": "f14d1e61384ce95041f941ea96a509d004cb52411aa8a2bce25be41b988af154",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-inventory-trash": {
+    "resource": "images/visual-inventory-trash.png",
+    "source_url": "https://cdn.modrinth.com/data/vRYk0bv7/images/f8e721d1ed1b29a5032c7170ed8adec9dbff044a.png",
+    "project_url": "https://modrinth.com/project/vRYk0bv7",
+    "metadata_path": "mods/trashslot.pw.toml",
+    "publisher": "TrashSlot",
+    "kind": "publisher gallery",
+    "subject": "An inventory with a separate Trash Slot",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://mods.twelveiterations.com/permissions"
+    },
+    "original_sha256": "5fae58783dad7c36506d5a5a16be218187bcc2cfe080946026a0dc61ec2d65ae",
+    "resource_sha256": "72f707ddab617aa7657ec30b2829748caf5900f7a8157f6a58c5fd6c9392fd41",
+    "original_dimensions": [
+      854,
+      480
+    ],
+    "dimensions": [
+      854,
+      480
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-mason-workbench": {
+    "resource": "images/visual-mason-workbench.png",
+    "source_url": "https://cdn.modrinth.com/data/BAscRYKm/images/ff735b12139402bb5c98f09185b21b1556595130.png",
+    "project_url": "https://modrinth.com/project/BAscRYKm",
+    "metadata_path": "mods/chipped.pw.toml",
+    "publisher": "Chipped",
+    "kind": "publisher gallery",
+    "subject": "Chipped's Mason's Workbench and stone finishes",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "c7cda9c20b65e96b49995b207e105968cbac9a8ad48c82e8d8f2cfb4954049a8",
+    "resource_sha256": "8ea1538c4bb125b024e52c40468d8ca45dafdd8268359c2e153c0cd9dc2f9ec9",
+    "original_dimensions": [
+      895,
+      468
+    ],
+    "dimensions": [
+      895,
+      468
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-copycat-shapes": {
+    "resource": "images/visual-copycat-shapes.png",
+    "source_url": "https://cdn.modrinth.com/data/UT2M39wf/images/e86daed566bd26230e283ca4fe6225c11a48a84e.png",
+    "project_url": "https://modrinth.com/project/UT2M39wf",
+    "metadata_path": "mods/copycats.pw.toml",
+    "publisher": "Create: Copycats+",
+    "kind": "publisher gallery",
+    "subject": "Copycat shapes using a shared material",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "75d0581c19c6c69106c5d9a714acb70ffe051051c8cf869e9e35fa8f5e53bba6",
+    "resource_sha256": "36e3e5c04a2bdac8c63129f94f9bd7dca6ca278fd23f592b7b4dba589d862c61",
+    "original_dimensions": [
+      1763,
+      882
+    ],
+    "dimensions": [
+      1120,
+      560
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-rope-bridge": {
+    "resource": "images/visual-rope-bridge.png",
+    "source_url": "https://cdn.modrinth.com/data/GURcjz8O/images/58dc9d274032cbdc9ed2a7af96a58974fca5185c.jpeg",
+    "project_url": "https://modrinth.com/project/GURcjz8O",
+    "metadata_path": "mods/macaws-bridges.pw.toml",
+    "publisher": "Macaw's Bridges",
+    "kind": "publisher gallery",
+    "subject": "A wooden rope bridge",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "ff14be4d4a0bcff8ff71070f2a2f0a1968ec88f3629515378086b5bff2cd5130",
+    "resource_sha256": "901a05e0330fac22906b26afe8b7de6c450c04353ab6a67753d42834a26b48f9",
+    "original_dimensions": [
+      1920,
+      1017
+    ],
+    "dimensions": [
+      1120,
+      593
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-train-fittings": {
+    "resource": "images/visual-train-fittings.png",
+    "source_url": "https://cdn.modrinth.com/data/gJ5afkVv/images/0a28df5e9de13bc0e816a56965e06fe8ea3049ad.png",
+    "project_url": "https://modrinth.com/project/gJ5afkVv",
+    "metadata_path": "mods/bellsandwhistles.pw.toml",
+    "publisher": "Create: Bells & Whistles",
+    "kind": "publisher gallery",
+    "subject": "Train bodywork with Bells & Whistles fittings",
+    "license": {
+      "id": "GPL-3.0-or-later",
+      "name": "GNU General Public License v3.0 or later",
+      "url": null
+    },
+    "original_sha256": "3893ea92f9d94dc08c5c8e322cd4efe46fb76fd0e2cd3dcc4959be02de41dde1",
+    "resource_sha256": "74f3db1d9ba7f54d90a9422baa46be90b1a8a25c70e693486f28230e015ef1dc",
+    "original_dimensions": [
+      1920,
+      991
+    ],
+    "dimensions": [
+      1120,
+      578
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-factory-interior": {
+    "resource": "images/visual-factory-interior.png",
+    "source_url": "https://cdn.modrinth.com/data/sMvUb4Rb/images/59b0207cf1a83a05719045e7ccb014c365c9edf7.png",
+    "project_url": "https://modrinth.com/project/sMvUb4Rb",
+    "metadata_path": "mods/create-deco.pw.toml",
+    "publisher": "Create Deco",
+    "kind": "publisher gallery",
+    "subject": "Factory walkways and industrial finishes",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "9c67b33dc005c3faf52249853b5267bf713734e8aaa2fffecf76724ae5a3d3f1",
+    "resource_sha256": "ab707317c71d439ca52eec3dc7336fad783f4150ed3ee80353d9f5cc117297bb",
+    "original_dimensions": [
+      1920,
+      1017
+    ],
+    "dimensions": [
+      1120,
+      593
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-trowel-palette": {
+    "resource": "images/visual-trowel-palette.png",
+    "source_url": "https://cdn.modrinth.com/data/nqFNRALS/images/03f9664290ae2ea13eb616c754687f01817a2fa0.png",
+    "project_url": "https://modrinth.com/project/nqFNRALS",
+    "metadata_path": "mods/mech-trowel.pw.toml",
+    "publisher": "Mech Trowel",
+    "kind": "publisher gallery",
+    "subject": "The Mechanical Trowel palette manager",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "7ac84e2a274e4a20b426ced291141b40a869ce6cb63d22156be30031ae5878fc",
+    "resource_sha256": "baa1c1da3c2c36ef2dceef1afb8f26538e7c167cb50fe29e0a1f9ebaa2e6b461",
+    "original_dimensions": [
+      731,
+      1091
+    ],
+    "dimensions": [
+      536,
+      800
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-displayed-materials": {
+    "resource": "images/visual-displayed-materials.png",
+    "source_url": "https://cdn.modrinth.com/data/PuR4vDBo/images/066899f08364335eaa481157824be5627669eabd.png",
+    "project_url": "https://modrinth.com/project/PuR4vDBo",
+    "metadata_path": "mods/items-displayed-forge.pw.toml",
+    "publisher": "Items Displayed [NeoForge]",
+    "kind": "publisher gallery",
+    "subject": "Displayed metal blocks and ingots",
+    "license": {
+      "id": "GPL-3.0-only",
+      "name": "GNU General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "1623d09c7a54d98e0f527203f96088a98e004243121bbef58e8c9f9d2b636b6d",
+    "resource_sha256": "e943de1f31eb469dfb813ada0785f1e89152577bc940a69012ff707efc2e4c25",
+    "original_dimensions": [
+      959,
+      500
+    ],
+    "dimensions": [
+      959,
+      500
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-light-overlay": {
+    "resource": "images/visual-light-overlay.png",
+    "source_url": "https://cdn.modrinth.com/data/yjvKidNM/images/7ada07aedd4b34f14b90d28479cc758966063a66.png",
+    "project_url": "https://modrinth.com/project/yjvKidNM",
+    "metadata_path": "mods/lighty.pw.toml",
+    "publisher": "Lighty",
+    "kind": "publisher gallery",
+    "subject": "Light levels shown directly in a build",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": null
+    },
+    "original_sha256": "8ad6b44a28141c587288532b700afc24a6a582ecff03ff3748b3e38202d1c1c7",
+    "resource_sha256": "b21ec9bd65a9a48c2a8f32c346be56d2a44b99f6e74df7b34d290544c32b7270",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-mountaintop-waystone": {
+    "resource": "images/visual-mountaintop-waystone.png",
+    "source_url": "https://cdn.modrinth.com/data/LOpKHB2A/images/2658f69c8c7a588698a1afa30c8dd80329096b4d.png",
+    "project_url": "https://modrinth.com/project/LOpKHB2A",
+    "metadata_path": "mods/waystones.pw.toml",
+    "publisher": "Waystones",
+    "kind": "publisher gallery",
+    "subject": "A Waystone above the landscape",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://mods.twelveiterations.com/permissions"
+    },
+    "original_sha256": "121d3964dfa9c47f1ce116067b315cf0dd06902dc1a11062f68959a6758dafec",
+    "resource_sha256": "6f05589856a64087810e8dbd37a3c4b364444e2d271169e6601520a75bffd062",
+    "original_dimensions": [
+      854,
+      480
+    ],
+    "dimensions": [
+      854,
+      480
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-engine-workshop": {
+    "resource": "images/visual-engine-workshop.png",
+    "source_url": "https://cdn.modrinth.com/data/CRh10iJF/images/37e6f4c827c847d9754c0eec18736481d91a5b8c.png",
+    "project_url": "https://modrinth.com/project/CRh10iJF",
+    "metadata_path": "mods/aeroengine.pw.toml",
+    "publisher": "AeroEngine",
+    "kind": "publisher gallery",
+    "subject": "An aircraft engine workshop",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "30fd4f981c589f6ef41fa87f84a4abc42d6cb0cadb56c13522733e12065fe8e8",
+    "resource_sha256": "09ae9ba1b48b648d586644793e029f91f5590d4bdb4ced21d2715f4107948199",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-cockpit-controls": {
+    "resource": "images/visual-cockpit-controls.png",
+    "source_url": "https://cdn.modrinth.com/data/cached_images/b9b3412e6172e1061d39f946c8f3f2bc3a3460df.png",
+    "project_url": "https://modrinth.com/project/P26k79kP",
+    "metadata_path": "mods/create-aeroworks.pw.toml",
+    "publisher": "Create: Aeroworks",
+    "kind": "publisher main-description image",
+    "subject": "A cockpit with Aeroworks control modules",
+    "license": {
+      "id": "LicenseRef-Create-Aeroworks-License",
+      "name": "",
+      "url": "https://github.com/aeroworks-hangar/aeroworks-license/blob/main/LICENSE.md"
+    },
+    "original_sha256": "6f4d84772b061a617f1c0ef598d336a0b5bee793e5182df9840ebf996d4facdf",
+    "resource_sha256": "bbd0b0cc1ac40eae9436a7fae421e3543c258ce5eef2c146be90f908d2752e45",
+    "original_dimensions": [
+      1096,
+      688
+    ],
+    "dimensions": [
+      1096,
+      688
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-assembled-airship": {
+    "resource": "images/visual-assembled-airship.png",
+    "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/b0f37794880f9da33cb27db1f8782ef40a6611df.png",
+    "project_url": "https://modrinth.com/project/oWaK0Q19",
+    "metadata_path": "mods/create-aeronautics.pw.toml",
+    "publisher": "Create Aeronautics",
+    "kind": "publisher gallery",
+    "subject": "Cloud Skipper airship build",
+    "license": {
+      "id": "LicenseRef-Simulated-Project-License",
+      "name": "",
+      "url": "https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/main/LICENSE.md"
+    },
+    "original_sha256": "c5a8dd00e7d934c2cf2c017874d18bd8bed1937222e80ed30f52107a3fd2a847",
+    "resource_sha256": "1cc6febe9f17359bdf9ecf76b7855e6fca88aa87a2b4b48718068bb2ef808dde",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-airship-designs": {
+    "resource": "images/visual-airship-designs.png",
+    "source_url": "https://cdn.modrinth.com/data/oWaK0Q19/images/4d2be5fad52002a4ef36b467c1a31e7bb2004f58.png",
+    "project_url": "https://modrinth.com/project/oWaK0Q19",
+    "metadata_path": "mods/create-aeronautics.pw.toml",
+    "publisher": "Create Aeronautics",
+    "kind": "publisher gallery",
+    "subject": "Airships with different hulls and lift arrangements",
+    "license": {
+      "id": "LicenseRef-Simulated-Project-License",
+      "name": "",
+      "url": "https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/main/LICENSE.md"
+    },
+    "original_sha256": "501c57f9a6258af9b1594b8bccc8a0e3da194c03c623d8f29113c9d91e3200e8",
+    "resource_sha256": "7e330959127bbed660e7db82e3a9a36f25e622fa96d599cf147ce92a0e853458",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-local-hypertubes": {
+    "resource": "images/visual-local-hypertubes.png",
+    "source_url": "https://i.ibb.co/5XYchPW3/Tutorial-3.gif",
+    "project_url": "https://modrinth.com/project/ATDdrG1y",
+    "metadata_path": "mods/hypertube.pw.toml",
+    "publisher": "Create: Hypertubes",
+    "kind": "publisher main-description image",
+    "subject": "Hypertube sections and supports",
+    "license": {
+      "id": "Apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://github.com/PedroRok/CreateHypertubes/blob/ver/1.21.1/LICENSE"
+    },
+    "original_sha256": "4150aced7e72da6a6235f77f3968879ffd33fa69948bfaeb5a5237fb7d9e1d91",
+    "resource_sha256": "ef28f967f061ca66e908c5fb3c793ae3f586e3106216ed19edc79f61d27a1ef7",
+    "original_dimensions": [
+      426,
+      240
+    ],
+    "dimensions": [
+      426,
+      240
+    ],
+    "frame": 10,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-package-routing": {
+    "resource": "images/visual-package-routing.png",
+    "source_url": "https://cdn.modrinth.com/data/CZaz7aje/images/06857e8e5b9cfb69abcc8ff8c142996968c304c2.png",
+    "project_url": "https://modrinth.com/project/CZaz7aje",
+    "metadata_path": "mods/create-additional-logistics.pw.toml",
+    "publisher": "Create: Additional Logistics",
+    "kind": "publisher gallery",
+    "subject": "Package Accelerators beside conveyors",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": "https://github.com/KhloeLeclair/CreateAdditionalLogistics/blob/main/LICENSE.txt"
+    },
+    "original_sha256": "a3b28e0c3f2614f9e843a10eaf06dbccfc463e00977edd27edf463fe264b5ee1",
+    "resource_sha256": "3cf02822aa00008148853d22aaee1ba3c95d064bf0676037207748100172d223",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-dormant-vent": {
+    "resource": "images/visual-dormant-vent.png",
+    "source_url": "https://cdn.modrinth.com/data/uuVy6k1s/images/17fb1569eb2dffd5a84388fa2e27551a8b9021c3.webp",
+    "project_url": "https://modrinth.com/project/uuVy6k1s",
+    "metadata_path": "mods/create-molten-vents.pw.toml",
+    "publisher": "Create: Molten Vents",
+    "kind": "publisher gallery",
+    "subject": "A dormant vent on the seabed",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "1e4177fa6649a9a47ec25e45462075bbf922f99f68acda42870dcf4f6091c779",
+    "resource_sha256": "54e8cf10d9a9a90ec621c40acd77d6463e9a5ba9f115751ef8d4b70490e453bf",
+    "original_dimensions": [
+      550,
+      309
+    ],
+    "dimensions": [
+      550,
+      309
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-trading-hall": {
+    "resource": "images/visual-trading-hall.png",
+    "source_url": "https://cdn.modrinth.com/data/WROfLLvn/images/4635c03eeffbe7da1c221f98494c34db2a3039e6.png",
+    "project_url": "https://modrinth.com/project/WROfLLvn",
+    "metadata_path": "mods/create-trading-floor.pw.toml",
+    "publisher": "Create: Trading floor",
+    "kind": "publisher gallery",
+    "subject": "A Trading Floor hall",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "3d1b4c2970ffc2af958416c3f460fd3cb26bd3f7b0ba15492fdeaba1bf5ed3da",
+    "resource_sha256": "20c1b7be05bdadbc86e4ca6686783460c0840cfc43d11539fd551107b2583fb7",
+    "original_dimensions": [
+      1920,
+      1009
+    ],
+    "dimensions": [
+      1120,
+      589
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-electric-transmission": {
+    "resource": "images/visual-electric-transmission.png",
+    "source_url": "https://cdn.modrinth.com/data/qYJdIoAx/images/f653a215442fccce2ffd6327e5c1f0eb942e9e3c.png",
+    "project_url": "https://modrinth.com/project/qYJdIoAx",
+    "metadata_path": "mods/create-electro-energetics.pw.toml",
+    "publisher": "Create: Electro Energetics",
+    "kind": "publisher gallery",
+    "subject": "Transmission towers and overhead lines",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "3435371a17d735c8ded963d3fc36abae3439261fba21cbd9d494699018b9ce30",
+    "resource_sha256": "920215743d74097c2093ffc86ef8616c60971cd516ccb0db7cb1bfe83e77a750",
+    "original_dimensions": [
+      1920,
+      1126
+    ],
+    "dimensions": [
+      1120,
+      657
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-spring-storage": {
+    "resource": "images/visual-spring-storage.png",
+    "source_url": "https://i.imgur.com/R418OYB.gif",
+    "project_url": "https://modrinth.com/project/wDCqub60",
+    "metadata_path": "mods/create-springs.pw.toml",
+    "publisher": "Create: Springs",
+    "kind": "publisher main-description image",
+    "subject": "Spring equipment from Create: Springs",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "c865371cb645ea2ea3278f0bd872f57974554b13d7ba7bd9a6a6a09fab692a22",
+    "resource_sha256": "2413e703329c20a9b8933cec1af9cf1825b81746aa752420695efa9e3fa71a4f",
+    "original_dimensions": [
+      720,
+      480
+    ],
+    "dimensions": [
+      720,
+      480
+    ],
+    "frame": 10,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-arcane-casting": {
+    "resource": "images/visual-arcane-casting.png",
+    "source_url": "https://cdn.modrinth.com/data/NkGaQMDA/images/8e51ab139b363cbe52abdad30892685932c6b625.jpeg",
+    "project_url": "https://modrinth.com/project/NkGaQMDA",
+    "metadata_path": "mods/wizards.pw.toml",
+    "publisher": "Wizards (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Arcane casting with a staff",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "277a6a38cd033849973b9c80e5c2fb44dad7f94c502b603a7e58ed97244d2e8d",
+    "resource_sha256": "23e8e622f87aad039bc033735f6893b6161c20e16f90cbb15b8cf155fd544da7",
+    "original_dimensions": [
+      1000,
+      401
+    ],
+    "dimensions": [
+      1000,
+      401
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-spell-binding": {
+    "resource": "images/visual-spell-binding.png",
+    "source_url": "https://cdn.modrinth.com/data/NkGaQMDA/images/c5de1c857639fedf56a17f0afcbb6d04ba7cbb0f.png",
+    "project_url": "https://modrinth.com/project/NkGaQMDA",
+    "metadata_path": "mods/wizards.pw.toml",
+    "publisher": "Wizards (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Spell books and the Spell Binding Table",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "dbb9726df44fe5974df2efed1cfa731056b1d97f60d19eb98fe3a79a88115f7c",
+    "resource_sha256": "4c498230632091ca51c558f63248e80fb8e38c7c0774202c70a2e5de53f61c53",
+    "original_dimensions": [
+      1000,
+      500
+    ],
+    "dimensions": [
+      1000,
+      500
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-class-skill-tree": {
+    "resource": "images/visual-class-skill-tree.png",
+    "source_url": "https://cdn.modrinth.com/data/PjDhruSC/images/53899e7b1a66c5150e65b4ffa40d42cfe933d058.png",
+    "project_url": "https://modrinth.com/project/PjDhruSC",
+    "metadata_path": "mods/skill-tree.pw.toml",
+    "publisher": "Skill Tree (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Connected class skill paths",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "d869a4a097e4e0c082cd1fa8d09e36a71c1c4ae200c6ab5bbb2f3664e132d281",
+    "resource_sha256": "3cd08f3bcb1c8876793cef1030c67a5d68bec6e6fdcb2fd1028e61b67590be74",
+    "original_dimensions": [
+      1967,
+      1630
+    ],
+    "dimensions": [
+      965,
+      800
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-melee-combat": {
+    "resource": "images/visual-melee-combat.png",
+    "source_url": "https://cdn.modrinth.com/data/3MKqoGuP/images/6f1832a855142588263f091b0f469405fb67a549.jpeg",
+    "project_url": "https://modrinth.com/project/3MKqoGuP",
+    "metadata_path": "mods/rogues-and-warriors.pw.toml",
+    "publisher": "Rogues & Warriors (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Close combat with class equipment",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "4b30b113e31309876abbef520c6eb2ba9db5f11248c8f8a4e43b5e5ca9ff7e24",
+    "resource_sha256": "ecbb4415a94c26ed45dc6f076bf3debd78ed3e7f9dcd325310965baa51ef4613",
+    "original_dimensions": [
+      1000,
+      400
+    ],
+    "dimensions": [
+      1000,
+      400
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-martial-equipment": {
+    "resource": "images/visual-martial-equipment.png",
+    "source_url": "https://cdn.modrinth.com/data/3MKqoGuP/images/498afeceae17b8a48e2ec957466b7581d5cd20bc.png",
+    "project_url": "https://modrinth.com/project/3MKqoGuP",
+    "metadata_path": "mods/rogues-and-warriors.pw.toml",
+    "publisher": "Rogues & Warriors (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Rogue and Warrior equipment",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "474fb908f7f48d06e65d648bb9712634611fac186ffc102a2ef3f58676f77c54",
+    "resource_sha256": "6dc37180f9ba4e8580a297fad9451168417dba461e3df41efd1b0ddb258de516",
+    "original_dimensions": [
+      1000,
+      403
+    ],
+    "dimensions": [
+      1000,
+      403
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-relic-collection": {
+    "resource": "images/visual-relic-collection.png",
+    "source_url": "https://cdn.modrinth.com/data/BDQucwF0/images/32ad6bdd15dcef53148d1b00aa76ae913be421f7.png",
+    "project_url": "https://modrinth.com/project/BDQucwF0",
+    "metadata_path": "mods/relics-rpg.pw.toml",
+    "publisher": "Relics (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Relics among dungeon loot",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "199680fa08d88b9d7448a1fe7161d90e3133618554c34123a5c8f674df153b1c",
+    "resource_sha256": "ca56dcadb9b14c032ce532d170230e47d451c3f205c5ef2827e080611b60aed7",
+    "original_dimensions": [
+      1000,
+      400
+    ],
+    "dimensions": [
+      1000,
+      400
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-biome-finder": {
+    "resource": "images/visual-biome-finder.png",
+    "source_url": "https://cdn.modrinth.com/data/fPetb5Kh/images/70122d266aaf4bd17bda6326187c962e910d938f.png",
+    "project_url": "https://modrinth.com/project/fPetb5Kh",
+    "metadata_path": "mods/natures-compass.pw.toml",
+    "publisher": "Nature's Compass",
+    "kind": "publisher gallery",
+    "subject": "Biome selection in Nature’s Compass",
+    "license": {
+      "id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": null
+    },
+    "original_sha256": "40fd798ee50057441219e5131ff1610707619aa77b188e84e1498bdc6795b467",
+    "resource_sha256": "6aaab043d8d9e235a324aea6b7e66c733ee5323fe6995d4c4650002243c02f4c",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-corpse-recovery": {
+    "resource": "images/visual-corpse-recovery.png",
+    "source_url": "https://i.imgur.com/PbLRPZG.png",
+    "project_url": "https://modrinth.com/project/WrpuIfhw",
+    "metadata_path": "mods/corpse.pw.toml",
+    "publisher": "Corpse",
+    "kind": "publisher main-description image",
+    "subject": "A corpse holding dropped equipment",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "2ec9a9c5de369ea35376e1fc05a89ae81aa29ddc608b14c72e341c68da278e8c",
+    "resource_sha256": "5ca637376ede979142b2c3e7aee20c488d025d85cc0e586b09c28afd325145c4",
+    "original_dimensions": [
+      2560,
+      1377
+    ],
+    "dimensions": [
+      1120,
+      602
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-ocean-village": {
+    "resource": "images/visual-ocean-village.png",
+    "source_url": "https://cdn.modrinth.com/data/EEIwvQVo/images/fff87a7ca31cf2609c995e1a0bd4d9ec5cc3ca4a.png",
+    "project_url": "https://modrinth.com/project/EEIwvQVo",
+    "metadata_path": "mods/tidal-towns.pw.toml",
+    "publisher": "Tidal Towns",
+    "kind": "publisher gallery",
+    "subject": "Tidal Towns ocean village",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "cd25602f5e410f47bd7bd8a10d3fd7a676cbf83e00527e845ba15efdfce2a0f0",
+    "resource_sha256": "a116b5feb1878fb1e711b2278c1c08e24558a364610c2e7256a72e1b5b1d8f8c",
+    "original_dimensions": [
+      1920,
+      1027
+    ],
+    "dimensions": [
+      1120,
+      599
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-fire-magic": {
+    "resource": "images/visual-fire-magic.png",
+    "source_url": "https://cdn.modrinth.com/data/NkGaQMDA/images/b56a2e8ef149d837423e5e51b35ba7a38e1f3866.png",
+    "project_url": "https://modrinth.com/project/NkGaQMDA",
+    "metadata_path": "mods/wizards.pw.toml",
+    "publisher": "Wizards (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Fire spell effects",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "ed60936cae1b5ab7d81966deae78a30ee27c3d3379728cdae777fe6029ce2cde",
+    "resource_sha256": "8d8126ef58a4208950136b1bff903f7b2cab80930164ce9cacd244e328729d32",
+    "original_dimensions": [
+      1240,
+      515
+    ],
+    "dimensions": [
+      1120,
+      465
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-frost-magic": {
+    "resource": "images/visual-frost-magic.png",
+    "source_url": "https://cdn.modrinth.com/data/NkGaQMDA/images/c6e273d96710a548fa80d6b06b2719a86f93632a.jpeg",
+    "project_url": "https://modrinth.com/project/NkGaQMDA",
+    "metadata_path": "mods/wizards.pw.toml",
+    "publisher": "Wizards (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Frost spell effects",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "66b233a4cf2c45c18962e2b30eb6364dfc74c41a41f8179e7d88c49e92e30ab8",
+    "resource_sha256": "b37276055a78818b8e4876aa5d9f9b371039477048fbe019dfe531002b859c60",
+    "original_dimensions": [
+      1000,
+      400
+    ],
+    "dimensions": [
+      1000,
+      400
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-elemental-robes": {
+    "resource": "images/visual-elemental-robes.png",
+    "source_url": "https://cdn.modrinth.com/data/PeZ4h4i0/images/172da99f5e00b466f6a0d964863486f9120bcfc2.png",
+    "project_url": "https://modrinth.com/project/PeZ4h4i0",
+    "metadata_path": "mods/elemental-wizards-rpg.pw.toml",
+    "publisher": "Elemental Wizards (RPG Series Plus)",
+    "kind": "publisher gallery",
+    "subject": "Elemental Wizard robes",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "4bafc1f6ec3ec6ced655d7e3d1d6b9f651c9120ec1c0c8ab5f62ee03b3ff3ed1",
+    "resource_sha256": "a54d1e99ec034ae2aa3bda5bba4b3bef7e176725f42fbd4c37768b4825715e6b",
+    "original_dimensions": [
+      800,
+      300
+    ],
+    "dimensions": [
+      800,
+      300
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-holy-casting": {
+    "resource": "images/visual-holy-casting.png",
+    "source_url": "https://cdn.modrinth.com/data/FxXkHaLe/images/965484dc3a4027c23bf4e37f3b5679dddd83b7e8.jpeg",
+    "project_url": "https://modrinth.com/project/FxXkHaLe",
+    "metadata_path": "mods/paladins-and-priests.pw.toml",
+    "publisher": "Paladins & Priests (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Holy casting effects",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "b7e89958d34ab797a41d2928a6ba4285014c6635751b26d9bf5cda608ceda475",
+    "resource_sha256": "db90ae6f5d7ade20e530d8f8a2f672189fe0f60d474184329f8d34ebf2a49ee3",
+    "original_dimensions": [
+      1000,
+      400
+    ],
+    "dimensions": [
+      1000,
+      400
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-holy-protection": {
+    "resource": "images/visual-holy-protection.png",
+    "source_url": "https://cdn.modrinth.com/data/FxXkHaLe/images/a5ccfeb43f6acfe99e13ea237330d0b93bb1052e.jpeg",
+    "project_url": "https://modrinth.com/project/FxXkHaLe",
+    "metadata_path": "mods/paladins-and-priests.pw.toml",
+    "publisher": "Paladins & Priests (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Holy protective effects",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "1d7df75cd2bfcb2d256e0b671972bd4345b34a4ce75b0b7ff23fb3451fbb293e",
+    "resource_sha256": "e48b82eaa4a7f87c0adba25529334ebc1c1fcbff784ce3c884465b25bad2e2c3",
+    "original_dimensions": [
+      1000,
+      400
+    ],
+    "dimensions": [
+      1000,
+      400
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-bard-music": {
+    "resource": "images/visual-bard-music.png",
+    "source_url": "https://github.com/ProfessorFichte/Bards/blob/1.21.1/.media/bard_combat.png?raw=true",
+    "project_url": "https://modrinth.com/project/kL7Bjgmw",
+    "metadata_path": "mods/bard-more-rpg-classes.pw.toml",
+    "publisher": "Bard (RPG Series Plus)",
+    "kind": "publisher main-description image",
+    "subject": "Bard music in combat",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "d528db943baf05edcbcfb331a44121cf82d6a349f3b6bdd049b82dcc0c40e2e0",
+    "resource_sha256": "14fde5b39927ae6d55be7d39bbc3f7ab7f4a415f8c1b4c3ab1aa04e5e7589df5",
+    "original_dimensions": [
+      1000,
+      401
+    ],
+    "dimensions": [
+      1000,
+      401
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-witcher-equipment": {
+    "resource": "images/visual-witcher-equipment.png",
+    "source_url": "https://media.forgecdn.net/attachments/1369/827/witcher_equipment_showcase-png.png",
+    "project_url": "https://modrinth.com/project/4eW1c7Gj",
+    "metadata_path": "mods/witcher-rpg-class.pw.toml",
+    "publisher": "Witcher (RPG Series Plus)",
+    "kind": "publisher main-description image",
+    "subject": "Witcher equipment sets",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "e46d87434d2782676b540fbc7b0cf47e2df9cc5a3d1ea0c359751467c382a833",
+    "resource_sha256": "54ec06f10d1df40641a1c08b155efc09739d31e0503be9da1ebbfdd9f2dcde45",
+    "original_dimensions": [
+      1000,
+      401
+    ],
+    "dimensions": [
+      1000,
+      401
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-archer-equipment": {
+    "resource": "images/visual-archer-equipment.png",
+    "source_url": "https://cdn.modrinth.com/data/QgooUXAJ/images/8657be3ab6cdf9c6802ae5f66f9efbce8e853572.png",
+    "project_url": "https://modrinth.com/project/QgooUXAJ",
+    "metadata_path": "mods/archers.pw.toml",
+    "publisher": "Archers (RPG Series)",
+    "kind": "publisher gallery",
+    "subject": "Archers with ranged equipment",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "1ab122d0ebd10e86d2a24c0586955a711e03f542ee74cd334ed6e38a4b302d11",
+    "resource_sha256": "c313a70e57966126730c2d94d2625d0bb304cb0c5060c347934ca1d599c3ddd1",
+    "original_dimensions": [
+      1266,
+      1266
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-deadeye-combat": {
+    "resource": "images/visual-deadeye-combat.png",
+    "source_url": "https://cdn.modrinth.com/data/1BHIIm4m/images/5778ab87b3174cf159f3cef1d7506979870d30b7.png",
+    "project_url": "https://modrinth.com/project/1BHIIm4m",
+    "metadata_path": "mods/archers-expansion.pw.toml",
+    "publisher": "Archers Expansion (RPG Series Plus)",
+    "kind": "publisher gallery",
+    "subject": "Deadeye combat",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "8c908f454a329a69edd40c1326c61b7ef3ded1e30efb554c1c0748ad211a7516",
+    "resource_sha256": "1099b48812660705e18e67af6afa90d08ed9de9a1acc9e986dd6882598c0306a",
+    "original_dimensions": [
+      1000,
+      401
+    ],
+    "dimensions": [
+      1000,
+      401
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-war-archer-combat": {
+    "resource": "images/visual-war-archer-combat.png",
+    "source_url": "https://cdn.modrinth.com/data/1BHIIm4m/images/2145908172546a7456926613fde0b0b19a2059d3.png",
+    "project_url": "https://modrinth.com/project/1BHIIm4m",
+    "metadata_path": "mods/archers-expansion.pw.toml",
+    "publisher": "Archers Expansion (RPG Series Plus)",
+    "kind": "publisher gallery",
+    "subject": "War Archer combat",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "bed52d32bba77508d752ab8446b7dd889e161a435f0178f4bebb4b39f79913b1",
+    "resource_sha256": "4dbc6320e5bf5bcdcf7c84c1ca66c5dc4af8fc8e57c213bdd667296d702da0f3",
+    "original_dimensions": [
+      1000,
+      401
+    ],
+    "dimensions": [
+      1000,
+      401
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-tundra-hunter-combat": {
+    "resource": "images/visual-tundra-hunter-combat.png",
+    "source_url": "https://cdn.modrinth.com/data/1BHIIm4m/images/8dccbe1537f656e65a722ce6a19a81eb9f372fec.png",
+    "project_url": "https://modrinth.com/project/1BHIIm4m",
+    "metadata_path": "mods/archers-expansion.pw.toml",
+    "publisher": "Archers Expansion (RPG Series Plus)",
+    "kind": "publisher gallery",
+    "subject": "Tundra Hunter combat",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "ed765a9c4d28814783e0674c0b317206ccca30082ca7f589627e753746e0a3e1",
+    "resource_sha256": "66805ce490e5e1ac032754f53a2f0eadeda0c2f497869919d58fdf93ed363574",
+    "original_dimensions": [
+      1000,
+      401
+    ],
+    "dimensions": [
+      1000,
+      401
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-berserker-armor": {
+    "resource": "images/visual-berserker-armor.png",
+    "source_url": "https://cdn.modrinth.com/data/8hqOZzxM/images/1637210c0e35e0c19da58b91850a377237d9a707.png",
+    "project_url": "https://modrinth.com/project/8hqOZzxM",
+    "metadata_path": "mods/berserker-rpg-class.pw.toml",
+    "publisher": "Berserker (RPG Series Plus)",
+    "kind": "publisher gallery",
+    "subject": "Berserker armor",
+    "license": {
+      "id": "LicenseRef-Custom-License",
+      "name": "",
+      "url": "https://github.com/ProfessorFichte/Berserker/blob/1.21.1/LICENSE"
+    },
+    "original_sha256": "dc56c96c04323a5185e01e1d9d5f98c0923d341b4f52e10a801ce5a28da8b7c3",
+    "resource_sha256": "ab5beaa18c3425a5a7d5781902a021377d13ca589f5ec974a1963ff777f82486",
+    "original_dimensions": [
+      960,
+      505
+    ],
+    "dimensions": [
+      960,
+      505
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-forcemaster-armor": {
+    "resource": "images/visual-forcemaster-armor.png",
+    "source_url": "https://cdn.modrinth.com/data/K3yHebFL/images/ed8761cfa13d2ef0c3c9d524fa5695accbdec3be.png",
+    "project_url": "https://modrinth.com/project/K3yHebFL",
+    "metadata_path": "mods/forcemaster-rpg-class.pw.toml",
+    "publisher": "Forcemaster (RPG Series Plus)",
+    "kind": "publisher gallery",
+    "subject": "Forcemaster armor",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": "https://github.com/ProfessorFichte/Forcemaster/blob/1.21.1/LICENSE"
+    },
+    "original_sha256": "9accc6917ce07b12b354efbb0f9d931ab784de44a3c0d36cb9123b68a0d7a095",
+    "resource_sha256": "898f54cefc7c06ee36f397736e042e7118777655406a3cf8d169270fbd84d05d",
+    "original_dimensions": [
+      960,
+      505
+    ],
+    "dimensions": [
+      960,
+      505
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-tropical-freshwater": {
+    "resource": "images/visual-tropical-freshwater.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/20faa2e8b751be5476c91ec758642f7e8603c21a.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "Jungle freshwater habitat",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "b0dc5ca3e18e96e36777734326660366b02bc2930b335b8b3a2d9413d1027bf3",
+    "resource_sha256": "fd6b054cc1181a3cbc19ad197f45fded2d967b5202dd2ceae13e4f6aff906472",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-marine-school": {
+    "resource": "images/visual-marine-school.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/35d41ee0d51f7f341d37783c92d953f24fe0f6ce.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "A school of Mackerel beside an Ocean Monument",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "98f79c6df42f05eabd846b5247db39ad2b66f18a9b9304d6f2b844aee42ced52",
+    "resource_sha256": "bf71ec8a51478268c5734359ebd0f357afd94507f58059dc9e46f772958b29d6",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-trench-habitat": {
+    "resource": "images/visual-trench-habitat.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/42f1bb6a80d982e77eaeea56ca43a865019d7d61.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "A deep trench habitat",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "2af3d8ed8f8ee43b956398406f5d467119a2c314a9287ae0c9dc66a2a730b6c3",
+    "resource_sha256": "1948fb24f02fd4ac70092f404ab911e9b92e6cdef36258aabf552d9d3043316f",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-great-white-shark": {
+    "resource": "images/visual-great-white-shark.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/809059e8a4e53453786c76e93e1e58f80b30b9aa.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "Great White Shark",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "c27639c384cd94ccb18ef6273500ce2482750328044fc7d6479c0ea59eca749c",
+    "resource_sha256": "c38302d403291ec9970885c7857e147ba868605944378f675eb1e606025b799c",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-barrel-jellyfish": {
+    "resource": "images/visual-barrel-jellyfish.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/98e0fc17492c5a5be4429a56f0091018107e3f47.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "Barrel Jellyfish among kelp",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "c0bfd94c9f7c9925652ad088e05c13a4f540f1a9390b75eadce0652fdd559c77",
+    "resource_sha256": "efd4a9fb6124a9c4971a90be21bc0dee40d4a01975587939d4a3c33a7addd339",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-seafloor-starfish": {
+    "resource": "images/visual-seafloor-starfish.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/4156571881c5ea3a2741c6efb335ef49c2f853b6.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "Starfish on a coral reef",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "e97ccff993e4f11a1aac84f410b02972cd2a954d942cb33709f93a2f3efaad1c",
+    "resource_sha256": "06e179b6b8eb5cf0a19efccb9a6fd03cd4efe3816aba5f3447a1e08b0bd2167b",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-dugong-family": {
+    "resource": "images/visual-dugong-family.png",
+    "source_url": "https://cdn.modrinth.com/data/HH4FjUqN/images/1f05e7c7d10a811881b0905d25e123322c101271.png",
+    "project_url": "https://modrinth.com/project/HH4FjUqN",
+    "metadata_path": "mods/hybrid-aquatic.pw.toml",
+    "publisher": "Hybrid Aquatic",
+    "kind": "publisher gallery",
+    "subject": "A Dugong and its young in a Seagrass Bed",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "df432129eb501d8a4bfeb1f117ba705f6b58a8c0f8ca7d08b97d8f6db55f5a8d",
+    "resource_sha256": "618b2ad4534e2f7a83eefa2e03bc552d5c3a427e67db7fae1bc04c331576adfa",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics."
+  },
+  "handbook:visual-illager-designs": {
+    "resource": "images/visual-illager-designs.png",
+    "source_url": "https://raw.githubusercontent.com/Fuzss/modresources/main/pages/data/illagerinvasion/banner.png",
+    "project_url": "https://modrinth.com/project/jSV9w0J5",
+    "metadata_path": "mods/illager-invasion.pw.toml",
+    "publisher": "Illager Invasion",
+    "kind": "publisher main-description image",
+    "subject": "Three Illager Invasion creature designs",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "418df08522d2b363a3d37f1f475d5d7b78577bc5ca935594cbbe152532cb520e",
+    "resource_sha256": "29fb722562c4bf799c125554c3cc2ec14a1b4271621f2415b69f65bb10b602a3",
+    "original_dimensions": [
+      1708,
+      480
+    ],
+    "dimensions": [
+      508,
+      480
+    ],
+    "frame": null,
+    "rights_note": "Project license recorded as provenance, not independent proof of artwork redistribution permission. Local testing only, publication requires rights review.",
+    "mechanics_note": "Appearance illustration from publisher material, not a gameplay test or proof of selected-release mechanics.",
+    "crop": [
+      1200,
+      0,
+      1708,
+      480
+    ]
+  },
+  "handbook:feedback-tempad": {
+    "resource": "images/feedback-tempad.png",
+    "source_url": "https://cdn.modrinth.com/data/cached_images/664b01058c20fdc19d4fef353f986b90249ff89e.png",
+    "project_url": "https://modrinth.com/project/gKNwt7xu",
+    "metadata_path": "mods/tempad.pw.toml",
+    "publisher": "Tempad",
+    "kind": "publisher main-description image",
+    "subject": "Tempad destination equipment",
+    "license": {
+      "id": "LicenseRef-Terrarium-License",
+      "name": "",
+      "url": "https://github.com/terrarium-earth/Tempad/blob/1.20.x/LICENSE"
+    },
+    "original_sha256": "4cc38d6700b3498b8a6d700fca91a2cd0183dc547228226db04ecbd6c329a7b7",
+    "resource_sha256": "e2e1f72028f2f0b771a4ff2e71c477d4765e1f0f742f1dbe98395282ebcede82",
+    "original_dimensions": [
+      2574,
+      1534
+    ],
+    "dimensions": [
+      1120,
+      350
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release.",
+    "crop": [
+      70,
+      720,
+      2500,
+      1480
+    ]
+  },
+  "handbook:feedback-earth-orbit": {
+    "resource": "images/feedback-earth-orbit.png",
+    "source_url": "https://createmod.com/api/files/schematics/8ede56253cb747e/apollo1.webp",
+    "project_url": "https://createmod.com/schematics/apollo-67-spaceship",
+    "metadata_path": "mods/create-cosmonatics.pw.toml",
+    "publisher": "14_tjd_88",
+    "kind": "community build screenshot",
+    "subject": "Spacecraft above Earth",
+    "license": {
+      "id": "unknown",
+      "name": "Artwork rights not independently verified"
+    },
+    "original_sha256": "802be9d6724c2a89f24fce9a75bafc97ee797a9785662f9c0c7d635aaabd13bd",
+    "resource_sha256": "d7582a0b097ecdecb0781cb8b7386a12a18d53768303475271674c3d84e177be",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      405
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release.",
+    "crop": [
+      0,
+      470,
+      2240,
+      1280
+    ]
+  },
+  "handbook:feedback-mounted-cannons": {
+    "resource": "images/feedback-mounted-cannons.png",
+    "source_url": "https://cdn.modrinth.com/data/GWp4jCJj/images/7a93b658b0d5b04f2e34fd42946cf5cd3cb0e640.png",
+    "project_url": "https://modrinth.com/project/GWp4jCJj",
+    "metadata_path": "mods/create-big-cannons.pw.toml",
+    "publisher": "Create Big Cannons",
+    "kind": "publisher gallery image",
+    "subject": "Cannons mounted on a ship",
+    "license": {
+      "id": "LicenseRef-Create-Big-Cannons-License",
+      "name": "",
+      "url": "https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/0b3e23456f38bac359112d82d6aad1b5430c04d1/LICENSE.md"
+    },
+    "original_sha256": "f173bc1e7883946bdbaaf30a554355c3d944910f629b8f366d98a13d4294dc5c",
+    "resource_sha256": "13878e71836ed94e1b80a5725521ee392c13738db2548a8d8496f4d45088c603",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-radar-dish": {
+    "resource": "images/feedback-radar-dish.png",
+    "source_url": "https://cdn.modrinth.com/data/BLu2Yqfq/images/3ad3bc3eacf3f6bcb6246b723eaaaab281573f70.png",
+    "project_url": "https://modrinth.com/project/BLu2Yqfq",
+    "metadata_path": "mods/create-radars.pw.toml",
+    "publisher": "Create: Radars",
+    "kind": "publisher gallery image",
+    "subject": "Radar antenna assemblies",
+    "license": {
+      "id": "LicenseRef-Arsenalists-of-Create-Source-Available-License",
+      "name": "",
+      "url": "https://github.com/Arsenalists-of-Create/Create-Radar/blob/master/LICENSE"
+    },
+    "original_sha256": "70b8ea3711e4c45f975c526b75e9793d4d45ac7aeeda18dbe644202833208062",
+    "resource_sha256": "00411582705a94082d6bb872fdc3a18b308dfcc1a6211522e0560b5911d6bcda",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-radar-monitor": {
+    "resource": "images/feedback-radar-monitor.png",
+    "source_url": "https://cdn.modrinth.com/data/BLu2Yqfq/images/681e7771badf107cd269f386461de9a01451a6c6.png",
+    "project_url": "https://modrinth.com/project/BLu2Yqfq",
+    "metadata_path": "mods/create-radars.pw.toml",
+    "publisher": "Create: Radars",
+    "kind": "publisher gallery image",
+    "subject": "Radar monitor display",
+    "license": {
+      "id": "LicenseRef-Arsenalists-of-Create-Source-Available-License",
+      "name": "",
+      "url": "https://github.com/Arsenalists-of-Create/Create-Radar/blob/master/LICENSE"
+    },
+    "original_sha256": "b6962dcfb42f61aab97984d4f9af6f3fd20e89ed70b1b3fb516bcd01ccd5d835",
+    "resource_sha256": "827cc3a4a0533bb3a680875e69efa7dcf44e75ab8dfea20ad5dd27aa7deaf7de",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-enchanting-workshop": {
+    "resource": "images/feedback-enchanting-workshop.png",
+    "source_url": "https://i.ytimg.com/vi/Vk2moM7A2jk/maxresdefault.jpg",
+    "project_url": "https://www.youtube.com/watch?v=Vk2moM7A2jk",
+    "metadata_path": "mods/create-enchantment-industry.pw.toml",
+    "publisher": "Dragons Plus",
+    "kind": "publisher showcase still",
+    "subject": "Experience and enchanting machinery",
+    "license": {
+      "id": "unknown",
+      "name": "Artwork rights not independently verified"
+    },
+    "original_sha256": "0369cf71b18574df6cd56ebc4d522b62cd301b40f6270280229c0ff073185256",
+    "resource_sha256": "2c4ac76691ef7b27d1d1421d848c7847c2210fd88fc1e6a03a6b1f5b5eb355c3",
+    "original_dimensions": [
+      1280,
+      720
+    ],
+    "dimensions": [
+      765,
+      355
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release.",
+    "crop": [
+      210,
+      240,
+      975,
+      595
+    ]
+  },
+  "handbook:feedback-liquid-fuel": {
+    "resource": "images/feedback-liquid-fuel.png",
+    "source_url": "https://cdn.modrinth.com/data/sH9tXU9f/images/e4c63aca679b647a24f124189a108c6ecb2b7485.png",
+    "project_url": "https://modrinth.com/project/sH9tXU9f",
+    "metadata_path": "mods/create-liquid-fuel.pw.toml",
+    "publisher": "Create: Liquid Fuel",
+    "kind": "publisher gallery image",
+    "subject": "Fluid supply to a Blaze Burner",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "8428d8cd5389dda4184f304e962b19aba1c96d9bad7a8be13cfbdeb98b459626",
+    "resource_sha256": "a48c57257fab37aadaecd06207bd72d2bfb976dfb4fd984033a7fdba5e645889",
+    "original_dimensions": [
+      275,
+      172
+    ],
+    "dimensions": [
+      275,
+      172
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-nether-tanks": {
+    "resource": "images/feedback-nether-tanks.png",
+    "source_url": "https://www.schematicannon.com/api/files/schematics/b5486kmuy6dvvt3/2023_10_31_12_56_07_szsNKg6ULZ.png",
+    "project_url": "https://www.schematicannon.com/schematics/nether-lava-factory",
+    "metadata_path": "mods/create.pw.toml",
+    "publisher": "Uberswe",
+    "kind": "community build screenshot",
+    "subject": "Create fluid tanks beside a Nether portal",
+    "license": {
+      "id": "unknown",
+      "name": "Artwork rights not independently verified"
+    },
+    "original_sha256": "0a2d438a5f5c6b7ed1a83049812218703cdeb51f968db8f920bf1015a2b11354",
+    "resource_sha256": "a898de80704cdd4007ee366d8551f3552c70064516ddaa05ac9dc84e7a271598",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-windmill": {
+    "resource": "images/feedback-windmill.png",
+    "source_url": "https://createmod.com/api/files/schematics/571ee17aaa00573/windmill1.webp",
+    "project_url": "https://createmod.com/schematics/cozy-medieval-windmill",
+    "metadata_path": "mods/create.pw.toml",
+    "publisher": "Erium2024",
+    "kind": "community build screenshot",
+    "subject": "Create windmill build",
+    "license": {
+      "id": "unknown",
+      "name": "Artwork rights not independently verified"
+    },
+    "original_sha256": "63c87aebbbe85ca7f0ca2a7de23540c7bea8aa5ffc310b5f59be23123f057044",
+    "resource_sha256": "cc2aa4155e9c0ee8fda6e2eeaec11ced51bfb20127bfd59f3762c414b502c944",
+    "original_dimensions": [
+      1920,
+      1017
+    ],
+    "dimensions": [
+      1120,
+      593
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-jade-block": {
+    "resource": "images/feedback-jade-block.png",
+    "source_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/4b47304960861088536652dfcc9dbf42ef59ce5e.png",
+    "project_url": "https://modrinth.com/project/nvQzSEkH",
+    "metadata_path": "mods/jade.pw.toml",
+    "publisher": "Jade 🔍",
+    "kind": "publisher gallery image",
+    "subject": "Jade chest contents overlay",
+    "license": {
+      "id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": null
+    },
+    "original_sha256": "5d99d6ac9f12105898e5e9dad63dad6e2b90ceea50fb29288861b3e420c2e096",
+    "resource_sha256": "5fdd5bb9d1227ab6ba78586baf7c8f1ce4ab680d353a684af96f32176e1558a6",
+    "original_dimensions": [
+      482,
+      183
+    ],
+    "dimensions": [
+      482,
+      183
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-jade-creature": {
+    "resource": "images/feedback-jade-creature.png",
+    "source_url": "https://cdn.modrinth.com/data/nvQzSEkH/images/25295e11ad9a003df27cea972bffb1c1323d5e52.png",
+    "project_url": "https://modrinth.com/project/nvQzSEkH",
+    "metadata_path": "mods/jade.pw.toml",
+    "publisher": "Jade 🔍",
+    "kind": "publisher gallery image",
+    "subject": "Jade horse information overlay",
+    "license": {
+      "id": "CC-BY-NC-SA-4.0",
+      "name": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": null
+    },
+    "original_sha256": "bb47c608b43a366416fbd1ebe25716fca6c50f0e4f4a23c5bb8726f429ad7580",
+    "resource_sha256": "e6012dcc3d9af7673ee5d3a144af97cad4166d24e6848525e69d840958aaddd1",
+    "original_dimensions": [
+      360,
+      271
+    ],
+    "dimensions": [
+      360,
+      271
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-carry-chest": {
+    "resource": "images/feedback-carry-chest.png",
+    "source_url": "https://cdn.modrinth.com/data/joEfVgkn/images/958cb77e131078111c854cbc4d4d008da23fd5e0.png",
+    "project_url": "https://modrinth.com/project/joEfVgkn",
+    "metadata_path": "mods/carry-on.pw.toml",
+    "publisher": "Carry On",
+    "kind": "publisher gallery image",
+    "subject": "Carrying a chest",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "7dc7cba7956f5ef72ef0a7b95004f61541d46c44631cd260e20dd7083553338f",
+    "resource_sha256": "2388f1410bdeaf514232b2d38d02ed34f0d8b417cb2f9c8b7c734ba143629f48",
+    "original_dimensions": [
+      1920,
+      1017
+    ],
+    "dimensions": [
+      1120,
+      593
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-camera-zoom": {
+    "resource": "images/feedback-camera-zoom.png",
+    "source_url": "https://cdn.modrinth.com/data/aXf2OSFU/images/1faf4c97cb75a9eebdeabfb03768fe2d1ebdaa62.gif",
+    "project_url": "https://modrinth.com/project/aXf2OSFU",
+    "metadata_path": "mods/ok-zoomer.pw.toml",
+    "publisher": "Ok Zoomer - It's Zoom!",
+    "kind": "publisher gallery image",
+    "subject": "Camera zoom across a landscape",
+    "license": {
+      "id": "LicenseRef-All-Rights-Reserved",
+      "name": "",
+      "url": null
+    },
+    "original_sha256": "59724e5d55cfb1dc1868c31ac44391033591bcd07a90e5eff5adea432d31b6b1",
+    "resource_sha256": "84fdc22a94a2a1d414249193c2c61b02606924c7994f4790e5e934ed59b41e69",
+    "original_dimensions": [
+      848,
+      480
+    ],
+    "dimensions": [
+      848,
+      480
+    ],
+    "frame": 10,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-entity-models": {
+    "resource": "images/feedback-entity-models.png",
+    "source_url": "https://cdn.modrinth.com/data/4I1XuqiY/images/a6fe81b299dff2877272c143ecf97b65a79bec39.png",
+    "project_url": "https://modrinth.com/project/4I1XuqiY",
+    "metadata_path": "mods/entity-model-features.pw.toml",
+    "publisher": "[EMF] Entity Model Features",
+    "kind": "publisher gallery image",
+    "subject": "Custom animated pillager model",
+    "license": {
+      "id": "LGPL-3.0-only",
+      "name": "GNU Lesser General Public License v3.0 only",
+      "url": null
+    },
+    "original_sha256": "05d6c0478516070926311c27237042e01c91c47030fbe56334e3413964353157",
+    "resource_sha256": "cc95839260608232dbd6bfb91b5a81f9d9d07c1debc568b98e5019578fd06114",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-explosion-particles": {
+    "resource": "images/feedback-explosion-particles.png",
+    "source_url": "https://cdn.modrinth.com/data/OSQ8mw2r/images/abc37404937a797346c766f980af098da367f4ce.webp",
+    "project_url": "https://modrinth.com/project/OSQ8mw2r",
+    "metadata_path": "heavy edition appearance",
+    "publisher": "Explosive Enhancement",
+    "kind": "publisher gallery image",
+    "subject": "Explosion particle effects",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "eddc841a808e1b22db6e6c11899917c794d9355f3f2616709e9551c240f1b918",
+    "resource_sha256": "588b6562e2c643b132612480bd8895163cd7e64f20f96a8f2984d46f187f600e",
+    "original_dimensions": [
+      1280,
+      720
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": 10,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-video-options": {
+    "resource": "images/feedback-video-options.png",
+    "source_url": "https://cdn.modrinth.com/data/Bh37bMuy/images/ef92f9dbadd953c9acfbc0a5246921a8226dac1c.png",
+    "project_url": "https://modrinth.com/project/Bh37bMuy",
+    "metadata_path": "mods/reeses-sodium-options.pw.toml",
+    "publisher": "Reese's Sodium Options",
+    "kind": "publisher main-description image",
+    "subject": "Reorganized video options",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "71b5840afdab1aced24f9d650729f99a2329edea29a81b25714abfe076a6c90c",
+    "resource_sha256": "37cd5cb97bde19709c31f6477c88d3102647588ef6378e8262a374cabc122d7e",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-resource-leaves": {
+    "resource": "images/feedback-resource-leaves.png",
+    "source_url": "https://cdn.modrinth.com/data/uvpymuxq/images/eb25ed9b51d7e1c6722629f1c7c14331732d9012.png",
+    "project_url": "https://modrinth.com/project/uvpymuxq",
+    "metadata_path": "resourcepacks/better-leaves.pw.toml",
+    "publisher": "Motschen's Better Leaves",
+    "kind": "publisher gallery image",
+    "subject": "Leaf appearance with Better Leaves",
+    "license": {
+      "id": "MIT",
+      "name": "MIT License",
+      "url": null
+    },
+    "original_sha256": "2382b3239a66f6fbabb5a1b2a6908209602ba66e1e38ca38353e1040a71efc14",
+    "resource_sha256": "178acdf469d8635a2d8982b300a7b1c077b5b9e5af41f82393fdc8077dd79748",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-shader-reimagined": {
+    "resource": "images/feedback-shader-reimagined.png",
+    "source_url": "https://cdn.modrinth.com/data/HVnmMxH1/images/26327bef581206670288bf7e1b1b5f411291f793.jpeg",
+    "project_url": "https://modrinth.com/project/HVnmMxH1",
+    "metadata_path": "shaderpacks/complementary-reimagined.pw.toml",
+    "publisher": "Complementary Shaders - Reimagined",
+    "kind": "publisher gallery image",
+    "subject": "Complementary Reimagined landscape",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt"
+    },
+    "original_sha256": "2a77bccbfe3ae6c5bbcb56a65d3145d8156113f7adcf7dc1e7c1d23af07a50d7",
+    "resource_sha256": "2f5348bc69456a85289b8686900c873ce8c1f79edde6837dda1d92343ba9a6e8",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-shader-unbound": {
+    "resource": "images/feedback-shader-unbound.png",
+    "source_url": "https://cdn.modrinth.com/data/R6NEzAwj/images/0d56b4e3411149fe19d3a45c0105072c18674960.png",
+    "project_url": "https://modrinth.com/project/R6NEzAwj",
+    "metadata_path": "shaderpacks/complementary-unbound.pw.toml",
+    "publisher": "Complementary Shaders - Unbound",
+    "kind": "publisher gallery image",
+    "subject": "Complementary Unbound landscape",
+    "license": {
+      "id": "LicenseRef-Custom",
+      "name": "",
+      "url": "https://github.com/ComplementaryDevelopment/ComplementaryShadersV4/blob/main/License.txt"
+    },
+    "original_sha256": "e8ff85ca26e4d9df14080ccbdadfb3de669a72769597212f866776794554da86",
+    "resource_sha256": "f01e3c995f0dfee8c2c1949e3d563bd79d45c0a9922567e1013a9fefb7898699",
+    "original_dimensions": [
+      2560,
+      1440
+    ],
+    "dimensions": [
+      1120,
+      630
+    ],
+    "frame": null,
+    "rights_note": "Local review only. Project or source metadata does not independently establish artwork redistribution permission.",
+    "mechanics_note": "Subject illustration only. Gameplay prose remains grounded in the selected release."
+  },
+  "handbook:feedback-oil-extraction": {
+    "resource": "images/feedback-oil-extraction.png",
+    "source_url": "/home/tsb/.config/Hermes/composer-images/image_507742.png",
+    "kind": "user-supplied Reddit screenshot",
+    "publisher": "Unknown Reddit contributor",
+    "subject": "Oil extraction machinery in a desert",
+    "license": {
+      "id": "unknown",
+      "name": "Original post and artwork rights not supplied"
+    },
+    "original_sha256": "fe78babad0fe7594e525fc1f927a8fbdc2d46840cb1c6e2c32de136904752541",
+    "resource_sha256": "460c9d84d4b8340e8d3c7ed97012d17893f15f66643435099ac2eef5b52c389d",
+    "original_dimensions": [
+      1080,
+      607
+    ],
+    "dimensions": [
+      1080,
+      607
+    ],
+    "rights_note": "Supplied by Lucas for this handbook review. Reddit post URL and creator not provided. Public redistribution permission remains unverified.",
+    "mechanics_note": "Illustration of extraction machinery, not proof of the installed release or exact working arrangement."
   }
 }

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@aeroworks" />
 
+![A cockpit with Aeroworks control modules](images/visual-cockpit-controls.png)
+
+A cockpit with Aeroworks control modules
+
 <ItemGrid>
   <ItemIcon id="aeroworks:control_desk" />
   <ItemIcon id="aeroworks:joystick_module" />
@@ -30,7 +34,13 @@ navigation:
 | <ItemLink id="aeroworks:mechanical_servo" /> |
 | <ItemLink id="aeroworks:stepper_servo" /> |
 
-Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and button panel modules. Right-click a socket with a module. Remove it with a wrench. Sneak and right-click to configure each control and its Redstone Link frequencies. Empty-hand right-click takes control. Escape releases it. Touching consoles form one deck, controlled by one player at a time.
+Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and button panel modules. Right-click a socket with a module.
+
+Remove it with a wrench. Sneak and right-click to configure each control and its Redstone Link frequencies.
+
+Empty-hand right-click takes control. Escape releases it.
+
+Touching consoles form one deck, controlled by one player at a time.
 
 ***
 

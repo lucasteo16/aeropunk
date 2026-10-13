@@ -35,6 +35,10 @@ item_ids:
 
 ## Role & first weapon
 
+![Forcemaster armor](images/visual-forcemaster-armor.png)
+
+Forcemaster armor
+
 <ItemGrid>
   <ItemIcon id="forcemaster_rpg:iron_knuckle" />
 </ItemGrid>

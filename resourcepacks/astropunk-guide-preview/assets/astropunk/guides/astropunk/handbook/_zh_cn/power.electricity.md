@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
 
+![输电塔与架空电线](images/visual-electric-transmission.png)
+
+输电塔与架空电线
+
 <ItemGrid>
   <ItemIcon id="electroenergetics:alternator_rotor" />
   <ItemIcon id="electroenergetics:stator" />

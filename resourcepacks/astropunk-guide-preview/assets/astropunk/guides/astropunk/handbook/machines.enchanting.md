@@ -10,6 +10,10 @@ navigation:
 
 ## Experience & enchanting
 
+![Experience and enchanting machinery](images/feedback-enchanting-workshop.png)
+
+Experience and enchanting machinery
+
 <EmiSearch query="@create_enchantment_industry" />
 
 <ItemGrid>

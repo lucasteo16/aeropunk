@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "用地下食材烹饪"
-  position: 4
+  position: 6
   parent: reference.food.md
   icon: minecraft:brown_mushroom
 ---
@@ -11,6 +11,10 @@ navigation:
 ## 洞穴作物与营养棒
 
 <EmiSearch query="@minersdelight" />
+
+![洞穴中的厨房](images/visual-cavern-kitchen.png)
+
+洞穴中的厨房
 
 <ItemGrid>
   <ItemIcon id="minersdelight:wild_cave_carrots" />

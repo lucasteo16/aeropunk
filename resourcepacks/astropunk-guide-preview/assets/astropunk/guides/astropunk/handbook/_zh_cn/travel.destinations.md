@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create" /> <EmiSearch query="@waystones" />
 
+![高处的传送石](images/visual-mountaintop-waystone.png)
+
+高处的传送石
+
 <ItemGrid>
   <ItemIcon id="waystones:blackstone_waystone" />
   <ItemIcon id="waystones:deepslate_waystone" />
@@ -71,6 +75,10 @@ Waystones 提供不同材质的目的地方块。先激活传送石，再从目�
 ## Tempad 与传送门
 
 <EmiSearch query="@tempad" />
+
+![Tempad 目的地设备](images/feedback-tempad.png)
+
+Tempad 目的地设备
 
 <ItemGrid>
   <ItemIcon id="tempad:tempad" />

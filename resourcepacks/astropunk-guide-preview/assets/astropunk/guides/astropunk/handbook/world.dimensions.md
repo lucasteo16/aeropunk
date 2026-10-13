@@ -56,6 +56,32 @@ Tectonic shapes larger landforms, Terralith adds surface and cave biomes built f
 | Wintry Forest | Wintry Lowlands | Yellowstone |
 | Yosemite Cliffs | Yosemite Lowlands |  |
 
+### Hybrid Aquatic habitats
+
+<EmiSearch query="@hybrid_aquatic" />
+
+Hybrid Aquatic adds ocean, river, coastal and cave habitats alongside Terralith terrain. These terrain names do not replace the separate rod-catch conditions.
+
+| Habitat |
+| --- |
+| Coral Reef |
+| Deep Coral Reef |
+| Tropical Deep Coral Reef |
+| Seagrass Bed |
+| Red Meadow |
+| Deep Warm Ocean |
+| Trench |
+| Cold Trench |
+| Frozen Trench |
+| Lukewarm Trench |
+| Warm Trench |
+| Tropical River |
+| Tide Pools |
+| Sulfuric Caves |
+
+- [Aquatic wildlife](adventure.aquatic.md)
+- [Fishing habitats](fishing.habitats.md)
+
 ***
 
 ## Nether

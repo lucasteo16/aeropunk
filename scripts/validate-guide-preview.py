@@ -119,14 +119,14 @@ for language in ('', '_zh_cn'):
             depth += 1
         assert current in section_roots | {'index.md', 'help.credits.md'}, article['filename']
         assert depth <= 2, article['filename']
-# Selected main metadata and its mandatory world-border data pack stay byte-identical.
-baseline_paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', 'f5c24f3', 'mods', 'resourcepacks', 'shaderpacks', 'config/paxi'], cwd=root, text=True).splitlines()
+# Selected development metadata and mandatory data packs stay byte-identical.
+baseline = handbook['baseline_commit']
+baseline_paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', baseline, 'mods', 'resourcepacks', 'shaderpacks', 'config/paxi'], cwd=root, text=True).splitlines()
 baseline_paths = [name for name in baseline_paths if name.endswith('.pw.toml') or name.startswith('config/paxi/')]
 actual_metadata = {path.relative_to(root).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks') for path in (root / folder).glob('*.pw.toml')}
-assert actual_metadata == {name for name in baseline_paths if name.endswith('.pw.toml')}, 'Selected main inventory drift'
+assert actual_metadata == {name for name in baseline_paths if name.endswith('.pw.toml')} | {'mods/guideme.pw.toml'}, 'Selected development inventory drift'
 for name in baseline_paths:
-    assert (root / name).read_bytes() == subprocess.check_output(['git', 'show', f'f5c24f3:{name}'], cwd=root), ('Selected main byte drift', name)
-assert handbook['baseline_commit'] == 'f5c24f3'
+    assert (root / name).read_bytes() == subprocess.check_output(['git', 'show', f'{baseline}:{name}'], cwd=root), ('Selected development byte drift', name)
 options = (root / "configureddefaults/options.txt").read_text()
 assert '"file/astropunk-guide-preview"' in options
 if args.source_only:
@@ -143,7 +143,7 @@ with zipfile.ZipFile(export) as archive:
     manifest = json.loads(archive.read("modrinth.index.json"))
     assert manifest["versionId"] == pack["version"]
     assert manifest["dependencies"]["minecraft"] == "1.21.1"
-    assert manifest["dependencies"]["neoforge"] == "21.1.255"
+    assert manifest["dependencies"]["neoforge"] == pack['versions']['neoforge']
     assert any(f["path"] == "mods/guideme-21.1.19.jar" for f in manifest["files"])
     checked = 0
     for p in resource.rglob("*"):
@@ -166,11 +166,11 @@ with zipfile.ZipFile(export) as archive:
             assert archive.read("overrides/" + name) == (root / name).read_bytes(), name
     assert archive.read("overrides/configureddefaults/options.txt").decode() == options
     assert not any(n.startswith(("overrides/docs/", "overrides/scripts/", "overrides/build/", "overrides/dist/")) for n in names)
-    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "f5c24f3", "mods"], cwd=root, text=True).splitlines()
+    base = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", baseline, "mods"], cwd=root, text=True).splitlines()
     base = [name for name in base if name.endswith('.pw.toml')]
     for name in base:
-        previous = subprocess.check_output(["git", "show", f"f5c24f3:{name}"], cwd=root)
+        previous = subprocess.check_output(["git", "show", f"{baseline}:{name}"], cwd=root)
         assert (root / name).read_bytes() == previous, name
     additions = {p.relative_to(root).as_posix() for p in (root / "mods").glob("*.pw.toml")} - set(base)
-    assert not additions, additions
+    assert additions == {'mods/guideme.pw.toml'} - set(base), additions
 print(json.dumps({"pages": len(list(pages.rglob('*.md'))), "draft_articles": handbook['draft_articles'], "article_count": handbook['article_count'], "installed_content_count": handbook['installed_content_count'], "links": links, "resource_files_verified": checked, "baseline_mod_files_unchanged": len(base), "additional_mods": sorted(additions), "archive": str(export), "sha256": hashlib.sha256(export.read_bytes()).hexdigest(), "client_runtime_tested": False}, indent=2))

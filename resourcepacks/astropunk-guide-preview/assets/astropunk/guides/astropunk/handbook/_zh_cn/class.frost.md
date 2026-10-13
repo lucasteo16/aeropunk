@@ -23,6 +23,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![冰霜法术效果](images/visual-frost-magic.png)
+
+冰霜法术效果
+
 <ItemGrid>
   <ItemIcon id="wizards:wand_frost" />
 </ItemGrid>

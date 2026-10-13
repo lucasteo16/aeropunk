@@ -13,9 +13,17 @@ item_ids:
 
 # 加工矿石与原料
 
-## 矿物加工机器
+## 共享材料产物
 
-<EmiSearch query="@create" />
+<EmiSearch query="@createdeco" /> <EmiSearch query="@create" />
+
+Almost Unified 在本整合包仅统一共享的安山合金板与锌板配方标签，优先使用 Create Deco 产物。它不统一所有金属、铂或 Witcher 装备。
+
+原有物品仍显示在配方浏览器中，战利品也不统一。制作精确物品过滤器前，检查实际配方产物与接受的原料。材料名称相同，不代表两个物品都符合指定物品配方。
+
+***
+
+## 矿物加工机器
 
 <ItemGrid>
   <ItemIcon id="create:millstone" />
@@ -120,4 +128,5 @@ item_ids:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
+| ![Almost Unified](images/catalog-sdasaqez.png) [Almost Unified](machines.ore-processing.md) | 仅统一共享的安山合金与锌板配方材料。 | 无独立物品查询 |
 | ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 增加用于加工、运输与自动建造的旋转动力机器。 | <EmiSearch query="@create" /> |

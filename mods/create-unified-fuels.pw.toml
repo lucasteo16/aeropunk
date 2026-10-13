@@ -1,0 +1,13 @@
+name = "Create: Unified Fuels"
+filename = "create_unified_fuels-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bdcf3de514efe78434baf7ba56d1012c88bb03d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8995609
+project-id = 1650537

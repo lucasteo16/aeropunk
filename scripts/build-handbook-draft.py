@@ -147,6 +147,9 @@ reference_icons = {
     'food.machine-cooking': 'minecraft:smoker',
     'food.growing': 'minecraft:wheat',
     'food.fishing': 'minecraft:cod',
+    'fishing.habitats': 'minecraft:salmon',
+    'food.seafood': 'oceansdelight:cooked_stuffed_squid',
+    'adventure.aquatic': 'hybrid_aquatic:shark_tooth',
     'building.palette': 'chipped:mason_table',
     'building.factory': 'create:industrial_iron_block',
     'building.copycats': 'copycats:copycat_block',
@@ -215,6 +218,7 @@ for topic in ('maps.shared', 'maps.find'):
     reference_parents[topic] = 'maps.personal.md'
 for topic in ('adventure.settlements', 'adventure.loot'):
     reference_parents[topic] = 'adventure.structures.md'
+reference_parents['adventure.aquatic'] = 'adventure.creatures.md'
 reference_parents['help.credits'] = None
 
 
@@ -312,6 +316,12 @@ zh_titles['world.dimensions'] = '维度目录'
 page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landscapes.') and p['page_id'] not in {'sounds.ambience', 'audio.sound', 'travel.moving-destinations', 'performance.deferred', 'server.deferred-pack-loading', 'technical.space-bridge', 'space.destinations', 'world.dimensions'} ] + [dict(page_id='help.handbook', title='Astropunk handbook', player_questions=[]), dict(page_id='world.dimensions', title='Dimensions', player_questions=[])]
 page_defs += [dict(page_id='reference.equipment', title='Equipment', player_questions=[]), dict(page_id='combat.abilities', title='Spells & abilities', player_questions=[])]
 page_defs += [dict(page_id='help.credits', title='Credits', player_questions=[])]
+page_defs += [dict(page_id=topic, title=title, player_questions=[]) for topic, title in
+              [('fishing.habitats', 'Fishing habitats'), ('food.seafood', 'Seafood'),
+               ('adventure.aquatic', 'Aquatic wildlife')]
+              if topic not in {page['page_id'] for page in page_defs}]
+zh_titles.update({'fishing.habitats': '钓鱼栖息地', 'food.seafood': '海鲜料理',
+                  'adventure.aquatic': '水生生物'})
 zh_titles['help.credits'] = '鸣谢'
 zh_titles.update({'reference.equipment': '装备', 'combat.abilities': '法术与招式'})
 page_defs += [dict(page_id=topic, title=english, player_questions=[]) for topic, english, *_ in reference_sections if topic in reference_hubs or topic == 'reference.audio']
@@ -335,6 +345,8 @@ titles['help.reference'] = 'Advancements'
 zh_titles['help.reference'] = '进度'
 reference_icons.pop('travel.moving-destinations', None)
 class_navigation = json.loads((ROOT / 'docs/handbook-class-navigation.json').read_text())
+creature_navigation = json.loads((ROOT / 'docs/handbook-creature-navigation.json').read_text())
+class_navigation.update(creature_navigation)
 for topic, definition in class_navigation.items():
     assert topic in written, topic
     if topic not in {page['page_id'] for page in page_defs}:
@@ -343,6 +355,14 @@ for topic, definition in class_navigation.items():
     zh_titles[topic] = definition['title']['zh_cn']
     reference_parents[topic] = definition['parent'] + '.md'
     reference_icons[topic] = definition['icon']
+
+# Complete coverage can already include the compatibility definitions above.
+# The introduction is generated separately and must not enter the article loop.
+unique_pages = {}
+for page in page_defs:
+    if page['page_id'] != 'index':
+        unique_pages.setdefault(page['page_id'], page)
+page_defs = list(unique_pages.values())
 
 navigation = navigation_metadata()
 assert_semantic_navigation(navigation)
@@ -447,12 +467,18 @@ def write_page(filename, title, body, chinese, parent=None, icon=None, associati
 status = []
 assigned_paths = []
 related_provider_paths = {
+    'fishing.habitats': {'mods/starcatcher.pw.toml', 'mods/terralith.pw.toml', 'mods/hybrid-aquatic-starcatcher-compatibility.pw.toml'},
     'world.dimensions': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml'},
     'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml', 'mods/sable.pw.toml'},
     'space.life-support': {'mods/create-cosmonatics.pw.toml', 'mods/create-deep-seas.pw.toml'},
     'space.navigation': {'mods/create-cosmonatics.pw.toml'},
 }
+related_provider_paths.update({topic: set(definition.get('providers', []))
+                               for topic, definition in creature_navigation.items()})
 associations = {
+    'food.fishing': ['starcatcher:starcatcher_rod', 'starcatcher:starcatcher_guide', 'starcatcher:tackle_box_cyan', 'starcatcher:fish_radar'],
+    'food.seafood': ['oceansdelight:cooked_stuffed_squid', 'hybrid_delights:shrimp_fried_rice', 'starcatcher_delight:blossom_toast'],
+    'adventure.aquatic': ['hybrid_aquatic:shark_tooth', 'hybrid_aquatic:tuna', 'hybrid_aquatic:carp'],
     'adventure.bosses': ['cataclysm:abyssal_sacrifice', 'cataclysm:altar_of_abyss', 'cataclysm:altar_of_fire', 'cataclysm:altar_of_void', 'cataclysm:burning_ashes', 'cataclysm:cursed_tombstone', 'cataclysm:door_of_seal', 'cataclysm:necklace_of_the_desert', 'cataclysm:strange_key'],
     'combat.magic': ['spell_engine:spell_binding', 'spell_engine:spell_book', 'spell_engine:spell_scroll'],
     'machines.ore-processing': ['create:millstone', 'create:crushing_wheel', 'create:encased_fan', 'create:crushed_raw_iron'],
@@ -474,6 +500,12 @@ for page in page_defs:
         category_name = reference_hubs[topic][0]
     elif topic in {'reference.equipment', 'combat.abilities'}:
         category_name = 'Combat and character'
+    elif topic.startswith('class.'):
+        category_name = 'Combat and character'
+    elif topic in creature_navigation or topic == 'adventure.creatures':
+        category_name = 'Exploration and adventure'
+    elif topic == 'fishing.habitats':
+        category_name = 'Food and farming'
     cat = category_by_name[category_name]
     authored = topic in written or topic in reference_hubs
     deferred = bool(members) and all(e['availability'] == 'deferred' for e in members)
@@ -525,6 +557,6 @@ assert len(assigned_paths) == len(set(assigned_paths)), 'Duplicate primary cover
 covered = {e['metadata_path'] for e in entries if e['availability'] == 'baseline'}
 assert actual == covered, {'missing': sorted(actual - covered), 'unexpected': sorted(covered - actual)}
 assert set(assigned_paths) == {e['metadata_path'] for e in entries}
-manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 0, 'root_page_count': len(reference_sections) + 2, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': 'f5c24f3', 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
+manifest = {'draft_articles': sum(s['drafted'] and s['page_type'] == 'article' for s in status), 'article_count': sum(s['page_type'] == 'article' for s in status), 'category_count': 0, 'navigation_page_count': 0, 'root_page_count': len(reference_sections) + 2, 'reference_section_count': len(reference_sections), 'reference_directory_count': len(reference_hubs), 'installed_content_count': len(actual), 'heavy_content_count': sum(e['availability'] == 'heavy' for e in entries), 'baseline_commit': coverage['baseline_commit'], 'deferred_content_count': sum(e['availability'] == 'deferred' for e in entries), 'pages': status, 'content': entries}
 (ROOT / 'docs/handbook-draft-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k:v for k,v in manifest.items() if k not in ('pages','content')}, indent=2))

@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@archers" /> <EmiSearch query="@paladins" /> <EmiSearch query="@rogues" />
 
+![使用职业装备进行近战](images/visual-melee-combat.png)
+
+使用职业装备进行近战
+
 <ItemGrid>
   <ItemIcon id="minecraft:iron_sword" />
   <ItemIcon id="rogues:iron_dagger" />

@@ -53,7 +53,9 @@ navigation:
 | <ItemImage id="minecraft:painting" /> [Fresh Animations: Quivers](visuals.resource-packs.md) （仅重型版） | 为骷髅增加箭袋外观。 | 无独立物品查询 |
 | ![GrandTeleport NeoForge](images/catalog-psllfhj8.png) [GrandTeleport NeoForge](visuals.weather.md) | 为传送增加电影式镜头过渡。 | 无独立物品查询 |
 | ![Hide Experimental Warning](images/catalog-rm4oodhd.png) [Hide Experimental Warning](visuals.interface.md) | 隐藏实验性世界警告。 | 无独立物品查询 |
+| ![Iris & Oculus Flywheel Compat](images/catalog-ndhymy2k.png) [Iris & Oculus Flywheel Compat](visuals.lighting.md) | 衔接 Iris 光影与 Flywheel 机器渲染。 | 无独立物品查询 |
 | ![Iris Shaders](images/catalog-yl57xq9u.png) [Iris Shaders](visuals.lighting.md) | 加载光影包。 | 无独立物品查询 |
+| ![Iris Veil Compat](images/catalog-owqycho4.png) [Iris Veil Compat](visuals.lighting.md) | 衔接 Iris 光影与 Veil 渲染效果。 | 无独立物品查询 |
 | ![Mandala's GUI - Dark mode](images/catalog-h6zxsnvf.png) [Mandala's GUI - Dark mode](visuals.resource-packs.md) | 改变界面外观，不替换物品或方块纹理。 | 无独立物品查询 |
 | ![Model Gap Fix](images/catalog-qdg47oki.png) [Model Gap Fix](visuals.models.md) | 修复方块与物品模型的缝隙。 | 无独立物品查询 |
 | ![Motschen's Better Leaves](images/catalog-uvpymuxq.png) [Motschen's Better Leaves](visuals.resource-packs.md) | 改变树叶方块外观。 | 无独立物品查询 |

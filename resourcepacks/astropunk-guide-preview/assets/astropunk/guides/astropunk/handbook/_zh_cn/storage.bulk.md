@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
 
+![物品仓库的材质与颜色选择](images/visual-colored-vaults.png)
+
+物品仓库的材质与颜色选择
+
 <ItemGrid>
   <ItemIcon id="create:item_vault" />
   <ItemIcon id="create_vibrant_vaults:basic_shipping_container" />

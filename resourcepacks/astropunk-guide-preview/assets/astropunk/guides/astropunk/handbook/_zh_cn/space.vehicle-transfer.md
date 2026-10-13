@@ -14,6 +14,10 @@ item_ids:
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
+![地球上空的飞船](images/feedback-earth-orbit.png)
+
+地球上空的飞船
+
 <ItemGrid>
   <ItemIcon id="rocketnautics:rocket_thruster" />
   <ItemIcon id="create:mechanical_crafter" />

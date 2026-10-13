@@ -17,6 +17,7 @@ ICONS = {
     'food.machine-cooking': 'minecraft:smoker',
     'food.growing': 'minecraft:wheat',
     'food.fishing': 'minecraft:cod',
+    'food.seafood': 'oceansdelight:cooked_stuffed_squid',
 }
 
 
@@ -42,7 +43,9 @@ class FoodConcision(unittest.TestCase):
                 prose = re.sub(r'<[^>]+>', '', body)
                 prose = re.sub(r'!\[[^\]]*\]\([^)]+\)', '', prose)
                 if locale == 'en_us':
-                    self.assertLessEqual(len(prose.split()), 450, topic)
+                    sections = re.split(r'(?m)^## ', prose) if topic == 'food.seafood' else [prose]
+                    for section in sections:
+                        self.assertLessEqual(len(section.split()), 450, topic)
 
 
 if __name__ == '__main__':

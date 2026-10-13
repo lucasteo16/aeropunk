@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@molten_vents" />
 
+![海床上的休眠喷口](images/visual-dormant-vent.png)
+
+海床上的休眠喷口
+
 <ItemGrid>
   <ItemIcon id="molten_vents:dormant_molten_asurine" />
   <ItemIcon id="molten_vents:active_molten_asurine" />

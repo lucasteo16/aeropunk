@@ -23,6 +23,10 @@ item_ids:
 
 ## 定位与入门武器
 
+![苔原猎人战斗](images/visual-tundra-hunter-combat.png)
+
+苔原猎人战斗
+
 <ItemGrid>
   <ItemIcon id="archers:composite_longbow" />
 </ItemGrid>

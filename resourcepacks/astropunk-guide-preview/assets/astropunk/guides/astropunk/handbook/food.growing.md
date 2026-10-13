@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@farmersdelight" />
 
+![A garden of cooking ingredients](images/visual-garden-crops.png)
+
+A garden of cooking ingredients
+
 <ItemGrid>
   <ItemIcon id="minecraft:wheat" />
   <ItemIcon id="minecraft:carrot" />

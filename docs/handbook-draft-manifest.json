@@ -1,14 +1,14 @@
 {
-  "draft_articles": 102,
-  "article_count": 102,
+  "draft_articles": 122,
+  "article_count": 122,
   "category_count": 0,
   "navigation_page_count": 0,
   "root_page_count": 18,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 304,
+  "installed_content_count": 320,
   "heavy_content_count": 20,
-  "baseline_commit": "f5c24f3",
+  "baseline_commit": "43ffb9f",
   "deferred_content_count": 0,
   "pages": [
     {
@@ -37,7 +37,8 @@
       "metadata_paths": [
         "mods/jade-addons-forge.pw.toml",
         "mods/jade.pw.toml",
-        "mods/villager-names-serilum.pw.toml"
+        "mods/villager-names-serilum.pw.toml",
+        "mods/jade-sable-compat.pw.toml"
       ]
     },
     {
@@ -61,7 +62,7 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/reliable-advancements.pw.toml"
+        "mods/better-advancements.pw.toml"
       ]
     },
     {
@@ -166,7 +167,10 @@
       "drafted": true,
       "page_type": "article",
       "deferred": false,
-      "metadata_paths": []
+      "metadata_paths": [
+        "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml",
+        "mods/starcatcher.pw.toml"
+      ]
     },
     {
       "topic": "storage.portable",
@@ -215,7 +219,8 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create.pw.toml"
+        "mods/create.pw.toml",
+        "mods/almostunified.pw.toml"
       ]
     },
     {
@@ -316,7 +321,8 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create-liquid-fuel.pw.toml"
+        "mods/create-liquid-fuel.pw.toml",
+        "mods/create-unified-fuels.pw.toml"
       ]
     },
     {
@@ -544,7 +550,8 @@
       "metadata_paths": [
         "mods/ct-overhaul-village.pw.toml",
         "mods/gazebos.pw.toml",
-        "mods/village-taverns.pw.toml"
+        "mods/village-taverns.pw.toml",
+        "mods/tidal-towns.pw.toml"
       ]
     },
     {
@@ -573,13 +580,7 @@
       "drafted": true,
       "page_type": "article",
       "deferred": false,
-      "metadata_paths": [
-        "mods/creeper-overhaul.pw.toml",
-        "mods/enderman-overhaul.pw.toml",
-        "mods/friends-and-foes-forge.pw.toml",
-        "mods/spawn-mod.pw.toml",
-        "mods/variants-and-ventures.pw.toml"
-      ]
+      "metadata_paths": []
     },
     {
       "topic": "adventure.bosses",
@@ -881,7 +882,9 @@
         "mods/create-sable-dynamic-lights.pw.toml",
         "mods/distanthorizons.pw.toml",
         "mods/iris.pw.toml",
-        "mods/sodium-dynamic-lights.pw.toml"
+        "mods/sodium-dynamic-lights.pw.toml",
+        "mods/iris-flw-compat.pw.toml",
+        "mods/iris-veil-compat.pw.toml"
       ]
     },
     {
@@ -1010,7 +1013,8 @@
         "mods/attributefix.pw.toml",
         "mods/neo-bee-fix.pw.toml",
         "mods/sable_beyond.pw.toml",
-        "mods/sablecompat.pw.toml"
+        "mods/sablecompat.pw.toml",
+        "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml"
       ]
     },
     {
@@ -1072,7 +1076,10 @@
         "mods/structure-pool-api.pw.toml",
         "mods/teallib.pw.toml",
         "mods/yacl.pw.toml",
-        "mods/yungs-api.pw.toml"
+        "mods/yungs-api.pw.toml",
+        "mods/azimuth-api.pw.toml",
+        "mods/hybrid-api.pw.toml",
+        "mods/strut-your-stuff.pw.toml"
       ]
     },
     {
@@ -1096,56 +1103,196 @@
       "metadata_paths": []
     },
     {
-      "topic": "help.handbook",
-      "category": "Technical reference",
-      "filename": "help.handbook.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": [
-        "mods/guideme.pw.toml"
-      ]
-    },
-    {
-      "topic": "world.dimensions",
+      "topic": "adventure.aquatic",
       "category": "Exploration and adventure",
-      "filename": "world.dimensions.md",
+      "filename": "adventure.aquatic.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create-cosmonatics.pw.toml",
-        "mods/create-cosmonautics-expansion.pw.toml",
-        "mods/ibo.pw.toml",
-        "mods/incendium.pw.toml",
-        "mods/nullscape.pw.toml",
-        "mods/streams-reflowing.pw.toml",
-        "mods/tectonic.pw.toml",
-        "mods/terralith.pw.toml"
+        "mods/hybrid-aquatic.pw.toml"
       ]
     },
     {
-      "topic": "reference.equipment",
-      "category": "Combat and character",
-      "filename": "reference.equipment.md",
+      "topic": "food.seafood",
+      "category": "Food and farming",
+      "filename": "food.seafood.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/hybrid-delights.pw.toml",
+        "mods/oceans-delight.pw.toml",
+        "mods/starcatchers-delight.pw.toml"
+      ]
+    },
+    {
+      "topic": "fishing.habitats",
+      "category": "Food and farming",
+      "filename": "fishing.habitats.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "combat.abilities",
-      "category": "Combat and character",
-      "filename": "combat.abilities.md",
+      "topic": "creatures.wilderness",
+      "category": "Exploration and adventure",
+      "filename": "creatures.wilderness.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/spawn-mod.pw.toml"
+      ]
+    },
+    {
+      "topic": "creatures.friends",
+      "category": "Exploration and adventure",
+      "filename": "creatures.friends.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/friends-and-foes-forge.pw.toml"
+      ]
+    },
+    {
+      "topic": "creatures.creepers",
+      "category": "Exploration and adventure",
+      "filename": "creatures.creepers.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/creeper-overhaul.pw.toml"
+      ]
+    },
+    {
+      "topic": "creatures.endermen",
+      "category": "Exploration and adventure",
+      "filename": "creatures.endermen.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/enderman-overhaul.pw.toml"
+      ]
+    },
+    {
+      "topic": "creatures.variants",
+      "category": "Exploration and adventure",
+      "filename": "creatures.variants.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/variants-and-ventures.pw.toml"
+      ]
+    },
+    {
+      "topic": "creatures.guards",
+      "category": "Exploration and adventure",
+      "filename": "creatures.guards.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "help.credits",
-      "category": "Technical reference",
-      "filename": "help.credits.md",
+      "topic": "creatures.cataclysm",
+      "category": "Exploration and adventure",
+      "filename": "creatures.cataclysm.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "creatures.illagers",
+      "category": "Exploration and adventure",
+      "filename": "creatures.illagers.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "creatures.summons",
+      "category": "Exploration and adventure",
+      "filename": "creatures.summons.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.freshwater",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.freshwater.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.marine",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.marine.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.deepwater",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.deepwater.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.sharks",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.sharks.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.jellyfish",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.jellyfish.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.cephalopods",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.cephalopods.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.seafloor",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.seafloor.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "aquatic.mammals",
+      "category": "Exploration and adventure",
+      "filename": "aquatic.mammals.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
@@ -1242,45 +1389,27 @@
       "metadata_paths": []
     },
     {
-      "topic": "class.archer",
+      "topic": "help.credits",
       "category": "Technical reference",
-      "filename": "class.archer.md",
+      "filename": "help.credits.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "class.deadeye",
-      "category": "Technical reference",
-      "filename": "class.deadeye.md",
+      "topic": "reference.equipment",
+      "category": "Combat and character",
+      "filename": "reference.equipment.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "class.tundra-hunter",
-      "category": "Technical reference",
-      "filename": "class.tundra-hunter.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
-      "topic": "class.war-archer",
-      "category": "Technical reference",
-      "filename": "class.war-archer.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
-      "topic": "class.rogue",
-      "category": "Technical reference",
-      "filename": "class.rogue.md",
+      "topic": "combat.abilities",
+      "category": "Combat and character",
+      "filename": "combat.abilities.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
@@ -1288,7 +1417,7 @@
     },
     {
       "topic": "class.warrior",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.warrior.md",
       "drafted": true,
       "page_type": "article",
@@ -1297,7 +1426,7 @@
     },
     {
       "topic": "class.berserker",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.berserker.md",
       "drafted": true,
       "page_type": "article",
@@ -1305,8 +1434,17 @@
       "metadata_paths": []
     },
     {
+      "topic": "class.rogue",
+      "category": "Combat and character",
+      "filename": "class.rogue.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
       "topic": "class.forcemaster",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.forcemaster.md",
       "drafted": true,
       "page_type": "article",
@@ -1314,8 +1452,44 @@
       "metadata_paths": []
     },
     {
+      "topic": "class.archer",
+      "category": "Combat and character",
+      "filename": "class.archer.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.deadeye",
+      "category": "Combat and character",
+      "filename": "class.deadeye.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.war-archer",
+      "category": "Combat and character",
+      "filename": "class.war-archer.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.tundra-hunter",
+      "category": "Combat and character",
+      "filename": "class.tundra-hunter.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
       "topic": "class.arcane",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.arcane.md",
       "drafted": true,
       "page_type": "article",
@@ -1324,7 +1498,7 @@
     },
     {
       "topic": "class.fire",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.fire.md",
       "drafted": true,
       "page_type": "article",
@@ -1333,7 +1507,7 @@
     },
     {
       "topic": "class.frost",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.frost.md",
       "drafted": true,
       "page_type": "article",
@@ -1342,7 +1516,7 @@
     },
     {
       "topic": "class.aqua",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.aqua.md",
       "drafted": true,
       "page_type": "article",
@@ -1351,7 +1525,7 @@
     },
     {
       "topic": "class.terra",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.terra.md",
       "drafted": true,
       "page_type": "article",
@@ -1360,7 +1534,7 @@
     },
     {
       "topic": "class.wind",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.wind.md",
       "drafted": true,
       "page_type": "article",
@@ -1368,17 +1542,8 @@
       "metadata_paths": []
     },
     {
-      "topic": "class.paladin",
-      "category": "Technical reference",
-      "filename": "class.paladin.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
       "topic": "class.priest",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.priest.md",
       "drafted": true,
       "page_type": "article",
@@ -1386,8 +1551,17 @@
       "metadata_paths": []
     },
     {
+      "topic": "class.paladin",
+      "category": "Combat and character",
+      "filename": "class.paladin.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
       "topic": "class.bard",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.bard.md",
       "drafted": true,
       "page_type": "article",
@@ -1396,12 +1570,41 @@
     },
     {
       "topic": "class.witcher",
-      "category": "Technical reference",
+      "category": "Combat and character",
       "filename": "class.witcher.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
+    },
+    {
+      "topic": "help.handbook",
+      "category": "Technical reference",
+      "filename": "help.handbook.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/guideme.pw.toml"
+      ]
+    },
+    {
+      "topic": "world.dimensions",
+      "category": "Exploration and adventure",
+      "filename": "world.dimensions.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/create-cosmonatics.pw.toml",
+        "mods/create-cosmonautics-expansion.pw.toml",
+        "mods/ibo.pw.toml",
+        "mods/incendium.pw.toml",
+        "mods/nullscape.pw.toml",
+        "mods/streams-reflowing.pw.toml",
+        "mods/tectonic.pw.toml",
+        "mods/terralith.pw.toml"
+      ]
     }
   ],
   "content": [
@@ -2723,7 +2926,7 @@
       "name": "Creeper Overhaul",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "adventure.creatures",
+      "topic": "creatures.creepers",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3009,7 +3212,7 @@
       "name": "Enderman Overhaul",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "adventure.creatures",
+      "topic": "creatures.endermen",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -3243,7 +3446,7 @@
       "name": "Friends&Foes (Forge/NeoForge)",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "adventure.creatures",
+      "topic": "creatures.friends",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -4370,19 +4573,6 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/reliable-advancements.pw.toml",
-      "name": "Reliable Advancements",
-      "availability": "baseline",
-      "category": "Player utilities and quality of life",
-      "topic": "help.reference",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
       "metadata_path": "mods/reliable-emi.pw.toml",
       "name": "Reliable EMI (REMI)",
       "availability": "baseline",
@@ -4803,7 +4993,7 @@
       "name": "Spawn",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "adventure.creatures",
+      "topic": "creatures.wilderness",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -5141,7 +5331,7 @@
       "name": "Variants&Ventures",
       "availability": "baseline",
       "category": "Exploration and adventure",
-      "topic": "adventure.creatures",
+      "topic": "creatures.variants",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,
@@ -5589,6 +5779,227 @@
       "instructions_verified": false,
       "english_written": false,
       "simplified_chinese_written": false,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/almostunified.pw.toml",
+      "name": "Almost Unified",
+      "availability": "baseline",
+      "category": "Automation and industry",
+      "topic": "machines.ore-processing",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/azimuth-api.pw.toml",
+      "name": "Azimuth API",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/better-advancements.pw.toml",
+      "name": "Better Advancements",
+      "availability": "baseline",
+      "category": "Player utilities and quality of life",
+      "topic": "help.reference",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/create-stuff-n-additions-x-sable-aeronautics-compat.pw.toml",
+      "name": "Create Stuff 'N Additions x Sable & Aeronautics Compat",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.bridges",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/create-unified-fuels.pw.toml",
+      "name": "Create: Unified Fuels",
+      "availability": "baseline",
+      "category": "Automation and industry",
+      "topic": "power.burners",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/hybrid-api.pw.toml",
+      "name": "Hybrid API [HAPI]",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/hybrid-aquatic-starcatcher-compatibility.pw.toml",
+      "name": "Hybrid Aquatic + Starcatcher Compatibility",
+      "availability": "baseline",
+      "category": "Food and farming",
+      "topic": "food.fishing",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/hybrid-aquatic.pw.toml",
+      "name": "Hybrid Aquatic",
+      "availability": "baseline",
+      "category": "Exploration and adventure",
+      "topic": "adventure.aquatic",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/hybrid-delights.pw.toml",
+      "name": "Hybrid Delights",
+      "availability": "baseline",
+      "category": "Food and farming",
+      "topic": "food.seafood",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/iris-flw-compat.pw.toml",
+      "name": "Iris & Oculus Flywheel Compat",
+      "availability": "baseline",
+      "category": "Visuals and sound",
+      "topic": "visuals.lighting",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/iris-veil-compat.pw.toml",
+      "name": "Iris Veil Compat",
+      "availability": "baseline",
+      "category": "Visuals and sound",
+      "topic": "visuals.lighting",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/jade-sable-compat.pw.toml",
+      "name": "Jade Sable Compat",
+      "availability": "baseline",
+      "category": "Player utilities and quality of life",
+      "topic": "help.inspect",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/oceans-delight.pw.toml",
+      "name": "Ocean's Delight",
+      "availability": "baseline",
+      "category": "Food and farming",
+      "topic": "food.seafood",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/starcatcher.pw.toml",
+      "name": "Starcatcher",
+      "availability": "baseline",
+      "category": "Food and farming",
+      "topic": "food.fishing",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/starcatchers-delight.pw.toml",
+      "name": "Starcatcher's Delight - Let's Do: Kaleidoscope edition",
+      "availability": "baseline",
+      "category": "Food and farming",
+      "topic": "food.seafood",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/strut-your-stuff.pw.toml",
+      "name": "Strut Your Stuff (Struts)",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "technical.libraries",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/tidal-towns.pw.toml",
+      "name": "Tidal Towns",
+      "availability": "baseline",
+      "category": "Exploration and adventure",
+      "topic": "adventure.settlements",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
       "links_checked": false
     },
     {

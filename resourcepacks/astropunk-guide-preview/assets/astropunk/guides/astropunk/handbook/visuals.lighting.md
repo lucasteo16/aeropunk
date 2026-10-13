@@ -8,6 +8,20 @@ navigation:
 
 # Lighting & distance
 
+## Shader compatibility
+
+<EmiSearch query="@create" />
+
+![Complementary Reimagined landscape](images/feedback-shader-reimagined.png)
+
+Complementary Reimagined landscape
+
+Iris Flywheel Compat connects Iris shaders with optimized Flywheel rendering for Create machinery. Iris Veil Compat connects Iris with Veil effects used by Aeronautics and Sable. These are client rendering bridges, not extra shader styles or server gameplay features.
+
+Fresh installations select Complementary Reimagined but leave shaders disabled. Enable a shader deliberately in Iris, then inspect both machinery and ship effects. Existing player settings are preserved. The Veil bridge is an alpha release, so compatibility support is not a guarantee that every shader effect renders correctly.
+
+***
+
 ## Shaders & distance
 
 Iris loads shader packs. Distant Horizons displays simplified distant terrain. These are separate systems.
@@ -21,7 +35,7 @@ Iris loads shader packs. Distant Horizons displays simplified distant terrain. T
 
 ## Dynamic lighting
 
-<EmiSearch query="@create" /> <EmiSearch query="@spawn" />
+<EmiSearch query="@spawn" />
 
 Sodium Dynamic Lights and its Create and Sable bridge are heavy edition only. Dynamic lighting is a visual effect, not a guarantee of server-side spawn prevention.
 
@@ -47,5 +61,7 @@ Sodium Dynamic Lights and its Create and Sable bridge are heavy edition only. Dy
 | --- | --- | --- |
 | <ItemImage id="minecraft:painting" /> [Create Sable Dynamic Lights](visuals.lighting.md) (heavy edition only) | Adds dynamic light support for lights on Create and Sable moving structures. | No separate item search |
 | ![Distant Horizons](images/catalog-ucdwusmi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | No separate item search |
+| ![Iris & Oculus Flywheel Compat](images/catalog-ndhymy2k.png) [Iris & Oculus Flywheel Compat](visuals.lighting.md) | Bridges Iris shaders and Flywheel machine rendering. | No separate item search |
 | ![Iris Shaders](images/catalog-yl57xq9u.png) [Iris Shaders](visuals.lighting.md) | Loads shader packs. | No separate item search |
+| ![Iris Veil Compat](images/catalog-owqycho4.png) [Iris Veil Compat](visuals.lighting.md) | Bridges Iris shaders and Veil rendering effects. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Sodium Dynamic Lights](visuals.lighting.md) (heavy edition only) | Provides dynamic lighting with Sodium settings integration. | No separate item search |

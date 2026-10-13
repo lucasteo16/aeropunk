@@ -8,6 +8,31 @@ navigation:
 
 # 探索聚落与法术图书馆
 
+## Tidal Towns
+
+![Tidal Towns 海上村庄](images/visual-ocean-village.png)
+
+Tidal Towns 海上村庄
+
+![Tidal Towns](images/catalog-eeiwvqvo.png)
+
+Tidal Towns 在主世界的深海生物群系加入海上村庄。生成范围不包括所有深海变种，也不会仅因名字相似就包含所有 Terralith 海洋。应在新生成地形寻找，而非已经探索过的海岸。
+
+| 建筑类型 | 变体 |
+| --- | --- |
+| 村庄中心 | 中央村庄平台。 |
+| 农场 | 小型农场与大型农场。 |
+| 工作场所 | 武器匠建筑。 |
+| 塔楼 | 塔楼一与塔楼二。 |
+| 房屋 | 小型房屋，配有连接道路与村庄末端部件。 |
+
+这些是拼装村庄的建筑部件，并非六种独立村庄。出发时带上船。
+
+- [船只与潜艇](vehicles.water.md)
+- [钓鱼](food.fishing.md)
+
+***
+
 ## 村庄
 
 ![Alpine-style mountain village](images/encounters-ct-overhaul-village-catalog.png)
@@ -103,4 +128,5 @@ Village Taverns (RPG Series)。
 | --- | --- | --- |
 | ![ChoiceTheorem's Overhauled Village](images/catalog-fgmhi8kh.png) [ChoiceTheorem's Overhauled Village](adventure.settlements.md) | 重新设计村庄与掠夺者前哨站，使其适合不同生物群系。 | 无独立物品查询 |
 | ![Gazebos (RPG Series)](images/catalog-xipmgi6r.png) [Gazebos (RPG Series)](adventure.settlements.md) | 增加藏有小型法术图书馆的村庄凉亭。 | 无独立物品查询 |
+| ![Tidal Towns](images/catalog-eeiwvqvo.png) [Tidal Towns](adventure.settlements.md) | 加入海洋聚落与不同建筑变体。 | 无独立物品查询 |
 | ![Village Taverns (RPG Series)](images/catalog-bj4a8njj.png) [Village Taverns (RPG Series)](adventure.settlements.md) | 增加村庄酒馆，让旅人找到饮品与休息处。 | <EmiSearch query="@village_taverns" /> |

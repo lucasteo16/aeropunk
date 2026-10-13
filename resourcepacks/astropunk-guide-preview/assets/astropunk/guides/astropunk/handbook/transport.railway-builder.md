@@ -12,6 +12,10 @@ navigation:
 
 <EmiSearch query="@create" />
 
+![Train bodywork with Bells & Whistles fittings](images/visual-train-fittings.png)
+
+Train bodywork with Bells & Whistles fittings
+
 <ItemGrid>
   <ItemIcon id="create:track" />
   <ItemIcon id="create:railway_casing" />
