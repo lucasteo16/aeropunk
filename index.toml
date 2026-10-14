@@ -1234,7 +1234,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "configureddefaults/config/DistantHorizons.toml"
-hash = "1007c9042852bff06a7fbbf0bf36b954b7d6bb8d689ad335c59058855a017ed7"
+hash = "5d6888197e149b3804d024dc7bd771811bc7c2689db9fba9d6249d5c2c38a950"
 
 [[files]]
 file = "configureddefaults/config/block_factorys_bosses-client.toml"
@@ -1368,6 +1368,16 @@ metafile = true
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
+metafile = true
+
+[[files]]
+file = "mods/aero-player-tilt.pw.toml"
+hash = "cfd7eddb73512a84dba9bf9be7583a404a174260a97919a173b85df1ec935936"
+metafile = true
+
+[[files]]
+file = "mods/aero_cam_sync.pw.toml"
+hash = "05d7fc1975485e44ed23c67f33d4f691523da2bacef29464f04433154929e6f8"
 metafile = true
 
 [[files]]

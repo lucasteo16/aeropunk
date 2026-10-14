@@ -2,7 +2,7 @@
 
 ## Branch policy
 
-Private administrator pack for offline world pregeneration. Branch `admin/worldgen` starts from committed `dev` at `676e971`. Worktree: `/home/tsb/Projects/lucas/astropunk-worldgen`.
+Private administrator pack for offline world pregeneration. Branch `admin/worldgen` starts from committed `dev` at `676e971`. Worktree: `/home/tsb/Projects/lucas/astropunk-worldgen`. The development checkpoint `6f0e0cf` was subsequently merged, including the orientation trial and adaptive terrain transfer setting. Current administrator version: `0.12.0-admin-worldgen.1`.
 
 Accept upstream changes from `dev` into this branch only. Do not merge or cherry-pick this branch back into `dev`, `main` or `main-heavy`. This is a workflow policy, not a technical Git access restriction. No automatic synchronization or remote publication is configured.
 
