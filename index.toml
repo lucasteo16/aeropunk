@@ -1033,6 +1033,18 @@ file = "config/paxi/resourcepacks/astropunk-fishing-labels/pack.mcmeta"
 hash = "99556d90ece90883e17d8bfed582958e0c8923692aa8ccd3a3d3c2976709f7d6"
 
 [[files]]
+file = "config/paxi/resourcepacks/astropunk-space-titles/assets/travelerstitles/lang/en_us.json"
+hash = "9c8843cdf1cbaad07c0d79259a920bbd84a93f2712639529a039e9d647d459fe"
+
+[[files]]
+file = "config/paxi/resourcepacks/astropunk-space-titles/assets/travelerstitles/lang/zh_cn.json"
+hash = "b79dde60955df9048251153b962c4aa613fc25c1a09a6b11293ed303833fc188"
+
+[[files]]
+file = "config/paxi/resourcepacks/astropunk-space-titles/pack.mcmeta"
+hash = "f75dddac91b94ca43ca6323b78b821199da3dcebf4d87dd94a69013e7a7ee7eb"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
 
