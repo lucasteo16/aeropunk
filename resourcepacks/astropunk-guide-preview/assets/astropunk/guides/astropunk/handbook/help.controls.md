@@ -43,6 +43,12 @@ Type the following example query in the EMI search bar to search for Create mod 
 
 ***
 
+## Ship orientation
+
+- [Airships](vehicles.airships.md) Camera tilt, body tilt and their current bindings.
+
+***
+
 ## Rebind
 
 Open Options, Controls, then Key Binds. Search the action with Controlling, select its binding and press the new key. Check conflicts before returning to play.

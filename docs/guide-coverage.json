@@ -2,8 +2,8 @@
   "schema_version": 1,
   "title": "Astropunk handbook coverage",
   "planning_status": "Authored bilingual handbook, pending Lucas review",
-  "baseline_commit": "43ffb9f",
-  "baseline_branch": "dev at 43ffb9f",
+  "baseline_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
+  "baseline_branch": "dev at f6cae91",
   "locale_policy": {
     "initial_locales": [
       "en_us",
@@ -56,6 +56,7 @@
       "help.credits"
     ],
     "topic_parents": {
+      "index": null,
       "help.controls": null,
       "help.search": null,
       "reference.utilities": null,
@@ -75,6 +76,24 @@
       "help.credits": null,
       "adventure.settlements": "adventure.structures.md",
       "adventure.loot": "adventure.structures.md",
+      "creatures.wilderness": "adventure.creatures.md",
+      "creatures.friends": "adventure.creatures.md",
+      "adventure.aquatic": "adventure.creatures.md",
+      "creatures.creepers": "adventure.creatures.md",
+      "creatures.endermen": "adventure.creatures.md",
+      "creatures.variants": "adventure.creatures.md",
+      "creatures.guards": "adventure.creatures.md",
+      "creatures.cataclysm": "adventure.creatures.md",
+      "creatures.illagers": "adventure.creatures.md",
+      "creatures.summons": "adventure.creatures.md",
+      "aquatic.freshwater": "adventure.aquatic.md",
+      "aquatic.marine": "adventure.aquatic.md",
+      "aquatic.deepwater": "adventure.aquatic.md",
+      "aquatic.sharks": "adventure.aquatic.md",
+      "aquatic.jellyfish": "adventure.aquatic.md",
+      "aquatic.cephalopods": "adventure.aquatic.md",
+      "aquatic.seafloor": "adventure.aquatic.md",
+      "aquatic.mammals": "adventure.aquatic.md",
       "maps.find": "maps.personal.md",
       "maps.shared": "maps.personal.md",
       "help.inspect": "reference.utilities.md",
@@ -112,6 +131,8 @@
       "food.hunger": "reference.food.md",
       "food.growing": "reference.food.md",
       "food.fishing": "reference.food.md",
+      "fishing.habitats": "reference.food.md",
+      "food.seafood": "reference.food.md",
       "food.underground": "reference.food.md",
       "food.nether": "reference.food.md",
       "food.end": "reference.food.md",
@@ -193,6 +214,28 @@
         "adventure.settlements",
         "adventure.loot"
       ],
+      "adventure.creatures": [
+        "creatures.wilderness",
+        "creatures.friends",
+        "adventure.aquatic",
+        "creatures.creepers",
+        "creatures.endermen",
+        "creatures.variants",
+        "creatures.guards",
+        "creatures.cataclysm",
+        "creatures.illagers",
+        "creatures.summons"
+      ],
+      "adventure.aquatic": [
+        "aquatic.freshwater",
+        "aquatic.marine",
+        "aquatic.deepwater",
+        "aquatic.sharks",
+        "aquatic.jellyfish",
+        "aquatic.cephalopods",
+        "aquatic.seafloor",
+        "aquatic.mammals"
+      ],
       "maps.personal": [
         "maps.find",
         "maps.shared"
@@ -241,6 +284,8 @@
         "food.hunger",
         "food.growing",
         "food.fishing",
+        "fishing.habitats",
+        "food.seafood",
         "food.underground",
         "food.nether",
         "food.end",
@@ -312,19 +357,19 @@
   "branches": [],
   "verification": {
     "baseline_by_kind": {
-      "mods": 298,
+      "mods": 317,
       "resourcepacks": 3,
       "shaderpacks": 3
     },
-    "baseline_total": 304,
+    "baseline_total": 323,
     "heavy_total": 20,
-    "union_metadata_total": 324,
-    "unique_primary_assignments": 324,
+    "union_metadata_total": 343,
+    "unique_primary_assignments": 343,
     "duplicate_primary_paths": [],
     "unassigned_metadata_paths": [],
     "extra_unknown_paths": [],
     "deferred_total": 0,
-    "authored_articles": 102,
+    "authored_articles": 122,
     "reference_directories": 8,
     "native_roots": 18,
     "client_runtime_tested": false,
@@ -369,9 +414,9 @@
       "status": "authored",
       "functional_category": "Player utilities and quality of life",
       "primary_metadata_paths": [
-        "mods/astropunk-handbook-access-1.0.0.jar",
         "mods/controlling.pw.toml",
-        "mods/trade-refresh.pw.toml"
+        "mods/trade-refresh.pw.toml",
+        "mods/astropunk-handbook-access-1.0.0.jar"
       ],
       "player_questions": [],
       "navigation_parent": null,
@@ -702,7 +747,9 @@
       "functional_category": "Vehicles and travel",
       "primary_metadata_paths": [
         "mods/create-aeronautics-encased-fluid-pipes.pw.toml",
-        "mods/create-ballast.pw.toml"
+        "mods/create-ballast.pw.toml",
+        "mods/aero-player-tilt.pw.toml",
+        "mods/aero_cam_sync.pw.toml"
       ],
       "player_questions": [],
       "navigation_parent": "reference.vehicles.md",
@@ -1374,7 +1421,8 @@
         "mods/quick-pack.pw.toml",
         "mods/servercore.pw.toml",
         "mods/sodium.pw.toml",
-        "mods/structure-layout-optimizer.pw.toml"
+        "mods/structure-layout-optimizer.pw.toml",
+        "mods/zfastnoise.pw.toml"
       ],
       "player_questions": [],
       "navigation_parent": "reference.technical.md",
@@ -1389,8 +1437,9 @@
         "mods/chunky.pw.toml",
         "mods/configured-defaults.pw.toml",
         "mods/observable.pw.toml",
+        "mods/spark.pw.toml",
         "mods/paxi.pw.toml",
-        "mods/spark.pw.toml"
+        "mods/dimworldborder.pw.toml"
       ],
       "player_questions": [],
       "navigation_parent": "reference.technical.md",
@@ -1495,9 +1544,7 @@
       "title": "Space navigation",
       "status": "authored",
       "functional_category": "Vehicles and travel",
-      "primary_metadata_paths": [
-        "mods/create-cosmonautics-expansion.pw.toml"
-      ],
+      "primary_metadata_paths": [],
       "player_questions": [],
       "navigation_parent": "reference.vehicles.md",
       "content_source": "docs/handbook-content.json"
@@ -1735,6 +1782,337 @@
       "player_questions": [],
       "navigation_parent": "adventure.aquatic.md",
       "content_source": "docs/handbook-content.json"
+    },
+    {
+      "page_id": "index",
+      "title": "Astropunk",
+      "status": "authored",
+      "functional_category": "Pack introduction",
+      "primary_metadata_paths": [],
+      "player_questions": [],
+      "navigation_parent": null,
+      "content_source": "docs/handbook-content.json"
+    },
+    {
+      "page_id": "reference.utilities",
+      "title": "Utilities",
+      "status": "authored",
+      "functional_category": "Player utilities and quality of life",
+      "primary_metadata_paths": [],
+      "player_questions": [],
+      "navigation_parent": null,
+      "content_source": "scripts/build-handbook-draft.py"
+    },
+    {
+      "page_id": "reference.skills",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Combat",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.food",
+      "status": "authored",
+      "functional_category": "Food and farming",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Food & farming",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.building",
+      "status": "authored",
+      "functional_category": "Building and decoration",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Building",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.machines-storage",
+      "status": "authored",
+      "functional_category": "Automation and industry",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Machines & storage",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.vehicles",
+      "status": "authored",
+      "functional_category": "Vehicles and travel",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Transport",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.appearance",
+      "status": "authored",
+      "functional_category": "Visuals and sound",
+      "player_questions": [],
+      "content_source": "scripts/build-handbook-draft.py",
+      "title": "Appearance",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.audio",
+      "status": "authored",
+      "functional_category": "Visuals and sound",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Audio",
+      "navigation_parent": null,
+      "primary_metadata_paths": [
+        "mods/cool-rain-reforged.pw.toml",
+        "mods/extreme_sound_muffler.pw.toml",
+        "mods/more-sounds.pw.toml",
+        "mods/pf-neoforge.pw.toml",
+        "mods/presence-footsteps-x-sable.pw.toml",
+        "mods/sable-cool-rain.pw.toml",
+        "mods/sound-physics-remastered.pw.toml",
+        "mods/sound.pw.toml"
+      ]
+    },
+    {
+      "page_id": "reference.technical",
+      "status": "authored",
+      "functional_category": "Technical reference",
+      "player_questions": [],
+      "content_source": "scripts/build-handbook-draft.py",
+      "title": "Technical",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "help.credits",
+      "status": "authored",
+      "functional_category": "Technical reference",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Credits",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.equipment",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Equipment",
+      "navigation_parent": "reference.skills.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "combat.abilities",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Spells & abilities",
+      "navigation_parent": "reference.skills.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.warrior",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Warrior",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.berserker",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Berserker",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.rogue",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Rogue",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.forcemaster",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Forcemaster",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.archer",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Archer",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.deadeye",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Deadeye",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.war-archer",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "War Archer",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.tundra-hunter",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Tundra Hunter",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.arcane",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Arcane Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.fire",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Fire Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.frost",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Frost Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.aqua",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Aqua Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.terra",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Terra Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.wind",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Wind Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.priest",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Priest",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.paladin",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Paladin",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.bard",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Bard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.witcher",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Witcher",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "help.handbook",
+      "status": "authored",
+      "functional_category": "Technical reference",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Handbook",
+      "navigation_parent": "reference.technical.md",
+      "primary_metadata_paths": [
+        "mods/guideme.pw.toml"
+      ]
     }
   ],
   "inventory": [
@@ -2901,16 +3279,16 @@
       "metadata_path": "mods/c2me-neoforge.pw.toml",
       "content_kind": "mods",
       "name": "Concurrent Chunk Management Engine (NeoForge)",
-      "filename": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar",
+      "filename": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.123.jar",
       "side": "both",
       "provider": "modrinth",
       "provider_selection": {
         "mod-id": "COlSi5iR",
-        "version": "yxOYFgnK"
+        "version": "avwWYPbG"
       },
       "availability": "baseline",
       "source_branch": "dev",
-      "source_commit": "43ffb9f",
+      "source_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
       "primary_function": "performance.baseline",
       "primary_category": "Technical reference",
       "primary_home": "performance.baseline",
@@ -2918,14 +3296,14 @@
       "secondary_categories": [],
       "purpose_evidence": "Chunk management and generation optimization.",
       "project_source": "https://modrinth.com/project/COlSi5iR",
-      "selected_release_source": "https://modrinth.com/project/COlSi5iR/version/yxOYFgnK",
+      "selected_release_source": "https://modrinth.com/project/COlSi5iR/version/avwWYPbG",
       "evidence_level": "Selected local metadata and authored bilingual provider purpose. Runtime mechanics not verified.",
       "instruction_verification": "Static authoring evidence only, runtime mechanics remain unverified.",
       "purpose_zh_cn": "优化区块管理与生成。",
       "selected_download": {
-        "url": "https://cdn.modrinth.com/data/COlSi5iR/versions/yxOYFgnK/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar",
+        "url": "https://cdn.modrinth.com/data/COlSi5iR/versions/avwWYPbG/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.123.jar",
         "hash-format": "sha512",
-        "hash": "d871dc4041c253a0203b24403a074034de9f69d21923ec27b9a0cde18ecbaf506ee54343bc9ef3703669cc7ddf06207f2dffffcdd51cdec74b2b32cc5742c6cb"
+        "hash": "c7c485d856fa0118694ae8484e85a714db92ce7886195dbc355257d59d4254da2ce537ac18da8e05c9786c3a98f70cc5ffdfd089ad23b6822f854d72f3caa62d"
       }
     },
     {
@@ -3845,35 +4223,6 @@
       "evidence_level": "Selected local metadata and authored bilingual provider purpose. Runtime mechanics not verified.",
       "project_source": "https://modrinth.com/project/micg1iTH",
       "selected_release_source": "https://modrinth.com/project/micg1iTH/version/HuCMavv8",
-      "instruction_verification": "Static authoring evidence only, runtime mechanics remain unverified."
-    },
-    {
-      "metadata_path": "mods/create-cosmonautics-expansion.pw.toml",
-      "name": "Create Cosmonautics Expansion",
-      "availability": "baseline",
-      "primary_function": "space.navigation",
-      "primary_category": "Vehicles and travel",
-      "primary_home": "space.navigation",
-      "purpose_evidence": "Adds the landable Mars dimension, terrain and planetary record.",
-      "purpose_zh_cn": "新增可登陆的火星维度、地貌与行星数据。",
-      "content_kind": "mods",
-      "filename": "rocketnautics_addon-1.0.0.jar",
-      "side": "both",
-      "provider": "modrinth",
-      "provider_selection": {
-        "mod-id": "gD7M0IgY",
-        "version": "48ItKoZ3"
-      },
-      "selected_download": {
-        "url": "https://cdn.modrinth.com/data/gD7M0IgY/versions/48ItKoZ3/rocketnautics_addon-1.0.0.jar",
-        "hash-format": "sha512",
-        "hash": "bc45672327218fcc365ff5fbb7d16a1a56818e655212e90c54ab8b960c6c6f3736b0a8953eb117bc99df9f259f7e3394ae55ab44d580c902b4109827d2ba9de7"
-      },
-      "source_branch": "dev",
-      "source_commit": "43ffb9f",
-      "evidence_level": "Selected local metadata and authored bilingual provider purpose. Runtime mechanics not verified.",
-      "project_source": "https://modrinth.com/project/gD7M0IgY",
-      "selected_release_source": "https://modrinth.com/project/gD7M0IgY/version/48ItKoZ3",
       "instruction_verification": "Static authoring evidence only, runtime mechanics remain unverified."
     },
     {
@@ -12322,6 +12671,128 @@
       },
       "project_source": "https://modrinth.com/project/EEIwvQVo",
       "selected_release_source": "https://modrinth.com/project/EEIwvQVo/version/ahvrY85Y"
+    },
+    {
+      "metadata_path": "mods/dimworldborder.pw.toml",
+      "content_kind": "mods",
+      "availability": "baseline",
+      "primary_function": "server.tools",
+      "primary_home": "server.tools",
+      "primary_category": "Technical reference",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "Manages independent physical borders for each dimension.",
+      "purpose_zh_cn": "为各个维度管理独立的实体边界。",
+      "evidence_level": "Selected metadata and repository release evidence. Controls verified from checksum-matched archives where documented.",
+      "instruction_verification": "Static authoring evidence, not runtime verification.",
+      "name": "DimWorldBorder",
+      "filename": "dimworldborder-1.21.1-1.1.1-universal.jar",
+      "side": "both",
+      "selected_download": {
+        "url": "https://cdn.modrinth.com/data/KNfZi3IU/versions/gfbd1zeB/dimworldborder-1.21.1-1.1.1-universal.jar",
+        "hash-format": "sha512",
+        "hash": "faca6a871a1822eaf7456e3127e51b238891a72046d729782fad12dbdfb6e5445f3c2f08845127cb71d3846c855ec3d2f9caed76c91b4d447522ebda9f55c2d2"
+      },
+      "source_branch": "dev",
+      "source_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "KNfZi3IU",
+        "version": "gfbd1zeB"
+      },
+      "project_source": "https://modrinth.com/project/KNfZi3IU",
+      "selected_release_source": "https://modrinth.com/project/KNfZi3IU/version/gfbd1zeB"
+    },
+    {
+      "metadata_path": "mods/zfastnoise.pw.toml",
+      "content_kind": "mods",
+      "availability": "baseline",
+      "primary_function": "performance.baseline",
+      "primary_home": "performance.baseline",
+      "primary_category": "Technical reference",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "Optimizes processor-side terrain generation without graphics acceleration.",
+      "purpose_zh_cn": "优化处理器端地形生成，无需图形加速。",
+      "evidence_level": "Selected metadata and repository release evidence. Controls verified from checksum-matched archives where documented.",
+      "instruction_verification": "Static authoring evidence, not runtime verification.",
+      "name": "Fast Noise",
+      "filename": "zfastnoise-1.0.13+1.21.1+neoforge.jar",
+      "side": "both",
+      "selected_download": {
+        "url": "https://cdn.modrinth.com/data/OnlVIpq5/versions/9vSFkDAr/zfastnoise-1.0.13%2B1.21.1%2Bneoforge.jar",
+        "hash-format": "sha512",
+        "hash": "23c50dc3d75da96d87b065381e32a979528017f872d056bf1cb012e085122734ab218ea8af7b5570403d83c88ebfb53296969af47198fdb637058753d3974278"
+      },
+      "source_branch": "dev",
+      "source_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "OnlVIpq5",
+        "version": "9vSFkDAr"
+      },
+      "project_source": "https://modrinth.com/project/OnlVIpq5",
+      "selected_release_source": "https://modrinth.com/project/OnlVIpq5/version/9vSFkDAr"
+    },
+    {
+      "metadata_path": "mods/aero-player-tilt.pw.toml",
+      "content_kind": "mods",
+      "availability": "baseline",
+      "primary_function": "vehicles.airships",
+      "primary_home": "vehicles.airships",
+      "primary_category": "Vehicles and travel",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "Aligns player orientation and falling behavior with Sable sublevels.",
+      "purpose_zh_cn": "调整玩家朝向及下落行为，使其适应 Sable 子空间。",
+      "evidence_level": "Selected metadata and repository release evidence. Controls verified from checksum-matched archives where documented.",
+      "instruction_verification": "Static authoring evidence, not runtime verification.",
+      "name": "Aeronautics Player Tilt",
+      "filename": "aero_player_tilt-0.2.3.jar",
+      "side": "both",
+      "selected_download": {
+        "hash-format": "sha1",
+        "hash": "e6defee0e491161bcbaea17204fa36be65f8c20d",
+        "mode": "metadata:curseforge"
+      },
+      "source_branch": "dev",
+      "source_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
+      "provider": "curseforge",
+      "provider_selection": {
+        "file-id": 9138420,
+        "project-id": 1681706
+      }
+    },
+    {
+      "metadata_path": "mods/aero_cam_sync.pw.toml",
+      "content_kind": "mods",
+      "availability": "baseline",
+      "primary_function": "vehicles.airships",
+      "primary_home": "vehicles.airships",
+      "primary_category": "Vehicles and travel",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "Synchronizes the camera with rotating Sable ships.",
+      "purpose_zh_cn": "让镜头与旋转的 Sable 飞船同步。",
+      "evidence_level": "Selected metadata and repository release evidence. Controls verified from checksum-matched archives where documented.",
+      "instruction_verification": "Static authoring evidence, not runtime verification.",
+      "name": "Aeronautics Camera Sync",
+      "filename": "aero_cam_sync-1.4.0.jar",
+      "side": "both",
+      "selected_download": {
+        "url": "https://cdn.modrinth.com/data/ZGxtWu73/versions/UbgVQ0qd/aero_cam_sync-1.4.0.jar",
+        "hash-format": "sha512",
+        "hash": "0af37dcf2d90c262858d07861243c0800a2aa72254a18eacf093de9a07cdaa5a51f9cfd9ca5f32a7efccf9a0936cfcda0ee9fbbb252b00377db21a3af6dffb4b"
+      },
+      "source_branch": "dev",
+      "source_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "ZGxtWu73",
+        "version": "UbgVQ0qd"
+      },
+      "project_source": "https://modrinth.com/project/ZGxtWu73",
+      "selected_release_source": "https://modrinth.com/project/ZGxtWu73/version/UbgVQ0qd"
     }
   ],
   "limitations": [
@@ -12331,7 +12802,7 @@
     "Historical selection and retired page plans are preserved in docs/review-revision/cosmonautics-retired-inventory-evidence.json."
   ],
   "configuration_evidence": {
-    "baseline_commit": "f5c24f3",
+    "baseline_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
     "world_border": {
       "loader": "mods/paxi.pw.toml",
       "paths": [

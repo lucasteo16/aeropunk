@@ -123,14 +123,16 @@ Nullscape reshapes the End's outer islands. It changes an existing dimension rat
 
 Create Cosmonautics adds the Moon, with lunar highlands, maria, regolith fields and rocky chasms.
 
+The travel title calls the Moon Luna and the orbital dimension Deep Space.
+
 ### Lunar biomes
 
 | Biome | Biome |
 | --- | --- |
-| Lunar Highlands | Lunar Maria |
-| Lunar Megaregolith | Lunar Aged Chasm |
-| Lunar Basalt Chasm | Lunar Aged Spikes |
-| Lunar Basalt Spikes | |
+| Lunar Terrae | Lunar Maria |
+| Lunar Megaregolith | Ancient Lunar Chasms |
+| Lunar Basalt Chasms | Ancient Lunar Spires |
+| Lunar Basalt Spires | |
 
 ***
 

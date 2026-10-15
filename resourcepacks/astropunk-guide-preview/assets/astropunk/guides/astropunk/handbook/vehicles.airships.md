@@ -70,6 +70,21 @@ Craft <ItemLink id="aeronautics:adjustable_burner" /> for the hot-air envelope s
 
 Wooden, Andesite and Smart Propellers have dedicated bearings. Symmetric sails provide another aerodynamic family. Getting started: assemble a supported hull, then use the envelope, burner and propeller Ponder entries to plan lift and thrust. Decorative volume alone does not provide lift.
 
+***
+
+## Ship orientation
+
+Aeronautics Camera Sync tilts the viewpoint with a sloping ship deck. Aeronautics Player Tilt aligns the player body with the ship. Camera tilt and body tilt are separate controls. Neither steers the ship.
+
+| Action | Your key | Default |
+| --- | --- | --- |
+| Toggle camera tilt | <KeyBind id="key.aero_cam_sync.toggle" /> | I |
+| Toggle player tilt | <KeyBind id="key.aero_player_tilt.toggle" /> | O |
+| Camera settings | <KeyBind id="key.aero_cam_sync.open_config" /> | Unbound |
+| Player tilt settings | <KeyBind id="key.aero_player_tilt.open_config" /> | Unbound |
+
+Assign settings shortcuts in Options, Controls, then Key Binds. Check conflicts before using the default keys. If deck tilt makes aiming uncomfortable, adjust camera and body tilt separately in their settings.
+
 ## Related topics
 
 - [Browse recipe](help.search.md)
