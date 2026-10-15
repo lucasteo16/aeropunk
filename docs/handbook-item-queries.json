@@ -1715,14 +1715,6 @@
       "@rocketnautics"
     ]
   },
-  "mods/create-cosmonautics-expansion.pw.toml": {
-    "en_us": [
-      "@rocketnautics_addon"
-    ],
-    "zh_cn": [
-      "@rocketnautics_addon"
-    ]
-  },
   "mods/cosmonautics-deep-air.pw.toml": {
     "en_us": [
       "@cosmonauticsdeepair"
@@ -1830,6 +1822,22 @@
     "zh_cn": []
   },
   "mods/tidal-towns.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/dimworldborder.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/zfastnoise.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/aero-player-tilt.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/aero_cam_sync.pw.toml": {
     "en_us": [],
     "zh_cn": []
   }

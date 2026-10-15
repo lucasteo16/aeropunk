@@ -16,7 +16,6 @@ Commands, typed in game with operator permission:
 /dimworldborder minecraft:the_nether get
 /dimworldborder minecraft:the_end get
 /dimworldborder rocketnautics:moon get
-/dimworldborder rocketnautics_addon:mars get
 ```
 
 The number passed to `set` is the full square width. Use tab completion to confirm custom dimension identifiers in the running installation.

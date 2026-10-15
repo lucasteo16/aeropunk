@@ -567,10 +567,6 @@
     "category": "Vehicles and travel",
     "topic": "space.life-support"
   },
-  "mods/create-cosmonautics-expansion.pw.toml": {
-    "category": "Exploration and adventure",
-    "topic": "world.dimensions"
-  },
   "mods/almostunified.pw.toml": {
     "category": "Automation and industry",
     "topic": "machines.ore-processing"
