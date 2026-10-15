@@ -28,6 +28,8 @@ navigation:
 
 - [操作与按键](help.controls.md)
 
+- [飞空船](vehicles.airships.md)
+
 
 ***
 

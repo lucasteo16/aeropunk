@@ -8,6 +8,23 @@ navigation:
 
 # 了解管理员与诊断工具
 
+## 维度边界
+
+DimWorldBorder 让各维度拥有独立的边界大小与中心，单人游戏的内置服务器也适用。多人游戏中，玩家遵循服务器边界，客户端无需安装此模组。
+
+管理员应先查询边界，再修改设置。
+
+| 命令 | 用途 |
+| --- | --- |
+| <Color color="#F28CBD">/dimworldborder minecraft:overworld get</Color> | 查询主世界边界 |
+| <Color color="#F28CBD">/dimworldborder minecraft:the_nether get</Color> | 查询下界边界 |
+| <Color color="#F28CBD">/dimworldborder rocketnautics:moon get</Color> | 查询月球边界 |
+| <Color color="#F28CBD">/dimworldborder minecraft:overworld set 5000</Color> | 将主世界方形边界的完整宽度设为 5000 格 |
+
+使用命令补全选择维度。整合包的安全数据包也会在加载时设置主世界范围限制。自定义大小后，应在重启或重载数据包后查询边界值。玩家边界不保证能容纳或阻挡整艘移动船体。
+
+***
+
 ## 地形准备
 
 Chunky 在玩家探索前生成地形。这是管理员任务，不是渲染距离设置。大型生成任务会占用处理时间与磁盘空间。

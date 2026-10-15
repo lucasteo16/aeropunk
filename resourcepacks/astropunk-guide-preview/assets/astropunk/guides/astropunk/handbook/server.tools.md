@@ -8,6 +8,23 @@ navigation:
 
 # Server tools
 
+## Dimension borders
+
+DimWorldBorder gives each dimension its own border size and center, including the integrated server in single-player. Multiplayer players follow the server border without needing the mod on their client.
+
+Operators can check a border before changing it.
+
+| Command | Purpose |
+| --- | --- |
+| <Color color="#F28CBD">/dimworldborder minecraft:overworld get</Color> | Read the Overworld border |
+| <Color color="#F28CBD">/dimworldborder minecraft:the_nether get</Color> | Read the Nether border |
+| <Color color="#F28CBD">/dimworldborder rocketnautics:moon get</Color> | Read the Moon border |
+| <Color color="#F28CBD">/dimworldborder minecraft:overworld set 5000</Color> | Set the Overworld square to a full width of 5000 blocks |
+
+Use command completion to select a dimension. The packaged safety data pack also applies an Overworld limit when it loads. Check border values after a restart or data-pack reload before relying on a custom size. A player boundary does not guarantee that it contains an entire moving ship.
+
+***
+
 ## Terrain preparation
 
 Chunky generates terrain before players explore it. This is an administrator workload, not a rendering-distance setting. Large generation jobs consume processing time and disk space.

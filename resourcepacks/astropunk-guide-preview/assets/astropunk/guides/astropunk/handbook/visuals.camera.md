@@ -28,6 +28,8 @@ Zoom, detached viewing and borderless fullscreen solve different viewing needs. 
 
 - [Controls](help.controls.md)
 
+- [Airships](vehicles.airships.md)
+
 
 ***
 

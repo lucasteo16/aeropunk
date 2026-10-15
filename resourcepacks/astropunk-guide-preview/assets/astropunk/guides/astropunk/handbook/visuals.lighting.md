@@ -26,6 +26,8 @@ Fresh installations select Complementary Reimagined but leave shaders disabled. 
 
 Iris loads shader packs. Distant Horizons displays simplified distant terrain. These are separate systems.
 
+Fresh installations enable adaptive Distant Horizons transfer speed, which adjusts terrain-data transfer to client performance. This does not set render distance or speed up terrain generation. Existing player settings are preserved.
+
 | Component | Function |
 | --- | --- |
 | Distant Horizons | Displays simplified terrain beyond ordinary render distance. |

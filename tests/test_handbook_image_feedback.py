@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import unittest
+from handbook_revision_contract import before_development_update
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
@@ -32,7 +33,7 @@ class HandbookImageFeedbackTest(unittest.TestCase):
             self.assertEqual(english, chinese, topic)
 
     def test_only_documented_image_blocks_changed(self):
-        restored = json.loads(json.dumps(self.content))
+        restored = json.loads(json.dumps(before_development_update(self.content, include_mars_retirement=True)))
         for row in reversed(self.review['insertions']):
             body = restored[row['topic']][row['locale']]
             self.assertEqual(body.count(row['block']), 1, row['topic'])
