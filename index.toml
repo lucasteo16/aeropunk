@@ -1033,6 +1033,18 @@ file = "config/paxi/resourcepacks/astropunk-fishing-labels/pack.mcmeta"
 hash = "99556d90ece90883e17d8bfed582958e0c8923692aa8ccd3a3d3c2976709f7d6"
 
 [[files]]
+file = "config/paxi/resourcepacks/astropunk-space-titles/assets/travelerstitles/lang/en_us.json"
+hash = "e8868457fbc1c8e116631eb01667df3dc45ca31c44c69c72185cc88f0e51064e"
+
+[[files]]
+file = "config/paxi/resourcepacks/astropunk-space-titles/assets/travelerstitles/lang/zh_cn.json"
+hash = "08b6674cc32d6062af8e0b6e41690e53734b70b29540fcecd7d37ce1faaea07d"
+
+[[files]]
+file = "config/paxi/resourcepacks/astropunk-space-titles/pack.mcmeta"
+hash = "f9c058461bfc2a0404b0b0310ceddd357cbd8c0843cabceb482e958e2b332280"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
 
@@ -1234,7 +1246,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "configureddefaults/config/DistantHorizons.toml"
-hash = "1007c9042852bff06a7fbbf0bf36b954b7d6bb8d689ad335c59058855a017ed7"
+hash = "5d6888197e149b3804d024dc7bd771811bc7c2689db9fba9d6249d5c2c38a950"
 
 [[files]]
 file = "configureddefaults/config/block_factorys_bosses-client.toml"
@@ -1368,6 +1380,16 @@ metafile = true
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "2b02594380f31aa857c89d296afb53bec67621b491956be09a54ab6845552e2a"
+metafile = true
+
+[[files]]
+file = "mods/aero-player-tilt.pw.toml"
+hash = "cfd7eddb73512a84dba9bf9be7583a404a174260a97919a173b85df1ec935936"
+metafile = true
+
+[[files]]
+file = "mods/aero_cam_sync.pw.toml"
+hash = "05d7fc1975485e44ed23c67f33d4f691523da2bacef29464f04433154929e6f8"
 metafile = true
 
 [[files]]
@@ -1566,7 +1588,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "b29065f7eb51b2fa53043366d0df737483b600c2f549d31c783fe52c4d72bfb5"
+hash = "6b5ca6ccbffb900ed868de62c9c13a09b38ffed36b00e51ceaab5468b6941041"
 metafile = true
 
 [[files]]
@@ -1712,11 +1734,6 @@ metafile = true
 [[files]]
 file = "mods/create-cosmonatics.pw.toml"
 hash = "1f2d7a0dbc88261f7849be33a7418e5f59ac8408580fbce27b972e2021d87596"
-metafile = true
-
-[[files]]
-file = "mods/create-cosmonautics-expansion.pw.toml"
-hash = "f4d05348f1bfd9b7db937a5572e2ef36caa1ad1c35ef451c973d7fc1ddf534a8"
 metafile = true
 
 [[files]]
@@ -1937,6 +1954,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "632743d54d410c8b78fb92c94d8f3bb6a7a3faed45171f91e554877f94f82163"
+metafile = true
+
+[[files]]
+file = "mods/dimworldborder.pw.toml"
+hash = "c33ecff922d319f4c6a622ba6254fd2ee8bbe8234b319f6ae6e5a4d471ee5ff9"
 metafile = true
 
 [[files]]
@@ -2930,6 +2952,11 @@ hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
 metafile = true
 
 [[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
+metafile = true
+
+[[files]]
 file = "polytone_options.json"
 hash = "0978d2f26b6ab52b2fa2b952682c77f6685c621d6ef172c2750f0e025dc76ee5"
 
@@ -3287,7 +3314,7 @@ hash = "27d985784b796d1ea238a3a3a456e73669aa74fde8883fd77ac55e0bfb9ff5d3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/performance.baseline.md"
-hash = "e58b9ca731f62cdc310b1f4c8f59c370c76c0be533af756dc11b3594984dd224"
+hash = "9c4589ad9d6aaace3c7307afdf059de35a30b04982ef9ce2c809e6875510fe67"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/power.burners.md"
@@ -3335,7 +3362,7 @@ hash = "2c9e508dd3ab50d893d6288a55d33243f5371f8660d81e670a9fe7da30309e15"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.technical.md"
-hash = "48da043ad0e17235d6a0d8e3982b4e2f86ea639d261c23d85cccf57e5d45a8bc"
+hash = "0270a4bf8dd5a75cec35be04d65f02acf9322b6e0ababcf9ec9349cdcbc25562"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.utilities.md"
@@ -3343,11 +3370,11 @@ hash = "bc7b9fae53731599d0d24530b60268afaba4578ac5487707d2b8be6e45920960"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.vehicles.md"
-hash = "3737a100c45ba336a47a39148110d379bfb5dcb73dd03d185934a32a5ea52e5a"
+hash = "add9b62f2ca445ffecd76453a4730267dc00c489d15a3adb9c1c8d57714b0234"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/server.tools.md"
-hash = "846a5ee3060f46a1c45e0eb5bb6bdecce3cfe3d38409783818be191966903a61"
+hash = "ada7cfa4a7401000045cb1aaac4cd1a84017697a6b7562a1104bc814327ae203"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.life-support.md"
@@ -3359,7 +3386,7 @@ hash = "2b168a5791ac78cbdde52cf6cf78f6fc228944b0b0a73e36b739842b57ffb3b5"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/space.vehicle-transfer.md"
-hash = "1849f6a116c6a24d292772a4bfc3085d45fbf25e741330cde317ea19f9538ce6"
+hash = "001ec5d4b4c96617db50b2489c330bf827abc942edd3d0fe8b11f97ba81896fd"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/storage.bulk.md"
@@ -3399,7 +3426,7 @@ hash = "54249303a74de74e816c89cd48f1b23b7d592ee61ff0c6a05db438c92eb059da"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.airships.md"
-hash = "c0a22d8d74b4ca3b2be59906d3b7662317f14ccdb0023c13e6ebb6b53f2fe429"
+hash = "aaf9cbbb8ab70609783e35da921fe32e8a6351a56f8f7454f52da63828c38fc2"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/vehicles.assembly.md"
@@ -3455,7 +3482,7 @@ hash = "56ca535a16c1b92f40ef9f57b02aca9e5a838845fdd26fe22b4aeb9e3143f92b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/world.dimensions.md"
-hash = "36da829f267bf4af5d1f71506fac9cbee8df9bffd32d74bd343d3b25a4f973e2"
+hash = "f4298ad2cbcf081c5af56614539f65070d971d61bc231def0adde2984d02ffdd"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/adventure.aquatic.md"
@@ -5647,7 +5674,7 @@ hash = "c7b22b7c300c523fd5bd99120048da56cb1e7b386f6d57a832ea71ebf2673a8e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/performance.baseline.md"
-hash = "af1e8dcd5364a90a1b1484f2ffbf0bc510a8bd07718827badfe8005922a7d32e"
+hash = "a369163bfa0c8fcb922122c5f129ca1f58050d5ceee5098ea35a520bd0556f9c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/power.burners.md"
@@ -5695,7 +5722,7 @@ hash = "eaa927b37efa7bba061e43a233ca545a6de0cc1451eb92caa9f4252cbd93e611"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.technical.md"
-hash = "bcd123d77509559189c0aa21f3907ca6a4446da31c93f4b27ff7bc882208bf1f"
+hash = "1b45499859048527003cabedc56b5ad0ec4f0a6f3edda12895318b8703e10101"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.utilities.md"
@@ -5703,11 +5730,11 @@ hash = "4ab04f2e8977fbe943a11aa5b2bb70e15b075361d929bbef4e1c25302070075e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.vehicles.md"
-hash = "fdc9bb91b61d38aac791466198abff6a642789935352f23fc4a15483260f8cca"
+hash = "f1f80605250dfe24ca48ee4c84505c272c8258700c258656cc75b8f39e4af588"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/server.tools.md"
-hash = "4db5649592624e66684a09862568e3237152440b167dc1322eaf9133fe4accac"
+hash = "7c04c0baebf465fb292a7d9fc5e4a2f3b8a30507c680c26fdea38607f7564309"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.life-support.md"
@@ -5719,7 +5746,7 @@ hash = "ccdd0013f4470cfde675a7ff2b575cfcba9e66fa2b6031bb6662ba963ca9ac39"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/space.vehicle-transfer.md"
-hash = "117e3483370e21c426272daa038a543e93beb555643247da24c9c68ce3d2a835"
+hash = "d4cae8eba0c39c52de63df62a9d2b8d33603ced78d241024734aee1dbf44659b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/storage.bulk.md"
@@ -5759,7 +5786,7 @@ hash = "70453043f6ff0a1877ff57d9556a764bc8478155bfd48cfab36447b076b60263"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.airships.md"
-hash = "caf3535105385b71913321222442dd2ec7c9f5ad086e7b7a07dee79d17e76ca5"
+hash = "c87918ce60036b0eff31835bd8981c2c916470c8e24f947ab608e1f7e3589ec5"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/vehicles.assembly.md"
@@ -5815,7 +5842,7 @@ hash = "5b5b976643db0bcb7635277166db63e70c3bac9f55ad8b94c57d83892ceb740a"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/world.dimensions.md"
-hash = "b6ae84126b5eed202871680e4a69ed985ce1dc10f84f6fbe2b4458e94a80450d"
+hash = "41f5bdcb12fcebe41a533b1ed6c80736021f6908e4ade4930d334a9400d1be5d"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/pack.mcmeta"

@@ -81,5 +81,7 @@ Wooden, Andesite and Smart Propellers have dedicated bearings. Symmetric sails p
 
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Aeronautics Camera Sync](vehicles.airships.md) | Synchronizes the camera with rotating Sable ships. | No separate item search |
+| <ItemImage id="minecraft:minecart" /> [Aeronautics Player Tilt](vehicles.airships.md) | Aligns player orientation and falling behavior with Sable sublevels. | No separate item search |
 | ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | Lets Aeronautics hot air envelopes encase Create fluid pipes. | <EmiSearch query="@aeroencasedpipe" /> |
 | ![Create: Ballast](images/catalog-5ypxyrfg.png) [Create: Ballast](vehicles.airships.md) | Adds layered ballast blocks for adjusting vehicle mass and balance. | <EmiSearch query="@ballastmod" /> |

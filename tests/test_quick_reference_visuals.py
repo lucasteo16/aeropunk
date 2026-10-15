@@ -42,7 +42,7 @@ class ReferenceVisuals(unittest.TestCase):
         text = (PAGES / 'world.dimensions.md').read_text()
         self.assertNotIn('Abyss', text)
         self.assertIn('Moon', text)
-        self.assertIn('Mars', text)
+        self.assertNotIn('## Mars', text)
         self.assertIn('Deep Space is the orbital dimension used by physical spacecraft', text)
 
     def test_recipe_reference_illustrates_interface_and_tree(self):
@@ -63,8 +63,11 @@ class ReferenceVisuals(unittest.TestCase):
             for locale in ('', '_zh_cn'):
                 body = (PAGES / locale / filename).read_text()
                 if page['topic'] in authored:
-                    source_body = re.sub(r'\n\n<EmiSearch[^\n]+\n\n', '\n\n', body)
-                    expected_body = re.sub(r'\n\n<EmiSearch[^\n]+\n\n', '\n\n', authored[page['topic']]['zh_cn' if locale else 'en_us'])
+                    query_line = r'(?m)^(?:<EmiSearch query="[^"\n]*" />[ \t]*)+\n'
+                    source_body = re.sub(query_line, '', body)
+                    expected_body = re.sub(query_line, '', authored[page['topic']]['zh_cn' if locale else 'en_us'])
+                    source_body = re.sub(r'\n{3,}', '\n\n', source_body)
+                    expected_body = re.sub(r'\n{3,}', '\n\n', expected_body)
                     self.assertIn(expected_body.strip(), source_body, filename)
                     self.assertNotIn('Work in progress', body, filename)
                     self.assertNotIn('WIP', body, filename)

@@ -356,6 +356,14 @@ for topic, definition in class_navigation.items():
     reference_parents[topic] = definition['parent'] + '.md'
     reference_icons[topic] = definition['icon']
 
+# Complete coverage can already include the compatibility definitions above.
+# The introduction is generated separately and must not enter the article loop.
+unique_pages = {}
+for page in page_defs:
+    if page['page_id'] != 'index':
+        unique_pages.setdefault(page['page_id'], page)
+page_defs = list(unique_pages.values())
+
 navigation = navigation_metadata()
 assert_semantic_navigation(navigation)
 assert set(navigation) == {page['page_id'] for page in page_defs} | {'index'}
@@ -460,8 +468,8 @@ status = []
 assigned_paths = []
 related_provider_paths = {
     'fishing.habitats': {'mods/starcatcher.pw.toml', 'mods/terralith.pw.toml', 'mods/hybrid-aquatic-starcatcher-compatibility.pw.toml'},
-    'world.dimensions': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml'},
-    'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml', 'mods/sable.pw.toml'},
+    'world.dimensions': {'mods/create-cosmonatics.pw.toml'},
+    'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/sable.pw.toml'},
     'space.life-support': {'mods/create-cosmonatics.pw.toml', 'mods/create-deep-seas.pw.toml'},
     'space.navigation': {'mods/create-cosmonatics.pw.toml'},
 }

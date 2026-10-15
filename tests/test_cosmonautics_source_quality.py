@@ -10,7 +10,7 @@ import zlib
 ROOT = Path(__file__).resolve().parents[1]
 IMAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
 TOPICS = ('world.dimensions', 'space.vehicle-transfer', 'space.life-support', 'space.navigation')
-PROVIDERS = ('mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml', 'mods/cosmonautics-deep-air.pw.toml', 'mods/aeroengine-fuel-compat.pw.toml')
+PROVIDERS = ('mods/create-cosmonatics.pw.toml', 'mods/cosmonautics-deep-air.pw.toml', 'mods/aeroengine-fuel-compat.pw.toml')
 
 
 def load(name):
@@ -24,7 +24,7 @@ class CosmonauticsSourceQuality(unittest.TestCase):
         self.assertNotIn('space.destinations.md', json.dumps(source))
         for locale in ('en_us', 'zh_cn'):
             body = source['world.dimensions'][locale]
-            for name in ('cosmo-moon-terrain', 'cosmo-mars-terrain', 'cosmo-deep-space'):
+            for name in ('cosmo-moon-terrain', 'cosmo-deep-space'):
                 self.assertIn('images/' + name + '.png', body)
             self.assertNotIn('20,000', body)
             self.assertNotIn('19,000', body)
@@ -89,7 +89,7 @@ class CosmonauticsSourceQuality(unittest.TestCase):
         visuals = load('handbook-visual-sources.json')
         rows = [visuals[key] for key in PROVIDERS]
         rows += [value for key, value in visuals.items() if key.startswith('handbook:cosmo-')]
-        self.assertEqual(len(rows), 9)
+        self.assertEqual(len(rows), 8)
         for row in rows:
             resource = row['resource']
             self.assertEqual(resource, resource.lower())

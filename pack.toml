@@ -1,12 +1,12 @@
-name = "Astropunk Light Handbook"
+name = "Astropunk"
 author = "Lucas"
-version = "0.11.1-g"
+version = "0.15.1-g"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4c18028e0ecfa8aa1f1d3660509ab4a67464a2a6ef13e36a8c55d0d8ef08c7d5"
+hash = "05c62acff0dcc483259cfba74c9f2056ab73843efa3fac400ad2624f31e0fd96"
 
 [versions]
 minecraft = "1.21.1"

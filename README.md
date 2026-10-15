@@ -8,6 +8,10 @@ See `docs/handbook-visual-review.md` for the exact changed-page list, image prov
 
 ## Development branch
 
+### 0.11.1-dev handbook integration
+
+Incorporates the approved `0.11.1-g` handbook with bilingual fishing habitats, seafood, aquatic wildlife, seventeen focused creature family pages and eighty-seven new subject images. Lucas reviewed the official-launcher guide installation and approved its presentation. The integration preserves all development mod selections and gameplay settings. Source, navigation, parser, structural component and archive checks are recorded in the handbook review documents. Visual acceptance does not establish comprehensive gameplay or multiplayer clearance, and public artwork redistribution rights remain subject to review. The retained guide branch, stable editions, launcher installations and running server are unchanged by this integration.
+
 `dev` is the integration branch for future mod updates and pack changes. Keep `main` and `main-heavy` stable; promote reviewed and tested changes deliberately, with shared gameplay entering `main` before `main-heavy`. Run the existing `just update` command on `dev` for native global updates, preserving compatibility holds and the fixed Minecraft and NeoForge versions. Never deploy development updates to played instances or the retained server implicitly.
 
 ### 0.10.2-dev fishing habitat names

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "baseline_count": 318,
-  "union_count": 338,
+  "baseline_count": 321,
+  "union_count": 341,
   "categories": [
     "Automation and industry",
     "Storage and logistics",
@@ -876,19 +876,6 @@
     {
       "metadata_path": "mods/create-cosmonatics.pw.toml",
       "name": "Create Cosmonautics",
-      "availability": "baseline",
-      "category": "Exploration and adventure",
-      "topic": "world.dimensions",
-      "indexed": true,
-      "player_mention_written": false,
-      "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
-    },
-    {
-      "metadata_path": "mods/create-cosmonautics-expansion.pw.toml",
-      "name": "Create Cosmonautics Expansion",
       "availability": "baseline",
       "category": "Exploration and adventure",
       "topic": "world.dimensions",
@@ -4408,6 +4395,58 @@
       "english_written": true,
       "simplified_chinese_written": true,
       "links_checked": false
+    },
+    {
+      "metadata_path": "mods/dimworldborder.pw.toml",
+      "name": "DimWorldBorder",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "server.tools",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/zfastnoise.pw.toml",
+      "name": "Fast Noise",
+      "availability": "baseline",
+      "category": "Technical reference",
+      "topic": "performance.baseline",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/aero-player-tilt.pw.toml",
+      "name": "Aeronautics Player Tilt",
+      "availability": "baseline",
+      "category": "Vehicles and travel",
+      "topic": "vehicles.airships",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/aero_cam_sync.pw.toml",
+      "name": "Aeronautics Camera Sync",
+      "availability": "baseline",
+      "category": "Vehicles and travel",
+      "topic": "vehicles.airships",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
     }
   ]
 }

@@ -56,6 +56,7 @@
       "help.credits"
     ],
     "topic_parents": {
+      "index": null,
       "help.controls": null,
       "help.search": null,
       "reference.utilities": null,
@@ -75,6 +76,24 @@
       "help.credits": null,
       "adventure.settlements": "adventure.structures.md",
       "adventure.loot": "adventure.structures.md",
+      "creatures.wilderness": "adventure.creatures.md",
+      "creatures.friends": "adventure.creatures.md",
+      "adventure.aquatic": "adventure.creatures.md",
+      "creatures.creepers": "adventure.creatures.md",
+      "creatures.endermen": "adventure.creatures.md",
+      "creatures.variants": "adventure.creatures.md",
+      "creatures.guards": "adventure.creatures.md",
+      "creatures.cataclysm": "adventure.creatures.md",
+      "creatures.illagers": "adventure.creatures.md",
+      "creatures.summons": "adventure.creatures.md",
+      "aquatic.freshwater": "adventure.aquatic.md",
+      "aquatic.marine": "adventure.aquatic.md",
+      "aquatic.deepwater": "adventure.aquatic.md",
+      "aquatic.sharks": "adventure.aquatic.md",
+      "aquatic.jellyfish": "adventure.aquatic.md",
+      "aquatic.cephalopods": "adventure.aquatic.md",
+      "aquatic.seafloor": "adventure.aquatic.md",
+      "aquatic.mammals": "adventure.aquatic.md",
       "maps.find": "maps.personal.md",
       "maps.shared": "maps.personal.md",
       "help.inspect": "reference.utilities.md",
@@ -112,6 +131,8 @@
       "food.hunger": "reference.food.md",
       "food.growing": "reference.food.md",
       "food.fishing": "reference.food.md",
+      "fishing.habitats": "reference.food.md",
+      "food.seafood": "reference.food.md",
       "food.underground": "reference.food.md",
       "food.nether": "reference.food.md",
       "food.end": "reference.food.md",
@@ -193,6 +214,28 @@
         "adventure.settlements",
         "adventure.loot"
       ],
+      "adventure.creatures": [
+        "creatures.wilderness",
+        "creatures.friends",
+        "adventure.aquatic",
+        "creatures.creepers",
+        "creatures.endermen",
+        "creatures.variants",
+        "creatures.guards",
+        "creatures.cataclysm",
+        "creatures.illagers",
+        "creatures.summons"
+      ],
+      "adventure.aquatic": [
+        "aquatic.freshwater",
+        "aquatic.marine",
+        "aquatic.deepwater",
+        "aquatic.sharks",
+        "aquatic.jellyfish",
+        "aquatic.cephalopods",
+        "aquatic.seafloor",
+        "aquatic.mammals"
+      ],
       "maps.personal": [
         "maps.find",
         "maps.shared"
@@ -241,6 +284,8 @@
         "food.hunger",
         "food.growing",
         "food.fishing",
+        "fishing.habitats",
+        "food.seafood",
         "food.underground",
         "food.nether",
         "food.end",
@@ -312,19 +357,19 @@
   "branches": [],
   "verification": {
     "baseline_by_kind": {
-      "mods": 298,
+      "mods": 314,
       "resourcepacks": 3,
       "shaderpacks": 3
     },
-    "baseline_total": 304,
+    "baseline_total": 320,
     "heavy_total": 20,
-    "union_metadata_total": 324,
-    "unique_primary_assignments": 324,
+    "union_metadata_total": 340,
+    "unique_primary_assignments": 340,
     "duplicate_primary_paths": [],
     "unassigned_metadata_paths": [],
     "extra_unknown_paths": [],
     "deferred_total": 0,
-    "authored_articles": 102,
+    "authored_articles": 122,
     "reference_directories": 8,
     "native_roots": 18,
     "client_runtime_tested": false,
@@ -369,9 +414,9 @@
       "status": "authored",
       "functional_category": "Player utilities and quality of life",
       "primary_metadata_paths": [
-        "mods/astropunk-handbook-access-1.0.0.jar",
         "mods/controlling.pw.toml",
-        "mods/trade-refresh.pw.toml"
+        "mods/trade-refresh.pw.toml",
+        "mods/astropunk-handbook-access-1.0.0.jar"
       ],
       "player_questions": [],
       "navigation_parent": null,
@@ -1389,8 +1434,8 @@
         "mods/chunky.pw.toml",
         "mods/configured-defaults.pw.toml",
         "mods/observable.pw.toml",
-        "mods/paxi.pw.toml",
-        "mods/spark.pw.toml"
+        "mods/spark.pw.toml",
+        "mods/paxi.pw.toml"
       ],
       "player_questions": [],
       "navigation_parent": "reference.technical.md",
@@ -1735,6 +1780,337 @@
       "player_questions": [],
       "navigation_parent": "adventure.aquatic.md",
       "content_source": "docs/handbook-content.json"
+    },
+    {
+      "page_id": "index",
+      "title": "Astropunk",
+      "status": "authored",
+      "functional_category": "Pack introduction",
+      "primary_metadata_paths": [],
+      "player_questions": [],
+      "navigation_parent": null,
+      "content_source": "docs/handbook-content.json"
+    },
+    {
+      "page_id": "reference.utilities",
+      "title": "Utilities",
+      "status": "authored",
+      "functional_category": "Player utilities and quality of life",
+      "primary_metadata_paths": [],
+      "player_questions": [],
+      "navigation_parent": null,
+      "content_source": "scripts/build-handbook-draft.py"
+    },
+    {
+      "page_id": "reference.skills",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Combat",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.food",
+      "status": "authored",
+      "functional_category": "Food and farming",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Food & farming",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.building",
+      "status": "authored",
+      "functional_category": "Building and decoration",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Building",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.machines-storage",
+      "status": "authored",
+      "functional_category": "Automation and industry",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Machines & storage",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.vehicles",
+      "status": "authored",
+      "functional_category": "Vehicles and travel",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Transport",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.appearance",
+      "status": "authored",
+      "functional_category": "Visuals and sound",
+      "player_questions": [],
+      "content_source": "scripts/build-handbook-draft.py",
+      "title": "Appearance",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.audio",
+      "status": "authored",
+      "functional_category": "Visuals and sound",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Audio",
+      "navigation_parent": null,
+      "primary_metadata_paths": [
+        "mods/cool-rain-reforged.pw.toml",
+        "mods/extreme_sound_muffler.pw.toml",
+        "mods/more-sounds.pw.toml",
+        "mods/pf-neoforge.pw.toml",
+        "mods/presence-footsteps-x-sable.pw.toml",
+        "mods/sable-cool-rain.pw.toml",
+        "mods/sound-physics-remastered.pw.toml",
+        "mods/sound.pw.toml"
+      ]
+    },
+    {
+      "page_id": "reference.technical",
+      "status": "authored",
+      "functional_category": "Technical reference",
+      "player_questions": [],
+      "content_source": "scripts/build-handbook-draft.py",
+      "title": "Technical",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "help.credits",
+      "status": "authored",
+      "functional_category": "Technical reference",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Credits",
+      "navigation_parent": null,
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "reference.equipment",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Equipment",
+      "navigation_parent": "reference.skills.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "combat.abilities",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Spells & abilities",
+      "navigation_parent": "reference.skills.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.warrior",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Warrior",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.berserker",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Berserker",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.rogue",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Rogue",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.forcemaster",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Forcemaster",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.archer",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Archer",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.deadeye",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Deadeye",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.war-archer",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "War Archer",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.tundra-hunter",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Tundra Hunter",
+      "navigation_parent": "combat.martial.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.arcane",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Arcane Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.fire",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Fire Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.frost",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Frost Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.aqua",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Aqua Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.terra",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Terra Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.wind",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Wind Wizard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.priest",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Priest",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.paladin",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Paladin",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.bard",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Bard",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "class.witcher",
+      "status": "authored",
+      "functional_category": "Combat and character",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Witcher",
+      "navigation_parent": "combat.magic.md",
+      "primary_metadata_paths": []
+    },
+    {
+      "page_id": "help.handbook",
+      "status": "authored",
+      "functional_category": "Technical reference",
+      "player_questions": [],
+      "content_source": "docs/handbook-content.json",
+      "title": "Handbook",
+      "navigation_parent": "reference.technical.md",
+      "primary_metadata_paths": [
+        "mods/guideme.pw.toml"
+      ]
     }
   ],
   "inventory": [

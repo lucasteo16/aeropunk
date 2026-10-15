@@ -134,27 +134,11 @@ Create Cosmonautics adds the Moon, with lunar highlands, maria, regolith fields 
 
 ***
 
-## Mars
-
-<EmiSearch query="@rocketnautics_addon" />
-
-![Mars ravines and mountains](images/cosmo-mars-terrain.png)
-
-Create Cosmonautics Expansion adds Mars, with plains, frostlands and underground caves.
-
-### Mars biomes
-
-| Biome | Biome | Biome |
-| --- | --- | --- |
-| Mars Plains | Mars Frostlands | Mars Underground Caves |
-
-***
-
 ## Deep Space
 
 ![Deep Space sky](images/cosmo-deep-space.png)
 
-Deep Space is the orbital dimension used by physical spacecraft, rather than a planetary surface. The Moon and Mars have surface worlds. The gas giant and ice world are visible celestial bodies without landable surfaces.
+Deep Space is the orbital dimension used by physical spacecraft, rather than a planetary surface. The Moon has a surface world. Mars, the gas giant and ice world are visible celestial bodies without landable surfaces.
 
 - [Orbital flight](space.vehicle-transfer.md)
 - [Space life support](space.life-support.md)
@@ -169,7 +153,7 @@ Deep Space is the orbital dimension used by physical spacecraft, rather than a p
 | Overworld | The starting world |
 | Nether | Light an obsidian portal |
 | End | Activate a stronghold's End portal with <ItemLink id="minecraft:ender_eye" /> |
-| Moon and Mars | Travel by physical spacecraft through Deep Space |
+| Moon | Travel by physical spacecraft through Deep Space |
 
 Terrain changes appear in newly generated areas. Opening this guide does not rebuild existing terrain.
 
@@ -183,7 +167,6 @@ Terrain changes appear in newly generated areas. Opening this guide does not reb
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![Create Cosmonautics](images/cosmo-micg1ith-icon.png) [Create Cosmonautics](world.dimensions.md) | Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display. | <EmiSearch query="@rocketnautics" /> |
-| ![Create Cosmonautics Expansion](images/cosmo-gd7m0igy-icon.png) [Create Cosmonautics Expansion](world.dimensions.md) | Adds Mars terrain with plains, frostlands and underground caves. | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | Keeps Incendium terrain and biomes while removing its structures, creatures and items. | No separate item search |
 | ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | Overhauls Nether biomes and adds structures, enemies and unique equipment. | No separate item search |
 | ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | Reshapes the End with alien terrain and additional biomes. | No separate item search |
