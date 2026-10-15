@@ -2,7 +2,7 @@
 
 ## Branch policy
 
-Private administrator pack for offline world pregeneration. Branch `admin/worldgen` starts from committed `dev` at `676e971`. Worktree: `/home/tsb/Projects/lucas/astropunk-worldgen`. The development checkpoint `6f0e0cf` was subsequently merged, including the orientation trial and adaptive terrain transfer setting. Current administrator version: `0.14.0-worldgen`. Independent dimension borders and the processor generation baseline were inherited from development. The base engine and Fast Noise now match development exactly; only the OpenCL addon is an administrator-only mod addition.
+Private administrator pack for offline world pregeneration. Branch `admin/worldgen` starts from committed `dev` at `676e971`. Worktree: `/home/tsb/Projects/lucas/astropunk-worldgen`. The development checkpoint `6f0e0cf` was subsequently merged, including the orientation trial and adaptive terrain transfer setting. Current administrator version: `0.14.1-worldgen`. Independent dimension borders and the processor generation baseline were inherited from development. The base engine and Fast Noise now match development exactly; only the OpenCL addon is an administrator-only mod addition.
 
 Accept upstream changes from `dev` into this branch only. Do not merge or cherry-pick this branch back into `dev`, `main` or `main-heavy`. This is a workflow policy, not a technical Git access restriction. No automatic synchronization or remote publication is configured.
 

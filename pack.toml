@@ -1,12 +1,12 @@
 name = "Astropunk Admin Worldgen"
 author = "Lucas"
-version = "0.14.0-worldgen"
+version = "0.14.1-worldgen"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1160d49df857b7c9a1c9b4fdec4c0cbdcc089d323ff58e2c11aa784d77973bd9"
+hash = "b8b76049dbceacd9c6b0515604b7c34212c5a71bbb45835644987478275285a0"
 
 [versions]
 minecraft = "1.21.1"
