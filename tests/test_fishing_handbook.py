@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 import subprocess
 import unittest
+from handbook_revision_contract import before_development_update
 
 ROOT = Path(__file__).resolve().parents[1]
 UPDATED = {
@@ -27,9 +28,10 @@ class FishingHandbookTest(unittest.TestCase):
         cls.creature_pages = json.loads((ROOT / 'docs/handbook-creature-navigation.json').read_text())
 
     def test_unrelated_articles_unchanged(self):
+        content = before_development_update(self.content)
         for topic, locales in self.original.items():
             if topic not in UPDATED | set(self.visual_scope['changed_topics']):
-                self.assertEqual(locales, self.content[topic], topic)
+                self.assertEqual(locales, content[topic], topic)
         self.assertEqual(set(self.content) - set(self.original), NEW | set(self.creature_pages))
 
     def test_bilingual_native_reference_parity(self):

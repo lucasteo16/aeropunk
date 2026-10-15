@@ -30,7 +30,7 @@ navigation:
 
 <EmiSearch query="@create" /> <EmiSearch query="@createlazytick" />
 
-这些组件针对游戏逻辑、生物处理、机械动力机器或地形准备。
+Concurrent Chunk Management Engine 将区块工作分配给多个处理器线程，Fast Noise 优化地形生成使用的噪声计算。两者在后台工作，无需特殊启动参数或图形加速，也不会增加渲染距离或重新生成已探索地形。
 
 | 内容 | 作用 |
 | --- | --- |
@@ -40,6 +40,7 @@ navigation:
 | Let Me Despawn | 调整生物消失规则，减少意外永久保留的生物。 |
 | Create: LazyTick | 优化机械动力机器的刻处理。 |
 | Concurrent Chunk Management Engine (NeoForge) | 优化区块管理与生成。 |
+| Fast Noise | 优化处理器端的地形噪声计算。 |
 | Structure Layout Optimizer | 优化拼图结构布局处理。 |
 
 ***

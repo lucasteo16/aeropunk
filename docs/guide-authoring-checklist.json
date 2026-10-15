@@ -503,11 +503,11 @@
       "category": "Technical reference",
       "topic": "performance.baseline",
       "indexed": true,
-      "player_mention_written": false,
+      "player_mention_written": true,
       "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
-      "links_checked": false
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
     },
     {
       "metadata_path": "mods/carry-on.pw.toml",
