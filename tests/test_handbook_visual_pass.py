@@ -7,6 +7,7 @@ import re
 import struct
 import unittest
 import zlib
+from handbook_revision_contract import before_development_update
 
 ROOT = Path(__file__).resolve().parents[1]
 IMAGE_BASE = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
@@ -35,20 +36,22 @@ class HandbookVisualPassTest(unittest.TestCase):
         cls.navigation = json.loads((ROOT / 'docs/handbook-creature-navigation.json').read_text())
 
     def test_scope_and_untouched_articles(self):
-        actual = {topic for topic, locales in self.content.items()
+        content = before_development_update(self.content, include_mars_retirement=True)
+        actual = {topic for topic, locales in content.items()
                   if locales != self.before.get(topic)}
         self.assertEqual(actual, set(self.scope['changed_topics']))
         for topic, locales in self.before.items():
             if topic not in actual:
-                self.assertEqual(locales, self.content[topic], topic)
+                self.assertEqual(locales, content[topic], topic)
         self.assertEqual(set(self.content) - set(self.before), set(self.navigation))
 
     def test_native_interactions_preserved(self):
+        content = before_development_update(self.content)
         moved = {'adventure.creatures', 'adventure.aquatic'}
         for topic in set(self.before) - moved:
             for locale in ('en_us', 'zh_cn'):
                 self.assertEqual(sorted(re.findall(NATIVE, self.before[topic][locale])),
-                                 sorted(re.findall(NATIVE, self.content[topic][locale])),
+                                 sorted(re.findall(NATIVE, content[topic][locale])),
                                  (topic, locale))
 
     def test_bilingual_images_links_and_references(self):

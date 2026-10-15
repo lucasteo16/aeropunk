@@ -124,7 +124,8 @@ baseline = handbook['baseline_commit']
 baseline_paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', baseline, 'mods', 'resourcepacks', 'shaderpacks', 'config/paxi'], cwd=root, text=True).splitlines()
 baseline_paths = [name for name in baseline_paths if name.endswith('.pw.toml') or name.startswith('config/paxi/')]
 actual_metadata = {path.relative_to(root).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks') for path in (root / folder).glob('*.pw.toml')}
-assert actual_metadata == {name for name in baseline_paths if name.endswith('.pw.toml')} | {'mods/guideme.pw.toml'}, 'Selected development inventory drift'
+guide_additions = {'mods/guideme.pw.toml'} - set(baseline_paths)
+assert actual_metadata == {name for name in baseline_paths if name.endswith('.pw.toml')} | guide_additions, 'Selected development inventory drift'
 for name in baseline_paths:
     assert (root / name).read_bytes() == subprocess.check_output(['git', 'show', f'{baseline}:{name}'], cwd=root), ('Selected development byte drift', name)
 options = (root / "configureddefaults/options.txt").read_text()

@@ -468,8 +468,8 @@ status = []
 assigned_paths = []
 related_provider_paths = {
     'fishing.habitats': {'mods/starcatcher.pw.toml', 'mods/terralith.pw.toml', 'mods/hybrid-aquatic-starcatcher-compatibility.pw.toml'},
-    'world.dimensions': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml'},
-    'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/create-cosmonautics-expansion.pw.toml', 'mods/sable.pw.toml'},
+    'world.dimensions': {'mods/create-cosmonatics.pw.toml'},
+    'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/sable.pw.toml'},
     'space.life-support': {'mods/create-cosmonatics.pw.toml', 'mods/create-deep-seas.pw.toml'},
     'space.navigation': {'mods/create-cosmonatics.pw.toml'},
 }

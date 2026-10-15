@@ -123,30 +123,16 @@ Nullscape 改造末地外围岛屿。它改变已有维度，不会新增传送�
 
 Create Cosmonautics 新增月球，包含月球高地、月海、月壤地带与岩石峡谷。
 
+旅行标题将月球显示为“月球”，轨道维度显示为“深空”。
+
 ### 月球生物群系
 
 | 生物群系 | 生物群系 |
 | --- | --- |
 | 月球高地 | 月海 |
-| 月球巨厚月壤 | 古老岩石峡谷 |
-| 玄武岩峡谷 | 古老岩石尖峰 |
-| 玄武岩尖峰 | |
-
-***
-
-## 火星
-
-<EmiSearch query="@rocketnautics_addon" />
-
-![火星峡谷与山地](images/cosmo-mars-terrain.png)
-
-Create Cosmonautics Expansion 新增火星，包含平原、冻原与地下洞穴。
-
-### 火星生物群系
-
-| 生物群系 | 生物群系 | 生物群系 |
-| --- | --- | --- |
-| 火星平原 | 火星冻原 | 火星地下洞穴 |
+| 月球巨厚风化层 | 古老月球裂谷 |
+| 月球玄武岩裂谷 | 古老月球尖峰 |
+| 月球玄武岩尖峰 | |
 
 ***
 
@@ -154,7 +140,7 @@ Create Cosmonautics Expansion 新增火星，包含平原、冻原与地下洞�
 
 ![深空星空](images/cosmo-deep-space.png)
 
-深空是物理飞船航行的轨道维度，不是行星地表。月球与火星有可登陆的地表世界。气态巨行星与冰世界是可见天体，没有可登陆的地表。
+深空是物理飞船航行的轨道维度，不是行星地表。月球有可登陆的地表世界。火星、气态巨行星与冰世界是可见天体，没有可登陆的地表。
 
 - [轨道飞行](space.vehicle-transfer.md)
 - [太空生命支持](space.life-support.md)
@@ -169,7 +155,7 @@ Create Cosmonautics Expansion 新增火星，包含平原、冻原与地下洞�
 | 主世界 | 游戏起始世界 |
 | 下界 | 点燃黑曜石传送门 |
 | 末地 | 用 <ItemLink id="minecraft:ender_eye" />激活要塞中的末地传送门 |
-| 月球与火星 | 驾驶物理飞船经深空前往 |
+| 月球 | 驾驶物理飞船经深空前往 |
 
 地形改造会出现在新生成的区域。打开手册不会重建已有地形。
 
@@ -183,7 +169,6 @@ Create Cosmonautics Expansion 新增火星，包含平原、冻原与地下洞�
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![Create Cosmonautics](images/cosmo-micg1ith-icon.png) [Create Cosmonautics](world.dimensions.md) | 新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。 | <EmiSearch query="@rocketnautics" /> |
-| ![Create Cosmonautics Expansion](images/cosmo-gd7m0igy-icon.png) [Create Cosmonautics Expansion](world.dimensions.md) | 新增火星地貌，包括平原、冻原与地下洞穴。 | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Incendium Biomes Only](images/ibo-icon.png) [Incendium Biomes Only](world.dimensions.md) | 保留 Incendium 地形与生物群系，移除其建筑、生物与物品内容。 | 无独立物品查询 |
 | ![Incendium Legacy](images/incendium-icon.png) [Incendium Legacy](world.dimensions.md) | 重塑下界生物群系，并增加建筑、敌人与独特装备。 | 无独立物品查询 |
 | ![Nullscape](images/nullscape-icon.png) [Nullscape](world.dimensions.md) | 以异域地形与新增生物群系重塑末地。 | 无独立物品查询 |

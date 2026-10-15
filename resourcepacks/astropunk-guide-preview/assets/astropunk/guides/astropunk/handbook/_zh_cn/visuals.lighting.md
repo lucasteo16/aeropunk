@@ -26,6 +26,8 @@ Iris Flywheel Compat 衔接 Iris 光影与 Create 机器使用的 Flywheel 优�
 
 Iris 加载光影包，Distant Horizons 显示简化远景。它们是独立系统。
 
+新安装默认启用 Distant Horizons 自适应传输速度，根据客户端性能调整地形数据传输。这不会设置渲染距离，也不会加快地形生成。原有玩家设置会保留。
+
 | 内容 | 作用 |
 | --- | --- |
 | Distant Horizons | 在普通渲染距离之外显示简化地形。 |

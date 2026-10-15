@@ -44,7 +44,7 @@ item_ids:
 
 ## 进入地表维度
 
-在深空中接近当前所环绕且有地表维度的行星。进入距其表面 20,000 格以内的范围后，飞船会转入该行星的维度，位于世界坐标 Y 19,000。主世界、月球与火星都使用这些边界。进入地表维度后，飞船仍在高空，不会自动着陆或自动驾驶。
+在深空中接近当前所环绕且有地表维度的行星。进入距其表面 20,000 格以内的范围后，飞船会转入该行星的维度，位于世界坐标 Y 19,000。主世界与月球都使用这些边界。进入地表维度后，飞船仍在高空，不会自动着陆或自动驾驶。
 
 请在世界坐标 Y 2,500 之前减慢下降速度。在 Y 1,000 至 Y 2,500 之间，以超过每秒 60 格的速度下降会使飞船发热。更强的热量可能伤害附近乘客。
 
@@ -65,5 +65,4 @@ item_ids:
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![Create Cosmonautics](images/cosmo-micg1ith-icon.png) [Create Cosmonautics](world.dimensions.md) | 新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。 | <EmiSearch query="@rocketnautics" /> |
-| ![Create Cosmonautics Expansion](images/cosmo-gd7m0igy-icon.png) [Create Cosmonautics Expansion](world.dimensions.md) | 新增火星地貌，包括平原、冻原与地下洞穴。 | <EmiSearch query="@rocketnautics_addon" /> |
 | ![Sable](images/catalog-t9pomcsv.png) [Sable](technical.libraries.md) | 可交互移动方块结构框架。 | 无独立物品查询 |
