@@ -356,6 +356,14 @@ for topic, definition in class_navigation.items():
     reference_parents[topic] = definition['parent'] + '.md'
     reference_icons[topic] = definition['icon']
 
+# Complete coverage can already include the compatibility definitions above.
+# The introduction is generated separately and must not enter the article loop.
+unique_pages = {}
+for page in page_defs:
+    if page['page_id'] != 'index':
+        unique_pages.setdefault(page['page_id'], page)
+page_defs = list(unique_pages.values())
+
 navigation = navigation_metadata()
 assert_semantic_navigation(navigation)
 assert set(navigation) == {page['page_id'] for page in page_defs} | {'index'}

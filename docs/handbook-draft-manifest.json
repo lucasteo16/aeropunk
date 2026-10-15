@@ -1448,45 +1448,27 @@
       "metadata_paths": []
     },
     {
-      "topic": "class.archer",
-      "category": "Combat and character",
-      "filename": "class.archer.md",
+      "topic": "help.credits",
+      "category": "Technical reference",
+      "filename": "help.credits.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "class.deadeye",
+      "topic": "reference.equipment",
       "category": "Combat and character",
-      "filename": "class.deadeye.md",
+      "filename": "reference.equipment.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "class.tundra-hunter",
+      "topic": "combat.abilities",
       "category": "Combat and character",
-      "filename": "class.tundra-hunter.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
-      "topic": "class.war-archer",
-      "category": "Combat and character",
-      "filename": "class.war-archer.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
-    },
-    {
-      "topic": "class.rogue",
-      "category": "Combat and character",
-      "filename": "class.rogue.md",
+      "filename": "combat.abilities.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
@@ -1511,9 +1493,54 @@
       "metadata_paths": []
     },
     {
+      "topic": "class.rogue",
+      "category": "Combat and character",
+      "filename": "class.rogue.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
       "topic": "class.forcemaster",
       "category": "Combat and character",
       "filename": "class.forcemaster.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.archer",
+      "category": "Combat and character",
+      "filename": "class.archer.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.deadeye",
+      "category": "Combat and character",
+      "filename": "class.deadeye.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.war-archer",
+      "category": "Combat and character",
+      "filename": "class.war-archer.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": []
+    },
+    {
+      "topic": "class.tundra-hunter",
+      "category": "Combat and character",
+      "filename": "class.tundra-hunter.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
@@ -1574,18 +1601,18 @@
       "metadata_paths": []
     },
     {
-      "topic": "class.paladin",
+      "topic": "class.priest",
       "category": "Combat and character",
-      "filename": "class.paladin.md",
+      "filename": "class.priest.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
     },
     {
-      "topic": "class.priest",
+      "topic": "class.paladin",
       "category": "Combat and character",
-      "filename": "class.priest.md",
+      "filename": "class.paladin.md",
       "drafted": true,
       "page_type": "article",
       "deferred": false,
@@ -1608,6 +1635,35 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": []
+    },
+    {
+      "topic": "help.handbook",
+      "category": "Technical reference",
+      "filename": "help.handbook.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/guideme.pw.toml"
+      ]
+    },
+    {
+      "topic": "world.dimensions",
+      "category": "Exploration and adventure",
+      "filename": "world.dimensions.md",
+      "drafted": true,
+      "page_type": "article",
+      "deferred": false,
+      "metadata_paths": [
+        "mods/create-cosmonatics.pw.toml",
+        "mods/create-cosmonautics-expansion.pw.toml",
+        "mods/ibo.pw.toml",
+        "mods/incendium.pw.toml",
+        "mods/nullscape.pw.toml",
+        "mods/streams-reflowing.pw.toml",
+        "mods/tectonic.pw.toml",
+        "mods/terralith.pw.toml"
+      ]
     }
   ],
   "content": [

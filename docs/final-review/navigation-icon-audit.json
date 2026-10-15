@@ -7,21 +7,21 @@
     "source_commit": "52334ccacf15d763ffe318281d38dca8ec7aaeb8"
   },
   "counts": {
-    "entries_per_locale": 111,
+    "entries_per_locale": 131,
     "locales": [
       "en_us",
       "zh_cn"
     ],
-    "total_locale_entries": 222,
-    "unique_icons_per_locale": 111,
+    "total_locale_entries": 262,
+    "unique_icons_per_locale": 131,
     "duplicate_icons": [],
-    "modded_icons_per_locale": 40,
+    "modded_icons_per_locale": 45,
     "building_entries": 9,
     "building_modded_icons": 6,
-    "expected_articles": 102,
+    "expected_articles": 122,
     "expected_roots": 18
   },
-  "verification_boundary": "Existing selected-binary icon provenance preserved. Semantic ordering executed against the released NavigationTree for both locales using authoring metadata, without generating pages or launching Minecraft. Generated resource and rendering validation remain parent handoff work.",
+  "verification_boundary": "Original selected-binary registration evidence preserved for unchanged icons. All nine selected mod artifacts were rehashed against current pack metadata. Farmers Delight ModItems class bytes are unchanged from the prior audited artifact. Twenty added topic icons were verified through Minecraft 1.21.1 server Items registration bytecode or selected Hybrid Aquatic and Oceans Delight registration chains. Generator --check-navigation and scripts/handbook_navigation.py were read-only sources for all 131 topic mappings and both locale labels. The checksum-selected GuideME 21.1.19 NavigationTree metadata-only probe passed for both locales with eighteen roots, all sibling orders, semantic reorder negative controls and retired-page resurrection and repair controls. All 722 main source resource files remain byte-identical to the approved guide worktree. Static registration and byte parity do not establish live registry resolution or rendered client behavior.",
   "selected_artifacts": {
     "create": {
       "metadata_path": "mods/create.pw.toml",
@@ -65,11 +65,19 @@
     },
     "farmersdelight": {
       "metadata_path": "mods/farmers-delight.pw.toml",
-      "filename": "FarmersDelight-1.21.1-1.3.2.jar",
-      "selected_download": "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar",
+      "filename": "FarmersDelight-1.21.1-1.3.4.jar",
+      "selected_download": "https://cdn.modrinth.com/data/R2OftAxM/versions/XTVZDOol/FarmersDelight-1.21.1-1.3.4.jar",
       "hash_format": "sha512",
-      "hash": "da5a4236427df8010d75992201c8723ac84a8fa71efa55670551d333cac94a90ae8e8c536da63ae07a67f4d00dc2774ae4151030f41d26886e508f4a037c8694",
-      "matches_selected_hash": true
+      "hash": "1f6f8796469f747cff36f477b4f589a3d69613882399f9ee7f86db36c7bca9aa4828731f43db15dc6c7f5a4c1bbe3d4092a232e8cef010b09cec0581848fda90",
+      "matches_selected_hash": true,
+      "registration_class_continuity": {
+        "class": "vectorwing.farmersdelight.common.registry.ModItems",
+        "previous_filename": "FarmersDelight-1.21.1-1.3.2.jar",
+        "previous_class_sha256": "3b4917565f8d6f5f3ced18846f43dfdf92bc474313a19264db16ef9d4cfc9fbd",
+        "selected_class_sha256": "3b4917565f8d6f5f3ced18846f43dfdf92bc474313a19264db16ef9d4cfc9fbd",
+        "byte_identical": true,
+        "evidence_policy": "Original registration evidence retained because the selected registration class bytes have not changed."
+      }
     },
     "rocketnautics": {
       "metadata_path": "mods/create-cosmonatics.pw.toml",
@@ -77,6 +85,22 @@
       "selected_download": "https://cdn.modrinth.com/data/micg1iTH/versions/HuCMavv8/cosmonautics-26.08.307.jar",
       "hash_format": "sha512",
       "hash": "72ff1be7f31767eb64635a5fd827428410b0899fe5431f951bb4ab2a006ed105bf1cae24b803d51a5b18b067f5f956c493bb827573b22567e204b6b2d84a0de8",
+      "matches_selected_hash": true
+    },
+    "hybrid_aquatic": {
+      "metadata_path": "mods/hybrid-aquatic.pw.toml",
+      "filename": "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar",
+      "selected_download": "https://cdn.modrinth.com/data/HH4FjUqN/versions/jdOU7Pzu/hybrid_aquatic-neoforge-1.21.1-1.7.4.jar",
+      "hash_format": "sha512",
+      "hash": "c71f952db5416b019007c71175c151c443a1724acce20e1a0ed7be9e4c88a68061b5cf18d57625414941928e5a21ac1f141ca922cc45ff627ecad9039e5f2a2b",
+      "matches_selected_hash": true
+    },
+    "oceansdelight": {
+      "metadata_path": "mods/oceans-delight.pw.toml",
+      "filename": "oceansdelight-neoforge-1.0.4-1.21.1.jar",
+      "selected_download": "https://cdn.modrinth.com/data/DGiq4ZSW/versions/ja5Qg1xw/oceansdelight-neoforge-1.0.4-1.21.1.jar",
+      "hash_format": "sha512",
+      "hash": "8079160938175f9d0c1b8f10587c40e3c6b54210511109331f0bb37a845aa90522f60c4e668688e8a0b4023e0464b80d44f50a6af39572fe519d48c9581a9f15",
       "matches_selected_hash": true
     }
   },
@@ -87,6 +111,35 @@
     }
   ],
   "topics": [
+    {
+      "id": "adventure.aquatic",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Aquatic wildlife",
+        "zh_cn": "水生生物"
+      },
+      "icon": "hybrid_aquatic:shark_tooth",
+      "rationale": "Registered item directly represents Aquatic wildlife.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "hybrid_aquatic",
+        "classes": [
+          "dev.hybridlabs.aquatic.item.HAItems",
+          "dev.hybridlabs.aquatic.HybridAquaticForge",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory$Provider"
+        ],
+        "registered_literal": "shark_tooth",
+        "item_registration_calls": [
+          "5232: ldc_w         #4876               // String shark_tooth",
+          "5235: invokedynamic #4880,  0           // InvokeDynamic #252:get:()Ljava/util/function/Supplier;",
+          "5240: invokevirtual #2117               // Method register:(Ljava/lang/String;Ljava/util/function/Supplier;)Ljava/util/function/Supplier;",
+          "5243: putstatic     #1126               // Field SHARK_TOOTH:Ljava/util/function/Supplier;"
+        ],
+        "registration_scope": "HybridAquaticForge static initializer loads HAItems unconditionally. HAItems.register delegates to CommonClass.ITEMS.register. registerSpawnEgg delegates through ForgePlatformHelper.registerSpawnEggItem to the same item provider. ForgeRegistrationFactory.create binds DeferredRegister to the mod event bus, and Provider.register calls DeferredRegister.register. These four item entries are unconditional static registrations, not inferred from models."
+      },
+      "position": 2
+    },
     {
       "id": "adventure.bosses",
       "parent": null,
@@ -226,6 +279,278 @@
         "registered_literal": "stone_bricks"
       },
       "position": 5
+    },
+    {
+      "id": "aquatic.cephalopods",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Squid & octopuses",
+        "zh_cn": "鱿鱼与章鱼"
+      },
+      "icon": "minecraft:squid_spawn_egg",
+      "rationale": "Vanilla squid spawn egg is a thematic representative for Squid & octopuses.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "squid_spawn_egg",
+        "item_registration_calls": [
+          "17850: ldc_w         #6872              // String squid_spawn_egg",
+          "17853: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "17856: dup",
+          "17857: getstatic     #6875              // Field net/minecraft/world/entity/EntityType.SQUID:Lnet/minecraft/world/entity/EntityType;",
+          "17860: ldc_w         #6505              // int 2243405",
+          "17863: ldc_w         #6876              // int 7375001",
+          "17866: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "17869: dup",
+          "17870: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "17873: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "17876: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "17879: putstatic     #6878              // Field SQUID_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 5
+    },
+    {
+      "id": "aquatic.deepwater",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Deepwater fish",
+        "zh_cn": "深水鱼"
+      },
+      "icon": "minecraft:pufferfish_spawn_egg",
+      "rationale": "Vanilla pufferfish spawn egg is a thematic representative for Deepwater fish.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "pufferfish_spawn_egg",
+        "item_registration_calls": [
+          "17434: ldc_w         #6768              // String pufferfish_spawn_egg",
+          "17437: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "17440: dup",
+          "17441: getstatic     #5763              // Field net/minecraft/world/entity/EntityType.PUFFERFISH:Lnet/minecraft/world/entity/EntityType;",
+          "17444: ldc_w         #6421              // int 16167425",
+          "17447: ldc_w         #6769              // int 3654642",
+          "17450: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "17453: dup",
+          "17454: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "17457: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "17460: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "17463: putstatic     #6771              // Field PUFFERFISH_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 2
+    },
+    {
+      "id": "aquatic.freshwater",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Freshwater fish",
+        "zh_cn": "淡水鱼"
+      },
+      "icon": "minecraft:cod_spawn_egg",
+      "rationale": "Vanilla cod spawn egg is a thematic representative for Freshwater fish.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "cod_spawn_egg",
+        "item_registration_calls": [
+          "16350: ldc_w         #6479              // String cod_spawn_egg",
+          "16353: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16356: dup",
+          "16357: getstatic     #5789              // Field net/minecraft/world/entity/EntityType.COD:Lnet/minecraft/world/entity/EntityType;",
+          "16360: ldc_w         #6480              // int 12691306",
+          "16363: ldc_w         #6481              // int 15058059",
+          "16366: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16369: dup",
+          "16370: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16373: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16376: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16379: putstatic     #6483              // Field COD_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 0
+    },
+    {
+      "id": "aquatic.jellyfish",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Jellyfish",
+        "zh_cn": "水母"
+      },
+      "icon": "hybrid_aquatic:barrel_jellyfish_spawn_egg",
+      "rationale": "Registered item directly represents Jellyfish.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "hybrid_aquatic",
+        "classes": [
+          "dev.hybridlabs.aquatic.item.HAItems",
+          "dev.hybridlabs.aquatic.HybridAquaticForge",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory$Provider",
+          "dev.hybridlabs.aquatic.platform.services.ForgePlatformHelper"
+        ],
+        "registered_literal": "barrel_jellyfish_spawn_egg",
+        "item_registration_calls": [
+          "9186: ldc_w         #5839               // String barrel_jellyfish_spawn_egg",
+          "9189: getstatic     #5457               // Field dev/hybridlabs/aquatic/entity/HAEntityTypes.INSTANCE:Ldev/hybridlabs/aquatic/entity/HAEntityTypes;",
+          "9192: invokevirtual #5842               // Method dev/hybridlabs/aquatic/entity/HAEntityTypes.getBARREL_JELLYFISH:()Ldev/hybridlabs/aquatic/platform/registration/RegistryObject;",
+          "9195: checkcast     #2062               // class java/util/function/Supplier",
+          "9198: ldc_w         #5460               // int 16777215",
+          "9201: ldc_w         #5460               // int 16777215",
+          "9204: invokespecial #5462               // Method registerSpawnEgg:(Ljava/lang/String;Ljava/util/function/Supplier;II)Ljava/util/function/Supplier;",
+          "9207: putstatic     #1855               // Field BARREL_JELLYFISH_SPAWN_EGG:Ljava/util/function/Supplier;"
+        ],
+        "registration_scope": "HybridAquaticForge static initializer loads HAItems unconditionally. HAItems.register delegates to CommonClass.ITEMS.register. registerSpawnEgg delegates through ForgePlatformHelper.registerSpawnEggItem to the same item provider. ForgeRegistrationFactory.create binds DeferredRegister to the mod event bus, and Provider.register calls DeferredRegister.register. These four item entries are unconditional static registrations, not inferred from models."
+      },
+      "position": 4
+    },
+    {
+      "id": "aquatic.mammals",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Aquatic mammals",
+        "zh_cn": "水生哺乳动物"
+      },
+      "icon": "minecraft:dolphin_spawn_egg",
+      "rationale": "Vanilla dolphin spawn egg is a thematic representative for Aquatic mammals.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "dolphin_spawn_egg",
+        "item_registration_calls": [
+          "16444: ldc_w         #6501              // String dolphin_spawn_egg",
+          "16447: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16450: dup",
+          "16451: getstatic     #6504              // Field net/minecraft/world/entity/EntityType.DOLPHIN:Lnet/minecraft/world/entity/EntityType;",
+          "16454: ldc_w         #6505              // int 2243405",
+          "16457: ldc_w         #6506              // int 16382457",
+          "16460: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16463: dup",
+          "16464: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16467: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16470: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16473: putstatic     #6508              // Field DOLPHIN_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 7
+    },
+    {
+      "id": "aquatic.marine",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Marine fish & rays",
+        "zh_cn": "海鱼与鳐鱼"
+      },
+      "icon": "minecraft:tropical_fish_spawn_egg",
+      "rationale": "Vanilla tropical fish spawn egg is a thematic representative for Marine fish & rays.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "tropical_fish_spawn_egg",
+        "item_registration_calls": [
+          "18010: ldc_w         #6910              // String tropical_fish_spawn_egg",
+          "18013: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "18016: dup",
+          "18017: getstatic     #5795              // Field net/minecraft/world/entity/EntityType.TROPICAL_FISH:Lnet/minecraft/world/entity/EntityType;",
+          "18020: ldc_w         #6911              // int 15690005",
+          "18023: ldc_w         #6912              // int 16775663",
+          "18026: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "18029: dup",
+          "18030: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "18033: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "18036: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "18039: putstatic     #6914              // Field TROPICAL_FISH_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 1
+    },
+    {
+      "id": "aquatic.seafloor",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Seafloor wildlife",
+        "zh_cn": "海底生物"
+      },
+      "icon": "hybrid_aquatic:starfish_spawn_egg",
+      "rationale": "Registered item directly represents Seafloor wildlife.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "hybrid_aquatic",
+        "classes": [
+          "dev.hybridlabs.aquatic.item.HAItems",
+          "dev.hybridlabs.aquatic.HybridAquaticForge",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory$Provider",
+          "dev.hybridlabs.aquatic.platform.services.ForgePlatformHelper"
+        ],
+        "registered_literal": "starfish_spawn_egg",
+        "item_registration_calls": [
+          "10104: ldc_w         #6009              // String starfish_spawn_egg",
+          "10107: getstatic     #5457              // Field dev/hybridlabs/aquatic/entity/HAEntityTypes.INSTANCE:Ldev/hybridlabs/aquatic/entity/HAEntityTypes;",
+          "10110: invokevirtual #6011              // Method dev/hybridlabs/aquatic/entity/HAEntityTypes.getSTARFISH:()Ldev/hybridlabs/aquatic/platform/registration/RegistryObject;",
+          "10113: checkcast     #2062              // class java/util/function/Supplier",
+          "10116: ldc_w         #5460              // int 16777215",
+          "10119: ldc_w         #5460              // int 16777215",
+          "10122: invokespecial #5462              // Method registerSpawnEgg:(Ljava/lang/String;Ljava/util/function/Supplier;II)Ljava/util/function/Supplier;",
+          "10125: putstatic     #1991              // Field STARFISH_SPAWN_EGG:Ljava/util/function/Supplier;"
+        ],
+        "registration_scope": "HybridAquaticForge static initializer loads HAItems unconditionally. HAItems.register delegates to CommonClass.ITEMS.register. registerSpawnEgg delegates through ForgePlatformHelper.registerSpawnEggItem to the same item provider. ForgeRegistrationFactory.create binds DeferredRegister to the mod event bus, and Provider.register calls DeferredRegister.register. These four item entries are unconditional static registrations, not inferred from models."
+      },
+      "position": 6
+    },
+    {
+      "id": "aquatic.sharks",
+      "parent": "adventure.aquatic.md",
+      "labels": {
+        "en_us": "Sharks",
+        "zh_cn": "鲨鱼"
+      },
+      "icon": "hybrid_aquatic:great_white_shark_spawn_egg",
+      "rationale": "Registered item directly represents Sharks.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "hybrid_aquatic",
+        "classes": [
+          "dev.hybridlabs.aquatic.item.HAItems",
+          "dev.hybridlabs.aquatic.HybridAquaticForge",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory",
+          "dev.hybridlabs.aquatic.platform.services.ForgeRegistrationFactory$Provider",
+          "dev.hybridlabs.aquatic.platform.services.ForgePlatformHelper"
+        ],
+        "registered_literal": "great_white_shark_spawn_egg",
+        "item_registration_calls": [
+          "8781: ldc_w         #5764               // String great_white_shark_spawn_egg",
+          "8784: getstatic     #5457               // Field dev/hybridlabs/aquatic/entity/HAEntityTypes.INSTANCE:Ldev/hybridlabs/aquatic/entity/HAEntityTypes;",
+          "8787: invokevirtual #5767               // Method dev/hybridlabs/aquatic/entity/HAEntityTypes.getGREAT_WHITE_SHARK:()Ldev/hybridlabs/aquatic/platform/registration/RegistryObject;",
+          "8790: checkcast     #2062               // class java/util/function/Supplier",
+          "8793: ldc_w         #5460               // int 16777215",
+          "8796: ldc_w         #5460               // int 16777215",
+          "8799: invokespecial #5462               // Method registerSpawnEgg:(Ljava/lang/String;Ljava/util/function/Supplier;II)Ljava/util/function/Supplier;",
+          "8802: putstatic     #1795               // Field GREAT_WHITE_SHARK_SPAWN_EGG:Ljava/util/function/Supplier;"
+        ],
+        "registration_scope": "HybridAquaticForge static initializer loads HAItems unconditionally. HAItems.register delegates to CommonClass.ITEMS.register. registerSpawnEgg delegates through ForgePlatformHelper.registerSpawnEggItem to the same item provider. ForgeRegistrationFactory.create binds DeferredRegister to the mod event bus, and Provider.register calls DeferredRegister.register. These four item entries are unconditional static registrations, not inferred from models."
+      },
+      "position": 3
     },
     {
       "id": "building.architecture",
@@ -799,6 +1124,312 @@
       "position": 8
     },
     {
+      "id": "creatures.cataclysm",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Cataclysm creatures",
+        "zh_cn": "Cataclysm 生物"
+      },
+      "icon": "minecraft:spider_spawn_egg",
+      "rationale": "Vanilla spider spawn egg is a thematic representative for Cataclysm creatures.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "spider_spawn_egg",
+        "item_registration_calls": [
+          "17818: ldc_w         #6864              // String spider_spawn_egg",
+          "17821: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "17824: dup",
+          "17825: getstatic     #6867              // Field net/minecraft/world/entity/EntityType.SPIDER:Lnet/minecraft/world/entity/EntityType;",
+          "17828: ldc_w         #6868              // int 3419431",
+          "17831: ldc_w         #6467              // int 11013646",
+          "17834: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "17837: dup",
+          "17838: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "17841: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "17844: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "17847: putstatic     #6870              // Field SPIDER_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 7
+    },
+    {
+      "id": "creatures.creepers",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Creeper variants",
+        "zh_cn": "苦力怕变种"
+      },
+      "icon": "minecraft:creeper_spawn_egg",
+      "rationale": "Vanilla creeper spawn egg is a thematic representative for Creeper variants.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "creeper_spawn_egg",
+        "item_registration_calls": [
+          "16414: ldc_w         #6493              // String creeper_spawn_egg",
+          "16417: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16420: dup",
+          "16421: getstatic     #6496              // Field net/minecraft/world/entity/EntityType.CREEPER:Lnet/minecraft/world/entity/EntityType;",
+          "16424: ldc_w         #6497              // int 894731",
+          "16427: iconst_0",
+          "16428: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16431: dup",
+          "16432: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16435: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16438: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16441: putstatic     #6499              // Field CREEPER_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 3
+    },
+    {
+      "id": "creatures.endermen",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Enderman variants",
+        "zh_cn": "末影人变种"
+      },
+      "icon": "minecraft:enderman_spawn_egg",
+      "rationale": "Vanilla enderman spawn egg is a thematic representative for Enderman variants.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "enderman_spawn_egg",
+        "item_registration_calls": [
+          "16604: ldc_w         #6546              // String enderman_spawn_egg",
+          "16607: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16610: dup",
+          "16611: getstatic     #6549              // Field net/minecraft/world/entity/EntityType.ENDERMAN:Lnet/minecraft/world/entity/EntityType;",
+          "16614: ldc_w         #6550              // int 1447446",
+          "16617: iconst_0",
+          "16618: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16621: dup",
+          "16622: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16625: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16628: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16631: putstatic     #6552              // Field ENDERMAN_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 4
+    },
+    {
+      "id": "creatures.friends",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Friends & foes",
+        "zh_cn": "友好与敌对生物"
+      },
+      "icon": "minecraft:allay_spawn_egg",
+      "rationale": "Vanilla allay spawn egg is a thematic representative for Friends & foes.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "allay_spawn_egg",
+        "item_registration_calls": [
+          "15998: ldc_w         #6384              // String allay_spawn_egg",
+          "16001: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16004: dup",
+          "16005: getstatic     #6387              // Field net/minecraft/world/entity/EntityType.ALLAY:Lnet/minecraft/world/entity/EntityType;",
+          "16008: ldc_w         #6388              // int 56063",
+          "16011: ldc_w         #6389              // int 44543",
+          "16014: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16017: dup",
+          "16018: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16021: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16024: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16027: putstatic     #6391              // Field ALLAY_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 1
+    },
+    {
+      "id": "creatures.guards",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Dungeon guards",
+        "zh_cn": "地牢守卫"
+      },
+      "icon": "minecraft:skeleton_spawn_egg",
+      "rationale": "Vanilla skeleton spawn egg is a thematic representative for Dungeon guards.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "skeleton_spawn_egg",
+        "item_registration_calls": [
+          "17658: ldc_w         #6819              // String skeleton_spawn_egg",
+          "17661: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "17664: dup",
+          "17665: getstatic     #6822              // Field net/minecraft/world/entity/EntityType.SKELETON:Lnet/minecraft/world/entity/EntityType;",
+          "17668: ldc_w         #6823              // int 12698049",
+          "17671: ldc_w         #6824              // int 4802889",
+          "17674: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "17677: dup",
+          "17678: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "17681: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "17684: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "17687: putstatic     #6826              // Field SKELETON_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 6
+    },
+    {
+      "id": "creatures.illagers",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Illagers",
+        "zh_cn": "灾厄村民"
+      },
+      "icon": "minecraft:pillager_spawn_egg",
+      "rationale": "Vanilla pillager spawn egg is a thematic representative for Illagers.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "pillager_spawn_egg",
+        "item_registration_calls": [
+          "17370: ldc_w         #6751              // String pillager_spawn_egg",
+          "17373: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "17376: dup",
+          "17377: getstatic     #6754              // Field net/minecraft/world/entity/EntityType.PILLAGER:Lnet/minecraft/world/entity/EntityType;",
+          "17380: ldc_w         #6755              // int 5451574",
+          "17383: ldc_w         #6566              // int 9804699",
+          "17386: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "17389: dup",
+          "17390: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "17393: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "17396: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "17399: putstatic     #6757              // Field PILLAGER_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 8
+    },
+    {
+      "id": "creatures.summons",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Summons",
+        "zh_cn": "召唤生物"
+      },
+      "icon": "minecraft:blaze_spawn_egg",
+      "rationale": "Vanilla blaze spawn egg is a thematic representative for Summons.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "blaze_spawn_egg",
+        "item_registration_calls": [
+          "16126: ldc_w         #6417              // String blaze_spawn_egg",
+          "16129: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16132: dup",
+          "16133: getstatic     #6420              // Field net/minecraft/world/entity/EntityType.BLAZE:Lnet/minecraft/world/entity/EntityType;",
+          "16136: ldc_w         #6421              // int 16167425",
+          "16139: ldc_w         #6422              // int 16775294",
+          "16142: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16145: dup",
+          "16146: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16149: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16152: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16155: putstatic     #6424              // Field BLAZE_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 9
+    },
+    {
+      "id": "creatures.variants",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Hostile variants",
+        "zh_cn": "敌对生物变种"
+      },
+      "icon": "minecraft:zombie_spawn_egg",
+      "rationale": "Vanilla zombie spawn egg is a thematic representative for Hostile variants.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "zombie_spawn_egg",
+        "item_registration_calls": [
+          "18394: ldc_w         #7006              // String zombie_spawn_egg",
+          "18397: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "18400: dup",
+          "18401: getstatic     #7009              // Field net/minecraft/world/entity/EntityType.ZOMBIE:Lnet/minecraft/world/entity/EntityType;",
+          "18404: ldc_w         #6919              // int 44975",
+          "18407: ldc_w         #6524              // int 7969893",
+          "18410: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "18413: dup",
+          "18414: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "18417: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "18420: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "18423: putstatic     #7011              // Field ZOMBIE_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 5
+    },
+    {
+      "id": "creatures.wilderness",
+      "parent": "adventure.creatures.md",
+      "labels": {
+        "en_us": "Wildlife",
+        "zh_cn": "野生动物"
+      },
+      "icon": "minecraft:fox_spawn_egg",
+      "rationale": "Vanilla fox spawn egg is a thematic representative for Wildlife.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "fox_spawn_egg",
+        "item_registration_calls": [
+          "16698: ldc_w         #6571              // String fox_spawn_egg",
+          "16701: new           #6373              // class net/minecraft/world/item/SpawnEggItem",
+          "16704: dup",
+          "16705: getstatic     #6574              // Field net/minecraft/world/entity/EntityType.FOX:Lnet/minecraft/world/entity/EntityType;",
+          "16708: ldc_w         #6575              // int 14005919",
+          "16711: ldc_w         #6576              // int 13396256",
+          "16714: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "16717: dup",
+          "16718: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "16721: invokespecial #6380              // Method net/minecraft/world/item/SpawnEggItem.\"<init>\":(Lnet/minecraft/world/entity/EntityType;IILnet/minecraft/world/item/Item$Properties;)V",
+          "16724: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "16727: putstatic     #6578              // Field FOX_SPAWN_EGG:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 0
+    },
+    {
       "id": "equipment.accessories",
       "parent": "reference.skills.md",
       "labels": {
@@ -859,6 +1490,39 @@
       "position": 2
     },
     {
+      "id": "fishing.habitats",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Fishing habitats",
+        "zh_cn": "钓鱼栖息地"
+      },
+      "icon": "minecraft:salmon",
+      "rationale": "Vanilla salmon is a thematic representative for Fishing habitats.",
+      "provenance": {
+        "kind": "vanilla registration bytecode",
+        "artifact": "/home/tsb/Projects/lucas/aeropunk/server/local-test/data/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar",
+        "artifact_sha256": "26ca9c40d7e1681190b428583c38816852218e78df3f8bdb60a59a78503aec71",
+        "classes": [
+          "net.minecraft.world.item.Items"
+        ],
+        "registered_literal": "salmon",
+        "item_registration_calls": [
+          "14057: ldc_w         #5907              // String salmon",
+          "14060: new           #9                 // class net/minecraft/world/item/Item",
+          "14063: dup",
+          "14064: new           #7                 // class net/minecraft/world/item/Item$Properties",
+          "14067: dup",
+          "14068: invokespecial #1378              // Method net/minecraft/world/item/Item$Properties.\"<init>\":()V",
+          "14071: getstatic     #5909              // Field net/minecraft/world/food/Foods.SALMON:Lnet/minecraft/world/food/FoodProperties;",
+          "14074: invokevirtual #5016              // Method net/minecraft/world/item/Item$Properties.food:(Lnet/minecraft/world/food/FoodProperties;)Lnet/minecraft/world/item/Item$Properties;",
+          "14077: invokespecial #4971              // Method net/minecraft/world/item/Item.\"<init>\":(Lnet/minecraft/world/item/Item$Properties;)V",
+          "14080: invokestatic  #4305              // Method registerItem:(Ljava/lang/String;Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item;",
+          "14083: putstatic     #5911              // Field SALMON:Lnet/minecraft/world/item/Item;"
+        ]
+      },
+      "position": 4
+    },
+    {
       "id": "food.encounters",
       "parent": "reference.food.md",
       "labels": {
@@ -876,7 +1540,7 @@
         ],
         "registered_literal": "rotten_flesh"
       },
-      "position": 7
+      "position": 9
     },
     {
       "id": "food.end",
@@ -896,7 +1560,7 @@
         ],
         "registered_literal": "chorus_fruit"
       },
-      "position": 6
+      "position": 8
     },
     {
       "id": "food.fishing",
@@ -976,7 +1640,7 @@
         ],
         "registered_literal": "smoker"
       },
-      "position": 8
+      "position": 10
     },
     {
       "id": "food.nether",
@@ -995,6 +1659,34 @@
           "net.minecraft.world.level.block.Blocks"
         ],
         "registered_literal": "crimson_fungus"
+      },
+      "position": 7
+    },
+    {
+      "id": "food.seafood",
+      "parent": "reference.food.md",
+      "labels": {
+        "en_us": "Seafood",
+        "zh_cn": "海鲜料理"
+      },
+      "icon": "oceansdelight:cooked_stuffed_squid",
+      "rationale": "Registered item directly represents Seafood.",
+      "provenance": {
+        "kind": "selected mod item registration bytecode",
+        "artifact_namespace": "oceansdelight",
+        "classes": [
+          "com.scouter.oceansdelight.items.ODItems",
+          "com.scouter.oceansdelight.setup.Registration",
+          "com.scouter.oceansdelight.OceansDelight"
+        ],
+        "registered_literal": "cooked_stuffed_squid",
+        "item_registration_calls": [
+          "107: ldc           #174                // String cooked_stuffed_squid",
+          "109: invokedynamic #176,  0            // InvokeDynamic #7:get:()Ljava/util/function/Supplier;",
+          "114: invokevirtual #29                 // Method net/neoforged/neoforge/registries/DeferredRegister$Items.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredItem;",
+          "117: putstatic     #177                // Field COOKED_STUFFED_SQUID:Lnet/neoforged/neoforge/registries/DeferredItem;"
+        ],
+        "registration_scope": "OceansDelight constructor calls Registration.init before its client-only listener branch. Registration.init binds ODItems.ITEMS to the mod event bus. ODItems static initializer registers cooked_stuffed_squid unconditionally through DeferredRegister.Items.register."
       },
       "position": 5
     },
@@ -1016,7 +1708,7 @@
         ],
         "registered_literal": "brown_mushroom"
       },
-      "position": 4
+      "position": 6
     },
     {
       "id": "food.utensils",
