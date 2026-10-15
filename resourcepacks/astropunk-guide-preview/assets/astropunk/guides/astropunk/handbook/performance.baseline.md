@@ -103,6 +103,7 @@ Input processing and background resource use are separate from active-world simu
 | ![Cull Leaves](images/catalog-gnxdlcop.png) [Cull Leaves](performance.baseline.md) | Skips selected hidden leaf geometry. | No separate item search |
 | ![Dynamic FPS](images/catalog-lq3k71q1.png) [Dynamic FPS](performance.baseline.md) | Reduces resource use in the background or while idle. | No separate item search |
 | ![Entity Culling](images/catalog-nnagcjsb.png) [Entity Culling](performance.baseline.md) | Avoids rendering hidden entities and block entities. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [Fast Noise](performance.baseline.md) | Optimizes processor-side terrain generation without graphics acceleration. | No separate item search |
 | ![FerriteCore](images/catalog-uxxizfis.png) [FerriteCore](performance.baseline.md) | Reduces memory use. | No separate item search |
 | ![Flerovium](images/catalog-4rh1mobu.png) [Flerovium](performance.baseline.md) | Optimizes item, particle and entity rendering. | No separate item search |
 | ![ImmediatelyFast](images/catalog-5zwdcrci.png) [ImmediatelyFast](performance.baseline.md) | Optimizes immediate-mode rendering. | No separate item search |

@@ -1,8 +1,8 @@
 # Space travel titles
 
-Release `0.14.1-dev` adds a Paxi resource pack, `astropunk-space-titles`, with Traveler's Titles language entries for Luna, Mars and Deep Space, plus all seven lunar and three Martian biome definitions in the selected releases. English and Simplified Chinese are supplied.
+The Paxi resource pack `astropunk-space-titles` supplies Traveler's Titles names for Luna, Deep Space and all seven lunar biomes in English and Simplified Chinese. The earlier Mars entries were retired with Create Cosmonautics Expansion.
 
-The selected Cosmonautics and Expansion English language files lack biome names, and Traveler's Titles 5.1.3 lacks their dimension titles. Upstream documents resource-pack title customization; its 1.21 render manager skips biomes with no translation and uses question marks for unnamed dimensions. These omissions explain missing biome names but do not establish every cause of a title failing to display in Lucas's running installation.
+The selected Cosmonautics English language files lack biome names, and Traveler's Titles 5.1.3 lacks their dimension titles. Upstream documents resource-pack title customization; its 1.21 render manager skips biomes with no translation and uses question marks for unnamed dimensions. These omissions explain missing biome names but do not establish every cause of a title failing to display in Lucas's running installation.
 
 Use Traveler's Titles-specific biome keys rather than renaming biomes globally. No new mods, colors, sounds, gameplay changes or title setting overrides are introduced. Lunar Terrae, Lunar Maria and Lunar Megaregolith use geological terminology. Other biome names describe the existing content rather than claiming that randomly generated features correspond to named real-world locations. Luna is a conventional Latin name, not a claim that the Moon lacks an official common name.
 

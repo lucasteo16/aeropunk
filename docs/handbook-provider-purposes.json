@@ -1279,10 +1279,6 @@
     "en_us": "Adds orbital flight, the Moon, rocket and breathing equipment, and a planetary display.",
     "zh_cn": "新增轨道飞行、月球、火箭与呼吸装备，以及行星展示。"
   },
-  "mods/create-cosmonautics-expansion.pw.toml": {
-    "en_us": "Adds Mars terrain with plains, frostlands and underground caves.",
-    "zh_cn": "新增火星地貌，包括平原、冻原与地下洞穴。"
-  },
   "mods/cosmonautics-deep-air.pw.toml": {
     "en_us": "Connects sealed Deep Seas compartments to space breathing and powered artificial gravity.",
     "zh_cn": "将 Deep Seas 密封舱室连接到太空呼吸与供能人工重力功能。"
@@ -1358,5 +1354,21 @@
   "mods/tidal-towns.pw.toml": {
     "en_us": "Adds ocean settlements and their building variants.",
     "zh_cn": "加入海洋聚落与不同建筑变体。"
+  },
+  "mods/dimworldborder.pw.toml": {
+    "en_us": "Manages independent physical borders for each dimension.",
+    "zh_cn": "为各个维度管理独立的实体边界。"
+  },
+  "mods/zfastnoise.pw.toml": {
+    "en_us": "Optimizes processor-side terrain generation without graphics acceleration.",
+    "zh_cn": "优化处理器端地形生成，无需图形加速。"
+  },
+  "mods/aero-player-tilt.pw.toml": {
+    "en_us": "Aligns player orientation and falling behavior with Sable sublevels.",
+    "zh_cn": "调整玩家朝向及下落行为，使其适应 Sable 子空间。"
+  },
+  "mods/aero_cam_sync.pw.toml": {
+    "en_us": "Synchronizes the camera with rotating Sable ships.",
+    "zh_cn": "让镜头与旋转的 Sable 飞船同步。"
   }
 }

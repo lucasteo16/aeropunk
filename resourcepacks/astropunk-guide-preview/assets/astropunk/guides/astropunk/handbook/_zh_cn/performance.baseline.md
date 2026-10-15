@@ -101,6 +101,7 @@ navigation:
 | ![Cull Leaves](images/catalog-gnxdlcop.png) [Cull Leaves](performance.baseline.md) | 跳过部分不可见的树叶几何面。 | 无独立物品查询 |
 | ![Dynamic FPS](images/catalog-lq3k71q1.png) [Dynamic FPS](performance.baseline.md) | 降低后台或空闲时的资源使用。 | 无独立物品查询 |
 | ![Entity Culling](images/catalog-nnagcjsb.png) [Entity Culling](performance.baseline.md) | 避免渲染被遮挡的实体与方块实体。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [Fast Noise](performance.baseline.md) | 优化处理器端地形生成，无需图形加速。 | 无独立物品查询 |
 | ![FerriteCore](images/catalog-uxxizfis.png) [FerriteCore](performance.baseline.md) | 减少内存占用。 | 无独立物品查询 |
 | ![Flerovium](images/catalog-4rh1mobu.png) [Flerovium](performance.baseline.md) | 优化物品、粒子与实体渲染。 | 无独立物品查询 |
 | ![ImmediatelyFast](images/catalog-5zwdcrci.png) [ImmediatelyFast](performance.baseline.md) | 优化即时模式渲染。 | 无独立物品查询 |

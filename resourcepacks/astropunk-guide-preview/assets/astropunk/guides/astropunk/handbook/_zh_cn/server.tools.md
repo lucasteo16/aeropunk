@@ -52,6 +52,7 @@ Configured Defaults 在文件缺失时提供初始文件。已有玩家设置与
 | --- | --- | --- |
 | ![Chunky](images/catalog-falzjamp.png) [Chunky](server.tools.md) | 在探索前预先生成地形。 | 无独立物品查询 |
 | ![Configured Defaults](images/catalog-sisosfpp.png) [Configured Defaults](server.tools.md) | 为缺失文件提供整合包默认设置。 | 无独立物品查询 |
+| <ItemImage id="minecraft:redstone" /> [DimWorldBorder](server.tools.md) | 为各个维度管理独立的实体边界。 | 无独立物品查询 |
 | ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | 用于定位服务器耗时处理。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [Paxi](server.tools.md) | 加载共享数据包，包括自动设置太空世界边界的数据包。 | 无独立物品查询 |
 | ![spark](images/catalog-l6yh9als.png) [spark](server.tools.md) | 分析客户端与服务器性能。 | 无独立物品查询 |
