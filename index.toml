@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "IDEA.md"
-hash = "ffb5e76597963286d9434b0b8f6ba307b49741198c8e15ac9d9d1aaab609bf25"
+file = "config/EasyAuth/main.conf"
+hash = "cc9340267d770a8df2cebe8e6d6d3e9e9815be1be79ac5cfe927988904e3c606"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -1373,6 +1373,10 @@ file = "configureddefaults/options.txt"
 hash = "69726497fedec9622ae54cb4b202fff6dd6eef44953f3bedef2ca2a56e14a145"
 
 [[files]]
+file = "configureddefaults/servers.dat"
+hash = "7dd0a594273b5393f78985a9df0a8f37548009ccb42c6a733dfd7b9d45e96159"
+
+[[files]]
 file = "icon.png"
 hash = "c93330ce8fdbbf883a3cd7e7df047b524160fa35a9e6c85b5b47b8dcb3cb88f9"
 
@@ -1988,6 +1992,11 @@ metafile = true
 [[files]]
 file = "mods/easy-shulker-boxes.pw.toml"
 hash = "9f96f136c61af30a45a3c85588d8906ae8031b58316ae70d16930c01fd211ed6"
+metafile = true
+
+[[files]]
+file = "mods/easyauth.pw.toml"
+hash = "9bdb1c8248c8f8c9e1eacf8ed8b0db0bb6d6916f6cedae2bec6083c54f242677"
 metafile = true
 
 [[files]]

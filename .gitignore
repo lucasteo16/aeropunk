@@ -63,3 +63,9 @@ Thumbs.db
 # Local task outputs and metadata.
 /reports/
 /.archive/
+
+# Host-owned authentication secrets and account databases.
+/config/EasyAuth/technical.conf*
+/config/EasyAuth/storage.conf*
+/EasyAuth/
+/easyauth.db*

@@ -43,6 +43,7 @@ options.txt
 !configureddefaults/options.txt
 !configureddefaults/config/fancymenu/options.txt
 servers.dat
+!configureddefaults/servers.dat
 servers.dat_old
 .DS_Store
 Thumbs.db
@@ -54,3 +55,9 @@ justfile
 .agents/
 .codex/
 .aws/
+
+# Host-owned authentication secrets and account databases.
+config/EasyAuth/technical.conf*
+config/EasyAuth/storage.conf*
+/EasyAuth/
+easyauth.db*
