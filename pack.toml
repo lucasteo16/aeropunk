@@ -1,6 +1,6 @@
-name = "Astropunk Admin Worldgen"
+name = "Astropunk"
 author = "Lucas"
-version = "0.15.1-worldgen"
+version = "0.15.3-worldgen"
 pack-format = "packwiz:1.1.0"
 
 [index]

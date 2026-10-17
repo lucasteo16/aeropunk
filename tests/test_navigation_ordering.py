@@ -107,7 +107,8 @@ class SemanticOrdering(unittest.TestCase):
         baseline_metadata = {p for p in paths if p.endswith('.pw.toml')}
         pack = tomllib.loads((ROOT / 'pack.toml').read_text())
         heavy_metadata = set()
-        if pack['name'] == 'Astropunk Heavy':
+        self.assertEqual(pack['name'], 'Astropunk')
+        if pack['version'].endswith('-h'):
             original_heavy = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
                 '3366e71', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
             original_shared = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
@@ -117,8 +118,12 @@ class SemanticOrdering(unittest.TestCase):
             self.assertEqual(len(heavy_metadata), 18)
         actual = {p.relative_to(ROOT).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks')
                   for p in (ROOT / folder).glob('*.pw.toml')}
-        worldgen_metadata = {'mods/c2me-ocl.pw.toml'} if pack['name'] == 'Astropunk Admin Worldgen' else set()
-        self.assertEqual(actual, baseline_metadata | heavy_metadata | worldgen_metadata)
+        edition_metadata = set()
+        if pack['version'].endswith('-worldgen'):
+            edition_metadata = {'mods/c2me-ocl.pw.toml'}
+        elif pack['version'].endswith('-hosting'):
+            edition_metadata = {'mods/easyauth.pw.toml'}
+        self.assertEqual(actual, baseline_metadata | heavy_metadata | edition_metadata)
         for path in paths:
             self.assertEqual((ROOT / path).read_bytes(), subprocess.check_output(
                 ['git', 'show', baseline_commit + ':' + path], cwd=ROOT), path)
