@@ -1,5 +1,17 @@
 # Astropunk editions
 
+## Current release and storage policy
+
+The current release family is 0.15.3. Every branch uses the display name `Astropunk`; edition suffixes belong to versions and artifact filenames, not the name. Minecraft remains 1.21.1 with NeoForge 21.1.259. This maintenance release does not update selected mods.
+
+Shared changes are integrated in `dev` and promoted to `main`. `main-heavy` and `admin/hosting` inherit `main`; `admin/worldgen` inherits `dev`. Handbook changes enter `dev` through `test/guide`, which is synchronized back to the current development baseline. Edition-only additions never merge upstream.
+
+Use `just export-modrinth`, `just export-curseforge` and `just export-server` for native distributions. Successful standard exports validate archive integrity and embedded identity, then retain the newest two version groups in that worktree's `dist`. Custom output locations do not prune `dist`. `just retain-releases` previews removal; `just retain-releases --keep 1 --apply` performs an explicitly requested latest-only cleanup after release validation. Unknown filenames, worlds and caches are not retention targets. A failed export does not trigger retention. This bounds completed versions, not the formats produced for each version.
+
+Keep source in Git, current user deliverables in `dist`, disposable intermediate work in `build`, and the latest diagnostic evidence in ignored `reports`. Preserve the native packwiz cache for rebuilding. `just clean` removes scoped temporary runs and Python bytecode, not user worlds or distributions. Historical definitions can be checked out in a separate worktree and exported again, subject to publisher download availability.
+
+The preparation workspace contains only the protected original archive, `manual-server.zip`, the cleaned `initial-save` folder and its world-root archive, and one short README. Personal launcher instances and remote server data are outside this cleanup policy. Older release notes below are historical, not the current deployment state.
+
 ## Handbook visual review
 
 The retained guide branch has a local `0.11.1-g` review package based on development commit `43ffb9f`. Fishing and most substantial subpages now use authentic subject images from publisher descriptions and galleries. Creatures has focused family pages, and Aquatic wildlife has separate fish, shark, jellyfish, cephalopod, seafloor and mammal catalogs. The latest image feedback adds twenty assets across nineteen topics, including orbital flight above Earth, Tempad, cannons, radar, enchanting, materials, fluid supply, rotation, Jade, Carry On and every Appearance subpage. Martial classes and Aquatic wildlife reuse existing family images. Native item references and recipe searches are retained. The handbook authoring standard now records the visual-first subpage rule.
