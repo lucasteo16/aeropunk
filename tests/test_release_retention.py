@@ -109,3 +109,9 @@ class ReleaseRetentionTests(unittest.TestCase):
         path = self.artifact('0.15.3')
         with self.assertRaises(zipfile.BadZipFile):
             retention.verify_export(path, '0.15.3')
+
+    def test_live_role_is_not_parsed_as_part_of_version(self):
+        for name in ['astropunk-0.15.3-hosting-live-server.zip',
+                     'astropunk-0.15.3-hosting-live-client.mrpack',
+                     'astropunk-0.15.3-hosting-live-server']:
+            self.assertEqual(retention.ARTIFACT.fullmatch(name)['version'], '0.15.3-hosting')
