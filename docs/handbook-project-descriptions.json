@@ -1565,12 +1565,6 @@
     "url": "https://modrinth.com/project/66VIiT1y",
     "source": "Modrinth publisher description"
   },
-  "mods/vanilla-backpacks.pw.toml": {
-    "name": "Backpacks!",
-    "description": "Dyeable and upgradeable vanilla-friendly backpacks!",
-    "url": "https://modrinth.com/project/MGcd6kTf",
-    "source": "Modrinth publisher description"
-  },
   "mods/variants-and-ventures.pw.toml": {
     "name": "Variants&Ventures",
     "description": "Adds multiple new mob variants seamlessly integrated into your Minecraft world.",
@@ -1886,5 +1880,17 @@
     "description": "Several pieces of driftwood have been gathered to form a village that floats on the waves.",
     "url": "https://modrinth.com/project/EEIwvQVo",
     "source": "Modrinth publisher description"
+  },
+  "mods/sophisticated-backpacks.pw.toml": {
+    "name": "Sophisticated Backpacks",
+    "description": "Adds dyeable backpacks with storage tiers and selected utility upgrades.",
+    "url": "https://modrinth.com/project/TyCTlI4b",
+    "source": "Selected local metadata and approved pack scope, not a publisher quotation"
+  },
+  "mods/sophisticated-backpacks-create-integration.pw.toml": {
+    "name": "Sophisticated Backpacks Create Integration",
+    "description": "Connects backpacks to native Create contraptions. Sable vehicle support is unverified.",
+    "url": "https://modrinth.com/project/s85zLEDe",
+    "source": "Selected local metadata and approved pack scope, not a publisher quotation"
   }
 }

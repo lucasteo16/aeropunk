@@ -91,7 +91,6 @@ navigation:
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | ![Almost Unified](images/catalog-sdasaqez.png) [Almost Unified](machines.ore-processing.md) | Unifies only shared andesite alloy and zinc sheet recipe materials. | No separate item search |
-| ![Backpacks!](images/catalog-mgcd6ktf.png) [Backpacks!](storage.portable.md) | Adds dyeable, upgradeable backpacks for portable storage. | <EmiSearch query="backpack" /> |
 | ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Adds rotational machines for processing, transport and automated construction. | <EmiSearch query="@create" /> |
 | ![Create Stuff 'N Additions](images/catalog-aq9quuqg.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | Adds Create-themed powered equipment and wearable tools. | <EmiSearch query="@create_sa" /> |
 | ![Create: Additional Logistics](images/catalog-czaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | Expands Create package handling with shop registers and improved factory stock controls. | <EmiSearch query="@createadditionallogistics" /> |
@@ -112,5 +111,7 @@ navigation:
 | ![Mouse Tweaks](images/catalog-ac3cm3vq.png) [Mouse Tweaks](storage.handling.md) | Adds mouse-drag and scrolling shortcuts for moving inventory stacks. | No separate item search |
 | ![Reinforced Shulker Boxes](images/catalog-xlowusdn.png) [Reinforced Shulker Boxes](storage.portable.md) | Adds upgraded shulker boxes with larger storage capacity. | <EmiSearch query="@reinfshulker" /> |
 | ![Shulker Drops Two](images/catalog-ujxiyw47.png) [Shulker Drops Two](storage.portable.md) | Changes shulker shell drop counts and chances, including two-shell drops. | No separate item search |
+| <ItemImage id="minecraft:chest" /> [Sophisticated Backpacks](storage.portable.md) | Adds dyeable backpacks with storage tiers and selected utility upgrades. | <EmiSearch query="@sophisticatedbackpacks" /> |
+| <ItemImage id="minecraft:chest" /> [Sophisticated Backpacks Create Integration](storage.portable.md) | Connects backpacks to native Create contraptions. Sable vehicle support is unverified. | No separate item search |
 | ![Sophisticated Inventory Interactions](images/catalog-orgy0jio.png) [Sophisticated Inventory Interactions](storage.handling.md) | Adds sorting, searching and transfer controls to supported inventory screens. | No separate item search |
 | ![TrashSlot](images/catalog-vryk0bv7.png) [TrashSlot](storage.handling.md) | Adds an inventory trash slot for discarding unwanted items. | No separate item search |

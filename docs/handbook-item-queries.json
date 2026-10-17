@@ -1519,14 +1519,6 @@
     "en_us": [],
     "zh_cn": []
   },
-  "mods/vanilla-backpacks.pw.toml": {
-    "en_us": [
-      "backpack"
-    ],
-    "zh_cn": [
-      "背包"
-    ]
-  },
   "mods/variants-and-ventures.pw.toml": {
     "en_us": [
       "@variantsandventures"
@@ -1838,6 +1830,18 @@
     "zh_cn": []
   },
   "mods/aero_cam_sync.pw.toml": {
+    "en_us": [],
+    "zh_cn": []
+  },
+  "mods/sophisticated-backpacks.pw.toml": {
+    "en_us": [
+      "@sophisticatedbackpacks"
+    ],
+    "zh_cn": [
+      "@sophisticatedbackpacks"
+    ]
+  },
+  "mods/sophisticated-backpacks-create-integration.pw.toml": {
     "en_us": [],
     "zh_cn": []
   }
