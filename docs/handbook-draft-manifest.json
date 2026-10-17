@@ -6,7 +6,7 @@
   "root_page_count": 18,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 323,
+  "installed_content_count": 324,
   "heavy_content_count": 20,
   "baseline_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
   "deferred_content_count": 0,
@@ -183,7 +183,8 @@
         "mods/easy-shulker-boxes.pw.toml",
         "mods/reinforced-shulker-boxes.pw.toml",
         "mods/shulker-drops-two.pw.toml",
-        "mods/vanilla-backpacks.pw.toml"
+        "mods/sophisticated-backpacks.pw.toml",
+        "mods/sophisticated-backpacks-create-integration.pw.toml"
       ]
     },
     {
@@ -5304,16 +5305,29 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/vanilla-backpacks.pw.toml",
-      "name": "Backpacks!",
+      "metadata_path": "mods/sophisticated-backpacks.pw.toml",
+      "name": "Sophisticated Backpacks",
       "availability": "baseline",
       "category": "Storage and logistics",
       "topic": "storage.portable",
       "indexed": true,
-      "player_mention_written": false,
+      "player_mention_written": true,
       "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/sophisticated-backpacks-create-integration.pw.toml",
+      "name": "Sophisticated Backpacks Create Integration",
+      "availability": "baseline",
+      "category": "Storage and logistics",
+      "topic": "storage.portable",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
       "links_checked": false
     },
     {

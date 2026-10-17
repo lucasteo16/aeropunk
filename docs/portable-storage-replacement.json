@@ -1,0 +1,59 @@
+{
+  "scope": "Approved shared replacement of Backpacks! with Sophisticated Backpacks and its Create integration, promoted through development to all six editions.",
+  "content_source": "docs/handbook-content.json#storage.portable",
+  "selected_artifact_evidence": "docs/guide-coverage.json#inventory contains selected filenames, provider versions, source URLs and download hashes. All three selected backpack, Create integration and Core artifact SHA-512 hashes were verified against cached release artifacts.",
+  "backpack_tiers": ["backpack", "copper_backpack", "iron_backpack", "gold_backpack", "diamond_backpack", "netherite_backpack"],
+  "storage_slots": [9, 18, 27, 36, 45, 54],
+  "upgrade_slots": [1, 1, 2, 2, 3, 3],
+  "shulker_storage_slots_unchanged": [27, 45, 54, 81, 108, 108],
+  "recipe_sources": {
+    "sophisticatedbackpacks:backpack": "Selected backpack artifact, data/sophisticatedbackpacks/recipe/backpack.json",
+    "sophisticatedbackpacks:copper_backpack": "Selected backpack artifact, data/sophisticatedbackpacks/recipe/copper_backpack.json",
+    "sophisticatedbackpacks:iron_backpack": "config/paxi/datapacks/astropunk-backpacks/data/sophisticatedbackpacks/recipe/iron_backpack.json, now requires a copper backpack",
+    "sophisticatedbackpacks:iron_backpack_from_copper": "Selected backpack artifact, retained alternate copper-to-iron recipe",
+    "sophisticatedbackpacks:gold_backpack": "Selected backpack artifact, requires iron backpack",
+    "sophisticatedbackpacks:diamond_backpack": "config/paxi/datapacks/astropunk-backpacks/data/sophisticatedbackpacks/recipe/diamond_backpack.json, requires gold backpack and a shulker shell",
+    "sophisticatedbackpacks:netherite_backpack": "Selected backpack artifact, retains diamond backpack, netherite upgrade smithing template and netherite ingot",
+    "sophisticatedbackpacks:upgrade_base": "config/paxi/datapacks/astropunk-backpacks/data/sophisticatedbackpacks/recipe/upgrade_base.json, Create brass replaces iron in the native crafting layout",
+    "sophisticatedbackpacks:crafting_upgrade": "Selected backpack artifact, minecraft:crafting_shaped, displayed native recipe"
+  },
+  "allowed_modules": [
+    "sophisticatedbackpacks:crafting_upgrade",
+    "sophisticatedbackpacks:stonecutter_upgrade",
+    "sophisticatedbackpacks:tool_swapper_upgrade",
+    "sophisticatedbackpacks:refill_upgrade",
+    "sophisticatedbackpacks:feeding_upgrade",
+    "sophisticatedbackpacks:jukebox_upgrade",
+    "sophisticatedbackpacks:chipped/botanist_workbench_upgrade",
+    "sophisticatedbackpacks:chipped/glassblower_upgrade",
+    "sophisticatedbackpacks:chipped/carpenters_table_upgrade",
+    "sophisticatedbackpacks:chipped/mason_table_upgrade",
+    "sophisticatedbackpacks:chipped/loom_table_upgrade",
+    "sophisticatedbackpacks:chipped/alchemy_bench_upgrade",
+    "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
+  ],
+  "upgrade_base_role": "Crafting ingredient, not an additional installable module.",
+  "artwork": "Removed the retired mod's visual-worn-backpacks.png image from both current article bodies. The image file and historical provenance records remain unchanged. New provider rosters use the generator's meaningful storage icon fallback rather than relabeling old publisher artwork.",
+  "migration": "Empty all old backpacks before removing Backpacks!. No automatic conversion.",
+  "integration_boundary": "Create addon targets native Create contraptions. Sable vehicle compatibility is not verified.",
+  "focused_checks": {
+    "generator": "Passed. A second run left documentation and resourcepack bytes unchanged.",
+    "unchanged_other_authored_topics": 127,
+    "selected_artifact_hashes": 3,
+    "native_item_models_and_language_keys": 20,
+    "native_references_and_links": "Identical ordered references and links across both article locales.",
+    "allowed_module_catalog": "Exactly 13 modules plus Upgrade Base as an ingredient.",
+    "live_provider_metadata": "Checklist, purposes, queries, selected inventory and coverage totals agree. No obsolete provider paths remain in live generator inputs.",
+    "generated_page_scope": "Only storage.portable.md and reference.machines-storage.md changed, in English and Simplified Chinese.",
+    "whitespace": "git diff --check passed for docs and resourcepacks."
+  },
+  "validation": {
+    "targeted_source_checks": "Five backpack balance and recipe checks passed before the final packaging changes.",
+    "archive": "Development native export checked for the six approved capacities and final linked-storage restriction.",
+    "automated_startup": "The isolated run loaded the new mods and datapack without backpack recipe errors but exceeded its readiness deadline during spawn preparation. It is not a passing lifecycle check.",
+    "hosted_acceptance": "Lucas applied the supplied backpack patch directly to his hosting server, reported that it works, and authorized synchronization and publication.",
+    "test_policy": "Further game and server testing remains with Lucas. No repeated startup or full suite for promotion."
+  },
+  "not_run": ["Released parser", "Full test suite"],
+  "remaining": "Sable vehicle integration and the broad set of utility-module interactions are not independently verified."
+}

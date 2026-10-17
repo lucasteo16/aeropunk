@@ -805,6 +805,22 @@ file = "config/ok_zoomer/config.json5"
 hash = "32b13b2ce8cab76c065b5da73e392a0ab4117987e1e1af95899421af25c15d0d"
 
 [[files]]
+file = "config/paxi/datapacks/astropunk-backpacks/data/sophisticatedbackpacks/recipe/diamond_backpack.json"
+hash = "6c8e750521a567b6c20ce4e26a29ce4f48ac5ddcc29f10bbd406734561c25139"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-backpacks/data/sophisticatedbackpacks/recipe/iron_backpack.json"
+hash = "729f2109d9def198fc7734afeb7cdb813141fddf8be4ebb79c85ff4c1714602f"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-backpacks/data/sophisticatedbackpacks/recipe/upgrade_base.json"
+hash = "3b44f6a84512f824b83efafb4f693e67f591e7b1610504bef8479de9df7b08f3"
+
+[[files]]
+file = "config/paxi/datapacks/astropunk-backpacks/pack.mcmeta"
+hash = "eba7b8b96c10875be54b94b5c68262ebf13eab640bdc2935887b74431b63dc96"
+
+[[files]]
 file = "config/paxi/datapacks/astropunk-border/data/astropunk/function/world_border.mcfunction"
 hash = "3093b87e64eeb57f1bab6afe380ec71e15beb22dc27dcecb0295de149e53e093"
 
@@ -1137,12 +1153,20 @@ file = "config/solonion.json"
 hash = "c8a4142ea7d78ba01f0c6464baeebebd7be8e958c3ae40ecfd9ad6ad80b5b029"
 
 [[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "76e38b490c5271abaeb9247ea4220537aba658760c7b957c802fb83556096e6a"
+
+[[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "b550eb25dea1767dda622e9920b54c8ff51de152b1de9ce5bc61a018784cc084"
+
+[[files]]
 file = "config/sophisticatedcore-client.toml"
 hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "cda9496c67522f39d052483497de21d2b26ef268b6b85753d3e959c2fa9ebbda"
+hash = "2650a7ea911ffe27d1e7888895a6dba1620c72103e4235efd09e9b9c52754bc5"
 
 [[files]]
 file = "config/sophisticatedinventoryinteractions-client.toml"
@@ -2702,8 +2726,18 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "62763719713397981d04896274e48579e8d425d23bf2f1999184072aea53e193"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "cf899b372caf49c623f31d0ee62be4ca08b44e12f05a643fc7b84608b8dcb40a"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "7225aa153f0c2b765736adf1e91776af1aa95cd1e545e66a2b9d46f97aa7c7ac"
+hash = "e4bdcd14cc0c3ebd4f44c55082901a76bb7ccebe155f5b0c971f0a99e4062821"
 metafile = true
 
 [[files]]
@@ -2864,11 +2898,6 @@ metafile = true
 [[files]]
 file = "mods/universal-bone-meal.pw.toml"
 hash = "36451170388b68c89ba69f5f2bd4fd283d1811a3d9b5e31281a424f9ca6f61a7"
-metafile = true
-
-[[files]]
-file = "mods/vanilla-backpacks.pw.toml"
-hash = "964698655c77bbfdef18ea9b86ceb3163cef36a06326b1a91710bde0a03ea8bf"
 metafile = true
 
 [[files]]
@@ -3379,7 +3408,7 @@ hash = "b8b53f68e33cf5977bcb0cff60ad2de5a16a42829e81745df5a428b8486ab40e"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.machines-storage.md"
-hash = "c62e4cc15efdb3442caf52636ea8fa0f3adfc535ab053c4fc34f8eae42a7c893"
+hash = "bdf655dfbb2afd860c5730bcadae11bc814f0933419b272569383652189869b5"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/reference.skills.md"
@@ -3423,7 +3452,7 @@ hash = "a547e1aeeee6ba86f0a156983b53cb8810f3dc34909be40582ff6fc38d806b0c"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/storage.portable.md"
-hash = "c6813350bcceea344de4e4938b1891549ea5d898841191912f50bbcf55de890b"
+hash = "fcb9df23229468be97427dddf0034db29c36c736517569076955226f6403ddf3"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/_zh_cn/technical.bridges.md"
@@ -5739,7 +5768,7 @@ hash = "b10a34136574e307457e98efcf83e6752c01fb88ce6b8701060ec3e76f2e917b"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.machines-storage.md"
-hash = "dad39eb90bbe0adb75cb22cfe6baa4307f39736ab1b8b4e37f8be90af0adfc39"
+hash = "463df5fce454c195b5063687550f44b0c32d0a4abba4cf001648b5c0429c1ee7"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/reference.skills.md"
@@ -5783,7 +5812,7 @@ hash = "30e72e352875f032f3fb7d3b27a45b7d0a0d12102782ab61a23c541d0873cdca"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/storage.portable.md"
-hash = "2e9dbd7d4279ecfe0337be3aa611bf35dd51cb01ac94efae95f94aaf96d971a8"
+hash = "2c00c3e493b90edfa8efbf15d26d84d483430c1c338e80a66c1dba010ea73175"
 
 [[files]]
 file = "resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook/technical.bridges.md"
