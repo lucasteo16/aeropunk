@@ -9,7 +9,7 @@ import zipfile
 
 
 ARTIFACT = re.compile(
-    r'^astropunk-(?P<version>\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?)'
+    r'^astropunk-(?P<version>\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+?)?)'
     r'-(?:live-client|live-server|modrinth|curseforge|server|standalone)(?:\.mrpack|\.zip)?$'
 )
 
