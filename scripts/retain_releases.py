@@ -16,7 +16,14 @@ ARTIFACT = re.compile(
 
 def version_key(version):
     base, _, suffix = version.partition('-')
-    return (*map(int, base.split('.')), suffix)
+    identifiers = tuple((0, int(part)) if part.isdigit() else (1, part)
+                        for part in suffix.split('.')) if suffix else ()
+    return (*map(int, base.split('.')), not bool(suffix), identifiers)
+
+
+def is_standard_output(path, expected):
+    match = ARTIFACT.fullmatch(path.name)
+    return match is not None and match['version'] == expected
 
 
 def verify_export(path, expected):
@@ -89,10 +96,10 @@ if __name__ == '__main__':
     root = Path(__file__).resolve().parents[1]
     if args.after_export:
         path = args.after_export.resolve()
+        expected = tomllib.loads((root / 'pack.toml').read_text())['version']
         # Custom export destinations do not authorize cleaning the standard dist.
-        if path.parent != root / 'dist':
+        if path.parent != root / 'dist' or not is_standard_output(path, expected):
             print('Custom output: standard distribution retention skipped')
             raise SystemExit(0)
-        expected = tomllib.loads((root / 'pack.toml').read_text())['version']
         verify_export(path, expected)
     prune(root, args.keep, args.apply)
