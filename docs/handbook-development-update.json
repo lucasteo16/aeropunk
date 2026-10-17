@@ -1,0 +1,86 @@
+{
+  "guide_parent_commit": "e8ed0394259f8e4756fa7858ee3ab708f580c639",
+  "development_baseline_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
+  "scope": "Ship orientation, independent dimension borders, processor generation, adaptive distant terrain transfer and current space labels. Existing Mars surface retirement retained.",
+  "topic_sha256": {
+    "help.controls": {
+      "before": "2fbdec3e3f36629b90392f529c7b699f099ac20194bc792f320afb5150ec6517",
+      "after": "e50738c0a4bf735070ab09d97f146dc5890cb99c0256413da85a5f4b9a2b2637"
+    },
+    "performance.baseline": {
+      "before": "7ed581eb2d747c960c215a91ac47e3bf2c426883d6988902da453154f0f97382",
+      "after": "7ce4de2e6210c863dc9dfd149a1f55af239f51cce78245ead1f2768285283873"
+    },
+    "server.tools": {
+      "before": "bd05e6c146d1f736016db2a7dfb92c8713b62ec55f2b14a22033b6c2e91f3e57",
+      "after": "22868b084e0841acd1035c1d5470ff2946f625ed43b4a5d71b22cbe165162444"
+    },
+    "vehicles.airships": {
+      "before": "5784c517b117c6638060f2f826e4e21f25ace452c92e02a05dfd5c29e70ec8a0",
+      "after": "50221d4f5e7cdb129573fa78bbd1447a6f7381d61d537de5e9bb74faeb9b4590"
+    },
+    "visuals.camera": {
+      "before": "6cf24ca2735a3b54f49dcab107e1f3bee486e8075399ff723f37527801b1c2a3",
+      "after": "671a07a87cbd8247b749b8b51d300b6836886792c539989b5fec5ecfae4ffeb9"
+    },
+    "visuals.lighting": {
+      "before": "d73aae709b94d3709cacc64e6d8ba57a5957eca274f683203f647ca1923a421e",
+      "after": "d7583dff47f99578ecdd2837e91c1b6827acb4af17e644561efe1e42a0b263b5"
+    },
+    "world.dimensions": {
+      "before": "03586e3f107257829dc18ff7bfaa3fb44295c912bc2438c4277026fb1fd31387",
+      "after": "47fd02b8ddc2c7cbda76d2f5a8536107acbc6c9728d0c21680f43ea4daa0723e"
+    }
+  },
+  "orientation_artifacts": [
+    {
+      "metadata_path": "mods/aero_cam_sync.pw.toml",
+      "filename": "aero_cam_sync-1.4.0.jar",
+      "hash_format": "sha512",
+      "selected_hash": "0af37dcf2d90c262858d07861243c0800a2aa72254a18eacf093de9a07cdaa5a51f9cfd9ca5f32a7efccf9a0936cfcda0ee9fbbb252b00377db21a3af6dffb4b",
+      "hash_matches_selected": true,
+      "key_registration_class": "com.playsi.aero_cam_sync.client.KeyBindings",
+      "key_registration_verified": true,
+      "keys": [
+        "key.aero_cam_sync.toggle",
+        "key.aero_cam_sync.open_config"
+      ],
+      "default_toggle_key": "I",
+      "default_settings_key": "Unbound"
+    },
+    {
+      "metadata_path": "mods/aero-player-tilt.pw.toml",
+      "filename": "aero_player_tilt-0.2.3.jar",
+      "hash_format": "sha1",
+      "selected_hash": "e6defee0e491161bcbaea17204fa36be65f8c20d",
+      "hash_matches_selected": true,
+      "key_registration_class": "com.mlh.aero_player_tilt.client.KeyBindings",
+      "key_registration_verified": true,
+      "keys": [
+        "key.aero_player_tilt.toggle",
+        "key.aero_player_tilt.open_config"
+      ],
+      "default_toggle_key": "O",
+      "default_settings_key": "Unbound"
+    }
+  ],
+  "runtime_boundaries": [
+    "Key labels, settings screens and gameplay were not exercised in a live client.",
+    "Native structural compilation normalizes mod item identifiers and does not prove mod registry or rendering behavior."
+  ],
+  "prior_mars_retirement": {
+    "parent_commit": "a01fc1e34631af99b2864147e37b6cb13ebc83eb",
+    "retirement_commit": "10682f862340d8b8a10502e4443440ecb0429ec3",
+    "scope": "Restore only the retired Mars destination prose when checking older image-only contracts. Current gameplay content stays retired.",
+    "topic_sha256": {
+      "world.dimensions": {
+        "before": "009eb7e2bd7cf952d6da6566b482a95de523390ac3a9205c06cf28eaa4866088",
+        "after": "03586e3f107257829dc18ff7bfaa3fb44295c912bc2438c4277026fb1fd31387"
+      },
+      "space.vehicle-transfer": {
+        "before": "93240a212e82a01a3cad85ea256ce56d6a2009583d8b37cb87e7daba32e73bb9",
+        "after": "9078bd8a031ff3dbe9a8e6a0b14d86e141bbba49a72739a476fbba3cce2049d0"
+      }
+    }
+  }
+}

@@ -76,6 +76,8 @@ navigation:
 | --- | --- | --- |
 | ![AeroEngine](images/catalog-crh10ijf.png) [AeroEngine](vehicles.engines.md) | 为机械动力增加模块化航空发动机与飞行控制仪表。 | <EmiSearch query="@aeroengineering" /> |
 | ![AeroEngine fuel compat](images/cosmo-rnuszf19-icon.png) [AeroEngine fuel compat](vehicles.engines.md) | 让 AeroEngine 使用 Create: The Factory Must Grow 的煤油。 | <EmiSearch query="@aeroengineering" /> <EmiSearch query="@tfmg" /> |
+| <ItemImage id="minecraft:minecart" /> [Aeronautics Camera Sync](vehicles.airships.md) | 让镜头与旋转的 Sable 飞船同步。 | 无独立物品查询 |
+| <ItemImage id="minecraft:minecart" /> [Aeronautics Player Tilt](vehicles.airships.md) | 调整玩家朝向及下落行为，使其适应 Sable 子空间。 | 无独立物品查询 |
 | ![Cosmonautics: Deep Air](images/cosmo-rzqxjxfo-icon.png) [Cosmonautics: Deep Air](space.life-support.md) | 将 Deep Seas 密封舱室连接到太空呼吸与供能人工重力功能。 | <EmiSearch query="@cosmonauticsdeepair" /> |
 | ![Create Aeronautics](images/catalog-owak0q19.png) [Create Aeronautics](vehicles.assembly.md) | 将方块搭建的载具变成可操控的物理移动结构。 | 无独立物品查询 |
 | ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 允许用 Aeronautics 热气囊包覆机械动力流体管道。 | <EmiSearch query="@aeroencasedpipe" /> |

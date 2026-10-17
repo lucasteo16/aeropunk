@@ -70,6 +70,21 @@ navigation:
 
 木制、安山岩与智能螺旋桨配有专用轴承。对称帆为另一套空气动力组件。入门时先组装支持的船体，再使用气囊、燃烧器与螺旋桨思索演示安排升力和推力。装饰体积本身不会提供升力。
 
+***
+
+## 船上姿态
+
+Aeronautics Camera Sync 让视角随倾斜甲板转动，Aeronautics Player Tilt 让玩家身体朝向与船体对齐。镜头倾斜与身体倾斜分别控制，都不会操纵船体转向。
+
+| 操作 | 当前按键 | 默认按键 |
+| --- | --- | --- |
+| 切换镜头倾斜 | <KeyBind id="key.aero_cam_sync.toggle" /> | I |
+| 切换玩家倾斜 | <KeyBind id="key.aero_player_tilt.toggle" /> | O |
+| 镜头设置 | <KeyBind id="key.aero_cam_sync.open_config" /> | 未绑定 |
+| 玩家倾斜设置 | <KeyBind id="key.aero_player_tilt.open_config" /> | 未绑定 |
+
+在选项、控制、按键绑定中分配设置快捷键。使用默认按键前检查冲突。若甲板倾斜影响瞄准的舒适度，可在各自设置中分别调整镜头与身体倾斜。
+
 ## 相关页面
 
 - [浏览配方](help.search.md)
@@ -81,5 +96,7 @@ navigation:
 
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
+| <ItemImage id="minecraft:minecart" /> [Aeronautics Camera Sync](vehicles.airships.md) | 让镜头与旋转的 Sable 飞船同步。 | 无独立物品查询 |
+| <ItemImage id="minecraft:minecart" /> [Aeronautics Player Tilt](vehicles.airships.md) | 调整玩家朝向及下落行为，使其适应 Sable 子空间。 | 无独立物品查询 |
 | ![Create Aeronautics: Encased Fluid Pipes](images/catalog-ddalvt8m.png) [Create Aeronautics: Encased Fluid Pipes](vehicles.airships.md) | 允许用 Aeronautics 热气囊包覆机械动力流体管道。 | <EmiSearch query="@aeroencasedpipe" /> |
 | ![Create: Ballast](images/catalog-5ypxyrfg.png) [Create: Ballast](vehicles.airships.md) | 增加可叠层压载方块，用于调整载具质量与平衡。 | <EmiSearch query="@ballastmod" /> |

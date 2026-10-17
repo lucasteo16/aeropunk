@@ -155,7 +155,6 @@ Indexed means assigned for tracking, not finished or tested. Every unchecked ent
 - space.life-support
   - [ ] Cosmonautics: Deep Air; `mods/cosmonautics-deep-air.pw.toml`
 - space.navigation
-  - [ ] Create Cosmonautics Expansion; `mods/create-cosmonautics-expansion.pw.toml`
 
 Create Cosmonautics belongs to world.dimensions under Exploration and adventure. Orbital flight, life support and navigation remain adjacent Transport mechanics.
 - transport.local

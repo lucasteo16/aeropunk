@@ -98,15 +98,17 @@ class SemanticOrdering(unittest.TestCase):
             with self.assertRaises(AssertionError):
                 assert_semantic_navigation(actual)
 
-    def test_latest_main_metadata_and_world_border_remain_byte_identical(self):
-        baseline_commit = '43ffb9f'
+    def test_declared_development_metadata_and_world_border_remain_byte_identical(self):
+        coverage = json.loads((ROOT / 'docs/guide-coverage.json').read_text())
+        baseline_commit = coverage['baseline_commit']
         paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', baseline_commit,
             'mods', 'resourcepacks', 'shaderpacks', 'config/paxi'], cwd=ROOT, text=True).splitlines()
         paths = [p for p in paths if p.endswith('.pw.toml') or p.startswith('config/paxi/')]
         baseline_metadata = {p for p in paths if p.endswith('.pw.toml')}
         pack = tomllib.loads((ROOT / 'pack.toml').read_text())
         heavy_metadata = set()
-        if pack['name'] == 'Astropunk Heavy':
+        self.assertEqual(pack['name'], 'Astropunk')
+        if pack['version'].endswith('-h'):
             original_heavy = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
                 '3366e71', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
             original_shared = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
@@ -116,7 +118,12 @@ class SemanticOrdering(unittest.TestCase):
             self.assertEqual(len(heavy_metadata), 18)
         actual = {p.relative_to(ROOT).as_posix() for folder in ('mods', 'resourcepacks', 'shaderpacks')
                   for p in (ROOT / folder).glob('*.pw.toml')}
-        self.assertEqual(actual, baseline_metadata | heavy_metadata)
+        edition_metadata = set()
+        if pack['version'].endswith('-worldgen'):
+            edition_metadata = {'mods/c2me-ocl.pw.toml'}
+        elif pack['version'].endswith('-hosting'):
+            edition_metadata = {'mods/easyauth.pw.toml'}
+        self.assertEqual(actual, baseline_metadata | heavy_metadata | edition_metadata)
         for path in paths:
             self.assertEqual((ROOT / path).read_bytes(), subprocess.check_output(
                 ['git', 'show', baseline_commit + ':' + path], cwd=ROOT), path)
@@ -132,7 +139,11 @@ class SemanticOrdering(unittest.TestCase):
             if entry['metadata_path'].endswith('.pw.toml'):
                 selected = tomllib.loads((ROOT / entry['metadata_path']).read_text())
                 self.assertEqual(entry['selected_download'], selected['download'])
-                self.assertEqual(entry['source_commit'], baseline_commit)
+                # Retain the original provenance of unchanged selections, but
+                # verify that its source really contains the selected bytes.
+                self.assertEqual((ROOT / entry['metadata_path']).read_bytes(),
+                    subprocess.check_output(['git', 'show', entry['source_commit'] + ':' +
+                                             entry['metadata_path']], cwd=ROOT))
 
     def test_released_native_tree_all_orders_and_negative_controls_without_generation(self):
         report = json.loads(subprocess.check_output([sys.executable,

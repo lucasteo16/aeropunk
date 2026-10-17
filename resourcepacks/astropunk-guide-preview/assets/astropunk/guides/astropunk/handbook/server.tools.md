@@ -8,6 +8,23 @@ navigation:
 
 # Server tools
 
+## Dimension borders
+
+DimWorldBorder gives each dimension its own border size and center, including the integrated server in single-player. Multiplayer players follow the server border without needing the mod on their client.
+
+Operators can check a border before changing it.
+
+| Command | Purpose |
+| --- | --- |
+| <Color color="#F28CBD">/dimworldborder minecraft:overworld get</Color> | Read the Overworld border |
+| <Color color="#F28CBD">/dimworldborder minecraft:the_nether get</Color> | Read the Nether border |
+| <Color color="#F28CBD">/dimworldborder rocketnautics:moon get</Color> | Read the Moon border |
+| <Color color="#F28CBD">/dimworldborder minecraft:overworld set 5000</Color> | Set the Overworld square to a full width of 5000 blocks |
+
+Use command completion to select a dimension. The packaged safety data pack also applies an Overworld limit when it loads. Check border values after a restart or data-pack reload before relying on a custom size. A player boundary does not guarantee that it contains an entire moving ship.
+
+***
+
 ## Terrain preparation
 
 Chunky generates terrain before players explore it. This is an administrator workload, not a rendering-distance setting. Large generation jobs consume processing time and disk space.
@@ -52,6 +69,7 @@ Configured Defaults provides initial files when they are missing. Existing playe
 | --- | --- | --- |
 | ![Chunky](images/catalog-falzjamp.png) [Chunky](server.tools.md) | Generates terrain ahead of exploration. | No separate item search |
 | ![Configured Defaults](images/catalog-sisosfpp.png) [Configured Defaults](server.tools.md) | Supplies packaged defaults for missing files. | No separate item search |
+| <ItemImage id="minecraft:redstone" /> [DimWorldBorder](server.tools.md) | Manages independent physical borders for each dimension. | No separate item search |
 | ![Observable](images/catalog-vyru7qmg.png) [Observable](server.tools.md) | Identifies expensive server processing. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [Paxi](server.tools.md) | Loads shared data packs, including the automatic space world border. | No separate item search |
 | ![spark](images/catalog-l6yh9als.png) [spark](server.tools.md) | Profiles client and server performance. | No separate item search |
