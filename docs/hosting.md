@@ -2,11 +2,11 @@
 
 ## Current hosting release
 
-The current hosting edition is `0.15.3-hosting`, based on shared Astropunk `0.15.3`. Every edition retains the display name `Astropunk`. Hosting authentication and the saved server listing stay on `admin/hosting`; private OpenCL generation is excluded.
+The current hosting client is `0.15.4-hosting`, based on shared Astropunk `0.15.4`. This release adds saved low-quality shader defaults only; the verified `0.15.3-hosting` live server remains unchanged and no server update is required. Every edition retains the display name `Astropunk`. Hosting authentication and the saved server listing stay on `admin/hosting`; private OpenCL generation is excluded.
 
 ## Deliverables
 
-- `dist/astropunk-0.15.3-hosting-live-client.mrpack` is the client to share with friends. Fresh installations receive the saved Astropunk entry for `astropunk.sparked.network`, including its icon. Configured Defaults preserves existing player server lists. EasyAuth is server-only; clients need neither EasyAuth nor TrueUUID.
+- `dist/astropunk-0.15.4-hosting-live-client.mrpack` is the client to share with friends. Fresh installations receive the saved Astropunk entry for `astropunk.sparked.network`, including its icon, and the saved low-quality settings for all three bundled shaders. Configured Defaults preserves existing player server lists and shader settings. Shaders remain disabled initially. EasyAuth is server-only; clients need neither EasyAuth nor TrueUUID.
 - `dist/astropunk-0.15.3-hosting-live-server/` is the complete materialized server release, also provided as a matching ZIP archive. It contains no world, real shared password or account database.
 - Native Modrinth, CurseForge client and server exports remain available through the ordinary Just commands. The prepared world is transferred separately.
 
