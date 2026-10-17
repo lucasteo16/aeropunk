@@ -18,13 +18,13 @@ Every edition is named **Astropunk**. Branch names and artifact filenames distin
 | Branch | Purpose |
 |---|---|
 | `main` | Stable shared gameplay pack |
+| `main-light` | Main gameplay without the nine selected environmental audio and custom entity appearance mods |
 | `dev` | Integration of shared changes before stable promotion |
 | `main-heavy` | Stable pack with additional visual effects |
-| `test/guide` | Handbook authoring on the development baseline |
 | `admin/hosting` | Hosted-server authentication and the saved client server listing |
 | `admin/worldgen` | Private world-generation tools, including OpenCL acceleration |
 
-Shared changes move from `dev` into `main`. Heavy and hosting inherit `main`; guide and world generation inherit `dev`. Edition-specific additions stay downstream.
+Handbook work takes place on `dev`. Shared changes move from `dev` into `main`. Light, Heavy and hosting inherit `main`; world generation inherits `dev`. Edition-specific changes stay downstream.
 
 ## Building packs
 
