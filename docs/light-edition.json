@@ -1,0 +1,25 @@
+{
+  "branch": "main-light",
+  "upstream_branch": "main",
+  "baseline_commit": "c16fdd8618041030884d1a51e6818a293c780941",
+  "version_suffix": "-l",
+  "removed_metadata": [
+    "mods/sound-physics-remastered.pw.toml",
+    "mods/cool-rain-reforged.pw.toml",
+    "mods/sable-cool-rain.pw.toml",
+    "mods/pf-neoforge.pw.toml",
+    "mods/presence-footsteps-x-sable.pw.toml",
+    "mods/entity-model-features.pw.toml",
+    "mods/entitytexturefeatures.pw.toml",
+    "mods/create-emf-compat-skyhook.pw.toml",
+    "mods/emf-compat-core.pw.toml"
+  ],
+  "maintenance": "Merge approved main updates downstream, update baseline_commit, preserve these exact exclusions and unchanged remaining selections. Never merge Light removals upstream.",
+  "performance_evidence": {
+    "source": "Lucas reports his friend's test of these removal groups",
+    "before_frames_per_second": 20,
+    "after_frames_per_second": 80,
+    "hardware": "Laptop with ninth-generation Intel Core i5 and Nvidia GeForce GTX 1650 Ti",
+    "limitation": "User-reported group result, not an independent benchmark or per-mod attribution."
+  }
+}
