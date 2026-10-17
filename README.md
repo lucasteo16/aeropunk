@@ -2,7 +2,7 @@
 
 ## Current release and storage policy
 
-The current release family is 0.15.3. Every branch uses the display name `Astropunk`; edition suffixes belong to versions and artifact filenames, not the name. Minecraft remains 1.21.1 with NeoForge 21.1.259. This maintenance release does not update selected mods.
+The current release family is 0.15.4. Every branch uses the display name `Astropunk`; edition suffixes belong to versions and artifact filenames, not the name. Minecraft remains 1.21.1 with NeoForge 21.1.259. This maintenance release does not update selected mods. Saved low-quality settings for Complementary Reimagined, Complementary Unbound and Photon are distributed through Configured Defaults. Shaders remain disabled initially; existing player shader settings are preserved.
 
 Shared changes are integrated in `dev` and promoted to `main`. `main-heavy` and `admin/hosting` inherit `main`; `admin/worldgen` inherits `dev`. Handbook changes enter `dev` through `test/guide`, which is synchronized back to the current development baseline. Edition-only additions never merge upstream.
 
