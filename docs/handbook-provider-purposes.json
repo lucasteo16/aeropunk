@@ -1115,10 +1115,6 @@
     "en_us": "Extends bone meal use to plants that normally do not accept it.",
     "zh_cn": "让骨粉可用于原本不接受骨粉的植物。"
   },
-  "mods/vanilla-backpacks.pw.toml": {
-    "en_us": "Adds dyeable, upgradeable backpacks for portable storage.",
-    "zh_cn": "增加可染色、可升级的背包，提供便携存储。"
-  },
   "mods/variants-and-ventures.pw.toml": {
     "en_us": "Adds new variants of familiar creatures to world encounters.",
     "zh_cn": "为世界遭遇增加常见生物的新变体。"
@@ -1370,5 +1366,13 @@
   "mods/aero_cam_sync.pw.toml": {
     "en_us": "Synchronizes the camera with rotating Sable ships.",
     "zh_cn": "让镜头与旋转的 Sable 飞船同步。"
+  },
+  "mods/sophisticated-backpacks.pw.toml": {
+    "en_us": "Adds dyeable backpacks with storage tiers and selected utility upgrades.",
+    "zh_cn": "增加可染色的分级背包，并提供指定的实用升级。"
+  },
+  "mods/sophisticated-backpacks-create-integration.pw.toml": {
+    "en_us": "Connects backpacks to native Create contraptions. Sable vehicle support is unverified.",
+    "zh_cn": "连接背包与 Create 原生移动结构。尚未验证 Sable 载具兼容性。"
   }
 }

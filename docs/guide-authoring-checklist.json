@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "baseline_count": 321,
-  "union_count": 341,
+  "baseline_count": 322,
+  "union_count": 342,
   "categories": [
     "Automation and industry",
     "Storage and logistics",
@@ -3708,16 +3708,29 @@
       "links_checked": false
     },
     {
-      "metadata_path": "mods/vanilla-backpacks.pw.toml",
-      "name": "Backpacks!",
+      "metadata_path": "mods/sophisticated-backpacks.pw.toml",
+      "name": "Sophisticated Backpacks",
       "availability": "baseline",
       "category": "Storage and logistics",
       "topic": "storage.portable",
       "indexed": true,
-      "player_mention_written": false,
+      "player_mention_written": true,
       "instructions_verified": false,
-      "english_written": false,
-      "simplified_chinese_written": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": false
+    },
+    {
+      "metadata_path": "mods/sophisticated-backpacks-create-integration.pw.toml",
+      "name": "Sophisticated Backpacks Create Integration",
+      "availability": "baseline",
+      "category": "Storage and logistics",
+      "topic": "storage.portable",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
       "links_checked": false
     },
     {
