@@ -10,20 +10,24 @@ default:
 export-server output=("dist/astropunk-" + PACK_VERSION + "-server.zip"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz curseforge export --side server --output {{quote(output)}}
+    python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
 # Native CurseForge client pack export.
 export-curseforge output=("dist/astropunk-" + PACK_VERSION + "-curseforge.zip"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz curseforge export --side client --output {{quote(output)}}
+    python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
 # Native Modrinth export with installer-managed side selection.
 export-modrinth output=("dist/astropunk-" + PACK_VERSION + "-modrinth.mrpack"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz modrinth export --output {{quote(output)}}
+    python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
 # Self-contained client pack, with all client artifacts bundled.
 export-standalone output=("dist/astropunk-" + PACK_VERSION + "-standalone.mrpack"):
     python scripts/export_standalone.py {{quote(output)}}
+    python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
 # Cache-only uncompressed client folder and a new official launcher installation.
 export-instance output="" template="":
@@ -40,3 +44,7 @@ test *args:
 # Remove temporary runs and Python bytecode; keep versioned exports, reports and installation.
 clean:
     python scripts/tasks.py clean
+
+# Preview release retention; add --apply to remove superseded distributions.
+retain-releases *args:
+    python scripts/retain_releases.py {{args}}
