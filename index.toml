@@ -1369,6 +1369,18 @@ file = "configureddefaults/options.txt"
 hash = "69726497fedec9622ae54cb4b202fff6dd6eef44953f3bedef2ca2a56e14a145"
 
 [[files]]
+file = "configureddefaults/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
+hash = "47b3959af84d6248ad57e3d96335cce9e60daedbf1bc6931cd0cdf41607dd305"
+
+[[files]]
+file = "configureddefaults/shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"
+hash = "571ddcc651bc35d88ae7e61218d98b5ca89eefaecbb9c53ca9b416b566b1dedd"
+
+[[files]]
+file = "configureddefaults/shaderpacks/photon_v1.3b.zip.txt"
+hash = "546bebf08e76f7180687bbd61a663e4e8605247a3dde5ada7a0209a04de479b8"
+
+[[files]]
 file = "icon.png"
 hash = "c93330ce8fdbbf883a3cd7e7df047b524160fa35a9e6c85b5b47b8dcb3cb88f9"
 
