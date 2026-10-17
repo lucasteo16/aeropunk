@@ -91,7 +91,6 @@ navigation:
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | ![Almost Unified](images/catalog-sdasaqez.png) [Almost Unified](machines.ore-processing.md) | 仅统一共享的安山合金与锌板配方材料。 | 无独立物品查询 |
-| ![Backpacks!](images/catalog-mgcd6ktf.png) [Backpacks!](storage.portable.md) | 增加可染色、可升级的背包，提供便携存储。 | <EmiSearch query="背包" /> |
 | ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | 增加用于加工、运输与自动建造的旋转动力机器。 | <EmiSearch query="@create" /> |
 | ![Create Stuff 'N Additions](images/catalog-aq9quuqg.png) [Create Stuff 'N Additions](machines.miscellaneous.md) | 增加机械动力主题的动力装备与可穿戴工具。 | <EmiSearch query="@create_sa" /> |
 | ![Create: Additional Logistics](images/catalog-czaz7aje.png) [Create: Additional Logistics](machines.logistics.md) | 扩展机械动力包裹处理，增加商店收银设备并改进工厂库存控制。 | <EmiSearch query="@createadditionallogistics" /> |
@@ -112,5 +111,7 @@ navigation:
 | ![Mouse Tweaks](images/catalog-ac3cm3vq.png) [Mouse Tweaks](storage.handling.md) | 增加鼠标拖动与滚轮快捷操作，便于移动物品栏中的物品堆。 | 无独立物品查询 |
 | ![Reinforced Shulker Boxes](images/catalog-xlowusdn.png) [Reinforced Shulker Boxes](storage.portable.md) | 增加存储容量更大的升级潜影盒。 | <EmiSearch query="@reinfshulker" /> |
 | ![Shulker Drops Two](images/catalog-ujxiyw47.png) [Shulker Drops Two](storage.portable.md) | 调整潜影贝壳掉落数量与概率，支持一次掉落两个壳。 | 无独立物品查询 |
+| <ItemImage id="minecraft:chest" /> [Sophisticated Backpacks](storage.portable.md) | 增加可染色的分级背包，并提供指定的实用升级。 | <EmiSearch query="@sophisticatedbackpacks" /> |
+| <ItemImage id="minecraft:chest" /> [Sophisticated Backpacks Create Integration](storage.portable.md) | 连接背包与 Create 原生移动结构。尚未验证 Sable 载具兼容性。 | 无独立物品查询 |
 | ![Sophisticated Inventory Interactions](images/catalog-orgy0jio.png) [Sophisticated Inventory Interactions](storage.handling.md) | 为受支持的物品栏界面增加整理、搜索与转移操作。 | 无独立物品查询 |
 | ![TrashSlot](images/catalog-vryk0bv7.png) [TrashSlot](storage.handling.md) | 在物品栏增加垃圾格，用于丢弃不需要的物品。 | 无独立物品查询 |
