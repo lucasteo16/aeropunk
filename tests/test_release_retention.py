@@ -94,3 +94,18 @@ class ReleaseRetentionTests(unittest.TestCase):
         bad.mkdir()
         with self.assertRaises(ValueError):
             retention.prune(self.root, 1, True)
+
+    def test_custom_filename_does_not_authorize_retention(self):
+        self.assertFalse(retention.is_standard_output(Path('astropunk-0.15.1-server.zip'), '0.15.3'))
+        self.assertFalse(retention.is_standard_output(Path('friends.mrpack'), '0.15.3'))
+        self.assertTrue(retention.is_standard_output(Path('astropunk-0.15.3-modrinth.mrpack'), '0.15.3'))
+
+    def test_stable_and_numeric_prereleases_order_correctly(self):
+        versions = ['1.0.0-rc.2', '1.0.0', '1.0.0-rc.10', '0.15.3']
+        self.assertEqual(sorted(versions, key=retention.version_key, reverse=True),
+                         ['1.0.0', '1.0.0-rc.10', '1.0.0-rc.2', '0.15.3'])
+
+    def test_corrupt_export_is_rejected(self):
+        path = self.artifact('0.15.3')
+        with self.assertRaises(zipfile.BadZipFile):
+            retention.verify_export(path, '0.15.3')
