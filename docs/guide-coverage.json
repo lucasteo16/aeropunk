@@ -357,14 +357,14 @@
   "branches": [],
   "verification": {
     "baseline_by_kind": {
-      "mods": 317,
+      "mods": 318,
       "resourcepacks": 3,
       "shaderpacks": 3
     },
-    "baseline_total": 323,
+    "baseline_total": 324,
     "heavy_total": 20,
-    "union_metadata_total": 343,
-    "unique_primary_assignments": 343,
+    "union_metadata_total": 344,
+    "unique_primary_assignments": 344,
     "duplicate_primary_paths": [],
     "unassigned_metadata_paths": [],
     "extra_unknown_paths": [],
@@ -559,7 +559,8 @@
         "mods/easy-shulker-boxes.pw.toml",
         "mods/reinforced-shulker-boxes.pw.toml",
         "mods/shulker-drops-two.pw.toml",
-        "mods/vanilla-backpacks.pw.toml"
+        "mods/sophisticated-backpacks.pw.toml",
+        "mods/sophisticated-backpacks-create-integration.pw.toml"
       ],
       "player_questions": [],
       "navigation_parent": "reference.machines-storage.md",
@@ -10019,16 +10020,16 @@
       "metadata_path": "mods/sophisticated-core.pw.toml",
       "content_kind": "mods",
       "name": "Sophisticated Core",
-      "filename": "sophisticatedcore-1.21.1-1.5.7.2381.jar",
+      "filename": "sophisticatedcore-1.21.1-1.5.13.2404.jar",
       "side": "both",
       "provider": "modrinth",
       "provider_selection": {
         "mod-id": "nmoqTijg",
-        "version": "p09oohxN"
+        "version": "DAcZAWzl"
       },
       "availability": "baseline",
       "source_branch": "dev",
-      "source_commit": "43ffb9f",
+      "source_commit": null,
       "primary_function": "technical.libraries",
       "primary_category": "Technical reference",
       "primary_home": "technical.libraries",
@@ -10036,14 +10037,14 @@
       "secondary_categories": [],
       "purpose_evidence": "Provides shared systems used by Sophisticated inventory and storage mods.",
       "project_source": "https://modrinth.com/project/nmoqTijg",
-      "selected_release_source": "https://modrinth.com/project/nmoqTijg/version/p09oohxN",
+      "selected_release_source": "https://modrinth.com/project/nmoqTijg/version/DAcZAWzl",
       "evidence_level": "Selected local metadata and authored bilingual provider purpose. Runtime mechanics not verified.",
       "instruction_verification": "Static authoring evidence only, runtime mechanics remain unverified.",
       "purpose_zh_cn": "为 Sophisticated 物品栏与存储模组提供共享系统。",
       "selected_download": {
-        "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/p09oohxN/sophisticatedcore-1.21.1-1.5.7.2381.jar",
+        "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/DAcZAWzl/sophisticatedcore-1.21.1-1.5.13.2404.jar",
         "hash-format": "sha512",
-        "hash": "900c0c59d8340c8e707f843ead5c2b26d230744a7c6a532d0988c5d341a8494029aa292c17cd1806e1ec87945492cfd60ac4e21134f37f8d031422b5802df2e6"
+        "hash": "de9820a5e21cd6dcb68a0c967cbd0756dd12b00bfe6368249ff90becf0809a586080494b41ede72377693ada905d30a7f8ef3617b21394e9f3b841f48ab12785"
       }
     },
     {
@@ -11017,34 +11018,65 @@
       }
     },
     {
-      "metadata_path": "mods/vanilla-backpacks.pw.toml",
+      "metadata_path": "mods/sophisticated-backpacks.pw.toml",
       "content_kind": "mods",
-      "name": "Backpacks!",
-      "filename": "1.3.5-backpacks_mod-1.21-1.21.1.jar",
+      "name": "Sophisticated Backpacks",
+      "filename": "sophisticatedbackpacks-1.21.1-3.26.12.2208.jar",
       "side": "both",
       "provider": "modrinth",
       "provider_selection": {
-        "mod-id": "MGcd6kTf",
-        "version": "uJz7ESID"
+        "mod-id": "TyCTlI4b",
+        "version": "QkVLEgt1"
       },
       "availability": "baseline",
       "source_branch": "dev",
-      "source_commit": "43ffb9f",
+      "source_commit": null,
       "primary_function": "storage.portable",
       "primary_category": "Storage and logistics",
       "primary_home": "storage.portable",
       "secondary_functions": [],
       "secondary_categories": [],
-      "purpose_evidence": "Adds dyeable, upgradeable backpacks for portable storage.",
-      "project_source": "https://modrinth.com/project/MGcd6kTf",
-      "selected_release_source": "https://modrinth.com/project/MGcd6kTf/version/uJz7ESID",
-      "evidence_level": "Selected local metadata and authored bilingual provider purpose. Runtime mechanics not verified.",
+      "purpose_evidence": "Adds dyeable backpacks with storage tiers and selected utility upgrades.",
+      "project_source": "https://modrinth.com/project/TyCTlI4b",
+      "selected_release_source": "https://modrinth.com/project/TyCTlI4b/version/QkVLEgt1",
+      "evidence_level": "Selected checksum-verified artifact and approved development replacement. Runtime mechanics not verified.",
       "instruction_verification": "Static authoring evidence only, runtime mechanics remain unverified.",
-      "purpose_zh_cn": "增加可染色、可升级的背包，提供便携存储。",
+      "purpose_zh_cn": "增加可染色的分级背包，并提供指定的实用升级。",
       "selected_download": {
-        "url": "https://cdn.modrinth.com/data/MGcd6kTf/versions/uJz7ESID/1.3.5-backpacks_mod-1.21-1.21.1.jar",
+        "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/QkVLEgt1/sophisticatedbackpacks-1.21.1-3.26.12.2208.jar",
         "hash-format": "sha512",
-        "hash": "62bcf7ac7ddcda27c2dc581593cf9887c567027e061aad724a684f81a523f04e6f6dadfcbcbcfef81d63dfc1267dbea7d4fef6e93d8f5c97049954b2f4382782"
+        "hash": "19b503080d0bd0e522e0934fda0b4922f2f0d5ad946103e5daf86be86e01e5e8ec6744f34e915b41fc4d1578fc6cacf004cca5d10ab8bdf76d2f26831e07bb65"
+      }
+    },
+    {
+      "metadata_path": "mods/sophisticated-backpacks-create-integration.pw.toml",
+      "content_kind": "mods",
+      "name": "Sophisticated Backpacks Create Integration",
+      "filename": "sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar",
+      "side": "both",
+      "provider": "modrinth",
+      "provider_selection": {
+        "mod-id": "s85zLEDe",
+        "version": "PWwbiDmx"
+      },
+      "availability": "baseline",
+      "source_branch": "dev",
+      "source_commit": null,
+      "primary_function": "storage.portable",
+      "primary_category": "Storage and logistics",
+      "primary_home": "storage.portable",
+      "secondary_functions": [],
+      "secondary_categories": [],
+      "purpose_evidence": "Connects backpacks to native Create contraptions. Sable vehicle support is unverified.",
+      "project_source": "https://modrinth.com/project/s85zLEDe",
+      "selected_release_source": "https://modrinth.com/project/s85zLEDe/version/PWwbiDmx",
+      "evidence_level": "Selected checksum-verified artifact and approved development replacement. Runtime mechanics not verified.",
+      "instruction_verification": "Static authoring evidence only, runtime mechanics remain unverified.",
+      "purpose_zh_cn": "连接背包与 Create 原生移动结构。尚未验证 Sable 载具兼容性。",
+      "selected_download": {
+        "url": "https://cdn.modrinth.com/data/s85zLEDe/versions/PWwbiDmx/sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar",
+        "hash-format": "sha512",
+        "hash": "b28d70f9db4e616accf8818f95ef7521eda0f56abca81141ea507b0a0fea7a4460a01df6e9e86aa9020369066e55157359e36ec3e65d0ffabf782a5f22f22c44"
       }
     },
     {
