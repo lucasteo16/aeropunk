@@ -28,6 +28,7 @@ Handbook work takes place on `dev`. Shared changes move from `dev` into `main`. 
 
 Light removes Sound Physics Remastered, Cool Rain Reforged, Sable: Cool Rain, Presence Footsteps, Presence Footsteps x Sable, Entity Model Features, Entity Texture Features, EMF Compat: Create and EMF Compat Core. Everything else, including gameplay, shaders, Distant Horizons and maps, remains unchanged. Handbook entries for these removed appearance and audio features describe the other editions, not Light. The exact exclusions and shared baseline are recorded in `docs/light-edition.json`.
 
+
 ## Building packs
 
 Install [packwiz](https://packwiz.infra.link/), [Just](https://just.systems/) and Python 3.11 or newer. From the selected branch's working directory:

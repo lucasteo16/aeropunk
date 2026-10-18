@@ -1,7 +1,7 @@
 {
   "branch": "main-light",
   "upstream_branch": "main",
-  "baseline_commit": "c16fdd8618041030884d1a51e6818a293c780941",
+  "baseline_commit": "f44178d",
   "version_suffix": "-light",
   "removed_metadata": [
     "mods/sound-physics-remastered.pw.toml",
