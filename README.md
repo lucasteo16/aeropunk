@@ -24,7 +24,7 @@ Every edition is named **Astropunk**. Branch names and artifact filenames distin
 | `admin/hosting` | Hosted-server authentication and the saved client server listing |
 | `admin/worldgen` | Private world-generation tools, including OpenCL acceleration |
 
-Handbook work takes place on `dev`. Shared changes move from `dev` into `main`. Light, Heavy and hosting inherit `main`; world generation inherits `dev`. Edition-specific changes stay downstream. Merge shared updates into `main-light`, preserve its `-l` version suffix and nine intentional mod exclusions, and never merge Light removals back into `main`.
+Handbook work takes place on `dev`. Shared changes move from `dev` into `main`. Light, Heavy and hosting inherit `main`; world generation inherits `dev`. Edition-specific changes stay downstream. Merge shared updates into `main-light`, preserve its `-light` version suffix and nine intentional mod exclusions, and never merge Light removals back into `main`. Heavy uses the `-heavy` version suffix.
 
 Light removes Sound Physics Remastered, Cool Rain Reforged, Sable: Cool Rain, Presence Footsteps, Presence Footsteps x Sable, Entity Model Features, Entity Texture Features, EMF Compat: Create and EMF Compat Core. Everything else, including gameplay, shaders, Distant Horizons and maps, remains unchanged. Handbook entries for these removed appearance and audio features describe the other editions, not Light. The exact exclusions and shared baseline are recorded in `docs/light-edition.json`.
 

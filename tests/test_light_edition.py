@@ -45,7 +45,7 @@ class LightEditionTests(unittest.TestCase):
             ['git', 'show', baseline + ':pack.toml'], cwd=ROOT, text=True))
         self.assertEqual(pack['name'], 'Astropunk')
         self.assertEqual(pack['versions'], original_pack['versions'])
-        self.assertEqual(pack['version'], original_pack['version'] + '-l')
+        self.assertEqual(pack['version'], original_pack['version'] + '-light')
 
     def test_all_remaining_game_overrides_match_main_baseline(self):
         spec = json.loads((ROOT / 'docs/light-edition.json').read_text())
