@@ -529,10 +529,6 @@ file = "config/entity_model_features.json"
 hash = "3954f3ee7ac3486b9f2d2b3855f29187935eb3f49d0f11e133d0b623e9d03616"
 
 [[files]]
-file = "config/entity_texture_features.json"
-hash = "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc"
-
-[[files]]
 file = "config/entityculling.json"
 hash = "8c596f39d5902c1c2b9f4e0f88e59020053ee4d8e29f1bca6c5e0275cf5d1d93"
 
@@ -1289,6 +1285,10 @@ file = "configureddefaults/config/create_submarine-client.toml"
 hash = "17b01fac7598ae0894995492df6d8b0c5d69b892a8110eb19ae195ef9e1e1cd9"
 
 [[files]]
+file = "configureddefaults/config/entity_texture_features.json"
+hash = "8aa4496a2a5eb4f3804d78ab2905c01ca102046664a70b3e1a00d4ce75cde5da"
+
+[[files]]
 file = "configureddefaults/config/extremesoundmuffler-client.toml"
 hash = "13dbc96f13757679e9723a28f1e6a287468514249fd876fc2de4745e2d9cb5bb"
 
@@ -1317,6 +1317,10 @@ file = "configureddefaults/config/moreculling.toml"
 hash = "cbae23a6b1c07273a79cbfb2f30a52844c30412001cabecac05b8aaa414a97a5"
 
 [[files]]
+file = "configureddefaults/config/presencefootsteps/userconfig.json"
+hash = "8827c7ef6752007e526a27210ceb23419fc855bf3d869040a1ce4d74a497f5df"
+
+[[files]]
 file = "configureddefaults/config/rocketnautics-client.toml"
 hash = "03948a3704b93eec1a8e4d52c1d126f0975dd94aeeec374f44b250150a2d3087"
 
@@ -1331,6 +1335,10 @@ hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
 [[files]]
 file = "configureddefaults/config/sodium-options.json"
 hash = "a881cf8361b13fcf1a3f0521eab0915bc9533a2111db7ad1ac34214ba158187b"
+
+[[files]]
+file = "configureddefaults/config/sound_physics_remastered/soundphysics.properties"
+hash = "c17b36e16e2efbcd3e7d9b6227568316317eec458a1e29d5fa9551820cffee02"
 
 [[files]]
 file = "configureddefaults/config/sounds/chat.json"
