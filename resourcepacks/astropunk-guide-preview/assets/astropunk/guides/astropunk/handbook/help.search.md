@@ -49,6 +49,7 @@ For Create assembly, hold the Ponder key shown in the item's tooltip. Polymorph 
 | ![EMI](images/catalog-frihvvu7.png) [EMI](help.search.md) | Provides searchable items, recipes, uses and crafting trees. | <EmiSearch query="@emi" /> |
 | ![EMI Enchanting](images/catalog-wbwoo11w.png) [EMI Enchanting](help.search.md) | Shows enchantment applicability and exclusions in EMI. | No separate item search |
 | ![EMI professions (EMIP)](images/catalog-lgvihycz.png) [EMI professions (EMIP)](help.search.md) | Shows villager profession workstations in EMI. | No separate item search |
+| <ItemImage id="minecraft:white_bed" /> [Just Enough Items (JEI)](help.search.md) | Provides recipe displays and mod recipe integrations alongside the recipe browser. | No separate item search |
 | ![Polymorph](images/catalog-tagwizkj.png) [Polymorph](help.search.md) | Lets players choose the output when crafting recipes conflict. | No separate item search |
 | ![Reliable EMI (REMI)](images/catalog-n9wucjhl.png) [Reliable EMI (REMI)](help.search.md) | Adds configurable usability features to EMI's item and recipe browser. | No separate item search |
 | ![ToolTipFix](images/catalog-2rkftmib.png) [ToolTipFix](help.search.md) | Keeps long item tooltips from running beyond the screen. | No separate item search |

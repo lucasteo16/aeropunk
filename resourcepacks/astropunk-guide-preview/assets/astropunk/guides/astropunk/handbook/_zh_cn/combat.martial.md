@@ -8,42 +8,37 @@ navigation:
 
 # 武技职业
 
-## 武技职业
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+Archers+Rogues+Warriors+martial+class+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+%E5%BC%93%E7%AE%AD%E6%89%8B+%E7%9B%97%E8%B4%BC+%E6%88%98%E5%A3%AB+%E6%AD%A6%E6%8A%80+%E8%81%8C%E4%B8%9A+%E6%95%99%E7%A8%8B)
 
-![狂战士护甲](images/visual-berserker-armor.png)
+## 近战与远程
 
-狂战士护甲
+<ItemGrid><ItemIcon id="archers:composite_longbow" /><ItemIcon id="archers:rapid_crossbow" /><ItemIcon id="rogues:iron_dagger" /><ItemIcon id="berserker_rpg:iron_berserker_axe" /></ItemGrid>
 
-选择职业，查看定位、入门配方、法术书、完整招式、技能与装备。
+| 职业 | 玩法 |
+| --- | --- |
+| [弓箭手](class.archer.md) | 蓄力射击与范围箭雨。 |
+| [神射手](class.deadeye.md) | 快速远程攻击与限制敌人的射击。 |
+| [冻原猎手](class.tundra-hunter.md) | 冰霜射击与冻结区域。 |
+| [战争弓手](class.war-archer.md) | 火焰箭与燃烧地面。 |
+| [盗贼](class.rogue.md) | 近战攻击、陷阱与机动。 |
+| [战士](class.warrior.md) | 冲锋与防御型近战招式。 |
+| [狂战士](class.berserker.md) | 怒气效果与重击。 |
+| [气功师](class.forcemaster.md) | 以拳套施展奥术打击。 |
 
-- [弓箭手](class.archer.md)
-- [神射手](class.deadeye.md)
-- [冻原猎手](class.tundra-hunter.md)
-- [战争弓手](class.war-archer.md)
-- [盗贼](class.rogue.md)
-- [战士](class.warrior.md)
-- [狂战士](class.berserker.md)
-- [气功师](class.forcemaster.md)
+职业文章收录入门配方、适用书籍、全部职业书招式与职业装备。弓箭手扩展路线可先用弓，再搭配专属护甲。
 
 ***
 
-## 使用招式
+## 攻击与招式
 
-<EmiSearch query="@archers" /> <EmiSearch query="@rogues" /> <EmiSearch query="@spell_engine" />
+普通攻击、武器自带招式、已装备职业书的招式与技能树强化是不同系统。武技也可能需要已绑定的职业书。绑定对应书籍、装备书籍，并手持兼容武器。
 
-<ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="spell_engine:spell_binding" />
-  <ItemIcon id="minecraft:book" />
-</ItemGrid>
+- [法术与招式](combat.abilities.md) 共用的职业书准备与施法要求。
+- [武器与闪避](combat.handling.md) 攻击模式与翻滚。
+- [武器与护甲](equipment.weapons-armor.md) 通用具名装备。
+- [技能成长](combat.skills.md) 职业与武器分支。
 
-下方列出当前支持的武技职业书中的全部主动招式。在法术绑定台创建对应书籍，绑定招式，然后装备书籍并手持兼容武器。普通攻击、武器自带招式与技能树强化是不同系统。
-
-- [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
-- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
-- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
-
+![狂战士护甲](images/visual-berserker-armor.png)
 
 ***
 

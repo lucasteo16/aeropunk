@@ -340,6 +340,8 @@ for topic, title in titles.items():
 titles.update({'help.inspect': 'Block & mob info', 'help.reference': 'Mod documentation', 'help.handbook': 'Handbook', 'food.hunger': 'Hunger & variety', 'food.utensils': 'Cooking tools', 'food.nether': 'Nether food', 'food.end': 'End food', 'food.underground': 'Underground food', 'food.encounters': 'Encounter food', 'food.machine-cooking': 'Machine cooking', 'food.growing': 'Farming', 'food.fishing': 'Fishing', 'storage.portable': 'Portable storage', 'storage.bulk': 'Bulk storage', 'storage.handling': 'Inventory tools', 'machines.ore-processing': 'Ore processing', 'machines.rotation': 'Rotational power', 'machines.logistics': 'Item routing', 'machines.renewables': 'Renewable resources', 'machines.enchanting': 'Enchanting', 'machines.trading': 'Trading', 'machines.miscellaneous': 'Workshop tools', 'power.electricity': 'Electricity', 'power.industry': 'Materials & fuels', 'power.burners': 'Liquid fuels', 'power.stored-rotation': 'Stored rotation', 'vehicles.assembly': 'Vehicle assembly', 'vehicles.airships': 'Airships', 'vehicles.engines': 'Engines', 'vehicles.controls': 'Vehicle controls', 'vehicles.radar': 'Radar', 'vehicles.weapons': 'Mounted weapons', 'vehicles.water': 'Boats & submarines', 'transport.passenger': 'Train travel', 'transport.railway-builder': 'Railways', 'transport.local': 'Local transport', 'travel.destinations': 'Teleportation', 'travel.moving-destinations': 'Moving destinations', 'maps.shared': 'Shared maps', 'maps.find': 'Location finders', 'adventure.loot': 'Loot', 'adventure.recovery': 'Death & recovery', 'adventure.sleep': 'Sleep', 'adventure.settlements': 'Settlements', 'combat.handling': 'Weapons & dodging', 'combat.martial': 'Martial classes', 'combat.magic': 'Magic classes', 'combat.skills': 'Character skills', 'equipment.weapons-armor': 'Weapons & armor', 'equipment.accessories': 'Accessories', 'equipment.display': 'Armor & status', 'building.palette': 'Materials', 'building.factory': 'Factory decor', 'building.copycats': 'Copycat shapes', 'building.architecture': 'Architecture', 'building.furniture': 'Furniture', 'building.displays': 'Displays', 'building.placement': 'Placement tools', 'building.safety': 'Lighting & safety', 'interactions.carry': 'Carry On', 'visuals.camera': 'Camera', 'visuals.models': 'Models & animations', 'visuals.weather': 'Weather & particles', 'visuals.lighting': 'Lighting & distance', 'visuals.resource-packs': 'Resource packs', 'visuals.shader-packs': 'Shaders', 'sounds.ambience': 'Sound', 'visuals.interface': 'Interface', 'space.destinations': 'Space destinations', 'space.vehicle-transfer': 'Orbital flight', 'performance.baseline': 'Performance', 'performance.deferred': 'Deferred optimizers', 'server.tools': 'Server tools', 'server.deferred-pack-loading': 'Deferred loading', 'technical.bridges': 'Compatibility', 'technical.space-bridge': 'Space compatibility', 'technical.libraries': 'Libraries'})
 
 zh_titles['help.search'] = '浏览配方'
+zh_titles.update({'equipment.weapons-armor': '武器与护甲', 'equipment.accessories': '饰品',
+                  'equipment.display': '护甲与状态', 'combat.skills': '技能成长'})
 titles.update({'space.vehicle-transfer': 'Orbital flight', 'space.life-support': 'Space life support', 'space.navigation': 'Space navigation'})
 titles['help.reference'] = 'Advancements'
 zh_titles['help.reference'] = '进度'
@@ -453,8 +455,21 @@ def write_page(filename, title, body, chinese, parent=None, icon=None, associati
     if associations:
         front += 'item_ids:\n' + ''.join('  - ' + item + '\n' for item in associations)
     body = body.strip()
+    tutorial_lines = [line for line in body.splitlines()
+                      if line.startswith('![YouTube](images/tutorial-video.png) ')]
+    if len(tutorial_lines) > 1:
+        raise ValueError(f'Duplicate tutorial actions: {filename}')
+    if tutorial_lines:
+        before, _, after = body.partition(tutorial_lines[0])
+        before = before.rstrip()
+        # A footer separator belongs to the former action row, not an empty section.
+        if before.endswith('\n***'):
+            before = before[:-4].rstrip()
+        body = (before + '\n\n' + after.lstrip()).strip()
     if filename != 'index.md' and not body.startswith('## '):
         body = '## ' + ('概览' if chinese else 'Overview') + '\n\n' + body
+    if tutorial_lines:
+        body = tutorial_lines[0] + '\n\n' + body
     text = front + '---\n\n# ' + title + '\n\n' + body + '\n'
     out = PAGES / ('_zh_cn' if chinese else '') / filename
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -480,7 +495,7 @@ associations = {
     'food.seafood': ['oceansdelight:cooked_stuffed_squid', 'hybrid_delights:shrimp_fried_rice', 'starcatcher_delight:blossom_toast'],
     'adventure.aquatic': ['hybrid_aquatic:shark_tooth', 'hybrid_aquatic:tuna', 'hybrid_aquatic:carp'],
     'adventure.bosses': ['cataclysm:abyssal_sacrifice', 'cataclysm:altar_of_abyss', 'cataclysm:altar_of_fire', 'cataclysm:altar_of_void', 'cataclysm:burning_ashes', 'cataclysm:cursed_tombstone', 'cataclysm:door_of_seal', 'cataclysm:necklace_of_the_desert', 'cataclysm:strange_key'],
-    'combat.magic': ['spell_engine:spell_binding', 'spell_engine:spell_book', 'spell_engine:spell_scroll'],
+    'combat.abilities': ['spell_engine:spell_binding', 'spell_engine:spell_book', 'spell_engine:spell_scroll'],
     'machines.ore-processing': ['create:millstone', 'create:crushing_wheel', 'create:encased_fan', 'create:crushed_raw_iron'],
     'food.utensils': ['farmersdelight:cooking_pot', 'farmersdelight:cutting_board', 'farmersdelight:skillet', 'farmersdelight:stove'],
     'space.vehicle-transfer': ['rocketnautics:rocket_thruster'],
@@ -526,9 +541,12 @@ for page in page_defs:
         # This does not create a second inventory assignment or duplicate articles.
         related = [e for e in entries if e['topic'] == topic or reference_parents[e['topic']] == topic + '.md' or e['metadata_path'] in related_provider_paths.get(topic, set())]
         # Search lessons already explain example queries, they are not mod catalog sections.
-        if topic not in {'help.controls', 'help.search'}:
+        reviewed_combat = topic.startswith(('class.', 'combat.', 'equipment.')) or topic in {'reference.skills', 'reference.equipment'}
+        if topic not in {'help.controls', 'help.search'} and not reviewed_combat:
             body = decorate_queries(body, chinese)
-        if related:
+        # Keep providers at their subject homes instead of duplicating the whole
+        # Combat subtree beneath the introductory class comparison.
+        if related and topic != 'reference.skills':
             body += '\n\n***\n\n## ' + ('相关模组' if chinese else 'Related mods') + '\n\n' + roster(related, chinese, linked=True)
         # The toolbar already provides history navigation. Avoid duplicate footer links.
         write_page(topic+'.md', title, body, chinese, navigation[topic]['parent'], icon=reference_icons[topic], associations=associations.get(topic), position=navigation[topic]['position'])
