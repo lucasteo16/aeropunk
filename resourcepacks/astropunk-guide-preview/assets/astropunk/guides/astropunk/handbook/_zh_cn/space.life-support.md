@@ -16,112 +16,72 @@ item_ids:
 
 # 太空生命支持
 
-## 个人呼吸装备
+## 呼吸装备
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
-<ItemGrid>
-  <ItemIcon id="create:copper_diving_helmet" />
-  <ItemIcon id="create:copper_backtank" />
-  <ItemIcon id="create:netherite_backtank" />
-  <ItemIcon id="rocketnautics:space_helmet" />
-  <ItemIcon id="rocketnautics:jetpack" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="create:copper_diving_helmet" /><ItemIcon id="create:copper_backtank" /><ItemIcon id="rocketnautics:space_helmet" /><ItemIcon id="rocketnautics:jetpack" /><ItemIcon id="create:netherite_backtank" /></ItemGrid>
 
-| 装备 | 用途 |
-| --- | --- |
-| <ItemLink id="create:copper_diving_helmet" /> | 可合成的呼吸头盔，需搭配加压气源，穿在头部装备栏。 |
-| <ItemLink id="create:copper_backtank" />, <ItemLink id="create:netherite_backtank" /> | 储存呼吸用的空气。充气后穿在胸部装备栏，充气方法见背罐的 Ponder 演示。 |
-| <ItemLink id="rocketnautics:space_helmet" /> | 带轨道显示的呼吸头盔，没有合成配方。 |
-| <ItemLink id="rocketnautics:jetpack" /> | 消耗燃料的飞行胸甲，也提供加压空气。 |
+本包在大气层以上没有可呼吸空气。两件东西可以解决，一件密闭头盔和一份加压空气。
 
-入门可使用铜潜水头盔与已充气的铜背罐。有燃料的喷气背包是另一种气源，不必用它替换背罐。
+| 部件 | 槽位 | 提供 |
+| --- | --- | --- |
+| <ItemLink id="create:copper_diving_helmet" /> | 头部 | 从连接的空气源呼吸 |
+| <ItemLink id="create:copper_backtank" /> | 胸部 | 储存空气，飞行前充满 |
+| <ItemLink id="rocketnautics:space_helmet" /> | 头部 | 从加压源呼吸，并带轨道显示 |
+| <ItemLink id="rocketnautics:jetpack" /> | 胸部 | 加压空气与个人推力 |
+
+铜潜水头盔配充满的铜背罐是最便宜可用的组合，两者都有配方。太空头盔在本包没有合成配方，只能当作拾取到的装备，而不是可以规划的步骤。
 
 <Recipe id="create:crafting/appliances/copper_diving_helmet" />
 
 <Recipe id="create:crafting/appliances/copper_backtank" />
-
-***
-
-## 喷气背包燃料与飞行
-
-<ItemGrid>
-  <ItemIcon id="rocketnautics:jetpack" />
-  <ItemIcon id="minecraft:lava_bucket" />
-  <ItemIcon id="create:spout" />
-</ItemGrid>
-
-用 <ItemLink id="minecraft:lava_bucket" /> 或 <ItemLink id="create:spout" /> 补充熔岩。使用 <KeyBind id="key.rocketnautics.toggle_jetpack" /> 切换飞行，默认按键为 G。不需要飞行时关闭该功能可节省燃料。喷气背包的供气仍会消耗燃料，不受飞行开关控制。
+## 喷气背包
 
 <Recipe id="rocketnautics:crafting/equipment/jetpack" />
 
-***
+<ItemGrid><ItemIcon id="rocketnautics:jetpack" /><ItemIcon id="minecraft:lava_bucket" /><ItemIcon id="create:spout" /></ItemGrid>
 
-## 供氧舱室
+<ItemLink id="rocketnautics:jetpack" /> 燃烧燃料。手持熔岩桶按住替代键点击可以补充，也可以在 <ItemLink id="create:spout" /> 处灌装。按 <KeyBind id="key.rocketnautics.toggle_jetpack" /> 切换系统，按住跳跃可以短促向上推进。
 
-<EmiSearch query="@create_submarine" />
+穿在身上时，它还会向需要加压空气的装备供气，同时缓慢消耗燃料。这项消耗与飞行开关无关，所以在真空里久留会慢慢耗尽燃料，即使一次也没推进。
 
-<ItemGrid>
-  <ItemIcon id="create_submarine:electrolyzer" />
-  <ItemIcon id="create_submarine:oxygene_diffuser" />
-</ItemGrid>
+## 密闭舱室
 
-使用 Deep Seas 舱室工具，在 Sable 飞船内建造完好的密封舱室。飞船未破损时，Deep Air 让供氧舱室中的实体恢复呼吸。它不会密封船体，也不会制造氧气。
+<EmiSearch query="@cosmonauticsdeepair" /> <EmiSearch query="@create_submarine" />
 
-| 机器 | 要求 |
-| --- | --- |
-| <ItemLink id="create_submarine:electrolyzer" /> | 用水与 Forge Energy 产生氧气。 |
-| <ItemLink id="create_submarine:oxygene_diffuser" /> | 位于密封舱室内，储罐有氧气，并接收红石信号。 |
+![船舱内的重力设备](images/cosmo-gravity-room.png)
 
-将氧气供给连接到扩散器，并持续供氧。两种机器的 Ponder 演示说明供能、流体与红石要求。
+<ItemGrid><ItemIcon id="create_submarine:electrolyzer" /><ItemIcon id="create_submarine:oxygene_diffuser" /><ItemIcon id="cosmonauticsdeepair:gravity_generator" /></ItemGrid>
 
-<Recipe id="create_submarine:electrolyzer" />
+船可以自带空气。在船体内部造一个完整的密闭舱，然后给它供气。
 
-<Recipe id="create_submarine:oxygen_diffuser" />
+| 机器 | 需要 | 提供 |
+| --- | --- | --- |
+| <ItemLink id="create_submarine:electrolyzer" /> | 水与 Forge 能量，或模块槽中的传动轴 | 氧气 |
+| <ItemLink id="create_submarine:oxygene_diffuser" /> | 罐中氧气与红石信号 | 密闭舱内的可呼吸空气 |
+| <ItemLink id="cosmonauticsdeepair:gravity_generator" /> | Forge 能量与相邻红石信号 | 舱内局部重力 |
 
-***
+Deep Air 在舱室供氧且船体未破损时恢复呼吸。它不封住船体，也不制氧，所以一旦破口，效果就结束，储存多少氧气都没用。扩散器按舱室体积消耗氧气，这就是小舱比整层甲板更容易维持的原因。
 
-## 舱室重力
-
-<EmiSearch query="@cosmonauticsdeepair" />
-
-![飞船舱室中的重力设备](images/cosmo-gravity-room.png)
-
-<ItemGrid>
-  <ItemIcon id="cosmonauticsdeepair:gravity_generator" />
-</ItemGrid>
-
-<ItemLink id="cosmonauticsdeepair:gravity_generator" /> 在完好密封的舱室内提供局部重力。它需要 Forge Energy 与相邻红石信号，并且必须位于已组装的 Sable 飞船内。
-
-重力与呼吸是不同的舱室功能。重力舱室本身不需要扩散器，但飞船至少应有一个供氧舱室，以维持 Deep Seas 的舱室追踪。发生器不会改变飞船的轨道重力。
+重力发生器是另一项舱室功能。它与扩散器不必在同一舱，但至少要让一个舱保持供氧，舱室追踪才继续有效。
 
 <Recipe id="cosmonauticsdeepair:gravity_generator" />
 
-***
+<Recipe id="create_submarine:oxygen_diffuser" />
 
-## 个人移动装备
+<Recipe id="create_submarine:electrolyzer" />
+## 个人移动
 
-<ItemGrid>
-  <ItemIcon id="rocketnautics:copper_leg_thrusters" />
-  <ItemIcon id="rocketnautics:copper_anchor_boots" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="rocketnautics:copper_leg_thrusters" /><ItemIcon id="rocketnautics:copper_anchor_boots" /></ItemGrid>
 
-| 装备 | 用途 |
-| --- | --- |
-| <ItemLink id="rocketnautics:copper_leg_thrusters" /> | 消耗加压空气来提供飞行与惯性阻尼。使用 <KeyBind id="key.rocketnautics.toggle_dampeners" /> 切换阻尼，默认按键为 Z。 |
-| <ItemLink id="rocketnautics:copper_anchor_boots" /> | 靠近支撑地板时帮助保持落地，但不影响正在飞行的玩家，也不产生舱室重力。 |
+<ItemLink id="rocketnautics:copper_leg_thrusters" /> 用加压空气提供飞行与惯性阻尼，在太空中的效率是地面的四倍，水下是两倍。按 <KeyBind id="key.rocketnautics.toggle_dampeners" /> 切换阻尼。
+
+<ItemLink id="rocketnautics:copper_anchor_boots" /> 在主动飞行之外把你固定在可支撑的地面上。它不为其他人创造重力，在悬空处也不起作用。
 
 <Recipe id="rocketnautics:crafting/equipment/copper_leg_thrusters" />
 
 <Recipe id="rocketnautics:crafting/equipment/copper_anchor_boots" />
-
-***
-
-## 相关页面
-
-- [水上载具](vehicles.water.md)
-- [轨道飞行](space.vehicle-transfer.md)
-- [维度](world.dimensions.md)
 
 
 ***

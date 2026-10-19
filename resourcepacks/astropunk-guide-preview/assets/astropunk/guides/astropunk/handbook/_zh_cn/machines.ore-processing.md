@@ -13,113 +13,81 @@ item_ids:
 
 # 加工矿石与原料
 
-## 共享材料产物
+## 三个阶段各自的收益
 
-<EmiSearch query="@createdeco" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
-Almost Unified 在本整合包仅统一共享的安山合金板与锌板配方标签，优先使用 Create Deco 产物。它不统一所有金属、铂或 Witcher 装备。
+粗矿直接烧炼只得到一块锭。先粉碎、再洗涤粉碎矿，能在同样的锭之外拿到经验，还有机会得到第二种材料，因此这些额外机器靠你已经挖到的矿就能回本。
 
-原有物品仍显示在配方浏览器中，战利品也不统一。制作精确物品过滤器前，检查实际配方产物与接受的原料。材料名称相同，不代表两个物品都符合指定物品配方。
+先做一台 <ItemLink id="create:millstone" />。它需要旋转，但不需要水，也不需要第二只轮子，是用来看清整条流程最便宜的方式。
 
-***
+<ItemGrid><ItemIcon id="create:millstone" /><ItemIcon id="create:crushing_wheel" /><ItemIcon id="create:encased_fan" /></ItemGrid>
 
-## 矿物加工机器
-
-<ItemGrid>
-  <ItemIcon id="create:millstone" />
-  <ItemIcon id="create:crushing_wheel" />
-  <ItemIcon id="create:encased_fan" />
-</ItemGrid>
-
-| 机器 | 加工方式 |
-| --- | --- |
-| <ItemLink id="create:millstone" /> | 磨碎 |
-| <ItemLink id="create:crushing_wheel" /> | 粉碎 |
-| <ItemLink id="create:encased_fan" /> | 配合水进行洗涤 |
-
-机器排列和动力供应请看思索演示。
-
-***
-
-## 磨石
+| 机器 | 旋转需求 | 作用 |
+| --- | --- | --- |
+| <ItemLink id="create:millstone" /> | 任意转速，4 点应力 | 磨碎，一次一个物品 |
+| <ItemLink id="create:crushing_wheel" /> | 一对轮子，每只 8 点应力 | 粉碎，可大量投入 |
+| <ItemLink id="create:encased_fan" /> | 任意转速，2 点应力 | 洗涤、烟熏、熔炼、缠魂 |
 
 <Recipe id="create:crafting/kinetics/millstone" />
 
-***
+磨石也是谷物机器。投入小麦得到小麦粉，另有种子作为副产物。
 
-## 磨碎小麦
+<ItemGrid><ItemIcon id="minecraft:wheat" /><ItemIcon id="create:millstone" /><ItemIcon id="create:wheat_flour" /><ItemIcon id="minecraft:wheat_seeds" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="minecraft:wheat" />
-  <ItemIcon id="create:millstone" />
-  <ItemIcon id="create:wheat_flour" />
-  <ItemIcon id="minecraft:wheat_seeds" />
-</ItemGrid>
-
-| 图示物品 |
-| --- |
-| <ItemLink id="minecraft:wheat" /> |
-| <ItemLink id="create:millstone" /> |
-| <ItemLink id="create:wheat_flour" /> |
-| <ItemLink id="minecraft:wheat_seeds" /> |
-
-| 输入 | 产物 |
-| --- | --- |
-| 一个小麦 | 一份小麦粉 |
-| 额外产物，概率百分之二十五 | 两份小麦粉 |
-| 额外产物，概率百分之二十五 | 一份小麦种子 |
+要看到的结果是机器持续转动、物品不断通过。如果它停住，说明应力网络超载，而不是机器坏了。应力预算由[旋转动力](machines.rotation.md)统一说明。
 
 ***
 
-## 粉碎粗铁
+## 先粉碎再烧炼
 
-<ItemGrid>
-  <ItemIcon id="minecraft:raw_iron" />
-  <ItemIcon id="create:crushing_wheel" />
-  <ItemIcon id="create:crushed_raw_iron" />
-  <ItemIcon id="create:experience_nugget" />
-</ItemGrid>
+一对 <ItemLink id="create:crushing_wheel" /> 相对放置，中间留出缝隙。丢进缝隙的物品会被粉碎，掉进去的生物也会受伤。
 
-| 图示物品 |
-| --- |
-| <ItemLink id="minecraft:raw_iron" /> |
-| <ItemLink id="create:crushing_wheel" /> |
-| <ItemLink id="create:crushed_raw_iron" /> |
-| <ItemLink id="create:experience_nugget" /> |
+<ItemGrid><ItemIcon id="minecraft:raw_iron" /><ItemIcon id="create:crushed_raw_iron" /><ItemIcon id="create:experience_nugget" /></ItemGrid>
 
-| 输入 | 产物 |
-| --- | --- |
-| 一个粗铁 | 一个粉碎铁矿石 |
-| 额外产物，概率百分之七十五 | 一个经验颗粒 |
+| 输入 | 产物 | 额外 |
+| --- | --- | --- |
+| 一个粗铁 | 一个粉碎铁矿 | 百分之七十五概率得到一个经验颗粒 |
+
+整合包加入的每种矿都有自己的粉碎条目，配方浏览器会显示你手上那种矿的具体一行。磨石对谷物做类似的事，把小麦磨成小麦粉。
+
+即使不需要矿粉，经验颗粒也是粉碎的理由。把颗粒和机械压床放进工作盆压制，之后触碰就能取出经验。
 
 ***
 
-## 洗涤铁矿石
+## 洗涤粉碎矿
 
-<ItemGrid>
-  <ItemIcon id="create:crushed_raw_iron" />
-  <ItemIcon id="create:encased_fan" />
-  <ItemIcon id="minecraft:water_bucket" />
-  <ItemIcon id="minecraft:iron_nugget" />
-  <ItemIcon id="minecraft:redstone" />
-</ItemGrid>
+洗涤需要穿过水的空气。在风扇正面直接放一格水源，物品放在水的另一侧，风扇就会把洗好的产物推向远端。
 
-| 图示物品 |
-| --- |
-| <ItemLink id="create:crushed_raw_iron" /> |
-| <ItemLink id="create:encased_fan" /> |
-| <ItemLink id="minecraft:water_bucket" /> |
-| <ItemLink id="minecraft:iron_nugget" /> |
-| <ItemLink id="minecraft:redstone" /> |
+<ItemGrid><ItemIcon id="create:crushed_raw_iron" /><ItemIcon id="create:encased_fan" /><ItemIcon id="minecraft:water_bucket" /><ItemIcon id="minecraft:iron_nugget" /><ItemIcon id="minecraft:redstone" /></ItemGrid>
 
-| 输入 | 产物 |
+| 输入 | 产物 | 额外 |
+| --- | --- | --- |
+| 一个粉碎铁矿 | 九个铁粒 | 百分之七十五概率得到一个红石 |
+
+九个铁粒合成一块锭，所以洗涤本身不增加铁。它增加的是红石，并把矿变成与锭同样方便堆叠的形态。本包把风扇加工时间设为 150 游戏刻，满速风扇下约七秒半。
+
+水是加工介质，不是原料。水桶图标代表那格水方块，风扇不会消耗它。
+
+***
+
+## 当两种矿同名时
+
+<EmiSearch query="@createdeco" />
+
+本包的 Almost Unified 只统一共享的安山合金板与锌板配方标签，并优先采用 Create Deco 的产物。其余物品仍保留各自模组注册的那一件。
+
+<ItemGrid><ItemIcon id="create:andesite_alloy" /></ItemGrid>
+
+| 情况 | 做法 |
 | --- | --- |
-| 一个粉碎铁矿石 | 九个铁粒 |
-| 额外产物，概率百分之七十五 | 一个红石 |
+| 配方写着某种板 | 看配方浏览器接受的原料，而不是材料名称 |
+| 要做精确物品过滤器 | 匹配配方真正消耗的那件物品 |
+| 战利品或首领掉落看起来相同 | 当作另一件物品处理 |
 
-水是鼓风机的加工介质，不会消耗一桶水。原料输送和产物收集见物品输送。
+名称相同不代表两件物品在精确物品过滤器里可以互换。做过滤器之前先看配方，整合包更新后再看一次。
 
-- [物品输送](machines.logistics.md)
+下一步是不靠手搬，把这些机器连起来。[物料输送](machines.logistics.md)说明传送带、滑槽与机械臂。
 
 
 ***

@@ -8,60 +8,73 @@ navigation:
 
 # 储存工厂的大批原料
 
-## 仓库与集装箱
+## 储物仓容量是方块数乘二十
 
-<EmiSearch query="@create_vibrant_vaults" /> <EmiSearch query="@create" />
+<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
-![物品仓库的材质与颜色选择](images/visual-colored-vaults.png)
-
-物品仓库的材质与颜色选择
-
-<ItemGrid>
-  <ItemIcon id="create:item_vault" />
-  <ItemIcon id="create_vibrant_vaults:basic_shipping_container" />
-  <ItemIcon id="create_vibrant_vaults:shipping_container" />
-  <ItemIcon id="create_vibrant_vaults:vertical_item_vault" />
-  <ItemIcon id="create_vibrant_vaults:vertical_basic_shipping_container" />
-  <ItemIcon id="create_vibrant_vaults:vertical_shipping_container" />
-</ItemGrid>
-
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="create:item_vault" /> | Create 物品仓库，用于工厂集中储存。 |
-| <ItemLink id="create_vibrant_vaults:basic_shipping_container" />, <ItemLink id="create_vibrant_vaults:shipping_container" /> | Create: Vibrant Vaults 增加基础集装箱与集装箱系列。 |
-| <ItemLink id="create_vibrant_vaults:vertical_item_vault" />, <ItemLink id="create_vibrant_vaults:vertical_basic_shipping_container" />, <ItemLink id="create_vibrant_vaults:vertical_shipping_container" /> | 竖直仓库与集装箱变体，染色版本便于区分库存。 |
-
-***
-
-## 筒仓与接口
-
-<EmiSearch query="@create_connected" />
-
-<ItemGrid>
-  <ItemIcon id="create_connected:item_silo" />
-  <ItemIcon id="create_connected:fluid_vessel" />
-  <ItemIcon id="create_connected:inventory_access_port" />
-  <ItemIcon id="create_connected:inventory_bridge" />
-</ItemGrid>
-
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="create_connected:item_silo" />, <ItemLink id="create_connected:fluid_vessel" /> | Create: Connected 提供竖直物品仓库与横向流体容器，后者作为锅炉时效率较低。 |
-| <ItemLink id="create_connected:inventory_access_port" />, <ItemLink id="create_connected:inventory_bridge" /> | 访问端口延伸容器接口，桥接器连接两个容器，两者均不增加容量。 |
-
-***
-
-## 初次使用
-
-### 工厂储物库
+<ItemLink id="create:item_vault" /> 以相连方块的形式储存物品。本包把储物仓设为每格 20 组，因此容量取决于形状里的方块数，而不是你看到的那一面。
 
 <Recipe id="create:crafting/kinetics/item_vault" />
 
-制作 <ItemLink id="create:item_vault" />，再查看思索演示，连接储物方块。
+<ItemGrid><ItemIcon id="create:item_vault" /><ItemIcon id="create_connected:item_silo" /><ItemIcon id="create_connected:inventory_access_port" /></ItemGrid>
 
-先制作物品仓库并查看思索演示。漏斗或库存连接器无法接触容器时，可使用容器访问端口。颜色不代表不同容量。包裹输送见物品输送。
+| 形状 | 方块数 | 可存组数 |
+| --- | --- | --- |
+| 单格储物仓 | 1 | 20 |
+| 两格储物仓 | 2 | 40 |
+| 三乘三一面 | 9 | 180 |
 
-- [物品输送](machines.logistics.md)
+储物仓只通过自己的面和贴着面的漏斗或滑槽连接。它不是箱子，没有可以整理的可视格界面。要用库存链接或显示链接去读它。
+
+***
+
+## 适合墙面的形状
+
+<EmiSearch query="@create_vibrant_vaults" />
+
+<ItemGrid><ItemIcon id="create_vibrant_vaults:shipping_container" /><ItemIcon id="create_vibrant_vaults:vertical_item_vault" /><ItemIcon id="create_vibrant_vaults:vertical_shipping_container" /><ItemIcon id="create_connected:fluid_vessel" /><ItemIcon id="create_vibrant_vaults:basic_shipping_container" /><ItemIcon id="create_vibrant_vaults:vertical_basic_shipping_container" /></ItemGrid>
+
+| 方块 | 用途 |
+| --- | --- |
+| <ItemLink id="create_connected:item_silo" /> | 用于高层空间的竖向储物仓 |
+| <ItemLink id="create_vibrant_vaults:shipping_container" /> | 看着像集装箱堆场的宽储存 |
+| <ItemLink id="create_vibrant_vaults:vertical_item_vault" /> | 窄房间用的高储存 |
+| <ItemLink id="create_vibrant_vaults:vertical_shipping_container" /> | 竖向集装箱变体 |
+| <ItemLink id="create_connected:fluid_vessel" /> | 横向流体罐 |
+
+Vibrant Vaults 为每个家族加入彩色与染色版本。颜色是标签，不改变容量，同样形状的红色储物仓与蓝色储物仓存的一样多。
+
+流体容器是横向储罐，可以改成锅炉但效率较低。它的窗口形状可用扳手切换，在把它埋进墙里之前值得先调好。
+
+***
+
+## 够到看不见的那一面
+
+<ItemGrid><ItemIcon id="create_connected:inventory_access_port" /><ItemIcon id="create_connected:inventory_bridge" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:stock_link" /></ItemGrid>
+
+| 部件 | 效果 |
+| --- | --- |
+| <ItemLink id="create_connected:inventory_access_port" /> | 在狭窄位置给容器增加一个可用面 |
+| <ItemLink id="create_connected:inventory_bridge" /> | 把两个容器作为一个连接暴露，过滤器仍然有效 |
+| <ItemLink id="create:brass_funnel" /> | 从指定面取出过滤后的物品 |
+| <ItemLink id="create:stock_link" /> | 让储物仓对库存网络可见 |
+
+改变布局的是桥接器。通过它抽取物品时过滤器有效，因此一整面储物仓可以只露出一个整齐的出口，而不会把里面的东西全部漏出去。
+
+这两个部件都不增加容量。装了三个接入口的储物仓，装的还是原来那么多。
+
+***
+
+## 放下第一只储物仓
+
+<ItemGrid><ItemIcon id="create:item_vault" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:stock_link" /></ItemGrid>
+
+1. 做一只 <ItemLink id="create:item_vault" />，贴放在它服务的房间墙边。
+2. 在传送带够得到的那一面装漏斗或滑槽。
+3. 贴着第一格再加一格，确认两格被读作同一处储存。
+4. 若要让工厂仪表统计内容，装上库存链接。
+
+要看到的结果是储存靠增加方块而增长，而不是靠增加箱子。下一步是不用玩家也能喂满它。[物料输送](machines.logistics.md)说明传送带、机械臂与包裹。
 
 
 ***
