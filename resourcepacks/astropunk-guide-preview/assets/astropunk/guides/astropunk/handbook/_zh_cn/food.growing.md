@@ -45,7 +45,7 @@ navigation:
 
 ## 肥沃土壤
 
-<ItemGrid><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="farmersdelight:rich_soil" /><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="minecraft:brown_mushroom" /><ItemIcon id="minecraft:podzol" /></ItemGrid>
+<ItemGrid><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="farmersdelight:rich_soil" /><ItemIcon id="minecraft:brown_mushroom" /><ItemIcon id="minecraft:podzol" /></ItemGrid>
 
 合成 <ItemLink id="farmersdelight:organic_compost" />，放置后等待。阳光和附近的水会加快分解。相邻的堆肥、肥沃土壤、菌丝、灰化土和蘑菇都是促进方块，能让它更快转化。堆肥最终变成 <ItemLink id="farmersdelight:rich_soil" />。
 

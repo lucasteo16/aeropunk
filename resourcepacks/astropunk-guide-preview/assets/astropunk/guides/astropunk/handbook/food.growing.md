@@ -45,7 +45,7 @@ Rice is planted in shallow water. Harvest a ripe <ItemLink id="farmersdelight:ri
 
 ## Rich soil
 
-<ItemGrid><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="farmersdelight:rich_soil" /><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="minecraft:brown_mushroom" /><ItemIcon id="minecraft:podzol" /></ItemGrid>
+<ItemGrid><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="farmersdelight:rich_soil" /><ItemIcon id="minecraft:brown_mushroom" /><ItemIcon id="minecraft:podzol" /></ItemGrid>
 
 Craft <ItemLink id="farmersdelight:organic_compost" />, place it, and wait. Sunlight and water nearby speed the decomposition. Neighbouring compost, rich soil, mycelium, podzol and mushrooms act as activators and speed it further. The pile becomes <ItemLink id="farmersdelight:rich_soil" />.
 

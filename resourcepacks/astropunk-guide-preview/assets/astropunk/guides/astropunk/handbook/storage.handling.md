@@ -14,7 +14,7 @@ Most storage time is lost in the screens, not in the containers. This pack insta
 
 Open any supported container and use its search field and sort button. Sophisticated Inventory Interactions adds search, player inventory sorting, container sorting and transfer controls to supported screens.
 
-<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
+<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
 
 | Screen action | What it saves |
 | --- | --- |
@@ -31,7 +31,7 @@ Mouse Tweaks handles the drag and wheel side. It is a convenience mod, so the ex
 
 <EmiSearch query="@interactic" />
 
-<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
+<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
 
 | Setting | Effect |
 | --- | --- |
