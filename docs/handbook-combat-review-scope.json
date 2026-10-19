@@ -1,0 +1,104 @@
+{
+  "purpose": "Recorded scope of the later Combat review, so earlier revision snapshots stay auditable without absorbing this work.",
+  "branch": "feature/combat-guide-review",
+  "base_commit": "9fed11b0bfe78b784c848fce1e9e70283f91b2ea",
+  "changed_topics": [
+    "class.aqua",
+    "class.arcane",
+    "class.archer",
+    "class.bard",
+    "class.berserker",
+    "class.deadeye",
+    "class.fire",
+    "class.forcemaster",
+    "class.frost",
+    "class.paladin",
+    "class.priest",
+    "class.rogue",
+    "class.terra",
+    "class.tundra-hunter",
+    "class.war-archer",
+    "class.warrior",
+    "class.wind",
+    "class.witcher",
+    "combat.abilities",
+    "combat.handling",
+    "combat.magic",
+    "combat.martial",
+    "combat.skills",
+    "equipment.accessories",
+    "equipment.display",
+    "equipment.weapons-armor",
+    "reference.equipment",
+    "reference.skills"
+  ],
+  "rendered_in_game": false,
+  "accepted_reference_removals": {
+    "combat.magic": {
+      "removed": [
+        "minecraft:book",
+        "minecraft:bookshelf",
+        "minecraft:lapis_lazuli",
+        "spell_engine:spell_binding",
+        "spell_engine:spell_book",
+        "spell_engine:spell_scroll",
+        "KeyBind keybindings.spell_engine.spell_hotbar_1",
+        "Recipe spell_engine:spell_binding_table"
+      ],
+      "reason": "Generic supply stages were removed. The rune facts, altar yields and pouch recipes remain."
+    },
+    "combat.martial": {
+      "removed": [
+        "minecraft:book",
+        "spell_engine:spell_binding"
+      ],
+      "reason": "The weapon-family table and class readiness tables already carry these examples. A duplicated choose-by-weapon section was removed."
+    },
+    "combat.skills": {
+      "removed": [
+        "archers:rapid_crossbow",
+        "archers_expansion:tundra_hunter_chest",
+        "archers_expansion:war_archer_chest",
+        "elemental_wizards_rpg:wand_aqua",
+        "elemental_wizards_rpg:wand_terra",
+        "elemental_wizards_rpg:wand_wind",
+        "paladins:holy_wand",
+        "witcher_rpg:wolf_school_medallion",
+        "wizards:wand_fire"
+      ],
+      "reason": "Generic stage rows were removed. Blocked-node causes, anti-farming and Orb reset facts remain."
+    },
+    "equipment.display": {
+      "removed": [
+        "minecraft:diamond_chestplate"
+      ],
+      "reason": "A generic read-your-build section was removed. The display add-on table remains."
+    },
+    "reference.equipment": {
+      "removed": [
+        "archers:composite_longbow",
+        "rogues:iron_dagger",
+        "Recipe jewelry:copper_ring"
+      ],
+      "reason": "A generic when-to-improve table was removed. The copper ring recipe is documented on Accessories, and the role comparison and first-equipment guidance remain."
+    },
+    "reference.skills": {
+      "removed": [
+        "minecraft:enchanted_book",
+        "minecraft:iron_chestplate"
+      ],
+      "reason": "Decorative icons were removed from the reference list for alignment. The binding table grid remains."
+    }
+  },
+  "restored_after_verification": {
+    "reference.skills": [
+      "spell_engine:spell_binding",
+      "Recipe spell_engine:spell_binding_table",
+      "minecraft:iron_chestplate",
+      "minecraft:enchanted_book"
+    ]
+  },
+  "known_pre_existing_drift": {
+    "storage.portable": "The visual-pass snapshot predates a portable-storage revision. Branch base 9fed11b and this branch hold identical text for this topic, so the mismatch predates this work."
+  }
+}

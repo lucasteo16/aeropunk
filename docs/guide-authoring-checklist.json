@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "baseline_count": 322,
-  "union_count": 342,
+  "baseline_count": 323,
+  "union_count": 343,
   "categories": [
     "Automation and industry",
     "Storage and logistics",
@@ -4454,6 +4454,19 @@
       "availability": "baseline",
       "category": "Vehicles and travel",
       "topic": "vehicles.airships",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/jei.pw.toml",
+      "name": "Just Enough Items (JEI)",
+      "availability": "baseline",
+      "category": "Player utilities and quality of life",
+      "topic": "help.search",
       "indexed": true,
       "player_mention_written": true,
       "instructions_verified": false,

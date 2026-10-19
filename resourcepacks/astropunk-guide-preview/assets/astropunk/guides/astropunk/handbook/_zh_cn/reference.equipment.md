@@ -8,48 +8,34 @@ navigation:
 
 # 装备
 
-## 构筑装备
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+equipment+attributes+armor+jewelry+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+%E8%A3%85%E5%A4%87+%E5%B1%9E%E6%80%A7+%E6%8A%A4%E7%94%B2+%E7%8F%A0%E5%AE%9D+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
+## 装备作用
 
-![盗贼与战士装备](images/visual-martial-equipment.png)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>
 
-盗贼与战士装备
+武器与法器决定攻击模式及可用法术。护甲提供防护与构筑属性。饰品在适用槽位中增加属性或物品专属效果。
 
-<ItemGrid>
-  <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="wizards:wand_novice" />
-  <ItemIcon id="jewelry:copper_ring" />
-</ItemGrid>
+| 装备 | 比较内容 |
+| --- | --- |
+| 武器或法器 | 攻击模式、伤害、攻速、距离与兼容招式。 |
+| 护甲 | 防护、对应学派加成与套装要求。 |
+| 饰品 | 属性、适用槽位、触发条件与冷却。 |
 
-武器决定攻击方式与可用法术范围。护甲和饰品改变防护及战斗属性。护甲值更高，不代表你的招式学派也更强。
+火焰强度不会增强冰霜法术。近战招式比较近战伤害，弓术比较远程伤害，魔法与治疗比较对应学派的法术强度，同时查看急速与暴击属性。
 
-- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
-- [饰品](equipment.accessories.md) 将珠宝与遗物装入适用的饰品槽。
-- [护甲与效果显示](equipment.display.md) 区分装备属性与临时效果。
-
+- [武器与护甲](equipment.weapons-armor.md) 职业装备、具名套装、Arsenal 与 Cataclysm。
+- [饰品](equipment.accessories.md) 入门戒指配方、珠宝与遗物目录。
+- [护甲与状态](equipment.display.md) 装备属性与临时效果。
 
 ***
 
-## 属性搭配
+## 入门装备
 
-近战比较攻击伤害，弓术比较远程伤害，魔法和治疗则比较对应学派的法术强度。同时查看急速、暴击属性与装备效果的触发条件。触发式增益不是可以任意释放的额外职业法术。
+<ItemGrid><ItemIcon id="jewelry:copper_ring" /><ItemIcon id="wizards:wand_novice" /></ItemGrid>
 
-- [武技](combat.martial.md) 查看远程射击、近战与职业招式。
-- [魔法与辅助](combat.magic.md) 查看法术绑定、施法材料与职业法术。
-- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
+先选职业武器或法器，再将稀有材料用于护甲。可合成的铜戒指或铁戒指能补充早期防护，但不会解锁职业法术。装备触发效果也不是可任意释放的额外职业法术。
 
-***
-
-## 初期防护
-
-先让武器或法器契合职业，再将稀有材料用于护甲。收集学派装备时，简单戒指可补充防护，但不能代替招式绑定。
-
-<ItemGrid>
-  <ItemIcon id="jewelry:copper_ring" />
-</ItemGrid>
-
-<ItemLink id="jewelry:copper_ring" />
-
-<Recipe id="jewelry:copper_ring" />
+- [战斗](reference.skills.md) 选择职业，在对应文章查看入门配方。
+- [法术与招式](combat.abilities.md) 准备职业书并满足施法要求。
+- [技能成长](combat.skills.md) 分配相互独立的职业点数与武器点数。

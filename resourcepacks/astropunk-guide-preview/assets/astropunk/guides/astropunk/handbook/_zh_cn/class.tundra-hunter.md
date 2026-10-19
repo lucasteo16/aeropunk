@@ -21,21 +21,47 @@ item_ids:
 
 # 冻原猎手
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Archers+Expansion+Tundra+Hunter+abilities+equipment+tutorial+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+Archers+Expansion+%E5%86%BB%E5%8E%9F%E7%8C%8E%E6%89%8B+%E6%8A%80%E8%83%BD+%E8%A3%85%E5%A4%87+%E6%95%99%E7%A8%8B+%E4%B8%AD%E6%96%87)
+
 ## 定位与入门武器
+
+冻原猎手将弓箭攻击与冰冻射击、持续冰霜区域结合。
 
 ![苔原猎人战斗](images/visual-tundra-hunter-combat.png)
 
-苔原猎人战斗
+### 入门配装示例
 
-<ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-</ItemGrid>
+入门配装示例：职业入门武器搭配目录中的第一套护甲。这是一种可合成选择，并非官方或最优构筑。
+
+<GameScene zoom="4" interactive={true}>
+  <IsometricCamera yaw="135" pitch="15" />
+  <Entity id="minecraft:armor_stand" x="0.5" y="0" z="0.5" rotationY="180" data='{NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,ArmorItems:[{id:"archers:archer_armor_feet",count:1},{id:"archers:archer_armor_legs",count:1},{id:"archers:archer_armor_chest",count:1},{id:"archers:archer_armor_head",count:1}],HandItems:[{id:"archers:composite_longbow",count:1},{}]}' />
+</GameScene>
+
+<ItemGrid><ItemIcon id="archers:composite_longbow" /><ItemIcon id="archers:archer_armor_feet" /><ItemIcon id="archers:archer_armor_legs" /><ItemIcon id="archers:archer_armor_chest" /><ItemIcon id="archers:archer_armor_head" /></ItemGrid>
+
+### 入门装备
+
+<ItemGrid><ItemIcon id="archers:composite_longbow" /></ItemGrid>
 
 <ItemLink id="archers:composite_longbow" />
 
 <Recipe id="archers:composite_longbow" />
 
-冰霜远程招式结合冰冻射击与持续区域。
+### 准备阶段与首次战斗
+
+冻原猎手的职业书以冻结射击与冰霜区域为主，弓只是投放寒冷的手段，而不是整个构筑。长弓能让范围招式落在怪群站位上，短弓让你在施法之间保持移动。冻原猎人与极地追猎者护甲提供冰霜与远程属性。一次成功的首战，是把一只怪物留在冰霜区域内，让它在减速中被打完。
+
+下列阶段均为可选，说明手头需要什么、每一步解锁什么，不按游玩天数衡量。
+
+| 阶段 | 就绪条件 | 建议行动或下一步选择 |
+| --- | --- | --- |
+| 前期：初次冰霜射击 | 一把弓、箭矢，以及一个附带寒冷效果的招式。 | 先用复合长弓，招式投向怪群而不是单个目标，减速才值得消耗。 |
+| 中期起步：职业书 | 法术绑定台、冻原猎手职业书，以及学习费用。 | 绑定职业书并与弓一同装备。为走出冰霜区域的怪物留一手近战。 |
+| 中期：护甲 | 冻原猎手护甲，或作为备选家族的极地追猎者护甲。 | 选定一个家族并凑齐。两者都是远程套装，比较提示属性而不是只看名称。 |
+| 后期：下界合金 | 下界合金材料，以及对应的冻原猎手或极地追猎者部件。 | 经常挨打就先升级胸甲，否则升级你最依赖的那条加成所在的位置。 |
+
+### 书中招式
 
 | 能力 | 形式 |
 | --- | --- |
@@ -49,34 +75,31 @@ item_ids:
 ***
 
 ## 职业法术书
+<ItemGrid><ItemIcon id="spell_engine:spell_book" /></ItemGrid>
 
-<EmiSearch query="@spell_engine" />
+在法术绑定台选择冻原猎手法术书。职业书是 <ItemLink id="spell_engine:spell_book" /> 的配置变体，包含对应的招式池。
 
-<ItemLink id="spell_engine:spell_book" />
-
-在法术绑定台放入普通书，选择冻原猎手法术书。它是带有职业配置的法术书，并非独立物品类型。支付界面显示的经验等级，再用青金石和所需书架能量绑定上表招式。将书装备在支持的槽位，手持兼容武器或法器。
-
-- [法术绑定与资源](combat.magic.md) 费用、武器兼容、符文与施法操作。
-- [初次使用招式](combat.abilities.md) 绑定步骤，以及书籍招式与武器招式的区别。
+- [绑定与施法](combat.abilities.md) 职业书制作、费用、装备槽位与施法操作。
+- [符文与武器法术](combat.magic.md) 施法资源与装备自带法术。
 
 ***
 
 ## 职业技能
+<ItemGrid><ItemIcon id="archers_expansion:tundra_hunter_chest" /><ItemIcon id="minecraft:bow" /></ItemGrid>
 
-按 <KeyBind id="key.puffish_skills.open" /> 打开技能界面，选择对应职业路线。职业点数与武器点数各自独立，分配前查看互斥根节点。更换装备不会返还点数。
+按 <KeyBind id="key.puffish_skills.open" /> 查找下列职业路线与武器路线。
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 冻原猎手 | <ItemLink id="archers_expansion:tundra_hunter_chest" /> |
 
 ### 武器路线
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 弓专精 | <ItemLink id="minecraft:bow" /> |
 
-- [技能成长](combat.skills.md)
-
+- [技能成长](combat.skills.md) 点数分类、相连节点、互斥路线与重置。更换装备不会返还点数。
 
 ***
 
@@ -88,39 +111,19 @@ item_ids:
 
 ### 武器
 
-<ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="archers:mechanic_shortbow" />
-  <ItemIcon id="archers:royal_longbow" />
-  <ItemIcon id="archers:netherite_shortbow" />
-  <ItemIcon id="archers:netherite_longbow" />
-  <ItemIcon id="archers:rapid_crossbow" />
-  <ItemIcon id="archers:heavy_crossbow" />
-  <ItemIcon id="archers:netherite_rapid_crossbow" />
-  <ItemIcon id="archers:netherite_heavy_crossbow" />
-</ItemGrid>
-
-| 物品 | 用途 |
-| --- | --- |
-| <ItemLink id="archers:composite_longbow" /> | 远程武器 |
-| <ItemLink id="archers:mechanic_shortbow" /> | 远程武器 |
-| <ItemLink id="archers:royal_longbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_shortbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_longbow" /> | 远程武器 |
-| <ItemLink id="archers:rapid_crossbow" /> | 远程武器 |
-| <ItemLink id="archers:heavy_crossbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_rapid_crossbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_heavy_crossbow" /> | 远程武器 |
+| 分类 | 物品 | 定位 |
+| --- | --- | --- |
+| <ItemLink id="archers:composite_longbow" /> | <ItemGrid><ItemIcon id="archers:composite_longbow" /><ItemIcon id="archers:royal_longbow" /><ItemIcon id="archers:netherite_longbow" /></ItemGrid> | 远程，蓄力较久，适合向怪群投放范围 |
+| <ItemLink id="archers:mechanic_shortbow" /> | <ItemGrid><ItemIcon id="archers:mechanic_shortbow" /><ItemIcon id="archers:netherite_shortbow" /></ItemGrid> | 远程，蓄力较快，适合在施法之间移动 |
+| <ItemLink id="archers:rapid_crossbow" /> | <ItemGrid><ItemIcon id="archers:rapid_crossbow" /><ItemIcon id="archers:heavy_crossbow" /><ItemIcon id="archers:netherite_rapid_crossbow" /><ItemIcon id="archers:netherite_heavy_crossbow" /></ItemGrid> | 远程，装填后把冰霜区域留在原地 |
 
 ### 护甲套装
 
-每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
-
-| 头部 | 胸部 | 腿部 | 足部 |
-| --- | --- | --- | --- |
-| <ItemLink id="archers:archer_armor_head" /> | <ItemLink id="archers:archer_armor_chest" /> | <ItemLink id="archers:archer_armor_legs" /> | <ItemLink id="archers:archer_armor_feet" /> |
-| <ItemLink id="archers:ranger_armor_head" /> | <ItemLink id="archers:ranger_armor_chest" /> | <ItemLink id="archers:ranger_armor_legs" /> | <ItemLink id="archers:ranger_armor_feet" /> |
-| <ItemLink id="archers:netherite_ranger_armor_head" /> | <ItemLink id="archers:netherite_ranger_armor_chest" /> | <ItemLink id="archers:netherite_ranger_armor_legs" /> | <ItemLink id="archers:netherite_ranger_armor_feet" /> |
+| 套装参考，以胸甲名称标识 | 部件，依次为头、胸、腿、足 |
+| --- | --- |
+| <ItemLink id="archers:archer_armor_chest" /> | <ItemGrid><ItemIcon id="archers:archer_armor_head" /><ItemIcon id="archers:archer_armor_chest" /><ItemIcon id="archers:archer_armor_legs" /><ItemIcon id="archers:archer_armor_feet" /></ItemGrid> |
+| <ItemLink id="archers:ranger_armor_chest" /> | <ItemGrid><ItemIcon id="archers:ranger_armor_head" /><ItemIcon id="archers:ranger_armor_chest" /><ItemIcon id="archers:ranger_armor_legs" /><ItemIcon id="archers:ranger_armor_feet" /></ItemGrid> |
+| <ItemLink id="archers:netherite_ranger_armor_chest" /> | <ItemGrid><ItemIcon id="archers:netherite_ranger_armor_head" /><ItemIcon id="archers:netherite_ranger_armor_chest" /><ItemIcon id="archers:netherite_ranger_armor_legs" /><ItemIcon id="archers:netherite_ranger_armor_feet" /></ItemGrid> |
 
 ***
 
@@ -132,18 +135,16 @@ item_ids:
 
 ### 护甲套装
 
-每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
-
-| 头部 | 胸部 | 腿部 | 足部 |
-| --- | --- | --- | --- |
-| <ItemLink id="archers_expansion:tundra_hunter_head" /> | <ItemLink id="archers_expansion:tundra_hunter_chest" /> | <ItemLink id="archers_expansion:tundra_hunter_legs" /> | <ItemLink id="archers_expansion:tundra_hunter_feet" /> |
-| <ItemLink id="archers_expansion:netherite_tundra_hunter_head" /> | <ItemLink id="archers_expansion:netherite_tundra_hunter_chest" /> | <ItemLink id="archers_expansion:netherite_tundra_hunter_legs" /> | <ItemLink id="archers_expansion:netherite_tundra_hunter_feet" /> |
-| <ItemLink id="archers_expansion:polar_stalker_head" /> | <ItemLink id="archers_expansion:polar_stalker_chest" /> | <ItemLink id="archers_expansion:polar_stalker_legs" /> | <ItemLink id="archers_expansion:polar_stalker_feet" /> |
+| 套装参考，以胸甲名称标识 | 部件，依次为头、胸、腿、足 |
+| --- | --- |
+| <ItemLink id="archers_expansion:tundra_hunter_chest" /> | <ItemGrid><ItemIcon id="archers_expansion:tundra_hunter_head" /><ItemIcon id="archers_expansion:tundra_hunter_chest" /><ItemIcon id="archers_expansion:tundra_hunter_legs" /><ItemIcon id="archers_expansion:tundra_hunter_feet" /></ItemGrid> |
+| <ItemLink id="archers_expansion:netherite_tundra_hunter_chest" /> | <ItemGrid><ItemIcon id="archers_expansion:netherite_tundra_hunter_head" /><ItemIcon id="archers_expansion:netherite_tundra_hunter_chest" /><ItemIcon id="archers_expansion:netherite_tundra_hunter_legs" /><ItemIcon id="archers_expansion:netherite_tundra_hunter_feet" /></ItemGrid> |
+| <ItemLink id="archers_expansion:polar_stalker_chest" /> | <ItemGrid><ItemIcon id="archers_expansion:polar_stalker_head" /><ItemIcon id="archers_expansion:polar_stalker_chest" /><ItemIcon id="archers_expansion:polar_stalker_legs" /><ItemIcon id="archers_expansion:polar_stalker_feet" /></ItemGrid> |
 
 ***
 
 ## 通用装备
 
-- [武器与护甲](equipment.weapons-armor.md)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>- [武器与护甲](equipment.weapons-armor.md)
 - [饰品](equipment.accessories.md)
 - [战斗操作](combat.handling.md)

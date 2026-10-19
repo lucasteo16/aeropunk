@@ -8,48 +8,34 @@ navigation:
 
 # Equipment
 
-## Build equipment
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+equipment+attributes+armor+jewelry+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+%E8%A3%85%E5%A4%87+%E5%B1%9E%E6%80%A7+%E6%8A%A4%E7%94%B2+%E7%8F%A0%E5%AE%9D+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@archers" /> <EmiSearch query="@jewelry" /> <EmiSearch query="@rogues" /> <EmiSearch query="@wizards" />
+## Equipment roles
 
-![Rogue and Warrior equipment](images/visual-martial-equipment.png)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>
 
-Rogue and Warrior equipment
+Weapons and focuses determine attack patterns and spell access. Armor supplies protection and build attributes. Accessories add attributes or item-specific effects in their accepted slots.
 
-<ItemGrid>
-  <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="wizards:wand_novice" />
-  <ItemIcon id="jewelry:copper_ring" />
-</ItemGrid>
+| Equipment | Compare |
+| --- | --- |
+| Weapon or focus | Attack pattern, damage, speed, reach and compatible abilities. |
+| Armor | Protection, matching spell-school bonuses and set requirements. |
+| Accessories | Attribute, accepted slot, trigger condition and cooldown. |
 
-Weapons determine attack patterns and available spell access. Armor and accessories modify protection and combat attributes. A higher armor value does not necessarily improve the school your ability uses.
+A Fire-power bonus does not strengthen a Frost spell. Compare melee damage for melee techniques, ranged damage for archery and the matching spell-power school for magic or healing. Read haste and critical modifiers too.
 
-- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
-- [Accessories](equipment.accessories.md) Equip jewelry and relics in their supported slots.
-- [Armor & effects](equipment.display.md) Separate equipment attributes from temporary effects.
-
+- [Weapons & armor](equipment.weapons-armor.md) Class equipment, named sets, Arsenal and Cataclysm.
+- [Accessories](equipment.accessories.md) Starter ring recipes, jewelry and relic catalogs.
+- [Armor & status](equipment.display.md) Equipment attributes and temporary effects.
 
 ***
 
-## Match your abilities
+## First equipment
 
-Compare attack damage for melee, ranged damage for archery and the matching spell-power school for magic or healing. Also read haste, critical modifiers and any equipment-trigger conditions. A triggered bonus is not another freely castable class spell.
+<ItemGrid><ItemIcon id="jewelry:copper_ring" /><ItemIcon id="wizards:wand_novice" /></ItemGrid>
 
-- [Martial abilities](combat.martial.md) Ranged shots, close combat and class techniques.
-- [Magic & support](combat.magic.md) Spell binding, casting resources and class spell lists.
-- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
+Choose a class weapon or focus before spending rare materials on armor. A craftable copper or iron ring can add early protection, but does not unlock class spells. A triggered equipment bonus is not another freely castable class spell.
 
-***
-
-## First protection
-
-Match your weapon or focus to a class before spending rare materials on armor. A simple ring can add protection while you gather school-specific gear. This does not replace binding your abilities.
-
-<ItemGrid>
-  <ItemIcon id="jewelry:copper_ring" />
-</ItemGrid>
-
-<ItemLink id="jewelry:copper_ring" />
-
-<Recipe id="jewelry:copper_ring" />
+- [Combat](reference.skills.md) Class choices and starter recipes in each class article.
+- [Spells & abilities](combat.abilities.md) Prepare the book and meet casting requirements.
+- [Character skills](combat.skills.md) Spend separate class and weapon points.

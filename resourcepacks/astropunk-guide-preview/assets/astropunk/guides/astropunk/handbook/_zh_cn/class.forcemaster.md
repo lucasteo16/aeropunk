@@ -33,21 +33,47 @@ item_ids:
 
 # 气功师
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Forcemaster+RPG+Forcemaster+abilities+equipment+tutorial+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+Forcemaster+RPG+%E6%B0%94%E5%8A%9F%E5%B8%88+%E6%8A%80%E8%83%BD+%E8%A3%85%E5%A4%87+%E6%95%99%E7%A8%8B+%E4%B8%AD%E6%96%87)
+
 ## 定位与入门武器
+
+气功师使用拳套，将奥术近战打击与远程效果结合。
 
 ![气功师护甲](images/visual-forcemaster-armor.png)
 
-气功师护甲
+### 入门配装示例
 
-<ItemGrid>
-  <ItemIcon id="forcemaster_rpg:iron_knuckle" />
-</ItemGrid>
+入门配装示例：职业入门武器搭配目录中的第一套护甲。这是一种可合成选择，并非官方或最优构筑。
+
+<GameScene zoom="4" interactive={true}>
+  <IsometricCamera yaw="135" pitch="15" />
+  <Entity id="minecraft:armor_stand" x="0.5" y="0" z="0.5" rotationY="180" data='{NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,ArmorItems:[{id:"forcemaster_rpg:oriene_feet",count:1},{id:"forcemaster_rpg:oriene_legs",count:1},{id:"forcemaster_rpg:oriene_chest",count:1},{id:"forcemaster_rpg:oriene_head",count:1}],HandItems:[{id:"forcemaster_rpg:iron_knuckle",count:1},{}]}' />
+</GameScene>
+
+<ItemGrid><ItemIcon id="forcemaster_rpg:iron_knuckle" /><ItemIcon id="forcemaster_rpg:oriene_feet" /><ItemIcon id="forcemaster_rpg:oriene_legs" /><ItemIcon id="forcemaster_rpg:oriene_chest" /><ItemIcon id="forcemaster_rpg:oriene_head" /></ItemGrid>
+
+### 入门装备
+
+<ItemGrid><ItemIcon id="forcemaster_rpg:iron_knuckle" /></ItemGrid>
 
 <ItemLink id="forcemaster_rpg:iron_knuckle" />
 
 <Recipe id="forcemaster_rpg:iron_knuckle" />
 
-奥术近战招式结合贴身打击与远程效果。
+### 准备阶段与首次战斗
+
+气功师以指虎作战，发布说明把该职业描述为快速攻击、能击晕并击飞目标的斗士。每次命中都带有奥术之力，因此指虎家族与护甲上的奥术强度属性比武器长度更重要。奥里恩、法斯莱布、亚肯与比尔波隆是四个护甲家族。一次成功的首战，是把单个目标控在一次短暂眩晕里连续命中，而不是与多只怪物长时间对拼。
+
+下列阶段均为可选，说明手头需要什么、每一步解锁什么，不按游玩天数衡量。
+
+| 阶段 | 就绪条件 | 建议行动或下一步选择 |
+| --- | --- | --- |
+| 前期：初次指虎 | 一把指虎、食物，以及一个用来测试眩晕节奏的目标。 | 合成铁指虎。铁不足时先用木制或石制指虎。 |
+| 中期起步：职业书 | 法术绑定台、气功师职业书，以及学习费用。 | 绑定并装备职业书。把击飞招式留到怪物起手的瞬间。 |
+| 中期：护甲 | 同一气功师家族的两件以上护甲。 | 比较奥术强度与防护属性。先凑齐一个家族再混搭。 |
+| 后期：下界合金 | 下界合金材料，以及箱中战利品里的独特指虎。 | 升级你常用的指虎，并把捡到的独特指虎与之比较。 |
+
+### 书中招式
 
 | 能力 | 形式 |
 | --- | --- |
@@ -61,34 +87,31 @@ item_ids:
 ***
 
 ## 职业法术书
+<ItemGrid><ItemIcon id="spell_engine:spell_book" /></ItemGrid>
 
-<EmiSearch query="@spell_engine" />
+在法术绑定台选择气功师法术书。职业书是 <ItemLink id="spell_engine:spell_book" /> 的配置变体，包含对应的招式池。
 
-<ItemLink id="spell_engine:spell_book" />
-
-在法术绑定台放入普通书，选择气功师法术书。它是带有职业配置的法术书，并非独立物品类型。支付界面显示的经验等级，再用青金石和所需书架能量绑定上表招式。将书装备在支持的槽位，手持兼容武器或法器。
-
-- [法术绑定与资源](combat.magic.md) 费用、武器兼容、符文与施法操作。
-- [初次使用招式](combat.abilities.md) 绑定步骤，以及书籍招式与武器招式的区别。
+- [绑定与施法](combat.abilities.md) 职业书制作、费用、装备槽位与施法操作。
+- [符文与武器法术](combat.magic.md) 施法资源与装备自带法术。
 
 ***
 
 ## 职业技能
+<ItemGrid><ItemIcon id="forcemaster_rpg:iron_knuckle" /></ItemGrid>
 
-按 <KeyBind id="key.puffish_skills.open" /> 打开技能界面，选择对应职业路线。职业点数与武器点数各自独立，分配前查看互斥根节点。更换装备不会返还点数。
+按 <KeyBind id="key.puffish_skills.open" /> 查找下列职业路线与武器路线。
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 气功师 | <ItemLink id="forcemaster_rpg:iron_knuckle" /> |
 
 ### 武器路线
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 拳套专精 | <ItemLink id="forcemaster_rpg:iron_knuckle" /> |
 
-- [技能成长](combat.skills.md)
-
+- [技能成长](combat.skills.md) 点数分类、相连节点、互斥路线与重置。更换装备不会返还点数。
 
 ***
 
@@ -100,43 +123,24 @@ item_ids:
 
 ### 武器
 
-<ItemGrid>
-  <ItemIcon id="forcemaster_rpg:wooden_knuckle" />
-  <ItemIcon id="forcemaster_rpg:stone_knuckle" />
-  <ItemIcon id="forcemaster_rpg:iron_knuckle" />
-  <ItemIcon id="forcemaster_rpg:golden_knuckle" />
-  <ItemIcon id="forcemaster_rpg:diamond_knuckle" />
-  <ItemIcon id="forcemaster_rpg:netherite_knuckle" />
-  <ItemIcon id="forcemaster_rpg:unique_knuckle_0" />
-  <ItemIcon id="forcemaster_rpg:unique_knuckle_1" />
-</ItemGrid>
-
-| 物品 | 用途 |
-| --- | --- |
-| <ItemLink id="forcemaster_rpg:wooden_knuckle" /> | 防护 |
-| <ItemLink id="forcemaster_rpg:stone_knuckle" /> | 防护 |
-| <ItemLink id="forcemaster_rpg:iron_knuckle" /> | 奥术强度与防护 |
-| <ItemLink id="forcemaster_rpg:golden_knuckle" /> | 奥术强度与防护 |
-| <ItemLink id="forcemaster_rpg:diamond_knuckle" /> | 奥术强度与防护 |
-| <ItemLink id="forcemaster_rpg:netherite_knuckle" /> | 奥术强度与防护 |
-| <ItemLink id="forcemaster_rpg:unique_knuckle_0" /> | 奥术强度与防护 |
-| <ItemLink id="forcemaster_rpg:unique_knuckle_1" /> | 奥术强度与防护 |
+| 分类 | 物品 | 定位 |
+| --- | --- | --- |
+| <ItemLink id="forcemaster_rpg:wooden_knuckle" /> | <ItemGrid><ItemIcon id="forcemaster_rpg:wooden_knuckle" /><ItemIcon id="forcemaster_rpg:stone_knuckle" /></ItemGrid> | 防护 |
+| <ItemLink id="forcemaster_rpg:iron_knuckle" /> | <ItemGrid><ItemIcon id="forcemaster_rpg:iron_knuckle" /><ItemIcon id="forcemaster_rpg:golden_knuckle" /><ItemIcon id="forcemaster_rpg:diamond_knuckle" /><ItemIcon id="forcemaster_rpg:netherite_knuckle" /><ItemIcon id="forcemaster_rpg:unique_knuckle_0" /><ItemIcon id="forcemaster_rpg:unique_knuckle_1" /></ItemGrid> | 奥术强度与防护 |
 
 ### 护甲套装
 
-每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
-
-| 头部 | 胸部 | 腿部 | 足部 |
-| --- | --- | --- | --- |
-| <ItemLink id="forcemaster_rpg:oriene_head" /> | <ItemLink id="forcemaster_rpg:oriene_chest" /> | <ItemLink id="forcemaster_rpg:oriene_legs" /> | <ItemLink id="forcemaster_rpg:oriene_feet" /> |
-| <ItemLink id="forcemaster_rpg:phasleb_head" /> | <ItemLink id="forcemaster_rpg:phasleb_chest" /> | <ItemLink id="forcemaster_rpg:phasleb_legs" /> | <ItemLink id="forcemaster_rpg:phasleb_feet" /> |
-| <ItemLink id="forcemaster_rpg:aken_head" /> | <ItemLink id="forcemaster_rpg:aken_chest" /> | <ItemLink id="forcemaster_rpg:aken_legs" /> | <ItemLink id="forcemaster_rpg:aken_feet" /> |
-| <ItemLink id="forcemaster_rpg:billporon_head" /> | <ItemLink id="forcemaster_rpg:billporon_chest" /> | <ItemLink id="forcemaster_rpg:billporon_legs" /> | <ItemLink id="forcemaster_rpg:billporon_feet" /> |
+| 套装参考，以胸甲名称标识 | 部件，依次为头、胸、腿、足 |
+| --- | --- |
+| <ItemLink id="forcemaster_rpg:oriene_chest" /> | <ItemGrid><ItemIcon id="forcemaster_rpg:oriene_head" /><ItemIcon id="forcemaster_rpg:oriene_chest" /><ItemIcon id="forcemaster_rpg:oriene_legs" /><ItemIcon id="forcemaster_rpg:oriene_feet" /></ItemGrid> |
+| <ItemLink id="forcemaster_rpg:phasleb_chest" /> | <ItemGrid><ItemIcon id="forcemaster_rpg:phasleb_head" /><ItemIcon id="forcemaster_rpg:phasleb_chest" /><ItemIcon id="forcemaster_rpg:phasleb_legs" /><ItemIcon id="forcemaster_rpg:phasleb_feet" /></ItemGrid> |
+| <ItemLink id="forcemaster_rpg:aken_chest" /> | <ItemGrid><ItemIcon id="forcemaster_rpg:aken_head" /><ItemIcon id="forcemaster_rpg:aken_chest" /><ItemIcon id="forcemaster_rpg:aken_legs" /><ItemIcon id="forcemaster_rpg:aken_feet" /></ItemGrid> |
+| <ItemLink id="forcemaster_rpg:billporon_chest" /> | <ItemGrid><ItemIcon id="forcemaster_rpg:billporon_head" /><ItemIcon id="forcemaster_rpg:billporon_chest" /><ItemIcon id="forcemaster_rpg:billporon_legs" /><ItemIcon id="forcemaster_rpg:billporon_feet" /></ItemGrid> |
 
 ***
 
 ## 通用装备
 
-- [武器与护甲](equipment.weapons-armor.md)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>- [武器与护甲](equipment.weapons-armor.md)
 - [饰品](equipment.accessories.md)
 - [战斗操作](combat.handling.md)

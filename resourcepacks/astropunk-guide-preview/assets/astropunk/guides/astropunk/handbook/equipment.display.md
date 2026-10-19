@@ -8,26 +8,19 @@ navigation:
 
 # Armor & status
 
-## Armor & effect displays
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Detail+Armor+Bar+Reconstructed+Status+Effect+Bars+Reforged+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Detail+Armor+Bar+Reconstructed+Status+Effect+Bars+Reforged+%E6%8A%A4%E7%94%B2+%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C+%E6%98%BE%E7%A4%BA+%E6%95%99%E7%A8%8B)
 
-<ItemGrid>
-  <ItemIcon id="minecraft:iron_chestplate" />
-  <ItemIcon id="minecraft:diamond_chestplate" />
-  <ItemIcon id="minecraft:potion" />
-</ItemGrid>
+## Display information
 
-Detail Armor Bar Reconstructed makes armor protection easier to read. Status Effect Bars Reforged shows remaining effect durations. Stylish Effects changes effect presentation. These displays do not grant another equipment slot or another combat bonus.
+<ItemGrid><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="minecraft:potion" /></ItemGrid>
 
-***
+| Display | What it shows |
+| --- | --- |
+| Detail Armor Bar Reconstructed | Additional armor-protection information in the armor bar. |
+| Status Effect Bars Reforged | Remaining status-effect durations. |
+| Stylish Effects | A compact, configurable presentation of status effects. |
 
-## Reading your build
-
-Read equipment tooltips for permanent attributes while the item is equipped. Read effect durations for temporary bonuses. Then compare the spell school and trigger conditions your build actually uses.
-
-- [Weapons & armor](equipment.weapons-armor.md) Choose a weapon family and compare every supported variant.
-- [Accessories](equipment.accessories.md) Equip jewelry and relics in their supported slots.
-- [Skill development](combat.skills.md) Spend class and weapon points on connected branches.
-
+These are information displays. They do not grant equipment slots or combat bonuses.
 
 ***
 
