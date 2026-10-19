@@ -36,6 +36,16 @@ Blocks along diagonal edges are included, so a stair-stepped hull does not need 
 <Recipe id="simulated:physics_assembler" />
 
 <Recipe id="offroad:borehead_bearing" />
+## Moving a body before it flies
+
+A new body starts as one block. Assemble it once, then build the rest onto the assembled block, so every part joins the same physics object from the first piece instead of being glued together later.
+
+<ItemGrid><ItemIcon id="simulated:iron_handle" /><ItemIcon id="simulated:physics_assembler" /><ItemIcon id="simulated:honey_glue" /></ItemGrid>
+
+Small bodies can be punched around, but mass rises with size, so fit an <ItemLink id="simulated:iron_handle" /> and sneak use it to drag the body where you want it. Drag first, then finish the hull, because a half-built body is lighter than a finished one.
+
+Diagonal steps stay attached, so a stair-shaped hull does not need a glued strip on every step. A part with no connection in any direction breaks off as its own separate body, which is how a glued joint failing in flight looks on the ground.
+
 ## Connections and splitting
 
 <ItemGrid><ItemIcon id="simulated:docking_connector" /><ItemIcon id="simulated:paired_docking_connector" /><ItemIcon id="simulated:rope_winch" /><ItemIcon id="simulated:rope_connector" /><ItemIcon id="simulated:rope_coupling" /><ItemIcon id="simulated:merging_glue" /><ItemIcon id="simulated:swivel_bearing" /><ItemIcon id="simulated:spring" /></ItemGrid>
