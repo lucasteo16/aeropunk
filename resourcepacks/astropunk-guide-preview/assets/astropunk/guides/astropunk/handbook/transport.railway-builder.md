@@ -8,7 +8,7 @@ navigation:
 
 # Railways
 
-## Tracks & stations
+## Line, station, schedule
 
 <EmiSearch query="@create" />
 
@@ -16,43 +16,48 @@ navigation:
 
 Train bodywork with Bells & Whistles fittings
 
-<ItemGrid>
-  <ItemIcon id="create:track" />
-  <ItemIcon id="create:railway_casing" />
-  <ItemIcon id="create:track_station" />
-  <ItemIcon id="create:controls" />
-  <ItemIcon id="create:schedule" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="create:track" /><ItemIcon id="create:track_station" /><ItemIcon id="create:controls" /><ItemIcon id="create:schedule" /><ItemIcon id="create:railway_casing" /></ItemGrid>
 
-| Shown items |
-| --- |
-| <ItemLink id="create:track" /> |
-| <ItemLink id="create:railway_casing" /> |
-| <ItemLink id="create:track_station" /> |
-| <ItemLink id="create:controls" /> |
-| <ItemLink id="create:schedule" /> |
+A Create train needs three things in this order. A continuous line of <ItemLink id="create:track" />, a <ItemLink id="create:track_station" /> on that line, and a <ItemLink id="create:controls" /> block inside the body you intend to drive.
 
-Create supplies track, Railway Casing, Train Stations, Train Controls and schedules. Steam 'n' Rails extends track families, gauges, switches, signals and conductor equipment. Use Train Station Ponder for train assembly and the chosen track recipe for its gauge and material.
+Lay the track first and check that both ends meet. A one block gap is enough to stop a train, and track laid on a curve needs a radius the bogies can follow.
 
-### Train station
+Then build the carriage as a normal block structure and place the Train Controls inside it. Place the station beside the track, give it a name, and assemble the train through the station. The station is what turns the blocks into a train, so a carriage with no station nearby stays a building.
+
+The <ItemLink id="create:schedule" /> is the timetable. Put it in the train, add the stations in the order you want, and set the conditions. A train with no schedule runs once and stops.
 
 <Recipe id="create:crafting/kinetics/track_station" />
 
-One Railway Casing and one compass make two <ItemLink id="create:track_station" />. Use Train Station Ponder for assembly.
-
-### Train controls
-
 <Recipe id="create:crafting/kinetics/controls" />
 
-Craft <ItemLink id="create:controls" /> for the train control position. The Precision Mechanism is a separate intermediate craft.
+## Track families
 
-***
+<ItemGrid><ItemIcon id="create:track" /><ItemIcon id="create:track_station" /><ItemIcon id="create:controls" /><ItemIcon id="create:schedule" /></ItemGrid>
 
-## Bogie styles
+Create supplies the standard track and the station and controls that go with it. Steam 'n' Rails extends the families with narrower and wider gauges, switches, signals and conductor equipment. Gauge is not cosmetic. A train assembles on the track it was built against, and a switch only joins tracks of the same gauge.
 
-Blocks & Bogies adds a Bogie Customisation interface, not a separate set of bogie items. Choose the driver or truck role, then the axle count, size and length offered by the menu. Valve-gear styles are additional interface choices. The menu can switch to Steam 'n' Rails. Not every axle, size and style combination is interchangeable. Train fittings covers decorative bodywork.
+Build a short test line in the gauge you intend to use before you build the main line. Changing gauge halfway through is a rebuild, not an adjustment.
 
-- [Train fittings](building.factory.md)
+## Bogies
+
+<ItemGrid><ItemIcon id="create:railway_casing" /></ItemGrid>
+
+Blocks & Bogies adds a Bogie Customisation interface rather than a separate set of bogie items. Right-click a placed bogie to open it and choose the driver or truck role, then the axle count, size and length the menu offers. Valve gear styles are further choices in the same menu, and the menu can switch to the Steam 'n' Rails styles.
+
+| Choice | Changes | Keep consistent |
+| --- | --- | --- |
+| Role | Whether the bogie drives or carries | One driver bogie per train |
+| Axle count | How many wheels touch the rail | Match the carriage weight |
+| Size and length | The wheel and frame footprint | Match the curve radius |
+| Valve gear | Visible motion | Appearance only |
+
+Not every combination is interchangeable. A long bogie on a tight curve derails where a short one holds, so test the combination on the tightest curve on your line.
+
+## Freight and passengers
+
+<ItemGrid><ItemIcon id="create:schedule" /><ItemIcon id="create:track_station" /></ItemGrid>
+
+A carriage carries what you put in it. Seats, storage and fluid tanks are ordinary blocks inside the train body, and the schedule decides where it stops. For passenger information and route search, see [Train travel](transport.passenger.md).
 
 
 ***

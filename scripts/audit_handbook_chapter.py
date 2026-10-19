@@ -16,7 +16,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
 CONTENT = ROOT / 'docs/handbook-content.json'
-VISUAL = re.compile(r'(!\[|<ItemGrid|<ItemImage|<GameScene|<Recipe|<BlockImage|<IsometricCamera|^\| --- \|)')
+VISUAL = re.compile(r'(!\[|<ItemGrid|<ItemImage|<GameScene|<Recipe|<BlockImage|<IsometricCamera|^\| --- \|)', re.M)
 BANNED = re.compile(r'[\u2013\u2014]')
 SECTION = re.compile(r'(?m)^(## .*)$')
 
@@ -50,6 +50,9 @@ def audit(topic):
         heading = sections[index][3:].strip()
         content = '\n'.join(line for line in sections[index + 1].splitlines()
                             if not line.startswith('![YouTube]'))
+        lines = [line.strip() for line in content.splitlines() if line.strip()]
+        if lines and all(re.fullmatch(r'- \[.*\]\(.*\)', line) for line in lines):
+            continue  # category index navigation, not authored prose
         if not content.strip():
             empty.append(heading)
         elif not VISUAL.search(content):

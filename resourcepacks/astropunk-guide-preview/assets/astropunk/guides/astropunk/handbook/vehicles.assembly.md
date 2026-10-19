@@ -8,7 +8,7 @@ navigation:
 
 # Vehicle assembly
 
-## Assembly
+## Assembly order
 
 <EmiSearch query="@create" />
 
@@ -16,96 +16,48 @@ navigation:
 
 Cloud Skipper airship build
 
-<ItemGrid>
-  <ItemIcon id="simulated:physics_assembler" />
-  <ItemIcon id="simulated:honey_glue" />
-  <ItemIcon id="simulated:contraption_diagram" />
-  <ItemIcon id="simulated:docking_connector" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="simulated:physics_assembler" /><ItemIcon id="simulated:honey_glue" /><ItemIcon id="create:super_glue" /><ItemIcon id="simulated:contraption_diagram" /><ItemIcon id="simulated:navigation_table" /></ItemGrid>
 
-| Shown items |
-| --- |
-| <ItemLink id="simulated:physics_assembler" /> |
-| <ItemLink id="simulated:honey_glue" /> |
-| <ItemLink id="simulated:contraption_diagram" /> |
-| <ItemLink id="simulated:docking_connector" /> |
+A Simulated Contraption is a group of blocks that this pack turns into one physical body. Build the shape first, then glue it, then assemble it.
 
-Create Aeronautics bundles Simulated for physical moving builds and Offroad for wheels. Join the intended blocks with Super Glue or Honey Glue, then hold right-click on the Physics Assembler and pull its lever. Another Physics Assembler can disassemble the build. Use the Physics Assembler Ponder for assembly, block mass and splitting.
+1. Build the hull, deck and mount points in place, with the wheels, bearings and propulsion already fitted.
+2. Mark the body with <ItemLink id="create:super_glue" /> or <ItemLink id="simulated:honey_glue" />. Glue selects faces, so glue the hull to the deck and the deck to the machinery.
+3. Place the <ItemLink id="simulated:physics_assembler" /> against the build, hold use on it, and pull the lever.
 
-### Assembly control
+Blocks along diagonal edges are included, so a stair-stepped hull does not need a glued strip on every step. The assembler used for the first assembly is not needed afterwards, and any assembler can take the body apart again.
+
+| Message | What it means | Fix |
+| --- | --- | --- |
+| Cannot disassemble onto the same Simulated Contraption! | The assembler is part of the body it is trying to release | Move the assembler off the body |
+| Too fast to disassemble! | The body is still moving | Stop it, then retry |
+| Too far from the ground to disassemble! | The body is too high to set the blocks back down | Lower it or assemble over solid ground |
+| Could not align Simulated Contraption to disassemble! | The stored layout no longer fits the space | Clear the landing area |
 
 <Recipe id="simulated:physics_assembler" />
 
-Craft <ItemLink id="simulated:physics_assembler" /> before assembling a physical moving build. The lever is part of this recipe.
-
-***
-
-## Ground vehicles
-
-<ItemGrid>
-  <ItemIcon id="offroad:wheel_mount" />
-  <ItemIcon id="offroad:small_tire" />
-  <ItemIcon id="offroad:tire" />
-  <ItemIcon id="offroad:large_tire" />
-  <ItemIcon id="offroad:monstrous_tire" />
-  <ItemIcon id="offroad:borehead_bearing" />
-</ItemGrid>
-
-| Shown items |
-| --- |
-| <ItemLink id="offroad:wheel_mount" /> |
-| <ItemLink id="offroad:small_tire" /> |
-| <ItemLink id="offroad:tire" /> |
-| <ItemLink id="offroad:large_tire" /> |
-| <ItemLink id="offroad:monstrous_tire" /> |
-| <ItemLink id="offroad:borehead_bearing" /> |
-
-Offroad wheel mounts accept different tire sizes. Excavation has its own bearing and cutting-wheel components. A chassis still needs propulsion and steering.
-
-***
-
-## Connections & tools
-
-<ItemGrid>
-  <ItemIcon id="simulated:rope_winch" />
-  <ItemIcon id="simulated:rope_connector" />
-  <ItemIcon id="simulated:rope_coupling" />
-  <ItemIcon id="simulated:swivel_bearing" />
-  <ItemIcon id="simulated:spring" />
-  <ItemIcon id="simulated:navigation_table" />
-</ItemGrid>
-
-| Shown items |
-| --- |
-| <ItemLink id="simulated:rope_winch" /> |
-| <ItemLink id="simulated:rope_connector" /> |
-| <ItemLink id="simulated:rope_coupling" /> |
-| <ItemLink id="simulated:swivel_bearing" /> |
-| <ItemLink id="simulated:spring" /> |
-| <ItemLink id="simulated:navigation_table" /> |
-
-Simulated supplies mechanical connections and tools for moving builds. Create Propulsion adds assembly and contraption-editing tools. These are separate components and tools, not prebuilt vehicle models.
-
-***
-
-## Crafting
-
 <Recipe id="offroad:borehead_bearing" />
+## Connections and splitting
 
-## Related topics
+<ItemGrid><ItemIcon id="simulated:docking_connector" /><ItemIcon id="simulated:paired_docking_connector" /><ItemIcon id="simulated:rope_winch" /><ItemIcon id="simulated:rope_connector" /><ItemIcon id="simulated:rope_coupling" /><ItemIcon id="simulated:merging_glue" /><ItemIcon id="simulated:swivel_bearing" /><ItemIcon id="simulated:spring" /></ItemGrid>
 
-- [Vehicle engines](vehicles.engines.md)
-- [Vehicle controls](vehicles.controls.md)
+Two bodies stay separate unless you join them. A Slime Ball merges any two Simulated Contraptions, and <ItemLink id="simulated:merging_glue" /> glues across a gap between two bodies. Disconnected sections of one body split off on their own, which is what happens when a glued joint is broken in flight.
 
-## Related items
+Docking connectors join a moving body to a fixed one. Rope parts tow and tether, and the swivel bearing and spring absorb the movement between two bodies instead of passing it through the frame.
 
-<ItemGrid>
-  <ItemIcon id="create:super_glue" />
-</ItemGrid>
+| Part | Holds what to what | Use it for |
+| --- | --- | --- |
+| <ItemLink id="simulated:docking_connector" /> | Moving body to a fixed dock | Mooring an airship or loading a barge |
+| <ItemLink id="simulated:rope_winch" /> and <ItemLink id="simulated:rope_connector" /> | Two points along a rope | Towing and securing a load |
+| <ItemLink id="simulated:swivel_bearing" /> | Two bodies that must rotate | A trailed car or a swinging mount |
+| <ItemLink id="simulated:spring" /> | Two bodies that must move apart and back | Suspension and shock absorption |
 
-| Shown items |
-| --- |
-| <ItemLink id="create:super_glue" /> |
+## Wheels
+
+<ItemGrid><ItemIcon id="offroad:wheel_mount" /><ItemIcon id="offroad:small_tire" /><ItemIcon id="offroad:tire" /><ItemIcon id="offroad:large_tire" /><ItemIcon id="offroad:monstrous_tire" /><ItemIcon id="offroad:borehead_bearing" /></ItemGrid>
+
+A <ItemLink id="offroad:wheel_mount" /> takes one tire on its front face. The pack refuses a tire placed anywhere else, so aim at the mount face that points away from the chassis. Mounts carry the body, they do not drive it, so a rolling chassis still needs a propeller, thruster or engine and a steering input.
+
+<ItemLink id="offroad:borehead_bearing" /> spins a cutting head for excavation. It is a work attachment, not a wheel.
 
 
 ***

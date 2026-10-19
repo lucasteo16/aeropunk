@@ -8,83 +8,91 @@ navigation:
 
 # 为机器提供旋转动力
 
-## 动力源与传动
+## 先看应力，再看转速
 
-<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
-![Create 风车建筑](images/feedback-windmill.png)
+每个旋转网络都有来自动力源的容量，也有来自机器的应力消耗。消耗低于容量时整个网络都在转。消耗超过容量的一刻，网络停转，上面所有东西都不工作。
 
-Create 风车建筑
+本包保留应力机制，所以面对一台机器时，第一个问题不是它该转多快，而是网络带不带得动它。
 
-<ItemGrid>
-  <ItemIcon id="create:water_wheel" />
-  <ItemIcon id="create:large_water_wheel" />
-  <ItemIcon id="create:windmill_bearing" />
-  <ItemIcon id="create:steam_engine" />
-  <ItemIcon id="create:shaft" />
-  <ItemIcon id="create:cogwheel" />
-  <ItemIcon id="create:gearbox" />
-  <ItemIcon id="create_connected:cross_connector" />
-  <ItemIcon id="create_connected:parallel_gearbox" />
-  <ItemIcon id="create_connected:six_way_gearbox" />
-  <ItemIcon id="create_connected:brass_gearbox" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="create:water_wheel" /><ItemIcon id="create:large_water_wheel" /><ItemIcon id="create:windmill_bearing" /><ItemIcon id="create:steam_engine" /></ItemGrid>
 
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="create:water_wheel" />, <ItemLink id="create:large_water_wheel" />, <ItemLink id="create:windmill_bearing" />, <ItemLink id="create:steam_engine" /> | Create 提供水力、风力与蒸汽旋转动力。 |
-| <ItemLink id="create:shaft" />, <ItemLink id="create:cogwheel" />, <ItemLink id="create:gearbox" /> | 传动杆、齿轮与齿轮箱传动。 |
-| <ItemLink id="create_connected:cross_connector" />, <ItemLink id="create_connected:parallel_gearbox" />, <ItemLink id="create_connected:six_way_gearbox" />, <ItemLink id="create_connected:brass_gearbox" /> | Create: Connected 提供独立交叉传动、平行传动、六面连接与可用扳手配置的输出方向。 |
+| 动力源 | 容量 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="create:water_wheel" /> | 32 点应力 | 最便宜的稳定来源 |
+| <ItemLink id="create:large_water_wheel" /> | 128 点应力 | 四倍于小水车，高度相同 |
+| <ItemLink id="create:windmill_bearing" /> | 512 点应力 | 上方需要组装风帆 |
+| <ItemLink id="create:steam_engine" /> | 1024 点应力 | 需要锅炉与供水 |
+
+本包把全局转速上限留在每分钟 256 转。应力消耗随转速上升，配置说明每提升一档转速，机器的消耗翻倍，因此让一条线转得更快，是用容量换产量。
 
 ***
 
-## 离合器与控制
+## 转向与换向
 
-<ItemGrid>
-  <ItemIcon id="create_connected:inverted_clutch" />
-  <ItemIcon id="create_connected:inverted_gearshift" />
-  <ItemIcon id="create_connected:centrifugal_clutch" />
-  <ItemIcon id="create_connected:freewheel_clutch" />
-  <ItemIcon id="create_connected:overstress_clutch" />
-  <ItemIcon id="create_connected:brake" />
-  <ItemIcon id="create_connected:shear_pin" />
-  <ItemIcon id="create_connected:kinetic_bridge" />
-  <ItemIcon id="create_connected:encased_chain_cogwheel" />
-  <ItemIcon id="create_connected:crank_wheel" />
-</ItemGrid>
+<EmiSearch query="@create_connected" />
 
-| 物品与系列 | 用途 |
+<ItemLink id="create:shaft" /> 把旋转原样传过去。<ItemLink id="create:cogwheel" /> 让轴转四分之一圈改变方向。<ItemLink id="create:gearbox" /> 把一个输入分成四个方向。
+
+<ItemGrid><ItemIcon id="create:shaft" /><ItemIcon id="create:cogwheel" /><ItemIcon id="create:large_cogwheel" /><ItemIcon id="create:gearbox" /><ItemIcon id="create:wrench" /></ItemGrid>
+
+| 部件 | 改变什么 |
 | --- | --- |
-| <ItemLink id="create_connected:inverted_clutch" />, <ItemLink id="create_connected:inverted_gearshift" /> | 红石启用型离合器与反向齿轮换向器。 |
-| <ItemLink id="create_connected:centrifugal_clutch" />, <ItemLink id="create_connected:freewheel_clutch" />, <ItemLink id="create_connected:overstress_clutch" /> | 按转速阈值或方向接通，或在应力过载时断开。 |
-| <ItemLink id="create_connected:brake" />, <ItemLink id="create_connected:shear_pin" /> | 制动器与剪切销保护组件。 |
-| <ItemLink id="create_connected:kinetic_bridge" />, <ItemLink id="create_connected:encased_chain_cogwheel" />, <ItemLink id="create_connected:crank_wheel" /> | 紧凑动力桥接器、链式传动与手动曲柄轮。 |
+| <ItemLink id="create:shaft" /> | 不改变，同轴同速 |
+| <ItemLink id="create:cogwheel" /> 与第二只齿轮啮合 | 第二根轴反向 |
+| <ItemLink id="create:large_cogwheel" /> 与小齿轮啮合 | 按尺寸比例改变转速，方向相反 |
+| <ItemLink id="create:gearbox" /> | 四个面，相对两面同向 |
+
+Create: Connected 补上了这套部件的空缺。每个部件解决不同的走线问题。
+
+| 部件 | 区别 |
+| --- | --- |
+| <ItemLink id="create_connected:cross_connector" /> | 两个方向各自传递，互不干扰 |
+| <ItemLink id="create_connected:parallel_gearbox" /> | 四个面同向 |
+| <ItemLink id="create_connected:six_way_gearbox" /> | 六面都有轴，上下两面为半速 |
+| <ItemLink id="create_connected:brass_gearbox" /> | 每个面的方向可单独用扳手配置 |
+| <ItemLink id="create_connected:encased_chain_cogwheel" /> | 链条传动上再加一只齿轮 |
+| <ItemLink id="create_connected:crank_wheel" /> | 带齿轮的手摇曲柄，用于紧凑的齿轮比 |
+| <ItemLink id="create_connected:kinetic_bridge" /> | 在两个不合并的网络之间传递容量 |
+
+旋转方向不是外观问题。两个网络只有在同向相接时才会合并。接上后如果反向，连接部件会断裂，所以在给新支线供能前用扳手确认方向。
+
+风车至少需要八片风帆才能组装。之后每多八片风帆增加每分钟一转，因此普通风帆盘就是正常做法，不必做巨大的盘面。
 
 ***
 
-## 初次使用
+<Recipe id="create:crafting/kinetics/wrench" />
+## 让线路可控的部件
 
-### 基础传动
+<ItemGrid><ItemIcon id="create:clutch" /><ItemIcon id="create:gearshift" /><ItemIcon id="create_connected:shear_pin" /><ItemIcon id="create_connected:overstress_clutch" /><ItemIcon id="create_connected:brake" /><ItemIcon id="create_connected:centrifugal_clutch" /><ItemIcon id="create_connected:freewheel_clutch" /><ItemIcon id="create_connected:inverted_clutch" /><ItemIcon id="create_connected:inverted_gearshift" /></ItemGrid>
+
+| 部件 | 用途 |
+| --- | --- |
+| <ItemLink id="create:clutch" /> | 红石切断支线，动力源继续转 |
+| <ItemLink id="create:gearshift" /> | 红石让支线反向 |
+| <ItemLink id="create_connected:shear_pin" /> | 一次性连接件，超载时断开而不是拖停全网 |
+| <ItemLink id="create_connected:overstress_clutch" /> | 网络超载后延时脱开，用扳手复位 |
+| <ItemLink id="create_connected:brake" /> | 故意让网络超载来刹车 |
+
+需要关掉而动力源继续转的支线，用离合器。宁可断开也不愿拖停全网的支线，用剪切销。
+
+***
+
+## 第一条传动线
+
+两块 <ItemLink id="create:andesite_alloy" /> 做八根 <ItemLink id="create:shaft" />。这个比例正是短距离便宜、长距离昂贵的原因。
 
 <Recipe id="create:crafting/kinetics/shaft" />
 
-两个 <ItemLink id="create:andesite_alloy" /> 可制作八个 <ItemLink id="create:shaft" />。
-
-### 基础动力源
-
 <Recipe id="create:crafting/kinetics/water_wheel" />
 
-制作 <ItemLink id="create:water_wheel" />，为第一台机器提供动力。水流布局请查看对应的思索演示。
+1. 把 <ItemLink id="create:water_wheel" /> 放在流动的水边，让水流推动桨叶。
+2. 从水车接轴到要驱动的机器。
+3. 在线上装一只 <ItemLink id="create:stressometer" />，对照容量与消耗。
+4. 先看机器完整运行一个周期，再增加第二台。
 
-### 机器工具
-
-<Recipe id="create:crafting/kinetics/wrench" />
-
-调整机械动力组件时，准备好 <ItemLink id="create:wrench" />。
-
-从水车、传动杆和一台机器开始。排列与转向请查看对应组件的思索演示。需要单独控制分支时再增加离合器。动力储备见旋转动力储存。
-
-- [旋转动力储存](power.stored-rotation.md)
+要看到的结果是机器连续运转，应力表不高于容量。下一步值得做的是储备，让短暂中断不至于停掉生产。[旋转储备](power.stored-rotation.md)说明蓄电池与弹簧。
 
 
 ***

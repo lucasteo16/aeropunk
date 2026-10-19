@@ -8,35 +8,57 @@ navigation:
 
 # Inventory tools
 
-## Inventory controls
+## The inventory itself is the interface
 
-<EmiSearch query="@interactic" />
+Most storage time is lost in the screens, not in the containers. This pack installs three interface mods that remove the repeated drag and click work.
 
-![An inventory with a separate Trash Slot](images/visual-inventory-trash.png)
+Open any supported container and use its search field and sort button. Sophisticated Inventory Interactions adds search, player inventory sorting, container sorting and transfer controls to supported screens.
 
-An inventory with a separate Trash Slot
+<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="minecraft:chest" />
-  <ItemIcon id="minecraft:hopper" />
-  <ItemIcon id="interactic:item_filter" />
-  <ItemIcon id="minecraft:lava_bucket" />
-</ItemGrid>
-
-| Items & families | Use |
+| Screen action | What it saves |
 | --- | --- |
-| <ItemLink id="minecraft:chest" /> | Sophisticated Inventory Interactions adds search, player and container sorting, and transfer controls to supported screens. |
-| <ItemLink id="minecraft:hopper" /> | Mouse Tweaks supplies drag and wheel transfer conveniences. |
-| <ItemLink id="interactic:item_filter" /> | Interactic Renewed supplies an Item Filter for pickup rules, with separate pickup and rendering settings. |
-| <ItemLink id="minecraft:lava_bucket" /> | TrashSlot is a deletion interface, not a storage container. |
+| Search field | Scrolling a full chest for one item |
+| Sort button | Manual arrangement after every dump |
+| Transfer controls | Shift clicking one stack at a time |
+| Mouse wheel over a slot | Dragging a stack by hand |
+
+Mouse Tweaks handles the drag and wheel side. It is a convenience mod, so the exact gesture is worth checking once in the controls screen rather than assuming it matches another pack.
 
 ***
 
-## Getting started
+## What gets picked up
 
-Open a chest to find the search, sort and transfer controls on supported screens. Configure the Item Filter before collecting drops. Keep valuable items away from TrashSlot and check its instant deletion setting. Current bindings are in Controls.
+<EmiSearch query="@interactic" />
 
-- [Controls](help.controls.md)
+<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
+
+| Setting | Effect |
+| --- | --- |
+| Filter contents | Items that may be collected |
+| Pickup rules | Whether the filter decides what enters your inventory |
+| Rendering rules | Whether filtered drops are drawn differently |
+
+Interactic Renewed separates pickup from rendering, so a filter can hide clutter from view without changing what you actually collect. Set it before a mining trip, not after your inventory is full of stone.
+
+The mod is also what makes dropped items easier to see and grab. A filter that hides an item from rendering does not stop you collecting it.
+
+***
+
+## The trash slot is not storage
+
+| Setting in this pack | Value |
+| --- | --- |
+| Instant deletion | Off, so items wait in the slot |
+| Delete while slot is hidden | Off |
+| Deny list | Empty, so nothing is protected by default |
+| Hints | On |
+
+Instant deletion being off is the setting that matters. An item in the trash slot is not gone until the slot is cleared, which gives you one chance to take it back. Turning instant deletion on removes that chance for every item at once.
+
+The deny list is empty, so TrashSlot protects nothing on its own. If a valuable item keeps ending up there, add it to the deny list rather than relying on care.
+
+Current bindings for the carry key and the handbook are in [Controls](help.controls.md).
 
 
 ***
