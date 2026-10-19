@@ -109,21 +109,47 @@ item_ids:
 
 # Witcher
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Witcher+RPG+Witcher+abilities+equipment+tutorial+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+Witcher+RPG+%E7%8C%8E%E9%AD%94%E4%BA%BA+%E6%8A%80%E8%83%BD+%E8%A3%85%E5%A4%87+%E6%95%99%E7%A8%8B+%E4%B8%AD%E6%96%87)
+
 ## Role & first weapon
+
+Witchers combine sword fencing with Signs for control and protection.
 
 ![Witcher equipment sets](images/visual-witcher-equipment.png)
 
-Witcher equipment sets
+### Starter equipment
 
-<ItemGrid>
-  <ItemIcon id="witcher_rpg:iron_witcher_sword" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="witcher_rpg:iron_witcher_sword" /></ItemGrid>
 
 <ItemLink id="witcher_rpg:iron_witcher_sword" />
 
 <Recipe id="witcher_rpg:iron_witcher_sword" />
 
-Witcher melee techniques supply attacks and self effects.
+### Example starter outfit
+
+A steel witcher sword with the four basic Witcher armor pieces is one craftable starting outfit, not the official default or a required school. The model shows appearance and the held sword only. School armor and the medallion are separate choices.
+
+<GameScene zoom="4" interactive={true}>
+  <IsometricCamera yaw="135" pitch="15" />
+  <Entity id="minecraft:armor_stand" x="0.5" y="0" z="0.5" rotationY="180" data='{NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,ArmorItems:[{id:"witcher_rpg:witcher_feet",count:1},{id:"witcher_rpg:witcher_legs",count:1},{id:"witcher_rpg:witcher_chest",count:1},{id:"witcher_rpg:witcher_head",count:1}],HandItems:[{id:"witcher_rpg:iron_witcher_sword",count:1},{}]}' />
+</GameScene>
+
+<ItemGrid><ItemIcon id="witcher_rpg:iron_witcher_sword" /><ItemIcon id="witcher_rpg:witcher_head" /><ItemIcon id="witcher_rpg:witcher_chest" /><ItemIcon id="witcher_rpg:witcher_legs" /><ItemIcon id="witcher_rpg:witcher_feet" /></ItemGrid>
+
+### Readiness & first fight
+
+Witchers run on two attributes, Sign intensity and Adrenaline gain. Steel swords are the physical choice against human foes, silver swords carry the sign build and are strong against undead, and sign intensity raises the damage of every sign. Wolven, Feline, Griffin and Ursine are the school families, each with ranks from base up to grandmaster, and a school medallion adds its own effect when it is paired with the matching armor. A good first fight is a sign placed first and two sword hits after it, with the sign landing because you read the mob's approach.
+
+The stages below are optional. They describe what you need on hand and what each step unlocks, not how long you have played.
+
+| Stage | Ready when | Suggested action or next decision |
+| --- | --- | --- |
+| Early game: first sword | Iron ingots to blast into steel, the sword recipe, and the basic Witcher armor recipe. | Craft the iron witcher sword. Silver is worth carrying once you meet undead, and silver ore sits in the cave depths the publisher lists. |
+| Early midgame: first book | A Spell Binding Table with bookshelves, the fencing book or the sign manual, and its learning cost. | Bind one book first. Take the sign manual if you already fight at range, the fencing book if you close in. |
+| Midgame: school set | One school armor family at base rank, and the matching school medallion. | Pick the school whose attribute matches your weapon. Upgrade that family step by step rather than starting a second. |
+| Late game: grandmaster | The materials each rank recipe asks for up to grandmaster, plus the medallion. | Pair grandmaster armor with its medallion. Named swords such as Aerondight come from end game loot, not from a recipe. |
+
+### Fencing abilities
 
 | Ability | Form |
 | --- | --- |
@@ -137,6 +163,8 @@ Witcher melee techniques supply attacks and self effects.
 ***
 
 ## Signs
+
+<ItemGrid><ItemIcon id="witcher_rpg:wolf_school_medallion" /><ItemIcon id="minecraft:iron_sword" /></ItemGrid>
 
 Witcher signs have their own ability schools and control or protection effects.
 
@@ -156,35 +184,32 @@ Witcher signs have their own ability schools and control or protection effects.
 ***
 
 ## Class book
+<ItemGrid><ItemIcon id="spell_engine:spell_book" /></ItemGrid>
 
-<EmiSearch query="@create" /> <EmiSearch query="@runes" /> <EmiSearch query="@spell_engine" />
+The Fencing and Signs books use <ItemLink id="spell_engine:spell_book" /> with class-specific ability pools. Select the matching book at the Spell Binding Table.
 
-<ItemLink id="spell_engine:spell_book" />
-
-Create the Fencing and Signs books from a normal book at the Spell Binding Table. Each is a configured Spell Book, not a separate item type. Meet the displayed experience-level cost, then bind the listed abilities with lapis lazuli and the required bookshelf power. Equip the book in its supported slot and hold a compatible weapon or focus.
-
-- [Spell binding & resources](combat.magic.md) Costs, weapon compatibility, runes and casting controls.
-- [First abilities](combat.abilities.md) Binding steps and the difference between books and weapon abilities.
+- [Spell binding & casting](combat.abilities.md) Book creation, costs, equipment slots and casting controls.
+- [Runes & weapon spells](combat.magic.md) Casting resources and equipment-provided spells.
 
 ***
 
 ## Class skills
+<ItemGrid><ItemIcon id="witcher_rpg:iron_witcher_sword" /><ItemIcon id="witcher_rpg:wolf_school_medallion" /></ItemGrid>
 
-Open <KeyBind id="key.puffish_skills.open" /> and follow the matching class path. Class points and weapon points are separate budgets. Read incompatible roots before spending, changing equipment does not refund points.
+Open <KeyBind id="key.puffish_skills.open" /> to find these class and weapon paths.
 
-| Path | Native item |
+| Path | Associated equipment |
 | --- | --- |
 | Witcher fencing | <ItemLink id="witcher_rpg:iron_witcher_sword" /> |
 | Witcher signs | <ItemLink id="witcher_rpg:wolf_school_medallion" /> |
 
 ### Weapon paths
 
-| Path | Native item |
+| Path | Associated equipment |
 | --- | --- |
 | Witcher Sword Specialisation | <ItemLink id="witcher_rpg:iron_witcher_sword" /> |
 
-- [Skill development](combat.skills.md)
-
+- [Skill development](combat.skills.md) Point budgets, connected nodes, incompatible roots and resetting. Changing equipment does not refund points.
 
 ***
 
@@ -196,76 +221,47 @@ Witcher swords support fencing. School armor supports different attributes, with
 
 ### Weapons
 
-<ItemGrid>
-  <ItemIcon id="witcher_rpg:iron_witcher_sword" />
-  <ItemIcon id="witcher_rpg:golden_witcher_sword" />
-  <ItemIcon id="witcher_rpg:diamond_witcher_sword" />
-  <ItemIcon id="witcher_rpg:netherite_witcher_sword" />
-  <ItemIcon id="witcher_rpg:steel_witcher_sword" />
-  <ItemIcon id="witcher_rpg:dark_iron_witcher_sword" />
-  <ItemIcon id="witcher_rpg:dark_steel_witcher_sword" />
-  <ItemIcon id="witcher_rpg:silver_witcher_sword" />
-  <ItemIcon id="witcher_rpg:meteorite_witcher_sword" />
-  <ItemIcon id="witcher_rpg:meteorite_silver_witcher_sword" />
-  <ItemIcon id="witcher_rpg:winters_blade_sword" />
-  <ItemIcon id="witcher_rpg:ultimatum_sword" />
-  <ItemIcon id="witcher_rpg:azure_wrath_sword" />
-  <ItemIcon id="witcher_rpg:reach_of_the_damned_sword" />
-  <ItemIcon id="witcher_rpg:aerondight_sword" />
-  <ItemIcon id="witcher_rpg:iris_sword" />
-</ItemGrid>
-
-| Item | Role |
-| --- | --- |
-| <ItemLink id="witcher_rpg:iron_witcher_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:golden_witcher_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:diamond_witcher_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:netherite_witcher_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:steel_witcher_sword" /> | Adrenaline modifier |
-| <ItemLink id="witcher_rpg:dark_iron_witcher_sword" /> | Adrenaline modifier |
-| <ItemLink id="witcher_rpg:dark_steel_witcher_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:silver_witcher_sword" /> | Sign intensity |
-| <ItemLink id="witcher_rpg:meteorite_witcher_sword" /> | Sign intensity |
-| <ItemLink id="witcher_rpg:meteorite_silver_witcher_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:winters_blade_sword" /> | Adrenaline modifier and Melee critical damage |
-| <ItemLink id="witcher_rpg:ultimatum_sword" /> | Melee critical damage and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:azure_wrath_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:reach_of_the_damned_sword" /> | Sign intensity and Adrenaline modifier |
-| <ItemLink id="witcher_rpg:aerondight_sword" /> | Adrenaline modifier and Sign intensity |
-| <ItemLink id="witcher_rpg:iris_sword" /> | Adrenaline modifier |
+| Family | Items | Role |
+| --- | --- | --- |
+| <ItemLink id="witcher_rpg:iron_witcher_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:iron_witcher_sword" /><ItemIcon id="witcher_rpg:golden_witcher_sword" /><ItemIcon id="witcher_rpg:diamond_witcher_sword" /><ItemIcon id="witcher_rpg:netherite_witcher_sword" /><ItemIcon id="witcher_rpg:dark_steel_witcher_sword" /><ItemIcon id="witcher_rpg:meteorite_silver_witcher_sword" /></ItemGrid> | Sign intensity and Adrenaline gain |
+| <ItemLink id="witcher_rpg:steel_witcher_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:steel_witcher_sword" /><ItemIcon id="witcher_rpg:dark_iron_witcher_sword" /></ItemGrid> | Adrenaline gain, physical choice against human foes |
+| <ItemLink id="witcher_rpg:silver_witcher_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:silver_witcher_sword" /><ItemIcon id="witcher_rpg:meteorite_witcher_sword" /></ItemGrid> | Sign intensity, strong against undead |
+| <ItemLink id="witcher_rpg:winters_blade_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:winters_blade_sword" /></ItemGrid> | Melee critical damage and Adrenaline gain |
+| <ItemLink id="witcher_rpg:ultimatum_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:ultimatum_sword" /></ItemGrid> | Melee critical damage and Adrenaline gain |
+| <ItemLink id="witcher_rpg:azure_wrath_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:azure_wrath_sword" /><ItemIcon id="witcher_rpg:reach_of_the_damned_sword" /></ItemGrid> | Sign intensity and Adrenaline gain |
+| <ItemLink id="witcher_rpg:aerondight_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:aerondight_sword" /></ItemGrid> | Adrenaline gain and Sign intensity, found as loot |
+| <ItemLink id="witcher_rpg:iris_sword" /> | <ItemGrid><ItemIcon id="witcher_rpg:iris_sword" /></ItemGrid> | Adrenaline gain, found as loot |
 
 ### Armor sets
 
-Each group shows every piece of one supported set, ordered head, chest, legs and feet.
-
-| Head | Chest | Legs | Feet |
-| --- | --- | --- | --- |
-| <ItemLink id="witcher_rpg:witcher_head" /> | <ItemLink id="witcher_rpg:witcher_chest" /> | <ItemLink id="witcher_rpg:witcher_legs" /> | <ItemLink id="witcher_rpg:witcher_feet" /> |
-| <ItemLink id="witcher_rpg:feline_head" /> | <ItemLink id="witcher_rpg:feline_chest" /> | <ItemLink id="witcher_rpg:feline_legs" /> | <ItemLink id="witcher_rpg:feline_feet" /> |
-| <ItemLink id="witcher_rpg:enhanced_feline_head" /> | <ItemLink id="witcher_rpg:enhanced_feline_chest" /> | <ItemLink id="witcher_rpg:enhanced_feline_legs" /> | <ItemLink id="witcher_rpg:enhanced_feline_feet" /> |
-| <ItemLink id="witcher_rpg:superior_feline_head" /> | <ItemLink id="witcher_rpg:superior_feline_chest" /> | <ItemLink id="witcher_rpg:superior_feline_legs" /> | <ItemLink id="witcher_rpg:superior_feline_feet" /> |
-| <ItemLink id="witcher_rpg:mastercrafted_feline_head" /> | <ItemLink id="witcher_rpg:mastercrafted_feline_chest" /> | <ItemLink id="witcher_rpg:mastercrafted_feline_legs" /> | <ItemLink id="witcher_rpg:mastercrafted_feline_feet" /> |
-| <ItemLink id="witcher_rpg:grandmaster_feline_head" /> | <ItemLink id="witcher_rpg:grandmaster_feline_chest" /> | <ItemLink id="witcher_rpg:grandmaster_feline_legs" /> | <ItemLink id="witcher_rpg:grandmaster_feline_feet" /> |
-| <ItemLink id="witcher_rpg:griffin_head" /> | <ItemLink id="witcher_rpg:griffin_chest" /> | <ItemLink id="witcher_rpg:griffin_legs" /> | <ItemLink id="witcher_rpg:griffin_feet" /> |
-| <ItemLink id="witcher_rpg:enhanced_griffin_head" /> | <ItemLink id="witcher_rpg:enhanced_griffin_chest" /> | <ItemLink id="witcher_rpg:enhanced_griffin_legs" /> | <ItemLink id="witcher_rpg:enhanced_griffin_feet" /> |
-| <ItemLink id="witcher_rpg:superior_griffin_head" /> | <ItemLink id="witcher_rpg:superior_griffin_chest" /> | <ItemLink id="witcher_rpg:superior_griffin_legs" /> | <ItemLink id="witcher_rpg:superior_griffin_feet" /> |
-| <ItemLink id="witcher_rpg:mastercrafted_griffin_head" /> | <ItemLink id="witcher_rpg:mastercrafted_griffin_chest" /> | <ItemLink id="witcher_rpg:mastercrafted_griffin_legs" /> | <ItemLink id="witcher_rpg:mastercrafted_griffin_feet" /> |
-| <ItemLink id="witcher_rpg:grandmaster_griffin_head" /> | <ItemLink id="witcher_rpg:grandmaster_griffin_chest" /> | <ItemLink id="witcher_rpg:grandmaster_griffin_legs" /> | <ItemLink id="witcher_rpg:grandmaster_griffin_feet" /> |
-| <ItemLink id="witcher_rpg:wolven_head" /> | <ItemLink id="witcher_rpg:wolven_chest" /> | <ItemLink id="witcher_rpg:wolven_legs" /> | <ItemLink id="witcher_rpg:wolven_feet" /> |
-| <ItemLink id="witcher_rpg:enhanced_wolven_head" /> | <ItemLink id="witcher_rpg:enhanced_wolven_chest" /> | <ItemLink id="witcher_rpg:enhanced_wolven_legs" /> | <ItemLink id="witcher_rpg:enhanced_wolven_feet" /> |
-| <ItemLink id="witcher_rpg:superior_wolven_head" /> | <ItemLink id="witcher_rpg:superior_wolven_chest" /> | <ItemLink id="witcher_rpg:superior_wolven_legs" /> | <ItemLink id="witcher_rpg:superior_wolven_feet" /> |
-| <ItemLink id="witcher_rpg:mastercrafted_wolven_head" /> | <ItemLink id="witcher_rpg:mastercrafted_wolven_chest" /> | <ItemLink id="witcher_rpg:mastercrafted_wolven_legs" /> | <ItemLink id="witcher_rpg:mastercrafted_wolven_feet" /> |
-| <ItemLink id="witcher_rpg:grandmaster_wolven_head" /> | <ItemLink id="witcher_rpg:grandmaster_wolven_chest" /> | <ItemLink id="witcher_rpg:grandmaster_wolven_legs" /> | <ItemLink id="witcher_rpg:grandmaster_wolven_feet" /> |
-| <ItemLink id="witcher_rpg:ursine_head" /> | <ItemLink id="witcher_rpg:ursine_chest" /> | <ItemLink id="witcher_rpg:ursine_legs" /> | <ItemLink id="witcher_rpg:ursine_feet" /> |
-| <ItemLink id="witcher_rpg:enhanced_ursine_head" /> | <ItemLink id="witcher_rpg:enhanced_ursine_chest" /> | <ItemLink id="witcher_rpg:enhanced_ursine_legs" /> | <ItemLink id="witcher_rpg:enhanced_ursine_feet" /> |
-| <ItemLink id="witcher_rpg:superior_ursine_head" /> | <ItemLink id="witcher_rpg:superior_ursine_chest" /> | <ItemLink id="witcher_rpg:superior_ursine_legs" /> | <ItemLink id="witcher_rpg:superior_ursine_feet" /> |
-| <ItemLink id="witcher_rpg:mastercrafted_ursine_head" /> | <ItemLink id="witcher_rpg:mastercrafted_ursine_chest" /> | <ItemLink id="witcher_rpg:mastercrafted_ursine_legs" /> | <ItemLink id="witcher_rpg:mastercrafted_ursine_feet" /> |
-| <ItemLink id="witcher_rpg:grandmaster_ursine_head" /> | <ItemLink id="witcher_rpg:grandmaster_ursine_chest" /> | <ItemLink id="witcher_rpg:grandmaster_ursine_legs" /> | <ItemLink id="witcher_rpg:grandmaster_ursine_feet" /> |
+| Set reference, chest piece | Pieces, head to feet |
+| --- | --- |
+| <ItemLink id="witcher_rpg:witcher_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:witcher_head" /><ItemIcon id="witcher_rpg:witcher_chest" /><ItemIcon id="witcher_rpg:witcher_legs" /><ItemIcon id="witcher_rpg:witcher_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:feline_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:feline_head" /><ItemIcon id="witcher_rpg:feline_chest" /><ItemIcon id="witcher_rpg:feline_legs" /><ItemIcon id="witcher_rpg:feline_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:enhanced_feline_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:enhanced_feline_head" /><ItemIcon id="witcher_rpg:enhanced_feline_chest" /><ItemIcon id="witcher_rpg:enhanced_feline_legs" /><ItemIcon id="witcher_rpg:enhanced_feline_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:superior_feline_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:superior_feline_head" /><ItemIcon id="witcher_rpg:superior_feline_chest" /><ItemIcon id="witcher_rpg:superior_feline_legs" /><ItemIcon id="witcher_rpg:superior_feline_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:mastercrafted_feline_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:mastercrafted_feline_head" /><ItemIcon id="witcher_rpg:mastercrafted_feline_chest" /><ItemIcon id="witcher_rpg:mastercrafted_feline_legs" /><ItemIcon id="witcher_rpg:mastercrafted_feline_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:grandmaster_feline_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:grandmaster_feline_head" /><ItemIcon id="witcher_rpg:grandmaster_feline_chest" /><ItemIcon id="witcher_rpg:grandmaster_feline_legs" /><ItemIcon id="witcher_rpg:grandmaster_feline_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:griffin_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:griffin_head" /><ItemIcon id="witcher_rpg:griffin_chest" /><ItemIcon id="witcher_rpg:griffin_legs" /><ItemIcon id="witcher_rpg:griffin_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:enhanced_griffin_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:enhanced_griffin_head" /><ItemIcon id="witcher_rpg:enhanced_griffin_chest" /><ItemIcon id="witcher_rpg:enhanced_griffin_legs" /><ItemIcon id="witcher_rpg:enhanced_griffin_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:superior_griffin_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:superior_griffin_head" /><ItemIcon id="witcher_rpg:superior_griffin_chest" /><ItemIcon id="witcher_rpg:superior_griffin_legs" /><ItemIcon id="witcher_rpg:superior_griffin_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:mastercrafted_griffin_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:mastercrafted_griffin_head" /><ItemIcon id="witcher_rpg:mastercrafted_griffin_chest" /><ItemIcon id="witcher_rpg:mastercrafted_griffin_legs" /><ItemIcon id="witcher_rpg:mastercrafted_griffin_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:grandmaster_griffin_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:grandmaster_griffin_head" /><ItemIcon id="witcher_rpg:grandmaster_griffin_chest" /><ItemIcon id="witcher_rpg:grandmaster_griffin_legs" /><ItemIcon id="witcher_rpg:grandmaster_griffin_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:wolven_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:wolven_head" /><ItemIcon id="witcher_rpg:wolven_chest" /><ItemIcon id="witcher_rpg:wolven_legs" /><ItemIcon id="witcher_rpg:wolven_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:enhanced_wolven_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:enhanced_wolven_head" /><ItemIcon id="witcher_rpg:enhanced_wolven_chest" /><ItemIcon id="witcher_rpg:enhanced_wolven_legs" /><ItemIcon id="witcher_rpg:enhanced_wolven_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:superior_wolven_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:superior_wolven_head" /><ItemIcon id="witcher_rpg:superior_wolven_chest" /><ItemIcon id="witcher_rpg:superior_wolven_legs" /><ItemIcon id="witcher_rpg:superior_wolven_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:mastercrafted_wolven_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:mastercrafted_wolven_head" /><ItemIcon id="witcher_rpg:mastercrafted_wolven_chest" /><ItemIcon id="witcher_rpg:mastercrafted_wolven_legs" /><ItemIcon id="witcher_rpg:mastercrafted_wolven_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:grandmaster_wolven_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:grandmaster_wolven_head" /><ItemIcon id="witcher_rpg:grandmaster_wolven_chest" /><ItemIcon id="witcher_rpg:grandmaster_wolven_legs" /><ItemIcon id="witcher_rpg:grandmaster_wolven_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:ursine_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:ursine_head" /><ItemIcon id="witcher_rpg:ursine_chest" /><ItemIcon id="witcher_rpg:ursine_legs" /><ItemIcon id="witcher_rpg:ursine_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:enhanced_ursine_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:enhanced_ursine_head" /><ItemIcon id="witcher_rpg:enhanced_ursine_chest" /><ItemIcon id="witcher_rpg:enhanced_ursine_legs" /><ItemIcon id="witcher_rpg:enhanced_ursine_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:superior_ursine_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:superior_ursine_head" /><ItemIcon id="witcher_rpg:superior_ursine_chest" /><ItemIcon id="witcher_rpg:superior_ursine_legs" /><ItemIcon id="witcher_rpg:superior_ursine_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:mastercrafted_ursine_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:mastercrafted_ursine_head" /><ItemIcon id="witcher_rpg:mastercrafted_ursine_chest" /><ItemIcon id="witcher_rpg:mastercrafted_ursine_legs" /><ItemIcon id="witcher_rpg:mastercrafted_ursine_feet" /></ItemGrid> |
+| <ItemLink id="witcher_rpg:grandmaster_ursine_chest" /> | <ItemGrid><ItemIcon id="witcher_rpg:grandmaster_ursine_head" /><ItemIcon id="witcher_rpg:grandmaster_ursine_chest" /><ItemIcon id="witcher_rpg:grandmaster_ursine_legs" /><ItemIcon id="witcher_rpg:grandmaster_ursine_feet" /></ItemGrid> |
 
 ***
 
 ## Shared equipment
 
-- [Weapons & armor](equipment.weapons-armor.md)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>- [Weapons & armor](equipment.weapons-armor.md)
 - [Accessories](equipment.accessories.md)
 - [Combat controls](combat.handling.md)
