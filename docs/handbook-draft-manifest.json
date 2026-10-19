@@ -6,7 +6,7 @@
   "root_page_count": 18,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 324,
+  "installed_content_count": 325,
   "heavy_content_count": 20,
   "baseline_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
   "deferred_content_count": 0,
@@ -24,7 +24,8 @@
         "mods/emi.pw.toml",
         "mods/polymorph.pw.toml",
         "mods/reliable-emi.pw.toml",
-        "mods/tooltipfix.pw.toml"
+        "mods/tooltipfix.pw.toml",
+        "mods/jei.pw.toml"
       ]
     },
     {
@@ -6051,6 +6052,19 @@
       "availability": "baseline",
       "category": "Vehicles and travel",
       "topic": "vehicles.airships",
+      "indexed": true,
+      "player_mention_written": true,
+      "instructions_verified": false,
+      "english_written": true,
+      "simplified_chinese_written": true,
+      "links_checked": true
+    },
+    {
+      "metadata_path": "mods/jei.pw.toml",
+      "name": "Just Enough Items (JEI)",
+      "availability": "baseline",
+      "category": "Player utilities and quality of life",
+      "topic": "help.search",
       "indexed": true,
       "player_mention_written": true,
       "instructions_verified": false,
