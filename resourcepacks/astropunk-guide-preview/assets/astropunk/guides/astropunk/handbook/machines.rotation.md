@@ -94,6 +94,12 @@ Two <ItemLink id="create:andesite_alloy" /> make eight <ItemLink id="create:shaf
 
 The expected result is a machine that runs without stopping and a stressometer that does not sit above capacity. The next useful step is a reserve so a short interruption does not stop production. [Stored rotation](power.stored-rotation.md) covers batteries and springs.
 
+## Reading the numbers
+
+Engineer's goggles show the stress a component is carrying and the speed it is running at, so a stalled machine reads as a number instead of a guess. The speedometer and the stressometer measure one component each and convert into each other, which is how you compare a drive line before and after a change.
+
+<ItemGrid><ItemIcon id="create:goggles" /><ItemIcon id="create:speedometer" /><ItemIcon id="create:stressometer" /></ItemGrid>
+
 
 ***
 

@@ -94,6 +94,12 @@ Create: Connected 补上了这套部件的空缺。每个部件解决不同的�
 
 要看到的结果是机器连续运转，应力表不高于容量。下一步值得做的是储备，让短暂中断不至于停掉生产。[旋转储备](power.stored-rotation.md)说明蓄电池与弹簧。
 
+## 读数字
+
+工程师护目镜会显示部件当前承受的应力和转速，卡住的机器会显示成具体数字而不是靠猜。速度表和应力表各测量单个部件，并且可以互相转换，改动前后用它们对比同一条传动线最直接。
+
+<ItemGrid><ItemIcon id="create:goggles" /><ItemIcon id="create:speedometer" /><ItemIcon id="create:stressometer" /></ItemGrid>
+
 
 ***
 
