@@ -19,10 +19,20 @@ CACHE = ROOT / 'build' / 'mod-cache'
 def targets():
     for meta in sorted(MODS.glob('*.pw.toml')):
         text = meta.read_text()
-        url = re.search(r'^url = "([^"]+)"', text, re.M)
         name = re.search(r'^filename = "([^"]+)"', text, re.M)
-        if url and name:
+        url = re.search(r'^url = "([^"]+)"', text, re.M)
+        if not name:
+            continue
+        if url:
             yield url.group(1), name.group(1)
+            continue
+        # CurseForge metadata entries carry no URL, but the CDN path is derivable
+        # from the file id as the first four digits and the remainder.
+        file_id = re.search(r'file-id = (\d+)', text)
+        if file_id and 'metadata:curseforge' in text:
+            value = file_id.group(1)
+            yield ('https://mediafilez.forgecdn.net/files/%s/%s/%s'
+                   % (value[:4], value[4:], name.group(1))), name.group(1)
 
 
 def fetch(pair):
