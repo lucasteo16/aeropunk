@@ -16,52 +16,68 @@ navigation:
 
 Species entries and catch requirements
 
-<ItemGrid>
-  <ItemIcon id="starcatcher:starcatcher_guide" />
-  <ItemIcon id="starcatcher:fish_radar" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="starcatcher:starcatcher_guide" /><ItemIcon id="starcatcher:fish_radar" /></ItemGrid>
 
-Use Starcatcher's Guide for a fish's full conditions. The habitat families below describe where to begin looking, not a guarantee that every pool contains every listed catch.
+A habitat is the first filter, and it is a relationship between three things, the water you stand at, the terrain around it and the species the guide allows there. The markers below identify terrain, not fish. Match the marker, then confirm the species in the guide.
 
-| Habitat | Examples & terrain |
+| Habitat | Terrain marker | Catches to expect |
+| --- | --- | --- |
+| Cold freshwater | <ItemGrid><ItemIcon id="minecraft:ice" /></ItemGrid> Birch Taiga, Windswept Spires, winter islands | Frostjaw Trout, Wintery Pike |
+| Warm freshwater | <ItemGrid><ItemIcon id="minecraft:cactus" /></ItemGrid> Desert, badlands, savanna, Granite Cliffs | Sandtail, Scorchfish, Mirage Carp, Agave Bream, Cactifish, Oasis Sturgeon |
+| Cherry landscapes | <ItemGrid><ItemIcon id="minecraft:cherry_sapling" /></ItemGrid> Sakura Grove, Sakura Valley, Snowy Cherry Grove, Spring Skylands | Blossomfish, Pink Koi |
+| Flowering landscapes | <ItemGrid><ItemIcon id="minecraft:poppy" /></ItemGrid> Flower forests, Cloud Forest, Moonlight landscapes | Petal Bass |
+| Open grassland | <ItemGrid><ItemIcon id="minecraft:sunflower" /></ItemGrid> Prairie and open grassland equivalents | Sunflower Carp |
+| Dark forest | <ItemGrid><ItemIcon id="minecraft:dark_oak_sapling" /></ItemGrid> Dark forest and Moonlight groves | Enchanted forest entries |
+| Ice formations | <ItemGrid><ItemIcon id="minecraft:packed_ice" /></ItemGrid> Frozen cliffs, Glacial Chasm, Emerald Peaks | Aurora and other ice-spike entries |
+| Lush caves | <ItemGrid><ItemIcon id="minecraft:moss_block" /></ItemGrid> Lush caves, fungal caves, Underground Jungle | Lush Pike, Mossfin, Shadowfin |
+| Geological caves | <ItemGrid><ItemIcon id="minecraft:pointed_dripstone" /></ItemGrid> Dripstone, stone and thermal caves | Dripfin, Fossilized Angelfish |
+| Deep dark | <ItemGrid><ItemIcon id="minecraft:sculk" /></ItemGrid> Deep dark, Frostfire Caves | Sculkfish, Ward, Glowing Dark |
+| Oceans | <ItemGrid><ItemIcon id="minecraft:prismarine_crystals" /></ItemGrid> Ocean, deep ocean, warm ocean, Deep Warm Ocean | Ocean and deep ocean selections plus Hybrid Aquatic sea fish |
+
+Snowy Badlands is the exception worth remembering. It looks like warm badlands terrain but the pack treats it as cold freshwater, so the six warm lake species never appear there.
+
+***
+
+## Pick a spot in four checks
+
+1. Choose the terrain marker from the table, not the biome name you remember.
+2. Stand at water inside that terrain. A qualifying biome without a water block catches nothing.
+3. Read the species row in <ItemLink id="starcatcher:starcatcher_guide" /> for height, light, time, weather and bait.
+4. Cast once. A confirmed catch adds the guide entry, which proves the habitat matched.
+
+![Fishing at a cold lake shoreline](images/visual-fishing-reeling.png)
+
+Fishing at a cold lake shoreline
+
+***
+
+## Elevation splits one biome
+
+<ItemGrid><ItemIcon id="minecraft:ice" /><ItemIcon id="minecraft:sculk" /><ItemIcon id="minecraft:pointed_dripstone" /></ItemGrid>
+
+| Position in the same biome | What changes |
 | --- | --- |
-| Cold freshwater | Frostjaw Trout and Wintery Pike. Cold and frozen Terralith terrain includes Birch Taiga, Windswept Spires and winter islands. |
-| Warm freshwater | Sandtail, Scorchfish, Mirage Carp, Agave Bream, Cactifish and Oasis Sturgeon. Arid, desert, badlands and savanna terrain includes Granite Cliffs. Snowy Badlands is excluded from these warm catches. |
-| Cherry landscapes | Blossomfish and Pink Koi. Sakura Grove, Sakura Valley, Snowy Cherry Grove and Spring Skylands share cherry habitat catches. |
-| Flowering landscapes | Petal Bass. Flower-rich valleys, spring skylands and Terralith's flower-forest group, including Cloud Forest and the Moonlight landscapes. |
-| Open grassland | Sunflower Carp. Prairie and open grassland equivalents. |
-| Dark forest | Enchanted forest catches also extend into Moonlight groves. |
-| Ice formations | Aurora and other ice-spike catches. Frozen cliffs, Glacial Chasm and Emerald Peaks. |
-| Lush caves | Lush Pike, Mossfin and Shadowfin. Fungal caves and Underground Jungle join this habitat. |
-| Geological caves | Dripfin and Fossilized Angelfish. Stone and thermal caves join the dripstone selection. |
-| Deep dark | Sculkfish, Ward and Glowing Dark. Frostfire Caves also has matching sculk terrain. |
-| Oceans | Ocean, deep-ocean and warm-ocean selections include Terralith's Deep Warm Ocean. The Hybrid Aquatic bridge keeps its own ocean fish conditions. |
+| Surface lake or river | Surface freshwater entries, with weather and daylight still applied. |
+| Cave water | Underground entries replace surface species. Lush and dripstone caves add their own. |
+| Mountain or cliff pool | Cold and ice entries can appear where the same biome at low elevation would not offer them. |
 
-***
-
-## Terralith fishing
-
-The pack connects all 95 Terralith biomes to suitable water-fishing selections at surface or underground elevations. Some retain general freshwater, forest, jungle or taiga fish rather than a unique species set. A biome can qualify without having naturally generated water at the exact position you visit.
-
-Frostfire Caves shares both sculk and dripstone catches. Ordinary deep, infested and mantle caves retain underground freshwater selections. Sparse bamboo does not count as dense Bamboo Jungle, and the Nether and End keep their original dimension restrictions.
-
-***
-
-## Reading catch conditions
-
-| Condition | What to check |
+| Fluid and dimension | What changes |
 | --- | --- |
-| Biome | Hover multiple habitat selectors in the Guide. A broad habitat tag can include more than the original vanilla biome. |
-| Height & light | Surface, cave and mountain catches can differ within the same biome. Check the fishing position's elevation and light. |
-| Time & weather | Day, night, rain and thunder restrictions still apply after choosing a suitable biome. |
-| Fluid & dimension | Water, lava and other catch media are distinct. Overworld water does not replace Nether lava. |
-| Bait | Distinguish a preference from a required bait. |
-
-The habitat integration changes rod-catch eligibility. It does not broaden natural animal-spawning tags or increase wildlife density. Catch rarity, difficulty and other conditions remain those of the individual fish.
+| Lava | A separate table that needs the amethyst hook or the netherite rod. |
+| Nether water | Does not exist. Nether entries belong to lava. |
+| End water | End entries require the dimension itself, not an Overworld pond that looks similar. |
 
 ***
 
-## Related topics
+## Terralith terrain
+
+<ItemGrid><ItemIcon id="minecraft:moss_block" /><ItemIcon id="minecraft:cherry_sapling" /><ItemIcon id="minecraft:dark_oak_sapling" /></ItemGrid>
+
+The pack maps all 95 Terralith biomes onto surface or underground fishing selections. Some keep general freshwater, forest, jungle or taiga species instead of a unique set, and several share a family with a vanilla biome. Frostfire Caves answers to both sculk and dripstone catches. Sparse bamboo is not dense Bamboo Jungle, so it does not unlock the bamboo entries.
+
+A biome can qualify while the exact block you stand on has no water. The integration changes which rod catches are legal. It does not add animal spawning, raise wildlife density or change catch rarity.
+
+***
 
 - [Fishing equipment](food.fishing.md)
 - [Aquatic wildlife & natural habitats](adventure.aquatic.md)

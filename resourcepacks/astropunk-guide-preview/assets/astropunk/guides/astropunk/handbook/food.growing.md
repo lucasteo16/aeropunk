@@ -8,7 +8,7 @@ navigation:
 
 # Farming
 
-## Crop ingredients
+## Wild crops and seeds
 
 <EmiSearch query="@farmersdelight" />
 
@@ -16,63 +16,77 @@ navigation:
 
 A garden of cooking ingredients
 
-<ItemGrid>
-  <ItemIcon id="minecraft:wheat" />
-  <ItemIcon id="minecraft:carrot" />
-  <ItemIcon id="minecraft:potato" />
-  <ItemIcon id="minecraft:beetroot" />
-  <ItemIcon id="minecraft:pumpkin" />
-  <ItemIcon id="minecraft:melon_slice" />
-  <ItemIcon id="farmersdelight:wild_cabbages" />
-  <ItemIcon id="farmersdelight:cabbage_seeds" />
-  <ItemIcon id="farmersdelight:cabbage" />
-  <ItemIcon id="farmersdelight:wild_tomatoes" />
-  <ItemIcon id="farmersdelight:tomato_seeds" />
-  <ItemIcon id="farmersdelight:tomato" />
-  <ItemIcon id="farmersdelight:wild_onions" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="farmersdelight:wild_rice" />
-  <ItemIcon id="farmersdelight:rice" />
-  <ItemIcon id="farmersdelight:rice_panicle" />
-  <ItemIcon id="farmersdelight:straw" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="farmersdelight:wild_cabbages" /><ItemIcon id="farmersdelight:wild_tomatoes" /><ItemIcon id="farmersdelight:wild_onions" /><ItemIcon id="farmersdelight:wild_rice" /></ItemGrid>
 
-<ItemLink id="minecraft:wheat" /> supplies bread and dough. <ItemLink id="minecraft:carrot" /> and <ItemLink id="minecraft:potato" /> support meals. <ItemLink id="minecraft:beetroot" /> supplies soup. <ItemLink id="minecraft:pumpkin" /> and <ItemLink id="minecraft:melon_slice" /> supply meals and desserts.
+Farmer's Delight crops grow wild in matching climates. Break a wild patch by hand for a seed or a plantable item, and occasionally for produce. Shear the patch instead to pick it up and replant it as decoration or as a seed bank. Bone meal on a wild patch multiplies it in place, which turns one find into a full row.
 
-- <ItemLink id="farmersdelight:cabbage_seeds" /> comes from breaking <ItemLink id="farmersdelight:wild_cabbages" /> without shears. Grow <ItemLink id="farmersdelight:cabbage" /> for fillings.
-- <ItemLink id="farmersdelight:tomato_seeds" /> comes from breaking <ItemLink id="farmersdelight:wild_tomatoes" /> without shears or crafting a tomato into seed. Use <ItemLink id="farmersdelight:tomato" /> for sauces.
-- Break <ItemLink id="farmersdelight:wild_onions" /> without shears for <ItemLink id="farmersdelight:onion" />. Use it in soups and rice dishes.
-- <ItemLink id="farmersdelight:wild_rice" /> supplies <ItemLink id="farmersdelight:rice" />. One <ItemLink id="farmersdelight:rice_panicle" /> crafts into one rice. Cutting the same panicle with a knife also produces one <ItemLink id="farmersdelight:straw" />. Cutting therefore adds a useful byproduct.
+| Wild patch | Where it grows | What you get |
+| --- | --- | --- |
+| <ItemGrid><ItemIcon id="farmersdelight:wild_cabbages" /></ItemGrid> | Beaches and coasts | Cabbage seeds |
+| <ItemGrid><ItemIcon id="farmersdelight:wild_tomatoes" /></ItemGrid> | Arid climates | Tomato seeds |
+| <ItemGrid><ItemIcon id="farmersdelight:wild_onions" /></ItemGrid> | Temperate climates | Onion |
+| <ItemGrid><ItemIcon id="farmersdelight:wild_rice" /></ItemGrid> | Swamps and jungles | Rice |
+
+Village farm plots and chests also carry samples of these crops, so a village trip fills a garden without a long search.
 
 ***
 
-## Soil & regional crops
+## Planting and harvest
 
-<EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+<ItemGrid><ItemIcon id="farmersdelight:cabbage_seeds" /><ItemIcon id="farmersdelight:cabbage" /><ItemIcon id="farmersdelight:tomato_seeds" /><ItemIcon id="farmersdelight:tomato" /><ItemIcon id="farmersdelight:onion" /><ItemIcon id="farmersdelight:rice_panicle" /><ItemIcon id="farmersdelight:rice" /><ItemIcon id="farmersdelight:straw" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="farmersdelight:organic_compost" />
-  <ItemIcon id="farmersdelight:rich_soil" />
-  <ItemIcon id="minersdelight:cave_carrot" />
-  <ItemIcon id="mynethersdelight:bullet_pepper" />
-</ItemGrid>
+Plant <ItemLink id="farmersdelight:cabbage_seeds" /> and <ItemLink id="farmersdelight:tomato_seeds" /> on farmland like any other crop. <ItemLink id="farmersdelight:onion" /> is planted directly as the bulb.
 
-<ItemLink id="farmersdelight:organic_compost" /> and <ItemLink id="farmersdelight:rich_soil" /> form the garden soil branch. Rice and tomato vines need different planting arrangements from ordinary farmland crops.
+Tomatoes climb. Place a <ItemLink id="farmersdelight:rope" /> above a planted tomato and the vine grows up it. Breaking a ripe vine leaves the rope behind in this pack, so you can reuse the support for the next planting.
 
-<ItemLink id="minersdelight:cave_carrot" /> supplies underground recipes. <ItemLink id="mynethersdelight:bullet_pepper" /> supplies Nether spice recipes. They have separate regional sources.
-
-- [Underground crops](food.underground.md)
-- [Nether ingredients](food.nether.md)
+Rice is planted in shallow water. Harvest a ripe <ItemLink id="farmersdelight:rice_panicle" /> and choose the processing route. Craft the panicle for one <ItemLink id="farmersdelight:rice" />. Cut it on a <ItemLink id="farmersdelight:cutting_board" /> with a knife for one rice and one <ItemLink id="farmersdelight:straw" />. The board route gives the same rice plus straw for rope, canvas and crafting.
 
 ***
 
-## Harvesting helpers
+## Rich soil
+
+<ItemGrid><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="farmersdelight:rich_soil" /><ItemIcon id="farmersdelight:organic_compost" /><ItemIcon id="minecraft:brown_mushroom" /><ItemIcon id="minecraft:podzol" /></ItemGrid>
+
+Craft <ItemLink id="farmersdelight:organic_compost" />, place it, and wait. Sunlight and water nearby speed the decomposition. Neighbouring compost, rich soil, mycelium, podzol and mushrooms act as activators and speed it further. The pile becomes <ItemLink id="farmersdelight:rich_soil" />.
+
+Rich soil boosts crop growth like a free bone meal, with a twenty percent chance per growth tick in this pack. Hoe it into rich farmland to keep the boost on tilled crops. Rich farmland also resists trampling and does not turn back into dirt when a pumpkin or melon grows on it.
+
+A mushroom planted on rich soil in darkness grows into a colony of two to five caps. Break the colony for every cap, or shear it to move the whole colony.
+
+***
+
+## Harvest helpers
 
 <EmiSearch query="@create_integrated_farming" /> <EmiSearch query="@create" />
 
-RightClickHarvest adds harvesting interactions. Smarter Farmers expands farmer replanting. Universal Bone Meal broadens bone-meal use. Leaves Be Gone clears decaying leaves after tree harvesting rather than growing food. Create: Integrated Farming supplies farm integration with Create. Check the crop’s supported harvesting route before automating.
+<ItemGrid><ItemIcon id="minecraft:bone_meal" /><ItemIcon id="farmersdelight:rich_soil" /></ItemGrid>
 
-- [Cooking tools](food.utensils.md)
+RightClickHarvest lets you harvest and replant a mature crop with a right click. The pack configures the mod to work without a hoe, so an empty hand is enough. Smarter Farmers makes villagers replant the seed that belongs to the crop, including modded crops. Universal Bone Meal lets bone meal grow plants that vanilla refuses, such as sugar cane and cactus.
+
+These helpers change how you work a field, not what a crop yields. Check the crop before you build an automatic farm around it, because a modded plant may need its own support.
+
+| Helper | What it changes | What stays the same |
+| --- | --- | --- |
+| RightClickHarvest | Harvest and replant in one click | Crop drops |
+| Smarter Farmers | Villager replanting for modded crops | Villager trades |
+| Universal Bone Meal | Bone meal works on more plants | Growth speed of supported crops |
+| Create: Integrated Farming | Vacuum harvester harvests and replants an area | Crop drops |
+
+***
+
+## Dishes and materials
+
+<EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+
+These are the remaining items in this chapter, grouped by the station that makes them. Open the item tooltip for exact food values and open the recipe browser for a specific dish.
+
+| Family | Items |
+| --- | --- |
+| Crop ingredients | <ItemGrid><ItemIcon id="minecraft:wheat" /><ItemIcon id="minecraft:carrot" /><ItemIcon id="minecraft:potato" /><ItemIcon id="minecraft:beetroot" /><ItemIcon id="minecraft:pumpkin" /><ItemIcon id="minecraft:melon_slice" /></ItemGrid> |
+| Soil & regional crops | <ItemGrid><ItemIcon id="minersdelight:cave_carrot" /><ItemIcon id="mynethersdelight:bullet_pepper" /></ItemGrid> |
+
+- [Underground crops](food.underground.md)
+- [Nether ingredients](food.nether.md)
 - [Machine kitchens](food.machine-cooking.md)
 
 ***
