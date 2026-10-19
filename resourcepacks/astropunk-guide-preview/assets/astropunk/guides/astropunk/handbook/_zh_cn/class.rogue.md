@@ -30,21 +30,47 @@ item_ids:
 
 # 盗贼
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Rogues+and+Warriors+Rogue+abilities+equipment+tutorial+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+Rogues+and+Warriors+%E7%9B%97%E8%B4%BC+%E6%8A%80%E8%83%BD+%E8%A3%85%E5%A4%87+%E6%95%99%E7%A8%8B+%E4%B8%AD%E6%96%87)
+
 ## 定位与入门武器
+
+盗贼使用匕首与镰刀，结合近战攻击、蓄势效果、陷阱与机动能力。
 
 ![盗贼与战士装备](images/visual-martial-equipment.png)
 
-盗贼与战士装备
+### 入门装备
 
-<ItemGrid>
-  <ItemIcon id="rogues:iron_dagger" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="rogues:iron_dagger" /></ItemGrid>
 
 <ItemLink id="rogues:iron_dagger" />
 
 <Recipe id="rogues:iron_dagger" />
 
-近战招式结合蓄势效果、陷阱与机动能力。
+### 入门配装示例
+
+铁匕首搭配四件盗贼护甲，是一种可合成的入门配装，不是官方默认，也不是必选构筑。模型只展示外观与手持武器。
+
+<GameScene zoom="4" interactive={true}>
+  <IsometricCamera yaw="135" pitch="15" />
+  <Entity id="minecraft:armor_stand" x="0.5" y="0" z="0.5" rotationY="180" data='{NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,ArmorItems:[{id:"rogues:rogue_armor_feet",count:1},{id:"rogues:rogue_armor_legs",count:1},{id:"rogues:rogue_armor_chest",count:1},{id:"rogues:rogue_armor_head",count:1}],HandItems:[{id:"rogues:iron_dagger",count:1},{}]}' />
+</GameScene>
+
+<ItemGrid><ItemIcon id="rogues:iron_dagger" /><ItemIcon id="rogues:rogue_armor_head" /><ItemIcon id="rogues:rogue_armor_chest" /><ItemIcon id="rogues:rogue_armor_legs" /><ItemIcon id="rogues:rogue_armor_feet" /></ItemGrid>
+
+### 准备阶段与首次战斗
+
+盗贼职业书围绕闪避与戏弄对手，发布说明建议双持快速武器，也就是一手匕首或一手镰刀。单次挥击伤害低于重型武器，因此职业强度来自在敌人挥击之间出刀，以及在开战前布好预备效果。盗贼护甲贴合这种节奏，刺客护甲是同一列表中的下一套。一次成功的首战，是用震撼粉或陷阱之后的一段短促交手解决一只怪物，而生命几乎未损。
+
+下列阶段均为可选，说明手头需要什么、每一步解锁什么，不按游玩天数衡量。
+
+| 阶段 | 就绪条件 | 建议行动或下一步选择 |
+| --- | --- | --- |
+| 前期：初次双持 | 两把快速武器，最好一把匕首配一把镰刀，以及食物。 | 合成铁匕首，再配任意第二把快速武器。确认两只手都握有武器，再依赖副手。 |
+| 中期起步：盗贼手册 | 周围有书架的法术绑定台、盗贼手册，以及学习费用。 | 绑定并装备手册。进战前先设好一个预备效果，而不是挥击到一半再施法。 |
+| 中期：护甲 | 盗贼护甲，或更强的刺客护甲。 | 先凑齐一套。更换套装前，先比较武器的攻击速度与伤害。 |
+| 后期：下界合金 | 下界合金材料、锻造模板，以及刺客护甲部件。 | 升级刺客套装，并为群战保留一个陷阱或脱身招式。 |
+
+### 书中招式
 
 | 能力 | 形式 |
 | --- | --- |
@@ -58,35 +84,34 @@ item_ids:
 ***
 
 ## 职业法术书
+<ItemGrid><ItemIcon id="spell_engine:spell_book" /></ItemGrid>
 
-<EmiSearch query="@spell_engine" />
+在法术绑定台选择盗贼法术书。职业书是 <ItemLink id="spell_engine:spell_book" /> 的配置变体，包含对应的招式池。
 
-<ItemLink id="spell_engine:spell_book" />
-
-在法术绑定台放入普通书，选择盗贼法术书。它是带有职业配置的法术书，并非独立物品类型。支付界面显示的经验等级，再用青金石和所需书架能量绑定上表招式。将书装备在支持的槽位，手持兼容武器或法器。
-
-- [法术绑定与资源](combat.magic.md) 费用、武器兼容、符文与施法操作。
-- [初次使用招式](combat.abilities.md) 绑定步骤，以及书籍招式与武器招式的区别。
+- [绑定与施法](combat.abilities.md) 职业书制作、费用、装备槽位与施法操作。
+- [符文与武器法术](combat.magic.md) 施法资源与装备自带法术。
 
 ***
 
 ## 职业技能
+<ItemGrid><ItemIcon id="rogues:iron_dagger" /><ItemIcon id="rogues:iron_sickle" /></ItemGrid>
 
-按 <KeyBind id="key.puffish_skills.open" /> 打开技能界面，选择对应职业路线。职业点数与武器点数各自独立，分配前查看互斥根节点。更换装备不会返还点数。
+按 <KeyBind id="key.puffish_skills.open" /> 查找下列职业路线与武器路线。
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 盗贼之路 | <ItemLink id="rogues:iron_dagger" /> |
 
+- [战士](class.warrior.md)
+
 ### 武器路线
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 匕首专精 | <ItemLink id="rogues:iron_dagger" /> |
 | 镰刀专精 | <ItemLink id="rogues:iron_sickle" /> |
 
-- [技能成长](combat.skills.md)
-
+- [技能成长](combat.skills.md) 点数分类、相连节点、互斥路线与重置。更换装备不会返还点数。
 
 ***
 
@@ -94,48 +119,27 @@ item_ids:
 
 <EmiSearch query="@rogues" />
 
-匕首与镰刀属于游侠武器，双刃斧与战刃属于战士武器。比较伤害、攻速与武器招式，不要将它们视为外观不同的同一把武器。
+本页列出盗贼使用的匕首与镰刀。选择时比较伤害、攻速与武器招式。
 
 ### 武器
 
-<ItemGrid>
-  <ItemIcon id="rogues:flint_dagger" />
-  <ItemIcon id="rogues:iron_dagger" />
-  <ItemIcon id="rogues:golden_dagger" />
-  <ItemIcon id="rogues:diamond_dagger" />
-  <ItemIcon id="rogues:netherite_dagger" />
-  <ItemIcon id="rogues:iron_sickle" />
-  <ItemIcon id="rogues:golden_sickle" />
-  <ItemIcon id="rogues:diamond_sickle" />
-  <ItemIcon id="rogues:netherite_sickle" />
-</ItemGrid>
-
-| 物品 | 用途 |
-| --- | --- |
-| <ItemLink id="rogues:flint_dagger" /> | 近战武器或法器 |
-| <ItemLink id="rogues:iron_dagger" /> | 近战武器或法器 |
-| <ItemLink id="rogues:golden_dagger" /> | 近战武器或法器 |
-| <ItemLink id="rogues:diamond_dagger" /> | 近战武器或法器 |
-| <ItemLink id="rogues:netherite_dagger" /> | 近战武器或法器 |
-| <ItemLink id="rogues:iron_sickle" /> | 近战武器或法器 |
-| <ItemLink id="rogues:golden_sickle" /> | 近战武器或法器 |
-| <ItemLink id="rogues:diamond_sickle" /> | 近战武器或法器 |
-| <ItemLink id="rogues:netherite_sickle" /> | 近战武器或法器 |
+| 分类 | 物品 | 定位 |
+| --- | --- | --- |
+| <ItemLink id="rogues:flint_dagger" /> | <ItemGrid><ItemIcon id="rogues:flint_dagger" /><ItemIcon id="rogues:iron_dagger" /><ItemIcon id="rogues:golden_dagger" /><ItemIcon id="rogues:diamond_dagger" /><ItemIcon id="rogues:netherite_dagger" /></ItemGrid> | 快速武器，适合与另一把快速武器搭配 |
+| <ItemLink id="rogues:iron_sickle" /> | <ItemGrid><ItemIcon id="rogues:iron_sickle" /><ItemIcon id="rogues:golden_sickle" /><ItemIcon id="rogues:diamond_sickle" /><ItemIcon id="rogues:netherite_sickle" /></ItemGrid> | 快速武器，适合与另一把快速武器搭配 |
 
 ### 护甲套装
 
-每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
-
-| 头部 | 胸部 | 腿部 | 足部 |
-| --- | --- | --- | --- |
-| <ItemLink id="rogues:rogue_armor_head" /> | <ItemLink id="rogues:rogue_armor_chest" /> | <ItemLink id="rogues:rogue_armor_legs" /> | <ItemLink id="rogues:rogue_armor_feet" /> |
-| <ItemLink id="rogues:assassin_armor_head" /> | <ItemLink id="rogues:assassin_armor_chest" /> | <ItemLink id="rogues:assassin_armor_legs" /> | <ItemLink id="rogues:assassin_armor_feet" /> |
-| <ItemLink id="rogues:netherite_assassin_armor_head" /> | <ItemLink id="rogues:netherite_assassin_armor_chest" /> | <ItemLink id="rogues:netherite_assassin_armor_legs" /> | <ItemLink id="rogues:netherite_assassin_armor_feet" /> |
+| 套装参考，以胸甲名称标识 | 部件，依次为头、胸、腿、足 |
+| --- | --- |
+| <ItemLink id="rogues:rogue_armor_chest" /> | <ItemGrid><ItemIcon id="rogues:rogue_armor_head" /><ItemIcon id="rogues:rogue_armor_chest" /><ItemIcon id="rogues:rogue_armor_legs" /><ItemIcon id="rogues:rogue_armor_feet" /></ItemGrid> |
+| <ItemLink id="rogues:assassin_armor_chest" /> | <ItemGrid><ItemIcon id="rogues:assassin_armor_head" /><ItemIcon id="rogues:assassin_armor_chest" /><ItemIcon id="rogues:assassin_armor_legs" /><ItemIcon id="rogues:assassin_armor_feet" /></ItemGrid> |
+| <ItemLink id="rogues:netherite_assassin_armor_chest" /> | <ItemGrid><ItemIcon id="rogues:netherite_assassin_armor_head" /><ItemIcon id="rogues:netherite_assassin_armor_chest" /><ItemIcon id="rogues:netherite_assassin_armor_legs" /><ItemIcon id="rogues:netherite_assassin_armor_feet" /></ItemGrid> |
 
 ***
 
 ## 通用装备
 
-- [武器与护甲](equipment.weapons-armor.md)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>- [武器与护甲](equipment.weapons-armor.md)
 - [饰品](equipment.accessories.md)
 - [战斗操作](combat.handling.md)

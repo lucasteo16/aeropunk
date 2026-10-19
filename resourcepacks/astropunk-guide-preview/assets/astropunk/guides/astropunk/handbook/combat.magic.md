@@ -4,75 +4,37 @@ navigation:
   position: 6
   parent: reference.skills.md
   icon: minecraft:blaze_rod
-item_ids:
-  - spell_engine:spell_binding
-  - spell_engine:spell_book
-  - spell_engine:spell_scroll
 ---
 
 # Magic & support classes
 
-## Magic & support classes
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+Runes+rune+pouch+Wizards+casting+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+Runes+%E7%AC%A6%E6%96%87%E8%A2%8B+%E6%B3%95%E5%B8%88+%E6%96%BD%E6%B3%95+%E6%95%99%E7%A8%8B)
+
+## Spellcasters & support
+
+| Class | Playstyle |
+| --- | --- |
+| [Arcane Wizard](class.arcane.md) | Arcane projectiles and beams. |
+| [Fire Wizard](class.fire.md) | Fire attacks and persistent burning areas. |
+| [Frost Wizard](class.frost.md) | Frost attacks and protection. |
+| [Aqua Wizard](class.aqua.md) | Water damage and healing areas. |
+| [Terra Wizard](class.terra.md) | Earth attacks and protective ground effects. |
+| [Wind Wizard](class.wind.md) | Air attacks and tornado areas. |
+| [Paladin](class.paladin.md) | Melee, healing and protection. |
+| [Priest](class.priest.md) | Healing beams and group protection. |
+| [Bard](class.bard.md) | Instrument attacks and support songs. |
+| [Witcher](class.witcher.md) | Sword techniques and control or protection signs. |
+
+Each class article contains its starter recipe, books, complete class-book ability list and equipment. Witcher Fencing and Signs are separate books within the same class.
+
+- [Spells & abilities](combat.abilities.md) Shared binding procedure, scrolls and casting controls.
+- [Character skills](combat.skills.md) Separate class and weapon point budgets.
 
 ![Arcane casting with a staff](images/visual-arcane-casting.png)
-
-Arcane casting with a staff
-
-Choose a class for its role, starter recipe, books, full ability list, skills and equipment.
-
-- [Arcane Wizard](class.arcane.md)
-- [Fire Wizard](class.fire.md)
-- [Frost Wizard](class.frost.md)
-- [Aqua Wizard](class.aqua.md)
-- [Terra Wizard](class.terra.md)
-- [Wind Wizard](class.wind.md)
-- [Paladin](class.paladin.md)
-- [Priest](class.priest.md)
-- [Bard](class.bard.md)
-- [Witcher](class.witcher.md)
-
-***
-
-## Spell binding
-
-<EmiSearch query="@spell_engine" />
-
-<ItemGrid>
-  <ItemIcon id="spell_engine:spell_binding" />
-  <ItemIcon id="minecraft:book" />
-  <ItemIcon id="minecraft:lapis_lazuli" />
-  <ItemIcon id="minecraft:bookshelf" />
-  <ItemIcon id="spell_engine:spell_book" />
-  <ItemIcon id="spell_engine:spell_scroll" />
-</ItemGrid>
-
-<ItemLink id="spell_engine:spell_binding" />
-
-<Recipe id="spell_engine:spell_binding_table" />
-
-1. Put a normal book in the table and select a class spell book. Book creation spends experience levels.
-
-2. Put that spell book in the table and choose abilities from its pool. Meet the displayed level requirement, level cost, lapis cost and bookshelf power requirement. Tier conflicts or a slot limit can block a choice.
-
-3. Equip the configured book in its supported spell-book slot and hold a compatible weapon or focus. The held item filters the spells you can use.
-
-Books carry learned abilities. A skill-tree point improves a build but is not a substitute for spell binding. Scroll application is a separate table mode with its own requirements. The class books are configured versions of <ItemLink id="spell_engine:spell_book" />, not separately registered item identifiers.
-
-***
-
-## Casting requirements
-
-<EmiSearch query="@runes" />
-
-Read each spell tooltip for school, target, casting time, resource cost and cooldown. Keep any required runes or ammunition available. A spell assigned to a book can still be unavailable with an incompatible weapon.
-
-Set spell-hotbar controls in Key Binds. The current first action is <KeyBind id="keybindings.spell_engine.spell_hotbar_1" />. The casting bar shows when a cast is still in progress.
 
 ***
 
 ## Weapon spells & songs
-
-<EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:staff_arcane" />
@@ -82,17 +44,31 @@ Set spell-hotbar controls in Key Binds. The current first action is <KeyBind id=
   <ItemIcon id="bards_rpg:diamond_lyre" />
 </ItemGrid>
 
-Wands, staves and instruments can carry active weapon spells without learning them from a class book. Arcane, fire, frost, water, earth and air focuses have school-specific attacks. Holy focuses support healing spells. Named Bard instruments carry different songs. Inspect the held item tooltip for its full set and casting conditions. These families are separate from the complete class-book lists above.
+Wands, staves and instruments can carry active weapon spells without learning them from a class book. Arcane, fire, frost, water, earth and air focuses have school-specific attacks. Holy focuses support healing spells. Named Bard instruments carry different songs. Inspect the held item tooltip for its full set and casting conditions. Class articles separately catalog the abilities learned through books.
 
 ***
 
 ## Runes & pouches
 
+Items are grouped by role or matching attributes. Hover an item for its name, values and slot requirements.
+
+Rune crafting workstation
+
 <ItemGrid>
   <ItemIcon id="runes:crafting_altar" />
+</ItemGrid>
+
+Equipped rune storage
+
+<ItemGrid>
   <ItemIcon id="runes:small_rune_pouch" />
   <ItemIcon id="runes:medium_rune_pouch" />
   <ItemIcon id="runes:large_rune_pouch" />
+</ItemGrid>
+
+Casting resource
+
+<ItemGrid>
   <ItemIcon id="runes:arcane_stone" />
   <ItemIcon id="runes:fire_stone" />
   <ItemIcon id="runes:frost_stone" />
@@ -101,23 +77,16 @@ Wands, staves and instruments can carry active weapon spells without learning th
   <ItemIcon id="runes:soul_stone" />
 </ItemGrid>
 
-| Item | Role |
-| --- | --- |
-| <ItemLink id="runes:crafting_altar" /> | Rune crafting workstation |
-| <ItemLink id="runes:small_rune_pouch" /> | Equipped rune storage |
-| <ItemLink id="runes:medium_rune_pouch" /> | Equipped rune storage |
-| <ItemLink id="runes:large_rune_pouch" /> | Equipped rune storage |
-| <ItemLink id="runes:arcane_stone" /> | Casting resource |
-| <ItemLink id="runes:fire_stone" /> | Casting resource |
-| <ItemLink id="runes:frost_stone" /> | Casting resource |
-| <ItemLink id="runes:healing_stone" /> | Casting resource |
-| <ItemLink id="runes:lightning_stone" /> | Casting resource |
-| <ItemLink id="runes:soul_stone" /> | Casting resource |
+Runes are ammunition, not a way to learn spells. Read the selected spell's cost before crafting a supply. Only spells with a rune cost consume them. A pouch saves carrying space but does not create runes or remove their cost.
 
-Runes are consumed only where the spell requires them. The equipped pouch supplies stored runes. The Rune Crafting Altar offers a separate rune-crafting interface. Bundle API is present, enabling the pouch recipes in this selection.
+1. Start with the rune named by your spell. For a Fire starter, combine a suitable stone base with coal using the shapeless recipe. This makes 2 Fire Runes. Use the recipe browser for other schools and alternative ingredients.
+2. When you have a Rune Crafting Altar, open it and put the stone base and matching reagent into its two ingredient slots. Take the rune output. The same coal recipe makes 8 Fire Runes here, so the altar improves supply without being required for the first cast.
+3. Make a Rune Pouch using the recipe below. In the inventory, hold the pouch on the cursor and right-click a rune stack to load it. Inspect the pouch contents, then place it in the supported quiver accessory slot. Casting can draw the required rune from an equipped pouch.
+4. Test one affordable spell with a valid target before leaving base. If the game reports a missing rune, check the exact rune type and quantity, the pouch contents and whether the pouch is equipped. Loose runes in your inventory are also a starting option.
+
+Lightning and Soul Runes are catalog entries, not supplies you must collect for every caster. Follow the cost of the spell you actually use. Rune-pouch recipes require Bundle API, which this selection includes.
 
 <Recipe id="runes:pouch/small_rune_pouch" />
-
 
 ***
 

@@ -1,33 +1,26 @@
 ---
 navigation:
-  title: "阅读护甲与状态信息"
+  title: "护甲与状态"
   position: 4
   parent: reference.skills.md
   icon: minecraft:potion
 ---
 
-# 阅读护甲与状态信息
+# 护甲与状态
 
-## 护甲与效果显示
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Detail+Armor+Bar+Reconstructed+Status+Effect+Bars+Reforged+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Detail+Armor+Bar+Reconstructed+Status+Effect+Bars+Reforged+%E6%8A%A4%E7%94%B2+%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C+%E6%98%BE%E7%A4%BA+%E6%95%99%E7%A8%8B)
 
-<ItemGrid>
-  <ItemIcon id="minecraft:iron_chestplate" />
-  <ItemIcon id="minecraft:diamond_chestplate" />
-  <ItemIcon id="minecraft:potion" />
-</ItemGrid>
+## 显示内容
 
-Detail Armor Bar Reconstructed 让护甲防护更易读。Status Effect Bars Reforged 显示效果剩余时间，Stylish Effects 改变效果的展示方式。这些显示不会增加装备槽或战斗增益。
+<ItemGrid><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="minecraft:potion" /></ItemGrid>
 
-***
+| 显示模组 | 提供的信息 |
+| --- | --- |
+| Detail Armor Bar Reconstructed | 在护甲条中显示更多防护信息。 |
+| Status Effect Bars Reforged | 状态效果的剩余时间。 |
+| Stylish Effects | 紧凑、可调整的状态效果布局。 |
 
-## 查看构筑
-
-装备提示显示物品装备期间的属性，效果时长显示临时增益。再按构筑实际使用的法术学派与触发条件比较。
-
-- [武器与护甲](equipment.weapons-armor.md) 选择武器类型，比较当前支持的各个变体。
-- [饰品](equipment.accessories.md) 将珠宝与遗物装入适用的饰品槽。
-- [技能成长](combat.skills.md) 在相连分支中分配职业与武器技能点。
-
+这些模组只负责显示信息，不会增加装备槽或战斗增益。
 
 ***
 
