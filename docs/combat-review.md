@@ -1,10 +1,10 @@
-# Combat comparison review
+# Combat rebuild record
 
 ## Scope
 
-The revision covers 28 topics in English and Simplified Chinese, including 18 class articles. Work is isolated on `feature/combat-guide-review`, based on development commit `9fed11b0bfe78b784c848fce1e9e70283f91b2ea`. Development, stable branches, worlds and installed instances are unchanged.
+The revision covers 28 topics in English and Simplified Chinese, including 18 class articles. The work began on `feature/combat-guide-review` from development commit `9fed11b0bfe78b784c848fce1e9e70283f91b2ea` and is now merged into development, main, both editions and the administrative branches. No played world or installed instance was modified.
 
-The 56 original localized pages were frozen before editing. Their hashes match the Combat pages in the selected Astropunk 0.17.0 installation. The comparison preserves those pages under Combat (old), with only navigation labels, parent references, internal Combat links and contextual item associations adjusted for coexistence.
+The 56 original localized pages were frozen before editing and their hashes matched the Combat pages in the selected Astropunk 0.17.0 installation, which made the comparison meaningful. That frozen copy existed only in the review overlay and is not part of the guide.
 
 ## Changes
 
@@ -15,7 +15,11 @@ The 56 original localized pages were frozen before editing. Their hashes match t
 - Every revised page offers English and Chinese YouTube searches beside one decorative play icon. Searches use contextual terms and Minecraft 1.21.1. They do not guarantee the language or accuracy of search results.
 - Existing instructional images and recipes remain. No decorative scene was added merely to increase the visual count.
 
-## Comparison pack
+## Status
+
+The rebuilt Combat section replaced the old section on every branch. The Combat and Combat (old) overlay was a review aid only and is retired; no old tree remains in the guide. In-game rendering of the example outfits and the table widths were reviewed by the pack maintainer before acceptance.
+
+## Review package
 
 Second pass: six further topics were rewritten for playable guidance and presentation.
 
