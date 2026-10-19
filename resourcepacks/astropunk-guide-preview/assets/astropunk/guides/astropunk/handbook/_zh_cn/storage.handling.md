@@ -14,7 +14,7 @@ navigation:
 
 打开任何受支持的容器，使用它的搜索栏与排序按钮。Sophisticated Inventory Interactions 在受支持的界面里加入搜索、玩家物品栏排序、容器排序与转移控制。
 
-<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
+<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
 
 | 界面操作 | 省掉什么 |
 | --- | --- |
@@ -31,7 +31,7 @@ navigation:
 
 <EmiSearch query="@interactic" />
 
-<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
+<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
 
 | 设置 | 影响 |
 | --- | --- |
