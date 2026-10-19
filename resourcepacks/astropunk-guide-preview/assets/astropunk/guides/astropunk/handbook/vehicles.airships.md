@@ -8,7 +8,7 @@ navigation:
 
 # Airships
 
-## Lift & envelopes
+## Lift from a sealed volume
 
 <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
 
@@ -16,65 +16,53 @@ navigation:
 
 Airships with different hulls and lift arrangements
 
-<ItemGrid>
-  <ItemIcon id="aeronautics:white_envelope" />
-  <ItemIcon id="aeronautics:adjustable_burner" />
-  <ItemIcon id="aeronautics:white_envelope_encased_shaft" />
-  <ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" />
-  <ItemIcon id="ballastmod:ballast_stones" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="aeronautics:white_envelope" /><ItemIcon id="aeronautics:adjustable_burner" /><ItemIcon id="aeronautics:steam_vent" /><ItemIcon id="aeronautics:levitite" /><ItemIcon id="aeronautics:levitite_blend" /><ItemIcon id="ballastmod:ballast_stones" /><ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" /><ItemIcon id="aeronautics:white_envelope_encased_shaft" /><ItemIcon id="simulated:white_symmetric_sail" /></ItemGrid>
 
-| Shown items |
-| --- |
-| <ItemLink id="aeronautics:white_envelope" /> |
-| <ItemLink id="aeronautics:adjustable_burner" /> |
-| <ItemLink id="aeronautics:white_envelope_encased_shaft" /> |
-| <ItemLink id="aeroencasedpipe:white_envelope_encased_pipe" /> |
-| <ItemLink id="ballastmod:ballast_stones" /> |
+An <ItemLink id="aeronautics:white_envelope" /> does not lift by itself. Envelope blocks form the skin, and the enclosed air blocks fill with hot air. The pack gives hot air 1.5 kilograms of lift per cubic metre, so a balloon's lift is its trapped volume, not its block count.
 
-Hot Air Envelopes and Hot Air Burners form the buoyancy family. Envelopes, envelope encased shafts and addon envelope encased fluid pipes come in sixteen dye colors. Ballast Stones gain mass with each added layer, up to eight layers.
+Three rules decide whether a balloon works.
 
-### First envelope
+1. The skin must be airtight. Envelope blocks, envelope encased shafts and the encased fluid pipes all count.
+2. Air fills from the top down. A hole in the third layer of a five layer balloon leaves only the top two layers filled.
+3. Anything built inside the balloon reduces the trapped volume. Keep masts, pipes and walkways outside the skin.
+
+Dye an envelope by using dye on it. Using the same colour again spreads the dye to the neighbouring envelopes, which is the quick way to paint a whole balloon.
+
+<Recipe id="aeronautics:adjustable_burner" />
+## Burner and vent
 
 <Recipe id="aeronautics:white_envelope" />
 
-Two white wool and two sticks make four <ItemLink id="aeronautics:white_envelope" />.
+A <ItemLink id="aeronautics:adjustable_burner" /> sits under the balloon and fills it with hot air when it has a redstone signal. Its input panel sets the maximum output, capped at 500 in this pack, and the redstone strength scales that output down proportionally. Several burners combine into one balloon, which is how large hulls get a usable climb rate.
 
-### Hot air burner
+The burner searches up to 80 blocks for its balloon, so a burner in the gondola can feed an envelope above the deck. A <ItemLink id="aeronautics:steam_vent" /> is the steam alternative, with a cap of 5000, and it does not need a fire.
 
-<Recipe id="aeronautics:adjustable_burner" />
+Lift falls as air pressure falls. The balloon does not keep climbing at the same rate, and the <ItemLink id="simulated:altitude_sensor" /> is the instrument that reads both air pressure and exact height.
 
-Craft <ItemLink id="aeronautics:adjustable_burner" /> for the hot-air envelope system. Use the envelope and burner Ponder entries for the working arrangement.
+## Levitite
 
-***
+<ItemGrid><ItemIcon id="aeronautics:andesite_propeller" /><ItemIcon id="aeronautics:smart_propeller" /></ItemGrid>
 
-## Propellers & sails
+<ItemLink id="aeronautics:levitite" /> is the third lift source. It provides a fixed anti-gravity force and a drag that is strong at low speed and weak at high speed. Levitite alone can hold a body up but cannot make it climb, so it is used to carry a heavy hull that a propeller then moves. Curing <ItemLink id="aeronautics:levitite_blend" /> with fire, a blaze burner or a campfire turns the fluid into Levitite, and the cured block cannot be collected again. Clay used as a mould is destroyed during curing.
 
-<ItemGrid>
-  <ItemIcon id="aeronautics:propeller_bearing" />
-  <ItemIcon id="aeronautics:gyroscopic_propeller_bearing" />
-  <ItemIcon id="aeronautics:wooden_propeller" />
-  <ItemIcon id="aeronautics:andesite_propeller" />
-  <ItemIcon id="aeronautics:smart_propeller" />
-  <ItemIcon id="simulated:white_symmetric_sail" />
-</ItemGrid>
+| Lift source | Gives | Limit in this pack |
+| --- | --- | --- |
+| Hot air envelope | Lift from trapped volume | 1.5 kilograms per cubic metre, burner output 500 |
+| Steam vent | The same lift from steam | Output 5000, no fire needed |
+| Levitite | Fixed lift with low-speed drag | Cannot climb on its own |
+| Ballast stones | Removes lift by adding mass | Eight layers |
 
-| Shown items |
-| --- |
-| <ItemLink id="aeronautics:propeller_bearing" /> |
-| <ItemLink id="aeronautics:gyroscopic_propeller_bearing" /> |
-| <ItemLink id="aeronautics:wooden_propeller" /> |
-| <ItemLink id="aeronautics:andesite_propeller" /> |
-| <ItemLink id="aeronautics:smart_propeller" /> |
-| <ItemLink id="simulated:white_symmetric_sail" /> |
+## Trim and thrust
 
-Wooden, Andesite and Smart Propellers have dedicated bearings. Symmetric sails provide another aerodynamic family. Getting started: assemble a supported hull, then use the envelope, burner and propeller Ponder entries to plan lift and thrust. Decorative volume alone does not provide lift.
+<ItemGrid><ItemIcon id="aeronautics:propeller_bearing" /><ItemIcon id="aeronautics:gyroscopic_propeller_bearing" /><ItemIcon id="aeronautics:wooden_propeller" /></ItemGrid>
 
-***
+<ItemLink id="ballastmod:ballast_stones" /> gain mass with each added layer, up to eight. Use them to set the resting height so the balloon holds a level instead of porpoising between climb and stall.
 
-## Ship orientation
+Forward motion comes from a propeller. A <ItemLink id="aeronautics:propeller_bearing" /> turns any sail structure of at least two sail blocks, and more sails mean more thrust. Reverse the rotation to reverse the thrust. An upside down <ItemLink id="aeronautics:gyroscopic_propeller_bearing" /> stabilises a top-heavy hull, and a redstone signal resets its tilt to zero.
 
-Aeronautics Camera Sync tilts the viewpoint with a sloping ship deck. Aeronautics Player Tilt aligns the player body with the ship. Camera tilt and body tilt are separate controls. Neither steers the ship.
+## Camera and body tilt
+
+Aeronautics Camera Sync tilts the view with a sloping deck, and Aeronautics Player Tilt turns the body with it. Neither steers the ship.
 
 | Action | Your key | Default |
 | --- | --- | --- |
@@ -82,12 +70,6 @@ Aeronautics Camera Sync tilts the viewpoint with a sloping ship deck. Aeronautic
 | Toggle player tilt | <KeyBind id="key.aero_player_tilt.toggle" /> | O |
 | Camera settings | <KeyBind id="key.aero_cam_sync.open_config" /> | Unbound |
 | Player tilt settings | <KeyBind id="key.aero_player_tilt.open_config" /> | Unbound |
-
-Assign settings shortcuts in Options, Controls, then Key Binds. Check conflicts before using the default keys. If deck tilt makes aiming uncomfortable, adjust camera and body tilt separately in their settings.
-
-## Related topics
-
-- [Browse recipe](help.search.md)
 
 
 ***

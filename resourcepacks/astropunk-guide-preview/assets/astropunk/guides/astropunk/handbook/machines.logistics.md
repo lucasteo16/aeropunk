@@ -8,87 +8,94 @@ navigation:
 
 # Item routing
 
-## Items & fluids
+## One clean line
 
-<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
-![Package Accelerators beside conveyors](images/visual-package-routing.png)
+A belt carries items between a container and a machine. An <ItemLink id="create:andesite_funnel" /> picks items up from the container and drops them onto the belt, and a second funnel at the far end moves them into the machine.
 
-Package Accelerators beside conveyors
-
-<ItemGrid>
-  <ItemIcon id="create:belt_connector" />
-  <ItemIcon id="create:andesite_funnel" />
-  <ItemIcon id="create:brass_funnel" />
-  <ItemIcon id="create:brass_tunnel" />
-  <ItemIcon id="create:chute" />
-  <ItemIcon id="create_connected:brass_chute" />
-  <ItemIcon id="create:mechanical_arm" />
-  <ItemIcon id="create:fluid_pipe" />
-  <ItemIcon id="create:mechanical_pump" />
-  <ItemIcon id="create:smart_fluid_pipe" />
-</ItemGrid>
-
-| Items & families | Use |
-| --- | --- |
-| <ItemLink id="create:belt_connector" />, <ItemLink id="create:andesite_funnel" />, <ItemLink id="create:brass_funnel" />, <ItemLink id="create:brass_tunnel" /> | Create belts, funnels and tunnels route items. Brass components add filtering. |
-| <ItemLink id="create:chute" />, <ItemLink id="create_connected:brass_chute" />, <ItemLink id="create:mechanical_arm" /> | Chutes and mechanical arms connect processing stations. |
-| <ItemLink id="create:fluid_pipe" />, <ItemLink id="create:mechanical_pump" />, <ItemLink id="create:smart_fluid_pipe" /> | Pipes, pumps and filtered fluid routing. |
-
-***
-
-## Packages & requests
-
-<EmiSearch query="@createadditionallogistics" />
-
-<ItemGrid>
-  <ItemIcon id="create:packager" />
-  <ItemIcon id="create:stock_link" />
-  <ItemIcon id="create:redstone_requester" />
-  <ItemIcon id="create:package_frogport" />
-  <ItemIcon id="create:chain_conveyor" />
-  <ItemIcon id="createadditionallogistics:package_accelerator" />
-  <ItemIcon id="createadditionallogistics:package_editor" />
-  <ItemIcon id="createadditionallogistics:cash_register" />
-  <ItemIcon id="createadditionallogistics:lazy_shaft" />
-  <ItemIcon id="createadditionallogistics:lazy_cogwheel" />
-  <ItemIcon id="createadditionallogistics:flexible_shaft" />
-</ItemGrid>
-
-| Items & families | Use |
-| --- | --- |
-| <ItemLink id="create:packager" />, <ItemLink id="create:stock_link" />, <ItemLink id="create:redstone_requester" /> | Create packaging, stock networks and redstone requests. |
-| <ItemLink id="create:package_frogport" />, <ItemLink id="create:chain_conveyor" /> | Package transfer through frogports and chain conveyors. |
-| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | Speeds up the packager at a stress cost, edits package addresses by rules and records stock-ticker sales in a ledger. |
-| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | Lazy shafts are more efficient in runs of more than two. Flexible shafts allow wrench-controlled connections on individual sides. |
-
-***
-
-## Getting started
-
-### First item connection
+Start with one input container, one belt and one funnel. Get that running before you plan a factory.
 
 <Recipe id="create:crafting/logistics/andesite_funnel" />
 
-Craft <ItemLink id="create:andesite_funnel" /> to connect a container to item transport. Use Ponder for placement.
+<ItemGrid><ItemIcon id="create:belt_connector" /><ItemIcon id="create:andesite_funnel" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:chute" /></ItemGrid>
 
-Connect one input container and one output container to a belt or chute before adding a stock network. Ponder covers the Create components. Additional Logistics also includes a Sales Ledger and Train Network Monitor Peripheral. The peripheral is a computer integration, not a standalone stock screen.
+| Part | Limit in this pack |
+| --- | --- |
+| Mechanical belt | 20 blocks maximum length |
+| Andesite funnel | Extracts once every 8 game ticks |
+| Brass funnel | Same rate, with filtering and a count |
+| Chute | Vertical drop, no rotation needed |
 
-## Related items
+The expected result is items moving without anyone opening a chest. If the belt moves but nothing arrives, the funnel is facing the wrong way, since one side extracts and the other inserts.
 
-<ItemGrid>
-  <ItemIcon id="createadditionallogistics:sales_ledger" />
-  <ItemIcon id="createadditionallogistics:network_monitor" />
-</ItemGrid>
+***
 
-| Shown items |
-| --- |
-| <ItemLink id="createadditionallogistics:sales_ledger" /> |
-| <ItemLink id="createadditionallogistics:network_monitor" /> |
+## Filters decide what moves
 
-## Related topics
+A <ItemLink id="create:brass_funnel" /> takes a filter in its settings and moves only matching items. A <ItemLink id="create:brass_tunnel" /> splits one stream across several outputs according to its filters.
 
-- [Browse recipe](help.search.md)
+<ItemGrid><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:brass_tunnel" /><ItemIcon id="create:mechanical_arm" /><ItemIcon id="create:smart_fluid_pipe" /></ItemGrid>
+
+| Part | Useful fact |
+| --- | --- |
+| <ItemLink id="create:brass_funnel" /> | Filter plus a requested count, so a machine gets exactly its input |
+| <ItemLink id="create:brass_tunnel" /> | Distributes every 10 game ticks |
+| <ItemLink id="create:mechanical_arm" /> | Reaches 5 blocks and serves several inputs and outputs from one point |
+| <ItemLink id="create:smart_fluid_pipe" /> | Filters fluids the same way a brass funnel filters items |
+
+A mechanical arm is the answer when one machine needs three ingredients and produces two outputs in a tight space. It has a fixed reach of 5 blocks in this pack, so lay the machines out around it rather than stretching the arm.
+
+***
+
+## Packages move stock, not items
+
+<EmiSearch query="@createadditionallogistics" /> <EmiSearch query="@create_connected" />
+
+Create 6 packaging turns loose items into addressed packages. A <ItemLink id="create:packager" /> packs, a <ItemLink id="create:stock_link" /> reads a container as stock, and a <ItemLink id="create:package_frogport" /> receives a package at the far end.
+
+<ItemGrid><ItemIcon id="create:packager" /><ItemIcon id="create:stock_link" /><ItemIcon id="create:package_frogport" /><ItemIcon id="create:redstone_requester" /><ItemIcon id="create:chain_conveyor" /></ItemGrid>
+
+| Part | Role |
+| --- | --- |
+| <ItemLink id="create:packager" /> | Turns a container of items into a package |
+| <ItemLink id="create:stock_link" /> | Exposes a container to the stock network |
+| <ItemLink id="create:package_frogport" /> | Accepts packages addressed to its address |
+| <ItemLink id="create:chain_conveyor" /> | Carries 20 packages, up to 32 blocks, with 4 connections |
+| <ItemLink id="create:redstone_requester" /> | Requests stock without a factory gauge |
+
+Two settings from Additional Logistics matter once a factory gauge exists. Promise Limits caps how many open promises one gauge may hold, which stops a slow line from being flooded with ingredient packages. Additional Stock lets a restocker request extra above its target instead of topping up by one item at a time.
+
+The mod also supplies a cash register. This pack disables stock tickers in its server configuration, so treat the register as shop furniture rather than a stock market.
+
+| Additional part | Difference |
+| --- | --- |
+| <ItemLink id="createadditionallogistics:package_accelerator" /> | Speeds the packager, at a stress cost |
+| <ItemLink id="createadditionallogistics:package_editor" /> | Rewrites package addresses by rule |
+| <ItemLink id="createadditionallogistics:cash_register" /> | Records shop sales in a ledger |
+| <ItemLink id="createadditionallogistics:sales_ledger" /> | The ledger the register writes to |
+| <ItemLink id="createadditionallogistics:lazy_shaft" /> | Cheaper over runs longer than two blocks |
+| <ItemLink id="createadditionallogistics:lazy_cogwheel" /> | The same saving on a cogwheel |
+| <ItemLink id="createadditionallogistics:flexible_shaft" /> | Wrench set connections on individual sides |
+| <ItemLink id="create_connected:brass_chute" /> | A chute with brass filtering |
+| <ItemLink id="createadditionallogistics:network_monitor" /> | Train network readout, a computer integration rather than a stock screen |
+
+***
+
+## Fluids follow the same rules
+
+<ItemGrid><ItemIcon id="create:fluid_pipe" /><ItemIcon id="create:mechanical_pump" /><ItemIcon id="create:fluid_tank" /><ItemIcon id="create:hose_pulley" /></ItemGrid>
+
+| Part | Limit in this pack |
+| --- | --- |
+| <ItemLink id="create:mechanical_pump" /> | Pushes or pulls 16 blocks on either side |
+| <ItemLink id="create:fluid_tank" /> | 8 buckets per block, up to 32 blocks tall |
+| <ItemLink id="create:hose_pulley" /> | Reaches 128 blocks of fluid |
+| Hose pulley on a large body | A body of 10000 or more source blocks counts as infinite |
+
+The hose pulley is how a lava lake becomes a factory input. Below that 10000 block threshold it simply drains what it finds, so a small pond will empty and stay empty.
+
+The next useful step is storage that a line can fill and empty without a player. [Bulk storage](storage.bulk.md) covers vaults and silos.
 
 
 ***

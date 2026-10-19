@@ -8,51 +8,56 @@ navigation:
 
 # 建造列车、轨道与车站
 
-## 轨道与车站
+## 线路、车站与时刻表
 
 <EmiSearch query="@create" />
 
-![使用 Bells & Whistles 配件的列车车体](images/visual-train-fittings.png)
+![装有 Bells & Whistles 配件的列车车体](images/visual-train-fittings.png)
 
-使用 Bells & Whistles 配件的列车车体
+装有 Bells & Whistles 配件的列车车体
 
-<ItemGrid>
-  <ItemIcon id="create:track" />
-  <ItemIcon id="create:railway_casing" />
-  <ItemIcon id="create:track_station" />
-  <ItemIcon id="create:controls" />
-  <ItemIcon id="create:schedule" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="create:track" /><ItemIcon id="create:track_station" /><ItemIcon id="create:controls" /><ItemIcon id="create:schedule" /><ItemIcon id="create:railway_casing" /></ItemGrid>
 
-| 图示物品 |
-| --- |
-| <ItemLink id="create:track" /> |
-| <ItemLink id="create:railway_casing" /> |
-| <ItemLink id="create:track_station" /> |
-| <ItemLink id="create:controls" /> |
-| <ItemLink id="create:schedule" /> |
+Create 列车按顺序需要三样东西。连续的 <ItemLink id="create:track" /> 线路，线路上的一座 <ItemLink id="create:track_station" />，以及要驾驶的车体内部的一块 <ItemLink id="create:controls" />。
 
-机械动力提供轨道、铁路机壳、列车站、列车控制器与时刻表。Steam 'n' Rails 扩展轨道系列、轨距、道岔、信号与列车员设备。列车组装见列车站思索演示，轨距与材质以所选轨道配方为准。
+先铺轨，并确认两端接上。一格缺口就足以让列车停下，弯道上的轨道还需要轮架能跟得上的半径。
 
-### 列车站
+然后把车厢当作普通方块结构造好，把列车控制装在里面。把车站放在轨道旁，命名，再通过车站组装列车。车站才是把方块变成列车的装置，附近没有车站的车厢只是建筑。
+
+<ItemLink id="create:schedule" /> 是时刻表。放进列车，按想要的顺序加入车站并设置条件。没有时刻表的列车只跑一趟就停。
 
 <Recipe id="create:crafting/kinetics/track_station" />
 
-一个列车机壳与一个指南针可制作两个 <ItemLink id="create:track_station" />。列车组装请看车站的思索演示。
-
-### 列车控制器
-
 <Recipe id="create:crafting/kinetics/controls" />
 
-制作 <ItemLink id="create:controls" />，用于列车操控位置。精密构件需要另行制作。
+## 轨道家族
 
-***
+<ItemGrid><ItemIcon id="create:track" /><ItemIcon id="create:track_station" /><ItemIcon id="create:controls" /><ItemIcon id="create:schedule" /></ItemGrid>
 
-## 转向架样式
+Create 提供标准轨道以及配套的车站与控制。Steam 'n' Rails 扩展出更窄和更宽的轨距、道岔、信号与乘务设备。轨距不是装饰。列车在哪种轨道上组装，就属于哪种轨距，道岔也只连接同轨距的轨道。
 
-Blocks & Bogies 提供转向架自定义界面，而非一套独立转向架物品。先选择驱动或承载类型，再选菜单提供的轴数、尺寸与长度。气门传动样式也是界面选项。菜单可切换到 Steam 'n' Rails。轴数、尺寸与样式并非所有组合都能互换。车体装饰见列车配件。
+在铺主线之前，先用打算使用的轨距修一段短测试线。中途换轨距等于重建，而不是调整。
 
-- [列车配件](building.factory.md)
+## 转向架
+
+<ItemGrid><ItemIcon id="create:railway_casing" /></ItemGrid>
+
+Blocks & Bogies 增加的是转向架定制界面，而不是另一套转向架物品。右键已放置的转向架打开界面，先选驱动或承载角色，再选菜单提供的轴数、尺寸与长度。气门机构样式是同一界面里的进一步选择，菜单也可以切到 Steam 'n' Rails 的样式。
+
+| 选项 | 改变 | 保持一致 |
+| --- | --- | --- |
+| 角色 | 转向架驱动还是承载 | 每列车一个驱动转向架 |
+| 轴数 | 接触轨道的轮数 | 与车厢重量匹配 |
+| 尺寸与长度 | 车轮与框架占地 | 与弯道半径匹配 |
+| 气门机构 | 可见运动 | 仅影响外观 |
+
+并非所有组合都能互换。长转向架在急弯上会脱轨，短转向架则能通过，所以要在全线最急的弯道上测试组合。
+
+## 货运与客运
+
+<ItemGrid><ItemIcon id="create:schedule" /><ItemIcon id="create:track_station" /></ItemGrid>
+
+车厢装什么由你决定。座椅、储物与流体罐都是车体内的普通方块，停靠位置由时刻表决定。乘客信息与线路查询见[列车出行](transport.passenger.md)。
 
 
 ***

@@ -13,113 +13,81 @@ item_ids:
 
 # Ore processing
 
-## Shared material outputs
+## What the three stages give you
 
-<EmiSearch query="@createdeco" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
-Almost Unified only unifies the shared andesite alloy plate and zinc plate recipe tags in this pack, preferring Create Deco outputs. It does not unify every metal, platinum or Witcher equipment.
+Raw ore smelts into one ingot. Crushing it first, then washing the crushed ore, returns the same ingot plus experience and a chance of a second material, so the extra machines pay for themselves on the ore you already mine.
 
-Existing items remain visible in the recipe browser, and loot is not unified. Check the resulting recipe and its accepted ingredient before building an exact-item filter. A matching material name does not guarantee that two items satisfy an exact-item recipe.
+Start with a <ItemLink id="create:millstone" />. It needs rotation but no water and no second wheel, which makes it the cheapest way to see the chain work.
 
-***
+<ItemGrid><ItemIcon id="create:millstone" /><ItemIcon id="create:crushing_wheel" /><ItemIcon id="create:encased_fan" /></ItemGrid>
 
-## Processing machines
-
-<ItemGrid>
-  <ItemIcon id="create:millstone" />
-  <ItemIcon id="create:crushing_wheel" />
-  <ItemIcon id="create:encased_fan" />
-</ItemGrid>
-
-| Machine | Processing |
-| --- | --- |
-| <ItemLink id="create:millstone" /> | Milling |
-| <ItemLink id="create:crushing_wheel" /> | Crushing |
-| <ItemLink id="create:encased_fan" /> | Washing with water |
-
-Use Ponder for the machine arrangement and power supply.
-
-***
-
-## Millstone
+| Machine | Rotation needed | What it does |
+| --- | --- | --- |
+| <ItemLink id="create:millstone" /> | Any speed, 4 stress units | Milling, one item at a time |
+| <ItemLink id="create:crushing_wheel" /> | A pair of wheels, 8 stress units each | Crushing, bulk input |
+| <ItemLink id="create:encased_fan" /> | Any speed, 2 stress units | Washing, smoking, blasting, haunting |
 
 <Recipe id="create:crafting/kinetics/millstone" />
 
-***
+A millstone is also the grain machine. Feed it wheat and it returns flour, with seed as a second output.
 
-## Wheat milling
+<ItemGrid><ItemIcon id="minecraft:wheat" /><ItemIcon id="create:millstone" /><ItemIcon id="create:wheat_flour" /><ItemIcon id="minecraft:wheat_seeds" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="minecraft:wheat" />
-  <ItemIcon id="create:millstone" />
-  <ItemIcon id="create:wheat_flour" />
-  <ItemIcon id="minecraft:wheat_seeds" />
-</ItemGrid>
-
-| Shown items |
-| --- |
-| <ItemLink id="minecraft:wheat" /> |
-| <ItemLink id="create:millstone" /> |
-| <ItemLink id="create:wheat_flour" /> |
-| <ItemLink id="minecraft:wheat_seeds" /> |
-
-| Input | Output |
-| --- | --- |
-| One wheat | One wheat flour |
-| Bonus, 25 percent chance | Two more wheat flour |
-| Bonus, 25 percent chance | One wheat seed |
+The result to look for is a machine that keeps turning while items pass through it. If it stalls, the network is overstressed, not the machine broken. [Rotational power](machines.rotation.md) owns the stress budget.
 
 ***
 
-## Iron crushing
+## Crush before you smelt
 
-<ItemGrid>
-  <ItemIcon id="minecraft:raw_iron" />
-  <ItemIcon id="create:crushing_wheel" />
-  <ItemIcon id="create:crushed_raw_iron" />
-  <ItemIcon id="create:experience_nugget" />
-</ItemGrid>
+A <ItemLink id="create:crushing_wheel" /> pair sits opposite each other with a gap between them. Items dropped into the gap are crushed, and the wheels also damage anything that falls in.
 
-| Shown items |
-| --- |
-| <ItemLink id="minecraft:raw_iron" /> |
-| <ItemLink id="create:crushing_wheel" /> |
-| <ItemLink id="create:crushed_raw_iron" /> |
-| <ItemLink id="create:experience_nugget" /> |
+<ItemGrid><ItemIcon id="minecraft:raw_iron" /><ItemIcon id="create:crushed_raw_iron" /><ItemIcon id="create:experience_nugget" /></ItemGrid>
 
-| Input | Output |
-| --- | --- |
-| One raw iron | One crushed raw iron |
-| Bonus, 75 percent chance | One experience nugget |
+| Input | Output | Extra |
+| --- | --- | --- |
+| One raw iron | One crushed iron ore | 75 percent chance of one experience nugget |
+
+Every ore the pack adds has its own crushing entry, and the recipe browser shows the exact row for the ore in your hand. A millstone does the same kind of work for grain, turning wheat into flour.
+
+The experience nugget is the reason to crush even when you do not need the dust. Nuggets thrown into a basin with a mechanical press become experience when you next touch them.
 
 ***
 
-## Iron washing
+## Wash the crushed ore
 
-<ItemGrid>
-  <ItemIcon id="create:crushed_raw_iron" />
-  <ItemIcon id="create:encased_fan" />
-  <ItemIcon id="minecraft:water_bucket" />
-  <ItemIcon id="minecraft:iron_nugget" />
-  <ItemIcon id="minecraft:redstone" />
-</ItemGrid>
+Washing needs air that has passed through water. Put a water source directly in front of the fan face and the items beyond the water, and the fan pushes washed output toward the far side.
 
-| Shown items |
-| --- |
-| <ItemLink id="create:crushed_raw_iron" /> |
-| <ItemLink id="create:encased_fan" /> |
-| <ItemLink id="minecraft:water_bucket" /> |
-| <ItemLink id="minecraft:iron_nugget" /> |
-| <ItemLink id="minecraft:redstone" /> |
+<ItemGrid><ItemIcon id="create:crushed_raw_iron" /><ItemIcon id="create:encased_fan" /><ItemIcon id="minecraft:water_bucket" /><ItemIcon id="minecraft:iron_nugget" /><ItemIcon id="minecraft:redstone" /></ItemGrid>
 
-| Input | Output |
+| Input | Output | Extra |
+| --- | --- | --- |
+| One crushed iron ore | Nine iron nuggets | 75 percent chance of one redstone |
+
+Nine nuggets make one ingot, so washing does not add iron on its own. It adds redstone and it converts the ore into a form that stacks the same way ingots do. The pack sets fan processing at 150 game ticks, which is about seven and a half seconds at full fan speed.
+
+Water is the medium, not an ingredient. The bucket icon stands for the water block, and the fan never drinks it.
+
+***
+
+## When two ores share a name
+
+<EmiSearch query="@createdeco" />
+
+Almost Unified in this pack unifies only the shared andesite alloy plate and zinc plate recipe tags, and it prefers the Create Deco output for them. Everything else keeps the item its own mod registered.
+
+<ItemGrid><ItemIcon id="create:andesite_alloy" /></ItemGrid>
+
+| Situation | What to do |
 | --- | --- |
-| One crushed raw iron | Nine iron nuggets |
-| Bonus, 75 percent chance | One redstone |
+| A recipe names a plate | Read the accepted ingredient in the recipe browser, not the material name |
+| You build an exact item filter | Match the item the recipe actually consumes |
+| Loot or a boss drop looks equivalent | Treat it as a separate item |
 
-Water is the fan's processing medium, not a consumed bucket. Material routing covers moving ingredients and collecting outputs.
+A matching name does not make two items interchangeable in an exact item filter. Check the recipe before you build the filter, and check again after a pack update.
 
-- [Material routing](machines.logistics.md)
+Next step is moving the crushed ore between these machines without carrying it. [Material routing](machines.logistics.md) covers belts, chutes and arms.
 
 
 ***

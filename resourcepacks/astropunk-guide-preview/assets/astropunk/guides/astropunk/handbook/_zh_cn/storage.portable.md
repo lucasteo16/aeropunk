@@ -8,111 +8,74 @@ navigation:
 
 # 携带便携储存装备
 
-## 背包
+## 背包承担工作负载
 
 <EmiSearch query="@sophisticatedbackpacks" />
 
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:backpack" />
-  <ItemIcon id="sophisticatedbackpacks:copper_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:iron_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:gold_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:diamond_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:netherite_backpack" />
-</ItemGrid>
+<ItemLink id="sophisticatedbackpacks:backpack" /> 是穿在身上的箱子。每一级增加储存格与升级槽，取下背包时里面的东西仍然保留。
 
-| 背包等级 | 储存格 | 升级槽 |
+<ItemGrid><ItemIcon id="sophisticatedbackpacks:backpack" /><ItemIcon id="sophisticatedbackpacks:copper_backpack" /><ItemIcon id="sophisticatedbackpacks:iron_backpack" /><ItemIcon id="sophisticatedbackpacks:gold_backpack" /><ItemIcon id="sophisticatedbackpacks:diamond_backpack" /><ItemIcon id="sophisticatedbackpacks:netherite_backpack" /></ItemGrid>
+
+| 等级 | 储存格 | 升级槽 |
 | --- | --- | --- |
-| <ItemLink id="sophisticatedbackpacks:backpack" />（皮革） | 9 | 1 |
+| <ItemLink id="sophisticatedbackpacks:backpack" /> | 9 | 1 |
 | <ItemLink id="sophisticatedbackpacks:copper_backpack" /> | 18 | 1 |
 | <ItemLink id="sophisticatedbackpacks:iron_backpack" /> | 27 | 2 |
 | <ItemLink id="sophisticatedbackpacks:gold_backpack" /> | 36 | 2 |
 | <ItemLink id="sophisticatedbackpacks:diamond_backpack" /> | 45 | 3 |
 | <ItemLink id="sophisticatedbackpacks:netherite_backpack" /> | 54 | 3 |
 
-先用皮革、线和木箱制作背包，再依次升级为铜、铁、金、钻石和下界合金。铁背包必须由铜背包升级。钻石升级还需要潜影壳，下界合金升级保留锻造台、下界合金升级锻造模板和下界合金锭。准确用料请查看配方浏览器。
+皮革背包是第一件。之后每一步都是升级你已经在背的那一只，里面的东西会跟着升级保留。钻石一步需要潜影壳，下界合金一步是锻造升级。
 
-更换前必须清空旧版 Backpacks! 的所有背包。旧背包不会自动转换。
+本包有一条容易踩到的规则。潜影盒，包括加固潜影盒，都不能放进背包。服务端配置把原版与加固潜影盒全部列为背包禁用物品，因此背包不能用来套放潜影储存。
 
 ***
 
-## 实用升级
+## 值得占一个槽的升级
 
 <EmiSearch query="@chipped" /> <EmiSearch query="@create" />
 
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:upgrade_base" />
-  <ItemIcon id="sophisticatedbackpacks:crafting_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:stonecutter_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:tool_swapper_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:refill_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:feeding_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:jukebox_upgrade" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="sophisticatedbackpacks:upgrade_base" /><ItemIcon id="sophisticatedbackpacks:crafting_upgrade" /><ItemIcon id="sophisticatedbackpacks:stonecutter_upgrade" /><ItemIcon id="sophisticatedbackpacks:tool_swapper_upgrade" /><ItemIcon id="sophisticatedbackpacks:refill_upgrade" /><ItemIcon id="sophisticatedbackpacks:feeding_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/glassblower_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/loom_table_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/mason_table_upgrade" /><ItemIcon id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /><ItemIcon id="sophisticatedbackpacks:jukebox_upgrade" /></ItemGrid>
 
-| 升级 | 用途 |
+| 升级 | 省掉什么 |
 | --- | --- |
-| <ItemLink id="sophisticatedbackpacks:crafting_upgrade" /> | 在升级页签中合成。 |
-| <ItemLink id="sophisticatedbackpacks:stonecutter_upgrade" /> | 在升级页签中切石。 |
-| <ItemLink id="sophisticatedbackpacks:tool_swapper_upgrade" /> | 基础工具自动切换。 |
-| <ItemLink id="sophisticatedbackpacks:refill_upgrade" /> | 从背包补充选定的物品堆叠。 |
-| <ItemLink id="sophisticatedbackpacks:feeding_upgrade" /> | 使用背包中的食物自动进食。 |
-| <ItemLink id="sophisticatedbackpacks:jukebox_upgrade" /> | 基础便携唱片播放。 |
-
-升级基件需要 Create 黄铜锭。还可安装以下七种 Chipped 工作台升级。
-
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/glassblower_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/mason_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/loom_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" />
-</ItemGrid>
-
-| Chipped 工作台升级 |
-| --- |
-| <ItemLink id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/glassblower_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/mason_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/loom_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /> |
-
-仅开放以上升级，工具切换、补充、喂食和唱片播放均为基础版。不提供堆叠倍率、便携容器嵌套、自动加工、流体、能量或生物捕获功能。
+| <ItemLink id="sophisticatedbackpacks:crafting_upgrade" /> | 外出的工作台 |
+| <ItemLink id="sophisticatedbackpacks:stonecutter_upgrade" /> | 切石机，用于成形方块 |
+| <ItemLink id="sophisticatedbackpacks:tool_swapper_upgrade" /> | 开物品栏换工具 |
+| <ItemLink id="sophisticatedbackpacks:refill_upgrade" /> | 从背包补满快捷栏那一叠 |
+| <ItemLink id="sophisticatedbackpacks:feeding_upgrade" /> | 战斗中从背包进食 |
 
 <Recipe id="sophisticatedbackpacks:upgrade_base" />
 
 <Recipe id="sophisticatedbackpacks:crafting_upgrade" />
 
-Sophisticated Backpacks Create Integration 用于 Create 原生移动结构。不要据此认定 Sable 载具也兼容。
+升级基底需要黄铜，因此第一件升级出现在 Create 工坊之后，而不是之前。本包还带七个 Chipped 工作站升级，把背包变成便携的植物学家工作台、吹玻璃台、木工台、石匠台、织布机、炼金台或修补台。
+
+堆叠倍率、嵌套便携容器、自动加工、流体储存、能量储存与生物捕捉在这里都不可用。按基础版本规划，不要期待升级版。
 
 ***
 
-## 潜影盒
+## 大批搬运用潜影盒
 
 <EmiSearch query="@reinfshulker" />
 
-<ItemGrid>
-  <ItemIcon id="minecraft:shulker_box" />
-  <ItemIcon id="reinfshulker:copper_shulker_box" />
-  <ItemIcon id="reinfshulker:iron_shulker_box" />
-  <ItemIcon id="reinfshulker:gold_shulker_box" />
-  <ItemIcon id="reinfshulker:diamond_shulker_box" />
-  <ItemIcon id="reinfshulker:netherite_shulker_box" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="reinfshulker:copper_shulker_box" /><ItemIcon id="reinfshulker:iron_shulker_box" /><ItemIcon id="reinfshulker:gold_shulker_box" /><ItemIcon id="reinfshulker:diamond_shulker_box" /><ItemIcon id="reinfshulker:netherite_shulker_box" /></ItemGrid>
 
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="minecraft:shulker_box" /> | 原版便携容器，破坏后保留内容。 |
-| <ItemLink id="reinfshulker:copper_shulker_box" />, <ItemLink id="reinfshulker:iron_shulker_box" /> | Reinforced Shulker Boxes 的铜与铁系列。 |
-| <ItemLink id="reinfshulker:gold_shulker_box" />, <ItemLink id="reinfshulker:diamond_shulker_box" />, <ItemLink id="reinfshulker:netherite_shulker_box" /> | 金、钻石与下界合金系列，各有染色变体。 |
+| 潜影盒 | 格数 | 说明 |
+| --- | --- | --- |
+| 原版潜影盒 | 27 | 破坏后保留内容 |
+| <ItemLink id="reinfshulker:copper_shulker_box" /> | 45 | 第一个加固等级 |
+| <ItemLink id="reinfshulker:iron_shulker_box" /> | 54 | 与双箱相同 |
+| <ItemLink id="reinfshulker:gold_shulker_box" /> | 81 | 三个箱子 |
+| <ItemLink id="reinfshulker:diamond_shulker_box" /> | 108 | 四个箱子 |
+| <ItemLink id="reinfshulker:netherite_shulker_box" /> | 108 | 抗爆炸、火焰与熔岩 |
 
-原版、铜、铁、金、钻石和下界合金潜影盒的容量保持为 27、45、54、81、108 和 108 格。Easy Shulker Boxes 提供受支持容器的物品栏内取用。Shulker Drops Two 默认掉落两个潜影壳，但仍受掉落概率影响，除非另行修改设置。
+加固潜影盒由加固箱子或成形配方制作，下界合金等级是锻造升级。任何等级都能染色，这是给一整面储存墙贴标签最便宜的办法。
 
-- [大宗储存](storage.bulk.md)
+Easy Shulker Boxes 让你直接从物品栏打开受支持的潜影盒，不必放下。本包默认把 Shulker Drops Two 的掉落设为两个壳，因此潜影农场回本更快。
+
+下一步是工厂能自己装满的储存。[大宗储存](storage.bulk.md)说明储物仓与筒仓。
+
 
 ***
 

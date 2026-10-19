@@ -8,70 +8,69 @@ navigation:
 
 # Mounted weapons
 
-## Cannons
+## Cannon assembly
 
-<EmiSearch query="@createbigcannons" /> <EmiSearch query="@create" />
+<EmiSearch query="@createbigcannons" />
 
 ![Cannons mounted on a ship](images/feedback-mounted-cannons.png)
 
 Cannons mounted on a ship
 
-<ItemGrid>
-  <ItemIcon id="createbigcannons:cannon_mount" />
-  <ItemIcon id="createbigcannons:steel_cannon_barrel" />
-  <ItemIcon id="createbigcannons:steel_sliding_breech" />
-  <ItemIcon id="createbigcannons:bronze_autocannon_barrel" />
-  <ItemIcon id="createbigcannons:autocannon_ammo_container" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="createbigcannons:cannon_mount" /><ItemIcon id="createbigcannons:steel_cannon_barrel" /><ItemIcon id="createbigcannons:steel_sliding_breech" /><ItemIcon id="createbigcannons:bronze_autocannon_barrel" /><ItemIcon id="createbigcannons:autocannon_ammo_container" /></ItemGrid>
 
-| Shown items |
-| --- |
-| <ItemLink id="createbigcannons:cannon_mount" /> |
-| <ItemLink id="createbigcannons:steel_cannon_barrel" /> |
-| <ItemLink id="createbigcannons:steel_sliding_breech" /> |
-| <ItemLink id="createbigcannons:bronze_autocannon_barrel" /> |
-| <ItemLink id="createbigcannons:autocannon_ammo_container" /> |
+A large cannon is a barrel, a chamber, a breech and a mount, built in that order. The barrel is the length, the chamber holds the charge, the breech is what you open to load, and the mount is what the whole thing pivots on.
 
-Create Big Cannons supplies large cannon barrels, chambers, ends and breeches, plus autocannon barrels, breeches and recoil springs. Cast iron, bronze, steel and nethersteel families have distinct parts. Cannon Mounts, carriage equipment and ammunition containers support operation. Use cannon Ponder for assembly, loading and firing, not a decorative barrel layout.
+| Family | Parts | Fires |
+| --- | --- | --- |
+| Cast iron | Barrel, chamber, breech | Cheap early guns |
+| Bronze | Barrel, chamber, breech | Autocannon work |
+| Steel | Barrel, sliding breech | Standard ship gun |
+| Nethersteel | Barrel, chamber, breech | The heavy end |
 
-***
+Families do not mix. A steel barrel will not seat a bronze breech, so decide the family before you start casting.
 
-## Ammunition & launchers
+Mount it with the <ItemLink id="createbigcannons:cannon_mount" /> on an assembled body. On a Sable ship the mount is what makes the gun follow the hull, and the recoil is scaled by the pack's potato cannon setting only for that weapon, so a large cannon does not throw the ship the way the potato cannon does.
 
-<EmiSearch query="@aeroengineering" />
+## Loading and firing
 
-<ItemGrid>
-  <ItemIcon id="createbigcannons:ap_shell" />
-  <ItemIcon id="createbigcannons:ap_shot" />
-  <ItemIcon id="createbigcannons:bag_of_grapeshot" />
-  <ItemIcon id="createbigcannons:big_cartridge" />
-  <ItemIcon id="aeroengineering:missile_assembly_station" />
-  <ItemIcon id="aeroengineering:air_to_air_missile" />
-  <ItemIcon id="aeronautics:mounted_potato_cannon" />
-</ItemGrid>
+The load order is powder, then projectile, then close. Open the breech, insert the charge, insert the shell, close the breech, then give the mount a redstone signal to fire. A gun that clicks but does not fire is usually empty, or the breech is still open.
 
-| Shown items |
-| --- |
-| <ItemLink id="createbigcannons:ap_shell" /> |
-| <ItemLink id="createbigcannons:ap_shot" /> |
-| <ItemLink id="createbigcannons:bag_of_grapeshot" /> |
-| <ItemLink id="createbigcannons:big_cartridge" /> |
-| <ItemLink id="aeroengineering:missile_assembly_station" /> |
-| <ItemLink id="aeroengineering:air_to_air_missile" /> |
-| <ItemLink id="aeronautics:mounted_potato_cannon" /> |
-
-Shells, solid shot, grapeshot, cartridges, autocannon rounds and fuzes are separate families. Aero Engineering supplies a Missile Assembly Station and Air-to-Air Missile. Aeronautics supplies the Mounted Potato Cannon. Select matching ammunition and follow the weapon help before firing near buildings.
-
-***
-
-## Crafting
+The <ItemLink id="createbigcannons:autocannon_ammo_container" /> feeds an autocannon a belt of rounds so it can fire repeatedly without reloading each shot. Point it into the feed and load the container instead of the breech.
 
 <Recipe id="createbigcannons:ap_shot" />
 
-## Related topics
+## Ammunition
 
-- [Browse recipe](help.search.md)
+<EmiSearch query="@create_radar" />
 
+<ItemGrid><ItemIcon id="createbigcannons:ap_shell" /><ItemIcon id="createbigcannons:ap_shot" /><ItemIcon id="createbigcannons:bag_of_grapeshot" /><ItemIcon id="createbigcannons:big_cartridge" /><ItemIcon id="create_radar:guided_fuze" /></ItemGrid>
+
+| Round | Job | Target |
+| --- | --- | --- |
+| <ItemLink id="createbigcannons:ap_shell" /> | Pierces armour | Armoured ships and blocks |
+| <ItemLink id="createbigcannons:ap_shot" /> | Solid impact | Structures |
+| <ItemLink id="createbigcannons:bag_of_grapeshot" /> | Spread at short range | Crew and light craft |
+| <ItemLink id="createbigcannons:big_cartridge" /> | Complete charge and round | Fast reloading |
+
+Match the round to the bore. A shell that does not fit the barrel is a shell you cannot load, and the recipe browser shows which family each round belongs to.
+
+## Aircraft weapons
+
+<EmiSearch query="@aeroengineering" />
+
+<ItemGrid><ItemIcon id="aeroengineering:missile_assembly_station" /><ItemIcon id="aeroengineering:air_to_air_missile" /><ItemIcon id="aeronautics:mounted_potato_cannon" /></ItemGrid>
+
+AeroEngine supplies a <ItemLink id="aeroengineering:missile_assembly_station" /> and an <ItemLink id="aeroengineering:air_to_air_missile" />. The missile is fired from the aircraft radar lock, so build the station before you plan an intercept.
+
+The <ItemLink id="aeronautics:mounted_potato_cannon" /> is the light option. Its recoil is a pack setting of 0.2, which is enough to nudge a small hull and not enough to stop a large one.
+
+## Aiming
+
+<ItemGrid><ItemIcon id="create_radar:auto_yaw_controller" /><ItemIcon id="create_radar:auto_pitch_controller" /><ItemIcon id="create_radar:fire_controller" /></ItemGrid>
+
+Point the gun with a yaw and pitch controller from [Radar](vehicles.radar.md), and let the fire controller pull the trigger when the barrel is on target. Firing by hand from a moving deck works, but the shot inherits the ship's motion.
+
+***
 
 ***
 

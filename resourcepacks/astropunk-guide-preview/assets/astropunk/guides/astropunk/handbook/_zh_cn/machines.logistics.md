@@ -8,87 +8,94 @@ navigation:
 
 # 输送、筛选与分配物品
 
-## 物品与流体
+## 先做一条干净的线
 
-<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
-![输送带旁的包裹加速器](images/visual-package-routing.png)
+传送带在容器与机器之间搬运物品。<ItemLink id="create:andesite_funnel" /> 从容器取出物品放到带上，另一端的漏斗把它送进机器。
 
-输送带旁的包裹加速器
-
-<ItemGrid>
-  <ItemIcon id="create:belt_connector" />
-  <ItemIcon id="create:andesite_funnel" />
-  <ItemIcon id="create:brass_funnel" />
-  <ItemIcon id="create:brass_tunnel" />
-  <ItemIcon id="create:chute" />
-  <ItemIcon id="create_connected:brass_chute" />
-  <ItemIcon id="create:mechanical_arm" />
-  <ItemIcon id="create:fluid_pipe" />
-  <ItemIcon id="create:mechanical_pump" />
-  <ItemIcon id="create:smart_fluid_pipe" />
-</ItemGrid>
-
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="create:belt_connector" />, <ItemLink id="create:andesite_funnel" />, <ItemLink id="create:brass_funnel" />, <ItemLink id="create:brass_tunnel" /> | Create 的传送带、漏斗与隧道输送物品，黄铜组件提供过滤。 |
-| <ItemLink id="create:chute" />, <ItemLink id="create_connected:brass_chute" />, <ItemLink id="create:mechanical_arm" /> | 溜槽与机械臂连接加工工位。 |
-| <ItemLink id="create:fluid_pipe" />, <ItemLink id="create:mechanical_pump" />, <ItemLink id="create:smart_fluid_pipe" /> | 管道、泵与过滤流体输送。 |
-
-***
-
-## 包裹与请求
-
-<EmiSearch query="@createadditionallogistics" />
-
-<ItemGrid>
-  <ItemIcon id="create:packager" />
-  <ItemIcon id="create:stock_link" />
-  <ItemIcon id="create:redstone_requester" />
-  <ItemIcon id="create:package_frogport" />
-  <ItemIcon id="create:chain_conveyor" />
-  <ItemIcon id="createadditionallogistics:package_accelerator" />
-  <ItemIcon id="createadditionallogistics:package_editor" />
-  <ItemIcon id="createadditionallogistics:cash_register" />
-  <ItemIcon id="createadditionallogistics:lazy_shaft" />
-  <ItemIcon id="createadditionallogistics:lazy_cogwheel" />
-  <ItemIcon id="createadditionallogistics:flexible_shaft" />
-</ItemGrid>
-
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="create:packager" />, <ItemLink id="create:stock_link" />, <ItemLink id="create:redstone_requester" /> | Create 的打包、库存网络与红石请求组件。 |
-| <ItemLink id="create:package_frogport" />, <ItemLink id="create:chain_conveyor" /> | 通过蛙口与链式输送机转移包裹。 |
-| <ItemLink id="createadditionallogistics:package_accelerator" />, <ItemLink id="createadditionallogistics:package_editor" />, <ItemLink id="createadditionallogistics:cash_register" /> | 以应力消耗换取打包机加速，按规则修改包裹地址，并将库存交易记录到台账。 |
-| <ItemLink id="createadditionallogistics:lazy_shaft" />, <ItemLink id="createadditionallogistics:lazy_cogwheel" />, <ItemLink id="createadditionallogistics:flexible_shaft" /> | 超过两根的连续惰性传动杆可提高效率。柔性传动杆可用扳手逐面控制连接。 |
-
-***
-
-## 初次使用
-
-### 基础物品连接
+先做一个输入容器、一条传送带、一只漏斗。它跑起来之后再去规划工厂。
 
 <Recipe id="create:crafting/logistics/andesite_funnel" />
 
-制作 <ItemLink id="create:andesite_funnel" />，连接容器与物品运输线路。放置方式请看思索演示。
+<ItemGrid><ItemIcon id="create:belt_connector" /><ItemIcon id="create:andesite_funnel" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:chute" /></ItemGrid>
 
-先用传送带或溜槽连接一个输入容器和一个输出容器，再添加库存网络。Create 组件的布局请看思索演示。Additional Logistics 还包含销售账簿与列车网络监视器外设。后者是计算机接口，不是独立库存界面。
+| 部件 | 本包限制 |
+| --- | --- |
+| 机械传送带 | 最长 20 格 |
+| 安山漏斗 | 每 8 游戏刻取出一次 |
+| 黄铜漏斗 | 速率相同，可过滤并指定数量 |
+| 滑槽 | 垂直下落，不需要旋转 |
 
-## 相关物品
+要看到的结果是无人开箱也有物品在移动。如果带在动却没有东西送到，通常是漏斗方向装反了，一面取出，另一面送入。
 
-<ItemGrid>
-  <ItemIcon id="createadditionallogistics:sales_ledger" />
-  <ItemIcon id="createadditionallogistics:network_monitor" />
-</ItemGrid>
+***
 
-| 图示物品 |
-| --- |
-| <ItemLink id="createadditionallogistics:sales_ledger" /> |
-| <ItemLink id="createadditionallogistics:network_monitor" /> |
+## 过滤器决定什么能走
 
-## 相关页面
+<ItemLink id="create:brass_funnel" /> 在设置里放过滤器，只搬运匹配的物品。<ItemLink id="create:brass_tunnel" /> 按过滤器把一路物品分到多个出口。
 
-- [浏览配方](help.search.md)
+<ItemGrid><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:brass_tunnel" /><ItemIcon id="create:mechanical_arm" /><ItemIcon id="create:smart_fluid_pipe" /></ItemGrid>
+
+| 部件 | 有用的事实 |
+| --- | --- |
+| <ItemLink id="create:brass_funnel" /> | 过滤器加指定数量，机器正好拿到该拿的份数 |
+| <ItemLink id="create:brass_tunnel" /> | 每 10 游戏刻分配一次 |
+| <ItemLink id="create:mechanical_arm" /> | 触及 5 格，一个点服务多个输入与输出 |
+| <ItemLink id="create:smart_fluid_pipe" /> | 像黄铜漏斗过滤物品那样过滤流体 |
+
+一台机器要三种原料、出两种产物、空间又紧时，机械臂就是答案。本包里它的触及固定为 5 格，因此要围绕它摆机器，而不是硬拉长手臂。
+
+***
+
+## 包裹搬运的是库存
+
+<EmiSearch query="@createadditionallogistics" /> <EmiSearch query="@create_connected" />
+
+Create 6 的包裹系统把散装物品变成写着地址的包裹。<ItemLink id="create:packager" /> 打包，<ItemLink id="create:stock_link" /> 把容器当作库存读取，<ItemLink id="create:package_frogport" /> 在另一端收包裹。
+
+<ItemGrid><ItemIcon id="create:packager" /><ItemIcon id="create:stock_link" /><ItemIcon id="create:package_frogport" /><ItemIcon id="create:redstone_requester" /><ItemIcon id="create:chain_conveyor" /></ItemGrid>
+
+| 部件 | 作用 |
+| --- | --- |
+| <ItemLink id="create:packager" /> | 把一箱物品打成包裹 |
+| <ItemLink id="create:stock_link" /> | 把容器接入库存网络 |
+| <ItemLink id="create:package_frogport" /> | 接收寄到它地址的包裹 |
+| <ItemLink id="create:chain_conveyor" /> | 运送 20 个包裹，最长 32 格，可有 4 个连接 |
+| <ItemLink id="create:redstone_requester" /> | 不用工厂仪表也能请求库存 |
+
+有了工厂仪表之后，Additional Logistics 的两项设置很关键。承诺上限限制一只仪表同时持有的未完成请求，避免慢线被原料包裹淹没。额外库存让补货仪表在低于目标时多订一批，而不是一次只补一件。
+
+该模组还提供收银机。本包在服务端配置里关闭了股票行情，因此把收银机当作店铺摆设，而不是交易行情工具。
+
+| 附加部件 | 区别 |
+| --- | --- |
+| <ItemLink id="createadditionallogistics:package_accelerator" /> | 加快打包机，代价是应力 |
+| <ItemLink id="createadditionallogistics:package_editor" /> | 按规则改写包裹地址 |
+| <ItemLink id="createadditionallogistics:cash_register" /> | 把店铺销售记入账本 |
+| <ItemLink id="createadditionallogistics:sales_ledger" /> | 收银机写入的账本 |
+| <ItemLink id="createadditionallogistics:lazy_shaft" /> | 超过两格的连线更省材料 |
+| <ItemLink id="createadditionallogistics:lazy_cogwheel" /> | 齿轮上的同样节省 |
+| <ItemLink id="createadditionallogistics:flexible_shaft" /> | 用扳手逐面设置连接 |
+| <ItemLink id="create_connected:brass_chute" /> | 带黄铜过滤的滑槽 |
+| <ItemLink id="createadditionallogistics:network_monitor" /> | 列车网络读数，属于计算机联动而非库存界面 |
+
+***
+
+## 流体遵循同样的规则
+
+<ItemGrid><ItemIcon id="create:fluid_pipe" /><ItemIcon id="create:mechanical_pump" /><ItemIcon id="create:fluid_tank" /><ItemIcon id="create:hose_pulley" /></ItemGrid>
+
+| 部件 | 本包限制 |
+| --- | --- |
+| <ItemLink id="create:mechanical_pump" /> | 两侧各推或抽 16 格 |
+| <ItemLink id="create:fluid_tank" /> | 每格 8 桶，最高 32 格 |
+| <ItemLink id="create:hose_pulley" /> | 触及 128 格流体 |
+| 软管滑轮与大水体 | 一万格以上水源视为无限 |
+
+让熔岩湖变成工厂原料的就是软管滑轮。低于一万格的阈值时，它只会抽干眼前的水体，小池塘抽完就空了。
+
+下一步值得做的是让产线自己装满、自己取空的储存。[大宗储存](storage.bulk.md)说明储物仓与筒仓。
 
 
 ***

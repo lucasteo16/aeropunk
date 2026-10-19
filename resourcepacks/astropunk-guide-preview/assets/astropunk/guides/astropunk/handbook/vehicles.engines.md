@@ -8,113 +8,64 @@ navigation:
 
 # Engines
 
-## Aviation engines
+## Propulsion families
 
-<EmiSearch query="@aeroengineering" />
+<EmiSearch query="@aeroengineering" /> <EmiSearch query="@rocketnautics" /> <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
 
 ![An aircraft engine workshop](images/visual-engine-workshop.png)
 
 An aircraft engine workshop
 
-<ItemGrid>
-  <ItemIcon id="aeroengineering:engine_fan" />
-  <ItemIcon id="aeroengineering:engine_compressor" />
-  <ItemIcon id="aeroengineering:engine_combustor" />
-  <ItemIcon id="aeroengineering:engine_turbine" />
-  <ItemIcon id="aeroengineering:engine_exhaust_cone" />
-  <ItemIcon id="aeroengineering:aviation_kerosene_bucket" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="createpropulsion:thruster" /><ItemIcon id="createpropulsion:vector_thruster" /><ItemIcon id="createpropulsion:solid_fuel_thruster" /><ItemIcon id="createpropulsion:ion_thruster" /><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="aeronautics:propeller_bearing" /></ItemGrid>
 
-| Shown items |
-| --- |
-| <ItemLink id="aeroengineering:engine_fan" /> |
-| <ItemLink id="aeroengineering:engine_compressor" /> |
-| <ItemLink id="aeroengineering:engine_combustor" /> |
-| <ItemLink id="aeroengineering:engine_turbine" /> |
-| <ItemLink id="aeroengineering:engine_exhaust_cone" /> |
-| <ItemLink id="aeroengineering:aviation_kerosene_bucket" /> |
+This pack has four ways to push a body, and they are not interchangeable. Pick the family, then follow that family's own help.
 
-Aero Engineering supplies several turbine-engine families. The basic core uses Fan, Compressor, Combustor, Turbine and Exhaust Cone in that order. It burns Aviation Kerosene. Open the engine Ponder for casing, nozzle, fuel delivery and gearbox placement.
+| Family | Makes movement by | Needs | Fits |
+| --- | --- | --- | --- |
+| Propeller bearing | Rotating a sail structure into air | Rotation and sails | Airships and planes |
+| Create Propulsion thruster | Expelling a fluid or burning solid fuel | Fuel and a signal | Air and space |
+| AeroEngine turbine | Compressing and igniting kerosene | Built core and fuel | Fast aircraft |
+| Rocket thruster | Burning liquid fuel in vacuum | Fuel tank and feed | Orbital launch |
 
-***
+## Create Propulsion thrusters
 
-## Propulsion components
+<ItemGrid><ItemIcon id="createpropulsion:thruster" /><ItemIcon id="createpropulsion:vector_thruster" /><ItemIcon id="createpropulsion:solid_fuel_thruster" /><ItemIcon id="createpropulsion:liquid_vector_thruster" /><ItemIcon id="createpropulsion:ion_thruster" /><ItemIcon id="createpropulsion:stirling_engine" /></ItemGrid>
 
-<EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
+A <ItemLink id="createpropulsion:thruster" /> takes a fluid and a redstone input. The 2x2 and 3x3 forms take more inputs and are built from the same block, so a cluster is a bigger engine rather than a different one.
 
-<ItemGrid>
-  <ItemIcon id="createpropulsion:thruster" />
-  <ItemIcon id="createpropulsion:vector_thruster" />
-  <ItemIcon id="createpropulsion:solid_fuel_thruster" />
-  <ItemIcon id="createpropulsion:liquid_vector_thruster" />
-  <ItemIcon id="createpropulsion:ion_thruster" />
-  <ItemIcon id="createpropulsion:stirling_engine" />
-</ItemGrid>
+A <ItemLink id="createpropulsion:vector_thruster" /> tilts its thrust. Each side except the front and back has a redstone input, and powering a side turns the nozzle towards that side. Signal strength from 0 to 15 sets how far it rotates from centre, which is what a joystick channel feeds. The liquid vector version adds fluid thrust to the same gimbal.
 
-| Shown items |
-| --- |
-| <ItemLink id="createpropulsion:thruster" /> |
-| <ItemLink id="createpropulsion:vector_thruster" /> |
-| <ItemLink id="createpropulsion:solid_fuel_thruster" /> |
-| <ItemLink id="createpropulsion:liquid_vector_thruster" /> |
-| <ItemLink id="createpropulsion:ion_thruster" /> |
-| <ItemLink id="createpropulsion:stirling_engine" /> |
+A <ItemLink id="createpropulsion:solid_fuel_thruster" /> burns solid items loaded from the rear, so it needs no pipe. The <ItemLink id="createpropulsion:ion_thruster" /> takes Forge Energy and redstone and gives low thrust for a long time, which suits station keeping rather than launch.
 
-Create Propulsion provides thrusters with different fuel or power requirements, alongside separate engine and wing families. Creative thrusters are creative equipment. Match each engine to its own recipe and help rather than assuming interchangeable inputs.
+A <ItemLink id="createpropulsion:stirling_engine" /> is the other direction. Heat from below makes it produce rotation, so it powers a propeller or a pump instead of pushing the hull.
 
-***
+## Turbine core
 
-## Materials & fuel
+<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_compressor" /><ItemIcon id="aeroengineering:engine_combustor" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="aeroengineering:engine_exhaust_cone" /><ItemIcon id="aeroengineering:aviation_kerosene_bucket" /><ItemIcon id="aeroengineering:aviation_alloy_ingot" /><ItemIcon id="aeroengineering:aviation_alloy_sheet" /><ItemIcon id="aeroengineering:aviation_blade" /><ItemIcon id="aeroengineering:compressor_component" /><ItemIcon id="aeroengineering:turbine_component" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="aeroengineering:aviation_alloy_ingot" />
-  <ItemIcon id="aeroengineering:aviation_alloy_sheet" />
-  <ItemIcon id="aeroengineering:aviation_blade" />
-  <ItemIcon id="aeroengineering:compressor_component" />
-  <ItemIcon id="aeroengineering:turbine_component" />
-  <ItemIcon id="createpropulsion:platinum_ingot" />
-  <ItemIcon id="createpropulsion:turpentine_bucket" />
-  <ItemIcon id="minecraft:redstone" />
-</ItemGrid>
-
-| Shown items |
-| --- |
-| <ItemLink id="aeroengineering:aviation_alloy_ingot" /> |
-| <ItemLink id="aeroengineering:aviation_alloy_sheet" /> |
-| <ItemLink id="aeroengineering:aviation_blade" /> |
-| <ItemLink id="aeroengineering:compressor_component" /> |
-| <ItemLink id="aeroengineering:turbine_component" /> |
-| <ItemLink id="createpropulsion:platinum_ingot" /> |
-| <ItemLink id="createpropulsion:turpentine_bucket" /> |
-| <ItemLink id="minecraft:redstone" /> |
-
-Aviation materials supply the engine core parts. Create Propulsion has a separate platinum and fuel material family. Its standard Thruster uses Turpentine and redstone, Solid Fuel Thruster burns solid items from the rear, and Ion Thruster needs Forge Energy and redstone. The bucket icon represents the fluid, not a requirement to insert a bucket.
-
-***
-
-## Crafting
+The AeroEngine core stacks in one order, fan, compressor, combustor, turbine, exhaust cone. Build the core, then add the casing, nozzle, fuel feed and gearbox that the engine's own Ponder shows. A core without a fuel feed spins nothing.
 
 <Recipe id="aeroengineering:compressor_component" />
 
-## Related topics
+## Fuel and where it comes from
 
-- [Browse recipe](help.search.md)
+<ItemGrid><ItemIcon id="aeroengineering:aviation_kerosene_bucket" /><ItemIcon id="createpropulsion:turpentine_bucket" /><ItemIcon id="createpropulsion:platinum_ingot" /><ItemIcon id="minecraft:lava_bucket" /><ItemIcon id="minecraft:redstone" /></ItemGrid>
 
+| Fuel or input | Feeds | Supply it by |
+| --- | --- | --- |
+| Aviation Kerosene | AeroEngine turbine | Fluid pipe into the engine feed |
+| Turpentine | Create Propulsion thruster | Fluid pipe or tank |
+| Solid items | Solid Fuel Thruster | Loading the rear |
+| Lava | Rocket thruster | Ship fluid system |
+| Forge Energy and redstone | Ion thruster | Power network and signal |
 
-***
+The bucket icons stand for the fluid. Nothing here asks you to insert a bucket. Kerosene is also produced by Create: The Factory Must Grow, and the fuel compat addon lets AeroEngine accept it, so one oil line can supply both engine families. Refining is covered in [Oil and industry](power.industry.md).
 
-## Shared engine fuel
+## Thrust in this pack
 
-<EmiSearch query="@tfmg" />
+<ItemGrid><ItemIcon id="aeronautics:propeller_bearing" /><ItemIcon id="aeronautics:wooden_propeller" /><ItemIcon id="aeronautics:andesite_propeller" /><ItemIcon id="aeronautics:smart_propeller" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="aeroengineering:aviation_kerosene_bucket" />
-</ItemGrid>
-
-<ItemLink id="aeroengineering:aviation_kerosene_bucket" /> represents the engine's original fuel. AeroEngine fuel compat also lets AeroEngine use kerosene from Create: The Factory Must Grow, Community Edition. Supply the fluid through the engine's fuel system. The addon changes accepted fuel tags, not the energy value of each fuel.
-
-- [Oil & industry](power.industry.md)
-- [Orbital flight](space.vehicle-transfer.md)
+The pack config scales thrust per part, not per family. Propeller bearings produce 0.2 of the reference thrust, while wooden, andesite and smart propellers each sit at 1.0. That is why one large propeller beats several small bearings, and why a bearing with only two sail blocks moves a light hull and stalls a heavy one.
 
 
 ***

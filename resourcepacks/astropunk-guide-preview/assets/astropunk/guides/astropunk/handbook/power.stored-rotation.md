@@ -8,61 +8,58 @@ navigation:
 
 # Stored rotation
 
-## Kinetic reserves
+## A battery for rotation
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
 
-![Spring equipment from Create: Springs](images/visual-spring-storage.png)
+A <ItemLink id="create_connected:kinetic_battery" /> stores rotation as stress and gives it back later. It charges while it has no redstone signal and discharges while powered, which means a lever decides when the reserve runs the line.
 
-Spring equipment from Create: Springs
+<ItemGrid><ItemIcon id="create_connected:kinetic_battery" /><ItemIcon id="create_connected:kinetic_bridge" /><ItemIcon id="create:stressometer" /><ItemIcon id="create:analog_lever" /><ItemIcon id="createsprings:kinetic_interface" /><ItemIcon id="createsprings:portative_steam_engine" /><ItemIcon id="createsprings:punchcard" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="create_connected:kinetic_battery" />
-  <ItemIcon id="createsprings:spring" />
-  <ItemIcon id="createsprings:large_spring_coil" />
-  <ItemIcon id="createsprings:friction_welder" />
-  <ItemIcon id="createsprings:unfinished_spring" />
-  <ItemIcon id="createsprings:spring_alloy" />
-</ItemGrid>
-
-| Items & families | Use |
+| Part | Behaviour |
 | --- | --- |
-| <ItemLink id="create_connected:kinetic_battery" /> | Create: Connected Kinetic Battery stores rotation, charges without redstone and discharges with redstone. |
-| <ItemLink id="createsprings:spring" />, <ItemLink id="createsprings:large_spring_coil" /> | Create: Springs supplies springs and large-spring coil and extension components. |
-| <ItemLink id="createsprings:friction_welder" />, <ItemLink id="createsprings:unfinished_spring" />, <ItemLink id="createsprings:spring_alloy" /> | Friction Welder, Unfinished Spring and Spring Alloy manufacturing components. |
+| <ItemLink id="create_connected:kinetic_battery" /> | Charges unpowered, discharges powered |
+| <ItemLink id="create_connected:kinetic_bridge" /> | Moves capacity between two separate networks |
+| <ItemLink id="create:stressometer" /> | Shows what the battery is doing to the network |
+| <ItemLink id="create:analog_lever" /> | A clean way to switch discharge on |
+
+In the current release the battery keeps its charge in item form and only releases the stress the network actually needs, so you can carry a charged battery to a distant site instead of building a shaft line there. Capacity, discharge speed and stress impact are all configurable, so two packs can legitimately disagree about the numbers.
 
 ***
 
-## Portable tools
+## Springs store the same thing differently
 
-<ItemGrid>
-  <ItemIcon id="createsprings:spring_base" />
-  <ItemIcon id="createsprings:spring_drill" />
-  <ItemIcon id="createsprings:spring_saw" />
-  <ItemIcon id="createsprings:spring_shove" />
-  <ItemIcon id="createsprings:spring_fan" />
-  <ItemIcon id="createsprings:spring_launcher" />
-  <ItemIcon id="createsprings:portative_steam_engine" />
-  <ItemIcon id="createsprings:punchcard" />
-  <ItemIcon id="createsprings:spring_catapult" />
-  <ItemIcon id="createsprings:kinetic_interface" />
-</ItemGrid>
+A <ItemLink id="createsprings:spring" /> holds rotation and releases it on demand. The difference is control. A spring responds to signal strength, so a comparator or an analog lever can set why and how hard it releases.
 
-| Items & families | Use |
+<ItemGrid><ItemIcon id="createsprings:spring" /><ItemIcon id="createsprings:large_spring_coil" /><ItemIcon id="createsprings:spring_alloy" /><ItemIcon id="createsprings:unfinished_spring" /><ItemIcon id="createsprings:friction_welder" /><ItemIcon id="createsprings:spring_base" /><ItemIcon id="createsprings:spring_catapult" /><ItemIcon id="createsprings:spring_drill" /><ItemIcon id="createsprings:spring_fan" /><ItemIcon id="createsprings:spring_launcher" /><ItemIcon id="createsprings:spring_saw" /><ItemIcon id="createsprings:spring_shove" /></ItemGrid>
+
+| Part | Job |
 | --- | --- |
-| <ItemLink id="createsprings:spring_base" />, <ItemLink id="createsprings:spring_drill" />, <ItemLink id="createsprings:spring_saw" />, <ItemLink id="createsprings:spring_shove" /> | Spring Base and spring-powered drill, saw and shovel. Each tool holds up to two springs. |
-| <ItemLink id="createsprings:spring_fan" />, <ItemLink id="createsprings:spring_launcher" />, <ItemLink id="createsprings:portative_steam_engine" /> | Portable fan, launcher and charging steam engine. |
-| <ItemLink id="createsprings:punchcard" />, <ItemLink id="createsprings:spring_catapult" />, <ItemLink id="createsprings:kinetic_interface" /> | Punchcard tool programming, catapult and kinetic interface components. |
+| <ItemLink id="createsprings:spring_alloy" /> | The material springs are made from |
+| <ItemLink id="createsprings:unfinished_spring" /> | The form that becomes a spring |
+| <ItemLink id="createsprings:friction_welder" /> | Applies the alloy to the unfinished spring |
+| <ItemLink id="createsprings:large_spring_coil" /> | A larger coil for bigger reserves |
+
+The released recipe applies spring alloy to an unfinished spring with the friction welder, which needs rotation. That makes the first spring a two step project, and it is why spring alloy is worth stockpiling before you want a dozen.
+
+A spring can also release with enough force to break blocks. Keep splash mode, or any high setting, away from a normal reserve, and test the setting on a throwaway structure.
 
 ***
 
-## Getting started
+## Which reserve fits
 
-Choose a Kinetic Battery for a compact reserve, or a Spring for signal-strength-controlled output. The released Spring application recipe uses Spring Alloy on an Unfinished Spring. Ponder covers charging and large-spring construction. Splash mode can break blocks, so keep it separate from an ordinary reserve.
+<ItemGrid><ItemIcon id="create_connected:kinetic_battery" /><ItemIcon id="createsprings:spring" /></ItemGrid>
 
-## Related topics
+| Reserve | Best for |
+| --- | --- |
+| Kinetic Battery | A compact buffer on one network, switched by redstone |
+| Spring | Signal controlled output, and moving a reserve to where it is needed |
 
-- [Browse recipe](help.search.md)
+A battery answers a stoppage. A spring answers a demand that changes. Most bases need one of the two, and the choice is about how the reserve should switch on.
+
+The first action is a battery on a line that already runs, with a lever on its discharge side. Watch the stressometer fall when the source stops, and watch production continue.
+
+Reserves do not create capacity out of nothing. [Rotational power](machines.rotation.md) owns the stress budget and the speed rules.
 
 
 ***
