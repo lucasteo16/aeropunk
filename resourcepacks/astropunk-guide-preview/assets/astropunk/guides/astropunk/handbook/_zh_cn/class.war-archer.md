@@ -21,21 +21,47 @@ item_ids:
 
 # 战争弓手
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Archers+Expansion+War+Archer+abilities+equipment+tutorial+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+Archers+Expansion+%E6%88%98%E4%BA%89%E5%BC%93%E6%89%8B+%E6%8A%80%E8%83%BD+%E8%A3%85%E5%A4%87+%E6%95%99%E7%A8%8B+%E4%B8%AD%E6%96%87)
+
 ## 定位与入门武器
+
+战争弓手将弓箭攻击与火焰远程招式、燃烧区域结合。
 
 ![战争弓箭手战斗](images/visual-war-archer-combat.png)
 
-战争弓箭手战斗
+### 入门配装示例
 
-<ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-</ItemGrid>
+入门配装示例：职业入门武器搭配目录中的第一套护甲。这是一种可合成选择，并非官方或最优构筑。
+
+<GameScene zoom="4" interactive={true}>
+  <IsometricCamera yaw="135" pitch="15" />
+  <Entity id="minecraft:armor_stand" x="0.5" y="0" z="0.5" rotationY="180" data='{NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,ArmorItems:[{id:"archers:archer_armor_feet",count:1},{id:"archers:archer_armor_legs",count:1},{id:"archers:archer_armor_chest",count:1},{id:"archers:archer_armor_head",count:1}],HandItems:[{id:"archers:composite_longbow",count:1},{}]}' />
+</GameScene>
+
+<ItemGrid><ItemIcon id="archers:composite_longbow" /><ItemIcon id="archers:archer_armor_feet" /><ItemIcon id="archers:archer_armor_legs" /><ItemIcon id="archers:archer_armor_chest" /><ItemIcon id="archers:archer_armor_head" /></ItemGrid>
+
+### 入门装备
+
+<ItemGrid><ItemIcon id="archers:composite_longbow" /></ItemGrid>
 
 <ItemLink id="archers:composite_longbow" />
 
 <Recipe id="archers:composite_longbow" />
 
-火焰远程招式结合箭矢攻击与燃烧区域。
+### 准备阶段与首次战斗
+
+战争弓手把冰霜减速换成燃烧区域与爆发伤害，发布说明把战争弓手套装称为更安全的厚甲远程选择。火焰与爆炸招式奖励命中聚集的敌人，因此能打到怪群的武器比单体弓更有价值。哨兵射手是备选护甲家族。一次成功的首战，是用一片燃烧区域加后续箭矢清掉一群怪物，没有怪物留在近身距离。
+
+下列阶段均为可选，说明手头需要什么、每一步解锁什么，不按游玩天数衡量。
+
+| 阶段 | 就绪条件 | 建议行动或下一步选择 |
+| --- | --- | --- |
+| 前期：初次燃烧射击 | 一把弓或弩、弹药，以及一个会在地面留下火焰的招式。 | 先做复合长弓，把招式打向怪物正在走进的地面，而不是直接打向怪物。 |
+| 中期起步：职业书 | 法术绑定台、战争弓手职业书，以及学习费用。 | 绑定职业书，并留一个能定住目标的射击，接上随后的范围招式。 |
+| 中期：护甲 | 战争弓手护甲，或作为备选家族的哨兵射手护甲。 | 选择你能凑齐的一套。发布说明称战争弓手护甲更厚重，可对比其防护属性。 |
+| 后期：下界合金 | 下界合金材料，以及战争弓手或哨兵射手部件。 | 先把下界合金战争弓手套装升级完成，再考虑第二个家族。 |
+
+### 书中招式
 
 | 能力 | 形式 |
 | --- | --- |
@@ -49,34 +75,31 @@ item_ids:
 ***
 
 ## 职业法术书
+<ItemGrid><ItemIcon id="spell_engine:spell_book" /></ItemGrid>
 
-<EmiSearch query="@spell_engine" />
+在法术绑定台选择战争弓手法术书。职业书是 <ItemLink id="spell_engine:spell_book" /> 的配置变体，包含对应的招式池。
 
-<ItemLink id="spell_engine:spell_book" />
-
-在法术绑定台放入普通书，选择战争弓手法术书。它是带有职业配置的法术书，并非独立物品类型。支付界面显示的经验等级，再用青金石和所需书架能量绑定上表招式。将书装备在支持的槽位，手持兼容武器或法器。
-
-- [法术绑定与资源](combat.magic.md) 费用、武器兼容、符文与施法操作。
-- [初次使用招式](combat.abilities.md) 绑定步骤，以及书籍招式与武器招式的区别。
+- [绑定与施法](combat.abilities.md) 职业书制作、费用、装备槽位与施法操作。
+- [符文与武器法术](combat.magic.md) 施法资源与装备自带法术。
 
 ***
 
 ## 职业技能
+<ItemGrid><ItemIcon id="archers_expansion:war_archer_chest" /><ItemIcon id="minecraft:bow" /></ItemGrid>
 
-按 <KeyBind id="key.puffish_skills.open" /> 打开技能界面，选择对应职业路线。职业点数与武器点数各自独立，分配前查看互斥根节点。更换装备不会返还点数。
+按 <KeyBind id="key.puffish_skills.open" /> 查找下列职业路线与武器路线。
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 战争弓手 | <ItemLink id="archers_expansion:war_archer_chest" /> |
 
 ### 武器路线
 
-| 路线 | 原生物品 |
+| 路线 | 相关装备 |
 | --- | --- |
 | 弓专精 | <ItemLink id="minecraft:bow" /> |
 
-- [技能成长](combat.skills.md)
-
+- [技能成长](combat.skills.md) 点数分类、相连节点、互斥路线与重置。更换装备不会返还点数。
 
 ***
 
@@ -88,39 +111,19 @@ item_ids:
 
 ### 武器
 
-<ItemGrid>
-  <ItemIcon id="archers:composite_longbow" />
-  <ItemIcon id="archers:mechanic_shortbow" />
-  <ItemIcon id="archers:royal_longbow" />
-  <ItemIcon id="archers:netherite_shortbow" />
-  <ItemIcon id="archers:netherite_longbow" />
-  <ItemIcon id="archers:rapid_crossbow" />
-  <ItemIcon id="archers:heavy_crossbow" />
-  <ItemIcon id="archers:netherite_rapid_crossbow" />
-  <ItemIcon id="archers:netherite_heavy_crossbow" />
-</ItemGrid>
-
-| 物品 | 用途 |
-| --- | --- |
-| <ItemLink id="archers:composite_longbow" /> | 远程武器 |
-| <ItemLink id="archers:mechanic_shortbow" /> | 远程武器 |
-| <ItemLink id="archers:royal_longbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_shortbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_longbow" /> | 远程武器 |
-| <ItemLink id="archers:rapid_crossbow" /> | 远程武器 |
-| <ItemLink id="archers:heavy_crossbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_rapid_crossbow" /> | 远程武器 |
-| <ItemLink id="archers:netherite_heavy_crossbow" /> | 远程武器 |
+| 分类 | 物品 | 定位 |
+| --- | --- | --- |
+| <ItemLink id="archers:composite_longbow" /> | <ItemGrid><ItemIcon id="archers:composite_longbow" /><ItemIcon id="archers:royal_longbow" /><ItemIcon id="archers:netherite_longbow" /></ItemGrid> | 远程，蓄力较久，适合范围射击 |
+| <ItemLink id="archers:mechanic_shortbow" /> | <ItemGrid><ItemIcon id="archers:mechanic_shortbow" /><ItemIcon id="archers:netherite_shortbow" /></ItemGrid> | 远程，蓄力较快，适合移动中爆发 |
+| <ItemLink id="archers:rapid_crossbow" /> | <ItemGrid><ItemIcon id="archers:rapid_crossbow" /><ItemIcon id="archers:heavy_crossbow" /><ItemIcon id="archers:netherite_rapid_crossbow" /><ItemIcon id="archers:netherite_heavy_crossbow" /></ItemGrid> | 远程，装填后留下燃烧区域 |
 
 ### 护甲套装
 
-每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
-
-| 头部 | 胸部 | 腿部 | 足部 |
-| --- | --- | --- | --- |
-| <ItemLink id="archers:archer_armor_head" /> | <ItemLink id="archers:archer_armor_chest" /> | <ItemLink id="archers:archer_armor_legs" /> | <ItemLink id="archers:archer_armor_feet" /> |
-| <ItemLink id="archers:ranger_armor_head" /> | <ItemLink id="archers:ranger_armor_chest" /> | <ItemLink id="archers:ranger_armor_legs" /> | <ItemLink id="archers:ranger_armor_feet" /> |
-| <ItemLink id="archers:netherite_ranger_armor_head" /> | <ItemLink id="archers:netherite_ranger_armor_chest" /> | <ItemLink id="archers:netherite_ranger_armor_legs" /> | <ItemLink id="archers:netherite_ranger_armor_feet" /> |
+| 套装参考，以胸甲名称标识 | 部件，依次为头、胸、腿、足 |
+| --- | --- |
+| <ItemLink id="archers:archer_armor_chest" /> | <ItemGrid><ItemIcon id="archers:archer_armor_head" /><ItemIcon id="archers:archer_armor_chest" /><ItemIcon id="archers:archer_armor_legs" /><ItemIcon id="archers:archer_armor_feet" /></ItemGrid> |
+| <ItemLink id="archers:ranger_armor_chest" /> | <ItemGrid><ItemIcon id="archers:ranger_armor_head" /><ItemIcon id="archers:ranger_armor_chest" /><ItemIcon id="archers:ranger_armor_legs" /><ItemIcon id="archers:ranger_armor_feet" /></ItemGrid> |
+| <ItemLink id="archers:netherite_ranger_armor_chest" /> | <ItemGrid><ItemIcon id="archers:netherite_ranger_armor_head" /><ItemIcon id="archers:netherite_ranger_armor_chest" /><ItemIcon id="archers:netherite_ranger_armor_legs" /><ItemIcon id="archers:netherite_ranger_armor_feet" /></ItemGrid> |
 
 ***
 
@@ -132,20 +135,16 @@ item_ids:
 
 ### 护甲套装
 
-每组展示该套装的全部部件，依次为头部、胸部、腿部与脚部。
-
-
-
-| 头部 | 胸部 | 腿部 | 足部 |
-| --- | --- | --- | --- |
-| <ItemLink id="archers_expansion:war_archer_head" /> | <ItemLink id="archers_expansion:war_archer_chest" /> | <ItemLink id="archers_expansion:war_archer_legs" /> | <ItemLink id="archers_expansion:war_archer_feet" /> |
-| <ItemLink id="archers_expansion:netherite_war_archer_head" /> | <ItemLink id="archers_expansion:netherite_war_archer_chest" /> | <ItemLink id="archers_expansion:netherite_war_archer_legs" /> | <ItemLink id="archers_expansion:netherite_war_archer_feet" /> |
-| <ItemLink id="archers_expansion:sentinel_archer_head" /> | <ItemLink id="archers_expansion:sentinel_archer_chest" /> | <ItemLink id="archers_expansion:sentinel_archer_legs" /> | <ItemLink id="archers_expansion:sentinel_archer_feet" /> |
+| 套装参考，以胸甲名称标识 | 部件，依次为头、胸、腿、足 |
+| --- | --- |
+| <ItemLink id="archers_expansion:war_archer_chest" /> | <ItemGrid><ItemIcon id="archers_expansion:war_archer_head" /><ItemIcon id="archers_expansion:war_archer_chest" /><ItemIcon id="archers_expansion:war_archer_legs" /><ItemIcon id="archers_expansion:war_archer_feet" /></ItemGrid> |
+| <ItemLink id="archers_expansion:netherite_war_archer_chest" /> | <ItemGrid><ItemIcon id="archers_expansion:netherite_war_archer_head" /><ItemIcon id="archers_expansion:netherite_war_archer_chest" /><ItemIcon id="archers_expansion:netherite_war_archer_legs" /><ItemIcon id="archers_expansion:netherite_war_archer_feet" /></ItemGrid> |
+| <ItemLink id="archers_expansion:sentinel_archer_chest" /> | <ItemGrid><ItemIcon id="archers_expansion:sentinel_archer_head" /><ItemIcon id="archers_expansion:sentinel_archer_chest" /><ItemIcon id="archers_expansion:sentinel_archer_legs" /><ItemIcon id="archers_expansion:sentinel_archer_feet" /></ItemGrid> |
 
 ***
 
 ## 通用装备
 
-- [武器与护甲](equipment.weapons-armor.md)
+<ItemGrid><ItemIcon id="minecraft:iron_sword" /><ItemIcon id="minecraft:iron_chestplate" /><ItemIcon id="jewelry:copper_ring" /></ItemGrid>- [武器与护甲](equipment.weapons-armor.md)
 - [饰品](equipment.accessories.md)
 - [战斗操作](combat.handling.md)

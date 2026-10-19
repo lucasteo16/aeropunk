@@ -73,6 +73,10 @@ class ReviewedLayout(unittest.TestCase):
                     self.assertTrue(rest.startswith('!['), path)
                     self.assertIsNone(re.search(r'^#{2,6} ', rest, re.M), path)
                 else:
+                    if rest.startswith('![YouTube](images/tutorial-video.png) '):
+                        action_row, rest = rest.split('\n\n', 1)
+                        self.assertIn('[English](https://www.youtube.com/results?', action_row, path)
+                        self.assertIn('[中文](https://www.youtube.com/results?', action_row, path)
                     self.assertTrue(rest.startswith('## '), path)
 
 
