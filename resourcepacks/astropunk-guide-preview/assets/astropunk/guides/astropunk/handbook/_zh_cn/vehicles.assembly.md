@@ -36,6 +36,16 @@ Cloud Skipper 飞艇成品
 <Recipe id="simulated:physics_assembler" />
 
 <Recipe id="offroad:borehead_bearing" />
+## 飞行之前先移动实体
+
+新实体从一块方块开始。先组装这一块，再把其余部分直接建造在已组装的方块上，这样从第一块起所有部件就属于同一个物理实体，不必事后补胶。
+
+<ItemGrid><ItemIcon id="simulated:iron_handle" /><ItemIcon id="simulated:physics_assembler" /><ItemIcon id="simulated:honey_glue" /></ItemGrid>
+
+小实体可以用手打走，但体积越大质量越高，所以装上 <ItemLink id="simulated:iron_handle" />，潜行使用即可拖曳到想要的位置。先拖到位再补完船体，因为半成品比成品轻。
+
+阶梯状的斜面会自动连在一起，不需要每一级都补一条胶。任何方向都连不上的部件会脱离成独立实体，飞行中粘合处断裂在地面上看到的就是这个样子。
+
 ## 连接与分离
 
 <ItemGrid><ItemIcon id="simulated:docking_connector" /><ItemIcon id="simulated:paired_docking_connector" /><ItemIcon id="simulated:rope_winch" /><ItemIcon id="simulated:rope_connector" /><ItemIcon id="simulated:rope_coupling" /><ItemIcon id="simulated:merging_glue" /><ItemIcon id="simulated:swivel_bearing" /><ItemIcon id="simulated:spring" /></ItemGrid>

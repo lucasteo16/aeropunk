@@ -30,6 +30,7 @@ A page that only names things, or only restates general Minecraft knowledge, is 
 ## Content rules
 
 - Research before writing. Read official documentation and maintained guides first, then credible gameplay videos and their transcripts where available. Record what was read. Never claim a video was watched when only a transcript or search snippet was read.
+When direct YouTube access is blocked from this network, read transcripts through a server side transcript frontend and expect only the opening minutes. Verify every video claim against the selected jar first: a video about a similarly named mod will describe blocks that this pack does not ship. Record which videos were read, which were only found, and why the rest were not used, the same way docs/handbook-refurbish-video-evidence.json does.
 - Reconcile every mechanic against the selected Minecraft version and the selected mod versions in `mods/*.pw.toml`. Targeted code or data inspection is allowed only to resolve a specific unresolved mechanic.
 - Keep facts that only this pack can teach. Delete advice any Minecraft player already has, such as which mouse button attacks, or that gear can be enchanted.
 - No filler sections. If a section would be generic troubleshooting, generic readiness advice or a restatement of a table, delete it rather than decorate it.
