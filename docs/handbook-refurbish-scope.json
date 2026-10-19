@@ -1,0 +1,21 @@
+{
+  "purpose": "Topics owned by a handbook chapter refurbishment batch. Tests exclude these from older revision snapshots and enforce the refurbishment bar on them.",
+  "batches": {
+    "food": {
+      "branch": "feature/refurb-food",
+      "topics": [
+        "food.utensils",
+        "food.hunger",
+        "food.growing",
+        "food.machine-cooking",
+        "food.encounters",
+        "food.underground",
+        "food.fishing",
+        "fishing.habitats",
+        "food.seafood",
+        "food.nether",
+        "food.end"
+      ]
+    }
+  }
+}

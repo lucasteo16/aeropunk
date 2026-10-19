@@ -43,6 +43,7 @@ class HandbookVisualPassTest(unittest.TestCase):
         actual = {topic for topic, locales in content.items()
                   if locales != self.before.get(topic)}
         claimed = set(later['changed_topics'])
+        claimed |= {topic for batch in json.loads((ROOT / 'docs/handbook-refurbish-scope.json').read_text())['batches'].values() for topic in batch['topics']}
         # Topics shared with a later recorded revision can no longer distinguish the
         # two passes, so compare the parts only this revision owns.
         self.assertEqual(actual - claimed, set(self.scope['changed_topics']) - claimed)
@@ -61,6 +62,8 @@ class HandbookVisualPassTest(unittest.TestCase):
         # not the exact repetition of each tag form.
         claimed = set(json.loads((ROOT / 'docs/handbook-combat-review-scope.json').read_text())['changed_topics'])
         removals = json.loads((ROOT / 'docs/handbook-combat-review-scope.json').read_text())['accepted_reference_removals']
+        refurbish = json.loads((ROOT / 'docs/handbook-refurbish-scope.json').read_text())['batches']
+        claimed |= {topic for batch in refurbish.values() for topic in batch['topics']}
         drift = set(json.loads((ROOT / 'docs/handbook-combat-review-scope.json').read_text())['known_pre_existing_drift'])
         item = r'<(?:ItemIcon|ItemLink|ItemImage)\b[^>]*\bid="([^"]+)"'
         interaction = r'<(?:Recipe|KeyBind|EmiSearch)\b[^>]*>'
