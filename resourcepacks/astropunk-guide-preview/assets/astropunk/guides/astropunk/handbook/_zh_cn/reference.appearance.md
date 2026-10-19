@@ -27,8 +27,8 @@ navigation:
 | 模组或内容 | 用途 | 物品查询 |
 | --- | --- | --- |
 | <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) （仅重型版） | 改变作物外观。 | 无独立物品查询 |
-| ![[EMF] Entity Model Features](images/catalog-4i1xuqiy.png) [[EMF] Entity Model Features](visuals.models.md) | 加载兼容资源包中的自定义实体模型。 | 无独立物品查询 |
-| ![[ETF] Entity Texture Features](images/catalog-bvzzftc1.png) [[ETF] Entity Texture Features](visuals.models.md) | 支持随机、自定义与发光实体纹理。 | 无独立物品查询 |
+| ![[EMF] Entity Model Features](images/catalog-4i1xuqiy.png) [[EMF] Entity Model Features](visuals.models.md) （仅重型版） | 加载兼容资源包中的自定义实体模型。 | 无独立物品查询 |
+| ![[ETF] Entity Texture Features](images/catalog-bvzzftc1.png) [[ETF] Entity Texture Features](visuals.models.md) （仅重型版） | 支持随机、自定义与发光实体纹理。 | 无独立物品查询 |
 | ![Advancement Plaques](images/catalog-9nm0dxub.png) [Advancement Plaques](visuals.interface.md) | 将进度通知替换为牌匾样式。 | 无独立物品查询 |
 | ![Attribute Icons (RPG Series)](images/catalog-73qpzsin.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | 为属性翻译增加图标。 | 无独立物品查询 |
 | ![Better Biome Reblend](images/catalog-xh8hkqmd.png) [Better Biome Reblend](visuals.resource-packs.md) | 改善生物群系颜色之间的混合。 | 无独立物品查询 |
@@ -41,7 +41,7 @@ navigation:
 | ![Cubes Without Borders](images/catalog-etlrkayf.png) [Cubes Without Borders](visuals.camera.md) | 提供无边框全屏窗口。 | 无独立物品查询 |
 | ![Distant Horizons](images/catalog-ucdwusmi.png) [Distant Horizons](visuals.lighting.md) | 在普通渲染距离之外显示简化地形。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) （仅重型版） | 增加进食动画。 | 无独立物品查询 |
-| ![EMF Compat: Create](images/catalog-j9mcodzy.png) [EMF Compat: Create](visuals.models.md) | 使机械动力玩家动画适配自定义动态模型。 | 无独立物品查询 |
+| ![EMF Compat: Create](images/catalog-j9mcodzy.png) [EMF Compat: Create](visuals.models.md) （仅重型版） | 使机械动力玩家动画适配自定义动态模型。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) （仅重型版） | 让 Not Enough Animations 玩家动作适配 Entity Model Features 自定义模型。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) （仅重型版） | 改变爆炸动画效果。 | 无独立物品查询 |
 | <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) （仅重型版） | 为门、拉杆等可交互方块增加动画。 | 无独立物品查询 |

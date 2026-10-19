@@ -27,8 +27,8 @@ navigation:
 | Mod or content | Purpose | Item search |
 | --- | --- | --- |
 | <ItemImage id="minecraft:painting" /> [(Bee's) Fancy Crops](visuals.resource-packs.md) (heavy edition only) | Changes crop appearance. | No separate item search |
-| ![[EMF] Entity Model Features](images/catalog-4i1xuqiy.png) [[EMF] Entity Model Features](visuals.models.md) | Loads custom entity models from compatible resource packs. | No separate item search |
-| ![[ETF] Entity Texture Features](images/catalog-bvzzftc1.png) [[ETF] Entity Texture Features](visuals.models.md) | Supports random, custom and emissive entity textures. | No separate item search |
+| ![[EMF] Entity Model Features](images/catalog-4i1xuqiy.png) [[EMF] Entity Model Features](visuals.models.md) (heavy edition only) | Loads custom entity models from compatible resource packs. | No separate item search |
+| ![[ETF] Entity Texture Features](images/catalog-bvzzftc1.png) [[ETF] Entity Texture Features](visuals.models.md) (heavy edition only) | Supports random, custom and emissive entity textures. | No separate item search |
 | ![Advancement Plaques](images/catalog-9nm0dxub.png) [Advancement Plaques](visuals.interface.md) | Replaces advancement notifications with plaques. | No separate item search |
 | ![Attribute Icons (RPG Series)](images/catalog-73qpzsin.png) [Attribute Icons (RPG Series)](visuals.resource-packs.md) | Adds icons to attribute translations. | No separate item search |
 | ![Better Biome Reblend](images/catalog-xh8hkqmd.png) [Better Biome Reblend](visuals.resource-packs.md) | Improves blending between biome colors. | No separate item search |
@@ -41,7 +41,7 @@ navigation:
 | ![Cubes Without Borders](images/catalog-etlrkayf.png) [Cubes Without Borders](visuals.camera.md) | Provides borderless fullscreen windows. | No separate item search |
 | ![Distant Horizons](images/catalog-ucdwusmi.png) [Distant Horizons](visuals.lighting.md) | Displays simplified terrain beyond ordinary render distance. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Eating Animations](visuals.models.md) (heavy edition only) | Animates eating. | No separate item search |
-| ![EMF Compat: Create](images/catalog-j9mcodzy.png) [EMF Compat: Create](visuals.models.md) | Connects Create player animations to custom animated models. | No separate item search |
+| ![EMF Compat: Create](images/catalog-j9mcodzy.png) [EMF Compat: Create](visuals.models.md) (heavy edition only) | Connects Create player animations to custom animated models. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [EMF Compat: Not Enough Animations](visuals.models.md) (heavy edition only) | Adapts Not Enough Animations player actions to custom Entity Model Features models. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Explosive Enhancement: Reforged](visuals.weather.md) (heavy edition only) | Changes explosion animation effects. | No separate item search |
 | <ItemImage id="minecraft:painting" /> [Fancy World Animations [FWA]](visuals.models.md) (heavy edition only) | Animates interactive blocks such as doors and levers. | No separate item search |

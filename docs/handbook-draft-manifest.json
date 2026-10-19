@@ -6,8 +6,8 @@
   "root_page_count": 18,
   "reference_section_count": 16,
   "reference_directory_count": 8,
-  "installed_content_count": 325,
-  "heavy_content_count": 20,
+  "installed_content_count": 316,
+  "heavy_content_count": 29,
   "baseline_commit": "f6cae919f0098665a7ffd7143deedc488f7690fb",
   "deferred_content_count": 0,
   "pages": [
@@ -2279,7 +2279,7 @@
     {
       "metadata_path": "mods/cool-rain-reforged.pw.toml",
       "name": "Cool Rain Reforged",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "reference.audio",
       "indexed": true,
@@ -2552,7 +2552,7 @@
     {
       "metadata_path": "mods/create-emf-compat-skyhook.pw.toml",
       "name": "EMF Compat: Create",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -3137,7 +3137,7 @@
     {
       "metadata_path": "mods/emf-compat-core.pw.toml",
       "name": "EMF Compat: Core",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Technical reference",
       "topic": "technical.libraries",
       "indexed": true,
@@ -3228,7 +3228,7 @@
     {
       "metadata_path": "mods/entity-model-features.pw.toml",
       "name": "[EMF] Entity Model Features",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -3254,7 +3254,7 @@
     {
       "metadata_path": "mods/entitytexturefeatures.pw.toml",
       "name": "[ETF] Entity Texture Features",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "visuals.models",
       "indexed": true,
@@ -4385,7 +4385,7 @@
     {
       "metadata_path": "mods/pf-neoforge.pw.toml",
       "name": "Presence Footsteps (NeoForge)",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "reference.audio",
       "indexed": true,
@@ -4450,7 +4450,7 @@
     {
       "metadata_path": "mods/presence-footsteps-x-sable.pw.toml",
       "name": "Presence Footsteps x Sable (Aeronautics Compat)",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "reference.audio",
       "indexed": true,
@@ -4684,7 +4684,7 @@
     {
       "metadata_path": "mods/sable-cool-rain.pw.toml",
       "name": "Sable: Cool Rain",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "reference.audio",
       "indexed": true,
@@ -4918,7 +4918,7 @@
     {
       "metadata_path": "mods/sound-physics-remastered.pw.toml",
       "name": "Sound Physics Remastered",
-      "availability": "baseline",
+      "availability": "heavy",
       "category": "Visuals and sound",
       "topic": "reference.audio",
       "indexed": true,
