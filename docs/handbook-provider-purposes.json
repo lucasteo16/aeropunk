@@ -1,4 +1,8 @@
 {
+  "mods/jei.pw.toml": {
+    "en_us": "Provides recipe displays and mod recipe integrations alongside the recipe browser.",
+    "zh_cn": "提供配方显示与模组配方集成，配合配方浏览器使用。"
+  },
   "mods/paxi.pw.toml": {
     "en_us": "Loads shared data packs, including the automatic space world border.",
     "zh_cn": "加载共享数据包，包括自动设置太空世界边界的数据包。"

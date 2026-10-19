@@ -4,73 +4,37 @@ navigation:
   position: 6
   parent: reference.skills.md
   icon: minecraft:blaze_rod
-item_ids:
-  - spell_engine:spell_binding
-  - spell_engine:spell_book
-  - spell_engine:spell_scroll
 ---
 
 # 法术与支援职业
 
-## 法术与支援职业
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+Runes+rune+pouch+Wizards+casting+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+RPG+Series+Runes+%E7%AC%A6%E6%96%87%E8%A2%8B+%E6%B3%95%E5%B8%88+%E6%96%BD%E6%B3%95+%E6%95%99%E7%A8%8B)
+
+## 施法与支援
+
+| 职业 | 玩法 |
+| --- | --- |
+| [奥术法师](class.arcane.md) | 奥术弹射物与光束。 |
+| [火焰法师](class.fire.md) | 火焰攻击与持续燃烧区域。 |
+| [冰霜法师](class.frost.md) | 冰霜攻击与防护。 |
+| [水系法师](class.aqua.md) | 水系伤害与治疗区域。 |
+| [地系法师](class.terra.md) | 地系攻击与地面防护。 |
+| [风系法师](class.wind.md) | 风系攻击与龙卷风区域。 |
+| [圣骑士](class.paladin.md) | 近战、治疗与防护。 |
+| [牧师](class.priest.md) | 治疗光束与群体防护。 |
+| [吟游诗人](class.bard.md) | 乐器攻击与辅助乐曲。 |
+| [猎魔人](class.witcher.md) | 剑术与控制、防护法印。 |
+
+各职业文章收录入门配方、书籍、完整职业书招式表与装备。猎魔人的剑术书与法印书属于同一职业。
+
+- [法术与招式](combat.abilities.md) 共用的绑定步骤、卷轴与施法操作。
+- [技能成长](combat.skills.md) 相互独立的职业与武器点数。
 
 ![使用法杖施展奥术](images/visual-arcane-casting.png)
-
-使用法杖施展奥术
-
-选择职业，查看定位、入门配方、法术书、完整招式、技能与装备。
-
-- [奥秘法师](class.arcane.md)
-- [火焰法师](class.fire.md)
-- [冰霜法师](class.frost.md)
-- [水系法师](class.aqua.md)
-- [土系法师](class.terra.md)
-- [风系法师](class.wind.md)
-- [圣骑士](class.paladin.md)
-- [牧师](class.priest.md)
-- [吟游诗人](class.bard.md)
-- [猎魔人](class.witcher.md)
-
-***
-
-## 法术绑定
-
-<EmiSearch query="@spell_engine" />
-
-<ItemGrid>
-  <ItemIcon id="spell_engine:spell_binding" />
-  <ItemIcon id="minecraft:book" />
-  <ItemIcon id="minecraft:lapis_lazuli" />
-  <ItemIcon id="minecraft:bookshelf" />
-  <ItemIcon id="spell_engine:spell_book" />
-  <ItemIcon id="spell_engine:spell_scroll" />
-</ItemGrid>
-
-<ItemLink id="spell_engine:spell_binding" />
-
-<Recipe id="spell_engine:spell_binding_table" />
-
-1. 在绑定台放入普通书，选择职业法术书。创建书籍会消耗经验等级。
-
-2. 将职业法术书放回绑定台，从其法术池中选择招式。满足界面显示的等级要求、等级消耗、青金石消耗与书架能量要求。同阶冲突或槽位上限可能阻止选择。
-
-3. 将已配置的书放入适用的法术书槽，并手持兼容武器或法器。手持物品会筛选可用法术。
-
-书籍携带学会的招式。技能树点数用于强化构筑，不能代替法术绑定。卷轴应用是绑定台的另一种模式，有自己的要求。职业书是 <ItemLink id="spell_engine:spell_book" /> 的配置变体，不是单独注册的物品。
-
-***
-
-## 施法要求
-
-查看每个法术提示中的学派、目标、施法时间、材料消耗与冷却。备好所需符文或弹药。即使法术属于该书，手持武器不兼容时仍可能无法使用。
-
-在按键设置中配置法术快捷栏。第一个招式的当前按键是 <KeyBind id="keybindings.spell_engine.spell_hotbar_1" />。施法条显示施法是否仍在进行。
 
 ***
 
 ## 武器法术与乐曲
-
-<EmiSearch query="@bards_rpg" /> <EmiSearch query="@elemental_wizards_rpg" /> <EmiSearch query="@paladins" /> <EmiSearch query="@wizards" />
 
 <ItemGrid>
   <ItemIcon id="wizards:staff_arcane" />
@@ -80,19 +44,31 @@ item_ids:
   <ItemIcon id="bards_rpg:diamond_lyre" />
 </ItemGrid>
 
-魔杖、法杖与乐器可能自带主动武器法术，不必从职业书学习这些招式。奥术、火焰、冰霜、水、地与风法器各有学派攻击，神圣法器支持治疗。不同独特吟游乐器携带不同乐曲。查看手持物品的完整招式与施法条件。这些武器法术类型不同于上方完整的职业书招式列表。
+魔杖、法杖与乐器可能自带主动武器法术，不必从职业书学习这些招式。奥术、火焰、冰霜、水、地与风法器各有学派攻击，神圣法器支持治疗。不同独特吟游乐器携带不同乐曲。查看手持物品的完整招式与施法条件。职业文章另行收录通过书籍学习的招式。
 
 ***
 
 ## 符文与符文袋
 
-<EmiSearch query="@runes" />
+这些物品栏用于识别可选物品，并非必须配齐的套装或合成配方。同组物品仅共享所列用途或属性组合，具体数值、效果与槽位要求请查看各自提示。
+
+符文合成工作站
 
 <ItemGrid>
   <ItemIcon id="runes:crafting_altar" />
+</ItemGrid>
+
+装备式符文储存
+
+<ItemGrid>
   <ItemIcon id="runes:small_rune_pouch" />
   <ItemIcon id="runes:medium_rune_pouch" />
   <ItemIcon id="runes:large_rune_pouch" />
+</ItemGrid>
+
+施法材料
+
+<ItemGrid>
   <ItemIcon id="runes:arcane_stone" />
   <ItemIcon id="runes:fire_stone" />
   <ItemIcon id="runes:frost_stone" />
@@ -101,23 +77,16 @@ item_ids:
   <ItemIcon id="runes:soul_stone" />
 </ItemGrid>
 
-| 物品 | 用途 |
-| --- | --- |
-| <ItemLink id="runes:crafting_altar" /> | 符文合成工作站 |
-| <ItemLink id="runes:small_rune_pouch" /> | 装备式符文储存 |
-| <ItemLink id="runes:medium_rune_pouch" /> | 装备式符文储存 |
-| <ItemLink id="runes:large_rune_pouch" /> | 装备式符文储存 |
-| <ItemLink id="runes:arcane_stone" /> | 施法材料 |
-| <ItemLink id="runes:fire_stone" /> | 施法材料 |
-| <ItemLink id="runes:frost_stone" /> | 施法材料 |
-| <ItemLink id="runes:healing_stone" /> | 施法材料 |
-| <ItemLink id="runes:lightning_stone" /> | 施法材料 |
-| <ItemLink id="runes:soul_stone" /> | 施法材料 |
+符文是施法弹药，不会让你学会法术。先看所选法术的消耗，再制作对应符文。只有标有符文消耗的法术才会消耗符文。符文袋节省携带空间，不会生成符文，也不会免除消耗。
 
-只有要求符文的法术才会消耗对应符文。已装备的符文袋可提供储存的符文。符文祭坛提供独立合成界面。当前选择包含 Bundle API，因此符文袋配方可用。
+1. 从法术要求的符文入手。火系入门可把合适的石质基材与煤进行无序合成，得到 2 个火焰符文。其他学派与替代材料请查配方浏览器。
+2. 有符文祭坛后，打开界面，把石质基材与对应材料放入两个原料槽，再取出符文。同样的煤配方在祭坛产出 8 个火焰符文。祭坛能提高补给效率，但第一次施法不需要先造祭坛。
+3. 按下方配方制作符文袋。在背包中用光标拿起符文袋，右键符文堆叠以装入。查看袋内物品，再把符文袋放入支持的箭袋饰品槽。施法时可直接消耗已装备袋中的对应符文。
+4. 出发前，找有效目标试放一次消耗较少的法术。若提示缺少符文，依次检查符文种类、数量、袋内物品与装备槽位。入门时也可直接把散装符文放在背包中。
+
+闪电符文与灵魂符文属于物品目录，并非每个施法者都要收集的材料。以实际使用法术的消耗为准。符文袋配方需要 Bundle API，当前选择已包含此依赖。
 
 <Recipe id="runes:pouch/small_rune_pouch" />
-
 
 ***
 
