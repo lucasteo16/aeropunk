@@ -157,7 +157,7 @@ navigation:
 | ![Create: Dragons Plus](images/catalog-dzb1a5wv.png) [Create: Dragons Plus](technical.libraries.md) | 增加风扇批量加工与储液罐存取工具，并提供机械动力附加模组共享工具。 | <EmiSearch query="@create_dragons_plus" /> |
 | ![CreativeCore](images/catalog-osziadhq.png) [CreativeCore](technical.libraries.md) | 为 CreativeMD 模组提供共享界面、设置与网络系统。 | 无独立物品查询 |
 | ![DragonLib](images/catalog-sbisgaov.png) [DragonLib](technical.libraries.md) | 为 MisterJulsen 模组提供跨加载器抽象层与共享系统。 | <EmiSearch query="@dragonlib" /> |
-| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) （仅重型版） | EMF 兼容组件共享框架。 | 无独立物品查询 |
+| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) | EMF 兼容组件共享框架。 | 无独立物品查询 |
 | ![Forgified Fabric API](images/catalog-aqlf1shp.png) [Forgified Fabric API](technical.libraries.md) | 在 NeoForge 上实现的 Fabric 接口。 | 无独立物品查询 |
 | ![Fzzy Config](images/catalog-hyykxjdp.png) [Fzzy Config](technical.libraries.md) | 设置、校验与同步支持。 | 无独立物品查询 |
 | ![Geckolib](images/catalog-8bmcqj2h.png) [Geckolib](technical.libraries.md) | 实体、方块、物品与盔甲动画库。 | 无独立物品查询 |

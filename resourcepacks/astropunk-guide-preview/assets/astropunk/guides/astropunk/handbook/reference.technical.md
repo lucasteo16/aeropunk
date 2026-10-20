@@ -56,7 +56,7 @@ navigation:
 | <ItemImage id="minecraft:redstone" /> [DimWorldBorder](server.tools.md) | Manages independent physical borders for each dimension. | No separate item search |
 | ![DragonLib](images/catalog-sbisgaov.png) [DragonLib](technical.libraries.md) | Provides cross-loader abstractions and shared systems for MisterJulsen's mods. | <EmiSearch query="@dragonlib" /> |
 | ![Dynamic FPS](images/catalog-lq3k71q1.png) [Dynamic FPS](performance.baseline.md) | Reduces resource use in the background or while idle. | No separate item search |
-| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) (heavy edition only) | Shared framework for EMF compatibility modules. | No separate item search |
+| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) | Shared framework for EMF compatibility modules. | No separate item search |
 | ![Entity Culling](images/catalog-nnagcjsb.png) [Entity Culling](performance.baseline.md) | Avoids rendering hidden entities and block entities. | No separate item search |
 | <ItemImage id="minecraft:redstone" /> [Fast Noise](performance.baseline.md) | Optimizes processor-side terrain generation without graphics acceleration. | No separate item search |
 | ![FerriteCore](images/catalog-uxxizfis.png) [FerriteCore](performance.baseline.md) | Reduces memory use. | No separate item search |

@@ -157,7 +157,7 @@ Other supporting libraries are listed below. Keep required dependencies with the
 | ![Create: Dragons Plus](images/catalog-dzb1a5wv.png) [Create: Dragons Plus](technical.libraries.md) | Adds bulk fan processing and fluid tank access tools, plus shared Create addon utilities. | <EmiSearch query="@create_dragons_plus" /> |
 | ![CreativeCore](images/catalog-osziadhq.png) [CreativeCore](technical.libraries.md) | Provides shared interface, configuration and network systems for CreativeMD's mods. | No separate item search |
 | ![DragonLib](images/catalog-sbisgaov.png) [DragonLib](technical.libraries.md) | Provides cross-loader abstractions and shared systems for MisterJulsen's mods. | <EmiSearch query="@dragonlib" /> |
-| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) (heavy edition only) | Shared framework for EMF compatibility modules. | No separate item search |
+| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) | Shared framework for EMF compatibility modules. | No separate item search |
 | ![Forgified Fabric API](images/catalog-aqlf1shp.png) [Forgified Fabric API](technical.libraries.md) | Fabric interfaces implemented on NeoForge. | No separate item search |
 | ![Fzzy Config](images/catalog-hyykxjdp.png) [Fzzy Config](technical.libraries.md) | Configuration, validation and synchronization support. | No separate item search |
 | ![Geckolib](images/catalog-8bmcqj2h.png) [Geckolib](technical.libraries.md) | Animation library for entities, blocks, items and armor. | No separate item search |

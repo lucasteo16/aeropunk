@@ -56,7 +56,7 @@ navigation:
 | <ItemImage id="minecraft:redstone" /> [DimWorldBorder](server.tools.md) | 为各个维度管理独立的实体边界。 | 无独立物品查询 |
 | ![DragonLib](images/catalog-sbisgaov.png) [DragonLib](technical.libraries.md) | 为 MisterJulsen 模组提供跨加载器抽象层与共享系统。 | <EmiSearch query="@dragonlib" /> |
 | ![Dynamic FPS](images/catalog-lq3k71q1.png) [Dynamic FPS](performance.baseline.md) | 降低后台或空闲时的资源使用。 | 无独立物品查询 |
-| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) （仅重型版） | EMF 兼容组件共享框架。 | 无独立物品查询 |
+| ![EMF Compat: Core](images/catalog-hbgct5uu.png) [EMF Compat: Core](technical.libraries.md) | EMF 兼容组件共享框架。 | 无独立物品查询 |
 | ![Entity Culling](images/catalog-nnagcjsb.png) [Entity Culling](performance.baseline.md) | 避免渲染被遮挡的实体与方块实体。 | 无独立物品查询 |
 | <ItemImage id="minecraft:redstone" /> [Fast Noise](performance.baseline.md) | 优化处理器端地形生成，无需图形加速。 | 无独立物品查询 |
 | ![FerriteCore](images/catalog-uxxizfis.png) [FerriteCore](performance.baseline.md) | 减少内存占用。 | 无独立物品查询 |
