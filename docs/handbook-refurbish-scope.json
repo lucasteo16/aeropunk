@@ -1,0 +1,58 @@
+{
+  "purpose": "Topics owned by a handbook chapter refurbishment batch. Tests exclude these from older revision snapshots and enforce the refurbishment bar on them.",
+  "batches": {
+    "food": {
+      "branch": "feature/refurb-food",
+      "topics": [
+        "food.utensils",
+        "food.hunger",
+        "food.growing",
+        "food.machine-cooking",
+        "food.encounters",
+        "food.underground",
+        "food.fishing",
+        "food.seafood",
+        "food.nether",
+        "food.end"
+      ]
+    },
+    "machines": {
+      "branch": "",
+      "topics": [
+        "machines.enchanting",
+        "machines.logistics",
+        "machines.miscellaneous",
+        "machines.ore-processing",
+        "machines.renewables",
+        "machines.rotation",
+        "machines.trading",
+        "power.burners",
+        "power.electricity",
+        "power.industry",
+        "power.stored-rotation",
+        "storage.bulk",
+        "storage.handling",
+        "storage.portable"
+      ]
+    },
+    "transport": {
+      "branch": "",
+      "topics": [
+        "space.life-support",
+        "space.navigation",
+        "space.vehicle-transfer",
+        "transport.local",
+        "transport.passenger",
+        "transport.railway-builder",
+        "travel.destinations",
+        "vehicles.airships",
+        "vehicles.assembly",
+        "vehicles.controls",
+        "vehicles.engines",
+        "vehicles.radar",
+        "vehicles.water",
+        "vehicles.weapons"
+      ]
+    }
+  }
+}

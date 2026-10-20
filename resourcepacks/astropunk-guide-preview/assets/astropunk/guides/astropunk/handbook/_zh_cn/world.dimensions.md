@@ -80,7 +80,7 @@ Hybrid Aquatic 在 Terralith 地形之外加入海洋、河流、海岸与洞穴
 | 硫磺洞穴 |
 
 - [水生生物](adventure.aquatic.md)
-- [钓鱼栖息地](fishing.habitats.md)
+- [钓鱼指南](food.fishing.md)
 
 ***
 

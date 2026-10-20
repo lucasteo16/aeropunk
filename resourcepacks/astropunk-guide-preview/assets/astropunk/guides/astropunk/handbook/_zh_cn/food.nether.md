@@ -1,227 +1,170 @@
 ---
 navigation:
   title: "用下界食材烹饪"
-  position: 7
+  position: 6
   parent: reference.food.md
   icon: minecraft:crimson_fungus
 ---
 
 # 用下界食材烹饪
 
-## 疣猪兽与炽足兽
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+My+Nether%27s+Delight+guide+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+%E4%B8%8B%E7%95%8C%E7%BE%8E%E9%A3%9F+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@farmersdelight" /> <EmiSearch query="@minersdelight" /> <EmiSearch query="@mynethersdelight" />
+## 从辣椒开始
 
-![疣猪兽食材与下界厨房](images/visual-nether-kitchen.png)
+<EmiSearch query="@mynethersdelight" />
 
-疣猪兽食材与下界厨房
+粉末甘蔗生长在绯红森林。成熟且点亮的甘蔗可以反复采收：手持刀或剪刀右键点击，它会掉落辣椒，植株保留并重置。把辣椒放在砧板上用刀切，得到辣椒粉，并有四分之一概率多得一份。
 
-<ItemGrid>
-  <ItemIcon id="minersdelight:spicy_hoglin_stew_cup" />
-  <ItemIcon id="minersdelight:strider_stew_cup" />
-  <ItemIcon id="mynethersdelight:bacon-wrapped_sausage_on_a_stick" />
-  <ItemIcon id="mynethersdelight:blue_tenderloin_steak" />
-  <ItemIcon id="mynethersdelight:chilidog" />
-  <ItemIcon id="mynethersdelight:cooked_loin" />
-  <ItemIcon id="mynethersdelight:fried_hoglin_chop" />
-  <ItemIcon id="mynethersdelight:hoglin_hide" />
-  <ItemIcon id="mynethersdelight:hoglin_loin" />
-  <ItemIcon id="mynethersdelight:hoglin_sausage" />
-  <ItemIcon id="mynethersdelight:hotdog" />
-  <ItemIcon id="mynethersdelight:hotdog_with_mixed_salad" />
-  <ItemIcon id="mynethersdelight:hotdog_with_nether_salad" />
-  <ItemIcon id="mynethersdelight:minced_strider" />
-  <ItemIcon id="mynethersdelight:plate_of_cold_striderloaf" />
-  <ItemIcon id="mynethersdelight:plate_of_striderloaf" />
-  <ItemIcon id="mynethersdelight:plate_of_stuffed_hoglin" />
-  <ItemIcon id="mynethersdelight:plate_of_stuffed_hoglin_ham" />
-  <ItemIcon id="mynethersdelight:plate_of_stuffed_hoglin_snout" />
-  <ItemIcon id="mynethersdelight:raw_stuffed_hoglin" />
-  <ItemIcon id="mynethersdelight:red_loin_on_a_stick" />
-  <ItemIcon id="mynethersdelight:roasted_sausage" />
-  <ItemIcon id="mynethersdelight:sausage_and_potatoes" />
-  <ItemIcon id="mynethersdelight:spicy_hoglin_stew" />
-  <ItemIcon id="mynethersdelight:strider_egg" />
-  <ItemIcon id="mynethersdelight:strider_rock" />
-  <ItemIcon id="mynethersdelight:strider_slice" />
-  <ItemIcon id="mynethersdelight:strider_stew" />
-  <ItemIcon id="mynethersdelight:strider_with_grilled_fungus" />
-</ItemGrid>
+| 物品 | 外观 | 作用 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:bullet_pepper" /> | <ItemGrid><ItemIcon id="mynethersdelight:bullet_pepper" /></ItemGrid> | 成熟点亮甘蔗采到的辣椒 |
+| <ItemLink id="mynethersdelight:pepper_powder" /> | <ItemGrid><ItemIcon id="mynethersdelight:pepper_powder" /></ItemGrid> | 砧板切出的辣椒粉 |
+| <ItemLink id="mynethersdelight:bullet_pepper_crate" /> | <ItemGrid><ItemIcon id="mynethersdelight:bullet_pepper_crate" /></ItemGrid> | 存放的辣椒 |
 
-材料与容器
+| 辣椒菜 | 外观 | 用的形态 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:stuffed_pepper" /> | <ItemGrid><ItemIcon id="mynethersdelight:stuffed_pepper" /></ItemGrid> | 整颗辣椒 |
+| <ItemLink id="mynethersdelight:spicy_skewer" /> | <ItemGrid><ItemIcon id="mynethersdelight:spicy_skewer" /></ItemGrid> | 辣椒粉 |
+| <ItemLink id="mynethersdelight:spicy_curry" /> | <ItemGrid><ItemIcon id="mynethersdelight:spicy_curry" /></ItemGrid> | 辣椒粉 |
 
-<ItemGrid>
-  <ItemIcon id="farmersdelight:cooked_bacon" />
-  <ItemIcon id="minecraft:stick" />
-  <ItemIcon id="minecraft:warped_fungus" />
-  <ItemIcon id="minecraft:bowl" />
-  <ItemIcon id="mynethersdelight:bullet_pepper" />
-  <ItemIcon id="minecraft:nether_wart" />
-  <ItemIcon id="minecraft:wheat" />
-  <ItemIcon id="farmersdelight:milk_bottle" />
-  <ItemIcon id="minecraft:egg" />
-  <ItemIcon id="mynethersdelight:hoglin_trophy" />
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="farmersdelight:mixed_salad" />
-  <ItemIcon id="farmersdelight:nether_salad" />
-  <ItemIcon id="farmersdelight:ham" />
-  <ItemIcon id="mynethersdelight:warped_fungus_colony" />
-  <ItemIcon id="mynethersdelight:crimson_fungus_colony" />
-  <ItemIcon id="minecraft:crimson_fungus" />
-  <ItemIcon id="minecraft:potato" />
-  <ItemIcon id="minecraft:carrot" />
-  <ItemIcon id="mynethersdelight:rock_soup" />
-  <ItemIcon id="minecraft:warped_roots" />
-</ItemGrid>
+粉末炮是甘蔗作物物品，不是上桌菜品。
 
-My Nether's Delight 把下界狩猎食材用于香肠、炖菜和盘餐。猎杀疣猪兽取得里脊，猎杀炽足兽取得肉片。这些来源需要进入下界，并非主世界田里的作物。
+<ItemGrid><ItemIcon id="mynethersdelight:powder_cannon" /></ItemGrid>
+
+整颗辣椒与辣椒粉是两种食材，配方写哪一种就只收哪一种。
+
+| 菌丛 | 外观 | 作用 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:crimson_fungus_colony" /> | <ItemGrid><ItemIcon id="mynethersdelight:crimson_fungus_colony" /></ItemGrid> | 绯红菌来源 |
+| <ItemLink id="mynethersdelight:warped_fungus_colony" /> | <ItemGrid><ItemIcon id="mynethersdelight:warped_fungus_colony" /></ItemGrid> | 诡异菌来源 |
+
 ***
 
-## 辣椒与菌类
+## 疣猪兽与炽足兽切块
 
-<ItemGrid>
-  <ItemIcon id="mynethersdelight:bullet_pepper" />
-  <ItemIcon id="minersdelight:spicy_noodle_soup_cup" />
-  <ItemIcon id="mynethersdelight:crimson_stroganoff" />
-  <ItemIcon id="mynethersdelight:nether_burger" />
-  <ItemIcon id="mynethersdelight:pepper_powder" />
-  <ItemIcon id="mynethersdelight:spicy_cotton" />
-  <ItemIcon id="mynethersdelight:spicy_curry" />
-  <ItemIcon id="mynethersdelight:spicy_noodle_soup" />
-  <ItemIcon id="mynethersdelight:spicy_skewer" />
-  <ItemIcon id="mynethersdelight:stuffed_pepper" />
-</ItemGrid>
+| 生切块 | 外观 | 来源 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:hoglin_loin" /> | <ItemGrid><ItemIcon id="mynethersdelight:hoglin_loin" /></ItemGrid> | 疣猪兽 |
+| <ItemLink id="mynethersdelight:hoglin_sausage" /> | <ItemGrid><ItemIcon id="mynethersdelight:hoglin_sausage" /></ItemGrid> | 砧板切疣猪兽里脊，每条出两份 |
+| <ItemLink id="mynethersdelight:strider_slice" /> | <ItemGrid><ItemIcon id="mynethersdelight:strider_slice" /></ItemGrid> | 炽足兽 |
+| <ItemLink id="mynethersdelight:strider_egg" /> | <ItemGrid><ItemIcon id="mynethersdelight:strider_egg" /></ItemGrid> | 把炽足兽石放在切菜板上，用镐敲出蛋 |
 
-材料与容器
+| 加工形态 | 外观 | 做法 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:cooked_loin" /> | <ItemGrid><ItemIcon id="mynethersdelight:cooked_loin" /><ItemIcon id="mynethersdelight:fried_hoglin_chop" /></ItemGrid> | 加热 |
+| <ItemLink id="mynethersdelight:roasted_sausage" /> | <ItemGrid><ItemIcon id="mynethersdelight:roasted_sausage" /></ItemGrid> | 加热 |
+| <ItemLink id="mynethersdelight:minced_strider" /> | <ItemGrid><ItemIcon id="mynethersdelight:minced_strider" /></ItemGrid> | 砧板 |
+| <ItemLink id="mynethersdelight:bacon-wrapped_sausage_on_a_stick" /> | <ItemGrid><ItemIcon id="mynethersdelight:bacon-wrapped_sausage_on_a_stick" /><ItemIcon id="mynethersdelight:red_loin_on_a_stick" /></ItemGrid> | 合成肉串 |
 
-<ItemGrid>
-  <ItemIcon id="mynethersdelight:bullet_pepper_crate" />
-  <ItemIcon id="mynethersdelight:minced_strider" />
-  <ItemIcon id="minecraft:crimson_fungus" />
-  <ItemIcon id="farmersdelight:milk_bottle" />
-  <ItemIcon id="farmersdelight:raw_pasta" />
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="mynethersdelight:cooked_loin" />
-  <ItemIcon id="minecraft:twisting_vines" />
-  <ItemIcon id="minecraft:warped_fungus" />
-  <ItemIcon id="mynethersdelight:ghasta" />
-  <ItemIcon id="minecraft:blaze_rod" />
-  <ItemIcon id="minecraft:chicken" />
-  <ItemIcon id="farmersdelight:rice" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="minecraft:melon_slice" />
-  <ItemIcon id="minecraft:pumpkin" />
-  <ItemIcon id="farmersdelight:fried_egg" />
-  <ItemIcon id="mynethersdelight:hoglin_loin" />
-  <ItemIcon id="mynethersdelight:strider_slice" />
-  <ItemIcon id="minecraft:cooked_porkchop" />
-</ItemGrid>
+| 疣猪兽菜品 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:hotdog" /> | <ItemGrid><ItemIcon id="mynethersdelight:hotdog" /><ItemIcon id="mynethersdelight:chilidog" /></ItemGrid> | 香肠与面包 |
+| <ItemLink id="mynethersdelight:hotdog_with_mixed_salad" /> | <ItemGrid><ItemIcon id="mynethersdelight:hotdog_with_mixed_salad" /><ItemIcon id="mynethersdelight:hotdog_with_nether_salad" /></ItemGrid> | 配沙拉的热狗 |
+| <ItemLink id="mynethersdelight:sausage_and_potatoes" /> | <ItemGrid><ItemIcon id="mynethersdelight:sausage_and_potatoes" /></ItemGrid> | 香肠配马铃薯 |
+| <ItemLink id="mynethersdelight:blue_tenderloin_steak" /> | <ItemGrid><ItemIcon id="mynethersdelight:blue_tenderloin_steak" /><ItemIcon id="mynethersdelight:bleeding_tartar" /><ItemIcon id="mynethersdelight:roast_ear" /></ItemGrid> | 装盘疣猪兽菜 |
 
-子弹椒与菌类食材组成下界香料分支。切割一个子弹椒必得一份辣椒粉，并有百分之二十五的概率再得一份。完整辣椒与辣椒粉的配方用途不同。
+| 炽足兽菜品 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:strider_stew" /> | <ItemGrid><ItemIcon id="mynethersdelight:strider_stew" /></ItemGrid> | 锅炖汤 |
+| <ItemLink id="mynethersdelight:plate_of_striderloaf" /> | <ItemGrid><ItemIcon id="mynethersdelight:plate_of_striderloaf" /><ItemIcon id="mynethersdelight:plate_of_cold_striderloaf" /></ItemGrid> | 肉糕盘，冷热两态 |
+| <ItemLink id="mynethersdelight:strider_with_grilled_fungus" /> | <ItemGrid><ItemIcon id="mynethersdelight:strider_with_grilled_fungus" /></ItemGrid> | 炽足兽配烤菌 |
+
+疣猪兽皮与疣猪兽战利品不是食物，是狩猎副产物。
+
+<ItemGrid><ItemIcon id="mynethersdelight:hoglin_hide" /><ItemIcon id="mynethersdelight:hoglin_trophy" /></ItemGrid>
+
 ***
 
-## 恶魂与甜食
+## 酿疣猪兽
 
-<ItemGrid>
-  <ItemIcon id="mynethersdelight:dried_ghast_with_milk" />
-  <ItemIcon id="mynethersdelight:fries_ghasta" />
-  <ItemIcon id="mynethersdelight:ghasmati" />
-  <ItemIcon id="mynethersdelight:ghast_dough" />
-  <ItemIcon id="mynethersdelight:ghast_salad" />
-  <ItemIcon id="mynethersdelight:ghast_sourdough" />
-  <ItemIcon id="mynethersdelight:ghasta" />
-  <ItemIcon id="mynethersdelight:hot_cream" />
-  <ItemIcon id="mynethersdelight:hot_cream_cone" />
-  <ItemIcon id="mynethersdelight:magma_cake_slice" />
-  <ItemIcon id="mynethersdelight:plate_of_ghasta_with_cream" />
-  <ItemIcon id="mynethersdelight:sizzling_pudding" />
-  <ItemIcon id="mynethersdelight:tear_popsicle" />
-  <ItemIcon id="mynethersdelight:twisted_ghasta" />
-</ItemGrid>
+<EmiSearch query="@farmersdelight" />
 
-材料与容器
+先按下方配方合成生酿疣猪兽。
 
-<ItemGrid>
-  <ItemIcon id="farmersdelight:milk_bottle" />
-  <ItemIcon id="minecraft:bowl" />
-  <ItemIcon id="minecraft:paper" />
-  <ItemIcon id="minecraft:egg" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="minecraft:melon_slice" />
-  <ItemIcon id="minecraft:carrot" />
-  <ItemIcon id="farmersdelight:wheat_dough" />
-  <ItemIcon id="mynethersdelight:bullet_pepper" />
-  <ItemIcon id="minecraft:magma_cream" />
-  <ItemIcon id="minecraft:lava_bucket" />
-  <ItemIcon id="minecraft:bucket" />
-  <ItemIcon id="mynethersdelight:powder_cannon" />
-  <ItemIcon id="mynethersdelight:magma_cake_block" />
-  <ItemIcon id="minecraft:blaze_powder" />
-  <ItemIcon id="minecraft:ice" />
-  <ItemIcon id="minecraft:ghast_tear" />
-  <ItemIcon id="minecraft:stick" />
-  <ItemIcon id="minecraft:warped_fungus" />
-</ItemGrid>
+<Recipe id="mynethersdelight:crafting/raw_stuffed_hoglin" />
 
-猎杀恶魂可取得恶魂肉。切割一份必得一份恶魂米，并有百分之五的概率再得一份。恶魂米可用于面团与奶制料理。这些是不同加工分支，不是可互换的食材。
+生酿疣猪兽的合成会用到 <ItemLink id="farmersdelight:ham" />。把生酿疣猪兽放进受热的烹饪锅，加一份香辣调料、一个绯红菌和两份 <ItemLink id="farmersdelight:nether_salad" />，用碗作为盛装容器，煮成烤肉。
+
+| 阶段 | 外观 | 说明 |
+| --- | --- | --- |
+| 生块合成 | <ItemGrid><ItemIcon id="mynethersdelight:raw_stuffed_hoglin" /></ItemGrid> | 用皮、火腿、里脊与菌丛合成 |
+| 烤肉 | <ItemGrid><ItemIcon id="mynethersdelight:roast_stuffed_hoglin" /></ItemGrid> | 锅煮，需香辣调料、绯红菌、两份下界沙拉与碗 |
+
+放下烤肉，用刀切下耳朵，再用空碗取份。碗装份量依次为鼻部、火腿，然后是其余盘子。
+
+| 份量 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:plate_of_stuffed_hoglin_snout" /> | <ItemGrid><ItemIcon id="mynethersdelight:plate_of_stuffed_hoglin_snout" /><ItemIcon id="mynethersdelight:plate_of_stuffed_hoglin_ham" /><ItemIcon id="mynethersdelight:plate_of_stuffed_hoglin" /></ItemGrid> | 碗装份量，鼻部、火腿、整盘 |
+
 ***
 
-## 蛋类与日常食材
+## 恶魂：掉落、部位与面团
 
-<ItemGrid>
-  <ItemIcon id="minersdelight:egg_soup_cup" />
-  <ItemIcon id="minersdelight:rock_soup_cup" />
-  <ItemIcon id="mynethersdelight:bleeding_tartar" />
-  <ItemIcon id="mynethersdelight:boiled_egg" />
-  <ItemIcon id="mynethersdelight:breakfast_sampler" />
-  <ItemIcon id="mynethersdelight:burnt_roll" />
-  <ItemIcon id="mynethersdelight:deviled_egg" />
-  <ItemIcon id="mynethersdelight:egg_soup" />
-  <ItemIcon id="mynethersdelight:enchanted_golden_egg" />
-  <ItemIcon id="mynethersdelight:giant_takoyaki" />
-  <ItemIcon id="mynethersdelight:golden_egg" />
-  <ItemIcon id="mynethersdelight:hot_wings" />
-  <ItemIcon id="mynethersdelight:hot_wings_bucket" />
-  <ItemIcon id="mynethersdelight:roast_ear" />
-  <ItemIcon id="mynethersdelight:rock_soup" />
-  <ItemIcon id="mynethersdelight:scotch_eggs" />
-  <ItemIcon id="mynethersdelight:slices_of_bread" />
-  <ItemIcon id="mynethersdelight:toasts" />
-</ItemGrid>
+| 阶段 | 外观 | 操作 |
+| --- | --- | --- |
+| 恶魂掉落 | <ItemGrid><ItemIcon id="mynethersdelight:ghasta" /></ItemGrid> | 击杀恶魂掉落 |
+| 切出部位 | <ItemGrid><ItemIcon id="mynethersdelight:ghasmati" /></ItemGrid> | 砧板加刀 |
+| 面团 | <ItemGrid><ItemIcon id="mynethersdelight:ghast_dough" /><ItemIcon id="mynethersdelight:ghast_sourdough" /></ItemGrid> | 用部位合成 |
 
-材料与容器
+| 恶魂菜 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:fries_ghasta" /> | <ItemGrid><ItemIcon id="mynethersdelight:fries_ghasta" /><ItemIcon id="mynethersdelight:ghast_salad" /></ItemGrid> | 油炸与沙拉形态 |
+| <ItemLink id="mynethersdelight:twisted_ghasta" /> | <ItemGrid><ItemIcon id="mynethersdelight:twisted_ghasta" /></ItemGrid> | 扭纹面食 |
+| <ItemLink id="mynethersdelight:dried_ghast_with_milk" /> | <ItemGrid><ItemIcon id="mynethersdelight:dried_ghast_with_milk" /><ItemIcon id="mynethersdelight:plate_of_ghasta_with_cream" /></ItemGrid> | 牛奶与奶油盘 |
 
-<ItemGrid>
-  <ItemIcon id="mynethersdelight:minced_strider" />
-  <ItemIcon id="minecraft:egg" />
-  <ItemIcon id="minecraft:bowl" />
-  <ItemIcon id="mynethersdelight:strider_egg" />
-  <ItemIcon id="mynethersdelight:roasted_sausage" />
-  <ItemIcon id="minecraft:honey_bottle" />
-  <ItemIcon id="farmersdelight:fried_egg" />
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="minecraft:magma_cream" />
-  <ItemIcon id="minecraft:chicken" />
-  <ItemIcon id="mynethersdelight:bullet_pepper" />
-  <ItemIcon id="mynethersdelight:hoglin_sausage" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="mynethersdelight:ghasta" />
-  <ItemIcon id="farmersdelight:wheat_dough" />
-  <ItemIcon id="minecraft:gold_ingot" />
-  <ItemIcon id="minecraft:bucket" />
-  <ItemIcon id="mynethersdelight:strider_rock" />
-  <ItemIcon id="farmersdelight:minced_beef" />
-  <ItemIcon id="mynethersdelight:bread_loaf" />
-</ItemGrid>
+| 甜点 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:hot_cream" /> | <ItemGrid><ItemIcon id="mynethersdelight:hot_cream" /><ItemIcon id="mynethersdelight:hot_cream_cone" /></ItemGrid> | 奶油底与甜筒 |
+| <ItemLink id="mynethersdelight:sizzling_pudding" /> | <ItemGrid><ItemIcon id="mynethersdelight:sizzling_pudding" /><ItemIcon id="mynethersdelight:tear_popsicle" /></ItemGrid> | 布丁与冰点 |
+| <ItemLink id="mynethersdelight:magma_cake_block" /> | <ItemGrid><ItemIcon id="mynethersdelight:magma_cake_block" /><ItemIcon id="mynethersdelight:magma_cake_slice" /></ItemGrid> | 放下的蛋糕，切片供应 |
 
-蛋类料理必须使用配方接受的蛋。面包片和吐司既是食物，也是加工食材。杯装汤使用铜杯盛装，应区分成品汤与空容器。
 ***
 
-## 相关主题
+## 蛋类与面包
 
-- [食物与饥饿](food.hunger.md)
-- [作物食材](food.growing.md)
-- [烹饪工具](food.utensils.md)
+| 蛋类原料 | 外观 | 操作 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:strider_rock" /> | <ItemGrid><ItemIcon id="mynethersdelight:strider_rock" /></ItemGrid> | 放在切菜板上用镐敲开，得到炽足兽蛋 |
+
+| 蛋类菜 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:boiled_egg" /> | <ItemGrid><ItemIcon id="mynethersdelight:boiled_egg" /><ItemIcon id="mynethersdelight:deviled_egg" /></ItemGrid> | 水煮与魔鬼蛋 |
+| <ItemLink id="mynethersdelight:scotch_eggs" /> | <ItemGrid><ItemIcon id="mynethersdelight:scotch_eggs" /></ItemGrid> | 裹制蛋 |
+| <ItemLink id="mynethersdelight:golden_egg" /> | <ItemGrid><ItemIcon id="mynethersdelight:golden_egg" /><ItemIcon id="mynethersdelight:enchanted_golden_egg" /></ItemGrid> | 金蛋两态 |
+
+| 面包类 | 外观 | 作用 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:toasts" /> | <ItemGrid><ItemIcon id="mynethersdelight:toasts" /><ItemIcon id="mynethersdelight:slices_of_bread" /></ItemGrid> | 面包小份 |
+| <ItemLink id="mynethersdelight:bread_loaf" /> | <ItemGrid><ItemIcon id="mynethersdelight:bread_loaf" /><ItemIcon id="mynethersdelight:burnt_roll" /></ItemGrid> | 面包与烤卷 |
+
+***
+
+## 汤、杯装与咸味盘
+
+<EmiSearch query="@minersdelight" />
+
+| 汤 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:spicy_noodle_soup" /> | <ItemGrid><ItemIcon id="mynethersdelight:spicy_noodle_soup" /><ItemIcon id="mynethersdelight:egg_soup" /></ItemGrid> | 辣面汤与蛋汤 |
+| <ItemLink id="mynethersdelight:rock_soup" /> | <ItemGrid><ItemIcon id="mynethersdelight:rock_soup" /></ItemGrid> | 岩石汤 |
+| <ItemLink id="mynethersdelight:spicy_hoglin_stew" /> | <ItemGrid><ItemIcon id="mynethersdelight:spicy_hoglin_stew" /></ItemGrid> | 香辣疣猪兽炖汤 |
+
+| 杯装份 | 外观 | 容器 |
+| --- | --- | --- |
+| <ItemLink id="minersdelight:spicy_hoglin_stew_cup" /> | <ItemGrid><ItemIcon id="minersdelight:spicy_hoglin_stew_cup" /><ItemIcon id="minersdelight:strider_stew_cup" /></ItemGrid> | 铜杯 |
+| <ItemLink id="minersdelight:egg_soup_cup" /> | <ItemGrid><ItemIcon id="minersdelight:egg_soup_cup" /><ItemIcon id="minersdelight:rock_soup_cup" /></ItemGrid> | 铜杯 |
+| <ItemLink id="minersdelight:spicy_noodle_soup_cup" /> | <ItemGrid><ItemIcon id="minersdelight:spicy_noodle_soup_cup" /></ItemGrid> | 铜杯 |
+
+| 咸味盘 | 外观 | 说明 |
+| --- | --- | --- |
+| <ItemLink id="mynethersdelight:nether_burger" /> | <ItemGrid><ItemIcon id="mynethersdelight:nether_burger" /><ItemIcon id="mynethersdelight:crimson_stroganoff" /></ItemGrid> | 汉堡与奶油蘑菇面 |
+| <ItemLink id="mynethersdelight:spicy_cotton" /> | <ItemGrid><ItemIcon id="mynethersdelight:spicy_cotton" /><ItemIcon id="mynethersdelight:giant_takoyaki" /></ItemGrid> | 香辣与烘焙盘 |
+| <ItemLink id="mynethersdelight:hot_wings" /> | <ItemGrid><ItemIcon id="mynethersdelight:hot_wings" /><ItemIcon id="mynethersdelight:hot_wings_bucket" /></ItemGrid> | 鸡翅与桶装 |
+| <ItemLink id="mynethersdelight:breakfast_sampler" /> | <ItemGrid><ItemIcon id="mynethersdelight:breakfast_sampler" /></ItemGrid> | 混合早餐盘 |
+
+- [烹饪工具](food.utensils.md) 锅的热源、砧板切割与煎锅。
+- [饥饿与多样性](food.hunger.md) 饱和度、效果与食物多样性。
 
 ***
 

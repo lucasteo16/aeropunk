@@ -4,7 +4,7 @@ from pathlib import Path
 import re
 import subprocess
 import unittest
-from handbook_revision_contract import before_development_update
+from handbook_revision_contract import before_development_update, before_food_finalization
 
 ROOT = Path(__file__).resolve().parents[1]
 UPDATED = {
@@ -20,7 +20,9 @@ NEW = {'adventure.aquatic', 'fishing.habitats', 'food.seafood'}
 class FishingHandbookTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.content = json.loads((ROOT / 'docs/handbook-content.json').read_text())
+        # These assertions describe the historical fishing update. The later Food
+        # contract checks the live chapter, including the habitat retirement.
+        cls.content = before_food_finalization(json.loads((ROOT / 'docs/handbook-content.json').read_text()))
         cls.original = json.loads(subprocess.check_output(
             ['git', 'show', 'dc1ad93:docs/handbook-content.json'], cwd=ROOT, text=True))
         cls.evidence = json.loads((ROOT / 'docs/fishing-handbook-evidence.json').read_text())

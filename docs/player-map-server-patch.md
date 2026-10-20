@@ -1,6 +1,6 @@
 # Player map server patch
 
-Development release: 0.16.4-dev.
+Development release: 0.17.0-dev.
 
 Xaero's Minimap 26.6.0 and World Map 1.47.0 now target both client and server. Their selected publisher artifacts are unchanged, and both contain XaeroLib 1.7.3. Global player tracking is enabled through `config/xaero/lib/common.cfg`. Other values in that file remain unchanged.
 

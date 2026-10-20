@@ -1,0 +1,49 @@
+{
+  "development_base": "156dde43e513a468ae6a47db5b74bd676d742d49",
+  "topics": [
+    "food.utensils",
+    "food.hunger",
+    "food.nether",
+    "food.end",
+    "food.underground",
+    "food.encounters",
+    "food.machine-cooking",
+    "food.growing",
+    "food.fishing",
+    "reference.food",
+    "food.seafood"
+  ],
+  "localized_pages": 22,
+  "accepted_topic_hashes": {
+    "food.utensils": "b8569017486d90c1286382faa777c43e885cc48a4b4dd7a11b54e60599ea8c3b",
+    "food.hunger": "83ff94a8e4fdfdb98e27709e3ba70c8c9967281246e9e2d74c4e4036a1ef63aa",
+    "food.end": "673fe28271327d58b1279d2a9aa5767254beecb306b3265343f9855b5e972aea",
+    "food.machine-cooking": "97440d0cd0cd4aaf57c76a80e86c57251797c5fa06d8ed87b23b6af115bef92c",
+    "food.growing": "45748a246bd1a8cd3c9d9cdb2d219d532500a999d057954f8dfc99b84aae95e6",
+    "food.fishing": "1856419d097596408ef93917b094b29c1edfedf0e0fdee1e142d71fdb17229e4",
+    "reference.food": "e6e5bb39b16ad52852f980e0904613791ee665ea3cfa0192cd4a52dc1cbfe608",
+    "food.seafood": "097604c172877ed546c82f891297ece599420e3523d4e75b7b6be4a1ccf38525"
+  },
+  "named_final_review": [
+    "food.underground",
+    "food.nether",
+    "food.encounters"
+  ],
+  "food_only_source_preservation": true,
+  "status": "final review closed, approved Food-only integration",
+  "review_closure": {
+    "independent_findings": 1,
+    "open_findings": 0,
+    "closed_finding": "Veggieball pasta accepts baked cave carrot or vegan patty through its selected ingredient tag, corrected in both paragraph and table in both locales.",
+    "focused_tests_passed": 10,
+    "localized_parser_pages_passed": 22,
+    "source_suite_new_failures": 0,
+    "historical_source_failures_remaining": 8,
+    "historical_navigation_metadata_failures_remaining": 1
+  },
+  "runtime_and_rendering_tested": false,
+  "source_sha256": {
+    "before": "ac689c29a192f30b296b1b4c1f1ccee05d9f7291d2e4a22873aa2c87fa61898c",
+    "after": "49bde6efd6b551293d1336494ee1d1032c75c4d8a999a72ff4ef1ae2bb85b1ca"
+  }
+}
