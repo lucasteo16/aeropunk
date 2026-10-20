@@ -1,6 +1,6 @@
 {
-  "draft_articles": 122,
-  "article_count": 122,
+  "draft_articles": 121,
+  "article_count": 121,
   "category_count": 0,
   "navigation_page_count": 0,
   "root_page_count": 18,
@@ -221,6 +221,7 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/create-stam1o-tweaks.pw.toml",
         "mods/create.pw.toml",
         "mods/almostunified.pw.toml"
       ]
@@ -289,7 +290,6 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create-stam1o-tweaks.pw.toml",
         "mods/create-stuff-additions.pw.toml"
       ]
     },
@@ -1131,15 +1131,6 @@
         "mods/oceans-delight.pw.toml",
         "mods/starcatchers-delight.pw.toml"
       ]
-    },
-    {
-      "topic": "fishing.habitats",
-      "category": "Food and farming",
-      "filename": "fishing.habitats.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
     },
     {
       "topic": "creatures.wilderness",
@@ -2761,8 +2752,8 @@
       "metadata_path": "mods/create-stam1o-tweaks.pw.toml",
       "name": "Create: Stam1o Tweaks",
       "availability": "baseline",
-      "category": "Player utilities and quality of life",
-      "topic": "machines.miscellaneous",
+      "category": "Automation and industry",
+      "topic": "machines.ore-processing",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,

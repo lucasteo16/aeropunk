@@ -1,0 +1,14 @@
+{
+  "retired_topic": "fishing.habitats",
+  "replacement_topic": "food.fishing",
+  "reason": "Starcatcher guide owns live fish and custom-biome condition lookup.",
+  "source_base": "156dde43e513a468ae6a47db5b74bd676d742d49",
+  "retired_body_sha256": {
+    "en_us": "9c2c86d7106d8a3a76116a00528ce4cbd5313e63ca881e2e10c9b1773006a490",
+    "zh_cn": "a61d7b7490c970c2c8bda6a4acaeca9d9cd2695af08b553383d80c508be2fff5"
+  },
+  "incoming_link_topics": [
+    "world.dimensions",
+    "adventure.aquatic"
+  ]
+}

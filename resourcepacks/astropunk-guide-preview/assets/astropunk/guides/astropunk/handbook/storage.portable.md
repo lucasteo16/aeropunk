@@ -8,111 +8,90 @@ navigation:
 
 # Portable storage
 
-## Backpacks
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Sophisticated+Backpacks+upgrades+guide+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+%E7%B2%BE%E8%87%B4%E8%83%8C%E5%8C%85+%E5%8D%87%E7%BA%A7+%E6%95%99%E7%A8%8B)
+
+## First backpack
 
 <EmiSearch query="@sophisticatedbackpacks" />
 
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:backpack" />
-  <ItemIcon id="sophisticatedbackpacks:copper_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:iron_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:gold_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:diamond_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:netherite_backpack" />
-</ItemGrid>
+Craft a backpack, open the Curios panel from your inventory and put it in the back slot. To place it instead, sneak and right click a solid block while holding it, then right click the placed backpack to open it. Press <KeyBind id="key.sophisticatedbackpacks.open_backpack" /> to open the backpack you are wearing.
 
-| Backpack tier | Storage slots | Upgrade slots |
-| --- | --- | --- |
-| <ItemLink id="sophisticatedbackpacks:backpack" /> (leather) | 9 | 1 |
-| <ItemLink id="sophisticatedbackpacks:copper_backpack" /> | 18 | 1 |
-| <ItemLink id="sophisticatedbackpacks:iron_backpack" /> | 27 | 2 |
-| <ItemLink id="sophisticatedbackpacks:gold_backpack" /> | 36 | 2 |
-| <ItemLink id="sophisticatedbackpacks:diamond_backpack" /> | 45 | 3 |
-| <ItemLink id="sophisticatedbackpacks:netherite_backpack" /> | 54 | 3 |
+<Recipe id="sophisticatedbackpacks:backpack" />
 
-Start with leather, string and a wooden chest, then upgrade through copper, iron, gold, diamond and netherite in order. Iron requires a copper backpack. The diamond upgrade also needs a shulker shell. Netherite retains the smithing table, netherite upgrade template and netherite ingot. Check the recipe browser for exact ingredients.
+| Tier | View | Storage slots | Upgrade slots |
+| --- | --- | --- | --- |
+| <ItemLink id="sophisticatedbackpacks:backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:backpack" /></ItemGrid> | 9 | 1 |
+| <ItemLink id="sophisticatedbackpacks:copper_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:copper_backpack" /></ItemGrid> | 18 | 1 |
+| <ItemLink id="sophisticatedbackpacks:iron_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:iron_backpack" /></ItemGrid> | 27 | 2 |
+| <ItemLink id="sophisticatedbackpacks:gold_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:gold_backpack" /></ItemGrid> | 36 | 2 |
+| <ItemLink id="sophisticatedbackpacks:diamond_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:diamond_backpack" /></ItemGrid> | 45 | 3 |
+| <ItemLink id="sophisticatedbackpacks:netherite_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:netherite_backpack" /></ItemGrid> | 54 | 3 |
 
-Empty every old Backpacks! backpack before replacing the mod. Old backpacks do not convert automatically.
+Each material tier upgrades the existing backpack while keeping its contents. The netherite tier uses smithing.
 
 ***
 
-## Utility upgrades
+## Upgrades worth a slot
 
-<EmiSearch query="@chipped" /> <EmiSearch query="@create" />
-
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:upgrade_base" />
-  <ItemIcon id="sophisticatedbackpacks:crafting_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:stonecutter_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:tool_swapper_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:refill_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:feeding_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:jukebox_upgrade" />
-</ItemGrid>
-
-| Upgrade | Use |
-| --- | --- |
-| <ItemLink id="sophisticatedbackpacks:crafting_upgrade" /> | Crafting table in an upgrade tab. |
-| <ItemLink id="sophisticatedbackpacks:stonecutter_upgrade" /> | Stonecutting in an upgrade tab. |
-| <ItemLink id="sophisticatedbackpacks:tool_swapper_upgrade" /> | Basic automatic tool switching. |
-| <ItemLink id="sophisticatedbackpacks:refill_upgrade" /> | Basic replenishment of selected inventory stacks. |
-| <ItemLink id="sophisticatedbackpacks:feeding_upgrade" /> | Basic feeding from food stored in the backpack. |
-| <ItemLink id="sophisticatedbackpacks:jukebox_upgrade" /> | Basic portable music playback. |
-
-Upgrade Base requires Create brass. The seven Chipped workstation upgrades are also available.
-
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/glassblower_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/mason_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/loom_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" />
-</ItemGrid>
-
-| Chipped workstation upgrade |
-| --- |
-| <ItemLink id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/glassblower_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/mason_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/loom_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /> |
-
-Only the upgrades above are available. Tool switching, refill, feeding and jukebox use their basic versions. Stack multipliers, nested portable containers, automatic processing, fluid storage, energy storage and creature capture are unavailable.
+The upgrades below use an <ItemLink id="sophisticatedbackpacks:upgrade_base" />.
 
 <Recipe id="sophisticatedbackpacks:upgrade_base" />
 
+The Crafting Upgrade adds a crafting grid inside the backpack.
+
 <Recipe id="sophisticatedbackpacks:crafting_upgrade" />
 
-Sophisticated Backpacks Create Integration targets native Create contraptions. Do not assume it also supports Sable vehicles.
+| Upgrade | View | What it saves |
+| --- | --- | --- |
+| <ItemLink id="sophisticatedbackpacks:crafting_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:crafting_upgrade" /></ItemGrid> | Carrying a crafting table |
+| <ItemLink id="sophisticatedbackpacks:stonecutter_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:stonecutter_upgrade" /></ItemGrid> | A trip to a stonecutter |
+| <ItemLink id="sophisticatedbackpacks:tool_swapper_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:tool_swapper_upgrade" /></ItemGrid> | Opening the inventory to change tool |
+| <ItemLink id="sophisticatedbackpacks:refill_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:refill_upgrade" /></ItemGrid> | Restocking a hotbar stack from the pack |
+| <ItemLink id="sophisticatedbackpacks:feeding_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:feeding_upgrade" /></ItemGrid> | Eating from the pack |
+| <ItemLink id="sophisticatedbackpacks:jukebox_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:jukebox_upgrade" /></ItemGrid> | Playing discs from the pack |
+
+Open the backpack and place an upgrade in one of its upgrade slots. The upgrade tab then holds its controls, and you can take the upgrade back out without losing it.
+
+### Chipped workstations
+
+<EmiSearch query="@chipped" />
+
+Chipped adds seven upgrades that open the matching workstation inside the backpack's upgrade tab.
+
+| Upgrade | View | Bench it opens | Bench view |
+| --- | --- | --- | --- |
+| <ItemLink id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /></ItemGrid> | <ItemLink id="chipped:alchemy_bench" /> | <ItemGrid><ItemIcon id="chipped:alchemy_bench" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /></ItemGrid> | <ItemLink id="chipped:botanist_workbench" /> | <ItemGrid><ItemIcon id="chipped:botanist_workbench" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:carpenters_table" /> | <ItemGrid><ItemIcon id="chipped:carpenters_table" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/glassblower_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/glassblower_upgrade" /></ItemGrid> | <ItemLink id="chipped:glassblower" /> | <ItemGrid><ItemIcon id="chipped:glassblower" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/loom_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/loom_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:loom_table" /> | <ItemGrid><ItemIcon id="chipped:loom_table" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/mason_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/mason_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:mason_table" /> | <ItemGrid><ItemIcon id="chipped:mason_table" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:tinkering_table" /> | <ItemGrid><ItemIcon id="chipped:tinkering_table" /></ItemGrid> |
+
+This pack disables stack multiplier and furnace upgrades. Nested portable containers, automatic processing, fluid storage and creature capture are unavailable.
 
 ***
 
-## Shulker boxes
+## Shulker boxes for the big haul
 
 <EmiSearch query="@reinfshulker" />
 
-<ItemGrid>
-  <ItemIcon id="minecraft:shulker_box" />
-  <ItemIcon id="reinfshulker:copper_shulker_box" />
-  <ItemIcon id="reinfshulker:iron_shulker_box" />
-  <ItemIcon id="reinfshulker:gold_shulker_box" />
-  <ItemIcon id="reinfshulker:diamond_shulker_box" />
-  <ItemIcon id="reinfshulker:netherite_shulker_box" />
-</ItemGrid>
+A vanilla shulker box needs two shulker shells and one chest, and it keeps its contents when broken. Reinforced boxes keep the same behaviour and add a material tier.
 
-| Items & families | Use |
-| --- | --- |
-| <ItemLink id="minecraft:shulker_box" /> | Vanilla portable container. Retains contents when broken. |
-| <ItemLink id="reinfshulker:copper_shulker_box" />, <ItemLink id="reinfshulker:iron_shulker_box" /> | Reinforced Shulker Boxes, copper and iron families. |
-| <ItemLink id="reinfshulker:gold_shulker_box" />, <ItemLink id="reinfshulker:diamond_shulker_box" />, <ItemLink id="reinfshulker:netherite_shulker_box" /> | Gold, diamond and netherite families. Each also has dyed variants. |
+| Box | View | Slots | Material |
+| --- | --- | --- | --- |
+| Vanilla shulker box | <ItemGrid><ItemIcon id="minecraft:shulker_box" /></ItemGrid> | 27 | Two shells and a chest |
+| <ItemLink id="reinfshulker:copper_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:copper_shulker_box" /></ItemGrid> | 45 | Vanilla box and eight copper ingots |
+| <ItemLink id="reinfshulker:iron_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:iron_shulker_box" /></ItemGrid> | 54 | Copper box and eight iron ingots |
+| <ItemLink id="reinfshulker:gold_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:gold_shulker_box" /></ItemGrid> | 81 | Iron box and eight gold ingots |
+| <ItemLink id="reinfshulker:diamond_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:diamond_shulker_box" /></ItemGrid> | 108 | Gold box and eight diamonds |
+| <ItemLink id="reinfshulker:netherite_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:netherite_shulker_box" /></ItemGrid> | 108 | Diamond box, ingot and template |
 
-Vanilla, copper, iron, gold, diamond and netherite shulker capacities remain 27, 45, 54, 81, 108 and 108 slots. Easy Shulker Boxes provides inventory access to supported containers. Shulker Drops Two defaults to two shells, but the drop chance still applies unless changed in settings.
+Every tier can be dyed, which is a simple way to label a wall of storage.
 
-- [Bulk storage](storage.bulk.md)
+Shulker boxes cannot go inside a backpack in this pack, including the reinforced tiers. Carry them in your ordinary inventory instead.
+
+Next step is storage a factory can fill. [Bulk storage](storage.bulk.md) covers vaults and silos.
 
 ***
 

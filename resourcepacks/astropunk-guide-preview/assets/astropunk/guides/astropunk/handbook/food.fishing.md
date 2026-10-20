@@ -13,106 +13,66 @@ item_ids:
 
 # Fishing
 
-## Starcatcher
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Starcatcher%20fishing%20rod%20guide%20minigame%20tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Starcatcher%20%E9%92%93%E9%B1%BC%20%E9%B1%BC%E7%AB%BF%20%E6%8C%87%E5%8D%97%20%E5%B0%8F%E6%B8%B8%E6%88%8F%20%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@starcatcher" />
+## Get the guide
 
-![Reeling in a Starcatcher catch](images/visual-fishing-reeling.png)
 
-Reeling in a Starcatcher catch
+Starcatcher's Rod is the only rod that reaches the Starcatcher catch table. It needs one hook and one bobber in its recipe, and the mod states that a rod will not work without both.
 
-<ItemGrid>
-  <ItemIcon id="starcatcher:starcatcher_rod" />
-  <ItemIcon id="starcatcher:starcatcher_guide" />
-  <ItemIcon id="starcatcher:hook" />
-  <ItemIcon id="starcatcher:bobber" />
-  <ItemIcon id="starcatcher:tackle_box_cyan" />
-</ItemGrid>
 
-Starcatcher adds habitat-dependent catches and a reeling minigame. Use <ItemLink id="starcatcher:starcatcher_rod" /> for these catches. An ordinary Minecraft rod supplies basic catches rather than the full Starcatcher collection.
-
-| Equipment | Purpose |
-| --- | --- |
-| <ItemLink id="starcatcher:starcatcher_guide" /> | Catch collection, species requirements and the mod's fishing instructions. |
-| <ItemLink id="starcatcher:hook" /> and <ItemLink id="starcatcher:bobber" /> | Required rod attachments. Different types change fishing modifiers. |
-| <ItemLink id="starcatcher:tackle_box_cyan" /> | Stores catches and tackle, and lets you change rod attachments. Colored variants serve the same purpose. |
-
-***
-
-## Getting started
-
-![Tackle Boxes and fishing attachments](images/visual-fishing-tackle.png)
-
-Tackle Boxes and fishing attachments
+Starcatcher's Guide is the lookup for every species. It lists the biome, fluid, height, light, time, weather and bait each fish needs, so read an entry before you travel.
 
 <Recipe id="starcatcher:starcatcher_rod" />
 
 <Recipe id="starcatcher:starcatcher_guide" />
 
-1. Craft the rod and keep its hook and bobber fitted. Use a Tackle Box to change attachments.
+1. Craft the rod from two sticks, one string, a hook and a bobber.
+2. Craft the guide from the rod and one book, shapeless.
+3. Use the guide, or press the Open guide key binding, to read entries.
 
-2. Cast into suitable water and reel when a fish bites.
+Each entry states the biome, the fluid, the dimension, the height band and light, and the time and weather it needs. Biome is only the first filter, because one biome can hold a surface lake and a cave pool with different fish. Read the entry, then choose the water, and treat the guide as the only condition list.
 
-3. During the minigame, hit the fish's sweet spots using <KeyBind id="key.starcatcher.minigame_hit" />.
-
-Frozen and treasure sweet spots behave differently. The Guide's Sweetspot Types and Minigame Settings entries explain the timing and provide practice.
-
-Check a species in the Guide before choosing a fishing spot. Matching the biome alone is not enough. Fluid, dimension, elevation, time, weather, light and bait can also restrict a catch.
+<EmiSearch query="@starcatcher" />
 
 ***
 
-## Bait & special catches
+## First cast
 
-<ItemGrid>
-  <ItemIcon id="starcatcher:worm" />
-  <ItemIcon id="starcatcher:cherry_bait" />
-  <ItemIcon id="starcatcher:amethyst_hook" />
-  <ItemIcon id="starcatcher:vanilla_hook" />
-  <ItemIcon id="starcatcher:vanilla_bobber" />
-  <ItemIcon id="minecraft:bucket" />
-</ItemGrid>
+![Reeling in a Starcatcher catch](images/visual-fishing-reeling.png)
 
-Worms and specialized baits change lure time or catch selection. Cherry Bait favors cherry-grove fish. A preferred bait improves selection, while a required bait is a condition that must be met.
+Reeling in a Starcatcher catch
 
-The Vanilla-flavoured Hook paired with the Vanilla-flavoured Bobber skips the minigame. Lava fishing needs an Amethyst Hook or a netherite-upgraded rod. Nether and End catches still require their own dimensions and fluids.
+1. Stand at water that matches the entry you picked and cast.
+2. Wait for the bite, then reel. A minigame opens with the fish on the hook.
+3. Hit the highlighted zones with <KeyBind id="key.starcatcher.minigame_hit" /> until the meter fills.
 
-Use a bucket as bait for species whose Guide entry supports bucket capture. An Almighty Worm produces a living catch where the species supports it. Not every catch has a summonable model or a bucket form.
+The catch is confirmed when the fish item, or its bucket form, reaches your inventory and the guide records the entry. A vanilla fishing rod still pulls vanilla loot from the same water.
 
 ***
 
-## Hybrid Aquatic catches
+## Tackle
 
-<EmiSearch query="@hybrid_aquatic" />
+<ItemGrid><ItemIcon id="starcatcher:hook" /><ItemIcon id="starcatcher:bobber" /></ItemGrid>
 
-The Hybrid Aquatic compatibility addon adds its fish to Starcatcher's catch definitions. They share the Guide and minigame but keep their species-specific conditions. Natural swimming creatures and rod catches use different rules. Seeing an animal nearby does not guarantee a rod can catch it there.
+A hook and a bobber are the two parts every cast needs. Beyond that, hooks, bobbers and baits act as modifiers on the same cast, and the guide entry states the conditions for the fish you want.
 
-***
+<ItemGrid><ItemIcon id="starcatcher:worm" /><ItemIcon id="starcatcher:cherry_bait" /><ItemIcon id="starcatcher:tackle_box_cyan" /></ItemGrid>
 
-## Storage & collecting
-
-![Living catches in aquariums](images/visual-fishing-aquariums.png)
-
-Living catches in aquariums
-
-<ItemGrid>
-  <ItemIcon id="starcatcher:oak_tackle_box_boat" />
-  <ItemIcon id="starcatcher:aquarium" />
-  <ItemIcon id="starcatcher:oak_fish_plaque" />
-  <ItemIcon id="starcatcher:tournament_stand" />
-  <ItemIcon id="starcatcher:fish_radar" />
-</ItemGrid>
-
-Tackle Box Boats combine boat travel with fishing storage. Aquariums hold living bucketed catches, while Fish Plaques display catches. A Tournament Stand hosts optional competitions. Fish Radar is a later tool for viewing local fishing possibilities, not a prerequisite for the first catch.
+Baits change the modifiers of a cast, and the tackle box stores attachments and swaps them without a crafting table. Change one attachment at a time, then repeat a short cast, so you can tell which change helped.
 
 ***
 
-## Related topics
 
-- [Fishing habitats](fishing.habitats.md)
-- [Seafood & preparation](food.seafood.md)
-- [Aquatic wildlife](adventure.aquatic.md)
-- [Food stacks & variety](food.hunger.md)
+## Keep the catch
 
+<ItemGrid><ItemIcon id="starcatcher:aquarium" /><ItemIcon id="starcatcher:oak_fish_plaque" /><ItemIcon id="starcatcher:tournament_stand" /><ItemIcon id="starcatcher:fish_radar" /></ItemGrid>
+
+Most catches are food and belong in [Seafood](food.seafood.md). A bucket keeps a catch alive, and <ItemLink id="starcatcher:aquarium" /> holds bucketed fish and scales the model to the recorded size. A <ItemLink id="starcatcher:oak_fish_plaque" /> mounts one catch, a <ItemLink id="starcatcher:tournament_stand" /> runs a timed contest, and <ItemLink id="starcatcher:fish_radar" /> reads fishing possibilities nearby.
+
+- [Seafood](food.seafood.md) Cook the catch.
+- [Hunger & variety](food.hunger.md) Fit fish into a varied diet.
+- [Crop ingredients](food.growing.md) Grow the starch and vegetables beside the fish.
 
 ***
 
