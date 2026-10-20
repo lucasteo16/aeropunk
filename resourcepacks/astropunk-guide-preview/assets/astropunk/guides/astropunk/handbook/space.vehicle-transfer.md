@@ -10,52 +10,57 @@ item_ids:
 
 # Orbital flight
 
-## Rocket propulsion
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Cosmonautics+Rocketnautics+rocket+Moon+transfer+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Cosmonautics+%E7%81%AB%E7%AE%AD+%E6%9C%88%E7%90%83+%E7%BB%B4%E5%BA%A6%E8%BD%AC%E7%A7%BB+%E6%95%99%E7%A8%8B)
+
+## Launch vehicle
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
 ![Spacecraft above Earth](images/feedback-earth-orbit.png)
 
-Spacecraft above Earth
+<ItemGrid><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="rocketnautics:booster_thruster" /><ItemIcon id="rocketnautics:thruster_mount" /><ItemIcon id="rocketnautics:rcs_thruster" /><ItemIcon id="rocketnautics:titanium_ingot" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="rocketnautics:rocket_thruster" />
-  <ItemIcon id="create:mechanical_crafter" />
-  <ItemIcon id="minecraft:lava_bucket" />
-</ItemGrid>
+An orbital craft is an assembled Sable vehicle carrying rocket propulsion, fuel storage and controls. Build and test the hull through [Assembly](vehicles.assembly.md), then prove its fuel supply and steering at low altitude before attempting a transfer.
 
-| Equipment | Use |
+| Part | Role |
 | --- | --- |
-| <ItemLink id="rocketnautics:rocket_thruster" /> | Liquid-fuel propulsion for an assembled physical ship. |
-| <ItemLink id="create:mechanical_crafter" /> | Crafts the thruster. Find its mechanical crafting layout in the recipe browser. |
-| <ItemLink id="minecraft:lava_bucket" /> | Represents Lava fuel. Supply the fluid through the ship's fluid system, rather than inserting a bucket as a crafting ingredient. |
+| <ItemLink id="rocketnautics:rocket_thruster" /> | Main rocket propulsion |
+| <ItemLink id="rocketnautics:booster_thruster" /> | Additional launch thrust |
+| <ItemLink id="rocketnautics:thruster_mount" /> | Thruster mounting component |
+| <ItemLink id="rocketnautics:rcs_thruster" /> | Maneuvering thrust |
 
-The thruster burns rocket fuel, not rotational power. Lava is a supported starting fuel. Its Ponder scene shows the engine and tank arrangement.
+Rocket fuel is not rotational power. Use the selected thruster's recipe and fuel requirements and check that the fluid connection actually supplies it. Tank height alone does not prove that a fuel connection works. For the fuel and lava-refining chain, use the recipe browser rather than assuming any fluid will burn.
 
-***
+## Crossing into Deep Space
 
-## Leaving the Overworld
+![Surface transfer heights, schematic and not to scale](images/transport-space-transfer-en_us.png)
 
-Assemble a physical spacecraft with Sable, fit the thruster and keep its fuel supply running. Crossing above world Y 20,000 transfers the ship and nearby passengers into Deep Space. This height is a world coordinate, not a distance above the launch pad.
+The pack puts the transfer at height 20,000. Climb above it and the ship, plus the passengers aboard, moves into Deep Space. That is a world height, not a height above the launch pad, so a base on a mountain starts the count higher.
 
-Deep Space is the orbital route to planetary surfaces. A change in sky appearance alone does not indicate a dimension transition.
+| Height | What changes | What to do |
+| --- | --- | --- |
+| 7,000 | Drag has fallen to zero | Stop relying on propellers |
+| 20,000 | Transfer height into Deep Space | Cross it with fuel left for the return |
+| Above 5,000 | Overworld breathing becomes unsafe | Equip helmet and charged air supply before launch |
 
-***
+The crew needs that air supply before the crossing, as covered in [Space life support](space.life-support.md).
 
-## Surface entry
+A change in sky colour is not a transfer. Check the world height and the dimension name, not the view.
 
-Approach the current linked planet in Deep Space. Crossing inward to within 20,000 blocks of its surface transfers the ship into that planet's dimension at world Y 19,000. The Overworld and Moon use these boundaries. Surface entry leaves the ship high above the terrain, not landed or under automatic control.
+## Arriving
 
-Slow descent before world Y 2,500. Between Y 1,000 and Y 2,500, downward speeds above 60 blocks per second cause heating. Stronger heating can damage nearby passengers.
+<ItemGrid><ItemIcon id="rocketnautics:rcs_thruster" /><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="create:mechanical_crafter" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
 
-***
+The destination must have a configured surface dimension. Earth and the Moon are connected in this pack. a body appearing in the hologram is not proof that it has a landable world.
 
-## Related topics
+From deep space, approach the intended body's transfer boundary. The surface arrival coordinate is 19,000, below the 20,000 ascent-transfer threshold, so arriving is not the same as touching down. Check the dimension, altitude and velocity before beginning a controlled descent.
 
-- [Assembly](vehicles.assembly.md)
-- [Dimensions](world.dimensions.md)
-- [Space life support](space.life-support.md)
-- [Space navigation](space.navigation.md)
+1. Reserve fuel for braking, landing and the return ascent. Crossing the boundary does not stop the craft.
+2. Use <ItemLink id="simulated:altitude_sensor" /> and <ItemLink id="simulated:velocity_sensor" /> to judge height and descent speed. Keep the craft controllable rather than simply cutting thrust and free-falling.
+3. Test braking in short corrections. The Moon's configured surface acceleration is 2.0 against the Overworld's 11.0. lower gravity changes the thrust needed to hover, not a rule that the craft falls faster.
+4. Land on clear ground before disassembly. For the return, climb above 20,000 again, navigate back toward Earth in deep space and manage a second descent.
+
+High-speed planetary entry is hazardous. Do not treat a successful transfer as proof that the landing speed is safe.
 
 
 ***

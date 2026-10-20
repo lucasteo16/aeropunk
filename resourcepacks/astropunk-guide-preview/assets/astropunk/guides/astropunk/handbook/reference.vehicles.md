@@ -7,65 +7,55 @@ navigation:
 
 # Transport
 
-## Physical vehicles
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+Create+transport+trains+airships+submarines+guide) · [中文](https://www.youtube.com/results?search_query=Minecraft+Create+%E4%BA%A4%E9%80%9A+%E5%88%97%E8%BD%A6+%E9%A3%9E%E8%89%87+%E6%BD%9C%E8%89%87+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@create_submarine" />
+## Land and water
 
-<ItemGrid>
-  <ItemIcon id="simulated:physics_assembler" />
-  <ItemIcon id="offroad:tire" />
-  <ItemIcon id="aeronautics:white_envelope" />
-  <ItemIcon id="create_submarine:ballast_tank" />
-</ItemGrid>
+<EmiSearch query="@create_submarine" /> <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" />
 
-- [Assembly](vehicles.assembly.md) Turn a block-built hull into a physical vehicle.
-- [Airships](vehicles.airships.md) Choose lift and propulsion for an airship.
-- [Engines](vehicles.engines.md) Compare power and propulsion components.
-- [Water vehicles](vehicles.water.md) Prepare flotation, diving equipment and underwater travel.
+<ItemGrid><ItemIcon id="create_hypertube:hypertube" /><ItemIcon id="offroad:tire" /><ItemIcon id="createrailwaysnavigator:navigator" /><ItemIcon id="create:track" /><ItemIcon id="create_submarine:ballast_tank" /></ItemGrid>
+
+- [Local transport](transport.local.md) Base tubes and small road vehicles.
+- [Passenger travel](transport.passenger.md) Find a service and read departure information.
+- [Railway building](transport.railway-builder.md) Build, drive and schedule a train.
+- [Underwater travel](vehicles.water.md) Ballast, propulsion and breathing for a submarine.
 
 ***
 
-## Controls & equipment
+## Build and equip a vehicle
 
 <EmiSearch query="@aeroworks" /> <EmiSearch query="@createbigcannons" /> <EmiSearch query="@create_radar" />
 
-<ItemGrid>
-  <ItemIcon id="aeroworks:control_desk" />
-  <ItemIcon id="create_radar:radar_dish_block" />
-  <ItemIcon id="createbigcannons:cannon_mount" />
-</ItemGrid>
+<ItemGrid><ItemIcon id="simulated:physics_assembler" /><ItemIcon id="aeroworks:control_desk" /><ItemIcon id="aeronautics:white_envelope" /><ItemIcon id="create_radar:radar_dish_block" /><ItemIcon id="createbigcannons:cannon_mount" /></ItemGrid>
 
-- [Controls](vehicles.controls.md) Connect pilot controls to the machinery they operate.
-- [Radar](vehicles.radar.md) Detect targets and understand identification limits.
-- [Weapons](vehicles.weapons.md) Mount and supply vehicle weapons.
-
-***
-
-## Routes & destinations
-
-<EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" /> <EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
-
-<ItemGrid>
-  <ItemIcon id="createrailwaysnavigator:navigator" />
-  <ItemIcon id="create:track" />
-  <ItemIcon id="create_hypertube:hypertube" />
-  <ItemIcon id="waystones:waystone" />
-  <ItemIcon id="tempad:tempad" />
-</ItemGrid>
-
-- [Passenger travel](transport.passenger.md) Find a train service and plan a journey.
-- [Railway building](transport.railway-builder.md) Build railway infrastructure and schedule services.
-- [Local transport](transport.local.md) Move through a base without building a complete vehicle.
-- [Teleportation](travel.destinations.md) Use discovered or placed teleportation destinations.
-
+- [Assembly](vehicles.assembly.md) Turn a connected hull into a moving body.
+- [Controls](vehicles.controls.md) Connect pilot input to working machinery.
+- [Engines](vehicles.engines.md) Choose propulsion, power and fuel.
+- [Airships](vehicles.airships.md) Lift, balance and steer an airborne hull.
+- [Radar](vehicles.radar.md) Build a detection and identification network.
+- [Weapons](vehicles.weapons.md) Mount, load and aim separate weapon families.
 
 ***
 
-## Space
+## Spaceflight
 
-- [Orbital flight](space.vehicle-transfer.md)
-- [Space life support](space.life-support.md)
-- [Space navigation](space.navigation.md)
+<EmiSearch query="@rocketnautics" />
+
+<ItemGrid><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="rocketnautics:space_helmet" /><ItemIcon id="rocketnautics:hologram_block" /></ItemGrid>
+
+- [Orbital flight](space.vehicle-transfer.md) Launch, transfer, land and return.
+- [Life support](space.life-support.md) Prepare breathing equipment and air supply.
+- [Space navigation](space.navigation.md) Read the system and connected surface worlds.
+
+***
+
+## Teleportation
+
+<EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
+
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="tempad:tempad" /></ItemGrid>
+
+- [Teleportation](travel.destinations.md) Choose discovered, placed or recorded endpoints.
 
 
 ***

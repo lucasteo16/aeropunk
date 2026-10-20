@@ -7,44 +7,57 @@ navigation:
 
 # Machines & storage
 
-## Containers & handling
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+6+storage+automation+power+beginner+tutorial) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B+6+%E5%82%A8%E5%AD%98+%E8%87%AA%E5%8A%A8%E5%8C%96+%E5%8A%A8%E5%8A%9B+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@create" /> <EmiSearch query="@interactic" />
+## Storage
 
-| Reference | Contents |
+<EmiSearch query="@create" /> <EmiSearch query="@interactic" /> <EmiSearch query="@reinfshulker" />
+
+Choose a topic by its job. Hoppers can fill a vault without rotational power. Powered processing needs a drive, and burner heat is separate from both rotation and fan blasting.
+
+| Topic | Contents |
 | --- | --- |
-| <ItemImage id="minecraft:shulker_box" /> [Portable storage](storage.portable.md) | Backpacks, reinforced shulker tiers and inventory access. |
-| <ItemImage id="create:item_vault" /> [Bulk storage](storage.bulk.md) | Vault, shipping container, silo and fluid vessel families. |
-| <ItemImage id="interactic:item_filter" /> [Inventory handling](storage.handling.md) | Search, sorting, transfer, pickup filtering and deletion. |
+| <ItemImage id="minecraft:shulker_box" /> [Portable storage](storage.portable.md) | Backpacks and reinforced shulker boxes. |
+| <ItemImage id="interactic:item_filter" /> [Inventory tools](storage.handling.md) | Sorting, transfer, pickup filters and deletion. |
+| <ItemImage id="create:item_vault" /> [Bulk storage](storage.bulk.md) | Vaults, silos, containers and inventory access. |
 
 ***
 
-## Machines & materials
+## Power and transmission
 
-<EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@molten_vents" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
+<EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" />
 
-| Reference | Contents |
+| Topic | Contents |
 | --- | --- |
-| <ItemImage id="create:crushing_wheel" /> [Ore processing](machines.ore-processing.md) | Millstone, crushing wheels and fan washing, with exact outputs. |
-| <ItemImage id="create:water_wheel" /> [Rotation & transmission](machines.rotation.md) | Water, wind and steam sources, gearboxes and clutches. |
-| <ItemImage id="create:packager" /> [Material routing](machines.logistics.md) | Belts, pipes, packages and stock networks. |
-| <ItemImage id="molten_vents:active_molten_asurine" /> [Renewable stone](machines.renewables.md) | Six molten-vent stone families and activation entry. |
-| <ItemImage id="create_enchantment_industry:mechanical_grindstone" /> [Enchanting machinery](machines.enchanting.md) | Liquid experience, enchanters, printers and manual anvils. |
-| <ItemImage id="trading_floor:trading_depot" /> [Trading machinery](machines.trading.md) | Trading Depot, workstations and two-input trades. |
-| <ItemImage id="create_sa:portable_drill" /> [Portable tools & recipes](machines.miscellaneous.md) | Engine and tank components, portable tools and extra material recipes. |
+| <ItemImage id="create:water_wheel" /> [Rotational power](machines.rotation.md) | Sources, shafts, gears and controls. |
+| <ItemImage id="createsprings:spring" /> [Stored rotation](power.stored-rotation.md) | Kinetic batteries and spring mechanisms. |
+| <ItemImage id="electroenergetics:accumulator" /> [Electrical circuits](power.electricity.md) | Electro Energetics generation, wiring, protection and railway supply. |
 
 ***
 
-## Power & industry
+## Material production
 
-<EmiSearch query="@tfmg" /> <EmiSearch query="@electroenergetics" /> <EmiSearch query="@createsprings" />
+<EmiSearch query="@tfmg" /> <EmiSearch query="@molten_vents" />
 
-| Reference | Contents |
+| Topic | Contents |
 | --- | --- |
-| <ItemImage id="electroenergetics:accumulator" /> [Electricity](power.electricity.md) | Alternators, wiring, meters, protection and railway supply. |
-| <ItemImage id="tfmg:coke_oven" /> [Industrial machinery](power.industry.md) | Coke, metallurgy, oil, engines and industrial electricity. |
-| <ItemImage id="create:blaze_burner" /> [Burners & liquid fuel](power.burners.md) | Blaze Burner extension and named accepted fluids. |
-| <ItemImage id="createsprings:spring" /> [Stored rotation](power.stored-rotation.md) | Kinetic batteries, springs and spring-powered tools. |
+| <ItemImage id="create:crushing_wheel" /> [Material processing](machines.ore-processing.md) | Milling, crushing, fan processing, pressing and mixing. |
+| <ItemImage id="create:blaze_burner" /> [Process heat](power.burners.md) | Blaze Burner heat states and solid or liquid feeding. |
+| <ItemImage id="tfmg:coke_oven" /> [Steel and oil](power.industry.md) | Coke, metallurgy, oil refining, engines and industrial circuits. |
+| <ItemImage id="molten_vents:active_molten_asurine" /> [Molten vents](machines.renewables.md) | Activate underwater cores and convert lava into orestone. |
+
+***
+
+## Routing, tools and automation
+
+<EmiSearch query="@create_enchantment_industry" /> <EmiSearch query="@create_sa" /> <EmiSearch query="@trading_floor" />
+
+| Topic | Contents |
+| --- | --- |
+| <ItemImage id="create:packager" /> [Item and fluid routing](machines.logistics.md) | Belts, pipes, arms, packages and stock networks. |
+| <ItemImage id="create_sa:portable_drill" /> [Portable tools and drones](machines.miscellaneous.md) | Carried tools, refill tanks and drone controls. |
+| <ItemImage id="create_enchantment_industry:mechanical_grindstone" /> [Enchanting](machines.enchanting.md) | Liquid experience, enchanting, printing and repairs. |
+| <ItemImage id="trading_floor:trading_depot" /> [Trading](machines.trading.md) | Workstation connections and automated villager trades. |
 
 ***
 
@@ -56,20 +69,20 @@ navigation:
 
 | Mod | Purpose |
 | --- | --- |
-| ![Create](images/create-icon.png) [Create](machines.ore-processing.md) | Machines, rotational power and material processing |
+| ![Create](images/create-icon.png) [Material processing](machines.ore-processing.md) | Machines, rotational power and material processing |
 | ![Create: Connected](images/create-connected-icon.png) [Create: Connected](machines.rotation.md) | Additional components for Create machinery |
-| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Renewable Create ore stones and resources |
+| ![Create: Molten Vents](images/create-molten-vents-icon.png) [Molten vents](machines.renewables.md) | Renewable Create ore stones and resources |
 
 ***
 
-### Power & materials
+### Power and materials
 
 | Mod | Purpose |
 | --- | --- |
 | ![Create: Electro Energetics](images/create-electro-energetics-icon.png) [Create: Electro Energetics](power.electricity.md) | Electric generation, transmission and consumers |
-| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Industrial materials and fuel systems |
-| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Liquid fuel for blaze burners |
-| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Rotational energy storage |
+| ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Steel and oil](power.industry.md) | Industrial materials and fuel systems |
+| ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Process heat](power.burners.md) | Liquid fuel for blaze burners |
+| ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Spring mechanisms and devices |
 
 ***
 
@@ -100,7 +113,7 @@ navigation:
 | ![Create: Liquid Fuel](images/create-liquid-fuel-icon.png) [Create: Liquid Fuel](power.burners.md) | Lets Create blaze burners consume pumped liquid fuel. | No separate item search |
 | ![Create: Molten Vents](images/create-molten-vents-icon.png) [Create: Molten Vents](machines.renewables.md) | Provides renewable Create ore-bearing stones through molten vents. | <EmiSearch query="@molten_vents" /> |
 | ![Create: Springs](images/create-springs-icon.png) [Create: Springs](power.stored-rotation.md) | Stores rotational energy in springs for later use. | <EmiSearch query="@createsprings" /> |
-| ![Create: Stam1o Tweaks](images/catalog-46rgf8h2.png) [Create: Stam1o Tweaks](machines.miscellaneous.md) | Adjusts Create recipes and lets diving boots counter levitation. | No separate item search |
+| ![Create: Stam1o Tweaks](images/catalog-46rgf8h2.png) [Create: Stam1o Tweaks](machines.ore-processing.md) | Adjusts Create recipes and lets diving boots counter levitation. | No separate item search |
 | ![Create: TFMG Community Edition](images/tfmg-community-edition-icon.png) [Create: TFMG Community Edition](power.industry.md) | Expands Create with heavy industry and oil processing in a community-maintained fork. | <EmiSearch query="@tfmg" /> |
 | ![Create: Trading floor](images/create-trading-floor-icon.png) [Create: Trading floor](machines.trading.md) | Automates villager trading through Create machinery. | <EmiSearch query="@trading_floor" /> |
 | <ItemImage id="create:crushing_wheel" /> [Create: Unified Fuels](power.burners.md) | Connects supported Create fuel systems without adding a separate item catalog. | No separate item search |

@@ -1,0 +1,50 @@
+{
+  "purpose": "Video research actually performed for the machines and transport refurbishment, and what it could not cover.",
+  "access": {
+    "direct_youtube": "Blocked. yt-dlp, youtube-transcript-api and a real browser all return a bot or unusual traffic page for this network, and each request to youtu.be or youtube.com/watch was refused.",
+    "piped_and_invidious": "Blocked. Four public mirrors returned 403 or 500 for the same video id.",
+    "workaround_used": "youtubetotranscript.com read through the web extractor, which fetches server side and is not blocked. The extractor returns only the opening portion of each transcript, roughly two to four thousand characters, so only the start of each video could be read.",
+    "not_used": "Browser cookies were not read and no account was used for YouTube access."
+  },
+  "videos_read": [
+    {
+      "id": "Wljg1fC6UBk",
+      "title": "Getting Started in Create Aeronautics",
+      "channel": "polartt",
+      "claims_used": [
+        "A body starts as a single block: assemble it first, then build the rest onto the assembled block",
+        "The physics assembler turns a block into a physics object and its crafting path runs through andesite alloy and a casing",
+        "Small bodies can be punched around; larger ones are moved with an iron handle on sneak use",
+        "Diagonal steps stay connected; a fully disconnected part breaks off as its own body"
+      ],
+      "used_in": ["vehicles.assembly"],
+      "limit": "Read to the first few minutes only. Numbers and later block detail were not seen."
+    },
+    {
+      "id": "vrDTOYp7fAQ",
+      "title": "Speed, Stress and Power Explained",
+      "channel": "BrunoDanUy",
+      "claims_used": [
+        "Engineer's goggles show the stress and speed a component carries",
+        "The speedometer and stressometer are built from an andesite casing and a compass and convert into each other",
+        "A water wheel needs flowing water on one of its sides to turn"
+      ],
+      "used_in": ["machines.rotation"],
+      "limit": "Read to the first few minutes only. Per-machine stress costs were already taken from pack configuration instead."
+    },
+    {
+      "id": "UAhf8VJqE-Q",
+      "title": "They Added Space to Create?",
+      "channel": "Shalz",
+      "claims_used": [],
+      "reason_not_used": "The telescope, astronomy table, rocket station and jet engine in this video are not present in the selected cosmonautics 26.08.307 jar, so the workflow describes a different space mod. Nothing from it was written into the guide."
+    }
+  ],
+  "videos_found_not_read": [
+    {"id": "jptytar5kDI", "title": "How To Make A Simple Early Game Airship", "reason": "transcript fetch returned 400 through the extractor"},
+    {"id": "HDsBvBYs5sU", "title": "How to Build an Airship with Create Aeronautics", "reason": "transcript fetch returned an extractor error"},
+    {"id": "565u3JcATQY", "title": "I Built A Rocket Ship And Went to Space", "reason": "not attempted after the space mod mismatch was found"},
+    {"id": "4j2NQ8fPN5M", "title": "Minecraft: Creating Space mod full rocket guide", "reason": "targets 1.19.2, not the selected release"}
+  ],
+  "consequence": "Progression facts in the guide come from pack configuration, mod jars, project wikis and release notes. Video confirmed a small number of workflow details and contradicted nothing already written. No page claims to have been played through."
+}

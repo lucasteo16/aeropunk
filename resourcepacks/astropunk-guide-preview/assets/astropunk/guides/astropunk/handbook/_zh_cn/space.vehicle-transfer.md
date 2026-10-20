@@ -10,52 +10,57 @@ item_ids:
 
 # 轨道飞行
 
-## 火箭推进
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Cosmonautics+Rocketnautics+rocket+Moon+transfer+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Cosmonautics+%E7%81%AB%E7%AE%AD+%E6%9C%88%E7%90%83+%E7%BB%B4%E5%BA%A6%E8%BD%AC%E7%A7%BB+%E6%95%99%E7%A8%8B)
+
+## 运载火箭
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
-![地球上空的飞船](images/feedback-earth-orbit.png)
+![地球轨道上的飞船](images/feedback-earth-orbit.png)
 
-地球上空的飞船
+<ItemGrid><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="rocketnautics:booster_thruster" /><ItemIcon id="rocketnautics:thruster_mount" /><ItemIcon id="rocketnautics:rcs_thruster" /><ItemIcon id="rocketnautics:titanium_ingot" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="rocketnautics:rocket_thruster" />
-  <ItemIcon id="create:mechanical_crafter" />
-  <ItemIcon id="minecraft:lava_bucket" />
-</ItemGrid>
+轨道飞船是装有火箭推进、储油和控制系统的已组装 Sable 载具。先按[组装](vehicles.assembly.md)完成船体，在低空验证燃料供给和转向，再尝试转移。
 
-| 装备 | 用途 |
+| 部件 | 作用 |
 | --- | --- |
-| <ItemLink id="rocketnautics:rocket_thruster" /> | 为已组装的物理飞船提供液体燃料推力。 |
-| <ItemLink id="create:mechanical_crafter" /> | 制作推进器。在配方浏览器中查看机械合成的排列。 |
-| <ItemLink id="minecraft:lava_bucket" /> | 图示代表熔岩燃料。通过飞船的流体系统供给熔岩，不是将桶作为合成材料放入推进器。 |
+| <ItemLink id="rocketnautics:rocket_thruster" /> | 火箭主推进 |
+| <ItemLink id="rocketnautics:booster_thruster" /> | 额外发射推力 |
+| <ItemLink id="rocketnautics:thruster_mount" /> | 推进器安装部件 |
+| <ItemLink id="rocketnautics:rcs_thruster" /> | 姿态与机动推力 |
 
-推进器消耗火箭燃料，不使用旋转动力。熔岩是一种可用的入门燃料。推进器的 Ponder 演示展示推进器与储罐的布置。
+火箭燃料不是旋转动力。按所选推进器的配方与燃料要求连接管路，确认流体确实送达。储罐位置更高并不能证明供油正常。燃料与熔岩精炼流程应查配方浏览器，不要假定任意流体都能燃烧。
 
-***
+## 越入深空
 
-## 离开主世界
+![地表转移高度示意，非比例图](images/transport-space-transfer-zh_cn.png)
 
-用 Sable 组装物理飞船，安装推进器并保持燃料供应。飞船越过世界坐标 Y 20,000 后，会与附近乘客一起进入深空。此高度是世界坐标，不是距离发射台的高度。
+本包把转移高度设在 20000。爬升越过这个高度，飞船与船上乘客一起进入深空。这是世界高度，不是离发射台的高度，所以建在山上的基地起点更高。
 
-深空是前往行星地表的轨道空间。仅凭天空画面变化，不能判断是否已进入其他维度。
+| 高度 | 变化 | 应对 |
+| --- | --- | --- |
+| 7000 | 阻力降为零 | 不要再依赖螺旋桨 |
+| 20000 | 进入深空的转移高度 | 越界时留好返程燃料 |
+| 高于 5,000 | 主世界无法正常呼吸 | 发射前戴好头盔并充满供气设备 |
 
-***
+越界之前就要备好空气供给，详见[太空生命维持](space.life-support.md)。
 
-## 进入地表维度
+天空颜色变化不代表已经转移。看世界高度与维度名称，不要看风景。
 
-在深空中接近当前所环绕且有地表维度的行星。进入距其表面 20,000 格以内的范围后，飞船会转入该行星的维度，位于世界坐标 Y 19,000。主世界与月球都使用这些边界。进入地表维度后，飞船仍在高空，不会自动着陆或自动驾驶。
+## 抵达
 
-请在世界坐标 Y 2,500 之前减慢下降速度。在 Y 1,000 至 Y 2,500 之间，以超过每秒 60 格的速度下降会使飞船发热。更强的热量可能伤害附近乘客。
+<ItemGrid><ItemIcon id="rocketnautics:rcs_thruster" /><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="create:mechanical_crafter" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
 
-***
+目的地必须配置了对应的地表维度。本包连接主世界与月球。全息图中出现某个天体，不代表它有可着陆世界。
 
-## 相关页面
+从深空接近目标天体的转移边界。地表到达高度为 19,000，低于上升转移阈值 20,000，因此到达不等于落地。开始受控下降前先确认维度、高度与速度。
 
-- [组装](vehicles.assembly.md)
-- [维度](world.dimensions.md)
-- [太空生命支持](space.life-support.md)
-- [太空导航](space.navigation.md)
+1. 留够制动、着陆和返程爬升的燃料。越界不会自动让飞船停下。
+2. 用 <ItemLink id="simulated:altitude_sensor" /> 和 <ItemLink id="simulated:velocity_sensor" /> 判断高度与下降速度，保持载具可控，不要简单收油自由落体。
+3. 用短暂调整测试制动。月球配置的表面加速度为 2.0，主世界为 11.0。低重力会改变悬停所需推力，不代表飞船反而下落更快。
+4. 在空旷地面着陆后再拆解。返程重新爬升到 20,000 以上，在深空中朝主世界航行，再控制第二次下降。
+
+高速进入天体很危险。成功转移不代表着陆速度安全。
 
 
 ***

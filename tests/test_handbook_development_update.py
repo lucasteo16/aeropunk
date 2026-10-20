@@ -6,7 +6,7 @@ from pathlib import Path
 import re
 import subprocess
 import unittest
-from handbook_revision_contract import before_development_update
+from handbook_revision_contract import before_development_update, before_food_finalization
 
 ROOT = Path(__file__).resolve().parents[1]
 TOPICS = {'vehicles.airships', 'visuals.camera', 'help.controls', 'server.tools',
@@ -19,7 +19,7 @@ NATIVE = r'<(?:ItemIcon|ItemLink|ItemImage|Recipe|KeyBind|EmiSearch)\b[^>]*>'
 class DevelopmentHandbook(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.content = json.loads((ROOT / 'docs/handbook-content.json').read_text())
+        cls.content = before_food_finalization(json.loads((ROOT / 'docs/handbook-content.json').read_text()))
         cls.revision = json.loads((ROOT / 'docs/handbook-development-update.json').read_text())
         cls.before = json.loads(subprocess.check_output(['git', 'show',
             cls.revision['guide_parent_commit'] + ':docs/handbook-content.json'],

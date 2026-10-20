@@ -131,7 +131,6 @@
       "food.hunger": "reference.food.md",
       "food.growing": "reference.food.md",
       "food.fishing": "reference.food.md",
-      "fishing.habitats": "reference.food.md",
       "food.seafood": "reference.food.md",
       "food.underground": "reference.food.md",
       "food.nether": "reference.food.md",
@@ -284,7 +283,6 @@
         "food.hunger",
         "food.growing",
         "food.fishing",
-        "fishing.habitats",
         "food.seafood",
         "food.underground",
         "food.nether",
@@ -307,14 +305,14 @@
         "storage.handling",
         "storage.bulk",
         "machines.rotation",
-        "machines.ore-processing",
-        "machines.logistics",
-        "machines.renewables",
-        "machines.miscellaneous",
         "power.stored-rotation",
+        "power.electricity",
+        "machines.ore-processing",
         "power.burners",
         "power.industry",
-        "power.electricity",
+        "machines.renewables",
+        "machines.logistics",
+        "machines.miscellaneous",
         "machines.enchanting",
         "machines.trading"
       ],
@@ -595,12 +593,13 @@
     },
     {
       "page_id": "machines.ore-processing",
-      "title": "Ore processing",
+      "title": "Material processing",
       "status": "authored",
       "functional_category": "Automation and industry",
       "primary_metadata_paths": [
         "mods/create.pw.toml",
-        "mods/almostunified.pw.toml"
+        "mods/almostunified.pw.toml",
+        "mods/create-stam1o-tweaks.pw.toml"
       ],
       "player_questions": [],
       "navigation_parent": "reference.machines-storage.md",
@@ -620,7 +619,7 @@
     },
     {
       "page_id": "machines.logistics",
-      "title": "Item routing",
+      "title": "Item & fluid routing",
       "status": "authored",
       "functional_category": "Storage and logistics",
       "primary_metadata_paths": [
@@ -632,7 +631,7 @@
     },
     {
       "page_id": "machines.renewables",
-      "title": "Renewable resources",
+      "title": "Molten vents",
       "status": "authored",
       "functional_category": "Automation and industry",
       "primary_metadata_paths": [
@@ -669,11 +668,10 @@
     },
     {
       "page_id": "machines.miscellaneous",
-      "title": "Workshop tools",
+      "title": "Tools & drones",
       "status": "authored",
       "functional_category": "Player utilities and quality of life",
       "primary_metadata_paths": [
-        "mods/create-stam1o-tweaks.pw.toml",
         "mods/create-stuff-additions.pw.toml"
       ],
       "player_questions": [],
@@ -682,7 +680,7 @@
     },
     {
       "page_id": "power.electricity",
-      "title": "Electricity",
+      "title": "Electrical circuits",
       "status": "authored",
       "functional_category": "Automation and industry",
       "primary_metadata_paths": [
@@ -694,7 +692,7 @@
     },
     {
       "page_id": "power.industry",
-      "title": "Materials & fuels",
+      "title": "Steel & oil",
       "status": "authored",
       "functional_category": "Automation and industry",
       "primary_metadata_paths": [
@@ -706,7 +704,7 @@
     },
     {
       "page_id": "power.burners",
-      "title": "Liquid fuels",
+      "title": "Process heat",
       "status": "authored",
       "functional_category": "Automation and industry",
       "primary_metadata_paths": [
@@ -1590,16 +1588,6 @@
         "mods/oceans-delight.pw.toml",
         "mods/starcatchers-delight.pw.toml"
       ],
-      "player_questions": [],
-      "navigation_parent": "reference.food.md",
-      "content_source": "docs/handbook-content.json"
-    },
-    {
-      "page_id": "fishing.habitats",
-      "title": "Fishing habitats",
-      "status": "authored",
-      "functional_category": "Food and farming",
-      "primary_metadata_paths": [],
       "player_questions": [],
       "navigation_parent": "reference.food.md",
       "content_source": "docs/handbook-content.json"
@@ -4918,9 +4906,9 @@
       "availability": "baseline",
       "source_branch": "dev",
       "source_commit": "43ffb9f",
-      "primary_function": "machines.miscellaneous",
-      "primary_category": "Player utilities and quality of life",
-      "primary_home": "machines.miscellaneous",
+      "primary_function": "machines.ore-processing",
+      "primary_category": "Automation and industry",
+      "primary_home": "machines.ore-processing",
       "secondary_functions": [],
       "secondary_categories": [],
       "purpose_evidence": "Adjusts Create recipes and lets diving boots counter levitation.",
