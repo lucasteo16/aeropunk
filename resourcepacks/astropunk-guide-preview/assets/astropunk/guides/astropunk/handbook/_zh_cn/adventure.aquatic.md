@@ -53,7 +53,7 @@ Hybrid Aquatic 为主世界水域与海岸加入野生动物。按下列类型�
 自然游动的生物、掉落物、装桶捕捉与 Starcatcher 钓鱼竿渔获是不同的获取方式。先检查鱼种与配方，不要将它们视为通用替代。Starcatcher 兼容组件扩展钓鱼竿渔获，不改变上表的自然生成栖息地。探索深水时应准备供氧，不要假定所有水生动物都无害。
 
 - [钓鱼装备](food.fishing.md)
-- [钓鱼竿渔获栖息地](fishing.habitats.md)
+- [钓竿与图鉴查询](food.fishing.md)
 - [海鲜食材](food.seafood.md)
 - [船只与潜艇](vehicles.water.md)
 

@@ -8,117 +8,90 @@ navigation:
 
 # Vehicle controls
 
-## Cockpit controls
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeroworks+control+desk+servo+module+joystick+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeroworks+%E6%93%8D%E7%BA%B5%E5%8F%B0+%E4%BC%BA%E6%9C%8D+%E6%A8%A1%E5%9D%97+%E6%91%87%E6%9D%86+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@aeroworks" />
+## Console and modules
+
+<EmiSearch query="@create" />
 
 ![A cockpit with Aeroworks control modules](images/visual-cockpit-controls.png)
 
 A cockpit with Aeroworks control modules
 
-<ItemGrid>
-  <ItemIcon id="aeroworks:control_desk" />
-  <ItemIcon id="aeroworks:joystick_module" />
-  <ItemIcon id="aeroworks:throttle_quadrant_module" />
-  <ItemIcon id="aeroworks:wheel_module" />
-  <ItemIcon id="aeroworks:mechanical_servo" />
-  <ItemIcon id="aeroworks:stepper_servo" />
-</ItemGrid>
+### Desk
 
-| Shown items |
-| --- |
-| <ItemLink id="aeroworks:control_desk" /> |
-| <ItemLink id="aeroworks:joystick_module" /> |
-| <ItemLink id="aeroworks:throttle_quadrant_module" /> |
-| <ItemLink id="aeroworks:wheel_module" /> |
-| <ItemLink id="aeroworks:mechanical_servo" /> |
-| <ItemLink id="aeroworks:stepper_servo" /> |
+<EmiSearch query="@aeroworks" />
 
-Aeroworks consoles accept wheel, joystick, throttle, pedal, lever, keypad and button panel modules. Right-click a socket with a module.
+<ItemGrid><ItemIcon id="aeroworks:control_desk" /></ItemGrid>
 
-Remove it with a wrench. Sneak and right-click to configure each control and its Redstone Link frequencies.
+### Input modules
 
-Empty-hand right-click takes control. Escape releases it.
+<ItemGrid><ItemIcon id="aeroworks:joystick_module" /><ItemIcon id="aeroworks:throttle_quadrant_module" /><ItemIcon id="aeroworks:wheel_module" /><ItemIcon id="aeroworks:lever_module" /><ItemIcon id="aeroworks:pedal_module" /><ItemIcon id="aeroworks:button_panel_module" /></ItemGrid>
 
-Touching consoles form one deck, controlled by one player at a time.
+### Linking and configuration
 
-***
+<ItemGrid><ItemIcon id="create:redstone_link" /><ItemIcon id="create:wrench" /></ItemGrid>
 
-## Signals & sensors
+A <ItemLink id="aeroworks:control_desk" /> is a socket board. Right-click a socket with a module to mount it, and use a wrench to pull it back out. Removed modules keep their settings, so you can move a tuned joystick to a second ship.
 
-<EmiSearch query="@create_tweaked_controllers" /> <EmiSearch query="@create" />
+Sneak and use a placed control to open its configuration. There you set the key, the Redstone Link frequencies and the module options. A held module is configured by sneaking and using the air. Several modules can share one console, and small modules fit large sockets.
 
-<ItemGrid>
-  <ItemIcon id="simulated:steering_wheel" />
-  <ItemIcon id="simulated:throttle_lever" />
-  <ItemIcon id="simulated:altitude_sensor" />
-  <ItemIcon id="simulated:velocity_sensor" />
-  <ItemIcon id="simulated:gimbal_sensor" />
-  <ItemIcon id="aeroworks:gyroscope" />
-  <ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" />
-</ItemGrid>
+Right-click the desk with an empty hand to take control. Your keyboard and mouse then move the mounted controls, and each direction transmits on its own Redstone Link frequency with a strength that follows how far you push. Escape releases control.
 
-| Shown items |
-| --- |
-| <ItemLink id="simulated:steering_wheel" /> |
-| <ItemLink id="simulated:throttle_lever" /> |
-| <ItemLink id="simulated:altitude_sensor" /> |
-| <ItemLink id="simulated:velocity_sensor" /> |
-| <ItemLink id="simulated:gimbal_sensor" /> |
-| <ItemLink id="aeroworks:gyroscope" /> |
-| <ItemLink id="create_tweaked_controllers:tweaked_linked_controller" /> |
+Touching consoles form one deck. One player controls a deck at a time, and consoles placed apart stay separate stations. That is how a pilot seat and a throttle station on the same bridge behave as one cockpit.
 
-Steering and throttle controls provide manual input. Sensors report altitude, velocity and gimbal state. Aeroworks adds gyroscopes and servos, while Tweaked Linked Controllers provide a handheld interface. Use console and servo Ponder for signal behavior. These parts do not create an automatic flight program on their own.
+## Servos
 
-***
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeroworks+servo+motor+module+control+desk+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeroworks+%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA+%E6%A8%A1%E5%9D%97+%E6%93%8D%E7%BA%B5%E5%8F%B0+%E6%95%99%E7%A8%8B)
 
-## Receivers & cockpit
+<ItemGrid><ItemIcon id="aeroworks:mechanical_servo" /><ItemIcon id="aeroworks:stepper_servo" /><ItemIcon id="aeroworks:gyroscope" /></ItemGrid>
 
-<EmiSearch query="@aeroengineering" />
+Servos turn a redstone signal back into a shaft angle, which is how a console channel reaches a control surface.
 
-<ItemGrid>
-  <ItemIcon id="simulated:directional_linked_receiver" />
-  <ItemIcon id="simulated:modulating_linked_receiver" />
-  <ItemIcon id="simulated:optical_sensor" />
-  <ItemIcon id="simulated:laser_sensor" />
-  <ItemIcon id="aeroengineering:engine_monitor_helmet" />
-  <ItemIcon id="aeroengineering:hud_display" />
-  <ItemIcon id="aeroengineering:folding_landing_gear_bearing" />
-</ItemGrid>
+| Part | Signal to angle | Set on the block |
+| --- | --- | --- |
+| <ItemLink id="aeroworks:mechanical_servo" /> | Angle proportional to signal strength across a range | Right-click to set the rotation range |
+| <ItemLink id="aeroworks:stepper_servo" /> | Moves in fixed steps, one step per signal level | Right-click to set the angle of each step |
 
-| Shown items |
-| --- |
-| <ItemLink id="simulated:directional_linked_receiver" /> |
-| <ItemLink id="simulated:modulating_linked_receiver" /> |
-| <ItemLink id="simulated:optical_sensor" /> |
-| <ItemLink id="simulated:laser_sensor" /> |
-| <ItemLink id="aeroengineering:engine_monitor_helmet" /> |
-| <ItemLink id="aeroengineering:hud_display" /> |
-| <ItemLink id="aeroengineering:folding_landing_gear_bearing" /> |
+Both finish the current rotation before answering a new signal, so a fast input change lags by one movement rather than jumping. A stepper accepts a signal on either side, one side turns each way, and power on both sides holds it still. The <ItemLink id="aeroworks:gyroscope" /> keeps a body level, which is a stabiliser rather than an input.
 
-Linked receivers and optical or laser sensors extend control wiring. Aero Engineering cockpit equipment provides monitoring and landing-gear controls. Configure bindings through the item help. Cockpit displays require linked monitoring targets.
+## Sensors and receivers
 
-***
+### Direct pilot input
+
+<ItemGrid><ItemIcon id="simulated:steering_wheel" /><ItemIcon id="simulated:throttle_lever" /></ItemGrid>
+
+### Flight measurements
+
+<ItemGrid><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="simulated:gimbal_sensor" /></ItemGrid>
+
+### Detection and linked signals
+
+<EmiSearch query="@create_tweaked_controllers" />
+
+<ItemGrid><ItemIcon id="simulated:directional_linked_receiver" /><ItemIcon id="simulated:optical_sensor" /><ItemIcon id="simulated:laser_sensor" /><ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" /><ItemIcon id="simulated:modulating_linked_receiver" /></ItemGrid>
+
+A manual input is a block you turn. A sensor is a block that reports.
+
+| Part | Reports or does | Read it with |
+| --- | --- | --- |
+| <ItemLink id="simulated:steering_wheel" /> | Continuous steering input | Right-click and drag |
+| <ItemLink id="simulated:throttle_lever" /> | Continuous throttle input | Right-click and drag |
+| <ItemLink id="simulated:altitude_sensor" /> | Redstone strength from height, with a minimum and maximum set in its screen | Goggles for air pressure and exact height |
+| <ItemLink id="simulated:velocity_sensor" /> | Relative speed and direction towards or away | Its screen |
+| <ItemLink id="simulated:gimbal_sensor" /> | Tilt on two axes | Its screen |
+| <ItemLink id="simulated:optical_sensor" /> | Detected block and distance | Its screen |
+| <ItemLink id="simulated:laser_sensor" /> | Distance along a line | Its screen |
+
+The altitude sensor increases output as it climbs by default and can be inverted, which is the usual way to hold a ceiling or a floor without a program. Receivers carry a channel from a console or link into a distant part of the ship, so you do not run a wire through the hull.
 
 ## Crafting
 
+<EmiSearch query="@aeroengineering" />
+
+<ItemGrid><ItemIcon id="aeroengineering:engine_monitor_helmet" /><ItemIcon id="aeroengineering:folding_landing_gear_bearing" /><ItemIcon id="aeroengineering:hud_display" /></ItemGrid>
+
 <Recipe id="aeroworks:throttle_quadrant_module" />
-
-## Related items
-
-<ItemGrid>
-  <ItemIcon id="create:wrench" />
-  <ItemIcon id="create:redstone_link" />
-</ItemGrid>
-
-| Shown items |
-| --- |
-| <ItemLink id="create:wrench" /> |
-| <ItemLink id="create:redstone_link" /> |
-
-## Related topics
-
-- [Browse recipe](help.search.md)
 
 
 ***

@@ -13,106 +13,66 @@ item_ids:
 
 # 钓鱼与水产食材
 
-## Starcatcher
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Starcatcher%20fishing%20rod%20guide%20minigame%20tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Starcatcher%20%E9%92%93%E9%B1%BC%20%E9%B1%BC%E7%AB%BF%20%E6%8C%87%E5%8D%97%20%E5%B0%8F%E6%B8%B8%E6%88%8F%20%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@starcatcher" />
+## 先拿到指南
 
-![收竿中的 Starcatcher 渔获](images/visual-fishing-reeling.png)
 
-收竿中的 Starcatcher 渔获
+只有 Starcatcher's Rod 能进入 Starcatcher 的渔获表。它的配方需要一个钩和一个浮标，模组明确说明缺少这两样鱼竿不能工作。
 
-<ItemGrid>
-  <ItemIcon id="starcatcher:starcatcher_rod" />
-  <ItemIcon id="starcatcher:starcatcher_guide" />
-  <ItemIcon id="starcatcher:hook" />
-  <ItemIcon id="starcatcher:bobber" />
-  <ItemIcon id="starcatcher:tackle_box_cyan" />
-</ItemGrid>
 
-Starcatcher 加入随栖息地变化的渔获与收竿小游戏。使用 <ItemLink id="starcatcher:starcatcher_rod" /> 获取这些渔获。普通 Minecraft 钓鱼竿提供基础渔获，不能取得完整的 Starcatcher 收藏。
-
-| 钓具 | 用途 |
-| --- | --- |
-| <ItemLink id="starcatcher:starcatcher_guide" /> | 记录渔获、查看鱼种条件，以及模组自带的钓鱼说明。 |
-| <ItemLink id="starcatcher:hook" /> 与 <ItemLink id="starcatcher:bobber" /> | 鱼竿必需的配件，不同种类改变钓鱼属性。 |
-| <ItemLink id="starcatcher:tackle_box_cyan" /> | 收纳渔获与钓具，并更换鱼竿配件。不同颜色用途相同。 |
-
-***
-
-## 初次使用
-
-![钓具箱与鱼竿配件](images/visual-fishing-tackle.png)
-
-钓具箱与鱼竿配件
+Starcatcher's Guide 是每种鱼的查询入口。它会列出鱼需要的生物群系、流体、高度、光照、时间、天气和鱼饵，出门前先读一条词条。
 
 <Recipe id="starcatcher:starcatcher_rod" />
 
 <Recipe id="starcatcher:starcatcher_guide" />
 
-1. 制作鱼竿并保留装好的鱼钩与浮标，更换配件时使用钓具箱。
+1. 用两根木棍、一根线、一个钩和一个浮标合成鱼竿。
+2. 用鱼竿和一本书无序合成指南。
+3. 使用指南，或按「打开指南」按键阅读词条。
 
-2. 在合适的水域抛竿，鱼咬钩后收竿。
+每条词条都写明生物群系、流体、维度、高度区间与光照，以及时间和天气条件。群系只是第一层筛选，因为同一群系里的地表湖与洞穴水池可能出不同的鱼。先读词条再选水域，条件清单只以指南为准。
 
-3. 小游戏中使用 <KeyBind id="key.starcatcher.minigame_hit" /> 击中鱼的判定区。
-
-冰冻与宝藏判定区作用不同，可通过图鉴中的判定区类型与小游戏设置学习和练习。
-
-选择钓点前先查看图鉴中的鱼种条件。仅生物群系匹配还不够，流体、维度、高度、时间、天气、光照与鱼饵也可能限制渔获。
+<EmiSearch query="@starcatcher" />
 
 ***
 
-## 鱼饵与特殊渔获
+## 第一次抛竿
 
-<ItemGrid>
-  <ItemIcon id="starcatcher:worm" />
-  <ItemIcon id="starcatcher:cherry_bait" />
-  <ItemIcon id="starcatcher:amethyst_hook" />
-  <ItemIcon id="starcatcher:vanilla_hook" />
-  <ItemIcon id="starcatcher:vanilla_bobber" />
-  <ItemIcon id="minecraft:bucket" />
-</ItemGrid>
+![收线中的 Starcatcher 渔获](images/visual-fishing-reeling.png)
 
-蚯蚓与专用鱼饵改变咬钩等待时间或渔获选择。樱花鱼饵偏向樱花林鱼类。偏好的鱼饵提高入选机会，必需的鱼饵则是必须满足的条件。
+收线中的 Starcatcher 渔获
 
-同时装上原版风味鱼钩与原版风味浮标可跳过小游戏。熔岩钓鱼需要紫水晶鱼钩或下界合金升级鱼竿。下界与末地渔获仍要求对应维度与流体。
+1. 站在符合所选词条的水边抛竿。
+2. 等鱼咬钩后收线，鱼上钩会打开小游戏。
+3. 用 <KeyBind id="key.starcatcher.minigame_hit" /> 命中高亮区域，直到计量条填满。
 
-只有图鉴注明支持装桶的鱼种，才能用桶作为鱼饵取得活鱼桶。支持活体渔获的鱼种可使用万能蚯蚓取得活体。并非每种渔获都有可召唤模型或装桶形态。
+渔获入包，或它的桶装形态入包，并且指南记录了词条，才算成功。原版鱼竿在同一片水域仍然只出原版战利品。
 
 ***
 
-## Hybrid Aquatic 渔获
+## 钓具
 
-<EmiSearch query="@hybrid_aquatic" />
+<ItemGrid><ItemIcon id="starcatcher:hook" /><ItemIcon id="starcatcher:bobber" /></ItemGrid>
 
-Hybrid Aquatic 兼容组件将其鱼类加入 Starcatcher 渔获定义。它们共用图鉴与小游戏，但保留各自的垂钓条件。自然游动的生物与钓鱼竿渔获使用不同规则，在附近看到某种动物，不代表当前钓点一定能钓到它。
+每次抛竿都需要一个钩和一个浮标。除此之外，钩、浮标与鱼饵都是同一次抛竿上的调整项，目标鱼的条件写在指南词条里。
 
-***
+<ItemGrid><ItemIcon id="starcatcher:worm" /><ItemIcon id="starcatcher:cherry_bait" /><ItemIcon id="starcatcher:tackle_box_cyan" /></ItemGrid>
 
-## 收纳与收藏
-
-![水族箱中的活体渔获](images/visual-fishing-aquariums.png)
-
-水族箱中的活体渔获
-
-<ItemGrid>
-  <ItemIcon id="starcatcher:oak_tackle_box_boat" />
-  <ItemIcon id="starcatcher:aquarium" />
-  <ItemIcon id="starcatcher:oak_fish_plaque" />
-  <ItemIcon id="starcatcher:tournament_stand" />
-  <ItemIcon id="starcatcher:fish_radar" />
-</ItemGrid>
-
-钓具箱船结合水上出行与钓鱼收纳。水族箱容纳装桶的活鱼，鱼类标本牌展示渔获。比赛台用于自愿参加的钓鱼比赛。鱼类雷达用于查看附近垂钓机会，是后续工具，并非第一次钓鱼的前提。
+鱼饵会改变抛竿的调整项，工具箱可以存放配件并直接更换，不必回合成台。一次只换一项，再抛一次短竿，才能判断是哪一项起了作用。
 
 ***
 
-## 相关主题
 
-- [钓鱼栖息地](fishing.habitats.md)
-- [海鲜与加工](food.seafood.md)
-- [水生生物](adventure.aquatic.md)
-- [食物堆叠与多样性](food.hunger.md)
+## 留下渔获
 
+<ItemGrid><ItemIcon id="starcatcher:aquarium" /><ItemIcon id="starcatcher:oak_fish_plaque" /><ItemIcon id="starcatcher:tournament_stand" /><ItemIcon id="starcatcher:fish_radar" /></ItemGrid>
+
+多数渔获是食物，做法见[海鲜料理](food.seafood.md)。桶可以带着活鱼，<ItemLink id="starcatcher:aquarium" /> 能养桶装鱼并按记录尺寸缩放模型。<ItemLink id="starcatcher:oak_fish_plaque" /> 把一条渔获挂上墙，<ItemLink id="starcatcher:tournament_stand" /> 用来举办限时比赛，<ItemLink id="starcatcher:fish_radar" /> 读取附近的钓鱼可能性。
+
+- [海鲜料理](food.seafood.md) 把渔获做成料理。
+- [饥饿与多样性](food.hunger.md) 把鱼安排进多样饮食。
+- [作物食材](food.growing.md) 种出搭配鱼的主食与蔬菜。
 
 ***
 

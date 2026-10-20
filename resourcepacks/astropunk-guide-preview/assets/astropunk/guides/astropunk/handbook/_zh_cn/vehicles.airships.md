@@ -8,86 +8,83 @@ navigation:
 
 # 建造与平衡飞行船
 
-## 升力与气囊
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeronautics+envelope+balloon+burner+blazeboil+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeronautics+%E9%A3%9E%E8%89%87+%E6%B0%94%E5%9B%8A+%E7%87%83%E7%83%A7%E5%99%A8+%E6%B5%AE%E5%B2%A9+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
+## 密闭体积产生升力
 
-![不同船体与升力布局的飞空船](images/visual-airship-designs.png)
+<EmiSearch query="@create" />
 
-不同船体与升力布局的飞空船
+![不同船体与升力布置的飞艇](images/visual-airship-designs.png)
 
-<ItemGrid>
-  <ItemIcon id="aeronautics:white_envelope" />
-  <ItemIcon id="aeronautics:adjustable_burner" />
-  <ItemIcon id="aeronautics:white_envelope_encased_shaft" />
-  <ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" />
-  <ItemIcon id="ballastmod:ballast_stones" />
-</ItemGrid>
+不同船体与升力布置的飞艇
 
-| 图示物品 |
-| --- |
-| <ItemLink id="aeronautics:white_envelope" /> |
-| <ItemLink id="aeronautics:adjustable_burner" /> |
-| <ItemLink id="aeronautics:white_envelope_encased_shaft" /> |
-| <ItemLink id="aeroencasedpipe:white_envelope_encased_pipe" /> |
-| <ItemLink id="ballastmod:ballast_stones" /> |
+### 气囊设备
 
-热气囊与热气燃烧器构成浮力系列。热气囊、气囊机壳传动杆和附加的气囊机壳流体管道均有十六种染料颜色。压舱石每增加一层都会增加质量，最多八层。
+<ItemGrid><ItemIcon id="aeronautics:white_envelope" /><ItemIcon id="aeronautics:adjustable_burner" /><ItemIcon id="aeronautics:steam_vent" /></ItemGrid>
 
-### 基础气囊
+### 升力材料与压舱
+
+<EmiSearch query="@ballastmod" />
+
+<ItemGrid><ItemIcon id="aeronautics:levitite" /><ItemIcon id="aeronautics:levitite_blend_bucket" /><ItemIcon id="ballastmod:ballast_stones" /></ItemGrid>
+
+### 穿舱部件与帆
+
+<EmiSearch query="@aeroencasedpipe" />
+
+<ItemGrid><ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" /><ItemIcon id="aeronautics:white_envelope_encased_shaft" /><ItemIcon id="simulated:white_symmetric_sail" /></ItemGrid>
+
+<ItemLink id="aeronautics:white_envelope" /> 本身不产生升力。气囊方块构成外壳，被包住的空气方块才会充满热气。本包给热气的升力是每立方米 1.5 千克，所以浮力取决于被包住的体积，而不是方块数量。
+
+三条规则决定气囊能不能用。
+
+1. 外壳必须气密。气囊方块、包壳传动轴和包壳流体管道都算气密。
+2. 热气从上往下填充。五层气囊的第三层破了一个洞，就只有上面两层被充满。
+3. 气囊内部的建筑会占用体积。桅杆、管道和走道要留在外壳外面。
+
+对着气囊使用染料即可上色。再用同一种颜色会把染料扩散到相邻气囊，整只气囊因此可以很快染完。
+
+<Recipe id="aeronautics:adjustable_burner" />
+## 燃烧器与排汽口
 
 <Recipe id="aeronautics:white_envelope" />
 
-两个白色羊毛与两根木棍可制作四个 <ItemLink id="aeronautics:white_envelope" />。
+<ItemLink id="aeronautics:adjustable_burner" /> 装在气囊下方，收到红石信号后向气囊充入热气。输入面板设定最大输出，本包上限为 500，红石强度按比例下调这一输出。多台燃烧器可以向同一只气囊叠加，大船体因此才有可用的爬升率。
 
-### 热气燃烧器
+燃烧器最多搜索 80 格找到气囊，所以吊舱里的燃烧器也能供给甲板上方的气囊。<ItemLink id="aeronautics:steam_vent" /> 是蒸汽方案，上限为 5000，不需要火。
 
-<Recipe id="aeronautics:adjustable_burner" />
+气压随高度下降，升力也随之下降。气囊不会一直保持同样的爬升速度，<ItemLink id="simulated:altitude_sensor" /> 正是读取气压与精确高度的仪表。
 
-为热气囊系统制作 <ItemLink id="aeronautics:adjustable_burner" />。实际布局请查看气囊与燃烧器的思索演示。
+## 浮岩
 
-***
+<ItemGrid><ItemIcon id="aeronautics:levitite" /><ItemIcon id="aeronautics:levitite_blend_bucket" /></ItemGrid>
 
-## 螺旋桨与帆
+<ItemLink id="aeronautics:levitite" /> 是第三种升力来源，提供固定的反重力，并带有低速强、高速弱的阻力。单靠浮岩能把船体托住，却不能让它爬升，所以它常用来托起重船体，再由螺旋桨推动。用火、烈焰燃烧器或营火加热 浮岩混合液 会凝固成浮岩，凝固后的方块无法再采集。用作模具的黏土会在凝固过程中被消耗。
 
-<ItemGrid>
-  <ItemIcon id="aeronautics:propeller_bearing" />
-  <ItemIcon id="aeronautics:gyroscopic_propeller_bearing" />
-  <ItemIcon id="aeronautics:wooden_propeller" />
-  <ItemIcon id="aeronautics:andesite_propeller" />
-  <ItemIcon id="aeronautics:smart_propeller" />
-  <ItemIcon id="simulated:white_symmetric_sail" />
-</ItemGrid>
-
-| 图示物品 |
-| --- |
-| <ItemLink id="aeronautics:propeller_bearing" /> |
-| <ItemLink id="aeronautics:gyroscopic_propeller_bearing" /> |
-| <ItemLink id="aeronautics:wooden_propeller" /> |
-| <ItemLink id="aeronautics:andesite_propeller" /> |
-| <ItemLink id="aeronautics:smart_propeller" /> |
-| <ItemLink id="simulated:white_symmetric_sail" /> |
-
-木制、安山岩与智能螺旋桨配有专用轴承。对称帆为另一套空气动力组件。入门时先组装支持的船体，再使用气囊、燃烧器与螺旋桨思索演示安排升力和推力。装饰体积本身不会提供升力。
-
-***
-
-## 船上姿态
-
-Aeronautics Camera Sync 让视角随倾斜甲板转动，Aeronautics Player Tilt 让玩家身体朝向与船体对齐。镜头倾斜与身体倾斜分别控制，都不会操纵船体转向。
-
-| 操作 | 当前按键 | 默认按键 |
+| 升力来源 | 提供 | 本包限制 |
 | --- | --- | --- |
-| 切换镜头倾斜 | <KeyBind id="key.aero_cam_sync.toggle" /> | I |
-| 切换玩家倾斜 | <KeyBind id="key.aero_player_tilt.toggle" /> | O |
-| 镜头设置 | <KeyBind id="key.aero_cam_sync.open_config" /> | 未绑定 |
-| 玩家倾斜设置 | <KeyBind id="key.aero_player_tilt.open_config" /> | 未绑定 |
+| 热气气囊 | 由密闭体积产生升力 | 每立方米 1.5 千克，燃烧器输出 500 |
+| 蒸汽排汽口 | 用蒸汽产生同样的升力 | 输出 5000，不需要火 |
+| 浮岩 | 固定升力与低速阻力 | 无法自行爬升 |
+| 压舱石 | 通过增加质量抵消升力 | 最多八层 |
 
-在选项、控制、按键绑定中分配设置快捷键。使用默认按键前检查冲突。若甲板倾斜影响瞄准的舒适度，可在各自设置中分别调整镜头与身体倾斜。
+## 配平与推力
 
-## 相关页面
+<ItemGrid><ItemIcon id="aeronautics:propeller_bearing" /><ItemIcon id="aeronautics:gyroscopic_propeller_bearing" /><ItemIcon id="aeronautics:wooden_propeller" /><ItemIcon id="aeronautics:andesite_propeller" /><ItemIcon id="aeronautics:smart_propeller" /></ItemGrid>
 
-- [浏览配方](help.search.md)
+<ItemLink id="ballastmod:ballast_stones" /> 每加一层就增加质量，最多八层。用它设定静止高度，让气囊停在一个高度，而不是在爬升与失速之间来回起伏。
+
+前进靠螺旋桨。<ItemLink id="aeronautics:propeller_bearing" /> 能带动至少两块帆面组成的结构，帆面越多推力越大。反转旋转方向就反转推力。倒装的 <ItemLink id="aeronautics:gyroscopic_propeller_bearing" /> 能稳定头重脚轻的船体，红石信号会把倾角归零。
+
+
+Aeronautics Camera Sync 让视角跟随倾斜甲板，Aeronautics Player Tilt 让身体一起转。两者都不操控飞船。
+
+| 操作 | 你的按键 | 默认 |
+| --- | --- | --- |
+| 切换视角倾斜 | <KeyBind id="key.aero_cam_sync.toggle" /> | I |
+| 切换身体倾斜 | <KeyBind id="key.aero_player_tilt.toggle" /> | O |
+| 视角设置 | <KeyBind id="key.aero_cam_sync.open_config" /> | 未绑定 |
+| 身体倾斜设置 | <KeyBind id="key.aero_player_tilt.open_config" /> | 未绑定 |
 
 
 ***

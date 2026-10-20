@@ -147,7 +147,7 @@ reference_icons = {
     'food.machine-cooking': 'minecraft:smoker',
     'food.growing': 'minecraft:wheat',
     'food.fishing': 'minecraft:cod',
-    'fishing.habitats': 'minecraft:salmon',
+
     'food.seafood': 'oceansdelight:cooked_stuffed_squid',
     'adventure.aquatic': 'hybrid_aquatic:shark_tooth',
     'building.palette': 'chipped:mason_table',
@@ -317,10 +317,10 @@ page_defs = [p for p in coverage['pages'] if not p['page_id'].startswith('landsc
 page_defs += [dict(page_id='reference.equipment', title='Equipment', player_questions=[]), dict(page_id='combat.abilities', title='Spells & abilities', player_questions=[])]
 page_defs += [dict(page_id='help.credits', title='Credits', player_questions=[])]
 page_defs += [dict(page_id=topic, title=title, player_questions=[]) for topic, title in
-              [('fishing.habitats', 'Fishing habitats'), ('food.seafood', 'Seafood'),
+              [('food.seafood', 'Seafood'),
                ('adventure.aquatic', 'Aquatic wildlife')]
               if topic not in {page['page_id'] for page in page_defs}]
-zh_titles.update({'fishing.habitats': '钓鱼栖息地', 'food.seafood': '海鲜料理',
+zh_titles.update({'food.seafood': '海鲜料理',
                   'adventure.aquatic': '水生生物'})
 zh_titles['help.credits'] = '鸣谢'
 zh_titles.update({'reference.equipment': '装备', 'combat.abilities': '法术与招式'})
@@ -345,6 +345,16 @@ zh_titles.update({'equipment.weapons-armor': '武器与护甲', 'equipment.acces
 titles.update({'space.vehicle-transfer': 'Orbital flight', 'space.life-support': 'Space life support', 'space.navigation': 'Space navigation'})
 titles['help.reference'] = 'Advancements'
 zh_titles['help.reference'] = '进度'
+titles.update({'machines.ore-processing': 'Material processing',
+               'power.burners': 'Process heat', 'power.industry': 'Steel & oil',
+               'power.electricity': 'Electrical circuits',
+               'machines.logistics': 'Item & fluid routing',
+               'machines.miscellaneous': 'Tools & drones',
+               'machines.renewables': 'Molten vents'})
+zh_titles.update({'machines.ore-processing': '材料加工',
+                  'power.burners': '加工供热', 'power.industry': '钢铁与石油',
+                  'power.electricity': '电路', 'machines.logistics': '物品与流体输送',
+                  'machines.miscellaneous': '工具与无人机', 'machines.renewables': '熔岩泉'})
 reference_icons.pop('travel.moving-destinations', None)
 class_navigation = json.loads((ROOT / 'docs/handbook-class-navigation.json').read_text())
 creature_navigation = json.loads((ROOT / 'docs/handbook-creature-navigation.json').read_text())
@@ -482,7 +492,7 @@ def write_page(filename, title, body, chinese, parent=None, icon=None, associati
 status = []
 assigned_paths = []
 related_provider_paths = {
-    'fishing.habitats': {'mods/starcatcher.pw.toml', 'mods/terralith.pw.toml', 'mods/hybrid-aquatic-starcatcher-compatibility.pw.toml'},
+    'food.fishing': {'mods/hybrid-aquatic-starcatcher-compatibility.pw.toml'},
     'world.dimensions': {'mods/create-cosmonatics.pw.toml'},
     'space.vehicle-transfer': {'mods/create-cosmonatics.pw.toml', 'mods/sable.pw.toml'},
     'space.life-support': {'mods/create-cosmonatics.pw.toml', 'mods/create-deep-seas.pw.toml'},
@@ -519,8 +529,7 @@ for page in page_defs:
         category_name = 'Combat and character'
     elif topic in creature_navigation or topic == 'adventure.creatures':
         category_name = 'Exploration and adventure'
-    elif topic == 'fishing.habitats':
-        category_name = 'Food and farming'
+
     cat = category_by_name[category_name]
     authored = topic in written or topic in reference_hubs
     deferred = bool(members) and all(e['availability'] == 'deferred' for e in members)
@@ -558,7 +567,7 @@ archive_root = ROOT / '.archive' / 'handbook-sidebar-flat'
 for chinese in (False, True):
     locale = '_zh_cn' if chinese else ''
     base = PAGES / locale
-    obsolete = sorted(base.glob('category-*.md')) + [base / name for name in ('mod-catalogs.md', 'quick-reference.md', 'sounds.ambience.md', 'audio.sound.md', 'travel.moving-destinations.md', 'performance.deferred.md', 'server.deferred-pack-loading.md', 'technical.space-bridge.md', 'space.destinations.md')]
+    obsolete = sorted(base.glob('category-*.md')) + [base / name for name in ('mod-catalogs.md', 'quick-reference.md', 'sounds.ambience.md', 'audio.sound.md', 'travel.moving-destinations.md', 'performance.deferred.md', 'server.deferred-pack-loading.md', 'technical.space-bridge.md', 'space.destinations.md', 'fishing.habitats.md')]
     for old in obsolete:
         if old.is_file():
             import hashlib

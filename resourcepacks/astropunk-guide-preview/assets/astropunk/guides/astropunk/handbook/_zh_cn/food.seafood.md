@@ -1,7 +1,7 @@
 ---
 navigation:
   title: "海鲜料理"
-  position: 5
+  position: 4
   parent: reference.food.md
   icon: oceansdelight:cooked_stuffed_squid
 item_ids:
@@ -12,172 +12,134 @@ item_ids:
 
 # 海鲜料理
 
-## Starcatcher's Delight
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Starcatcher%27s+Delight+seafood+cooking+guide+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+%E6%98%9F%E9%92%93+%E6%B5%B7%E9%B2%9C+%E6%96%99%E7%90%86+%E6%95%99%E7%A8%8B)
+
+## 鱼片保留稀有度
+
+<EmiSearch query="@farmersdelight" /> <EmiSearch query="@starcatcher_delight" />
+
+海鲜料理从砧板开始。属于某个稀有度标签的星钓鱼，会切成一片同稀有度的鱼片和一根鱼骨，所以鱼片是带等级的食材。
+
+| 工具 | 图标 | 作用 |
+| --- | --- | --- |
+| <ItemLink id="farmersdelight:cutting_board" /> | <ItemGrid><ItemIcon id="farmersdelight:cutting_board" /></ItemGrid> | 放鱼并支撑切割 |
+| <ItemLink id="farmersdelight:flint_knife" /> | <ItemGrid><ItemIcon id="farmersdelight:flint_knife" /></ItemGrid> | 把鱼切成鱼片 |
+
+把砧板放在结实的方块上。对着砧板使用鱼，把鱼放上去，再手持刀对着砧板使用，把它切开。鱼片和鱼骨会落在砧板旁。
+
+| 稀有度 | 鱼片 | 图标 | 等级决定什么 |
+| --- | --- | --- | --- |
+| 普通 | <ItemLink id="starcatcher_delight:starcaught_fillet_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:starcaught_fillet_common" /></ItemGrid> | 通用菜品的普通版本 |
+| 罕见 | <ItemLink id="starcatcher_delight:starcaught_fillet_uncommon" /> | <ItemGrid><ItemIcon id="starcatcher_delight:starcaught_fillet_uncommon" /></ItemGrid> | 通用菜品的罕见版本 |
+| 稀有 | <ItemLink id="starcatcher_delight:starcaught_fillet_rare" /> | <ItemGrid><ItemIcon id="starcatcher_delight:starcaught_fillet_rare" /></ItemGrid> | 通用菜品的稀有版本 |
+| 史诗 | <ItemLink id="starcatcher_delight:starcaught_fillet_epic" /> | <ItemGrid><ItemIcon id="starcatcher_delight:starcaught_fillet_epic" /></ItemGrid> | 通用菜品的史诗版本 |
+| 传说 | <ItemLink id="starcatcher_delight:starcaught_fillet_legendary" /> | <ItemGrid><ItemIcon id="starcatcher_delight:starcaught_fillet_legendary" /></ItemGrid> | 传说版本，还会给予伤害吸收生命 |
+
+传说鱼片替代不了普通鱼片，普通鱼片也做不出传说菜品。哪片水域出哪种稀有度，是星钓图鉴负责的内容。
+
+- [钓鱼](food.fishing.md) 鱼竿、鱼饵与渔获图鉴。
+- [烹饪工具](food.utensils.md) 所有食物主题共用的砧板与刀操作。
+
+***
+
+## 寿司与锅料理
 
 <EmiSearch query="@starcatcher" />
 
-<EmiSearch query="@starcatcher_delight" />
+![配方浏览器中的星钓菜品](images/visual-starcatcher-cuisine.png)
 
-![Starcatcher 料理与不同稀有度餐食](images/visual-starcatcher-cuisine.png)
+配方浏览器中的星钓菜品
 
-Starcatcher 料理与不同稀有度餐食
+锅下有热源时，<ItemGrid><ItemIcon id="farmersdelight:cooking_pot" /></ItemGrid> 才能烹制这些菜品。打开锅并放入食材。寿司不需要容器，做好的卷会留在锅里，直到你取出。
 
-<ItemGrid>
-  <ItemIcon id="starcatcher_delight:starcaught_fillet_common" />
-  <ItemIcon id="starcatcher_delight:hosomaki_common" />
-  <ItemIcon id="starcatcher_delight:fish_and_chips_common" />
-  <ItemIcon id="starcatcher_delight:cactifish_stew" />
-  <ItemIcon id="starcatcher_delight:blossom_toast" />
-  <ItemIcon id="starcatcher_delight:honey_taiyaki" />
-</ItemGrid>
+| 菜品 | 图标 | 食材 | 产出 |
+| --- | --- | --- | --- |
+| <ItemLink id="starcatcher_delight:hosomaki_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:hosomaki_common" /></ItemGrid> | 普通鱼片 1 片、海带 1、稻米 2 | 4 份 |
+| <ItemLink id="starcatcher_delight:nigiri_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:nigiri_common" /></ItemGrid> | 普通鱼片 1 片、稻米 2 | 4 份 |
+| <ItemLink id="starcatcher_delight:temaki_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:temaki_common" /></ItemGrid> | 普通鱼片 1 片、海带 2、稻米 2 | 4 份 |
+| <ItemLink id="starcatcher_delight:uramaki_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:uramaki_common" /></ItemGrid> | 普通鱼片 1 片、海带 1、稻米 3 | 4 份 |
 
-| 料理类型 | 食材与选择 |
+另外两道普通菜用鱼片但不放稻米。它们是单份餐，不适用上面的批次数量。
+
+有些菜品需要指定渔获，它们用某一种鱼而不是等级鱼片。
+
+| 分类 | 物品 |
 | --- | --- |
-| 星钓鱼片 | 普通、罕见、稀有、史诗与传说鱼片保留各自的食材等级。 |
-| 寿司与主食 | 细卷、握寿司、手卷、里卷、鱼肉沙拉、健康鱼肉煎蛋与炸鱼薯条都有稀有度变体。 |
-| 栖息地料理 | 仙人掌鱼炖汤、淤泥炖汤、花鱼吐司、清蒸红鳞金枪鱼、烤蘑菇鱼、孢子握寿司、天气汤与岩浆鱼丸使用特定渔获。 |
-| 鲷鱼烧 | 甜浆果、发光浆果、巧克力、蜂蜜、南瓜、西瓜与可疑变体。 |
+| 指定渔获菜品 | <ItemGrid><ItemIcon id="starcatcher_delight:blossom_toast" /><ItemIcon id="starcatcher_delight:cactifish_stew" /><ItemIcon id="starcatcher_delight:honey_taiyaki" /></ItemGrid> |
 
-按渔获的实际稀有度与鱼种选择配方。通用鱼图标不代表任意鱼类都能代替指定食材。通过物品浏览器查看产量与替代材料。
+| 菜品 | 图标 | 食材 | 产出 |
+| --- | --- | --- | --- |
+| <ItemLink id="starcatcher_delight:fish_and_chips_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:fish_and_chips_common" /></ItemGrid> | 普通鱼片 1 片、马铃薯 2 | 1 份 |
+| <ItemLink id="starcatcher_delight:fish_salad_common" /> | <ItemGrid><ItemIcon id="starcatcher_delight:fish_salad_common" /></ItemGrid> | 普通鱼片 1 片、绿叶菜、番茄 | 1 份 |
+
+上面四道寿司配方按普通等级核对过。其他等级的准确配方请在配方浏览器中查看。
 
 ***
 
-## Hybrid Delights
+## 混合美味
 
-<EmiSearch query="@hybrid_aquatic" />
+<EmiSearch query="@hybrid_aquatic" /> <EmiSearch query="@hybrid_delights" />
 
-<EmiSearch query="@hybrid_delights" />
+<ItemLink id="hybrid_delights:lobster_stew" /> 是最值得先做的锅料理。它需要生龙虾、龙虾尾、面包、洋葱和番茄，用的就是做寿司的那口锅。
 
-![Hybrid Delights 食材与料理](images/visual-hybrid-cuisine.png)
+这个模组也从更大的海生生物取材。用刀在砧板上切金枪鱼，得到两块生鱼排，并有三分之二的概率得到鱼胶。切鳕鱼得到两片鳕鱼片、骨粉，以及二分之一的概率得到鳕鱼籽。
 
-Hybrid Delights 食材与料理
+| 分类 | 物品 | 获取方式 |
+| --- | --- | --- |
+| 鱼肉部位 | <ItemGrid><ItemIcon id="hybrid_aquatic:raw_fish_steak" /></ItemGrid> | 切金枪鱼与鳐鱼 |
+| 鱼籽 | <ItemGrid><ItemIcon id="hybrid_delights:cod_roe" /><ItemIcon id="hybrid_delights:cured_cod_roe" /></ItemGrid> | 切割的概率产出 |
+| 甲壳类 | <ItemGrid><ItemIcon id="hybrid_aquatic:raw_lobster" /><ItemIcon id="hybrid_aquatic:raw_lobster_tail" /></ItemGrid> | 生龙虾与龙虾尾，用来做浓汤 |
+| 混合菜品 | <ItemGrid><ItemIcon id="hybrid_delights:caviar_toast" /><ItemIcon id="hybrid_delights:shrimp_fried_rice" /><ItemIcon id="hybrid_delights:fish_kebab" /><ItemIcon id="hybrid_delights:fishermans_pie" /><ItemIcon id="hybrid_delights:eel_noodles" /><ItemIcon id="hybrid_delights:bisque" /></ItemGrid> | 同一批渔获做成的成品 |
+| 半成品 | <ItemGrid><ItemIcon id="hybrid_aquatic:raw_fish_meat" /><ItemIcon id="hybrid_delights:ray_wing" /><ItemIcon id="hybrid_delights:carp_roe" /><ItemIcon id="hybrid_delights:fish_gelatin" /></ItemGrid> | 中间食材 |
 
-<ItemGrid>
-  <ItemIcon id="hybrid_aquatic:raw_fish_meat" />
-  <ItemIcon id="hybrid_delights:ray_wing" />
-  <ItemIcon id="hybrid_delights:carp_roe" />
-  <ItemIcon id="hybrid_delights:shrimp_fried_rice" />
-  <ItemIcon id="hybrid_delights:lobster_stew" />
-  <ItemIcon id="hybrid_delights:caviar_toast" />
-</ItemGrid>
-
-Hybrid Delights 让 Hybrid Aquatic 食材使用共通的烹饪工具。
-
-| 料理类型 | 选择与加工 |
-| --- | --- |
-| 鱼肉小份 | 生鱼肉、鱼排与鳐鱼翅用于鱼类料理。切金枪鱼可得鱼排，切魟鱼可得鳐鱼翅。 |
-| 鱼卵与腌制 | 鱼卵、腌鱼卵、鱼子酱吐司、盐腌鱼、腌鲱鱼与腌巨藻提供保存食材与料理。 |
-| 鱼类主食 | 鱼肉串、炸鱼薯条、渔夫派、渔夫汤、鳗鱼面、烤鲤鱼与金枪鱼料理。 |
-| 甲壳海鲜 | 虾仁炒饭、龙虾炖汤、焗酿龙虾、蟹饼、蟹肉馄饨、浓汤与海鲜杂烩。 |
-| 鱼胶食物 | 鱼胶用于果冻、果冻吐司、鱼冻与多种口味的鱼肉冰棒。 |
-
-切鳕鱼、鲑鱼与鲤鱼也可能产出鱼卵。这是有概率的额外产物，并非保证获得。加工河豚食材是独立物品，存在熟食不代表生河豚可以安全食用。
+- [烹饪工具](food.utensils.md) 锅的热源、槽位与容器槽。
 
 ***
 
-## Ocean's Delight
+## 海洋乐事
 
 <EmiSearch query="@oceansdelight" />
 
-![海洋食材与成品料理](images/visual-ocean-cuisine.png)
+守卫者的肉块来自海底神殿战斗，不来自钓竿。鱿鱼与海洋植物是不用进结构就能收集的部分。
 
-海洋食材与成品料理
+| 食材分类 | 食材 | 菜品 |
+| --- | --- | --- |
+| 鱿鱼 | <ItemGrid><ItemIcon id="oceansdelight:tentacles" /><ItemIcon id="oceansdelight:cut_tentacles" /></ItemGrid> | <ItemLink id="oceansdelight:squid_rings" />、<ItemLink id="oceansdelight:stuffed_squid" />、<ItemLink id="oceansdelight:cooked_stuffed_squid" /> |
+| 守卫者 | <ItemGrid><ItemIcon id="oceansdelight:guardian_tail" /><ItemIcon id="oceansdelight:elder_guardian_slice" /></ItemGrid> | <ItemLink id="oceansdelight:guardian_soup" />、<ItemLink id="oceansdelight:elder_guardian_roll" />、<ItemLink id="oceansdelight:elder_guardian_slab" /> |
+| 鳕鱼与河豚 | <ItemGrid><ItemIcon id="minecraft:cod" /><ItemIcon id="minecraft:pufferfish" /></ItemGrid> | <ItemLink id="oceansdelight:stuffed_cod" />、<ItemLink id="oceansdelight:fugu_roll" /> |
+| 海洋植物 | <ItemGrid><ItemIcon id="minecraft:seagrass" /><ItemIcon id="minecraft:sea_pickle" /></ItemGrid> | <ItemLink id="oceansdelight:seagrass_salad" />、<ItemLink id="oceansdelight:honey_fried_kelp" /> |
 
-<ItemGrid>
-  <ItemIcon id="oceansdelight:tentacles" />
-  <ItemIcon id="oceansdelight:guardian_tail" />
-  <ItemIcon id="oceansdelight:elder_guardian_slab" />
-  <ItemIcon id="oceansdelight:cooked_stuffed_squid" />
-  <ItemIcon id="oceansdelight:elder_guardian_roll" />
-  <ItemIcon id="oceansdelight:seagrass_salad" />
-</ItemGrid>
+处理过的河豚与生河豚不能互换，下锅前在配方浏览器里看清食材名称。
 
-| 食材类型 | 料理与来源 |
+***
+
+## 钓上你要煮的东西
+
+<EmiSearch query="@spawn" />
+
+Spawn 的鱼是生物，不是钓竿战利品。撒网或用水桶可以把它们活捉，处理捉到的生物才得到生肉部位。
+
+| 生物 | 生肉部位 | 第一道菜 |
+| --- | --- | --- |
+| 金枪鱼 | <ItemGrid><ItemIcon id="spawn:tuna_chunk" /></ItemGrid> | 金枪鱼卷、金枪鱼三明治 |
+| 鲱鱼 | <ItemGrid><ItemIcon id="spawn:herring" /></ItemGrid> | 鲱鱼卷、鲱鱼罐头 |
+| 蓝鱼 | <ItemGrid><ItemIcon id="spawn:bluefish" /></ItemGrid> | 蓝鱼卷 |
+| 蛤蜊 | <ItemGrid><ItemIcon id="spawn:clam" /></ItemGrid> | 蒸蛤蜊、蛤蜊浓汤 |
+| 沿海蟹 | <ItemGrid><ItemIcon id="spawn:coastal_crab_claw" /></ItemGrid> | 蟹宴 |
+
+| Spawn 分类 | 物品 |
 | --- | --- |
-| 鱿鱼 | 触手与触手小段用于鱿鱼圈、酿鱿鱼与触手串。 |
-| 守卫者 | 守卫者尾与远古守卫者小份用于守卫者汤、远古守卫者卷与卷心菜包远古守卫者。这些来自生物，并非普通钓鱼竿渔获。 |
-| 鳕鱼与河豚 | 酿鳕鱼、海带裹鳕鱼、河豚片与河豚卷使用各自的加工配方。 |
-| 海洋植物 | 海草沙拉、炖海泡菜与蜜煎海带使用植物食材。 |
+| 处理好的鱼 | <ItemGrid><ItemIcon id="spawn:tuna_slice" /><ItemIcon id="spawn:tuna_chunk" /><ItemIcon id="spawn:herring_slice" /><ItemIcon id="spawn:bluefish_slice" /></ItemGrid> |
+| 熟鱼 | <ItemGrid><ItemIcon id="spawn:cooked_tuna_chunk" /><ItemIcon id="spawn:cooked_herring" /><ItemIcon id="spawn:cooked_herring_slice" /><ItemIcon id="spawn:cooked_bluefish" /><ItemIcon id="spawn:cooked_clam" /></ItemGrid> |
+| 成品菜 | <ItemGrid><ItemIcon id="spawn:tuna_roll" /><ItemIcon id="spawn:tuna_sandwich" /><ItemIcon id="spawn:herring_roll" /><ItemIcon id="spawn:bluefish_roll" /><ItemIcon id="spawn:canned_herring" /><ItemIcon id="spawn:clam_chowder" /></ItemGrid> |
+| 贝类菜 | <ItemGrid><ItemIcon id="spawn:steamed_clams" /><ItemIcon id="spawn:crab_boil" /></ItemGrid> |
+| 非食物副产物 | <ItemGrid><ItemIcon id="spawn:shell_fragments" /></ItemGrid> |
+| 捕捉 | <ItemGrid><ItemIcon id="spawn:bluefish_bucket" /></ItemGrid> |
 
-守卫者食材来自海底神殿遭遇。计划这类料理前，先准备好对应的战斗。
+<ItemGrid><ItemIcon id="spawn:casting_net" /><ItemIcon id="spawn:herring_bucket" /></ItemGrid> 是捕捉工具，不是食物。水桶让鱼活着被运走，渔网则能捉到钓竿够不着的生物。
 
-***
-
-## Spawn 鱼类料理
-
-<EmiSearch query="@farmersdelight" /> <EmiSearch query="@spawn" />
-
-<ItemGrid>
-  <ItemIcon id="spawn:tuna_chunk" />
-  <ItemIcon id="spawn:cooked_tuna_chunk" />
-  <ItemIcon id="spawn:tuna_slice" />
-  <ItemIcon id="spawn:tuna_roll" />
-  <ItemIcon id="spawn:tuna_sandwich" />
-  <ItemIcon id="spawn:herring" />
-  <ItemIcon id="spawn:cooked_herring" />
-  <ItemIcon id="spawn:herring_roll" />
-  <ItemIcon id="spawn:canned_herring" />
-  <ItemIcon id="spawn:bluefish" />
-  <ItemIcon id="spawn:cooked_bluefish" />
-  <ItemIcon id="spawn:bluefish_roll" />
-</ItemGrid>
-
-材料与容器
-
-<ItemGrid>
-  <ItemIcon id="minecraft:dried_kelp" />
-  <ItemIcon id="farmersdelight:cooked_rice" />
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="farmersdelight:cabbage" />
-  <ItemIcon id="spawn:herring_slice" />
-  <ItemIcon id="spawn:cooked_herring_slice" />
-  <ItemIcon id="spawn:bluefish_slice" />
-</ItemGrid>
-
-Spawn 加入作为食材来源的水生生物。金枪鱼小份可制作卷物和三明治，鲱鱼和蓝鱼各有熟食与卷物。水桶捕捉、生物收获和钓鱼竿渔获不同。菜单中有一道料理，不代表其原料可用钓鱼竿获得。
-***
-
-## 贝类与捕捉
-
-<ItemGrid>
-  <ItemIcon id="spawn:clam" />
-  <ItemIcon id="spawn:cooked_clam" />
-  <ItemIcon id="spawn:steamed_clams" />
-  <ItemIcon id="spawn:clam_chowder" />
-  <ItemIcon id="spawn:coastal_crab_claw" />
-  <ItemIcon id="spawn:crab_boil" />
-  <ItemIcon id="spawn:casting_net" />
-  <ItemIcon id="spawn:herring_bucket" />
-  <ItemIcon id="spawn:bluefish_bucket" />
-</ItemGrid>
-
-材料与容器
-
-<ItemGrid>
-  <ItemIcon id="minecraft:bread" />
-  <ItemIcon id="farmersdelight:cabbage" />
-  <ItemIcon id="farmersdelight:tomato" />
-  <ItemIcon id="farmersdelight:onion" />
-  <ItemIcon id="minecraft:potato" />
-  <ItemIcon id="farmersdelight:milk_bottle" />
-  <ItemIcon id="minecraft:bowl" />
-  <ItemIcon id="spawn:shell_fragments" />
-  <ItemIcon id="minecraft:string" />
-</ItemGrid>
-
-蛤蜊提供贝类料理，滨海蟹钳用于蟹料理。用受热烹饪锅制作 <ItemLink id="spawn:clam_chowder" />，并用碗盛装。渔网与鱼桶是捕捉用品，并非料理。
-
-***
-
-## 烹饪与携带
-
-切菜板、炉灶、锅与煎锅操作请看烹饪工具。海鲜增加食材选择，不需要重复学习另一套厨房操作。Short Stacks 也适用于可食用鱼与成品料理，准备口粮时应检查食物数值与堆叠上限。
-
-- [烹饪工具](food.utensils.md)
-- [钓鱼](food.fishing.md)
-- [饥饿、堆叠与多样性](food.hunger.md)
-- [水生食材来源](adventure.aquatic.md)
-
+- [水生生物](adventure.aquatic.md) 这些生物生活在哪里。
+- [饥饿与多样性](food.hunger.md) 饱和度、效果与食物多样性。
 
 ***
 
