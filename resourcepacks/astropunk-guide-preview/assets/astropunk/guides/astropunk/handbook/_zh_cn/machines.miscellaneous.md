@@ -8,6 +8,8 @@ navigation:
 
 # 寻找其他工厂工具
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Stam1o+Tweaks+Create+Stuff+%27N+Additions+Workshop+tools+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Stam1o+Tweaks+Create+Stuff+%27N+Additions+%E5%AF%BB%E6%89%BE%E5%85%B6%E4%BB%96%E5%B7%A5%E5%8E%82%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 省下跑回家的路的工具
 
 <EmiSearch query="@create_sa" /> <EmiSearch query="@create" />

@@ -8,6 +8,8 @@ navigation:
 
 # Boats & submarines
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Deep+Seas+Boats+%26+submarines+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Deep+Seas+%E6%93%8D%E4%BD%9C%E8%88%B9%E5%8F%AA%E4%B8%8E%E6%BD%9C%E8%89%87+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Hull
 
 <EmiSearch query="@create_submarine" /> <EmiSearch query="@starcatcher" />

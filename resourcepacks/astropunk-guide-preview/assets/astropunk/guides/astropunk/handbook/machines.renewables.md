@@ -8,6 +8,8 @@ navigation:
 
 # Renewable resources
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Molten+Vents+Renewable+resources+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Molten+Vents+%E7%94%9F%E4%BA%A7%E5%8F%AF%E5%86%8D%E7%94%9F%E5%8E%9F%E6%96%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Vents are under water here
 
 <EmiSearch query="@molten_vents" /> <EmiSearch query="@create" />

@@ -8,6 +8,8 @@ navigation:
 
 # Local transport
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Escalated+Create%3A+Hypertubes+Local+transport+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Escalated+Create%3A+Hypertubes+%E5%9C%A8%E5%9F%BA%E5%9C%B0%E5%86%85%E7%A7%BB%E5%8A%A8+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Hypertube line
 
 <EmiSearch query="@create_hypertube" />

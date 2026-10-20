@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Reject item identifiers the pack does not ship.
+"""Find handbook references without matching assets in the selected jar cache.
 
-Every icon, link and image id in the refurbished topics must resolve to a real
-item, block item or language entry in a cached mod jar. Vanilla namespaces are
-skipped because the Minecraft jar is not cached here.
+This is a discovery check, NOT proof of runtime item registration. Assets can
+remain for disabled compatibility content, and blocks may have no item form.
+Translation keys must never be converted into candidate registry identifiers.
+Vanilla namespaces are skipped because the Minecraft jar is not cached here.
 
 Prepare the cache first: python scripts/fetch_mod_jars.py
 Run: python scripts/check_item_existence.py [topic ...]
@@ -21,8 +22,7 @@ CACHE = ROOT / 'build' / 'mod-cache'
 CONTENT = ROOT / 'docs' / 'handbook-content.json'
 SCOPE = ROOT / 'docs' / 'handbook-refurbish-scope.json'
 IDENT = re.compile(r'<(?:ItemIcon|ItemLink|ItemImage)\b[^>]*\bid="([^"]+)"')
-MODEL = re.compile(r'assets/([^/]+)/(?:models/(?:item|block)/.+|blockstates/.+|lang/en_us)\.json$')
-LANG_KEY = re.compile(r'(?:item|block)\.([a-z0-9_.\-]+)$')
+MODEL = re.compile(r'assets/([^/]+)/(?:models/(?:item|block)|blockstates)/(.+)\.json$')
 NESTED = re.compile(r'META-INF/(?:jars|jarjar)/.+\.jar$')
 VANILLA = {'minecraft', 'forge', 'neoforge', 'c', 'tag'}
 
@@ -32,21 +32,9 @@ def harvest(archive, index, depth=0):
         found = MODEL.match(member)
         if found:
             namespace = found.group(1)
-            stem = member.rsplit('/', 1)[-1][:-len('.json')]
-            if '/models/' in member:
-                index[namespace].add(stem)
-            elif member.endswith('lang/en_us.json'):
-                try:
-                    language = json.loads(archive.read(member))
-                except Exception:  # noqa: BLE001 - a broken lang file is not fatal
-                    continue
-                for key in language:
-                    entry = LANG_KEY.match(key)
-                    if entry:
-                        name = entry.group(1)
-                        if name.startswith(namespace + '.'):
-                            name = name[len(namespace) + 1:]
-                        index[namespace].add(name)
+            # Preserve the entire relative path, including integration subfolders.
+            # A model at chipped/alchemy_bench_upgrade is not chipped.alchemy_bench_upgrade.
+            index[namespace].add(found.group(2))
         if NESTED.match(member) and depth < 2:
             try:
                 inner = zipfile.ZipFile(io.BytesIO(archive.read(member)))
@@ -88,13 +76,14 @@ def main():
                     continue
                 checked += 1
                 if namespace not in index:
-                    unknown[identifier + ' (' + locale + ')'].add('unknown namespace')
+                    unknown[identifier + ' (' + locale + ')'].add('no cached asset namespace')
                 elif name not in index[namespace]:
-                    unknown[identifier + ' (' + locale + ')'].add('no such item or block')
-    print('checked', checked, 'identifiers across', len(selected), 'topics')
+                    unknown[identifier + ' (' + locale + ')'].add('no exact matching asset path')
+    print('asset discovery only:', checked, 'references across', len(selected), 'topics')
+    print('Runtime item registration and conditional loading are NOT verified by this check.')
     for identifier, reasons in sorted(unknown.items()):
-        print('UNVERIFIED', identifier, ' '.join(sorted(reasons)))
-    print('unverified', len(unknown))
+        print('NO_ASSET_EVIDENCE', identifier, ' '.join(sorted(reasons)))
+    print('references without asset evidence:', len(unknown))
     return 1 if unknown else 0
 
 

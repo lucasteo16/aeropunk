@@ -1,0 +1,11 @@
+# Writer B, final regional grouping delta
+
+Use build/correction-round1/writer-b/parent-reviewed-fragment.json as input, not revision4. It includes parent corrections that must not regress. Maximum three minutes and 20 turns. Return revision5-fragment.json, revision5-evidence.json and revision5-notes.md with preserved originals. Do not reopen layout or verified prose.
+
+Only remaining regional content defects:
+- End table still identifies a raw endermite ingredient and a dried finished food in one grid. Keep the raw item in the ingredient grid, and retain the dried item as an explicit ItemLink in Use. Do not lose either id.
+- 'Finished dragon dishes / Egg forms' still mixes cooked eggs with non_hatchable_dragon_egg and half_dragon_egg_shell. Separate egg ingredients from finished egg dishes in clearly labeled compact rows. Do not call a shell a meal. Preserve all ids. Check selected food recipes only if needed to resolve whether liquid dragon egg is an ingredient or finished food.
+- Mixed pantry 'Shulker meals' still places shulker_omelette_mixture among ready-to-eat meals. Identify that prepared ingredient separately and keep cooked foods together, all ids preserved. This is classification, not an invented flow diagram.
+- Parent exact baseline comparison still misses oceansdelight:cooked_stuffed_squid and oceansdelight:elder_guardian_slab in seafood, and ends_delight:grilled_shulker and ends_delight:dragon_tooth in End. Restore valid food identities in their correct owning rows. For dragon_tooth, check its actual recipe use and either identify its role accurately or record exact non-food retirement reason, do not invent a destination page. No ordinary vanilla pantry restoration and no new giant catalog.
+
+Everything else stays byte-identical to the reviewed input unless one of these bullets requires the change. Especially preserve Chinese raw rice as 稻米, non-food shell-fragment row, real board interactions, bowl-free shulker soup, registered key binding and corrected Chipped paths. Do not add a station, best/cheap/travel claim or new gameplay instruction. Exact native-reference parity across locales and explicit per-id disposition required. No shared source, generator, tests, generated resources, installs, game or commits.

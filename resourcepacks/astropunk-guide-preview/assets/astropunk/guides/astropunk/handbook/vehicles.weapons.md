@@ -8,6 +8,8 @@ navigation:
 
 # Mounted weapons
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Big+Cannons+Mounted+weapons+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Big+Cannons+%E5%AE%89%E8%A3%85%E5%92%8C%E6%93%8D%E4%BD%9C%E8%BD%BD%E5%85%B7%E6%AD%A6%E5%99%A8+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Cannon assembly
 
 <EmiSearch query="@createbigcannons" />

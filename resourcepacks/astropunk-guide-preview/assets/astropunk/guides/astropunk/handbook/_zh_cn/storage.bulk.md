@@ -8,6 +8,8 @@ navigation:
 
 # 储存工厂的大批原料
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Vibrant+Vaults+Bulk+storage+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Vibrant+Vaults+%E5%82%A8%E5%AD%98%E5%B7%A5%E5%8E%82%E7%9A%84%E5%A4%A7%E6%89%B9%E5%8E%9F%E6%96%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 储物仓容量是方块数乘二十
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@create" />

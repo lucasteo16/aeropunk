@@ -8,6 +8,8 @@ navigation:
 
 # 工业材料与燃料系统
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+TFMG+Community+Edition+Materials+%26+fuels+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+TFMG+Community+Edition+%E5%B7%A5%E4%B8%9A%E6%9D%90%E6%96%99%E4%B8%8E%E7%87%83%E6%96%99%E7%B3%BB%E7%BB%9F+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 先有焦炭，再有钢
 
 <EmiSearch query="@tfmg" /> <EmiSearch query="@create" />

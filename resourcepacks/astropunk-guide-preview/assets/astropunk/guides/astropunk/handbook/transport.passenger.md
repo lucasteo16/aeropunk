@@ -8,6 +8,8 @@ navigation:
 
 # Train travel
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Railways+Navigator+Train+travel+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Railways+Navigator+%E4%B9%98%E5%9D%90%E5%88%97%E8%BD%A6%E5%87%BA%E8%A1%8C+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Route search
 
 <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />

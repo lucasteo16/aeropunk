@@ -8,6 +8,8 @@ navigation:
 
 # Radar
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Radars+Radar+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Radars+%E8%AF%BB%E5%8F%96%E9%9B%B7%E8%BE%BE%E4%BF%A1%E6%81%AF+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Detection chain
 
 <EmiSearch query="@create_radar" />

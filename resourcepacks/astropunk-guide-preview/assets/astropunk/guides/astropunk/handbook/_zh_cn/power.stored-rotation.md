@@ -8,6 +8,8 @@ navigation:
 
 # 储存旋转动力
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Springs+Stored+rotation+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Springs+%E5%82%A8%E5%AD%98%E6%97%8B%E8%BD%AC%E5%8A%A8%E5%8A%9B+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 旋转用的蓄电池
 
 <EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />

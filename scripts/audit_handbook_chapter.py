@@ -16,7 +16,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
 CONTENT = ROOT / 'docs/handbook-content.json'
-VISUAL = re.compile(r'(!\[|<ItemGrid|<ItemImage|<GameScene|<Recipe|<BlockImage|<IsometricCamera|^\| --- \|)', re.M)
+VISUAL = re.compile(r'(!\[|<ItemGrid|<ItemImage|<GameScene|<Recipe|<BlockImage)', re.M)
 BANNED = re.compile(r'[\u2013\u2014]')
 SECTION = re.compile(r'(?m)^(## .*)$')
 

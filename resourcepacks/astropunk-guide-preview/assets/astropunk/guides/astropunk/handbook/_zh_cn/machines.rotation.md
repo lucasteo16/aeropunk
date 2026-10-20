@@ -8,6 +8,8 @@ navigation:
 
 # 为机器提供旋转动力
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Connected+Rotational+power+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Connected+%E4%B8%BA%E6%9C%BA%E5%99%A8%E6%8F%90%E4%BE%9B%E6%97%8B%E8%BD%AC%E5%8A%A8%E5%8A%9B+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 先看应力，再看转速
 
 <EmiSearch query="@create" />

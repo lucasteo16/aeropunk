@@ -8,6 +8,8 @@ navigation:
 
 # Item routing
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Additional+Logistics+Item+routing+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Additional+Logistics+%E8%BE%93%E9%80%81%E3%80%81%E7%AD%9B%E9%80%89%E4%B8%8E%E5%88%86%E9%85%8D%E7%89%A9%E5%93%81+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## One clean line
 
 <EmiSearch query="@create" />

@@ -131,7 +131,6 @@
       "food.hunger": "reference.food.md",
       "food.growing": "reference.food.md",
       "food.fishing": "reference.food.md",
-      "fishing.habitats": "reference.food.md",
       "food.seafood": "reference.food.md",
       "food.underground": "reference.food.md",
       "food.nether": "reference.food.md",
@@ -284,7 +283,6 @@
         "food.hunger",
         "food.growing",
         "food.fishing",
-        "fishing.habitats",
         "food.seafood",
         "food.underground",
         "food.nether",
@@ -1590,16 +1588,6 @@
         "mods/oceans-delight.pw.toml",
         "mods/starcatchers-delight.pw.toml"
       ],
-      "player_questions": [],
-      "navigation_parent": "reference.food.md",
-      "content_source": "docs/handbook-content.json"
-    },
-    {
-      "page_id": "fishing.habitats",
-      "title": "Fishing habitats",
-      "status": "authored",
-      "functional_category": "Food and farming",
-      "primary_metadata_paths": [],
       "player_questions": [],
       "navigation_parent": "reference.food.md",
       "content_source": "docs/handbook-content.json"

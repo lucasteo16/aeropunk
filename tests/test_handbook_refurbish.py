@@ -11,7 +11,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = json.loads((ROOT / 'docs/handbook-content.json').read_text())
 SCOPE = json.loads((ROOT / 'docs/handbook-refurbish-scope.json').read_text())
-VISUAL = re.compile(r'(!\[|<ItemGrid|<ItemImage|<GameScene|<Recipe|<BlockImage|<IsometricCamera|^\| --- \|)', re.M)
+PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
+VISUAL = re.compile(r'(!\[|<ItemGrid|<ItemImage|<GameScene|<Recipe|<BlockImage)', re.M)
 GRID = re.compile(r'<ItemGrid>(.*?)</ItemGrid>', re.S)
 ICON = re.compile(r'<ItemIcon id="([^"]+)" />')
 NATIVE = re.compile(r'<(?:ItemIcon|ItemLink|ItemImage)\b[^>]*\bid="([^"]+)"')
@@ -23,6 +24,29 @@ def topics():
 
 
 class RefurbishedChapter(unittest.TestCase):
+    def test_generated_tutorial_actions_precede_sections(self):
+        selected = set(topics()) | {
+            'reference.food', 'reference.machines-storage', 'reference.vehicles'
+        }
+        for topic in sorted(selected):
+            for locale in ('en_us', 'zh_cn'):
+                with self.subTest(topic=topic, locale=locale):
+                    folder = PAGES / '_zh_cn' if locale == 'zh_cn' else PAGES
+                    body = (folder / (topic + '.md')).read_text().split('---', 2)[2]
+                    rows = [line for line in body.splitlines()
+                            if line.startswith('![YouTube](images/tutorial-video.png) ')]
+                    self.assertEqual(len(rows), 1, 'exactly one tutorial action row is required')
+                    row = rows[0]
+                    self.assertRegex(row, r'\[English\]\(https://www\.youtube\.com/results\?search_query=[^)]+\)')
+                    self.assertRegex(row, r'\[中文\]\(https://www\.youtube\.com/results\?search_query=[^)]+\)')
+                    title = re.search(r'(?m)^# .+$', body)
+                    section = re.search(r'(?m)^## .+$', body)
+                    self.assertIsNotNone(title)
+                    self.assertIsNotNone(section)
+                    assert title is not None and section is not None
+                    between = body[title.end():section.start()].strip()
+                    self.assertEqual(between, row, 'tutorial row belongs immediately below the title')
+
     def test_scope_topics_exist(self):
         for topic in topics():
             self.assertIn(topic, CONTENT)
@@ -67,6 +91,10 @@ class RefurbishedChapter(unittest.TestCase):
                              sorted(set(NATIVE.findall(chinese))), topic)
             self.assertEqual(len(re.findall(r'<Recipe\b', english)),
                              len(re.findall(r'<Recipe\b', chinese)), topic)
+            for component in ('Recipe', 'KeyBind', 'EmiSearch'):
+                pattern = r'<' + component + r'\b[^>]*>'
+                self.assertEqual(set(re.findall(pattern, english)),
+                                 set(re.findall(pattern, chinese)), (topic, component))
 
 
 if __name__ == '__main__':

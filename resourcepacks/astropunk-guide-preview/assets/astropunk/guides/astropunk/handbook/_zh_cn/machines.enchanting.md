@@ -8,6 +8,8 @@ navigation:
 
 # 附魔、修理与查看装备
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Enchantment+Industry+Easy+Anvils+Enchanting+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Enchantment+Industry+Easy+Anvils+%E9%99%84%E9%AD%94%E3%80%81%E4%BF%AE%E7%90%86%E4%B8%8E%E6%9F%A5%E7%9C%8B%E8%A3%85%E5%A4%87+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 把经验变成液体
 
 <EmiSearch query="@create" />

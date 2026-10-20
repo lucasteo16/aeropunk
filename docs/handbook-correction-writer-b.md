@@ -1,0 +1,18 @@
+# Writer B, broken native references and regional prose prototype
+
+You are the writing subagent. Parent Codex is reviewer. Use OpenRouter deepseek/deepseek-v4.1-flash-1017 for this bounded invocation. Do not change credentials or configuration. Do not declare the whole batch complete.
+
+Work in /home/tsb/Projects/lucas/astropunk-dev, fix/refurbishment-combat-standard. Read docs/handbook-correction-contract.md FIRST, docs/handbook-authoring-standard.md and docs/handbook-refurbish-playbook.md. The correction contract supersedes bad older shortcuts, especially asset-based existence checks. Read actual accepted Combat pages reference.skills, combat.abilities, combat.magic and equipment.weapons-armor in docs/handbook-content.json to learn the concise gameplay-first structure. Do not copy the rejected food pages as a template.
+
+Own only food.seafood, food.end and storage.portable, both locales. Deliver a deeply corrected prototype rather than bulk superficial wording. Lucas's images show:
+- Couldn't find recipe starcatcher_delight:hosomaki_common.
+- Couldn't find recipe ends_delight:chorus_fruit_milk_tea.
+- Missing item sophisticatedbackpacks:chipped.alchemy_bench_upgrade and six sibling workstation upgrades. These were wrongly changed from slash paths by the previous parent, inferred from translation keys. Do not assume either shape until actual selected-release registration is checked, including conditional compatibility requirements.
+
+Inspect exact selected jars in build/mod-cache and metadata in mods/*.pw.toml. Resolve real recipe resource paths, conditional registrations, pack overrides and renderer support, using targeted registration source or bytecode as necessary. A language key, model or blockstate is NOT registration evidence. Translation-backed check_item_existence.py gives false confidence and cannot certify this work. Recipe validation is separate and custom cooking types may have no supported native renderer. Keep the useful recipe explanation with real verified item references and explicit station instructions when the native display is unsupported, do not just remove the error and lose the workflow. Return exact defect-class findings for other affected pages so the parent can audit the full batch.
+
+Rewrite these pages to answer both what exists and where to begin, prerequisites, actual operation, success and meaningful next choices, in the accepted Combat voice. No dense prose blocks, generic advice or mixed strips of tools, inputs and outputs. Catalogs separate finished food from ingredients and non-food. Use compact meaningful item comparisons, native recognizable tool icons, supported recipes and appropriate scenes for spatial explanation. Restore one compact YouTube search row immediately below the generated title, both English and 中文 choices in both locales, matching Combat source syntax.
+
+Only write within build/correction-round1/writer-b/. Do not edit shared content, scripts, tests, generated resources or writer A files. No game launch, computer control, instance change, install, commit or push. No re-delegation. Read gameplay documentation as needed, record URLs actually read and version limits, do not pretend a video was watched.
+
+Deliver fragment.json as {topic: {en_us: body, zh_cn: body}}, evidence.json with player-question answers, item and recipe dispositions, exact registration evidence and renderer boundaries, and review-notes.md naming unverified details and a proposed scan for the same faults across the batch. Do not keep rewriting outputs after your final response. Parent will inspect and resume this session with concrete revision requests, not blindly integrate. Bound work to 20 minutes and return files plus unresolved findings.

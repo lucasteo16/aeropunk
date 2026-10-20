@@ -16,6 +16,8 @@ item_ids:
 
 # 太空生命支持
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Cosmonautics%3A+Deep+Air+Space+life+support+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Cosmonautics%3A+Deep+Air+%E5%A4%AA%E7%A9%BA%E7%94%9F%E5%91%BD%E6%94%AF%E6%8C%81+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 呼吸装备
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />

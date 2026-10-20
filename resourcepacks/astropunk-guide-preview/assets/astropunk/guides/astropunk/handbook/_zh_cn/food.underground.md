@@ -1,12 +1,14 @@
 ---
 navigation:
   title: "用地下食材烹饪"
-  position: 6
+  position: 5
   parent: reference.food.md
   icon: minecraft:brown_mushroom
 ---
 
 # 用地下食材烹饪
+
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Miner%27s+Delight+Underground+food+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Miner%27s+Delight+%E7%94%A8%E5%9C%B0%E4%B8%8B%E9%A3%9F%E6%9D%90%E7%83%B9%E9%A5%AA+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
 
 ## 洞穴胡萝卜
 

@@ -2,9 +2,11 @@
 
 This distils the requirements and the writing style agreed for the Astropunk handbook into one working document. `docs/handbook-authoring-standard.md` remains the structural contract. This playbook is the quality bar and the process for a chapter refurbishment batch.
 
+The current correction and acceptance contract is `docs/handbook-correction-contract.md`. It takes precedence over shortcuts in older batch evidence. Read it before delegating, writing or reviewing. The previous Food, Machines and Transport review export was rejected by player review and is not proof of acceptance.
+
 ## What a refurbished chapter must do
 
-A reader opens a page to answer one of these questions. Every page must answer at least one of them without leaving the page.
+A reader needs both a content reference and a practical entry point. Every activity page must answer the applicable questions below, not merely one of them.
 
 1. What is this thing and why would I want it.
 2. What do I need before I can start.
@@ -53,10 +55,10 @@ When direct YouTube access is blocked from this network, read transcripts throug
 A page is done when all of these hold.
 
 - It states its purpose in the first lines.
-- It answers at least one of the six questions above, ideally several.
+- It explains both what is available and how to begin, use it, recognize success and choose a meaningful next step.
 - It carries a visual in every section.
 - It contains no generic advice and no duplicated instruction.
-- Every native reference resolves in the selected pack.
+- Every native reference is backed by actual selected-release registration and supported rendering, not just a translation or model asset. Recipe errors and conditional integrations are checked separately.
 - Both languages read naturally and say the same thing.
 - No style violation remains.
 

@@ -8,6 +8,8 @@ navigation:
 
 # 发电、配电与用电
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Electro+Energetics+Electricity+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Electro+Energetics+%E5%8F%91%E7%94%B5%E3%80%81%E9%85%8D%E7%94%B5%E4%B8%8E%E7%94%A8%E7%94%B5+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 旋转变成电压
 
 <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />

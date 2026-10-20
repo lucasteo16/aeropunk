@@ -8,6 +8,8 @@ navigation:
 
 # 使用固定与便携传送点
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+AeroWarptics+Create+Waystones+Recipes+Teleportation+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+AeroWarptics+Create+Waystones+Recipes+%E4%BD%BF%E7%94%A8%E5%9B%BA%E5%AE%9A%E4%B8%8E%E4%BE%BF%E6%90%BA%E4%BC%A0%E9%80%81%E7%82%B9+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 传送石网络
 
 <EmiSearch query="@waystones" />

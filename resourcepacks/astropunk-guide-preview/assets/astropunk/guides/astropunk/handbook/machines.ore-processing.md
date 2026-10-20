@@ -13,6 +13,8 @@ item_ids:
 
 # Ore processing
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Almost+Unified+Ore+processing+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Almost+Unified+%E5%8A%A0%E5%B7%A5%E7%9F%BF%E7%9F%B3%E4%B8%8E%E5%8E%9F%E6%96%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## What the three stages give you
 
 <EmiSearch query="@create" />

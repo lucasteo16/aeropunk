@@ -8,6 +8,8 @@ navigation:
 
 # 建造列车、轨道与车站
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Blocks+%26+Bogies+Steam+%27n%27+Rails+Neoforge+Railways+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Blocks+%26+Bogies+Steam+%27n%27+Rails+Neoforge+%E5%BB%BA%E9%80%A0%E5%88%97%E8%BD%A6%E3%80%81%E8%BD%A8%E9%81%93%E4%B8%8E%E8%BD%A6%E7%AB%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 线路、车站与时刻表
 
 <EmiSearch query="@create" />

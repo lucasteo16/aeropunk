@@ -1,93 +1,92 @@
 ---
 navigation:
   title: "End food"
-  position: 8
+  position: 7
   parent: reference.food.md
   icon: minecraft:chorus_fruit
 ---
 
 # End food
 
-## Chorus harvest
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+End%27s+Delight+chorus+fruit+cooking+guide+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+%E6%9C%AB%E5%9C%B0+%E7%BE%8E%E9%A3%9F+%E7%B4%AB%E9%A2%82%E6%9E%9C+%E6%96%99%E7%90%86+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@ends_delight" /> <EmiSearch query="@farmersdelight" />
+## Chorus from the outer islands
 
-![Cooking among End materials](images/visual-end-kitchen.png)
+<EmiSearch query="@ends_delight" />
 
-Cooking among End materials
+One chorus fruit cuts into four grains at a cutting board, so the outer islands feed a kitchen without a farm. Place the fruit on the board, then use the board while holding a knife. The grains drop beside it.
 
-<ItemGrid><ItemIcon id="ends_delight:chorus_fruit_grain" /><ItemIcon id="ends_delight:chorus_fruit_milk_tea" /><ItemIcon id="ends_delight:bubble_tea" /><ItemIcon id="ends_delight:chorus_fruit_popsicle" /><ItemIcon id="ends_delight:chorus_fruit_wine" /><ItemIcon id="ends_delight:dragon_breath_and_chorus_soup" /><ItemIcon id="ends_delight:chorus_flower_tea" /><ItemIcon id="ends_delight:dried_chorus_flower" /><ItemIcon id="ends_delight:chorus_fruit_pie_slice" /><ItemIcon id="ends_delight:chorus_flower_pie" /><ItemIcon id="ends_delight:chorus_sauce" /><ItemIcon id="ends_delight:chorus_cookie" /></ItemGrid>
+| Ingredient | Identify it | How to get it | What it opens |
+| --- | --- | --- | --- |
+| <ItemLink id="minecraft:chorus_fruit" /> | <ItemGrid><ItemIcon id="minecraft:chorus_fruit" /></ItemGrid> | Outer island chorus plants | Grains, or a whole fruit in drinks |
+| <ItemLink id="ends_delight:chorus_fruit_grain" /> | <ItemGrid><ItemIcon id="ends_delight:chorus_fruit_grain" /></ItemGrid> | Four from one fruit at the board | Milk tea, wine, pies |
+| <ItemLink id="ends_delight:chorus_succulent" /> | <ItemGrid><ItemIcon id="ends_delight:chorus_succulent" /></ItemGrid> | Cut from the plant | Chorus sauce |
+| <ItemLink id="ends_delight:dried_chorus_flower" /> | <ItemGrid><ItemIcon id="ends_delight:dried_chorus_flower" /></ItemGrid> | A chorus flower on a campfire | Flower tea and flower pie |
+| <ItemLink id="ends_delight:chorus_sauce" /> | <ItemGrid><ItemIcon id="ends_delight:chorus_sauce" /></ItemGrid> | Cooked from succulent and fruit | Savoury plates |
 
-End's Delight turns the outer islands into a pantry. Chorus fruit is the renewable base, and one fruit cuts into four grains, so a single harvest supplies several batches of drinks and desserts.
+The first drink is the cheapest test of the chain. A cooking pot over heat takes milk and either one whole chorus fruit or one grain, and the finished <ItemLink id="ends_delight:chorus_fruit_milk_tea" /> stays in the pot until you take it out.
 
-| Ingredient | Origin | Use |
-| --- | --- | --- |
-| Chorus fruit | Outer island chorus plants | Cut into grains, or cooked whole into drinks |
-| Chorus fruit grains | Cutting one fruit | Tea, milk tea, wine and pies |
-| Chorus flower | Chorus plant top | Dried flower, flower tea and flower pie |
-| Chorus sauce | Cooked chorus preparation | Savoury dishes and dragon plates |
+| Drink | Identify it | Milk | Chorus | Extra |
+| --- | --- | --- | --- | --- |
+| <ItemLink id="ends_delight:chorus_fruit_milk_tea" /> | <ItemGrid><ItemIcon id="ends_delight:chorus_fruit_milk_tea" /></ItemGrid> | 1 | 1 fruit or 1 grain | None |
+| <ItemLink id="ends_delight:bubble_tea" /> | <ItemGrid><ItemIcon id="ends_delight:bubble_tea" /></ItemGrid> | 1 | 1 fruit or 1 grain | One ender pearl grain |
+| <ItemLink id="ends_delight:chorus_fruit_wine" /> | <ItemGrid><ItemIcon id="ends_delight:chorus_fruit_wine" /></ItemGrid> | 0 | 2 fruit or grains | One sugar |
 
-<ItemGrid><ItemIcon id="minecraft:chorus_fruit" /><ItemIcon id="farmersdelight:milk_bottle" /><ItemIcon id="ends_delight:ender_pearl_grain" /><ItemIcon id="minecraft:ice" /><ItemIcon id="minecraft:stick" /><ItemIcon id="minecraft:sugar" /><ItemIcon id="minecraft:suspicious_stew" /><ItemIcon id="minecraft:dragon_breath" /><ItemIcon id="minecraft:ghast_tear" /><ItemIcon id="minecraft:chorus_flower" /><ItemIcon id="ends_delight:chorus_fruit_pie" /><ItemIcon id="farmersdelight:wheat_dough" /><ItemIcon id="minecraft:poppy" /><ItemIcon id="ends_delight:chorus_succulent" /><ItemIcon id="minecraft:wheat" /></ItemGrid>
-
-<Recipe id="ends_delight:chorus_fruit_milk_tea" />
-
-The milk tea accepts either a whole chorus fruit or a grain, so the drink is the cheapest way to test the chain before committing a stack of fruit to the cutting board.
+<ItemLink id="ends_delight:dried_chorus_flower" /> is the slowest step in the chain. A chorus flower on a campfire takes 600 ticks, which is about thirty seconds.
 
 ***
 
-## Shulker and small creatures
+## Shulker and small creature meat
 
-<ItemGrid><ItemIcon id="ends_delight:shulker_meat" /><ItemIcon id="ends_delight:shulker_meat_slice" /><ItemIcon id="ends_delight:stir_fried_shulker_meat" /><ItemIcon id="ends_delight:raw_ender_mite_meat" /><ItemIcon id="ends_delight:dried_endermite_meat" /><ItemIcon id="ends_delight:roasted_shulker_meat" /><ItemIcon id="ends_delight:roasted_shulker_meat_slice" /><ItemIcon id="ends_delight:grilled_shulker" /><ItemIcon id="ends_delight:enderman_gristle" /><ItemIcon id="ends_delight:raw_ender_sausage" /><ItemIcon id="ends_delight:ender_sausage" /><ItemIcon id="ends_delight:enderman_gristle_stew" /><ItemIcon id="ends_delight:shulker_soup" /><ItemIcon id="ends_delight:shulker_omelette_mixture" /><ItemIcon id="ends_delight:shulker_omelette" /></ItemGrid>
+Shulker meat comes from a shulker killed with a knife, and one piece cuts into two slices. Endermite and enderman are separate branches with their own recipes, not substitutes for shulker meat.
 
-| Source | Knife result | Note |
-| --- | --- | --- |
-| Shulker | Shulker meat, then two slices per piece | Requires knife hunting, so End cities become an ingredient destination |
-| Endermite | Raw ender mite meat, dried endermite meat | Separate branch, not a shulker substitute |
-| Enderman | Enderman gristle and ender sausage | Third branch with its own recipes |
+| Source | Knife result | Identify it | Use |
+| --- | --- | --- | --- |
+| Shulker | <ItemLink id="ends_delight:shulker_meat" />, then two slices | <ItemGrid><ItemIcon id="ends_delight:shulker_meat" /><ItemIcon id="ends_delight:shulker_meat_slice" /></ItemGrid> | <ItemLink id="ends_delight:roasted_shulker_meat" />, <ItemLink id="ends_delight:shulker_soup" />, <ItemLink id="ends_delight:shulker_omelette" /> |
+| Endermite | <ItemLink id="ends_delight:raw_ender_mite_meat" /> | <ItemGrid><ItemIcon id="ends_delight:raw_ender_mite_meat" /></ItemGrid> | <ItemLink id="ends_delight:dried_endermite_meat" /> |
+| Enderman | <ItemLink id="ends_delight:enderman_gristle" /> | <ItemGrid><ItemIcon id="ends_delight:enderman_gristle" /></ItemGrid> | <ItemLink id="ends_delight:raw_ender_sausage" />, <ItemLink id="ends_delight:ender_sausage" />, <ItemLink id="ends_delight:enderman_gristle_stew" /> |
 
-<ItemGrid><ItemIcon id="farmersdelight:onion" /><ItemIcon id="farmersdelight:tomato" /><ItemIcon id="minecraft:chorus_fruit" /><ItemIcon id="ends_delight:raw_dragon_meat_cuts" /><ItemIcon id="ends_delight:chorus_sauce" /><ItemIcon id="ends_delight:dried_chorus_flower" /><ItemIcon id="ends_delight:chorus_succulent" /><ItemIcon id="minecraft:egg" /></ItemGrid>
-
-Shulker meat is the only one of the three that also carries a shell byproduct, which matters because several plates ask for a shell as the serving vessel.
+Shulker soup is a pot recipe with three ingredients. Use shulker meat, one dried chorus flower and one chorus succulent, with no container in the pot. It finishes in 200 ticks.
 
 ***
 
 ## Dragon ingredients
 
-<ItemGrid><ItemIcon id="ends_delight:fried_dragon_egg" /><ItemIcon id="ends_delight:dragon_breath_soda" /><ItemIcon id="ends_delight:dragon_leg" /><ItemIcon id="ends_delight:smoked_dragon_leg" /><ItemIcon id="ends_delight:liquid_dragon_egg" /><ItemIcon id="ends_delight:half_dragon_egg_shell" /><ItemIcon id="ends_delight:non_hatchable_dragon_egg" /><ItemIcon id="ends_delight:roasted_dragon_meat" /><ItemIcon id="ends_delight:raw_dragon_meat" /><ItemIcon id="ends_delight:roasted_dragon_meat_cuts" /><ItemIcon id="ends_delight:raw_dragon_meat_cuts" /><ItemIcon id="ends_delight:dragon_meat_stew" /><ItemIcon id="ends_delight:steamed_dragon_egg" /><ItemIcon id="ends_delight:roasted_dragon_steak" /><ItemIcon id="ends_delight:ender_congee" /><ItemIcon id="ends_delight:dragon_leg_with_sauce" /><ItemIcon id="ends_delight:dragon_tooth" /></ItemGrid>
+Dragon cuts come from the dragon encounter. The egg and the breath are separate pickups, so treat each as its own objective.
 
-| Cut | Source | Use |
-| --- | --- | --- |
-| Raw dragon meat and cuts | Dragon encounter | Roasted meat, steak and stew |
-| Dragon leg | Dragon encounter | Smoked leg and leg with sauce |
-| Dragon egg and shell | Dragon egg | Fried, steamed and liquid egg dishes |
-| Dragon breath | Dragon encounter | Soda and soup |
+| Cut | Identify it | Source | Dishes |
+| --- | --- | --- | --- |
+| <ItemLink id="ends_delight:raw_dragon_meat" /> | <ItemGrid><ItemIcon id="ends_delight:raw_dragon_meat" /><ItemIcon id="ends_delight:raw_dragon_meat_cuts" /></ItemGrid> | Dragon encounter | Roasted meat, steak, stew |
+| <ItemLink id="ends_delight:dragon_leg" /> | <ItemGrid><ItemIcon id="ends_delight:dragon_leg" /></ItemGrid> | Dragon encounter | <ItemLink id="ends_delight:smoked_dragon_leg" />, <ItemLink id="ends_delight:dragon_leg_with_sauce" /> |
+| Dragon egg and shell | <ItemGrid><ItemIcon id="minecraft:dragon_egg" /><ItemIcon id="ends_delight:half_dragon_egg_shell" /></ItemGrid> | The egg from the encounter | Fried, steamed and liquid egg dishes |
+| Dragon breath | <ItemGrid><ItemIcon id="minecraft:dragon_breath" /></ItemGrid> | Breath collected during the fight | <ItemLink id="ends_delight:dragon_breath_soda" />, <ItemLink id="ends_delight:dragon_breath_and_chorus_soup" /> |
 
-<ItemGrid><ItemIcon id="minecraft:dragon_breath" /><ItemIcon id="minecraft:sugar" /><ItemIcon id="minecraft:obsidian" /><ItemIcon id="minecraft:end_crystal" /><ItemIcon id="ends_delight:chorus_sauce" /><ItemIcon id="farmersdelight:tomato" /><ItemIcon id="minecraft:warped_fungus" /><ItemIcon id="minecraft:crimson_fungus" /><ItemIcon id="minecraft:chorus_fruit" /><ItemIcon id="minecraft:bowl" /><ItemIcon id="farmersdelight:rice" /><ItemIcon id="ends_delight:dried_endermite_meat" /><ItemIcon id="ends_delight:ender_pearl_grain" /></ItemGrid>
-
-These are encounter ingredients, not farmed ones. Plan the meal around a fight that has already happened rather than expecting a renewable supply. Chorus dishes stay renewable, dragon dishes do not.
-
-***
-
-## Mixed meals
-
-<ItemGrid><ItemIcon id="ends_delight:ender_pearl_grain" /><ItemIcon id="ends_delight:stuffed_rice_cake" /><ItemIcon id="ends_delight:end_barbecue_stick" /><ItemIcon id="ends_delight:end_mixed_salad" /><ItemIcon id="ends_delight:assorted_salad" /><ItemIcon id="ends_delight:ender_noodle" /><ItemIcon id="ends_delight:ender_bamboo_rice" /></ItemGrid>
-
-| Dish family | What it combines |
+| Finished dragon dishes | Items |
 | --- | --- |
-| Rice and noodle plates | End grains with rice, sauce and vegetables |
-| Salads | End greens with Overworld cabbage and tomato |
-| Skewers and cakes | Meat portions with pantry staples |
-
-<ItemGrid><ItemIcon id="minecraft:ender_pearl" /><ItemIcon id="farmersdelight:rice" /><ItemIcon id="minecraft:sugar" /><ItemIcon id="minecraft:chorus_fruit" /><ItemIcon id="ends_delight:roasted_shulker_meat" /><ItemIcon id="ends_delight:roasted_dragon_meat_cuts" /><ItemIcon id="ends_delight:dried_endermite_meat" /><ItemIcon id="minecraft:stick" /><ItemIcon id="ends_delight:chorus_succulent" /><ItemIcon id="farmersdelight:cabbage" /><ItemIcon id="farmersdelight:tomato" /><ItemIcon id="minecraft:bowl" /><ItemIcon id="minecraft:crimson_fungus" /><ItemIcon id="minecraft:warped_fungus" /><ItemIcon id="minecraft:shulker_shell" /><ItemIcon id="ends_delight:shulker_meat" /><ItemIcon id="ends_delight:chorus_sauce" /><ItemIcon id="farmersdelight:wheat_dough" /><ItemIcon id="minecraft:bamboo" /><ItemIcon id="ends_delight:raw_dragon_meat_cuts" /><ItemIcon id="minecraft:carrot" /><ItemIcon id="farmersdelight:onion" /></ItemGrid>
-
-End ingredients also combine with ordinary pantry items, so a stocked kitchen converts a small harvest into several distinct meals. Check the recipe browser to tell a finished serving from its raw ingredient or intermediate portion.
+| Roasted and stewed cuts | <ItemGrid><ItemIcon id="ends_delight:roasted_dragon_meat" /><ItemIcon id="ends_delight:roasted_dragon_meat_cuts" /><ItemIcon id="ends_delight:roasted_dragon_steak" /><ItemIcon id="ends_delight:dragon_meat_stew" /><ItemIcon id="ends_delight:ender_congee" /></ItemGrid> |
+| Egg ingredients | <ItemGrid><ItemIcon id="ends_delight:liquid_dragon_egg" /><ItemIcon id="ends_delight:non_hatchable_dragon_egg" /><ItemIcon id="ends_delight:half_dragon_egg_shell" /></ItemGrid> |
+| Finished egg dishes | <ItemGrid><ItemIcon id="ends_delight:fried_dragon_egg" /><ItemIcon id="ends_delight:steamed_dragon_egg" /></ItemGrid> |
 
 ***
 
-- [Food & hunger](food.hunger.md)
-- [Crop ingredients](food.growing.md)
-- [Cooking tools](food.utensils.md)
+## Mixed pantry meals
 
+End ingredients combine with ordinary pantry food, so a stocked kitchen turns a small harvest into several different meals.
+
+| Dish family | Identify it | What it combines |
+| --- | --- | --- |
+| Rice and noodle plates | <ItemGrid><ItemIcon id="ends_delight:ender_noodle" /><ItemIcon id="ends_delight:ender_bamboo_rice" /></ItemGrid> | End grains with rice, sauce and vegetables |
+| Salads | <ItemGrid><ItemIcon id="ends_delight:assorted_salad" /><ItemIcon id="ends_delight:end_mixed_salad" /></ItemGrid> | End greens with cabbage and tomato |
+| Chorus desserts | <ItemGrid><ItemIcon id="ends_delight:chorus_cookie" /><ItemIcon id="ends_delight:chorus_flower_pie" /><ItemIcon id="ends_delight:chorus_fruit_pie_slice" /><ItemIcon id="ends_delight:chorus_fruit_popsicle" /><ItemIcon id="ends_delight:chorus_flower_tea" /><ItemIcon id="ends_delight:chorus_fruit_pie" /></ItemGrid> | Baked and brewed chorus sweets |
+| Shulker meals | <ItemGrid><ItemIcon id="ends_delight:grilled_shulker" /><ItemIcon id="ends_delight:roasted_shulker_meat_slice" /><ItemIcon id="ends_delight:stir_fried_shulker_meat" /><ItemIcon id="ends_delight:shulker_omelette" /></ItemGrid> | Cooked shulker dishes |
+| Prepared ingredient | <ItemGrid><ItemIcon id="ends_delight:shulker_omelette_mixture" /></ItemGrid> | Mixed before cooking |
+| Skewers and cakes | <ItemGrid><ItemIcon id="ends_delight:end_barbecue_stick" /><ItemIcon id="ends_delight:stuffed_rice_cake" /></ItemGrid> | Meat portions with staples |
+
+<ItemLink id="ends_delight:ender_pearl_grain" /> is the one End ingredient you can make before leaving home. One ender pearl cuts into four grains at a cutting board with a knife.
+
+- [Food & hunger](food.hunger.md) Saturation, effects and food variety.
+- [Cooking tools](food.utensils.md) Pot, board and campfire interactions.
+- [Crop ingredients](food.growing.md) Overworld vegetables for the salads.
 
 ***
 

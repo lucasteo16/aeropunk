@@ -8,6 +8,8 @@ navigation:
 
 # 手动交易与自动交易
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Trading+floor+Trading+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Trading+floor+%E6%89%8B%E5%8A%A8%E4%BA%A4%E6%98%93%E4%B8%8E%E8%87%AA%E5%8A%A8%E4%BA%A4%E6%98%93+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 工作站旁的交易站
 
 <EmiSearch query="@trading_floor" />

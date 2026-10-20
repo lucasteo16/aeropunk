@@ -1,0 +1,21 @@
+# Writer A, regional correction prototype
+
+You are the writing subagent. The parent is the reviewer. Your runtime must be OpenRouter deepseek/deepseek-v4.1-flash-1017. Do not change configuration or credentials. This invocation is a bounded first draft, not permission to declare the batch complete.
+
+Working directory: /home/tsb/Projects/lucas/astropunk-dev on fix/refurbishment-combat-standard.
+
+Read docs/handbook-correction-contract.md FIRST, then docs/handbook-authoring-standard.md, docs/handbook-refurbish-playbook.md and docs/guideme-scene-authoring-notes.md. The correction contract overrides older skill shortcuts that allow table-only visuals, generic grids to satisfy a quota, asset-based item verification, or require Codex writers. Preserve the accepted Combat pages. Read the actual reference.skills, combat.abilities, combat.magic and class.arcane bodies in docs/handbook-content.json as your presentation reference. The old food revision is the rejected baseline, NOT a template.
+
+You own only these five topics, both en_us and zh_cn: reference.food, food.utensils, food.hunger, food.fishing, fishing.habitats. The parent will later integrate and handle generator-owned landing page sections. If the landing page body cannot affect the visible generated index, provide a precise proposed generator change in evidence, not a shared-file edit.
+
+Lucas rejected the earlier export because it still only catalogs what exists without answering where to start, what is needed, how to operate, what success looks like and what next. Rewrite the structure, not just sentences. Restore one compact YouTube query row with English and 中文 actions in both locales, modeled exactly on the accepted Combat rows. Use first actions and meaningful options beside native references without making compulsory quests.
+
+Cooking tools must teach one concise concrete starting meal workflow and a real pot over a heat-source GameScene, with exact selected-release syntax, correct block states, camera and useful annotations if supported. Do not use the pot plus fire plus stove plus bowl strip as a relationship diagram. Use scenes for placement and native recipes only when the renderer supports the selected type. Give the cutting-board tools native recognizable icons with names in the comparison. Separate raw ingredients, tools, intermediates and finished dishes. Reorganize the massive mixed Dishes and materials catalog instead of preserving arbitrary leftovers. Every kept item must have a meaningful home or explicit disposition with rationale; do not simply delete all coverage.
+
+Fishing must direct players to the Starcatcher guide book for biome and fish-location lookup. Remove the duplicated Terralith terrain marker database and custom biome inference. Explain how to obtain and use the book, start fishing, choose useful equipment and use catches. If fishing.habitats has no substantial unique content after this, propose a coherent merge and navigation retirement with evidence for parent integration; do not leave a redirect filler page or dangling links.
+
+Research actual gameplay guidance and reuse prior evidence only after checking relevance. For uncertain facts verify the exact selected version from mods/*.pw.toml. Mod jars are cached in build/mod-cache. Asset or language presence is NOT runtime registration proof. Record source URLs read, exact evidence, limitations and proposed scenes' verification status.
+
+Only write beneath build/correction-round1/writer-a/. Do not edit docs/handbook-content.json, scripts, tests, resources or the other writer's files. Do not commit, push, install, launch a game, control the computer or modify an instance. No re-delegation.
+
+Deliver fragment.json as {topic: {en_us: body, zh_cn: body}} and evidence.json with per-topic player-question answers, visual decisions, source evidence, identifier dispositions, exact scene dependencies, and limitations. Also write review-notes.md identifying unresolved issues rather than hiding them. Keep all returned files unchanged after your final response, so the parent cannot race with you. Expect the reviewer to return concrete changes in the same session. Work within 20 minutes and return real files, not just a proposal.

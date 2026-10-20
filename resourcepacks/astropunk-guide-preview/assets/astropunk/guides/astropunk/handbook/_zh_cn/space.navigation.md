@@ -11,6 +11,8 @@ item_ids:
 
 # 太空导航
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Space+navigation+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+%E5%A4%AA%E7%A9%BA%E5%AF%BC%E8%88%AA+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 行星显示
 
 <EmiSearch query="@rocketnautics" />

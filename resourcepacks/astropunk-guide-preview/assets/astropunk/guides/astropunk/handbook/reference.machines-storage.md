@@ -7,6 +7,8 @@ navigation:
 
 # Machines & storage
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Machines+%26+storage+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+%E6%9C%BA%E5%99%A8%E4%B8%8E%E5%82%A8%E5%AD%98+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Containers & handling
 
 <EmiSearch query="@create" /> <EmiSearch query="@interactic" />

@@ -1,12 +1,14 @@
 ---
 navigation:
   title: "用特殊遭遇获得的食材烹饪"
-  position: 9
+  position: 8
   parent: reference.food.md
   icon: minecraft:rotten_flesh
 ---
 
 # 用特殊遭遇获得的食材烹饪
+
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+L_Ender+%27s+Cataclysm+Delight+Encounter+food+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+L_Ender+%27s+Cataclysm+Delight+%E7%94%A8%E7%89%B9%E6%AE%8A%E9%81%AD%E9%81%87%E8%8E%B7%E5%BE%97%E7%9A%84%E9%A3%9F%E6%9D%90%E7%83%B9%E9%A5%AA+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
 
 ## 灾变食材
 

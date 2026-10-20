@@ -80,7 +80,7 @@ Hybrid Aquatic adds ocean, river, coastal and cave habitats alongside Terralith 
 | Sulfuric Caves |
 
 - [Aquatic wildlife](adventure.aquatic.md)
-- [Fishing habitats](fishing.habitats.md)
+- [Fishing guide](food.fishing.md)
 
 ***
 

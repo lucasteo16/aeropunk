@@ -8,6 +8,8 @@ navigation:
 
 # 选择引擎与推进装置
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+AeroEngine+fuel+compat+AeroEngine+Engines+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+AeroEngine+fuel+compat+AeroEngine+%E9%80%89%E6%8B%A9%E5%BC%95%E6%93%8E%E4%B8%8E%E6%8E%A8%E8%BF%9B%E8%A3%85%E7%BD%AE+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 推进家族
 
 <EmiSearch query="@aeroengineering" /> <EmiSearch query="@rocketnautics" /> <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />

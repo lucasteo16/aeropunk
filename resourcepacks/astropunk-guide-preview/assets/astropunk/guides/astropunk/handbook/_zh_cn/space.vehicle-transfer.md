@@ -10,6 +10,8 @@ item_ids:
 
 # 轨道飞行
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Orbital+flight+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+%E8%BD%A8%E9%81%93%E9%A3%9E%E8%A1%8C+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 运载火箭
 
 <EmiSearch query="@rocketnautics" />

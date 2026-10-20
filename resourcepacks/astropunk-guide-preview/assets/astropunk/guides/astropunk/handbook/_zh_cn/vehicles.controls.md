@@ -8,6 +8,8 @@ navigation:
 
 # 控制与稳定载具
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Aeroworks+Create%3A+Tweaked+Controllers+Vehicle+controls+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Aeroworks+Create%3A+Tweaked+Controllers+%E6%8E%A7%E5%88%B6%E4%B8%8E%E7%A8%B3%E5%AE%9A%E8%BD%BD%E5%85%B7+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 控制台与模块
 
 <EmiSearch query="@aeroworks" /> <EmiSearch query="@create" />

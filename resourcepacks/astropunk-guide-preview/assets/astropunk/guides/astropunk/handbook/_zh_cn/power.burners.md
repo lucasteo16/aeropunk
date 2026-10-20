@@ -8,6 +8,8 @@ navigation:
 
 # 提供液体燃烧燃料
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Liquid+Fuel+Create%3A+Unified+Fuels+Liquid+fuels+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create%3A+Liquid+Fuel+Create%3A+Unified+Fuels+%E6%8F%90%E4%BE%9B%E6%B6%B2%E4%BD%93%E7%87%83%E7%83%A7%E7%87%83%E6%96%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 热是独立的资源
 
 <EmiSearch query="@create" />

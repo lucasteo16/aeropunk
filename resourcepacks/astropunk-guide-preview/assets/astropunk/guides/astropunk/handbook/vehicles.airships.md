@@ -8,6 +8,8 @@ navigation:
 
 # Airships
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Aeronautics%3A+Encased+Fluid+Pipes+Create%3A+Ballast+Airships+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Aeronautics%3A+Encased+Fluid+Pipes+Create%3A+Ballast+%E5%BB%BA%E9%80%A0%E4%B8%8E%E5%B9%B3%E8%A1%A1%E9%A3%9E%E8%A1%8C%E8%88%B9+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## Lift from a sealed volume
 
 <EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />

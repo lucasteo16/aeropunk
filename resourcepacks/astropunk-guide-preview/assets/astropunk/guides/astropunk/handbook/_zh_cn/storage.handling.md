@@ -8,6 +8,8 @@ navigation:
 
 # 整理、转移与丢弃物品
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Interactic+Renewed+Mouse+Tweaks+Inventory+tools+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Interactic+Renewed+Mouse+Tweaks+%E6%95%B4%E7%90%86%E3%80%81%E8%BD%AC%E7%A7%BB%E4%B8%8E%E4%B8%A2%E5%BC%83%E7%89%A9%E5%93%81+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)
+
 ## 物品栏本身就是界面
 
 储存的时间大多耗在界面上，而不是容器里。本包装了三个界面模组，去掉重复的拖拽与点击。
