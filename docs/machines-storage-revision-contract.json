@@ -1,0 +1,30 @@
+{
+  "development_base": "9530962ff5cc0bf544946bcddcbd43f57a521f63",
+  "topics": [
+    "machines.enchanting",
+    "machines.logistics",
+    "machines.miscellaneous",
+    "machines.ore-processing",
+    "machines.renewables",
+    "machines.rotation",
+    "machines.trading",
+    "power.burners",
+    "power.electricity",
+    "power.industry",
+    "power.stored-rotation",
+    "storage.bulk",
+    "storage.handling",
+    "storage.portable",
+    "reference.machines-storage"
+  ],
+  "localized_pages": 30,
+  "status": "source revision recorded, human review pending, no merge authorization",
+  "source_sha256": {
+    "before": "49bde6efd6b551293d1336494ee1d1032c75c4d8a999a72ff4ef1ae2bb85b1ca",
+    "after": "bf5e0b93789b3bf0502dd069527bcf64a5a20caf14d718bf152ba06891c322bf"
+  },
+  "source_hash_encoding": "SHA-256 of json.dumps(content, ensure_ascii=False, sort_keys=True)",
+  "source_file_sha256": "a0ac15a0b3e268388ba7269c274e9d723223f745afa8cabae927a9ee4c1df819",
+  "unrelated_authored_topics_preserved": 112,
+  "runtime_and_rendering_tested": false
+}

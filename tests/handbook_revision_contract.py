@@ -35,8 +35,37 @@ def refurbished_topics():
     return {topic for batch in batches.values() for topic in batch['topics']}
 
 
+def before_machines_finalization(content):
+    """Validate the exact scoped Machines revision before restoring its base."""
+    path = ROOT / 'docs/machines-storage-revision-contract.json'
+    if not path.exists():
+        return dict(content)
+    revision = json.loads(path.read_text())
+    commit = revision['development_base']
+    assert len(commit) == 40 and all(c in '0123456789abcdef' for c in commit)
+    before = json.loads(subprocess.check_output([
+        'git', 'show', commit + ':docs/handbook-content.json'
+    ], cwd=ROOT, text=True))
+    hashes = revision['source_sha256']
+    assert topic_digest(before) == hashes['before'], 'Machines historical source mismatch'
+    actual = topic_digest(content)
+    if actual == hashes['before']:
+        return before
+    food = ROOT / 'docs/food-chapter-final-review.json'
+    if food.exists() and actual == json.loads(food.read_text())['source_sha256']['before']:
+        # Historical callers can restore Food before entering this helper again.
+        # Recognize that exact prior whole-source hash, never an arbitrary topic exemption.
+        return dict(content)
+    assert actual == hashes['after'], 'Unapproved edit after Machines review'
+    owned = set(revision['topics'])
+    assert set(content) == set(before), 'Machines changed topic membership'
+    assert {t for t in before if content[t] != before[t]} <= owned
+    return before
+
+
 def before_food_finalization(content):
     """Restore the exact approved Food revision, not an exempted topic list."""
+    content = before_machines_finalization(content)
     path = ROOT / 'docs/food-chapter-final-review.json'
     if not path.exists():
         return dict(content)
