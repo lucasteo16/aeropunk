@@ -1,6 +1,6 @@
 name = "Astropunk"
 author = "Lucas"
-version = "0.16.4-hosting"
+version = "0.17.0-hosting"
 pack-format = "packwiz:1.1.0"
 
 [index]
