@@ -22,11 +22,41 @@ def refurbished_topics():
     path = ROOT / 'docs/handbook-refurbish-scope.json'
     if not path.exists():
         return set()
-    batches = json.loads(path.read_text())['batches']
+    food = ROOT / 'docs/food-chapter-final-review.json'
+    if food.exists():
+        # Pair a restored historical body with its historical ownership scope.
+        commit = json.loads(food.read_text())['development_base']
+        scope = subprocess.check_output([
+            'git', 'show', commit + ':docs/handbook-refurbish-scope.json'
+        ], cwd=ROOT, text=True)
+    else:
+        scope = path.read_text()
+    batches = json.loads(scope)['batches']
     return {topic for batch in batches.values() for topic in batch['topics']}
 
 
+def before_food_finalization(content):
+    """Restore the exact approved Food revision, not an exempted topic list."""
+    path = ROOT / 'docs/food-chapter-final-review.json'
+    if not path.exists():
+        return dict(content)
+    revision = json.loads(path.read_text())
+    commit = revision['development_base']
+    assert len(commit) == 40 and all(c in '0123456789abcdef' for c in commit)
+    before = json.loads(subprocess.check_output([
+        'git', 'show', commit + ':docs/handbook-content.json'
+    ], cwd=ROOT, text=True))
+    hashes = revision['source_sha256']
+    assert topic_digest(before) == hashes['before'], 'Food historical source mismatch'
+    actual = topic_digest(content)
+    if actual == hashes['before']:
+        return before
+    assert actual == hashes['after'], 'Unapproved edit after Food finalization'
+    return before
+
+
 def before_development_update(content, include_mars_retirement=False):
+    content = before_food_finalization(content)
     revision = json.loads((ROOT / 'docs/handbook-development-update.json').read_text())
     later = refurbished_topics()
     before = json.loads(subprocess.check_output([

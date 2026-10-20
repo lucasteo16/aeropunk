@@ -25,7 +25,7 @@ CHILD_ORDER = {
     'combat.magic': ('class.arcane', 'class.fire', 'class.frost', 'class.aqua', 'class.terra',
                      'class.wind', 'class.priest', 'class.paladin', 'class.bard', 'class.witcher'),
     'reference.food': ('food.utensils', 'food.hunger', 'food.growing', 'food.fishing',
-                       'fishing.habitats', 'food.seafood',
+                       'food.seafood',
                        'food.underground', 'food.nether', 'food.end', 'food.encounters', 'food.machine-cooking'),
     'reference.building': ('building.palette', 'building.placement', 'building.architecture',
                            'building.copycats', 'building.furniture', 'building.displays',

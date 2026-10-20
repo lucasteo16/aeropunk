@@ -7,45 +7,44 @@ navigation:
 
 # Food & farming
 
-## Kitchen meals
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Farmer%27s%20Delight%20cooking%20pot%20first%20meal%20tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8B%20%E7%83%B9%E9%A5%AA%E9%94%85%20%E7%AC%AC%E4%B8%80%E9%A4%90%20%E6%95%99%E7%A8%8B)
+
+## Cooking tools
 
 <EmiSearch query="@farmersdelight" />
 
-Farmer’s Delight covers everyday cooking from prepared portions to shared feasts. Choose the kitchen tool and serving form before gathering ingredients.
+- <ItemImage id="farmersdelight:flint_knife" /> [Cooking tools & meals](food.utensils.md) Start with a knife and a board, cook a pot meal on a campfire, then compare the skillet, the stove, feast servings and the food families.
 
-- <ItemImage id="farmersdelight:cooking_pot" /> [Cooking tools & meals](food.utensils.md) explains cutting, heated pot meals, sandwiches, rice, pasta, feasts, desserts and drinks.
+## Meals and effects
 
-***
-
-## Hunger & variety
-
-- <ItemImage id="minecraft:apple" /> [Hunger, food stacks & variety](food.hunger.md) explains hunger, saturation, the rolling diet, Short Stacks limits and food storage.
+- <ItemImage id="minecraft:apple" /> [Hunger & variety](food.hunger.md) Read hunger and saturation, use Comfort and Nourishment, keep the Food Book record growing and carry meals in a lunch container.
 
 ***
 
-## Farming & fishing
+## Ingredients by region
 
-<EmiSearch query="@spawn" /> <EmiSearch query="@hybrid_delights" /> <EmiSearch query="@oceansdelight" /> <EmiSearch query="@starcatcher" />
+<EmiSearch query="@hybrid_delights" /> <EmiSearch query="@oceansdelight" /> <EmiSearch query="@starcatcher" />
 
-- <ItemImage id="minecraft:wheat" /> [Crop ingredients](food.growing.md) explains wild crop sources, seeds, rice processing and harvesting helpers.
-- <ItemImage id="minecraft:cod" /> [Fishing](food.fishing.md) introduces Starcatcher rods, tackle, bait and collecting.
-- <ItemImage id="minecraft:salmon" /> [Fishing habitats](fishing.habitats.md) connects fish requirements with Terralith terrain.
-- <ItemImage id="oceansdelight:cooked_stuffed_squid" /> [Seafood](food.seafood.md) covers Starcatcher's Delight, Hybrid Delights, Ocean's Delight and Spawn ingredient families.
-
-***
-
-## Regional ingredients
-
-- <ItemImage id="minecraft:crimson_fungus" /> [Nether foods](food.nether.md) connects Nether hunting and pepper ingredients to sausages, stews and ghast dough.
-- <ItemImage id="minecraft:chorus_fruit" /> [End foods](food.end.md) distinguishes gathered chorus ingredients from knife-hunted shulker meat and dragon encounters.
-- <ItemImage id="minecraft:brown_mushroom" /> [Underground foods](food.underground.md) covers cave crops, hunted ingredients, squid dishes, plant meals and copper serving containers.
-- <ItemImage id="minecraft:rotten_flesh" /> [Encounter foods](food.encounters.md) covers Cataclysm creature ingredients and specialized boss dishes.
+- <ItemImage id="minecraft:wheat" /> [Crop ingredients](food.growing.md) Wild crops, seeds, rice processing and harvesting helpers.
+- <ItemImage id="oceansdelight:cooked_stuffed_squid" /> [Seafood](food.seafood.md) Starcatcher's Delight, Hybrid Delights and Ocean's Delight dishes.
+- <ItemImage id="minecraft:crimson_fungus" /> [Nether foods](food.nether.md) Nether hunting and pepper ingredients for sausages, stews and ghast dough.
+- <ItemImage id="minecraft:chorus_fruit" /> [End foods](food.end.md) Gathered chorus ingredients and knife cut shulker meat.
+- <ItemImage id="minecraft:brown_mushroom" /> [Underground foods](food.underground.md) Cave crops, hunted ingredients and copper serving containers.
+- <ItemImage id="minecraft:rotten_flesh" /> [Encounter foods](food.encounters.md) Cataclysm creature ingredients and the dishes built from them.
 
 ***
 
-## Machine cooking
+## Fishing
 
-- <ItemImage id="minecraft:smoker" /> [Machine kitchens](food.machine-cooking.md) separates slicing, drink fluids and crop production from finished meal recipes.
+- <ItemImage id="starcatcher:starcatcher_rod" /> [Fishing](food.fishing.md) Craft the Starcatcher rod and guide, read a species entry, reel a catch and choose what to do with it.
+
+Biome and fish location lookup belongs to Starcatcher's Guide, and the fishing page shows how to craft and read it.
+
+***
+
+## Bulk cooking
+
+- <ItemImage id="minecraft:smoker" /> [Machine kitchens](food.machine-cooking.md) Slicing, drink fluids and crop production, for when one pot is not enough.
 
 ***
 

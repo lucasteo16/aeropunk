@@ -1,79 +1,76 @@
 ---
 navigation:
   title: "Machine cooking"
-  position: 10
+  position: 9
   parent: reference.food.md
   icon: minecraft:smoker
 ---
 
 # Machine cooking
 
-## Slicer
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Create%20Slice%20and%20Dice%20slicer%20sprinkler%20Central%20Kitchen%20tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Create%20Slice%20and%20Dice%20%E5%88%87%E7%89%87%E6%9C%BA%20%E6%B4%92%E6%B0%B4%E5%99%A8%20%E4%B8%AD%E5%A4%AE%E5%8E%A8%E6%88%BF%20%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@farmersdelight" /> <EmiSearch query="@sliceanddice" />
+## First slice
+
+<EmiSearch query="@create" /> <EmiSearch query="@sliceanddice" />
 
 ![Mechanical preparation beside a heated cooking pot](images/visual-automatic-cooking.png)
 
-Mechanical preparation beside a heated cooking pot
-
-<ItemGrid><ItemIcon id="sliceanddice:slicer" /><ItemIcon id="farmersdelight:cutting_board" /><ItemIcon id="farmersdelight:flint_knife" /></ItemGrid>
-
-The <ItemLink id="sliceanddice:slicer" /> automates cutting board work. It does not turn ingredients into finished meals. A knife sits inside the machine, and each processed item consumes knife durability in this pack, so plan for repairs or a supply of spare knives.
-
-The machine needs rotational power. Give it the ingredient and the correct knife, and it produces the same portions a board would. Feed the output into the next station or a storage crate.
-
-### Slicer craft
 
 <Recipe id="sliceanddice:slicer" />
 
-Place the slicer, add the knife, then connect rotation and ingredient delivery. Check the machine interface for the current tool before you build the line around it.
+The <ItemLink id="sliceanddice:slicer" /> runs cutting board recipes. Its own Ponder entry is Cutting with the slicer, opened from the Slicer item, and that scene shows the supported arrangement. A knife or an axe loads by right clicking the machine, and this pack allows both as cutting tools.
+
+1. Place the slicer facing its target. Above a belt or depot it cuts one item at a time, and above a basin it works on the items inside the basin.
+2. Right click it with the knife or axe you want it to use.
+3. Drive it from a shaft. When it turns the wrong way, use a <ItemLink id="create:gearshift" /> to reverse the drive, which switches the output direction by redstone signal.
+4. Feed one cabbage and collect the leaves from the output side.
+
+Funnels or chutes move items in and out, which is what turns a single machine into a line. Success is the board result: one cabbage becomes two leaves.
+
+The tools wear out. This pack turns on tool durability use, so keep a spare knife or a repair plan before you build a long line.
+
+Pot recipes are a different case. Slice and Dice converts them into heated mixing recipes, which is a mixer over a heated basin, not the slicer cooking whole meals. The basin cooking setting in this pack is HEATED, so a blaze burner under the basin is the heat condition.
 
 ***
 
-## Sprinkler and basin
+## Sprinklers
 
-<ItemGrid><ItemIcon id="sliceanddice:sprinkler" /><ItemIcon id="sliceanddice:fertilizer_bucket" /><ItemIcon id="minecraft:water_bucket" /></ItemGrid>
+<ItemGrid><ItemIcon id="sliceanddice:sprinkler" /></ItemGrid>
 
-A <ItemLink id="sliceanddice:sprinkler" /> waters and fertilizes a field on rotation. It holds 300 millibuckets, spends 100 per use and reaches five blocks horizontally in this pack. One bucket of water fills it three times. Place it above the crop row and pipe water in, or refill it by hand.
+A sprinkler sprays whatever fluid it is given, and the fluid decides the effect. It is supplied through a pipe, placed below one, and needs no rotation.
 
-The <ItemLink id="sliceanddice:fertilizer_bucket" /> supplies the fertilizer. Keep it separate from drinking water and from food containers.
+| Fluid | What it does |
+| --- | --- |
+| Water | Wets the ground under it, which keeps farmland hydrated |
+| <ItemGrid><ItemIcon id="sliceanddice:fertilizer_bucket" /></ItemGrid> <ItemLink id="sliceanddice:fertilizer_bucket" /> | Applies a bone meal effect to crops |
+| Potion | Applies that potion effect to entities in range |
+| Lava | Damages entities in range |
 
-Slice and Dice also adds heated basin cooking. A basin with a heated floor cooks Farmer's Delight pot recipes in bulk, which suits a kitchen that runs one meal at a time for a whole base.
+This pack sets the sprinkler tank to 300 millibuckets, with a draw of 100 millibuckets per use, and a horizontal range of five blocks.
 
-| Setting | Value in this pack | Practical result |
-| --- | --- | --- |
-| Sprinkler capacity | 300 millibuckets | One water bucket gives three uses |
-| Fluid per use | 100 millibuckets | Plan water delivery per harvest |
-| Horizontal range | Five blocks | Covers an eleven block wide strip |
-| Basin heat | Heated | Needs a heated basin floor |
+Liquid Fertilizer is made in a mixer from compost. Build the fertilizer supply before you place a sprinkler over a field, because water hydrates the field but does not apply the fertilizer bone meal effect.
 
 ***
 
 ## Central Kitchen
 
-<EmiSearch query="@create" />
+<EmiSearch query="@farmersdelight" />
 
-<ItemGrid><ItemIcon id="minecraft:redstone" /><ItemIcon id="farmersdelight:cooking_pot" /><ItemIcon id="farmersdelight:skillet" /><ItemIcon id="farmersdelight:stove" /></ItemGrid>
+Central Kitchen connects Create logistics to Farmer's Delight stations and ships its own Ponder lessons. Open the Cutting board, Cooking pot and Heat source entries, which are the supported targets for these setups.
 
-Create: Central Kitchen connects Create logistics to the Farmer's Delight stations. A mechanical arm can load and unload supported <ItemLink id="farmersdelight:cooking_pot" />, <ItemLink id="farmersdelight:skillet" />, stove and cutting board. A packager unpacks ingredient boxes straight into a pot. Boiler heaters count as cooking heat, and an active heater speeds a pot or skillet.
+| Machine | Identify it | What it does here |
+| --- | --- | --- |
+| <ItemLink id="create:mechanical_arm" /> | <ItemGrid><ItemIcon id="create:mechanical_arm" /></ItemGrid> | Puts the raw ingredient onto a cutting board, and loads a cooking pot |
+| <ItemLink id="create:deployer" /> | <ItemGrid><ItemIcon id="create:deployer" /></ItemGrid> | Holds a knife in Use Mode and cuts the ingredient on the board |
+| <ItemLink id="create:mechanical_saw" /> | <ItemGrid><ItemIcon id="create:mechanical_saw" /></ItemGrid> | Cuts converted board recipes without a knife item |
+| <ItemLink id="create:andesite_funnel" /> | <ItemGrid><ItemIcon id="create:andesite_funnel" /></ItemGrid> | Takes cooked food out of the pot |
+| <ItemLink id="create:blaze_burner" /> | <ItemGrid><ItemIcon id="create:blaze_burner" /></ItemGrid> | Supplies heat under a pot or skillet |
 
-Central Kitchen also converts cutting board recipes into Create sawing and deploying recipes. That lets a mechanical saw cut ingredients without a knife inside a machine.
+This pack enables both board conversions, to sawing and to deploying, so the saw and Deployer routes are both available.
 
-Do not assume every pot recipe has a machine equivalent. Open the target dish in the recipe browser and check its actual processing type before you build the line.
-
-***
-
-## Dishes and materials
-
-These are the remaining items in this chapter, grouped by the station that makes them. Open the item tooltip for exact food values and open the recipe browser for a specific dish.
-
-| Family | Items |
-| --- | --- |
-| Drinks & farm fluids | <ItemGrid><ItemIcon id="farmersdelight:hot_cocoa" /><ItemIcon id="farmersdelight:apple_cider" /></ItemGrid> |
-
-- [Cooking tools](food.utensils.md)
-- [Crop production](food.growing.md)
-- [Machines & storage](reference.machines-storage.md)
+- [Crop production](food.growing.md) The crops these machines process.
+- [Cooking tools](food.utensils.md) The stations being automated.
 
 ***
 

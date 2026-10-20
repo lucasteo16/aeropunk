@@ -7,45 +7,44 @@ navigation:
 
 # 食物与农业
 
-## 厨房料理
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Farmer%27s%20Delight%20cooking%20pot%20first%20meal%20tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8B%20%E7%83%B9%E9%A5%AA%E9%94%85%20%E7%AC%AC%E4%B8%80%E9%A4%90%20%E6%95%99%E7%A8%8B)
+
+## 烹饪工具
 
 <EmiSearch query="@farmersdelight" />
 
-Farmer’s Delight 提供日常烹饪，从分切食材到多人盛宴。先选厨房工具与盛装形式，再收集原料。
+- <ItemImage id="farmersdelight:flint_knife" /> [烹饪工具与料理](food.utensils.md) 从一把刀和一块板开始，在营火上做一锅料理，然后比较煎锅、灶台、分盛宴与料理分组。
 
-- <ItemImage id="farmersdelight:cooking_pot" /> [烹饪工具与料理](food.utensils.md) 介绍切割、受热锅中料理、三明治、米饭、意面、盛宴、甜点与饮品。
+## 料理与效果
 
-***
-
-## 饥饿与多样性
-
-- <ItemImage id="minecraft:apple" /> [饥饿、堆叠与多样性](food.hunger.md) 介绍饥饿值、饱和度、滚动饮食、Short Stacks 限制与口粮收纳。
+- <ItemImage id="minecraft:apple" /> [饥饿与多样性](food.hunger.md) 解读饥饿值与饱和度，使用舒适与滋养，累积食物书记录并用午餐容器带饭。
 
 ***
 
-## 种植与钓鱼
+## 按地区分食材
 
-<EmiSearch query="@spawn" /> <EmiSearch query="@hybrid_delights" /> <EmiSearch query="@oceansdelight" /> <EmiSearch query="@starcatcher" />
+<EmiSearch query="@hybrid_delights" /> <EmiSearch query="@oceansdelight" /> <EmiSearch query="@starcatcher" />
 
-- <ItemImage id="minecraft:wheat" /> [作物食材](food.growing.md) 介绍野生作物来源、种子、稻米加工与收获辅助。
-- <ItemImage id="minecraft:cod" /> [钓鱼](food.fishing.md) 介绍 Starcatcher 鱼竿、钓具、鱼饵与收藏。
-- <ItemImage id="minecraft:salmon" /> [钓鱼栖息地](fishing.habitats.md) 连接鱼种条件与 Terralith 地形。
-- <ItemImage id="oceansdelight:cooked_stuffed_squid" /> [海鲜料理](food.seafood.md) 介绍 Starcatcher's Delight、Hybrid Delights、Ocean's Delight 与 Spawn 食材系列。
-
-***
-
-## 地区食材
-
-- <ItemImage id="minecraft:crimson_fungus" /> [下界食物](food.nether.md) 把下界狩猎与辣椒原料连接到香肠、炖菜和恶魂面团。
-- <ItemImage id="minecraft:chorus_fruit" /> [末地食物](food.end.md) 区分采集的紫颂食材、用刀猎取的潜影贝肉与末影龙遭遇。
-- <ItemImage id="minecraft:brown_mushroom" /> [地下食物](food.underground.md) 介绍洞穴作物、狩猎原料、鱿鱼料理、植物料理与铜制盛装容器。
-- <ItemImage id="minecraft:rotten_flesh" /> [遭遇食物](food.encounters.md) 介绍 Cataclysm 生物食材与专门的首领料理。
+- <ItemImage id="minecraft:wheat" /> [作物食材](food.growing.md) 野生作物、种子、稻米加工与收获辅助。
+- <ItemImage id="oceansdelight:cooked_stuffed_squid" /> [海鲜料理](food.seafood.md) Starcatcher's Delight、Hybrid Delights 与 Ocean's Delight 料理。
+- <ItemImage id="minecraft:crimson_fungus" /> [下界食物](food.nether.md) 下界狩猎与辣椒原料，用于香肠、炖菜与恶魂面团。
+- <ItemImage id="minecraft:chorus_fruit" /> [末地食物](food.end.md) 采集的紫颂食材与用刀切下的潜影贝肉。
+- <ItemImage id="minecraft:brown_mushroom" /> [地下食物](food.underground.md) 洞穴作物、狩猎原料与铜制盛装容器。
+- <ItemImage id="minecraft:rotten_flesh" /> [遭遇食物](food.encounters.md) Cataclysm 生物食材与用它们做成的料理。
 
 ***
 
-## 机器烹饪
+## 钓鱼
 
-- <ItemImage id="minecraft:smoker" /> [机器厨房](food.machine-cooking.md) 区分切片、饮品流体、作物生产与成品料理配方。
+- <ItemImage id="starcatcher:starcatcher_rod" /> [钓鱼](food.fishing.md) 做出 Starcatcher 鱼竿与指南，读一条词条，收一次渔获，并决定渔获的用途。
+
+生物群系与鱼类分布查询归 Starcatcher's Guide，钓鱼页会说明怎么合成和阅读这本书。
+
+***
+
+## 批量烹饪
+
+- <ItemImage id="minecraft:smoker" /> [机器厨房](food.machine-cooking.md) 切片、饮品流体与作物生产，适合一口锅不够用的时候。
 
 ***
 

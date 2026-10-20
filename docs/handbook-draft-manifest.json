@@ -1,6 +1,6 @@
 {
-  "draft_articles": 122,
-  "article_count": 122,
+  "draft_articles": 121,
+  "article_count": 121,
   "category_count": 0,
   "navigation_page_count": 0,
   "root_page_count": 18,
@@ -1131,15 +1131,6 @@
         "mods/oceans-delight.pw.toml",
         "mods/starcatchers-delight.pw.toml"
       ]
-    },
-    {
-      "topic": "fishing.habitats",
-      "category": "Food and farming",
-      "filename": "fishing.habitats.md",
-      "drafted": true,
-      "page_type": "article",
-      "deferred": false,
-      "metadata_paths": []
     },
     {
       "topic": "creatures.wilderness",

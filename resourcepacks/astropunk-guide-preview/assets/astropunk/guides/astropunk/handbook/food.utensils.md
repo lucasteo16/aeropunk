@@ -13,94 +13,122 @@ item_ids:
 
 # Cooking tools
 
-## Cutting board
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20Farmer%27s%20Delight%20cooking%20pot%20stove%20cutting%20board%20tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft%201.21.1%20%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8B%20%E7%83%B9%E9%A5%AA%E9%94%85%20%E7%81%B6%E5%8F%B0%20%E5%88%87%E8%8F%9C%E6%9D%BF%20%E6%95%99%E7%A8%8B)
+
+## Start with a knife and a board
 
 <EmiSearch query="@farmersdelight" />
 
-![A kitchen with cooking tools and serving space](images/visual-kitchen-tools.png)
+<ItemGrid><ItemIcon id="farmersdelight:flint_knife" /><ItemIcon id="farmersdelight:cutting_board" /></ItemGrid>
 
-A kitchen with cooking tools and serving space
+A flint knife and a cutting board are the cheapest way into this kitchen. A knife also gathers straw from grassy plants and gives extra drops from animals, so it pays for itself before any station exists.
 
-<ItemGrid><ItemIcon id="farmersdelight:cutting_board" /><ItemIcon id="farmersdelight:flint_knife" /></ItemGrid>
+<Recipe id="farmersdelight:cutting_board" />
 
-Place a <ItemLink id="farmersdelight:cutting_board" /> and use an ingredient on it. Hold the matching tool in your main hand and hold use. The board prefers items offered from your off hand, so you can carry the ingredient there and work the knife with the main hand. Outputs fly away from the board handle, which lets a hopper or basket on the far side collect them.
+Place the board, use a <ItemLink id="farmersdelight:cabbage" /> on it, then use the board while holding the knife. The cabbage becomes two <ItemLink id="farmersdelight:cabbage_leaf" />, which is your first useful food part and the green ingredient in several soups.
 
-The tool loses one durability for each item processed. A knife cuts meat, fish and dough into portions. Other tools have their own board jobs.
+***
 
-| Tool | Board job | Result |
+## A campsite meal
+
+<ItemGrid><ItemIcon id="farmersdelight:cooking_pot" /><ItemIcon id="minecraft:campfire" /></ItemGrid>
+
+A pot needs heat directly below it, and a campfire is enough. A stove is a convenience that never needs fuel, not a requirement for the first meal.
+
+1. Place a lit campfire, then place the pot directly on top of it, one block above the flame with nothing in between.
+2. Use the pot and put one brown mushroom and one red mushroom in two ingredient slots.
+3. Put one bowl in the container slot.
+4. Wait about ten seconds. Bubbles and a campfire icon mean the pot is heated, and the stew leaves the pot inside your bowl.
+
+<Recipe id="farmersdelight:cooking_pot" />
+
+<GameScene zoom="4" interactive={true}>
+  <IsometricCamera yaw="135" pitch="15" />
+  <Block x="0" y="0" z="0" id="farmersdelight:stove" p:lit="true" p:facing="north" />
+  <Block x="0" y="1" z="0" id="farmersdelight:cooking_pot" p:facing="north" p:support="none" />
+  <BlockAnnotation x="0" y="1" z="0" color="#F28CBD">
+    Cooking pot, one block above the heat
+  </BlockAnnotation>
+  <BlockAnnotation x="0" y="0" z="0" color="#F28CBD">
+    Lit stove, one of the heat sources a pot accepts
+  </BlockAnnotation>
+</GameScene>
+
+The scene shows a lit stove because that is the tidy permanent setup. The same placement works on a campfire.
+
+A handheld meal needs no pot at all. A <ItemLink id="farmersdelight:mutton_wrap" /> is bread, cooked mutton, a leafy green and an onion in a shapeless recipe, so it needs no kitchen station.
+
+***
+
+## Board tools
+
+| Tool | Identify it | Board operation |
 | --- | --- | --- |
-| Knife | Portion food and open rice panicles | Slices, minced meat, bacon, pasta |
-| Pickaxe | Split brick blocks | Individual bricks |
-| Axe | Strip logs | Bark |
-| Shovel | Break down clay blocks | Clay balls |
-| Shears | Salvage leather armor | Leather |
+| <ItemLink id="farmersdelight:flint_knife" /> | <ItemGrid><ItemIcon id="farmersdelight:flint_knife" /></ItemGrid> | Cuts food and opens grain, for example a cabbage into two leaves |
+| <ItemLink id="minecraft:iron_axe" /> | <ItemGrid><ItemIcon id="minecraft:iron_axe" /></ItemGrid> | Strips logs and takes baskets apart into canvas |
+| <ItemLink id="minecraft:iron_shovel" /> | <ItemGrid><ItemIcon id="minecraft:iron_shovel" /></ItemGrid> | Breaks clay and gravel down, for example clay into clay balls |
+| <ItemLink id="minecraft:iron_pickaxe" /> | <ItemGrid><ItemIcon id="minecraft:iron_pickaxe" /></ItemGrid> | Breaks bricks back into four bricks, and nether bricks into four nether bricks |
+| <ItemLink id="minecraft:shears" /> | <ItemGrid><ItemIcon id="minecraft:shears" /></ItemGrid> | Recovers one leather from leather armor and two leather from leather horse armor |
 
-A board also accepts a displayed tool. Sneak and use a tool on the board to mount it as decoration. The display does not change the board function.
-
-***
-
-## Cooking pot
-
-![Cooking pot over a campfire](images/nav-visual-farmers-delight-pot-campfire.png)
-
-![Cooking pot interface](images/nav-visual-farmers-delight-pot-interface.png)
-
-<ItemGrid><ItemIcon id="farmersdelight:cooking_pot" /><ItemIcon id="minecraft:campfire" /><ItemIcon id="farmersdelight:stove" /><ItemIcon id="minecraft:bowl" /></ItemGrid>
-
-The pot only cooks while the block below it provides heat. Fire, soul fire, lava, magma blocks, campfires and a <ItemLink id="farmersdelight:stove" /> all work. A cold pot keeps its contents and does nothing.
-
-Open the pot and you get six ingredient slots and one container slot. The pot shows boiling bubbles and a campfire icon when it is heated. Drop a valid recipe in, add the serving container, and wait. Most meals finish in about ten seconds, and simple rice takes about five.
-
-The pot stores finished servings until you take them out. A hopper or basket under the pot collects overflow. You can break a loaded pot and place it again without losing the meals inside, which makes it a portable pantry for a long trip. Every other slot drops when you break the pot, so empty the ingredients first.
-
-Use the recipe book button in the pot interface to see the meals this pack can make. The book is enabled in this pack.
+A knife loses one durability per item processed. The board reads your off hand first, so an ingredient in the off hand and a tool in the main hand repeats the same cut.
 
 ***
 
-## Skillet and stove
+## Pot, skillet and stove
 
-<ItemGrid><ItemIcon id="farmersdelight:skillet" /><ItemIcon id="farmersdelight:stove" /><ItemIcon id="minecraft:flint_and_steel" /><ItemIcon id="minecraft:iron_ingot" /></ItemGrid>
+The pot has six ingredient slots and one container slot. Campfires, soul campfires, fire, soul fire, lava, magma blocks and a lit stove all heat it, and it never burns fuel. A loaded pot can be moved with its meals inside, but its ingredient slots drop.
 
-A <ItemLink id="farmersdelight:skillet" /> cooks campfire recipes fast. Stand near a heat source with the skillet in one hand and the food in the other, then hold use. Each item takes about six seconds, roughly one fifth of the campfire time. The same skillet placed above a heat source cooks a whole stack and drops the results on its right side, so put a hopper or basket there.
+<ItemGrid><ItemIcon id="farmersdelight:skillet" /><ItemIcon id="farmersdelight:stove" /></ItemGrid>
 
-Fire Aspect on the skillet shortens cooking time. The enchantment works in both the hand and the placed form.
+A held skillet cooks one item beside heat and a placed skillet cooks a whole stack. A lit stove holds six items and cooks campfire recipes without fuel, and its top face must stay clear of blocks.
 
-A lit <ItemLink id="farmersdelight:stove" /> needs no fuel. It holds six items, cooks campfire recipes in about thirty seconds, and pops finished food above the grill instead of throwing it. The stove also heats a cooking pot placed on it. A block over the middle of the grill flings the food away, so keep the top face clear. Put the stove out with a shovel or a water bucket and relight it with flint and steel.
-
-| Station | Heat needed | Holds | Typical job |
+| Station | Heat | Capacity | Use it for |
 | --- | --- | --- | --- |
-| Skillet in hand | Stand near fire, lava or a lit stove | One item at a time | Cook a few pieces on the move |
-| Placed skillet | Heat block underneath | One stack | Cook a batch and collect it |
-| Stove | None after lighting | Six items | Fuel-free campfire cooking |
-| Cooking pot | Heat block underneath | Six ingredients plus containers | Combined meals and stews |
+| Skillet in hand | Any nearby heat | One item | Cooking while travelling |
+| Placed skillet | Heat block underneath | One stack | A batch beside a hopper |
+| Stove | None after lighting | Six items | Fuel free cooking at a base |
+| Cooking pot | Heat block underneath | Six ingredients and one container | Combined meals |
 
 ***
 
-## Serving forms
+## Serving a feast
 
-<ItemGrid><ItemIcon id="minecraft:bowl" /><ItemIcon id="farmersdelight:roast_chicken" /><ItemIcon id="farmersdelight:stuffed_pumpkin" /><ItemIcon id="farmersdelight:honey_glazed_ham" /><ItemIcon id="farmersdelight:shepherds_pie" /></ItemGrid>
+| Feast | Identify it | Portion you take | Take it with |
+| --- | --- | --- | --- |
+| <ItemLink id="farmersdelight:roast_chicken_block" /> | <ItemGrid><ItemIcon id="farmersdelight:roast_chicken_block" /></ItemGrid> | <ItemLink id="farmersdelight:roast_chicken" /> | A bowl |
+| <ItemLink id="farmersdelight:honey_glazed_ham_block" /> | <ItemGrid><ItemIcon id="farmersdelight:honey_glazed_ham_block" /></ItemGrid> | <ItemLink id="farmersdelight:honey_glazed_ham" /> | A bowl |
+| <ItemLink id="farmersdelight:shepherds_pie_block" /> | <ItemGrid><ItemIcon id="farmersdelight:shepherds_pie_block" /></ItemGrid> | <ItemLink id="farmersdelight:shepherds_pie" /> | A bowl |
+| <ItemLink id="farmersdelight:stuffed_pumpkin_block" /> | <ItemGrid><ItemIcon id="farmersdelight:stuffed_pumpkin_block" /></ItemGrid> | <ItemLink id="farmersdelight:stuffed_pumpkin" /> | A bowl |
 
-A bowl meal leaves the pot as a single serving. A feast such as <ItemLink id="farmersdelight:roast_chicken" /> is not edible in item form. Place it, then use a bowl on it to take a portion. A placed feast gives four servings and leaves a dirty plate. Use or break the plate to recover the bowl and any bones or scraps.
+Place the feast and use a bowl on it to take one portion. A placed feast gives four portions. The portion item is what you eat, and the display name is not the container it needs.
 
-Feasts suit a group or a return trip. Carry bowl meals and a stack of bowls for solo work, and place a feast at a base or camp where several players eat together. Pack bowls before you leave, because a finished meal without a container stays in the pot.
+A placed pie holds four slices. Use it with a knife to take a slice you can carry, or use it empty-handed while you are hungry to eat a slice in place.
 
 ***
 
-## Dishes and materials
+## Food families
 
-These are the remaining items in this chapter, grouped by the station that makes them. Open the item tooltip for exact food values and open the recipe browser for a specific dish.
+| Family | Items | What it is |
+| --- | --- | --- |
+| Raw ingredients | <ItemGrid><ItemIcon id="farmersdelight:cabbage" /><ItemIcon id="farmersdelight:tomato" /><ItemIcon id="farmersdelight:onion" /><ItemIcon id="farmersdelight:rice" /><ItemIcon id="minecraft:carrot" /><ItemIcon id="minecraft:potato" /></ItemGrid> | Gathered crops, before any station touches them. Sources are in [Crop ingredients](food.growing.md). |
+| Meat and fish | <ItemGrid><ItemIcon id="minecraft:beef" /><ItemIcon id="minecraft:porkchop" /><ItemIcon id="minecraft:chicken" /><ItemIcon id="minecraft:mutton" /><ItemIcon id="minecraft:cod" /><ItemIcon id="minecraft:salmon" /></ItemGrid> | Raw cuts from farms and water. Fish sourcing is in [Fishing](food.fishing.md). |
+| Board parts | <ItemGrid><ItemIcon id="farmersdelight:cabbage_leaf" /><ItemIcon id="farmersdelight:minced_beef" /><ItemIcon id="farmersdelight:salmon_slice" /><ItemIcon id="farmersdelight:cod_slice" /><ItemIcon id="farmersdelight:pumpkin_slice" /><ItemIcon id="farmersdelight:bacon" /></ItemGrid> | Cut portions used as ingredients in other dishes. |
+| Kitchen parts | <ItemGrid><ItemIcon id="farmersdelight:wheat_dough" /><ItemIcon id="farmersdelight:raw_pasta" /><ItemIcon id="farmersdelight:tomato_sauce" /><ItemIcon id="farmersdelight:cooked_rice" /><ItemIcon id="farmersdelight:cooked_bacon" /><ItemIcon id="farmersdelight:beef_patty" /></ItemGrid> | Prepared ingredients for other dishes, including dough, pasta, sauce, rice and cooked meat. |
+| Sandwiches | <ItemGrid><ItemIcon id="farmersdelight:egg_sandwich" /><ItemIcon id="farmersdelight:chicken_sandwich" /><ItemIcon id="farmersdelight:bacon_sandwich" /><ItemIcon id="farmersdelight:hamburger" /><ItemIcon id="farmersdelight:mutton_wrap" /></ItemGrid> | Bread based food eaten from the hand, with no bowl afterwards. |
+| Rolls and dumplings | <ItemGrid><ItemIcon id="farmersdelight:dumplings" /><ItemIcon id="farmersdelight:cabbage_rolls" /><ItemIcon id="farmersdelight:salmon_roll" /><ItemIcon id="farmersdelight:cod_roll" /><ItemIcon id="farmersdelight:kelp_roll" /></ItemGrid> | Wrapped or rolled portions, useful when bread is short. |
+| Pot bowls | <ItemGrid><ItemIcon id="farmersdelight:vegetable_soup" /><ItemIcon id="farmersdelight:beef_stew" /><ItemIcon id="farmersdelight:fish_stew" /><ItemIcon id="farmersdelight:fried_rice" /><ItemIcon id="farmersdelight:mushroom_rice" /><ItemIcon id="farmersdelight:noodle_soup" /></ItemGrid> | Meals cooked in the pot and served into a bowl. |
+| More pot bowls | <ItemGrid><ItemIcon id="farmersdelight:pumpkin_soup" /><ItemIcon id="farmersdelight:onion_soup" /><ItemIcon id="farmersdelight:bone_broth" /><ItemIcon id="farmersdelight:ratatouille" /><ItemIcon id="farmersdelight:baked_cod_stew" /><ItemIcon id="farmersdelight:chicken_soup" /></ItemGrid> | Further pot meals, several of them cheap on crops or bones. |
+| Pasta meals | <ItemGrid><ItemIcon id="farmersdelight:pasta_with_meatballs" /><ItemIcon id="farmersdelight:pasta_with_mutton_chop" /><ItemIcon id="farmersdelight:vegetable_noodles" /><ItemIcon id="farmersdelight:squid_ink_pasta" /></ItemGrid> | Pasta and sauce dishes that use the board and pot parts above. |
+| Meat and egg meals | <ItemGrid><ItemIcon id="farmersdelight:steak_and_potatoes" /><ItemIcon id="farmersdelight:bacon_and_eggs" /><ItemIcon id="farmersdelight:roasted_mutton_chops" /><ItemIcon id="farmersdelight:grilled_salmon" /><ItemIcon id="farmersdelight:fried_egg" /></ItemGrid> | Bacon and eggs, grilled salmon, roasted mutton chops and steak and potatoes are shapeless crafts using prepared ingredients. Fried eggs can be cooked over heat. |
+| Salads | <ItemGrid><ItemIcon id="farmersdelight:gleaming_salad" /><ItemIcon id="farmersdelight:fruit_salad" /></ItemGrid> | Cold plates assembled from crops and fruit, with no heat. |
+| Baked sweets | <ItemGrid><ItemIcon id="farmersdelight:apple_pie" /><ItemIcon id="farmersdelight:sweet_berry_cheesecake" /><ItemIcon id="farmersdelight:chocolate_pie" /><ItemIcon id="minecraft:pumpkin_pie" /><ItemIcon id="farmersdelight:sweet_berry_cookie" /><ItemIcon id="farmersdelight:honey_cookie" /></ItemGrid> | Pies and cookies made by crafting. Placed pies can be eaten in portions or cut into slices. |
+| Pie slices | <ItemGrid><ItemIcon id="farmersdelight:apple_pie_slice" /><ItemIcon id="farmersdelight:sweet_berry_cheesecake_slice" /><ItemIcon id="farmersdelight:chocolate_pie_slice" /><ItemIcon id="farmersdelight:pumpkin_pie_slice" /></ItemGrid> | The carried form of a baked pie. Four slices make a whole pie again. |
+| Frozen treats | <ItemGrid><ItemIcon id="farmersdelight:melon_popsicle" /></ItemGrid> | The one frozen dessert here, eaten from the hand. |
+| Drinks and custard | <ItemGrid><ItemIcon id="farmersdelight:hot_cocoa" /><ItemIcon id="farmersdelight:apple_cider" /><ItemIcon id="farmersdelight:melon_juice" /><ItemIcon id="farmersdelight:glow_berry_custard" /></ItemGrid> | Hot cocoa, apple cider and glow berry custard are pot recipes with no separate container input. Melon juice is a shapeless craft. |
 
-| Family | Items |
-| --- | --- |
-| Kitchen tools | <ItemGrid><ItemIcon id="minecraft:brick" /><ItemIcon id="minecraft:wooden_shovel" /><ItemIcon id="minecraft:water_bucket" /><ItemIcon id="minecraft:stick" /><ItemIcon id="minecraft:oak_planks" /><ItemIcon id="minecraft:bricks" /><ItemIcon id="minecraft:flint" /></ItemGrid> |
-| Sandwiches & rolls | <ItemGrid><ItemIcon id="farmersdelight:egg_sandwich" /><ItemIcon id="farmersdelight:chicken_sandwich" /><ItemIcon id="farmersdelight:hamburger" /><ItemIcon id="farmersdelight:bacon_sandwich" /><ItemIcon id="farmersdelight:mutton_wrap" /><ItemIcon id="farmersdelight:dumplings" /><ItemIcon id="farmersdelight:cabbage_rolls" /><ItemIcon id="farmersdelight:salmon_roll" /><ItemIcon id="farmersdelight:cod_roll" /><ItemIcon id="farmersdelight:kelp_roll" /><ItemIcon id="minecraft:bread" /><ItemIcon id="farmersdelight:fried_egg" /><ItemIcon id="minecraft:cooked_chicken" /><ItemIcon id="farmersdelight:cabbage" /><ItemIcon id="minecraft:carrot" /><ItemIcon id="farmersdelight:beef_patty" /><ItemIcon id="farmersdelight:tomato" /><ItemIcon id="farmersdelight:onion" /><ItemIcon id="farmersdelight:cooked_bacon" /><ItemIcon id="minecraft:cooked_mutton" /><ItemIcon id="farmersdelight:wheat_dough" /><ItemIcon id="minecraft:chicken" /><ItemIcon id="farmersdelight:salmon_slice" /><ItemIcon id="farmersdelight:cooked_rice" /><ItemIcon id="farmersdelight:cod_slice" /><ItemIcon id="minecraft:dried_kelp" /></ItemGrid> |
-| Soups & rice | <ItemGrid><ItemIcon id="farmersdelight:beef_stew" /><ItemIcon id="farmersdelight:chicken_soup" /><ItemIcon id="farmersdelight:vegetable_soup" /><ItemIcon id="farmersdelight:fish_stew" /><ItemIcon id="farmersdelight:pumpkin_soup" /><ItemIcon id="farmersdelight:baked_cod_stew" /><ItemIcon id="farmersdelight:noodle_soup" /><ItemIcon id="farmersdelight:onion_soup" /><ItemIcon id="farmersdelight:bone_broth" /><ItemIcon id="farmersdelight:fried_rice" /><ItemIcon id="farmersdelight:mushroom_rice" /><ItemIcon id="minecraft:beef" /><ItemIcon id="minecraft:potato" /><ItemIcon id="minecraft:melon_slice" /><ItemIcon id="minecraft:beetroot" /><ItemIcon id="minecraft:cod" /><ItemIcon id="farmersdelight:tomato_sauce" /><ItemIcon id="farmersdelight:pumpkin_slice" /><ItemIcon id="minecraft:porkchop" /><ItemIcon id="farmersdelight:milk_bottle" /><ItemIcon id="minecraft:egg" /><ItemIcon id="farmersdelight:raw_pasta" /><ItemIcon id="minecraft:bone" /><ItemIcon id="minecraft:glow_berries" /><ItemIcon id="farmersdelight:rice" /><ItemIcon id="minecraft:brown_mushroom" /><ItemIcon id="minecraft:red_mushroom" /></ItemGrid> |
-| Plates & feasts | <ItemGrid><ItemIcon id="farmersdelight:bacon_and_eggs" /><ItemIcon id="farmersdelight:pasta_with_meatballs" /><ItemIcon id="farmersdelight:pasta_with_mutton_chop" /><ItemIcon id="farmersdelight:roasted_mutton_chops" /><ItemIcon id="farmersdelight:steak_and_potatoes" /><ItemIcon id="farmersdelight:vegetable_noodles" /><ItemIcon id="farmersdelight:ratatouille" /><ItemIcon id="farmersdelight:squid_ink_pasta" /><ItemIcon id="farmersdelight:grilled_salmon" /><ItemIcon id="farmersdelight:gleaming_salad" /><ItemIcon id="farmersdelight:minced_beef" /><ItemIcon id="minecraft:mutton" /><ItemIcon id="farmersdelight:cooked_mutton_chops" /><ItemIcon id="minecraft:baked_potato" /><ItemIcon id="minecraft:cooked_beef" /><ItemIcon id="minecraft:ink_sac" /><ItemIcon id="minecraft:cooked_salmon" /><ItemIcon id="minecraft:sweet_berries" /></ItemGrid> |
-| Desserts & drinks | <ItemGrid><ItemIcon id="farmersdelight:apple_pie_slice" /><ItemIcon id="farmersdelight:sweet_berry_cheesecake_slice" /><ItemIcon id="farmersdelight:chocolate_pie_slice" /><ItemIcon id="farmersdelight:pumpkin_pie_slice" /><ItemIcon id="farmersdelight:fruit_salad" /><ItemIcon id="farmersdelight:sweet_berry_cookie" /><ItemIcon id="farmersdelight:honey_cookie" /><ItemIcon id="farmersdelight:melon_popsicle" /><ItemIcon id="farmersdelight:glow_berry_custard" /><ItemIcon id="farmersdelight:hot_cocoa" /><ItemIcon id="farmersdelight:apple_cider" /><ItemIcon id="farmersdelight:melon_juice" /><ItemIcon id="farmersdelight:apple_pie" /><ItemIcon id="farmersdelight:sweet_berry_cheesecake" /><ItemIcon id="farmersdelight:chocolate_pie" /><ItemIcon id="minecraft:pumpkin_pie" /><ItemIcon id="minecraft:apple" /><ItemIcon id="minecraft:wheat" /><ItemIcon id="minecraft:honey_bottle" /><ItemIcon id="minecraft:ice" /><ItemIcon id="minecraft:sugar" /><ItemIcon id="minecraft:cocoa_beans" /><ItemIcon id="minecraft:glass_bottle" /></ItemGrid> |
-
-- [Hunger and variety](food.hunger.md)
-- [Crop ingredients](food.growing.md)
-- [Machine kitchens](food.machine-cooking.md)
+- [Hunger & variety](food.hunger.md) Effects, the Food Book and lunch containers.
+- [Crop ingredients](food.growing.md) Grow the vegetables above.
+- [Machine kitchens](food.machine-cooking.md) Automate slicing and drinks.
 
 ***
 

@@ -55,7 +55,7 @@ Great White Sharks also have shipwreck encounter definitions. A beached shipwrec
 Swimming wildlife, item drops, bucket capture and Starcatcher rod catches are different acquisition routes. Check the species and recipe before treating them as interchangeable. The Starcatcher bridge extends rod catches without changing the natural-spawn habitats listed here. Bring air supplies when exploring deeper water and avoid assuming every aquatic creature is harmless.
 
 - [Fishing equipment](food.fishing.md)
-- [Rod-catch habitats](fishing.habitats.md)
+- [Rod fishing and guide lookup](food.fishing.md)
 - [Seafood ingredients](food.seafood.md)
 - [Boats & submarines](vehicles.water.md)
 

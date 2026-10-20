@@ -44,7 +44,7 @@ class SemanticOrdering(unittest.TestCase):
             'combat.magic': ('class.arcane', 'class.fire', 'class.frost', 'class.aqua', 'class.terra',
                 'class.wind', 'class.priest', 'class.paladin', 'class.bard', 'class.witcher'),
             'reference.food': ('food.utensils', 'food.hunger', 'food.growing', 'food.fishing',
-                'fishing.habitats', 'food.seafood', 'food.underground', 'food.nether', 'food.end',
+                'food.seafood', 'food.underground', 'food.nether', 'food.end',
                 'food.encounters', 'food.machine-cooking'),
             'reference.building': ('building.palette', 'building.placement', 'building.architecture',
                 'building.copycats', 'building.furniture', 'building.displays', 'building.factory', 'building.safety'),
@@ -64,7 +64,8 @@ class SemanticOrdering(unittest.TestCase):
     def test_generator_definitions_cover_all_pages_and_preserve_unique_icons(self):
         definitions = json.loads(subprocess.check_output([sys.executable,
             str(ROOT / 'scripts/build-handbook-draft.py'), '--check-navigation'], text=True))
-        self.assertEqual(len(definitions), 131)
+        self.assertEqual(len(definitions), 130)
+        self.assertNotIn('fishing.habitats', definitions)
         assert_semantic_navigation({k: {field: row[field] for field in ('parent', 'position')}
                                    for k, row in definitions.items()})
         self.assertEqual(len({row['icon'] for row in definitions.values()}), len(definitions))
@@ -79,6 +80,8 @@ class SemanticOrdering(unittest.TestCase):
                          {'roots': list(ROOT_ORDER), **{k: list(v) for k, v in CHILD_ORDER.items()}})
         self.assertNotIn('space.destinations', {p['page_id'] for p in coverage['pages']})
         self.assertNotIn('space.destinations', coverage['navigation']['topic_parents'])
+        self.assertNotIn('fishing.habitats', {p['page_id'] for p in coverage['pages']})
+        self.assertNotIn('fishing.habitats', coverage['navigation']['topic_parents'])
         for path, topic in [('mods/create-cosmonatics.pw.toml', 'world.dimensions'),
                             ('mods/paxi.pw.toml', 'server.tools')]:
             row = next(e for e in coverage['inventory'] if e['metadata_path'] == path)
@@ -151,7 +154,7 @@ class SemanticOrdering(unittest.TestCase):
         self.assertEqual(report['mode'], 'metadata-only')
         self.assertEqual({row['locale'] for row in report['tests']}, {'en_us', '_zh_cn'})
         for row in report['tests']:
-            self.assertIn('131 nodes, eighteen ordered roots', row['output'])
+            self.assertIn('130 nodes, eighteen ordered roots', row['output'])
             self.assertIn('all sibling orders and semantic reorder negative control', row['output'])
             self.assertIn('Space destinations resurrection and repair controls', row['output'])
             self.assertIn('obsolete Quick reference and Sound resurrection and repair controls', row['output'])
