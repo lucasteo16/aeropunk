@@ -8,15 +8,31 @@ navigation:
 
 # 建造与平衡飞行船
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeronautics+envelope+balloon+burner+blazeboil+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeronautics+%E9%A3%9E%E8%89%87+%E6%B0%94%E5%9B%8A+%E7%87%83%E7%83%A7%E5%99%A8+%E6%B5%AE%E5%B2%A9+%E6%95%99%E7%A8%8B)
+
 ## 密闭体积产生升力
 
-<EmiSearch query="@aeroencasedpipe" /> <EmiSearch query="@ballastmod" />
+<EmiSearch query="@create" />
 
 ![不同船体与升力布置的飞艇](images/visual-airship-designs.png)
 
 不同船体与升力布置的飞艇
 
-<ItemGrid><ItemIcon id="aeronautics:white_envelope" /><ItemIcon id="aeronautics:adjustable_burner" /><ItemIcon id="aeronautics:steam_vent" /><ItemIcon id="aeronautics:levitite" /><ItemIcon id="aeronautics:levitite_blend" /><ItemIcon id="ballastmod:ballast_stones" /><ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" /><ItemIcon id="aeronautics:white_envelope_encased_shaft" /><ItemIcon id="simulated:white_symmetric_sail" /></ItemGrid>
+### 气囊设备
+
+<ItemGrid><ItemIcon id="aeronautics:white_envelope" /><ItemIcon id="aeronautics:adjustable_burner" /><ItemIcon id="aeronautics:steam_vent" /></ItemGrid>
+
+### 升力材料与压舱
+
+<EmiSearch query="@ballastmod" />
+
+<ItemGrid><ItemIcon id="aeronautics:levitite" /><ItemIcon id="aeronautics:levitite_blend_bucket" /><ItemIcon id="ballastmod:ballast_stones" /></ItemGrid>
+
+### 穿舱部件与帆
+
+<EmiSearch query="@aeroencasedpipe" />
+
+<ItemGrid><ItemIcon id="aeroencasedpipe:white_envelope_encased_pipe" /><ItemIcon id="aeronautics:white_envelope_encased_shaft" /><ItemIcon id="simulated:white_symmetric_sail" /></ItemGrid>
 
 <ItemLink id="aeronautics:white_envelope" /> 本身不产生升力。气囊方块构成外壳，被包住的空气方块才会充满热气。本包给热气的升力是每立方米 1.5 千克，所以浮力取决于被包住的体积，而不是方块数量。
 
@@ -41,7 +57,9 @@ navigation:
 
 ## 浮岩
 
-<ItemLink id="aeronautics:levitite" /> 是第三种升力来源，提供固定的反重力，并带有低速强、高速弱的阻力。单靠浮岩能把船体托住，却不能让它爬升，所以它常用来托起重船体，再由螺旋桨推动。用火、烈焰燃烧器或营火加热 <ItemLink id="aeronautics:levitite_blend" /> 会凝固成浮岩，凝固后的方块无法再采集。用作模具的黏土会在凝固过程中被消耗。
+<ItemGrid><ItemIcon id="aeronautics:levitite" /><ItemIcon id="aeronautics:levitite_blend_bucket" /></ItemGrid>
+
+<ItemLink id="aeronautics:levitite" /> 是第三种升力来源，提供固定的反重力，并带有低速强、高速弱的阻力。单靠浮岩能把船体托住，却不能让它爬升，所以它常用来托起重船体，再由螺旋桨推动。用火、烈焰燃烧器或营火加热 浮岩混合液 会凝固成浮岩，凝固后的方块无法再采集。用作模具的黏土会在凝固过程中被消耗。
 
 | 升力来源 | 提供 | 本包限制 |
 | --- | --- | --- |
@@ -58,7 +76,6 @@ navigation:
 
 前进靠螺旋桨。<ItemLink id="aeronautics:propeller_bearing" /> 能带动至少两块帆面组成的结构，帆面越多推力越大。反转旋转方向就反转推力。倒装的 <ItemLink id="aeronautics:gyroscopic_propeller_bearing" /> 能稳定头重脚轻的船体，红石信号会把倾角归零。
 
-## 视角与身体倾斜
 
 Aeronautics Camera Sync 让视角跟随倾斜甲板，Aeronautics Player Tilt 让身体一起转。两者都不操控飞船。
 

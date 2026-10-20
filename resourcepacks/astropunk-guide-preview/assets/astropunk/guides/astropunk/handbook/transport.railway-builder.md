@@ -8,27 +8,29 @@ navigation:
 
 # Railways
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+train+assembly+station+seated+conductor+schedule+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+%E5%88%97%E8%BD%A6+%E7%BB%84%E8%A3%85+%E8%BD%A6%E7%AB%99+%E4%B9%98%E5%8A%A1%E5%91%98+%E6%97%B6%E5%88%BB%E8%A1%A8+%E6%95%99%E7%A8%8B)
+
 ## Line, station, schedule
 
 <EmiSearch query="@create" />
 
 ![Train bodywork with Bells & Whistles fittings](images/visual-train-fittings.png)
 
-Train bodywork with Bells & Whistles fittings
-
 <ItemGrid><ItemIcon id="create:track" /><ItemIcon id="create:track_station" /><ItemIcon id="create:controls" /><ItemIcon id="create:schedule" /><ItemIcon id="create:railway_casing" /></ItemGrid>
-
-A Create train needs three things in this order. A continuous line of <ItemLink id="create:track" />, a <ItemLink id="create:track_station" /> on that line, and a <ItemLink id="create:controls" /> block inside the body you intend to drive.
-
-Lay the track first and check that both ends meet. A one block gap is enough to stop a train, and track laid on a curve needs a radius the bogies can follow.
-
-Then build the carriage as a normal block structure and place the Train Controls inside it. Place the station beside the track, give it a name, and assemble the train through the station. The station is what turns the blocks into a train, so a carriage with no station nearby stays a building.
-
-The <ItemLink id="create:schedule" /> is the timetable. Put it in the train, add the stations in the order you want, and set the conditions. A train with no schedule runs once and stops.
 
 <Recipe id="create:crafting/kinetics/track_station" />
 
 <Recipe id="create:crafting/kinetics/controls" />
+
+A working train needs connected <ItemLink id="create:track" />, a <ItemLink id="create:track_station" /> and <ItemLink id="create:controls" /> facing the travel direction. Start with two named stations on a short line so you can check the complete route before expanding it.
+
+1. Place the station beside the track and enter its assembly mode. This is different from assembling a Sable ship.
+2. Place <ItemLink id="create:railway_casing" /> on the highlighted track to make bogies. Build the carriages over them and glue each carriage together. Fit controls where the driver can reach them.
+3. Assemble through the station interface. If assembly is refused, read its message and check bogie placement and the connected carriage structure.
+4. Take control and drive the short route manually. Check that the line is continuous and that there is room at each station to stop.
+5. For automatic operation, place a seated conductor in front of the controls and use a completed <ItemLink id="create:schedule" /> on that conductor. Add the named destination stations and a wait condition for each stop, such as a timed wait or cargo condition. Configure whether the route repeats.
+
+A schedule belongs to the conductor, not an unspecified slot inside the train. Manual driving does not require one. If an automatic train waits indefinitely, inspect the active wait condition, the destination name and the signals ahead before changing its engines.
 
 ## Track families
 
@@ -42,16 +44,9 @@ Build a short test line in the gauge you intend to use before you build the main
 
 <ItemGrid><ItemIcon id="create:railway_casing" /></ItemGrid>
 
-Blocks & Bogies adds a Bogie Customisation interface rather than a separate set of bogie items. Right-click a placed bogie to open it and choose the driver or truck role, then the axle count, size and length the menu offers. Valve gear styles are further choices in the same menu, and the menu can switch to the Steam 'n' Rails styles.
+Blocks & Bogies adds a bogie customization interface rather than a second inventory of bogie items. Open the interface on a placed bogie and preview the available wheel arrangements, frame sizes and valve-gear styles. Its driver and truck categories describe the chosen design. they are not a requirement to fit one powered bogie per train or calculate an axle count from carriage weight.
 
-| Choice | Changes | Keep consistent |
-| --- | --- | --- |
-| Role | Whether the bogie drives or carries | One driver bogie per train |
-| Axle count | How many wheels touch the rail | Match the carriage weight |
-| Size and length | The wheel and frame footprint | Match the curve radius |
-| Valve gear | Visible motion | Appearance only |
-
-Not every combination is interchangeable. A long bogie on a tight curve derails where a short one holds, so test the combination on the tightest curve on your line.
+Choose the style for the carriage you are building, then check its appearance on a short curve before fitting the whole train. Track-gauge compatibility belongs to the track and bogie combination, not to an invented physical derailing rule for decorative wheel length.
 
 ## Freight and passengers
 

@@ -8,9 +8,11 @@ navigation:
 
 # 在基地内移动
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Simulated+Offroad+road+vehicles+handles+suspension+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Simulated+Offroad+%E8%BD%A6%E8%BE%86+%E6%82%AC%E6%8C%82+%E6%89%8B%E6%9F%84+%E6%95%99%E7%A8%8B)
+
 ## 超导管道线路
 
-<EmiSearch query="@create_hypertube" />
+<EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" />
 
 ![超导管道段落与支架](images/visual-local-hypertubes.png)
 
@@ -27,7 +29,6 @@ navigation:
 
 不转的入口只是墙上的一个洞。入口模式用扳手切换，红石探测器附件可以用信号切换模式。
 
-## 分支与速度
 
 | 部件 | 作用 | 设置方式 |
 | --- | --- | --- |
@@ -42,7 +43,7 @@ navigation:
 
 ## 步道
 
-<EmiSearch query="@create" /> <EmiSearch query="@escalated" />
+<EmiSearch query="@escalated" />
 
 <ItemGrid><ItemIcon id="escalated:metal_walkway_steps" /><ItemIcon id="escalated:wooden_walkway_steps" /></ItemGrid>
 

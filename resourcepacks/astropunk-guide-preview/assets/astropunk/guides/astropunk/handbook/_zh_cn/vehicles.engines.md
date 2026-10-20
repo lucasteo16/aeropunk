@@ -8,15 +8,27 @@ navigation:
 
 # 选择引擎与推进装置
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Propulsion+AeroEngine+engines+fuel+thrust+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Propulsion+AeroEngine+%E5%8F%91%E5%8A%A8%E6%9C%BA+%E7%87%83%E6%96%99+%E6%8E%A8%E5%8A%9B+%E6%95%99%E7%A8%8B)
+
 ## 推进家族
 
-<EmiSearch query="@aeroengineering" /> <EmiSearch query="@rocketnautics" /> <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
+<EmiSearch query="@aeroengineering" /> <EmiSearch query="@create" />
 
 ![飞行器发动机工坊](images/visual-engine-workshop.png)
 
 飞行器发动机工坊
 
-<ItemGrid><ItemIcon id="createpropulsion:thruster" /><ItemIcon id="createpropulsion:vector_thruster" /><ItemIcon id="createpropulsion:solid_fuel_thruster" /><ItemIcon id="createpropulsion:ion_thruster" /><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="aeronautics:propeller_bearing" /><ItemIcon id="aeroengineering:turbine_component" /></ItemGrid>
+### Create Propulsion
+
+<EmiSearch query="@createpropulsion" />
+
+<ItemGrid><ItemIcon id="createpropulsion:thruster" /><ItemIcon id="createpropulsion:vector_thruster" /><ItemIcon id="createpropulsion:solid_fuel_thruster" /><ItemIcon id="createpropulsion:ion_thruster" /></ItemGrid>
+
+### 涡轮、火箭与螺旋桨
+
+<EmiSearch query="@rocketnautics" />
+
+<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="aeronautics:propeller_bearing" /></ItemGrid>
 
 本整合包有四种推动载体的方式，彼此不能互换。先选家族，再照着该家族自己的帮助做。
 
@@ -41,7 +53,13 @@ navigation:
 
 ## 涡轮核心
 
-<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_compressor" /><ItemIcon id="aeroengineering:engine_combustor" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="aeroengineering:engine_exhaust_cone" /><ItemIcon id="aeroengineering:aviation_kerosene_bucket" /><ItemIcon id="aeroengineering:aviation_alloy_ingot" /><ItemIcon id="aeroengineering:aviation_alloy_sheet" /><ItemIcon id="aeroengineering:aviation_blade" /><ItemIcon id="aeroengineering:compressor_component" /></ItemGrid>
+### 发动机区段
+
+<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_compressor" /><ItemIcon id="aeroengineering:engine_combustor" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="aeroengineering:engine_exhaust_cone" /></ItemGrid>
+
+### 燃料与制造部件
+
+<ItemGrid><ItemIcon id="aeroengineering:aviation_kerosene_bucket" /><ItemIcon id="aeroengineering:aviation_alloy_ingot" /><ItemIcon id="aeroengineering:aviation_alloy_sheet" /><ItemIcon id="aeroengineering:aviation_blade" /><ItemIcon id="aeroengineering:compressor_component" /><ItemIcon id="aeroengineering:turbine_component" /></ItemGrid>
 
 AeroEngine 核心按固定顺序叠放，风扇、压气机、燃烧室、涡轮、尾喷口。先造核心，再按该发动机的思索场景补外壳、喷口、燃料供给与齿轮箱。没有燃料供给的核心不会转出任何东西。
 
@@ -65,7 +83,7 @@ AeroEngine 核心按固定顺序叠放，风扇、压气机、燃烧室、涡轮
 
 <ItemGrid><ItemIcon id="aeronautics:propeller_bearing" /><ItemIcon id="aeronautics:wooden_propeller" /><ItemIcon id="aeronautics:andesite_propeller" /><ItemIcon id="aeronautics:smart_propeller" /></ItemGrid>
 
-整合包按部件而不是按家族缩放推力。螺旋桨轴承只有基准推力的 0.2，木质、安山岩与智能螺旋桨都是 1.0。所以一个大螺旋桨胜过几个小轴承，只有两块帆面的轴承能推动轻船体，却推不动重船体。
+整合包给各部件单独设置倍率：螺旋桨轴承为 0.2，木质、安山岩与智能螺旋桨为 1.0。这些数值乘的是各自的基础推力，不是可直接比较的推力额定值。应按满载移动、供能与操控测试选择设计，不要据此断言一个大螺旋桨一定胜过几个轴承。
 
 
 ***

@@ -8,23 +8,45 @@ navigation:
 
 # Teleportation
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+Waystones+Tempad+Stargate+Journey+Map+teleport+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+Waystones+Tempad+Stargate+%E4%BC%A0%E9%80%81+%E6%95%99%E7%A8%8B)
+
 ## Waystone network
 
-<EmiSearch query="@waystones" />
+<EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
 
 ![A Waystone above the landscape](images/visual-mountaintop-waystone.png)
 
 A Waystone above the landscape
 
-<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:mossy_waystone" /><ItemIcon id="waystones:deepslate_waystone" /><ItemIcon id="waystones:blackstone_waystone" /><ItemIcon id="waystones:sandy_waystone" /><ItemIcon id="waystones:red_nether_bricks_waystone" /><ItemIcon id="waystones:end_stone_waystone" /><ItemIcon id="waystones:mud_bricks_waystone" /><ItemIcon id="waystones:prismarine_waystone" /><ItemIcon id="waystones:purpur_waystone" /></ItemGrid>
+### Waystone forms
+
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:mossy_waystone" /><ItemIcon id="waystones:deepslate_waystone" /><ItemIcon id="waystones:blackstone_waystone" /><ItemIcon id="waystones:sandy_waystone" /></ItemGrid>
+
+### Further building palettes
+
+<EmiSearch query="@create" />
+
+<ItemGrid><ItemIcon id="waystones:red_nether_bricks_waystone" /><ItemIcon id="waystones:end_stone_waystone" /><ItemIcon id="waystones:mud_bricks_waystone" /><ItemIcon id="waystones:prismarine_waystone" /><ItemIcon id="waystones:purpur_waystone" /></ItemGrid>
 
 A <ItemLink id="waystones:waystone" /> becomes a destination only after you use it once. That first use activates it and adds it to your list. An unactivated stone does not appear in the travel screen, which is the usual reason a base you can see is not on the list.
 
 The material is appearance. A mossy, deepslate, blackstone, sandy, nether brick or end stone waystone behaves like the plain one. The screen shows the experience cost and any cooldown before you confirm, so read the row rather than clicking through.
 
+This pack makes <ItemLink id="waystones:warp_stone" /> and <ItemLink id="waystones:waystone" /> through Create mechanical crafting using <ItemLink id="create:mechanical_crafter" />. These mechanical crafting recipes cannot be displayed in this handbook. Open the item browser to see their actual recipes and material variants.
+
 ## Portable and shared travel
 
-<ItemGrid><ItemIcon id="waystones:warp_stone" /><ItemIcon id="waystones:blank_scroll" /><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:white_portstone" /><ItemIcon id="waystones:warp_plate" /><ItemIcon id="waystones:dormant_shard" /><ItemIcon id="waystones:attuned_shard" /></ItemGrid>
+### Portable travel
+
+<ItemGrid><ItemIcon id="waystones:warp_stone" /><ItemIcon id="waystones:blank_scroll" /></ItemGrid>
+
+### Shared and local endpoints
+
+<ItemGrid><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:white_portstone" /><ItemIcon id="waystones:warp_plate" /></ItemGrid>
+
+### Plate attunement
+
+<ItemGrid><ItemIcon id="waystones:dormant_shard" /><ItemIcon id="waystones:attuned_shard" /></ItemGrid>
 
 | Item | Scope | How it works |
 | --- | --- | --- |
@@ -40,21 +62,27 @@ A <ItemLink id="waystones:warp_plate" /> pair is the only one of these that move
 
 ## Tempad
 
-<EmiSearch query="@tempad" />
-
 ![Tempad destination equipment](images/feedback-tempad.png)
 
 Tempad destination equipment
 
-<ItemGrid><ItemIcon id="tempad:tempad" /><ItemIcon id="tempad:location_card" /><ItemIcon id="tempad:timedoor_projector" /><ItemIcon id="tempad:workstation" /><ItemIcon id="tempad:chronon_generator" /><ItemIcon id="tempad:chronon_cell" /><ItemIcon id="tempad:card_wallet" /><ItemIcon id="tempad:chronometer" /><ItemIcon id="tempad:chronon_battery" /><ItemIcon id="tempad:location_broadcaster" /><ItemIcon id="tempad:timedoor_marker" /></ItemGrid>
+### Destination tools
+
+<ItemGrid><ItemIcon id="tempad:tempad" /><ItemIcon id="tempad:location_card" /><ItemIcon id="tempad:timedoor_projector" /><ItemIcon id="tempad:workstation" /></ItemGrid>
+
+### Chronon generation and storage
+
+<ItemGrid><ItemIcon id="tempad:chronon_generator" /><ItemIcon id="tempad:chronon_cell" /></ItemGrid>
+
+### Cards, monitoring and endpoints
+
+<ItemGrid><ItemIcon id="tempad:card_wallet" /><ItemIcon id="tempad:chronometer" /><ItemIcon id="tempad:chronon_battery" /><ItemIcon id="tempad:location_broadcaster" /><ItemIcon id="tempad:timedoor_marker" /></ItemGrid>
 
 A <ItemLink id="tempad:tempad" /> stores <ItemLink id="tempad:location_card" /> entries and opens a <ItemLink id="tempad:timedoor_projector" /> door to one of them. It is a coordinate system, not a network. A saved place is a fixed point, so it does not follow a moving ship, and it does not know whether the destination is still safe.
 
 Power comes from chronon equipment. A <ItemLink id="tempad:chronon_generator" /> with a <ItemLink id="tempad:chronon_cell" /> is the stationary supply, and the <ItemLink id="tempad:workstation" /> is where cards and devices are made. Check the card in the Tempad screen before you step through.
 
 ## Moving destinations
-
-<EmiSearch query="@create" />
 
 <ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="simulated:physics_assembler" /></ItemGrid>
 
@@ -64,7 +92,7 @@ Create: AeroWarptics relocates an assembled ship within one dimension. Neither a
 
 ## Choosing a system
 
-<ItemGrid><ItemIcon id="minecraft:obsidian" /></ItemGrid>
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:warp_plate" /><ItemIcon id="tempad:tempad" /></ItemGrid>
 
 | Need | Use |
 | --- | --- |
@@ -75,6 +103,7 @@ Create: AeroWarptics relocates an assembled ship within one dimension. Neither a
 | A destination that moves with a ship | Waystones: Sable |
 
 ***
+
 
 ***
 

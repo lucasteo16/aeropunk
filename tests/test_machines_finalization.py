@@ -4,17 +4,19 @@ import copy
 import hashlib
 import json
 import sys
+import subprocess
 import unittest
 
 from urllib.parse import urlsplit, parse_qs
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tests'))
-from handbook_revision_contract import before_machines_finalization, topic_digest
+from handbook_revision_contract import before_machines_finalization, before_transport_finalization, topic_digest
 
 class MachinesFinalization(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.current=json.loads((ROOT/'docs/handbook-content.json').read_text())
+        cls.live=json.loads((ROOT/'docs/handbook-content.json').read_text())
+        cls.current=before_transport_finalization(cls.live)
         cls.contract=json.loads((ROOT/'docs/machines-storage-revision-contract.json').read_text())
 
     def test_exact_source_contract_and_scope(self):
@@ -125,7 +127,14 @@ class MachinesFinalization(unittest.TestCase):
             self.assertIn('Hold the equipment type' if locale == 'en_us' else '手持要用作筛选依据的装备', enchanting)
 
     def test_final_handoff_records_bind_the_same_source_file(self):
-        digest=hashlib.sha256((ROOT/'docs/handbook-content.json').read_bytes()).hexdigest()
+        transport=ROOT/'docs/transport-final-review.json'
+        if transport.exists():
+            revision=json.loads(transport.read_text())
+            self.assertEqual(topic_digest(self.live),revision['source_sha256']['after'])
+            source=subprocess.check_output(['git','show',revision['development_base']+':docs/handbook-content.json'],cwd=ROOT)
+        else:
+            source=(ROOT/'docs/handbook-content.json').read_bytes()
+        digest=hashlib.sha256(source).hexdigest()
         self.assertEqual(self.contract['source_file_sha256'],digest)
         report=json.loads((ROOT/'docs/machines-storage-final-review.json').read_text())
         self.assertEqual(report['content_sha256'],digest)
@@ -134,8 +143,23 @@ class MachinesFinalization(unittest.TestCase):
         record=json.loads((ROOT/'docs/machines-storage-final-review.json').read_text())
         pack=ROOT/'resourcepacks/astropunk-guide-preview'
         resources={p.relative_to(pack).as_posix():p for p in pack.rglob('*') if p.is_file()}
-        self.assertEqual(set(resources),set(record['resource_sha256']))
+        transport=ROOT/'docs/transport-final-review.json'
+        changes={}
+        if transport.exists():
+            revision=json.loads(transport.read_text())
+            self.assertEqual(set(resources),set(revision['resource_sha256']))
+            changes=revision['resource_changes']
+            for name,source in resources.items():
+                self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(),revision['resource_sha256'][name],name)
+            for name in set(changes)&set(record['resource_sha256']):
+                prior=subprocess.check_output(['git','show',revision['development_base']+':resourcepacks/astropunk-guide-preview/'+name],cwd=ROOT)
+                self.assertEqual(hashlib.sha256(prior).hexdigest(),record['resource_sha256'][name],name)
+            self.assertEqual(set(resources),set(record['resource_sha256'])|set(changes))
+        else:
+            self.assertEqual(set(resources),set(record['resource_sha256']))
         for name,source in resources.items():
+            if name in changes:
+                continue  # Exact Transport hashes and historical bytes checked above.
             self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(),record['resource_sha256'][name],name)
 
 if __name__=='__main__':unittest.main()

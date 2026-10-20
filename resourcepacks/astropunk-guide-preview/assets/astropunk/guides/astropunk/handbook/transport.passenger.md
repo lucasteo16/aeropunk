@@ -8,6 +8,8 @@ navigation:
 
 # Train travel
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+train+passenger+schedule+conductor+railway+navigator+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+%E5%88%97%E8%BD%A6+%E4%B9%98%E5%AE%A2+%E6%97%B6%E5%88%BB%E8%A1%A8+%E9%93%81%E8%B7%AF%E5%AF%BC%E8%88%AA+%E6%95%99%E7%A8%8B)
+
 ## Route search
 
 <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
@@ -26,7 +28,13 @@ A <ItemLink id="createrailwaysnavigator:train_station_clock" /> shows the time a
 
 ## Passenger displays
 
-<ItemGrid><ItemIcon id="createrailwaysnavigator:advanced_display" /><ItemIcon id="createrailwaysnavigator:advanced_display_block" /><ItemIcon id="createrailwaysnavigator:advanced_display_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_half_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_slab" /><ItemIcon id="createrailwaysnavigator:advanced_display_sloped" /><ItemIcon id="createrailwaysnavigator:advanced_display_small" /><ItemIcon id="create:wrench" /></ItemGrid>
+### Display forms
+
+<ItemGrid><ItemIcon id="createrailwaysnavigator:advanced_display" /><ItemIcon id="createrailwaysnavigator:advanced_display_block" /><ItemIcon id="createrailwaysnavigator:advanced_display_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_half_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_slab" /><ItemIcon id="createrailwaysnavigator:advanced_display_sloped" /></ItemGrid>
+
+### Compact display and configuration
+
+<ItemGrid><ItemIcon id="createrailwaysnavigator:advanced_display_small" /><ItemIcon id="create:wrench" /></ItemGrid>
 
 The display family is one screen in several shapes, so it fits a wall, a slab, a slope or a small post.
 

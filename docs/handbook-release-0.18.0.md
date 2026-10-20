@@ -1,20 +1,17 @@
 # Handbook refinement release 0.18.0
 
-The development version is `0.18.0-dev`. Combat, Food and farming, Machines and storage, and the forthcoming Transport finalization share this version. Do not increment it again merely for the remaining Transport chapter.
+Combat, Food and farming, Machines and storage, and Transport are accepted for the same release. Development retains `0.18.0-dev`; stable and edition branches use `0.18.0` with their existing edition suffixes. Transport does not trigger another increment.
 
-## Acceptance
+## Final corrections
 
-- Combat: accepted and already integrated.
-- Food and farming: accepted and already integrated.
-- Machines and storage: accepted subject to the final tutorial-icon and compact-query corrections, now applied in both languages.
-- Transport: the remaining chapter to finalize. Existing content is retained, not newly accepted by this merge.
+Every tutorial action has the play image and compact English and Chinese labels. Recipe-browser actions use the actual short query. Transport catalogs keep bounded icon rows outside width-filling table cells, and its height charts have separate language assets.
 
-## Final presentation corrections
+Create mechanical crafting is described in text and linked to the item browser. Its unsupported handbook recipe diagrams were removed at Lucas's request. Internal Simulated paired-docking and merging-glue blocks are not item references: the guide shows the ordinary docking connector and uses a Slime Ball for merging.
 
-Every chapter tutorial row now includes the existing play image, including section-specific searches. There remains exactly one primary tutorial row beneath each page title. Contextual rows stay beside their sections rather than being hoisted into the header.
+The exact Transport source and resource closure is `transport-final-review.json`. Prior review evidence is preserved separately. Invalid historical references have explicit per-topic dispositions in `transport-reference-corrections.json`; arbitrary missing identities remain blocking. Parser and structural-fixture checks are not in-game rendering or registry certification.
 
-Processing searches use the standard self-closing query component. The visible pink text is the actual query, such as Wheat Flour, not an instructional sentence. Instructions remain ordinary prose. The query strings themselves are unchanged.
+## Integration scope
 
-The scoped final review, source digest, native parser and structural-fixture results, and resource hashes are recorded in `docs/machines-storage-final-review.json`. Focused chapter, historical Food-preservation and navigation checks were used. Earlier unrelated complete-suite failures were not silently treated as resolved, and a full suite or game launch was not repeated for these presentation changes.
+Approved flow: Transport into local development, development into main, main into Heavy, Light and hosting, and development into private world generation. Preserve edition-only additions and removals, including the deployed hosting recipe-browser additions and authentication. Do not flow hosting or world-generation additions upstream.
 
-The merge targets the actual local `dev` branch. The separately checked-out, dirty `fix/refurbishment-combat-standard` branch in the directory named astropunk-dev is preserved. No stable branch, played instance, world or remote branch is changed by this local integration.
+The handbook changes alter client assets and authoring evidence, not gameplay mods or server settings. Release synchronization and exports do not deploy to a server or update played clients. Remote publication is separate from local branch synchronization. The dirty historical branch checked out in the directory named astropunk-dev remains untouched.

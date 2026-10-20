@@ -11,9 +11,11 @@ item_ids:
 
 # 太空导航
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Cosmonautics+hologram+Earth+Moon+navigation+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Cosmonautics+%E5%85%A8%E6%81%AF%E5%9B%BE+%E5%9C%B0%E7%90%83+%E6%9C%88%E7%90%83+%E5%AF%BC%E8%88%AA+%E6%95%99%E7%A8%8B)
+
 ## 行星显示
 
-<EmiSearch query="@rocketnautics" />
+<EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
 ![全息行星显示](images/cosmo-hologram.png)
 
@@ -31,15 +33,16 @@ item_ids:
 
 <Recipe id="rocketnautics:hologram_block" />
 
-本包的星系数据给每个天体设定了表面加速度。主世界是 11.0，月球是 2.0，所以按主世界调好的着陆器在月球上会比预想落得更快。在家门口轻松悬停的船，到那里会爬升更快、制动更晚。
+本包星系把主世界和月球连接到地表维度。全息图还显示其他天体，不要仅因看见模型就规划着陆。
 
-| 天体 | 表面加速度 | 说明 |
+| 已连接地表 | 配置表面加速度 | 对飞行的影响 |
 | --- | --- | --- |
-| 主世界 | 11.0 | 起点，空气浓厚 |
-| 月球 | 2.0 | 低重力，没有浓厚空气 |
-| 火星、气态巨行星、冰世界 | 在显示中列出 | 出发前先确认 |
+| 主世界 | 11.0 | 重力强于月球 |
+| 月球 | 2.0 | 悬停所需推力更小，应重新调整操作幅度 |
 
-空气也随高度变稀。21000 以上本包把大气标记为低密度并施加溺水效果，所以没有密闭头盔与供气的船员在越界之前就无法呼吸。阻力到 7000 已经降为零，这就是螺旋桨在高空失效、必须换用火箭的原因。
+初始速度相同时，低重力不会让下落加速更快。推进、载具质量和当前速度仍会影响结果，应实际测试悬停与制动，不要照搬主世界油门。
+
+主世界高度超过 5,000 后就无法正常呼吸，早于阻力在 7,000 降为零和上升至 20,000 时的转移。发射前就应戴好头盔并充满供气设备。所选版本的大气表使用高度上界：21,000 是低密度溺水区间的上界，不是起点。深空与月球同样需要呼吸方案。参见[生命维持](space.life-support.md)与[太空飞行](space.vehicle-transfer.md)。
 
 ## 探测器与头盔
 
@@ -48,15 +51,6 @@ item_ids:
 在深空中，太空头盔会显示轨道信息。按 <KeyBind id="key.rocketnautics.toggle_alignment" /> 切换对齐辅助。它改变你看到的内容，不改变船的朝向。
 
 <Recipe id="rocketnautics:sputnik" />
-
-## 出发前读一遍
-
-| 检查项 | 为何决定这趟行程 |
-| --- | --- |
-| 目标天体的表面加速度 | 决定下落速度与所需制动力 |
-| 头盔与充满的空气供给 | 21000 以上空气无法支持呼吸 |
-| 无空气仍有效的推进 | 螺旋桨到 7000 就失去介质 |
-| 已组装的船体与运行中的燃料供给 | 未组装的结构没有物理，断油则没有推力 |
 
 
 ***

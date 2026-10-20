@@ -8,9 +8,11 @@ navigation:
 
 # 操作船只与潜艇
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Deep+Seas+3+submarine+ballast+oxygen+diffuser+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Deep+Seas+%E6%BD%9C%E8%89%87+%E5%8E%8B%E8%BD%BD+%E6%B0%A7%E6%B0%94%E6%89%A9%E6%95%A3%E5%99%A8+%E6%95%99%E7%A8%8B)
+
 ## 船体
 
-<EmiSearch query="@create_submarine" />
+<EmiSearch query="@create" />
 
 ![Deep Seas 铜制潜艇](images/building-travel-submarine.png)
 
@@ -18,7 +20,25 @@ Deep Seas 铜制潜艇。
 
 潜艇是作为模拟悬浮体建造的密闭船体，然后装上压载、推进与空气系统。组装方法见[组装](vehicles.assembly.md)。船体决定你能潜多深，所以耐压玻璃要在第一次下潜前装好，而不是之后补。
 
-<ItemGrid><ItemIcon id="create_submarine:floater" /><ItemIcon id="create_submarine:ballast_tank" /><ItemIcon id="create_submarine:ballast_vent" /><ItemIcon id="create_submarine:water_thruster" /><ItemIcon id="create_submarine:submarine_propeller" /><ItemIcon id="create_submarine:rudder" /><ItemIcon id="create_submarine:arresting_hook" /><ItemIcon id="create_submarine:decompression_chamber" /><ItemIcon id="create_submarine:underwater_mine" /></ItemGrid>
+### 浮力与压载
+
+<EmiSearch query="@create_submarine" />
+
+<ItemGrid><ItemIcon id="create_submarine:floater" /><ItemIcon id="create_submarine:ballast_tank" /><ItemIcon id="create_submarine:ballast_vent" /></ItemGrid>
+
+### 推进与转向
+
+<ItemGrid><ItemIcon id="create_submarine:water_thruster" /><ItemIcon id="create_submarine:submarine_propeller" /><ItemIcon id="create_high_seas:rudder" /></ItemGrid>
+
+### 甲板与压力设备
+
+<ItemGrid><ItemIcon id="create_submarine:arresting_hook" /><ItemIcon id="create_submarine:decompression_chamber" /></ItemGrid>
+
+### 水面小船
+
+<EmiSearch query="@starcatcher" />
+
+<ItemGrid><ItemIcon id="minecraft:oak_boat" /><ItemIcon id="starcatcher:oak_tackle_box_boat" /></ItemGrid>
 
 <ItemLink id="create_submarine:floater" /> 让水面船保持浮起。它是浮体，不是下潜控制。
 
@@ -37,19 +57,21 @@ Deep Seas 铜制潜艇。
 
 ## 推进与转向
 
+<ItemGrid><ItemIcon id="create_submarine:underwater_mine" /></ItemGrid>
+
 | 部件 | 需要 | 提供 |
 | --- | --- | --- |
 | <ItemLink id="create_submarine:water_thruster" /> | 水压与旋转力 | 随两者提升的推力 |
 | <ItemLink id="create_submarine:submarine_propeller" /> | 旋转力 | 稳定的水下推进 |
-| <ItemLink id="create_submarine:rudder" /> | 转向输入 | 改变船体方向 |
+| <ItemLink id="create_high_seas:rudder" /> | 转向输入 | 改变船体方向 |
 
-<ItemLink id="create_submarine:water_thruster" /> 消耗加压水产生推力，需要供水与旋转力。压力越大、转速越高，推力越大。<ItemLink id="create_submarine:submarine_propeller" /> 是更简单的驱动，只在水中工作，空气中无效。<ItemLink id="create_submarine:rudder" /> 是转向面。
+<ItemLink id="create_submarine:water_thruster" /> 消耗加压水产生推力，需要供水与旋转力。压力越大、转速越高，推力越大。<ItemLink id="create_submarine:submarine_propeller" /> 是更简单的驱动，只在水中工作，空气中无效。<ItemLink id="create_high_seas:rudder" /> 是转向面。
 
 水面船也可以用螺旋桨，但螺旋桨在空气里推不动任何东西。
 
 ## 空气与压力
 
-<EmiSearch query="@create" />
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Deep+Seas+oxygen+electrolyzer+shaft+diffuser+redstone+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Deep+Seas+%E6%B0%A7%E6%B0%94+%E7%94%B5%E8%A7%A3%E6%9C%BA+%E4%BC%A0%E5%8A%A8%E8%BD%B4+%E6%89%A9%E6%95%A3%E5%99%A8+%E7%BA%A2%E7%9F%B3+%E6%95%99%E7%A8%8B)
 
 <ItemGrid><ItemIcon id="create_submarine:electrolyzer" /><ItemIcon id="create_submarine:oxygene_diffuser" /><ItemIcon id="create_submarine:barometer" /><ItemIcon id="create_submarine:copper_pressurizer" /><ItemIcon id="create_submarine:iron_pressurizer" /><ItemIcon id="create_submarine:phycological_membrane" /></ItemGrid>
 
@@ -59,15 +81,13 @@ Deep Seas 铜制潜艇。
 | <ItemLink id="create_submarine:oxygene_diffuser" /> | 储存的氧气与红石信号 | 密闭舱内的可呼吸空气 |
 | <ItemLink id="create_submarine:barometer" /> | 无 | 深度，以及相对最弱方块的水压 |
 
-电解机可以完全不用电力网络。在模块槽放入传动轴，它就把旋转力转成自身用电，这是本包在 Create 船上预期的做法。扩散器按潜艇体积消耗氧气，大船体要么多装几台，要么缩小密闭舱。
+本包所选版本由负责该潜艇的活动扩散器每二十个游戏刻消耗五十毫桶氧气，并非按舱室体积成比例扣除。扩散器需要供氧与红石信号。大舱仍须密封，但增加扩散器不能代替修补破口。电解机模块槽可放入传动轴以使用旋转动力，再把产出的氧气送到扩散器。
 
 气压计把外部压力与船体最弱的方块比较。继续下潜前先读它，修补船体后也要看它。铜制与铁制耐压玻璃是能承压的窗，<ItemLink id="create_submarine:phycological_membrane" /> 可以充入空气。
 
 ## 寻找航路
 
-<EmiSearch query="@starcatcher" />
-
-<ItemGrid><ItemIcon id="create_submarine:sonar" /><ItemIcon id="create_submarine:pump_controller" /><ItemIcon id="create_submarine:industrial_alarm" /><ItemIcon id="create_submarine:steel_cable" /><ItemIcon id="create_submarine:pulley" /><ItemIcon id="minecraft:oak_boat" /><ItemIcon id="starcatcher:oak_tackle_box_boat" /></ItemGrid>
+<ItemGrid><ItemIcon id="create_submarine:sonar" /><ItemIcon id="create_submarine:pump_controller" /><ItemIcon id="create_submarine:industrial_alarm" /><ItemIcon id="create_submarine:steel_cable" /><ItemIcon id="create_submarine:pulley" /></ItemGrid>
 
 <ItemLink id="create_submarine:sonar" /> 绘制船体周围的海床、岩石、其他船只与水雷。同一艘船上装有船载计算机时，它会增加地图页面，并让自动驾驶沿着海床保持龙骨离地。
 
@@ -76,6 +96,7 @@ Deep Seas 铜制潜艇。
 <Recipe id="create_submarine:electrolyzer" />
 
 ***
+
 
 ***
 

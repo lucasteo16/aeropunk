@@ -16,13 +16,15 @@ item_ids:
 
 # 太空生命支持
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Cosmonautics+space+helmet+air+jetpack+oxygen+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Cosmonautics+%E5%A4%AA%E7%A9%BA%E5%A4%B4%E7%9B%94+%E7%A9%BA%E6%B0%94+%E5%96%B7%E6%B0%94%E8%83%8C%E5%8C%85+%E6%95%99%E7%A8%8B)
+
 ## 呼吸装备
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
 <ItemGrid><ItemIcon id="create:copper_diving_helmet" /><ItemIcon id="create:copper_backtank" /><ItemIcon id="rocketnautics:space_helmet" /><ItemIcon id="rocketnautics:jetpack" /><ItemIcon id="create:netherite_backtank" /></ItemGrid>
 
-本包在大气层以上没有可呼吸空气。两件东西可以解决，一件密闭头盔和一份加压空气。
+Cosmonautics 会检查深空及其配置大气区间内的生物是否能呼吸，借用 Create 潜水装备与储存空气，而不是另建一套舱室氧气模拟。发射前应装备兼容头盔并充满供气设备。舱室供氧来自下文的 Deep Seas 与 Deep Air 联动。
 
 | 部件 | 槽位 | 提供 |
 | --- | --- | --- |
@@ -31,7 +33,7 @@ item_ids:
 | <ItemLink id="rocketnautics:space_helmet" /> | 头部 | 从加压源呼吸，并带轨道显示 |
 | <ItemLink id="rocketnautics:jetpack" /> | 胸部 | 加压空气与个人推力 |
 
-铜潜水头盔配充满的铜背罐是最便宜可用的组合，两者都有配方。太空头盔在本包没有合成配方，只能当作拾取到的装备，而不是可以规划的步骤。
+铜潜水头盔与充满空气的铜制背罐可作为能合成的起步组合。本包太空头盔没有合成配方，不是这套起步装备的必要条件。
 
 <Recipe id="create:crafting/appliances/copper_diving_helmet" />
 
@@ -62,7 +64,7 @@ item_ids:
 | <ItemLink id="create_submarine:oxygene_diffuser" /> | 罐中氧气与红石信号 | 密闭舱内的可呼吸空气 |
 | <ItemLink id="cosmonauticsdeepair:gravity_generator" /> | Forge 能量与相邻红石信号 | 舱内局部重力 |
 
-Deep Air 在舱室供氧且船体未破损时恢复呼吸。它不封住船体，也不制氧，所以一旦破口，效果就结束，储存多少氧气都没用。扩散器按舱室体积消耗氧气，这就是小舱比整层甲板更容易维持的原因。
+Deep Air 在潜艇舱室供氧且密封时恢复呼吸，不负责封堵破口或制造氧气。本包所选 Deep Seas 扩散器按固定工作量消耗氧气，不是按舱室体积扣除。供氧管路与扩散器控制见[水下航行](vehicles.water.md)。离开舱室仍要携带个人呼吸装备。
 
 重力发生器是另一项舱室功能。它与扩散器不必在同一舱，但至少要让一个舱保持供氧，舱室追踪才继续有效。
 

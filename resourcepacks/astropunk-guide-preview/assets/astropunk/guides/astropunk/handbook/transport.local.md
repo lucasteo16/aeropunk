@@ -8,9 +8,11 @@ navigation:
 
 # Local transport
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Simulated+Offroad+road+vehicles+handles+suspension+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Simulated+Offroad+%E8%BD%A6%E8%BE%86+%E6%82%AC%E6%8C%82+%E6%89%8B%E6%9F%84+%E6%95%99%E7%A8%8B)
+
 ## Hypertube line
 
-<EmiSearch query="@create_hypertube" />
+<EmiSearch query="@create" /> <EmiSearch query="@create_hypertube" />
 
 ![Hypertube sections and supports](images/visual-local-hypertubes.png)
 
@@ -27,7 +29,6 @@ A hypertube is a tube you are fired through, not a vehicle you drive.
 
 An entrance with no rotation is a hole in the wall. The entrance mode itself is changed with a wrench, and a Redstone Detector Attachment can switch the mode from a signal.
 
-## Branches and speed
 
 | Part | Does | Set with |
 | --- | --- | --- |
@@ -42,7 +43,7 @@ The scanner attachment reads 8 redstone power for a baby and 15 for an adult, so
 
 ## Walkways
 
-<EmiSearch query="@create" /> <EmiSearch query="@escalated" />
+<EmiSearch query="@escalated" />
 
 <ItemGrid><ItemIcon id="escalated:metal_walkway_steps" /><ItemIcon id="escalated:wooden_walkway_steps" /></ItemGrid>
 

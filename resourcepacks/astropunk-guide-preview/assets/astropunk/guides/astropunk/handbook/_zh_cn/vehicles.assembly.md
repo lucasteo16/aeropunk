@@ -8,34 +8,29 @@ navigation:
 
 # 组装和操作移动载具
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeronautics+Sable+Simulated+assembler+glue+vehicle+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeronautics+Sable+%E8%BD%BD%E5%85%B7+%E7%BB%84%E8%A3%85%E5%99%A8+%E8%83%B6+%E6%95%99%E7%A8%8B)
+
 ## 组装顺序
 
 <EmiSearch query="@create" />
 
 ![Cloud Skipper 飞艇成品](images/visual-assembled-airship.png)
 
-Cloud Skipper 飞艇成品
-
 <ItemGrid><ItemIcon id="simulated:physics_assembler" /><ItemIcon id="simulated:honey_glue" /><ItemIcon id="create:super_glue" /><ItemIcon id="simulated:contraption_diagram" /><ItemIcon id="simulated:navigation_table" /></ItemGrid>
-
-模拟悬浮体是把一组方块变成单一物理实体。先造形状，再涂胶，最后组装。
-
-1. 先在原地造好船体、甲板和挂点，轮子、轴承与动力装置也要提前装好。
-2. 用 <ItemLink id="create:super_glue" /> 或 <ItemLink id="simulated:honey_glue" /> 标记整体。胶水按面连接，所以船体要粘到甲板，甲板要粘到机械。
-3. 把 <ItemLink id="simulated:physics_assembler" /> 贴在结构上，对着它长按使用，然后拉下扳手。
-
-斜边上的方块会被一并纳入，阶梯状船体不需要每一级都补一条胶。首次组装用过的组装器之后不再需要，任意一台组装器都能把实体重新拆开。
-
-| 提示 | 含义 | 处理 |
-| --- | --- | --- |
-| Cannot disassemble onto the same Simulated Contraption! | 组装器本身属于要拆开的实体 | 把组装器移出实体 |
-| Too fast to disassemble! | 实体还在移动 | 先停稳再试 |
-| Too far from the ground to disassemble! | 实体太高，方块放不回地面 | 降低高度或在实地上方组装 |
-| Could not align Simulated Contraption to disassemble! | 保存的布局已经放不回原空间 | 清空落点区域 |
 
 <Recipe id="simulated:physics_assembler" />
 
 <Recipe id="offroad:borehead_bearing" />
+
+Sable 载具最初是普通的相连方块。第一艘只做小船体、可到达的驾驶位和一次移动测试需要的设备。列车使用[铁路建造](transport.railway-builder.md)中的车站流程，不使用这里的组装器。
+
+1. 在远离地形和无关建筑的位置搭建相连船体，需要连接部件时使用 <ItemLink id="create:super_glue" />。
+2. 将 <ItemLink id="simulated:physics_assembler" /> 放在目标结构旁，使用组装操作。确认预期船体完整地成为一个可移动子层级，没有把码头方块带进去。
+3. 先确认组装体能移动、控制位可到达，再安装[飞艇](vehicles.airships.md)、[水下航行](vehicles.water.md)或[太空飞行](space.vehicle-transfer.md)设备。
+4. 改建前把载具移到有支撑且周围空旷的位置，通过组装器拆回方块。最初使用的组装器不必一直留在船上。
+
+不要把载具粘在发射台上。漏掉部件或把地形一起组装进去，是组装问题，不应靠加大发动机来补偿。
+
 ## 飞行之前先移动实体
 
 新实体从一块方块开始。先组装这一块，再把其余部分直接建造在已组装的方块上，这样从第一块起所有部件就属于同一个物理实体，不必事后补胶。
@@ -48,9 +43,19 @@ Cloud Skipper 飞艇成品
 
 ## 连接与分离
 
-<ItemGrid><ItemIcon id="simulated:docking_connector" /><ItemIcon id="simulated:paired_docking_connector" /><ItemIcon id="simulated:rope_winch" /><ItemIcon id="simulated:rope_connector" /><ItemIcon id="simulated:rope_coupling" /><ItemIcon id="simulated:merging_glue" /><ItemIcon id="simulated:swivel_bearing" /><ItemIcon id="simulated:spring" /></ItemGrid>
+### 对接
 
-两个实体默认各自独立。黏液球能把任意两个模拟悬浮体合并，<ItemLink id="simulated:merging_glue" /> 则跨过两个实体之间的空隙涂胶。同一实体的断开部分会自行分离，飞行中粘合处被破坏时就是这样。
+<ItemGrid><ItemIcon id="simulated:docking_connector" /></ItemGrid>
+
+### 绳索与连接
+
+<ItemGrid><ItemIcon id="simulated:rope_winch" /><ItemIcon id="simulated:rope_connector" /><ItemIcon id="simulated:rope_coupling" /></ItemGrid>
+
+### 合并与活动连接
+
+<ItemGrid><ItemIcon id="minecraft:slime_ball" /><ItemIcon id="simulated:swivel_bearing" /><ItemIcon id="simulated:spring" /></ItemGrid>
+
+两个实体在合并前保持独立。使用 <ItemLink id="minecraft:slime_ball" /> 选择并合并模拟结构，潜行使用可清除选择。一个实体的连接被破坏后，断开的部分可以分离成独立实体。
 
 对接连接器把移动实体接到固定结构上。绳索部件用来拖曳和系留，万向轴承与弹簧则吸收两个实体之间的相对运动，不让这股力直接传进骨架。
 

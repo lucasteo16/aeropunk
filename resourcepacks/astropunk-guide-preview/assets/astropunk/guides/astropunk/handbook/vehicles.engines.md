@@ -8,15 +8,27 @@ navigation:
 
 # Engines
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Propulsion+AeroEngine+engines+fuel+thrust+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Propulsion+AeroEngine+%E5%8F%91%E5%8A%A8%E6%9C%BA+%E7%87%83%E6%96%99+%E6%8E%A8%E5%8A%9B+%E6%95%99%E7%A8%8B)
+
 ## Propulsion families
 
-<EmiSearch query="@aeroengineering" /> <EmiSearch query="@rocketnautics" /> <EmiSearch query="@createpropulsion" /> <EmiSearch query="@create" />
+<EmiSearch query="@aeroengineering" /> <EmiSearch query="@create" />
 
 ![An aircraft engine workshop](images/visual-engine-workshop.png)
 
 An aircraft engine workshop
 
-<ItemGrid><ItemIcon id="createpropulsion:thruster" /><ItemIcon id="createpropulsion:vector_thruster" /><ItemIcon id="createpropulsion:solid_fuel_thruster" /><ItemIcon id="createpropulsion:ion_thruster" /><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="aeronautics:propeller_bearing" /></ItemGrid>
+### Create Propulsion
+
+<EmiSearch query="@createpropulsion" />
+
+<ItemGrid><ItemIcon id="createpropulsion:thruster" /><ItemIcon id="createpropulsion:vector_thruster" /><ItemIcon id="createpropulsion:solid_fuel_thruster" /><ItemIcon id="createpropulsion:ion_thruster" /></ItemGrid>
+
+### Turbine, rocket and propeller
+
+<EmiSearch query="@rocketnautics" />
+
+<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="rocketnautics:rocket_thruster" /><ItemIcon id="aeronautics:propeller_bearing" /></ItemGrid>
 
 This pack has four ways to push a body, and they are not interchangeable. Pick the family, then follow that family's own help.
 
@@ -41,7 +53,13 @@ A <ItemLink id="createpropulsion:stirling_engine" /> is the other direction. Hea
 
 ## Turbine core
 
-<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_compressor" /><ItemIcon id="aeroengineering:engine_combustor" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="aeroengineering:engine_exhaust_cone" /><ItemIcon id="aeroengineering:aviation_kerosene_bucket" /><ItemIcon id="aeroengineering:aviation_alloy_ingot" /><ItemIcon id="aeroengineering:aviation_alloy_sheet" /><ItemIcon id="aeroengineering:aviation_blade" /><ItemIcon id="aeroengineering:compressor_component" /><ItemIcon id="aeroengineering:turbine_component" /></ItemGrid>
+### Engine sections
+
+<ItemGrid><ItemIcon id="aeroengineering:engine_fan" /><ItemIcon id="aeroengineering:engine_compressor" /><ItemIcon id="aeroengineering:engine_combustor" /><ItemIcon id="aeroengineering:engine_turbine" /><ItemIcon id="aeroengineering:engine_exhaust_cone" /></ItemGrid>
+
+### Fuel and manufacturing parts
+
+<ItemGrid><ItemIcon id="aeroengineering:aviation_kerosene_bucket" /><ItemIcon id="aeroengineering:aviation_alloy_ingot" /><ItemIcon id="aeroengineering:aviation_alloy_sheet" /><ItemIcon id="aeroengineering:aviation_blade" /><ItemIcon id="aeroengineering:compressor_component" /><ItemIcon id="aeroengineering:turbine_component" /></ItemGrid>
 
 The AeroEngine core stacks in one order, fan, compressor, combustor, turbine, exhaust cone. Build the core, then add the casing, nozzle, fuel feed and gearbox that the engine's own Ponder shows. A core without a fuel feed spins nothing.
 
@@ -65,7 +83,7 @@ The bucket icons stand for the fluid. Nothing here asks you to insert a bucket. 
 
 <ItemGrid><ItemIcon id="aeronautics:propeller_bearing" /><ItemIcon id="aeronautics:wooden_propeller" /><ItemIcon id="aeronautics:andesite_propeller" /><ItemIcon id="aeronautics:smart_propeller" /></ItemGrid>
 
-The pack config scales thrust per part, not per family. Propeller bearings produce 0.2 of the reference thrust, while wooden, andesite and smart propellers each sit at 1.0. That is why one large propeller beats several small bearings, and why a bearing with only two sail blocks moves a light hull and stalls a heavy one.
+The pack applies separate multipliers to each component: the propeller bearing is 0.2, while wooden, andesite and smart propellers are 1.0. These multiply each component's own baseline. they are not comparable thrust ratings. Judge a design by a loaded movement test, available power and handling rather than assuming one large propeller beats several bearings.
 
 
 ***

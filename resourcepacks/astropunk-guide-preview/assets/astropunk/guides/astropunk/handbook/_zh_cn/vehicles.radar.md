@@ -8,15 +8,17 @@ navigation:
 
 # 读取雷达信息
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Radars+radar+bearing+monitor+network+data+link+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Radars+%E9%9B%B7%E8%BE%BE+%E7%9B%91%E8%A7%86%E5%99%A8+%E7%BD%91%E7%BB%9C%E6%8E%A7%E5%88%B6%E5%99%A8+%E6%95%B0%E6%8D%AE%E9%93%BE+%E6%95%99%E7%A8%8B)
+
 ## 探测链
 
-<EmiSearch query="@create_radar" />
+<EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
 
 ![雷达天线组件](images/feedback-radar-dish.png)
 
 雷达天线组件
 
-<ItemGrid><ItemIcon id="create_radar:radar_bearing" /><ItemIcon id="create_radar:radar_receiver_block" /><ItemIcon id="create_radar:radar_dish_block" /><ItemIcon id="create_radar:radar_plate_block" /><ItemIcon id="create_radar:monitor" /><ItemIcon id="create_radar:data_link" /><ItemIcon id="create_radar:plane_radar" /></ItemGrid>
+<ItemGrid><ItemIcon id="create_radar:radar_bearing" /><ItemIcon id="create_radar:radar_receiver_block" /><ItemIcon id="create_radar:radar_dish_block" /><ItemIcon id="create_radar:radar_plate_block" /><ItemIcon id="create_radar:monitor" /><ItemIcon id="create_radar:data_link" /></ItemGrid>
 
 一部雷达由轴承、接收器、天线阵和显示器组成，按这个顺序连接。
 
@@ -30,7 +32,15 @@ navigation:
 
 ## 网络与过滤器
 
-<ItemGrid><ItemIcon id="create_radar:network_filterer" /><ItemIcon id="create_radar:radar_filter_item" /><ItemIcon id="create_radar:target_filter_item" /><ItemIcon id="create_radar:ident_filter_item" /><ItemIcon id="create_radar:identification_transponder" /><ItemIcon id="create_radar:radar_safe_zone_designator" /><ItemIcon id="create_radar:radar_warning_receiver" /></ItemGrid>
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Radars+network+controller+filters+data+link+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Radars+%E7%BD%91%E7%BB%9C%E6%8E%A7%E5%88%B6%E5%99%A8+%E8%BF%87%E6%BB%A4%E5%99%A8+%E6%95%B0%E6%8D%AE%E9%93%BE+%E6%95%99%E7%A8%8B)
+
+### 网络过滤
+
+<ItemGrid><ItemIcon id="create_radar:network_filterer" /><ItemIcon id="create_radar:radar_filter_item" /><ItemIcon id="create_radar:target_filter_item" /><ItemIcon id="create_radar:ident_filter_item" /></ItemGrid>
+
+### 识别与警报
+
+<ItemGrid><ItemIcon id="create_radar:identification_transponder" /><ItemIcon id="create_radar:radar_safe_zone_designator" /><ItemIcon id="create_radar:radar_warning_receiver" /></ItemGrid>
 
 <ItemLink id="create_radar:network_filterer" /> 是雷达网络的中心。它接受过滤器，用来限制网络能看见什么、能做什么，并像单部雷达一样连到显示器。
 
@@ -56,7 +66,7 @@ navigation:
 
 <EmiSearch query="@aeroengineering" />
 
-<ItemGrid><ItemIcon id="aeroengineering:airborne_radar" /><ItemIcon id="create_radar:binoculars" /></ItemGrid>
+<ItemGrid><ItemIcon id="aeroengineering:airborne_radar" /><ItemIcon id="create_radar:binoculars" /><ItemIcon id="create_radar:plane_radar" /></ItemGrid>
 
 AeroEngine 的 <ItemLink id="aeroengineering:airborne_radar" /> 是另一套仪表。它切换目标、确认锁定并向导弹发送发射频率，所以它与飞机自己的武器配套，而不是接入地面雷达网络。<ItemLink id="create_radar:binoculars" /> 用来在画面含糊时用肉眼确认目标。
 

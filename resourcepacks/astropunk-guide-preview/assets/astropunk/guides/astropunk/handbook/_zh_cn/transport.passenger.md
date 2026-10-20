@@ -8,6 +8,8 @@ navigation:
 
 # 乘坐列车出行
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+train+passenger+schedule+conductor+railway+navigator+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+%E5%88%97%E8%BD%A6+%E4%B9%98%E5%AE%A2+%E6%97%B6%E5%88%BB%E8%A1%A8+%E9%93%81%E8%B7%AF%E5%AF%BC%E8%88%AA+%E6%95%99%E7%A8%8B)
+
 ## 线路查询
 
 <EmiSearch query="@createrailwaysnavigator" /> <EmiSearch query="@create" />
@@ -16,7 +18,7 @@ navigation:
 
 装有 Bells & Whistles 配件的列车车体
 
-<ItemGrid><ItemIcon id="createrailwaysnavigator:navigator" /><ItemIcon id="createrailwaysnavigator:train_station_clock" /><ItemIcon id="create:track_station" /><ItemIcon id="create:wrench" /></ItemGrid>
+<ItemGrid><ItemIcon id="createrailwaysnavigator:navigator" /><ItemIcon id="createrailwaysnavigator:train_station_clock" /><ItemIcon id="create:track_station" /></ItemGrid>
 
 <ItemLink id="createrailwaysnavigator:navigator" /> 查询已经存在的铁路网络。它不铺轨，也不运送你。打开后选择出发站与目的站，它会列出车次、换乘站以及每一段上列车的实时位置。
 
@@ -26,7 +28,13 @@ navigation:
 
 ## 乘客显示屏
 
-<ItemGrid><ItemIcon id="createrailwaysnavigator:advanced_display" /><ItemIcon id="createrailwaysnavigator:advanced_display_block" /><ItemIcon id="createrailwaysnavigator:advanced_display_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_half_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_slab" /><ItemIcon id="createrailwaysnavigator:advanced_display_sloped" /><ItemIcon id="createrailwaysnavigator:advanced_display_small" /></ItemGrid>
+### 显示外形
+
+<ItemGrid><ItemIcon id="createrailwaysnavigator:advanced_display" /><ItemIcon id="createrailwaysnavigator:advanced_display_block" /><ItemIcon id="createrailwaysnavigator:advanced_display_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_half_panel" /><ItemIcon id="createrailwaysnavigator:advanced_display_slab" /><ItemIcon id="createrailwaysnavigator:advanced_display_sloped" /></ItemGrid>
+
+### 紧凑显示与配置
+
+<ItemGrid><ItemIcon id="createrailwaysnavigator:advanced_display_small" /><ItemIcon id="create:wrench" /></ItemGrid>
 
 显示屏家族是同一块屏幕的多种形状，可装到墙面、台阶、斜面或小立柱上。
 

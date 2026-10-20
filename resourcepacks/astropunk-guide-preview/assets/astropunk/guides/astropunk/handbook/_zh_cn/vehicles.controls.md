@@ -8,15 +8,29 @@ navigation:
 
 # 控制与稳定载具
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeroworks+control+desk+servo+module+joystick+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeroworks+%E6%93%8D%E7%BA%B5%E5%8F%B0+%E4%BC%BA%E6%9C%8D+%E6%A8%A1%E5%9D%97+%E6%91%87%E6%9D%86+%E6%95%99%E7%A8%8B)
+
 ## 控制台与模块
 
-<EmiSearch query="@aeroworks" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 ![装有 Aeroworks 控制模块的驾驶舱](images/visual-cockpit-controls.png)
 
 装有 Aeroworks 控制模块的驾驶舱
 
-<ItemGrid><ItemIcon id="aeroworks:control_desk" /><ItemIcon id="aeroworks:joystick_module" /><ItemIcon id="aeroworks:throttle_quadrant_module" /><ItemIcon id="aeroworks:wheel_module" /><ItemIcon id="aeroworks:lever_module" /><ItemIcon id="aeroworks:pedal_module" /><ItemIcon id="aeroworks:button_panel_module" /><ItemIcon id="create:redstone_link" /><ItemIcon id="create:wrench" /></ItemGrid>
+### 操纵台
+
+<EmiSearch query="@aeroworks" />
+
+<ItemGrid><ItemIcon id="aeroworks:control_desk" /></ItemGrid>
+
+### 输入模块
+
+<ItemGrid><ItemIcon id="aeroworks:joystick_module" /><ItemIcon id="aeroworks:throttle_quadrant_module" /><ItemIcon id="aeroworks:wheel_module" /><ItemIcon id="aeroworks:lever_module" /><ItemIcon id="aeroworks:pedal_module" /><ItemIcon id="aeroworks:button_panel_module" /></ItemGrid>
+
+### 连接与配置
+
+<ItemGrid><ItemIcon id="create:redstone_link" /><ItemIcon id="create:wrench" /></ItemGrid>
 
 <ItemLink id="aeroworks:control_desk" /> 是一块插槽板。手持模块右键插槽即可装上，用扳手可以取下。取下的模块保留设置，调好的摇杆可以直接换到另一艘船上。
 
@@ -27,6 +41,8 @@ navigation:
 相邻的控制台会组成一个操控台组。同一时间只有一名玩家能控制一个操控台组，隔开摆放的控制台则是独立工位。驾驶座和节流工位并排时因此像同一个驾驶舱一样工作。
 
 ## 伺服机构
+
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeroworks+servo+motor+module+control+desk+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeroworks+%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA+%E6%A8%A1%E5%9D%97+%E6%93%8D%E7%BA%B5%E5%8F%B0+%E6%95%99%E7%A8%8B)
 
 <ItemGrid><ItemIcon id="aeroworks:mechanical_servo" /><ItemIcon id="aeroworks:stepper_servo" /><ItemIcon id="aeroworks:gyroscope" /></ItemGrid>
 
@@ -41,9 +57,19 @@ navigation:
 
 ## 传感器与接收器
 
+### 直接驾驶输入
+
+<ItemGrid><ItemIcon id="simulated:steering_wheel" /><ItemIcon id="simulated:throttle_lever" /></ItemGrid>
+
+### 飞行测量
+
+<ItemGrid><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="simulated:gimbal_sensor" /></ItemGrid>
+
+### 检测与无线信号
+
 <EmiSearch query="@create_tweaked_controllers" />
 
-<ItemGrid><ItemIcon id="simulated:steering_wheel" /><ItemIcon id="simulated:throttle_lever" /><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="simulated:gimbal_sensor" /><ItemIcon id="simulated:directional_linked_receiver" /><ItemIcon id="simulated:optical_sensor" /><ItemIcon id="simulated:laser_sensor" /><ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" /><ItemIcon id="simulated:modulating_linked_receiver" /></ItemGrid>
+<ItemGrid><ItemIcon id="simulated:directional_linked_receiver" /><ItemIcon id="simulated:optical_sensor" /><ItemIcon id="simulated:laser_sensor" /><ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" /><ItemIcon id="simulated:modulating_linked_receiver" /></ItemGrid>
 
 手动输入是你去转的方块，传感器是替你读数的方块。
 

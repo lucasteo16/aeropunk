@@ -8,15 +8,29 @@ navigation:
 
 # Vehicle controls
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeroworks+control+desk+servo+module+joystick+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeroworks+%E6%93%8D%E7%BA%B5%E5%8F%B0+%E4%BC%BA%E6%9C%8D+%E6%A8%A1%E5%9D%97+%E6%91%87%E6%9D%86+%E6%95%99%E7%A8%8B)
+
 ## Console and modules
 
-<EmiSearch query="@aeroworks" /> <EmiSearch query="@create" />
+<EmiSearch query="@create" />
 
 ![A cockpit with Aeroworks control modules](images/visual-cockpit-controls.png)
 
 A cockpit with Aeroworks control modules
 
-<ItemGrid><ItemIcon id="aeroworks:control_desk" /><ItemIcon id="aeroworks:joystick_module" /><ItemIcon id="aeroworks:throttle_quadrant_module" /><ItemIcon id="aeroworks:wheel_module" /><ItemIcon id="aeroworks:lever_module" /><ItemIcon id="aeroworks:pedal_module" /><ItemIcon id="aeroworks:button_panel_module" /><ItemIcon id="create:redstone_link" /><ItemIcon id="create:wrench" /></ItemGrid>
+### Desk
+
+<EmiSearch query="@aeroworks" />
+
+<ItemGrid><ItemIcon id="aeroworks:control_desk" /></ItemGrid>
+
+### Input modules
+
+<ItemGrid><ItemIcon id="aeroworks:joystick_module" /><ItemIcon id="aeroworks:throttle_quadrant_module" /><ItemIcon id="aeroworks:wheel_module" /><ItemIcon id="aeroworks:lever_module" /><ItemIcon id="aeroworks:pedal_module" /><ItemIcon id="aeroworks:button_panel_module" /></ItemGrid>
+
+### Linking and configuration
+
+<ItemGrid><ItemIcon id="create:redstone_link" /><ItemIcon id="create:wrench" /></ItemGrid>
 
 A <ItemLink id="aeroworks:control_desk" /> is a socket board. Right-click a socket with a module to mount it, and use a wrench to pull it back out. Removed modules keep their settings, so you can move a tuned joystick to a second ship.
 
@@ -27,6 +41,8 @@ Right-click the desk with an empty hand to take control. Your keyboard and mouse
 Touching consoles form one deck. One player controls a deck at a time, and consoles placed apart stay separate stations. That is how a pilot seat and a throttle station on the same bridge behave as one cockpit.
 
 ## Servos
+
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Aeroworks+servo+motor+module+control+desk+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Aeroworks+%E4%BC%BA%E6%9C%8D%E7%94%B5%E6%9C%BA+%E6%A8%A1%E5%9D%97+%E6%93%8D%E7%BA%B5%E5%8F%B0+%E6%95%99%E7%A8%8B)
 
 <ItemGrid><ItemIcon id="aeroworks:mechanical_servo" /><ItemIcon id="aeroworks:stepper_servo" /><ItemIcon id="aeroworks:gyroscope" /></ItemGrid>
 
@@ -41,9 +57,19 @@ Both finish the current rotation before answering a new signal, so a fast input 
 
 ## Sensors and receivers
 
+### Direct pilot input
+
+<ItemGrid><ItemIcon id="simulated:steering_wheel" /><ItemIcon id="simulated:throttle_lever" /></ItemGrid>
+
+### Flight measurements
+
+<ItemGrid><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="simulated:gimbal_sensor" /></ItemGrid>
+
+### Detection and linked signals
+
 <EmiSearch query="@create_tweaked_controllers" />
 
-<ItemGrid><ItemIcon id="simulated:steering_wheel" /><ItemIcon id="simulated:throttle_lever" /><ItemIcon id="simulated:altitude_sensor" /><ItemIcon id="simulated:velocity_sensor" /><ItemIcon id="simulated:gimbal_sensor" /><ItemIcon id="simulated:directional_linked_receiver" /><ItemIcon id="simulated:optical_sensor" /><ItemIcon id="simulated:laser_sensor" /><ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" /><ItemIcon id="simulated:modulating_linked_receiver" /></ItemGrid>
+<ItemGrid><ItemIcon id="simulated:directional_linked_receiver" /><ItemIcon id="simulated:optical_sensor" /><ItemIcon id="simulated:laser_sensor" /><ItemIcon id="create_tweaked_controllers:tweaked_linked_controller" /><ItemIcon id="simulated:modulating_linked_receiver" /></ItemGrid>
 
 A manual input is a block you turn. A sensor is a block that reports.
 

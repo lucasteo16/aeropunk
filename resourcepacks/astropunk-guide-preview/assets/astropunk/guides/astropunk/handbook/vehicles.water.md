@@ -8,9 +8,11 @@ navigation:
 
 # Boats & submarines
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Deep+Seas+3+submarine+ballast+oxygen+diffuser+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Deep+Seas+%E6%BD%9C%E8%89%87+%E5%8E%8B%E8%BD%BD+%E6%B0%A7%E6%B0%94%E6%89%A9%E6%95%A3%E5%99%A8+%E6%95%99%E7%A8%8B)
+
 ## Hull
 
-<EmiSearch query="@create_submarine" /> <EmiSearch query="@starcatcher" />
+<EmiSearch query="@create" />
 
 ![Deep Seas copper submarine](images/building-travel-submarine.png)
 
@@ -18,7 +20,25 @@ Deep Seas copper submarine.
 
 A submarine is a sealed hull built as a Simulated Contraption, then fitted with ballast, propulsion and air. Assemble it as described in [Assembly](vehicles.assembly.md). The hull decides how deep you can go, so fit the pressure glass before the first dive rather than after it.
 
-<ItemGrid><ItemIcon id="create_submarine:floater" /><ItemIcon id="create_submarine:ballast_tank" /><ItemIcon id="create_submarine:ballast_vent" /><ItemIcon id="create_submarine:water_thruster" /><ItemIcon id="create_submarine:submarine_propeller" /><ItemIcon id="create_submarine:rudder" /><ItemIcon id="create_submarine:arresting_hook" /><ItemIcon id="create_submarine:decompression_chamber" /><ItemIcon id="minecraft:oak_boat" /><ItemIcon id="starcatcher:oak_tackle_box_boat" /></ItemGrid>
+### Buoyancy and ballast
+
+<EmiSearch query="@create_submarine" />
+
+<ItemGrid><ItemIcon id="create_submarine:floater" /><ItemIcon id="create_submarine:ballast_tank" /><ItemIcon id="create_submarine:ballast_vent" /></ItemGrid>
+
+### Propulsion and steering
+
+<ItemGrid><ItemIcon id="create_submarine:water_thruster" /><ItemIcon id="create_submarine:submarine_propeller" /><ItemIcon id="create_high_seas:rudder" /></ItemGrid>
+
+### Deck and pressure equipment
+
+<ItemGrid><ItemIcon id="create_submarine:arresting_hook" /><ItemIcon id="create_submarine:decompression_chamber" /></ItemGrid>
+
+### Surface boats
+
+<EmiSearch query="@starcatcher" />
+
+<ItemGrid><ItemIcon id="minecraft:oak_boat" /><ItemIcon id="starcatcher:oak_tackle_box_boat" /></ItemGrid>
 
 A <ItemLink id="create_submarine:floater" /> keeps a surface boat up. It is a float, not a dive control.
 
@@ -43,15 +63,15 @@ The vent itself needs no rotation and no redstone. The pump is what moves the wa
 | --- | --- | --- |
 | <ItemLink id="create_submarine:water_thruster" /> | Water pressure and rotation | Thrust that rises with both |
 | <ItemLink id="create_submarine:submarine_propeller" /> | Rotation | Steady underwater drive |
-| <ItemLink id="create_submarine:rudder" /> | A steering input | Turns the hull |
+| <ItemLink id="create_high_seas:rudder" /> | A steering input | Turns the hull |
 
-<ItemLink id="create_submarine:water_thruster" /> burns pressurised water for thrust and needs a water supply and rotation. More pressure and more speed mean more thrust. The <ItemLink id="create_submarine:submarine_propeller" /> is the simpler drive and works underwater, not in air. The <ItemLink id="create_submarine:rudder" /> is the steering surface.
+<ItemLink id="create_submarine:water_thruster" /> burns pressurised water for thrust and needs a water supply and rotation. More pressure and more speed mean more thrust. The <ItemLink id="create_submarine:submarine_propeller" /> is the simpler drive and works underwater, not in air. The <ItemLink id="create_high_seas:rudder" /> is the steering surface.
 
 A surface boat can use a propeller as well, but a propeller in air pushes nothing.
 
 ## Air and pressure
 
-<EmiSearch query="@create" />
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Deep+Seas+oxygen+electrolyzer+shaft+diffuser+redstone+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Deep+Seas+%E6%B0%A7%E6%B0%94+%E7%94%B5%E8%A7%A3%E6%9C%BA+%E4%BC%A0%E5%8A%A8%E8%BD%B4+%E6%89%A9%E6%95%A3%E5%99%A8+%E7%BA%A2%E7%9F%B3+%E6%95%99%E7%A8%8B)
 
 <ItemGrid><ItemIcon id="create_submarine:electrolyzer" /><ItemIcon id="create_submarine:oxygene_diffuser" /><ItemIcon id="create_submarine:barometer" /><ItemIcon id="create_submarine:copper_pressurizer" /><ItemIcon id="create_submarine:iron_pressurizer" /><ItemIcon id="create_submarine:phycological_membrane" /></ItemGrid>
 
@@ -61,7 +81,7 @@ A surface boat can use a propeller as well, but a propeller in air pushes nothin
 | <ItemLink id="create_submarine:oxygene_diffuser" /> | Stored oxygen and a redstone signal | Breathable air in the sealed room |
 | <ItemLink id="create_submarine:barometer" /> | Nothing | Depth and hull pressure against the weakest block |
 
-The electrolyzer can run without an electricity network. Put a shaft in its module slot and it converts rotation into its own power, which is the route this pack expects on a Create ship. The diffuser consumes oxygen in proportion to the size of the submarine, so a large hull needs more than one, or a smaller sealed cabin.
+The selected release consumes 50 millibuckets of oxygen every twenty game ticks for the active diffuser owning that submarine. This is a fixed operating drain, not a volume-proportional budget. Supply the diffuser with oxygen and a redstone signal. A larger compartment still needs to be sealed, but adding more diffusers is not a substitute for fixing a breach. The electrolyzer accepts a shaft in its module slot to use rotational power. route its oxygen output to the diffuser.
 
 The barometer compares outside pressure with the weakest block in the hull. Read it before you descend further, and watch it after any hull repair. Copper and iron pressurised glass are windows that hold pressure, and a <ItemLink id="create_submarine:phycological_membrane" /> can be filled with air.
 
@@ -76,6 +96,7 @@ Steel cable and facing pulleys carry a sublevel along a fixed line, which suits 
 <Recipe id="create_submarine:electrolyzer" />
 
 ***
+
 
 ***
 

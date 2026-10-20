@@ -16,13 +16,15 @@ item_ids:
 
 # Space life support
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Cosmonautics+space+helmet+air+jetpack+oxygen+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Cosmonautics+%E5%A4%AA%E7%A9%BA%E5%A4%B4%E7%9B%94+%E7%A9%BA%E6%B0%94+%E5%96%B7%E6%B0%94%E8%83%8C%E5%8C%85+%E6%95%99%E7%A8%8B)
+
 ## Breathing kit
 
 <EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
 <ItemGrid><ItemIcon id="create:copper_diving_helmet" /><ItemIcon id="create:copper_backtank" /><ItemIcon id="rocketnautics:space_helmet" /><ItemIcon id="rocketnautics:jetpack" /><ItemIcon id="create:netherite_backtank" /></ItemGrid>
 
-Space in this pack has no breathable air above the atmosphere. Two pieces solve it, a sealed helmet and a pressurised air supply.
+Cosmonautics checks whether living entities can breathe in space and in its configured atmosphere bands. It uses Create diving equipment and stored air rather than a separate cabin-oxygen simulation. Equip a compatible helmet and charged air supply before launch. Cabin oxygen is supplied by the separate Deep Seas and Deep Air integration described below.
 
 | Piece | Slot | Supplies |
 | --- | --- | --- |
@@ -31,7 +33,7 @@ Space in this pack has no breathable air above the atmosphere. Two pieces solve 
 | <ItemLink id="rocketnautics:space_helmet" /> | Head | Breathing from a pressurised source, plus an orbital display |
 | <ItemLink id="rocketnautics:jetpack" /> | Chest | Pressurised air and personal thrust |
 
-A Copper Diving Helmet with a charged Copper Backtank is the cheapest working pair, and both have recipes. The Space Helmet has no crafting recipe in this pack, so treat it as found equipment rather than a step you can plan around.
+A Copper Diving Helmet and charged Copper Backtank are a craftable starting pair. The Space Helmet has no crafting recipe in this pack, so it is not required for this starting setup.
 
 <Recipe id="create:crafting/appliances/copper_diving_helmet" />
 
@@ -63,7 +65,7 @@ A ship can carry its own air. Build an intact sealed compartment inside the hull
 | <ItemLink id="create_submarine:oxygene_diffuser" /> | Oxygen in its tank and a redstone signal | Breathable air in the sealed room |
 | <ItemLink id="cosmonauticsdeepair:gravity_generator" /> | Forge Energy and a neighbouring redstone signal | Local gravity in the room |
 
-Deep Air restores breathing inside an oxygenated compartment while the ship is unbreached. It does not seal the hull and it does not make oxygen, so a breach ends the effect no matter how much oxygen is stored. The diffuser consumes oxygen in proportion to the compartment size, which is why a small cabin is easier to keep supplied than a whole deck.
+Deep Air restores breathing while the submarine compartment is supplied and sealed. it does not seal a breach or generate oxygen. The selected Deep Seas diffuser has a fixed operating drain, not a volume-proportional one. Follow [Underwater travel](vehicles.water.md) for the oxygen supply and diffuser controls. Keep personal breathing equipment for leaving the compartment.
 
 The gravity generator is a separate room function. It does not need a diffuser in the same room, but keep at least one room oxygenated so the compartment tracking stays valid.
 

@@ -8,23 +8,45 @@ navigation:
 
 # 使用固定与便携传送点
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+Waystones+Tempad+Stargate+Journey+Map+teleport+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+Waystones+Tempad+Stargate+%E4%BC%A0%E9%80%81+%E6%95%99%E7%A8%8B)
+
 ## 传送石网络
 
-<EmiSearch query="@waystones" />
+<EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
 
 ![山巅上的传送石](images/visual-mountaintop-waystone.png)
 
 山巅上的传送石
 
-<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:mossy_waystone" /><ItemIcon id="waystones:deepslate_waystone" /><ItemIcon id="waystones:blackstone_waystone" /><ItemIcon id="waystones:sandy_waystone" /><ItemIcon id="waystones:red_nether_bricks_waystone" /><ItemIcon id="waystones:end_stone_waystone" /><ItemIcon id="waystones:mud_bricks_waystone" /><ItemIcon id="waystones:prismarine_waystone" /><ItemIcon id="waystones:purpur_waystone" /></ItemGrid>
+### 传送石外形
+
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:mossy_waystone" /><ItemIcon id="waystones:deepslate_waystone" /><ItemIcon id="waystones:blackstone_waystone" /><ItemIcon id="waystones:sandy_waystone" /></ItemGrid>
+
+### 其他建筑材质
+
+<EmiSearch query="@create" />
+
+<ItemGrid><ItemIcon id="waystones:red_nether_bricks_waystone" /><ItemIcon id="waystones:end_stone_waystone" /><ItemIcon id="waystones:mud_bricks_waystone" /><ItemIcon id="waystones:prismarine_waystone" /><ItemIcon id="waystones:purpur_waystone" /></ItemGrid>
 
 <ItemLink id="waystones:waystone" /> 只有在你使用过一次之后才成为目的地。第一次使用会激活它并加入你的列表。未激活的石头不会出现在传送界面，这也是明明看得见的基地却不在列表里的常见原因。
 
 材质只是外观。苔石、深板岩、黑石、砂岩、下界砖或末地石传送石与普通传送石行为相同。确认之前先看界面上的经验消耗与冷却，不要一路点过去。
 
+本包使用 <ItemLink id="create:mechanical_crafter" /> 动力合成 <ItemLink id="waystones:warp_stone" /> 与 <ItemLink id="waystones:waystone" />。本手册不支持显示这些动力合成配方，请在物品浏览器中查看实际配方与材料变体。
+
 ## 随身与共享传送
 
-<ItemGrid><ItemIcon id="waystones:warp_stone" /><ItemIcon id="waystones:blank_scroll" /><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:white_portstone" /><ItemIcon id="waystones:warp_plate" /><ItemIcon id="waystones:dormant_shard" /><ItemIcon id="waystones:attuned_shard" /></ItemGrid>
+### 便携传送
+
+<ItemGrid><ItemIcon id="waystones:warp_stone" /><ItemIcon id="waystones:blank_scroll" /></ItemGrid>
+
+### 共享与本地端点
+
+<ItemGrid><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:white_portstone" /><ItemIcon id="waystones:warp_plate" /></ItemGrid>
+
+### 传送板调谐
+
+<ItemGrid><ItemIcon id="waystones:dormant_shard" /><ItemIcon id="waystones:attuned_shard" /></ItemGrid>
 
 | 物品 | 范围 | 用法 |
 | --- | --- | --- |
@@ -40,21 +62,27 @@ navigation:
 
 ## Tempad
 
-<EmiSearch query="@tempad" />
-
 ![Tempad 传送设备](images/feedback-tempad.png)
 
 Tempad 传送设备
 
-<ItemGrid><ItemIcon id="tempad:tempad" /><ItemIcon id="tempad:location_card" /><ItemIcon id="tempad:timedoor_projector" /><ItemIcon id="tempad:workstation" /><ItemIcon id="tempad:chronon_generator" /><ItemIcon id="tempad:chronon_cell" /><ItemIcon id="tempad:card_wallet" /><ItemIcon id="tempad:chronometer" /><ItemIcon id="tempad:chronon_battery" /><ItemIcon id="tempad:location_broadcaster" /><ItemIcon id="tempad:timedoor_marker" /></ItemGrid>
+### 目的地工具
+
+<ItemGrid><ItemIcon id="tempad:tempad" /><ItemIcon id="tempad:location_card" /><ItemIcon id="tempad:timedoor_projector" /><ItemIcon id="tempad:workstation" /></ItemGrid>
+
+### 时素生产与储存
+
+<ItemGrid><ItemIcon id="tempad:chronon_generator" /><ItemIcon id="tempad:chronon_cell" /></ItemGrid>
+
+### 卡片、监测与端点
+
+<ItemGrid><ItemIcon id="tempad:card_wallet" /><ItemIcon id="tempad:chronometer" /><ItemIcon id="tempad:chronon_battery" /><ItemIcon id="tempad:location_broadcaster" /><ItemIcon id="tempad:timedoor_marker" /></ItemGrid>
 
 <ItemLink id="tempad:tempad" /> 保存 <ItemLink id="tempad:location_card" /> 条目，并通过 <ItemLink id="tempad:timedoor_projector" /> 打开通往其中一处的门。它是坐标系统，不是网络。保存的位置是固定点，不会跟随移动的船，也不知道目的地是否仍然安全。
 
 能量来自时间粒子设备。<ItemLink id="tempad:chronon_generator" /> 配 <ItemLink id="tempad:chronon_cell" /> 是固定供电，<ItemLink id="tempad:workstation" /> 用来制作卡片与设备。穿门之前先在 Tempad 界面确认卡片。
 
 ## 移动目的地
-
-<EmiSearch query="@create" />
 
 <ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="simulated:physics_assembler" /></ItemGrid>
 
@@ -64,7 +92,7 @@ Create: AeroWarptics 在同一维度内迁移已组装的船。两者都不是�
 
 ## 如何选择
 
-<ItemGrid><ItemIcon id="minecraft:obsidian" /></ItemGrid>
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:warp_plate" /><ItemIcon id="tempad:tempad" /></ItemGrid>
 
 | 需求 | 使用 |
 | --- | --- |
@@ -75,6 +103,7 @@ Create: AeroWarptics 在同一维度内迁移已组装的船。两者都不是�
 | 随船移动的目的地 | Waystones: Sable |
 
 ***
+
 
 ***
 

@@ -35,8 +35,30 @@ def refurbished_topics():
     return {topic for batch in batches.values() for topic in batch['topics']}
 
 
+def before_transport_finalization(content):
+    """Restore Transport only after its exact whole-source contract matches."""
+    path = ROOT / 'docs/transport-final-review.json'
+    if not path.exists():
+        return dict(content)
+    revision = json.loads(path.read_text())
+    actual = topic_digest(content)
+    if actual != revision['source_sha256']['after']:
+        # Earlier historical callers are checked by their own exact contracts.
+        return dict(content)
+    commit = revision['development_base']
+    assert len(commit) == 40 and all(c in '0123456789abcdef' for c in commit)
+    before = json.loads(subprocess.check_output([
+        'git', 'show', commit + ':docs/handbook-content.json'
+    ], cwd=ROOT, text=True))
+    assert topic_digest(before) == revision['source_sha256']['before']
+    assert set(before) == set(content)
+    assert {t for t in before if before[t] != content[t]} <= set(revision['topics'])
+    return before
+
+
 def before_machines_finalization(content):
     """Validate the exact scoped Machines revision before restoring its base."""
+    content = before_transport_finalization(content)
     path = ROOT / 'docs/machines-storage-revision-contract.json'
     if not path.exists():
         return dict(content)

@@ -8,27 +8,29 @@ navigation:
 
 # 建造列车、轨道与车站
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+train+assembly+station+seated+conductor+schedule+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+%E5%88%97%E8%BD%A6+%E7%BB%84%E8%A3%85+%E8%BD%A6%E7%AB%99+%E4%B9%98%E5%8A%A1%E5%91%98+%E6%97%B6%E5%88%BB%E8%A1%A8+%E6%95%99%E7%A8%8B)
+
 ## 线路、车站与时刻表
 
 <EmiSearch query="@create" />
 
 ![装有 Bells & Whistles 配件的列车车体](images/visual-train-fittings.png)
 
-装有 Bells & Whistles 配件的列车车体
-
 <ItemGrid><ItemIcon id="create:track" /><ItemIcon id="create:track_station" /><ItemIcon id="create:controls" /><ItemIcon id="create:schedule" /><ItemIcon id="create:railway_casing" /></ItemGrid>
-
-Create 列车按顺序需要三样东西。连续的 <ItemLink id="create:track" /> 线路，线路上的一座 <ItemLink id="create:track_station" />，以及要驾驶的车体内部的一块 <ItemLink id="create:controls" />。
-
-先铺轨，并确认两端接上。一格缺口就足以让列车停下，弯道上的轨道还需要轮架能跟得上的半径。
-
-然后把车厢当作普通方块结构造好，把列车控制装在里面。把车站放在轨道旁，命名，再通过车站组装列车。车站才是把方块变成列车的装置，附近没有车站的车厢只是建筑。
-
-<ItemLink id="create:schedule" /> 是时刻表。放进列车，按想要的顺序加入车站并设置条件。没有时刻表的列车只跑一趟就停。
 
 <Recipe id="create:crafting/kinetics/track_station" />
 
 <Recipe id="create:crafting/kinetics/controls" />
+
+一列可用的列车需要连续的 <ItemLink id="create:track" />、<ItemLink id="create:track_station" />，以及朝向行进方向的 <ItemLink id="create:controls" />。先用一条短线连接两座已命名车站，验证整段路线再扩建。
+
+1. 将车站放在轨道旁，进入车站的组装模式。这与组装 Sable 飞船不同。
+2. 在高亮轨道上放置 <ItemLink id="create:railway_casing" /> 生成转向架，在其上搭建车厢，用胶连接每节车厢的结构，并在驾驶位安装控制器。
+3. 在车站界面中组装。若被拒绝，先读错误消息，再检查转向架位置与车厢连接。
+4. 手动驾驶这段短线，确认轨道连续，两端都有停车空间。
+5. 自动运行需要坐在控制器前方的乘务员。对乘务员使用已填写的 <ItemLink id="create:schedule" />，为各站添加目的地名称与等待条件，例如定时等待或货物条件，并设置是否循环。
+
+时刻表交给乘务员，不是放进列车里某个未说明的槽。手动驾驶不需要时刻表。自动列车一直等待时，先检查当前等待条件、目的地名称和前方信号，再考虑动力问题。
 
 ## 轨道家族
 
@@ -42,16 +44,9 @@ Create 提供标准轨道以及配套的车站与控制。Steam 'n' Rails 扩展
 
 <ItemGrid><ItemIcon id="create:railway_casing" /></ItemGrid>
 
-Blocks & Bogies 增加的是转向架定制界面，而不是另一套转向架物品。右键已放置的转向架打开界面，先选驱动或承载角色，再选菜单提供的轴数、尺寸与长度。气门机构样式是同一界面里的进一步选择，菜单也可以切到 Steam 'n' Rails 的样式。
+Blocks & Bogies 提供转向架定制界面，而不是另一套独立物品。对已放置的转向架打开界面，预览轮组、框架尺寸与气门机构样式。菜单中的驱动与承载分类描述所选造型，不代表每列车必须安装一个动力转向架，也不要求按车厢重量计算轴数。
 
-| 选项 | 改变 | 保持一致 |
-| --- | --- | --- |
-| 角色 | 转向架驱动还是承载 | 每列车一个驱动转向架 |
-| 轴数 | 接触轨道的轮数 | 与车厢重量匹配 |
-| 尺寸与长度 | 车轮与框架占地 | 与弯道半径匹配 |
-| 气门机构 | 可见运动 | 仅影响外观 |
-
-并非所有组合都能互换。长转向架在急弯上会脱轨，短转向架则能通过，所以要在全线最急的弯道上测试组合。
+按车厢造型选择样式，先在短弯道上检查外观，再应用到整列车。轨距兼容性取决于轨道与转向架的组合，不要把装饰轮组的长度当成会导致物理脱轨的规则。
 
 ## 货运与客运
 

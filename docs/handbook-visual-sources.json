@@ -1,4 +1,34 @@
 {
+  "transport:space-transfer-en_us": {
+    "resource": "images/transport-space-transfer-en_us.png",
+    "source_url": null,
+    "publisher": "Astropunk",
+    "kind": "original deterministic single-language height schematic, not a game capture",
+    "rights": "Original project schematic; no third-party artwork",
+    "dimensions": [
+      1200,
+      660
+    ],
+    "derived_sha256": "697684ee68d2672b28ab8c4ed19848b09033ff8947ca642e39eacedb2c399cfa",
+    "evidence": "docs/transport-guide-review.md",
+    "locale": "en_us",
+    "minimum_text_rule_gap_pixels": 16
+  },
+  "transport:space-transfer-zh_cn": {
+    "resource": "images/transport-space-transfer-zh_cn.png",
+    "source_url": null,
+    "publisher": "Astropunk",
+    "kind": "original deterministic single-language height schematic, not a game capture",
+    "rights": "Original project schematic; no third-party artwork",
+    "dimensions": [
+      1200,
+      660
+    ],
+    "derived_sha256": "8c26093ff72f0fd233fb3e85f299bb48fd68925783feeb8d77f86fb15bd38554",
+    "evidence": "docs/transport-guide-review.md",
+    "locale": "zh_cn",
+    "minimum_text_rule_gap_pixels": 16
+  },
   "machines:molten-vent-dormant": {
     "resource": "images/molten-vent-dormant.png",
     "source_url": "https://cdn.modrinth.com/data/uuVy6k1s/images/17fb1569eb2dffd5a84388fa2e27551a8b9021c3.webp",

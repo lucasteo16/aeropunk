@@ -8,9 +8,11 @@ navigation:
 
 # Radar
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Radars+radar+bearing+monitor+network+data+link+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Radars+%E9%9B%B7%E8%BE%BE+%E7%9B%91%E8%A7%86%E5%99%A8+%E7%BD%91%E7%BB%9C%E6%8E%A7%E5%88%B6%E5%99%A8+%E6%95%B0%E6%8D%AE%E9%93%BE+%E6%95%99%E7%A8%8B)
+
 ## Detection chain
 
-<EmiSearch query="@create_radar" />
+<EmiSearch query="@create_radar" /> <EmiSearch query="@create" />
 
 ![Radar antenna assemblies](images/feedback-radar-dish.png)
 
@@ -30,7 +32,15 @@ A sweeping bearing alone detects nothing. An array with no receiver reports noth
 
 ## Network and filters
 
-<ItemGrid><ItemIcon id="create_radar:network_filterer" /><ItemIcon id="create_radar:radar_filter_item" /><ItemIcon id="create_radar:target_filter_item" /><ItemIcon id="create_radar:ident_filter_item" /><ItemIcon id="create_radar:identification_transponder" /><ItemIcon id="create_radar:radar_safe_zone_designator" /><ItemIcon id="create_radar:radar_warning_receiver" /></ItemGrid>
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Radars+network+controller+filters+data+link+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Radars+%E7%BD%91%E7%BB%9C%E6%8E%A7%E5%88%B6%E5%99%A8+%E8%BF%87%E6%BB%A4%E5%99%A8+%E6%95%B0%E6%8D%AE%E9%93%BE+%E6%95%99%E7%A8%8B)
+
+### Network filtering
+
+<ItemGrid><ItemIcon id="create_radar:network_filterer" /><ItemIcon id="create_radar:radar_filter_item" /><ItemIcon id="create_radar:target_filter_item" /><ItemIcon id="create_radar:ident_filter_item" /></ItemGrid>
+
+### Identification and warnings
+
+<ItemGrid><ItemIcon id="create_radar:identification_transponder" /><ItemIcon id="create_radar:radar_safe_zone_designator" /><ItemIcon id="create_radar:radar_warning_receiver" /></ItemGrid>
 
 The <ItemLink id="create_radar:network_filterer" /> is the centre of a radar network. It accepts filters that limit what the network can see and do, and it links to monitors in the same way a single radar does.
 

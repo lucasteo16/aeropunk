@@ -11,9 +11,11 @@ item_ids:
 
 # Space navigation
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Cosmonautics+hologram+Earth+Moon+navigation+tutorial) · [中文](https://www.youtube.com/results?search_query=Create+Cosmonautics+%E5%85%A8%E6%81%AF%E5%9B%BE+%E5%9C%B0%E7%90%83+%E6%9C%88%E7%90%83+%E5%AF%BC%E8%88%AA+%E6%95%99%E7%A8%8B)
+
 ## Planetary display
 
-<EmiSearch query="@rocketnautics" />
+<EmiSearch query="@rocketnautics" /> <EmiSearch query="@create" />
 
 ![Hologram planetary display](images/cosmo-hologram.png)
 
@@ -31,15 +33,16 @@ What the pack actually uses is the transfer height. The Overworld and the Moon b
 
 <Recipe id="rocketnautics:hologram_block" />
 
-The system data in this pack gives each body a surface acceleration. The Overworld is 11.0 and the Moon is 2.0, so a lander tuned for the Overworld falls faster than it expects on the Moon. A ship that hovers easily at home will climb faster and brake later there.
+The selected system connects the Overworld and Moon to surface dimensions. The hologram also depicts other bodies. do not plan a landing solely because a model is visible.
 
-| Body | Surface acceleration | Note |
+| Connected surface | Configured surface acceleration | Flight implication |
 | --- | --- | --- |
-| Overworld | 11.0 | Starting point, thick air |
-| Moon | 2.0 | Low gravity, no thick air |
-| Mars, gas giant, ice world | Listed in the display | Check before you commit |
+| Overworld | 11.0 | Stronger gravity than the Moon |
+| Moon | 2.0 | Less thrust is needed to hover. tune corrections accordingly |
 
-Air also thins with height. Above 21,000 the pack marks the atmosphere as low density and applies drowning, so a crew without a sealed helmet and air supply stops breathing long before the crossing. Drag falls to zero by 7,000, which is why a propeller stops helping in the upper atmosphere and a rocket takes over.
+For the same starting speed, lower gravity does not make a falling craft accelerate faster. Propulsion, vehicle mass and current velocity still matter, so test hover and braking rather than copying an Earth throttle setting.
+
+On the Overworld, breathing becomes unsafe above height 5,000, before the drag curve reaches zero at 7,000 or the ascent transfer at 20,000. Equip the helmet and charged air supply before launch. The selected atmosphere map uses upper bounds: 21,000 is the upper bound of the low-density drowning band, not its starting height. Deep space and the Moon also need a breathing plan. See [Life support](space.life-support.md) and [Spaceflight](space.vehicle-transfer.md).
 
 ## Probe and helmet
 
@@ -48,15 +51,6 @@ Air also thins with height. Above 21,000 the pack marks the atmosphere as low de
 In Deep Space the Space Helmet shows an orbital display. <KeyBind id="key.rocketnautics.toggle_alignment" /> toggles the alignment helper. That changes what you see, not where the ship points.
 
 <Recipe id="rocketnautics:sputnik" />
-
-## Reading a trip before launch
-
-| Check | Why it decides the trip |
-| --- | --- |
-| Surface acceleration of the target | Sets how fast you fall and how much braking thrust you need |
-| Helmet and charged air supply | Above 21,000 the air stops supporting breathing |
-| Thrust that works without air | A propeller loses its medium by 7,000 |
-| Assembled hull and running fuel feed | An unassembled build has no physics and a dry feed makes no thrust |
 
 
 ***

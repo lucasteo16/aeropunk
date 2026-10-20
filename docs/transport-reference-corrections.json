@@ -1,0 +1,42 @@
+{
+  "vehicles.water": {
+    "create_submarine:rudder": {
+      "replacement": "create_high_seas:rudder",
+      "reason": "The checksum-selected Deep Seas artifact bundles High Seas. CreateHighSeas registers RUDDER_ITEM through its ITEMS deferred register in namespace create_high_seas, not create_submarine.",
+      "evidence": "build/transport-final/feedback/high-seas-registry.txt"
+    }
+  },
+  "vehicles.airships": {
+    "aeronautics:levitite_blend": {
+      "replacement": "aeronautics:levitite_blend_bucket",
+      "reason": "Levitite Blend is a fluid, not an item. The selected AeroFluidsNeoForge registers standardFluid(levitite_blend).bucket().build().register(). Native item visuals must use its bucket, while instructions refer to curing the fluid, not consuming a bucket.",
+      "evidence": "build/transport-final/feedback/aero-fluids.txt"
+    }
+  },
+  "space.vehicle-transfer": {
+    "rocketnautics:fluid_hose": {
+      "replacement": null,
+      "reason": "The selected release contains a stale fluid_hose model but no corresponding RocketItems or RocketBlocks item registration. The user's runtime missing-item error confirms it is not an available component. Remove the invented hose requirement, retaining fuel-connection instructions.",
+      "evidence": "User screenshot image four and selected RocketItems and RocketBlocks registration"
+    }
+  },
+  "travel.destinations": {
+    "minecraft:obsidian": {
+      "replacement": null,
+      "reason": "Retired an unrelated decorative placeholder from Choosing a system. This section compares Waystones, shared endpoints, plates and Tempad, not a Nether portal recipe. Actual system items replace the placeholder without retiring any teleportation mechanic.",
+      "evidence": "User screenshot image three and bilingual authored comparison"
+    }
+  },
+  "vehicles.assembly": {
+    "simulated:paired_docking_connector": {
+      "replacement": null,
+      "reason": "Internal paired connector block is registered without a BlockItem. The ordinary docking connector is the available item.",
+      "evidence": "Selected SimBlocks registration in the bundled Simulated 1.3.2 artifact"
+    },
+    "simulated:merging_glue": {
+      "replacement": "minecraft:slime_ball",
+      "reason": "Internal merging-glue block has no BlockItem. MergingGlueItemHandler accepts the simulated:merging_glue item tag, which contains c:slime_balls.",
+      "evidence": "Selected SimBlocks, MergingGlueItemHandler and data/simulated/tags/item/merging_glue.json"
+    }
+  }
+}

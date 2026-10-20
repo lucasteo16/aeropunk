@@ -57,6 +57,12 @@ class FoodFinalization(unittest.TestCase):
             # Later owned pages have their own exact source contract. Every other
             # generated article must still match the historical Food endpoint.
             for page in PAGES.rglob('*.md'):
+                transport_path = ROOT / 'docs/transport-final-review.json'
+                transport = json.loads(transport_path.read_text()) if transport_path.exists() else None
+                if transport and page.stem in transport['topics']:
+                    resource = page.relative_to(ROOT / 'resourcepacks/astropunk-guide-preview').as_posix()
+                    self.assertEqual(hashlib.sha256(page.read_bytes()).hexdigest(), transport['resource_sha256'][resource], resource)
+                    continue  # Exact Transport resource bytes, never a topic exemption.
                 if page.stem not in revision['topics']:
                     relative = page.relative_to(ROOT).as_posix()
                     expected = subprocess.check_output(['git', 'show', endpoint + ':' + relative], cwd=ROOT)
