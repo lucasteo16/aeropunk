@@ -1,92 +1,81 @@
 ---
 navigation:
-  title: "发电、配电与用电"
-  position: 11
+  title: "电路"
+  position: 5
   parent: reference.machines-storage.md
   icon: minecraft:lightning_rod
 ---
 
-# 发电、配电与用电
+# 电路
 
-## 旋转变成电压
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+Create+Electro+Energetics+1.1.3+electricity+guide) · [中文](https://www.youtube.com/results?search_query=Minecraft+Create+Electro+Energetics+1.1.3+%E7%94%B5%E5%8A%9B%E6%95%99%E7%A8%8B)
+
+## 安装交流发电机
 
 <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
 
-Create: Electro Energetics 不储存一个抽象的能量数字。电源感应出电压，设备让电流通过，电流做功。短路、又长又细的导线、匹配不当的变压器，都会因此改变结果。
+Create: Electro Energetics 在交流发电机处把旋转转换为电力。Ponder 条目 Setting up an alternator 要求用定子围住转子，再接入旋转动力。
 
-交流发电机是两套系统的接合点。旋转带动它，它产出电流。
+<ItemGrid><ItemIcon id="electroenergetics:alternator_rotor" /><ItemIcon id="electroenergetics:stator" /><ItemIcon id="electroenergetics:alternator_brushes" /></ItemGrid>
 
-<ItemGrid><ItemIcon id="electroenergetics:alternator_rotor" /><ItemIcon id="electroenergetics:stator" /><ItemIcon id="electroenergetics:alternator_brushes" /><ItemIcon id="electroenergetics:accumulator" /><ItemIcon id="electroenergetics:capacitor" /><ItemIcon id="electroenergetics:high_voltage_capacitor" /></ItemGrid>
+具体方块布局请打开该条目，不要猜测转子和定子位置。
 
-| 部件 | 作用 |
-| --- | --- |
-| <ItemLink id="electroenergetics:alternator_rotor" /> | 发电机中旋转的部分 |
-| <ItemLink id="electroenergetics:stator" /> | 环绕转子的固定绕组 |
-| <ItemLink id="electroenergetics:alternator_brushes" /> | 把电流送到旋转部分，另有同族的三相变体 |
-| <ItemLink id="electroenergetics:accumulator" /> | 储存电荷供之后取用 |
-| <ItemLink id="electroenergetics:capacitor" /> | 平滑波动负载的小缓冲 |
-| <ItemLink id="electroenergetics:high_voltage_capacitor" /> | 高压区段上的同样角色 |
-
-把发电机接在工坊同一条轴线上。发电机的思索条目展示组装形态，照着做比猜方块顺序快。
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+alternator+stator+rotor+setup) · [中文](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+%E5%8F%91%E7%94%B5%E6%9C%BA+%E5%AE%9A%E5%AD%90+%E8%BD%AC%E5%AD%90+%E5%AE%89%E8%A3%85)
 
 ***
 
-## 单向接一条电路
+## 接通第一条电路
 
-<ItemGrid><ItemIcon id="electroenergetics:connector" /><ItemIcon id="electroenergetics:copper_wire_spool" /><ItemIcon id="electroenergetics:insulated_wire" /><ItemIcon id="electroenergetics:fuse" /><ItemIcon id="electroenergetics:voltmeter" /><ItemIcon id="electroenergetics:ammeter" /></ItemGrid>
+<ItemGrid><ItemIcon id="electroenergetics:connector" /><ItemIcon id="electroenergetics:copper_wire_spool" /><ItemIcon id="electroenergetics:blue_electric_motor" /><ItemIcon id="electroenergetics:bulb" /></ItemGrid>
 
-| 部件 | 用途 |
-| --- | --- |
-| <ItemLink id="electroenergetics:connector" /> | 导线在方块上的接线点 |
-| <ItemLink id="electroenergetics:copper_wire_spool" /> | 在接线点之间铺设导线 |
-| <ItemLink id="electroenergetics:insulated_wire" /> | 需要绝缘的线路 |
-| 带底座的 <ItemLink id="electroenergetics:fuse" /> | 在故障损坏线路前断开电路 |
-| <ItemLink id="electroenergetics:fuse_holder" /> | 把保险丝固定在线路中 |
-| <ItemLink id="electroenergetics:voltmeter" /> | 读取某点的电压 |
-| <ItemLink id="electroenergetics:clamp_meter" /> | 不拆线就能读取导线中的电流 |
-| <ItemLink id="electroenergetics:ammeter" /> | 读取通过某点的电流 |
+1. 在交流发电机输出端与灯泡或蓝色电动机处放置电气接线端。
+2. 用铜线轴把发电机正极接到负载，再把负载回路接回发电机负极。闭合电路需要两条线路。
+3. 启动旋转动力源。灯泡亮起或电动机转动，就是直接可见的首次成功信号。
+4. 通过 Connecting Wires Ponder 学习如何用空线轴拆除导线。
 
-1. 在发电机输出端与机器上各放一个接线点。
-2. 用线轴在两点之间拉线，导线会按你画出的形状铺设。
-3. 在电源与负载之间装上带底座的保险丝。
-4. 先在电源端读电压表，再到负载端读一次。
-
-两次读数之间的落差来自导线与距离，不是机器坏了。这正是它与流体式能源系统的区别，也是为什么电表该先买而不是最后买。
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+closed+circuit+copper+wire+connectors+blue+electric+motor) · [中文](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+%E9%97%AD%E5%90%88%E7%94%B5%E8%B7%AF+%E9%93%9C%E7%BA%BF+%E6%8E%A5%E7%BA%BF%E7%AB%AF+%E8%93%9D%E8%89%B2%E7%94%B5%E5%8A%A8%E6%9C%BA)
 
 ***
 
-## 电机、泵与热
+## 保护、测量与变压
 
-<ItemGrid><ItemIcon id="electroenergetics:blue_electric_motor" /><ItemIcon id="electroenergetics:electric_pump" /><ItemIcon id="electroenergetics:bulb" /><ItemIcon id="electroenergetics:transformer" /><ItemIcon id="electroenergetics:voltage_regulator" /><ItemIcon id="electroenergetics:transformer_core" /></ItemGrid>
+| 部件 | 外观 | 用途 |
+| --- | --- | --- |
+| <ItemLink id="electroenergetics:fuse_holder" /> | <ItemGrid><ItemIcon id="electroenergetics:fuse_holder" /></ItemGrid> | 串联安装保险丝以保护电路 |
+| <ItemLink id="electroenergetics:voltmeter" /> | <ItemGrid><ItemIcon id="electroenergetics:voltmeter" /></ItemGrid> | 并联接在两点之间，读取电压差 |
+| <ItemLink id="electroenergetics:ammeter" /> | <ItemGrid><ItemIcon id="electroenergetics:ammeter" /></ItemGrid> | 串联接入以测量电流 |
+| <ItemLink id="electroenergetics:clamp_meter" /> | <ItemGrid><ItemIcon id="electroenergetics:clamp_meter" /></ItemGrid> | 右键点击导线测量电流，无需断线 |
+| <ItemLink id="electroenergetics:transformer_core" /> | <ItemGrid><ItemIcon id="electroenergetics:transformer_core" /></ItemGrid> | 变压器组装所需的铁芯 |
+| <ItemLink id="electroenergetics:high_voltage_capacitor" /> | <ItemGrid><ItemIcon id="electroenergetics:high_voltage_capacitor" /></ItemGrid> | 高压储能部件 |
+| <ItemLink id="electroenergetics:accumulator" /> | <ItemGrid><ItemIcon id="electroenergetics:accumulator" /></ItemGrid> | 储存电能，正极接正极，负极接负极 |
+| <ItemLink id="electroenergetics:emergency_stop_button" /> | <ItemGrid><ItemIcon id="electroenergetics:emergency_stop_button" /></ItemGrid> | 右键进入急停并断开内部开关，潜行右键则解除 |
 
-| 用电设备 | 给你什么 |
-| --- | --- |
-| 电动机 | 不必拉轴就能得到旋转，有多种颜色 |
-| <ItemLink id="electroenergetics:electric_pump" /> | 在远离工坊的位置输送流体 |
-| <ItemLink id="electroenergetics:bulb" /> | 照明，也是电路带电的可见信号 |
-| 电阻加热器 | 为需要热的机器供热 |
-
-<ItemLink id="electroenergetics:transformer" /> 在区段之间改变电压，<ItemLink id="electroenergetics:voltage_regulator" /> 让一个区段保持稳定。变压器装在导线长度变化的地方，而不是每台机器旁边都装。
-
-模组还提供专门的转换方块，在本模组电力与其他模组的 Forge Energy 设备之间转换，这是它驱动外部机器的途径。它的模拟在主线程之外运行，在未加载的区块里也继续工作，因此两座基地之间的长输电线路，无论你站在哪一边表现都一样。
+变压器铁芯条目要求在铁芯周围安装散热板，并在上方覆盖变压器油以提高额定功率。不要超过额定值。电压表测量两点之间的电压差，不是单点的绝对电压。
 
 ***
 
-## 电气化铁路
+## 选择下一项电气部件
 
-<ItemGrid><ItemIcon id="electroenergetics:pantograph" /><ItemIcon id="electroenergetics:rail_contact_shoe" /><ItemIcon id="electroenergetics:catenary_holder" /><ItemIcon id="electroenergetics:emergency_stop_button" /></ItemGrid>
+第一条电路工作后，再按用途增加部件。变压器按设定变比改变电压。稳压器分为电源、接地和负载端子，不能像只有两个接点的灯泡那样连接。
 
-| 部件 | 作用 |
-| --- | --- |
-| <ItemLink id="electroenergetics:catenary_holder" /> | 把接触网架在轨道上方 |
-| <ItemLink id="electroenergetics:pantograph" /> | 从上方接触网取流 |
-| <ItemLink id="electroenergetics:rail_contact_shoe" /> | 从第三轨取流 |
-| <ItemLink id="electroenergetics:emergency_stop_button" /> | 手动切断该区段 |
+| 部件 | 外观 | 用途 |
+| --- | --- | --- |
+| <ItemLink id="electroenergetics:fuse" /> | <ItemGrid><ItemIcon id="electroenergetics:fuse" /></ItemGrid> | 装入串联在电路中的保险丝座 |
+| <ItemLink id="electroenergetics:insulated_wire" /> | <ItemGrid><ItemIcon id="electroenergetics:insulated_wire" /></ItemGrid> | 绝缘导线材料 |
+| <ItemLink id="electroenergetics:capacitor" /> | <ItemGrid><ItemIcon id="electroenergetics:capacitor" /></ItemGrid> | 电容部件 |
+| <ItemLink id="electroenergetics:electric_pump" /> | <ItemGrid><ItemIcon id="electroenergetics:electric_pump" /></ItemGrid> | 电动流体泵 |
+| <ItemLink id="electroenergetics:transformer" /> | <ItemGrid><ItemIcon id="electroenergetics:transformer" /></ItemGrid> | 设定变比以升压或降压 |
+| <ItemLink id="electroenergetics:voltage_regulator" /> | <ItemGrid><ItemIcon id="electroenergetics:voltage_regulator" /></ItemGrid> | 电源接顶部输入端，负极接底部接地端，负载接输出端，再接通回路 |
 
-电气化铁路是独立于工坊电路的另一件事。先架好接触网，在一小段上测试受电弓，再延伸。[铁路](transport.passenger.md)说明列车本身。
+***
 
-电路稳定之后，下一步是把同样的活交给工业产线。[工业机械](power.industry.md)说明那套独立系统。
+## 为铁路供电
 
+<ItemGrid><ItemIcon id="electroenergetics:catenary_holder" /><ItemIcon id="electroenergetics:pantograph" /><ItemIcon id="electroenergetics:rail_contact_shoe" /></ItemGrid>
+
+架空供电时，正极接触网，负极接地线杆。电动列车需要电动机，并让受电弓接触接触网。所选 Ponder 也展示了第三轨接触靴方案。列车操作见[客运铁路](transport.passenger.md)。
+
+- [钢铁与石油](power.industry.md)，了解炉子、石油加工与引擎。
 
 ***
 

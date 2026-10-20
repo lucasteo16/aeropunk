@@ -345,6 +345,16 @@ zh_titles.update({'equipment.weapons-armor': '武器与护甲', 'equipment.acces
 titles.update({'space.vehicle-transfer': 'Orbital flight', 'space.life-support': 'Space life support', 'space.navigation': 'Space navigation'})
 titles['help.reference'] = 'Advancements'
 zh_titles['help.reference'] = '进度'
+titles.update({'machines.ore-processing': 'Material processing',
+               'power.burners': 'Process heat', 'power.industry': 'Steel & oil',
+               'power.electricity': 'Electrical circuits',
+               'machines.logistics': 'Item & fluid routing',
+               'machines.miscellaneous': 'Tools & drones',
+               'machines.renewables': 'Molten vents'})
+zh_titles.update({'machines.ore-processing': '材料加工',
+                  'power.burners': '加工供热', 'power.industry': '钢铁与石油',
+                  'power.electricity': '电路', 'machines.logistics': '物品与流体输送',
+                  'machines.miscellaneous': '工具与无人机', 'machines.renewables': '熔岩泉'})
 reference_icons.pop('travel.moving-destinations', None)
 class_navigation = json.loads((ROOT / 'docs/handbook-class-navigation.json').read_text())
 creature_navigation = json.loads((ROOT / 'docs/handbook-creature-navigation.json').read_text())

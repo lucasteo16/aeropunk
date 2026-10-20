@@ -1,87 +1,103 @@
 ---
 navigation:
-  title: "工业材料与燃料系统"
-  position: 10
+  title: "钢铁与石油"
+  position: 8
   parent: reference.machines-storage.md
   icon: minecraft:iron_ingot
 ---
 
-# 工业材料与燃料系统
+# 钢铁与石油
 
-## 先有焦炭，再有钢
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=The+Factory+Must+Grow+Community+1.3.2a+coke+oven+blast+furnace+oil+engines) · [中文](https://www.youtube.com/results?search_query=The+Factory+Must+Grow+Community+1.3.2a+%E7%84%A6%E7%82%AD%E7%82%89+%E9%AB%98%E7%82%89+%E7%9F%B3%E6%B2%B9+%E5%BC%95%E6%93%8E)
 
-<EmiSearch query="@tfmg" /> <EmiSearch query="@create" />
+## 先制焦炭
 
-Create: The Factory Must Grow 从焦炉开始，因为钢需要焦炭，焦炭需要煤。焦炉是方形多方块结构，从一格到六乘六格，所有炉块必须朝向同一面。
+<EmiSearch query="@tfmg" />
+
+Coke Oven Ponder 展示从任意侧面加入煤。二氧化碳从顶部排出，木馏油可从其他面抽取，煤焦炭会在一段时间后从机器掉出。需要提高产量时可并排布置多台焦炭炉。
+
+<ItemGrid><ItemIcon id="tfmg:coke_oven" /><ItemIcon id="tfmg:coal_coke" /><ItemIcon id="tfmg:creosote_bucket" /></ItemGrid>
 
 <Recipe id="tfmg:crafting/materials/coke_oven" />
 
-<ItemGrid><ItemIcon id="tfmg:coke_oven" /><ItemIcon id="tfmg:coal_coke" /><ItemIcon id="tfmg:creosote_bucket" /><ItemIcon id="minecraft:coal" /><ItemIcon id="tfmg:casting_basin" /><ItemIcon id="tfmg:industrial_mixer" /><ItemIcon id="tfmg:steel_chemical_vat" /><ItemIcon id="tfmg:copper_cable_hub" /><ItemIcon id="tfmg:steel_distillation_output" /><ItemIcon id="tfmg:steel_fluid_tank" /><ItemIcon id="tfmg:steel_pipe" /></ItemGrid>
-
-| 规则 | 为什么重要 |
-| --- | --- |
-| 必须是方形 | 长方形无法组装 |
-| 所有方块朝同一面 | 输出在标记的那一面 |
-| 从顶部抽出二氧化碳 | 积聚会堵住过程 |
-| 从其他面抽出杂酚油 | 它是有独立用途的副产物 |
-
-按官方维基说明，更大的方形每批完成得更快，每份产物的杂酚油更少。先建小炉，之后再把大炉当作产量决策。
+焦炭炉的原料是 <ItemLink id="minecraft:coal" />。
 
 ***
 
-## 炼钢需要热风
+## 建造可工作的高炉
 
-高炉把铁变成熔融钢与硅，只靠燃料不行。每次加工都需要热风供应，因此加热炉是结构的一部分，不是升级件。
+Blast Furnace Ponder 展示用耐火砖围成圆柱，并安装高炉输出方块与舱口。高炉必须有强化方块才能工作，强化并非仅用于提速。物料从顶部开口加入，舱口接入热风。顶部还可安装第二个舱口收集炉气，投入其中的物品会落入高炉。
 
-<ItemGrid><ItemIcon id="tfmg:blast_furnace_output" /><ItemIcon id="tfmg:blast_furnace_hatch" /><ItemIcon id="tfmg:blast_stove" /><ItemIcon id="tfmg:fireproof_bricks" /></ItemGrid>
+<ItemGrid><ItemIcon id="tfmg:fireproof_bricks" /><ItemIcon id="tfmg:blast_furnace_output" /><ItemIcon id="tfmg:blast_furnace_hatch" /><ItemIcon id="tfmg:blast_stove" /></ItemGrid>
 
-| 部件 | 作用 |
-| --- | --- |
-| <ItemLink id="tfmg:blast_furnace_output" /> | 输出方块，所有部件朝向它 |
-| <ItemLink id="tfmg:blast_furnace_hatch" /> | 输入与操作入口 |
-| <ItemLink id="tfmg:blast_stove" /> | 提供热风 |
-| <ItemLink id="tfmg:fireproof_bricks" /> 与加固块 | 外壳，以及提速升级 |
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=The+Factory+Must+Grow+Community+1.3.2a+blast+furnace+reinforcement+hot+air) · [中文](https://www.youtube.com/results?search_query=The+Factory+Must+Grow+Community+1.3.2a+%E9%AB%98%E7%82%89+%E5%BC%BA%E5%8C%96+%E7%83%AD%E9%A3%8E)
 
-运行中的高炉按固定计时消耗燃料，加固方块让每次加工更快。把它建在焦炉旁边，焦炭就不必搬运，同时让输入口保持可被漏斗触及。
+Blast Stove Ponder 明确了各面用途：底部输入燃料，侧面输入空气，顶部输出热风。二氧化碳会积累并可能使炉子停工，因此要把它排到附近的烟囱或排气口。先确认热风送达高炉，再投入铁料。
 
 ***
 
-## 石油、蒸馏与引擎
+## 寻找石油并蒸馏
 
-<ItemGrid><ItemIcon id="tfmg:surface_scanner" /><ItemIcon id="tfmg:pumpjack_base" /><ItemIcon id="tfmg:industrial_pipe" /><ItemIcon id="tfmg:steel_distillation_controller" /><ItemIcon id="tfmg:regular_engine" /><ItemIcon id="tfmg:large_engine" /></ItemGrid>
+从底部用 Machine Input 为地表扫描器供能。顶部网格代表周围区块，中心格是所在区块。含油区块会在数秒内亮起，用区块边界确认目标位置。
 
-| 阶段 | 部件 |
-| --- | --- |
-| 找矿藏 | <ItemLink id="tfmg:surface_scanner" /> 报告区块下方的石油 |
-| 抽取 | <ItemLink id="tfmg:pumpjack_base" /> 配管道与传动 |
-| 输送 | 用 <ItemLink id="tfmg:industrial_pipe" />，而不是一桶桶搬 |
-| 分馏 | <ItemLink id="tfmg:steel_distillation_controller" /> 配输出 |
-| 浇铸或混合 | <ItemLink id="tfmg:casting_basin" />、<ItemLink id="tfmg:industrial_mixer" />、<ItemLink id="tfmg:steel_chemical_vat" /> |
-| 燃烧 | <ItemLink id="tfmg:regular_engine" />、<ItemLink id="tfmg:simple_large_engine" />、<ItemLink id="tfmg:large_engine" />、<ItemLink id="tfmg:radial_engine" />、<ItemLink id="tfmg:turbine_engine" /> |
+<ItemGrid><ItemIcon id="tfmg:surface_scanner" /><ItemIcon id="tfmg:pumpjack_base" /><ItemIcon id="tfmg:industrial_pipe" /></ItemGrid>
 
-引擎是旋转来源，不是发电设备。每个家族对燃料的要求不同，大型引擎接受更粗糙的燃料，但需要稳定的空气供应。铺抽取路线之前先看抽油机条目，管道布局照着做比自行推导容易。
+Pumpjack Ponder 的路线从油藏铺设工业管道到地表开始。把抽油机底座放在管道顶端，后方放锤架，在曲柄与底座上方安装连接件和机头，用抽油机锤部件连接并涂抹超级胶水固定。最后安装 Machine Input，并在其上方放置曲柄提供动力。
+
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=The+Factory+Must+Grow+Community+1.3.2a+pumpjack+crude+oil+distillation+tower) · [中文](https://www.youtube.com/results?search_query=The+Factory+Must+Grow+Community+1.3.2a+%E6%8A%BD%E6%B2%B9%E6%9C%BA+%E5%8E%9F%E6%B2%B9+%E8%92%B8%E9%A6%8F%E5%A1%94)
+
+蒸馏塔底部用钢制储罐组装，在储罐旁安装钢制蒸馏控制器，再加最多六个蒸馏输出口，并在它们之间连接工业管道。储罐下方放置热源，原油输入控制器，通过塔身刻度确认供能。产物经蒸馏输出口和管道导出。
+
+<ItemGrid><ItemIcon id="tfmg:steel_distillation_controller" /><ItemIcon id="tfmg:steel_distillation_output" /><ItemIcon id="tfmg:steel_fluid_tank" /><ItemIcon id="tfmg:industrial_pipe" /></ItemGrid>
 
 ***
 
-## 它自己的电网
+## 选择加工附件
 
-<ItemGrid><ItemIcon id="tfmg:generator" /><ItemIcon id="tfmg:electric_motor" /><ItemIcon id="tfmg:heavy_electric_motor" /><ItemIcon id="tfmg:transformer" /><ItemIcon id="tfmg:voltmeter" /><ItemIcon id="tfmg:electricians_wrench" /></ItemGrid>
+化学槽可安装不同附件来改变用途。插入搅拌叶片后用于搅拌。两个电极架配铜电极可组成电解器。三个石墨电极可组成高炉。部分配方需要加热。
 
-| 部件 | 作用 |
-| --- | --- |
-| <ItemLink id="tfmg:generator" /> | 把旋转变成电力 |
-| <ItemLink id="tfmg:electric_motor" /> | 把电力变回旋转 |
-| <ItemLink id="tfmg:heavy_electric_motor" /> | 承担重负载的大型电机 |
-| <ItemLink id="tfmg:transformer" /> | 在电压组之间转换 |
-| <ItemLink id="tfmg:voltmeter" /> | 读取工业电路 |
-| <ItemLink id="tfmg:electricians_wrench" /> | 配置工业电气部件 |
-| <ItemLink id="tfmg:winding_machine" /> | 有旋转输入时把线轴绕在原料外 |
-| <ItemLink id="tfmg:freezer" /> 与 <ItemLink id="tfmg:compressor" /> | 冷却与压缩工段 |
+<ItemGrid><ItemIcon id="tfmg:steel_chemical_vat" /><ItemIcon id="tfmg:industrial_mixer" /><ItemIcon id="tfmg:copper_electrode" /><ItemIcon id="tfmg:graphite_electrode" /></ItemGrid>
 
-这套电网不是 Electro Energetics 的电网。两个模组对电的建模方式不同，部件不能互相接入，因此一座建筑选一套并保持一致。[电力](power.electricity.md)说明另一套系统。
+<ItemGrid><ItemIcon id="tfmg:casting_basin" /></ItemGrid>
 
-下一步是热，因为焦炉与高炉都要烧东西。[燃烧与燃料](power.burners.md)说明供热一侧。
+铸造时将钢水送入铸造盆，并为产物留出足够空间，因为盆内储量有限。
 
+***
+
+## 操作引擎与绕线机
+
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+TFMG+Community+1.3.2a+regular+engine+turbine+engine+setup) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+TFMG+%E5%BC%95%E6%93%8E+%E6%B6%A1%E8%BD%AE%E5%BC%95%E6%93%8E+%E5%BB%BA%E9%80%A0+%E7%87%83%E6%96%99+%E6%95%99%E7%A8%8B)
+
+Ponder 展示常规引擎的组装方式，用空白蓝图切换型号，插入同型号气缸后完成组装。对组装完成的引擎使用传动轴即可建立旋转输出。常规引擎和涡轮引擎的布局可查阅上方对应教程，燃料与连接方式不能直接照搬大型引擎。
+
+<ItemGrid><ItemIcon id="tfmg:regular_engine" /><ItemIcon id="tfmg:radial_engine" /><ItemIcon id="tfmg:turbine_engine" /><ItemIcon id="tfmg:large_engine" /><ItemIcon id="tfmg:simple_large_engine" /></ItemGrid>
+
+大型引擎需要传动轴输出、从侧面输入燃料、持续供气并排出二氧化碳。具体引擎可用燃料以该引擎的提示为准。
+
+绕线机先用右键放入线轴，再右键放入待加工物品。提供旋转后开始绕线，完成时自动停止。漏斗可输入原料并取出成品，机械手可装入线轴。
+
+<ItemGrid><ItemIcon id="tfmg:winding_machine" /><ItemIcon id="tfmg:empty_spool" /><ItemIcon id="tfmg:machine_input" /><ItemIcon id="tfmg:engine_cylinder" /></ItemGrid>
+
+***
+
+## 连接工业工坊电网
+
+用传动轴驱动发电机，通过对应电缆系统连接工业用电设备，再用设置扳手右键电气方块分配组别。同组部件分配电压，不同组保留完整电压。电动机开始转动就是首次有效结果。变压器、电位器和开关会建立子网络，扩建前先查看各自的 Ponder 条目。
+
+| 部件 | 外观 | 用途 |
+| --- | --- | --- |
+| <ItemLink id="tfmg:generator" /> | <ItemGrid><ItemIcon id="tfmg:generator" /></ItemGrid> | 将旋转动力转换为工业电力 |
+| <ItemLink id="tfmg:electric_motor" /> | <ItemGrid><ItemIcon id="tfmg:electric_motor" /></ItemGrid> | 将工业电力转换为旋转动力 |
+| <ItemLink id="tfmg:heavy_electric_motor" /> | <ItemGrid><ItemIcon id="tfmg:heavy_electric_motor" /></ItemGrid> | 重型电动机系列 |
+| <ItemLink id="tfmg:copper_cable_hub" /> | <ItemGrid><ItemIcon id="tfmg:copper_cable_hub" /></ItemGrid> | 工业网络的电缆连接点 |
+| <ItemLink id="tfmg:transformer" /> | <ItemGrid><ItemIcon id="tfmg:transformer" /></ItemGrid> | 按初级与次级线圈匝数比改变子网络电压 |
+| <ItemLink id="tfmg:voltmeter" /> | <ItemGrid><ItemIcon id="tfmg:voltmeter" /></ItemGrid> | 读取工业电网状态 |
+| <ItemLink id="tfmg:electricians_wrench" /> | <ItemGrid><ItemIcon id="tfmg:electricians_wrench" /></ItemGrid> | 右键电气方块，打开其分组设置 |
+| <ItemLink id="tfmg:freezer" /> | <ItemGrid><ItemIcon id="tfmg:freezer" /></ItemGrid> | 冷却加工机器 |
+| <ItemLink id="tfmg:compressor" /> | <ItemGrid><ItemIcon id="tfmg:compressor" /></ItemGrid> | 压缩与供气机器 |
+| <ItemLink id="tfmg:steel_pipe" /> | <ItemGrid><ItemIcon id="tfmg:steel_pipe" /></ItemGrid> | 钢制流体管道系列，不同于工业管道 |
+
+- [电力](power.electricity.md)，了解独立的 Electro Energetics 电路系统。TFMG 使用自己的分组电力机制，但转换器可能连接不同系统，不要断言两者必然不兼容。
 
 ***
 

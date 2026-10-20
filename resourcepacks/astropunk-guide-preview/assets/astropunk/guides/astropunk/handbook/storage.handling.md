@@ -8,58 +8,73 @@ navigation:
 
 # Inventory tools
 
-## The inventory itself is the interface
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Sophisticated+Inventory+Interactions+TrashSlot+Mouse+Tweaks+chest+sorting+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Sophisticated+Inventory+Interactions+TrashSlot+Mouse+Tweaks+%E7%AE%B1%E5%AD%90+%E6%95%B4%E7%90%86+%E6%95%99%E7%A8%8B)
 
-Most storage time is lost in the screens, not in the containers. This pack installs three interface mods that remove the repeated drag and click work.
+## Container screens
 
-Open any supported container and use its search field and sort button. Sophisticated Inventory Interactions adds search, player inventory sorting, container sorting and transfer controls to supported screens.
+![Inventory and trash slot](images/visual-inventory-trash.png)
 
-<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
+Inventory and trash slot
 
-| Screen action | What it saves |
+Sophisticated Inventory Interactions adds controls to supported screens. This pack enables it on chest, hopper, dispenser, shulker box and horse inventory menus.
+
+| Control | What it does |
 | --- | --- |
-| Search field | Scrolling a full chest for one item |
-| Sort button | Manual arrangement after every dump |
-| Transfer controls | Shift clicking one stack at a time |
-| Mouse wheel over a slot | Dragging a stack by hand |
+| Search field | Filters the screen down to matching slots without moving items |
+| Sort container | Rearranges the open container |
+| Sort player inventory | Rearranges your slots and keeps the hotbar in its own order |
+| Transfer button | Sends destination matching items, or everything the destination accepts while Shift is held |
 
-Mouse Tweaks handles the drag and wheel side. It is a convenience mod, so the exact gesture is worth checking once in the controls screen rather than assuming it matches another pack.
+The transfer button has two modes. Left click without Shift moves what matches the destination, and left click with Shift moves everything. Search and the sort-by toggle hide themselves on screens with nine or fewer usable slots, which covers a hopper and a dispenser but not a chest.
 
 ***
 
-## What gets picked up
+
+### Gestures
+
+Mouse Tweaks adds these gestures to container screens:
+
+| Gesture | Result |
+| --- | --- |
+| Hold a stack and left drag over matching stacks | Collects matching items into the held stack |
+| Hold Shift and left drag over slots | Quickly transfers those items to the other inventory |
+| Right drag while holding a stack | Places one item each time you pass a slot, including repeated passes |
+| Scroll over a stack | Moves items between that slot and the other inventory |
+
+***
+
+### Trash slot
+
+If the trash slot is hidden, use <KeyBind id="key.trashslot.toggle" /> to show it.
+
+TrashSlot adds a deletion slot to supported screens. In survival the last trashed item can be taken back, and placing a new item in the slot replaces it, which is the destructive step.
+
+| Setting in this pack | Value | What it means |
+| --- | --- | --- |
+| Instant deletion | Off | A trashed item waits in the slot instead of disappearing at once |
+| Delete while hidden | Off | Delete keys do nothing when the slot is not shown |
+| Deny list | Empty | The configuration protects nothing by default |
+| Hints | On | The slot explains itself the first time |
+
+Deletion keys work in creative too in this pack, and creative deletion is permanent regardless of the instant deletion setting. The empty deny list does not protect valuable items from deletion.
+
+## Picking items up
 
 <EmiSearch query="@interactic" />
 
-<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
+<ItemGrid><ItemIcon id="interactic:item_filter" /></ItemGrid>
 
-| Setting | Effect |
-| --- | --- |
-| Filter contents | Items that may be collected |
-| Pickup rules | Whether the filter decides what enters your inventory |
-| Rendering rules | Whether filtered drops are drawn differently |
+Interactic Renewed provides an <ItemLink id="interactic:item_filter" /> for selective pickup. Its recipe is four copper ingots around an ender pearl.
 
-Interactic Renewed separates pickup from rendering, so a filter can hide clutter from view without changing what you actually collect. Set it before a mining trip, not after your inventory is full of stone.
+1. Hold the filter and right click to open its item list.
+2. Set the items to filter. Choose Block to reject the listed items, or Allow to collect only those items. These are buttons inside the filter window.
+3. Close the window. Sneak and right click the held filter to switch filtering on or off. This does not change Block and Allow modes.
 
-The mod is also what makes dropped items easier to see and grab. A filter that hides an item from rendering does not stop you collecting it.
+With filtering enabled in Block mode, a listed item should remain on the ground when you walk over it, while unlisted items are collected normally. If filtering is disabled, the list does not prevent ordinary pickup.
 
 ***
-
-## The trash slot is not storage
-
-| Setting in this pack | Value |
-| --- | --- |
-| Instant deletion | Off, so items wait in the slot |
-| Delete while slot is hidden | Off |
-| Deny list | Empty, so nothing is protected by default |
-| Hints | On |
-
-Instant deletion being off is the setting that matters. An item in the trash slot is not gone until the slot is cleared, which gives you one chance to take it back. Turning instant deletion on removes that chance for every item at once.
-
-The deny list is empty, so TrashSlot protects nothing on its own. If a valuable item keeps ending up there, add it to the deny list rather than relying on care.
-
-Current bindings for the carry key and the handbook are in [Controls](help.controls.md).
-
+- [Item and fluid routing](machines.logistics.md) Belts, funnels, filters and routing.
+- [Bulk storage](storage.bulk.md) Vaults and large capacity storage.
 
 ***
 

@@ -221,6 +221,7 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
+        "mods/create-stam1o-tweaks.pw.toml",
         "mods/create.pw.toml",
         "mods/almostunified.pw.toml"
       ]
@@ -289,7 +290,6 @@
       "page_type": "article",
       "deferred": false,
       "metadata_paths": [
-        "mods/create-stam1o-tweaks.pw.toml",
         "mods/create-stuff-additions.pw.toml"
       ]
     },
@@ -2752,8 +2752,8 @@
       "metadata_path": "mods/create-stam1o-tweaks.pw.toml",
       "name": "Create: Stam1o Tweaks",
       "availability": "baseline",
-      "category": "Player utilities and quality of life",
-      "topic": "machines.miscellaneous",
+      "category": "Automation and industry",
+      "topic": "machines.ore-processing",
       "indexed": true,
       "player_mention_written": false,
       "instructions_verified": false,

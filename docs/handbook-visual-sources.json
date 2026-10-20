@@ -1,4 +1,16 @@
 {
+  "machines:molten-vent-dormant": {
+    "resource": "images/molten-vent-dormant.png",
+    "source_url": "https://cdn.modrinth.com/data/uuVy6k1s/images/17fb1569eb2dffd5a84388fa2e27551a8b9021c3.webp",
+    "project_url": "https://modrinth.com/mod/create-molten-vents",
+    "publisher": "Apothicon",
+    "kind": "publisher gallery screenshot, Dormant Vent",
+    "license": {"id": "MIT", "name": "MIT License", "url": null},
+    "rights": "Project metadata declares MIT License; no separate screenshot license supplied",
+    "dimensions": [550, 309],
+    "original_sha256": "1e4177fa6649a9a47ec25e45462075bbf922f99f68acda42870dcf4f6091c779",
+    "derived_sha256": "cc3873685da4825d771a14fd66395f9344a5eb020626d48ed65d7fda90b22a5b"
+  },
   "handbook:home-airship": {
     "resource": "images/home-merun173-airship.png",
     "source_url": "https://createmod.com/author/merun173",

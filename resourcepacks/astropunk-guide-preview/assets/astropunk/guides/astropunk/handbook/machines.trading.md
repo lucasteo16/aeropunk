@@ -8,63 +8,38 @@ navigation:
 
 # Trading
 
-## A depot at a workstation
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Trading+Floor+trading+depot+villager+tutorial) · [中文](https://www.youtube.com/results?search_query=%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B+%E4%BA%A4%E6%98%93%E7%AB%99+%E6%9D%91%E6%B0%91+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@trading_floor" />
+## Connect a depot to a villager
 
-A <ItemLink id="trading_floor:trading_depot" /> turns one villager trade into a machine input and output. The villager still owns the trade list. The depot only hands over what the trade wants and takes what it gives.
+<EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
 
-Place the depot against a workstation a villager has claimed, not against the villager.
+Attach a <ItemLink id="trading_floor:trading_depot" /> to the workstation claimed by a villager. Open the depot and select an available trade with its trade filter, then supply the exact listed costs. The villager must be able to reach the workstation and work during normal work hours. Open the Ponder lesson Trading with trading depots.
 
 <Recipe id="trading_floor:trading_depot" />
 
-<ItemGrid><ItemIcon id="trading_floor:trading_depot" /><ItemIcon id="minecraft:lectern" /><ItemIcon id="minecraft:emerald" /><ItemIcon id="minecraft:book" /></ItemGrid>
+| Part | View | Role |
+| --- | --- | --- |
+| Trading Depot | <ItemGrid><ItemIcon id="trading_floor:trading_depot" /></ItemGrid> | Holds that depot's input and output |
+| Claimed workstation | <ItemGrid><ItemIcon id="minecraft:lectern" /></ItemGrid> | Connects the depot to its villager |
+| Mechanical Arm | <ItemGrid><ItemIcon id="create:mechanical_arm" /></ItemGrid> | Feeds supported trading-depot targets after configuration |
+| Trade goods | <ItemGrid><ItemIcon id="minecraft:emerald" /><ItemIcon id="minecraft:book" /></ItemGrid> | Costs and results come from the selected villager offer |
 
-| Part | What it supplies |
-| --- | --- |
-| <ItemLink id="trading_floor:trading_depot" /> | The machine interface for one trade |
-| The claimed workstation | Ties the depot to one villager |
-| The villager | Owns the trade list, prices and restock |
-| <ItemLink id="minecraft:emerald" /> | The common currency, still paid by you |
-
-Trades happen while the villager is working. A villager who cannot reach its workstation, or who is asleep, does not trade, and the depot will sit with its input inside.
+When the villager next works, the depot performs the selected trade if its inputs are present. Check the depot information and last-trade field with goggles. Move the output from the depot with a funnel or chute.
 
 ***
 
-## What a working depot does
+## Trades with two inputs
 
-<EmiSearch query="@create" />
+Use two depots for a trade with two different costs. Set the trade filter on the first input depot to avoid unrelated offers. The second depot shares the trade when filters match, or when that other depot has no filter set. This means an unset filter, not an empty depot inventory. The output goes to the depot holding the first trade input.
 
-<ItemGrid><ItemIcon id="trading_floor:trading_depot" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:mechanical_arm" /><ItemIcon id="create:display_link" /></ItemGrid>
+| Route | View | Use |
+| --- | --- | --- |
+| Single input | <ItemGrid><ItemIcon id="create:brass_funnel" /></ItemGrid> | Brass funnel feeds the exact selected cost |
+| Vertical transfer | <ItemGrid><ItemIcon id="create:chute" /></ItemGrid> | Chute feeds or removes items vertically |
+| Trade readout | <ItemGrid><ItemIcon id="create:display_link" /></ItemGrid> | Optional status display |
 
-| Result | Detail |
-| --- | --- |
-| Trades per work session | Up to 4 in this pack |
-| Villager experience | Earned by the villager, on by default |
-| Player experience | Off by default in this pack |
-| Readout | Goggles and display links show the trade state |
-
-The four trades per session is a pack setting, not a limit of the mod's design. It is enough to make an iron farm or a book trade worth automating, and low enough that a single depot will not fund a base on its own.
-
-***
-
-## Two depots, two inputs
-
-A trade that costs two different items needs two depots, each with its own input. Their filters must match, or one of them must be left empty.
-
-<ItemGrid><ItemIcon id="trading_floor:trading_depot" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:chute" /></ItemGrid>
-
-| Arrangement | Behaviour |
-| --- | --- |
-| One depot, one input | Handles a single item trade |
-| Two depots, matching filters | Both feed the same trade |
-| Two depots, one filter empty | The empty one accepts anything |
-| Two depots, different filters | The trade will not complete |
-
-Feed each depot with a <ItemLink id="create:brass_funnel" /> set to the exact item. A filter that accepts a substitute item breaks the trade silently, because the villager will not accept it.
-
-The next useful step is moving the payment in and the result out without a player. [Material routing](machines.logistics.md) covers belts, funnels and arms.
-
+The villager owns its prices and restocking. Open the Ponder lesson Trading with multiple trading depots. [Item and fluid routing](machines.logistics.md) covers item movement.
 
 ***
 

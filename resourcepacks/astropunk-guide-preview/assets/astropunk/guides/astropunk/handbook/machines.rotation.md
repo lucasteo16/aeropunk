@@ -8,98 +8,111 @@ navigation:
 
 # Rotational power
 
-## Stress before speed
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+6+water+wheel+stress+stressometer+gearbox+gearshift+millstone+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+6+%E6%B0%B4%E8%BD%A6+%E5%BA%94%E5%8A%9B+%E5%BA%94%E5%8A%9B%E8%A1%A8+%E9%BD%BF%E8%BD%AE%E7%AE%B1+%E5%8F%98%E9%80%9F%E5%99%A8+%E7%9F%B3%E7%A3%A8+%E6%95%99%E7%A8%8B)
+
+## What a network needs
 
 <EmiSearch query="@create" />
 
-Every rotating network has a capacity from its generators and an impact from its machines. While impact stays under capacity the whole network turns. The moment impact exceeds capacity the network stops and nothing on it works.
+A rotating network has capacity from its sources and stress from the machines on it. While stress stays under capacity everything turns. When stress passes capacity the network stalls until the load drops.
 
-This pack keeps the stress mechanic on, so the first question at any machine is not how fast it should spin but whether the network can carry it.
+| Source | View | Speed in place | Capacity at that speed |
+| --- | --- | --- | --- |
+| <ItemLink id="create:water_wheel" /> | <ItemGrid><ItemIcon id="create:water_wheel" /></ItemGrid> | Eight revolutions per minute | 256 stress units |
+| <ItemLink id="create:large_water_wheel" /> | <ItemGrid><ItemIcon id="create:large_water_wheel" /></ItemGrid> | Four revolutions per minute | 512 stress units |
+| <ItemLink id="create:windmill_bearing" /> | <ItemGrid><ItemIcon id="create:windmill_bearing" /></ItemGrid> | Set by sail assembly | Compare with a stressometer |
+| <ItemLink id="create:steam_engine" /> | <ItemGrid><ItemIcon id="create:steam_engine" /></ItemGrid> | Set by boiler and engine | Compare with a stressometer |
 
-<ItemGrid><ItemIcon id="create:water_wheel" /><ItemIcon id="create:large_water_wheel" /><ItemIcon id="create:windmill_bearing" /><ItemIcon id="create:steam_engine" /></ItemGrid>
+Capacity follows the source's speed, so those two wheel figures are running output. Both wheels take force from adjacent water currents, and covering more sides does not add output.
 
-| Source | Capacity | Note |
+| Gauge | View | What it reports |
 | --- | --- | --- |
-| <ItemLink id="create:water_wheel" /> | 32 stress units | Cheapest steady source |
-| <ItemLink id="create:large_water_wheel" /> | 128 stress units | Four times the wheel, same footprint height |
-| <ItemLink id="create:windmill_bearing" /> | 512 stress units | Needs a sail assembly above it |
-| <ItemLink id="create:steam_engine" /> | 1024 stress units | Needs a boiler and water supply |
+| <ItemLink id="create:stressometer" /> | <ItemGrid><ItemIcon id="create:stressometer" /></ItemGrid> | Stress capacity of the attached network |
+| <ItemLink id="create:speedometer" /> | <ItemGrid><ItemIcon id="create:speedometer" /></ItemGrid> | Speed of attached components |
 
-The pack leaves the global speed limit at 256 revolutions per minute. Impact grows with speed, and the configuration states that a machine's cost doubles for every speed increase it receives, so gearing a line faster buys throughput at the price of capacity.
+Both gauges are placed blocks that report the network they attach to. Wearing <ItemLink id="create:goggles" /> shows more detail on either gauge, and a comparator can read them.
 
 ***
 
-## Turning and reversing
-
-<EmiSearch query="@create_connected" />
-
-A <ItemLink id="create:shaft" /> passes rotation straight through. A <ItemLink id="create:cogwheel" /> changes the axis by a quarter turn. A <ItemLink id="create:gearbox" /> splits one input into four directions.
-
-<ItemGrid><ItemIcon id="create:shaft" /><ItemIcon id="create:cogwheel" /><ItemIcon id="create:large_cogwheel" /><ItemIcon id="create:gearbox" /><ItemIcon id="create:wrench" /></ItemGrid>
-
-| Part | What changes |
-| --- | --- |
-| <ItemLink id="create:shaft" /> | Nothing, same axis and speed |
-| <ItemLink id="create:cogwheel" /> with a second cogwheel | Direction of the second axis reverses |
-| <ItemLink id="create:large_cogwheel" /> meshed with a small one | Speed changes by the size ratio, direction reverses |
-| <ItemLink id="create:gearbox" /> | Four faces, opposite faces turn the same way |
-
-Create: Connected fills the gaps in that set. Each part answers a different routing problem.
-
-| Part | Difference |
-| --- | --- |
-| <ItemLink id="create_connected:cross_connector" /> | Relays rotation in two directions without them meeting |
-| <ItemLink id="create_connected:parallel_gearbox" /> | All four faces turn the same way |
-| <ItemLink id="create_connected:six_way_gearbox" /> | Shafts on all six sides, top and bottom at half speed |
-| <ItemLink id="create_connected:brass_gearbox" /> | Each face configured independently with a wrench |
-| <ItemLink id="create_connected:encased_chain_cogwheel" /> | A chain drive that also takes a cogwheel |
-| <ItemLink id="create_connected:crank_wheel" /> | A hand crank with a cogwheel for tight gear ratios |
-| <ItemLink id="create_connected:kinetic_bridge" /> | Passes capacity between two networks without joining them |
-
-Rotation direction is not cosmetic. Two networks only merge when they meet turning the same way. If a join reverses, the connecting part breaks, so check direction with the wrench before you power a new branch.
-
-A windmill needs at least eight sails to assemble. Each additional eight sails above that adds one revolution per minute, so a modest sail disc is the normal build rather than a huge one.
-
-***
-
-<Recipe id="create:crafting/kinetics/wrench" />
-## Controls that keep a line safe
-
-<ItemGrid><ItemIcon id="create:clutch" /><ItemIcon id="create:gearshift" /><ItemIcon id="create_connected:shear_pin" /><ItemIcon id="create_connected:overstress_clutch" /><ItemIcon id="create_connected:brake" /><ItemIcon id="create_connected:centrifugal_clutch" /><ItemIcon id="create_connected:freewheel_clutch" /><ItemIcon id="create_connected:inverted_clutch" /><ItemIcon id="create_connected:inverted_gearshift" /></ItemGrid>
-
-| Part | Use |
-| --- | --- |
-| <ItemLink id="create:clutch" /> | Redstone cuts the branch without stopping the source |
-| <ItemLink id="create:gearshift" /> | Redstone reverses the branch |
-| <ItemLink id="create_connected:shear_pin" /> | Single use connector that breaks instead of stalling the whole network |
-| <ItemLink id="create_connected:overstress_clutch" /> | Uncoupled after a delay when the network is overstressed, reset with a wrench |
-| <ItemLink id="create_connected:brake" /> | Stops the network by overstressing it on purpose |
-
-A clutch belongs on any branch you want to switch off while the source keeps running. A shear pin belongs on a branch you would rather lose than stall.
-
-***
-
-## First drive line
-
-Two <ItemLink id="create:andesite_alloy" /> make eight <ItemLink id="create:shaft" />. That ratio is why short shaft runs are cheap and long ones are not.
-
-<Recipe id="create:crafting/kinetics/shaft" />
+## First drive
 
 <Recipe id="create:crafting/kinetics/water_wheel" />
 
-1. Place the <ItemLink id="create:water_wheel" /> against flowing water so its paddles are pushed.
-2. Run a shaft from the wheel to the machine you want to drive.
-3. Fit a <ItemLink id="create:stressometer" /> on the line and read capacity against impact.
-4. Watch the machine turn for a full cycle before adding a second one.
+<Recipe id="create:crafting/kinetics/shaft" />
 
-The expected result is a machine that runs without stopping and a stressometer that does not sit above capacity. The next useful step is a reserve so a short interruption does not stop production. [Stored rotation](power.stored-rotation.md) covers batteries and springs.
+<Recipe id="create:crafting/kinetics/vertical_gearbox" />
 
-## Reading the numbers
+The Millstone help entry is Processing Items in the Millstone.
 
-Engineer's goggles show the stress a component is carrying and the speed it is running at, so a stalled machine reads as a number instead of a guess. The speedometer and the stressometer measure one component each and convert into each other, which is how you compare a drive line before and after a change.
+<ItemGrid><ItemIcon id="create:millstone" /></ItemGrid>
 
-<ItemGrid><ItemIcon id="create:goggles" /><ItemIcon id="create:speedometer" /><ItemIcon id="create:stressometer" /></ItemGrid>
+1. Put a <ItemLink id="create:water_wheel" /> in flowing water and extend a horizontal <ItemLink id="create:shaft" /> from its axle.
+2. Place a <ItemLink id="create:vertical_gearbox" /> at the shaft end. Its horizontal opening must face the shaft and a vertical opening must face up. Use the wrench to orient it if needed.
+3. Put an upright shaft in that upper opening, with a <ItemLink id="create:millstone" /> directly on top. The shaft enters the millstone from below.
+4. Drop wheat into the millstone from above. After grinding finishes, right click the millstone with an empty hand to collect the output.
 
+The drive works when the millstone turns and grinding completes. A shaft that meets the millstone from a face it does not drive will not transfer force, which looks like a stalled network without being an overload.
+
+Items can also be inserted and extracted by automation. The top accepts input, and the output is available from the block.
+
+***
+
+## Ratio, axis and reversal
+
+<EmiSearch query="@create_connected" />
+
+| Part | View | What it does to the drive |
+| --- | --- | --- |
+| <ItemLink id="create:shaft" /> | <ItemGrid><ItemIcon id="create:shaft" /></ItemGrid> | Passes rotation along the same axis |
+| <ItemLink id="create:cogwheel" /> | <ItemGrid><ItemIcon id="create:cogwheel" /></ItemGrid> | Meshing equal-sized gears keep the same speed and reverse rotation |
+| <ItemLink id="create:large_cogwheel" /> | <ItemGrid><ItemIcon id="create:large_cogwheel" /></ItemGrid> | Meshing with a small cog doubles speed from large to small and halves it from small to large |
+| <ItemLink id="create:gearbox" /> and <ItemLink id="create:vertical_gearbox" /> | <ItemGrid><ItemIcon id="create:gearbox" /><ItemIcon id="create:vertical_gearbox" /></ItemGrid> | Relays around corners, and straight connections come out reversed |
+| <ItemLink id="create:gearshift" /> | <ItemGrid><ItemIcon id="create:gearshift" /></ItemGrid> | Straight relay that reverses while powered by redstone |
+| <ItemLink id="create:wrench" /> | <ItemGrid><ItemIcon id="create:wrench" /></ItemGrid> | Rotates and configures placed kinetic blocks |
+
+An ordinary gearbox mirrors the shafts around a corner, while a parallel gearbox turns them the same way. Both reverse a straight connection.
+
+Create: Connected adds parts for specific routing cases.
+
+| Part | View | Difference |
+| --- | --- | --- |
+| <ItemLink id="create_connected:cross_connector" /> | <ItemGrid><ItemIcon id="create_connected:cross_connector" /></ItemGrid> | Relays rotation across without the lines meeting |
+| <ItemLink id="create_connected:parallel_gearbox" /> | <ItemGrid><ItemIcon id="create_connected:parallel_gearbox" /></ItemGrid> | Corner shafts same direction, straight connections reversed |
+| <ItemLink id="create_connected:six_way_gearbox" /> | <ItemGrid><ItemIcon id="create_connected:six_way_gearbox" /></ItemGrid> | Takes shafts on all six sides |
+| <ItemLink id="create_connected:brass_gearbox" /> | <ItemGrid><ItemIcon id="create_connected:brass_gearbox" /></ItemGrid> | Each face is set with a wrench |
+| <ItemLink id="create_connected:encased_chain_cogwheel" /> | <ItemGrid><ItemIcon id="create_connected:encased_chain_cogwheel" /></ItemGrid> | Chain drive that also takes a cogwheel |
+| <ItemLink id="create_connected:kinetic_bridge" /> | <ItemGrid><ItemIcon id="create_connected:kinetic_bridge" /></ItemGrid> | Transfers a set amount of capacity between two separate networks, adjustable on its value panel |
+
+***
+
+## Switches that protect a line
+
+| Part | View | Use |
+| --- | --- | --- |
+| <ItemLink id="create:clutch" /> | <ItemGrid><ItemIcon id="create:clutch" /></ItemGrid> | Redstone cuts the branch while the source keeps turning |
+| <ItemLink id="create_connected:inverted_clutch" /> | <ItemGrid><ItemIcon id="create_connected:inverted_clutch" /></ItemGrid> | Relays only while powered |
+| <ItemLink id="create_connected:inverted_gearshift" /> | <ItemGrid><ItemIcon id="create_connected:inverted_gearshift" /></ItemGrid> | Reverses by default, and passes unchanged while powered |
+| <ItemLink id="create_connected:freewheel_clutch" /> | <ItemGrid><ItemIcon id="create_connected:freewheel_clutch" /></ItemGrid> | Transmits only when input rotation matches its configured direction |
+| <ItemLink id="create_connected:centrifugal_clutch" /> | <ItemGrid><ItemIcon id="create_connected:centrifugal_clutch" /></ItemGrid> | Couples according to the configured input-speed threshold |
+| <ItemLink id="create_connected:shear_pin" /> | <ItemGrid><ItemIcon id="create_connected:shear_pin" /></ItemGrid> | Single-use connector, breaks when the network is overstressed |
+| <ItemLink id="create_connected:overstress_clutch" /> | <ItemGrid><ItemIcon id="create_connected:overstress_clutch" /></ItemGrid> | Disconnects after its overload delay, fix the load then reset with a wrench or redstone pulse |
+| <ItemLink id="create_connected:brake" /> | <ItemGrid><ItemIcon id="create_connected:brake" /></ItemGrid> | Applies a heavy stress load when powered by redstone |
+
+***
+
+## Manual and larger sources
+
+| Source | View | What it needs |
+| --- | --- | --- |
+| <ItemLink id="create_connected:crank_wheel" /> | <ItemGrid><ItemIcon id="create_connected:crank_wheel" /></ItemGrid> | A placed wheel turned by hand. Hold right click on it to turn counter clockwise, and sneak while holding right click to turn clockwise |
+| <ItemLink id="create:windmill_bearing" /> | <ItemGrid><ItemIcon id="create:windmill_bearing" /></ItemGrid> | A sail assembly on the bearing |
+| <ItemLink id="create:steam_engine" /> | <ItemGrid><ItemIcon id="create:steam_engine" /></ItemGrid> | A boiler supplying steam with the piston free to move |
+
+Open the windmill bearing and steam engine Ponder lessons for their generator assembly layouts. Milling and ore work belong to [Material processing](machines.ore-processing.md).
+
+- [Stored rotation](power.stored-rotation.md) Holding rotation for later use.
+- [Machines & storage](reference.machines-storage.md) The section this topic belongs to.
+- [Item and fluid routing](machines.logistics.md) Belts, funnels and item routing.
 
 ***
 

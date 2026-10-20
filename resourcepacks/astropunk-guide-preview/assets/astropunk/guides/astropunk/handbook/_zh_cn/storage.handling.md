@@ -8,58 +8,73 @@ navigation:
 
 # 整理、转移与丢弃物品
 
-## 物品栏本身就是界面
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Sophisticated+Inventory+Interactions+TrashSlot+Mouse+Tweaks+chest+sorting+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Sophisticated+Inventory+Interactions+TrashSlot+Mouse+Tweaks+%E7%AE%B1%E5%AD%90+%E6%95%B4%E7%90%86+%E6%95%99%E7%A8%8B)
 
-储存的时间大多耗在界面上，而不是容器里。本包装了三个界面模组，去掉重复的拖拽与点击。
+## 容器界面
 
-打开任何受支持的容器，使用它的搜索栏与排序按钮。Sophisticated Inventory Interactions 在受支持的界面里加入搜索、玩家物品栏排序、容器排序与转移控制。
+![背包与垃圾桶格](images/visual-inventory-trash.png)
 
-<ItemGrid><ItemIcon id="minecraft:chest" /><ItemIcon id="minecraft:hopper" /><ItemIcon id="minecraft:shulker_box" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
+背包与垃圾桶格
 
-| 界面操作 | 省掉什么 |
+Sophisticated Inventory Interactions 会给受支持的界面添加控件。本整合包为箱子、漏斗、发射器、潜影盒与马匹背包界面开启了它。
+
+| 控件 | 作用 |
 | --- | --- |
-| 搜索栏 | 在一整箱里翻找一件物品 |
-| 排序按钮 | 每次倒完东西后手动整理 |
-| 转移控制 | 一叠一叠地按住 Shift 点击 |
-| 在格子上滚动鼠标滚轮 | 手动拖动一叠物品 |
+| 搜索框 | 把界面筛成匹配的格子，不移动物品 |
+| 整理容器 | 重排打开的容器 |
+| 整理背包 | 重排自己的格子，快捷栏保持原有顺序 |
+| 移动按钮 | 默认转移与目的地物品匹配的内容，按住 Shift 时转移目的地能接收的全部物品 |
 
-鼠标滚轮与拖拽由 Mouse Tweaks 处理。它是便利模组，具体手势值得在控制界面里确认一次，而不是假定与别的整合包相同。
+移动按钮有两种模式。不按 Shift 的左键只移动匹配目的地的物品，按住 Shift 的左键移动全部。可用格子不超过九个时搜索与排序开关会隐藏，所以漏斗与发射器没有它们，箱子有。
 
 ***
 
-## 什么会被捡起
+
+### 鼠标手势
+
+Mouse Tweaks 为容器界面增加以下操作：
+
+| 手势 | 结果 |
+| --- | --- |
+| 手持一组物品，按住左键拖过同类物品 | 将同类物品收进手持的这一组 |
+| 按住 Shift 和左键拖过格子 | 将经过格子的物品快速转移到另一个物品栏 |
+| 手持物品按住右键拖动 | 每次经过格子都放一件，重复经过也会继续放入 |
+| 指向一组物品滚动滚轮 | 在该格与另一个物品栏之间转移物品 |
+
+***
+
+### 垃圾桶格
+
+垃圾桶格隐藏时，按 <KeyBind id="key.trashslot.toggle" /> 显示它。
+
+TrashSlot 会给受支持的界面加一个删除格。生存模式下最后放进去的物品可以取回，再放新的物品进去会替换它，这一步才是销毁。
+
+| 本整合包的设定 | 取值 | 含义 |
+| --- | --- | --- |
+| 立即删除 | 关闭 | 放进去的物品先留在格子里，不会碰到就消失 |
+| 隐藏时可删除 | 关闭 | 格子不显示时删除键无效 |
+| 黑名单 | 空 | 配置默认不保护任何物品 |
+| 提示 | 开启 | 第一次使用时说明用途 |
+
+本整合包允许在创造模式使用删除键，创造模式的删除与立即删除设定无关，是永久删除。黑名单为空，贵重物品也不会受到删除保护。
+
+## 拾取物品
 
 <EmiSearch query="@interactic" />
 
-<ItemGrid><ItemIcon id="interactic:item_filter" /><ItemIcon id="minecraft:hopper" /></ItemGrid>
+<ItemGrid><ItemIcon id="interactic:item_filter" /></ItemGrid>
 
-| 设置 | 影响 |
-| --- | --- |
-| 过滤器内容 | 允许被收集的物品 |
-| 拾取规则 | 过滤器是否决定进入物品栏的东西 |
-| 渲染规则 | 被过滤的掉落是否以不同方式显示 |
+Interactic Renewed 提供 <ItemLink id="interactic:item_filter" />，用于选择性拾取。配方是四个铜锭围住一颗末影珍珠。
 
-Interactic Renewed 把拾取与渲染分开，因此过滤器可以把杂物从视野里隐藏，而不改变你实际收集的东西。下矿前就设好，别等物品栏塞满石头再设。
+1. 手持过滤器并右键，打开物品列表。
+2. 设置要过滤的物品。在界面中选择 Block（排除）可拒绝列表内物品，选择 Allow（允许）则只拾取列表内物品。
+3. 关闭界面，手持过滤器潜行并右键，可开启或关闭过滤。这不会切换排除与允许模式。
 
-让掉落物更容易看清与拾取的也是这个模组。把某件物品从渲染里隐藏，不会阻止你捡起它。
+启用过滤并选择 Block 模式后，走过列表内的掉落物时，它应留在地上，其他物品仍可正常拾取。关闭过滤后，列表不会阻止普通拾取。
 
 ***
-
-## 垃圾桶不是储存
-
-| 本包设置 | 取值 |
-| --- | --- |
-| 即时删除 | 关闭，物品会留在格子里 |
-| 隐藏时仍可删除 | 关闭 |
-| 禁止删除清单 | 为空，默认不保护任何物品 |
-| 提示 | 开启 |
-
-TrashSlot 给物品栏界面增加一个格子，并不新增物品。真正重要的是即时删除关闭。格子里的物品在被清空之前都还在，你因此有一次取回的机会。打开即时删除，等于对所有物品一次取消这次机会。
-
-禁止删除清单为空，所以 TrashSlot 本身不保护任何东西。如果贵重物品总是掉进去，把它加进清单，而不是靠小心。
-
-搬运按键与手册的当前绑定见[操作与按键](help.controls.md)。
-
+- [物品与流体输送](machines.logistics.md) 传送带、漏斗、过滤器与路由。
+- [大宗存储](storage.bulk.md) 仓库与更大容量存储。
 
 ***
 

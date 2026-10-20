@@ -1,92 +1,81 @@
 ---
 navigation:
-  title: "Electricity"
-  position: 11
+  title: "Electrical circuits"
+  position: 5
   parent: reference.machines-storage.md
   icon: minecraft:lightning_rod
 ---
 
-# Electricity
+# Electrical circuits
 
-## Rotation becomes voltage
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+Create+Electro+Energetics+1.1.3+electricity+guide) · [中文](https://www.youtube.com/results?search_query=Minecraft+Create+Electro+Energetics+1.1.3+%E7%94%B5%E5%8A%9B%E6%95%99%E7%A8%8B)
+
+## Build the alternator
 
 <EmiSearch query="@electroenergetics" /> <EmiSearch query="@create" />
 
-Create: Electro Energetics does not store a magical energy number. A source induces a voltage, a device lets current flow, and the current does the work. That is why a short circuit, a long thin wire and a badly matched transformer all change the result.
+Create: Electro Energetics converts rotation to electricity at an alternator. In the Ponder lesson Setting up an alternator, surround the rotors with stators, then connect rotational drive.
 
-The alternator is the join between the two systems. Rotation turns it, and it produces current.
+<ItemGrid><ItemIcon id="electroenergetics:alternator_rotor" /><ItemIcon id="electroenergetics:stator" /><ItemIcon id="electroenergetics:alternator_brushes" /></ItemGrid>
 
-<ItemGrid><ItemIcon id="electroenergetics:alternator_rotor" /><ItemIcon id="electroenergetics:stator" /><ItemIcon id="electroenergetics:alternator_brushes" /><ItemIcon id="electroenergetics:accumulator" /><ItemIcon id="electroenergetics:capacitor" /><ItemIcon id="electroenergetics:high_voltage_capacitor" /><ItemIcon id="electroenergetics:transformer_core" /></ItemGrid>
+For the physical arrangement, open the lesson rather than guessing the rotor and stator layout.
 
-| Part | Job |
-| --- | --- |
-| <ItemLink id="electroenergetics:alternator_rotor" /> | The turning part of an alternator |
-| <ItemLink id="electroenergetics:stator" /> | The stationary winding around the rotor |
-| <ItemLink id="electroenergetics:alternator_brushes" /> | Carries current to the moving part, with a three phase variant in the same family |
-| <ItemLink id="electroenergetics:accumulator" /> | Stores charge for later draw |
-| <ItemLink id="electroenergetics:capacitor" /> | A small buffer that smooths a changing draw |
-| <ItemLink id="electroenergetics:high_voltage_capacitor" /> | The same role on a high voltage section |
-
-Build the alternator on the same shaft line as your workshop. The Ponder entry for the alternator shows the assembled shape, and it is faster to follow that than to guess the block order.
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+alternator+stator+rotor+setup) · [中文](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+%E5%8F%91%E7%94%B5%E6%9C%BA+%E5%AE%9A%E5%AD%90+%E8%BD%AC%E5%AD%90+%E5%AE%89%E8%A3%85)
 
 ***
 
-## Wire a circuit in one direction
+## Close the first circuit
 
-<ItemGrid><ItemIcon id="electroenergetics:connector" /><ItemIcon id="electroenergetics:copper_wire_spool" /><ItemIcon id="electroenergetics:insulated_wire" /><ItemIcon id="electroenergetics:fuse" /><ItemIcon id="electroenergetics:voltmeter" /><ItemIcon id="electroenergetics:ammeter" /></ItemGrid>
+<ItemGrid><ItemIcon id="electroenergetics:connector" /><ItemIcon id="electroenergetics:copper_wire_spool" /><ItemIcon id="electroenergetics:blue_electric_motor" /><ItemIcon id="electroenergetics:bulb" /></ItemGrid>
 
-| Part | Use |
-| --- | --- |
-| <ItemLink id="electroenergetics:connector" /> | Termination point for a wire on a block |
-| <ItemLink id="electroenergetics:copper_wire_spool" /> | Lays wire between connectors |
-| <ItemLink id="electroenergetics:insulated_wire" /> | Wire for runs that need insulation |
-| <ItemLink id="electroenergetics:fuse" /> with a fuse holder | Opens the circuit before a fault damages it |
-| <ItemLink id="electroenergetics:fuse_holder" /> | Holds a fuse in the line |
-| <ItemLink id="electroenergetics:voltmeter" /> | Reads the voltage at a point |
-| <ItemLink id="electroenergetics:clamp_meter" /> | Reads current through a wire without breaking the run |
-| <ItemLink id="electroenergetics:ammeter" /> | Reads the current through a point |
+1. Place electrical connectors at the alternator output and at a bulb or blue electric motor.
+2. Use the copper wire spool to connect alternator positive to the load, then connect the load return to alternator negative. Both legs are required for a closed circuit.
+3. Start the rotation source. A lit bulb or turning motor is a direct first success.
+4. Use Connecting Wires in Ponder to learn how to remove a wire with an empty spool.
 
-1. Place a connector on the alternator output and another on the machine.
-2. Run a spool between them and watch the wire take the shape you drew.
-3. Fit a fuse in its holder between source and load.
-4. Read the voltmeter at the source, then at the load.
-
-A voltage that falls between the two readings is the wire and the distance, not a broken machine. That is the difference between this and a fluid style power system, and the reason a meter is the first purchase rather than the last.
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+closed+circuit+copper+wire+connectors+blue+electric+motor) · [中文](https://www.youtube.com/results?search_query=Create+Electro+Energetics+1.1.3+%E9%97%AD%E5%90%88%E7%94%B5%E8%B7%AF+%E9%93%9C%E7%BA%BF+%E6%8E%A5%E7%BA%BF%E7%AB%AF+%E8%93%9D%E8%89%B2%E7%94%B5%E5%8A%A8%E6%9C%BA)
 
 ***
 
-## Motors, pumps and heat
+## Protect, measure, and transform
 
-<ItemGrid><ItemIcon id="electroenergetics:blue_electric_motor" /><ItemIcon id="electroenergetics:electric_pump" /><ItemIcon id="electroenergetics:bulb" /><ItemIcon id="electroenergetics:transformer" /><ItemIcon id="electroenergetics:voltage_regulator" /></ItemGrid>
+| Component | View | Use |
+| --- | --- | --- |
+| <ItemLink id="electroenergetics:fuse_holder" /> | <ItemGrid><ItemIcon id="electroenergetics:fuse_holder" /></ItemGrid> | Holds a protective fuse in series |
+| <ItemLink id="electroenergetics:voltmeter" /> | <ItemGrid><ItemIcon id="electroenergetics:voltmeter" /></ItemGrid> | Connect in parallel across two points to read their voltage difference |
+| <ItemLink id="electroenergetics:ammeter" /> | <ItemGrid><ItemIcon id="electroenergetics:ammeter" /></ItemGrid> | Insert in series to measure current |
+| <ItemLink id="electroenergetics:clamp_meter" /> | <ItemGrid><ItemIcon id="electroenergetics:clamp_meter" /></ItemGrid> | Right-click a wire to read current without breaking it |
+| <ItemLink id="electroenergetics:transformer_core" /> | <ItemGrid><ItemIcon id="electroenergetics:transformer_core" /></ItemGrid> | Core for a configured transformer assembly |
+| <ItemLink id="electroenergetics:high_voltage_capacitor" /> | <ItemGrid><ItemIcon id="electroenergetics:high_voltage_capacitor" /></ItemGrid> | High-voltage energy storage component |
+| <ItemLink id="electroenergetics:accumulator" /> | <ItemGrid><ItemIcon id="electroenergetics:accumulator" /></ItemGrid> | Stores electrical energy, connect positive to positive and negative to negative |
+| <ItemLink id="electroenergetics:emergency_stop_button" /> | <ItemGrid><ItemIcon id="electroenergetics:emergency_stop_button" /></ItemGrid> | Right-click to engage and open its internal switch, shift right-click to disengage |
 
-| Consumer | Gives you |
-| --- | --- |
-| Electric motor | Rotation without a shaft line, in several colors |
-| <ItemLink id="electroenergetics:electric_pump" /> | Fluid movement at a distance from the workshop |
-| <ItemLink id="electroenergetics:bulb" /> | Light and a visible sign that the circuit is live |
-| Resistive heater | Heat for machines that want it |
-
-A <ItemLink id="electroenergetics:transformer" /> changes voltage between sections, and a <ItemLink id="electroenergetics:voltage_regulator" /> holds a section steady. Put the transformer where the wire length changes, not at every machine.
-
-The mod also converts between its own electricity and Forge Energy devices through a dedicated converter block, which is how it feeds machines from other mods. It runs its simulation off the main thread and keeps working in unloaded chunks, so a long transmission line between two bases behaves the same whether or not you stand beside it.
+The transformer core lesson requires radiator panels around the core and transformer oil over it to increase its power rating. Do not exceed that rating. A voltmeter reads between two points, not an absolute voltage at one point.
 
 ***
 
-## Electrified rail
+## Choose the next electrical component
 
-<ItemGrid><ItemIcon id="electroenergetics:pantograph" /><ItemIcon id="electroenergetics:rail_contact_shoe" /><ItemIcon id="electroenergetics:catenary_holder" /><ItemIcon id="electroenergetics:emergency_stop_button" /></ItemGrid>
+After the first circuit works, add only the component your next job needs. A transformer changes voltage by its configured ratio. A regulator has separate source, ground and load terminals, so wiring it like a two-terminal bulb will not work.
 
-| Part | Role |
-| --- | --- |
-| <ItemLink id="electroenergetics:catenary_holder" /> | Holds the overhead wire above the track |
-| <ItemLink id="electroenergetics:pantograph" /> | Collects current from overhead wire |
-| <ItemLink id="electroenergetics:rail_contact_shoe" /> | Collects current from a third rail |
-| <ItemLink id="electroenergetics:emergency_stop_button" /> | Cuts the section by hand |
+| Part | View | Use |
+| --- | --- | --- |
+| <ItemLink id="electroenergetics:fuse" /> | <ItemGrid><ItemIcon id="electroenergetics:fuse" /></ItemGrid> | Fit inside a Fuse Holder in the circuit path |
+| <ItemLink id="electroenergetics:insulated_wire" /> | <ItemGrid><ItemIcon id="electroenergetics:insulated_wire" /></ItemGrid> | Insulated wiring material |
+| <ItemLink id="electroenergetics:capacitor" /> | <ItemGrid><ItemIcon id="electroenergetics:capacitor" /></ItemGrid> | Electrical capacitor component |
+| <ItemLink id="electroenergetics:electric_pump" /> | <ItemGrid><ItemIcon id="electroenergetics:electric_pump" /></ItemGrid> | Electric fluid-pumping machine |
+| <ItemLink id="electroenergetics:transformer" /> | <ItemGrid><ItemIcon id="electroenergetics:transformer" /></ItemGrid> | Set its ratio to step voltage up or down |
+| <ItemLink id="electroenergetics:voltage_regulator" /> | <ItemGrid><ItemIcon id="electroenergetics:voltage_regulator" /></ItemGrid> | Source connects at the top input, negative at the bottom ground, load at the output, then close the return circuit |
 
-Electrified rail is a separate project from a workshop circuit. Run the overhead line first, test the pantograph on one short section, then extend. [Railways](transport.passenger.md) covers the trains themselves.
+***
 
-The next useful step, once a circuit is stable, is moving the same work into an industrial process line. [Industrial machinery](power.industry.md) covers that separate system.
+## Supply the railway
 
+<ItemGrid><ItemIcon id="electroenergetics:catenary_holder" /><ItemIcon id="electroenergetics:pantograph" /><ItemIcon id="electroenergetics:rail_contact_shoe" /></ItemGrid>
+
+For overhead supply, connect positive to the catenary and negative to a ground rod. An electric train needs its motor and a pantograph touching the catenary. A rail contact shoe is the selected Ponder's third-rail alternative. See [passenger rail](transport.passenger.md) for train operation.
+
+- [Steel and oil](power.industry.md) for furnaces, oil processing and engines.
 
 ***
 

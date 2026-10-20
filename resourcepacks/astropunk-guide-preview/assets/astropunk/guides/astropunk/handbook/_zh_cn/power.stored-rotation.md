@@ -1,66 +1,74 @@
 ---
 navigation:
   title: "储存旋转动力"
-  position: 8
+  position: 4
   parent: reference.machines-storage.md
   icon: create:flywheel
 ---
 
 # 储存旋转动力
 
-## 旋转用的蓄电池
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Springs+rotational+spring+kinetic+battery+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Springs+%E6%97%8B%E8%BD%AC%E5%BC%B9%E7%B0%A7+%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@create_connected" /> <EmiSearch query="@createsprings" /> <EmiSearch query="@create" />
+## 旋转储备
 
-<ItemLink id="create_connected:kinetic_battery" /> 把旋转存为应力，之后再放出来。没有红石信号时充电，通电时放电，因此由一只拉杆决定储备什么时候带动线路。
+<EmiSearch query="@create_connected" /> <EmiSearch query="@create" />
 
-<ItemGrid><ItemIcon id="create_connected:kinetic_battery" /><ItemIcon id="create_connected:kinetic_bridge" /><ItemIcon id="create:stressometer" /><ItemIcon id="create:analog_lever" /><ItemIcon id="createsprings:kinetic_interface" /><ItemIcon id="createsprings:portative_steam_engine" /><ItemIcon id="createsprings:punchcard" /><ItemIcon id="createsprings:spring_base" /><ItemIcon id="createsprings:spring_catapult" /><ItemIcon id="createsprings:spring_drill" /><ItemIcon id="createsprings:spring_fan" /><ItemIcon id="createsprings:spring_launcher" /><ItemIcon id="createsprings:spring_saw" /><ItemIcon id="createsprings:spring_shove" /></ItemGrid>
+<ItemLink id="create_connected:kinetic_battery" /> 储存应力容量。未通红石时，它从正面输入抽取应力充能。接入红石后，它按设定的容量与转速放电。界面与比较器可读充能。其他动力源满足需求时，电池不会放电，但电池运输物品的传送带仍有少量消耗，这是其 Ponder 中说明的情况。
 
-| 部件 | 行为 |
-| --- | --- |
-| <ItemLink id="create_connected:kinetic_battery" /> | 无信号充电，有信号放电 |
-| <ItemLink id="create_connected:kinetic_bridge" /> | 在两个独立网络之间转移容量 |
-| <ItemLink id="create:stressometer" /> | 显示蓄电池对网络做了什么 |
-| <ItemLink id="create:analog_lever" /> | 干净的放电开关 |
+| 部件 | 外观 | 用途 |
+| --- | --- | --- |
+| <ItemLink id="create_connected:kinetic_battery" /> | <ItemGrid><ItemIcon id="create_connected:kinetic_battery" /></ItemGrid> | 储存并输出应力容量 |
+| <ItemLink id="create_connected:kinetic_bridge" /> | <ItemGrid><ItemIcon id="create_connected:kinetic_bridge" /></ItemGrid> | 在独立网络之间传递容量 |
+| <ItemLink id="create:stressometer" /> | <ItemGrid><ItemIcon id="create:stressometer" /></ItemGrid> | 读取网络应力 |
+| <ItemLink id="create:analog_lever" /> | <ItemGrid><ItemIcon id="create:analog_lever" /></ItemGrid> | 红石控制 |
 
-在当前版本中，蓄电池以物品形态保留电量，并且只释放网络实际需要的应力，因此可以把充满的蓄电池带到远处的工地，而不必在那里拉一条轴。容量、放电速度与应力消耗都可配置，不同整合包的数字因此可以不同。
+1. 把电池正面接到正在运行的动力源，保持未通红石以充能。
+2. 接入红石放电，对比储能与网络运行情况。
+3. 要在电池间转移电量，给正在充能的电池右键另一块电池以使其放电，或给正在放电的电池右键已充能电池来转移电量。机械手与机械臂可自动操作。
 
-***
-
-## 弹簧用另一种方式存同样的东西
-
-<ItemLink id="createsprings:spring" /> 储存旋转，按需释放。区别在控制方式。弹簧响应红石信号强度，因此比较器或模拟拉杆可以决定它释放多少、为什么释放。
-
-<ItemGrid><ItemIcon id="createsprings:spring" /><ItemIcon id="createsprings:large_spring_coil" /><ItemIcon id="createsprings:spring_alloy" /><ItemIcon id="createsprings:unfinished_spring" /><ItemIcon id="createsprings:friction_welder" /></ItemGrid>
-
-| 部件 | 作用 |
-| --- | --- |
-| <ItemLink id="createsprings:spring_alloy" /> | 制作弹簧的材料 |
-| <ItemLink id="createsprings:unfinished_spring" /> | 会成为弹簧的形态 |
-| <ItemLink id="createsprings:friction_welder" /> | 把合金应用到未完成的弹簧上 |
-| <ItemLink id="createsprings:large_spring_coil" /> | 更大储备用的大线圈 |
-
-已发布的配方用摩擦焊接机把弹簧合金应用到未完成的弹簧上，而焊接机需要旋转。因此第一只弹簧是两步工程，这也是在需要一打弹簧之前就囤合金的理由。
-
-弹簧释放的力量也能破坏方块。把溅射模式或任何高设定与普通储备分开，并且先用临时建筑测试设定。
+电池作为物品时也会保留电量。串联电池可延长放电时间，并联则提高总应力容量。实际消耗取决于正在使用的应力容量，不要把电池当作固定时长的电源。
 
 ***
 
-## 三种储备怎么选
+## 弹簧储存旋转动力
 
-<ItemGrid><ItemIcon id="create_connected:kinetic_battery" /><ItemIcon id="createsprings:spring" /></ItemGrid>
+<EmiSearch query="@createsprings" />
 
-| 储备 | 适合什么 |
-| --- | --- |
-| 动力蓄电池 | 同一网络上的紧凑缓冲，用红石切换 |
-| 弹簧 | 按信号控制输出，把储备移动到需要的地方 |
+![Tutorial](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+Springs+1.2+spring+charging+large+spring+tools+tutorial) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+Create+Springs+%E5%BC%B9%E7%B0%A7+%E5%85%85%E8%83%BD+%E5%A4%A7%E5%9E%8B%E5%BC%B9%E7%B0%A7+%E5%B7%A5%E5%85%B7+%E6%95%99%E7%A8%8B)
 
-蓄电池应对停转。弹簧应对变化的需求。多数基地只需要其中一个，区别在于储备该如何开启。
+弹簧储存旋转动力。任一输入方向都能为它充能。红石会释放储存的动力，信号强度控制输出转速，刚度控制充能。用绊线钩可在旋转输出与飞溅模式之间切换，空手使用会切回旋转模式。
 
-第一步是在一条已经在转的线上装蓄电池，并在放电侧装拉杆。电源停下时看应力表下降，同时看生产继续。
+| 弹簧系统 | 外观 | 操作 |
+| --- | --- | --- |
+| <ItemLink id="createsprings:spring" /> | <ItemGrid><ItemIcon id="createsprings:spring" /></ItemGrid> | 由旋转充能，红石放电 |
+| <ItemLink id="createsprings:large_spring_coil" /> | <ItemGrid><ItemIcon id="createsprings:large_spring_coil" /></ItemGrid> | 大弹簧由同向线圈组成，端面为三乘三，内部再加空心环 |
+| <ItemLink id="createsprings:kinetic_interface" /> | <ItemGrid><ItemIcon id="createsprings:kinetic_interface" /></ItemGrid> | 一对接口相隔一格，可操作移动结构上的弹簧 |
+| <ItemLink id="createsprings:spring_base" /> | <ItemGrid><ItemIcon id="createsprings:spring_base" /></ItemGrid> | 弹簧动力工具的底座 |
 
-储备不会凭空创造容量。[旋转动力](machines.rotation.md)统一说明应力预算与转速规则。
+| 弹簧装置 | 外观 | 用途 |
+| --- | --- | --- |
+| <ItemLink id="createsprings:spring_catapult" /> | <ItemGrid><ItemIcon id="createsprings:spring_catapult" /></ItemGrid> | 放置前选好目标，放入物品并供旋转。没有目标时不会工作 |
+| <ItemLink id="createsprings:spring_drill" /> | <ItemGrid><ItemIcon id="createsprings:spring_drill" /></ItemGrid> | 弹簧动力钻具 |
+| <ItemLink id="createsprings:spring_saw" /> | <ItemGrid><ItemIcon id="createsprings:spring_saw" /></ItemGrid> | 弹簧动力锯具 |
+| <ItemLink id="createsprings:spring_shove" /> | <ItemGrid><ItemIcon id="createsprings:spring_shove" /></ItemGrid> | 弹簧动力铲具 |
+| <ItemLink id="createsprings:spring_fan" /> | <ItemGrid><ItemIcon id="createsprings:spring_fan" /></ItemGrid> | 弹簧动力便携风扇 |
+| <ItemLink id="createsprings:spring_launcher" /> | <ItemGrid><ItemIcon id="createsprings:spring_launcher" /></ItemGrid> | 发射弹簧物品与方块 |
+| <ItemLink id="createsprings:punchcard" /> | <ItemGrid><ItemIcon id="createsprings:punchcard" /></ItemGrid> | 为支持的工具编程 |
+| <ItemLink id="createsprings:portative_steam_engine" /> | <ItemGrid><ItemIcon id="createsprings:portative_steam_engine" /></ItemGrid> | 带燃料、水与压力控制的便携蒸汽引擎 |
 
+1. 将弹簧接到正在运转的轴上，先不要接入红石。两个旋转方向都能充能。接入红石后释放储存的旋转动力，信号强度决定输出转速。
+2. 制作便携工具时，在物品栏中把已充能弹簧叠放到弹簧底座或支持的弹簧工具上。底座、钻头、锯、铲和风扇都最多容纳两根弹簧。挖掘或采集速度取决于工具转速。
+3. 潜行右键穿孔卡以打开指令界面，选择执行工具和触发条件，再把卡叠放到兼容工具上。它负责动作编程，不负责储能。
+4. 手持弹簧弹射器潜行右键选定目标，再放置、提供旋转动力并投入物品。没有选定目标时不会发射。
+
+便携蒸汽引擎的界面由当前绑定的引擎界面按键打开。将熔炉燃料放入燃料槽，并随身携带水桶以补充水。模式决定支持的充能或工具加速功能。超速模式会增加压力，压力达到一百时引擎会爆炸，因此要观察压力表，不要一直开启超速。
+
+<ItemGrid><ItemIcon id="createsprings:friction_welder" /><ItemIcon id="createsprings:spring_alloy" /><ItemIcon id="createsprings:unfinished_spring" /></ItemGrid>
+
+摩擦焊接器通过两台焊接器之间的转速差加工中间的方块。弹簧合金和未完成弹簧的配方可在配方浏览器中查询，不要把这些原料当成已充能工具。
+
+穿孔卡配置支持工具的操作指令，不储存旋转动力。便携蒸汽引擎是独立的随身引擎，不是弹簧。轴与网络应力见[旋转动力](machines.rotation.md)。
 
 ***
 

@@ -8,63 +8,38 @@ navigation:
 
 # 手动交易与自动交易
 
-## 工作站旁的交易站
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Create+Trading+Floor+trading+depot+villager+tutorial) · [中文](https://www.youtube.com/results?search_query=%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B+%E4%BA%A4%E6%98%93%E7%AB%99+%E6%9D%91%E6%B0%91+%E6%95%99%E7%A8%8B)
 
-<EmiSearch query="@trading_floor" />
+## 将交易站连接到村民
 
-<ItemLink id="trading_floor:trading_depot" /> 把一笔村民交易变成一个机器的输入与输出。交易清单仍然属于村民。交易站只负责交付交易要的东西，并取走交易给出的东西。
+<EmiSearch query="@trading_floor" /> <EmiSearch query="@create" />
 
-把交易站贴放在村民已经认领的工作站上，而不是贴在村民身上。
+把 <ItemLink id="trading_floor:trading_depot" /> 接到村民已认领的工作站。打开交易站，用交易过滤器选择一笔可用交易，再按列表放入准确成本物品。村民必须能到达工作站，并在正常工作时间工作。Ponder 课程包括 Trading with trading depots。
 
 <Recipe id="trading_floor:trading_depot" />
 
-<ItemGrid><ItemIcon id="trading_floor:trading_depot" /><ItemIcon id="minecraft:lectern" /><ItemIcon id="minecraft:emerald" /><ItemIcon id="minecraft:book" /></ItemGrid>
+| 部件 | 外观 | 作用 |
+| --- | --- | --- |
+| 交易站 | <ItemGrid><ItemIcon id="trading_floor:trading_depot" /></ItemGrid> | 存放该交易站的输入与产物 |
+| 已认领工作站 | <ItemGrid><ItemIcon id="minecraft:lectern" /></ItemGrid> | 将交易站连接到对应村民 |
+| 机械臂 | <ItemGrid><ItemIcon id="create:mechanical_arm" /></ItemGrid> | 配置后向受支持的交易站目标供料 |
+| 交易物品 | <ItemGrid><ItemIcon id="minecraft:emerald" /><ItemIcon id="minecraft:book" /></ItemGrid> | 成本与结果取决于所选村民报价 |
 
-| 部件 | 提供什么 |
-| --- | --- |
-| <ItemLink id="trading_floor:trading_depot" /> | 单笔交易的机器接口 |
-| 被认领的工作站 | 把交易站绑定到一位村民 |
-| 村民 | 拥有交易清单、价格与补货 |
-| <ItemLink id="minecraft:emerald" /> | 通用货币，仍需你来支付 |
-
-交易在村民工作时段进行。够不到工作站或正在睡觉的村民不会交易，交易站会带着里面的输入一直停着。
+村民下次工作时，若输入齐全，交易站会执行选定交易。用护目镜查看交易站信息与最近交易栏。用漏斗或滑槽从交易站取出产物。
 
 ***
 
-## 一个能用的交易站
+## 双输入交易
 
-<EmiSearch query="@create" />
+需要两种不同成本物品的交易要用两个交易站。在第一个输入站设置交易过滤器，避免误选其他报价。第二个交易站在过滤器相同，或该站未设置过滤器时，会参与交易。这里指过滤器未设置，不是交易站库存为空。产物进入持有第一项交易输入的交易站。
 
-<ItemGrid><ItemIcon id="trading_floor:trading_depot" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:mechanical_arm" /><ItemIcon id="create:display_link" /></ItemGrid>
+| 路线 | 外观 | 用途 |
+| --- | --- | --- |
+| 单输入 | <ItemGrid><ItemIcon id="create:brass_funnel" /></ItemGrid> | 黄铜漏斗供给选定的准确成本 |
+| 竖直传输 | <ItemGrid><ItemIcon id="create:chute" /></ItemGrid> | 滑槽竖直供料或取货 |
+| 交易读数 | <ItemGrid><ItemIcon id="create:display_link" /></ItemGrid> | 可选状态显示 |
 
-| 结果 | 细节 |
-| --- | --- |
-| 每个工作时段交易次数 | 本包最多 4 次 |
-| 村民经验 | 归村民，默认开启 |
-| 玩家经验 | 本包默认关闭 |
-| 读数 | 护目镜与显示链接可显示交易状态 |
-
-每时段四次是本包设置，不是模组设计的极限。它足以让铁农场或书籍交易值得自动化，也低到单靠一个交易站养不起整个基地。
-
-***
-
-## 两个交易站，两种输入
-
-需要两种不同物品的交易要用两个交易站，各自带输入。两者的过滤器必须一致，或者其中一个留空。
-
-<ItemGrid><ItemIcon id="trading_floor:trading_depot" /><ItemIcon id="create:brass_funnel" /><ItemIcon id="create:chute" /></ItemGrid>
-
-| 布置 | 行为 |
-| --- | --- |
-| 一个交易站，一种输入 | 处理单物品交易 |
-| 两个交易站，过滤器一致 | 两者共同供给同一笔交易 |
-| 两个交易站，一个过滤器留空 | 留空的那个接受任何物品 |
-| 两个交易站，过滤器不同 | 交易无法完成 |
-
-用设为精确物品的 <ItemLink id="create:brass_funnel" /> 给每个交易站供料。接受替代物品的过滤器会让交易悄悄失败，因为村民不会收下那件替代品。
-
-下一步是不靠玩家把付款送进去、把产物取出来。[物料输送](machines.logistics.md)说明传送带、漏斗与机械臂。
-
+村民决定价格与补货。Ponder 课程包括 Trading with multiple trading depots。[物品与流体输送](machines.logistics.md)介绍物品移动。
 
 ***
 

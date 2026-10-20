@@ -5,7 +5,7 @@ import json
 import re
 import subprocess
 import unittest
-from handbook_revision_contract import before_food_finalization
+from handbook_revision_contract import before_food_finalization, before_machines_finalization
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
@@ -24,9 +24,10 @@ class FoodFinalization(unittest.TestCase):
 
     def test_food_only_source_scope(self):
         before = json.loads(subprocess.check_output(['git', 'show', MANIFEST['development_base'] + ':docs/handbook-content.json'], cwd=ROOT, text=True))
+        historical = before_machines_finalization(CONTENT)
         for topic, bodies in before.items():
             if topic not in set(TOPICS) | {'fishing.habitats', 'world.dimensions', 'adventure.aquatic'}:
-                self.assertEqual(CONTENT[topic], bodies, topic)
+                self.assertEqual(historical[topic], bodies, topic)
 
     def test_retirement_and_book_lookup(self):
         self.assertNotIn('fishing.habitats', CONTENT)
@@ -48,7 +49,21 @@ class FoodFinalization(unittest.TestCase):
             before_food_finalization(changed)
 
     def test_generated_article_changes_are_food_and_retirement_links_only(self):
-        changed = subprocess.check_output(['git', 'diff', '--name-only', MANIFEST['development_base'], '--', str(PAGES)], cwd=ROOT, text=True).splitlines()
+        revision_path = ROOT / 'docs/machines-storage-revision-contract.json'
+        revision = json.loads(revision_path.read_text()) if revision_path.exists() else None
+        if revision:
+            before_machines_finalization(CONTENT)
+            endpoint = revision['development_base']
+            # Later owned pages have their own exact source contract. Every other
+            # generated article must still match the historical Food endpoint.
+            for page in PAGES.rglob('*.md'):
+                if page.stem not in revision['topics']:
+                    relative = page.relative_to(ROOT).as_posix()
+                    expected = subprocess.check_output(['git', 'show', endpoint + ':' + relative], cwd=ROOT)
+                    self.assertEqual(page.read_bytes(), expected, relative)
+            changed = subprocess.check_output(['git', 'diff', '--name-only', MANIFEST['development_base'], endpoint, '--', str(PAGES)], cwd=ROOT, text=True).splitlines()
+        else:
+            changed = subprocess.check_output(['git', 'diff', '--name-only', MANIFEST['development_base'], '--', str(PAGES)], cwd=ROOT, text=True).splitlines()
         allowed = set(TOPICS) | {'fishing.habitats', 'world.dimensions', 'adventure.aquatic'}
         self.assertTrue(changed)
         for path in changed:

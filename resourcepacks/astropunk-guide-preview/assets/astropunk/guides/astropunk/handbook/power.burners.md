@@ -1,72 +1,52 @@
 ---
 navigation:
-  title: "Liquid fuels"
-  position: 9
+  title: "Process heat"
+  position: 7
   parent: reference.machines-storage.md
   icon: minecraft:lava_bucket
 ---
 
-# Liquid fuels
+# Process heat
 
-## Heat is its own resource
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+blaze+burner+feeding+liquid+fuel+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Create+%E7%87%83%E7%83%A7%E5%99%A8+%E6%B6%B2%E4%BD%93%E7%87%83%E6%96%99+%E6%95%99%E7%A8%8B)
+
+## Heat for the machine above
 
 <EmiSearch query="@create" />
 
-A <ItemLink id="create:blaze_burner" /> supplies heat to the block above it. It is not rotation and it is not electricity, so a machine can have full rotation and still do nothing because its burner is cold.
+<GameScene zoom="3" interactive={true}>
+<Block id="create:blaze_burner" />
+<Block y="1" id="create:basin" />
+</GameScene>
 
-Start with an <ItemLink id="create:empty_blaze_burner" />. That is the crafted item, not a captured blaze.
+A basin sits directly above its burner. This shows the heat connection, not a complete mixing machine.
+
+A <ItemLink id="create:blaze_burner" /> supplies heat to the block directly above it. Heat is not shaft rotation or electricity. Craft an <ItemLink id="create:empty_blaze_burner" />, then right-click a Blaze with it to capture the Blaze, or use the Blaze spawner. The burner can then be placed beneath a heat-using machine.
 
 <Recipe id="create:crafting/kinetics/empty_blaze_burner" />
 
-<ItemGrid><ItemIcon id="create:empty_blaze_burner" /><ItemIcon id="create:blaze_burner" /><ItemIcon id="minecraft:blaze_rod" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
+| State or input | View | Result |
+| --- | --- | --- |
+| Empty cage | <ItemGrid><ItemIcon id="create:empty_blaze_burner" /></ItemGrid> | No heat |
+| Captured Blaze | <ItemGrid><ItemIcon id="create:blaze_burner" /></ItemGrid> | Ordinary heat when fueled |
+| <ItemLink id="create:blaze_cake" /> | <ItemGrid><ItemIcon id="create:blaze_cake" /></ItemGrid> | Superheated heat |
 
-| State | What you see |
-| --- | --- |
-| Empty burner | A cold cage, it supplies no heat |
-| Fed burner | A blaze inside, ordinary heat, flames at the sides |
-| Superheated burner | Taller flame, used by recipes that demand it |
-
-To capture a blaze, place the empty burner and let a blaze walk into it. A burner with a blaze inside can be picked up with a wrench and moved without losing it.
+The burner state changes when it is working. Check the visible burner state and the machine above it, rather than inferring heat from a shaft turning.
 
 ***
 
-## Feed it, or pipe it
+## Feed it by hand or pipe
 
-<ItemGrid><ItemIcon id="create:blaze_burner" /><ItemIcon id="create:fluid_tank" /><ItemIcon id="create:fluid_pipe" /><ItemIcon id="create:mechanical_pump" /><ItemIcon id="minecraft:lava_bucket" /></ItemGrid>
+<ItemGrid><ItemIcon id="create:blaze_burner" /><ItemIcon id="minecraft:lava_bucket" /><ItemIcon id="create:fluid_tank" /><ItemIcon id="create:fluid_pipe" /><ItemIcon id="create:mechanical_pump" /></ItemGrid>
 
-| Route | What it gives |
-| --- | --- |
-| Burnable items dropped in | Ordinary heat for as long as the fuel lasts |
-| A blaze cake | Superheated, for the recipes that name it |
-| Liquid fuel through a pipe | Ordinary heat without restocking the burner by hand |
-| Lava | Ordinary heat only, never superheat |
+1. For a manual start, right-click the burner with a flammable item. To superheat, feed it a Blaze Cake.
+2. For automated item feeding, use a Deployer or Mechanical Arm. A hopper or dropped item is not the documented feed method.
+3. For fluid, connect a tank and burner with pipes, then drive a mechanical pump in the direction of the burner.
 
-Create: Liquid Fuel is what makes the pipe route work. It does not add a new burner, it lets the existing one accept fluid from a tank, so a single tank can feed a row of burners through pipes and a pump.
+Lava supplies ordinary heat. Start the fluid route with lava. Fuel compatibility is specific to the burner and fuel form, so do not substitute another liquid merely because it burns in an industrial engine.
 
-The pump in this pack moves fluid 16 blocks to either side, and a tank holds 8 buckets per block. A bank of three burners under a basin is a small demand, so one tank is normally enough.
-
-***
-
-## Unified fuels does not mean any fuel
-
-<EmiSearch query="@tfmg" />
-
-Create: Unified Fuels connects supported consumers through shared fuel groups, and it generates compatibility data instead of adding machines. The selected release covers systems such as The Factory Must Grow, the Crafts and Additions burners, Liquid Fuel and the Stuff 'N Additions fueling tanks when those mods are present.
-
-<ItemGrid><ItemIcon id="create:blaze_burner" /><ItemIcon id="create:fluid_tank" /><ItemIcon id="tfmg:regular_engine" /></ItemGrid>
-
-| Question | Where the answer is |
-| --- | --- |
-| Will this fluid burn here | The consumer's own entry, not the fluid's name |
-| Will it superheat | Only fuels the burner lists as superheating |
-| Is diesel accepted by a burner | Only if the burner's group includes it |
-
-Refinery intermediates, process chemicals and steam are not automatically burnable. A shared fuel supply is a convenience for consumers that already accept the same group, not a universal adapter.
-
-Test with one bucket before plumbing a line across a base. If the burner rejects it, the fluid is outside its group, and no amount of pipe will change that.
-
-Heat and rotation meet at the same machine. [Rotational power](machines.rotation.md) covers the drive side, and [Industrial machinery](power.industry.md) covers the furnaces that use the most heat.
-
+- [Steel and oil](power.industry.md) Coke, steel, oil processing and engines.
+- [Rotational power](machines.rotation.md) The separate shaft network.
 
 ***
 
