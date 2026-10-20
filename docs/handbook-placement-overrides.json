@@ -119,6 +119,10 @@
     "category": "Visuals and sound",
     "topic": "visuals.lighting"
   },
+  "mods/create-stam1o-tweaks.pw.toml": {
+    "category": "Automation and industry",
+    "topic": "machines.ore-processing"
+  },
   "mods/createbetterfps.pw.toml": {
     "category": "Technical reference",
     "topic": "performance.baseline"

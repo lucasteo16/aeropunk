@@ -8,111 +8,90 @@ navigation:
 
 # 携带便携储存装备
 
-## 背包
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+1.21.1+Sophisticated+Backpacks+upgrades+guide+English) · [中文](https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C+1.21.1+%E7%B2%BE%E8%87%B4%E8%83%8C%E5%8C%85+%E5%8D%87%E7%BA%A7+%E6%95%99%E7%A8%8B)
+
+## 第一个背包
 
 <EmiSearch query="@sophisticatedbackpacks" />
 
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:backpack" />
-  <ItemIcon id="sophisticatedbackpacks:copper_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:iron_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:gold_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:diamond_backpack" />
-  <ItemIcon id="sophisticatedbackpacks:netherite_backpack" />
-</ItemGrid>
+合成背包后，在物品栏里打开饰品面板，把它放进背部槽位。也可以手持背包，潜行并右键实心方块将其放下，再右键打开。按 <KeyBind id="key.sophisticatedbackpacks.open_backpack" /> 打开穿着的背包。
 
-| 背包等级 | 储存格 | 升级槽 |
-| --- | --- | --- |
-| <ItemLink id="sophisticatedbackpacks:backpack" />（皮革） | 9 | 1 |
-| <ItemLink id="sophisticatedbackpacks:copper_backpack" /> | 18 | 1 |
-| <ItemLink id="sophisticatedbackpacks:iron_backpack" /> | 27 | 2 |
-| <ItemLink id="sophisticatedbackpacks:gold_backpack" /> | 36 | 2 |
-| <ItemLink id="sophisticatedbackpacks:diamond_backpack" /> | 45 | 3 |
-| <ItemLink id="sophisticatedbackpacks:netherite_backpack" /> | 54 | 3 |
+<Recipe id="sophisticatedbackpacks:backpack" />
 
-先用皮革、线和木箱制作背包，再依次升级为铜、铁、金、钻石和下界合金。铁背包必须由铜背包升级。钻石升级还需要潜影壳，下界合金升级保留锻造台、下界合金升级锻造模板和下界合金锭。准确用料请查看配方浏览器。
+| 等级 | 外观 | 存储槽 | 升级槽 |
+| --- | --- | --- | --- |
+| <ItemLink id="sophisticatedbackpacks:backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:backpack" /></ItemGrid> | 9 | 1 |
+| <ItemLink id="sophisticatedbackpacks:copper_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:copper_backpack" /></ItemGrid> | 18 | 1 |
+| <ItemLink id="sophisticatedbackpacks:iron_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:iron_backpack" /></ItemGrid> | 27 | 2 |
+| <ItemLink id="sophisticatedbackpacks:gold_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:gold_backpack" /></ItemGrid> | 36 | 2 |
+| <ItemLink id="sophisticatedbackpacks:diamond_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:diamond_backpack" /></ItemGrid> | 45 | 3 |
+| <ItemLink id="sophisticatedbackpacks:netherite_backpack" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:netherite_backpack" /></ItemGrid> | 54 | 3 |
 
-更换前必须清空旧版 Backpacks! 的所有背包。旧背包不会自动转换。
+材料等级升级会保留原背包与其中的物品，下界合金等级使用锻造升级。
 
 ***
 
-## 实用升级
+## 值得占一个槽的升级
 
-<EmiSearch query="@chipped" /> <EmiSearch query="@create" />
-
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:upgrade_base" />
-  <ItemIcon id="sophisticatedbackpacks:crafting_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:stonecutter_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:tool_swapper_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:refill_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:feeding_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:jukebox_upgrade" />
-</ItemGrid>
-
-| 升级 | 用途 |
-| --- | --- |
-| <ItemLink id="sophisticatedbackpacks:crafting_upgrade" /> | 在升级页签中合成。 |
-| <ItemLink id="sophisticatedbackpacks:stonecutter_upgrade" /> | 在升级页签中切石。 |
-| <ItemLink id="sophisticatedbackpacks:tool_swapper_upgrade" /> | 基础工具自动切换。 |
-| <ItemLink id="sophisticatedbackpacks:refill_upgrade" /> | 从背包补充选定的物品堆叠。 |
-| <ItemLink id="sophisticatedbackpacks:feeding_upgrade" /> | 使用背包中的食物自动进食。 |
-| <ItemLink id="sophisticatedbackpacks:jukebox_upgrade" /> | 基础便携唱片播放。 |
-
-升级基件需要 Create 黄铜锭。还可安装以下七种 Chipped 工作台升级。
-
-<ItemGrid>
-  <ItemIcon id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/glassblower_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/mason_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/loom_table_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" />
-  <ItemIcon id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" />
-</ItemGrid>
-
-| Chipped 工作台升级 |
-| --- |
-| <ItemLink id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/glassblower_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/mason_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/loom_table_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /> |
-| <ItemLink id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /> |
-
-仅开放以上升级，工具切换、补充、喂食和唱片播放均为基础版。不提供堆叠倍率、便携容器嵌套、自动加工、流体、能量或生物捕获功能。
+下列升级使用 <ItemLink id="sophisticatedbackpacks:upgrade_base" />。
 
 <Recipe id="sophisticatedbackpacks:upgrade_base" />
 
+合成升级在背包里提供合成界面。
+
 <Recipe id="sophisticatedbackpacks:crafting_upgrade" />
 
-Sophisticated Backpacks Create Integration 用于 Create 原生移动结构。不要据此认定 Sable 载具也兼容。
+| 升级 | 外观 | 省掉什么 |
+| --- | --- | --- |
+| <ItemLink id="sophisticatedbackpacks:crafting_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:crafting_upgrade" /></ItemGrid> | 随身带工作台 |
+| <ItemLink id="sophisticatedbackpacks:stonecutter_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:stonecutter_upgrade" /></ItemGrid> | 跑一趟切石机 |
+| <ItemLink id="sophisticatedbackpacks:tool_swapper_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:tool_swapper_upgrade" /></ItemGrid> | 打开物品栏换工具 |
+| <ItemLink id="sophisticatedbackpacks:refill_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:refill_upgrade" /></ItemGrid> | 从背包补满快捷栏的一叠物品 |
+| <ItemLink id="sophisticatedbackpacks:feeding_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:feeding_upgrade" /></ItemGrid> | 从背包取食 |
+| <ItemLink id="sophisticatedbackpacks:jukebox_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:jukebox_upgrade" /></ItemGrid> | 从背包播放唱片 |
+
+打开背包，把升级放进升级槽。升级页随后提供它的控制项，把升级取出来也不会损失升级物品。
+
+### 凿子工作台
+
+<EmiSearch query="@chipped" />
+
+凿子模组的七种升级可在背包升级页里打开对应的工作台。
+
+| 升级 | 外观 | 打开的工作台 | 工作台外观 |
+| --- | --- | --- | --- |
+| <ItemLink id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/alchemy_bench_upgrade" /></ItemGrid> | <ItemLink id="chipped:alchemy_bench" /> | <ItemGrid><ItemIcon id="chipped:alchemy_bench" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/botanist_workbench_upgrade" /></ItemGrid> | <ItemLink id="chipped:botanist_workbench" /> | <ItemGrid><ItemIcon id="chipped:botanist_workbench" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/carpenters_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:carpenters_table" /> | <ItemGrid><ItemIcon id="chipped:carpenters_table" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/glassblower_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/glassblower_upgrade" /></ItemGrid> | <ItemLink id="chipped:glassblower" /> | <ItemGrid><ItemIcon id="chipped:glassblower" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/loom_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/loom_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:loom_table" /> | <ItemGrid><ItemIcon id="chipped:loom_table" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/mason_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/mason_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:mason_table" /> | <ItemGrid><ItemIcon id="chipped:mason_table" /></ItemGrid> |
+| <ItemLink id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /> | <ItemGrid><ItemIcon id="sophisticatedbackpacks:chipped/tinkering_table_upgrade" /></ItemGrid> | <ItemLink id="chipped:tinkering_table" /> | <ItemGrid><ItemIcon id="chipped:tinkering_table" /></ItemGrid> |
+
+本整合包禁用了堆叠倍数与熔炉升级。嵌套便携容器、自动加工、流体存储与生物捕获不可用。
 
 ***
 
-## 潜影盒
+## 大搬运用的潜影盒
 
 <EmiSearch query="@reinfshulker" />
 
-<ItemGrid>
-  <ItemIcon id="minecraft:shulker_box" />
-  <ItemIcon id="reinfshulker:copper_shulker_box" />
-  <ItemIcon id="reinfshulker:iron_shulker_box" />
-  <ItemIcon id="reinfshulker:gold_shulker_box" />
-  <ItemIcon id="reinfshulker:diamond_shulker_box" />
-  <ItemIcon id="reinfshulker:netherite_shulker_box" />
-</ItemGrid>
+原版潜影盒需要两个潜影壳和一个箱子，被破坏时保留内容。强化盒子保持同样的行为，只是多了一个材料等级。
 
-| 物品与系列 | 用途 |
-| --- | --- |
-| <ItemLink id="minecraft:shulker_box" /> | 原版便携容器，破坏后保留内容。 |
-| <ItemLink id="reinfshulker:copper_shulker_box" />, <ItemLink id="reinfshulker:iron_shulker_box" /> | Reinforced Shulker Boxes 的铜与铁系列。 |
-| <ItemLink id="reinfshulker:gold_shulker_box" />, <ItemLink id="reinfshulker:diamond_shulker_box" />, <ItemLink id="reinfshulker:netherite_shulker_box" /> | 金、钻石与下界合金系列，各有染色变体。 |
+| 盒子 | 外观 | 槽位 | 材料 |
+| --- | --- | --- | --- |
+| 原版潜影盒 | <ItemGrid><ItemIcon id="minecraft:shulker_box" /></ItemGrid> | 27 | 两个壳加一个箱子 |
+| <ItemLink id="reinfshulker:copper_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:copper_shulker_box" /></ItemGrid> | 45 | 原版盒加八个铜锭 |
+| <ItemLink id="reinfshulker:iron_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:iron_shulker_box" /></ItemGrid> | 54 | 铜盒加八个铁锭 |
+| <ItemLink id="reinfshulker:gold_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:gold_shulker_box" /></ItemGrid> | 81 | 铁盒加八个金锭 |
+| <ItemLink id="reinfshulker:diamond_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:diamond_shulker_box" /></ItemGrid> | 108 | 金盒加八颗钻石 |
+| <ItemLink id="reinfshulker:netherite_shulker_box" /> | <ItemGrid><ItemIcon id="reinfshulker:netherite_shulker_box" /></ItemGrid> | 108 | 钻石盒、锭与模板 |
 
-原版、铜、铁、金、钻石和下界合金潜影盒的容量保持为 27、45、54、81、108 和 108 格。Easy Shulker Boxes 提供受支持容器的物品栏内取用。Shulker Drops Two 默认掉落两个潜影壳，但仍受掉落概率影响，除非另行修改设置。
+每个等级都能染色，这是给一整墙存储做标记的简单办法。
 
-- [大宗储存](storage.bulk.md)
+本整合包不允许把潜影盒放进背包，强化等级也一样。请将它们放在普通物品栏里携带。
+
+下一步是工厂能填满的存储。[批量存储](storage.bulk.md) 介绍仓库与筒仓。
 
 ***
 

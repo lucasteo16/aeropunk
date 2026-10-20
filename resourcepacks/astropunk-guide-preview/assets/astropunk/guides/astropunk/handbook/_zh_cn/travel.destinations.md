@@ -8,173 +8,101 @@ navigation:
 
 # 使用固定与便携传送点
 
+![YouTube](images/tutorial-video.png) [English](https://www.youtube.com/results?search_query=Minecraft+Waystones+Tempad+Stargate+Journey+Map+teleport+tutorial) · [中文](https://www.youtube.com/results?search_query=Minecraft+Waystones+Tempad+Stargate+%E4%BC%A0%E9%80%81+%E6%95%99%E7%A8%8B)
+
 ## 传送石网络
 
-<EmiSearch query="@create" /> <EmiSearch query="@waystones" />
+<EmiSearch query="@tempad" /> <EmiSearch query="@waystones" />
 
-![高处的传送石](images/visual-mountaintop-waystone.png)
+![山巅上的传送石](images/visual-mountaintop-waystone.png)
 
-高处的传送石
+山巅上的传送石
 
-<ItemGrid>
-  <ItemIcon id="waystones:blackstone_waystone" />
-  <ItemIcon id="waystones:deepslate_waystone" />
-  <ItemIcon id="waystones:end_stone_waystone" />
-  <ItemIcon id="waystones:mossy_waystone" />
-  <ItemIcon id="waystones:mud_bricks_waystone" />
-  <ItemIcon id="waystones:prismarine_waystone" />
-  <ItemIcon id="waystones:purpur_waystone" />
-  <ItemIcon id="waystones:red_nether_bricks_waystone" />
-  <ItemIcon id="waystones:sandy_waystone" />
-  <ItemIcon id="waystones:waystone" />
-</ItemGrid>
+### 传送石外形
 
-| 图示物品 |
-| --- |
-| <ItemLink id="waystones:blackstone_waystone" /> |
-| <ItemLink id="waystones:deepslate_waystone" /> |
-| <ItemLink id="waystones:end_stone_waystone" /> |
-| <ItemLink id="waystones:mossy_waystone" /> |
-| <ItemLink id="waystones:mud_bricks_waystone" /> |
-| <ItemLink id="waystones:prismarine_waystone" /> |
-| <ItemLink id="waystones:purpur_waystone" /> |
-| <ItemLink id="waystones:red_nether_bricks_waystone" /> |
-| <ItemLink id="waystones:sandy_waystone" /> |
-| <ItemLink id="waystones:waystone" /> |
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:mossy_waystone" /><ItemIcon id="waystones:deepslate_waystone" /><ItemIcon id="waystones:blackstone_waystone" /><ItemIcon id="waystones:sandy_waystone" /></ItemGrid>
 
-Waystones 提供不同材质的目的地方块。先激活传送石，再从目的地列表选择。所需经验与冷却时间显示在界面中。Create Waystones Recipes 增加机械动力制作路径。
+### 其他建筑材质
 
-***
+<EmiSearch query="@create" />
 
-## 共享与便携传送
+<ItemGrid><ItemIcon id="waystones:red_nether_bricks_waystone" /><ItemIcon id="waystones:end_stone_waystone" /><ItemIcon id="waystones:mud_bricks_waystone" /><ItemIcon id="waystones:prismarine_waystone" /><ItemIcon id="waystones:purpur_waystone" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="waystones:orange_sharestone" />
-  <ItemIcon id="waystones:white_portstone" />
-  <ItemIcon id="waystones:warp_plate" />
-  <ItemIcon id="waystones:dormant_shard" />
-  <ItemIcon id="waystones:attuned_shard" />
-  <ItemIcon id="waystones:blank_scroll" />
-  <ItemIcon id="waystones:warp_stone" />
-</ItemGrid>
+<ItemLink id="waystones:waystone" /> 只有在你使用过一次之后才成为目的地。第一次使用会激活它并加入你的列表。未激活的石头不会出现在传送界面，这也是明明看得见的基地却不在列表里的常见原因。
 
-| 图示物品 |
-| --- |
-| <ItemLink id="waystones:orange_sharestone" /> |
-| <ItemLink id="waystones:white_portstone" /> |
-| <ItemLink id="waystones:warp_plate" /> |
-| <ItemLink id="waystones:dormant_shard" /> |
-| <ItemLink id="waystones:attuned_shard" /> |
-| <ItemLink id="waystones:blank_scroll" /> |
-| <ItemLink id="waystones:warp_stone" /> |
+材质只是外观。苔石、深板岩、黑石、砂岩、下界砖或末地石传送石与普通传送石行为相同。确认之前先看界面上的经验消耗与冷却，不要一路点过去。
 
-共享石连接相同颜色的共享石。传送端石提供出发入口，但不能作为目的地。传送板使用调谐碎片：先在一块传送板中调谐休眠碎片，再带到另一块。空白卷轴需要在传送石上使用以绑定。传送石道具与卷轴提供便携入口。
+本包使用 <ItemLink id="create:mechanical_crafter" /> 动力合成 <ItemLink id="waystones:warp_stone" /> 与 <ItemLink id="waystones:waystone" />。本手册不支持显示这些动力合成配方，请在物品浏览器中查看实际配方与材料变体。
 
-***
+## 随身与共享传送
 
-## Tempad 与传送门
+### 便携传送
 
-<EmiSearch query="@tempad" />
+<ItemGrid><ItemIcon id="waystones:warp_stone" /><ItemIcon id="waystones:blank_scroll" /></ItemGrid>
 
-![Tempad 目的地设备](images/feedback-tempad.png)
+### 共享与本地端点
 
-Tempad 目的地设备
+<ItemGrid><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:white_portstone" /><ItemIcon id="waystones:warp_plate" /></ItemGrid>
 
-<ItemGrid>
-  <ItemIcon id="tempad:tempad" />
-  <ItemIcon id="tempad:location_card" />
-  <ItemIcon id="tempad:timedoor_projector" />
-  <ItemIcon id="tempad:workstation" />
-  <ItemIcon id="tempad:chronon_generator" />
-  <ItemIcon id="minecraft:obsidian" />
-</ItemGrid>
+### 传送板调谐
 
-| 图示物品 |
-| --- |
-| <ItemLink id="tempad:tempad" /> |
-| <ItemLink id="tempad:location_card" /> |
-| <ItemLink id="tempad:timedoor_projector" /> |
-| <ItemLink id="tempad:workstation" /> |
-| <ItemLink id="tempad:chronon_generator" /> |
-| <ItemLink id="minecraft:obsidian" /> |
+<ItemGrid><ItemIcon id="waystones:dormant_shard" /><ItemIcon id="waystones:attuned_shard" /></ItemGrid>
 
-Tempad 提供便携目的地界面、位置卡、时间门投影器、工作站与时素动力设备。打开 Tempad 的位置应用管理已保存地点，并查看其要求。NetherPortalFix 改善下界传送门返回匹配，不增加独立目的地物品。固定保存坐标并非移动载具追踪系统。
+| 物品 | 范围 | 用法 |
+| --- | --- | --- |
+| <ItemLink id="waystones:warp_stone" /> | 个人，通往任意已激活石头 | 使用后打开列表 |
+| <ItemLink id="waystones:blank_scroll" /> | 个人，单个目的地 | 对传送石使用以绑定 |
+| <ItemLink id="waystones:orange_sharestone" /> | 群体，同色石头之间 | 连接相同颜色 |
+| <ItemLink id="waystones:white_portstone" /> | 仅作为出发点 | 用目的地名额换取通行 |
+| <ItemLink id="waystones:warp_plate" /> | 成对传送板 | 在一块中充能碎片，带到另一块 |
 
-
-***
-
-## Tempad 设备
-
-<ItemGrid>
-  <ItemIcon id="tempad:chronometer" />
-  <ItemIcon id="tempad:chronon_cell" />
-  <ItemIcon id="tempad:chronon_battery" />
-  <ItemIcon id="tempad:location_broadcaster" />
-  <ItemIcon id="tempad:timedoor_marker" />
-  <ItemIcon id="tempad:card_wallet" />
-</ItemGrid>
-
-| 图示物品 |
-| --- |
-| <ItemLink id="tempad:chronometer" /> |
-| <ItemLink id="tempad:chronon_cell" /> |
-| <ItemLink id="tempad:chronon_battery" /> |
-| <ItemLink id="tempad:location_broadcaster" /> |
-| <ItemLink id="tempad:timedoor_marker" /> |
-| <ItemLink id="tempad:card_wallet" /> |
-
-Tempad 将时间动力设备与保存位置的管理设备分开。通过位置应用与物品浏览器查看各设备。工作站升级与创造模式设备属于独立系列，并非每个设备通用的前置要求。
-
-***
-
-## 制作
+<ItemLink id="waystones:warp_plate" /> 是其中唯一不需要两端有传送石就能在两点间移动的方式。在第一块板中为 <ItemLink id="waystones:dormant_shard" /> 充能，再对第二块使用 <ItemLink id="waystones:attuned_shard" />。用下面的配方给共享石换色，就能把它归入另一组。
 
 <Recipe id="waystones:orange_sharestone_recolor" />
 
+## Tempad
+
+![Tempad 传送设备](images/feedback-tempad.png)
+
+Tempad 传送设备
+
+### 目的地工具
+
+<ItemGrid><ItemIcon id="tempad:tempad" /><ItemIcon id="tempad:location_card" /><ItemIcon id="tempad:timedoor_projector" /><ItemIcon id="tempad:workstation" /></ItemGrid>
+
+### 时素生产与储存
+
+<ItemGrid><ItemIcon id="tempad:chronon_generator" /><ItemIcon id="tempad:chronon_cell" /></ItemGrid>
+
+### 卡片、监测与端点
+
+<ItemGrid><ItemIcon id="tempad:card_wallet" /><ItemIcon id="tempad:chronometer" /><ItemIcon id="tempad:chronon_battery" /><ItemIcon id="tempad:location_broadcaster" /><ItemIcon id="tempad:timedoor_marker" /></ItemGrid>
+
+<ItemLink id="tempad:tempad" /> 保存 <ItemLink id="tempad:location_card" /> 条目，并通过 <ItemLink id="tempad:timedoor_projector" /> 打开通往其中一处的门。它是坐标系统，不是网络。保存的位置是固定点，不会跟随移动的船，也不知道目的地是否仍然安全。
+
+能量来自时间粒子设备。<ItemLink id="tempad:chronon_generator" /> 配 <ItemLink id="tempad:chronon_cell" /> 是固定供电，<ItemLink id="tempad:workstation" /> 用来制作卡片与设备。穿门之前先在 Tempad 界面确认卡片。
+
+## 移动目的地
+
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="simulated:physics_assembler" /></ItemGrid>
+
+Waystones: Sable 让传送石能随已组装载体移动。把传送石装在船上并激活，它就会出现在 Sable 分组里。它把玩家传送到移动中的石头，而不是把船传送到别的维度。
+
+Create: AeroWarptics 在同一维度内迁移已组装的船。两者都不是跨维度搬运整艘船。跨维度请见[轨道飞行](space.vehicle-transfer.md)。
+
+## 如何选择
+
+<ItemGrid><ItemIcon id="waystones:waystone" /><ItemIcon id="waystones:orange_sharestone" /><ItemIcon id="waystones:warp_plate" /><ItemIcon id="tempad:tempad" /></ItemGrid>
+
+| 需求 | 使用 |
+| --- | --- |
+| 常回的基地网络 | 传送石 |
+| 朋友共用一处基地 | 共享石 |
+| 两端都没有传送石的两点 | 传送板 |
+| 随身携带的坐标列表 | Tempad |
+| 随船移动的目的地 | Waystones: Sable |
+
 ***
-
-## 移动传送石
-
-<ItemGrid>
-  <ItemIcon id="waystones:waystone" />
-  <ItemIcon id="waystones:warp_plate" />
-  <ItemIcon id="simulated:physics_assembler" />
-</ItemGrid>
-
-| 图示物品 |
-| --- |
-| <ItemLink id="waystones:waystone" /> |
-| <ItemLink id="waystones:warp_plate" /> |
-| <ItemLink id="simulated:physics_assembler" /> |
-
-Waystones Sable 为 Sable 移动建筑上的 Waystones 目的地提供兼容。它增加 Sable SubLevels 分组并追踪传送石位置和组装状态，不增加新传送石物品。在支持的移动建筑上放置并激活传送石，再通过 Waystones 选择目的地。
-
-***
-
-## 目的地范围
-
-移动传送石目的地不同于 Tempad 坐标或地图路标。返回前应保持目的地建筑已加载，并检查 Waystones 列表。该兼容组件不会把整台载具搬到另一维度。
-
-- [载具组装](vehicles.assembly.md)
-- [维度](world.dimensions.md)
-
-## 相关物品
-
-<ItemGrid>
-  <ItemIcon id="waystones:waystone" />
-</ItemGrid>
-
-| 图示物品 |
-| --- |
-| <ItemLink id="waystones:waystone" /> |
-
-***
-
-## 整艘飞行船传送
-
-Create: AeroWarptics（独立飞艇补丁）用于在同一维度内移动已组装的 Aeronautics 飞艇。Waystones Sable 将玩家传送到移动目的地，而非传送整艘船。太空飞行使用独立的推进与导航系统。
-
-- [轨道飞行](space.vehicle-transfer.md)
 
 
 ***

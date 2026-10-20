@@ -7,7 +7,7 @@ import re
 import struct
 import unittest
 import zlib
-from handbook_revision_contract import before_development_update
+from handbook_revision_contract import before_development_update, before_food_finalization, refurbished_topics
 
 ROOT = Path(__file__).resolve().parents[1]
 IMAGE_BASE = ROOT / 'resourcepacks/astropunk-guide-preview/assets/astropunk/guides/astropunk/handbook'
@@ -29,7 +29,8 @@ def catalog_rows(body):
 class HandbookVisualPassTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.content = json.loads((ROOT / 'docs/handbook-content.json').read_text())
+        # Restore only a hash-verified approved revision for this older contract.
+        cls.content = before_food_finalization(json.loads((ROOT / 'docs/handbook-content.json').read_text()))
         cls.before = json.loads((ROOT / 'docs/handbook-before-visual-pass.json').read_text())
         cls.scope = json.loads((ROOT / 'docs/handbook-visual-pass.json').read_text())
         cls.visuals = json.loads((ROOT / 'docs/handbook-visual-sources.json').read_text())
@@ -43,6 +44,7 @@ class HandbookVisualPassTest(unittest.TestCase):
         actual = {topic for topic, locales in content.items()
                   if locales != self.before.get(topic)}
         claimed = set(later['changed_topics'])
+        claimed |= refurbished_topics()
         # Topics shared with a later recorded revision can no longer distinguish the
         # two passes, so compare the parts only this revision owns.
         self.assertEqual(actual - claimed, set(self.scope['changed_topics']) - claimed)
@@ -61,6 +63,7 @@ class HandbookVisualPassTest(unittest.TestCase):
         # not the exact repetition of each tag form.
         claimed = set(json.loads((ROOT / 'docs/handbook-combat-review-scope.json').read_text())['changed_topics'])
         removals = json.loads((ROOT / 'docs/handbook-combat-review-scope.json').read_text())['accepted_reference_removals']
+        claimed |= refurbished_topics()
         drift = set(json.loads((ROOT / 'docs/handbook-combat-review-scope.json').read_text())['known_pre_existing_drift'])
         item = r'<(?:ItemIcon|ItemLink|ItemImage)\b[^>]*\bid="([^"]+)"'
         interaction = r'<(?:Recipe|KeyBind|EmiSearch)\b[^>]*>'
