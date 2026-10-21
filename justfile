@@ -6,30 +6,26 @@ PACK_VERSION := `python -c 'import tomllib; print(tomllib.load(open("pack.toml",
 default:
     @just --list
 
-# Native CurseForge server export.
+# On-demand native CurseForge server export, not a managed-host installation.
 export-server output=("dist/astropunk-" + PACK_VERSION + "-server.zip"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz curseforge export --side server --output {{quote(output)}}
     python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
-# Native CurseForge client pack export.
+# On-demand native CurseForge client export; not part of routine releases.
 export-curseforge output=("dist/astropunk-" + PACK_VERSION + "-curseforge.zip"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz curseforge export --side client --output {{quote(output)}}
     python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
-# Native Modrinth export with installer-managed side selection.
+# Requested edition only: native Modrinth export with installer-managed sides.
 export-modrinth output=("dist/astropunk-" + PACK_VERSION + "-modrinth.mrpack"):
     mkdir -p "$(dirname {{quote(output)}})"
     packwiz modrinth export --output {{quote(output)}}
     python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
-# Self-contained client pack, with all client artifacts bundled.
-export-standalone output=("dist/astropunk-" + PACK_VERSION + "-standalone.mrpack"):
-    python scripts/export_standalone.py {{quote(output)}}
-    python scripts/retain_releases.py --after-export {{quote(output)}} --apply
 
-# Cache-only uncompressed client folder and a new official launcher installation.
+# On-demand cache-only client folder and a new official launcher installation.
 export-instance output="" template="":
     python scripts/export_official_instance.py {{quote(output)}} --template {{quote(template)}}
 
@@ -37,7 +33,7 @@ export-instance output="" template="":
 update:
     packwiz update --all
 
-# Export and boot an isolated Docker server, reusing installed binaries by default.
+# Explicitly requested test only: export and boot an isolated Docker server.
 test *args:
     python scripts/test_server.py {{args}}
 

@@ -1,5 +1,7 @@
 # Recipe-browser hosting update
 
+This is historical evidence for the 0.17.0 update, not the current build procedure. Use [hosting.md](hosting.md) for supported commands. Hosting Light now has its own tracked branch; the indexed-snapshot build below is retired. The original client-only classification of Just Enough Breeding was superseded by the accepted shared client-and-server correction in 0.18.1.
+
 Release: 0.17.0-hosting. This is a targeted hosting update on the shared 0.16.4 baseline. Other branches remain unchanged.
 
 ## Selected additions
