@@ -1709,11 +1709,6 @@ hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
-file = "mods/cool-rain-reforged.pw.toml"
-hash = "0c4f4642cbf2d8e1d97b624c44fd87f2e6c60894598af68e8244e5e2722b47a7"
-metafile = true
-
-[[files]]
 file = "mods/copycats.pw.toml"
 hash = "4892513825f87217b6cc3f4d3ec4dcd3965b96dede8cc10d6578c4769102ae8e"
 metafile = true
@@ -1811,11 +1806,6 @@ metafile = true
 [[files]]
 file = "mods/create-electro-energetics.pw.toml"
 hash = "0852c0e009c37dfeec595cd07e4c702558b249dbb458abc204bd1e777017b34e"
-metafile = true
-
-[[files]]
-file = "mods/create-emf-compat-skyhook.pw.toml"
-hash = "e9077163c023577cb6a75c826ab59322ea254f79c14377acf65fdace67145253"
 metafile = true
 
 [[files]]
@@ -2049,11 +2039,6 @@ hash = "cbd7c866b5da890c727c3e719292b09cbf0b7b89a4bd2b56ea5d42e68d5c974a"
 metafile = true
 
 [[files]]
-file = "mods/emf-compat-core.pw.toml"
-hash = "321dba443268b96b71b77b4d0b93a20d4e92379de7ca4daf68d0dfdf2e01ec4e"
-metafile = true
-
-[[files]]
 file = "mods/emi-create-schematics.pw.toml"
 hash = "e0da63d5ba6b0649e29325584dd15046070f7b5b251f41fc7e33ce85be240f8f"
 metafile = true
@@ -2109,18 +2094,8 @@ hash = "03a2f273597c1d2bef87eaa60af9287d7d54ec68cc0a0d4b5b79e1497b16ad3e"
 metafile = true
 
 [[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "b363434af9ce56fc7243c0db537bec2f99ecbfc618e226dbeda8835f435b887c"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
-metafile = true
-
-[[files]]
-file = "mods/entitytexturefeatures.pw.toml"
-hash = "1a518584c9e3a73366f40b3c9e6fe1b25d9dd4aab9d14e82001b337033048a08"
 metafile = true
 
 [[files]]
@@ -2599,11 +2574,6 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/pf-neoforge.pw.toml"
-hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
-metafile = true
-
-[[files]]
 file = "mods/placebo.pw.toml"
 hash = "66721ef8bf191ccbc1ebe53ef163d2b233be19e3617dac277b16c765a67ba9c7"
 metafile = true
@@ -2621,11 +2591,6 @@ metafile = true
 [[files]]
 file = "mods/polytone.pw.toml"
 hash = "f54e19ec4d32f64f985900fc2da5579769937dff081167d48bec11932198b55f"
-metafile = true
-
-[[files]]
-file = "mods/presence-footsteps-x-sable.pw.toml"
-hash = "b935ef30071e33025010c390655d53c53fc7bf82fecc8ac2b3cad0b98accee0d"
 metafile = true
 
 [[files]]
@@ -2706,11 +2671,6 @@ metafile = true
 [[files]]
 file = "mods/runes.pw.toml"
 hash = "05c5359a4419b39c0e72c2693f0cda3bc5959520fe42b348d3bd701384491aef"
-metafile = true
-
-[[files]]
-file = "mods/sable-cool-rain.pw.toml"
-hash = "d83497f150d4938933f135fe1b79fd34bae71b2c4e9698c41b8177537d1cef3f"
 metafile = true
 
 [[files]]
@@ -2801,11 +2761,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-inventory-interactions.pw.toml"
 hash = "da8ce8e9040f864330912c56dad08db000f7b8c9e3900842e75d10d0a4f9f044"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "09c393b303130cefffc1c376ddfdeb869b20db31d3d42d9fa155e13cfc628645"
 metafile = true
 
 [[files]]

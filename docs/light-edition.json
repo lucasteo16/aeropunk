@@ -1,0 +1,18 @@
+{
+  "branch": "admin/hosting-light",
+  "upstream_branch": "admin/hosting",
+  "baseline_commit": "8b34e79",
+  "version_suffix": "-light",
+  "removed_metadata": [
+    "mods/sound-physics-remastered.pw.toml",
+    "mods/cool-rain-reforged.pw.toml",
+    "mods/sable-cool-rain.pw.toml",
+    "mods/pf-neoforge.pw.toml",
+    "mods/presence-footsteps-x-sable.pw.toml",
+    "mods/entity-model-features.pw.toml",
+    "mods/entitytexturefeatures.pw.toml",
+    "mods/create-emf-compat-skyhook.pw.toml",
+    "mods/emf-compat-core.pw.toml"
+  ],
+  "maintenance": "Merge accepted hosting updates downstream, update baseline_commit, and preserve exactly these nine exclusions. Keep every remaining selection and game override identical to hosting, including the saved server listing. Export through the ordinary native command. Never merge Light removals upstream."
+}
