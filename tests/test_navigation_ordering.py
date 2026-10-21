@@ -112,7 +112,7 @@ class SemanticOrdering(unittest.TestCase):
         pack = tomllib.loads((ROOT / 'pack.toml').read_text())
         heavy_metadata = set()
         self.assertEqual(pack['name'], 'Astropunk')
-        if pack['version'].endswith('-h'):
+        if pack['version'].endswith(('-h', '-heavy')):
             original_heavy = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
                 '3366e71', 'mods', 'resourcepacks', 'shaderpacks'], cwd=ROOT, text=True).splitlines()
             original_shared = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only',
