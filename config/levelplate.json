@@ -12,7 +12,7 @@
   "showLevelplateIfObstructed": false,
   "useScalingDifficultyLvl": true,
   "levelTitle": false,
-  "healthBar": false,
+  "healthBar": true,
   "debugMode": false,
   "excludedEntities": [
     "block_factorys_bosses:cinematic_kraken",
@@ -30,11 +30,8 @@
     "cataclysm:scylla",
     "cataclysm:the_harbinger",
     "cataclysm:the_leviathan",
-    "friendsandfoes:wildfire",
     "illagerinvasion:invoker",
-    "minecraft:elder_guardian",
     "minecraft:ender_dragon",
-    "minecraft:warden",
     "minecraft:wither"
   ]
 }

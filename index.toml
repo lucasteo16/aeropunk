@@ -658,7 +658,7 @@ hash = "6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e"
 
 [[files]]
 file = "config/levelplate.json"
-hash = "3c8d555bc253faf0eda5a2e7325ab8aadc790612fbe298183e4d743b474d8784"
+hash = "dbe2bc88601e13128bb71c4a924e87610b8e55707258e1b3e34be15572baeb44"
 
 [[files]]
 file = "config/lighty/base.config"
