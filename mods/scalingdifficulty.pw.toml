@@ -1,0 +1,13 @@
+name = "Scaling Difficulty"
+filename = "scalingdifficulty-1.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Aht35CBK/versions/tgftzsM0/scalingdifficulty-1.1.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "5e7a5e345711c664c37e67ccfbb2cef5662a228e78fc60d157db31087d57f60a1750963535327fc2038bfcb514a803f3ba0469e553c0cf0032c4afcb943488d6"
+
+[update]
+[update.modrinth]
+mod-id = "Aht35CBK"
+version = "tgftzsM0"
