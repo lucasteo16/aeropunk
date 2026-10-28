@@ -1,10 +1,10 @@
 {
-  "levelMultiplier": 10,
+  "levelMultiplier": 20,
   "nameColor": "#FFFFFFFF",
   "backgroundColor": "#F52891",
   "backgroundOpacity": 0.0,
   "levelplateHeight": 0.5,
-  "levelplateSize": -0.025,
+  "levelplateSize": -0.0125,
   "showHealth": false,
   "showLevel": true,
   "renderDistance": 30.0,
@@ -12,7 +12,7 @@
   "showLevelplateIfObstructed": false,
   "useScalingDifficultyLvl": true,
   "levelTitle": false,
-  "healthBar": true,
+  "healthBar": false,
   "debugMode": false,
   "excludedEntities": [
     "block_factorys_bosses:cinematic_kraken",
