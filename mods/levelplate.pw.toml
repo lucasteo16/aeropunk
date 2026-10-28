@@ -1,0 +1,13 @@
+name = "Levelplate"
+filename = "levelplate-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Xqzi8ofn/versions/AHzyYDn0/levelplate-1.0.0.jar"
+hash-format = "sha512"
+hash = "7149193359bcd1237a5353b7866b6b5ca5e29e23f61a987c4703dd04a6194149931597f248b517f103d559538f12ce0a77233fa0e188854b04f3a4aa8ee4c885"
+
+[update]
+[update.modrinth]
+mod-id = "Xqzi8ofn"
+version = "AHzyYDn0"
