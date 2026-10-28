@@ -1,0 +1,195 @@
+{
+  "vanilla_friendly": [
+    "minecraft:allay",
+    "minecraft:armadillo",
+    "minecraft:axolotl",
+    "minecraft:bat",
+    "minecraft:bee",
+    "minecraft:camel",
+    "minecraft:cat",
+    "minecraft:chicken",
+    "minecraft:cod",
+    "minecraft:cow",
+    "minecraft:dolphin",
+    "minecraft:donkey",
+    "minecraft:fox",
+    "minecraft:frog",
+    "minecraft:glow_squid",
+    "minecraft:goat",
+    "minecraft:horse",
+    "minecraft:iron_golem",
+    "minecraft:llama",
+    "minecraft:mooshroom",
+    "minecraft:mule",
+    "minecraft:ocelot",
+    "minecraft:panda",
+    "minecraft:parrot",
+    "minecraft:pig",
+    "minecraft:polar_bear",
+    "minecraft:pufferfish",
+    "minecraft:rabbit",
+    "minecraft:salmon",
+    "minecraft:sheep",
+    "minecraft:skeleton_horse",
+    "minecraft:sniffer",
+    "minecraft:snow_golem",
+    "minecraft:squid",
+    "minecraft:strider",
+    "minecraft:tadpole",
+    "minecraft:trader_llama",
+    "minecraft:tropical_fish",
+    "minecraft:turtle",
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "minecraft:wolf",
+    "minecraft:zombie_horse"
+  ],
+  "mod_friendly_and_summons": {
+    "friendsandfoes": [
+      "friendsandfoes:copper_golem",
+      "friendsandfoes:crab",
+      "friendsandfoes:glare",
+      "friendsandfoes:mauler",
+      "friendsandfoes:moobloom",
+      "friendsandfoes:penguin",
+      "friendsandfoes:rascal",
+      "friendsandfoes:tuff_golem",
+      "friendsandfoes:player_illusion"
+    ],
+    "spawn": [
+      "spawn:angler_fish",
+      "spawn:tuna",
+      "spawn:seahorse",
+      "spawn:snail",
+      "spawn:hamster",
+      "spawn:ant",
+      "spawn:herring",
+      "spawn:sunfish",
+      "spawn:sea_cow",
+      "spawn:flukeshroom",
+      "spawn:octopus",
+      "spawn:clam",
+      "spawn:stickbug",
+      "spawn:barracuda",
+      "spawn:coastal_crab",
+      "spawn:dodo",
+      "spawn:iguana",
+      "spawn:marine_iguana",
+      "spawn:stranded",
+      "spawn:seal",
+      "spawn:booby",
+      "spawn:pilot_fish",
+      "spawn:blenny",
+      "spawn:bluefish"
+    ],
+    "cataclysm": [
+      "cataclysm:netherite_ministrosity",
+      "cataclysm:the_baby_leviathan",
+      "cataclysm:modern_remnant"
+    ],
+    "archers": [
+      "archers:spirit_wolf"
+    ],
+    "wizards": [
+      "wizards:frost_elemental",
+      "wizards:arcane_emitter",
+      "wizards:fire_hydra"
+    ],
+    "archers_expansion": [
+      "archers_expansion:alter_ego",
+      "archers_expansion:spell_polar_bear",
+      "archers_expansion:explosive_barrel",
+      "archers_expansion:frozen_fusillade",
+      "archers_expansion:poison_flask"
+    ],
+    "elemental_wizards_rpg": [
+      "elemental_wizards_rpg:earth_golem",
+      "elemental_wizards_rpg:terra_stone",
+      "elemental_wizards_rpg:earth_golem_spike",
+      "elemental_wizards_rpg:earthquake",
+      "elemental_wizards_rpg:whirlwind",
+      "elemental_wizards_rpg:tidal_wave",
+      "elemental_wizards_rpg:healing_rain_cloud"
+    ]
+  },
+  "boss_and_encounter_exclusions": [
+    "block_factorys_bosses:cinematic_kraken",
+    "block_factorys_bosses:infernal_dragon",
+    "block_factorys_bosses:kraken",
+    "block_factorys_bosses:kraken_tentacle",
+    "block_factorys_bosses:sandworm",
+    "block_factorys_bosses:underworld_knight",
+    "block_factorys_bosses:yeti",
+    "cataclysm:ancient_remnant",
+    "cataclysm:ender_guardian",
+    "cataclysm:ignis",
+    "cataclysm:maledictus",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:scylla",
+    "cataclysm:the_harbinger",
+    "cataclysm:the_leviathan",
+    "friendsandfoes:wildfire",
+    "illagerinvasion:invoker",
+    "minecraft:elder_guardian",
+    "minecraft:ender_dragon",
+    "minecraft:warden",
+    "minecraft:wither"
+  ],
+  "scalingdifficulty_count": 51,
+  "levelplate_count": 16,
+  "excluded_entity_count": 117,
+  "levelplate_excluded_count": 21,
+  "provenance": {
+    "vanilla_registry": "https://raw.githubusercontent.com/misode/mcmeta/1.21.1-summary/registries/data.json",
+    "mod_artifacts": [
+      {
+        "mod": "friends-and-foes-forge",
+        "pack_metadata": "mods/friends-and-foes-forge.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "bossesrise",
+        "pack_metadata": "mods/bossesrise.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "l_enders-cataclysm",
+        "pack_metadata": "mods/l_enders-cataclysm.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "spawn-mod",
+        "pack_metadata": "mods/spawn-mod.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "illager-invasion",
+        "pack_metadata": "mods/illager-invasion.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "archers-expansion",
+        "pack_metadata": "mods/archers-expansion.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "archers",
+        "pack_metadata": "mods/archers.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "elemental-wizards-rpg",
+        "pack_metadata": "mods/elemental-wizards-rpg.pw.toml",
+        "hash_verified": true
+      },
+      {
+        "mod": "wizards",
+        "pack_metadata": "mods/wizards.pw.toml",
+        "hash_verified": true
+      }
+    ],
+    "modded_boss_tags": "Selected Bosses Rise and Cataclysm archives contribute 13 major bosses to c:bosses; explicit exclusions reinforce those entries. Invoker is verified by its registered identifier and ServerBossEvent reference. Wildfire and Kraken encounter parts are explicit protective additions.",
+    "original_preserved_exclusion": "the_bumblezone:cosmic_crystal_entity",
+    "boundary": "Static archive and registry inspection, not a live registry dump or proof that every future modded creature is classified. Exclusion strings do not accept tags or automatically cover future additions."
+  }
+}

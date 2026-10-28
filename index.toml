@@ -657,6 +657,10 @@ file = "config/letmedespawn.json"
 hash = "6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e"
 
 [[files]]
+file = "config/levelplate.json"
+hash = "3c8d555bc253faf0eda5a2e7325ab8aadc790612fbe298183e4d743b474d8784"
+
+[[files]]
 file = "config/lighty/base.config"
 hash = "ae6341e824eb979067b600a6cb1d934f719a70271f05261af45452fb4e5b5a24"
 
@@ -1115,6 +1119,10 @@ hash = "289de093c4ee0036000903f332b45ff8c2ed4fd15325c3030a6a0d1448893c92"
 [[files]]
 file = "config/sable_beyond/other.json"
 hash = "95b9125baae3805e22c852b1105e965980c3c9d2bdb7bdbe2ca8c77444c403d6"
+
+[[files]]
+file = "config/scalingdifficulty.json"
+hash = "19e01ba16dd09b00b00463f207125e96c9feb49100bad8c978574be72ec33334"
 
 [[files]]
 file = "config/simulated-client.toml"
@@ -1981,11 +1989,6 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/dangerous.pw.toml"
-hash = "fcaee3a38421679bf274459dca35aa9d4cefe9c329a39375226f910d1cc9de35"
-metafile = true
-
-[[files]]
 file = "mods/decorative-food.pw.toml"
 hash = "3113965f8e52c2dadafe1c33dce278c2c010f83adbc5cffc66236b0186601d7b"
 metafile = true
@@ -2351,6 +2354,11 @@ hash = "583a335211bc3a21bb379394344b67d64bffea421e7f7942c254903e1d607814"
 metafile = true
 
 [[files]]
+file = "mods/levelplate.pw.toml"
+hash = "dd5dc072dda827163f16022a23867c7567ab7a4bf7886ad42bbd4f6d7134ebb8"
+metafile = true
+
+[[files]]
 file = "mods/lighty.pw.toml"
 hash = "5ce96ac040fca257f41959be41ad80ba790102dc91cccd8c09e81eed19fa6478"
 metafile = true
@@ -2673,6 +2681,11 @@ metafile = true
 [[files]]
 file = "mods/sablecompat.pw.toml"
 hash = "b9ceb0fa4707ced2e0467f334ce8b6cb2fd60c729b47aee065e2bb0d5b905189"
+metafile = true
+
+[[files]]
+file = "mods/scalingdifficulty.pw.toml"
+hash = "7f626292274c17018c8d515757efa41ffea8d1e7d3a1d87c3a8a5789bd118174"
 metafile = true
 
 [[files]]
