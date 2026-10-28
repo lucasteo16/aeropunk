@@ -138,7 +138,27 @@
   "scalingdifficulty_count": 51,
   "levelplate_count": 16,
   "excluded_entity_count": 117,
-  "levelplate_excluded_count": 21,
+  "levelplate_excluded_count": 18,
+  "levelplate_excluded_entities": [
+    "block_factorys_bosses:cinematic_kraken",
+    "block_factorys_bosses:infernal_dragon",
+    "block_factorys_bosses:kraken",
+    "block_factorys_bosses:kraken_tentacle",
+    "block_factorys_bosses:sandworm",
+    "block_factorys_bosses:underworld_knight",
+    "block_factorys_bosses:yeti",
+    "cataclysm:ancient_remnant",
+    "cataclysm:ender_guardian",
+    "cataclysm:ignis",
+    "cataclysm:maledictus",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:scylla",
+    "cataclysm:the_harbinger",
+    "cataclysm:the_leviathan",
+    "illagerinvasion:invoker",
+    "minecraft:ender_dragon",
+    "minecraft:wither"
+  ],
   "provenance": {
     "vanilla_registry": "https://raw.githubusercontent.com/misode/mcmeta/1.21.1-summary/registries/data.json",
     "mod_artifacts": [
