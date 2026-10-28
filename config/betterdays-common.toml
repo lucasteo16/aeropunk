@@ -4,7 +4,7 @@
 	#MINUTES: Uses daySpeedMinutes and nightSpeedMinutes settings.
 	#REALTIME: Sets day and night to 12 real-world hours each.
 	#Allowed Values: RATIO, MINUTES, REALTIME
-	speedMethod = "RATIO"
+	speedMethod = "MINUTES"
 	#The speed at which time passes during the day.
 	#Day is defined as any time between dayStart (see below) and nightStart (see below) the next day.
 	#This is the RATIO of time passing relative to vanilla.
@@ -22,13 +22,13 @@
 	#This setting defines the length of the day in real-world minutes.
 	#Vanilla length: 10.0 minutes
 	#Range: 0.1 ~ 10000.0
-	daySpeedMinutes = 10.0
+	daySpeedMinutes = 25.0
 	#An alternative way to set night speed. This setting is mutually exclusive with nightSpeed.
 	#If both are set, speedMethod (see above) determines which setting is used.
 	#This setting defines the length of the night in real-world minutes.
 	#Vanilla length: 10.0 minutes
 	#Range: 0.1 ~ 10000.0
-	nightSpeedMinutes = 10.0
+	nightSpeedMinutes = 15.0
 	#The time to start day. This is configurable within the time the sun appears and day starts.
 	#Default: 23500
 	#Range: 22300.0 ~ 24000.0
