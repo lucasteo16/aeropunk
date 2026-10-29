@@ -1,6 +1,6 @@
 #Adds badge to mod in this format "modid=badge1, badge2"
 mod_badges = []
-#Make mods apear under another mod in this format "parenModId=childId1, childId2"
+#Make mods apear under another mod in this format "parenModId=childId1, childId2", add ! at the beginning of parentId to prevent creating a fake parent
 mod_parents = []
 
 [main]
@@ -34,6 +34,18 @@ mod_parents = []
 	disable_drag_and_drop = false
 	#Will use catalogue's icon if present
 	use_catalogue_icon = true
+	#Allows to edit mod badges and parents ingame by dragging or button
+	editor_mode = false
+	#Will use the square icon on the right instead of banner
+	always_use_square_icon = false
+	#If above 0 and fake parent mod doesn't have an icon it will cycle through icons of it's children
+	# Default: 20
+	# Range: 0 ~ 200
+	dummy_animation_interval = 20
+	#how fast next icon fades in
+	# Default: 5
+	# Range: 0 ~ 200
+	dummy_animation_fade = 5
 
 [hide]
 	#Shows mods with library badge
@@ -50,8 +62,6 @@ mod_parents = []
 	hide_mod_credits = false
 	#Hides mod's config button
 	hide_config_buttons = false
-	#hides button which allows changing mod's badge
-	hide_badge_buttons = true
 	#Hides search bar and drag and drop text, also moves mod's icon up
 	hide_screen_top = false
 	#Add modid of the mod to hide it from the modlist
