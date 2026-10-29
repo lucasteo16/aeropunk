@@ -9,7 +9,7 @@ A Minecraft sandbox built around Create industry, flying ships and exploration, 
 - Open the Astropunk handbook with the comma key or the Guide button. It covers the pack's activities, equipment and recipes in English and Simplified Chinese.
 - Shaders and Distant Horizons rendering start disabled. The bundled shaders include low-quality defaults; existing player settings are preserved.
 
-Minecraft 1.21.1 and NeoForge 21.1.259 are the current baseline. The exact edition version and loader requirements are recorded in [pack.toml](pack.toml).
+Release 0.20.0 uses Minecraft 1.21.1 and NeoForge 21.1.265. The exact edition version and loader requirements are recorded in [pack.toml](pack.toml). See the [release notes and compatibility holds](docs/update-0.20.0.md).
 
 ## Editions and branches
 
@@ -47,7 +47,7 @@ Use ordinary manifest-based Modrinth packs rather than bundled self-contained cl
 
 Packwiz normally shares its user cache across worktrees. No repository recipe selects an edition-specific packwiz cache. Worktrees preserve committed edition differences without requiring separate downloaded-mod copies for each export.
 
-Use `just --list` for other maintenance commands. Update shared mod selections on `dev`, not directly on stable editions.
+Use `just --list` for other maintenance commands. Update shared mod selections on `dev`, then synchronize accepted releases through the existing edition branches. Creating any new branch requires Lucas's explicit advance permission. Generate hosting and Hosting Light clients from their existing branches with the commands above.
 
 ## Documentation
 
