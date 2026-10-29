@@ -24,6 +24,12 @@ EMI Recipe Sharing 1.0.4, WorldGen 1.4.5, Moderately Enough Effect Descriptions 
 
 ## Validation and deployment boundary
 
-Lucas confirmed startup, world entry, backpack use and aqua-wand damage in the Beautify-pinned shared trial. He reports uploading the prepared matching server folders. These reports are not a dedicated-server startup result or a multiplayer connection test of the final client.
+The release includes the narrow `config/fml.toml` dependency exception for Scaling Difficulty 1.1.0 and Levelplate 1.0.0. The published Levelplate download version includes the Minecraft suffix, but its internal version does not; Scaling Difficulty incorrectly uses the suffixed value as its server-only minimum. The exception removes only that dependency constraint and leaves both original mod artifacts unchanged. A disposable dedicated server started, responded to a console command and shut down normally. Lucas also confirmed hosted-server startup and joining after applying the exception.
 
-Source promotion and archive verification do not prove existing-world migration, every recipe, optional rendering or runtime compatibility. The final hosting clients require Lucas's connection test. Preserve existing installations, worlds, server credentials and previous deliveries. No live server or installed client is modified by source synchronization.
+Levelplate size is now `-0.015`, with the remaining display and difficulty settings unchanged. The release stays at 0.20.0 for this update session.
+
+Existing-world testing revealed a Create Encased tank-data migration failure: the older shared `createcasing:fluid_tank` block-entity identifier is replaced by per-variant identifiers. Lucas reported lost stored experience and restored tank operation by replacing the affected tank. Other older tanks need a migration check before assuming their contents survive. This is separate from the dependency exception.
+
+The old generated More RPG Library configuration contained malformed earth-weakness and water-resistance tag references. Lucas regenerated its configuration folder and reported that things worked afterward. This generated folder is not bundled in the pack. More RPG Classes Skill Tree 1.3.1 does not recommend configuration regeneration; its renamed Berserker spell identifiers still matter for custom data packs.
+
+The supplied hosted-server log also reports Streams Reflowing generation stalls, which remain unresolved. Successful startup and joining do not establish every recipe, optional rendering path or existing-world migration. Preserve existing installations, worlds, server credentials and previous deliveries. No live server or installed client is modified by source synchronization.
