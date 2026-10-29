@@ -1,7 +1,7 @@
 {
   "branch": "admin/hosting-light",
   "upstream_branch": "admin/hosting",
-  "baseline_commit": "a8064bd",
+  "baseline_commit": "835c36d",
   "version_suffix": "-light",
   "removed_metadata": [
     "mods/sound-physics-remastered.pw.toml",
