@@ -1,13 +1,13 @@
 name = "Astropunk"
 author = "Lucas"
-version = "0.19.0-worldgen"
+version = "0.20.0-worldgen"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "58a7e4f4cd7376ca3c6784607cb9940c326457fb2daf57fd503ad79c89e86d59"
+hash = "4275705e3f1ae17dd3079eacf0d34fabb8acbef404809f575ad65dec9974b890"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.259"
+neoforge = "21.1.265"

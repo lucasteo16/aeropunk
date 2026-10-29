@@ -1,6 +1,7 @@
 name = "GuideME"
 filename = "guideme-21.1.19.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/Ck4E7v7R/versions/hFpGwC6q/guideme-21.1.19.jar"
