@@ -589,6 +589,10 @@ file = "config/flywheel-client.toml"
 hash = "398730a2a216dfdae9aa7e2a8f54040f85e2a7f8faaedf9db09c28914555df5a"
 
 [[files]]
+file = "config/fml.toml"
+hash = "a372ff47f5d734f2db9222db60a34be2096c9caf6c66ecc759fa9750bb9b390f"
+
+[[files]]
 file = "config/freecam.json5"
 hash = "1b9789458ad66c7a7cd59a11e9edb8c30be36a5b457a3f49479bcf6ea04eb1ad"
 
@@ -654,7 +658,7 @@ hash = "1334df0a2e9c4e4d0938b3eb19c1a0fa2d29d8090838797259de0865d3bbec88"
 
 [[files]]
 file = "config/levelplate.json"
-hash = "dbe2bc88601e13128bb71c4a924e87610b8e55707258e1b3e34be15572baeb44"
+hash = "abfacbd08dadf20b63f8581f189e37a7777c2500e87b69c760dcff9d33ca5db8"
 
 [[files]]
 file = "config/lighty/base.config"

@@ -79,7 +79,7 @@ For a base-20-health zombie, ordinary and large health are respectively about 20
 | `backgroundColor` | `#F52891` | Stored background color, invisible at zero opacity. |
 | `backgroundOpacity` | `0.0` | Transparent background. |
 | `levelplateHeight` | `0.5` | Nameplate offset above the creature. |
-| `levelplateSize` | `-0.0125` | Smaller labels; rendered scale uses the absolute magnitude of this value. |
+| `levelplateSize` | `-0.015` | User-selected label size; rendered scale uses the absolute magnitude of this value. |
 | `showHealth` | Disabled | Do not add numeric current and maximum health text; the bar provides that feedback. |
 | `showLevel` | Enabled | Enable the overhead plate. This implementation hides the whole plate when disabled. |
 | `renderDistance` | `30.0` | Maximum overhead nameplate distance in blocks. |

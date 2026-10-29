@@ -4,7 +4,7 @@
   "backgroundColor": "#F52891",
   "backgroundOpacity": 0.0,
   "levelplateHeight": 0.5,
-  "levelplateSize": -0.0125,
+  "levelplateSize": -0.015,
   "showHealth": false,
   "showLevel": true,
   "renderDistance": 30.0,
