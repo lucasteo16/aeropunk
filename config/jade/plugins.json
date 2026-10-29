@@ -52,8 +52,13 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "metronome": true,
+    "anchor": true,
+    "workstation": true,
+    "timedoor": true
   },
   "jadeaddons.create": {
     "filter": true,
@@ -72,9 +77,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -90,6 +92,31 @@
     "lamp_jar.glowstone_dust": true,
     "trellis.pot_plant": true,
     "hanging_pot.pot_flower": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "levelplate": {
+    "mob_level_info": true
+  },
+  "dfood": {
+    "food_block": true,
+    "complex_food_block": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "spawn": {
+    "stickbug_as_item": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "corpse": {
     "corpse": true

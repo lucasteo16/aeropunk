@@ -3,6 +3,7 @@
 .gitignore
 .packwizignore
 README.md
+AGENTS.md
 IDEA.md
 docs/
 scripts/
