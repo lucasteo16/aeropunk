@@ -1,8 +1,15 @@
-		[types.wood_type.minecraft]
-			pale_oak = true
+		[types.wood_type.cataclysm]
+			chorus = true
 
-		[types.leaves_type.minecraft]
-			pale_oak = true
+		[types.wood_type.hybrid_aquatic]
+			driftwood = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.spawn]
+			rotten = true
+			date = true
 
 		[types.leaves_type.chipped]
 			apple_acacia = true
@@ -72,8 +79,10 @@
 			red_spruce = true
 			white_flower_spruce = true
 
+		[types.leaves_type.spawn]
+			date = true
+
 		[types.stone_type.create]
-			#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 			limestone = true
 			asurine = true
 			crimsite = true
@@ -84,6 +93,40 @@
 
 		[types.stone_type.dndecor]
 			cut_stone = true
+
+		[types.stone_type.hybrid_aquatic]
+			schist = true
+			chimneystone = true
+
+		[types.stone_type.tfmg]
+			slag = true
+
+		[types.lantern.chipped]
+			blue_paper_lantern = true
+			burning_coal_lantern = true
+			checkered_iron_lantern = true
+			dark_blue_paper_lantern = true
+			ender_lantern = true
+			green_paper_lantern = true
+			iron_bowl_lantern = true
+			purple_paper_lantern = true
+			red_paper_lantern = true
+			small_green_lantern = true
+			white_paper_lantern = true
+			wooden_cage_lantern = true
+			wrought_iron_lantern = true
+			yellow_tube_lantern = true
+			blue_paper_soul_lantern = true
+			blue_tube_soul_lantern = true
+			checkered_iron_soul_lantern = true
+			golden_paper_soul_lantern = true
+			gray_paper_soul_lantern = true
+			iron_bowl_soul_lantern = true
+			lime_paper_soul_lantern = true
+			orange_paper_soul_lantern = true
+			small_red_soul_lantern = true
+			wooden_cage_soul_lantern = true
+			yellow_paper_soul_lantern = true
 
 		[entries.wood_type.chipped]
 			fine_planks = true
@@ -297,6 +340,7 @@
 			blinds = true
 			window = true
 			shutter = true
+			curtain_rod = true
 
 		[entries.wood_type.mcwfences]
 			picket_fence = true
@@ -331,13 +375,13 @@
 			platform = true
 			bulk_stairs = true
 
-		[entries.wood_type.copperagebackport]
-			shelf = true
-
 		[entries.wood_type.beautify]
 			picture_frame = true
 			blinds = true
 			trellis = true
+
+		[entries.wood_type.friendsandfoes]
+			beehive = true
 
 		[entries.leaves_type.chipped]
 			frosted_leaves = true
@@ -356,7 +400,6 @@
 			hedge = true
 
 		[entries.stone_type.handcrafted]
-			#Disables specific entries
 			corner_trim = true
 			pillar_trim = true
 
@@ -464,6 +507,18 @@
 			polished_cut = true
 			small_brick_slab = true
 			polished_cut_stairs = true
+			belt_funnel = true
+			encased_cogwheel = true
+			funnel = true
+			casing = true
+			table_cloth = true
+			scaffolding = true
+			alloy = true
+			encased_large_cogwheel = true
+			ladder = true
+			encased_shaft = true
+			door = true
+			bars = true
 
 		[entries.stone_type.mcwstairs]
 			mossy_brick_railing = true
@@ -511,3 +566,12 @@
 			brick_arrow_slit = true
 			four_window = true
 			window = true
+
+		[entries.stone_type.bits_n_bobs]
+			tile_stairs = true
+			tile_slab = true
+			tile_wall = true
+			tiles = true
+
+		[entries.stone_type.waystones]
+			waystone = true
