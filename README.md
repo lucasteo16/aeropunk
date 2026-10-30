@@ -9,7 +9,7 @@ A Minecraft sandbox built around Create industry, flying ships and exploration, 
 - Open the Astropunk handbook with the comma key or the Guide button. It covers the pack's activities, equipment and recipes in English and Simplified Chinese.
 - Shaders and Distant Horizons rendering start disabled. The bundled shaders include low-quality defaults; existing player settings are preserved.
 
-Release 0.21.0 uses Minecraft 1.21.1 and NeoForge 21.1.265. The exact edition version and loader requirements are recorded in [pack.toml](pack.toml). See the [current release notes](docs/update-0.21.0.md) and [retained compatibility holds](docs/update-0.20.0.md).
+Release 0.20.1 uses Minecraft 1.21.1 and NeoForge 21.1.265. The exact edition version and loader requirements are recorded in [pack.toml](pack.toml). See the [current release notes](docs/update-0.20.1.md) and [retained compatibility holds](docs/update-0.20.0.md).
 
 ## Editions and branches
 
