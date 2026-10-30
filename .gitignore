@@ -1,6 +1,7 @@
 # Track pack.toml, index.toml, *.pw.toml, and shared configurations.
 # Keep downloaded binaries and generated distributions out of Git.
 *.jar
+!/mods/create_submarine-3.4.6-astropunk.1.jar
 /*.mrpack
 /*.zip
 /dist/
