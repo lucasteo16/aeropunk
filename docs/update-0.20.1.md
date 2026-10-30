@@ -1,4 +1,4 @@
-# Astropunk 0.21.0
+# Astropunk 0.20.1
 
 Minecraft 1.21.1 and NeoForge 21.1.265 are unchanged. All seven supported editions retain the display name Astropunk and their established version suffixes.
 
